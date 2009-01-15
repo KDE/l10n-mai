@@ -1,0 +1,279 @@
+# translation of drkonqi.po to maithili
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: drkonqi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-10-23 09:37+0200\n"
+"PO-Revision-Date: 2008-12-27 12:53+0530\n"
+"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"Language-Team: maithili <maithili.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+
+#: backtrace.cpp:85
+#, kde-format
+msgid "Could not generate a backtrace as the debugger '%1' was not found."
+msgstr "बैकट्रेस तैआर नहि कए पएलक किएक' डिबगर '%1'  नहि भेटल."
+
+#: debugger.cpp:71
+msgid "C&opy"
+msgstr "नकल (&o)"
+
+#: debugger.cpp:83
+#, c-format
+msgid "Application: %progname (%execname), signal %signame"
+msgstr "अनुप्रयोग: %progname (%execname), सिगनल %signame"
+
+#: debugger.cpp:96
+msgctxt "debugging finished"
+msgid "Backtrace loaded."
+msgstr "बैकट्रेस लोड भए गेल."
+
+#: debugger.cpp:121
+#, kde-format
+msgid "Backtrace saved to <filename>%1</filename>."
+msgstr "बैकट्रेस <filename>%1</filename> पर सहेजल गेल."
+
+#: debugger.cpp:125
+msgid "Cannot create a file to save the backtrace in"
+msgstr "एकरामे बैकट्रैस केँ सहेजबा क' लेल फाइल नहि बनाए सकल"
+
+#: debugger.cpp:133
+msgid "Select Filename"
+msgstr "फाइल नाम चुनू"
+
+#: debugger.cpp:141
+#, kde-format
+msgid ""
+"A file named <filename>%1</filename> already exists. Are you sure you want "
+"to overwrite it?"
+msgstr ""
+"फाइल नाम <filename>%1</filename> पहिने सँ अस्तित्व मे अछि. की अहाँ एकरे उप्पर "
+"मेटा कए लिखब चाहब?"
+
+#: debugger.cpp:143
+msgid "Overwrite File?"
+msgstr "फाइल केर उप्पर लिखू?"
+
+#: debugger.cpp:144
+msgid "&Overwrite"
+msgstr "मेटाकए लिखू (&O)"
+
+#: debugger.cpp:156
+#, kde-format
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "फाइल <filename>%1</filename> केँ लिखबाक लेल खोलल नहि जाए सकल."
+
+#: debugger.cpp:164 debugger.cpp:169
+msgid "Unable to create a valid backtrace."
+msgstr "एकटा वैध बैकट्रेस बनाबै मे अक्षम."
+
+#: debugger.cpp:165 debugger.cpp:170
+msgid ""
+"This backtrace appears to be of no use.\n"
+"This is probably because your packages are built in a way which prevents "
+"creation of proper backtraces, or the stack frame was seriously corrupted in "
+"the crash.\n"
+"\n"
+msgstr ""
+"प्रतीत हाएत अछि जे ई बैकट्रेस कोनो काम कए नहि अछि.\n"
+"एहिना साइत एहि लेल अछि जे अथवा तँ अहाँक पैकेज एहि तरह सँ बनल अछि जे उचित बैकट्रेसेस क' बनबासँ "
+"रोकैत अछि अथवा फिनु क्रैश मे फ्रेम गंभीर रूपेँ खराब भए गेल अछि.\n"
+"\n"
+
+#: debugger.cpp:179
+msgid "Loading backtrace..."
+msgstr "बैकट्रेस लोड कएल जाए रहल अछि..."
+
+#: debugger.cpp:202
+msgid ""
+"The following options are enabled:\n"
+"\n"
+msgstr ""
+"निम्न विकल्प सक्षम अछि:\n"
+"\n"
+
+#: debugger.cpp:204
+msgid ""
+"\n"
+"As the usage of these options is not recommended - because they can, in rare "
+"cases, be responsible for KDE problems - a backtrace will not be generated.\n"
+"You need to turn these options off and reproduce the problem again in order "
+"to get a backtrace.\n"
+msgstr ""
+"\n"
+"जहिना जे ई विकल्पसभ क' उपयोग अनुशंसित नहि अछि - किएक' ओ कहियो केडीई समस्यासभ क' लेल "
+"उत्तरदायी होइछ - बैकट्रेस नहि बनत.\n"
+"बैकट्रेस पाबै क' लेल अहाँक ई विकल्पसभ केँ बन्न कएनाइ पड़त आओर ओ समस्या केँ फिनु उत्पन्न "
+"करै पड़त.\n"
+
+#: debugger.cpp:209
+msgid "Backtrace will not be created."
+msgstr "बैकट्रेस तैआर नहि कएल जाए सकल."
+
+#: debugger.cpp:220
+msgid "Loading symbols..."
+msgstr "संकेत लोड कएल जाए रहल अछि..."
+
+#: debugger.cpp:239
+msgid "System configuration startup check disabled.\n"
+msgstr "तंत्र बिन्यासक जाँच अक्षम अछि.\n"
+
+#: drbugreport.cpp:53
+msgid "You have to edit the description before the report can be sent."
+msgstr "बग रिपोर्ट भेजल जाए सकए एकरा लेल अहाँक पहिने वर्णन संपादित कएनाइ हाएत."
+
+#: krashconf.cpp:78
+msgctxt "unknown application"
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: krashconf.cpp:159
+#, kde-format
+msgid "<application>%1</application>"
+msgstr "<application>%1</application>"
+
+#: krashconf.cpp:164 krashconf.cpp:171
+#, kde-format
+msgid "<command>%1</command>"
+msgstr "<command>%1</command>"
+
+#: krashconf.cpp:177
+#, kde-format
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: main.cpp:43
+msgid "KDE crash handler gives the user feedback if a program crashed"
+msgstr "केडीई क्रेश हैंडलर प्रयोक्ता केँ फीडबैक देत अछि जँ कोनो प्रोग्राम क्रैश होइछ"
+
+#: main.cpp:59
+msgid "The KDE Crash Handler"
+msgstr "केडीई क्रेश हैंडलर"
+
+#: main.cpp:63
+msgid "(C) 2000-2003, Hans Petter Bieker"
+msgstr "(C) 2000-2003, हैंस पीटर बीइकर"
+
+#: main.cpp:64
+msgid "Hans Petter Bieker"
+msgstr "हैंस पीटर बीइकर"
+
+#: main.cpp:70
+msgid "The signal number that was caught"
+msgstr "संकेतक क्रमांक जे पकड़ल गेल."
+
+#: main.cpp:71
+msgid "Name of the program"
+msgstr "प्रोग्राम क' नाम"
+
+#: main.cpp:72
+msgid "Path to the executable"
+msgstr "एक्जीक्यूटेबल क' पथ"
+
+#: main.cpp:73
+msgid "The version of the program"
+msgstr "प्रोग्राम क' संस्करण"
+
+#: main.cpp:74
+msgid "The bug address to use"
+msgstr "उपयोग क' लेल बग पता."
+
+#: main.cpp:75
+msgid "Translated name of the program"
+msgstr "अनूदित प्रोग्राम क' नाम"
+
+#: main.cpp:76
+msgid "The PID of the program"
+msgstr "प्रोग्राम क' पीआईडी"
+
+#: main.cpp:77
+msgid "Startup ID of the program"
+msgstr "प्रोग्राम क' आरंभक आईडी"
+
+#: main.cpp:78
+msgid "The program was started by kdeinit"
+msgstr "प्रोग्राम केडीईइनिट द्वारा प्रारंभ कएल गेल"
+
+#: main.cpp:79
+msgid "Disable arbitrary disk access"
+msgstr "मनमाना डिस्क एक्सेस अक्षम करू"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
+#: toplevel.cpp:54
+msgid "&Bug Report"
+msgstr "बग रिपोट करू (&B)"
+
+#: toplevel.cpp:55
+msgid "&Debugger"
+msgstr "डिबगर (&D)"
+
+#: toplevel.cpp:87
+msgid "Show details"
+msgstr "विवरण देखाबू"
+
+#: toplevel.cpp:92
+msgid "Please attach the following information to your bug report:"
+msgstr "अपन बग रिपोट मे कृप्या निम्न जानकारी जोडू:"
+
+#: toplevel.cpp:134
+msgid "A Fatal Error Occurred"
+msgstr "एकटा गंभीर त्रुटि भेल"
+
+#: toplevel.cpp:142
+#, c-format
+msgid ""
+"<p style=\"margin-bottom: 6px;\"><b>Application crashed</b></p><p>The "
+"program %appname crashed.</p>"
+msgstr ""
+"<p style=\"margin-bottom: 6px;\"><b>अनुप्रयोग क्रैश भए गेल</b></p><p>प्रोग्राम %"
+"appname क्रैश भए गेल.</p>"
+
+#: toplevel.cpp:161
+msgid ""
+"<p>Do you want to generate a backtrace? This will help the developers to "
+"figure out what went wrong.</p>\n"
+"<p>Unfortunately this will take some time on slow machines.</p><p><b>Note: A "
+"backtrace is not a substitute for a proper description of the bug and "
+"information on how to reproduce it. It is not possible to fix the bug "
+"without a proper description.</b></p>"
+msgstr ""
+
+#: toplevel.cpp:173
+msgid "Include Backtrace"
+msgstr "बैकट्रेस जोडू"
+
+#: toplevel.cpp:173
+msgid "Generate"
+msgstr "बनाबू (&G)"
+
+#: toplevel.cpp:173
+msgid "Do Not Generate"
+msgstr "बनाबू नहि"
+
+#: toplevel.cpp:240
+msgid "It was not possible to generate a backtrace."
+msgstr "बैकट्रेस तैआर कएनाइ संभव नहि"
+
+#: toplevel.cpp:241
+msgid "Backtrace Not Possible"
+msgstr "बैकट्रेस संभव नहि"
+
