@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-15 10:37+0100\n"
+"POT-Creation-Date: 2008-12-27 11:10+0100\n"
 "PO-Revision-Date: 2008-12-21 10:47+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: maithili <maithili.sf.net>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "\n"
 
@@ -85,8 +86,7 @@ msgid "The power adaptor has been unplugged"
 msgstr "पावर एडाप्टर को प्लग से निकाला गया है"
 
 #: daemon/PowerDevilDaemon.cpp:541
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "Your battery has reached critical level, the PC will be halted in %1 "
 "seconds. Click here to block the process."
@@ -95,8 +95,7 @@ msgstr ""
 "रोकने के लिए यहाँ क्लिक करें."
 
 #: daemon/PowerDevilDaemon.cpp:552
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "Your battery has reached critical level, the PC will be suspended to disk in "
 "%1 seconds. Click here to block the process."
@@ -105,8 +104,7 @@ msgstr ""
 "रोकने के लिए यहाँ क्लिक करें."
 
 #: daemon/PowerDevilDaemon.cpp:563
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "Your battery has reached critical level, the PC will be suspended to RAM in %"
 "1 seconds. Click here to block the process"
@@ -115,8 +113,7 @@ msgstr ""
 "प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
 
 #: daemon/PowerDevilDaemon.cpp:574
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "Your battery has reached critical level, the PC is going Standby in %1 "
 "seconds. Click here to block the process."
@@ -126,7 +123,8 @@ msgstr ""
 
 #: daemon/PowerDevilDaemon.cpp:584
 #, fuzzy
-msgid "Your battery has reached critical level, save your work as soon as possible!"
+msgid ""
+"Your battery has reached critical level, save your work as soon as possible!"
 msgstr "आपकी बैटरी का स्तर गंभीर हो गया है. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
 #: daemon/PowerDevilDaemon.cpp:589
@@ -139,90 +137,88 @@ msgstr "आपकी बैटरी का स्तर चेतावनी �
 msgid "Your battery has reached low level"
 msgstr "आपकी बैटरी का स्तर कम हो गया है"
 
-#: daemon/PowerDevilDaemon.cpp:707
-#, kde-format
-#, fuzzy
-msgid "The computer will be halted in %1 seconds. Click here to block the process."
+#: daemon/PowerDevilDaemon.cpp:697
+#, fuzzy, kde-format
+msgid ""
+"The computer will be halted in %1 seconds. Click here to block the process."
 msgstr "कम्प्यूटर %1 सेकण्ड में हाल्ट हो जाएगा. इस प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
 
-#: daemon/PowerDevilDaemon.cpp:723
-#, kde-format
-#, fuzzy
+#: daemon/PowerDevilDaemon.cpp:713
+#, fuzzy, kde-format
 msgid ""
 "The computer will be suspended to disk in %1 seconds. Click here to block "
 "the process."
 msgstr "कम्प्यूटर %1 सेकण्ड में सस्पेंड हो जाएगा. इस प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
 
-#: daemon/PowerDevilDaemon.cpp:739
-#, kde-format
-#, fuzzy
+#: daemon/PowerDevilDaemon.cpp:729
+#, fuzzy, kde-format
 msgid ""
 "The computer will be suspended to RAM in %1 seconds. Click here to block the "
 "process."
-msgstr "कम्प्यूटर %1 सेकण्ड में रैम में सस्पेंड हो जाएगा. इस प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
+msgstr ""
+"कम्प्यूटर %1 सेकण्ड में रैम में सस्पेंड हो जाएगा. इस प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
 
-#: daemon/PowerDevilDaemon.cpp:755
-#, kde-format
-#, fuzzy
+#: daemon/PowerDevilDaemon.cpp:745
+#, fuzzy, kde-format
 msgid ""
 "The computer will be put into standby in %1 seconds. Click here to block the "
 "process."
-msgstr "कम्प्यूटर %1 सेकण्ड में स्टैण्डबाई हो जाएगा. इस प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
+msgstr ""
+"कम्प्यूटर %1 सेकण्ड में स्टैण्डबाई हो जाएगा. इस प्रक्रिया को रोकने के लिए यहाँ क्लिक करें."
 
-#: daemon/PowerDevilDaemon.cpp:844
+#: daemon/PowerDevilDaemon.cpp:834
 #, fuzzy
 msgid "There was an error while suspending:"
 msgstr "सस्पेंड करने के दौरान एक त्रुटि हुई"
 
-#: daemon/PowerDevilDaemon.cpp:1018
+#: daemon/PowerDevilDaemon.cpp:1008
 #, fuzzy
 msgid "The screen is being locked"
 msgstr "स्क्रीन तालाबंद हो रहा है"
 
-#: daemon/PowerDevilDaemon.cpp:1132
+#: daemon/PowerDevilDaemon.cpp:1122
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist!\n"
 "Please check your PowerDevil configuration."
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:1205
-#, kde-format
-#, fuzzy
+#: daemon/PowerDevilDaemon.cpp:1195
+#, fuzzy, kde-format
 msgid "Profile changed to \"%1\""
 msgstr "प्रोफाइल \"%1\" पर बदला गया"
 
-#: daemon/PowerDevilDaemon.cpp:1233 kcmodule/CapabilitiesPage.cpp:152
+#: daemon/PowerDevilDaemon.cpp:1223 kcmodule/CapabilitiesPage.cpp:152
 #: kcmodule/CapabilitiesPage.cpp:267 kcmodule/EditPage.cpp:146
 #, fuzzy
 msgid "Performance"
 msgstr "परफार्मेंस"
 
-#: daemon/PowerDevilDaemon.cpp:1237 kcmodule/CapabilitiesPage.cpp:156
+#: daemon/PowerDevilDaemon.cpp:1227 kcmodule/CapabilitiesPage.cpp:156
 #: kcmodule/EditPage.cpp:152
 #, fuzzy
 msgid "Dynamic (ondemand)"
 msgstr "गतिशील (आनडिमांड)"
 
-#: daemon/PowerDevilDaemon.cpp:1241 kcmodule/CapabilitiesPage.cpp:160
+#: daemon/PowerDevilDaemon.cpp:1231 kcmodule/CapabilitiesPage.cpp:160
 #: kcmodule/EditPage.cpp:156
 #, fuzzy
 msgid "Dynamic (conservative)"
 msgstr "गतिशील (कंजरवेटिव)"
 
-#: daemon/PowerDevilDaemon.cpp:1245 kcmodule/CapabilitiesPage.cpp:164
+#: daemon/PowerDevilDaemon.cpp:1235 kcmodule/CapabilitiesPage.cpp:164
 #: kcmodule/EditPage.cpp:161
 #, fuzzy
 msgid "Powersave"
 msgstr "ऊर्जा-बचत"
 
-#: daemon/PowerDevilDaemon.cpp:1249 kcmodule/CapabilitiesPage.cpp:168
+#: daemon/PowerDevilDaemon.cpp:1239 kcmodule/CapabilitiesPage.cpp:168
 #: kcmodule/EditPage.cpp:166
 #, fuzzy
 msgid "Userspace"
 msgstr "अपरस्पेस"
 
-#: daemon/PowerDevilDaemon.cpp:1262 kcmodule/GeneralPage.cpp:66
+#: daemon/PowerDevilDaemon.cpp:1252 kcmodule/GeneralPage.cpp:66
 #: kcmodule/CapabilitiesPage.cpp:128 kcmodule/EditPage.cpp:123
 #: kcmodule/EditPage.cpp:124 kcmodule/EditPage.cpp:125
 #: kcmodule/EditPage.cpp:126
@@ -230,14 +226,14 @@ msgstr "अपरस्पेस"
 msgid "Suspend to Disk"
 msgstr "स्थगित को डिस्क"
 
-#: daemon/PowerDevilDaemon.cpp:1266 kcmodule/GeneralPage.cpp:70
+#: daemon/PowerDevilDaemon.cpp:1256 kcmodule/GeneralPage.cpp:70
 #: kcmodule/EditPage.cpp:130 kcmodule/EditPage.cpp:131
 #: kcmodule/EditPage.cpp:132 kcmodule/EditPage.cpp:133
 #, fuzzy
 msgid "Suspend to Ram"
 msgstr "रैम में सस्पेंड करें"
 
-#: daemon/PowerDevilDaemon.cpp:1270 kcmodule/GeneralPage.cpp:74
+#: daemon/PowerDevilDaemon.cpp:1260 kcmodule/GeneralPage.cpp:74
 #: kcmodule/CapabilitiesPage.cpp:136 kcmodule/EditPage.cpp:137
 #: kcmodule/EditPage.cpp:138 kcmodule/EditPage.cpp:139
 #: kcmodule/EditPage.cpp:140
@@ -417,20 +413,17 @@ msgid "Prompt Log out dialog"
 msgstr "लाग आउट संवाद पूछें"
 
 #: kcmodule/EditPage.cpp:176
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "CPU <numid>%1</numid>"
 msgstr "सीपीयू <numid>%1</numid>"
 
 #: kcmodule/EditPage.cpp:181
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Disable CPU <numid>%1</numid>"
 msgstr "सीपीयू <numid>%1</numid> अक्षम करें"
 
 #: kcmodule/EditPage.cpp:182
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "If this box is checked, the CPU <numid>%1</numid> will be disabled"
 msgstr "यदि यह बक्सा चुना जाता है, सीपीयू <numid>%1</numid> को अक्षम कर दिया जाएगा"
 
@@ -654,8 +647,8 @@ msgid ""
 "Choose the period of inactivity after which the display should enter "
 "\"standby\" mode. This is the first level of power saving."
 msgstr ""
-"चुनें जे \"स्टैंडबाय\" मोड मे जाए सँ पहले कितने समय तक की निष्क्रियता हो. ई बिजली बचाने "
-"का प्रथम स्तर है."
+"चुनें जे \"स्टैंडबाय\" मोड मे जाए सँ पहले कितने समय तक की निष्क्रियता हो. ई बिजली बचाने का "
+"प्रथम स्तर है."
 
 #. i18n: file: kcmodule/profileEditPage.ui:386
 #. i18n: ectx: property (text), widget (QCheckBox, DPMSStandbyEnabled)
@@ -1188,4 +1181,3 @@ msgstr ""
 #, fuzzy
 msgid "XTest Support"
 msgstr "एक्सटेस्ट समर्थन"
-
