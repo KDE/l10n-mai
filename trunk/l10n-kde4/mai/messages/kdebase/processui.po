@@ -1,20 +1,20 @@
-# translation of processui.po to maithili
+# translation of processui.po to Maithili
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sangeeta Kumari <sangeeta09@gmail.com>, 2008.
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-07 10:19+0100\n"
-"PO-Revision-Date: 2008-12-21 10:33+0530\n"
+"PO-Revision-Date: 2009-01-17 23:13+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
-"Language-Team: maithili <maithili.sf.net>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: DisplayProcessDlg.cpp:35
 #, kde-format
 msgid "Monitoring I/O for %1 (%2)"
-msgstr ""
+msgstr "%1 (%2) कए लेल I/O क' निरीक्षण कए रहल अछि"
 
 #: DisplayProcessDlg.cpp:45
 #, kde-format
@@ -35,17 +35,16 @@ msgstr ""
 
 #: DisplayProcessDlg.cpp:47 DisplayProcessDlg.cpp:82 DisplayProcessDlg.cpp:91
 msgid "&Attach"
-msgstr ""
+msgstr "जोड़ू (&A)"
 
 #. i18n: file: DisplayProcessUi.ui:65
 #. i18n: ectx: property (text), widget (QPushButton, btnPause)
 #: DisplayProcessDlg.cpp:49 DisplayProcessDlg.cpp:77 DisplayProcessDlg.cpp:84
 #: DisplayProcessDlg.cpp:93 rc.cpp:27
 msgid "&Pause"
-msgstr ""
+msgstr "रोकू (&P)"
 
 #: DisplayProcessDlg.cpp:74
-#, fuzzy
 msgid "&Resume"
 msgstr "पुनरारंभ (&R)"
 
@@ -53,24 +52,22 @@ msgstr "पुनरारंभ (&R)"
 #. i18n: ectx: property (text), widget (QPushButton, btnDetach)
 #: DisplayProcessDlg.cpp:97 rc.cpp:36
 msgid "&Detach"
-msgstr ""
+msgstr "अलग करू (&D)"
 
 #: KMonitorProcessIO.cpp:194
 #, kde-format
-msgid ""
-"<br/><i><font color=\"gray\">Failed to attach to process %1</font></i><br/>"
+msgid "<br/><i><font color=\"gray\">Failed to attach to process %1</font></i><br/>"
 msgstr ""
 
 #: ksysguardprocesslist.cpp:150 ksysguardprocesslist.cpp:346
 msgid "Renice Process..."
 msgid_plural "Renice Processes..."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "प्रक्रिया केँ फिनु नाइस करू "
+msgstr[1] "प्रक्रिया केँ फिनु नाइस करू "
 
 #: ksysguardprocesslist.cpp:151 ksysguardprocesslist.cpp:420
-#, fuzzy
 msgid "Jump to Parent Process"
-msgstr "पैरेन्ट प्रक्रिया मे जाएँ"
+msgstr "पैरेन्ट प्रक्रिया मे जाइ"
 
 #: ksysguardprocesslist.cpp:153
 msgid "Jump to Process Debugging This One"
@@ -82,82 +79,73 @@ msgstr ""
 
 #: ksysguardprocesslist.cpp:156
 msgid "Monitor Input && Output"
-msgstr ""
+msgstr "मानिटर इनपुट && आउटपुट"
 
 #: ksysguardprocesslist.cpp:160
 msgid "Resume Stopped Process"
-msgstr ""
+msgstr "रूकल प्रक्रियाक फिनु बहाल करू"
 
 #: ksysguardprocesslist.cpp:161 ksysguardprocesslist.cpp:347
 #: ksysguardprocesslist.cpp:1036
 msgid "Kill Process"
 msgid_plural "Kill Processes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "प्रक्रियाक मारू"
+msgstr[1] "प्रक्रियाक मारू"
 
 #: ksysguardprocesslist.cpp:164
-#, fuzzy
 msgid "Suspend (STOP)"
-msgstr "निलंबित (रोकें)"
+msgstr "निलंबित (रोकू)"
 
 #: ksysguardprocesslist.cpp:165
-#, fuzzy
 msgid "Continue (CONT)"
 msgstr "जारी (जा.)"
 
 #: ksysguardprocesslist.cpp:166
-#, fuzzy
 msgid "Hangup (HUP)"
-msgstr "हैंगअप (हैं)"
+msgstr "हैंगअप (हप)"
 
 #: ksysguardprocesslist.cpp:167
 msgid "Interrupt (INT)"
-msgstr ""
+msgstr "बाधा (INT)"
 
 #: ksysguardprocesslist.cpp:168
-#, fuzzy
 msgid "Terminate (TERM)"
-msgstr "बन्द (टर्मि)"
+msgstr "बन्न (टर्मि)"
 
 #: ksysguardprocesslist.cpp:169
-#, fuzzy
 msgid "Kill (KILL)"
 msgstr "किल (किल)"
 
 #: ksysguardprocesslist.cpp:170
-#, fuzzy
 msgid "User 1 (USR1)"
 msgstr "प्रयोक्ता १ (प्रयोक्ता१)"
 
 #: ksysguardprocesslist.cpp:171
-#, fuzzy
 msgid "User 2 (USR2)"
 msgstr "प्रयोक्ता २ (प्रयोक्ता२)"
 
 #: ksysguardprocesslist.cpp:372
-#, fuzzy
 msgid "Send Signal"
-msgstr "संकेत भेजें"
+msgstr "संकेत भेजू"
 
 #: ksysguardprocesslist.cpp:389
 #, kde-format
 msgid "Jump to Parent Process (%1)"
-msgstr ""
+msgstr "जनक प्रक्रिया पर जाउ (%1)"
 
 #: ksysguardprocesslist.cpp:517
 #, kde-format
 msgid "Hide Column '%1'"
-msgstr ""
+msgstr "कालम नुकाबू '%1'"
 
 #: ksysguardprocesslist.cpp:530
 #, kde-format
 msgid "Show Column '%1'"
-msgstr ""
+msgstr "कालम देखाबू '%1'"
 
 #: ksysguardprocesslist.cpp:543
-#, fuzzy
 msgid "Display Units"
-msgstr "प्रदर्शक इकाई"
+msgstr "प्रदर्शक एकाइ"
 
 #: ksysguardprocesslist.cpp:546
 msgid "Kilobytes"
@@ -176,14 +164,11 @@ msgid "You must select a process first."
 msgstr ""
 
 #: ksysguardprocesslist.cpp:829
-#, fuzzy
-msgid ""
-"You do not have sufficient privileges to change the CPU scheduler. Aborting."
-msgstr "आपके पास सीपीयू शेड्यूलर केँ बदलब की पर्याप्त अनुमति नहि अछि. छोडा जा रहल है."
+msgid "You do not have sufficient privileges to change the CPU scheduler. Aborting."
+msgstr "अहाँक पास सीपीयू शेड्यूलर केँ बदलबाक पर्याप्त अनुमति नहि अछि. छोडल जाए रहल अछि."
 
 #: ksysguardprocesslist.cpp:837
-msgid ""
-"You do not have sufficient privileges to change the CPU priority. Aborting"
+msgid "You do not have sufficient privileges to change the CPU priority. Aborting"
 msgstr ""
 
 #: ksysguardprocesslist.cpp:843
@@ -207,48 +192,42 @@ msgid ""
 msgstr ""
 
 #: ksysguardprocesslist.cpp:1031
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you want to kill the selected process?"
 msgid_plural "Do you want to kill the %1 selected processes?"
-msgstr[0] "क्या अहाँ चयनित प्रक्रिया केँ बन्द कएनाइ चाहते हैं?"
-msgstr[1] "क्या अहाँ चयनित प्रक्रिया केँ बन्द कएनाइ चाहते हैं?"
+msgstr[0] "क्या अहाँ चयनित प्रक्रिया केँ बन्न कएनाइ चाहैत छी?"
+msgstr[1] "क्या अहाँ %1 चयनित प्रक्रिया केँ बन्न कएनाइ चाहैत छी?"
 
 #: ksysguardprocesslist.cpp:1037
 msgid "Kill"
 msgstr "मारू"
 
 #: ksysguardprocesslist.cpp:1057
-#, fuzzy
 msgid ""
 "You do not have the permission to renice the process and there was a problem "
 "trying to run as root"
 msgstr ""
-"आपके पास प्रक्रिया केँ री-नाइस करब क' लेल अनुमतियाँ नहि हैं, आओर यहां पर एकरा रूट केर रूप "
-"मे चलाने मे समस्या हुई."
+"अहाँक पास प्रक्रिया केँ री-नाइस करब क' लेल अनुमतिसभ नहि अछि, आओर एतए एकरा रूट केर रूपेँ चलाबै "
+"मे समस्या भेल."
 
 #: ksysguardprocesslist.cpp:1062
-#, fuzzy
 msgid ""
 "You do not have the permission to kill the process and there was a problem "
 "trying to run as root"
 msgstr ""
-"आपके पास प्रक्रिया केँ बन्द करब क' लेल अनुमतियाँ नहि हैं, आओर यहां पर एकरा रूट केर रूप मे "
-"चलाने में समस्या हुई."
+"अहाँक पास प्रक्रिया केँ बन्न करबा क' लेल अनुमतिसभ नहि अछि, आओर एतए एकरा रूट केर रूपेँ चलाबै "
+"मे समस्या भेल."
 
 #: ksysguardprocesslist.cpp:1067
-#, fuzzy
 msgid ""
 "You do not have the permission to set the I/O priority and there was a "
 "problem trying to run as root"
-msgstr ""
-"आपके पास आई/ओ प्राथमिकताओं केँ सेट करब क' लेल अनुमतियाँ नहि हैं, आओर यहां पर एकरा रूट केर "
-"रूप में चलाने मे समस्या हुई."
+msgstr "अहाँक पास आई/ओ प्राथमिकतासभ केँ सेट करब क' लेल अनुमति नहि अछि, आओर एतए एकरा रूट केर रूपेँ चलाबै मे समस्या भेल."
 
 #. i18n: file: DisplayProcessUi.ui:25
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkColorOutput)
 #: rc.cpp:3
-msgid ""
-"Interpret output as containing VT100 commands. For console-based programs."
+msgid "Interpret output as containing VT100 commands. For console-based programs."
 msgstr ""
 
 #. i18n: file: DisplayProcessUi.ui:28
@@ -313,76 +292,66 @@ msgstr ""
 #. i18n: file: ProcessWidgetUI.ui:39
 #. i18n: ectx: property (text), widget (QPushButton, btnKillProcess)
 #: rc.cpp:39
-#, fuzzy
 msgid "&Kill Process"
-msgstr "प्रक्रिया बन्द करू (&K)"
+msgstr "प्रक्रिया बन्न करू (&K)"
 
 #. i18n: file: ProcessWidgetUI.ui:55
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, txtFilter)
 #: rc.cpp:42
 msgid "Quick search"
-msgstr ""
+msgstr "तेज खोज"
 
 #. i18n: file: ProcessWidgetUI.ui:78
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:45
-#, fuzzy
 msgid "All Processes"
-msgstr "सभी प्रक्रियाएँ"
+msgstr "सभटा प्रक्रियासभ"
 
 #. i18n: file: ProcessWidgetUI.ui:83
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:48
-#, fuzzy
 msgid "All Processes, Tree"
-msgstr "सभी प्रक्रियाएँ, ट्री"
+msgstr "सभटा प्रक्रियासभ, ट्री"
 
 #. i18n: file: ProcessWidgetUI.ui:88
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:51
-#, fuzzy
 msgid "System Processes"
-msgstr "तंत्र प्रक्रियाएँ"
+msgstr "तंत्र प्रक्रियासभ"
 
 #. i18n: file: ProcessWidgetUI.ui:93
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:54
-#, fuzzy
 msgid "User Processes"
-msgstr "प्रयोक्ता प्रक्रियाएँ"
+msgstr "प्रयोक्ता प्रक्रियासभ"
 
 #. i18n: file: ProcessWidgetUI.ui:98
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:57
-#, fuzzy
 msgid "Own Processes"
-msgstr "निजी प्रक्रियाएँ"
+msgstr "निज प्रक्रियासभ"
 
 #. i18n: file: ProcessWidgetUI.ui:103
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
 #: rc.cpp:60
-#, fuzzy
 msgid "Programs Only"
 msgstr "सिर्फ प्रोग्राम"
 
 #. i18n: file: ReniceDlgUi.ui:22
 #. i18n: ectx: property (text), widget (QLabel, lblMessage1)
 #: rc.cpp:63
-#, fuzzy
 msgid "Change scheduling priority for:"
-msgstr "के लिए शेड्यूलिंग प्रधानता बदलें:"
+msgstr "एकरा लेल शेड्यूलिंग प्रधानता बदलू:"
 
 #. i18n: file: ReniceDlgUi.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:66
-#, fuzzy
 msgid "CPU Scheduler"
 msgstr "सीपीयू शेड्यूलर"
 
 #. i18n: file: ReniceDlgUi.ui:102
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioNormal)
 #: rc.cpp:69
-#, fuzzy
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -480,7 +449,6 @@ msgstr ""
 #. i18n: file: ReniceDlgUi.ui:132
 #. i18n: ectx: property (text), widget (QRadioButton, radioBatch)
 #: rc.cpp:98
-#, fuzzy
 msgid "Batch"
 msgstr "बैच"
 
@@ -523,7 +491,6 @@ msgstr ""
 #. i18n: file: ReniceDlgUi.ui:152
 #. i18n: ectx: property (text), widget (QRadioButton, radioRR)
 #: rc.cpp:114
-#, fuzzy
 msgid "Round Robin"
 msgstr "राउण्ड राबिन"
 
@@ -565,14 +532,12 @@ msgstr ""
 #. i18n: file: ReniceDlgUi.ui:172
 #. i18n: ectx: property (text), widget (QRadioButton, radioFIFO)
 #: rc.cpp:130
-#, fuzzy
 msgid "FIFO"
 msgstr "फीफो"
 
 #. i18n: file: ReniceDlgUi.ui:233
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:133
-#, fuzzy
 msgid "I/O Scheduler"
 msgstr "आई/ओ शेड्यूलर"
 
@@ -656,7 +621,6 @@ msgstr "निष्क्रिय"
 #. i18n: file: ReniceDlgUi.ui:286
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioBestEffort)
 #: rc.cpp:168
-#, fuzzy
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -674,7 +638,7 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">हार्ड डिक्स केँ एक्सेस करब केर "
-"लिए प्रक्रिया केँ सामान्य की अपेक्षा उच्च प्राथमिकता दी गई है.</p></body></html>"
+"लेल प्रक्रिया केँ सामान्यक अपेक्षा उच्च प्राथमिकता देल गेल अछि.</p></body></html>"
 
 #. i18n: file: ReniceDlgUi.ui:293
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioBestEffort)
@@ -699,14 +663,12 @@ msgstr ""
 #. i18n: file: ReniceDlgUi.ui:296
 #. i18n: ectx: property (text), widget (QRadioButton, radioBestEffort)
 #: rc.cpp:181
-#, fuzzy
 msgid "Best Effort"
 msgstr "सर्वोत्तम प्रयास"
 
 #. i18n: file: ReniceDlgUi.ui:306
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioRealTime)
 #: rc.cpp:184
-#, fuzzy
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -725,8 +687,8 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">प्रक्रिया केँ हार्ड डिस्क मे "
-"त्वरित एक्सेस मिलता अछि जखन भी आवश्यकता होती अछि. चाहे जो भी चलि रहल हो.</p></"
-"body></html>"
+"त्वरित एक्सेस भैटेछ जखनो आवश्यकता होइछ. चाहे जे चलि रहल अछि.</p></body></"
+"html>"
 
 #. i18n: file: ReniceDlgUi.ui:313
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioRealTime)
@@ -754,7 +716,6 @@ msgstr ""
 #. i18n: file: ReniceDlgUi.ui:316
 #. i18n: ectx: property (text), widget (QRadioButton, radioRealTime)
 #: rc.cpp:197
-#, fuzzy
 msgid "Real Time"
 msgstr "रीयल टाइम"
 
@@ -763,7 +724,6 @@ msgstr "रीयल टाइम"
 #. i18n: file: ReniceDlgUi.ui:417
 #. i18n: ectx: property (text), widget (QLabel, lblIOLow)
 #: rc.cpp:200 rc.cpp:206
-#, fuzzy
 msgid "Low Priority"
 msgstr "निम्न प्राथमिकता"
 
@@ -772,57 +732,46 @@ msgstr "निम्न प्राथमिकता"
 #. i18n: file: ReniceDlgUi.ui:424
 #. i18n: ectx: property (text), widget (QLabel, lblIOHigh)
 #: rc.cpp:203 rc.cpp:209
-#, fuzzy
 msgid "High Priority"
 msgstr "उच्च प्राथमिकता"
 
 #: ProcessModel.cc:237
-#, fuzzy
 msgid "- Process is doing some work"
-msgstr "- प्रक्रिया किछु काम कए रहल है"
+msgstr "- प्रक्रिया किछु काम कए रहल अछि"
 
 #: ProcessModel.cc:239
-#, fuzzy
 msgid "- Process is waiting for something to happen"
-msgstr "- प्रक्रिया किछु हए क' लेल इंतजार कए रहल है"
+msgstr "- प्रक्रिया किछु हए क' लेल इंतजार कए रहल अछि"
 
 #: ProcessModel.cc:241
-#, fuzzy
-msgid ""
-"- Process has been stopped. It will not respond to user input at the moment"
-msgstr "- प्रक्रिया बन्द अछि. एहि वक्त ई प्रयोक्ता केँ इससे कोनो प्रतिक्रिया नहि मिलेगी"
+msgid "- Process has been stopped. It will not respond to user input at the moment"
+msgstr "- प्रक्रिया बन्न अछि. एहि वक्त ई प्रयोक्ता केँ एकरासँ कोनो प्रतिक्रिया नहि भेटत"
 
 #: ProcessModel.cc:243
-#, fuzzy
 msgid ""
 "- Process has finished and is now dead, but the parent process has not "
 "cleaned up"
-msgstr ""
-"- प्रक्रिया पूरी हो चुकी अछि आओर आब मृत अछि. परंतु अभिभावक प्रक्रिया साफ नहि हुई है"
+msgstr "- प्रक्रिया पूरा भए चुकल अछि आओर आब मृत अछि. परंतु अभिभावक प्रक्रिया साफ नहि भेल अछि"
 
 #: ProcessModel.cc:539
-#, fuzzy
 msgid "The process name"
 msgstr "प्रक्रिया नाम"
 
 #: ProcessModel.cc:541
-#, fuzzy
 msgid "The user that owns this process"
-msgstr "प्रयोक्ता जो एहि प्रक्रिया क' मालिक है"
+msgstr "प्रयोक्ता जे एहि प्रक्रिया क' मालिक अछि"
 
 #: ProcessModel.cc:543
-#, fuzzy
 msgid "The controlling terminal that this process is running on."
-msgstr "नियंत्रक टर्मिनल जकरामे ई प्रक्रिया चलि रही है."
+msgstr "नियंत्रक टर्मिनल जकरामे ई प्रक्रिया चलि रही अछि."
 
 #: ProcessModel.cc:545
-#, fuzzy
 msgid ""
 "The priority that this process is being run with. Ranges from 19 (very nice, "
 "least priority) to -19 (top priority)"
 msgstr ""
-"प्राथमिकता जकरामे ई प्रक्रिया चलेगी. एकर सीमा १९ (बहुत ही नाइस, सबसे कम प्राथमिकता) "
-"से -१९ (सर्वोच्च प्राथमिकता) होती है"
+"प्राथमिकता जकरामे ई प्रक्रिया चलत. एकर सीमा १९ (बहुते नाइस, सबसँ कम प्राथमिकता) "
+"सँ -१९ (सर्वोच्च प्राथमिकता) होइछ"
 
 #: ProcessModel.cc:548
 msgid "The current CPU usage of the process."
@@ -868,17 +817,15 @@ msgid "<qt>The command with which this process was launched</qt>"
 msgstr ""
 
 #: ProcessModel.cc:562
-#, fuzzy
 msgid "<qt>The title of any windows that this process is showing</qt>"
-msgstr "<qt>विंडो क' शीर्षक जो ई प्रक्रिया दर्शा रहल है</qt>"
+msgstr "<qt>विंडो क' शीर्षक जे ई प्रक्रिया दर्शाए रहल अछि</qt>"
 
 #: ProcessModel.cc:564
-#, fuzzy
 msgid "The unique Process ID that identifies this process"
-msgstr "इस प्रक्रिया की पहचान क' लेल विशिष्ट प्रक्रिया आईडी"
+msgstr "ई प्रक्रियाक पहिचान क' लेल विशिष्ट प्रक्रिया आइडी"
 
 #: ProcessModel.cc:644
-#, fuzzy, kde-format
+#, kde-format
 msgid "Login Name: %1<br/>"
 msgstr "लागिन नाम: %1<br/>"
 
@@ -887,37 +834,37 @@ msgid "This user is not recognized for some reason."
 msgstr ""
 
 #: ProcessModel.cc:651
-#, fuzzy, kde-format
+#, kde-format
 msgid "<b>%1</b><br/>"
 msgstr "<b>%1</b><br/>"
 
 #: ProcessModel.cc:652
-#, fuzzy, kde-format
+#, kde-format
 msgid "Login Name: %1 (uid: %2)<br/>"
 msgstr "लागिन नाम: %1 (प्रयोक्ता पहचान: %2)<br/>"
 
 #: ProcessModel.cc:654
-#, fuzzy, kde-format
+#, kde-format
 msgid "  Room Number: %1<br/>"
 msgstr " कमरा नंबर: %1<br/>"
 
 #: ProcessModel.cc:656
-#, fuzzy, kde-format
+#, kde-format
 msgid "  Work Phone: %1<br/>"
 msgstr "  आफिस फोन: %1<br/>"
 
 #: ProcessModel.cc:663
-#, fuzzy, kde-format
+#, kde-format
 msgid "Effective User: %1<br/>"
 msgstr "प्रभावी प्रयोक्ता: %1<br/>"
 
 #: ProcessModel.cc:665
-#, fuzzy, kde-format
+#, kde-format
 msgid "Setuid User: %1<br/>"
 msgstr "सेटयूआईडी प्रयोक्ता: %1<br/>"
 
 #: ProcessModel.cc:667
-#, fuzzy, kde-format
+#, kde-format
 msgid "File System User: %1<br/>"
 msgstr "फाइल तंत्र प्रयोक्ता: %1<br/>"
 
@@ -927,17 +874,17 @@ msgid "Group: %1"
 msgstr "समूह: %1"
 
 #: ProcessModel.cc:676
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br/>Effective Group: %1"
 msgstr "<br/>प्रभावी समूह: %1"
 
 #: ProcessModel.cc:678
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br/>Setuid Group: %1"
 msgstr "<br/>सेटयूआईडी समूह: %1"
 
 #: ProcessModel.cc:680
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br/>File System Group: %1"
 msgstr "<br/>फाइल तंत्र समूह: %1"
 
@@ -948,12 +895,12 @@ msgid "<numid>%1</numid>: %2, owned by user %3"
 msgstr ""
 
 #: ProcessModel.cc:694
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 (gid: <numid>%2</numid>)"
 msgstr "%1 (gid: <numid>%2</numid>)"
 
 #: ProcessModel.cc:715
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 (uid: %2)"
 msgstr "%1 (यूआईडी: %2)"
 
@@ -964,9 +911,7 @@ msgid "This process is being debugged by %1 (<numid>%2</numid>)"
 msgstr ""
 
 #: ProcessModel.cc:834
-#, fuzzy
-msgid ""
-"<b>Init</b> is the parent of all other processes and cannot be killed.<br/>"
+msgid "<b>Init</b> is the parent of all other processes and cannot be killed.<br/>"
 msgstr ""
 "<b>इनिट</b> सबहि आन प्रक्रियाओं क' अभिभावक अछि आओर इसीलिए बन्द नहि किया जा सकता."
 "<br/>"
@@ -1002,45 +947,45 @@ msgstr ""
 #: ProcessModel.cc:849
 #, kde-format
 msgid "<br/>Command: %1"
-msgstr ""
+msgstr "<br/>कमांड: %1"
 
 #: ProcessModel.cc:852
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br />Running on: %1"
 msgstr "<br />पर चलि रहल अछि. %1"
 
 #: ProcessModel.cc:860
-#, fuzzy, kde-format
+#, kde-format
 msgid "<qt>This process was run with the following command:<br />%1"
-msgstr "<qt>इस प्रक्रिया केँ निम्न कमांड केर सँग चलाया गेल है:<br />%1"
+msgstr "<qt>ई प्रक्रिया केँ निम्न कमांड केर सँग चलाएल गेल अछि:<br />%1"
 
 #: ProcessModel.cc:862
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br /><br />Running on: %1"
 msgstr "<br /><br />पर चलि रहल अछि. %1"
 
 #: ProcessModel.cc:876
 #, kde-format
 msgid "Nice level: %1 (%2)"
-msgstr ""
+msgstr "नाइस स्तर: %1 (%2)"
 
 #: ProcessModel.cc:880
 #, kde-format
 msgid "Scheduler priority: %1"
-msgstr ""
+msgstr "शेड्यूलरक प्राथमिकता: %1"
 
 #: ProcessModel.cc:884
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br/>Scheduler: %1"
 msgstr "<br/>शेड्यूलर: %1"
 
 #: ProcessModel.cc:888 ProcessModel.cc:925
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br/>I/O Nice level: %1 (%2)"
 msgstr "<br />आई/ओ नाइस स्तर: %1 (%2)"
 
 #: ProcessModel.cc:889 ProcessModel.cc:926
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br/>I/O Class: %1"
 msgstr "<br/>आई/ओ क्लास: %1"
 
@@ -1052,46 +997,46 @@ msgid ""
 msgstr ""
 
 #: ProcessModel.cc:905
-#, fuzzy, kde-format
+#, kde-format
 msgid ""
 "<br />Number of children: %1<br />Total User CPU usage: %2%<br />Total "
 "System CPU usage: %3%<br />Total CPU usage: %4%"
 msgstr ""
-"<br />बच्चों की संख्या: %1<br />कुल प्रयोक्ता सीपीयू उपयोग: %2%<br />कुल तंत्र सीपीयू "
+"<br />बच्चासभक संख्या: %1<br />कुल प्रयोक्ता सीपीयू उपयोग: %2%<br />कुल तंत्र सीपीयू "
 "उपयोग: %3%<br />कुल सीपीयू उपयोग: %4%"
 
 #: ProcessModel.cc:914
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br /><br />CPU time spent running as user: %1 seconds"
-msgstr "<br /><br />प्रयोक्ता केर रूप मे चलाते हुए सीपीयू समय: %1 समय"
+msgstr "<br /><br />प्रयोक्ता केर रूपेँ चलाबैत  सीपीयू समय: %1 समय"
 
 #: ProcessModel.cc:918
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br />CPU time spent running in kernel: %1 seconds"
-msgstr "<br />कर्नेल मे सीपीयू चलाते हुए समय: %1 सेकण्ड"
+msgstr "<br />कर्नेल मे सीपीयू चलाबैत समय: %1 सकेण्ड"
 
 #: ProcessModel.cc:922
-#, fuzzy, kde-format
+#, kde-format
 msgid "<br />Nice level: %1 (%2)"
 msgstr "<br />नाइस स्तर: %1 (%2)"
 
 #: ProcessModel.cc:941
-#, fuzzy, kde-format
+#, kde-format
 msgid "Memory usage: %1 out of %2  (%3 %)<br />"
 msgstr "मेमोरी उपयोग: %2 मे सँ %1  (%3 %)<br />"
 
 #: ProcessModel.cc:943
-#, fuzzy, kde-format
+#, kde-format
 msgid "Memory usage: %1<br />"
 msgstr "मेमोरी उपयोग: %1<br />"
 
 #: ProcessModel.cc:946
-#, fuzzy, kde-format
+#, kde-format
 msgid "RSS Memory usage: %1 out of %2  (%3 %)"
 msgstr "आरएसएस मेमोरी उपयोग: %2 मे सँ %1  (%3 %)"
 
 #: ProcessModel.cc:948
-#, fuzzy, kde-format
+#, kde-format
 msgid "RSS Memory usage: %1"
 msgstr "आरएसएस मेमोरी उपयोग: %1"
 
@@ -1102,12 +1047,12 @@ msgid ""
 msgstr ""
 
 #: ProcessModel.cc:958
-#, fuzzy, kde-format
+#, kde-format
 msgid "Shared library memory usage: %1 out of %2  (%3 %)"
 msgstr "साझा लाइब्रेरी मेमोरी उपयोग: %2 मे सँ %1  (%3 %)"
 
 #: ProcessModel.cc:960
-#, fuzzy, kde-format
+#, kde-format
 msgid "Shared library memory usage: %1"
 msgstr "साझा लाइब्रेरी मेमोरी उपयोग: %1"
 
@@ -1129,23 +1074,23 @@ msgstr "PID"
 #: ProcessModel.cc:1221
 msgctxt "process heading"
 msgid "TTY"
-msgstr ""
+msgstr "TTY"
 
 #: ProcessModel.cc:1222
 msgctxt "process heading"
 msgid "Niceness"
-msgstr ""
+msgstr "नीकजहिना"
 
 #: ProcessModel.cc:1224
 #, no-c-format
 msgctxt "process heading"
 msgid "CPU %"
-msgstr ""
+msgstr "CPU %"
 
 #: ProcessModel.cc:1225
 msgctxt "process heading"
 msgid "Virtual Size"
-msgstr ""
+msgstr "आभासी आकार"
 
 #: ProcessModel.cc:1226
 msgctxt "process heading"
@@ -1155,7 +1100,7 @@ msgstr "स्मृति"
 #: ProcessModel.cc:1227
 msgctxt "process heading"
 msgid "Shared Mem"
-msgstr ""
+msgstr "साझा स्मृति"
 
 #: ProcessModel.cc:1228
 msgctxt "process heading"
@@ -1170,19 +1115,19 @@ msgstr "विंडो क' शीर्षक"
 #: ProcessModel.cc:1295
 #, kde-format
 msgid "%1 K"
-msgstr ""
+msgstr "%1 K"
 
 #: ProcessModel.cc:1297
 #, kde-format
 msgid "%1 M"
-msgstr ""
+msgstr "%1 M"
 
 #: ProcessModel.cc:1299
 #, kde-format
 msgid "%1 G"
-msgstr ""
+msgstr "%1 G"
 
 #: ReniceDlg.cc:39
-#, fuzzy
 msgid "Renice Process"
-msgstr "प्रक्रिया री-नाइस करें"
+msgstr "प्रक्रिया री-नाइस करू"
+
