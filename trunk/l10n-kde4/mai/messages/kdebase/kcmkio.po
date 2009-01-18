@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-31 11:06+0100\n"
-"PO-Revision-Date: 2009-01-17 23:31+0530\n"
+"PO-Revision-Date: 2009-01-18 15:30+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 
 #: bookmarks.cpp:110
 msgid ""
@@ -38,6 +39,8 @@ msgid ""
 "Unable to start the cookie handler service.\n"
 "You will not be able to manage the cookies that are stored on your computer."
 msgstr ""
+"कुकी हैंडलर सेवा प्रारंभ करबा मे अक्षम.\n"
+"अहाँक कम्प्यूटर पर भंडारित कुकीज केँ अहाँ प्रबंधित करबा मे अहाँ सक्षम नहि हाएम."
 
 #: kcookiesmain.cpp:54
 msgid "&Policy"
@@ -560,7 +563,7 @@ msgstr "नीति"
 msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
-msgstr ""
+msgstr "वेब पृष्ठ केँ फिनु सँ लाबै की कोसिस सँ पहिने जाँचि लिअ' जे कैच्ड वेब पृष्ठ वैध अछि. "
 
 #. i18n: file: cache.ui:54
 #. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
@@ -575,12 +578,14 @@ msgid ""
 "Always use documents from the cache when available. You can still use the "
 "reload button to synchronize the cache with the remote host."
 msgstr ""
+"जखन उपलब्ध अछि, हरदम कैश सँ दस्ताबेज प्रयोग करू. अहाँ तखन रीलोड बटन क' उपयोग रिमोट "
+"होस्ट केर सँग कैश सिंक्रोनाइज करब क' लेल कए सकैत छी."
 
 #. i18n: file: cache.ui:64
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
 #: rc.cpp:77
 msgid "Use cache whenever &possible"
-msgstr ""
+msgstr "जतए तकि संभव अछि कैश इस्तेमाल करू (&p)"
 
 #. i18n: file: cache.ui:71
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
@@ -698,7 +703,7 @@ msgstr "प्राक्सी नहीं: (&P)"
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowValue)
 #: rc.cpp:152
 msgid "Show the &value of the environment variables"
-msgstr ""
+msgstr "एनवायरनमेंट वेरिएबल्स क' मान देखाबू (&v)"
 
 #. i18n: file: envvarproxy.ui:181
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbVerify)
@@ -743,7 +748,7 @@ msgstr "खोजू"
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
 #: rc.cpp:170
 msgid "Search interactively for domains and hosts"
-msgstr ""
+msgstr "डोमेन तथा होस्ट क' लेल पूछताछ कए खोज"
 
 #. i18n: file: kcookiesmanagementdlg.ui:40
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
@@ -1004,6 +1009,10 @@ msgid ""
 "policies override the default policy setting for these sites.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"साइटसभ सूची जकरा लेल अहाँ विशिष्ट कुकी पालिसी सेट कएलहुँ. ई साइटसभ क' लेल विशिष्ट "
+"पालिसी मूलभूत.पालिसी केँ ओवरराइड करताह\n"
+"</qt>"
 
 #. i18n: file: kcookiespoliciesdlg.ui:206
 #. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
@@ -1045,6 +1054,8 @@ msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
 msgstr ""
+"जखन कोनो फाइल अपलोड भए रहल हाएत तँ एकर एक्सटेंशन हाएत \".part\". जखन ई पूर्ण तरह "
+"लोड भए जाएत तँ फिनु एकर वास्तविक नाम सँ बदएल देल जएताह."
 
 #. i18n: file: kproxydlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QWidget, KProxyDialogUI)
@@ -1102,7 +1113,7 @@ msgstr "प्राक्सी कान्फिगरेशन अपने 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoScript)
 #: rc.cpp:344
 msgid "Use the specified proxy script URL to configure the proxy settings."
-msgstr ""
+msgstr "प्राक्सी बिन्यास सेटअप करब क' लेल उल्लेखित प्राक्सी स्क्रिप्ट यूआरएल इस्तेमाल करू."
 
 #. i18n: file: kproxydlg.ui:81
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoScript)
@@ -1183,7 +1194,7 @@ msgstr "जखन आवश्यकता हुए, लागइन जान�
 #. i18n: ectx: property (text), widget (QRadioButton, rbPrompt)
 #: rc.cpp:386
 msgid "Prompt as &needed"
-msgstr ""
+msgstr "जखन आवश्यकता अछि, पूछू (&n)"
 
 #. i18n: file: kproxydlg.ui:229
 #. i18n: ectx: property (toolTip), widget (QRadioButton, rbPresetLogin)
@@ -1207,7 +1218,7 @@ msgstr "प्रयोक्ताक नाम:"
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
 #: rc.cpp:398
 msgid "Login name."
-msgstr ""
+msgstr "लागइन नाम"
 
 #. i18n: file: kproxydlg.ui:255
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
@@ -1215,7 +1226,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
 #: rc.cpp:401 rc.cpp:407
 msgid "Login password."
-msgstr ""
+msgstr "लागइन पासवर्ड."
 
 #. i18n: file: kproxydlg.ui:258
 #. i18n: ectx: property (text), widget (QLabel, lbPassword)
@@ -1227,7 +1238,7 @@ msgstr "कूटशब्द: "
 #. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
 #: rc.cpp:410
 msgid "O&ptions"
-msgstr ""
+msgstr "विकल्प (&p)"
 
 #. i18n: file: kproxydlg.ui:301
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPersConn)
@@ -1246,31 +1257,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbPersConn)
 #: rc.cpp:419
 msgid "Use persistent connections to proxy"
-msgstr ""
+msgstr "प्राक्सी क' लेल स्थिर कनेक्शन इस्तेमाल करू"
 
 #. i18n: file: manualproxy.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, gbServers)
 #: rc.cpp:422
 msgid "Ser&vers"
-msgstr ""
+msgstr "सर्वर (&v)"
 
 #. i18n: file: manualproxy.ui:79
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
 #: rc.cpp:434
 msgid "Enter the address of the HTTP proxy server."
-msgstr ""
+msgstr "एचटीटीपी प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: file: manualproxy.ui:86
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
 #: rc.cpp:437
 msgid "Enter the address of the HTTPS proxy server."
-msgstr ""
+msgstr "एचटीटीपीएस प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: file: manualproxy.ui:93
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
 #: rc.cpp:440
 msgid "Enter the address of the FTP proxy server."
-msgstr ""
+msgstr "एफटीपी प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: file: manualproxy.ui:100
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbFtp)
@@ -1278,7 +1289,7 @@ msgstr ""
 msgid ""
 "Enter the port number of the FTP proxy server. Default 8080. Another common "
 "value is 3128."
-msgstr ""
+msgstr "एफटीपी प्राक्सी सर्वर क' पोर्ट क्रमांक भरू. मूलभूत 8080. आन आम मूल्य अछि 3128."
 
 #. i18n: file: manualproxy.ui:110
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttps)
@@ -1288,19 +1299,19 @@ msgstr ""
 msgid ""
 "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 "common value is 3128."
-msgstr ""
+msgstr "एचटीटीपी प्राक्सी सर्वर क' पोर्ट क्रमांक भरू. मूलभूत 8080. आन आम मूल्य अछि 3128."
 
 #. i18n: file: manualproxy.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, cbSameProxy)
 #: rc.cpp:452
 msgid "&Use the same proxy server for all protocols"
-msgstr ""
+msgstr "सभटा प्रोटोकाल क' लेल ओकर प्राक्सी सर्वर क' इस्तेमाल करू (&U)"
 
 #. i18n: file: manualproxy.ui:153
 #. i18n: ectx: property (title), widget (QGroupBox, gbExceptions)
 #: rc.cpp:455
 msgid "E&xceptions"
-msgstr ""
+msgstr "एक्सेप्शन्स (&x)"
 
 #. i18n: file: manualproxy.ui:161
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbReverseProxy)
@@ -1319,13 +1330,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbReverseProxy)
 #: rc.cpp:463
 msgid "Use proxy only for entries in this list"
-msgstr ""
+msgstr "ई सूची मे प्रविष्टि क' लेल सिर्फ प्राक्सी इस्तेमाल करू"
 
 #. i18n: file: manualproxy.ui:188
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDeleteAll)
 #: rc.cpp:466
 msgid "Remove all proxy exception addresses from the list."
-msgstr ""
+msgstr "सूची मे सँ सबहि प्राक्सी एक्सेप्शन पता मेटाबू"
 
 #. i18n: file: manualproxy.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
@@ -1337,7 +1348,7 @@ msgstr "सभटा मेटाबू (&e)"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDelete)
 #: rc.cpp:472
 msgid "Remove the selected proxy exception address from the list."
-msgstr ""
+msgstr "सूची मे सँ चुनल गेल प्राक्सी एक्सेप्शन पता मेटाबू"
 
 #. i18n: file: manualproxy.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
@@ -1349,13 +1360,13 @@ msgstr "मेटाबू (&l)"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbNew)
 #: rc.cpp:478
 msgid "Add new proxy exception address to the list."
-msgstr ""
+msgstr "सूची मे नवीन प्राक्सी एक्सेप्शन पताकेँ जोडू."
 
 #. i18n: file: manualproxy.ui:224
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbChange)
 #: rc.cpp:484
 msgid "Change the selected proxy exception address."
-msgstr ""
+msgstr "चुनल गेल प्राक्सी एक्सेप्शन पता बदलू"
 
 #. i18n: file: manualproxy.ui:227
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
@@ -1374,12 +1385,16 @@ msgid ""
 "b> or <b>.kde.org</b>.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"ई प्राक्सी जकरामे लागू हाएत अछि ओ होस्ट अथवा डोमेन भरू, जहिना- <b>www.kde.org</b> अथवा <b>."
+"kde.org</b>.\n"
+"</qt>"
 
 #. i18n: file: policydlg.ui:21
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: rc.cpp:495
 msgid "&Domain name:"
-msgstr ""
+msgstr "डोमेन नामः (&D)"
 
 #. i18n: file: policydlg.ui:50
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPolicy)
@@ -1401,7 +1416,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
 #: rc.cpp:513
 msgid "&Policy:"
-msgstr ""
+msgstr "नीति: (&P)"
 
 #. i18n: file: policydlg.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
@@ -1455,7 +1470,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
 #: rc.cpp:548
 msgid "&Send identification"
-msgstr ""
+msgstr "पहचान भेजू (&S)"
 
 #. i18n: file: useragentdlg.ui:42
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
@@ -1463,13 +1478,13 @@ msgstr ""
 msgid ""
 "The browser identification text sent to the sites you visit. Use the "
 "provided options to customize it."
-msgstr ""
+msgstr "जे साइटसभ पर अहाँ भ्रमण एकलहुँ ओ ब्राउजर पहचानकारक पाठ भेजल गेल. एकरा अनुकूलित करबाक लेल देल गेल विकल्प उपयोग करू."
 
 #. i18n: file: useragentdlg.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
 #: rc.cpp:554
 msgid "Default Identification"
-msgstr ""
+msgstr "डिफाल्ट पहचान"
 
 #. i18n: file: useragentdlg.ui:57
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
@@ -1478,18 +1493,20 @@ msgid ""
 "The browser identification text sent to the sites you visit. You can "
 "customize it using the options provided below."
 msgstr ""
+"जे साइट पर अहाँ भ्रमण करैत छी ओकरा भेजल जाएबला ब्राउजर पहचान पाठ. अहाँ एकरा निम्न देल "
+"गेल विकल्पसभक मद्दति सँ मनपसिन्न बनाए सकैत छी."
 
 #. i18n: file: useragentdlg.ui:70
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
 #: rc.cpp:561
 msgid "Includes your operating system's name in the browser identification text."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक आपरेटिंग सिस्टम क' नाम शामिल करू."
 
 #. i18n: file: useragentdlg.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
 #: rc.cpp:564
 msgid "Add operating s&ystem name"
-msgstr ""
+msgstr "आपरेटिंग सिस्टम क' नाम जोडू (&y)"
 
 #. i18n: file: useragentdlg.ui:101
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
@@ -1497,37 +1514,37 @@ msgstr ""
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक आपरेटिंग सिस्टम केर संस्करण क्रमांक शामिल करू."
 
 #. i18n: file: useragentdlg.ui:104
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
 #: rc.cpp:570
 msgid "Add operating system &version"
-msgstr ""
+msgstr "आपरेटिंग सिस्टम संस्करण जोडू (&v)"
 
 #. i18n: file: useragentdlg.ui:113
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, platformCheckBox)
 #: rc.cpp:573
 msgid "Includes your platform type in the browser identification text"
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक प्लेटफार्म किस्म सामिल करू."
 
 #. i18n: file: useragentdlg.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, platformCheckBox)
 #: rc.cpp:576
 msgid "Add &platform name"
-msgstr ""
+msgstr "प्लेटफार्म नाम जोडू (&p)"
 
 #. i18n: file: useragentdlg.ui:123
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
 #: rc.cpp:579
 msgid "Includes your machine's CPU type in the browser identification text."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक मशीन केर सीपीयू किस्म शामिल करू."
 
 #. i18n: file: useragentdlg.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
 #: rc.cpp:582
 msgid "Add &machine (processor) type"
-msgstr ""
+msgstr "मशीन (प्रोसेसर) प्रकार जोडू (&m)"
 
 #. i18n: file: useragentdlg.ui:133
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
@@ -1541,55 +1558,55 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
 #: rc.cpp:588
 msgid "Add lang&uage information"
-msgstr ""
+msgstr "भाषा जानकारी भरू (&u)"
 
 #. i18n: file: useragentdlg.ui:149
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
 #: rc.cpp:591
 msgid "Site Specific Identification"
-msgstr ""
+msgstr "विशिष्ट साइट पहचान"
 
 #. i18n: file: useragentdlg.ui:162
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: rc.cpp:594
 msgid "Site Name"
-msgstr ""
+msgstr "साइट नाम"
 
 #. i18n: file: useragentdlg.ui:167
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: rc.cpp:597
 msgid "Identification"
-msgstr ""
+msgstr "पहचान"
 
 #. i18n: file: useragentdlg.ui:172
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: rc.cpp:600
 msgid "User Agent"
-msgstr ""
+msgstr "प्रयोक्ता एजेंट"
 
 #. i18n: file: useragentdlg.ui:185
 #. i18n: ectx: property (whatsThis), widget (KPushButton, newButton)
 #: rc.cpp:603
 msgid "Add new identification text for a site."
-msgstr ""
+msgstr "साइट क' लेल नवीन पहचानकारक पाठ जोडू"
 
 #. i18n: file: useragentdlg.ui:195
 #. i18n: ectx: property (whatsThis), widget (KPushButton, changeButton)
 #: rc.cpp:609
 msgid "Change the selected identifier text."
-msgstr ""
+msgstr "चुनल गेल पहचानकारक पाठ बदलू."
 
 #. i18n: file: useragentdlg.ui:205
 #. i18n: ectx: property (whatsThis), widget (KPushButton, deleteButton)
 #: rc.cpp:615
 msgid "Delete the selected identifier text."
-msgstr ""
+msgstr "चुनल गेल पहचानकारक पाठ मेटाबू."
 
 #. i18n: file: useragentdlg.ui:215
 #. i18n: ectx: property (whatsThis), widget (KPushButton, deleteAllButton)
 #: rc.cpp:621
 msgid "Delete all identifiers."
-msgstr ""
+msgstr "सभटा पहचानकारक मेटाबू."
 
 #. i18n: file: useragentselectordlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
@@ -1612,7 +1629,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, siteLabel)
 #: rc.cpp:633
 msgid "&When browsing the following site:"
-msgstr ""
+msgstr "ई साइटसभ केँ ब्राउज करैत हुए: (&W)"
 
 #. i18n: file: useragentselectordlg.ui:47
 #. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
@@ -1625,12 +1642,16 @@ msgid ""
 "specified above.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"अहाँक द्वारा उप्पर बताएल साइट पर जखन संपर्क कएल जएताह, तखन क' लेल ब्राउजर "
+"पहचानकारक चुनू.\n"
+"</qt>"
 
 #. i18n: file: useragentselectordlg.ui:50
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: rc.cpp:647
 msgid "&Use the following identification:"
-msgstr ""
+msgstr "निम्न पहचान उपयोग मे लिअ': (&U)"
 
 #. i18n: file: useragentselectordlg.ui:74
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
@@ -1643,12 +1664,15 @@ msgid ""
 "machine.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"रिमोट मशीन मे भेजल जाएबला वास्तविक ब्राउजर पहचान.\n"
+"</qt>"
 
 #. i18n: file: useragentselectordlg.ui:77
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
 #: rc.cpp:660
 msgid "Real identification:"
-msgstr ""
+msgstr "वास्तविक पहिचानः"
 
 #: smbrodlg.cpp:48
 msgid "These settings apply to network browsing only."
@@ -1656,11 +1680,11 @@ msgstr ""
 
 #: smbrodlg.cpp:52
 msgid "Default user name:"
-msgstr ""
+msgstr "डिफाल्ट प्रयोक्ता नामः"
 
 #: smbrodlg.cpp:60
 msgid "Default password:"
-msgstr ""
+msgstr "डिफाल्ट पासवर्डः"
 
 #: smbrodlg.cpp:179
 msgid ""
@@ -1685,11 +1709,11 @@ msgstr ""
 
 #: useragentdlg.cpp:80
 msgid "Add Identification"
-msgstr ""
+msgstr "पहचान जोडू"
 
 #: useragentdlg.cpp:154
 msgid "Modify Identification"
-msgstr ""
+msgstr "पहचान परिवर्धित करू"
 
 #: useragentdlg.cpp:209
 #, kde-format
@@ -1697,10 +1721,12 @@ msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
 "want to replace it?</center></qt>"
 msgstr ""
+"<qt><center>एकटा उपलब्ध पहचान मिल गेल<br/><b>%1</b><br/>की अहाँ एकरा बदलब चाहैत छी?"
+"</center></qt>"
 
 #: useragentdlg.cpp:214
 msgid "Duplicate Identification"
-msgstr ""
+msgstr "पहिचान अनुकृति"
 
 #: useragentdlg.cpp:396
 msgid ""

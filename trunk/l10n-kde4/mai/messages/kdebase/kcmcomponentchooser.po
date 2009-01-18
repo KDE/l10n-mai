@@ -8,13 +8,14 @@ msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-12-31 11:06+0100\n"
-"PO-Revision-Date: 2009-01-17 23:20+0530\n"
+"PO-Revision-Date: 2009-01-18 15:27+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: componentchooser.cpp:146
@@ -26,6 +27,8 @@ msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
 msgstr ""
+"<qt>अहाँ अपन पसंद केर मूलभूत अवयव केँ बदलने छी. की अहाँ परिवर्तनसभ केँ अखन सहेजब चाहब?</"
+"qt>"
 
 #: componentchooser.cpp:165
 msgid "No description available"
@@ -36,19 +39,19 @@ msgstr "केओ विवरण उपलब्ध नहि"
 msgid ""
 "Choose from the list below which component should be used by default for the "
 "%1 service."
-msgstr ""
+msgstr " %1 सेवा क' लेल मूलभूत द्वारा उपयोग मे आबैबला अवयव केँ निम्न सूची मे सँ चुनू."
 
 #: componentchooserbrowser.cpp:102
 msgid "Select preferred Web browser application:"
-msgstr ""
+msgstr "पसंदीदा वेब ब्राउजर अनुप्रयोगक चुनू:"
 
 #: componentchooseremail.cpp:77
 msgid "Select preferred email client:"
-msgstr ""
+msgstr "मनपसिन्न इ-मेल क्लाएंट चुनू:"
 
 #: componentchooserterminal.cpp:97
 msgid "Select preferred terminal application:"
-msgstr ""
+msgstr "मनपसिन्न टर्मिनल अनुप्रयोग चुनू:"
 
 #: componentchooserwm.cpp:89
 msgid "The new window manager will be used when KDE is started the next time."
@@ -111,15 +114,15 @@ msgstr ""
 
 #: kcm_componentchooser.cpp:46
 msgid "kcmcomponentchooser"
-msgstr ""
+msgstr "केसीएमकम्पोनेंटचूजर"
 
 #: kcm_componentchooser.cpp:46
 msgid "Component Chooser"
-msgstr ""
+msgstr "अवयव चयनक"
 
 #: kcm_componentchooser.cpp:48
 msgid "(c), 2002 Joseph Wenninger"
-msgstr ""
+msgstr "(c), 2002 जोसेफ वेननिंगर"
 
 #: kcm_componentchooser.cpp:50
 msgid "Joseph Wenninger"
@@ -136,19 +139,19 @@ msgstr[1] ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
-msgstr ""
+msgstr "<qt>खोलें <b>एचटीटीपी</b> तथा <b>एचटीटीपीएस</b> यूआरएल्स</qt>"
 
 #. i18n: file: browserconfig_ui.ui:19
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
 #: rc.cpp:6
 msgid "in an application based on the contents of the URL"
-msgstr ""
+msgstr "यूआरएल केर अवयवसभ पर आधारित एकटा अनुप्रयोग"
 
 #. i18n: file: browserconfig_ui.ui:29
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
 #: rc.cpp:9
 msgid "in the following browser:"
-msgstr ""
+msgstr "निम्न ब्राउजर मे:"
 
 #. i18n: file: browserconfig_ui.ui:64
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
@@ -178,7 +181,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: rc.cpp:18
 msgid "Default Component"
-msgstr ""
+msgstr "डिफाल्ट अवयव"
 
 #. i18n: file: componentchooser_ui.ui:27
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox2)
@@ -187,13 +190,13 @@ msgid ""
 "Here you can read a small description of the currently selected component. "
 "To change the selected component, click on the list to the left. To change "
 "the component program,  please choose it below."
-msgstr ""
+msgstr "एतए अहाँ मोजुदा मे चुनल गेल अवयव केर संबंध मे छोट सन वर्णन पढि सकैत छी. चुनल गेल अवयव केँ बदलबाक लेल, बम्माँ देल सूची पर क्लिक करू. अवयव प्रोग्राम केँ बदलब क' लेल नीच्चाँ देल मे सँ चुनू."
 
 #. i18n: file: componentchooser_ui.ui:30
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
 #: rc.cpp:24
 msgid "Component Description"
-msgstr ""
+msgstr "अवयव वर्णन"
 
 #. i18n: file: componentchooser_ui.ui:52
 #. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
@@ -215,25 +218,25 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: rc.cpp:33
 msgid "Kmail is the standard Mail program for the KDE desktop."
-msgstr ""
+msgstr "केडीइ डेस्कटाप क' लेल के-मेल एकटा मानक मेल प्रोग्राम अछि."
 
 #. i18n: file: emailclientconfig_ui.ui:15
 #. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
 #: rc.cpp:36
 msgid "&Use KMail as preferred email client"
-msgstr ""
+msgstr "के-मेल केँ मनपसिन्न क्लाइंटक रूपेँ इस्तेमाल करू (&U)"
 
 #. i18n: file: emailclientconfig_ui.ui:22
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
 #: rc.cpp:39
 msgid "Select this option if you want to use any other mail program."
-msgstr ""
+msgstr "जँ अहाँ आन मेल प्रोग्राम क' उपयोग कएनाइ चाहैत छी तँ एहि विकल्प केँ चुनू."
 
 #. i18n: file: emailclientconfig_ui.ui:25
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
 #: rc.cpp:42
 msgid "Use a different &email client:"
-msgstr ""
+msgstr "एकटा भिन्न क्लाएंटक इस्तेमाल करू: (&e)"
 
 #. i18n: file: emailclientconfig_ui.ui:53
 #. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
@@ -244,6 +247,9 @@ msgid ""
 "Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
 "text</li> <li>%A: Attachment </li> <li>%u: Full mailto: URL </li></ul>"
 msgstr ""
+"<ul> <li>%t: पएनिहारक पता</li> <li>%s: विषय</li> <li>%c: कार्बन कापी (CC)</"
+"li> <li>%b: ब्लाइंड कार्बन कापी (बीसीसी)</li> <li>%B: टैम्प्लेट बाडी पाठ</li> <li>%"
+"A: संलग्नक</li> <li>%u: पूरे इमेल हिनका: यूआरएल </li></ul>"
 
 #. i18n: file: emailclientconfig_ui.ui:56
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
@@ -263,7 +269,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
 #: rc.cpp:53
 msgid "Click here to browse for the mail program file."
-msgstr ""
+msgstr "डाक प्रोग्राम फाइल केँ ब्राउज करब क' लेल एतय क्लिक करू."
 
 #. i18n: file: emailclientconfig_ui.ui:99
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
@@ -272,12 +278,14 @@ msgid ""
 "Activate this option if you want the selected email client to be executed in "
 "a terminal (e.g. <em>Konsole</em>)."
 msgstr ""
+"ई विकल्प केँ सक्रिय करू जँ अहाँ चाहैत छी जे चुनल गेल इ-मेल क्लाएंट टर्मिनल मे चले (जहिना- "
+"<em>Konsole</em>)."
 
 #. i18n: file: emailclientconfig_ui.ui:102
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
 #: rc.cpp:62
 msgid "&Run in terminal"
-msgstr ""
+msgstr "टर्मिनल मे चलाबू (&R)"
 
 #. i18n: file: filemanagerconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -295,13 +303,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
 #: rc.cpp:74
 msgid "&Use Konsole as terminal application"
-msgstr ""
+msgstr "कंसोल केँ टर्मिनल अनुप्रयोगक तरह इस्तेमाल करू (&U)"
 
 #. i18n: file: terminalemulatorconfig_ui.ui:19
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
 #: rc.cpp:77
 msgid "Use a different &terminal program:"
-msgstr ""
+msgstr "एकटा भिन्न टर्मिनल अनुप्रयोगक इस्तेमाल करू (&t)"
 
 #. i18n: file: terminalemulatorconfig_ui.ui:47
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, terminalLE)
@@ -317,7 +325,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
 #: rc.cpp:83
 msgid "Click here to browse for terminal program."
-msgstr ""
+msgstr "टर्मिनल प्रोग्राम केँ ब्राउज करब क' लेल एतय क्लिक करू."
 
 #. i18n: file: wmconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
