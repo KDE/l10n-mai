@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libtaskmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-28 09:55+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-17 22:49+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,83 +18,107 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: task.cpp:282
-msgctxt "marks that a task has been modified"
+#: task.cpp:296
+#, fuzzy
+#| msgctxt "marks that a task has been modified"
+#| msgid "modified"
 msgid "modified"
 msgstr "परिवर्धित"
 
-#: taskactions.cpp:112
-msgid "Mi&nimize"
-msgstr "छोट करु (&n)"
-
-#: taskactions.cpp:123
-msgid "Ma&ximize"
-msgstr "अधिकतम करु (&x)"
-
-#: taskactions.cpp:133
-msgid "&Shade"
-msgstr "छायांकित(&S)"
-
-#: taskactions.cpp:144
-msgid "Re&size"
-msgstr "नवीन आकार (&s)"
-
-#: taskactions.cpp:153
-msgid "&Move"
-msgstr "घसकाबू (&M)"
-
-#: taskactions.cpp:162
-msgid "&Close"
-msgstr "बन्न करु (&C)"
-
-#: taskactions.cpp:173
+#: taskrmbmenu.cpp:84
 msgid "&To Current Desktop"
 msgstr "मोजुदा डेस्कटाप पर (&T)"
 
-#: taskactions.cpp:192
-msgid "&All Desktops"
-msgstr "सभटा डेस्कटाप (&A)"
+#: taskrmbmenu.cpp:95
+msgid "&Move"
+msgstr "घसकाबू (&M)"
 
-#: taskactions.cpp:212
-msgid "To &Desktop"
-msgstr "डेस्कटाप पर (&D)"
+#: taskrmbmenu.cpp:98
+msgid "Re&size"
+msgstr "नवीन आकार (&s)"
 
-#: taskactions.cpp:225
-msgid "Keep &Above Others"
-msgstr "आनसभ केर उप्पर राखू (&A)"
+#: taskrmbmenu.cpp:101
+msgid "Mi&nimize"
+msgstr "छोट करु (&n)"
 
-#: taskactions.cpp:235
-msgid "Keep &Below Others"
-msgstr "आनसभ केर नीच्चाँ राखू (&B)"
+#: taskrmbmenu.cpp:106
+msgid "Ma&ximize"
+msgstr "अधिकतम करु (&x)"
 
-#: taskactions.cpp:245
-msgid "&Fullscreen"
-msgstr "संपूर्ण स्क्रीन (&F)"
+#: taskrmbmenu.cpp:111
+msgid "&Shade"
+msgstr "छायांकित(&S)"
 
-#: taskactions.cpp:255
+#: taskrmbmenu.cpp:118
+msgid "&Close"
+msgstr "बन्न करु (&C)"
+
+#: taskrmbmenu.cpp:146
+#, fuzzy
+#| msgid "&To Current Desktop"
+msgid "All &to Current Desktop"
+msgstr "मोजुदा डेस्कटाप पर (&T)"
+
+#: taskrmbmenu.cpp:161
+#, fuzzy
+#| msgid "Mi&nimize"
+msgid "Mi&nimize All"
+msgstr "छोट करु (&n)"
+
+#: taskrmbmenu.cpp:174
+#, fuzzy
+#| msgid "Ma&ximize"
+msgid "Ma&ximize All"
+msgstr "अधिकतम करु (&x)"
+
+#: taskrmbmenu.cpp:187
+msgid "&Restore All"
+msgstr ""
+
+#: taskrmbmenu.cpp:202
+#, fuzzy
+#| msgid "&Close"
+msgid "&Close All"
+msgstr "बन्न करु (&C)"
+
+#: taskrmbmenu.cpp:209
 msgid "Ad&vanced"
 msgstr "विस्तृत (&v)"
 
-#: taskactions.cpp:266
-msgid "&Leave Group"
-msgstr "समूह छोड़ू (&L)"
+#: taskrmbmenu.cpp:212
+msgid "Keep &Above Others"
+msgstr "आनसभ केर उप्पर राखू (&A)"
 
-#: taskactions.cpp:281
-msgid "&Edit Group"
-msgstr "समूहकेँ संपादित करू (&E)"
+#: taskrmbmenu.cpp:218
+msgid "Keep &Below Others"
+msgstr "आनसभ केर नीच्चाँ राखू (&B)"
 
-#: strategies/manualgroupingstrategy.cpp:86
-msgid "Leave Group"
-msgstr "समूहकेँ छोड़ू"
+#: taskrmbmenu.cpp:224
+msgid "&Fullscreen"
+msgstr "संपूर्ण स्क्रीन (&F)"
 
-#: strategies/manualgroupingstrategy.cpp:93
-msgid "Remove Group"
-msgstr "समूह मेटाबू"
+#: taskrmbmenu.cpp:240
+msgid "To &Desktop"
+msgstr "डेस्कटाप पर (&D)"
 
-#: strategies/programgroupingstrategy.cpp:69
-msgid "Allow This Program to Be Grouped"
-msgstr "ई प्रोग्रामकेँ समूहित करबाक लेल स्वीकृति दिअ'"
+#: taskrmbmenu.cpp:242 taskrmbmenu.cpp:267
+msgid "&All Desktops"
+msgstr "सभटा डेस्कटाप (&A)"
 
-#: strategies/programgroupingstrategy.cpp:71
-msgid "Do Not Allow This Program to Be Grouped"
-msgstr "ई प्रोग्रामकेँ समूहित करबाक लेल स्वीकृति नहि दिअ'"
+#~ msgid "&Leave Group"
+#~ msgstr "समूह छोड़ू (&L)"
+
+#~ msgid "&Edit Group"
+#~ msgstr "समूहकेँ संपादित करू (&E)"
+
+#~ msgid "Leave Group"
+#~ msgstr "समूहकेँ छोड़ू"
+
+#~ msgid "Remove Group"
+#~ msgstr "समूह मेटाबू"
+
+#~ msgid "Allow This Program to Be Grouped"
+#~ msgstr "ई प्रोग्रामकेँ समूहित करबाक लेल स्वीकृति दिअ'"
+
+#~ msgid "Do Not Allow This Program to Be Grouped"
+#~ msgstr "ई प्रोग्रामकेँ समूहित करबाक लेल स्वीकृति नहि दिअ'"

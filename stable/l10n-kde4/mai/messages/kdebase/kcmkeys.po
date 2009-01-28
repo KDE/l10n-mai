@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-05 10:42+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-18 15:30+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -20,15 +20,15 @@ msgstr ""
 "\n"
 "\n"
 
-#: globalshortcuts.cpp:56
-msgid "Import Scheme..."
+#: globalshortcuts.cpp:67
+msgid "Import scheme..."
 msgstr ""
 
-#: globalshortcuts.cpp:61
-msgid "Export Scheme..."
+#: globalshortcuts.cpp:72
+msgid "Export scheme..."
 msgstr ""
 
-#: globalshortcuts.cpp:103
+#: globalshortcuts.cpp:112
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -37,11 +37,11 @@ msgstr ""
 "संदेश: %1\n"
 "त्रुटि: %2"
 
-#: globalshortcuts.cpp:108
+#: globalshortcuts.cpp:116
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "केडीई वैश्विक शार्टकट डेमन सँ सम्पर्कमे असफल\n"
 
-#: globalshortcuts.cpp:234
+#: globalshortcuts.cpp:182
 msgid ""
 "Your current changes will be lost if you load another scheme before saving "
 "this one"
@@ -49,15 +49,17 @@ msgstr ""
 "एकरा सहेजएसँ पहिले जँ अहाँ आन योजना लोड कएनाइ चाहब तँ अहाँक मोजुदा परिवर्तन गुम भ' "
 "जाएत."
 
-#: globalshortcuts.cpp:235
-msgid "Load Shortcurt Scheme"
-msgstr ""
+#: globalshortcuts.cpp:183
+#, fuzzy
+#| msgid "Select a shortcut scheme file"
+msgid "Load shortcurt scheme"
+msgstr "कोनो शार्टकट योजना फाइल चुनू"
 
-#: globalshortcuts.cpp:236
+#: globalshortcuts.cpp:184
 msgid "Load"
 msgstr "लोड करू"
 
-#: globalshortcuts.cpp:249
+#: globalshortcuts.cpp:197
 #, kde-format
 msgid "This file (%1) does not exist. You can only select local files."
 msgstr "ई फाइल (%1) मोजुद नहि अछि. अहाँ सिर्फ स्थानीय फाइल सँ चुनि सकैत छी."
@@ -77,8 +79,10 @@ msgstr "शार्टकटसभ:"
 #. i18n: file: select_scheme_dialog.ui:20
 #. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
 #: rc.cpp:9
-msgid "Select Shortcut Scheme"
-msgstr ""
+#, fuzzy
+#| msgid "Select a shortcut scheme file"
+msgid "Select a shortcut scheme"
+msgstr "कोनो शार्टकट योजना फाइल चुनू"
 
 #. i18n: file: select_scheme_dialog.ui:47
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
@@ -89,7 +93,7 @@ msgstr "मानक केडीई शार्टकट योजनामे
 #. i18n: file: select_scheme_dialog.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:15
-msgid "&Standard scheme:"
+msgid "&Standard Scheme"
 msgstr ""
 
 #. i18n: file: select_scheme_dialog.ui:100
@@ -101,5 +105,7 @@ msgstr "कोनो शार्टकट योजना फाइल चु�
 #. i18n: file: select_scheme_dialog.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:21
-msgid "&Path:"
+#, fuzzy
+#| msgid "&Path:"
+msgid "&Path"
 msgstr "पाथ (&P):"

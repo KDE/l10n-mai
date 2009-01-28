@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_dig_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-27 11:10+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-17 22:30+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,29 +18,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: clock.cpp:200
-msgid "General"
-msgstr "सामान्य"
-
-#: clock.cpp:344
+#: clock.cpp:276
 #, kde-format
 msgctxt "@label Short date: %1 day in the month, %2 short month name, %3 year"
 msgid "%1 %2 %3"
 msgstr "%1 %2 %3"
 
-#: clock.cpp:348
+#: clock.cpp:280
 #, kde-format
 msgctxt "@label Short date: %1 day in the month, %2 short month name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: clock.cpp:356
+#: clock.cpp:288
 #, kde-format
 msgctxt "@label Day of the week with date: %1 short day name, %2 short date"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: clock.cpp:363
+#: clock.cpp:295
 #, kde-format
 msgctxt ""
 "@label Date with currentTimezone: %1 day of the week with date, %2 "
@@ -48,204 +44,191 @@ msgctxt ""
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#. i18n: file: clockConfig.ui:16
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: clockConfig.ui:32
+#. i18n: ectx: attribute (title), widget (QWidget, AppearanceTab)
 #: rc.cpp:3
-msgid "Font style:"
-msgstr "फोन्ट शैली"
+msgid "Appearance"
+msgstr ""
 
-#. i18n: file: clockConfig.ui:49
-#. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontBold)
+#. i18n: file: clockConfig.ui:38
+#. i18n: ectx: property (text), widget (QLabel, plainClockFontLabel)
 #: rc.cpp:6
-msgid "Check if you want the font in bold"
-msgstr "जाँचू जँ अहाँ फान्ट केँ बोल्ड राखब चाहैत छी"
+msgid "Plain clock font:"
+msgstr ""
 
-#. i18n: file: clockConfig.ui:52
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontBold)
-#: rc.cpp:9
-msgid "When this is checked, the clock font will be bold."
-msgstr "एकरा जाँचल जएबा पर क्लाक फान्ट गहराएल जाएत."
-
-#. i18n: file: clockConfig.ui:55
+#. i18n: file: clockConfig.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, plainClockFontBold)
-#: rc.cpp:12
+#: rc.cpp:9
 msgid "&Bold"
 msgstr "गाढा (&B)"
 
-#. i18n: file: clockConfig.ui:62
-#. i18n: ectx: property (toolTip), widget (QCheckBox, plainClockFontItalic)
-#: rc.cpp:15
-msgid "Check if you want the font in italic"
-msgstr "जाँचू जँ अहाँ फान्ट तिरछा राखब चाहैत छी"
-
-#. i18n: file: clockConfig.ui:65
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, plainClockFontItalic)
-#: rc.cpp:18
-msgid "When this is checked, the clock font will be in italic."
-msgstr "एकरा जाँचल जएबा पर क्लाक फान्ट तिरछा भए जाएत."
-
-#. i18n: file: clockConfig.ui:68
+#. i18n: file: clockConfig.ui:55
 #. i18n: ectx: property (text), widget (QCheckBox, plainClockFontItalic)
-#: rc.cpp:21
+#: rc.cpp:12
 msgid "&Italic"
 msgstr "तिरछा (&I)"
 
-#. i18n: file: clockConfig.ui:91
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:24
-msgid "Font color:"
-msgstr "फान्ट रंग:"
-
-#. i18n: file: clockConfig.ui:110
-#. i18n: ectx: property (toolTip), widget (QRadioButton, useThemeColor)
-#: rc.cpp:27
-msgid "Use current desktop theme color"
-msgstr "मोजुदा डेस्कटापक प्रसंग रंगक प्रयोग करू"
-
-#. i18n: file: clockConfig.ui:113
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, useThemeColor)
-#: rc.cpp:30
-msgid ""
-"This is default. The clock will get its font color from the current desktop "
-"theme."
-msgstr "ई मूलभूत छी. क्लाक अपन फान्ट रंग केँ अपने मोजुदा डेस्कटाप प्रसंग सँ पाएत."
-
-#. i18n: file: clockConfig.ui:116
-#. i18n: ectx: property (text), widget (QRadioButton, useThemeColor)
-#: rc.cpp:33
-msgid "Use theme color"
-msgstr "प्रसंग रंगक प्रयोग करू"
-
-#. i18n: file: clockConfig.ui:134
-#. i18n: ectx: property (toolTip), widget (QRadioButton, useCustomColor)
-#: rc.cpp:36
-msgid "Choose your own font color"
-msgstr "अपन फान्ट रंग चुनू"
-
-#. i18n: file: clockConfig.ui:137
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, useCustomColor)
-#: rc.cpp:39
-msgid ""
-"When checked you can choose a custom color for the clock font by clicking on "
-"the color widget on the right."
-msgstr ""
-"जखन जाँचल जाइछ अहाँ पसंदीदा रंग चुनि सकैत छी क्लाक फान्टक लेल दहिन्ना ओर रंग विजेट पर "
-"क्लिक कएक."
-
-#. i18n: file: clockConfig.ui:140
-#. i18n: ectx: property (text), widget (QRadioButton, useCustomColor)
-#: rc.cpp:42
-msgid "Use custom color"
+#. i18n: file: clockConfig.ui:62
+#. i18n: ectx: property (text), widget (QCheckBox, useCustomColor)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Use custom color"
+msgid "Custom color"
 msgstr "पसंदीदा रंगक प्रयोग करू"
 
-#. i18n: file: clockConfig.ui:150
-#. i18n: ectx: property (toolTip), widget (KColorButton, plainClockColor)
-#: rc.cpp:45
-msgid "Color chooser"
-msgstr "रँग चयनक"
+#. i18n: file: clockConfig.ui:76
+#. i18n: ectx: property (text), widget (QCheckBox, showDate)
+#: rc.cpp:18
+#, fuzzy
+#| msgid "Show date:"
+msgid "Show &date"
+msgstr "देखाबू दिनांक:"
 
-#. i18n: file: clockConfig.ui:153
-#. i18n: ectx: property (whatsThis), widget (KColorButton, plainClockColor)
-#: rc.cpp:48
-msgid ""
-"Click on this button and the KDE standard color dialog will show. You can "
-"then choose the new color you want for your clock."
-msgstr ""
-"ई बटन पर क्लिक करू आओर KDE मानक रंग संवाद देखाए देत. अहाँ तखन नवीन रंग चुनि सकैत छी जे "
-"अहाँ अपन क्लाक कए लेल चाहैत छी."
-
-#. i18n: file: clockConfig.ui:177
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showDate)
-#: rc.cpp:51
-msgid "Display the date of the day"
-msgstr "दिनक तिथि देखाबू"
-
-#. i18n: file: clockConfig.ui:226
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showDay)
-#: rc.cpp:54
-msgid "Display day of the week"
-msgstr "सप्ताहक दिन देखाबू"
-
-#. i18n: file: clockConfig.ui:229
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, showDay)
-#: rc.cpp:57
-msgid "Add the day of the week to the date display."
-msgstr "तिथि प्रदर्शनमे सप्ताहक दिन जोडू."
-
-#. i18n: file: clockConfig.ui:232
+#. i18n: file: clockConfig.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, showDay)
-#: rc.cpp:60
+#: rc.cpp:21
 msgid "Show day of the &week"
 msgstr "सप्ताह क' दिन देखाबू (&w)"
 
-#. i18n: file: clockConfig.ui:258
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showYear)
-#: rc.cpp:63
-msgid "Display the current year"
-msgstr "मोजूदा साल केँ देखाबू"
-
-#. i18n: file: clockConfig.ui:261
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, showYear)
-#: rc.cpp:66
-msgid "Add the year to the date string."
-msgstr "तिथि स्ट्रिंगमे साल जोडू."
-
-#. i18n: file: clockConfig.ui:264
+#. i18n: file: clockConfig.ui:96
 #. i18n: ectx: property (text), widget (QCheckBox, showYear)
-#: rc.cpp:69
+#: rc.cpp:24
 msgid "Show &year"
 msgstr "वर्ष देखाबू (&y)"
 
-#. i18n: file: clockConfig.ui:291
-#. i18n: ectx: property (toolTip), widget (QCheckBox, showTimeZone)
-#: rc.cpp:72
-msgid "Display the time zone name"
-msgstr "समय क्षेत्रक नाम देखाबू"
+#. i18n: file: clockConfig.ui:103
+#. i18n: ectx: property (text), widget (QCheckBox, showTimezone)
+#: rc.cpp:27
+#, fuzzy
+#| msgid "Show time zone:"
+msgid "Show &timezone"
+msgstr "देखाबू समय क्षेत्र:"
 
-#. i18n: file: clockConfig.ui:294
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, showTimeZone)
-#: rc.cpp:75
-msgid "Display the time zone name under the time."
-msgstr "समयक अंतर्गत समय क्षेत्र नाम देखाबू."
-
-#. i18n: file: clockConfig.ui:321
+#. i18n: file: clockConfig.ui:110
 #. i18n: ectx: property (toolTip), widget (QCheckBox, secondsCheckbox)
-#: rc.cpp:78
+#: rc.cpp:30
 msgid "Show the seconds"
 msgstr "सकेंड देखाबू "
 
-#. i18n: file: clockConfig.ui:324
+#. i18n: file: clockConfig.ui:113
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, secondsCheckbox)
-#: rc.cpp:81
+#: rc.cpp:33
 msgid "Check this if you want to show the seconds."
 msgstr "जाँचू जँ अहाँ सकेंड देखओनाइ चाहैत छी"
 
-#. i18n: file: clockConfig.ui:368
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:84
-msgid "Font"
-msgstr "फान्ट"
-
-#. i18n: file: clockConfig.ui:381
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:87
-msgid "Information"
-msgstr "सूचना"
-
-#. i18n: file: clockConfig.ui:404
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:90
-msgid "Show time zone:"
-msgstr "देखाबू समय क्षेत्र:"
-
-#. i18n: file: clockConfig.ui:417
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:93
-msgid "Show seconds:"
+#. i18n: file: clockConfig.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox, secondsCheckbox)
+#: rc.cpp:36
+#, fuzzy
+#| msgid "Show seconds:"
+msgid "Show &seconds"
 msgstr "देखाबू सकेण्ड:"
 
-#. i18n: file: clockConfig.ui:430
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:96
-msgid "Show date:"
-msgstr "देखाबू दिनांक:"
+#. i18n: file: clockConfig.ui:137
+#. i18n: ectx: attribute (title), widget (QWidget, TimezonesTab)
+#: rc.cpp:39
+msgid "Ti&mezones"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, localTimeZone)
+#: rc.cpp:42
+msgid "Use &local timezone"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:157
+#. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
+#: rc.cpp:45
+msgid "Area"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:162
+#. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
+#: rc.cpp:48
+msgid "Region"
+msgstr ""
+
+#. i18n: file: clockConfig.ui:167
+#. i18n: ectx: property (text), widget (KTimeZoneWidget, timeZones)
+#: rc.cpp:51
+msgid "Comment"
+msgstr ""
+
+#~ msgid "General"
+#~ msgstr "सामान्य"
+
+#~ msgid "Font style:"
+#~ msgstr "फोन्ट शैली"
+
+#~ msgid "Check if you want the font in bold"
+#~ msgstr "जाँचू जँ अहाँ फान्ट केँ बोल्ड राखब चाहैत छी"
+
+#~ msgid "When this is checked, the clock font will be bold."
+#~ msgstr "एकरा जाँचल जएबा पर क्लाक फान्ट गहराएल जाएत."
+
+#~ msgid "Check if you want the font in italic"
+#~ msgstr "जाँचू जँ अहाँ फान्ट तिरछा राखब चाहैत छी"
+
+#~ msgid "When this is checked, the clock font will be in italic."
+#~ msgstr "एकरा जाँचल जएबा पर क्लाक फान्ट तिरछा भए जाएत."
+
+#~ msgid "Font color:"
+#~ msgstr "फान्ट रंग:"
+
+#~ msgid "Use current desktop theme color"
+#~ msgstr "मोजुदा डेस्कटापक प्रसंग रंगक प्रयोग करू"
+
+#~ msgid ""
+#~ "This is default. The clock will get its font color from the current "
+#~ "desktop theme."
+#~ msgstr "ई मूलभूत छी. क्लाक अपन फान्ट रंग केँ अपने मोजुदा डेस्कटाप प्रसंग सँ पाएत."
+
+#~ msgid "Use theme color"
+#~ msgstr "प्रसंग रंगक प्रयोग करू"
+
+#~ msgid "Choose your own font color"
+#~ msgstr "अपन फान्ट रंग चुनू"
+
+#~ msgid ""
+#~ "When checked you can choose a custom color for the clock font by clicking "
+#~ "on the color widget on the right."
+#~ msgstr ""
+#~ "जखन जाँचल जाइछ अहाँ पसंदीदा रंग चुनि सकैत छी क्लाक फान्टक लेल दहिन्ना ओर रंग विजेट पर "
+#~ "क्लिक कएक."
+
+#~ msgid "Color chooser"
+#~ msgstr "रँग चयनक"
+
+#~ msgid ""
+#~ "Click on this button and the KDE standard color dialog will show. You can "
+#~ "then choose the new color you want for your clock."
+#~ msgstr ""
+#~ "ई बटन पर क्लिक करू आओर KDE मानक रंग संवाद देखाए देत. अहाँ तखन नवीन रंग चुनि सकैत छी "
+#~ "जे अहाँ अपन क्लाक कए लेल चाहैत छी."
+
+#~ msgid "Display the date of the day"
+#~ msgstr "दिनक तिथि देखाबू"
+
+#~ msgid "Display day of the week"
+#~ msgstr "सप्ताहक दिन देखाबू"
+
+#~ msgid "Add the day of the week to the date display."
+#~ msgstr "तिथि प्रदर्शनमे सप्ताहक दिन जोडू."
+
+#~ msgid "Display the current year"
+#~ msgstr "मोजूदा साल केँ देखाबू"
+
+#~ msgid "Add the year to the date string."
+#~ msgstr "तिथि स्ट्रिंगमे साल जोडू."
+
+#~ msgid "Display the time zone name"
+#~ msgstr "समय क्षेत्रक नाम देखाबू"
+
+#~ msgid "Display the time zone name under the time."
+#~ msgstr "समयक अंतर्गत समय क्षेत्र नाम देखाबू."
+
+#~ msgid "Font"
+#~ msgstr "फान्ट"
+
+#~ msgid "Information"
+#~ msgstr "सूचना"
