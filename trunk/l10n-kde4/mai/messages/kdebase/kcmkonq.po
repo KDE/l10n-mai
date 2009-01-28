@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-12 10:00+0100\n"
+"POT-Creation-Date: 2009-01-28 09:13+0100\n"
 "PO-Revision-Date: 2009-01-18 15:30+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -76,7 +76,7 @@ msgid ""
 "holding the Shift key while calling 'Move to Trash'."
 msgstr ""
 
-#: globalpaths.cpp:95
+#: globalpaths.cpp:86
 msgid ""
 "<h1>Paths</h1>\n"
 "This module allows you to choose where in the filesystem the files on your "
@@ -84,22 +84,26 @@ msgid ""
 "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
 msgstr ""
 
-#: globalpaths.cpp:102
-msgid "Des&ktop path:"
+#: globalpaths.cpp:91
+#, fuzzy
+#| msgid "Des&ktop path:"
+msgid "Desktop path:"
 msgstr "डेस्कटाप पथ: (&k)"
 
-#: globalpaths.cpp:110
+#: globalpaths.cpp:92
 msgid ""
 "This folder contains all the files which you see on your desktop. You can "
 "change the location of this folder if you want to, and the contents will "
 "move automatically to the new location as well."
 msgstr ""
 
-#: globalpaths.cpp:118
-msgid "A&utostart path:"
+#: globalpaths.cpp:97
+#, fuzzy
+#| msgid "A&utostart path:"
+msgid "Autostart path:"
 msgstr "स्वतः प्रारंभ पथः (&u)"
 
-#: globalpaths.cpp:126
+#: globalpaths.cpp:98
 msgid ""
 "This folder contains applications or links to applications (shortcuts) that "
 "you want to have started automatically whenever KDE starts. You can change "
@@ -107,38 +111,124 @@ msgid ""
 "automatically to the new location as well."
 msgstr ""
 
-#: globalpaths.cpp:135
-msgid "D&ocuments path:"
+#: globalpaths.cpp:104
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Documents path:"
 msgstr "दस्ताबेज क' पथः (&o)"
 
-#: globalpaths.cpp:143
+#: globalpaths.cpp:105
 msgid ""
 "This folder will be used by default to load or save documents from or to."
 msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
 
-#: globalpaths.cpp:271 globalpaths.cpp:288
+#: globalpaths.cpp:108
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Downloads path:"
+msgstr "दस्ताबेज क' पथः (&o)"
+
+#: globalpaths.cpp:109
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:112
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Movies path:"
+msgstr "दस्ताबेज क' पथः (&o)"
+
+#: globalpaths.cpp:113
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:116
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Pictures path:"
+msgstr "दस्ताबेज क' पथः (&o)"
+
+#: globalpaths.cpp:117
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:120
+msgid "Music path:"
+msgstr ""
+
+#: globalpaths.cpp:121
+#, fuzzy
+#| msgid ""
+#| "This folder will be used by default to load or save documents from or to."
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#: globalpaths.cpp:257 globalpaths.cpp:275
 msgid "Autostart"
 msgstr "स्वतः चालू"
 
-#: globalpaths.cpp:275
+#: globalpaths.cpp:261
 msgid "Desktop"
 msgstr "डेस्कटाप"
 
-#: globalpaths.cpp:351
+#: globalpaths.cpp:285
+#, fuzzy
+#| msgid "D&ocuments path:"
+msgid "Documents"
+msgstr "दस्ताबेज क' पथः (&o)"
+
+#: globalpaths.cpp:288
+msgid "Downloads"
+msgstr ""
+
+#: globalpaths.cpp:291
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgid "Movies"
+msgstr "घसकाबू"
+
+#: globalpaths.cpp:294
+msgid "Pictures"
+msgstr ""
+
+#: globalpaths.cpp:297
+msgid "Music"
+msgstr ""
+
+#: globalpaths.cpp:336
 #, kde-format
 msgid ""
 "The path for '%1' has been changed.\n"
 "Do you want the files to be moved from '%2' to '%3'?"
 msgstr ""
 
-#: globalpaths.cpp:352
+#: globalpaths.cpp:337
 msgid "Confirmation Required"
 msgstr "पुष्टि आवश्यक"
 
-#: globalpaths.cpp:352
-msgctxt "Move desktop files from old to new place"
+#: globalpaths.cpp:338
+#, fuzzy
+#| msgctxt "Move desktop files from old to new place"
+#| msgid "Move"
+msgctxt "Move files from old to new place"
 msgid "Move"
 msgstr "घसकाबू"
+
+#: globalpaths.cpp:339
+msgctxt "Use the new directory but do not move files"
+msgid "Do not Move"
+msgstr ""
 
 #: kcustommenueditor.cpp:96
 msgid "Menu Editor"
