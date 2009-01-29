@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_pager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-12 18:54+0530\n"
 "Last-Translator: \n"
 "Language-Team: maithili <en@li.org>\n"
@@ -20,29 +20,27 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: pager.cpp:148
+#: pager.cpp:173
 msgid "&Configure Desktops..."
 msgstr "डेस्कटाप कान्फिगर करू... (&C)"
 
-#: pager.cpp:174
-#, fuzzy
-#| msgid "Desktop number"
-msgid "Desktop Number"
-msgstr "डेस्कटाप सँख्या"
+#: pager.cpp:193
+msgid "General"
+msgstr "सामान्य"
 
-#: pager.cpp:175
-#, fuzzy
-#| msgid "Desktop name"
-msgid "Desktop Name"
-msgstr "डेस्कटाप नाम"
+#: pager.cpp:1139
+#, kde-format
+msgid "One window:"
+msgid_plural "%1 windows:"
+msgstr[0] "एकटा विंडो:"
+msgstr[1] "%1 विंडो:"
 
-#: pager.cpp:176
-msgid "None"
-msgstr ""
-
-#: pager.cpp:178
-msgid "What will appear when the mouse is over a desktop miniature"
-msgstr ""
+#: pager.cpp:1143
+#, kde-format
+msgid "and 1 other"
+msgid_plural "and %1 others"
+msgstr[0] "आओर 1 आन"
+msgstr[1] "आओर %1 आन"
 
 #. i18n: file: pagerConfig.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, pagerConfig)
@@ -52,51 +50,60 @@ msgstr ""
 msgid "Configure Pager"
 msgstr "पेजर कान्फिगर करू"
 
-#. i18n: file: pagerConfig.ui:25
-#. i18n: ectx: property (text), widget (QLabel, labelText)
+#. i18n: file: pagerConfig.ui:43
+#. i18n: ectx: property (text), widget (QLabel, displayLabel)
 #: rc.cpp:9
 #, fuzzy
 #| msgid "Display text:"
-msgid "Displayed text:"
+msgid "Display text:"
 msgstr "प्रदर्शक पाठ:"
 
-#. i18n: file: pagerConfig.ui:35
-#. i18n: ectx: property (text), widget (QCheckBox, showWindowIconsCheckBox)
+#. i18n: file: pagerConfig.ui:53
+#. i18n: ectx: property (text), widget (QRadioButton, desktopNumberRadioButton)
 #: rc.cpp:12
 #, fuzzy
+#| msgid "Desktop number"
+msgid "Desktop number"
+msgstr "डेस्कटाप सँख्या"
+
+#. i18n: file: pagerConfig.ui:60
+#. i18n: ectx: property (text), widget (QRadioButton, desktopNameRadioButton)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Desktop name"
+msgid "Desktop name"
+msgstr "डेस्कटाप नाम"
+
+#. i18n: file: pagerConfig.ui:67
+#. i18n: ectx: property (text), widget (QRadioButton, displayNoneRadioButton)
+#: rc.cpp:18
+msgid "No text"
+msgstr "कोनो पाठ नहि"
+
+#. i18n: file: pagerConfig.ui:74
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:21
+#, fuzzy
 #| msgid "Display icons:"
-msgid "Display window &icons"
+msgid "Display icons:"
 msgstr "प्रदर्शक चिह्न:"
 
-#. i18n: file: pagerConfig.ui:42
+#. i18n: file: pagerConfig.ui:94
 #. i18n: ectx: property (text), widget (QLabel, labelRows)
-#: rc.cpp:15
+#: rc.cpp:24
 msgid "Number of rows:"
 msgstr "पँक्तिक सँख्या:"
 
-#. i18n: file: pagerConfig.ui:52
+#. i18n: file: pagerConfig.ui:107
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinRows)
-#. i18n: file: pagerConfig.ui:55
+#. i18n: file: pagerConfig.ui:110
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinRows)
-#: rc.cpp:18 rc.cpp:21
+#: rc.cpp:27 rc.cpp:30
 msgid "Change the number of rows"
 msgstr "पँक्तिसभक सँख्या बदलू"
 
-#~ msgid "General"
-#~ msgstr "सामान्य"
-
-#~ msgid "One window:"
-#~ msgid_plural "%1 windows:"
-#~ msgstr[0] "एकटा विंडो:"
-#~ msgstr[1] "%1 विंडो:"
-
-#~ msgid "and 1 other"
-#~ msgid_plural "and %1 others"
-#~ msgstr[0] "आओर 1 आन"
-#~ msgstr[1] "आओर %1 आन"
-
-#~ msgid "No text"
-#~ msgstr "कोनो पाठ नहि"
-
-#~ msgid "Configure Desktops..."
-#~ msgstr "डेस्कटाप कान्फिगर करू"
+#. i18n: file: pagerConfig.ui:170
+#. i18n: ectx: property (text), widget (QPushButton, configureDesktopsButton)
+#: rc.cpp:33
+msgid "Configure Desktops..."
+msgstr "डेस्कटाप कान्फिगर करू"

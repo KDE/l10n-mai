@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-18 15:35+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -79,48 +79,51 @@ msgid "Use realtime scheduling"
 msgstr "रीयलटाइम शेड्यूलिंगक इस्तेमाल करू"
 
 #: kdesu.cpp:109
-msgid "Let command use existing dcopserver"
-msgstr ""
-
-#: kdesu.cpp:111
 msgid "Do not display ignore button"
 msgstr "अनदेखा करू बटन नहि देखाबू"
 
-#: kdesu.cpp:112
+#: kdesu.cpp:110
 msgid "Specify icon to use in the password dialog"
 msgstr "ासवर्ड समाद मे इस्तेमाल कएल जाएबलले प्रतीक केँ निर्दिष्ट ूें"
 
-#: kdesu.cpp:113
+#: kdesu.cpp:111
 msgid "Do not show the command to be run in the dialog"
 msgstr ""
 
-#: kdesu.cpp:136
+#: kdesu.cpp:115
+msgctxt ""
+"Transient means that the kdesu app will be attached to the app specified by "
+"the winid so that its like a dialog box rather than some separate program"
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr ""
+
+#: kdesu.cpp:140
 #, kde-format
 msgid "Command '%1' not found."
 msgstr "कमांड '%1' नहि भेटल."
 
-#: kdesu.cpp:211
+#: kdesu.cpp:215
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "अवैध प्राथमिकताः %1"
 
-#: kdesu.cpp:242
+#: kdesu.cpp:246
 msgid "No command specified."
 msgstr "कोनो कमांड उल्लेखित नहि अछि."
 
-#: kdesu.cpp:344
+#: kdesu.cpp:363
 msgid "Su returned with an error.\n"
 msgstr "एसयू एकटा त्रुटि केर सँग घुरैलक.\n"
 
-#: kdesu.cpp:367
+#: kdesu.cpp:386
 msgid "Command:"
 msgstr "कमांड:"
 
-#: kdesu.cpp:375
+#: kdesu.cpp:394
 msgid "realtime: "
 msgstr "रीयलटाइम:"
 
-#: kdesu.cpp:378
+#: kdesu.cpp:397
 msgid "Priority:"
 msgstr "प्राथमिकताः"
 
@@ -147,14 +150,20 @@ msgstr "%1 जहिना चलाबू"
 msgid "Please enter your password below."
 msgstr "कृप्या अपन पासवर्ड नीच्चाँ भरू"
 
-#: sudlg.cpp:37
+#: sudlg.cpp:38
 msgid ""
 "The action you requested needs <b>root privileges</b>. Please enter "
 "<b>root's</b> password below or click Ignore to continue with your current "
 "privileges."
 msgstr ""
 
-#: sudlg.cpp:41
+#: sudlg.cpp:42
+msgid ""
+"The action you requested needs <b>root privileges</b>. Please enter "
+"<b>root's</b> password below."
+msgstr ""
+
+#: sudlg.cpp:46
 #, kde-format
 msgid ""
 "The action you requested needs additional privileges. Please enter the "
@@ -162,23 +171,30 @@ msgid ""
 "privileges."
 msgstr ""
 
-#: sudlg.cpp:50
+#: sudlg.cpp:51
+#, kde-format
+msgid ""
+"The action you requested needs additional privileges. Please enter the "
+"password for <b>%1</b> below."
+msgstr ""
+
+#: sudlg.cpp:60
 msgid "&Ignore"
 msgstr "अनदेखा करू (&I)"
 
-#: sudlg.cpp:67
+#: sudlg.cpp:77
 msgid "Conversation with su failed."
 msgstr "एसयू केर सँग समाद असफल."
 
-#: sudlg.cpp:74
+#: sudlg.cpp:84
 msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
 msgstr ""
 
-#: sudlg.cpp:85
+#: sudlg.cpp:95
 msgid "Incorrect password, please try again."
 msgstr "गलत पासवर्ड, कृप्या फिनु सँ कोसिस करू."
 
-#: sudlg.cpp:89
+#: sudlg.cpp:99
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "आंतरिक त्रुटि: SuProcess::checkInstall() सँ अवैध रिटर्न"

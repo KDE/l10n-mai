@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmenergy\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-18 15:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -54,10 +54,11 @@ msgstr "एतबा समय केर बाद स्टैंडबाय: 
 msgid " min"
 msgstr "मि."
 
-#: energy.cpp:202 energy.cpp:213 energy.cpp:225
+#: energy.cpp:202
 #, fuzzy
 #| msgctxt "Disables display entering standby mode after x min"
 #| msgid "Disabled"
+msgctxt "Disables display entering standby mode after x min"
 msgid "Disabled"
 msgstr "अक्षम"
 
@@ -73,6 +74,11 @@ msgstr ""
 msgid "S&uspend after:"
 msgstr "एतबा समय केर बाद सस्पैंडः (&u)"
 
+#: energy.cpp:213
+msgctxt "Disables display entering suspend mode after x min"
+msgid "Disabled"
+msgstr "अक्षम"
+
 #: energy.cpp:216
 msgid ""
 "Choose the period of inactivity after which the display should enter "
@@ -84,17 +90,14 @@ msgstr ""
 msgid "&Power off after:"
 msgstr "एतबा समय केर बाद बिजली बन्न करू: (&P)"
 
+#: energy.cpp:225
+msgctxt "Disables display being turned off after x min"
+msgid "Disabled"
+msgstr "अक्षम"
+
 #: energy.cpp:228
 msgid ""
 "Choose the period of inactivity after which the display should be powered "
 "off. This is the greatest level of power saving that can be achieved while "
 "the display is still physically turned on."
 msgstr ""
-
-#~ msgctxt "Disables display entering suspend mode after x min"
-#~ msgid "Disabled"
-#~ msgstr "अक्षम"
-
-#~ msgctxt "Disables display being turned off after x min"
-#~ msgid "Disabled"
-#~ msgstr "अक्षम"
