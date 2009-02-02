@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-02 11:20+0100\n"
 "PO-Revision-Date: 2009-01-17 23:10+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -214,25 +214,31 @@ msgstr "इ-मेल भेजू..."
 msgid "Copy Email Address"
 msgstr "इ-मेल पता नकल करू"
 
-#: HistorySizeDialog.cpp:49 SessionController.cpp:478
+#: HistorySizeDialog.cpp:51 SessionController.cpp:478
 msgid "Scrollback Options"
 msgstr "स्क्रालबैक विकल्प"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:64
 msgid "No scrollback"
 msgstr "कोनो स्क्रालबैक नहि"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:65
 msgid "Fixed size scrollback: "
 msgstr "निश्चित आकार क' स्क्रालबैक:"
 
 #. i18n: file: EditProfileDialog.ui:684
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:199 rc.cpp:584
+#: HistorySizeDialog.cpp:66 rc.cpp:199 rc.cpp:584
 msgid "Unlimited scrollback"
 msgstr "असीमित स्क्रालबैक"
 
-#: HistorySizeDialog.cpp:84
+#: HistorySizeDialog.cpp:67
+#, fuzzy
+#| msgid "Edit Current Profile..."
+msgid "Save to current profile"
+msgstr "वर्तमान प्रोफाइल संपादित करू..."
+
+#: HistorySizeDialog.cpp:87
 msgid "lines"
 msgstr "पँक्तिसभ"
 
@@ -362,7 +368,7 @@ msgstr "नवीन प्रोफाइल"
 msgid "Shell"
 msgstr "शेल"
 
-#: ProfileList.cpp:48
+#: ProfileList.cpp:58
 msgid "No profiles available"
 msgstr "कोनो प्रोफाइल उपलब्ध नहि"
 
@@ -546,17 +552,17 @@ msgstr ""
 "प्रोग्राम '%1' अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्न "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:1068
+#: SessionController.cpp:1087
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 सँ आउटपुट सहेजू"
 
-#: SessionController.cpp:1079
+#: SessionController.cpp:1098
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 एकटा अवैध यूआरएल अछि. आउटपुट सहेजल नहि जाए सकैत अछि."
 
-#: SessionController.cpp:1168
+#: SessionController.cpp:1187
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"

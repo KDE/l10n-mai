@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-02 11:20+0100\n"
 "PO-Revision-Date: 2009-01-12 19:01+0530\n"
 "Last-Translator: \n"
 "Language-Team: maithili <en@li.org>\n"
@@ -109,9 +109,7 @@ msgstr "अद्यतन अंतराल (&i):"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: net-config.ui:83
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: temperature-config.ui:87
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:9 rc.cpp:27 rc.cpp:39
+#: rc.cpp:9 rc.cpp:27
 msgid "seconds"
 msgstr "सकेण्ड"
 
@@ -145,7 +143,7 @@ msgstr "उपलब्ध तापमान (&A):"
 msgid "Show plotters"
 msgstr "प्लोटर्स देखाबू"
 
-#: temperature.cpp:50 temperature.cpp:102
+#: temperature.cpp:50 temperature.cpp:103
 msgid "Temperature"
 msgstr "तापक्रम"
 
@@ -153,12 +151,20 @@ msgstr "तापक्रम"
 msgid "Sensor"
 msgstr "सेंसर"
 
-#: temperature.cpp:228
+#: temperature.cpp:111
+#, fuzzy
+#| msgid "seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "सकेण्ड"
+msgstr[1] "सकेण्ड"
+
+#: temperature.cpp:235
 #, kde-format
 msgid "%1 °C"
 msgstr "%1 °C"
 
-#: temperature.cpp:230
+#: temperature.cpp:237
 #, kde-format
 msgid "%1 °F"
 msgstr "%1 °एफ"
