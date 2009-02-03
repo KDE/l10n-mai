@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_webbrowser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-28 09:13+0100\n"
+"POT-Creation-Date: 2009-02-03 11:13+0100\n"
 "PO-Revision-Date: 2009-01-17 22:27+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -30,17 +30,11 @@ msgstr "समाद"
 msgid "Auto refresh:"
 msgstr "स्वतः ताजा करू:"
 
-#. i18n: file: webbrowserconfig.ui:48
+#. i18n: file: webbrowserconfig.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:9
 msgid "Interval:"
 msgstr "अंतराल:"
-
-#. i18n: file: webbrowserconfig.ui:55
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoRefreshInterval)
-#: rc.cpp:12
-msgid "minutes"
-msgstr "मिनट"
 
 #: webbrowser.cpp:376
 #, kde-format
@@ -56,3 +50,11 @@ msgstr "पुस्तकचिह्न मेटाउ"
 #: webbrowser.cpp:475
 msgid "General"
 msgstr "सामान्य"
+
+#: webbrowser.cpp:487
+#, fuzzy
+#| msgid "minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "मिनट"
+msgstr[1] "मिनट"
