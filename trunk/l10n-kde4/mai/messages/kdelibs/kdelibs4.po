@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-24 10:58+0100\n"
+"POT-Creation-Date: 2009-02-25 11:39+0100\n"
 "PO-Revision-Date: 2008-12-03 15:06+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3209,7 +3209,7 @@ msgstr "लाइब्रेरी %1 केडीइ ४ योग्य फ�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "प्लगइन '%1' इस्तेमाल करैत अछि अयोग्य केडीइ लाइब्रेरी. (%2)"
 
-#: kdecore/config/kconfig.cpp:670
+#: kdecore/config/kconfig.cpp:673
 msgid "Please contact your system administrator."
 msgstr "कृप्या अपन तंत्र प्रशासक सँ संपर्क करू."
 
@@ -5128,17 +5128,17 @@ msgstr "ई प्रविष्टि केँ दरजा दिअ'"
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:149
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:448
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:538
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:65
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:187
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:195
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:67
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:191
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:199
 msgid "Install"
 msgstr "संस्थापित करू"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:66
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:133
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:534
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:66
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:172
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:68
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:176
 msgid "Uninstall"
 msgstr "विसंस्थापित करू"
 
@@ -5176,7 +5176,7 @@ msgid "Report bad entry"
 msgstr "खराब प्रविष्टिक रिपोट करू'"
 
 #: knewstuff/knewstuff2/ui/kdxsbutton.cpp:138
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:178
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:182
 msgid "Update"
 msgstr "अद्यतन"
 
@@ -5270,20 +5270,23 @@ msgstr "नवीन डाटा डाउनलोड करू..."
 msgid "User comments"
 msgstr "प्रयोक्ता टिप्पणीसभ"
 
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:146
-msgid "No Downloads"
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:149
+#, fuzzy
+#| msgid "No Downloads"
+msgid "<p>No Downloads</p>"
 msgstr "कोनो डाउनलोड नहि"
 
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:146
-#, kde-format
-msgid "Downloads: %1"
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:149
+#, fuzzy, kde-format
+#| msgid "Downloads: %1"
+msgid "<p>Downloads: %1</p>\n"
 msgstr "डाउनलोड: %1"
 
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:236
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:240
 msgid "No Preview"
 msgstr "पूर्वावलोकन नहि"
 
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:246
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:250
 msgid "Loading Preview"
 msgstr "पूर्वावलोकन लोड कएल जाए रहल अछि"
 
@@ -11124,20 +11127,20 @@ msgstr "छोड़ू?"
 msgid "Configure Notifications"
 msgstr "सूचनासभ बिन्यस्त करू करू"
 
-#: knotify/config/knotifyeventlist.cpp:88
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "State of the notified event"
+msgid "State"
+msgstr "स्थिति"
+
+#: knotify/config/knotifyeventlist.cpp:92
 msgctxt "Title of the notified event"
 msgid "Title"
 msgstr "शीर्षक"
 
-#: knotify/config/knotifyeventlist.cpp:88
+#: knotify/config/knotifyeventlist.cpp:92
 msgctxt "Description of the notified event"
 msgid "Description"
 msgstr "विवरण"
-
-#: knotify/config/knotifyeventlist.cpp:88
-msgctxt "State of the notified event"
-msgid "State"
-msgstr "स्थिति"
 
 #: kconf_update/kconf_update.cpp:138
 msgid "Only local files are supported."
