@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-29 11:35+0200\n"
+"POT-Creation-Date: 2009-03-30 10:43+0200\n"
 "PO-Revision-Date: 2008-12-03 15:06+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6328,8 +6328,8 @@ msgstr ""
 msgid "Reset Toolbars"
 msgstr "अओजार-पट्टी रीसेट करू"
 
-#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2901
-#: khtml/khtmlview.cpp:2934 khtml/html/html_formimpl.cpp:1807
+#: kdeui/dialogs/kedittoolbar.cpp:527 khtml/khtmlview.cpp:2902
+#: khtml/khtmlview.cpp:2935 khtml/html/html_formimpl.cpp:1807
 msgid "Reset"
 msgstr "रिसेट करू"
 
@@ -9690,39 +9690,49 @@ msgstr ""
 msgid "Comment"
 msgstr "टिप्पणी"
 
-#: kdeui/widgets/ktextedit.cpp:440 kde3support/kdeui/k3textedit.cpp:232
+#: kdeui/widgets/ktextedit.cpp:445 kde3support/kdeui/k3textedit.cpp:232
 msgid "Check Spelling..."
 msgstr "वर्तनी जाँचू"
 
-#: kdeui/widgets/ktextedit.cpp:443 kde3support/kdeui/k3textedit.cpp:238
+#: kdeui/widgets/ktextedit.cpp:448 kde3support/kdeui/k3textedit.cpp:238
 msgid "Auto Spell Check"
 msgstr "स्वचालित वर्तनी जांच"
 
-#: kdeui/widgets/ktextedit.cpp:447 kde3support/kdeui/k3textedit.cpp:242
+#: kdeui/widgets/ktextedit.cpp:452 kde3support/kdeui/k3textedit.cpp:242
 msgid "Allow Tabulations"
 msgstr "सारणीकरण स्वीकारू"
 
-#: kdeui/widgets/ktextedit.cpp:546 kdeui/widgets/ktextedit.cpp:557
+#: kdeui/widgets/ktextedit.cpp:476
+#, fuzzy
+#| msgid "Speak custom text"
+msgid "Speak Text"
+msgstr "मनपसिन्न पाठ बाजू"
+
+#: kdeui/widgets/ktextedit.cpp:491
+msgid "Starting KTTSD Failed"
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:577 kdeui/widgets/ktextedit.cpp:588
 #, fuzzy, kde-format
 #| msgid "Suggestion List"
 msgid "Suggestions for %1"
 msgstr "सुझाएल सूची"
 
-#: kdeui/widgets/ktextedit.cpp:548
+#: kdeui/widgets/ktextedit.cpp:579
 msgid "Ignore"
 msgstr ""
 
-#: kdeui/widgets/ktextedit.cpp:549
+#: kdeui/widgets/ktextedit.cpp:580
 msgid "Add to Dictionary"
 msgstr "शब्दकोष मे जोड़ू"
 
-#: kdeui/widgets/ktextedit.cpp:551 kdeui/widgets/ktextedit.cpp:553
+#: kdeui/widgets/ktextedit.cpp:582 kdeui/widgets/ktextedit.cpp:584
 #, fuzzy, kde-format
 #| msgid "Suggestion List"
 msgid "No suggestions for %1"
 msgstr "सुझाएल सूची"
 
-#: kdeui/widgets/ktextedit.cpp:701
+#: kdeui/widgets/ktextedit.cpp:732
 msgid "Nothing to spell check."
 msgstr "वर्तनी जाँच क' लेल किछु नहि."
 
@@ -10409,7 +10419,7 @@ msgstr ""
 "<qt>फ़ॉर्म केँ अहाँक स्थानीय फाइल सिस्टम पर <br /><b>%1</b><br />पर जमा कएल जएताह."
 "<br />की अहाँ फ़ॉर्म केँ जमा कएनाइ चाहैत छी?</qt>"
 
-#: khtml/khtml_part.cpp:4644 khtml/khtmlview.cpp:2887 khtml/khtmlview.cpp:2929
+#: khtml/khtml_part.cpp:4644 khtml/khtmlview.cpp:2888 khtml/khtmlview.cpp:2930
 #: khtml/html/html_formimpl.cpp:1603 khtml/html/html_formimpl.cpp:1815
 msgid "Submit"
 msgstr "सुपुर्द करू"
@@ -10519,39 +10529,39 @@ msgstr "इग्नोर्स मे जोड़ू..."
 msgid "Remove from ignores..."
 msgstr "इग्नोर्स सँ हटाबू..."
 
-#: khtml/khtmlview.cpp:1850
+#: khtml/khtmlview.cpp:1851
 msgid "Find stopped."
 msgstr "ढूंढना बन्न भ' गेल."
 
-#: khtml/khtmlview.cpp:1861
+#: khtml/khtmlview.cpp:1862
 msgid "Starting -- find links as you type"
 msgstr "प्रारंभ कएल जाए रहल अछि - लिंक केँ टाइप करैत करैत प्राप्त करू"
 
-#: khtml/khtmlview.cpp:1867
+#: khtml/khtmlview.cpp:1868
 msgid "Starting -- find text as you type"
 msgstr "प्रारंभ कएल जाए रहल अछि - पाठ केँ टाइप करैत करैत प्राप्त करू"
 
-#: khtml/khtmlview.cpp:1890
+#: khtml/khtmlview.cpp:1891
 #, kde-format
 msgid "Link found: \"%1\"."
 msgstr "कड़ी भेटल: \"%1\"."
 
-#: khtml/khtmlview.cpp:1895
+#: khtml/khtmlview.cpp:1896
 #, kde-format
 msgid "Link not found: \"%1\"."
 msgstr "कड़ी नहि भेटल: \"%1\"."
 
-#: khtml/khtmlview.cpp:1903
+#: khtml/khtmlview.cpp:1904
 #, kde-format
 msgid "Text found: \"%1\"."
 msgstr "पाठ भेटल: \"%1\"."
 
-#: khtml/khtmlview.cpp:1908
+#: khtml/khtmlview.cpp:1909
 #, kde-format
 msgid "Text not found: \"%1\"."
 msgstr "पाठ नहि भेटल: \"%1\"."
 
-#: khtml/khtmlview.cpp:1951
+#: khtml/khtmlview.cpp:1952
 msgid "Access Keys activated"
 msgstr "पहुँच कुँजी सक्रिय कएल गेल"
 
