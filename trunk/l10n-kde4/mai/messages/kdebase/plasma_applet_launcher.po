@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:07+0200\n"
+"POT-Creation-Date: 2009-04-08 11:57+0200\n"
 "PO-Revision-Date: 2009-01-17 22:29+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: ui/flipscrollview.cpp:138 simpleapplet/simpleapplet.cpp:543
+#: ui/flipscrollview.cpp:138 core/applicationmodel.cpp:377
 msgid "All Applications"
 msgstr "सभटा अनुप्रयोग"
 
@@ -50,11 +50,12 @@ msgstr "बाहर निकालू"
 msgid "Safely Remove"
 msgstr "हटाबू"
 
-#: ui/launcher.cpp:161 simpleapplet/simpleapplet.cpp:189
+#: ui/launcher.cpp:161 core/leavemodel.cpp:106
+#: simpleapplet/simpleapplet.cpp:189
 msgid "Leave"
 msgstr "छोडू"
 
-#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44
+#: ui/launcher.cpp:172 core/favoritesmodel.cpp:44 core/favoritesmodel.cpp:265
 #: simpleapplet/simpleapplet.cpp:171
 msgid "Favorites"
 msgstr "प्रिय"
@@ -72,7 +73,8 @@ msgstr "सोर्ट वर्णक्रम मे Z केँ A"
 msgid "Applications"
 msgstr "अनुप्रयोग"
 
-#: ui/launcher.cpp:213 simpleapplet/simpleapplet.cpp:175
+#: ui/launcher.cpp:213 core/recentlyusedmodel.cpp:176
+#: simpleapplet/simpleapplet.cpp:175
 msgid "Recently Used"
 msgstr "हालमे प्रयुक्त"
 
@@ -84,7 +86,8 @@ msgstr "हालक अनुप्रयोग साफ करू"
 msgid "Clear Recent Documents"
 msgstr "हालमे प्रयुक्त दस्ताबेज साफ करू"
 
-#: ui/launcher.cpp:233 simpleapplet/simpleapplet.cpp:174
+#: ui/launcher.cpp:233 core/systemmodel.cpp:369
+#: simpleapplet/simpleapplet.cpp:174
 msgid "Computer"
 msgstr "कम्प्यूटर"
 
@@ -177,17 +180,13 @@ msgstr "स्थगित केँ डिस्क"
 msgid "Suspend to RAM"
 msgstr "स्थगित केँ RAM"
 
-#: core/leavemodel.cpp:103
+#: core/leavemodel.cpp:118
 msgid "Session"
 msgstr "सत्र"
 
-#: core/leavemodel.cpp:125
+#: core/leavemodel.cpp:140
 msgid "System"
 msgstr "सिस्टम"
-
-#: core/applicationmodel.cpp:377
-msgid "Known Applications"
-msgstr "ज्ञात अनुप्रयोग"
 
 #: core/models.cpp:117
 msgid "Home Folder"
@@ -200,6 +199,18 @@ msgstr "नेटवर्क फोल्डरसभ"
 #: core/recentlyusedmodel.cpp:107 core/searchmodel.cpp:221
 msgid "Documents"
 msgstr "दस्तावेज"
+
+#: core/recentlyusedmodel.cpp:178 simpleapplet/simpleapplet.cpp:177
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "हालमे प्रयुक्त"
+
+#: core/recentlyusedmodel.cpp:180 simpleapplet/simpleapplet.cpp:176
+#, fuzzy
+#| msgid "Clear Recent Applications"
+msgid "Recently Used Applications"
+msgstr "हालक अनुप्रयोग साफ करू"
 
 #: core/systemmodel.cpp:89
 msgid "Places"
@@ -297,18 +308,6 @@ msgstr "sangeeta09@gmail.com"
 msgid "Bookmarks"
 msgstr "पुस्तकचिह्न"
 
-#: simpleapplet/simpleapplet.cpp:176 simpleapplet/simpleapplet.cpp:559
-#, fuzzy
-#| msgid "Clear Recent Applications"
-msgid "Recently Used Applications"
-msgstr "हालक अनुप्रयोग साफ करू"
-
-#: simpleapplet/simpleapplet.cpp:177 simpleapplet/simpleapplet.cpp:566
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "हालमे प्रयुक्त"
-
 #: simpleapplet/simpleapplet.cpp:178
 msgid "System Settings"
 msgstr ""
@@ -377,11 +376,14 @@ msgstr ""
 msgid "Options"
 msgstr "अनुप्रयोग"
 
-#: simpleapplet/simpleapplet.cpp:545
+#: simpleapplet/simpleapplet.cpp:546
 #, fuzzy
 #| msgid "Applications"
 msgid "Actions"
 msgstr "अनुप्रयोग"
+
+#~ msgid "Known Applications"
+#~ msgstr "ज्ञात अनुप्रयोग"
 
 #, fuzzy
 #~| msgid "Lock the screen"
