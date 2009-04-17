@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-16 11:17+0200\n"
+"POT-Creation-Date: 2009-04-17 11:03+0200\n"
 "PO-Revision-Date: 2009-01-17 22:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -113,7 +113,35 @@ msgstr "नुकाएल चिह्न:"
 msgid "Auto Hide"
 msgstr ""
 
-#: ui/extendertask.cpp:134
+#: ui/extendertask.cpp:83
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/extendertask.cpp:86
+#, kde-format
+msgid "%1 suspended job"
+msgid_plural "%1 suspended jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ui/extendertask.cpp:89
+#, fuzzy, kde-format
+#| msgid "Notification from %1"
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "अधिसूचना %1"
+msgstr[1] "अधिसूचना %1"
+
+#: ui/extendertask.cpp:93
+#, fuzzy
+#| msgid "No notifications and no jobs"
+msgid "Notifications and jobs"
+msgstr "सूचना नहि आओर काज नहि"
+
+#: ui/extendertask.cpp:162
 msgid "Show or hide notifications and jobs"
 msgstr "सूचना आओर काज देखाबू अथवा नुकाबू"
 
