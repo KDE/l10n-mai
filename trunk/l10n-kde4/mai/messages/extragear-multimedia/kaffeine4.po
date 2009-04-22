@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-19 11:13+0200\n"
+"POT-Creation-Date: 2009-04-22 11:37+0200\n"
 "PO-Revision-Date: 2009-04-21 23:39+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 
 #: kaffeine.cpp:59
 msgid ""
@@ -119,7 +120,7 @@ msgstr ""
 msgid "(C) 2007 The Kaffeine Authors"
 msgstr ""
 
-#: mediawidget.cpp:91 mediawidget.cpp:244
+#: mediawidget.cpp:91 mediawidget.cpp:271
 msgid "Jump to Position"
 msgstr ""
 
@@ -147,7 +148,7 @@ msgstr "रोकू"
 msgid "Next"
 msgstr "अगिला"
 
-#: mediawidget.cpp:176 dvb/dvbtab.cpp:491
+#: mediawidget.cpp:176 dvb/dvbtab.cpp:511
 msgid "off"
 msgstr "बन्न"
 
@@ -168,42 +169,64 @@ msgid "Mute Volume"
 msgstr ""
 
 #: mediawidget.cpp:208
+msgid "Aspect Ratio"
+msgstr ""
+
+#: mediawidget.cpp:211
+#, fuzzy
+#| msgid "Audio"
+msgid "Auto"
+msgstr "ऑडियो"
+
+#: mediawidget.cpp:217
+msgid "4:3"
+msgstr ""
+
+#: mediawidget.cpp:222
+msgid "16:9"
+msgstr ""
+
+#: mediawidget.cpp:227
+msgid "Fit to Window"
+msgstr ""
+
+#: mediawidget.cpp:235
 msgid "Volume Slider"
 msgstr ""
 
-#: mediawidget.cpp:221
+#: mediawidget.cpp:248
 msgid "Navigation"
 msgstr "नेविगेशन"
 
-#: mediawidget.cpp:223
+#: mediawidget.cpp:250
 msgid "Skip 1min Backward"
 msgstr ""
 
-#: mediawidget.cpp:228
+#: mediawidget.cpp:255
 msgid "Skip 10s Backward"
 msgstr ""
 
-#: mediawidget.cpp:233
+#: mediawidget.cpp:260
 msgid "Skip 10s Forward"
 msgstr ""
 
-#: mediawidget.cpp:238
+#: mediawidget.cpp:265
 msgid "Skip 1min Forward"
 msgstr ""
 
-#: mediawidget.cpp:257
+#: mediawidget.cpp:284 dvb/dvbepg.cpp:217
 msgid "Title"
 msgstr "शीर्षक"
 
-#: mediawidget.cpp:266
+#: mediawidget.cpp:293
 msgid "Chapter"
 msgstr "अध्याय"
 
-#: mediawidget.cpp:275
+#: mediawidget.cpp:302
 msgid "Angle"
 msgstr "कोण"
 
-#: mediawidget.cpp:284
+#: mediawidget.cpp:311
 msgid "Switch between elapsed and remaining time display"
 msgstr ""
 
@@ -219,7 +242,7 @@ msgstr "sangeeta09@gmail.com"
 
 #. i18n: file: dvb/dvbscandialog.ui:8
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:5 dvb/dvbscandialog.cpp:163 dvb/dvbtab.cpp:181
+#: rc.cpp:5 dvb/dvbscandialog.cpp:163 dvb/dvbtab.cpp:183
 msgid "Channels"
 msgstr "चैनल"
 
@@ -249,7 +272,7 @@ msgstr ""
 
 #. i18n: file: dvb/dvbscandialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20 dvb/dvbchannelui.cpp:285 dvb/dvbconfigdialog.cpp:481
+#: rc.cpp:20 dvb/dvbchannelui.cpp:388 dvb/dvbconfigdialog.cpp:481
 msgid "Source:"
 msgstr "श्रोत:"
 
@@ -319,129 +342,129 @@ msgstr ""
 msgid "Add selected"
 msgstr ""
 
-#: dvb/dvbchannel.cpp:131
+#: dvb/dvbchannelui.cpp:73
 msgid "Horizontal"
 msgstr "क्षैतिज"
 
-#: dvb/dvbchannel.cpp:132
+#: dvb/dvbchannelui.cpp:74
 msgid "Vertical"
 msgstr "लम्बवत"
 
-#: dvb/dvbchannel.cpp:133
+#: dvb/dvbchannelui.cpp:75
 msgid "Circular left"
 msgstr ""
 
-#: dvb/dvbchannel.cpp:134
+#: dvb/dvbchannelui.cpp:76
 msgid "Circular right"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:99 dvb/dvbrecording.cpp:305 dvb/dvbscandialog.cpp:151
+#: dvb/dvbchannelui.cpp:201 dvb/dvbrecording.cpp:305 dvb/dvbscandialog.cpp:151
 msgid "Name"
 msgstr "नाम"
 
-#: dvb/dvbchannelui.cpp:101
+#: dvb/dvbchannelui.cpp:203
 msgid "Number"
 msgstr "संख्या"
 
-#: dvb/dvbchannelui.cpp:204
+#: dvb/dvbchannelui.cpp:306
 msgid "Edit channel"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:208
+#: dvb/dvbchannelui.cpp:310
 msgid "Change icon"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:219
+#: dvb/dvbchannelui.cpp:321
 msgid "Delete channel"
 msgstr "चैनल मेटाबू"
 
-#: dvb/dvbchannelui.cpp:261
+#: dvb/dvbchannelui.cpp:364
 msgid "Channel Settings"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:267 dvb/dvbconfigdialog.cpp:490
+#: dvb/dvbchannelui.cpp:370 dvb/dvbconfigdialog.cpp:490
 #: dvb/dvbrecording.cpp:507
 msgid "Name:"
 msgstr "नाम:"
 
-#: dvb/dvbchannelui.cpp:273
+#: dvb/dvbchannelui.cpp:376
 msgid "Number:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:291 dvb/dvbchannelui.cpp:305 dvb/dvbchannelui.cpp:315
-#: dvb/dvbchannelui.cpp:335
+#: dvb/dvbchannelui.cpp:394 dvb/dvbchannelui.cpp:408 dvb/dvbchannelui.cpp:418
+#: dvb/dvbchannelui.cpp:438
 msgid "Frequency (MHz):"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:293 dvb/dvbchannelui.cpp:307
+#: dvb/dvbchannelui.cpp:396 dvb/dvbchannelui.cpp:410
 msgid "Symbol rate (kS/s):"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:295 dvb/dvbchannelui.cpp:319 dvb/dvbchannelui.cpp:337
+#: dvb/dvbchannelui.cpp:398 dvb/dvbchannelui.cpp:422 dvb/dvbchannelui.cpp:440
 msgid "Modulation:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:297 dvb/dvbchannelui.cpp:309 dvb/dvbchannelui.cpp:321
+#: dvb/dvbchannelui.cpp:400 dvb/dvbchannelui.cpp:412 dvb/dvbchannelui.cpp:424
 msgid "FEC rate:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:303
+#: dvb/dvbchannelui.cpp:406
 msgid "Polarization:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:317
+#: dvb/dvbchannelui.cpp:420
 msgid "Bandwidth:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:323
+#: dvb/dvbchannelui.cpp:426
 msgid "FEC rate LP:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:325
+#: dvb/dvbchannelui.cpp:428
 msgid "Transmission mode:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:327
+#: dvb/dvbchannelui.cpp:430
 msgid "Guard interval:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:329
+#: dvb/dvbchannelui.cpp:432
 msgid "Hierarchy:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:345
+#: dvb/dvbchannelui.cpp:448
 msgid "PMT PID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:348
+#: dvb/dvbchannelui.cpp:451
 msgid "Video PID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:357
+#: dvb/dvbchannelui.cpp:460
 msgid "Subtitle PID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:365
+#: dvb/dvbchannelui.cpp:468
 msgid "Teletext PID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:375
+#: dvb/dvbchannelui.cpp:478
 msgid "Network ID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:382
+#: dvb/dvbchannelui.cpp:485
 msgid "Transport stream ID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:389
+#: dvb/dvbchannelui.cpp:492
 msgid "Service ID:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:396
+#: dvb/dvbchannelui.cpp:499
 msgid "Audio channel:"
 msgstr ""
 
-#: dvb/dvbchannelui.cpp:420
+#: dvb/dvbchannelui.cpp:523
 msgid "Scrambled:"
 msgstr ""
 
@@ -633,19 +656,38 @@ msgstr ""
 msgid "LOF (MHz)"
 msgstr ""
 
+#: dvb/dvbepg.cpp:213 dvb/dvbrecording.cpp:309
+msgid "Begin"
+msgstr "शुरू करू"
+
+#: dvb/dvbepg.cpp:215 dvb/dvbrecording.cpp:311
+msgid "Duration"
+msgstr "अवधि"
+
+#: dvb/dvbepg.cpp:364
+msgid "Electronic Program Guide"
+msgstr ""
+
+#: dvb/dvbepg.cpp:442
+#, kde-format
+msgid "<font color=#008000 size=\"+1\">%1</font><br>"
+msgstr ""
+
+#: dvb/dvbepg.cpp:445
+#, kde-format
+msgid "<font color=#808000>%1</font><br>"
+msgstr ""
+
+#: dvb/dvbepg.cpp:448
+#, kde-format
+msgid "<font color=#800000>%1 - %2</font><br><br>"
+msgstr ""
+
 #: dvb/dvbrecording.cpp:307
 msgid "Channel"
 msgstr "चैनल"
 
-#: dvb/dvbrecording.cpp:309
-msgid "Begin"
-msgstr "शुरू करू"
-
-#: dvb/dvbrecording.cpp:311
-msgid "Duration"
-msgstr "अवधि"
-
-#: dvb/dvbrecording.cpp:412 dvb/dvbtab.cpp:186
+#: dvb/dvbrecording.cpp:412 dvb/dvbtab.cpp:193
 msgid "Recordings"
 msgstr ""
 
@@ -707,7 +749,7 @@ msgstr ""
 msgid "Current transponder"
 msgstr ""
 
-#: dvb/dvbscandialog.cpp:261 dvb/dvbtab.cpp:450
+#: dvb/dvbscandialog.cpp:261 dvb/dvbtab.cpp:470
 msgid "No suitable device found."
 msgstr ""
 
@@ -715,15 +757,18 @@ msgstr ""
 msgid "Stop scan"
 msgstr ""
 
-#: dvb/dvbtab.cpp:194
-msgid "Instant Record"
+#: dvb/dvbtab.cpp:188
+msgid "EPG"
 msgstr ""
 
 #: dvb/dvbtab.cpp:201
+msgid "Instant Record"
+msgstr ""
+
+#: dvb/dvbtab.cpp:208
 msgid "Configure DVB"
 msgstr ""
 
-#: dvb/dvbtab.cpp:229
+#: dvb/dvbtab.cpp:236
 msgid "Search:"
 msgstr "खोजू:"
-
