@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-25 11:41+0200\n"
+"POT-Creation-Date: 2009-04-27 10:58+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -516,8 +516,10 @@ msgid "Show/hide the command line on the bottom of the view."
 msgstr "दृश्य केर तल पर कमांड पंक्ति देखाबू/नुकाबू."
 
 #: view/kateview.cpp:572
-msgid "&VI input mode"
-msgstr "&VI इनपुट विधि"
+#, fuzzy
+#| msgid "Vi Input Mode"
+msgid "&VI Input Mode"
+msgstr "Vi इनमुट मोड"
 
 #: view/kateview.cpp:575
 msgid "Activate/deactivate VI input mode"
@@ -2461,19 +2463,25 @@ msgstr "विवरण"
 #. i18n: file: dialogs/commandmenuconfigwidget.ui:63
 #. i18n: ectx: property (text), widget (QPushButton, btnEditEntry)
 #: rc.cpp:56
-msgid "Edit entry..."
+#, fuzzy
+#| msgid "Edit entry..."
+msgid "Edit Entry..."
 msgstr "प्रविष्टि क' संपादन करू..."
 
 #. i18n: file: dialogs/commandmenuconfigwidget.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, btnRemoveEntry)
 #: rc.cpp:59
-msgid "Remove entry"
+#, fuzzy
+#| msgid "Remove entry"
+msgid "Remove Entry"
 msgstr "प्रविष्टि मेटाबू"
 
 #. i18n: file: dialogs/commandmenuconfigwidget.ui:93
 #. i18n: ectx: property (text), widget (QPushButton, btnAddEntry)
 #: rc.cpp:62
-msgid "Add entry..."
+#, fuzzy
+#| msgid "Add entry..."
+msgid "Add Entry..."
 msgstr "प्रविष्टि जोड़ू..."
 
 #. i18n: file: dialogs/commandmenuconfigwidget.ui:110
@@ -3819,19 +3827,23 @@ msgstr "विपरीत"
 #. i18n: file: dialogs/completionconfigwidget.ui:92
 #. i18n: ectx: property (text), widget (QCheckBox, sortingCaseSensitive)
 #: rc.cpp:700
-msgid "Case Sensitive"
+#, fuzzy
+#| msgid "Case Sensitive"
+msgid "Case sensitive"
 msgstr "केस सेंसिटिव"
 
 #. i18n: file: dialogs/completionconfigwidget.ui:99
 #. i18n: ectx: property (text), widget (QCheckBox, sortingInheritanceDepth)
 #: rc.cpp:703
-msgid "Inheritance Depth"
+#, fuzzy
+#| msgid "Inheritance Depth"
+msgid "Inheritance depth"
 msgstr "इनहेरिटेंस गहराइ"
 
 #. i18n: file: dialogs/completionconfigwidget.ui:138
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:706
-msgid "Order of groupings (select a grouping method to configure):"
+msgid "Order of Groupings (select a grouping method to configure):"
 msgstr ""
 
 #. i18n: file: dialogs/completionconfigwidget.ui:182
@@ -3875,7 +3887,9 @@ msgstr "पूर्णता केँ निम्न गुणों के�
 #. i18n: file: dialogs/completionconfigwidget.ui:252
 #. i18n: ectx: property (label), widget (KIntNumInput, filteringMaximumInheritanceDepth)
 #: rc.cpp:724
-msgid "Maximum inheritance depth"
+#, fuzzy
+#| msgid "Maximum inheritance depth"
+msgid "Maximum inheritance depth:"
 msgstr "अधिकतम इनहैरिटेंस गहराइ"
 
 #. i18n: file: dialogs/completionconfigwidget.ui:264
@@ -3893,7 +3907,9 @@ msgstr "समूहन"
 #. i18n: file: dialogs/completionconfigwidget.ui:308
 #. i18n: ectx: property (text), widget (QTreeWidget, groupingMethods)
 #: rc.cpp:733
-msgid "Grouping method"
+#, fuzzy
+#| msgid "Grouping method"
+msgid "Grouping Method"
 msgstr "समूहीकरण विधि"
 
 #. i18n: file: dialogs/completionconfigwidget.ui:313
@@ -3923,7 +3939,9 @@ msgstr "वस्तु किस्म (फ़ंक्शन इत्या�
 #. i18n: file: dialogs/completionconfigwidget.ui:414
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:754
-msgid "Access Grouping properties"
+#, fuzzy
+#| msgid "Access Grouping properties"
+msgid "Access Grouping Properties"
 msgstr "समूहन गुणक अभिगम करू"
 
 #. i18n: file: dialogs/completionconfigwidget.ui:421
@@ -5503,11 +5521,11 @@ msgstr "<qt>त्रुटि <b>%4</b><br /> फाइल %1 मे %2/%3</qt>
 msgid "Unable to open %1"
 msgstr "%1 खोलबा मे अक्षम"
 
-#: syntax/katesyntaxdocument.cpp:489
+#: syntax/katesyntaxdocument.cpp:492
 msgid "Errors!"
 msgstr "त्रुटि!"
 
-#: syntax/katesyntaxdocument.cpp:494
+#: syntax/katesyntaxdocument.cpp:497
 #, kde-format
 msgid "Error: %1"
 msgstr "त्रुटि: %1"
@@ -5817,3 +5835,6 @@ msgstr ""
 #: document/katedocument.cpp:6089
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
+
+#~ msgid "&VI input mode"
+#~ msgstr "&VI इनपुट विधि"

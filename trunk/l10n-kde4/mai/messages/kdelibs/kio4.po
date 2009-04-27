@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-26 10:53+0200\n"
+"POT-Creation-Date: 2009-04-27 10:58+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -465,14 +465,14 @@ msgstr ""
 "एसएसएल प्रमाणपत्र अस्वीकृत कएल गेल अछि जहिना जे निवेदित कएल गेल. अहाँ एकरा केडीई "
 "नियंत्रण केंद्र मे अक्षम कए सकैत छी."
 
-#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:811
+#: kio/jobuidelegate.cpp:130 ../kfile/kdiroperator.cpp:812
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "की अहाँ सचमुच एहि वस्तु केँ मेटाएब चाहैत छी?"
 msgstr[1] "की अहाँ सचमुच %1 एहि वस्तु केँ मेटाएब चाहैत छी?"
 
-#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:813
+#: kio/jobuidelegate.cpp:132 ../kfile/kdiroperator.cpp:814
 msgid "Delete Files"
 msgstr "फाइलसभ मेटाबू"
 
@@ -483,7 +483,7 @@ msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1848
+#: kio/jobuidelegate.cpp:144 ../kfile/kdiroperator.cpp:1853
 msgid "Move to Trash"
 msgstr "रद्दीमे भेजू"
 
@@ -3519,7 +3519,7 @@ msgid "The new file name is empty."
 msgstr "नवीन फाइल नाम खाली अछि."
 
 #: kfile/kpropertiesdialog.cpp:1488 kfile/kpropertiesdialog.cpp:2669
-#: kfile/kpropertiesdialog.cpp:2973 kfile/kpropertiesdialog.cpp:3227
+#: kfile/kpropertiesdialog.cpp:2973 kfile/kpropertiesdialog.cpp:3224
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -3871,20 +3871,20 @@ msgstr "%2 मे सँ %1 (%3% प्रयोग मे)"
 msgid "&Application"
 msgstr "अनुप्रयोग (&A)"
 
-#: kfile/kpropertiesdialog.cpp:3158
+#: kfile/kpropertiesdialog.cpp:3155
 #, kde-format
 msgid "Add File Type for %1"
 msgstr " %1 क' लेल फाइल प्रकार चुनू"
 
-#: kfile/kpropertiesdialog.cpp:3159
+#: kfile/kpropertiesdialog.cpp:3156
 msgid "Select one or more file types to add:"
 msgstr "एकटा अथवा बेसी फाइल प्रकार जोड़बा क' लेल चुनू:"
 
-#: kfile/kpropertiesdialog.cpp:3301
+#: kfile/kpropertiesdialog.cpp:3298
 msgid "Only executables on local file systems are supported."
 msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
 
-#: kfile/kpropertiesdialog.cpp:3315
+#: kfile/kpropertiesdialog.cpp:3312
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "%1 क' लेल विस्तृत विकल्प "
@@ -4009,7 +4009,7 @@ msgstr ""
 #. i18n: file: kssl/sslinfo.ui:47
 #. i18n: ectx: property (text), widget (QLabel, ipTag)
 #: rc.cpp:22
-msgid "IP Address:"
+msgid "IP address:"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:64
@@ -4027,14 +4027,16 @@ msgstr "विवरण:"
 #. i18n: file: kssl/sslinfo.ui:98
 #. i18n: ectx: property (text), widget (QLabel, sslVersionTag)
 #: rc.cpp:34
-msgid "SSL Version:"
+msgid "SSL version:"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:115
 #. i18n: ectx: property (text), widget (QLabel, certSelectorTag)
 #: rc.cpp:38
-msgid "Certificate Chain"
-msgstr ""
+#, fuzzy
+#| msgid "Certificate"
+msgid "Certificate chain:"
+msgstr "प्रमाणपत्र"
 
 #. i18n: file: kssl/sslinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, trustedTag)
@@ -4051,13 +4053,13 @@ msgstr ""
 #. i18n: file: kssl/sslinfo.ui:178
 #. i18n: ectx: property (text), widget (QLabel, serialTag)
 #: rc.cpp:49
-msgid "Serial Number:"
+msgid "Serial number:"
 msgstr ""
 
 #. i18n: file: kssl/sslinfo.ui:195
 #. i18n: ectx: property (text), widget (QLabel, digestTag)
 #: rc.cpp:53
-msgid "MD5 Digest:"
+msgid "MD5 digest:"
 msgstr ""
 
 #. i18n: file: kssl/keygenwizard.ui:35
@@ -4539,7 +4541,7 @@ msgstr "फोल्डर पसंद संपादक मे खोलू"
 msgid "Delete Folder"
 msgstr "फोल्डर मेटाबू"
 
-#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1948
+#: bookmarks/kbookmarkmenu.cc:281 ../kfile/kdiroperator.cpp:1953
 msgid "Properties"
 msgstr "गुण"
 
@@ -5541,12 +5543,12 @@ msgstr ""
 "नवीन फोल्डर:\n"
 "%1 मे बनाबू"
 
-#: ../kfile/kdirselectdialog.cpp:155 ../kfile/kdiroperator.cpp:764
+#: ../kfile/kdirselectdialog.cpp:155 ../kfile/kdiroperator.cpp:765
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "एकटा फाइल अथवा फोल्डर नाम %1  पहिने सँ अस्तित्व मे अछि. "
 
-#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:767
+#: ../kfile/kdirselectdialog.cpp:159 ../kfile/kdiroperator.cpp:768
 msgid "You do not have permission to create that folder."
 msgstr "ई फोल्डर केँ बनाबै क' लेल अहाँक पास अनुमति नहि अछि."
 
@@ -5639,11 +5641,11 @@ msgstr ""
 msgid "Show Hidden Folders"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:729 ../kfile/kdiroperator.cpp:737
+#: ../kfile/kdiroperator.cpp:730 ../kfile/kdiroperator.cpp:738
 msgid "New Folder"
 msgstr "नवीन फोल्डर"
 
-#: ../kfile/kdiroperator.cpp:738
+#: ../kfile/kdiroperator.cpp:739
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -5652,15 +5654,15 @@ msgstr ""
 "नवीन फोल्डर:\n"
 "%1 मे बनाबू"
 
-#: ../kfile/kdiroperator.cpp:782
+#: ../kfile/kdiroperator.cpp:783
 msgid "You did not select a file to delete."
 msgstr "मिटाने क' लेल अहाँ फाइल चुनल नहि अछि"
 
-#: ../kfile/kdiroperator.cpp:783
+#: ../kfile/kdiroperator.cpp:784
 msgid "Nothing to Delete"
 msgstr "मेटाबैक लेल किछु नहि "
 
-#: ../kfile/kdiroperator.cpp:804
+#: ../kfile/kdiroperator.cpp:805
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5669,138 +5671,138 @@ msgstr ""
 "<qt>की अहाँ सचमुच मे मेटाएब चाहैत छी एकरा-\n"
 " <b>'%1'</b>?</qt>"
 
-#: ../kfile/kdiroperator.cpp:806
+#: ../kfile/kdiroperator.cpp:807
 msgid "Delete File"
 msgstr "फाइल मेटाबू"
 
-#: ../kfile/kdiroperator.cpp:844
+#: ../kfile/kdiroperator.cpp:845
 msgid "You did not select a file to trash."
 msgstr "मेटाबै क' लेल अहाँ फाइल चुनल नहि अछि"
 
-#: ../kfile/kdiroperator.cpp:845
+#: ../kfile/kdiroperator.cpp:846
 msgid "Nothing to Trash"
 msgstr "मेटाबै क' लेल किछु नहि "
 
-#: ../kfile/kdiroperator.cpp:862
+#: ../kfile/kdiroperator.cpp:863
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
 " <b>'%1'</b>?</qt>"
 msgstr "<qt>की अहाँ सचमुच <b>%1</b> केँ मेटाएब चाहैत छी?</qt>"
 
-#: ../kfile/kdiroperator.cpp:864
+#: ../kfile/kdiroperator.cpp:865
 msgid "Trash File"
 msgstr "फाइल मेटाबू"
 
-#: ../kfile/kdiroperator.cpp:865 ../kfile/kdiroperator.cpp:872
+#: ../kfile/kdiroperator.cpp:866 ../kfile/kdiroperator.cpp:873
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "रद्दी (&T)"
 
-#: ../kfile/kdiroperator.cpp:869
+#: ../kfile/kdiroperator.cpp:870
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "की अहाँ सचमुच ई %1 वस्तु केँ मेटाएब चाहैत छी?"
 msgstr[1] "की अहाँ सचमुच ई %1 वस्तु केँ मेटाएब चाहैत छी?"
 
-#: ../kfile/kdiroperator.cpp:871
+#: ../kfile/kdiroperator.cpp:872
 msgid "Trash Files"
 msgstr "फाइलसभ केँ रद्दी मे भेजू"
 
-#: ../kfile/kdiroperator.cpp:1063 ../kfile/kdiroperator.cpp:1189
+#: ../kfile/kdiroperator.cpp:1064 ../kfile/kdiroperator.cpp:1190
 msgid "The specified folder does not exist or was not readable."
 msgstr "उल्लेखित फाइल अथवा फोल्ड उपलब्ध नहि अछि अथवा पढ़बा लायक नहि अछि."
 
-#: ../kfile/kdiroperator.cpp:1826
+#: ../kfile/kdiroperator.cpp:1831
 msgid "Menu"
 msgstr "मेनू "
 
-#: ../kfile/kdiroperator.cpp:1830
+#: ../kfile/kdiroperator.cpp:1835
 msgid "Parent Folder"
 msgstr "पेरेन्ट फोल्डर "
 
-#: ../kfile/kdiroperator.cpp:1837
+#: ../kfile/kdiroperator.cpp:1842
 msgid "Home Folder"
 msgstr "घर फोल्डर"
 
-#: ../kfile/kdiroperator.cpp:1840
+#: ../kfile/kdiroperator.cpp:1845
 msgid "Reload"
 msgstr "फिनु लोड करू"
 
-#: ../kfile/kdiroperator.cpp:1843
+#: ../kfile/kdiroperator.cpp:1848
 msgid "New Folder..."
 msgstr "नवीन फोल्डर..."
 
-#: ../kfile/kdiroperator.cpp:1854
+#: ../kfile/kdiroperator.cpp:1859
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: ../kfile/kdiroperator.cpp:1861
+#: ../kfile/kdiroperator.cpp:1866
 msgid "Sorting"
 msgstr "छाँटनाइ"
 
-#: ../kfile/kdiroperator.cpp:1864
+#: ../kfile/kdiroperator.cpp:1869
 msgid "By Name"
 msgstr "नाम सँ"
 
-#: ../kfile/kdiroperator.cpp:1868
+#: ../kfile/kdiroperator.cpp:1873
 msgid "By Size"
 msgstr "आकार सँ"
 
-#: ../kfile/kdiroperator.cpp:1872
+#: ../kfile/kdiroperator.cpp:1877
 msgid "By Date"
 msgstr "तिथि से"
 
-#: ../kfile/kdiroperator.cpp:1876
+#: ../kfile/kdiroperator.cpp:1881
 msgid "By Type"
 msgstr "प्रकार सँ"
 
-#: ../kfile/kdiroperator.cpp:1880
+#: ../kfile/kdiroperator.cpp:1885
 msgid "Descending"
 msgstr "अवरोहण क्रम"
 
-#: ../kfile/kdiroperator.cpp:1890
+#: ../kfile/kdiroperator.cpp:1895
 msgid "Icon Position"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1893
+#: ../kfile/kdiroperator.cpp:1898
 msgid "Next to File Name"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1897
+#: ../kfile/kdiroperator.cpp:1902
 msgid "Above File Name"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1908
+#: ../kfile/kdiroperator.cpp:1913
 msgid "Short View"
 msgstr "छोट दृश्य"
 
-#: ../kfile/kdiroperator.cpp:1913
+#: ../kfile/kdiroperator.cpp:1918
 msgid "Detailed View"
 msgstr "विस्तृत दृश्य "
 
-#: ../kfile/kdiroperator.cpp:1918
+#: ../kfile/kdiroperator.cpp:1923
 msgid "Tree View"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1923
+#: ../kfile/kdiroperator.cpp:1928
 msgid "Detailed Tree View"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1934
+#: ../kfile/kdiroperator.cpp:1939
 msgid "Show Hidden Files"
 msgstr "नुकाएल फाइलसभ देखाबू"
 
-#: ../kfile/kdiroperator.cpp:1938
+#: ../kfile/kdiroperator.cpp:1943
 msgid "Show Aside Preview"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1944
+#: ../kfile/kdiroperator.cpp:1949
 msgid "Show Preview"
 msgstr "पूर्वावलोकन देखाबू"
 
-#: ../kfile/kdiroperator.cpp:1955
+#: ../kfile/kdiroperator.cpp:1960
 msgid "&View"
 msgstr "दृश्य (&V)"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-26 10:54+0200\n"
+"POT-Creation-Date: 2009-04-27 10:59+0200\n"
 "PO-Revision-Date: 2009-01-17 22:29+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -119,7 +119,7 @@ msgstr "सत्र समाप्त करू"
 msgid "Lock"
 msgstr "लाक करू"
 
-#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:182
+#: core/leavemodel.cpp:55
 msgid "Lock the screen"
 msgstr "स्क्रीन लाक करू"
 
@@ -141,7 +141,7 @@ msgstr "बन्न करू"
 msgid "Turn off computer"
 msgstr "कंप्यूटर बन्न करू"
 
-#: core/leavemodel.cpp:65 simpleapplet/simpleapplet.cpp:186
+#: core/leavemodel.cpp:65
 #, fuzzy
 #| msgctxt "Restart the computer"
 #| msgid "Restart"
@@ -312,6 +312,20 @@ msgstr "पुस्तकचिह्न"
 msgid "System Settings"
 msgstr ""
 
+#: simpleapplet/simpleapplet.cpp:182
+#, fuzzy
+#| msgid "Lock the screen"
+msgid "Lock Screen"
+msgstr "स्क्रीन लाक करू"
+
+#: simpleapplet/simpleapplet.cpp:186
+#, fuzzy
+#| msgctxt "Restart the computer"
+#| msgid "Restart"
+msgctxt "Restart Computer"
+msgid "Restart"
+msgstr "पुनः प्रारंभ करू"
+
 #: simpleapplet/simpleapplet.cpp:245
 #, fuzzy
 #| msgid "Application Launcher"
@@ -384,11 +398,6 @@ msgstr "अनुप्रयोग"
 
 #~ msgid "Known Applications"
 #~ msgstr "ज्ञात अनुप्रयोग"
-
-#, fuzzy
-#~| msgid "Lock the screen"
-#~ msgid "Lock Screen"
-#~ msgstr "स्क्रीन लाक करू"
 
 #, fuzzy
 #~| msgid "Application Launcher"
