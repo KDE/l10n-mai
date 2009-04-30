@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 11:56+0200\n"
+"POT-Creation-Date: 2009-04-30 11:41+0200\n"
 "PO-Revision-Date: 2009-01-17 22:57+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -763,23 +763,26 @@ msgid "This helper utility is not supposed to be called directly."
 msgstr "ई मद्दति यूटिलिटी सीधे बुलाएल नहि जाए सकैत अछि."
 
 #: killer/killer.cpp:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
+#| "to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to "
+#| "terminate this application? (All unsaved data in this application will be "
+#| "lost.)</p>"
 msgid ""
-"<p>Window with title \"<b>%2</b>\" is not responding. This window belongs to "
-"application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to terminate "
-"this application? (All unsaved data in this application will be lost.)</p>"
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost!</b></p>"
 msgstr ""
 "<p>विंडो शीर्षक \"<b>%2</b>\" प्रतिक्रिया नहि दए रहल अछि. ई विंडो अनुप्रयोग <b>%1</"
 "b> (पीआईडी=%3, होस्टनाम=%4) सँ संबद्ध अछि.</p><p>की अहाँ एहि अनुप्रयोग केँ बन्न कएनाइ "
 "चाहैत छी? (ई अनुप्रयोग केर सबहि सहेजल नहि गेल डाटा गुम भए जएताह.)</p>"
 
-#: killer/killer.cpp:72
-msgid "Terminate"
-msgstr "रोकू"
-
-#: killer/killer.cpp:72
-msgid "Keep Running"
-msgstr "चलए दिअ'"
+#: killer/killer.cpp:73
+#, kde-format
+msgid "&Terminate application %1"
+msgstr ""
 
 #: lib/kcommondecoration.cpp:286
 #, kde-format
@@ -856,6 +859,12 @@ msgstr "डिफाल्ट डेकोरेशन प्लगइन खर
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "लाइब्रेरी %1 के-विन प्लगइन नहि अछि."
+
+#~ msgid "Terminate"
+#~ msgstr "रोकू"
+
+#~ msgid "Keep Running"
+#~ msgstr "चलए दिअ'"
 
 #~ msgid "Desktop Cube"
 #~ msgstr "डेस्कटाप घन"
