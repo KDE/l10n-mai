@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libplasma\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-01 11:11+0200\n"
+"POT-Creation-Date: 2009-05-02 11:49+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -57,7 +57,7 @@ msgstr "%1 क्रियाकलाप"
 msgid "Unknown Widget"
 msgstr "अनचिन्ह बिजेट"
 
-#: applet.cpp:743 applet.cpp:1721 applet.cpp:1722
+#: applet.cpp:743 applet.cpp:1755 applet.cpp:1756
 msgctxt "misc category"
 msgid "Miscellaneous"
 msgstr "विविध"
@@ -92,34 +92,113 @@ msgctxt "@title:window"
 msgid "%1 Settings"
 msgstr "%1 बिन्यास"
 
-#: applet.cpp:1590
+#: applet.cpp:1560
+msgid "Accessibility"
+msgstr ""
+
+#: applet.cpp:1561
+msgid "Application Launchers"
+msgstr ""
+
+#: applet.cpp:1562
+msgid "Astronomy"
+msgstr ""
+
+#: applet.cpp:1563
+msgid "Date and Time"
+msgstr ""
+
+#: applet.cpp:1564
+msgid "Development Tools"
+msgstr ""
+
+#: applet.cpp:1565
+msgid "Education"
+msgstr ""
+
+#: applet.cpp:1566
+msgid "Environment and Weather"
+msgstr ""
+
+#: applet.cpp:1567
+msgid "Examples"
+msgstr ""
+
+#: applet.cpp:1568
+msgid "File System"
+msgstr ""
+
+#: applet.cpp:1569
+msgid "Fun and Games"
+msgstr ""
+
+#: applet.cpp:1570
+msgid "Graphics"
+msgstr ""
+
+#: applet.cpp:1571
+msgid "Language"
+msgstr ""
+
+#: applet.cpp:1572
+msgid "Mapping"
+msgstr ""
+
+#: applet.cpp:1573
+#, fuzzy
+#| msgctxt "misc category"
+#| msgid "Miscellaneous"
+msgid "Miscellaneous"
+msgstr "विविध"
+
+#: applet.cpp:1574
+msgid "Multimedia"
+msgstr ""
+
+#: applet.cpp:1575
+msgid "Online Services"
+msgstr ""
+
+#: applet.cpp:1576
+msgid "System Information"
+msgstr ""
+
+#: applet.cpp:1577
+msgid "Utilities"
+msgstr ""
+
+#: applet.cpp:1578
+msgid "Windows and Tasks"
+msgstr ""
+
+#: applet.cpp:1617
 msgid "Keyboard Shortcut"
 msgstr "कुंजीपटल शार्टकट"
 
-#: applet.cpp:2114
+#: applet.cpp:2144
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not locate the %1 package required for the %2 widget."
 msgstr "%2 बिजेट क' लेल आवश्यक पैकेज %1 क' पता नहि लगाएल जाए सकल."
 
-#: applet.cpp:2134
+#: applet.cpp:2164
 #, kde-format
 msgctxt ""
 "API or programming language the widget was written in, name of the widget"
 msgid "Could not create a %1 ScriptEngine for the %2 widget."
 msgstr "%2 बिजेट क' लेल %1 स्क्रिप्ट इंजिन तैआर नहि कएल जाए सकल."
 
-#: applet.cpp:2139
+#: applet.cpp:2169
 #, kde-format
 msgctxt "Package file, name of the widget"
 msgid "Could not open the %1 package required for the %2 widget."
 msgstr "%2 बिजेट क' लेल आवश्यक पैकेज %1 केँ खोलल नहि जाए सकल."
 
-#: applet.cpp:2273
+#: applet.cpp:2310
 msgid "This object could not be created."
 msgstr "ऑब्जैक्ट केँ  केँ बनाया नहि जा सका"
 
-#: applet.cpp:2275
+#: applet.cpp:2312
 #, kde-format
 msgid ""
 "This object could not be created for the following reason:<p><b>%1</b></p>"
@@ -222,7 +301,7 @@ msgctxt "Error message, tried to start an invalid service"
 msgid "Invalid (null) service, can not perform any operations."
 msgstr "अवैध (रिक्त) सेवा, कोनो काज नहि कए सकैत अछि."
 
-#: private/packages.cpp:42 private/packages.cpp:172
+#: private/packages.cpp:42 private/packages.cpp:174
 msgid "Images"
 msgstr "बिंब"
 
@@ -240,138 +319,142 @@ msgid "Executable Scripts"
 msgstr "एक्जीक्यूटेबल स्क्रिप्ट्स"
 
 #: private/packages.cpp:61
+msgid "Translations"
+msgstr ""
+
+#: private/packages.cpp:63
 msgid "Main Config UI File"
 msgstr "मुख्य कॉन्फ़िग यूआई फाइल"
 
-#: private/packages.cpp:62
+#: private/packages.cpp:64
 msgid "Configuration XML file"
 msgstr "एक्सएमएल फाइल कॉन्फ़िगरेशन"
 
-#: private/packages.cpp:63 private/packages.cpp:73
+#: private/packages.cpp:65 private/packages.cpp:75
 #: scripting/scriptengine.cpp:233 tests/packagestructuretest.cpp:97
 #: tests/packagestructuretest.cpp:121
 msgid "Main Script File"
 msgstr "मुख्य स्क्रिप्ट फाइल"
 
-#: private/packages.cpp:93
+#: private/packages.cpp:95
 #, fuzzy, kde-format
 #| msgid "Installation of <b>%1</b> failed!"
 msgid "Installation of <b>%1</b> failed."
 msgstr "<b>%1</b> केँ संस्थापन विफल!"
 
-#: private/packages.cpp:94
+#: private/packages.cpp:96
 msgid "Installation Failed"
 msgstr "संस्थापन विफल"
 
-#: private/packages.cpp:106
+#: private/packages.cpp:108
 msgid "Images for dialogs"
 msgstr "संवादों क' लेल छवियाँ"
 
-#: private/packages.cpp:108
+#: private/packages.cpp:110
 msgid "Generic dialog background"
 msgstr "जेनेरिक समाद पृष्ठभूमि"
 
-#: private/packages.cpp:110
+#: private/packages.cpp:112
 msgid "Theme for the logout dialog"
 msgstr "लॉग आउट समाद क' लेल प्रसंग"
 
-#: private/packages.cpp:112
+#: private/packages.cpp:114
 msgid "Wallpaper packages"
 msgstr "वापपेपर संकुलसभ"
 
-#: private/packages.cpp:114 private/packages.cpp:145
+#: private/packages.cpp:116 private/packages.cpp:147
 msgid "Images for widgets"
 msgstr "विजेटों क' लेल छवियाँ"
 
-#: private/packages.cpp:116
+#: private/packages.cpp:118
 #, fuzzy
 #| msgid "Background image for panels"
 msgid "Background image for widgets"
 msgstr "फलक क' लेल पृष्ठभूमि छवि"
 
-#: private/packages.cpp:118
+#: private/packages.cpp:120
 msgid "Analog clock face"
 msgstr "एनॉलॉग घड़ी रूप"
 
-#: private/packages.cpp:120
+#: private/packages.cpp:122
 msgid "Background image for panels"
 msgstr "फलक क' लेल पृष्ठभूमि छवि"
 
-#: private/packages.cpp:122
+#: private/packages.cpp:124
 msgid "Background for graphing widgets"
 msgstr "ग्राफ़िक विजेटों क' लेल पृष्ठभूमि"
 
-#: private/packages.cpp:124
+#: private/packages.cpp:126
 msgid "Background image for tooltips"
 msgstr "औजार युक्ति क' लेल पृष्ठभूमि छवि"
 
-#: private/packages.cpp:126
+#: private/packages.cpp:128
 msgid "Opaque images for dialogs"
 msgstr "संवादों क' लेल अपारदर्शी छवियाँ"
 
-#: private/packages.cpp:128
+#: private/packages.cpp:130
 msgid "Opaque generic dialog background"
 msgstr "अपारदर्शी जेनेरिक समाद पृष्ठभूमि"
 
-#: private/packages.cpp:130
+#: private/packages.cpp:132
 msgid "Opaque theme for the logout dialog"
 msgstr "लॉग आउट समाद क' लेल पृष्ठभूमि"
 
-#: private/packages.cpp:132
+#: private/packages.cpp:134
 msgid "Opaque images for widgets"
 msgstr "विजेटों क' लेल अपारदर्शी छवियाँ"
 
-#: private/packages.cpp:134
+#: private/packages.cpp:136
 msgid "Opaque background image for panels"
 msgstr "फलक क' लेल अपारदर्शी पृष्ठभूमि छवि"
 
-#: private/packages.cpp:136
+#: private/packages.cpp:138
 msgid "Opaque background image for tooltips"
 msgstr "औजार युक्ति क' लेल अपारदर्शी पृष्ठभूमि छवि"
 
-#: private/packages.cpp:139
+#: private/packages.cpp:141
 msgid "Low color images for dialogs"
 msgstr "संवादों क' लेल कम रंग की छवियाँ"
 
-#: private/packages.cpp:141
+#: private/packages.cpp:143
 msgid "Low color generic dialog background"
 msgstr "कम रंग जेनेरिक समाद पृष्ठभूमि"
 
-#: private/packages.cpp:143
+#: private/packages.cpp:145
 msgid "Low color theme for the logout dialog"
 msgstr "लॉग आउट समाद क' लेल कम रंग प्रसंग"
 
-#: private/packages.cpp:147
+#: private/packages.cpp:149
 #, fuzzy
 #| msgid "Low color background image for panels"
 msgid "Low color background image for widgets"
 msgstr "फलक चित्रों क' लेल कम रंग की पृष्ठभूमि छवि"
 
-#: private/packages.cpp:149
+#: private/packages.cpp:151
 msgid "Low color analog clock face"
 msgstr "कम रंग क' एनॉलॉग घड़ी रूप"
 
-#: private/packages.cpp:151
+#: private/packages.cpp:153
 msgid "Low color background image for panels"
 msgstr "फलक चित्रों क' लेल कम रंग की पृष्ठभूमि छवि"
 
-#: private/packages.cpp:153
+#: private/packages.cpp:155
 msgid "Low color background for graphing widgets"
 msgstr "ग्राफ़िक विजेटों क' लेल कम रंग की पृष्ठभूमि "
 
-#: private/packages.cpp:155
+#: private/packages.cpp:157
 msgid "Low color background image for tooltips"
 msgstr "औजार युक्ति क' लेल कम रंग की पृष्ठभूमि छवि"
 
-#: private/packages.cpp:157
+#: private/packages.cpp:159
 msgid "KColorScheme configuration file"
 msgstr "केकलरस्कीम कॉन्फ़िगरेशन फाइल"
 
-#: private/packages.cpp:173
+#: private/packages.cpp:175
 msgid "Screenshot"
 msgstr ""
 
-#: private/packages.cpp:203 private/packages.cpp:258
+#: private/packages.cpp:205 private/packages.cpp:260
 msgid "Recommended wallpaper file"
 msgstr ""
 
