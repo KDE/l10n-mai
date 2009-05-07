@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_systemtray\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-06 12:09+0200\n"
+"POT-Creation-Date: 2009-05-07 11:16+0200\n"
 "PO-Revision-Date: 2009-01-17 22:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -27,6 +27,51 @@ msgstr ""
 msgid "notificationitemwatcher"
 msgstr "अधिसूचना %1"
 
+#: core/extendertask.cpp:151
+#, kde-format
+msgid "%1 Recently Completed Job:"
+msgid_plural "%1 Recently Completed Jobs:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:174
+#, kde-format
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:178
+#, kde-format
+msgid "%1 suspended job"
+msgid_plural "%1 suspended jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/extendertask.cpp:182
+#, fuzzy, kde-format
+#| msgid "Notification from %1"
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "अधिसूचना %1"
+msgstr[1] "अधिसूचना %1"
+
+#: core/extendertask.cpp:187
+#, fuzzy
+#| msgid "Notification from %1"
+msgid "No active jobs or notifications"
+msgstr "अधिसूचना %1"
+
+#: core/extendertask.cpp:190
+#, fuzzy
+#| msgid "No notifications and no jobs"
+msgid "Notifications and jobs"
+msgstr "सूचना नहि आओर काज नहि"
+
+#: core/extendertask.cpp:243
+msgid "Show or hide notifications and jobs"
+msgstr "सूचना आओर काज देखाबू अथवा नुकाबू"
+
 #: core/job.cpp:170
 #, kde-format
 msgid "%1 file, to: %2"
@@ -34,14 +79,14 @@ msgid_plural "%1 files, to: %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/manager.cpp:198
+#: core/manager.cpp:214
 #, kde-format
 msgid "1 running job (%2 remaining)"
 msgid_plural "%1 running jobs (%2 remaining)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/manager.cpp:203
+#: core/manager.cpp:219
 msgid "no running jobs"
 msgstr ""
 
@@ -69,7 +114,7 @@ msgstr "अधिसूचना %1"
 msgid "Automatically hide new notifications and jobs after a short delay"
 msgstr ""
 
-#. i18n: file: ui/autohide.ui:43
+#. i18n: file: ui/autohide.ui:59
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:11
 msgid "System Tray Icons"
@@ -127,81 +172,34 @@ msgstr ""
 msgid "Hardware control"
 msgstr ""
 
-#: ui/applet.cpp:174
+#: ui/applet.cpp:171
 msgid "No notifications and no jobs"
 msgstr "सूचना नहि आओर काज नहि"
 
-#: ui/applet.cpp:416
-msgid "Visible icons:"
-msgstr "दृष्टिगोचर चिह्न:"
-
-#: ui/applet.cpp:417
-msgid "Hidden icons:"
-msgstr "नुकाएल चिह्न:"
-
-#: ui/applet.cpp:425
+#: ui/applet.cpp:422
 msgid "Information"
 msgstr ""
 
-#: ui/applet.cpp:427
+#: ui/applet.cpp:424
 msgid "Choose which information to show"
 msgstr ""
 
-#: ui/applet.cpp:428
+#: ui/applet.cpp:425
 msgid "Auto Hide"
 msgstr ""
 
-#: ui/applet.cpp:568
+#: ui/applet.cpp:564
 msgid "clear all"
 msgstr ""
 
-#: ui/applet.cpp:655
+#: ui/applet.cpp:635
 #, kde-format
 msgid "%1 [Finished]"
 msgstr ""
 
-#: ui/applet.cpp:689
+#: ui/applet.cpp:669
 msgid "Recently Completed Jobs"
 msgstr ""
-
-#: ui/extendertask.cpp:73
-#, kde-format
-msgid "%1 Recently Completed Job:"
-msgid_plural "%1 Recently Completed Jobs:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ui/extendertask.cpp:96
-#, kde-format
-msgid "%1 running job"
-msgid_plural "%1 running jobs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ui/extendertask.cpp:99
-#, kde-format
-msgid "%1 suspended job"
-msgid_plural "%1 suspended jobs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ui/extendertask.cpp:102
-#, fuzzy, kde-format
-#| msgid "Notification from %1"
-msgid "%1 notification"
-msgid_plural "%1 notifications"
-msgstr[0] "अधिसूचना %1"
-msgstr[1] "अधिसूचना %1"
-
-#: ui/extendertask.cpp:106
-#, fuzzy
-#| msgid "No notifications and no jobs"
-msgid "Notifications and jobs"
-msgstr "सूचना नहि आओर काज नहि"
-
-#: ui/extendertask.cpp:178
-msgid "Show or hide notifications and jobs"
-msgstr "सूचना आओर काज देखाबू अथवा नुकाबू"
 
 #: ui/jobwidget.cpp:95
 msgid "More"
@@ -270,6 +268,12 @@ msgstr ""
 #, kde-format
 msgid "Notification from %1"
 msgstr "अधिसूचना %1"
+
+#~ msgid "Visible icons:"
+#~ msgstr "दृष्टिगोचर चिह्न:"
+
+#~ msgid "Hidden icons:"
+#~ msgstr "नुकाएल चिह्न:"
 
 #, fuzzy
 #~| msgid "Notification from %1"
