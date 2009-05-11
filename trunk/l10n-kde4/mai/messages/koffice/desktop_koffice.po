@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-07 09:30+0000\n"
+"POT-Creation-Date: 2009-05-11 11:05+0000\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -211,15 +211,15 @@ msgctxt "Name"
 msgid "KPresenter XPM Export Filter"
 msgstr ""
 
+#: filters/kpresenter/kpr2odf/Filterkpr2odf.desktop:3
+msgctxt "Name"
+msgid "Filter to export KPR files to ODP"
+msgstr ""
+
 #: filters/kpresenter/kpr/export/odp2kpr.desktop:3
 #: filters/kpresenter/kpr/import/kpr2odp.desktop:3
 msgctxt "Name"
 msgid "KPresenter Old File Format Filter"
-msgstr ""
-
-#: filters/kpresenter/kpr2odf/Filterkpr2odf.desktop:3
-msgctxt "Name"
-msgid "Filter to export KPR files to ODP"
 msgstr ""
 
 #: filters/kpresenter/kword/kodp2odt.desktop:3
@@ -551,11 +551,6 @@ msgctxt "Name"
 msgid "Chart Shape"
 msgstr ""
 
-#: kchart/templates/.directory:2
-msgctxt "Name"
-msgid "Charts"
-msgstr "चार्ट"
-
 #: kchart/templates/BarChart.desktop:4
 msgctxt "Name"
 msgid "Bar Chart"
@@ -565,6 +560,11 @@ msgstr ""
 msgctxt "Comment"
 msgid "An example of a bar chart"
 msgstr ""
+
+#: kchart/templates/.directory:2
+msgctxt "Name"
+msgid "Charts"
+msgstr "चार्ट"
 
 #: kchart/templates/Empty.desktop:4
 #: kspread/data/templates/General/Worksheet.desktop:4
@@ -612,21 +612,6 @@ msgctxt "Comment"
 msgid "Widget Factory Base"
 msgstr ""
 
-#: kexi/kexi.desktop:2
-msgctxt "Name"
-msgid "Kexi"
-msgstr ""
-
-#: kexi/kexi.desktop:14 kexi/kexipart.desktop:40
-msgctxt "GenericName"
-msgid "Database Creator"
-msgstr ""
-
-#: kexi/kexi.desktop:66
-msgctxt "Comment"
-msgid "Develop desktop database applications"
-msgstr ""
-
 #: kexi/kexidb/drivers/mySQL/kexidb_mysqldriver.desktop:2
 #: kexi/migration/mysql/keximigrate_mysql.desktop:2
 msgctxt "Name"
@@ -669,16 +654,6 @@ msgctxt "Comment"
 msgid "Kexi database driver for accessing PostgreSQL servers"
 msgstr ""
 
-#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:2
-msgctxt "Name"
-msgid "SQLite3"
-msgstr ""
-
-#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:8
-msgctxt "Comment"
-msgid "SQLite is default Kexi embedded SQL engine"
-msgstr ""
-
 #: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:2
 msgctxt "Name"
 msgid "SQLite2"
@@ -687,6 +662,16 @@ msgstr ""
 #: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:8
 msgctxt "Comment"
 msgid "SQLite 2 is the old and obsolete version of Kexi embedded SQL engine"
+msgstr ""
+
+#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:2
+msgctxt "Name"
+msgid "SQLite3"
+msgstr ""
+
+#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:8
+msgctxt "Comment"
+msgid "SQLite is default Kexi embedded SQL engine"
 msgstr ""
 
 #: kexi/kexidb/drivers/sybase/kexidb_sybasedriver.desktop:2
@@ -714,6 +699,21 @@ msgstr ""
 #: kexi/kexidb/kexidb_driver.desktop:4
 msgctxt "Comment"
 msgid "Kexi SQL-Driver plugin"
+msgstr ""
+
+#: kexi/kexi.desktop:2
+msgctxt "Name"
+msgid "Kexi"
+msgstr ""
+
+#: kexi/kexi.desktop:14 kexi/kexipart.desktop:40
+msgctxt "GenericName"
+msgid "Database Creator"
+msgstr ""
+
+#: kexi/kexi.desktop:66
+msgctxt "Comment"
+msgid "Develop desktop database applications"
 msgstr ""
 
 #: kexi/kexipart.desktop:2
@@ -940,16 +940,16 @@ msgctxt "Comment"
 msgid "Allow execution of scripts"
 msgstr ""
 
+#: kplato/templates/Simple/8HourDay-40HourWeek.desktop:4
+msgctxt "Name"
+msgid "8 hour day, 40 hour week"
+msgstr ""
+
 #: kplato/templates/Simple/.directory:2
 #: kplato/workpackage/templates/Simple/.directory:2
 msgctxt "Name"
 msgid "Simple"
 msgstr "सरल"
-
-#: kplato/templates/Simple/8HourDay-40HourWeek.desktop:4
-msgctxt "Name"
-msgid "8 hour day, 40 hour week"
-msgstr ""
 
 #: kplato/templates/Simple/Plain.desktop:4
 msgctxt "Name"
@@ -1077,134 +1077,34 @@ msgctxt "Name"
 msgid "A4"
 msgstr "A4"
 
-#: kpresenter/templates/Screen/.directory:2
+#: kpresenter/templates/common_desktop/emptyLandscape.desktop:3
 msgctxt "Name"
-msgid "Screen"
-msgstr "स्क्रीन"
+msgid "Empty"
+msgstr "खाली"
 
-#: kpresenter/templates/Screenpresentations/.directory:2
-msgctxt "Name"
-msgid "Screen Presentations"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:3
-msgctxt "Name"
-msgid "Blue Breeze Double"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:45
+#: kpresenter/templates/common_desktop/emptyLandscape.desktop:58
 msgctxt "Comment"
-msgid "A peaceful presentation with a title and two text columns"
+msgid "Empty presentation"
 msgstr ""
 
-#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:3
+#: kpresenter/templates/common_desktop/emptyLandscapeWide.desktop:3
 msgctxt "Name"
-msgid "Blue Breeze Picture"
+msgid "Empty 16:10"
 msgstr ""
 
-#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:47
+#: kpresenter/templates/common_desktop/emptyLandscapeWide.desktop:28
 msgctxt "Comment"
-msgid "A peaceful presentation with a title and picture area"
+msgid "Empty presentation 10:16"
 msgstr ""
 
-#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:3
+#: kpresenter/templates/common_desktop/emptyPortrait.desktop:3
 msgctxt "Name"
-msgid "Blue Breeze Single"
+msgid "Empty Portrait"
 msgstr ""
 
-#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:45
+#: kpresenter/templates/common_desktop/emptyPortrait.desktop:52
 msgctxt "Comment"
-msgid "A peaceful presentation with a title and single large text area"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
-msgctxt "Name"
-msgid "Copper Plain"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:44
-msgctxt "Comment"
-msgid "An elegant, uplifting presentation"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:4
-msgctxt "Name"
-msgid "Gradient Blue-Red"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:54
-msgctxt "Comment"
-msgid "A presentation themed for the evening sky"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:3
-msgctxt "Name"
-msgid "Snowy Mountains"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:53
-msgctxt "Comment"
-msgid "A cool and smooth presentation"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:3
-msgctxt "Name"
-msgid "Totally New Product"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:54
-msgctxt "Comment"
-msgid "An informal, green-swirl presentation"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/classroom.desktop:3
-msgctxt "Name"
-msgid "Classroom"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/classroom.desktop:44
-msgctxt "Comment"
-msgid "Classroom by dannya"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde.desktop:4
-msgctxt "Name"
-msgid "KDE"
-msgstr "केडीई"
-
-#: kpresenter/templates/Screenpresentations/kde.desktop:13
-msgctxt "Comment"
-msgid "A presentation with original KDE theming"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde2.desktop:4
-msgctxt "Name"
-msgid "KDE 2"
-msgstr "केडीई 2"
-
-#: kpresenter/templates/Screenpresentations/kde2.desktop:12
-msgctxt "Comment"
-msgid "A presentation with KDE 2 theming"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde3.desktop:4
-msgctxt "Name"
-msgid "KDE 3"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde3.desktop:9
-msgctxt "Comment"
-msgid "A presentation with KDE 3 theming"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/savannah.desktop:3
-msgctxt "Name"
-msgid "Savannah"
-msgstr "सवानाह"
-
-#: kpresenter/templates/Screenpresentations/savannah.desktop:34
-msgctxt "Comment"
-msgid "Savannah by dannya"
+msgid "Empty presentation (portrait-oriented)"
 msgstr ""
 
 #: kpresenter/templates/common_desktop/OneColumnLandscape.desktop:3
@@ -1268,36 +1168,6 @@ msgctxt "Comment"
 msgid "Presentation with a page title and two text columns (portrait-oriented)"
 msgstr ""
 
-#: kpresenter/templates/common_desktop/emptyLandscape.desktop:3
-msgctxt "Name"
-msgid "Empty"
-msgstr "खाली"
-
-#: kpresenter/templates/common_desktop/emptyLandscape.desktop:58
-msgctxt "Comment"
-msgid "Empty presentation"
-msgstr ""
-
-#: kpresenter/templates/common_desktop/emptyLandscapeWide.desktop:3
-msgctxt "Name"
-msgid "Empty 16:10"
-msgstr ""
-
-#: kpresenter/templates/common_desktop/emptyLandscapeWide.desktop:28
-msgctxt "Comment"
-msgid "Empty presentation 10:16"
-msgstr ""
-
-#: kpresenter/templates/common_desktop/emptyPortrait.desktop:3
-msgctxt "Name"
-msgid "Empty Portrait"
-msgstr ""
-
-#: kpresenter/templates/common_desktop/emptyPortrait.desktop:52
-msgctxt "Comment"
-msgid "Empty presentation (portrait-oriented)"
-msgstr ""
-
 #: kpresenter/templates/legal/.directory:2
 msgctxt "Name"
 msgid "Legal"
@@ -1307,6 +1177,136 @@ msgstr "लीगल"
 msgctxt "Name"
 msgid "Letter"
 msgstr "पत्र"
+
+#: kpresenter/templates/Screen/.directory:2
+msgctxt "Name"
+msgid "Screen"
+msgstr "स्क्रीन"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:3
+msgctxt "Name"
+msgid "Blue Breeze Double"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:45
+msgctxt "Comment"
+msgid "A peaceful presentation with a title and two text columns"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:3
+msgctxt "Name"
+msgid "Blue Breeze Picture"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:47
+msgctxt "Comment"
+msgid "A peaceful presentation with a title and picture area"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:3
+msgctxt "Name"
+msgid "Blue Breeze Single"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:45
+msgctxt "Comment"
+msgid "A peaceful presentation with a title and single large text area"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/classroom.desktop:3
+msgctxt "Name"
+msgid "Classroom"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/classroom.desktop:44
+msgctxt "Comment"
+msgid "Classroom by dannya"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
+msgctxt "Name"
+msgid "Copper Plain"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:44
+msgctxt "Comment"
+msgid "An elegant, uplifting presentation"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/.directory:2
+msgctxt "Name"
+msgid "Screen Presentations"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:4
+msgctxt "Name"
+msgid "Gradient Blue-Red"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:54
+msgctxt "Comment"
+msgid "A presentation themed for the evening sky"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde2.desktop:4
+msgctxt "Name"
+msgid "KDE 2"
+msgstr "केडीई 2"
+
+#: kpresenter/templates/Screenpresentations/kde2.desktop:12
+msgctxt "Comment"
+msgid "A presentation with KDE 2 theming"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde3.desktop:4
+msgctxt "Name"
+msgid "KDE 3"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde3.desktop:9
+msgctxt "Comment"
+msgid "A presentation with KDE 3 theming"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde.desktop:4
+msgctxt "Name"
+msgid "KDE"
+msgstr "केडीई"
+
+#: kpresenter/templates/Screenpresentations/kde.desktop:13
+msgctxt "Comment"
+msgid "A presentation with original KDE theming"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/savannah.desktop:3
+msgctxt "Name"
+msgid "Savannah"
+msgstr "सवानाह"
+
+#: kpresenter/templates/Screenpresentations/savannah.desktop:34
+msgctxt "Comment"
+msgid "Savannah by dannya"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:3
+msgctxt "Name"
+msgid "Snowy Mountains"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:53
+msgctxt "Comment"
+msgid "A cool and smooth presentation"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:3
+msgctxt "Name"
+msgid "Totally New Product"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:54
+msgctxt "Comment"
+msgid "An informal, green-swirl presentation"
+msgstr ""
 
 #: krita/data/krita_brush.desktop:4
 msgctxt "Comment"
@@ -1608,14 +1608,14 @@ msgctxt "Name"
 msgid "Glsl Filter Plugin"
 msgstr ""
 
-#: krita/plugins/extensions/histogram/kritahistogram.desktop:2
-msgctxt "Name"
-msgid "Histogram Plugin"
-msgstr ""
-
 #: krita/plugins/extensions/histogram_docker/kritahistogramdocker.desktop:2
 msgctxt "Name"
 msgid "Histogram Docker"
+msgstr ""
+
+#: krita/plugins/extensions/histogram/kritahistogram.desktop:2
+msgctxt "Name"
+msgid "Histogram Plugin"
 msgstr ""
 
 #: krita/plugins/extensions/imagesize/kritaimagesize.desktop:2
@@ -1750,11 +1750,6 @@ msgctxt "Comment"
 msgid "Bumpmap filter"
 msgstr ""
 
-#: krita/plugins/filters/colors/kritaextensioncolorsfilters.desktop:3
-msgctxt "Name"
-msgid "Color Filters (Extension)"
-msgstr ""
-
 #: krita/plugins/filters/colorsfilters/kritacolorsfilter.desktop:2
 msgctxt "Name"
 msgid "Color Filters"
@@ -1763,6 +1758,11 @@ msgstr ""
 #: krita/plugins/filters/colorsfilters/kritacolorsfilter.desktop:48
 msgctxt "Comment"
 msgid "Color filters"
+msgstr ""
+
+#: krita/plugins/filters/colors/kritaextensioncolorsfilters.desktop:3
+msgctxt "Name"
+msgid "Color Filters (Extension)"
 msgstr ""
 
 #: krita/plugins/filters/convolutionfilters/kritaconvolutionfilters.desktop:2
@@ -2182,15 +2182,15 @@ msgctxt "Name"
 msgid "KritaShape Shape"
 msgstr ""
 
-#: kspread/data/templates/Business/.directory:2
-msgctxt "Name"
-msgid "Business"
-msgstr "व्यवसाय"
-
 #: kspread/data/templates/Business/BalanceSheet.desktop:4
 msgctxt "Name"
 msgid "Balance Sheet"
 msgstr ""
+
+#: kspread/data/templates/Business/.directory:2
+msgctxt "Name"
+msgid "Business"
+msgstr "व्यवसाय"
 
 #: kspread/data/templates/Business/ExpenseReport.desktop:4
 msgctxt "Name"
@@ -2222,11 +2222,6 @@ msgctxt "Name"
 msgid "Student ID Card"
 msgstr ""
 
-#: kspread/data/templates/HomeFamily/.directory:2
-msgctxt "Name"
-msgid "Home and Family"
-msgstr ""
-
 #: kspread/data/templates/HomeFamily/BMI.desktop:4
 msgctxt "Name"
 msgid "BMI Calculator"
@@ -2240,6 +2235,11 @@ msgstr ""
 #: kspread/data/templates/HomeFamily/CreditCardTracker.desktop:4
 msgctxt "Name"
 msgid "Credit Card Tracker"
+msgstr ""
+
+#: kspread/data/templates/HomeFamily/.directory:2
+msgctxt "Name"
+msgid "Home and Family"
 msgstr ""
 
 #: kspread/data/templates/HomeFamily/MenuPlan.desktop:4
@@ -2497,14 +2497,14 @@ msgctxt "Comment"
 msgid "Validation for a cell failed"
 msgstr ""
 
-#: kspread/kspread_plugin.desktop:4
-msgctxt "Comment"
-msgid "Plugin for KSpread"
-msgstr ""
-
 #: kspread/kspreadpart.desktop:2
 msgctxt "Name"
 msgid "KOffice Spreadsheet Component"
+msgstr ""
+
+#: kspread/kspread_plugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for KSpread"
 msgstr ""
 
 #: kspread/plugins/calendar/kspread_plugin_tool_calendar.desktop:2
@@ -2547,14 +2547,14 @@ msgctxt "GenericName"
 msgid "Text Documents"
 msgstr "पाठ दस्ताबेज"
 
-#: kword/templates/CardsAndLabels/.directory:2
-msgctxt "Name"
-msgid "Cards and Labels"
-msgstr ""
-
 #: kword/templates/CardsAndLabels/BusinessCards10.desktop:3
 msgctxt "Name"
 msgid "Business Cards 10"
+msgstr ""
+
+#: kword/templates/CardsAndLabels/.directory:2
+msgctxt "Name"
+msgid "Cards and Labels"
 msgstr ""
 
 #: kword/templates/CardsAndLabels/LabelsL16.desktop:3
@@ -2577,11 +2577,6 @@ msgctxt "Name"
 msgid "Envelope DL"
 msgstr ""
 
-#: kword/templates/Wordprocessing/.directory:2
-msgctxt "Name"
-msgid "Blank Documents"
-msgstr ""
-
 #: kword/templates/Wordprocessing/A4.desktop:4
 msgctxt "Name"
 msgid "Blank Document"
@@ -2602,6 +2597,11 @@ msgstr ""
 #: kword/templates/Wordprocessing/ColorfulLetter.desktop:51
 msgctxt "Comment"
 msgid "A two-column template with stylishly colored headers and footers"
+msgstr ""
+
+#: kword/templates/Wordprocessing/.directory:2
+msgctxt "Name"
+msgid "Blank Documents"
 msgstr ""
 
 #: kword/templates/Wordprocessing/FaxA4.desktop:4
@@ -2665,16 +2665,6 @@ msgctxt "Comment"
 msgid "Creates a letter document with two columns per page."
 msgstr ""
 
-#: libs/flake/flake.desktop:2
-msgctxt "Name"
-msgid "Flake Plugin"
-msgstr ""
-
-#: libs/flake/flake.desktop:34
-msgctxt "Comment"
-msgid "A plugin that contains a set of a shape and a tool"
-msgstr ""
-
 #: libs/flake/flakeborder.desktop:2
 msgctxt "Name"
 msgid "Shape border definition"
@@ -2683,6 +2673,16 @@ msgstr ""
 #: libs/flake/flakeborder.desktop:30
 msgctxt "Comment"
 msgid "Definition of a flake shape border"
+msgstr ""
+
+#: libs/flake/flake.desktop:2
+msgctxt "Name"
+msgid "Flake Plugin"
+msgstr ""
+
+#: libs/flake/flake.desktop:34
+msgctxt "Comment"
+msgid "A plugin that contains a set of a shape and a tool"
 msgstr ""
 
 #: libs/flake/flakedevice.desktop:2
