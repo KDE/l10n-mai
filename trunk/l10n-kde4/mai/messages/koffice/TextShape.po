@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-01 11:19+0200\n"
+"POT-Creation-Date: 2009-05-25 11:44+0200\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: TextShapeFactory.cpp:35 TextShapeFactory.cpp:43 TextTool.cpp:1438
+#: TextShapeFactory.cpp:35 TextShapeFactory.cpp:43 TextTool.cpp:1465
 msgid "Text"
 msgstr "पाठ"
 
@@ -343,13 +343,13 @@ msgstr "सामान्य"
 
 #. i18n: file: dialogs/FontLayoutTab.ui:108
 #. i18n: ectx: property (text), widget (QRadioButton, superscript)
-#: rc.cpp:60 TextTool.cpp:201
+#: rc.cpp:60 TextTool.cpp:202
 msgid "Superscript"
 msgstr "अधिस्क्रिप्ट"
 
 #. i18n: file: dialogs/FontLayoutTab.ui:115
 #. i18n: ectx: property (text), widget (QRadioButton, subscript)
-#: rc.cpp:63 TextTool.cpp:206
+#: rc.cpp:63 TextTool.cpp:207
 msgid "Subscript"
 msgstr "उपस्क्रिप्ट"
 
@@ -544,7 +544,7 @@ msgstr ""
 
 #. i18n: file: dialogs/ParagraphDecorations.ui:31
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:199 TextTool.cpp:346
+#: rc.cpp:199 TextTool.cpp:347
 msgid "Background"
 msgstr "पृष्ठभूमि"
 
@@ -616,7 +616,8 @@ msgstr "नवीन (&N)"
 
 #. i18n: file: dialogs/StyleManager.ui:56
 #. i18n: ectx: property (text), widget (QPushButton, bDelete)
-#: rc.cpp:241 TextTool.cpp:774 TextTool.cpp:933 TextTool.cpp:953
+#: rc.cpp:241 TextTool.cpp:776 TextTool.cpp:947 TextTool.cpp:968
+#: TextTool.cpp:1685
 msgid "Delete"
 msgstr "मेटाबू"
 
@@ -628,7 +629,7 @@ msgstr ""
 
 #. i18n: file: dialogs/StyleManagerWelcome.ui:18
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:247 TextTool.cpp:396
+#: rc.cpp:247 TextTool.cpp:397
 msgid "Style Manager"
 msgstr ""
 
@@ -793,116 +794,116 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
-#: TextTool.cpp:149
+#: TextTool.cpp:150
 msgid "Bold"
 msgstr "मोट"
 
-#: TextTool.cpp:155
+#: TextTool.cpp:156
 msgid "Italic"
 msgstr "तिरछा"
 
-#: TextTool.cpp:161
+#: TextTool.cpp:162
 msgctxt "Text formatting"
 msgid "Underline"
 msgstr "रेखांकित"
 
-#: TextTool.cpp:167
+#: TextTool.cpp:168
 msgid "Strike Out"
 msgstr ""
 
-#: TextTool.cpp:173
+#: TextTool.cpp:174
 msgid "Align Left"
 msgstr "बामाँ संरेखण"
 
-#: TextTool.cpp:180
+#: TextTool.cpp:181
 msgid "Align Right"
 msgstr "दहिन्ना संरेखण"
 
-#: TextTool.cpp:187
+#: TextTool.cpp:188
 msgid "Align Center"
 msgstr "केँद्रक' सँरेखण"
 
-#: TextTool.cpp:194
+#: TextTool.cpp:195
 msgid "Align Block"
 msgstr ""
 
-#: TextTool.cpp:213
+#: TextTool.cpp:214
 msgid "Increase Indent"
 msgstr "हाशिया बढ़ाबू"
 
-#: TextTool.cpp:219
+#: TextTool.cpp:220
 msgid "Decrease Indent"
 msgstr "हाशिया घटाबू"
 
-#: TextTool.cpp:223
+#: TextTool.cpp:224
 msgid "Increase Font Size"
 msgstr "फोन्ट आकार घटाबू"
 
-#: TextTool.cpp:228
+#: TextTool.cpp:229
 msgid "Decrease Font Size"
 msgstr "फोन्ट आकार घटाबू"
 
-#: TextTool.cpp:301
+#: TextTool.cpp:302
 msgid "Insert Non-Breaking Space"
 msgstr ""
 
-#: TextTool.cpp:306
+#: TextTool.cpp:307
 msgid "Insert Non-Breaking Hyphen"
 msgstr ""
 
-#: TextTool.cpp:311
+#: TextTool.cpp:312
 msgid "Insert Index"
 msgstr "अनुक्रमणिका जोडू"
 
-#: TextTool.cpp:316
+#: TextTool.cpp:317
 msgid "Insert Soft Hyphen"
 msgstr ""
 
-#: TextTool.cpp:321
+#: TextTool.cpp:322
 msgid "Line Break"
 msgstr ""
 
-#: TextTool.cpp:326
+#: TextTool.cpp:327
 msgid "Font..."
 msgstr ""
 
-#: TextTool.cpp:329
+#: TextTool.cpp:330
 msgid "Change character size, font, boldface, italics etc."
 msgstr ""
 
-#: TextTool.cpp:330
+#: TextTool.cpp:331
 msgid "Change the attributes of the currently selected characters."
 msgstr ""
 
-#: TextTool.cpp:333
+#: TextTool.cpp:334
 msgid "Font Size"
 msgstr "फाँट आकार"
 
-#: TextTool.cpp:339
+#: TextTool.cpp:340
 msgid "Text Color..."
 msgstr ""
 
-#: TextTool.cpp:345
+#: TextTool.cpp:346
 msgid "Background Color..."
 msgstr "पृष्ठभूमि रंग..."
 
-#: TextTool.cpp:350
+#: TextTool.cpp:351
 msgid "Default Format"
 msgstr ""
 
-#: TextTool.cpp:352
+#: TextTool.cpp:353
 msgid "Change text attributes to their default values"
 msgstr ""
 
-#: TextTool.cpp:384
+#: TextTool.cpp:385
 msgid "Paragraph..."
 msgstr ""
 
-#: TextTool.cpp:387
+#: TextTool.cpp:388
 msgid "Change paragraph margins, text flow, borders, bullets, numbering etc."
 msgstr ""
 
-#: TextTool.cpp:388
+#: TextTool.cpp:389
 msgid ""
 "Change paragraph margins, text flow, borders, bullets, numbering etc."
 "<p>Select text in multiple paragraphs to change the formatting of all "
@@ -910,33 +911,33 @@ msgid ""
 "cursor is located will be changed.</p>"
 msgstr ""
 
-#: TextTool.cpp:391
+#: TextTool.cpp:392
 msgid "Record"
 msgstr "लेखा"
 
-#: TextTool.cpp:398
+#: TextTool.cpp:399
 msgid "Change attributes of styles"
 msgstr ""
 
-#: TextTool.cpp:399
+#: TextTool.cpp:400
 msgid ""
 "Change font and paragraph attributes of styles.<p>Multiple styles can be "
 "changed using the dialog box."
 msgstr ""
 
-#: TextTool.cpp:406
+#: TextTool.cpp:407
 msgid "Special Character..."
 msgstr ""
 
-#: TextTool.cpp:410
+#: TextTool.cpp:411
 msgid "Insert one or more symbols or characters not found on the keyboard"
 msgstr ""
 
-#: TextTool.cpp:411
+#: TextTool.cpp:412
 msgid "Insert one or more symbols or characters not found on the keyboard."
 msgstr ""
 
-#: TextTool.cpp:671
+#: TextTool.cpp:672
 #, kde-format
 msgid ""
 "This link points to the program or script '%1'.\n"
@@ -944,25 +945,29 @@ msgid ""
 "this program?"
 msgstr ""
 
-#: TextTool.cpp:676
+#: TextTool.cpp:677
 msgid "Open Link?"
 msgstr ""
 
-#: TextTool.cpp:1006
+#: TextTool.cpp:1033
 msgid "Insert Linebreak"
 msgstr ""
 
-#: TextTool.cpp:1015 TextTool.cpp:1023 TextTool.cpp:1648
+#: TextTool.cpp:1042 TextTool.cpp:1050 TextTool.cpp:1680
 msgid "Key Press"
 msgstr ""
 
-#: TextTool.cpp:1398
+#: TextTool.cpp:1425
 msgid "Abc"
 msgstr ""
 
-#: TextTool.cpp:1400
+#: TextTool.cpp:1427
 msgid "Styles"
 msgstr "शैलीसभ"
+
+#: TextTool.cpp:1680 TextTool.cpp:1685
+msgid "Autocorrection"
+msgstr ""
 
 #: TextToolFactory.cpp:27
 msgid "Text tool"
