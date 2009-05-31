@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-22 07:02+0200\n"
+"POT-Creation-Date: 2009-05-31 07:01+0200\n"
 "PO-Revision-Date: 2009-05-12 21:32+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -504,8 +504,8 @@ msgstr ""
 msgid "Bouvet Island"
 msgstr "बौभेट द्वीप"
 
-#: Currency.cpp:113
-msgid "Norvegian Krone"
+#: Currency.cpp:113 Currency.cpp:265 Currency.cpp:310
+msgid "Norwegian Krone"
 msgstr ""
 
 #: Currency.cpp:113 Currency.cpp:310
@@ -1714,8 +1714,10 @@ msgid "Netherlands Antilles"
 msgstr "नीदरलैंड्स एंटीलेस"
 
 #: Currency.cpp:256
-msgid "Netherlands Antillan Guilder"
-msgstr ""
+#, fuzzy
+#| msgid "Netherlands Antilles"
+msgid "Netherlands Antillean Guilder"
+msgstr "नीदरलैंड्स एंटीलेस"
 
 #: Currency.cpp:256
 msgid "ANG"
@@ -1768,10 +1770,6 @@ msgstr "उत्तरी मरियाना द्वीप"
 #: Currency.cpp:265
 msgid "Norway"
 msgstr "नार्वे"
-
-#: Currency.cpp:265 Currency.cpp:310
-msgid "Norwegian Krone"
-msgstr ""
 
 #: Currency.cpp:266
 msgid "Oman"
@@ -3279,7 +3277,7 @@ msgid ""
 "protection to be active you also need to protect the sheet using the Tools -"
 "> Protect Document -> Protect Sheet... menu and to provide a password.\n"
 "You can also hide the cell formula in order to protect the way you calculate "
-"the formula. This also needs to enable shet protection to work.\n"
+"the formula. This also needs to enable sheet protection to work.\n"
 "You can hide the cell content with Hide all and again this needs sheet "
 "protection.\n"
 "You can learn more about all these settings in the User Manual in the "
@@ -3332,7 +3330,7 @@ msgstr ""
 #: rc.cpp:435
 msgid ""
 "If checked, the cell content will be protected. This is the default "
-"behaviour. You need to protect the whole sheet using theTools->Protect "
+"behaviour. You need to protect the whole sheet using the Tools->Protect "
 "document->Protect Sheet... menu for this individual cell protection to work. "
 "See the manual for more details in the Advanced KSpread chapter. When a cell "
 "is protected, its content cannot be changed."
@@ -3736,8 +3734,10 @@ msgstr ""
 #. i18n: file: part/dialogs/PageLayoutSheetPage.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, horizontalCheckBox)
 #: rc.cpp:634
-msgid "Center horizonally"
-msgstr ""
+#, fuzzy
+#| msgid "Center vertically"
+msgid "Center horizontally"
+msgstr "केंद्र लबंवत रूप सँ"
 
 #. i18n: file: part/dialogs/PageLayoutSheetPage.ui:162
 #. i18n: ectx: property (text), widget (QCheckBox, verticalCheckBox)
@@ -4481,7 +4481,7 @@ msgstr ""
 #: xml_doc.cpp:88
 msgid ""
 "The NUM2STRING() function returns a string value for a given number. Note "
-"that KSpread can auto-covert numbers to strings if needed, so this function "
+"that KSpread can auto-convert numbers to strings if needed, so this function "
 "should rarely be needed."
 msgstr ""
 
@@ -10721,7 +10721,7 @@ msgstr ""
 #. i18n: file: functions/math.xml:889
 #: xml_doc.cpp:2959
 msgid ""
-"The FLOOR() function rounds x down (towards zero) to the nearest mutiple of "
+"The FLOOR() function rounds x down (towards zero) to the nearest multiple of "
 "Significance.\n"
 "\tThe default value for Significance is 1, if x is positive. It is -1, if "
 "the value is negative,\n"
@@ -12708,7 +12708,7 @@ msgstr "फ्लोट"
 #. i18n: file: functions/statistical.xml:798
 #: xml_doc.cpp:3818
 msgid ""
-"The MODE() function returns the most frequently occuring value in the data "
+"The MODE() function returns the most frequently occurring value in the data "
 "set."
 msgstr ""
 
