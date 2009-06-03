@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-01 11:40+0200\n"
+"POT-Creation-Date: 2009-06-03 12:22+0200\n"
 "PO-Revision-Date: 2009-04-21 23:39+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -42,19 +42,19 @@ msgstr ""
 msgid "&File"
 msgstr "फाइल (&F)"
 
-#: kaffeine.cpp:133 kaffeine.cpp:356
+#: kaffeine.cpp:133 kaffeine.cpp:357
 msgid "Open URL"
 msgstr ""
 
-#: kaffeine.cpp:144 kaffeine.cpp:270
+#: kaffeine.cpp:144 kaffeine.cpp:271
 msgid "Play Audio CD"
 msgstr ""
 
-#: kaffeine.cpp:148 kaffeine.cpp:271
+#: kaffeine.cpp:148 kaffeine.cpp:272
 msgid "Play Video CD"
 msgstr ""
 
-#: kaffeine.cpp:152 kaffeine.cpp:272
+#: kaffeine.cpp:152 kaffeine.cpp:273
 msgid "Play DVD"
 msgstr ""
 
@@ -64,7 +64,7 @@ msgstr ""
 msgid "&Playback"
 msgstr "बजाउ"
 
-#: kaffeine.cpp:164 kaffeine.cpp:417
+#: kaffeine.cpp:164 kaffeine.cpp:418
 msgid "Full Screen Mode"
 msgstr "पूर्ण स्क्रीन मोड"
 
@@ -103,27 +103,27 @@ msgstr "बजाउ"
 msgid "Television"
 msgstr ""
 
-#: kaffeine.cpp:269
+#: kaffeine.cpp:270
 #, fuzzy
 #| msgid "Start in fullscreen mode"
 msgid "Start in full screen mode"
 msgstr "पूर्णस्क्रीन मोड आरंभ करू"
 
-#: kaffeine.cpp:273
+#: kaffeine.cpp:274
 #, fuzzy
 #| msgid "Delete channel"
 msgid "Play TV channel"
 msgstr "चैनल मेटाबू"
 
-#: kaffeine.cpp:274
+#: kaffeine.cpp:275
 msgid "Files or URLs to play"
 msgstr ""
 
-#: kaffeine.cpp:356
+#: kaffeine.cpp:357
 msgid "Enter a URL:"
 msgstr "यूआरएल भरू:"
 
-#: kaffeine.cpp:408
+#: kaffeine.cpp:409
 #, fuzzy
 #| msgid "Full Screen Mode"
 msgid "Exit Full Screen Mode"
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Maintainer"
 msgstr ""
 
-#: mediawidget.cpp:93 mediawidget.cpp:286
+#: mediawidget.cpp:93 mediawidget.cpp:314
 msgid "Jump to Position"
 msgstr ""
 
@@ -177,108 +177,145 @@ msgstr "रोकू"
 msgid "Next"
 msgstr "अगिला"
 
-#: mediawidget.cpp:187 dvb/dvbtab.cpp:602
+#: mediawidget.cpp:177
+#, fuzzy
+#| msgid "Audio"
+msgid "Automatic Resize"
+msgstr "ऑडियो"
+
+#: mediawidget.cpp:183
+#, fuzzy
+#| msgid "off"
+msgctxt "automatic resize"
+msgid "Off"
+msgstr "बन्न"
+
+#: mediawidget.cpp:187
+msgctxt "automatic resize"
+msgid "Original Size"
+msgstr ""
+
+#: mediawidget.cpp:191
+msgctxt "automatic resize"
+msgid "Double Size"
+msgstr ""
+
+#: mediawidget.cpp:215 dvb/dvbtab.cpp:602
 msgid "off"
 msgstr "बन्न"
 
-#: mediawidget.cpp:194
+#: mediawidget.cpp:222
 msgid "Audio"
 msgstr "ऑडियो"
 
-#: mediawidget.cpp:196
+#: mediawidget.cpp:224
 msgid "Increase Volume"
 msgstr ""
 
-#: mediawidget.cpp:201
+#: mediawidget.cpp:229
 msgid "Decrease Volume"
 msgstr ""
 
-#: mediawidget.cpp:206
+#: mediawidget.cpp:234
 msgid "Mute Volume"
 msgstr ""
 
-#: mediawidget.cpp:219
+#: mediawidget.cpp:247
 msgid "Aspect Ratio"
 msgstr ""
 
-#: mediawidget.cpp:222
+#: mediawidget.cpp:250
 #, fuzzy
 #| msgid "Audio"
 msgctxt "aspect ratio"
 msgid "Automatic"
 msgstr "ऑडियो"
 
-#: mediawidget.cpp:228
+#: mediawidget.cpp:256
 msgctxt "aspect ratio"
 msgid "Fit to Window"
 msgstr ""
 
-#: mediawidget.cpp:233
+#: mediawidget.cpp:261
 msgctxt "aspect ratio"
 msgid "4:3"
 msgstr ""
 
-#: mediawidget.cpp:238
+#: mediawidget.cpp:266
 msgctxt "aspect ratio"
 msgid "16:9"
 msgstr ""
 
-#: mediawidget.cpp:246
+#: mediawidget.cpp:274
 msgid "Volume Slider"
 msgstr ""
 
-#: mediawidget.cpp:259
+#: mediawidget.cpp:287
 msgctxt "playback menu"
 msgid "Skip"
 msgstr ""
 
-#: mediawidget.cpp:262
+#: mediawidget.cpp:290
 msgctxt "submenu of skip"
 msgid "Skip 1min Backward"
 msgstr ""
 
-#: mediawidget.cpp:268
+#: mediawidget.cpp:296
 msgctxt "submenu of skip"
 msgid "Skip 10s Backward"
 msgstr ""
 
-#: mediawidget.cpp:274
+#: mediawidget.cpp:302
 msgctxt "submenu of skip"
 msgid "Skip 10s Forward"
 msgstr ""
 
-#: mediawidget.cpp:280
+#: mediawidget.cpp:308
 msgctxt "submenu of skip"
 msgid "Skip 1min Forward"
 msgstr ""
 
-#: mediawidget.cpp:299 dvb/dvbepg.cpp:217 playlist/playlistmodel.cpp:113
+#: mediawidget.cpp:327 dvb/dvbepg.cpp:217 playlist/playlistmodel.cpp:113
 msgid "Title"
 msgstr "शीर्षक"
 
-#: mediawidget.cpp:308
+#: mediawidget.cpp:336
 msgid "Chapter"
 msgstr "अध्याय"
 
-#: mediawidget.cpp:317
+#: mediawidget.cpp:345
 msgid "Angle"
 msgstr "कोण"
 
-#: mediawidget.cpp:326
+#: mediawidget.cpp:354
 msgid "Switch between elapsed and remaining time display"
 msgstr ""
 
-#: mediawidget.cpp:360
+#: mediawidget.cpp:389
 msgctxt "file filter description"
 msgid "Supported media files"
 msgstr ""
 
-#: mediawidget.cpp:361
+#: mediawidget.cpp:390
 msgctxt "file filter description"
 msgid "All files"
 msgstr ""
 
-#: mediawidget.cpp:609
+#: mediawidget.cpp:556
+#, fuzzy
+#| msgid "Pause"
+msgctxt "osd"
+msgid "Paused"
+msgstr "ठहरू"
+
+#: mediawidget.cpp:566
+#, fuzzy
+#| msgid "Play"
+msgctxt "osd"
+msgid "Playing"
+msgstr "बजाउ"
+
+#: mediawidget.cpp:659
 #, kde-format
 msgctxt "osd"
 msgid "Volume: %1%"
@@ -324,8 +361,8 @@ msgid "Edit"
 msgstr "संपादन"
 
 #: dvb/dvbchannelui.cpp:382 dvb/dvbrecording.cpp:428 dvb/dvbrecording.cpp:448
-#: dvb/dvbscandialog.cpp:210 playlist/playlisttab.cpp:290
-#: playlist/playlisttab.cpp:306
+#: dvb/dvbscandialog.cpp:210 playlist/playlisttab.cpp:360
+#: playlist/playlisttab.cpp:376
 #, fuzzy
 #| msgid "Remove"
 msgctxt "remove an item from a list"
@@ -686,7 +723,7 @@ msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:419 playlist/playlisttab.cpp:301
+#: dvb/dvbrecording.cpp:419 playlist/playlisttab.cpp:371
 #, fuzzy
 #| msgid "New"
 msgctxt "add a new item to a list"
@@ -735,7 +772,7 @@ msgstr ""
 msgid "Channels"
 msgstr "चैनल"
 
-#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:294
+#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:364
 msgctxt "remove all items from a list"
 msgid "Clear"
 msgstr ""
@@ -818,12 +855,12 @@ msgstr ""
 msgid "Search:"
 msgstr "खोजू:"
 
-#: playlist/playlisttab.cpp:279
+#: playlist/playlisttab.cpp:349
 msgctxt "playlist menu"
 msgid "Repeat"
 msgstr ""
 
-#: playlist/playlisttab.cpp:285
+#: playlist/playlisttab.cpp:355
 msgctxt "playlist menu"
 msgid "Shuffle"
 msgstr ""
