@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-26 12:12+0200\n"
+"POT-Creation-Date: 2009-06-27 13:08+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -900,7 +900,7 @@ msgstr "चित्र (&I)"
 #. i18n: file: plugins/extensions/tonemapping/tonemapping.rc:4
 #. i18n: ectx: Menu (Layer)
 #: rc.cpp:18 rc.cpp:3428 rc.cpp:3491 rc.cpp:3497 rc.cpp:3542 rc.cpp:3554
-#: ui/kis_layer_box.cpp:289
+#: ui/kis_layer_box.cpp:291
 msgid "&Layer"
 msgstr ""
 
@@ -3362,7 +3362,7 @@ msgstr ""
 
 #. i18n: file: plugins/paintops/sumie/wdgsumieoptions.ui:278
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#: rc.cpp:1036 image/kis_layer.cc:97
+#: rc.cpp:1036 image/kis_layer.cc:96
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:27
 msgid "Opacity"
 msgstr "अपारदर्शिता"
@@ -3875,7 +3875,7 @@ msgstr "मुख्य"
 #. i18n: file: plugins/filters/wavefilter/wdgwaveoptions.ui:197
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #: rc.cpp:1305 rc.cpp:1613 rc.cpp:1646 rc.cpp:1667
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:338
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:336
 msgid "Shape:"
 msgstr "आकार:"
 
@@ -3900,7 +3900,7 @@ msgstr "सादा"
 #. i18n: file: plugins/paintops/dynamicbrush/DynamicBrushOptions.ui:71
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxColoring)
 #: rc.cpp:1323 plugins/tools/defaulttools/kis_tool_gradient.h:116
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:266
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:265
 msgid "Gradient"
 msgstr "झुकाव"
 
@@ -4219,7 +4219,8 @@ msgstr ""
 #. i18n: file: plugins/paintops/deform/wdgdeformoptions.ui:73
 #. i18n: ectx: property (text), widget (QRadioButton, moveBtn)
 #: rc.cpp:1496 image/commands/kis_node_move_command.cpp:24
-#: plugins/tools/defaulttools/kis_tool_move.h:89
+#: plugins/tools/defaulttools/kis_tool_move.h:92
+#: plugins/tools/defaulttools/kis_tool_move.cc:148
 msgid "Move"
 msgstr "घसकाबू"
 
@@ -6029,7 +6030,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/shearimage/wdg_shearimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: rc.cpp:2524 image/kis_image.cc:546
+#: rc.cpp:2524 image/kis_image.cc:553
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:90
 msgid "Shear Image"
@@ -6402,7 +6403,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
-#: rc.cpp:2777 image/kis_image.cc:494
+#: rc.cpp:2777 image/kis_image.cc:501
 #: plugins/extensions/rotateimage/rotateimage.cc:115
 #: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
 msgid "Rotate Image"
@@ -7631,7 +7632,7 @@ msgid "I&nsert Image as Layer..."
 msgstr ""
 
 #: ui/kis_image_manager.cc:60 ui/kis_mask_manager.cc:148
-#: ui/kis_layer_manager.cc:214
+#: ui/kis_layer_manager.cc:215
 msgid "Properties..."
 msgstr "विशेषतासभ..."
 
@@ -7775,33 +7776,33 @@ msgstr "हटाबू (&R)"
 msgid "Show"
 msgstr "धीमा"
 
-#: ui/kis_mask_manager.cc:124 ui/kis_layer_manager.cc:194
+#: ui/kis_mask_manager.cc:124 ui/kis_layer_manager.cc:195
 #: image/commands/kis_image_node_raise_command.cpp:28
 msgid "Raise"
 msgstr "उठाबू"
 
-#: ui/kis_mask_manager.cc:128 ui/kis_layer_manager.cc:199
+#: ui/kis_mask_manager.cc:128 ui/kis_layer_manager.cc:200
 #: image/commands/kis_image_node_to_top_command.cpp:28
 #: image/commands/kis_image_node_to_bottom_command.cpp:29
 #: image/commands/kis_image_node_lower_command.cpp:28
 msgid "Lower"
 msgstr "निचला"
 
-#: ui/kis_mask_manager.cc:132 ui/kis_layer_manager.cc:204
+#: ui/kis_mask_manager.cc:132 ui/kis_layer_manager.cc:205
 msgid "To Top"
 msgstr "उप्पर तक"
 
-#: ui/kis_mask_manager.cc:136 ui/kis_layer_manager.cc:209
+#: ui/kis_mask_manager.cc:136 ui/kis_layer_manager.cc:210
 msgid "To Bottom"
 msgstr "नीच्चाँ तक"
 
-#: ui/kis_mask_manager.cc:140 ui/kis_layer_manager.cc:222
+#: ui/kis_mask_manager.cc:140 ui/kis_layer_manager.cc:223
 #, fuzzy
 #| msgid "Horizontal:"
 msgid "Mirror Horizontally"
 msgstr "क्षैतिजः"
 
-#: ui/kis_mask_manager.cc:144 ui/kis_layer_manager.cc:226
+#: ui/kis_mask_manager.cc:144 ui/kis_layer_manager.cc:227
 #, fuzzy
 #| msgid "Vertical:"
 msgid "Mirror Vertically"
@@ -7833,7 +7834,7 @@ msgstr ""
 msgid "Mirror Mask X"
 msgstr ""
 
-#: ui/kis_mask_manager.cc:441 ui/kis_layer_manager.cc:823
+#: ui/kis_mask_manager.cc:441 ui/kis_layer_manager.cc:832
 msgid "Mirror Layer Y"
 msgstr ""
 
@@ -7998,132 +7999,132 @@ msgstr ""
 msgid "Exposure:"
 msgstr "उद्भासन:"
 
-#: ui/kis_layer_manager.cc:144
+#: ui/kis_layer_manager.cc:145
 msgid "&Flatten image"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:149
+#: ui/kis_layer_manager.cc:150
 msgid "&Merge with Layer Below"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:154
+#: ui/kis_layer_manager.cc:155
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&Flatten Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:158 ui/kis_layer_box.cpp:137
+#: ui/kis_layer_manager.cc:159 ui/kis_layer_box.cpp:137
 msgid "&Paint Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:163 ui/kis_layer_box.cpp:141
-#: ui/kis_layer_box.cpp:293
+#: ui/kis_layer_manager.cc:164 ui/kis_layer_box.cpp:141
+#: ui/kis_layer_box.cpp:295
 msgid "&Filter Layer..."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:167
+#: ui/kis_layer_manager.cc:168
 msgid "&Generator Layer..."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:171 ui/kis_layer_box.cpp:139
-#: ui/kis_layer_box.cpp:291
+#: ui/kis_layer_manager.cc:172 ui/kis_layer_box.cpp:139
+#: ui/kis_layer_box.cpp:293
 msgid "&Clone Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:175 ui/kis_layer_box.cpp:140
-#: ui/kis_layer_box.cpp:292
+#: ui/kis_layer_manager.cc:176 ui/kis_layer_box.cpp:140
+#: ui/kis_layer_box.cpp:294
 msgid "&Shape Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:179
+#: ui/kis_layer_manager.cc:180
 msgid "&Remove"
 msgstr "हटाबू (&R)"
 
-#: ui/kis_layer_manager.cc:183
+#: ui/kis_layer_manager.cc:184
 #, fuzzy
 #| msgid "Duplicate"
 msgid "Duplicate current Layer"
 msgstr "नकल"
 
-#: ui/kis_layer_manager.cc:187
+#: ui/kis_layer_manager.cc:188
 msgid "&Hide"
 msgstr "नुकाबू (&H)"
 
-#: ui/kis_layer_manager.cc:191
+#: ui/kis_layer_manager.cc:192
 msgid "&Show"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:218
+#: ui/kis_layer_manager.cc:219
 msgid "Save Layer as Image..."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:230
+#: ui/kis_layer_manager.cc:231
 msgid "Size Canvas to Size of Current Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:295
+#: ui/kis_layer_manager.cc:296
 msgid "Resize Image to Size of Current Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:382
+#: ui/kis_layer_manager.cc:391
 msgid "Filter Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:411
+#: ui/kis_layer_manager.cc:420
 msgid "Generator Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:496 ui/kis_layer_manager.cc:511
-#: ui/kis_layer_manager.cc:553 ui/kis_layer_manager.cc:585
-#: ui/kis_layer_manager.cc:722
+#: ui/kis_layer_manager.cc:505 ui/kis_layer_manager.cc:520
+#: ui/kis_layer_manager.cc:562 ui/kis_layer_manager.cc:594
+#: ui/kis_layer_manager.cc:731
 msgid "Could not add layer to image."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:496 ui/kis_layer_manager.cc:511
-#: ui/kis_layer_manager.cc:553 ui/kis_layer_manager.cc:585
-#: ui/kis_layer_manager.cc:722
+#: ui/kis_layer_manager.cc:505 ui/kis_layer_manager.cc:520
+#: ui/kis_layer_manager.cc:562 ui/kis_layer_manager.cc:594
+#: ui/kis_layer_manager.cc:731
 msgid "Layer Error"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:615
+#: ui/kis_layer_manager.cc:624
 msgid "New Filter Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:715
+#: ui/kis_layer_manager.cc:724
 #, kde-format
 msgid "Duplicate of '%1'"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:801
+#: ui/kis_layer_manager.cc:810
 msgid "Mirror Layer X"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:846
+#: ui/kis_layer_manager.cc:855
 msgid "Scale Layer"
 msgstr "परत मापू"
 
-#: ui/kis_layer_manager.cc:871
+#: ui/kis_layer_manager.cc:880
 #: plugins/extensions/rotateimage/rotateimage.cc:149
 msgid "Rotate Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:905 ui/kis_layer_manager.cc:909
+#: ui/kis_layer_manager.cc:914 ui/kis_layer_manager.cc:918
 msgid "Shear layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:932
+#: ui/kis_layer_manager.cc:941
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:933 image/kis_image.cc:744
+#: ui/kis_layer_manager.cc:942 image/kis_image.cc:748
 msgid "Flatten Image"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:934
+#: ui/kis_layer_manager.cc:943
 msgid "&Flatten Image"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:998
+#: ui/kis_layer_manager.cc:1007
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:242
 msgid "Export Layer"
 msgstr ""
@@ -8318,7 +8319,7 @@ msgstr "अओजार"
 msgid "Edit Palette..."
 msgstr ""
 
-#: ui/kis_view2.cpp:649 ui/kis_view2.cpp:652
+#: ui/kis_view2.cpp:646 ui/kis_view2.cpp:649
 msgid "Edit Palette"
 msgstr "पैलेट संपादित करू"
 
@@ -8342,15 +8343,15 @@ msgstr ""
 msgid "View mode"
 msgstr ""
 
-#: ui/kis_layer_box.cpp:138 ui/kis_layer_box.cpp:290
+#: ui/kis_layer_box.cpp:138 ui/kis_layer_box.cpp:292
 msgid "&Group Layer"
 msgstr ""
 
-#: ui/kis_layer_box.cpp:142 ui/kis_layer_box.cpp:294
+#: ui/kis_layer_box.cpp:142 ui/kis_layer_box.cpp:296
 msgid "&Generated Layer..."
 msgstr ""
 
-#: ui/kis_layer_box.cpp:144 ui/kis_layer_box.cpp:296
+#: ui/kis_layer_box.cpp:144 ui/kis_layer_box.cpp:298
 msgid "&Transparency Mask"
 msgstr ""
 
@@ -8360,27 +8361,27 @@ msgstr ""
 msgid "&Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
-#: ui/kis_layer_box.cpp:147 ui/kis_layer_box.cpp:298
+#: ui/kis_layer_box.cpp:147 ui/kis_layer_box.cpp:300
 msgid "&Transformation Mask..."
 msgstr ""
 
-#: ui/kis_layer_box.cpp:149 ui/kis_layer_box.cpp:299
+#: ui/kis_layer_box.cpp:149 ui/kis_layer_box.cpp:301
 msgid "&Local Selection"
 msgstr ""
 
-#: ui/kis_layer_box.cpp:282
+#: ui/kis_layer_box.cpp:284
 msgid "&Properties..."
 msgstr ""
 
-#: ui/kis_layer_box.cpp:284
+#: ui/kis_layer_box.cpp:286
 msgid "&Remove Layer"
 msgstr ""
 
-#: ui/kis_layer_box.cpp:285
+#: ui/kis_layer_box.cpp:287
 msgid "&Duplicate Layer or Mask"
 msgstr ""
 
-#: ui/kis_layer_box.cpp:297
+#: ui/kis_layer_box.cpp:299
 msgid "&Effect Mask..."
 msgstr ""
 
@@ -8524,12 +8525,12 @@ msgstr ""
 msgid "No profile"
 msgstr ""
 
-#: image/kis_layer.cc:97
+#: image/kis_layer.cc:96
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
-#: image/kis_layer.cc:99
+#: image/kis_layer.cc:98
 msgid "Composite Mode"
 msgstr ""
 
@@ -8639,7 +8640,7 @@ msgstr ""
 msgid "Mitchell"
 msgstr "मिट्चेल"
 
-#: image/commands/kis_image_resize_command.cpp:38 image/kis_image.cc:372
+#: image/commands/kis_image_resize_command.cpp:38 image/kis_image.cc:379
 msgid "Resize Image"
 msgstr "चित्रकेँ फिनु आकार दिअ'"
 
@@ -8654,7 +8655,7 @@ msgstr ""
 msgid "Property Changes"
 msgstr ""
 
-#: image/commands/kis_image_convert_type_command.cpp:38 image/kis_image.cc:581
+#: image/commands/kis_image_convert_type_command.cpp:38 image/kis_image.cc:588
 msgid "Convert Image Type"
 msgstr ""
 
@@ -8733,32 +8734,32 @@ msgstr "मूलभूत"
 msgid "Rotate Node"
 msgstr ""
 
-#: image/kis_image.cc:269
+#: image/kis_image.cc:274
 msgid "background"
 msgstr ""
 
-#: image/kis_image.cc:272
+#: image/kis_image.cc:277
 #, kde-format
 msgid "Layer %1"
 msgstr ""
 
-#: image/kis_image.cc:370
+#: image/kis_image.cc:377
 msgid "Crop Image"
 msgstr "चित्र काटू"
 
-#: image/kis_image.cc:404
+#: image/kis_image.cc:411
 msgid "Size Canvas"
 msgstr ""
 
-#: image/kis_image.cc:453
+#: image/kis_image.cc:460
 msgid "Scale Image"
 msgstr "चित्र मापू"
 
-#: image/kis_image.cc:780
+#: image/kis_image.cc:784
 msgid "Merge with Layer Below"
 msgstr ""
 
-#: image/kis_image.cc:820
+#: image/kis_image.cc:824
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "Flatten Layer"
@@ -8950,7 +8951,7 @@ msgstr "रेखा"
 msgid "Draw a straight line with the current brush"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:90
+#: plugins/tools/defaulttools/kis_tool_move.h:93
 msgid "Move a layer"
 msgstr ""
 
@@ -9067,65 +9068,65 @@ msgstr "पथ"
 msgid "Draw a gradient."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:339
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:337
 msgid "Repeat:"
 msgstr "दोहराबू:"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:341
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:339
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "विपरीत"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:346
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "रैखिक"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:349
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:347
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:350
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "अरीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:351
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:349
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "वर्ग"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:352
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:350
 msgctxt "the gradient will be drawn as an assymmetric cone"
 msgid "Conical"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:353
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:351
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:358
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:356
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "किछु नहि"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:359
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:357
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:360
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:358
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:368
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:366
 msgid "Anti-alias threshold:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:380
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:378
 msgid "Preview opacity:"
 msgstr ""
 
