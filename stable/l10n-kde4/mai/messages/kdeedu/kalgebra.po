@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-06-21 11:26+0200\n"
-"PO-Revision-Date: 2009-04-22 00:01+0530\n"
+"PO-Revision-Date: 2009-06-29 13:42+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 
 #: src/console.cpp:59
@@ -24,6 +24,8 @@ msgid ""
 "%1\n"
 "Error: %2"
 msgstr ""
+"%1\n"
+"त्रुटि: %2"
 
 #: src/console.cpp:141 src/functionsmodel.cpp:74 src/operatorsmodel.cpp:77
 #: src/variablesmodel.cpp:80
@@ -39,7 +41,7 @@ msgstr "मान"
 #: src/consolehtml.cpp:104
 #, kde-format
 msgid "<ul class='error'>Error: %1<li>%2</li></ul>"
-msgstr ""
+msgstr "<ul class='error'>त्रुटि: %1<li>%2</li></ul>"
 
 #: src/dictionary.cpp:47
 msgid "Information"
@@ -53,31 +55,31 @@ msgstr "<b>%1</b>"
 
 #: src/dictionary.cpp:77
 msgid "<b>Formula</b>"
-msgstr ""
+msgstr "<b> सूत्र</b>"
 
 #: src/expressionedit.cpp:316
 #, kde-format
 msgctxt "n-ary function prototype"
 msgid "<em>%1</em>(..., <b>par%2</b>, ...)"
-msgstr ""
+msgstr "<em>%1</em>(..., <b>par%2</b>, ...)"
 
 #: src/expressionedit.cpp:319 src/expressionedit.cpp:346
 #, kde-format
 msgctxt "Function name in function prototype"
 msgid "<em>%1</em>("
-msgstr ""
+msgstr "<em>%1</em>("
 
 #: src/expressionedit.cpp:320
 #, kde-format
 msgctxt "Uncorrect function name in function prototype"
 msgid "<em style='color:red'><b>%1</b></em>("
-msgstr ""
+msgstr "<em style='color:red'><b>%1</b></em>("
 
 #: src/expressionedit.cpp:323
 #, kde-format
 msgctxt "Parameter in function prototype"
 msgid "par%1"
-msgstr ""
+msgstr "par%1"
 
 #: src/expressionedit.cpp:326 src/expressionedit.cpp:335
 #: src/expressionedit.cpp:351
@@ -94,29 +96,29 @@ msgstr ", "
 #: src/expressionedit.cpp:333
 msgctxt "Current parameter is the bounding"
 msgid " : bounds"
-msgstr ""
+msgstr " : bounds"
 
 #: src/expressionedit.cpp:347
 #, kde-format
 msgctxt "Uncorrect function name in function prototype"
 msgid "<em style='color:red'>%1</em>("
-msgstr ""
+msgstr "<em style='color:red'>%1</em>("
 
 #: src/expressionedit.cpp:453
 msgid "To Expression"
-msgstr ""
+msgstr "एक्सप्रेशनमे"
 
 #: src/expressionedit.cpp:455
 msgid "To MathML"
-msgstr ""
+msgstr "मैथएमएलमे"
 
 #: src/expressionedit.cpp:457
 msgid "Simplify"
-msgstr ""
+msgstr "सरल करू"
 
 #: src/functionedit.cpp:39
 msgid "Add/Edit a function"
-msgstr ""
+msgstr "एकटा फंक्शन जोड़ू/संपादित करू"
 
 #: src/functionedit.cpp:86
 msgid "OK"
@@ -129,30 +131,30 @@ msgstr "खाली"
 
 #: src/functionedit.cpp:171
 msgid "From parser:"
-msgstr ""
+msgstr "पारसर सँ:"
 
 #: src/functionedit.cpp:190
 msgid "We can only draw Real results."
-msgstr ""
+msgstr "हम वास्तविक परिणाम खींच सकैत छी."
 
 #: src/functionedit.cpp:192
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown bounded variable: %1"
-msgstr ""
+msgstr "अनचिह्न बाउंड चर: %1"
 
 #: src/functionedit.cpp:214
 #, kde-format
 msgid "<b style='color:red'>%1</b>"
-msgstr ""
+msgstr "<b style='color:red'>%1</b>"
 
 #: src/functionimpl.cpp:116
 msgid "Cannot have downlimit ≥ uplimit"
-msgstr ""
+msgstr "downlimit ≥ uplimit नहि राखि सकैत अछि"
 
 #: src/functionimpl.cpp:255
 msgid "center"
-msgstr ""
+msgstr "केंद्र"
 
 #: src/functionsmodel.cpp:77
 msgctxt "@title:column"
@@ -162,26 +164,26 @@ msgstr "फंक्शन"
 #: src/functionsmodel.cpp:105
 #, kde-format
 msgid "%1 function added"
-msgstr ""
+msgstr "%1 फंक्शन जोड़ल गेल"
 
 #: src/functionsview.cpp:50
 #, kde-format
 msgid "Hide '%1'"
-msgstr ""
+msgstr "नुकाउ '%1'"
 
 #: src/functionsview.cpp:53
 #, kde-format
 msgid "Show '%1'"
-msgstr ""
+msgstr "'%1' देखाउ"
 
 #: src/functionsview.cpp:58
 #, kde-format
 msgid "Remove '%1'"
-msgstr ""
+msgstr "'%1' हटाउ"
 
 #: src/graph2d.cpp:403
 msgid "Selected viewport too small"
-msgstr ""
+msgstr "बहुत छोट दृश्यपोर्ट चुनल"
 
 #: src/graph3d.cpp:412 src/graph3d.cpp:438
 #, kde-format
@@ -190,17 +192,17 @@ msgstr "त्रुटि: %1"
 
 #: src/graph3d.cpp:426
 msgid "Generating... Please wait"
-msgstr ""
+msgstr "बनाएल जाए रहल अछि... कृपया इंतजार करू."
 
 #: src/graph3d.cpp:431
 #, no-c-format, kde-format
 msgctxt "3D graph done in x miliseconds"
 msgid "Done: %1ms"
-msgstr ""
+msgstr "संपन्न: %1ms"
 
 #: src/graph3d.cpp:436
 msgid "Error: We need values to draw a graph"
-msgstr ""
+msgstr "त्रुटि: हमरा एकटा आलेख मे मान चाही"
 
 #: src/kalgebra.cpp:69 src/kalgebra.cpp:145
 msgid "Variables"
@@ -208,26 +210,26 @@ msgstr "चर"
 
 #: src/kalgebra.cpp:87
 msgid "&Console"
-msgstr ""
+msgstr "कंसोल (&C)"
 
 #: src/kalgebra.cpp:99
 msgid "C&onsole"
-msgstr ""
+msgstr "कंसोल (&o)"
 
 #: src/kalgebra.cpp:102
 msgctxt "@item:inmenu"
 msgid "&Load Script"
-msgstr ""
+msgstr "स्क्रिप्ट लोड करू (&L)"
 
 #: src/kalgebra.cpp:104
 msgctxt "@item:inmenu"
 msgid "&Save Script"
-msgstr ""
+msgstr "स्क्रिप्ट सहेजू (&S)"
 
 #: src/kalgebra.cpp:106
 msgctxt "@item:inmenu"
 msgid "&Save Log"
-msgstr ""
+msgstr "लाग सहेजू...(&S)"
 
 #: src/kalgebra.cpp:118
 msgid "Functions"
@@ -243,23 +245,23 @@ msgstr "जोड़ू (&A)"
 
 #: src/kalgebra.cpp:152
 msgid "&2D Graph"
-msgstr ""
+msgstr "&2डी ग्राफ "
 
 #: src/kalgebra.cpp:161
 msgid "2&D Graph"
-msgstr ""
+msgstr "2डी ग्राफ (&D)"
 
 #: src/kalgebra.cpp:163
 msgid "&Grid"
-msgstr ""
+msgstr "जाल (&G)"
 
 #: src/kalgebra.cpp:164
 msgid "&Keep Aspect Ratio"
-msgstr ""
+msgstr "पहलू अनुपात बनैने राखू (&K)"
 
 #: src/kalgebra.cpp:169 src/kalgebra.cpp:213
 msgid "&Reset View"
-msgstr ""
+msgstr "दृश्य रीसेट करू (&R)"
 
 #: src/kalgebra.cpp:170
 msgid "Resolution"
@@ -278,24 +280,24 @@ msgstr "सामान्य"
 #: src/kalgebra.cpp:173
 msgctxt "@item:inmenu"
 msgid "Fine"
-msgstr ""
+msgstr "नीक"
 
 #: src/kalgebra.cpp:174
 msgctxt "@item:inmenu"
 msgid "Very Fine"
-msgstr ""
+msgstr "बहुत नीक"
 
 #: src/kalgebra.cpp:201
 msgid "&3D Graph"
-msgstr ""
+msgstr "&3डी ग्राफ"
 
 #: src/kalgebra.cpp:209
 msgid "3D &Graph"
-msgstr ""
+msgstr "३डी ग्राफ (&G)"
 
 #: src/kalgebra.cpp:211
 msgid "&Transparency"
-msgstr ""
+msgstr "पारदर्शिता (&T)"
 
 #: src/kalgebra.cpp:214
 msgid "Type"
@@ -319,37 +321,39 @@ msgstr "काजसभ"
 
 #: src/kalgebra.cpp:238
 msgid "&Dictionary"
-msgstr ""
+msgstr "शब्दकोश (&D)"
 
 #: src/kalgebra.cpp:249
 msgid "Look for:"
-msgstr ""
+msgstr "एकरा लेल देखू:"
 
 #: src/kalgebra.cpp:290
 msgid "&Editing"
-msgstr ""
+msgstr "संपादन (&E)"
 
 #: src/kalgebra.cpp:338 src/kalgebra.cpp:345
 msgid "Script (*.kal)"
-msgstr ""
+msgstr "स्क्रिप्ट (*.kal)"
 
 #: src/kalgebra.cpp:338
 msgid "Choose a script"
-msgstr ""
+msgstr "स्क्रिप्ट चुनू"
 
 #: src/kalgebra.cpp:352
 msgid "Text File (*)"
-msgstr ""
+msgstr "पाठ फाइल (*)"
 
 #: src/kalgebra.cpp:394
 msgid "*.png|PNG File"
-msgstr ""
+msgstr "*.png|पीएनजी फाइल"
 
 #: src/kalgebra.cpp:419
 msgid ""
 "*.png|Image File\n"
 "*.svg|SVG File"
 msgstr ""
+"*.png|छवि फाइल\n"
+"*.svg|एसवीजी फाइल"
 
 #: src/kalgebra.cpp:455
 msgctxt "@info:status"
@@ -358,23 +362,23 @@ msgstr "तैआर"
 
 #: src/kalgebra.cpp:479
 msgid "Add variable"
-msgstr ""
+msgstr "जोड़ू चर"
 
 #: src/kalgebra.cpp:483
 msgid "Enter a name for the new variable"
-msgstr ""
+msgstr "नवीन चरक लेल एकटा नाम दाखिल करू"
 
 #: src/main.cpp:26
 msgid "A calculator"
-msgstr ""
+msgstr "एक गणक"
 
 #: src/main.cpp:27
 msgid "(C) 2006-2008 Aleix Pol Gonzalez"
-msgstr ""
+msgstr "(C) 2006-2008 Aleix Pol Gonzalez"
 
 #: src/main.cpp:28
 msgid "Aleix Pol Gonzalez"
-msgstr ""
+msgstr "Aleix Pol Gonzalez"
 
 #: src/operatorsmodel.cpp:80
 msgctxt "@title:column"
@@ -394,17 +398,17 @@ msgstr "उदाहरण"
 #: src/operatorsmodel.cpp:119
 #, kde-format
 msgid "%1("
-msgstr ""
+msgstr "%1("
 
 #: src/operatorsmodel.cpp:122
 #, kde-format
 msgid "%1... parameters, ...%2)"
-msgstr ""
+msgstr "%1... पैरामीटर्स, ...%2)"
 
 #: src/operatorsmodel.cpp:125
 #, kde-format
 msgid "par%1"
-msgstr ""
+msgstr "par%1"
 
 #: src/operatorsmodel.cpp:138
 msgid "Addition"
@@ -412,7 +416,7 @@ msgstr "जोड़"
 
 #: src/operatorsmodel.cpp:141
 msgid "Multiplication"
-msgstr ""
+msgstr "गुणा"
 
 #: src/operatorsmodel.cpp:144
 msgid "Division"
@@ -428,39 +432,40 @@ msgstr "घात"
 
 #: src/operatorsmodel.cpp:153
 msgid "Remainder"
-msgstr ""
+msgstr "शेषफल"
 
 #: src/operatorsmodel.cpp:156
 msgid "Quotient"
-msgstr ""
+msgstr "भागफल"
 
 #: src/operatorsmodel.cpp:159
 msgid "The factor of"
-msgstr ""
+msgstr "एकर फैक्टर अछि"
 
 #: src/operatorsmodel.cpp:162
 msgid "Factorial. factorial(n)=n!"
-msgstr ""
+msgstr "फैक्टोरियल. factorial(n)=n!"
 
 #: src/operatorsmodel.cpp:165
+#, fuzzy
 msgid "Function to calculate the sine of a given angle"
-msgstr ""
+msgstr "देल गेल कोण क' ज्या क' गणन करब क' फंक्शन"
 
 #: src/operatorsmodel.cpp:168
 msgid "Function to calculate the cosine of a given angle"
-msgstr ""
+msgstr "देल गेल कोण क' कोज्या क' गणन करब क' फंक्शन"
 
 #: src/operatorsmodel.cpp:171
 msgid "Function to calculate the tangent of a given angle"
-msgstr ""
+msgstr "देल गेल कोण क' स्पर्शज्या क' गणन करब क' फंक्शन"
 
 #: src/operatorsmodel.cpp:174
 msgid "Secant"
-msgstr ""
+msgstr "सीकेण्ट"
 
 #: src/operatorsmodel.cpp:177
 msgid "Cosecant"
-msgstr ""
+msgstr "कोसीकेण्ट"
 
 #: src/operatorsmodel.cpp:180
 msgid "Cotangent"
@@ -468,107 +473,107 @@ msgstr "कोटान्जेन्ट"
 
 #: src/operatorsmodel.cpp:183
 msgid "Hyperbolic sine"
-msgstr ""
+msgstr "हाइपरबोलिक ज्या"
 
 #: src/operatorsmodel.cpp:186
 msgid "Hyperbolic cosine"
-msgstr ""
+msgstr "हाइपरबोलिक कोज्या"
 
 #: src/operatorsmodel.cpp:189
 msgid "Hyperbolic tangent"
-msgstr ""
+msgstr "हाइपरबोलिक स्पर्शज्या"
 
 #: src/operatorsmodel.cpp:192
 msgid "Hyperbolic secant"
-msgstr ""
+msgstr "हाइपरबोलिक सीकेण्ट"
 
 #: src/operatorsmodel.cpp:195
 msgid "Hyperbolic cosecant"
-msgstr ""
+msgstr "हाइपरबोलिक कोसीकेण्ट"
 
 #: src/operatorsmodel.cpp:198
 msgid "Hyperbolic cotangent"
-msgstr ""
+msgstr "हाइपरबोलिक कोटिस्पर्शज्या"
 
 #: src/operatorsmodel.cpp:201
 msgid "Arc sine"
-msgstr ""
+msgstr "आर्क ज्या"
 
 #: src/operatorsmodel.cpp:204
 msgid "Arc cosine"
-msgstr ""
+msgstr "आर्क कोज्या"
 
 #: src/operatorsmodel.cpp:207
 msgid "Arc tangent"
-msgstr ""
+msgstr "आर्क स्पर्शज्या"
 
 #: src/operatorsmodel.cpp:210
 msgid "Arc cotangent"
-msgstr ""
+msgstr "आर्क कोटिस्पर्शज्या"
 
 #: src/operatorsmodel.cpp:216
 msgid "Hyperbolic arc tangent"
-msgstr ""
+msgstr "अतिपरवलय चाप स्पर्शज्या"
 
 #: src/operatorsmodel.cpp:219
 msgid "Summatory"
-msgstr ""
+msgstr "समेटरी"
 
 #: src/operatorsmodel.cpp:222
 msgid "Productory"
-msgstr ""
+msgstr "प्रोडक्टरी"
 
 #: src/operatorsmodel.cpp:225
 msgid "Differentiation"
-msgstr ""
+msgstr "अवकलन"
 
 #: src/operatorsmodel.cpp:228
 msgid "Hyperbolic arc sine"
-msgstr ""
+msgstr "अतिपरवलय चाप ज्या"
 
 #: src/operatorsmodel.cpp:231
 msgid "Hyperbolic arc cosine"
-msgstr ""
+msgstr "अतिपरवलय चाप कोज्या"
 
 #: src/operatorsmodel.cpp:234
 msgid "Arc cosecant"
-msgstr ""
+msgstr "चाप कोसीकेण्ट"
 
 #: src/operatorsmodel.cpp:237
 msgid "Hyperbolic arc cosecant"
-msgstr ""
+msgstr "अतिपरवलय चाप कोसीकेण्ट"
 
 #: src/operatorsmodel.cpp:240
 msgid "Arc secant"
-msgstr ""
+msgstr "चाप सीकेण्ट"
 
 #: src/operatorsmodel.cpp:243
 msgid "Hyperbolic arc secant"
-msgstr ""
+msgstr "अतिपरवलय चाप सीकेण्ट"
 
 #: src/operatorsmodel.cpp:246
 msgid "Exponent (e^x)"
-msgstr ""
+msgstr "एक्सपोनेंट (e^x)"
 
 #: src/operatorsmodel.cpp:249
 msgid "Base-e logarithm"
-msgstr ""
+msgstr "बेस-इ क' लघुगणक"
 
 #: src/operatorsmodel.cpp:252
 msgid "Base-10 logarithm"
-msgstr ""
+msgstr "बेस-10 क' लघुगणक"
 
 #: src/operatorsmodel.cpp:255
 msgid "Absolute value. abs(n)=|n|"
-msgstr ""
+msgstr "निरपेक्ष मूल्य. abs(n)=|n|"
 
 #: src/operatorsmodel.cpp:270
 msgid "Floor value. floor(n)=⌊n⌋"
-msgstr ""
+msgstr "फ्लोर मूल्य. floor(n)=⌊n⌋"
 
 #: src/operatorsmodel.cpp:273
 msgid "Ceil value. ceil(n)=⌈n⌉"
-msgstr ""
+msgstr "सील मूल्य. ceil(n)=⌈n⌉"
 
 #: src/operatorsmodel.cpp:276
 msgid "Minimum"
@@ -580,59 +585,59 @@ msgstr "अधिकतम"
 
 #: src/operatorsmodel.cpp:282
 msgid "Greater than. gt(a,b)=a>b"
-msgstr ""
+msgstr "से पैघ अछि. gt(a,b)=a>b"
 
 #: src/operatorsmodel.cpp:285
 msgid "Less than. lt(a,b)=a<b"
-msgstr ""
+msgstr "सँ कम अछि. lt(a,b)=a<b"
 
 #: src/operatorsmodel.cpp:288
 msgid "Equal. eq(a,b) = a=b"
-msgstr ""
+msgstr "क बराबर. eq(a,b) = a=b"
 
 #: src/operatorsmodel.cpp:291
 msgid "Approximation. approx(a)=a±n"
-msgstr ""
+msgstr "Approximation. approx(a)=a±n"
 
 #: src/operatorsmodel.cpp:294
 msgid "Not equal. neq(a,b)=a≠b"
-msgstr ""
+msgstr "सँ समान नहि अछि. neq(a,b)=a≠b"
 
 #: src/operatorsmodel.cpp:297
 msgid "Greater or equal. geq(a,b)=a≥b"
-msgstr ""
+msgstr "सँ पैघ अछि अथवा समान अछि. geq(a,b)=a≥b"
 
 #: src/operatorsmodel.cpp:300
 msgid "Less or equal. leq(a,b)=a≤b"
-msgstr ""
+msgstr "सँ कम अछि अथवा समान अछि. leq(a,b)=a≤b"
 
 #: src/operatorsmodel.cpp:303
 msgid "Boolean and"
-msgstr ""
+msgstr "बूलिए एण्ड"
 
 #: src/operatorsmodel.cpp:306
 msgid "Boolean not"
-msgstr ""
+msgstr "बूलिए नाट"
 
 #: src/operatorsmodel.cpp:309
 msgid "Boolean or"
-msgstr ""
+msgstr "बूलिए आर"
 
 #: src/operatorsmodel.cpp:312
 msgid "Boolean xor"
-msgstr ""
+msgstr "बूलिए एक्सआर"
 
 #: src/operatorsmodel.cpp:315
 msgid "Boolean implication"
-msgstr ""
+msgstr "बूलियन इम्प्लिकेशन"
 
 #: src/operatorsmodel.cpp:318
 msgid "Greatest common divisor"
-msgstr ""
+msgstr "महत्तम समापवर्त्य"
 
 #: src/operatorsmodel.cpp:321
 msgid "Least common multiple"
-msgstr ""
+msgstr "लघुत्तम समापवर्त्य"
 
 #: src/operatorsmodel.cpp:324
 msgid "Root"
@@ -640,19 +645,19 @@ msgstr "रूट"
 
 #: src/operatorsmodel.cpp:327
 msgid "Cardinal"
-msgstr ""
+msgstr "कार्डिनल"
 
 #: src/operatorsmodel.cpp:330
 msgid "Scalar product"
-msgstr ""
+msgstr "स्कैलर उत्पाद"
 
 #: src/operatorsmodel.cpp:333
 msgid "Select an element from a container"
-msgstr ""
+msgstr "एकटा कंटेनरसँ एकटा तत्व चुनू"
 
 #: src/varedit.cpp:36
 msgid "Add/Edit a variable"
-msgstr ""
+msgstr "कोनो चर जोड़ू/संपादित  करू "
 
 #: src/varedit.cpp:57
 msgid "Mode"
@@ -660,16 +665,16 @@ msgstr "मोड"
 
 #: src/varedit.cpp:59
 msgid "Save the expression"
-msgstr ""
+msgstr "एक्सप्रेशन सहेजू"
 
 #: src/varedit.cpp:60
 msgid "Calculate the expression"
-msgstr ""
+msgstr "एक्सप्रेशनक गणना करू"
 
 #: src/varedit.cpp:78
 #, kde-format
 msgid "Edit '%1' value"
-msgstr ""
+msgstr "मूल्य '%1' संपादित  करू "
 
 #: src/varedit.cpp:80
 msgid "not available"
@@ -678,16 +683,16 @@ msgstr "उपलब्ध नहि"
 #: src/varedit.cpp:114
 #, kde-format
 msgid "%1:=%2"
-msgstr ""
+msgstr "%1:=%2"
 
 #: src/varedit.cpp:119
 msgid "<b style='color:red'>WRONG</b>"
-msgstr ""
+msgstr "<b style='color:red'>गलत</b>"
 
 #: src/varedit.cpp:123
 #, kde-format
 msgid "<b style='color:#090'>%1 := %2</b>"
-msgstr ""
+msgstr "<b style='color:#090'>%1 := %2</b>"
 
 #: analitza/analitza.cpp:62 analitza/analitza.cpp:72
 msgid "Must specify a correct operation"
@@ -724,107 +729,120 @@ msgstr ""
 #: analitza/analitza.cpp:577
 #, kde-format
 msgid "The variable <em>%1</em> does not exist"
-msgstr ""
+msgstr "चर <em>%1</em> मोजुद नहि अछि"
 
 #: analitza/analitza.cpp:595
 #, kde-format
 msgid "Empty container: %1"
-msgstr ""
+msgstr "रिक्त कंटेनर: %1"
 
 #: analitza/analitza.cpp:618
+#, fuzzy
 msgid ""
 "Wrong parameter count in a selector, should have 2 parameters, the selected "
 "index and the container."
-msgstr ""
+msgstr "गिनती इंच a चयनक पैरामीटर्स चयनित अनुक्रमणिका आओर कन्टेनर."
 
 #: analitza/analitza.cpp:651
 #, kde-format
 msgid "<em>%1</em> needs at least 2 parameters"
-msgstr ""
+msgstr "<em>%1</em> केँ कमसँ कम 2 पैरामीटर चाही"
 
 #: analitza/analitza.cpp:653
 #, kde-format
 msgid "<em>%1</em> requires %2 parameters"
-msgstr ""
+msgstr "<em>%1</em> केँ %2 पैरामीटर चाही"
 
 #: analitza/analitza.cpp:693
+#, fuzzy
 msgid "piece or otherwise in the wrong place"
-msgstr ""
+msgstr "अथवा इंच"
 
 #: analitza/analitza.cpp:707 analitza/analitza.cpp:760
+#, fuzzy
 msgid "No bounding variables for this sum"
-msgstr ""
+msgstr "नहि क'लेल जोड़"
 
 #: analitza/analitza.cpp:718 analitza/analitza.cpp:771
+#, fuzzy
 msgid "Missing bounding limits on a sum operation"
-msgstr ""
+msgstr "अनुपस्थित पर a जोड़"
 
 #: analitza/analitza.cpp:732 analitza/analitza.cpp:787
+#, fuzzy
 msgid "Missing or uncorrect uplimit or downlimit."
-msgstr ""
+msgstr "अनुपस्थित अथवा अथवा."
 
 #: analitza/analitza.cpp:814
+#, fuzzy
 msgid "Invalid index for a container"
-msgstr ""
+msgstr "अवैध अनुक्रमणिका क'लेल a कन्टेनर"
 
 #: analitza/analitza.cpp:821
+#, fuzzy
 msgid "We can only select a container's value with its integer index"
-msgstr ""
+msgstr "बुध a कन्टेनर s मान क' सँग पूर्णांक अनुक्रमणिका"
 
 #: analitza/analitza.cpp:838
+#, fuzzy
 msgid "Trying to call an empty or invalid function"
-msgstr ""
+msgstr "मे खाली अथवा अवैध"
 
 #: analitza/analitza.cpp:1675
 msgctxt "By a cycle i mean a variable that depends on itself"
 msgid "Defined a variable cycle"
-msgstr ""
+msgstr "चर चक्र परिभाषित कएलक"
 
 #: analitza/explexer.cpp:64
 #, kde-format
+#, fuzzy
 msgctxt "Error message"
 msgid "Did not understand the real value: %1"
-msgstr ""
+msgstr "नहि मान 1"
 
 #: analitza/explexer.cpp:87
 #, kde-format
 msgid "Unknown token %1"
-msgstr ""
+msgstr "अज्ञात टोकन %1"
 
 #: analitza/expression.cpp:122
+#, fuzzy
 msgctxt "there was a conditional outside a condition structure"
 msgid "We can only have conditionals inside piecewise structures."
-msgstr ""
+msgstr "बुध भीतर."
 
 #: analitza/expression.cpp:137
 #, kde-format
+#, fuzzy
 msgctxt "there was an element that was not a conditional inside a condition"
 msgid "%1 is not a proper condition inside the piecewise"
-msgstr ""
+msgstr "अछि नहि a भीतर"
 
 #: analitza/expression.cpp:141
+#, fuzzy
 msgid "We can only declare variables"
-msgstr ""
+msgstr "बुध"
 
 #: analitza/expression.cpp:147
+#, fuzzy
 msgid "We can only have bounded variables"
-msgstr ""
+msgstr "बुध"
 
 #: analitza/expression.cpp:162
 #, kde-format
 msgid "Error while parsing: %1"
-msgstr ""
+msgstr "विश्लेषणक काले त्रुटि: %1"
 
 #: analitza/expression.cpp:199
 #, kde-format
 msgctxt "An error message"
 msgid "Container unknown: %1"
-msgstr ""
+msgstr "कंटेनर अज्ञात: %1"
 
 #: analitza/expression.cpp:206
 #, kde-format
 msgid "Cannot codify the %1 value."
-msgstr ""
+msgstr "%1 मानकेँ कोड नहि कए सकैत अछि."
 
 #: analitza/expression.cpp:212
 #, kde-format
@@ -835,7 +853,7 @@ msgstr ""
 #, kde-format
 msgctxt "Error message due to an unrecognized input"
 msgid "Not supported/unknown: %1"
-msgstr ""
+msgstr "असमर्थित/अज्ञात नहि: %1"
 
 #: exp.g:364
 msgid ", "
@@ -845,75 +863,76 @@ msgstr ", "
 #, kde-format
 msgctxt "error message"
 msgid "Expected %1 instead of %2"
-msgstr ""
+msgstr "प्रत्याशित %1 %2 केँ बदला"
 
 #: exp.g:366
 msgid "Missing right parenthesis"
-msgstr ""
+msgstr "अनुपस्थित दहिन्ना कोष्ठ"
 
 #: exp.g:368
 msgid "Unbalanced right parenthesis"
-msgstr ""
+msgstr "असंतुलित दहिन्ना कोष्ठ"
 
 #: exp.g:370
 #, kde-format
 msgid "Unexpected token %1"
-msgstr ""
+msgstr "अप्रत्याशित टोकन %1"
 
 #: analitza/htmlexpressionwriter.cpp:27 analitza/htmlexpressionwriter.cpp:28
 #, kde-format
 msgctxt "html representation of an operator"
 msgid "<span class='op'>%1</span>"
-msgstr ""
+msgstr "<span class='op'>%1</span>"
 
 #: analitza/htmlexpressionwriter.cpp:54
 msgctxt ""
 "html representation of a true. please don't translate the true for "
 "consistency"
 msgid "<span class='const'>true</span>"
-msgstr ""
+msgstr "<span class='const'>true</span>"
 
 #: analitza/htmlexpressionwriter.cpp:56
 msgctxt ""
 "html representation of a false. please don't translate the false for "
 "consistency"
 msgid "<span class='const'>false</span>"
-msgstr ""
+msgstr "<span class='const'>false</span>"
 
 #: analitza/htmlexpressionwriter.cpp:58
 #, kde-format
 msgctxt "html representation of a number"
 msgid "<span class='num'>%1</span>"
-msgstr ""
+msgstr "<span class='num'>%1</span>"
 
 #: analitza/mathmlpresentationlexer.cpp:88
 #, kde-format
 msgctxt "Error message"
 msgid "Unknown token %1"
-msgstr ""
+msgstr "अज्ञात टोकेन %1"
 
 #: analitza/operations.cpp:59
 msgid "Cannot calculate the remainder on 0."
-msgstr ""
+msgstr "0 पर शेषक गणना नहि कए सकैत अछि."
 
 #: analitza/operations.cpp:69
 msgid "Cannot calculate the factor on 0."
-msgstr ""
+msgstr "0 पर कारक गणना नहि कए सकैत अछि."
 
 #: analitza/operations.cpp:137
 msgid "Cannot calculate the lcm of 0."
-msgstr ""
+msgstr "0 पर एलसीएम गणना नहि कए सकैत अछि."
 
 #: analitza/operations.cpp:277
 #, kde-format
 msgid "Could not calculate a value %1"
-msgstr ""
+msgstr "%1 मानक गणना नहि कए सकल"
 
 #: analitza/operations.cpp:341
 msgid "Cannot operate on different sized vectors."
-msgstr ""
+msgstr "भिन्न आकारक सदिशक चलाए नहि सकैत अछि."
 
 #: analitza/operations.cpp:366
 #, kde-format
 msgid "Could not calculate a vector's %1"
-msgstr ""
+msgstr "एकटा सदिश %1 क गणना नहि कए सकल"
+
