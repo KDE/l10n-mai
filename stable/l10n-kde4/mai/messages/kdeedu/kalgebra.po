@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalgebra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-21 11:26+0200\n"
+"POT-Creation-Date: 2009-06-29 07:10+0200\n"
 "PO-Revision-Date: 2009-06-29 13:42+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 
 #: src/console.cpp:59
@@ -794,8 +795,7 @@ msgid "Defined a variable cycle"
 msgstr "चर चक्र परिभाषित कएलक"
 
 #: analitza/explexer.cpp:64
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgctxt "Error message"
 msgid "Did not understand the real value: %1"
 msgstr "नहि मान 1"
@@ -805,51 +805,50 @@ msgstr "नहि मान 1"
 msgid "Unknown token %1"
 msgstr "अज्ञात टोकन %1"
 
-#: analitza/expression.cpp:122
+#: analitza/expression.cpp:126
 #, fuzzy
 msgctxt "there was a conditional outside a condition structure"
 msgid "We can only have conditionals inside piecewise structures."
 msgstr "बुध भीतर."
 
-#: analitza/expression.cpp:137
-#, kde-format
-#, fuzzy
+#: analitza/expression.cpp:141
+#, fuzzy, kde-format
 msgctxt "there was an element that was not a conditional inside a condition"
 msgid "%1 is not a proper condition inside the piecewise"
 msgstr "अछि नहि a भीतर"
 
-#: analitza/expression.cpp:141
+#: analitza/expression.cpp:145
 #, fuzzy
 msgid "We can only declare variables"
 msgstr "बुध"
 
-#: analitza/expression.cpp:147
+#: analitza/expression.cpp:151
 #, fuzzy
 msgid "We can only have bounded variables"
 msgstr "बुध"
 
-#: analitza/expression.cpp:162
+#: analitza/expression.cpp:166
 #, kde-format
 msgid "Error while parsing: %1"
 msgstr "विश्लेषणक काले त्रुटि: %1"
 
-#: analitza/expression.cpp:199
+#: analitza/expression.cpp:203
 #, kde-format
 msgctxt "An error message"
 msgid "Container unknown: %1"
 msgstr "कंटेनर अज्ञात: %1"
 
-#: analitza/expression.cpp:206
+#: analitza/expression.cpp:210
 #, kde-format
 msgid "Cannot codify the %1 value."
 msgstr "%1 मानकेँ कोड नहि कए सकैत अछि."
 
-#: analitza/expression.cpp:212
+#: analitza/expression.cpp:216
 #, kde-format
 msgid "The %1 operator cannot have child contexts."
 msgstr ""
 
-#: analitza/expression.cpp:245
+#: analitza/expression.cpp:249
 #, kde-format
 msgctxt "Error message due to an unrecognized input"
 msgid "Not supported/unknown: %1"
@@ -935,4 +934,3 @@ msgstr "भिन्न आकारक सदिशक चलाए नहि �
 #, kde-format
 msgid "Could not calculate a vector's %1"
 msgstr "एकटा सदिश %1 क गणना नहि कए सकल"
-
