@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-01 12:44+0200\n"
+"POT-Creation-Date: 2009-07-03 11:22+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2067,7 +2067,7 @@ msgstr "सभटा आलोकित करू (&g)"
 msgid "Selection &only"
 msgstr ""
 
-#. i18n: file: dialogs/searchbarpower.ui:239
+#. i18n: file: dialogs/searchbarpower.ui:248
 #. i18n: ectx: property (text), widget (QCheckBox, matchCase)
 #: utils/katesearchbar.cpp:1807 rc.cpp:309
 msgid "&Match case"
@@ -2086,6 +2086,12 @@ msgid "VI: VISUAL"
 msgstr "VI: दृश्य"
 
 #: utils/katevimodebar.cpp:123
+#, fuzzy
+#| msgid "VI: VISUAL LINE"
+msgid "VI: VISUAL BLOCK"
+msgstr "VI: दृश्य लाइन"
+
+#: utils/katevimodebar.cpp:126
 msgid "VI: VISUAL LINE"
 msgstr "VI: दृश्य लाइन"
 
@@ -2537,69 +2543,69 @@ msgid ""
 "b> in the shortcut configuration page after applying the changes.</p>"
 msgstr ""
 
-#. i18n: file: dialogs/searchbarincremental.ui:34
+#. i18n: file: dialogs/searchbarincremental.ui:31
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: file: dialogs/searchbarpower.ui:28
+#. i18n: file: dialogs/searchbarpower.ui:31
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:77 rc.cpp:252
 msgid "F&ind:"
 msgstr "खोजू (&i):"
 
-#. i18n: file: dialogs/searchbarincremental.ui:68
+#. i18n: file: dialogs/searchbarincremental.ui:65
 #. i18n: ectx: property (toolTip), widget (KLineEdit, pattern)
-#. i18n: file: dialogs/searchbarpower.ui:50
+#. i18n: file: dialogs/searchbarpower.ui:56
 #. i18n: ectx: property (toolTip), widget (QComboBox, pattern)
 #: rc.cpp:80 rc.cpp:255
 msgid "Text to search for"
 msgstr "खोजल जाएबला पाठ"
 
-#. i18n: file: dialogs/searchbarincremental.ui:75
+#. i18n: file: dialogs/searchbarincremental.ui:72
 #. i18n: ectx: property (toolTip), widget (QPushButton, next)
-#. i18n: file: dialogs/searchbarpower.ui:60
+#. i18n: file: dialogs/searchbarpower.ui:66
 #. i18n: ectx: property (toolTip), widget (QPushButton, findNext)
 #: rc.cpp:83 rc.cpp:258
 msgid "Jump to next match"
 msgstr "अगिला मेल-खाएत पाठ मे जाउ"
 
-#. i18n: file: dialogs/searchbarincremental.ui:78
+#. i18n: file: dialogs/searchbarincremental.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, next)
-#. i18n: file: dialogs/searchbarpower.ui:63
+#. i18n: file: dialogs/searchbarpower.ui:69
 #. i18n: ectx: property (text), widget (QPushButton, findNext)
 #: rc.cpp:86 rc.cpp:261
 msgid "&Next"
 msgstr "अगिला (&N)"
 
-#. i18n: file: dialogs/searchbarincremental.ui:90
+#. i18n: file: dialogs/searchbarincremental.ui:87
 #. i18n: ectx: property (toolTip), widget (QPushButton, prev)
-#. i18n: file: dialogs/searchbarpower.ui:70
+#. i18n: file: dialogs/searchbarpower.ui:76
 #. i18n: ectx: property (toolTip), widget (QPushButton, findPrev)
 #: rc.cpp:89 rc.cpp:264
 msgid "Jump to previous match"
 msgstr "पिछले मेल-खाएत पाठ मे जाउ"
 
-#. i18n: file: dialogs/searchbarincremental.ui:93
+#. i18n: file: dialogs/searchbarincremental.ui:90
 #. i18n: ectx: property (text), widget (QPushButton, prev)
-#. i18n: file: dialogs/searchbarpower.ui:73
+#. i18n: file: dialogs/searchbarpower.ui:79
 #. i18n: ectx: property (text), widget (QPushButton, findPrev)
 #: rc.cpp:92 rc.cpp:267
 msgid "&Previous"
 msgstr "पछिला (&P)"
 
-#. i18n: file: dialogs/searchbarincremental.ui:124
+#. i18n: file: dialogs/searchbarincremental.ui:121
 #. i18n: ectx: property (toolTip), widget (QToolButton, options)
 #: rc.cpp:95
 msgid "Modify search behavior"
 msgstr "खोजक आचरण बदलू"
 
-#. i18n: file: dialogs/searchbarincremental.ui:127
+#. i18n: file: dialogs/searchbarincremental.ui:124
 #. i18n: ectx: property (text), widget (QToolButton, options)
-#. i18n: file: dialogs/searchbarpower.ui:147
+#. i18n: file: dialogs/searchbarpower.ui:156
 #. i18n: ectx: property (text), widget (QToolButton, options)
 #: rc.cpp:98 rc.cpp:288
 msgid "&Options"
 msgstr "विकल्प (&O)"
 
-#. i18n: file: dialogs/searchbarincremental.ui:191
+#. i18n: file: dialogs/searchbarincremental.ui:188
 #. i18n: ectx: property (toolTip), widget (QToolButton, mutate)
 #: rc.cpp:102
 msgid "Switch to power search and replace bar"
@@ -2923,49 +2929,49 @@ msgstr "बम्माँ किनार पृष्ठभूमि:"
 msgid "Line numbers:"
 msgstr "पंक्ति क्रमांक:"
 
-#. i18n: file: dialogs/searchbarpower.ui:85
+#. i18n: file: dialogs/searchbarpower.ui:91
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:270
 msgid "Rep&lace:"
 msgstr "बदलू (&l)"
 
-#. i18n: file: dialogs/searchbarpower.ui:104
+#. i18n: file: dialogs/searchbarpower.ui:113
 #. i18n: ectx: property (toolTip), widget (QComboBox, replacement)
 #: rc.cpp:273
 msgid "Text to replace with"
 msgstr "पाठ जकरा बदलनाइ अछि"
 
-#. i18n: file: dialogs/searchbarpower.ui:114
+#. i18n: file: dialogs/searchbarpower.ui:123
 #. i18n: ectx: property (toolTip), widget (QPushButton, replaceNext)
 #: rc.cpp:276
 msgid "Replace next match"
 msgstr "अगिला मिलान बदलू"
 
-#. i18n: file: dialogs/searchbarpower.ui:117
+#. i18n: file: dialogs/searchbarpower.ui:126
 #. i18n: ectx: property (text), widget (QPushButton, replaceNext)
 #: rc.cpp:279
 msgid "&Replace"
 msgstr "बदलू (R)"
 
-#. i18n: file: dialogs/searchbarpower.ui:124
+#. i18n: file: dialogs/searchbarpower.ui:133
 #. i18n: ectx: property (toolTip), widget (QPushButton, replaceAll)
 #: rc.cpp:282
 msgid "Replace all matches"
 msgstr "सभटा मिलान केँ बदलू"
 
-#. i18n: file: dialogs/searchbarpower.ui:127
+#. i18n: file: dialogs/searchbarpower.ui:136
 #. i18n: ectx: property (text), widget (QPushButton, replaceAll)
 #: rc.cpp:285
 msgid "Replace &All"
 msgstr "सभटा बदलू (&A)"
 
-#. i18n: file: dialogs/searchbarpower.ui:187
+#. i18n: file: dialogs/searchbarpower.ui:196
 #. i18n: ectx: property (toolTip), widget (QComboBox, searchMode)
 #: rc.cpp:291
 msgid "Search mode"
 msgstr "खोज मोड"
 
-#. i18n: file: dialogs/searchbarpower.ui:197
+#. i18n: file: dialogs/searchbarpower.ui:206
 #. i18n: ectx: property (text), item, widget (QComboBox, searchMode)
 #: rc.cpp:294
 #, fuzzy
@@ -2973,7 +2979,7 @@ msgstr "खोज मोड"
 msgid "Plain text"
 msgstr "Plain text\t\t(Alt+1)"
 
-#. i18n: file: dialogs/searchbarpower.ui:202
+#. i18n: file: dialogs/searchbarpower.ui:211
 #. i18n: ectx: property (text), item, widget (QComboBox, searchMode)
 #: rc.cpp:297
 #, fuzzy
@@ -2981,7 +2987,7 @@ msgstr "Plain text\t\t(Alt+1)"
 msgid "Whole words"
 msgstr "पूरे शब्दसभ\t(Alt+2)"
 
-#. i18n: file: dialogs/searchbarpower.ui:207
+#. i18n: file: dialogs/searchbarpower.ui:216
 #. i18n: ectx: property (text), item, widget (QComboBox, searchMode)
 #: rc.cpp:300
 #, fuzzy
@@ -2989,7 +2995,7 @@ msgstr "पूरे शब्दसभ\t(Alt+2)"
 msgid "Escape sequences"
 msgstr "Escape शृंखला\t(Alt+3)"
 
-#. i18n: file: dialogs/searchbarpower.ui:212
+#. i18n: file: dialogs/searchbarpower.ui:221
 #. i18n: ectx: property (text), item, widget (QComboBox, searchMode)
 #: rc.cpp:303
 #, fuzzy
@@ -2997,13 +3003,13 @@ msgstr "Escape शृंखला\t(Alt+3)"
 msgid "Regular expression"
 msgstr "नियमित अभिव्यक्ति\t(Alt+4)"
 
-#. i18n: file: dialogs/searchbarpower.ui:236
+#. i18n: file: dialogs/searchbarpower.ui:245
 #. i18n: ectx: property (toolTip), widget (QCheckBox, matchCase)
 #: rc.cpp:306
 msgid "Case-sensitive searching"
 msgstr "स्थिति संवेदनशील खोज"
 
-#. i18n: file: dialogs/searchbarpower.ui:252
+#. i18n: file: dialogs/searchbarpower.ui:261
 #. i18n: ectx: property (toolTip), widget (QToolButton, mutate)
 #: rc.cpp:312
 msgid "Switch to incremental search bar"
