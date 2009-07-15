@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akregator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-28 07:06+0200\n"
+"POT-Creation-Date: 2009-07-15 08:11+0200\n"
 "PO-Revision-Date: 2009-06-26 21:59+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "Loading completed"
 msgstr ""
 
-#: src/articlelistview.cpp:178 src/subscriptionlistview.cpp:184
+#: src/articlelistview.cpp:178 src/subscriptionlistview.cpp:185
 msgid "Columns"
 msgstr "कालम"
 
@@ -66,22 +66,22 @@ msgstr "फोल्डर जोड़ू"
 msgid "Folder name:"
 msgstr ""
 
-#: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:543
+#: src/pageviewer.cpp:101 src/actionmanagerimpl.cpp:564
 msgctxt "Go back in browser history"
 msgid "Back"
 msgstr "पाछाँ"
 
-#: src/pageviewer.cpp:109 src/actionmanagerimpl.cpp:536
+#: src/pageviewer.cpp:109 src/actionmanagerimpl.cpp:557
 msgctxt "Go forward in browser history"
 msgid "Forward"
 msgstr "आगाँक तरफ"
 
-#: src/pageviewer.cpp:116 src/actionmanagerimpl.cpp:552
+#: src/pageviewer.cpp:116 src/actionmanagerimpl.cpp:573
 msgctxt "Reload current page"
 msgid "Reload"
 msgstr "पुनः लोड करू"
 
-#: src/pageviewer.cpp:119 src/actionmanagerimpl.cpp:557
+#: src/pageviewer.cpp:119 src/actionmanagerimpl.cpp:578
 msgid "Stop"
 msgstr "रोकू"
 
@@ -169,36 +169,36 @@ msgstr ""
 msgid "Plugin Information"
 msgstr ""
 
-#: src/mainwidget.cpp:171
+#: src/mainwidget.cpp:174
 msgid "You can view multiple articles in several open tabs."
 msgstr ""
 
-#: src/mainwidget.cpp:175
+#: src/mainwidget.cpp:178
 msgid "Articles list."
 msgstr ""
 
-#: src/mainwidget.cpp:236
+#: src/mainwidget.cpp:242
 msgid "Browsing area."
 msgstr ""
 
-#: src/mainwidget.cpp:241 src/mainwidget.cpp:596
+#: src/mainwidget.cpp:247 src/mainwidget.cpp:602
 msgid "Articles"
 msgstr ""
 
-#: src/mainwidget.cpp:257
+#: src/mainwidget.cpp:263
 msgid "About"
 msgstr "क' बारेमे"
 
-#: src/mainwidget.cpp:767
+#: src/mainwidget.cpp:775
 msgid "Fetching Feeds..."
 msgstr ""
 
-#: src/mainwidget.cpp:951
+#: src/mainwidget.cpp:959
 #, kde-format
 msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
 msgstr ""
 
-#: src/mainwidget.cpp:954
+#: src/mainwidget.cpp:962
 #, kde-format
 msgid "<qt>Are you sure you want to delete the selected article?</qt>"
 msgid_plural ""
@@ -206,7 +206,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/mainwidget.cpp:958
+#: src/mainwidget.cpp:966
 msgid "Delete Article"
 msgstr ""
 
@@ -230,31 +230,23 @@ msgstr ""
 msgid "Imported Folder"
 msgstr ""
 
-#: src/articleviewer.cpp:138
-msgid "&Increase Font Sizes"
-msgstr ""
-
-#: src/articleviewer.cpp:144
-msgid "&Decrease Font Sizes"
-msgstr ""
-
-#: src/articleviewer.cpp:149
+#: src/articleviewer.cpp:133
 msgid "Copy &Link Address"
 msgstr ""
 
-#: src/articleviewer.cpp:153
+#: src/articleviewer.cpp:137
 msgid "&Save Link As..."
 msgstr "लिंक एहन सहेजू (&S)"
 
-#: src/articleviewer.cpp:157
+#: src/articleviewer.cpp:141
 msgid "&Scroll Up"
 msgstr ""
 
-#: src/articleviewer.cpp:162
+#: src/articleviewer.cpp:146
 msgid "&Scroll Down"
 msgstr ""
 
-#: src/articleviewer.cpp:691
+#: src/articleviewer.cpp:678
 #, kde-format
 msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
 msgid ""
@@ -271,27 +263,27 @@ msgid ""
 "<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
 msgstr ""
 
-#: src/articleviewer.cpp:707 src/aboutdata.cpp:35
+#: src/articleviewer.cpp:694 src/aboutdata.cpp:35
 msgid "Akregator"
 msgstr ""
 
-#: src/articleviewer.cpp:709
+#: src/articleviewer.cpp:696
 msgid "An RSS feed reader for the K Desktop Environment."
 msgstr ""
 
-#: src/articleviewer.cpp:746
+#: src/articleviewer.cpp:733
 msgid "Disable"
 msgstr "निष्क्रिय करू"
 
-#: src/articleviewer.cpp:748
+#: src/articleviewer.cpp:735
 msgid "Keep Enabled"
 msgstr ""
 
-#: src/articleviewer.cpp:749
+#: src/articleviewer.cpp:736
 msgid "Are you sure you want to disable this introduction page?"
 msgstr ""
 
-#: src/articleviewer.cpp:749
+#: src/articleviewer.cpp:736
 msgid "Disable Introduction Page"
 msgstr ""
 
@@ -806,7 +798,7 @@ msgstr ""
 msgid "Open in External Browser"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:301 src/actionmanagerimpl.cpp:519
+#: src/actionmanagerimpl.cpp:301 src/actionmanagerimpl.cpp:540
 msgid "Copy Link Address"
 msgstr "लिंक पता नकल करू"
 
@@ -893,67 +885,75 @@ msgstr "लिंक पता भेजू... (&L)"
 msgid "Send &File..."
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:422
+#: src/actionmanagerimpl.cpp:424
+msgid "&Increase Font Sizes"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:430
+msgid "&Decrease Font Sizes"
+msgstr ""
+
+#: src/actionmanagerimpl.cpp:443
 msgid "&Previous Article"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:426
+#: src/actionmanagerimpl.cpp:447
 msgid "&Next Article"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:441
+#: src/actionmanagerimpl.cpp:462
 msgid "&Previous Feed"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:446
+#: src/actionmanagerimpl.cpp:467
 msgid "&Next Feed"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:452
+#: src/actionmanagerimpl.cpp:473
 msgid "N&ext Unread Feed"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:458
+#: src/actionmanagerimpl.cpp:479
 msgid "Prev&ious Unread Feed"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:463
+#: src/actionmanagerimpl.cpp:484
 msgid "Go to Top of Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:468
+#: src/actionmanagerimpl.cpp:489
 msgid "Go to Bottom of Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:473
+#: src/actionmanagerimpl.cpp:494
 msgid "Go Left in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:478
+#: src/actionmanagerimpl.cpp:499
 msgid "Go Right in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:483
+#: src/actionmanagerimpl.cpp:504
 msgid "Go Up in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:488
+#: src/actionmanagerimpl.cpp:509
 msgid "Go Down in Tree"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:503
+#: src/actionmanagerimpl.cpp:524
 msgid "Select Next Tab"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:508
+#: src/actionmanagerimpl.cpp:529
 msgid "Select Previous Tab"
 msgstr ""
 
-#: src/actionmanagerimpl.cpp:514
+#: src/actionmanagerimpl.cpp:535
 msgid "Detach Tab"
 msgstr "टैब अलग करू"
 
-#: src/actionmanagerimpl.cpp:524
+#: src/actionmanagerimpl.cpp:545
 msgid "&Close Tab"
 msgstr "टैब बन्न करू (&C)"
 
@@ -1159,7 +1159,7 @@ msgstr "sangeeta09@gmail.com"
 #. i18n: ectx: Menu (go)
 #. i18n: file: src/akregator_shell.rc:21
 #. i18n: ectx: Menu (go)
-#. i18n: file: src/akregator_part.rc:28
+#. i18n: file: src/akregator_part.rc:31
 #. i18n: ectx: Menu (go)
 #: rc.cpp:5 rc.cpp:17 rc.cpp:128
 msgid "&Go"
@@ -1191,7 +1191,7 @@ msgstr "दृश्य (&V)"
 
 #. i18n: file: src/akregator_shell.rc:26
 #. i18n: ectx: Menu (feed)
-#. i18n: file: src/akregator_part.rc:41
+#. i18n: file: src/akregator_part.rc:44
 #. i18n: ectx: Menu (feed)
 #: rc.cpp:20 rc.cpp:131
 msgid "Fee&d"
@@ -1199,7 +1199,7 @@ msgstr ""
 
 #. i18n: file: src/akregator_shell.rc:31
 #. i18n: ectx: Menu (article)
-#. i18n: file: src/akregator_part.rc:54
+#. i18n: file: src/akregator_part.rc:57
 #. i18n: ectx: Menu (article)
 #: rc.cpp:23 rc.cpp:134
 msgid "&Article"
@@ -1207,7 +1207,7 @@ msgstr ""
 
 #. i18n: file: src/akregator_shell.rc:36
 #. i18n: ectx: Menu (settings)
-#. i18n: file: src/akregator_part.rc:70
+#. i18n: file: src/akregator_part.rc:73
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:26 rc.cpp:137
 msgid "&Settings"
@@ -1215,7 +1215,7 @@ msgstr "जमावट (&S)"
 
 #. i18n: file: src/akregator_shell.rc:47
 #. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: src/akregator_part.rc:81
+#. i18n: file: src/akregator_part.rc:84
 #. i18n: ectx: ToolBar (mainToolBar)
 #: rc.cpp:29 rc.cpp:140
 msgid "Main Toolbar"
@@ -1223,7 +1223,7 @@ msgstr "मुख्य अओजार पट्टी"
 
 #. i18n: file: src/akregator_shell.rc:51
 #. i18n: ectx: ToolBar (browserToolBar)
-#. i18n: file: src/akregator_part.rc:91
+#. i18n: file: src/akregator_part.rc:94
 #. i18n: ectx: ToolBar (browserToolBar)
 #: rc.cpp:32 rc.cpp:143
 msgid "Browser Toolbar"
@@ -1231,7 +1231,7 @@ msgstr ""
 
 #. i18n: file: src/akregator_shell.rc:54
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
-#. i18n: file: src/akregator_part.rc:99
+#. i18n: file: src/akregator_part.rc:102
 #. i18n: ectx: ToolBar (textToSpeechToolBar)
 #: rc.cpp:35 rc.cpp:146
 msgid "Speech Toolbar"
