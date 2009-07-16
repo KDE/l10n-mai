@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-06 11:01+0200\n"
+"POT-Creation-Date: 2009-07-16 11:33+0200\n"
 "PO-Revision-Date: 2009-01-18 15:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -172,8 +172,11 @@ msgid "Sw&itch User"
 msgstr "प्रयोक्ता बदलू (&i)"
 
 #: kgdialog.cpp:72
-msgid "Abort S&ession"
-msgstr "सत्र छोडू (&e)"
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Session"
+msgid "Canc&el Session"
+msgstr "सत्र"
 
 #: kgdialog.cpp:73
 msgid "R&estart X Server"
@@ -409,11 +412,14 @@ msgid "Location"
 msgstr "स्थान"
 
 #: kdmshutdown.cpp:671
-msgid "Abort pending shutdown:"
-msgstr ""
+#, fuzzy
+#| msgctxt "after timeout:"
+#| msgid "cancel shutdown"
+msgid "Cancel pending shutdown:"
+msgstr "बन्न कएनाइ रद्द करू"
 
 #: kdmshutdown.cpp:672
-msgid "No permission to abort pending shutdown:"
+msgid "No permission to cancel pending shutdown:"
 msgstr ""
 
 #: kdmshutdown.cpp:678
@@ -613,3 +619,6 @@ msgstr "%1: %2"
 msgctxt "... host"
 msgid "X login on %1"
 msgstr "एक्स %1 पर लागइन भए रहल अछि"
+
+#~ msgid "Abort S&ession"
+#~ msgstr "सत्र छोडू (&e)"
