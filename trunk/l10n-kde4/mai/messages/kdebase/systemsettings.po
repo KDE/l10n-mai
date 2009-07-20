@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-14 11:33+0200\n"
+"POT-Creation-Date: 2009-07-20 11:34+0200\n"
 "PO-Revision-Date: 2009-05-31 12:57+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -29,11 +29,11 @@ msgstr "तंत्र विन्यास"
 msgid "Central configuration center for KDE."
 msgstr ""
 
-#: app/main.cpp:38 icons/IconMode.cpp:65 classic/ClassicMode.cpp:66
+#: app/main.cpp:38 icons/IconMode.cpp:66 classic/ClassicMode.cpp:66
 msgid "(c) 2009, Ben Cooksley"
 msgstr ""
 
-#: app/main.cpp:39 icons/IconMode.cpp:66 classic/ClassicMode.cpp:67
+#: app/main.cpp:39 icons/IconMode.cpp:67 classic/ClassicMode.cpp:67
 msgid "Ben Cooksley"
 msgstr ""
 
@@ -41,11 +41,11 @@ msgstr ""
 msgid "Maintainer"
 msgstr "अनुरक्षक"
 
-#: app/main.cpp:40 icons/IconMode.cpp:67 classic/ClassicMode.cpp:68
+#: app/main.cpp:40 icons/IconMode.cpp:68 classic/ClassicMode.cpp:68
 msgid "Mathias Soeken"
 msgstr ""
 
-#: app/main.cpp:40 icons/IconMode.cpp:67 classic/ClassicMode.cpp:68
+#: app/main.cpp:40 icons/IconMode.cpp:68 classic/ClassicMode.cpp:68
 msgid "Developer"
 msgstr "डेवलपर"
 
@@ -57,22 +57,22 @@ msgstr ""
 msgid "Internal module representation, internal module model"
 msgstr ""
 
-#: app/SettingsBase.cpp:57
+#: app/SettingsBase.cpp:55
 #, fuzzy
 #| msgid "S&earch:"
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "खोजू: (&e)"
 
-#: app/SettingsBase.cpp:113 app/SettingsBase.cpp:154
+#: app/SettingsBase.cpp:114 app/SettingsBase.cpp:155
 msgid "Configure"
 msgstr "विन्यस्त करू"
 
-#: app/SettingsBase.cpp:139
+#: app/SettingsBase.cpp:140
 msgid "Help"
 msgstr "मद्दति "
 
-#: app/SettingsBase.cpp:144 app/SettingsBase.cpp:300
+#: app/SettingsBase.cpp:145 app/SettingsBase.cpp:302
 msgid "About Active Module"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "About Active View"
 msgstr ""
 
-#: app/SettingsBase.cpp:335
+#: app/SettingsBase.cpp:337
 #, kde-format
 msgid "About %1"
 msgstr "%1 केर संबंध में"
@@ -108,11 +108,21 @@ msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/ModuleView.cpp:76
+#: core/ModuleView.cpp:78
 msgid "Reset all current changes to previous values"
 msgstr ""
 
-#: core/ModuleView.cpp:197
+#: core/ModuleView.cpp:169
+#, kde-format
+msgid "%1 is an external application and has been automatically launched"
+msgstr ""
+
+#: core/ModuleView.cpp:170
+#, kde-format
+msgid "Relaunch %1"
+msgstr ""
+
+#: core/ModuleView.cpp:204
 #, fuzzy
 #| msgid ""
 #| "There are unsaved changes in the active module.\n"
@@ -124,31 +134,31 @@ msgstr ""
 "सक्रिय मोड्यूलमे बिनु सहेजल गेल परिवर्तन अछि.\n"
 "की अहाँ परिवर्तनसभकेँ लागू कएनाइ चाहैत छी अथवा ओकरा छोड़ू?"
 
-#: core/ModuleView.cpp:199
+#: core/ModuleView.cpp:206
 #, fuzzy
 #| msgid "System Settings"
 msgid "Apply Settings"
 msgstr "तंत्र विन्यास"
 
-#: icons/IconMode.cpp:63
+#: icons/IconMode.cpp:64
 msgid "Icon View"
 msgstr "चिह्न दृश्य"
 
-#: icons/IconMode.cpp:64
+#: icons/IconMode.cpp:65
 msgid "Provides a categorized icons view of control modules."
 msgstr ""
 
-#: icons/IconMode.cpp:66 classic/ClassicMode.cpp:67
+#: icons/IconMode.cpp:67 classic/ClassicMode.cpp:67
 msgid "Author"
 msgstr "लेखक"
 
-#: icons/IconMode.cpp:71
+#: icons/IconMode.cpp:72
 #, fuzzy
 #| msgid "Overview (%1)"
 msgid "Overview"
 msgstr "सारांश (%1)"
 
-#: icons/IconMode.cpp:72
+#: icons/IconMode.cpp:73
 #, kde-format
 msgid "Keyboard Shortcut: %1"
 msgstr ""
@@ -181,13 +191,31 @@ msgstr ""
 msgid "Show detailed tooltips"
 msgstr ""
 
+#. i18n: file: app/systemsettings.kcfg:9
+#. i18n: ectx: label, entry (ShowToolTips), group (Main)
+#: rc.cpp:14
+msgid "Determines whether detailed tooltips should be used"
+msgstr ""
+
+#. i18n: file: app/systemsettings.kcfg:13
+#. i18n: ectx: label, entry (ActiveView), group (Main)
+#: rc.cpp:17
+msgid "Internal name for the view used"
+msgstr ""
+
 #. i18n: file: app/systemsettingsui.rc:16
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:14
+#: rc.cpp:20
 #, fuzzy
 #| msgid "System Settings"
 msgid "About System Settings"
 msgstr "तंत्र विन्यास"
+
+#. i18n: file: core/externalModule.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: rc.cpp:23
+msgid "Dialog"
+msgstr ""
 
 #: classic/ClassicMode.cpp:64
 msgid "Tree View"

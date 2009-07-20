@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-12 11:43+0200\n"
+"POT-Creation-Date: 2009-07-20 11:42+0200\n"
 "PO-Revision-Date: 2009-04-21 23:39+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -275,7 +275,7 @@ msgctxt "submenu of skip"
 msgid "Skip 1min Forward"
 msgstr ""
 
-#: mediawidget.cpp:327 dvb/dvbepg.cpp:135 playlist/playlistmodel.cpp:113
+#: mediawidget.cpp:327 dvb/dvbepg.cpp:135 playlist/playlistmodel.cpp:116
 msgid "Title"
 msgstr "शीर्षक"
 
@@ -368,7 +368,7 @@ msgstr ""
 msgid "Name"
 msgstr "नाम"
 
-#: dvb/dvbchannelui.cpp:232 playlist/playlistmodel.cpp:111
+#: dvb/dvbchannelui.cpp:232 playlist/playlistmodel.cpp:114
 msgid "Number"
 msgstr "संख्या"
 
@@ -378,8 +378,8 @@ msgid "Edit"
 msgstr "संपादन"
 
 #: dvb/dvbchannelui.cpp:482 dvb/dvbrecording.cpp:428 dvb/dvbrecording.cpp:448
-#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:360
-#: playlist/playlisttab.cpp:376
+#: dvb/dvbscandialog.cpp:215 playlist/playlisttab.cpp:375
+#: playlist/playlisttab.cpp:391
 #, fuzzy
 #| msgid "Remove"
 msgctxt "remove an item from a list"
@@ -754,7 +754,7 @@ msgctxt "dialog"
 msgid "Recording Schedule"
 msgstr ""
 
-#: dvb/dvbrecording.cpp:419 playlist/playlisttab.cpp:371
+#: dvb/dvbrecording.cpp:419 playlist/playlisttab.cpp:386
 #, fuzzy
 #| msgid "New"
 msgctxt "add a new item to a list"
@@ -803,7 +803,7 @@ msgstr ""
 msgid "Channels"
 msgstr "चैनल"
 
-#: dvb/dvbscandialog.cpp:220 playlist/playlisttab.cpp:364
+#: dvb/dvbscandialog.cpp:220 playlist/playlisttab.cpp:379
 msgctxt "remove all items from a list"
 msgid "Clear"
 msgstr ""
@@ -893,14 +893,29 @@ msgctxt "osd"
 msgid "Channel: %1_"
 msgstr "चैनलः"
 
-#: playlist/playlisttab.cpp:349
+#: playlist/playlisttab.cpp:360
+#, fuzzy
+#| msgid "Play"
+msgid "Temporary Playlist"
+msgstr "बजाउ"
+
+#: playlist/playlisttab.cpp:364
 msgctxt "playlist menu"
 msgid "Repeat"
 msgstr ""
 
-#: playlist/playlisttab.cpp:355
+#: playlist/playlisttab.cpp:370
 msgctxt "playlist menu"
 msgid "Shuffle"
+msgstr ""
+
+#: playlist/playlisttab.cpp:590
+#, kde-format
+msgid "Can't open %1."
+msgstr ""
+
+#: playlist/playlisttab.cpp:603
+msgid "Unknown playlist format."
 msgstr ""
 
 #, fuzzy
