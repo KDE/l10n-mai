@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-18 13:04+0200\n"
+"POT-Creation-Date: 2009-07-23 07:17+0200\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgid "Unknown error"
 msgstr "अज्ञात त्रुटि"
 
-#: core/kexiguimsghandler.cpp:149 plugins/reportspgz/kexireportview.cpp:175
-#: plugins/reportspgz/kexireportview.cpp:194
+#: core/kexiguimsghandler.cpp:149 plugins/reportspgz/kexireportview.cpp:176
+#: plugins/reportspgz/kexireportview.cpp:195
 msgid "Warning"
 msgstr "चेतावनी"
 
@@ -814,8 +814,8 @@ msgid ""
 msgstr ""
 
 #: main/startup/KexiStartupFileWidget.cpp:377
-#: plugins/reportspgz/kexireportview.cpp:175
-#: plugins/reportspgz/kexireportview.cpp:194
+#: plugins/reportspgz/kexireportview.cpp:176
+#: plugins/reportspgz/kexireportview.cpp:195
 msgid "Overwrite"
 msgstr "एकरासँ उप्पर लिखू"
 
@@ -836,7 +836,7 @@ msgstr ""
 msgid "Remove selected database connections"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:241
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:241
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #: main/startup/KexiConnSelector.cpp:384 rc.cpp:366
 msgid "&Add"
@@ -1903,11 +1903,11 @@ msgstr ""
 
 #. i18n: file: plugins/queries/kexiparameterlisteditor.ui:75
 #. i18n: ectx: property (text), widget (KPushButton)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:255
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:255
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: main/KexiMainWindow.cpp:4217 rc.cpp:315 rc.cpp:372
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1102
 #: plugins/reportspgz/kexireportdesignview.cpp:45
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1105
 msgid "Delete"
 msgstr "मेटाबू"
 
@@ -2088,12 +2088,12 @@ msgid "Changes page size and margins."
 msgstr ""
 
 #: main/printing/kexisimpleprintingpagesetup.cpp:449
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:877
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:874
 msgid "Portrait"
 msgstr "व्यक्तिचित्र"
 
 #: main/printing/kexisimpleprintingpagesetup.cpp:449
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:877
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:874
 msgid "Landscape"
 msgstr "लैंडस्केप"
 
@@ -2114,9 +2114,9 @@ msgstr "ज़ूम इन"
 msgid "Zoom Out"
 msgstr "ज़ूम आउट"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:98
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:98
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootFirst)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:174
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:174
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadFirst)
 #: main/printing/kexisimpleprintpreviewwindow.cpp:223 rc.cpp:330 rc.cpp:354
 msgid "First Page"
@@ -2130,9 +2130,9 @@ msgstr "पछिला पृष्ठ"
 msgid "Next Page"
 msgstr "अगिला पृष्ठ"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:105
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:105
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootLast)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:160
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:160
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadLast)
 #: main/printing/kexisimpleprintpreviewwindow.cpp:238 rc.cpp:333 rc.cpp:348
 msgid "Last Page"
@@ -3836,7 +3836,7 @@ msgstr "निर्यात(&E)"
 
 #. i18n: file: data/kexiui.rc:44
 #. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:248
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:248
 #. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #: rc.cpp:17 rc.cpp:369
 msgid "&Edit"
@@ -4356,129 +4356,129 @@ msgstr ""
 msgid "Add"
 msgstr "जोड़ू"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:31
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, SectionEditor)
 #: rc.cpp:318 plugins/reportspgz/kexireportdesignview.cpp:48
 msgid "Section Editor"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:60
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:60
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportHeader)
-#: rc.cpp:321 plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:585
+#: rc.cpp:321 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:582
 msgid "Report Header"
 msgstr "रिपोट शीर्षिका"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:67
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageFooter)
 #: rc.cpp:324
 msgid "Page Footer"
 msgstr "पृष्ठ पादिका"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:91
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:91
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootEven)
 #: rc.cpp:327
 msgid "Even Page(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:112
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:112
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootOdd)
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:167
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:167
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadOdd)
 #: rc.cpp:336 rc.cpp:351
 msgid "Odd Page(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:119
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:119
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootAny)
 #: rc.cpp:339
 msgid "Any Page(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:129
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportFooter)
-#: rc.cpp:342 plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:589
+#: rc.cpp:342 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:586
 msgid "Report Footer"
 msgstr "रिपोट पादिका"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:136
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:136
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageHeader)
 #: rc.cpp:345
 msgid "Page Header"
 msgstr "पृष्ठ शीर्षिका"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:181
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadEven)
 #: rc.cpp:357
 msgid "Even Pages(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:188
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:188
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadAny)
 #: rc.cpp:360
 msgid "Any Pages(s)"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:200
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:200
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
 #: rc.cpp:363
 msgid "Group Sections"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:262
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:262
 #. i18n: ectx: property (text), widget (QPushButton, btnMoveUp)
 #: rc.cpp:375
 msgid "Move &Up"
 msgstr "उप्पर जाउ (&U)"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:269
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:269
 #. i18n: ectx: property (text), widget (QPushButton, brnMoveDown)
 #: rc.cpp:378
 msgid "Move &Down"
 msgstr "नीच्चाँ जाउ (&D)"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/sectioneditor.ui:330
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:330
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
 #: rc.cpp:381
 msgid "&Close"
 msgstr "बन्न करु (&C)"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:31
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, DetailGroupSectionDialog)
 #: rc.cpp:384
 msgid "Group Section Editor"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:39
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:39
 #. i18n: ectx: property (text), widget (QLabel, lblColumn)
 #: rc.cpp:387
 msgid "Column:"
 msgstr "कोलम:"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:58
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, cbHead)
 #: rc.cpp:390
 msgid "Show Group Header"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:65
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, cbFoot)
 #: rc.cpp:393
 msgid "Show Group Footer"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:72
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:72
 #. i18n: ectx: property (text), widget (QCheckBox, breakAfterFooter)
 #: rc.cpp:396
 msgid "Insert Page Break After this Footer"
 msgstr ""
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:128
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:128
 #. i18n: ectx: property (text), widget (QPushButton, btnOk)
 #: rc.cpp:399
 msgid "&OK"
 msgstr "बेस (&O)"
 
-#. i18n: file: plugins/reportspgz/backend/wrtembed/detailgroupsectiondialog.ui:141
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:141
 #. i18n: ectx: property (text), widget (QPushButton, bntCancel)
 #: rc.cpp:402
 msgid "&Cancel"
@@ -5904,119 +5904,119 @@ msgstr ""
 msgid "Query \"%1\" already exists."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:63
+#: plugins/reportspgz/kexireportview.cpp:64
 msgid "Page"
 msgstr "पृष्ठ"
 
-#: plugins/reportspgz/kexireportview.cpp:69
+#: plugins/reportspgz/kexireportview.cpp:70
 msgid "Print"
 msgstr "छपाइ"
 
-#: plugins/reportspgz/kexireportview.cpp:71
+#: plugins/reportspgz/kexireportview.cpp:72
 msgid "Print Report"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:72
+#: plugins/reportspgz/kexireportview.cpp:73
 msgid "Prints the current report."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:75
+#: plugins/reportspgz/kexireportview.cpp:76
 msgid "Open in KWord"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:77
+#: plugins/reportspgz/kexireportview.cpp:78
 msgid "Open the report in KWord"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:78
+#: plugins/reportspgz/kexireportview.cpp:79
 msgid "Opens the current report in KWord."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:83
+#: plugins/reportspgz/kexireportview.cpp:84
 msgid "Open in KSpread"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:85
+#: plugins/reportspgz/kexireportview.cpp:86
 msgid "Open the report in KSpread"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:86
+#: plugins/reportspgz/kexireportview.cpp:87
 msgid "Opens the current report in KSpread."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:91
+#: plugins/reportspgz/kexireportview.cpp:92
 msgid "Export to HTML"
 msgstr "HTML मे निर्यात करू"
 
-#: plugins/reportspgz/kexireportview.cpp:93
+#: plugins/reportspgz/kexireportview.cpp:94
 msgid "Export the report to HTML"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:94
+#: plugins/reportspgz/kexireportview.cpp:95
 msgid "Exports the report to a HTML file."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:168
-#: plugins/reportspgz/kexireportview.cpp:188
+#: plugins/reportspgz/kexireportview.cpp:169
+#: plugins/reportspgz/kexireportview.cpp:189
 msgid "Save Report to.."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:170
+#: plugins/reportspgz/kexireportview.cpp:171
 msgid "Report not exported.The URL was invalid"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:170
-#: plugins/reportspgz/kexireportview.cpp:190
+#: plugins/reportspgz/kexireportview.cpp:171
+#: plugins/reportspgz/kexireportview.cpp:191
 msgid "Not Saved"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:175
-#: plugins/reportspgz/kexireportview.cpp:194
+#: plugins/reportspgz/kexireportview.cpp:176
+#: plugins/reportspgz/kexireportview.cpp:195
 #, kde-format
 msgid ""
 "The file %1 exists.\n"
 "Do you wish to overwrite it?"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:181
+#: plugins/reportspgz/kexireportview.cpp:182
 #, kde-format
 msgid "Failed to open %1 in KSpread"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:181
+#: plugins/reportspgz/kexireportview.cpp:182
 msgid "Opening in KSpread failed"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:190
+#: plugins/reportspgz/kexireportview.cpp:191
 msgid "Report not exported, no file selected for writing to"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:200
+#: plugins/reportspgz/kexireportview.cpp:201
 msgid ""
 "Would you like to export using a Cascading Style Sheet which will give "
 "output closer to the original, or export using a Table which outputs a much "
 "simpler format."
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:200
+#: plugins/reportspgz/kexireportview.cpp:201
 msgid "Export Style"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:204
+#: plugins/reportspgz/kexireportview.cpp:205
 #, kde-format
 msgid "Exporting report to %1 failed"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:204
+#: plugins/reportspgz/kexireportview.cpp:205
 msgid "Saving failed"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:206
+#: plugins/reportspgz/kexireportview.cpp:207
 #, kde-format
 msgid "Report saved to %1"
 msgstr ""
 
-#: plugins/reportspgz/kexireportview.cpp:206
+#: plugins/reportspgz/kexireportview.cpp:207
 msgid "Saved OK"
 msgstr ""
 
@@ -6039,21 +6039,215 @@ msgstr "सामान्य"
 msgid "External"
 msgstr "बाहरी आंकड़ा"
 
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+msgid "Report Writer"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+#, kde-format
+msgid ""
+"The document '%1' contains unsaved changes.\n"
+"Do you want to save the changes before closing?"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+msgid "Save"
+msgstr "सहेजू"
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+msgid "Discard"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:396
+msgid "Cancel"
+msgstr "रद करू"
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:542
+msgid "Page Header (Any)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:546
+msgid "Page Header (Even)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:550
+msgid "Page Header (Odd)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:554
+msgid "Page Header (First)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:558
+msgid "Page Header (Last)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:562
+msgid "Page Footer (Any)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:566
+msgid "Page Footer (Even)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:570
+msgid "Page Footer (Odd)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:574
+msgid "Page Footer (First)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:578
+msgid "Page Footer (Last)"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1094
 #: plugins/reportspgz/kexireportdesignview.cpp:39
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1097
 msgid "Cut"
 msgstr "काटू"
 
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1095
 #: plugins/reportspgz/kexireportdesignview.cpp:41
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1098
 #: plugins/importexport/csv/kexicsvexportwizard.cpp:66
 msgid "Copy"
 msgstr "कापी करू"
 
+#: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1098
 #: plugins/reportspgz/kexireportdesignview.cpp:43
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:1101
 msgid "Paste"
 msgstr "साटू"
+
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:286
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:322
+msgid "Error Encountered"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:287
+#: plugins/reportspgz/koreport/wrtembed/sectioneditor.cpp:322
+msgid "Unable to add a new group because its name would not be unique"
+msgstr ""
+
+#: plugins/reportspgz/koreport/wrtembed/reportsection.cpp:78
+msgid "Detail"
+msgstr "विवरण"
+
+#: plugins/reportspgz/koreport/common/krimagedata.cpp:151
+msgid "Clip"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krimagedata.cpp:151
+msgid "Stretch"
+msgstr "विस्तार"
+
+#: plugins/reportspgz/koreport/common/krbarcodedata.cpp:150
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:117
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:106
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:136
+msgid "Left"
+msgstr "बामाँ"
+
+#: plugins/reportspgz/koreport/common/krbarcodedata.cpp:150
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:117
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:123
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:106
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:112
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:136
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:142
+msgid "Center"
+msgstr "केंद्र"
+
+#: plugins/reportspgz/koreport/common/krbarcodedata.cpp:150
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:117
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:106
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:136
+msgid "Right"
+msgstr "दहिन्ना"
+
+#: plugins/reportspgz/koreport/common/krcheckdata.cpp:58
+msgid "Cross"
+msgstr "आरपार"
+
+#: plugins/reportspgz/koreport/common/krcheckdata.cpp:58
+msgid "Tick"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krcheckdata.cpp:58
+msgid "Dot"
+msgstr "बिन्दी"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+msgid "Bar"
+msgstr "पट्टी"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+#: plugins/reportspgz/reportentityselector.cpp:32
+msgid "Line"
+msgstr "रेखा"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+msgid "Pie"
+msgstr "वृतखण्ड"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+msgid "Ring"
+msgstr "मुद्रिका"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:145
+msgid "Polar"
+msgstr "ध्रुवीय"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+msgid "Normal"
+msgstr "सामान्य"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+msgid "Stacked"
+msgstr "स्टैक"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:152
+msgid "Rows"
+msgstr "पंक्ति"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:161
+msgid "Default"
+msgstr "मूलभूत"
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:161
+msgid "Rainbow"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:161
+msgid "Subdued"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:162
+msgid "Color Scheme"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:174
+msgid "Fields from master data source"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krchartdata.cpp:175
+msgid "Fields from child data source"
+msgstr ""
+
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:123
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:112
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:142
+msgid "Top"
+msgstr "उप्पर"
+
+#: plugins/reportspgz/koreport/common/krfielddata.cpp:123
+#: plugins/reportspgz/koreport/common/krlabeldata.cpp:112
+#: plugins/reportspgz/koreport/common/krtextdata.cpp:142
+msgid "Bottom"
+msgstr "नीच्चाँ"
 
 #: plugins/reportspgz/kexireportdesignview.cpp:51
 msgid "Raise"
@@ -6104,11 +6298,6 @@ msgstr "लेबल"
 msgid "Field"
 msgstr "क्षेत्र"
 
-#: plugins/reportspgz/reportentityselector.cpp:32
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Line"
-msgstr "रेखा"
-
 #: plugins/reportspgz/reportentityselector.cpp:33
 msgid "Barcode"
 msgstr ""
@@ -6124,195 +6313,6 @@ msgstr "आकार"
 #: plugins/reportspgz/reportentityselector.cpp:37
 msgid "Check"
 msgstr "जाँचू"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-msgid "Report Writer"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-#, kde-format
-msgid ""
-"The document '%1' contains unsaved changes.\n"
-"Do you want to save the changes before closing?"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-msgid "Save"
-msgstr "सहेजू"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-msgid "Discard"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:399
-msgid "Cancel"
-msgstr "रद करू"
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:545
-msgid "Page Header (Any)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:549
-msgid "Page Header (Even)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:553
-msgid "Page Header (Odd)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:557
-msgid "Page Header (First)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:561
-msgid "Page Header (Last)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:565
-msgid "Page Footer (Any)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:569
-msgid "Page Footer (Even)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:573
-msgid "Page Footer (Odd)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:577
-msgid "Page Footer (First)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportdesigner.cpp:581
-msgid "Page Footer (Last)"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:286
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:322
-msgid "Error Encountered"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:287
-#: plugins/reportspgz/backend/wrtembed/sectioneditor.cpp:322
-msgid "Unable to add a new group because its name would not be unique"
-msgstr ""
-
-#: plugins/reportspgz/backend/wrtembed/reportsection.cpp:78
-msgid "Detail"
-msgstr "विवरण"
-
-#: plugins/reportspgz/backend/common/krimagedata.cpp:151
-msgid "Clip"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krimagedata.cpp:151
-msgid "Stretch"
-msgstr "विस्तार"
-
-#: plugins/reportspgz/backend/common/krbarcodedata.cpp:150
-#: plugins/reportspgz/backend/common/krfielddata.cpp:117
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:106
-#: plugins/reportspgz/backend/common/krtextdata.cpp:136
-msgid "Left"
-msgstr "बामाँ"
-
-#: plugins/reportspgz/backend/common/krbarcodedata.cpp:150
-#: plugins/reportspgz/backend/common/krfielddata.cpp:117
-#: plugins/reportspgz/backend/common/krfielddata.cpp:123
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:106
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:112
-#: plugins/reportspgz/backend/common/krtextdata.cpp:136
-#: plugins/reportspgz/backend/common/krtextdata.cpp:142
-msgid "Center"
-msgstr "केंद्र"
-
-#: plugins/reportspgz/backend/common/krbarcodedata.cpp:150
-#: plugins/reportspgz/backend/common/krfielddata.cpp:117
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:106
-#: plugins/reportspgz/backend/common/krtextdata.cpp:136
-msgid "Right"
-msgstr "दहिन्ना"
-
-#: plugins/reportspgz/backend/common/krcheckdata.cpp:58
-msgid "Cross"
-msgstr "आरपार"
-
-#: plugins/reportspgz/backend/common/krcheckdata.cpp:58
-msgid "Tick"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krcheckdata.cpp:58
-msgid "Dot"
-msgstr "बिन्दी"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Bar"
-msgstr "पट्टी"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Pie"
-msgstr "वृतखण्ड"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Ring"
-msgstr "मुद्रिका"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:145
-msgid "Polar"
-msgstr "ध्रुवीय"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-msgid "Normal"
-msgstr "सामान्य"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-msgid "Stacked"
-msgstr "स्टैक"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-msgid "Percent"
-msgstr "प्रतिशत"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:152
-msgid "Rows"
-msgstr "पंक्ति"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:161
-msgid "Default"
-msgstr "मूलभूत"
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:161
-msgid "Rainbow"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:161
-msgid "Subdued"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:162
-msgid "Color Scheme"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:174
-msgid "Fields from master data source"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krchartdata.cpp:175
-msgid "Fields from child data source"
-msgstr ""
-
-#: plugins/reportspgz/backend/common/krfielddata.cpp:123
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:112
-#: plugins/reportspgz/backend/common/krtextdata.cpp:142
-msgid "Top"
-msgstr "उप्पर"
-
-#: plugins/reportspgz/backend/common/krfielddata.cpp:123
-#: plugins/reportspgz/backend/common/krlabeldata.cpp:112
-#: plugins/reportspgz/backend/common/krtextdata.cpp:142
-msgid "Bottom"
-msgstr "नीच्चाँ"
 
 #: plugins/importexport/csv/kexicsvwidgets.cpp:68
 msgid "Comma \",\""
