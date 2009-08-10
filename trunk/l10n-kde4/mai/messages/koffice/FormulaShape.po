@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FormulaShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-09 07:45+0200\n"
+"POT-Creation-Date: 2009-08-10 06:20+0200\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,27 +18,51 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: FormulaCommand.cpp:70 FormulaCommand.cpp:238
+#: FormulaCommand.cpp:70
 msgid "Add text to formula"
 msgstr ""
 
-#: FormulaToolWidget.cpp:74
+#: FormulaCommand.cpp:238
+msgid "Change rows"
+msgstr ""
+
+#: FormulaEditor.cpp:120 KoFormulaTool.cpp:455
+#, fuzzy
+#| msgid "Insert"
+msgid "Insert row"
+msgstr "जोडू"
+
+#: FormulaEditor.cpp:125 KoFormulaTool.cpp:469
+msgid "Remove row"
+msgstr ""
+
+#: FormulaEditor.cpp:133 KoFormulaTool.cpp:462
+#, fuzzy
+#| msgid "Insert"
+msgid "Insert column"
+msgstr "जोडू"
+
+#: FormulaEditor.cpp:138 KoFormulaTool.cpp:476
+msgid "Remove column"
+msgstr ""
+
+#: FormulaToolWidget.cpp:73
 msgid "Arrows"
 msgstr ""
 
-#: FormulaToolWidget.cpp:76
+#: FormulaToolWidget.cpp:75
 msgid "Greek"
 msgstr ""
 
-#: FormulaToolWidget.cpp:80
+#: FormulaToolWidget.cpp:79
 msgid "Relations"
 msgstr ""
 
-#: FormulaToolWidget.cpp:83
+#: FormulaToolWidget.cpp:82
 msgid "Operators"
 msgstr ""
 
-#: FormulaToolWidget.cpp:87
+#: FormulaToolWidget.cpp:86
 msgid "Miscellaneous"
 msgstr ""
 
@@ -50,52 +74,32 @@ msgstr "सूत्र"
 msgid "A formula"
 msgstr ""
 
-#: KoFormulaTool.cpp:409
+#: KoFormulaTool.cpp:406
 msgid "Insert fence"
 msgstr ""
 
-#: KoFormulaTool.cpp:414
+#: KoFormulaTool.cpp:411
 msgid "Insert root"
 msgstr ""
 
-#: KoFormulaTool.cpp:419
+#: KoFormulaTool.cpp:416
 msgid "Insert square root"
 msgstr ""
 
-#: KoFormulaTool.cpp:424
+#: KoFormulaTool.cpp:421
 msgid "Insert fraction"
 msgstr ""
 
-#: KoFormulaTool.cpp:429
+#: KoFormulaTool.cpp:426
 msgid "Insert 3x3 table"
 msgstr ""
 
-#: KoFormulaTool.cpp:436
+#: KoFormulaTool.cpp:433
 msgid "Insert 2 dimensional vector"
 msgstr ""
 
-#: KoFormulaTool.cpp:448
+#: KoFormulaTool.cpp:445
 msgid "Insert sub- and superscript"
-msgstr ""
-
-#: KoFormulaTool.cpp:458
-#, fuzzy
-#| msgid "Insert"
-msgid "Insert row"
-msgstr "जोडू"
-
-#: KoFormulaTool.cpp:465
-#, fuzzy
-#| msgid "Insert"
-msgid "Insert column"
-msgstr "जोडू"
-
-#: KoFormulaTool.cpp:472
-msgid "Remove row"
-msgstr ""
-
-#: KoFormulaTool.cpp:479
-msgid "Remove column"
 msgstr ""
 
 #: KoFormulaToolFactory.cpp:27
