@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-18 06:20+0200\n"
+"POT-Creation-Date: 2009-08-25 07:06+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4333,7 +4333,7 @@ msgstr ""
 
 #. i18n: file: kfile/kpropertiesdesktopbase.ui:37
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:173 ../kfile/kfileplaceeditdialog.cpp:101
+#: rc.cpp:173
 msgid "&Description:"
 msgstr "विवरण (&D):"
 
@@ -5242,10 +5242,6 @@ msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:684
-msgid "Enter a description"
-msgstr ""
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1783
 msgid "*|All Files"
 msgstr "*|सभटा फाइलसभ"
@@ -5617,11 +5613,22 @@ msgstr "स्थान प्रविष्टि संपादन"
 #: ../kfile/kfileplaceeditdialog.cpp:97
 msgid ""
 "<qt>This is the text that will appear in the Places panel.<br /><br />The "
-"description should consist of one or two words that will help you remember "
-"what this entry refers to.</qt>"
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
 msgstr ""
 
-#: ../kfile/kfileplaceeditdialog.cpp:106
+#: ../kfile/kfileplaceeditdialog.cpp:103
+#, fuzzy
+#| msgid "&Name:"
+msgid "L&abel:"
+msgstr "नाम (&N):"
+
+#: ../kfile/kfileplaceeditdialog.cpp:105
+msgid "Enter descriptive label here"
+msgstr ""
+
+#: ../kfile/kfileplaceeditdialog.cpp:109
 #, kde-format
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
@@ -5630,11 +5637,11 @@ msgid ""
 "edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
 
-#: ../kfile/kfileplaceeditdialog.cpp:112
+#: ../kfile/kfileplaceeditdialog.cpp:115
 msgid "&Location:"
 msgstr "स्थान (&L):"
 
-#: ../kfile/kfileplaceeditdialog.cpp:116
+#: ../kfile/kfileplaceeditdialog.cpp:119
 msgid ""
 "<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
 "on the button to select a different icon.</qt>"
@@ -5642,16 +5649,16 @@ msgstr ""
 "<qt>ई प्रतीक स्थान फलक मे प्रकट हाएत.<br /><br />भिन्न प्रतीक चुनने क' लेल बटन पर "
 "क्लिक करू.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:119
+#: ../kfile/kfileplaceeditdialog.cpp:122
 msgid "Choose an &icon:"
 msgstr "एकटा प्रतीक चुनू (&i)"
 
-#: ../kfile/kfileplaceeditdialog.cpp:136
+#: ../kfile/kfileplaceeditdialog.cpp:139
 #, kde-format
 msgid "&Only show when using this application (%1)"
 msgstr "जखन एहि अनुप्रयोग (%1) क' इस्तेमाल करू तखन देखाबू (&O)"
 
-#: ../kfile/kfileplaceeditdialog.cpp:138
+#: ../kfile/kfileplaceeditdialog.cpp:141
 #, kde-format
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
