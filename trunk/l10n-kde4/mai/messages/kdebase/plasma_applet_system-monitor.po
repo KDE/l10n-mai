@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-10 06:21+0200\n"
+"POT-Creation-Date: 2009-09-14 06:13+0200\n"
 "PO-Revision-Date: 2009-05-31 12:57+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -30,30 +30,26 @@ msgid "total"
 msgstr "कुल"
 
 #: cpu.cpp:180 net.cpp:190 ram.cpp:179 temperature.cpp:109
-#, fuzzy
-#| msgid "seconds"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] "सकेण्ड"
-msgstr[1] "सकेण्ड"
+msgid "s"
+msgstr ""
 
 #: cpu.cpp:181
 msgid "CPUs"
 msgstr "CPUs"
 
-#: hdd.cpp:55
+#: hdd.cpp:54
 msgid "Disk Space"
 msgstr "डिस्क स्थान"
 
-#: hdd.cpp:81
+#: hdd.cpp:80
 msgid "Mount Point"
 msgstr "आरोह बिंदु"
 
-#: hdd.cpp:82 temperature.cpp:91
+#: hdd.cpp:81 temperature.cpp:91
 msgid "Name"
 msgstr "नाम"
 
-#: hdd.cpp:106
+#: hdd.cpp:105
 #, fuzzy
 #| msgid "minutes"
 msgid " minute"
@@ -61,30 +57,30 @@ msgid_plural " minutes"
 msgstr[0] "मिनट"
 msgstr[1] "मिनट"
 
-#: hdd.cpp:108
+#: hdd.cpp:107
 msgid "Partitions"
 msgstr "पार्टीशनसभ"
 
-#: hdd.cpp:160
+#: hdd.cpp:159
 msgctxt "the root filesystem"
 msgid "root"
 msgstr "रूट"
 
-#: hdd.cpp:166
+#: hdd.cpp:165
 msgid "Unknown filesystem"
 msgstr "अनजान फाइलसिस्टम"
 
-#: hdd.cpp:181
+#: hdd.cpp:180
 #, kde-format
 msgctxt "hard disk label (not mounted or accessible)"
 msgid "%1 (not accessible)"
 msgstr "%1 (पहुँच योग्य नहि)"
 
-#: hdd.cpp:303
+#: hdd.cpp:289
 msgid "File System"
 msgstr ""
 
-#: hdd.cpp:304
+#: hdd.cpp:290
 msgid "Raid"
 msgstr ""
 
@@ -122,29 +118,29 @@ msgstr "इंटरफेससभ"
 msgid "RAM"
 msgstr ""
 
-#. i18n: file: cpu-config.ui:22
+#. i18n: file: cpu-config.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3 rc.cpp:33
 msgid "&CPUs:"
 msgstr "&CPUs:"
 
-#. i18n: file: cpu-config.ui:47
+#. i18n: file: cpu-config.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: hdd-config.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: net-config.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: ram-config.ui:47
+#. i18n: file: ram-config.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: temperature-config.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: cpu-config.ui:47
+#. i18n: file: cpu-config.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: hdd-config.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: net-config.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: ram-config.ui:47
+#. i18n: file: ram-config.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: temperature-config.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -167,7 +163,7 @@ msgstr "हार्ड डिस्क (&d):"
 msgid "&Network interfaces:"
 msgstr "सजाल अंतरफलक (&N):"
 
-#. i18n: file: ram-config.ui:22
+#. i18n: file: ram-config.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:21 rc.cpp:51
 msgid "&Memory:"
@@ -187,19 +183,26 @@ msgstr "तापक्रम"
 msgid "Sensor"
 msgstr "सेंसर"
 
-#: temperature.cpp:235
+#: temperature.cpp:234
 msgid "\\u00b0"
 msgstr ""
 
-#: temperature.cpp:248
+#: temperature.cpp:247
 #, kde-format
 msgid "%1 °C"
 msgstr "%1 °C"
 
-#: temperature.cpp:250
+#: temperature.cpp:249
 #, kde-format
 msgid "%1 °F"
 msgstr "%1 °एफ"
+
+#, fuzzy
+#~| msgid "seconds"
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] "सकेण्ड"
+#~ msgstr[1] "सकेण्ड"
 
 #~ msgid "Advanced"
 #~ msgstr "उन्नत"
