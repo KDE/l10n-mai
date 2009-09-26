@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-25 06:28+0200\n"
+"POT-Creation-Date: 2009-09-26 06:18+0200\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -100,12 +100,12 @@ msgctxt "@info:tooltip"
 msgid "Effortbased performance index"
 msgstr ""
 
-#: ui/kpttaskstatusview.cpp:974 ui/kpttaskstatusview.cpp:987
+#: ui/kpttaskstatusview.cpp:975 ui/kpttaskstatusview.cpp:988
 #: ui/kptganttview.cpp:120
 msgid "Chart"
 msgstr "चार्ट"
 
-#: ui/kpttaskstatusview.cpp:974 ui/kpttaskstatusview.cpp:988
+#: ui/kpttaskstatusview.cpp:975 ui/kpttaskstatusview.cpp:989
 msgid "Chart Settings"
 msgstr ""
 
@@ -1688,7 +1688,8 @@ msgstr ""
 
 #. i18n: file: ui/kptscheduleeditor.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, projectGroupBox)
-#: kernel/kptnode.cpp:123 models/kptpertcpmmodel.cpp:420 rc.cpp:714
+#: kernel/kptnode.cpp:123 models/kptpertcpmmodel.cpp:420
+#: models/kptresourceappointmentsmodel.cpp:1244 rc.cpp:714
 msgid "Project"
 msgstr "प्रोजेक्ट"
 
@@ -1989,6 +1990,24 @@ msgstr ""
 #: models/kptnodechartmodel.cpp:325
 msgctxt "Actual Cost of Work Performed"
 msgid "ACWP (Effort)"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:430 models/kptnodeitemmodel.cpp:1764
+#, fuzzy
+#| msgid "Timezone"
+msgid "Time"
+msgstr "समय क्षेत्र"
+
+#. i18n: file: ui/resourcedialogbase.ui:307
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: ui/kptperformancestatusviewsettingspanel.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, ui_cost)
+#: models/kptnodechartmodel.cpp:441 rc.cpp:64 rc.cpp:305
+msgid "Cost"
+msgstr "लागत"
+
+#: models/kptnodechartmodel.cpp:445
+msgid "Hours"
 msgstr ""
 
 #: models/kptresourcemodel.cpp:192 models/kptresourcemodel.cpp:203
@@ -2389,17 +2408,18 @@ msgid "Interval"
 msgstr ""
 
 #: models/kptresourceappointmentsmodel.cpp:1490
+#: models/kptnodeitemmodel.cpp:1708
 #, fuzzy
-#| msgctxt "Interval start time"
-#| msgid "Start"
-msgid "Start"
-msgstr "प्रारंभ"
+#| msgid "Started"
+msgid "Start Time"
+msgstr "आरंभ कएलक"
 
 #: models/kptresourceappointmentsmodel.cpp:1491
+#: models/kptnodeitemmodel.cpp:1709
 #, fuzzy
-#| msgid "Finished"
-msgid "Finish"
-msgstr "समाप्त"
+#| msgid "End date"
+msgid "End Time"
+msgstr "अंतिम तिथि"
 
 #: models/kptresourceappointmentsmodel.cpp:1492
 #, fuzzy
@@ -2715,18 +2735,6 @@ msgstr "बन्न करू"
 msgid "Variance (Est)"
 msgstr ""
 
-#: models/kptnodeitemmodel.cpp:1708
-#, fuzzy
-#| msgid "Started"
-msgid "Start Time"
-msgstr "आरंभ कएलक"
-
-#: models/kptnodeitemmodel.cpp:1709
-#, fuzzy
-#| msgid "End date"
-msgid "End Time"
-msgstr "अंतिम तिथि"
-
 #: models/kptnodeitemmodel.cpp:1710
 #, fuzzy
 #| msgctxt "Interval start time"
@@ -2876,12 +2884,6 @@ msgstr ""
 #: models/kptnodeitemmodel.cpp:1762
 msgid "Owner"
 msgstr ""
-
-#: models/kptnodeitemmodel.cpp:1764
-#, fuzzy
-#| msgid "Timezone"
-msgid "Time"
-msgstr "समय क्षेत्र"
 
 #: models/kptnodeitemmodel.cpp:1849
 msgid "Work package owner"
@@ -3046,14 +3048,6 @@ msgstr ""
 #: rc.cpp:61
 msgid "<p align=\"right\">Until:</p>"
 msgstr ""
-
-#. i18n: file: ui/resourcedialogbase.ui:307
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: file: ui/kptperformancestatusviewsettingspanel.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, ui_cost)
-#: rc.cpp:64 rc.cpp:305
-msgid "Cost"
-msgstr "लागत"
 
 #. i18n: file: ui/resourcedialogbase.ui:319
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
@@ -4151,6 +4145,17 @@ msgstr "Prev"
 #: rc.cpp:795
 msgid "Next"
 msgstr "अगिला"
+
+#, fuzzy
+#~| msgctxt "Interval start time"
+#~| msgid "Start"
+#~ msgid "Start"
+#~ msgstr "प्रारंभ"
+
+#, fuzzy
+#~| msgid "Finished"
+#~ msgid "Finish"
+#~ msgstr "समाप्त"
 
 #, fuzzy
 #~| msgid "Duration"
