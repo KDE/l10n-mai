@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-09 06:12+0200\n"
+"POT-Creation-Date: 2009-10-10 06:17+0200\n"
 "PO-Revision-Date: 2008-12-03 15:06+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6694,7 +6694,7 @@ msgid "Do not show this message again"
 msgstr "ई संदेश फिनु सँ  नहि देखाबू"
 
 #: kdeui/dialogs/kmessagebox.cpp:1054
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:73
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:87
 #: kdeui/widgets/khelpmenu.cpp:264 kde3support/kdeui/k3aboutdialog.cpp:1045
 #, kde-format
 msgid "About %1"
@@ -6894,7 +6894,7 @@ msgstr "काज नाम"
 msgid "Shortcuts"
 msgstr "शॉर्टकट्स"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:65
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:79
 msgid ""
 "<qt>No information available.<br />The supplied KAboutData object does not "
 "exist.</qt>"
@@ -6902,7 +6902,17 @@ msgstr ""
 "<qt>कोनो जानकारी मोजुद नहि.<br /> प्रेषित कएल गेल के-अबाउट-डाटा ऑब्जेक्ट अस्तित्व मे "
 "नहि अछि.</qt>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:92
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:107
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
+#| "3</html>"
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>संस्करण %2</b><br /> %3 प्रयोग में</html>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:110
 #, kde-format
 msgid ""
 "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %3</"
@@ -6910,28 +6920,28 @@ msgid ""
 msgstr ""
 "<html><font size=\"5\">%1</font><br /><b>संस्करण %2</b><br /> %3 प्रयोग में</html>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:126
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:144
 #, kde-format
 msgid "License: %1"
 msgstr "लाइसेंस: %1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:139
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:157
 #: kde3support/kdeui/k3aboutapplication.cpp:51
 #: kde3support/kdeui/k3aboutapplication.cpp:77
 msgid "&About"
 msgstr "क' संबंधमे (&A) "
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:149
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:167
 #: kde3support/kdeui/k3aboutapplication.cpp:95
 msgid "A&uthor"
 msgstr "लेखक (&u)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:149
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:167
 #: kde3support/kdeui/k3aboutapplication.cpp:95
 msgid "A&uthors"
 msgstr "लेखक (&u)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:154
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:172
 #: kde3support/kdeui/k3aboutapplication.cpp:107
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
@@ -6940,15 +6950,15 @@ msgstr ""
 "कृप्या <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a>  क' उपयोग बग "
 "रिपोट क' लेल करू.\n"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:157
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:162
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:175
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:180
 #: kde3support/kdeui/k3aboutapplication.cpp:111
 #: kde3support/kdeui/k3aboutapplication.cpp:114
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "कृप्या बग रिपोट एतय <a href=\"mailto:%1\">%2</a> करू.\n"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:175
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:193
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -6956,7 +6966,7 @@ msgctxt "@item Author name in about dialog"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:200
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:218
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -6964,17 +6974,17 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:216
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:234
 #: kde3support/kdeui/k3aboutapplication.cpp:137
 msgid "&Thanks To"
 msgstr "हिनका धन्यवाद (&T)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:238
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:257
 #: kde3support/kdeui/k3aboutapplication.cpp:164
 msgid "T&ranslation"
 msgstr "अनुवाद (&r)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:261
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:281
 msgid "License Agreement"
 msgstr "लाइसेंस मसौदा"
 
@@ -9989,9 +9999,9 @@ msgstr "शार्टकट"
 
 #: kdeui/widgets/kkeysequencewidget.cpp:509
 msgid ""
-"The F12 key is reserved on Windows and it can't be used for a global "
+"The F12 key is reserved on Windows, so cannot be used for a global "
 "shortcut.\n"
-"Please choose another one"
+"Please choose another one."
 msgstr ""
 
 #: kdeui/widgets/kkeysequencewidget.cpp:649
@@ -10286,7 +10296,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr "केएचटीएमएल लाइब्रेरी क' प्रयोग करैत भेलहुँ एकटा मूल प्रकार क' वेब ब्राउज़र"
 
 #: khtml/khtml_run.cpp:95 khtml/khtml_part.cpp:3728 khtml/khtml_part.cpp:3938
-#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:460
+#: khtml/khtml_part.cpp:4330 kparts/browserrun.cpp:455
 msgid "Save As"
 msgstr "एहिना सहेजू"
 
@@ -10552,12 +10562,12 @@ msgstr "फाइल केर उप्पर लिखू?"
 msgid "Overwrite"
 msgstr "एकरा उप्पर लिखू"
 
-#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:431
+#: khtml/khtml_ext.cpp:993 kparts/browserrun.cpp:426
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "डाउनलोड प्रबंधक (%1) अहाँक पथ ($PATH ) पर ढूंढल नहि जाए सकल"
 
-#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:432
+#: khtml/khtml_ext.cpp:994 kparts/browserrun.cpp:427
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -12113,18 +12123,18 @@ msgstr ""
 "नाम: %2\n"
 "प्रकार: %1"
 
-#: kparts/browserrun.cpp:347
+#: kparts/browserrun.cpp:343
 #, kde-format
 msgid "&Open with '%1'"
 msgstr " '%1' केर सँग खोलू (&O)"
 
-#: kparts/browserrun.cpp:349
+#: kparts/browserrun.cpp:345
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "के सँग खोलू...(&O)"
 
-#: kparts/browserrun.cpp:394
+#: kparts/browserrun.cpp:389
 msgid "&Open"
 msgstr "खोलू (&O)"
 

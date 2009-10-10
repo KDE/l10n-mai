@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-09 06:43+0200\n"
+"POT-Creation-Date: 2009-10-10 06:44+0200\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -271,15 +271,11 @@ msgstr ""
 msgid "Show:"
 msgstr "देखाबू:"
 
-#. i18n: file: data/kexiui.rc:185
-#. i18n: ectx: ToolBar (dataToolBar)
-#: core/KexiView.cpp:591 main/KexiMainWindow_p.h:194 rc.cpp:68
+#: core/KexiView.cpp:591 main/KexiMainWindow_p.h:194
 msgid "Data"
 msgstr "आँकड़ा"
 
-#. i18n: file: data/kexiui.rc:197
-#. i18n: ectx: ToolBar (designToolBar)
-#: core/KexiView.cpp:602 rc.cpp:71
+#: core/KexiView.cpp:602
 msgid "Design"
 msgstr "डिजायन"
 
@@ -844,7 +840,7 @@ msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:241
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: main/startup/KexiConnSelector.cpp:384 rc.cpp:336
+#: main/startup/KexiConnSelector.cpp:384 rc.cpp:264
 msgid "&Add"
 msgstr "जोड़ू (&A)"
 
@@ -1255,21 +1251,15 @@ msgstr ""
 msgid "Close the current tab"
 msgstr "मोजुदा टैब बन्न करू"
 
-#. i18n: file: data/kexiui.rc:88
-#. i18n: ectx: Menu (insert)
-#: main/KexiMainWindow.cpp:401 rc.cpp:29
+#: main/KexiMainWindow.cpp:401
 msgid "&Insert"
 msgstr "जोड़ू (&I)"
 
-#. i18n: file: data/kexiui.rc:21
-#. i18n: ectx: Menu (project_import)
-#: main/KexiMainWindow.cpp:407 rc.cpp:11
+#: main/KexiMainWindow.cpp:407
 msgid "&Import"
 msgstr "आयात करू (&I)"
 
-#. i18n: file: data/kexiui.rc:57
-#. i18n: ectx: Menu (edit_paste_special)
-#: main/KexiMainWindow.cpp:408 rc.cpp:23
+#: main/KexiMainWindow.cpp:408
 msgid "Paste &Special"
 msgstr ""
 
@@ -1278,9 +1268,7 @@ msgctxt "Close the current tab page in Kexi tab interface"
 msgid "Close the current tab"
 msgstr "मोजुदा टैब बन्न करू"
 
-#. i18n: file: data/kexiui.rc:125
-#. i18n: ectx: Menu (window)
-#: main/KexiMainWindow.cpp:480 rc.cpp:47
+#: main/KexiMainWindow.cpp:480
 msgid "&Window"
 msgstr "विंडो (&W)"
 
@@ -1329,9 +1317,7 @@ msgstr ""
 msgid "Downloads example databases from the Internet."
 msgstr ""
 
-#. i18n: file: data/kexiui.rc:11
-#. i18n: ectx: Menu (file)
-#: main/KexiMainWindow.cpp:653 main/KexiMainWindow.cpp:3210 rc.cpp:8
+#: main/KexiMainWindow.cpp:653 main/KexiMainWindow.cpp:3210
 msgid "Open Recent"
 msgstr "हाल क' खोलू"
 
@@ -1860,7 +1846,7 @@ msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:103
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplace)
-#: main/KexiMainWindow.cpp:3518 migration/importwizard.cpp:801 rc.cpp:186
+#: main/KexiMainWindow.cpp:3518 migration/importwizard.cpp:801 rc.cpp:114
 #: widget/utils/kexicontextmenuutils.cpp:230
 msgid "&Replace"
 msgstr "बदलू (R)"
@@ -1919,7 +1905,7 @@ msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:255
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: main/KexiMainWindow.cpp:4247 rc.cpp:342
+#: main/KexiMainWindow.cpp:4247 rc.cpp:270
 #: plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:1075
 #: plugins/reportspgz/kexireportdesignview.cpp:43
 msgid "Delete"
@@ -2042,7 +2028,7 @@ msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, KexiFindDialog)
-#: main/kexifinddialog.cpp:234 rc.cpp:180
+#: main/kexifinddialog.cpp:234 rc.cpp:108
 msgid "Find"
 msgstr "खोजू"
 
@@ -2138,7 +2124,7 @@ msgstr "ज़ूम आउट"
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootFirst)
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:174
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadFirst)
-#: main/printing/kexisimpleprintpreviewwindow.cpp:223 rc.cpp:300 rc.cpp:324
+#: main/printing/kexisimpleprintpreviewwindow.cpp:223 rc.cpp:228 rc.cpp:252
 msgid "First Page"
 msgstr "पहिल पृष्ठ"
 
@@ -2154,7 +2140,7 @@ msgstr "अगिला पृष्ठ"
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootLast)
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:160
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadLast)
-#: main/printing/kexisimpleprintpreviewwindow.cpp:238 rc.cpp:303 rc.cpp:318
+#: main/printing/kexisimpleprintpreviewwindow.cpp:238 rc.cpp:231 rc.cpp:246
 msgid "Last Page"
 msgstr "अंतिम पृष्ठ"
 
@@ -2488,7 +2474,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (Q3ListView, list)
 #. i18n: file: main/startup/KexiProjectSelector.ui:101
 #. i18n: ectx: property (text), widget (Q3ListView, list)
-#: migration/AlterSchemaWidget.cpp:43 rc.cpp:108 rc.cpp:137
+#: migration/AlterSchemaWidget.cpp:43 rc.cpp:36 rc.cpp:65
 #: plugins/tables/kexitabledesignerview.cpp:356
 msgid "Type"
 msgstr "प्रकार"
@@ -4695,7 +4681,7 @@ msgstr "उपप्रकार"
 
 #. i18n: file: main/startup/KexiConnSelector.ui:78
 #. i18n: ectx: property (text), widget (Q3ListView, list)
-#: formeditor/form.cpp:408 formeditor/form.cpp:409 rc.cpp:105
+#: formeditor/form.cpp:408 formeditor/form.cpp:409 rc.cpp:33
 #: plugins/tables/kexitabledesignerview.cpp:351
 msgid "Name"
 msgstr "नाम"
@@ -5412,113 +5398,9 @@ msgstr ""
 msgid "&Delete Connection"
 msgstr "जाँच संबंधन"
 
-#. i18n: file: data/kexiui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:5
-msgid "&Project"
-msgstr ""
-
-#. i18n: file: data/kexiui.rc:26
-#. i18n: ectx: Menu (project_export)
-#: rc.cpp:14
-msgid "&Export"
-msgstr "निर्यात(&E)"
-
-#. i18n: file: data/kexiui.rc:44
-#. i18n: ectx: Menu (edit)
-#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:248
-#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
-#: rc.cpp:17 rc.cpp:339
-msgid "&Edit"
-msgstr "सँपादित करू (&E)"
-
-#. i18n: file: data/kexiui.rc:53
-#. i18n: ectx: Menu (edit_copy_special)
-#: rc.cpp:20
-msgid "Copy &Special"
-msgstr ""
-
-#. i18n: file: data/kexiui.rc:75
-#. i18n: ectx: Menu (view)
-#: rc.cpp:26
-msgid "&View"
-msgstr "दृश्य (&V)"
-
-#. i18n: file: data/kexiui.rc:92
-#. i18n: ectx: Menu (format)
-#: rc.cpp:32
-msgid "&Format"
-msgstr ""
-
-#. i18n: file: data/kexiui.rc:99
-#. i18n: ectx: Menu (data)
-#: rc.cpp:35
-msgid "&Data"
-msgstr ""
-
-#. i18n: file: data/kexiui.rc:104
-#. i18n: ectx: Menu (data_sort)
-#: rc.cpp:38
-msgid "Sort"
-msgstr "छाँटू"
-
-#. i18n: file: data/kexiui.rc:114
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:41
-msgid "&Tools"
-msgstr "अओजार (&T)"
-
-#. i18n: file: data/kexiui.rc:116
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:44
-msgid "&Migrate"
-msgstr ""
-
-#. i18n: file: data/kexiui.rc:130
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:50
-msgid "&Settings"
-msgstr "जमावट (&S)"
-
-#. i18n: file: data/kexiui.rc:140
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:53
-msgid "&Other"
-msgstr "आन (&O)"
-
-#. i18n: file: data/kexiui.rc:152
-#. i18n: ectx: Menu (help)
-#: rc.cpp:56
-msgid "&Help"
-msgstr "मद्दति (&H)"
-
-#. i18n: file: data/kexiui.rc:156
-#. i18n: ectx: Menu (help)
-#: rc.cpp:59
-msgid "Other &Licenses"
-msgstr ""
-
-#. i18n: file: data/kexiui.rc:163
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:62
-msgid "Main Toolbar"
-msgstr "मुख्य अओजार पट्टी"
-
-#. i18n: file: data/kexiui.rc:178
-#. i18n: ectx: ToolBar (viewToolBar)
-#: rc.cpp:65
-msgid "View"
-msgstr "दृश्य"
-
-#. i18n: file: data/kexiui.rc:201
-#. i18n: ectx: ToolBar (format)
-#: rc.cpp:74
-msgid "Format"
-msgstr "प्रारूप"
-
 #. i18n: file: main/startup/KexiNewPrjTypeSelector.ui:68
 #. i18n: ectx: property (text), widget (QLabel, lbl)
-#: rc.cpp:77
+#: rc.cpp:5
 msgid ""
 "Kexi will create a new database project. Select a storage method which will "
 "be used to store the new project.\n"
@@ -5526,19 +5408,19 @@ msgstr ""
 
 #. i18n: file: main/startup/KexiOpenExistingFile.ui:31
 #. i18n: ectx: property (text), widget (QLabel, lbl)
-#: rc.cpp:81
+#: rc.cpp:9
 msgid "<b>Select existing Kexi project file to open:</b>\n"
 msgstr ""
 
 #. i18n: file: main/startup/KexiOpenExistingFile.ui:89
 #. i18n: ectx: property (text), widget (QPushButton, btn_advanced)
-#: rc.cpp:85
+#: rc.cpp:13
 msgid "&Advanced "
 msgstr ""
 
 #. i18n: file: main/startup/KexiOpenExistingFile.ui:104
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:88
+#: rc.cpp:16
 msgid ""
 "Click \"Advanced\" button if you want to find an existing project on a "
 "server rather than a file."
@@ -5548,19 +5430,19 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: main/startup/KexiDBTitlePage.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:91 rc.cpp:97
+#: rc.cpp:19 rc.cpp:25
 msgid "Project caption: "
 msgstr ""
 
 #. i18n: file: main/startup/KexiServerDBNamePage.ui:29
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:94
+#: rc.cpp:22
 msgid "Project's database name: "
 msgstr ""
 
 #. i18n: file: main/startup/KexiConnSelector.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:100
+#: rc.cpp:28
 msgid ""
 "<b>Select Existing Database Server's Connection From the List Below</b>\n"
 "<p>You will see existing Kexi projects available for the selected "
@@ -5570,37 +5452,37 @@ msgstr ""
 
 #. i18n: file: main/startup/KexiConnSelector.ui:88
 #. i18n: ectx: property (text), widget (Q3ListView, list)
-#: rc.cpp:111
+#: rc.cpp:39
 msgid "Server Information"
 msgstr "सर्वरक सूचना"
 
 #. i18n: file: main/startup/KexiConnSelector.ui:96
 #. i18n: ectx: property (title), widget (QGroupBox, descGroupBox)
-#: rc.cpp:114
+#: rc.cpp:42
 msgid "Description"
 msgstr "विवरण"
 
 #. i18n: file: main/startup/KexiConnSelector.ui:161
 #. i18n: ectx: property (text), widget (QPushButton, btn_add)
-#: rc.cpp:118
+#: rc.cpp:46
 msgid "&Add..."
 msgstr "जोड़ू (&A)..."
 
 #. i18n: file: main/startup/KexiConnSelector.ui:174
 #. i18n: ectx: property (text), widget (QPushButton, btn_edit)
-#: rc.cpp:121
+#: rc.cpp:49
 msgid "&Edit..."
 msgstr "संपादित करु (&E)..."
 
 #. i18n: file: main/startup/KexiConnSelector.ui:187
 #. i18n: ectx: property (text), widget (QPushButton, btn_remove)
-#: rc.cpp:124
+#: rc.cpp:52
 msgid "&Remove"
 msgstr "हटाबू (&R)"
 
 #. i18n: file: main/startup/KexiProjectSelector.ui:39
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:127
+#: rc.cpp:55
 msgid ""
 "<b>There are Kexi projects you have recently opened.</b> Select one you wish "
 "to open:\n"
@@ -5608,7 +5490,7 @@ msgstr ""
 
 #. i18n: file: main/startup/KexiProjectSelector.ui:79
 #. i18n: ectx: property (text), widget (Q3ListView, list)
-#: rc.cpp:131
+#: rc.cpp:59
 msgid "Project Name"
 msgstr ""
 
@@ -5616,310 +5498,310 @@ msgstr ""
 #. i18n: ectx: property (text), widget (Q3ListView, list)
 #. i18n: file: widget/kexidbconnectionwidget.ui:289
 #. i18n: ectx: property (title), widget (Q3GroupBox, dbGroupBox)
-#: rc.cpp:134 rc.cpp:264 widget/kexidbconnectionwidget.cpp:146
+#: rc.cpp:62 rc.cpp:192 widget/kexidbconnectionwidget.cpp:146
 msgid "Database"
 msgstr "डाटाबेस"
 
 #. i18n: file: main/startup/KexiProjectSelector.ui:112
 #. i18n: ectx: property (text), widget (Q3ListView, list)
-#: rc.cpp:140
+#: rc.cpp:68
 msgid "Connection"
 msgstr "कनेक्शन"
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, KexiSimplePrintingPageSetupBase)
-#: rc.cpp:143
+#: rc.cpp:71
 msgid "."
 msgstr "."
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:48
 #. i18n: ectx: property (text), widget (QLabel, captionLabel)
-#: rc.cpp:147
+#: rc.cpp:75
 #, no-c-format, kde-format
 msgid "<h2>Page Setup for Printing \"%1\" Table Data</h2>"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:83
 #. i18n: ectx: property (text), widget (KPushButton, headerTitleFontButton)
-#: rc.cpp:150
+#: rc.cpp:78
 msgid "Set Font..."
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:98
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:153
+#: rc.cpp:81
 msgid "Page title:"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:167
 #. i18n: ectx: property (text), widget (QCheckBox, addPageNumbersCheckbox)
-#: rc.cpp:156
+#: rc.cpp:84
 msgid "Add page numbers"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:174
 #. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1)
-#: rc.cpp:159
+#: rc.cpp:87
 msgid "Page Size && Margins"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:201
 #. i18n: ectx: property (text), widget (KPushButton, changePageSizeAndMarginsButton)
-#: rc.cpp:162
+#: rc.cpp:90
 msgid "Change..."
 msgstr "बदलू..."
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:232
 #. i18n: ectx: property (text), widget (KUrlLabel, saveSetupLink)
-#: rc.cpp:165
+#: rc.cpp:93
 msgid "Save This Setup as Default"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:254
 #. i18n: ectx: property (text), widget (KUrlLabel, openDataLink)
-#: rc.cpp:168
+#: rc.cpp:96
 msgid "Open This Table"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:270
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:171
+#: rc.cpp:99
 msgid "Related actions:"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:290
 #. i18n: ectx: property (text), widget (QCheckBox, addDateTimeCheckbox)
-#: rc.cpp:174
+#: rc.cpp:102
 msgid "Add date and time"
 msgstr ""
 
 #. i18n: file: main/printing/kexisimpleprintingpagesetupbase.ui:305
 #. i18n: ectx: property (text), widget (QCheckBox, addTableBordersCheckbox)
-#: rc.cpp:177
+#: rc.cpp:105
 msgid "Add table borders"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:19
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:183
+#: rc.cpp:111
 msgid "Fi&nd:"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:116
 #. i18n: ectx: property (text), widget (KPushButton, m_btnReplaceAll)
-#: rc.cpp:189
+#: rc.cpp:117
 msgid "Replace All"
 msgstr "सबहि बदलू"
 
 #. i18n: file: main/kexifinddialog.ui:147
 #. i18n: ectx: property (text), widget (QLabel, m_replaceLbl)
-#: rc.cpp:192
+#: rc.cpp:120
 msgid "Re&place with:"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:170
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:195
+#: rc.cpp:123
 msgid "&Look in:"
 msgstr "एकरामे देखू (&L):"
 
 #. i18n: file: main/kexifinddialog.ui:190
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2)
-#: rc.cpp:198
+#: rc.cpp:126
 msgid "&Search:"
 msgstr "खोजू (&S):"
 
 #. i18n: file: main/kexifinddialog.ui:207
 #. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: rc.cpp:201
+#: rc.cpp:129
 msgid "Up"
 msgstr "उप्पर"
 
 #. i18n: file: main/kexifinddialog.ui:212
 #. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: rc.cpp:204
+#: rc.cpp:132
 msgid "Down"
 msgstr "नीच्चाँ"
 
 #. i18n: file: main/kexifinddialog.ui:217
 #. i18n: ectx: property (text), item, widget (KComboBox, m_search)
-#: rc.cpp:207
+#: rc.cpp:135
 msgid "All Rows"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:225
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_3)
-#: rc.cpp:210
+#: rc.cpp:138
 msgid "&Match:"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:242
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: rc.cpp:213
+#: rc.cpp:141
 msgid "Any Part of Field"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:247
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: rc.cpp:216
+#: rc.cpp:144
 msgid "Whole Field"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:252
 #. i18n: ectx: property (text), item, widget (KComboBox, m_match)
-#: rc.cpp:219
+#: rc.cpp:147
 msgid "Start of Field"
 msgstr ""
 
 #. i18n: file: main/kexifinddialog.ui:263
 #. i18n: ectx: property (text), widget (QCheckBox, m_caseSensitive)
-#: rc.cpp:222
+#: rc.cpp:150
 msgid "C&ase sensitive"
 msgstr "केस सेंसिटिव (&a)"
 
 #. i18n: file: main/kexifinddialog.ui:273
 #. i18n: ectx: property (text), widget (QCheckBox, m_wholeWords)
-#: rc.cpp:225
+#: rc.cpp:153
 msgid "&Whole words only"
 msgstr "केवल संपूर्ण अक्षर (&W)"
 
 #. i18n: file: main/kexifinddialog.ui:283
 #. i18n: ectx: property (text), widget (QCheckBox, m_promptOnReplace)
-#: rc.cpp:228
+#: rc.cpp:156
 msgid "Prompt on replace"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:89
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, locationBGrp)
-#: rc.cpp:231
+#: rc.cpp:159
 msgid "Database Server"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:118
 #. i18n: ectx: property (text), widget (QLabel, portLbl)
-#: rc.cpp:234
+#: rc.cpp:162
 msgid "Port:"
 msgstr "पोर्टः"
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:131
 #. i18n: ectx: property (text), widget (QRadioButton, localhostRBtn)
-#: rc.cpp:237
+#: rc.cpp:165
 msgid "Local server"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:160
 #. i18n: ectx: property (text), widget (QLabel, hostLbl)
-#: rc.cpp:240
+#: rc.cpp:168
 msgid "&Hostname:"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:173
 #. i18n: ectx: property (text), widget (QCheckBox, chkPortDefault)
-#: rc.cpp:243
+#: rc.cpp:171
 msgctxt "port: default"
 msgid "Default"
 msgstr "मूलभूत"
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:183
 #. i18n: ectx: property (text), widget (QRadioButton, remotehostRBtn)
-#: rc.cpp:246
+#: rc.cpp:174
 msgid "Remote server"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:196
 #. i18n: ectx: property (text), widget (QLabel, lblEngine)
-#: rc.cpp:249
+#: rc.cpp:177
 msgid "&Engine:"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:231
 #. i18n: ectx: property (title), widget (Q3GroupBox, authenticationGBox)
-#: rc.cpp:252
+#: rc.cpp:180
 msgid "Authentication"
 msgstr "सत्यापन"
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:237
 #. i18n: ectx: property (text), widget (QLabel, userLbl)
-#: rc.cpp:255
+#: rc.cpp:183
 msgid "&Username:"
 msgstr "प्रयोक्ता नाम: (&U)"
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:253
 #. i18n: ectx: property (text), widget (QLabel, passwordLbl)
-#: rc.cpp:258
+#: rc.cpp:186
 msgid "&Password:"
 msgstr "कूटशब्द: (&P)"
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:273
 #. i18n: ectx: property (text), widget (QCheckBox, chkSavePassword)
-#: rc.cpp:261
+#: rc.cpp:189
 msgid "Save password in the shortcut file"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:295
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: rc.cpp:267 widget/pixmapcollection.cpp:156
+#: rc.cpp:195 widget/pixmapcollection.cpp:156
 msgid "&Name:"
 msgstr "नाम (&N):"
 
 #. i18n: file: widget/kexidbconnectionwidget.ui:311
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:270
+#: rc.cpp:198
 msgid "&Title (optional):"
 msgstr ""
 
 #. i18n: file: widget/kexiprjtypeselector.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, option_server)
-#: rc.cpp:273
+#: rc.cpp:201
 msgid "Projects stored on a database server"
 msgstr ""
 
 #. i18n: file: widget/kexiprjtypeselector.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, option_file)
-#: rc.cpp:276
+#: rc.cpp:204
 msgid "Projects stored in a file"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidgetdetails.ui:27
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseSocket)
-#: rc.cpp:279
+#: rc.cpp:207
 msgid "Use socket &file instead of TCP/IP port:"
 msgstr ""
 
 #. i18n: file: widget/kexidbconnectionwidgetdetails.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, chkSocketDefault)
-#: rc.cpp:282
+#: rc.cpp:210
 msgctxt "socket: default"
 msgid "Default"
 msgstr "मूलभूत"
 
 #. i18n: file: widget/kexidbconnectionwidgetdetails.ui:119
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:285
+#: rc.cpp:213
 msgid "&Description:"
 msgstr "विवरण (&D):"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, SectionEditor)
-#: rc.cpp:288 plugins/reportspgz/kexireportdesignview.cpp:46
+#: rc.cpp:216 plugins/reportspgz/kexireportdesignview.cpp:46
 msgid "Section Editor"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:60
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportHeader)
-#: rc.cpp:291 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:582
+#: rc.cpp:219 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:582
 msgid "Report Header"
 msgstr "रिपोट शीर्षिका"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageFooter)
-#: rc.cpp:294
+#: rc.cpp:222
 msgid "Page Footer"
 msgstr "पृष्ठ पादिका"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:91
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootEven)
-#: rc.cpp:297
+#: rc.cpp:225
 msgid "Even Page(s)"
 msgstr ""
 
@@ -5927,103 +5809,109 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootOdd)
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:167
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadOdd)
-#: rc.cpp:306 rc.cpp:321
+#: rc.cpp:234 rc.cpp:249
 msgid "Odd Page(s)"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:119
 #. i18n: ectx: property (text), widget (QCheckBox, cbFootAny)
-#: rc.cpp:309
+#: rc.cpp:237
 msgid "Any Page(s)"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, cbReportFooter)
-#: rc.cpp:312 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:586
+#: rc.cpp:240 plugins/reportspgz/koreport/wrtembed/reportdesigner.cpp:586
 msgid "Report Footer"
 msgstr "रिपोट पादिका"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:136
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageHeader)
-#: rc.cpp:315
+#: rc.cpp:243
 msgid "Page Header"
 msgstr "पृष्ठ शीर्षिका"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadEven)
-#: rc.cpp:327
+#: rc.cpp:255
 msgid "Even Pages(s)"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:188
 #. i18n: ectx: property (text), widget (QCheckBox, cbHeadAny)
-#: rc.cpp:330
+#: rc.cpp:258
 msgid "Any Pages(s)"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:200
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:333
+#: rc.cpp:261
 msgid "Group Sections"
 msgstr ""
 
+#. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:248
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
+#: rc.cpp:267
+msgid "&Edit"
+msgstr "सँपादित करू (&E)"
+
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:262
 #. i18n: ectx: property (text), widget (QPushButton, btnMoveUp)
-#: rc.cpp:345
+#: rc.cpp:273
 msgid "Move &Up"
 msgstr "उप्पर जाउ (&U)"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:269
 #. i18n: ectx: property (text), widget (QPushButton, brnMoveDown)
-#: rc.cpp:348
+#: rc.cpp:276
 msgid "Move &Down"
 msgstr "नीच्चाँ जाउ (&D)"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/sectioneditor.ui:330
 #. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: rc.cpp:351
+#: rc.cpp:279
 msgid "&Close"
 msgstr "बन्न करु (&C)"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, DetailGroupSectionDialog)
-#: rc.cpp:354
+#: rc.cpp:282
 msgid "Group Section Editor"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:39
 #. i18n: ectx: property (text), widget (QLabel, lblColumn)
-#: rc.cpp:357
+#: rc.cpp:285
 msgid "Column:"
 msgstr "कोलम:"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, cbHead)
-#: rc.cpp:360
+#: rc.cpp:288
 msgid "Show Group Header"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:65
 #. i18n: ectx: property (text), widget (QCheckBox, cbFoot)
-#: rc.cpp:363
+#: rc.cpp:291
 msgid "Show Group Footer"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:72
 #. i18n: ectx: property (text), widget (QCheckBox, breakAfterFooter)
-#: rc.cpp:366
+#: rc.cpp:294
 msgid "Insert Page Break After this Footer"
 msgstr ""
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:128
 #. i18n: ectx: property (text), widget (QPushButton, btnOk)
-#: rc.cpp:369
+#: rc.cpp:297
 msgid "&OK"
 msgstr "बेस (&O)"
 
 #. i18n: file: plugins/reportspgz/koreport/wrtembed/detailgroupsectiondialog.ui:141
 #. i18n: ectx: property (text), widget (QPushButton, bntCancel)
-#: rc.cpp:372
+#: rc.cpp:300
 msgid "&Cancel"
 msgstr "रद्द करू (&C)"
 
@@ -8390,6 +8278,36 @@ msgstr ""
 msgctxt "Empty table row"
 msgid "Empty Row"
 msgstr ""
+
+#~ msgid "&Export"
+#~ msgstr "निर्यात(&E)"
+
+#~ msgid "&View"
+#~ msgstr "दृश्य (&V)"
+
+#~ msgid "Sort"
+#~ msgstr "छाँटू"
+
+#~ msgid "&Tools"
+#~ msgstr "अओजार (&T)"
+
+#~ msgid "&Settings"
+#~ msgstr "जमावट (&S)"
+
+#~ msgid "&Other"
+#~ msgstr "आन (&O)"
+
+#~ msgid "&Help"
+#~ msgstr "मद्दति (&H)"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "मुख्य अओजार पट्टी"
+
+#~ msgid "View"
+#~ msgstr "दृश्य"
+
+#~ msgid "Format"
+#~ msgstr "प्रारूप"
 
 #, fuzzy
 #~| msgid "Column"
