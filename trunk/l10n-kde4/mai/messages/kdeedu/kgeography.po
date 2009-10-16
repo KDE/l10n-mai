@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgeography\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-12 07:19+0200\n"
+"POT-Creation-Date: 2009-10-16 06:21+0200\n"
 "PO-Revision-Date: 2009-04-21 23:59+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -61,24 +61,6 @@ msgctxt "@option:radio <City> is the capital of..."
 msgid "%1"
 msgstr "%1"
 
-#: capitaldivisionasker.cpp:34
-#, kde-format
-msgctxt "@title:group"
-msgid "%1 is the capital of..."
-msgstr ""
-
-#: capitaldivisionasker.cpp:65
-#, kde-format
-msgctxt "@title"
-msgid "%1 by Capital"
-msgstr ""
-
-#: divisioncapitalasker.cpp:31
-#, kde-format
-msgctxt "@title:group"
-msgid "The capital of %1 is..."
-msgstr ""
-
 #: divisioncapitalasker.cpp:32 divisionflagasker.cpp:34 mapasker.cpp:154
 #: placeasker.cpp:118
 #, kde-format
@@ -92,12 +74,6 @@ msgstr "%1"
 msgctxt "@option:radio The capital of <Region> is..."
 msgid "%1"
 msgstr "%1"
-
-#: divisioncapitalasker.cpp:81
-#, kde-format
-msgctxt "@title"
-msgid "Capital of %1"
-msgstr ""
 
 #: divisionflagasker.cpp:32
 #, kde-format
@@ -250,16 +226,6 @@ msgstr ""
 msgid "&Place %1 in the Map"
 msgstr ""
 
-#: kgeography.cpp:382
-#, kde-format
-msgid "%1 by Capital"
-msgstr ""
-
-#: kgeography.cpp:383
-#, kde-format
-msgid "&Capitals of %1"
-msgstr ""
-
 #: kgeography.cpp:384
 #, kde-format
 msgid "%1 by Flag"
@@ -363,53 +329,63 @@ msgstr ""
 msgid "Error parsing"
 msgstr ""
 
-#: map.cpp:119
+#: map.cpp:161
 msgid "Regions"
 msgstr ""
 
-#: mapparser.cpp:48
+#: mapparser.cpp:49
 #, kde-format
 msgid "The map image file for %1 does not exist"
 msgstr ""
 
-#: mapparser.cpp:75
+#: mapparser.cpp:83
+#, kde-format
+msgid "%1 by Capital"
+msgstr ""
+
+#: mapparser.cpp:93
+#, kde-format
+msgid "&Capitals of %1"
+msgstr ""
+
+#: mapparser.cpp:118
 #, kde-format
 msgid "The flag image file for %1 does not exist"
 msgstr ""
 
-#: mapparser.cpp:89
+#: mapparser.cpp:132
 #, kde-format
 msgid "Invalid value in tag %1"
 msgstr ""
 
-#: mapparser.cpp:112
+#: mapparser.cpp:155
 #, kde-format
 msgid ""
 "There is already either a division called %1 or a division with the same "
 "colors as %2"
 msgstr ""
 
-#: mapparser.cpp:121
+#: mapparser.cpp:164
 #, kde-format
 msgid "The map description file should begin with the %1 tag"
 msgstr ""
 
-#: mapparser.cpp:127
+#: mapparser.cpp:170
 #, kde-format
 msgid "Could not open %1 for reading."
 msgstr ""
 
-#: mapparser.cpp:132
+#: mapparser.cpp:175
 #, kde-format
 msgid "%1 does not exist."
 msgstr ""
 
-#: mapparser.cpp:156 mapparser.cpp:178
+#: mapparser.cpp:199 mapparser.cpp:221
 #, kde-format
 msgid "The map description file should have a %1 tag inside %2"
 msgstr ""
 
-#: mapparser.cpp:167 mapparser.cpp:184
+#: mapparser.cpp:210 mapparser.cpp:227
 #, kde-format
 msgid "The map description file should have exactly one %1 tag inside %2"
 msgstr ""
@@ -31240,1401 +31216,1423 @@ msgid "Continents"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6805
+#, kde-format
+msgctxt "@title:group"
+msgid "What is the highest summit of %1 ?"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6806
+msgctxt "@title"
+msgid "Continents by highest summit"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6807
+#, kde-format
+msgctxt "@title:group"
+msgid "Which has %1 as highest summit ?"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6808
+msgctxt "@title"
+msgid "Highest summit of continents"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6809
 msgctxt "world_continents.kgm"
 msgid "Frontier"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6806
+#: mapsdatatranslation.cpp:6810
 msgctxt "world_continents.kgm"
 msgid "Water"
 msgstr "पानि"
 
-#: mapsdatatranslation.cpp:6807
+#: mapsdatatranslation.cpp:6811
 msgctxt "world_continents.kgm"
 msgid "Africa"
 msgstr "अफ्रीका"
 
-#: mapsdatatranslation.cpp:6808
+#: mapsdatatranslation.cpp:6812
 msgctxt "world_continents.kgm"
 msgid "Kilimanjaro"
 msgstr "किलिमंन्जारो"
 
-#: mapsdatatranslation.cpp:6809
+#: mapsdatatranslation.cpp:6813
 msgctxt "world_continents.kgm"
 msgid "North America"
 msgstr "उत्तरी अमेरिका"
 
-#: mapsdatatranslation.cpp:6810
+#: mapsdatatranslation.cpp:6814
 msgctxt "world_continents.kgm"
 msgid "Mac Kinley"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6811
+#: mapsdatatranslation.cpp:6815
 msgctxt "world_continents.kgm"
 msgid "South America"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6812
+#: mapsdatatranslation.cpp:6816
 msgctxt "world_continents.kgm"
 msgid "Aconcagua"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6813
+#: mapsdatatranslation.cpp:6817
 msgctxt "world_continents.kgm"
 msgid "Antartica"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6814
+#: mapsdatatranslation.cpp:6818
 msgctxt "world_continents.kgm"
 msgid "Vinson"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6815
+#: mapsdatatranslation.cpp:6819
 msgctxt "world_continents.kgm"
 msgid "Asia"
 msgstr "एशिया"
 
-#: mapsdatatranslation.cpp:6816
+#: mapsdatatranslation.cpp:6820
 msgctxt "world_continents.kgm"
 msgid "Everest"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6817
+#: mapsdatatranslation.cpp:6821
 msgctxt "world_continents.kgm"
 msgid "Europe"
 msgstr "यूरोप"
 
-#: mapsdatatranslation.cpp:6818
+#: mapsdatatranslation.cpp:6822
 msgctxt "world_continents.kgm"
 msgid "Elbrus"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6819
+#: mapsdatatranslation.cpp:6823
 msgctxt "world_continents.kgm"
 msgid "Oceania"
 msgstr "ओसेनिया"
 
-#: mapsdatatranslation.cpp:6820
+#: mapsdatatranslation.cpp:6824
 msgctxt "world_continents.kgm"
 msgid "Carstenz"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6821
+#: mapsdatatranslation.cpp:6825
 msgctxt "yemen.kgm"
 msgid "Yemen"
 msgstr "यमन"
 
-#: mapsdatatranslation.cpp:6822
+#: mapsdatatranslation.cpp:6826
 msgctxt "yemen.kgm"
 msgid "Governorates"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6823
-msgctxt "yemen.kgm"
-msgid "Frontier"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6824
-msgctxt "yemen.kgm"
-msgid "Water"
-msgstr "पानि"
-
-#: mapsdatatranslation.cpp:6825
-msgctxt "yemen.kgm"
-msgid "Not Yemen"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6826
-msgctxt "yemen.kgm"
-msgid "Abyan"
-msgstr ""
-
 #: mapsdatatranslation.cpp:6827
 msgctxt "yemen.kgm"
-msgid "'Adan"
+msgid "Frontier"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6828
 msgctxt "yemen.kgm"
-msgid "Ad Dali'"
-msgstr ""
+msgid "Water"
+msgstr "पानि"
 
 #: mapsdatatranslation.cpp:6829
 msgctxt "yemen.kgm"
-msgid "Al Bayda'"
+msgid "Not Yemen"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6830
 msgctxt "yemen.kgm"
-msgid "Al Hudaydah"
+msgid "Abyan"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6831
 msgctxt "yemen.kgm"
-msgid "Al Jawf"
+msgid "'Adan"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6832
 msgctxt "yemen.kgm"
-msgid "Al Mahri"
+msgid "Ad Dali'"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6833
 msgctxt "yemen.kgm"
-msgid "Al Mahwit"
+msgid "Al Bayda'"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6834
 msgctxt "yemen.kgm"
-msgid "'Amran"
+msgid "Al Hudaydah"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6835
 msgctxt "yemen.kgm"
-msgid "Dhamar"
+msgid "Al Jawf"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6836
 msgctxt "yemen.kgm"
-msgid "Hadramaout"
+msgid "Al Mahri"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6837
 msgctxt "yemen.kgm"
-msgid "Hajjah"
+msgid "Al Mahwit"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6838
 msgctxt "yemen.kgm"
-msgid "Ibb"
+msgid "'Amran"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6839
 msgctxt "yemen.kgm"
-msgid "Lahij"
+msgid "Dhamar"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6840
 msgctxt "yemen.kgm"
-msgid "Ma'rib"
+msgid "Hadramaout"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6841
 msgctxt "yemen.kgm"
-msgid "Sa'dah"
+msgid "Hajjah"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6842
 msgctxt "yemen.kgm"
-msgid "Sanaa"
+msgid "Ibb"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6843
 msgctxt "yemen.kgm"
-msgid "Shabwah"
+msgid "Lahij"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6844
 msgctxt "yemen.kgm"
-msgid "Ta'izz"
+msgid "Ma'rib"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6845
+msgctxt "yemen.kgm"
+msgid "Sa'dah"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6846
+msgctxt "yemen.kgm"
+msgid "Sanaa"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6847
+msgctxt "yemen.kgm"
+msgid "Shabwah"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6848
+msgctxt "yemen.kgm"
+msgid "Ta'izz"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6849
 msgctxt "zaire2006.kgm"
 msgid "Democratic Republic of the Congo"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6846
+#: mapsdatatranslation.cpp:6850
 msgctxt "zaire2006.kgm"
 msgid "Provinces"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6847
+#: mapsdatatranslation.cpp:6851
 msgctxt "zaire2006.kgm"
 msgid "Frontier"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6848
-msgctxt "zaire2006.kgm"
-msgid "Water"
-msgstr "पानि"
-
-#: mapsdatatranslation.cpp:6849
-msgctxt "zaire2006.kgm"
-msgid "Not Democratic Republic of the Congo"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6850 mapsdatatranslation.cpp:6851
-msgctxt "zaire2006.kgm"
-msgid "Kinshasa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6852
 msgctxt "zaire2006.kgm"
-msgid "Kongo central"
-msgstr ""
+msgid "Water"
+msgstr "पानि"
 
 #: mapsdatatranslation.cpp:6853
 msgctxt "zaire2006.kgm"
-msgid "Matadi"
+msgid "Not Democratic Republic of the Congo"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6854
+#: mapsdatatranslation.cpp:6854 mapsdatatranslation.cpp:6855
 msgctxt "zaire2006.kgm"
-msgid "Kwango"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6855
-msgctxt "zaire2006.kgm"
-msgid "Kenge"
+msgid "Kinshasa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6856
 msgctxt "zaire2006.kgm"
-msgid "Kwilu"
+msgid "Kongo central"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6857
 msgctxt "zaire2006.kgm"
-msgid "Kikwit"
+msgid "Matadi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6858
 msgctxt "zaire2006.kgm"
-msgid "Mai-Ndombe"
+msgid "Kwango"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6859
 msgctxt "zaire2006.kgm"
-msgid "Inongo"
+msgid "Kenge"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6860
 msgctxt "zaire2006.kgm"
-msgid "Kasaï"
+msgid "Kwilu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6861
 msgctxt "zaire2006.kgm"
-msgid "Luebo"
+msgid "Kikwit"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6862
 msgctxt "zaire2006.kgm"
-msgid "Lulua"
+msgid "Mai-Ndombe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6863
 msgctxt "zaire2006.kgm"
-msgid "Kananga"
+msgid "Inongo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6864
 msgctxt "zaire2006.kgm"
-msgid "Kasaï oriental"
+msgid "Kasaï"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6865
 msgctxt "zaire2006.kgm"
-msgid "Mbuji-Mayi"
+msgid "Luebo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6866
 msgctxt "zaire2006.kgm"
-msgid "Lomami"
+msgid "Lulua"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6867
 msgctxt "zaire2006.kgm"
-msgid "Kabinda"
+msgid "Kananga"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6868
 msgctxt "zaire2006.kgm"
-msgid "Sankuru"
+msgid "Kasaï oriental"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6869
 msgctxt "zaire2006.kgm"
-msgid "Lodja"
+msgid "Mbuji-Mayi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6870
 msgctxt "zaire2006.kgm"
-msgid "Maniema"
+msgid "Lomami"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6871
 msgctxt "zaire2006.kgm"
-msgid "Kindu"
-msgstr "किन्डु"
+msgid "Kabinda"
+msgstr ""
 
 #: mapsdatatranslation.cpp:6872
 msgctxt "zaire2006.kgm"
-msgid "Sud-Kivu"
+msgid "Sankuru"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6873
 msgctxt "zaire2006.kgm"
-msgid "Bukavu"
+msgid "Lodja"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6874
 msgctxt "zaire2006.kgm"
-msgid "Nord-Kivu"
+msgid "Maniema"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6875
 msgctxt "zaire2006.kgm"
-msgid "Goma"
-msgstr ""
+msgid "Kindu"
+msgstr "किन्डु"
 
 #: mapsdatatranslation.cpp:6876
 msgctxt "zaire2006.kgm"
-msgid "Ituri"
+msgid "Sud-Kivu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6877
 msgctxt "zaire2006.kgm"
-msgid "Bunia"
+msgid "Bukavu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6878
 msgctxt "zaire2006.kgm"
-msgid "Haut-Uele"
+msgid "Nord-Kivu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6879
 msgctxt "zaire2006.kgm"
-msgid "Isiro"
+msgid "Goma"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6880
 msgctxt "zaire2006.kgm"
-msgid "Tshopo"
+msgid "Ituri"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6881
 msgctxt "zaire2006.kgm"
-msgid "Kisangani"
+msgid "Bunia"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6882
 msgctxt "zaire2006.kgm"
-msgid "Bas-Uele"
+msgid "Haut-Uele"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6883
 msgctxt "zaire2006.kgm"
-msgid "Buta"
+msgid "Isiro"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6884
 msgctxt "zaire2006.kgm"
-msgid "Nord-Ubangi"
+msgid "Tshopo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6885
 msgctxt "zaire2006.kgm"
-msgid "Gbadolite"
+msgid "Kisangani"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6886
 msgctxt "zaire2006.kgm"
-msgid "Mongala"
+msgid "Bas-Uele"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6887
 msgctxt "zaire2006.kgm"
-msgid "Lisala"
+msgid "Buta"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6888
 msgctxt "zaire2006.kgm"
-msgid "Sud-Ubangi"
+msgid "Nord-Ubangi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6889
 msgctxt "zaire2006.kgm"
-msgid "Gemena"
+msgid "Gbadolite"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6890
 msgctxt "zaire2006.kgm"
-msgid "Équateur"
+msgid "Mongala"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6891
 msgctxt "zaire2006.kgm"
-msgid "Mbandaka"
+msgid "Lisala"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6892
 msgctxt "zaire2006.kgm"
-msgid "Tshuapa"
+msgid "Sud-Ubangi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6893
 msgctxt "zaire2006.kgm"
-msgid "Boende"
+msgid "Gemena"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6894
 msgctxt "zaire2006.kgm"
-msgid "Tanganyika"
+msgid "Équateur"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6895
 msgctxt "zaire2006.kgm"
-msgid "Kalemie"
+msgid "Mbandaka"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6896
 msgctxt "zaire2006.kgm"
-msgid "Haut-Lomami"
+msgid "Tshuapa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6897
 msgctxt "zaire2006.kgm"
-msgid "Kamina"
+msgid "Boende"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6898
 msgctxt "zaire2006.kgm"
-msgid "Lualaba"
+msgid "Tanganyika"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6899
 msgctxt "zaire2006.kgm"
-msgid "Kolwezi"
+msgid "Kalemie"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6900
 msgctxt "zaire2006.kgm"
-msgid "Haut-Katanga"
+msgid "Haut-Lomami"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6901
 msgctxt "zaire2006.kgm"
-msgid "Lubumbashi"
+msgid "Kamina"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6902
+msgctxt "zaire2006.kgm"
+msgid "Lualaba"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6903
+msgctxt "zaire2006.kgm"
+msgid "Kolwezi"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6904
+msgctxt "zaire2006.kgm"
+msgid "Haut-Katanga"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6905
+msgctxt "zaire2006.kgm"
+msgid "Lubumbashi"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6906
 msgctxt "zambia_districts.kgm"
 msgid "Zambia (Districts)"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6903
-msgctxt "zambia_districts.kgm"
-msgid "Districts"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6904
-msgctxt "zambia_districts.kgm"
-msgid "Frontier"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6905
-msgctxt "zambia_districts.kgm"
-msgid "Water"
-msgstr "पानि"
-
-#: mapsdatatranslation.cpp:6906
-msgctxt "zambia_districts.kgm"
-msgid "Not Zambia (Districts)"
-msgstr ""
-
 #: mapsdatatranslation.cpp:6907
 msgctxt "zambia_districts.kgm"
-msgid "Chibombo"
+msgid "Districts"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6908
 msgctxt "zambia_districts.kgm"
-msgid "Kabwe"
+msgid "Frontier"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6909
 msgctxt "zambia_districts.kgm"
-msgid "Kapiri Mposhi"
-msgstr ""
+msgid "Water"
+msgstr "पानि"
 
 #: mapsdatatranslation.cpp:6910
 msgctxt "zambia_districts.kgm"
-msgid "Mkushi"
+msgid "Not Zambia (Districts)"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6911
 msgctxt "zambia_districts.kgm"
-msgid "Mumbwa"
+msgid "Chibombo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6912
 msgctxt "zambia_districts.kgm"
-msgid "Serenje"
+msgid "Kabwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6913
 msgctxt "zambia_districts.kgm"
-msgid "Chililabombwe"
+msgid "Kapiri Mposhi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6914
 msgctxt "zambia_districts.kgm"
-msgid "Chingola"
+msgid "Mkushi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6915
 msgctxt "zambia_districts.kgm"
-msgid "Kalulushi"
+msgid "Mumbwa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6916
 msgctxt "zambia_districts.kgm"
-msgid "Kitwe"
+msgid "Serenje"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6917
 msgctxt "zambia_districts.kgm"
-msgid "Luanshya"
+msgid "Chililabombwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6918
 msgctxt "zambia_districts.kgm"
-msgid "Lufwanyama"
+msgid "Chingola"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6919
 msgctxt "zambia_districts.kgm"
-msgid "Masaiti"
+msgid "Kalulushi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6920
 msgctxt "zambia_districts.kgm"
-msgid "Mpongwe"
+msgid "Kitwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6921
 msgctxt "zambia_districts.kgm"
-msgid "Mufulira"
+msgid "Luanshya"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6922
 msgctxt "zambia_districts.kgm"
-msgid "Ndola"
-msgstr "एनडोला"
+msgid "Lufwanyama"
+msgstr ""
 
 #: mapsdatatranslation.cpp:6923
 msgctxt "zambia_districts.kgm"
-msgid "Chadiza"
+msgid "Masaiti"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6924
 msgctxt "zambia_districts.kgm"
-msgid "Chama"
-msgstr "चामा"
+msgid "Mpongwe"
+msgstr ""
 
 #: mapsdatatranslation.cpp:6925
 msgctxt "zambia_districts.kgm"
-msgid "Chipata"
+msgid "Mufulira"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6926
 msgctxt "zambia_districts.kgm"
-msgid "Katete"
-msgstr ""
+msgid "Ndola"
+msgstr "एनडोला"
 
 #: mapsdatatranslation.cpp:6927
 msgctxt "zambia_districts.kgm"
-msgid "Lundazi"
+msgid "Chadiza"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6928
 msgctxt "zambia_districts.kgm"
-msgid "Mambwe"
-msgstr ""
+msgid "Chama"
+msgstr "चामा"
 
 #: mapsdatatranslation.cpp:6929
 msgctxt "zambia_districts.kgm"
-msgid "Nyimba"
+msgid "Chipata"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6930
 msgctxt "zambia_districts.kgm"
-msgid "Petauke"
+msgid "Katete"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6931
 msgctxt "zambia_districts.kgm"
-msgid "Chiengi"
+msgid "Lundazi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6932
 msgctxt "zambia_districts.kgm"
-msgid "Kawambwa"
+msgid "Mambwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6933
 msgctxt "zambia_districts.kgm"
-msgid "Mansa"
+msgid "Nyimba"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6934
 msgctxt "zambia_districts.kgm"
-msgid "Milenge"
+msgid "Petauke"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6935
 msgctxt "zambia_districts.kgm"
-msgid "Mwense"
+msgid "Chiengi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6936
 msgctxt "zambia_districts.kgm"
-msgid "Nchelenge"
+msgid "Kawambwa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6937
 msgctxt "zambia_districts.kgm"
-msgid "Samfya"
+msgid "Mansa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6938
 msgctxt "zambia_districts.kgm"
-msgid "Chongwe"
+msgid "Milenge"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6939
 msgctxt "zambia_districts.kgm"
-msgid "Kafue"
+msgid "Mwense"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6940
 msgctxt "zambia_districts.kgm"
-msgid "Luangwa"
+msgid "Nchelenge"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6941
 msgctxt "zambia_districts.kgm"
-msgid "Lusaka"
+msgid "Samfya"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6942
 msgctxt "zambia_districts.kgm"
-msgid "Chavuma"
+msgid "Chongwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6943
 msgctxt "zambia_districts.kgm"
-msgid "Kabompo"
+msgid "Kafue"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6944
 msgctxt "zambia_districts.kgm"
-msgid "Kasempa"
+msgid "Luangwa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6945
 msgctxt "zambia_districts.kgm"
-msgid "Mufumbwe"
+msgid "Lusaka"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6946
 msgctxt "zambia_districts.kgm"
-msgid "Mwinilunga"
+msgid "Chavuma"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6947
 msgctxt "zambia_districts.kgm"
-msgid "Solwezi"
+msgid "Kabompo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6948
 msgctxt "zambia_districts.kgm"
-msgid "Zambezi"
+msgid "Kasempa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6949
 msgctxt "zambia_districts.kgm"
-msgid "Chilubi"
+msgid "Mufumbwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6950
 msgctxt "zambia_districts.kgm"
-msgid "Chinsali"
+msgid "Mwinilunga"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6951
 msgctxt "zambia_districts.kgm"
-msgid "Isoka"
+msgid "Solwezi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6952
 msgctxt "zambia_districts.kgm"
-msgid "Kaputa"
+msgid "Zambezi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6953
 msgctxt "zambia_districts.kgm"
-msgid "Kasama"
+msgid "Chilubi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6954
 msgctxt "zambia_districts.kgm"
-msgid "Luwingu"
+msgid "Chinsali"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6955
 msgctxt "zambia_districts.kgm"
-msgid "Mbala"
+msgid "Isoka"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6956
 msgctxt "zambia_districts.kgm"
-msgid "Mpika"
+msgid "Kaputa"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6957
 msgctxt "zambia_districts.kgm"
-msgid "Mporokoso"
+msgid "Kasama"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6958
 msgctxt "zambia_districts.kgm"
-msgid "Mpulungu"
+msgid "Luwingu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6959
 msgctxt "zambia_districts.kgm"
-msgid "Mungwi"
+msgid "Mbala"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6960
 msgctxt "zambia_districts.kgm"
-msgid "Nakonde"
+msgid "Mpika"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6961
 msgctxt "zambia_districts.kgm"
-msgid "Choma"
+msgid "Mporokoso"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6962
 msgctxt "zambia_districts.kgm"
-msgid "Gwembe"
+msgid "Mpulungu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6963
 msgctxt "zambia_districts.kgm"
-msgid "Itezhi-Tezhi"
+msgid "Mungwi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6964
 msgctxt "zambia_districts.kgm"
-msgid "Kalomo"
+msgid "Nakonde"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6965
 msgctxt "zambia_districts.kgm"
-msgid "Kazungula"
+msgid "Choma"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6966
 msgctxt "zambia_districts.kgm"
-msgid "Livingstone"
-msgstr "लिविंगस्टोन"
+msgid "Gwembe"
+msgstr ""
 
 #: mapsdatatranslation.cpp:6967
 msgctxt "zambia_districts.kgm"
-msgid "Mazabuka"
+msgid "Itezhi-Tezhi"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6968
 msgctxt "zambia_districts.kgm"
-msgid "Monze"
+msgid "Kalomo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6969
 msgctxt "zambia_districts.kgm"
-msgid "Namwala"
+msgid "Kazungula"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6970
 msgctxt "zambia_districts.kgm"
-msgid "Siavonga"
-msgstr ""
+msgid "Livingstone"
+msgstr "लिविंगस्टोन"
 
 #: mapsdatatranslation.cpp:6971
 msgctxt "zambia_districts.kgm"
-msgid "Sinazongwe"
+msgid "Mazabuka"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6972
 msgctxt "zambia_districts.kgm"
-msgid "Kalabo"
+msgid "Monze"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6973
 msgctxt "zambia_districts.kgm"
-msgid "Kaoma"
+msgid "Namwala"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6974
 msgctxt "zambia_districts.kgm"
-msgid "Lukulu"
+msgid "Siavonga"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6975
 msgctxt "zambia_districts.kgm"
-msgid "Mongu"
+msgid "Sinazongwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6976
 msgctxt "zambia_districts.kgm"
-msgid "Senanga"
+msgid "Kalabo"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6977
 msgctxt "zambia_districts.kgm"
-msgid "Sesheke"
+msgid "Kaoma"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6978
 msgctxt "zambia_districts.kgm"
-msgid "Shangombo"
+msgid "Lukulu"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6979
+msgctxt "zambia_districts.kgm"
+msgid "Mongu"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6980
+msgctxt "zambia_districts.kgm"
+msgid "Senanga"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6981
+msgctxt "zambia_districts.kgm"
+msgid "Sesheke"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6982
+msgctxt "zambia_districts.kgm"
+msgid "Shangombo"
+msgstr ""
+
+#: mapsdatatranslation.cpp:6983
 msgctxt "zambia_provinces.kgm"
 msgid "Zambia (Provinces)"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6980
+#: mapsdatatranslation.cpp:6984
 msgctxt "zambia_provinces.kgm"
 msgid "Provinces"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6981
-msgctxt "zambia_provinces.kgm"
-msgid "Frontier"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6982
-msgctxt "zambia_provinces.kgm"
-msgid "Water"
-msgstr "पानि"
-
-#: mapsdatatranslation.cpp:6983
-msgctxt "zambia_provinces.kgm"
-msgid "Not Zambia (Provinces)"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6984
-msgctxt "zambia_provinces.kgm"
-msgid "Central"
-msgstr "सेंट्रल"
-
 #: mapsdatatranslation.cpp:6985
 msgctxt "zambia_provinces.kgm"
-msgid "Kabwe"
+msgid "Frontier"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6986
 msgctxt "zambia_provinces.kgm"
-msgid "Copperbelt"
-msgstr ""
+msgid "Water"
+msgstr "पानि"
 
 #: mapsdatatranslation.cpp:6987
 msgctxt "zambia_provinces.kgm"
-msgid "Ndola"
-msgstr "एनडोला"
+msgid "Not Zambia (Provinces)"
+msgstr ""
 
 #: mapsdatatranslation.cpp:6988
 msgctxt "zambia_provinces.kgm"
-msgid "Eastern"
-msgstr ""
+msgid "Central"
+msgstr "सेंट्रल"
 
 #: mapsdatatranslation.cpp:6989
 msgctxt "zambia_provinces.kgm"
-msgid "Chipata"
+msgid "Kabwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6990
 msgctxt "zambia_provinces.kgm"
-msgid "Luapula"
+msgid "Copperbelt"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6991
 msgctxt "zambia_provinces.kgm"
-msgid "Mansa"
+msgid "Ndola"
+msgstr "एनडोला"
+
+#: mapsdatatranslation.cpp:6992
+msgctxt "zambia_provinces.kgm"
+msgid "Eastern"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6992 mapsdatatranslation.cpp:6993
+#: mapsdatatranslation.cpp:6993
 msgctxt "zambia_provinces.kgm"
-msgid "Lusaka"
+msgid "Chipata"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6994
 msgctxt "zambia_provinces.kgm"
-msgid "Northern"
+msgid "Luapula"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6995
 msgctxt "zambia_provinces.kgm"
-msgid "Kasama"
+msgid "Mansa"
 msgstr ""
 
-#: mapsdatatranslation.cpp:6996
+#: mapsdatatranslation.cpp:6996 mapsdatatranslation.cpp:6997
 msgctxt "zambia_provinces.kgm"
-msgid "North-Western"
-msgstr ""
-
-#: mapsdatatranslation.cpp:6997
-msgctxt "zambia_provinces.kgm"
-msgid "Solwezi"
+msgid "Lusaka"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6998
 msgctxt "zambia_provinces.kgm"
-msgid "Southern"
+msgid "Northern"
 msgstr ""
 
 #: mapsdatatranslation.cpp:6999
 msgctxt "zambia_provinces.kgm"
+msgid "Kasama"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7000
+msgctxt "zambia_provinces.kgm"
+msgid "North-Western"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7001
+msgctxt "zambia_provinces.kgm"
+msgid "Solwezi"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7002
+msgctxt "zambia_provinces.kgm"
+msgid "Southern"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7003
+msgctxt "zambia_provinces.kgm"
 msgid "Livingstone"
 msgstr "लिविंगस्टोन"
 
-#: mapsdatatranslation.cpp:7000
+#: mapsdatatranslation.cpp:7004
 msgctxt "zambia_provinces.kgm"
 msgid "Western"
 msgstr "पश्चिमी"
 
-#: mapsdatatranslation.cpp:7001
+#: mapsdatatranslation.cpp:7005
 msgctxt "zambia_provinces.kgm"
 msgid "Mongu"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7002
+#: mapsdatatranslation.cpp:7006
 msgctxt "zimbabwe.kgm"
 msgid "Zimbabwe"
 msgstr "जिंबाब्वे"
 
-#: mapsdatatranslation.cpp:7003
+#: mapsdatatranslation.cpp:7007
 msgctxt "zimbabwe.kgm"
 msgid "Provinces"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7004 mapsdatatranslation.cpp:7005
+#: mapsdatatranslation.cpp:7008 mapsdatatranslation.cpp:7009
 msgctxt "zimbabwe.kgm"
 msgid "Frontier"
-msgstr ""
-
-#: mapsdatatranslation.cpp:7006
-msgctxt "zimbabwe.kgm"
-msgid "Not Zimbabwe"
-msgstr ""
-
-#: mapsdatatranslation.cpp:7007
-msgctxt "zimbabwe.kgm"
-msgid "Bulawayo"
-msgstr "बुलावोया"
-
-#: mapsdatatranslation.cpp:7008
-msgctxt "zimbabwe.kgm"
-msgid "Harare"
-msgstr ""
-
-#: mapsdatatranslation.cpp:7009
-msgctxt "zimbabwe.kgm"
-msgid "Manicaland"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7010
 msgctxt "zimbabwe.kgm"
-msgid "Mutare"
+msgid "Not Zimbabwe"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7011
 msgctxt "zimbabwe.kgm"
-msgid "Mashonaland central"
-msgstr ""
+msgid "Bulawayo"
+msgstr "बुलावोया"
 
 #: mapsdatatranslation.cpp:7012
 msgctxt "zimbabwe.kgm"
-msgid "Bindura"
+msgid "Harare"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7013
 msgctxt "zimbabwe.kgm"
-msgid "Mashonaland east"
+msgid "Manicaland"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7014
 msgctxt "zimbabwe.kgm"
-msgid "Marondera"
+msgid "Mutare"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7015
 msgctxt "zimbabwe.kgm"
-msgid "Mashonaland west"
+msgid "Mashonaland central"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7016
 msgctxt "zimbabwe.kgm"
-msgid "Chinhoyi"
+msgid "Bindura"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7017 mapsdatatranslation.cpp:7018
+#: mapsdatatranslation.cpp:7017
 msgctxt "zimbabwe.kgm"
-msgid "Masvingo"
-msgstr "मैस्वीन्गो"
+msgid "Mashonaland east"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7018
+msgctxt "zimbabwe.kgm"
+msgid "Marondera"
+msgstr ""
 
 #: mapsdatatranslation.cpp:7019
 msgctxt "zimbabwe.kgm"
-msgid "Matabeleland north"
+msgid "Mashonaland west"
 msgstr ""
 
 #: mapsdatatranslation.cpp:7020
 msgctxt "zimbabwe.kgm"
+msgid "Chinhoyi"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7021 mapsdatatranslation.cpp:7022
+msgctxt "zimbabwe.kgm"
+msgid "Masvingo"
+msgstr "मैस्वीन्गो"
+
+#: mapsdatatranslation.cpp:7023
+msgctxt "zimbabwe.kgm"
+msgid "Matabeleland north"
+msgstr ""
+
+#: mapsdatatranslation.cpp:7024
+msgctxt "zimbabwe.kgm"
 msgid "Lupane"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7021
+#: mapsdatatranslation.cpp:7025
 msgctxt "zimbabwe.kgm"
 msgid "Matabeleland south"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7022
+#: mapsdatatranslation.cpp:7026
 msgctxt "zimbabwe.kgm"
 msgid "Gwanda"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7023
+#: mapsdatatranslation.cpp:7027
 msgctxt "zimbabwe.kgm"
 msgid "Midlands"
 msgstr "मिडलैंड्स"
 
-#: mapsdatatranslation.cpp:7024
+#: mapsdatatranslation.cpp:7028
 msgctxt "zimbabwe.kgm"
 msgid "Gweru"
 msgstr "ग्वेरु"
 
-#: mapsdatatranslation.cpp:7025
+#: mapsdatatranslation.cpp:7029
 msgctxt "zimbabwe_districts.kgm"
 msgid "Zimbabwe (Districts)"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7026
+#: mapsdatatranslation.cpp:7030
 msgctxt "zimbabwe_districts.kgm"
 msgid "Districts"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7027
+#: mapsdatatranslation.cpp:7031
 msgctxt "zimbabwe_districts.kgm"
 msgid "Frontier"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7028
+#: mapsdatatranslation.cpp:7032
 msgctxt "zimbabwe_districts.kgm"
 msgid "Water"
 msgstr "पानि"
 
-#: mapsdatatranslation.cpp:7029
+#: mapsdatatranslation.cpp:7033
 msgctxt "zimbabwe_districts.kgm"
 msgid "Not Zimbabwe (Districts)"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7030
+#: mapsdatatranslation.cpp:7034
 msgctxt "zimbabwe_districts.kgm"
 msgid "Bulawayo"
 msgstr "बुलावोया"
 
-#: mapsdatatranslation.cpp:7031
+#: mapsdatatranslation.cpp:7035
 msgctxt "zimbabwe_districts.kgm"
 msgid "Harare"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7032
+#: mapsdatatranslation.cpp:7036
 msgctxt "zimbabwe_districts.kgm"
 msgid "Buhera"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7033
+#: mapsdatatranslation.cpp:7037
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chimanimani"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7034
+#: mapsdatatranslation.cpp:7038
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chipinge"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7035
+#: mapsdatatranslation.cpp:7039
 msgctxt "zimbabwe_districts.kgm"
 msgid "Makoni"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7036
+#: mapsdatatranslation.cpp:7040
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mutare"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7037
+#: mapsdatatranslation.cpp:7041
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mutasa"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7038
+#: mapsdatatranslation.cpp:7042
 msgctxt "zimbabwe_districts.kgm"
 msgid "Nyanga"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7039
+#: mapsdatatranslation.cpp:7043
 msgctxt "zimbabwe_districts.kgm"
 msgid "Bindura"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7040
+#: mapsdatatranslation.cpp:7044
 msgctxt "zimbabwe_districts.kgm"
 msgid "Guruve"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7041
+#: mapsdatatranslation.cpp:7045
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mazowe"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7042
+#: mapsdatatranslation.cpp:7046
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mount Darwin"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7043
+#: mapsdatatranslation.cpp:7047
 msgctxt "zimbabwe_districts.kgm"
 msgid "Muzarabani"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7044
+#: mapsdatatranslation.cpp:7048
 msgctxt "zimbabwe_districts.kgm"
 msgid "Rushinga"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7045
+#: mapsdatatranslation.cpp:7049
 msgctxt "zimbabwe_districts.kgm"
 msgid "Shamva"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7046
+#: mapsdatatranslation.cpp:7050
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chikomba"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7047
+#: mapsdatatranslation.cpp:7051
 msgctxt "zimbabwe_districts.kgm"
 msgid "Goromonzi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7048
+#: mapsdatatranslation.cpp:7052
 msgctxt "zimbabwe_districts.kgm"
 msgid "Marondera"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7049
+#: mapsdatatranslation.cpp:7053
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mudzi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7050
+#: mapsdatatranslation.cpp:7054
 msgctxt "zimbabwe_districts.kgm"
 msgid "Murehwa"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7051
+#: mapsdatatranslation.cpp:7055
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mutoko"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7052
+#: mapsdatatranslation.cpp:7056
 msgctxt "zimbabwe_districts.kgm"
 msgid "Seke"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7053
+#: mapsdatatranslation.cpp:7057
 msgctxt "zimbabwe_districts.kgm"
 msgid "UMP"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7054
+#: mapsdatatranslation.cpp:7058
 msgctxt "zimbabwe_districts.kgm"
 msgid "Wedza"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7055
+#: mapsdatatranslation.cpp:7059
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chegutu"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7056
+#: mapsdatatranslation.cpp:7060
 msgctxt "zimbabwe_districts.kgm"
 msgid "Hurungwe"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7057
+#: mapsdatatranslation.cpp:7061
 msgctxt "zimbabwe_districts.kgm"
 msgid "Kadoma"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7058
+#: mapsdatatranslation.cpp:7062
 msgctxt "zimbabwe_districts.kgm"
 msgid "Kariba"
 msgstr "कारीबा"
 
-#: mapsdatatranslation.cpp:7059
+#: mapsdatatranslation.cpp:7063
 msgctxt "zimbabwe_districts.kgm"
 msgid "Makonde"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7060
+#: mapsdatatranslation.cpp:7064
 msgctxt "zimbabwe_districts.kgm"
 msgid "Zvimba"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7061
+#: mapsdatatranslation.cpp:7065
 msgctxt "zimbabwe_districts.kgm"
 msgid "Bikita"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7062
+#: mapsdatatranslation.cpp:7066
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chiredzi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7063
+#: mapsdatatranslation.cpp:7067
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chivi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7064
+#: mapsdatatranslation.cpp:7068
 msgctxt "zimbabwe_districts.kgm"
 msgid "Gutu"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7065
+#: mapsdatatranslation.cpp:7069
 msgctxt "zimbabwe_districts.kgm"
 msgid "Masvingo"
 msgstr "मैस्वीन्गो"
 
-#: mapsdatatranslation.cpp:7066
+#: mapsdatatranslation.cpp:7070
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mwenezi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7067
+#: mapsdatatranslation.cpp:7071
 msgctxt "zimbabwe_districts.kgm"
 msgid "Zaka"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7068
+#: mapsdatatranslation.cpp:7072
 msgctxt "zimbabwe_districts.kgm"
 msgid "Binga"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7069
+#: mapsdatatranslation.cpp:7073
 msgctxt "zimbabwe_districts.kgm"
 msgid "Bubi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7070
+#: mapsdatatranslation.cpp:7074
 msgctxt "zimbabwe_districts.kgm"
 msgid "Hwange"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7071
+#: mapsdatatranslation.cpp:7075
 msgctxt "zimbabwe_districts.kgm"
 msgid "Lupane"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7072
+#: mapsdatatranslation.cpp:7076
 msgctxt "zimbabwe_districts.kgm"
 msgid "Nkayi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7073
+#: mapsdatatranslation.cpp:7077
 msgctxt "zimbabwe_districts.kgm"
 msgid "Tsholotsho"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7074
+#: mapsdatatranslation.cpp:7078
 msgctxt "zimbabwe_districts.kgm"
 msgid "Umguza"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7075
+#: mapsdatatranslation.cpp:7079
 msgctxt "zimbabwe_districts.kgm"
 msgid "Beitbridge"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7076
+#: mapsdatatranslation.cpp:7080
 msgctxt "zimbabwe_districts.kgm"
 msgid "Bulilimamangwe"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7077
+#: mapsdatatranslation.cpp:7081
 msgctxt "zimbabwe_districts.kgm"
 msgid "Gwanda"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7078
+#: mapsdatatranslation.cpp:7082
 msgctxt "zimbabwe_districts.kgm"
 msgid "Insiza"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7079
+#: mapsdatatranslation.cpp:7083
 msgctxt "zimbabwe_districts.kgm"
 msgid "Matobo"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7080
+#: mapsdatatranslation.cpp:7084
 msgctxt "zimbabwe_districts.kgm"
 msgid "Umzingwane"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7081
+#: mapsdatatranslation.cpp:7085
 msgctxt "zimbabwe_districts.kgm"
 msgid "Chirumhanzu"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7082
+#: mapsdatatranslation.cpp:7086
 msgctxt "zimbabwe_districts.kgm"
 msgid "Gokwe north"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7083
+#: mapsdatatranslation.cpp:7087
 msgctxt "zimbabwe_districts.kgm"
 msgid "Gokwe south"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7084
+#: mapsdatatranslation.cpp:7088
 msgctxt "zimbabwe_districts.kgm"
 msgid "Gweru"
 msgstr "ग्वेरु"
 
-#: mapsdatatranslation.cpp:7085
+#: mapsdatatranslation.cpp:7089
 msgctxt "zimbabwe_districts.kgm"
 msgid "Kwekwe"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7086
+#: mapsdatatranslation.cpp:7090
 msgctxt "zimbabwe_districts.kgm"
 msgid "Mberengwa"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7087
+#: mapsdatatranslation.cpp:7091
 msgctxt "zimbabwe_districts.kgm"
 msgid "Shurugwi"
 msgstr ""
 
-#: mapsdatatranslation.cpp:7088
+#: mapsdatatranslation.cpp:7092
 msgctxt "zimbabwe_districts.kgm"
 msgid "Zvishavane"
 msgstr ""
