@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 06:15+0200\n"
+"POT-Creation-Date: 2009-10-17 06:44+0200\n"
 "PO-Revision-Date: 2009-05-31 12:55+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -48,7 +48,7 @@ msgstr "(C) 1999-2008, कोंकरर विकासकएनिहार"
 msgid "http://konqueror.kde.org"
 msgstr "http://konqueror.kde.org"
 
-#: src/konqfactory.cpp:236 sidebar/konqsidebar.cpp:30
+#: src/konqfactory.cpp:236 sidebar/sidebar_part.cpp:30
 msgid "David Faure"
 msgstr "डेविड फाउरे"
 
@@ -264,7 +264,7 @@ msgstr "टारबेन वेइस"
 msgid "KFM author"
 msgstr "केएफएम लेखक"
 
-#: src/konqfactory.cpp:268 sidebar/konqsidebar.cpp:29
+#: src/konqfactory.cpp:268 sidebar/sidebar_part.cpp:29
 msgid "Joseph Wenninger"
 msgstr "जोसफ वेननिंगर"
 
@@ -364,7 +364,7 @@ msgstr "सत्र फिनु नहि बहाल करू"
 msgid "Ask Me Later"
 msgstr "हमरासँ बाद मे पूछू"
 
-#: src/konqmainwindow.cpp:518
+#: src/konqmainwindow.cpp:519
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -373,7 +373,7 @@ msgstr ""
 "गलत URL\n"
 "%1"
 
-#: src/konqmainwindow.cpp:523
+#: src/konqmainwindow.cpp:524
 #, kde-format
 msgid ""
 "Protocol not supported\n"
@@ -382,7 +382,7 @@ msgstr ""
 "प्रोटोकाल समर्थित नहि अछि\n"
 "%1"
 
-#: src/konqmainwindow.cpp:562
+#: src/konqmainwindow.cpp:563
 msgctxt "@title:tab"
 msgid "Loading..."
 msgstr "लोड कए रहल..."
@@ -407,7 +407,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1387
+#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1396
 msgid "Discard Changes?"
 msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
 
@@ -415,7 +415,7 @@ msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1387
+#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1396
 msgid "&Discard Changes"
 msgstr "परिवर्तनसभ केँ फेंक दिअ'(&D)"
 
@@ -941,7 +941,7 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत सारे टैब खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: src/konqmainwindow.cpp:5037 src/konqviewmanager.cpp:1369
+#: src/konqmainwindow.cpp:5037 src/konqviewmanager.cpp:1378
 msgid "Confirmation"
 msgstr "पुष्टिकरण"
 
@@ -1138,7 +1138,7 @@ msgstr ""
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1367
+#: src/konqviewmanager.cpp:1376
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -1146,11 +1146,11 @@ msgstr ""
 "ई विंडो मे बहुत सन टैब खुलल अछि.\n"
 " दृश्य प्रोफाइल लोड करबा सँ ई बन्न भए जाएत."
 
-#: src/konqviewmanager.cpp:1370
+#: src/konqviewmanager.cpp:1379
 msgid "Load View Profile"
 msgstr "दृश्य प्रोफाइल लोड करू"
 
-#: src/konqviewmanager.cpp:1386
+#: src/konqviewmanager.cpp:1395
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1397,11 +1397,15 @@ msgstr "नवीन फोल्डर बनाबू"
 msgid "Enter folder name:"
 msgstr "फोल्डर नाम भरू:"
 
-#: sidebar/sidebar_widget.cpp:104
+#: sidebar/sidebar_part.cpp:28
+msgid "Extended Sidebar"
+msgstr "विस्तारित बाजू पट्टी"
+
+#: sidebar/sidebar_widget.cpp:99
 msgid "Rollback to System Default"
 msgstr "सिस्टम मूलभूत पर वापस"
 
-#: sidebar/sidebar_widget.cpp:110
+#: sidebar/sidebar_widget.cpp:105
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1410,65 +1414,65 @@ msgstr ""
 "<qt>ई अहाँक सबहि प्रविष्टिसभ केँ बाजू पट्टी सँ हटाबैत अछि आओर तंत्र मूलभूतसँ जोडैत अछि.<br /"
 "><b>प्रक्रिया अपरिवर्तनीय रहत</b><br />की अहाँ आगाँ बढबाक लेल चाहब?</qt>"
 
-#: sidebar/sidebar_widget.cpp:240
+#: sidebar/sidebar_widget.cpp:234
 msgid "Configure Navigation Panel"
 msgstr "नेविगेशन फलक कान्फिगर करू"
 
-#: sidebar/sidebar_widget.cpp:242
+#: sidebar/sidebar_widget.cpp:236
 msgid "Add New"
 msgstr "नवीन जोडू"
 
-#: sidebar/sidebar_widget.cpp:244
+#: sidebar/sidebar_widget.cpp:238
 msgid "Multiple Views"
 msgstr "अनेक दृश्य"
 
-#: sidebar/sidebar_widget.cpp:246 sidebar/sidebar_widget.cpp:362
+#: sidebar/sidebar_widget.cpp:240 sidebar/sidebar_widget.cpp:353
 msgid "Show Tabs Left"
 msgstr "टैब केँ बम्माँ देखाबू"
 
-#: sidebar/sidebar_widget.cpp:247
+#: sidebar/sidebar_widget.cpp:241
 msgid "Show Configuration Button"
 msgstr "कान्फिगरेशन बटन देखाबू"
 
-#: sidebar/sidebar_widget.cpp:250
+#: sidebar/sidebar_widget.cpp:244
 msgid "Close Navigation Panel"
 msgstr "नेविगेशन फलक बन्न करू"
 
-#: sidebar/sidebar_widget.cpp:293
+#: sidebar/sidebar_widget.cpp:287
 msgid "This entry already exists."
 msgstr "ई प्रविष्टि पहिने सँ अस्तित्व मे अछि."
 
-#: sidebar/sidebar_widget.cpp:307 sidebar/web_module/web_module.cpp:217
+#: sidebar/sidebar_widget.cpp:301 sidebar/web_module/web_module.cpp:217
 msgid "Web SideBar Plugin"
 msgstr "वेब पार्श्व पट्टी प्लगइन"
 
-#: sidebar/sidebar_widget.cpp:362
+#: sidebar/sidebar_widget.cpp:353
 msgid "Show Tabs Right"
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:437
+#: sidebar/sidebar_widget.cpp:424
 msgid "Set Name"
 msgstr "नाम नियत करू"
 
-#: sidebar/sidebar_widget.cpp:437
+#: sidebar/sidebar_widget.cpp:424
 msgid "Enter the name:"
 msgstr "नाम भरू:"
 
-#: sidebar/sidebar_widget.cpp:455
+#: sidebar/sidebar_widget.cpp:442
 msgid "Enter a URL:"
 msgstr "यूआरएल भरू:"
 
-#: sidebar/sidebar_widget.cpp:463
+#: sidebar/sidebar_widget.cpp:450
 #, kde-format
 msgid "<qt><b>%1</b> does not exist</qt>"
 msgstr "<qt><b>%1</b> मोजुद नहि अछि<qt>"
 
-#: sidebar/sidebar_widget.cpp:494
+#: sidebar/sidebar_widget.cpp:481
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>की अहाँ <b>%1</b> टैब केँ हटाएबाक लेल चाहैत छी? </qt>"
 
-#: sidebar/sidebar_widget.cpp:542
+#: sidebar/sidebar_widget.cpp:529
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1477,23 +1481,23 @@ msgstr ""
 "अहाँ नेविगेशन फलक कान्फिगरेशन बटन केँ नुकएने छी. ई फिनु सँ देखाइ दिअ' एहि क' लेल कोनो "
 "नेविगेशन फलक पर राइट क्लिक करू आओर चुनू \"देखाबू कान्फिगरेशन बटन\"."
 
-#: sidebar/sidebar_widget.cpp:627
+#: sidebar/sidebar_widget.cpp:598
 msgid "Configure Sidebar"
 msgstr "किनारक पट्टी कान्फिगर करू"
 
-#: sidebar/sidebar_widget.cpp:744
+#: sidebar/sidebar_widget.cpp:715
 msgid "Set Name..."
 msgstr "नाम नियत करू..."
 
-#: sidebar/sidebar_widget.cpp:745
+#: sidebar/sidebar_widget.cpp:716
 msgid "Set URL..."
 msgstr "यूआरएल नियत करू..."
 
-#: sidebar/sidebar_widget.cpp:746
+#: sidebar/sidebar_widget.cpp:717
 msgid "Set Icon..."
 msgstr "प्रतीक नियत करू..."
 
-#: sidebar/sidebar_widget.cpp:748
+#: sidebar/sidebar_widget.cpp:719
 msgid "Remove"
 msgstr "हटाबू"
 
@@ -1516,10 +1520,6 @@ msgstr "लिंक खोलू (&O)"
 #: sidebar/web_module/web_module.h:59
 msgid "Set &Automatic Reload"
 msgstr "स्वचालित रीलोड कएनाइ नियत करू (&A)"
-
-#: sidebar/konqsidebar.cpp:28
-msgid "Extended Sidebar"
-msgstr "विस्तारित बाजू पट्टी"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
