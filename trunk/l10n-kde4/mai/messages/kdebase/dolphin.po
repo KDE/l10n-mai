@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-17 06:44+0200\n"
+"POT-Creation-Date: 2009-10-18 06:19+0200\n"
 "PO-Revision-Date: 2009-05-31 12:49+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -195,24 +195,6 @@ msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr ""
 
-#: dolphinsearchbox.cpp:69
-#, fuzzy
-#| msgctxt "@label Indicator when no tags defined"
-#| msgid "No Tags"
-msgctxt "Tag as in Nepomuk::Tag"
-msgid "Tag"
-msgstr "कोनो टैग नहीं"
-
-#: dolphinsearchbox.cpp:266
-msgctxt "@label:textbox"
-msgid "Search..."
-msgstr "खोज..."
-
-#: dolphinsearchbox.cpp:277
-msgctxt "@info:tooltip"
-msgid "Click to begin the search"
-msgstr ""
-
 #: renamedialog.cpp:41
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -377,7 +359,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "पूर्व अवस्थामे पहुँचाबू"
 
-#: dolphincontextmenu.cpp:192 dolphinmainwindow.cpp:1129
+#: dolphincontextmenu.cpp:192 dolphinmainwindow.cpp:1142
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "नवीन बनाबू"
@@ -597,7 +579,17 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "अज्ञात आकार"
 
-#: panels/information/metadataconfigurationdialog.cpp:71
+#: panels/information/metadataconfigurationdialog.cpp:64
+msgctxt "@title:window"
+msgid "Configure Shown Data"
+msgstr ""
+
+#: panels/information/metadataconfigurationdialog.cpp:72
+msgctxt "@label:textbox"
+msgid "Configure which data should be shown."
+msgstr ""
+
+#: panels/information/metadataconfigurationdialog.cpp:110
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Type"
@@ -605,7 +597,7 @@ msgctxt "@item::inlistbox"
 msgid "Type"
 msgstr "प्रकार"
 
-#: panels/information/metadataconfigurationdialog.cpp:72
+#: panels/information/metadataconfigurationdialog.cpp:113
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Size"
@@ -613,7 +605,7 @@ msgctxt "@item::inlistbox"
 msgid "Size"
 msgstr "आकार"
 
-#: panels/information/metadataconfigurationdialog.cpp:73
+#: panels/information/metadataconfigurationdialog.cpp:116
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Modified:"
@@ -621,7 +613,7 @@ msgctxt "@item::inlistbox"
 msgid "Modified"
 msgstr "परिवर्धितः"
 
-#: panels/information/metadataconfigurationdialog.cpp:74
+#: panels/information/metadataconfigurationdialog.cpp:119
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -629,7 +621,7 @@ msgctxt "@item::inlistbox"
 msgid "Owner"
 msgstr "मालिक"
 
-#: panels/information/metadataconfigurationdialog.cpp:75
+#: panels/information/metadataconfigurationdialog.cpp:122
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -637,7 +629,7 @@ msgctxt "@item::inlistbox"
 msgid "Permissions"
 msgstr "अनुमतिसभ"
 
-#: panels/information/metadataconfigurationdialog.cpp:77
+#: panels/information/metadataconfigurationdialog.cpp:127
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Rating"
@@ -645,7 +637,7 @@ msgctxt "@item::inlistbox"
 msgid "Rating"
 msgstr "रेटिंग"
 
-#: panels/information/metadataconfigurationdialog.cpp:78
+#: panels/information/metadataconfigurationdialog.cpp:130
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -653,23 +645,13 @@ msgctxt "@item::inlistbox"
 msgid "Tags"
 msgstr "कोनो टैग नहीं"
 
-#: panels/information/metadataconfigurationdialog.cpp:79
+#: panels/information/metadataconfigurationdialog.cpp:133
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
 msgctxt "@item::inlistbox"
 msgid "Comment"
 msgstr "टिप्पणी जोड़ू..."
-
-#: panels/information/metadataconfigurationdialog.cpp:152
-msgctxt "@title:window"
-msgid "Configure Shown Data"
-msgstr ""
-
-#: panels/information/metadataconfigurationdialog.cpp:160
-msgctxt "@label:textbox"
-msgid "Configure which data should be shown."
-msgstr ""
 
 #: panels/information/taggingwidget.cpp:68
 #, fuzzy
@@ -688,17 +670,17 @@ msgctxt "@label"
 msgid "Change..."
 msgstr "टैग बदलू..."
 
-#: panels/information/metadatawidget.cpp:212
+#: panels/information/metadatawidget.cpp:199
 msgctxt "@label"
 msgid "Type:"
 msgstr "प्रकार:"
 
-#: panels/information/metadatawidget.cpp:214
+#: panels/information/metadatawidget.cpp:201
 msgctxt "@label"
 msgid "Modified:"
 msgstr "परिवर्धितः"
 
-#: panels/information/metadatawidget.cpp:215
+#: panels/information/metadatawidget.cpp:202
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Owner"
@@ -706,7 +688,7 @@ msgctxt "@label"
 msgid "Owner:"
 msgstr "मालिक"
 
-#: panels/information/metadatawidget.cpp:216
+#: panels/information/metadatawidget.cpp:203
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Permissions"
@@ -714,7 +696,7 @@ msgctxt "@label"
 msgid "Permissions:"
 msgstr "अनुमतिसभ"
 
-#: panels/information/metadatawidget.cpp:218
+#: panels/information/metadatawidget.cpp:221
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Rating"
@@ -722,7 +704,7 @@ msgctxt "@label"
 msgid "Rating:"
 msgstr "रेटिंग"
 
-#: panels/information/metadatawidget.cpp:219
+#: panels/information/metadatawidget.cpp:222
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -730,7 +712,7 @@ msgctxt "@label"
 msgid "Tags:"
 msgstr "कोनो टैग नहीं"
 
-#: panels/information/metadatawidget.cpp:220
+#: panels/information/metadatawidget.cpp:223
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Add Comment..."
@@ -738,17 +720,17 @@ msgctxt "@label"
 msgid "Comment:"
 msgstr "टिप्पणी जोड़ू..."
 
-#: panels/information/metadatawidget.cpp:560
+#: panels/information/metadatawidget.cpp:583
 msgctxt "@label"
 msgid "Size:"
 msgstr "आकार:"
 
-#: panels/information/metadatawidget.cpp:562
+#: panels/information/metadatawidget.cpp:585
 msgctxt "@label"
 msgid "Folder"
 msgstr "फोल्डर"
 
-#: panels/information/metadatawidget.cpp:583
+#: panels/information/metadatawidget.cpp:606
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Total size:"
@@ -1465,37 +1447,37 @@ msgstr ""
 msgid "Show the space information in the statusbar"
 msgstr ""
 
-#: dolphinmainwindow.cpp:168
+#: dolphinmainwindow.cpp:170
 msgctxt "@info:status"
 msgid "Copy operation completed."
 msgstr "नकल बनाबैक क्रिया सम्पन्न भेल"
 
-#: dolphinmainwindow.cpp:172
+#: dolphinmainwindow.cpp:174
 msgctxt "@info:status"
 msgid "Move operation completed."
 msgstr "घसकाबै कए क्रिया सम्पन्न भेल"
 
-#: dolphinmainwindow.cpp:176
+#: dolphinmainwindow.cpp:178
 msgctxt "@info:status"
 msgid "Link operation completed."
 msgstr "कडी बनाबै कए क्रिया सम्पन्न भेल"
 
-#: dolphinmainwindow.cpp:180
+#: dolphinmainwindow.cpp:182
 msgctxt "@info:status"
 msgid "Move to trash operation completed."
 msgstr "रद्दी मे घसकाबै कए क्रिया सम्पन्न भेल"
 
-#: dolphinmainwindow.cpp:184
+#: dolphinmainwindow.cpp:186
 msgctxt "@info:status"
 msgid "Renaming operation completed."
 msgstr "नाम बदलबाक क्रिया सम्पन्न भेल"
 
-#: dolphinmainwindow.cpp:189
+#: dolphinmainwindow.cpp:191
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "फोल्डर बनाएल गेल"
 
-#: dolphinmainwindow.cpp:444
+#: dolphinmainwindow.cpp:446
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Information"
@@ -1503,53 +1485,53 @@ msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "सूचना"
 
-#: dolphinmainwindow.cpp:449
+#: dolphinmainwindow.cpp:451
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
 msgid "C&lose Current Tab"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:457
+#: dolphinmainwindow.cpp:459
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत सारे टैब खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: dolphinmainwindow.cpp:459
+#: dolphinmainwindow.cpp:461
 msgid "Do not ask again"
 msgstr "फिनु नहि पूछू"
 
-#: dolphinmainwindow.cpp:932
+#: dolphinmainwindow.cpp:934
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "नवीन टैब"
 
-#: dolphinmainwindow.cpp:935
+#: dolphinmainwindow.cpp:937
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr "आन टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:937
+#: dolphinmainwindow.cpp:939
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:1136
+#: dolphinmainwindow.cpp:1149
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "नवीन विंडो (&W)"
 
-#: dolphinmainwindow.cpp:1142
+#: dolphinmainwindow.cpp:1155
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "नवीन टैब"
 
-#: dolphinmainwindow.cpp:1148
+#: dolphinmainwindow.cpp:1161
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:1171
+#: dolphinmainwindow.cpp:1184
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -1557,44 +1539,44 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "साटू"
 
-#: dolphinmainwindow.cpp:1174
+#: dolphinmainwindow.cpp:1187
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: dolphinmainwindow.cpp:1179
+#: dolphinmainwindow.cpp:1192
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "उनटू चयन"
 
-#: dolphinmainwindow.cpp:1192
+#: dolphinmainwindow.cpp:1205
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "पुनः लोड करू"
 
-#: dolphinmainwindow.cpp:1198
+#: dolphinmainwindow.cpp:1211
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "रोकू"
 
-#: dolphinmainwindow.cpp:1203
+#: dolphinmainwindow.cpp:1216
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "संपादन करैबला स्थान"
 
-#: dolphinmainwindow.cpp:1208
+#: dolphinmainwindow.cpp:1221
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "स्थान बदलू"
 
-#: dolphinmainwindow.cpp:1218
+#: dolphinmainwindow.cpp:1231
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
 msgid "Recently Closed Tabs"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:1237
+#: dolphinmainwindow.cpp:1250
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
@@ -1602,17 +1584,17 @@ msgctxt "@action:inmenu Tools"
 msgid "Show Search Bar"
 msgstr "फिल्टर पट्टी देखाबू"
 
-#: dolphinmainwindow.cpp:1242
+#: dolphinmainwindow.cpp:1255
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "फिल्टर पट्टी देखाबू"
 
-#: dolphinmainwindow.cpp:1248
+#: dolphinmainwindow.cpp:1261
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "फाइलसभक तुलना करू..."
 
-#: dolphinmainwindow.cpp:1254
+#: dolphinmainwindow.cpp:1267
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -1620,65 +1602,137 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "टर्मिनल खोलू (&T)"
 
-#: dolphinmainwindow.cpp:1265
+#: dolphinmainwindow.cpp:1278
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "अगिला टैब सक्रिय करू"
 
-#: dolphinmainwindow.cpp:1271
+#: dolphinmainwindow.cpp:1284
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "पछिला टैब सक्रिय करू"
 
-#: dolphinmainwindow.cpp:1278
+#: dolphinmainwindow.cpp:1291
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "नवीन टैब मे खोलू"
 
-#: dolphinmainwindow.cpp:1283
+#: dolphinmainwindow.cpp:1296
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "नवीन विंडोमे खोलू."
 
-#: dolphinmainwindow.cpp:1293
+#: dolphinmainwindow.cpp:1306
 msgctxt "@action:inmenu"
 msgid "Search Bar"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1301 dolphinmainwindow.cpp:1308
+#: dolphinmainwindow.cpp:1314 dolphinmainwindow.cpp:1321
 msgctxt "@title:window"
 msgid "Information"
 msgstr "सूचना"
 
-#: dolphinmainwindow.cpp:1322 dolphinmainwindow.cpp:1329
+#: dolphinmainwindow.cpp:1335 dolphinmainwindow.cpp:1342
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "फोल्डरसभ"
 
-#: dolphinmainwindow.cpp:1344 dolphinmainwindow.cpp:1353
+#: dolphinmainwindow.cpp:1357 dolphinmainwindow.cpp:1366
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "टर्मिनल"
 
-#: dolphinmainwindow.cpp:1371 dolphinmainwindow.cpp:1381
+#: dolphinmainwindow.cpp:1384 dolphinmainwindow.cpp:1394
 msgctxt "@title:window"
 msgid "Places"
 msgstr "स्थान"
 
-#: dolphinmainwindow.cpp:1513
+#: dolphinmainwindow.cpp:1526
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "बन्न करू"
 
-#: dolphinmainwindow.cpp:1516
+#: dolphinmainwindow.cpp:1529
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "बन्न करू"
 
-#: dolphinmainwindow.cpp:1520
+#: dolphinmainwindow.cpp:1533
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "अलगाबू"
+
+#: search/dolphinsearchbox.cpp:64
+#, fuzzy
+#| msgctxt "@label Indicator when no tags defined"
+#| msgid "No Tags"
+msgctxt "Tag as in Nepomuk::Tag"
+msgid "Tag"
+msgstr "कोनो टैग नहीं"
+
+#: search/dolphinsearchbox.cpp:261
+msgctxt "@label:textbox"
+msgid "Search..."
+msgstr "खोज..."
+
+#: search/dolphinsearchbox.cpp:272
+msgctxt "@info:tooltip"
+msgid "Click to begin the search"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:37
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@label"
+msgid "Search:"
+msgstr "खोज..."
+
+#: search/dolphinsearchoptionsconfigurator.cpp:40
+msgctxt "label"
+msgid "Everywhere"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:41
+msgctxt "label"
+msgid "From Here"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:44
+msgctxt "@label"
+msgid "What:"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:47
+msgctxt "label"
+msgid "All"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:48
+msgctxt "label"
+msgid "Images"
+msgstr ""
+
+#: search/dolphinsearchoptionsconfigurator.cpp:49
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Text"
+msgctxt "label"
+msgid "Texts"
+msgstr "पाठ"
+
+#: search/dolphinsearchoptionsconfigurator.cpp:50
+#, fuzzy
+#| msgctxt "@title"
+#| msgid "File Manager"
+msgctxt "label"
+msgid "File Names"
+msgstr "फाइल प्रबंधक"
+
+#: search/dolphinsearchoptionsconfigurator.cpp:56
+msgctxt "@action:button"
+msgid "Save"
+msgstr "सहेजू"
 
 #: selectiontoggle.cpp:128
 msgctxt "@info:tooltip"
@@ -2658,10 +2712,6 @@ msgstr "कालम"
 #~ msgctxt "@title:group Tags"
 #~ msgid "Not yet tagged"
 #~ msgstr "अखन तक टैग नहि कएल गेल अछि"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save"
-#~ msgstr "सहेजू"
 
 #~ msgctxt "@action:button"
 #~ msgid "Cancel"
