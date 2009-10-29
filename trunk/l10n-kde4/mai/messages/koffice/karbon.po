@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-28 07:23+0100\n"
+"POT-Creation-Date: 2009-10-29 06:52+0100\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -801,13 +801,19 @@ msgstr "कोण:"
 msgid "Pinch:"
 msgstr ""
 
+#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
+#, fuzzy
+#| msgid "Grid color:"
+msgid "Flood color"
+msgstr "जाल रंग:"
+
 #: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
 #, fuzzy
 #| msgid "Radius:"
 msgid "Radius"
 msgstr "त्रिज्या:"
 
-#: plugins/filtereffects/ColorMatrixEffect.cpp:29
+#: plugins/filtereffects/ColorMatrixEffect.cpp:32
 msgid "Color Matrix"
 msgstr ""
 
@@ -832,11 +838,11 @@ msgstr ""
 msgid "Luminance to alpha"
 msgstr ""
 
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:63
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:64
 msgid "Saturate value"
 msgstr ""
 
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:73
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:74
 #, fuzzy
 #| msgid "Angle:"
 msgid "Angle"
@@ -862,6 +868,11 @@ msgstr ""
 msgid "Offset"
 msgstr "प्रभाव"
 
+#: plugins/filtereffects/FloodEffectFactory.cpp:27
+#: plugins/filtereffects/FloodEffect.cpp:30
+msgid "Flood fill"
+msgstr ""
+
 #: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
 msgid "Color matrix"
 msgstr ""
@@ -881,9 +892,6 @@ msgstr ""
 #: plugins/flattenpath/KarbonPathFlattenCommand.cpp:170
 msgid "Flatten path"
 msgstr ""
-
-#~ msgid "Grid color:"
-#~ msgstr "जाल रंग:"
 
 #~ msgid "Spacing"
 #~ msgstr "अंतरण"
