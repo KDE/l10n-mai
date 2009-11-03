@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_batchprocessimages\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-30 06:25+0100\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -20,6 +20,7 @@ msgstr ""
 
 #: batchprocessimagesdialog.cpp:100 batchprocessimagesdialog.cpp:868
 #: renameimagesdialog.cpp:57
+msgctxt "start batch process images"
 msgid "&Start"
 msgstr ""
 
@@ -125,6 +126,9 @@ msgstr ""
 
 #: batchprocessimagesdialog.cpp:441 batchprocessimagesdialog.cpp:558
 #: batchprocessimagesdialog.cpp:615 batchprocessimagesdialog.cpp:650
+#, fuzzy
+#| msgid "Failed."
+msgctxt "batch process result"
 msgid "Failed."
 msgstr "विफल."
 
@@ -176,6 +180,9 @@ msgid "Error Adding Image to Application"
 msgstr ""
 
 #: batchprocessimagesdialog.cpp:633
+#, fuzzy
+#| msgid "Warning:"
+msgctxt "batch process result"
 msgid "Warning:"
 msgstr "चेतावनी:"
 
@@ -324,14 +331,23 @@ msgid "Border:"
 msgstr ""
 
 #: borderimagesdialog.cpp:92
+#, fuzzy
+#| msgid "Solid"
+msgctxt "image border type"
 msgid "Solid"
 msgstr "ठोस"
 
 #: borderimagesdialog.cpp:97
+#, fuzzy
+#| msgid "Raise"
+msgctxt "image border type"
 msgid "Raise"
 msgstr "उठाबू"
 
 #: borderimagesdialog.cpp:98
+#, fuzzy
+#| msgid "Frame"
+msgctxt "image border type"
 msgid "Frame"
 msgstr "फ्रेम "
 
@@ -390,7 +406,8 @@ msgstr ""
 
 #: borderoptionsdialog.cpp:142
 msgid ""
-"Select here the bevel width in pixels. This value must be <= Border width / 2"
+"Select here the bevel width in pixels. This value must be &lt;= Border "
+"width / 2"
 msgstr ""
 
 #: colorimagesdialog.cpp:61
@@ -417,48 +434,69 @@ msgid "Filter:"
 msgstr "फिल्टर:"
 
 #: colorimagesdialog.cpp:91
+msgctxt "color image filter"
 msgid "Decrease Contrast"
 msgstr ""
 
 #: colorimagesdialog.cpp:92
+#, fuzzy
+#| msgid "Depth"
+msgctxt "color image filter"
 msgid "Depth"
 msgstr "गहिराइ"
 
 #: colorimagesdialog.cpp:93
+#, fuzzy
+#| msgid "Equalize"
+msgctxt "color image filter"
 msgid "Equalize"
 msgstr "बराबर करू"
 
 #: colorimagesdialog.cpp:94
+msgctxt "color image filter"
 msgid "Fuzz"
 msgstr ""
 
 #: colorimagesdialog.cpp:95
+msgctxt "color image filter"
 msgid "Gray Scales"
 msgstr ""
 
 #: colorimagesdialog.cpp:96
+msgctxt "color image filter"
 msgid "Increase Contrast"
 msgstr ""
 
 #: colorimagesdialog.cpp:97
+msgctxt "color image filter"
 msgid "Monochrome"
 msgstr ""
 
 #: colorimagesdialog.cpp:98
+msgctxt "color image filter"
 msgid "Negate"
 msgstr ""
 
-#: colorimagesdialog.cpp:99 colorimagesdialog.cpp:102
+#: colorimagesdialog.cpp:99
+#, fuzzy
+#| msgid "Normalize"
+msgctxt "color image filter"
 msgid "Normalize"
 msgstr "सामान्यीकृत करू"
 
 #: colorimagesdialog.cpp:100
+msgctxt "color image filter"
 msgid "Segment"
 msgstr ""
 
 #: colorimagesdialog.cpp:101
+msgctxt "color image filter"
 msgid "Trim"
 msgstr ""
+
+#: colorimagesdialog.cpp:102
+msgid "Normalize"
+msgstr "सामान्यीकृत करू"
 
 #: colorimagesdialog.cpp:104
 msgid ""
@@ -608,9 +646,9 @@ msgstr ""
 
 #: convertimagesdialog.cpp:224 convertimagesdialog.cpp:225
 #: convertimagesdialog.cpp:276 convertimagesdialog.cpp:290
-#: recompressimagesdialog.cpp:148 recompressimagesdialog.cpp:149
-#: recompressimagesdialog.cpp:202 recompressimagesdialog.cpp:216
-#: recompressoptionsdialog.cpp:126 recompressoptionsdialog.cpp:143
+#, fuzzy
+#| msgid "None"
+msgctxt "image compression type"
 msgid "None"
 msgstr "किछु नहि"
 
@@ -694,46 +732,73 @@ msgid "Effect:"
 msgstr ""
 
 #: effectimagesdialog.cpp:89
+#, fuzzy
+#| msgid "Threshold:"
+msgctxt "image effect"
 msgid "Adaptive Threshold"
-msgstr ""
+msgstr "दहलीज:"
 
 #: effectimagesdialog.cpp:90
+#, fuzzy
+#| msgid "Charcoal"
+msgctxt "image effect"
 msgid "Charcoal"
 msgstr "कोयला"
 
 #: effectimagesdialog.cpp:91
+msgctxt "image effect"
 msgid "Detect Edges"
 msgstr ""
 
 #: effectimagesdialog.cpp:92 effectimagesdialog.cpp:100
+#, fuzzy
+#| msgid "Emboss"
+msgctxt "image effect"
 msgid "Emboss"
 msgstr "नक्काशी करू"
 
 #: effectimagesdialog.cpp:93
+msgctxt "image effect"
 msgid "Implode"
 msgstr ""
 
 #: effectimagesdialog.cpp:94
+#, fuzzy
+#| msgid "Paint"
+msgctxt "image effect"
 msgid "Paint"
 msgstr "पेंट"
 
 #: effectimagesdialog.cpp:95
+msgctxt "image effect"
 msgid "Shade Light"
 msgstr ""
 
 #: effectimagesdialog.cpp:96
+#, fuzzy
+#| msgid "Solid"
+msgctxt "image effect"
 msgid "Solarize"
-msgstr ""
+msgstr "ठोस"
 
 #: effectimagesdialog.cpp:97
+#, fuzzy
+#| msgid "Spread"
+msgctxt "image effect"
 msgid "Spread"
 msgstr "पसारू"
 
 #: effectimagesdialog.cpp:98
+#, fuzzy
+#| msgid "Swirl"
+msgctxt "image effect"
 msgid "Swirl"
 msgstr "चक्कर खिलाबू"
 
 #: effectimagesdialog.cpp:99
+#, fuzzy
+#| msgid "Wave"
+msgctxt "image effect"
 msgid "Wave"
 msgstr "लहर"
 
@@ -1391,6 +1456,15 @@ msgstr ""
 msgid "Image Recompression Options"
 msgstr ""
 
+#: recompressimagesdialog.cpp:148 recompressimagesdialog.cpp:149
+#: recompressimagesdialog.cpp:202 recompressimagesdialog.cpp:216
+#: recompressoptionsdialog.cpp:126 recompressoptionsdialog.cpp:143
+#, fuzzy
+#| msgid "None"
+msgctxt "image compression"
+msgid "None"
+msgstr "किछु नहि"
+
 #: recompressimagesdialog.cpp:248 resizeimagesdialog.cpp:280
 msgid "image file format unsupported."
 msgstr ""
@@ -1523,7 +1597,7 @@ msgstr ""
 
 #: resizeoptionsdialog.cpp:86
 msgctxt "Filter name"
-msgid "<default>"
+msgid "&lt;default&gt;"
 msgstr ""
 
 #: resizeoptionsdialog.cpp:90

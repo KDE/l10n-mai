@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_flickrexport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-26 06:48+0100\n"
+"POT-Creation-Date: 2009-11-03 06:18+0100\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -216,6 +216,7 @@ msgid ""
 msgstr ""
 
 #: flickrwidget.cpp:104 flickrwidget.cpp:109
+msgctxt "photo permissions"
 msgid "Public"
 msgstr ""
 
@@ -228,10 +229,12 @@ msgid "Extra tags"
 msgstr ""
 
 #: flickrwidget.cpp:118 flickrwidget.cpp:128
+msgctxt "photo permissions"
 msgid "Family"
 msgstr ""
 
 #: flickrwidget.cpp:122 flickrwidget.cpp:130
+msgctxt "photo permissions"
 msgid "Friends"
 msgstr ""
 
@@ -243,27 +246,33 @@ msgstr ""
 msgid "Content type"
 msgstr ""
 
-#: flickrwidget.cpp:142 flickrwidget.cpp:272
+#: flickrwidget.cpp:142
+msgctxt "photo safety level"
 msgid "Safe"
 msgstr ""
 
-#: flickrwidget.cpp:143 flickrwidget.cpp:273
+#: flickrwidget.cpp:143
+msgctxt "photo safety level"
 msgid "Moderate"
 msgstr ""
 
-#: flickrwidget.cpp:144 flickrwidget.cpp:274
+#: flickrwidget.cpp:144
+msgctxt "photo safety level"
 msgid "Restricted"
 msgstr ""
 
 #: flickrwidget.cpp:145 flickrwidget.cpp:278
+msgctxt "photo content type"
 msgid "Photo"
 msgstr ""
 
 #: flickrwidget.cpp:146 flickrwidget.cpp:279
+msgctxt "photo content type"
 msgid "Screenshot"
 msgstr ""
 
 #: flickrwidget.cpp:147 flickrwidget.cpp:280
+msgctxt "photo content type"
 msgid "Other"
 msgstr ""
 
@@ -274,6 +283,7 @@ msgstr "खाता"
 #: flickrwidget.cpp:176
 #, fuzzy
 #| msgid "Username:"
+msgctxt "account settings"
 msgid "Username: "
 msgstr "प्रयोक्ताक नाम:"
 
@@ -344,6 +354,18 @@ msgstr ""
 
 #: flickrwidget.cpp:270
 msgid "Safety level:"
+msgstr ""
+
+#: flickrwidget.cpp:272
+msgid "Safe"
+msgstr ""
+
+#: flickrwidget.cpp:273
+msgid "Moderate"
+msgstr ""
+
+#: flickrwidget.cpp:274
+msgid "Restricted"
 msgstr ""
 
 #: flickrwidget.cpp:276
@@ -421,7 +443,7 @@ msgid "Handbook"
 msgstr ""
 
 #: flickrwindow.cpp:489
-msgid "<Photostream Only>"
+msgid "&lt;Photostream Only&gt;"
 msgstr ""
 
 #: flickrwindow.cpp:663
@@ -442,6 +464,9 @@ msgid ""
 msgstr ""
 
 #: login.cpp:69
+#, fuzzy
+#| msgid "Username:"
+msgctxt "flickr login"
 msgid "Username:"
 msgstr "प्रयोक्ताक नाम:"
 

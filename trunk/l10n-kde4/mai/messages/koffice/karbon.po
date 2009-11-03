@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-31 06:32+0100\n"
+"POT-Creation-Date: 2009-11-03 06:16+0100\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -807,6 +807,11 @@ msgstr ""
 msgid "Flood color"
 msgstr "जाल रंग:"
 
+#: plugins/filtereffects/ComponentTransferEffect.cpp:29
+#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
+msgid "Component transfer"
+msgstr ""
+
 #: plugins/filtereffects/CompositeEffectFactory.cpp:27
 #: plugins/filtereffects/CompositeEffect.cpp:31
 msgid "Composite"
@@ -817,6 +822,68 @@ msgstr ""
 #| msgid "Radius:"
 msgid "Radius"
 msgstr "त्रिज्या:"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
+msgid "Function"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
+msgid "Identity"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
+#, fuzzy
+#| msgid "Tiled"
+msgid "Table"
+msgstr "टाइल्ड"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
+msgid "Discrete"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
+#, fuzzy
+#| msgctxt "Linear gradient type"
+#| msgid "Linear"
+msgid "Linear"
+msgstr "रैखिक"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
+msgid "Gamma"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
+msgid "Values"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
+#, fuzzy
+#| msgid "Shape"
+msgid "Slope"
+msgstr "आकार"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
+#, fuzzy
+#| msgid "Interface"
+msgid "Intercept"
+msgstr "अंतरफलक"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
+msgid "Amplitude"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
+msgid "Exponent"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+#: plugins/filtereffects/OffsetEffect.cpp:30
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#, fuzzy
+#| msgid "Effects"
+msgid "Offset"
+msgstr "प्रभाव"
 
 #: plugins/filtereffects/ColorMatrixEffect.cpp:32
 msgid "Color Matrix"
@@ -898,13 +965,6 @@ msgstr ""
 #| msgid "Tiled"
 msgid "Blend"
 msgstr "टाइल्ड"
-
-#: plugins/filtereffects/OffsetEffect.cpp:30
-#: plugins/filtereffects/OffsetEffectFactory.cpp:26
-#, fuzzy
-#| msgid "Effects"
-msgid "Offset"
-msgstr "प्रभाव"
 
 #: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
 msgid "Operation"
