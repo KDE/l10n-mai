@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-30 06:16+0100\n"
+"POT-Creation-Date: 2009-11-05 06:17+0100\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4733,11 +4733,11 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:477 ../kioslave/http/http.cpp:4876
+#: ../kioslave/ftp/ftp.cpp:477 ../kioslave/http/http.cpp:4882
 msgid "You need to supply a username and a password to access this site."
 msgstr "ई साइट पर पहुँचबा क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द दिअ' पड़त."
 
-#: ../kioslave/ftp/ftp.cpp:479 ../kioslave/http/http.cpp:4883
+#: ../kioslave/ftp/ftp.cpp:479 ../kioslave/http/http.cpp:4889
 msgid "Site:"
 msgstr "साइट:"
 
@@ -4810,84 +4810,92 @@ msgstr "प्रोग्राम \"umount\" नहि भेटल"
 msgid "Could not read %1"
 msgstr " %1 पढ़ि नहि सकल"
 
-#: ../kioslave/http/http.cpp:550
+#: ../kioslave/http/http.cpp:552
 msgid "No host specified."
 msgstr "कोनो होस्ट उल्लेखित नहि अछि."
 
-#: ../kioslave/http/http.cpp:1386
+#: ../kioslave/http/http.cpp:1388
 msgid "The resource cannot be deleted."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1507
+#: ../kioslave/http/http.cpp:1509
 msgid "Otherwise, the request would have succeeded."
 msgstr "आन रूपेँ, निवेदन पूरा भ' गेल हाएत."
 
-#: ../kioslave/http/http.cpp:1511
+#: ../kioslave/http/http.cpp:1513
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "गुण मान निकालू"
 
-#: ../kioslave/http/http.cpp:1514
+#: ../kioslave/http/http.cpp:1516
 msgctxt "request type"
 msgid "set property values"
 msgstr "गुण मान नियत करू. "
 
-#: ../kioslave/http/http.cpp:1517
+#: ../kioslave/http/http.cpp:1519
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "निवेदित फोल्डर बनाबू"
 
-#: ../kioslave/http/http.cpp:1520
+#: ../kioslave/http/http.cpp:1522
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डरक नकल करू"
 
-#: ../kioslave/http/http.cpp:1523
+#: ../kioslave/http/http.cpp:1525
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर घसकाबू"
 
-#: ../kioslave/http/http.cpp:1526
+#: ../kioslave/http/http.cpp:1528
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "उल्लेखित फोल्डर मे ढूँढू"
 
-#: ../kioslave/http/http.cpp:1529
+#: ../kioslave/http/http.cpp:1531
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर केँ तालाबंद करू"
 
-#: ../kioslave/http/http.cpp:1532
+#: ../kioslave/http/http.cpp:1534
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर क' ताला खोलू"
 
-#: ../kioslave/http/http.cpp:1535
+#: ../kioslave/http/http.cpp:1537
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर केँ मेटाबू"
 
-#: ../kioslave/http/http.cpp:1538
+#: ../kioslave/http/http.cpp:1540
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "सर्वर केपेबिलिटी क्वेरी करू"
 
-#: ../kioslave/http/http.cpp:1541
+#: ../kioslave/http/http.cpp:1543
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर केर विषयवस्तुओं केँ निकालू"
 
-#: ../kioslave/http/http.cpp:1553
+#: ../kioslave/http/http.cpp:1546
+#, fuzzy
+#| msgctxt "request type"
+#| msgid "search in the specified folder"
+msgctxt "request type"
+msgid "run a report in the specified folder"
+msgstr "उल्लेखित फोल्डर मे ढूँढू"
+
+#: ../kioslave/http/http.cpp:1558
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr " एकटा त्रुटि %1   भेल, %2  कए कोसिस मे"
 
-#: ../kioslave/http/http.cpp:1561
+#: ../kioslave/http/http.cpp:1566
 msgid "The server does not support the WebDAV protocol."
 msgstr "सर्वर वेब-डीएवी  प्रोटोकाल  समर्थित नहि करैत अछि."
 
-#: ../kioslave/http/http.cpp:1603
+#: ../kioslave/http/http.cpp:1608
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -4895,23 +4903,23 @@ msgid ""
 "below."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1617 ../kioslave/http/http.cpp:1722
+#: ../kioslave/http/http.cpp:1622 ../kioslave/http/http.cpp:1727
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "%1 कए कोसिस मे पहुँच नकार देल गेल."
 
-#: ../kioslave/http/http.cpp:1624
+#: ../kioslave/http/http.cpp:1629
 msgid "The specified folder already exists."
 msgstr "उल्लेखित फोल्डर पहिने सँ मोजुद अछि. "
 
-#: ../kioslave/http/http.cpp:1630 ../kioslave/http/http.cpp:1727
+#: ../kioslave/http/http.cpp:1635 ../kioslave/http/http.cpp:1732
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1639
+#: ../kioslave/http/http.cpp:1644
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -4919,26 +4927,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1649
+#: ../kioslave/http/http.cpp:1654
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "निवेदित तालाबंद देल नहि जाए सकत. %1"
 
-#: ../kioslave/http/http.cpp:1655
+#: ../kioslave/http/http.cpp:1660
 msgid "The server does not support the request type of the body."
 msgstr "सर्वर निवेदित प्रकार केर बाडी समर्थित नहि करैत अछि."
 
-#: ../kioslave/http/http.cpp:1660 ../kioslave/http/http.cpp:1734
+#: ../kioslave/http/http.cpp:1665 ../kioslave/http/http.cpp:1739
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr " %1 पर अक्षम किएक संसाधन ताला बन्न अछि."
 
-#: ../kioslave/http/http.cpp:1664
+#: ../kioslave/http/http.cpp:1669
 msgid "This action was prevented by another error."
 msgstr "आन त्रुटि केर द्वारा ई क्रिया रोकल गेल."
 
-#: ../kioslave/http/http.cpp:1671 ../kioslave/http/http.cpp:1739
+#: ../kioslave/http/http.cpp:1676 ../kioslave/http/http.cpp:1744
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -4946,67 +4954,67 @@ msgid ""
 "folder."
 msgstr " %1 केँ असमर्थ किएक गंतव्य सर्वर फाइल अथवा फोल्डर केँ स्वीकार करब सँ मना करैत अछि."
 
-#: ../kioslave/http/http.cpp:1678 ../kioslave/http/http.cpp:1745
+#: ../kioslave/http/http.cpp:1683 ../kioslave/http/http.cpp:1750
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1700
+#: ../kioslave/http/http.cpp:1705
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "अपलोड %1"
 
-#: ../kioslave/http/http.cpp:1711
+#: ../kioslave/http/http.cpp:1716
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr " एकटा त्रुटि %1   भेल, %2  कए कोसिस मे"
 
-#: ../kioslave/http/http.cpp:2460
+#: ../kioslave/http/http.cpp:2466
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 सम्पर्क मे. जवाबक प्रतीक्षा मे..."
 
-#: ../kioslave/http/http.cpp:2822
+#: ../kioslave/http/http.cpp:2828
 msgid "Server processing request, please wait..."
 msgstr "सर्वर प्रक्रिया क' लेल निवेदन, कृप्या इंतजार करू..."
 
-#: ../kioslave/http/http.cpp:3201
+#: ../kioslave/http/http.cpp:3207
 msgid "Authentication Failed."
 msgstr "प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:3202 ../kioslave/http/http.cpp:4951
+#: ../kioslave/http/http.cpp:3208 ../kioslave/http/http.cpp:4957
 msgid "Proxy Authentication Failed."
 msgstr "प्राक्सी प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:3704
+#: ../kioslave/http/http.cpp:3710
 msgid "Requesting data to send"
 msgstr "डाटा भेजने क' लेल निवेदन"
 
-#: ../kioslave/http/http.cpp:3736
+#: ../kioslave/http/http.cpp:3742
 #, kde-format
 msgid "Sending data to %1"
 msgstr " %1 केँ डाटा भेज रहल अछि"
 
-#: ../kioslave/http/http.cpp:4153
+#: ../kioslave/http/http.cpp:4159
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
 
-#: ../kioslave/http/http.cpp:4159
+#: ../kioslave/http/http.cpp:4165
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr " %1 सँ फिनु सँ प्राप्ति मे..."
 
-#: ../kioslave/http/http.cpp:4884 ../kioslave/http/http.cpp:4900
-#: ../kioslave/http/http.cpp:4950
+#: ../kioslave/http/http.cpp:4890 ../kioslave/http/http.cpp:4906
+#: ../kioslave/http/http.cpp:4956
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> पर <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:4891 ../kioslave/http/http.cpp:4945
+#: ../kioslave/http/http.cpp:4897 ../kioslave/http/http.cpp:4951
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5014,7 +5022,7 @@ msgstr ""
 "एकरासँ पहिने जे अहाँक केओ साइट पर पहुँचक अनुमति देल जाए, नीच्चाँ सूची-बद्ध कएल प्राक्सी "
 "सर्वर क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द देनाइ हाएत."
 
-#: ../kioslave/http/http.cpp:4899 ../kioslave/http/http.cpp:4949
+#: ../kioslave/http/http.cpp:4905 ../kioslave/http/http.cpp:4955
 msgid "Proxy:"
 msgstr "प्राक्सीः"
 
