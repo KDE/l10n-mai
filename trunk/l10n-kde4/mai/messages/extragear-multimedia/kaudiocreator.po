@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-01 06:24+0100\n"
+"POT-Creation-Date: 2009-11-07 06:38+0100\n"
 "PO-Revision-Date: 2009-04-21 23:40+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -74,9 +74,10 @@ msgstr "शीर्षक"
 msgid "Artist"
 msgstr "कलाकार"
 
-#. i18n: file: infodialog.ui:91
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: encodefilemodel.cpp:30 rc.cpp:301
+#: encodefilemodel.cpp:30
+#, fuzzy
+#| msgid "Album"
+msgctxt "@title:column"
 msgid "Album"
 msgstr "एल्बम"
 
@@ -96,7 +97,8 @@ msgstr "ट्रैक"
 msgid "Year"
 msgstr "वर्ष"
 
-#: encodefilemodel.cpp:31 kaudiocreator.cpp:399
+#: encodefilemodel.cpp:31
+msgctxt "@title:column"
 msgid "Encoder"
 msgstr ""
 
@@ -403,6 +405,10 @@ msgstr ""
 
 #: kaudiocreator.cpp:396
 msgid "Ripper Configuration"
+msgstr ""
+
+#: kaudiocreator.cpp:399
+msgid "Encoder"
 msgstr ""
 
 #: main.cpp:30
@@ -999,6 +1005,12 @@ msgstr ""
 msgid "Title:"
 msgstr "शीर्षक:"
 
+#. i18n: file: infodialog.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:301
+msgid "Album"
+msgstr "एल्बम"
+
 #. i18n: file: infodialog.ui:208
 #. i18n: ectx: property (text), widget (QPushButton, buttonPrevious)
 #: rc.cpp:319
@@ -1409,7 +1421,8 @@ msgstr "sangeeta09@gmail.com"
 msgid "Ripping: %1 - %2"
 msgstr ""
 
-#: tracksimp.cpp:49 tracksimp.cpp:450 tracksimp.cpp:550
+#: tracksimp.cpp:49 tracksimp.cpp:550
+msgctxt "@title:column"
 msgid "Rip"
 msgstr ""
 
@@ -1483,6 +1496,10 @@ msgstr ""
 
 #: tracksimp.cpp:450
 msgid "Album Information Incomplete"
+msgstr ""
+
+#: tracksimp.cpp:450
+msgid "Rip"
 msgstr ""
 
 #: tracksimp.cpp:605
