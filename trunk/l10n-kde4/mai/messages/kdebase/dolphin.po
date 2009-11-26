@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-25 06:22+0100\n"
+"POT-Creation-Date: 2009-11-26 06:12+0100\n"
 "PO-Revision-Date: 2009-05-31 12:49+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -214,19 +214,19 @@ msgctxt "@title:menu"
 msgid "Columns"
 msgstr "कालम"
 
-#: dolphinview.cpp:560
+#: dolphinview.cpp:532
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr ""
 
-#: dolphinview.cpp:561
+#: dolphinview.cpp:533
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr ""
 
-#: dolphinview.cpp:565
+#: dolphinview.cpp:537
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -234,7 +234,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "1 फोल्डर चयनित"
 msgstr[1] "%1 फोल्डर चयनित है"
 
-#: dolphinview.cpp:566
+#: dolphinview.cpp:538
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -242,29 +242,29 @@ msgid_plural "%1 Files selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: dolphinview.cpp:568
+#: dolphinview.cpp:540
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:571
+#: dolphinview.cpp:543
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1175
+#: dolphinview.cpp:1180
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "मेटाबैक क्रिया सम्पन्न भेल"
 
-#: dolphinview.cpp:1250
+#: dolphinview.cpp:1255
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "स्थान रिक्त अछि"
 
-#: dolphinview.cpp:1252
+#: dolphinview.cpp:1257
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -485,7 +485,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "पूर्व अवस्थामे पहुँचाबू"
 
-#: dolphincontextmenu.cpp:199 dolphinmainwindow.cpp:1189
+#: dolphincontextmenu.cpp:199 dolphinmainwindow.cpp:1191
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "नवीन बनाबू"
@@ -497,7 +497,7 @@ msgstr "स्थान मे जोडू"
 
 #. i18n: file: dolphinui.rc:22
 #. i18n: ectx: Menu (view_mode)
-#: dolphincontextmenu.cpp:284 rc.cpp:24 rc.cpp:68
+#: dolphincontextmenu.cpp:284 rc.cpp:27 rc.cpp:74
 msgctxt "@title:menu"
 msgid "View Mode"
 msgstr "दृश्य मोड"
@@ -889,7 +889,7 @@ msgid "Width x Height:"
 msgstr ""
 
 #: panels/information/kmetadatawidget.cpp:510
-#: search/searchcriterionselector.cpp:209
+#: search/searchcriterionselector.cpp:202
 msgctxt "@label"
 msgid "Size:"
 msgstr "आकार:"
@@ -934,7 +934,7 @@ msgid "Permissions:"
 msgstr "अनुमतिसभ"
 
 #: panels/information/kmetadatawidget.cpp:653
-#: search/searchcriterionselector.cpp:237
+#: search/searchcriterionselector.cpp:230
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Rating"
@@ -1036,128 +1036,185 @@ msgctxt "@action:inmenu"
 msgid "Show Hidden Files"
 msgstr "नुकाएल फाइलसभ देखाबू"
 
-#: dolphinpart.cpp:164
+#: dolphinpart.cpp:165
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
 msgstr "फाइलक प्रकार संपादित करू...(&E)"
 
-#: dolphinpart.cpp:176
+#: dolphinpart.cpp:169
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Select Item"
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "मद चुनू"
+
+#: dolphinpart.cpp:174
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:180
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Select All"
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "सभ चुनू"
+
+#: dolphinpart.cpp:184 dolphinmainwindow.cpp:1241
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "उनटू चयन"
+
+#: dolphinpart.cpp:197
 msgctxt "@action:inmenu Go"
 msgid "App&lications"
 msgstr "अनुप्रयोग (&l)"
 
-#: dolphinpart.cpp:179
+#: dolphinpart.cpp:200
 msgctxt "@action:inmenu Go"
 msgid "&Network Folders"
 msgstr "नेटवर्क फोल्डर्स (&N)"
 
-#: dolphinpart.cpp:182
+#: dolphinpart.cpp:203
 msgctxt "@action:inmenu Go"
 msgid "Sett&ings"
 msgstr "बिन्यास (&i)"
 
-#: dolphinpart.cpp:185
+#: dolphinpart.cpp:206
 msgctxt "@action:inmenu Go"
 msgid "Trash"
 msgstr "रद्दी"
 
-#: dolphinpart.cpp:188
+#: dolphinpart.cpp:209
 msgctxt "@action:inmenu Go"
 msgid "Autostart"
 msgstr "स्वतः चालू"
 
-#: dolphinpart.cpp:195
+#: dolphinpart.cpp:216
 msgctxt "@action:inmenu Tools"
 msgid "Open &Terminal"
 msgstr "टर्मिनल खोलू (&T)"
 
-#: dolphinpart.cpp:265
+#: dolphinpart.cpp:286
 msgctxt "@title"
 msgid "Dolphin Part"
 msgstr "डाल्फिन पार्ट"
 
+#: dolphinpart.cpp:519
+#, fuzzy
+#| msgctxt "@label:textbox"
+#| msgid "Search..."
+msgctxt "@title:window"
+msgid "Select"
+msgstr "खोज..."
+
+#: dolphinpart.cpp:520
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:526
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr ""
+
+#: dolphinpart.cpp:527
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
 #. i18n: file: dolphinpart.rc:4
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:3 rc.cpp:47
+#: rc.cpp:3 rc.cpp:50
 msgid "&Edit"
 msgstr "सँपादित करू (&E)"
 
-#. i18n: file: dolphinpart.rc:16
+#. i18n: file: dolphinpart.rc:14
+#. i18n: ectx: Menu (selection)
+#: rc.cpp:6 rc.cpp:53
+#, fuzzy
+#| msgctxt "@action:inmenu Edit"
+#| msgid "Invert Selection"
+msgctxt "@title:menu"
+msgid "Selection"
+msgstr "उनटू चयन"
+
+#. i18n: file: dolphinpart.rc:23
 #. i18n: ectx: Menu (view)
-#: rc.cpp:6 rc.cpp:50
+#: rc.cpp:9 rc.cpp:56
 msgid "&View"
 msgstr "दृश्य (&V)"
 
-#. i18n: file: dolphinpart.rc:18
+#. i18n: file: dolphinpart.rc:25
 #. i18n: ectx: Menu (sort)
 #. i18n: file: dolphinui.rc:28
 #. i18n: ectx: Menu (sort)
-#. i18n: file: dolphinpart.rc:18
+#. i18n: file: dolphinpart.rc:25
 #. i18n: ectx: Menu (sort)
 #. i18n: file: dolphinui.rc:28
 #. i18n: ectx: Menu (sort)
-#: rc.cpp:9 rc.cpp:27 rc.cpp:53 rc.cpp:71
+#: rc.cpp:12 rc.cpp:30 rc.cpp:59 rc.cpp:77
 msgctxt "@title:menu"
 msgid "Sort By"
 msgstr "क'द्वारा छाँटू"
 
-#. i18n: file: dolphinpart.rc:33
+#. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (additional_info)
 #. i18n: file: dolphinui.rc:43
 #. i18n: ectx: Menu (additional_info)
-#. i18n: file: dolphinpart.rc:33
+#. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (additional_info)
 #. i18n: file: dolphinui.rc:43
 #. i18n: ectx: Menu (additional_info)
-#: rc.cpp:12 rc.cpp:30 rc.cpp:56 rc.cpp:74
+#: rc.cpp:15 rc.cpp:33 rc.cpp:62 rc.cpp:80
 msgctxt "@title:menu"
 msgid "Additional Information"
 msgstr "अतिरिक्त सूचना"
 
-#. i18n: file: dolphinpart.rc:47
+#. i18n: file: dolphinpart.rc:54
 #. i18n: ectx: Menu (go)
-#: rc.cpp:15 rc.cpp:59
+#: rc.cpp:18 rc.cpp:65
 msgid "&Go"
 msgstr "जाउ (&G)"
 
-#. i18n: file: dolphinpart.rc:55
+#. i18n: file: dolphinpart.rc:62
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:18 rc.cpp:62
+#: rc.cpp:21 rc.cpp:68
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr "अओजार"
 
-#. i18n: file: dolphinpart.rc:63
+#. i18n: file: dolphinpart.rc:70
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:21 rc.cpp:65
+#: rc.cpp:24 rc.cpp:71
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "डाल्फिन अओजार पट्टी"
 
 #. i18n: file: dolphinui.rc:60
 #. i18n: ectx: Menu (panels)
-#: rc.cpp:33 rc.cpp:77
+#: rc.cpp:36 rc.cpp:83
 msgctxt "@title:menu"
 msgid "Panels"
 msgstr "फलक"
 
 #. i18n: file: dolphinui.rc:67
 #. i18n: ectx: Menu (navigation_bar)
-#: rc.cpp:36 rc.cpp:80
+#: rc.cpp:39 rc.cpp:86
 msgctxt "@title:menu"
 msgid "Navigation Bar"
 msgstr "नाविगेशन् पट्टी"
 
 #. i18n: file: dolphinui.rc:122
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:39 rc.cpp:83
+#: rc.cpp:42 rc.cpp:89
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
 #. i18n: file: dolphinui.rc:134
 #. i18n: ectx: ToolBar (searchToolBar)
-#: rc.cpp:42 rc.cpp:86
+#: rc.cpp:45 rc.cpp:92
 #, fuzzy
 #| msgctxt "@title:menu"
 #| msgid "Main Toolbar"
@@ -1165,19 +1222,19 @@ msgctxt "@title:menu"
 msgid "Search Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
-#: rc.cpp:43
+#: rc.cpp:46
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "संगीता कुमारी"
 
-#: rc.cpp:44
+#: rc.cpp:47
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
 #. i18n: file: panels/information/dolphin_informationpanelsettings.kcfg:7
 #. i18n: ectx: label, entry (showPreview), group (InformationPanel)
-#: rc.cpp:89
+#: rc.cpp:95
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show preview"
@@ -1186,7 +1243,7 @@ msgstr "पूर्वावलोकन देखाबू"
 
 #. i18n: file: panels/folders/dolphin_folderspanelsettings.kcfg:7
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (FoldersPanel)
-#: rc.cpp:92
+#: rc.cpp:98
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show hidden files"
@@ -1195,7 +1252,7 @@ msgstr "नुकल फाइलसभ देखाबू"
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:7
 #. i18n: ectx: label, entry (Location), group (Search)
-#: rc.cpp:95
+#: rc.cpp:101
 #, fuzzy
 #| msgctxt "@label:textbox"
 #| msgid "Location:"
@@ -1204,26 +1261,26 @@ msgstr "स्थानः"
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:11
 #. i18n: ectx: label, entry (What), group (Search)
-#: rc.cpp:98
+#: rc.cpp:104
 msgid "What"
 msgstr ""
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:15
 #. i18n: ectx: label, entry (Criteria), group (Search)
-#: rc.cpp:101
+#: rc.cpp:107
 msgid "Criteria"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:104
+#: rc.cpp:110
 msgctxt "@label"
 msgid "Show hidden files"
 msgstr "नुकल फाइलसभ देखाबू"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:107
+#: rc.cpp:113
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled hidden files, such as those starting with a '.', "
@@ -1234,14 +1291,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
 #. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: rc.cpp:110
+#: rc.cpp:116
 msgctxt "@label"
 msgid "View Mode"
 msgstr "दृश्य मोड"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
 #. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:113
+#: rc.cpp:119
 msgctxt "@info:whatsthis"
 msgid ""
 "This option controls the style of the view. Currently supported values "
@@ -1252,14 +1309,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
 #. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:116
+#: rc.cpp:122
 msgctxt "@label"
 msgid "Show preview"
 msgstr "पूर्वावलोकन देखाबू"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
 #. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:119
+#: rc.cpp:125
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, a preview of the file content is shown as an "
@@ -1268,14 +1325,14 @@ msgstr "जखन ई विकल्प सक्षम कएल जाइछ 
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
 #. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:122
+#: rc.cpp:128
 msgctxt "@label"
 msgid "Categorized Sorting"
 msgstr "श्रेणी केर अनुसार क्रमबद्ध"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
 #. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:125
+#: rc.cpp:131
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, the sorted items are summarized by their "
@@ -1285,14 +1342,14 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
 #. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:128
+#: rc.cpp:134
 msgctxt "@label"
 msgid "Sort files by"
 msgstr "फाइल केँ एहिना छाँटू"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
 #. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:131
+#: rc.cpp:137
 msgctxt "@info:whatsthis"
 msgid ""
 "This option defines which attribute (name, size, date, etc.) sorting is "
@@ -1301,35 +1358,35 @@ msgstr "ई विकल्प निर्धारित करैत अछ�
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:134
+#: rc.cpp:140
 msgctxt "@label"
 msgid "Order in which to sort files"
 msgstr "फाइलसभ केँ छाँटबाक अनुक्रम"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
 #. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: rc.cpp:137
+#: rc.cpp:143
 msgctxt "@label"
 msgid "Show folders first when sorting files and folders"
 msgstr ""
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:140
+#: rc.cpp:146
 msgctxt "@label"
 msgid "Additional information"
 msgstr "बाइली सूचना"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:64
 #. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:143
+#: rc.cpp:149
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "अंतिम बार बदलल गेल गुण"
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:65
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:146
+#: rc.cpp:152
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "प्रयोक्ता द्वारा अंतिम बेर ई गुणसभ मे परिवर्तन कएल गेल छल."
@@ -1340,7 +1397,7 @@ msgstr "प्रयोक्ता द्वारा अंतिम बेर
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:9
 #. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
-#: rc.cpp:149 rc.cpp:182 rc.cpp:212
+#: rc.cpp:155 rc.cpp:188 rc.cpp:218
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font family"
@@ -1353,7 +1410,7 @@ msgstr "फाँट परिवार"
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:13
 #. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
-#: rc.cpp:152 rc.cpp:179 rc.cpp:215
+#: rc.cpp:158 rc.cpp:185 rc.cpp:221
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use system font"
@@ -1366,7 +1423,7 @@ msgstr "तंत्र फोन्ट इस्तेमाल करू"
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:17
 #. i18n: ectx: label, entry (FontSize), group (ColumnMode)
-#: rc.cpp:155 rc.cpp:185 rc.cpp:218
+#: rc.cpp:161 rc.cpp:191 rc.cpp:224
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
@@ -1379,7 +1436,7 @@ msgstr "फान्ट आकार"
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:21
 #. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
-#: rc.cpp:158 rc.cpp:188 rc.cpp:221
+#: rc.cpp:164 rc.cpp:194 rc.cpp:227
 #, fuzzy
 #| msgctxt "@label Font style"
 #| msgid "Italic"
@@ -1392,7 +1449,7 @@ msgstr "तिरछा"
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:25
 #. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
-#: rc.cpp:161 rc.cpp:191 rc.cpp:224
+#: rc.cpp:167 rc.cpp:197 rc.cpp:230
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font weight"
@@ -1405,7 +1462,7 @@ msgstr "फान्ट दबाव"
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:29
 #. i18n: ectx: label, entry (IconSize), group (ColumnMode)
-#: rc.cpp:164 rc.cpp:203 rc.cpp:227
+#: rc.cpp:170 rc.cpp:209 rc.cpp:233
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Icon size"
@@ -1418,7 +1475,7 @@ msgstr "प्रतीक आकार"
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:33
 #. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
-#: rc.cpp:167 rc.cpp:209 rc.cpp:230
+#: rc.cpp:173 rc.cpp:215 rc.cpp:236
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Preview size"
@@ -1427,7 +1484,7 @@ msgstr "पूर्वावलोकन आकार"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:37
 #. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: rc.cpp:170
+#: rc.cpp:176
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Expandable folders"
@@ -1436,13 +1493,13 @@ msgstr "पसराल जाए सकैबला फोल्डर"
 
 #. i18n: file: settings/dolphin_detailsmodesettings.kcfg:41
 #. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
-#: rc.cpp:173
+#: rc.cpp:179
 msgid "Position of columns"
 msgstr ""
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:10
 #. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:176
+#: rc.cpp:182
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Arrangement"
@@ -1451,7 +1508,7 @@ msgstr "व्यवस्था"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:34
 #. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:194
+#: rc.cpp:200
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Item height"
@@ -1460,7 +1517,7 @@ msgstr "वस्तुक ऊँचाइ"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:42
 #. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:197
+#: rc.cpp:203
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Item width"
@@ -1469,7 +1526,7 @@ msgstr "वस्तुक चओड़ाइ"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:50
 #. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:200
+#: rc.cpp:206
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Grid spacing"
@@ -1478,7 +1535,7 @@ msgstr "जाली केर मध्यक दूरी"
 
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:58
 #. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:206
+#: rc.cpp:212
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Number of textlines"
@@ -1487,7 +1544,7 @@ msgstr "पाठ लाइनक संख्या"
 
 #. i18n: file: settings/dolphin_columnmodesettings.kcfg:37
 #. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
-#: rc.cpp:233
+#: rc.cpp:239
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Column width"
@@ -1496,7 +1553,7 @@ msgstr "कालम चओडाइ "
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:9
 #. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:236
+#: rc.cpp:242
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the URL be editable for the user"
@@ -1505,13 +1562,13 @@ msgstr "की यूआरएल प्रयोक्ता द्वारा
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:13
 #. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:239
+#: rc.cpp:245
 msgid "Text completion mode of the URL Navigator"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:17
 #. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:242
+#: rc.cpp:248
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the full path be shown inside the location bar"
@@ -1520,7 +1577,7 @@ msgstr "की स्थान पट्टीकेँ भीतर पूर�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:21
 #. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:245
+#: rc.cpp:251
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Is the application started the first time"
@@ -1529,7 +1586,7 @@ msgstr "की अनुप्रयोग केँ पहिल बेर च�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:25
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:248
+#: rc.cpp:254
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -1538,7 +1595,7 @@ msgstr "मुख्य यूआरएल"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:29
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:251
+#: rc.cpp:257
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Split the view into two panes"
@@ -1547,7 +1604,7 @@ msgstr "दृश्य केँ दुइ फलक मे विभाजि�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:33
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:254
+#: rc.cpp:260
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the filter bar be shown"
@@ -1556,7 +1613,7 @@ msgstr "की फिल्टर पट्टी देखाएल जएन�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:37
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:257
+#: rc.cpp:263
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the view properties be used for all directories"
@@ -1565,7 +1622,7 @@ msgstr "की सबहि डिरेक्ट्रीज क' लेल द
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:41
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:260
+#: rc.cpp:266
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Browse through archives"
@@ -1574,13 +1631,13 @@ msgstr "अभिलेखसभ मे ब्राउज करू"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:45
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:263
+#: rc.cpp:269
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:49
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:266
+#: rc.cpp:272
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -1589,7 +1646,7 @@ msgstr "इनलाइन नाम बदलू"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:53
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:269
+#: rc.cpp:275
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show selection toggle"
@@ -1598,7 +1655,7 @@ msgstr "चयन टागल देखाबू"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:57
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:272
+#: rc.cpp:278
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -1607,7 +1664,7 @@ msgstr "टूलटिप देखाबू"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:61
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:275
+#: rc.cpp:281
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -1616,7 +1673,7 @@ msgstr "संदर्भित मेनू मे 'एतए नकल कर
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:65
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:278
+#: rc.cpp:284
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Timestamp since when the view properties are valid"
@@ -1625,19 +1682,19 @@ msgstr "समय चिह्न जखन सँ दृश्य गुण व
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:68
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:281
+#: rc.cpp:287
 msgid "Use auto-expanding folders for all view types"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:72
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:284
+#: rc.cpp:290
 msgid "Show zoom slider in the statusbar"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:76
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:287
+#: rc.cpp:293
 msgid "Show the space information in the statusbar"
 msgstr ""
 
@@ -1720,22 +1777,22 @@ msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:1196
+#: dolphinmainwindow.cpp:1198
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "नवीन विंडो (&W)"
 
-#: dolphinmainwindow.cpp:1202
+#: dolphinmainwindow.cpp:1204
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "नवीन टैब"
 
-#: dolphinmainwindow.cpp:1208
+#: dolphinmainwindow.cpp:1210
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:1231
+#: dolphinmainwindow.cpp:1233
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -1743,27 +1800,22 @@ msgctxt "@action:inmenu Edit"
 msgid "Paste"
 msgstr "साटू"
 
-#: dolphinmainwindow.cpp:1234
+#: dolphinmainwindow.cpp:1236
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: dolphinmainwindow.cpp:1239
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr "उनटू चयन"
-
-#: dolphinmainwindow.cpp:1252
+#: dolphinmainwindow.cpp:1254
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "पुनः लोड करू"
 
-#: dolphinmainwindow.cpp:1258
+#: dolphinmainwindow.cpp:1260
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "रोकू"
 
-#: dolphinmainwindow.cpp:1259
+#: dolphinmainwindow.cpp:1261
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1771,24 +1823,24 @@ msgctxt "@info"
 msgid "Stop loading"
 msgstr "छाँटल जाए रहल अछि:"
 
-#: dolphinmainwindow.cpp:1264
+#: dolphinmainwindow.cpp:1266
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "संपादन करैबला स्थान"
 
-#: dolphinmainwindow.cpp:1269
+#: dolphinmainwindow.cpp:1271
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "स्थान बदलू"
 
-#: dolphinmainwindow.cpp:1280
+#: dolphinmainwindow.cpp:1282
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Close Tab"
 msgid "Recently Closed Tabs"
 msgstr "टैब बन्न करू"
 
-#: dolphinmainwindow.cpp:1303
+#: dolphinmainwindow.cpp:1305
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Show Filter Bar"
@@ -1796,17 +1848,17 @@ msgctxt "@action:inmenu Tools"
 msgid "Show Search Bar"
 msgstr "फिल्टर पट्टी देखाबू"
 
-#: dolphinmainwindow.cpp:1308
+#: dolphinmainwindow.cpp:1310
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "फिल्टर पट्टी देखाबू"
 
-#: dolphinmainwindow.cpp:1314
+#: dolphinmainwindow.cpp:1316
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "फाइलसभक तुलना करू..."
 
-#: dolphinmainwindow.cpp:1320
+#: dolphinmainwindow.cpp:1322
 #, fuzzy
 #| msgctxt "@action:inmenu Tools"
 #| msgid "Open &Terminal"
@@ -1814,77 +1866,77 @@ msgctxt "@action:inmenu Tools"
 msgid "Open Terminal"
 msgstr "टर्मिनल खोलू (&T)"
 
-#: dolphinmainwindow.cpp:1331
+#: dolphinmainwindow.cpp:1333
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "अगिला टैब सक्रिय करू"
 
-#: dolphinmainwindow.cpp:1337
+#: dolphinmainwindow.cpp:1339
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "पछिला टैब सक्रिय करू"
 
-#: dolphinmainwindow.cpp:1344
+#: dolphinmainwindow.cpp:1346
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "नवीन टैब मे खोलू"
 
-#: dolphinmainwindow.cpp:1349
+#: dolphinmainwindow.cpp:1351
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "नवीन विंडोमे खोलू."
 
-#: dolphinmainwindow.cpp:1359
+#: dolphinmainwindow.cpp:1361
 msgctxt "@action:inmenu"
 msgid "Search Bar"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1367 dolphinmainwindow.cpp:1375
+#: dolphinmainwindow.cpp:1369 dolphinmainwindow.cpp:1377
 msgctxt "@title:window"
 msgid "Information"
 msgstr "सूचना"
 
-#: dolphinmainwindow.cpp:1389 dolphinmainwindow.cpp:1396
+#: dolphinmainwindow.cpp:1391 dolphinmainwindow.cpp:1398
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "फोल्डरसभ"
 
-#: dolphinmainwindow.cpp:1411 dolphinmainwindow.cpp:1420
+#: dolphinmainwindow.cpp:1413 dolphinmainwindow.cpp:1422
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "टर्मिनल"
 
-#: dolphinmainwindow.cpp:1438 dolphinmainwindow.cpp:1448
+#: dolphinmainwindow.cpp:1440 dolphinmainwindow.cpp:1450
 msgctxt "@title:window"
 msgid "Places"
 msgstr "स्थान"
 
-#: dolphinmainwindow.cpp:1580
+#: dolphinmainwindow.cpp:1582
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "बन्न करू"
 
-#: dolphinmainwindow.cpp:1581
+#: dolphinmainwindow.cpp:1583
 msgctxt "@info"
 msgid "Close right view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1584
+#: dolphinmainwindow.cpp:1586
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "बन्न करू"
 
-#: dolphinmainwindow.cpp:1585
+#: dolphinmainwindow.cpp:1587
 msgctxt "@info"
 msgid "Close left view"
 msgstr ""
 
-#: dolphinmainwindow.cpp:1589
+#: dolphinmainwindow.cpp:1591
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "अलगाबू"
 
-#: dolphinmainwindow.cpp:1590
+#: dolphinmainwindow.cpp:1592
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -1973,7 +2025,7 @@ msgid "Start searching"
 msgstr ""
 
 #: search/dolphinsearchoptionsconfigurator.cpp:128
-#: search/dolphinsearchoptionsconfigurator.cpp:301
+#: search/dolphinsearchoptionsconfigurator.cpp:294
 msgctxt "@action:button"
 msgid "Save"
 msgstr "सहेजू"
@@ -1994,7 +2046,7 @@ msgctxt "@info"
 msgid "Close search options"
 msgstr ""
 
-#: search/dolphinsearchoptionsconfigurator.cpp:289
+#: search/dolphinsearchoptionsconfigurator.cpp:282
 #, fuzzy
 #| msgctxt "@label Tag name"
 #| msgid "Name:"
@@ -2002,42 +2054,42 @@ msgctxt "@label"
 msgid "Name:"
 msgstr "नाम:"
 
-#: search/dolphinsearchoptionsconfigurator.cpp:298
+#: search/dolphinsearchoptionsconfigurator.cpp:291
 msgctxt "@title:window"
 msgid "Save Search Options"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:64
+#: search/searchcriterionselector.cpp:66
 msgctxt "@info"
 msgid "Remove search option"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:178
+#: search/searchcriterionselector.cpp:171
 msgctxt "@label"
 msgid "Greater Than"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:179
+#: search/searchcriterionselector.cpp:172
 msgctxt "@label"
 msgid "Greater Than or Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:180
+#: search/searchcriterionselector.cpp:173
 msgctxt "@label"
 msgid "Less Than"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:181
+#: search/searchcriterionselector.cpp:174
 msgctxt "@label"
 msgid "Less Than or Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:185
+#: search/searchcriterionselector.cpp:178
 msgctxt "@label"
 msgid "Anytime"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:186
+#: search/searchcriterionselector.cpp:179
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -2045,7 +2097,7 @@ msgctxt "@label"
 msgid "Today"
 msgstr "आइ"
 
-#: search/searchcriterionselector.cpp:187
+#: search/searchcriterionselector.cpp:180
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Last Week"
@@ -2053,7 +2105,7 @@ msgctxt "@label"
 msgid "This Week"
 msgstr "पछिला सप्ताह"
 
-#: search/searchcriterionselector.cpp:188
+#: search/searchcriterionselector.cpp:181
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -2061,12 +2113,12 @@ msgctxt "@label"
 msgid "This Month"
 msgstr "ई महीना केर शुरू में"
 
-#: search/searchcriterionselector.cpp:189
+#: search/searchcriterionselector.cpp:182
 msgctxt "@label"
 msgid "This Year"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:196
+#: search/searchcriterionselector.cpp:189
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -2074,27 +2126,27 @@ msgctxt "@label"
 msgid "Date:"
 msgstr "दिनांक"
 
-#: search/searchcriterionselector.cpp:205
+#: search/searchcriterionselector.cpp:198
 msgctxt "@label Any (file size)"
 msgid "Any"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:218
+#: search/searchcriterionselector.cpp:211
 msgctxt "@label All (tags)"
 msgid "All"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:219
+#: search/searchcriterionselector.cpp:212
 msgctxt "@label"
 msgid "Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:220
+#: search/searchcriterionselector.cpp:213
 msgctxt "@label"
 msgid "Not Equal to"
 msgstr ""
 
-#: search/searchcriterionselector.cpp:224
+#: search/searchcriterionselector.cpp:217
 #, fuzzy
 #| msgctxt "@label Indicator when no tags defined"
 #| msgid "No Tags"
@@ -2102,7 +2154,7 @@ msgctxt "@label"
 msgid "Tag:"
 msgstr "कोनो टैग नहीं"
 
-#: search/searchcriterionselector.cpp:233
+#: search/searchcriterionselector.cpp:226
 msgctxt "@label Any (rating)"
 msgid "Any"
 msgstr ""
@@ -3012,13 +3064,6 @@ msgstr "कालम"
 msgctxt "@info"
 msgid "Columns view mode"
 msgstr "विभाजित दृश्य मोड"
-
-#, fuzzy
-#~| msgctxt "@label:textbox"
-#~| msgid "Search..."
-#~ msgctxt "@label"
-#~ msgid "Select..."
-#~ msgstr "खोज..."
 
 #, fuzzy
 #~| msgctxt "@label"
