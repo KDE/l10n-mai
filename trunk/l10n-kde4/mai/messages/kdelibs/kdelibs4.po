@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-02 07:26+0100\n"
+"POT-Creation-Date: 2009-12-03 06:09+0100\n"
 "PO-Revision-Date: 2008-12-03 15:06+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -5635,11 +5635,11 @@ msgstr "'%1'  खो गेल अछि."
 #: kdecore/kernel/kcmdlineargs.cpp:897
 #, kde-format
 msgctxt ""
-"@info:shell message on appcmd --version; %3 application name, other %n "
-"version strings"
+"@info:shell message on appcmd --version; do not translate 'Development "
+"Platform'%3 application name, other %n version strings"
 msgid ""
 "Qt: %1\n"
-"KDE: %2\n"
+"KDE Development Platform: %2\n"
 "%3: %4\n"
 msgstr ""
 
@@ -8848,36 +8848,42 @@ msgid ""
 msgstr ""
 "<html><font size=\"5\">%1</font><br /><b>संस्करण %2</b><br /> %3 प्रयोग में</html>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:110
-#, kde-format
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:111
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %"
+#| "3</html>"
+msgctxt ""
+"Program name, version and KDE platform version; do not translate "
+"'Development Platform'"
 msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE %3</"
-"html>"
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+"Development Platform %3</html>"
 msgstr ""
 "<html><font size=\"5\">%1</font><br /><b>संस्करण %2</b><br /> %3 प्रयोग में</html>"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:144
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:145
 #, kde-format
 msgid "License: %1"
 msgstr "लाइसेंस: %1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:157
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:158
 #: kde3support/kdeui/k3aboutapplication.cpp:51
 #: kde3support/kdeui/k3aboutapplication.cpp:77
 msgid "&About"
 msgstr "क' संबंधमे (&A) "
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:167
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:168
 #: kde3support/kdeui/k3aboutapplication.cpp:95
 msgid "A&uthor"
 msgstr "लेखक (&u)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:167
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:168
 #: kde3support/kdeui/k3aboutapplication.cpp:95
 msgid "A&uthors"
 msgstr "लेखक (&u)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:172
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:173
 #: kde3support/kdeui/k3aboutapplication.cpp:107
 msgid ""
 "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
@@ -8886,15 +8892,15 @@ msgstr ""
 "कृप्या <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a>  क' उपयोग बग "
 "रिपोट क' लेल करू.\n"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:175
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:180
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:176
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:181
 #: kde3support/kdeui/k3aboutapplication.cpp:111
 #: kde3support/kdeui/k3aboutapplication.cpp:114
 #, kde-format
 msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
 msgstr "कृप्या बग रिपोट एतय <a href=\"mailto:%1\">%2</a> करू.\n"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:193
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:194
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -8902,7 +8908,7 @@ msgctxt "@item Author name in about dialog"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:218
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:219
 #, fuzzy, kde-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -8910,17 +8916,17 @@ msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:234
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:235
 #: kde3support/kdeui/k3aboutapplication.cpp:137
 msgid "&Thanks To"
 msgstr "हिनका धन्यवाद (&T)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:257
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:258
 #: kde3support/kdeui/k3aboutapplication.cpp:164
 msgid "T&ranslation"
 msgstr "अनुवाद (&r)"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:281
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:282
 msgid "License Agreement"
 msgstr "लाइसेंस मसौदा"
 
