@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-05 06:16+0100\n"
+"POT-Creation-Date: 2009-12-09 07:53+0100\n"
 "PO-Revision-Date: 2009-01-17 22:26+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -167,39 +167,117 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
+#: widgetsExplorer/appletsfiltering.cpp:185
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "खोजल जाए बला वाक्यांश एतए भरू"
+
+#: widgetsExplorer/appletsfiltering.cpp:192
+#: widgetsExplorer/appletsfiltering.cpp:193
+msgid "Get New Widgets"
+msgstr "नवीन विजेटसभ आनू"
+
+#: widgetsExplorer/appletsfiltering.cpp:309
+msgid "Download New Plasma Widgets"
+msgstr "नवीन प्लाजमा विजेटसभ डाउनलोड करू"
+
+#: widgetsExplorer/appletsfiltering.cpp:321
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "नवीन %1 डाउनलोड करू"
+
+#: widgetsExplorer/appletsfiltering.cpp:331
+msgid "Install Widget From Local File..."
+msgstr "स्थानीय फाइल सँ विजेट सँस्थापित करू"
+
+#: widgetsExplorer/applettooltip.cpp:120
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "नवीन विजेटसभ सँस्थापित करू"
+
+#: widgetsExplorer/applettooltip.cpp:176
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:182
+msgid "Author:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:191
+msgid "Website:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:195
+msgid "License:"
+msgstr ""
+
+#: widgetsExplorer/applettooltip.cpp:202
+msgid "Unknown Applet"
+msgstr ""
+
+#: widgetsExplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "फिल्टरसभ"
+
+#: widgetsExplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "नीच्चाँ देल गेल सूचीमे सँ सँस्थापित करबाक लिए विजेट किस्म चुनू."
+
+#: widgetsExplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "प्लाज्माइड: नेटिव प्लाज्मा विजेट"
+
+#: widgetsExplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "फाइल सँ नवीन विजेट सँस्थापित करू"
+
+#: widgetsExplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "फाइल चुनू"
+
+#: widgetsExplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr "जरूरी सँस्थापक %1 लोड नहि कए सकल. देल गेल त्रुटि छल: %2"
+
+#: widgetsExplorer/openwidgetassistant.cpp:179
+#: widgetsExplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "सँस्थापन विफलता"
+
+#: widgetsExplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "पैकेज %1 क' सँस्थापन विफल."
+
+#: widgetsExplorer/plasmaappletitemmodel.cpp:183
+msgid "Containments"
+msgstr "कंटेनमेंट"
+
+#: widgetsExplorer/widgetexplorer.cpp:120
+msgid "All Widgets"
+msgstr "सबहि विजेटसभ"
+
+#: widgetsExplorer/widgetexplorer.cpp:124
+msgid "Running"
+msgstr ""
+
+#: widgetsExplorer/widgetexplorer.cpp:128
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories:"
+msgstr "श्रेणिसभ:"
+
 #, fuzzy
 #~| msgid "Add Widget"
 #~ msgid "Add Trigger"
 #~ msgstr "विजेटसभ जोड़ू"
-
-#~ msgid "Select the type of widget to install from the list below."
-#~ msgstr "नीच्चाँ देल गेल सूचीमे सँ सँस्थापित करबाक लिए विजेट किस्म चुनू."
-
-#~ msgid "Plasmoid: Native plasma widget"
-#~ msgstr "प्लाज्माइड: नेटिव प्लाज्मा विजेट"
-
-#~ msgid "Install New Widget From File"
-#~ msgstr "फाइल सँ नवीन विजेट सँस्थापित करू"
-
-#~ msgid "Select File"
-#~ msgstr "फाइल चुनू"
-
-#~ msgid "Could not load the required installer %1. The error given was: %2"
-#~ msgstr "जरूरी सँस्थापक %1 लोड नहि कए सकल. देल गेल त्रुटि छल: %2"
-
-#~ msgid "Installation Failure"
-#~ msgstr "सँस्थापन विफलता"
-
-#~ msgid "Installing the package %1 failed."
-#~ msgstr "पैकेज %1 क' सँस्थापन विफल."
-
-#, fuzzy
-#~| msgid "Categories:"
-#~ msgid "Category:"
-#~ msgstr "श्रेणिसभ:"
-
-#~ msgid "All Widgets"
-#~ msgstr "सबहि विजेटसभ"
 
 #~ msgctxt ""
 #~ "%1 is the entity (person, staff, organization...) which recommends the "
@@ -216,26 +294,8 @@ msgstr "sangeeta09@gmail.com"
 #~ msgid "Currently Running Widgets"
 #~ msgstr "चलि रहल विजेटसभ"
 
-#~ msgid "Download New Plasma Widgets"
-#~ msgstr "नवीन प्लाजमा विजेटसभ डाउनलोड करू"
-
-#~ msgctxt ""
-#~ "%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-"
-#~ "*.desktop files"
-#~ msgid "Download New %1"
-#~ msgstr "नवीन %1 डाउनलोड करू"
-
-#~ msgid "Install Widget From Local File..."
-#~ msgstr "स्थानीय फाइल सँ विजेट सँस्थापित करू"
-
 #~ msgid "Widgets"
 #~ msgstr "विजेटसभ"
-
-#~ msgid "Install New Widgets"
-#~ msgstr "नवीन विजेटसभ सँस्थापित करू"
-
-#~ msgid "Get New Widgets"
-#~ msgstr "नवीन विजेटसभ आनू"
 
 #~ msgid "Close the dialog"
 #~ msgstr "समाद बन्न करू"
@@ -268,12 +328,3 @@ msgstr "sangeeta09@gmail.com"
 #~ "<qt>चुनल जएनाइ <b>नवीन विजेट</b> क' एकटा विंडो देखओताह जे अहाँकेँ नवीन विजेट "
 #~ "डाउनलोड करबाक लेल अनुमति देत सीधा इंटरनेट सँ, जखन फाइल सँ सँस्थापन अहाँकेँ नवीन विजेटकेँ "
 #~ "जोड़ए क' लेल अनुमति देत जकरा अहाँ डिस्क पर रखलहुँ अछि.</qt>"
-
-#~ msgid "Enter search phrase here"
-#~ msgstr "खोजल जाए बला वाक्यांश एतए भरू"
-
-#~ msgid "Filters"
-#~ msgstr "फिल्टरसभ"
-
-#~ msgid "Containments"
-#~ msgstr "कंटेनमेंट"
