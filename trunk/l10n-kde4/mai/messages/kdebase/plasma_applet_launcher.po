@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-12-09 07:53+0100\n"
+"POT-Creation-Date: 2009-12-15 06:04+0100\n"
 "PO-Revision-Date: 2009-01-17 22:29+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -50,15 +50,30 @@ msgstr "बाहर निकालू"
 msgid "Safely Remove"
 msgstr "हटाबू"
 
+#: ui/launcher.cpp:116 ui/launcher.cpp:175 core/favoritesmodel.cpp:48
+#: core/favoritesmodel.cpp:302 simpleapplet/simpleapplet.cpp:186
+msgid "Favorites"
+msgstr "प्रिय"
+
+#: ui/launcher.cpp:118 ui/launcher.cpp:205 core/recentlyusedmodel.cpp:120
+#: core/systemmodel.cpp:82 simpleapplet/simpleapplet.cpp:188
+msgid "Applications"
+msgstr "अनुप्रयोग"
+
+#: ui/launcher.cpp:118 ui/launcher.cpp:239 core/systemmodel.cpp:347
+#: simpleapplet/simpleapplet.cpp:189
+msgid "Computer"
+msgstr "कम्प्यूटर"
+
+#: ui/launcher.cpp:119 ui/launcher.cpp:218 core/recentlyusedmodel.cpp:186
+#: simpleapplet/simpleapplet.cpp:190
+msgid "Recently Used"
+msgstr "हालमे प्रयुक्त"
+
 #: ui/launcher.cpp:163 core/leavemodel.cpp:105
 #: simpleapplet/simpleapplet.cpp:204
 msgid "Leave"
 msgstr "छोडू"
-
-#: ui/launcher.cpp:175 core/favoritesmodel.cpp:48 core/favoritesmodel.cpp:302
-#: simpleapplet/simpleapplet.cpp:186
-msgid "Favorites"
-msgstr "प्रिय"
 
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
@@ -68,16 +83,6 @@ msgstr "सोर्ट वर्णक्रम मे A केँ Z"
 msgid "Sort Alphabetically (Z to A)"
 msgstr "सोर्ट वर्णक्रम मे Z केँ A"
 
-#: ui/launcher.cpp:205 core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:82
-#: simpleapplet/simpleapplet.cpp:188
-msgid "Applications"
-msgstr "अनुप्रयोग"
-
-#: ui/launcher.cpp:218 core/recentlyusedmodel.cpp:186
-#: simpleapplet/simpleapplet.cpp:190
-msgid "Recently Used"
-msgstr "हालमे प्रयुक्त"
-
 #: ui/launcher.cpp:220
 msgid "Clear Recent Applications"
 msgstr "हालक अनुप्रयोग साफ करू"
@@ -85,11 +90,6 @@ msgstr "हालक अनुप्रयोग साफ करू"
 #: ui/launcher.cpp:221
 msgid "Clear Recent Documents"
 msgstr "हालमे प्रयुक्त दस्ताबेज साफ करू"
-
-#: ui/launcher.cpp:239 core/systemmodel.cpp:347
-#: simpleapplet/simpleapplet.cpp:189
-msgid "Computer"
-msgstr "कम्प्यूटर"
 
 #: ui/launcher.cpp:527
 #, kde-format
