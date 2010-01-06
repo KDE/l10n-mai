@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-05 06:21+0100\n"
+"POT-Creation-Date: 2010-01-06 08:32+0100\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -226,10 +226,6 @@ msgstr ""
 
 #: dialogs/StylesWidget.cpp:217
 msgid "Edit Character Style"
-msgstr ""
-
-#: ChangeTrackingToolFactory.cpp:27
-msgid "Change tracking tool"
 msgstr ""
 
 #: ChangeTrackingToolFactory.cpp:29
@@ -826,10 +822,14 @@ msgstr "जोडू"
 
 #. i18n: file: dialogs/ChangeConfigureDialog.ui:74
 #. i18n: ectx: property (text), widget (QLabel, insertionColorLabel)
-#: rc.cpp:312
+#. i18n: file: dialogs/ChangeConfigureDialog.ui:149
+#. i18n: ectx: property (text), widget (QLabel, deletionColorLabel)
+#. i18n: file: dialogs/ChangeConfigureDialog.ui:221
+#. i18n: ectx: property (text), widget (QLabel, formatColorLabel)
+#: rc.cpp:312 rc.cpp:321 rc.cpp:330
 #, fuzzy
 #| msgid "Background color"
-msgid "BackGround Color"
+msgid "Background Color"
 msgstr "पृष्ठभूमि रंग"
 
 #. i18n: file: dialogs/ChangeConfigureDialog.ui:127
@@ -839,16 +839,6 @@ msgstr "पृष्ठभूमि रंग"
 #| msgid "Delete"
 msgid "Deletions"
 msgstr "मेटाबू"
-
-#. i18n: file: dialogs/ChangeConfigureDialog.ui:149
-#. i18n: ectx: property (text), widget (QLabel, deletionColorLabel)
-#. i18n: file: dialogs/ChangeConfigureDialog.ui:221
-#. i18n: ectx: property (text), widget (QLabel, formatColorLabel)
-#: rc.cpp:321 rc.cpp:330
-#, fuzzy
-#| msgid "Background color"
-msgid "Background Color"
-msgstr "पृष्ठभूमि रंग"
 
 #. i18n: file: dialogs/ChangeConfigureDialog.ui:199
 #. i18n: ectx: property (title), widget (QGroupBox, formatGroupBox)
@@ -1228,10 +1218,11 @@ msgstr ""
 msgid "Autocorrection"
 msgstr ""
 
-#: TextToolFactory.cpp:27
-msgid "Text tool"
-msgstr ""
-
 #: TextToolFactory.cpp:29
 msgid "Text editing tool"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Background color"
+#~ msgid "BackGround Color"
+#~ msgstr "पृष्ठभूमि रंग"
