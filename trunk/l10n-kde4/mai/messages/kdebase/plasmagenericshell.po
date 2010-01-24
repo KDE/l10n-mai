@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-shells-common\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-12 06:42+0100\n"
+"POT-Creation-Date: 2010-01-24 06:12+0100\n"
 "PO-Revision-Date: 2009-01-17 22:26+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -20,6 +20,42 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#: tests/background.cpp:38
+msgid "Plasma"
+msgstr ""
+
+#: tests/background.cpp:40
+msgid "(C) 2008, Aaron Seigo"
+msgstr ""
+
+#: mousepluginwidget.cpp:46
+msgid "No plugins found, check your installation."
+msgstr ""
+
+#: mousepluginwidget.cpp:215
+msgid "Configure Plugin"
+msgstr ""
+
+#: mouseplugins.cpp:38
+msgid "Add Action..."
+msgstr ""
+
+#: mouseplugins.cpp:38
+msgid "Add another mouse action"
+msgstr ""
+
+#: mouseplugins.cpp:79
+msgid "This trigger is already assigned to another action."
+msgstr ""
+
+#: mouseplugins.cpp:79 mouseplugins.cpp:158
+msgid "Reassign"
+msgstr ""
+
+#: mouseplugins.cpp:158
+msgid "This trigger is assigned to another plugin."
+msgstr ""
 
 #: backgrounddialog.cpp:208
 msgid "Desktop Settings"
@@ -42,6 +78,156 @@ msgstr ""
 #: backgrounddialog.cpp:246
 msgid "Mouse Actions"
 msgstr ""
+
+#. i18n: file: ActivityConfiguration.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:3 rc.cpp:20
+msgid "Type:"
+msgstr ""
+
+#. i18n: file: ActivityConfiguration.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:6 rc.cpp:23
+msgid "Name:"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:50
+#. i18n: ectx: property (text), widget (QLabel, m_monitor)
+#: rc.cpp:9 rc.cpp:26
+msgid "Monitor"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:150
+#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
+#: rc.cpp:12 rc.cpp:29
+msgid "&Type:"
+msgstr ""
+
+#. i18n: file: MousePlugins.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, MousePlugins)
+#: rc.cpp:15 rc.cpp:32
+msgid "Mouse Plugins"
+msgstr ""
+
+#: rc.cpp:16
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:17
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
+#: widgetsexplorer/appletsfiltering.cpp:186
+#, fuzzy
+#| msgid "Enter search phrase here"
+msgid "Enter Search Term"
+msgstr "खोजल जाए बला वाक्यांश एतए भरू"
+
+#: widgetsexplorer/appletsfiltering.cpp:191
+#: widgetsexplorer/appletsfiltering.cpp:192
+msgid "Get New Widgets"
+msgstr "नवीन विजेटसभ आनू"
+
+#: widgetsexplorer/appletsfiltering.cpp:318
+msgid "Download New Plasma Widgets"
+msgstr "नवीन प्लाजमा विजेटसभ डाउनलोड करू"
+
+#: widgetsexplorer/appletsfiltering.cpp:330
+#, kde-format
+msgctxt ""
+"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
+"desktop files"
+msgid "Download New %1"
+msgstr "नवीन %1 डाउनलोड करू"
+
+#: widgetsexplorer/appletsfiltering.cpp:340
+msgid "Install Widget From Local File..."
+msgstr "स्थानीय फाइल सँ विजेट सँस्थापित करू"
+
+#: widgetsexplorer/openwidgetassistant.cpp:46
+msgid "Select the type of widget to install from the list below."
+msgstr "नीच्चाँ देल गेल सूचीमे सँ सँस्थापित करबाक लिए विजेट किस्म चुनू."
+
+#: widgetsexplorer/openwidgetassistant.cpp:56
+msgid "Plasmoid: Native plasma widget"
+msgstr "प्लाज्माइड: नेटिव प्लाज्मा विजेट"
+
+#: widgetsexplorer/openwidgetassistant.cpp:77
+msgid "Install New Widget From File"
+msgstr "फाइल सँ नवीन विजेट सँस्थापित करू"
+
+#: widgetsexplorer/openwidgetassistant.cpp:82
+msgid "Select File"
+msgstr "फाइल चुनू"
+
+#: widgetsexplorer/openwidgetassistant.cpp:176
+#, kde-format
+msgid "Could not load the required installer %1. The error given was: %2"
+msgstr "जरूरी सँस्थापक %1 लोड नहि कए सकल. देल गेल त्रुटि छल: %2"
+
+#: widgetsexplorer/openwidgetassistant.cpp:179
+#: widgetsexplorer/openwidgetassistant.cpp:191
+msgid "Installation Failure"
+msgstr "सँस्थापन विफलता"
+
+#: widgetsexplorer/openwidgetassistant.cpp:190
+#, kde-format
+msgid "Installing the package %1 failed."
+msgstr "पैकेज %1 क' सँस्थापन विफल."
+
+#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "फिल्टरसभ"
+
+#: widgetsexplorer/plasmaappletitemmodel.cpp:183
+msgid "Containments"
+msgstr "कंटेनमेंट"
+
+#: widgetsexplorer/applettooltip.cpp:130
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "नवीन विजेटसभ सँस्थापित करू"
+
+#: widgetsexplorer/applettooltip.cpp:186
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:192
+#, kde-format
+msgid "<font color=\"%1\">Author:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:201
+#, kde-format
+msgid "<font color=\"%1\">Website:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:205
+#, kde-format
+msgid "<font color=\"%1\">License:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:214
+msgid "Unknown Applet"
+msgstr ""
+
+#: widgetsexplorer/widgetexplorer.cpp:120
+msgid "All Widgets"
+msgstr "सबहि विजेटसभ"
+
+#: widgetsexplorer/widgetexplorer.cpp:124
+msgid "Running"
+msgstr ""
+
+#: widgetsexplorer/widgetexplorer.cpp:128
+#, fuzzy
+#| msgid "Categories:"
+msgid "Categories:"
+msgstr "श्रेणिसभ:"
 
 #: mouseinputbutton.cpp:33
 #, fuzzy
@@ -98,184 +284,6 @@ msgid ""
 "Hold down the modifier keys you want, then click a mouse button or scroll a "
 "mouse wheel here"
 msgstr ""
-
-#: mouseplugins.cpp:38
-msgid "Add Action..."
-msgstr ""
-
-#: mouseplugins.cpp:38
-msgid "Add another mouse action"
-msgstr ""
-
-#: mouseplugins.cpp:79
-msgid "This trigger is already assigned to another action."
-msgstr ""
-
-#: mouseplugins.cpp:79 mouseplugins.cpp:158
-msgid "Reassign"
-msgstr ""
-
-#: mouseplugins.cpp:158
-msgid "This trigger is assigned to another plugin."
-msgstr ""
-
-#: mousepluginwidget.cpp:46
-msgid "No plugins found, check your installation."
-msgstr ""
-
-#: mousepluginwidget.cpp:215
-msgid "Configure Plugin"
-msgstr ""
-
-#. i18n: file: ActivityConfiguration.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:3 rc.cpp:20
-msgid "Type:"
-msgstr ""
-
-#. i18n: file: ActivityConfiguration.ui:40
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:6 rc.cpp:23
-msgid "Name:"
-msgstr ""
-
-#. i18n: file: BackgroundDialog.ui:50
-#. i18n: ectx: property (text), widget (QLabel, m_monitor)
-#: rc.cpp:9 rc.cpp:26
-msgid "Monitor"
-msgstr ""
-
-#. i18n: file: BackgroundDialog.ui:150
-#. i18n: ectx: property (text), widget (QLabel, m_wallpaperTypeLabel)
-#: rc.cpp:12 rc.cpp:29
-msgid "&Type:"
-msgstr ""
-
-#. i18n: file: MousePlugins.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, MousePlugins)
-#: rc.cpp:15 rc.cpp:32
-msgid "Mouse Plugins"
-msgstr ""
-
-#: rc.cpp:16
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:17
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#: widgetsExplorer/appletsfiltering.cpp:186
-#, fuzzy
-#| msgid "Enter search phrase here"
-msgid "Enter Search Term"
-msgstr "खोजल जाए बला वाक्यांश एतए भरू"
-
-#: widgetsExplorer/appletsfiltering.cpp:191
-#: widgetsExplorer/appletsfiltering.cpp:192
-msgid "Get New Widgets"
-msgstr "नवीन विजेटसभ आनू"
-
-#: widgetsExplorer/appletsfiltering.cpp:318
-msgid "Download New Plasma Widgets"
-msgstr "नवीन प्लाजमा विजेटसभ डाउनलोड करू"
-
-#: widgetsExplorer/appletsfiltering.cpp:330
-#, kde-format
-msgctxt ""
-"%1 is a type of widgets, as defined by e.g. some plasma-packagestructure-*."
-"desktop files"
-msgid "Download New %1"
-msgstr "नवीन %1 डाउनलोड करू"
-
-#: widgetsExplorer/appletsfiltering.cpp:340
-msgid "Install Widget From Local File..."
-msgstr "स्थानीय फाइल सँ विजेट सँस्थापित करू"
-
-#: widgetsExplorer/applettooltip.cpp:130
-#, fuzzy
-#| msgid "Install New Widgets"
-msgid "Uninstall Widget"
-msgstr "नवीन विजेटसभ सँस्थापित करू"
-
-#: widgetsExplorer/applettooltip.cpp:186
-#, kde-format
-msgid "Version %1"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:192
-#, kde-format
-msgid "<font color=\"%1\">Author:</font>"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:201
-#, kde-format
-msgid "<font color=\"%1\">Website:</font>"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:205
-#, kde-format
-msgid "<font color=\"%1\">License:</font>"
-msgstr ""
-
-#: widgetsExplorer/applettooltip.cpp:214
-msgid "Unknown Applet"
-msgstr ""
-
-#: widgetsExplorer/kcategorizeditemsviewmodels.cpp:72
-msgid "Filters"
-msgstr "फिल्टरसभ"
-
-#: widgetsExplorer/openwidgetassistant.cpp:46
-msgid "Select the type of widget to install from the list below."
-msgstr "नीच्चाँ देल गेल सूचीमे सँ सँस्थापित करबाक लिए विजेट किस्म चुनू."
-
-#: widgetsExplorer/openwidgetassistant.cpp:56
-msgid "Plasmoid: Native plasma widget"
-msgstr "प्लाज्माइड: नेटिव प्लाज्मा विजेट"
-
-#: widgetsExplorer/openwidgetassistant.cpp:77
-msgid "Install New Widget From File"
-msgstr "फाइल सँ नवीन विजेट सँस्थापित करू"
-
-#: widgetsExplorer/openwidgetassistant.cpp:82
-msgid "Select File"
-msgstr "फाइल चुनू"
-
-#: widgetsExplorer/openwidgetassistant.cpp:176
-#, kde-format
-msgid "Could not load the required installer %1. The error given was: %2"
-msgstr "जरूरी सँस्थापक %1 लोड नहि कए सकल. देल गेल त्रुटि छल: %2"
-
-#: widgetsExplorer/openwidgetassistant.cpp:179
-#: widgetsExplorer/openwidgetassistant.cpp:191
-msgid "Installation Failure"
-msgstr "सँस्थापन विफलता"
-
-#: widgetsExplorer/openwidgetassistant.cpp:190
-#, kde-format
-msgid "Installing the package %1 failed."
-msgstr "पैकेज %1 क' सँस्थापन विफल."
-
-#: widgetsExplorer/plasmaappletitemmodel.cpp:183
-msgid "Containments"
-msgstr "कंटेनमेंट"
-
-#: widgetsExplorer/widgetexplorer.cpp:120
-msgid "All Widgets"
-msgstr "सबहि विजेटसभ"
-
-#: widgetsExplorer/widgetexplorer.cpp:124
-msgid "Running"
-msgstr ""
-
-#: widgetsExplorer/widgetexplorer.cpp:128
-#, fuzzy
-#| msgid "Categories:"
-msgid "Categories:"
-msgstr "श्रेणिसभ:"
 
 #, fuzzy
 #~| msgid "Add Widget"
