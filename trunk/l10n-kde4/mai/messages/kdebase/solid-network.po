@@ -1,16 +1,17 @@
-# translation of solid-network.po to maithili
+# translation of solid-network.po to Maithili
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2008.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: solid-network\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-06-02 13:33+0200\n"
-"PO-Revision-Date: 2009-01-12 17:32+0530\n"
-"Last-Translator: \n"
-"Language-Team: maithili <en@li.org>\n"
+"PO-Revision-Date: 2010-01-29 16:35+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,10 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "\n"
+"\n"
 
 #: solid-network.cpp:54
 msgid "solid-network"
-msgstr ""
+msgstr "solid-network"
 
 #: solid-network.cpp:56
 msgid ""
@@ -58,8 +60,7 @@ msgid "             # List the network devices present.\n"
 msgstr "             # मोजुद नेटवर्क उपकरणसभक सूची दिअ'.\n"
 
 #: solid-network.cpp:406
-msgid ""
-"             # List the networks known to the device specified by 'uni'.\n"
+msgid "             # List the networks known to the device specified by 'uni'.\n"
 msgstr ""
 "             # अओजार द्वारा चिन्हल गेल 'यूएनआई' द्वारा निर्दिष्ट नेटवर्क केर सूची "
 "दिअ'.\n"
@@ -79,6 +80,18 @@ msgid ""
 "             # properties of the network on 'device-uni' that 'network-uni' "
 "refers to.\n"
 msgstr ""
+"             # Query whether networking features are active or not.\n"
+"             # - If the 'status' option is given, return whether\n"
+"             # networking is enabled for the system\n"
+"             # - If the 'wireless' option is given, return whether\n"
+"             # wireless is enabled for the system\n"
+"             # - If the 'wireless-hardware' option is given,\n"
+"             #  return whether the wireless hardware is enabled\n"
+"             # - If the 'interface' option is given, print the\n"
+"             # properties of the network interface that 'uni' refers to.\n"
+"             # - If the 'network' option is given, print the\n"
+"             # properties of the network on 'device-uni' that 'network-uni' "
+"refers to.\n"
 
 #: solid-network.cpp:422 solid-network.cpp:425
 msgid "             # Enable or disable networking on this system.\n"
@@ -95,6 +108,14 @@ msgid ""
 "             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
 "             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
 msgstr ""
+"             # Activate the network 'network-uni' on 'device-uni'.\n"
+"             # Optionally, use WEP128, open-system encryption with hex key "
+"'key'. (Hardcoded)\n"
+"             # Where 'authentication' is one of:\n"
+"             # wep hex64|ascii64|hex128|ascii128|passphrase64|passphrase128 "
+"'key' [open|shared]\n"
+"             # wpapsk wpa|wpa2 tkip|ccmp-aes password\n"
+"             # wpaeap UNIMPLEMENTED IN SOLIDSHELL\n"
 
 #: solid-network.cpp:478 solid-network.cpp:498 solid-network.cpp:517
 #, kde-format
@@ -173,3 +194,4 @@ msgstr "प्रगति: %1%"
 #, kde-format
 msgid "Info: %1"
 msgstr "जानकारी: %1"
+

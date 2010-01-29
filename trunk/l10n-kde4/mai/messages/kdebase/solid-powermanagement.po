@@ -1,16 +1,17 @@
-# translation of solid-powermanagement.po to maithili
+# translation of solid-powermanagement.po to Maithili
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2008.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: solid-powermanagement\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-02-27 10:51+0100\n"
-"PO-Revision-Date: 2009-01-12 17:29+0530\n"
-"Last-Translator: \n"
-"Language-Team: maithili <en@li.org>\n"
+"PO-Revision-Date: 2010-01-29 16:35+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,10 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "\n"
+"\n"
 
 #: solid-powermanagement.cpp:49
 msgid "solid-powermanagement"
-msgstr ""
+msgstr "solid-powermanagement"
 
 #: solid-powermanagement.cpp:51
 msgid ""
@@ -65,6 +67,15 @@ msgid ""
 "             # - If the 'cpufreq' option is specified, give the list of\n"
 "             # supported CPU frequency policies\n"
 msgstr ""
+"             # List a particular set of information regarding power "
+"management.\n"
+"             # - If the 'suspend' option is specified, give the list of "
+"suspend\n"
+"             # methods supported by the system\n"
+"             # - If the 'scheme' option is specified, give the list of\n"
+"             # power management schemes supported by this system\n"
+"             # - If the 'cpufreq' option is specified, give the list of\n"
+"             # supported CPU frequency policies\n"
 
 #: solid-powermanagement.cpp:209
 msgid ""
@@ -75,6 +86,12 @@ msgid ""
 "policy\n"
 "             # set corresponds to 'value'\n"
 msgstr ""
+"             # Set power management options of the system.\n"
+"             # - If the 'scheme' option is specified, the power management\n"
+"             # scheme set corresponds to 'value'\n"
+"             # - If the 'cpufreq' option is specified, the CPU frequency "
+"policy\n"
+"             # set corresponds to 'value'\n"
 
 #: solid-powermanagement.cpp:216
 msgid "             # Suspend the computer using the given 'method'.\n"
@@ -88,6 +105,11 @@ msgid ""
 "             # - If the 'get' option is specified, the current brightness\n"
 "             # is returned (as a percentage)'\n"
 msgstr ""
+"             # Set and get brightness options of the system.\n"
+"             # - If the 'set' option is specified, the brightness is\n"
+"             # set to 'value' (as a percentage)\n"
+"             # - If the 'get' option is specified, the current brightness\n"
+"             # is returned (as a percentage)'\n"
 
 #: solid-powermanagement.cpp:270 solid-powermanagement.cpp:289
 #, kde-format
@@ -134,3 +156,4 @@ msgstr "प्रगति: %1%"
 #, kde-format
 msgid "Info: %1"
 msgstr "जानकारी: %1"
+
