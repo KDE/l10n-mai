@@ -3,18 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-01-19 06:22+0100\n"
-"PO-Revision-Date: 2009-05-31 12:55+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"PO-Revision-Date: 2010-01-29 15:57+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
@@ -136,8 +138,7 @@ msgid "Stephan Kulow"
 msgstr "स्टीफन कुलोव"
 
 #: src/konqfactory.cpp:248
-msgid ""
-"Developer (HTML rendering engine, I/O library, regression test framework)"
+msgid "Developer (HTML rendering engine, I/O library, regression test framework)"
 msgstr "विकासकर्ता (एचटीएमएल रेंडरिंग इंजिन, आई/ओ लाइब्रेरी, रीग्रेसन जाँचि फ्रेमवर्क)"
 
 #: src/konqfactory.cpp:249
@@ -437,10 +438,9 @@ msgid "Home Folder"
 msgstr "घर फोल्डर"
 
 #: src/konqmainwindow.cpp:2045 src/konqmainwindow.cpp:3590
-#, fuzzy
 #| msgid "Home Page"
 msgid "Home"
-msgstr "पहिल पन्ना"
+msgstr "घर"
 
 #: src/konqmainwindow.cpp:2051
 msgid "Navigate to your 'Home Folder'"
@@ -611,11 +611,10 @@ msgid "Recently Visited"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3609
-#, fuzzy
 #| msgid "Show History Sidebar"
 msgctxt "@action:inmenu Go"
 msgid "Show History"
-msgstr "इतिहास बाजूपट्टी देखाबू"
+msgstr "इतिहास देखाबू"
 
 #: src/konqmainwindow.cpp:3615
 #, fuzzy
@@ -709,8 +708,7 @@ msgid "Location Bar"
 msgstr "स्थान पट्टी"
 
 #: src/konqmainwindow.cpp:3800
-msgid ""
-"<html>Location Bar<br /><br />Enter a web address or search term.</html>"
+msgid "<html>Location Bar<br /><br />Enter a web address or search term.</html>"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3804
@@ -807,8 +805,7 @@ msgid ""
 msgstr ""
 
 #: src/konqmainwindow.cpp:3877
-msgid ""
-"Force a reload of the currently displayed document and any contained images"
+msgid "Force a reload of the currently displayed document and any contained images"
 msgstr ""
 
 #: src/konqmainwindow.cpp:3880
@@ -938,8 +935,7 @@ msgid "&View Mode"
 msgstr ""
 
 #: src/konqmainwindow.cpp:5020
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
+msgid "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत सारे टैब खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
 #: src/konqmainwindow.cpp:5022 src/konqviewmanager.cpp:1393
@@ -970,8 +966,7 @@ msgid "no name"
 msgstr "कोनो नाम नहि"
 
 #: src/konqmainwindow.cpp:5226
-msgid ""
-"Your sidebar is not functional or unavailable. A new entry cannot be added."
+msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "अहाँक साइडबार फंक्शनल नहि अछि अथवा उपलब्ध नहि अछि. एकटा नवीन प्रविष्टि जोडी नहि "
 "जाए सकैत अछि."
@@ -1022,8 +1017,7 @@ msgstr "सहेजू सत्र"
 
 #: src/konqsessiondlg.cpp:253
 #, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
+msgid "A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr ""
 
 #: src/konqsessiondlg.cpp:254
@@ -1041,7 +1035,7 @@ msgstr ""
 
 #: src/konqhistorymodel.cpp:233
 msgid "Local"
-msgstr ""
+msgstr "स्थानीय"
 
 #: src/konqhistorymodel.cpp:236
 msgid "Miscellaneous"
@@ -1052,7 +1046,7 @@ msgstr "विविध"
 #| msgid "Clear History"
 msgctxt "@title:window"
 msgid "History"
-msgstr "इतिहास साफ करू"
+msgstr "इतिहास"
 
 #: src/konqhistorydialog.cpp:60 src/konqhistoryview.cpp:143
 msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
@@ -1150,7 +1144,7 @@ msgstr "नवीन टैब मे खोलू"
 #, fuzzy
 #| msgid "Copy Link Address"
 msgid "&Copy Link Address"
-msgstr "लिंक पता नकल करू"
+msgstr "कड़ी क' पता नकल करू (&C)"
 
 #: src/konqhistoryview.cpp:76
 msgid "&Remove Entry"
@@ -1239,8 +1233,7 @@ msgstr "खोलबाक लेल सत्र"
 
 #: src/konqmain.cpp:63
 msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-"ई यूआरएल मे उपयोग क' लेल माइम प्रकार, (जहिना text/html अथवा inode/directory)"
+msgstr "ई यूआरएल मे उपयोग क' लेल माइम प्रकार, (जहिना text/html अथवा inode/directory)"
 
 #: src/konqmain.cpp:65
 msgid ""
@@ -1273,7 +1266,7 @@ msgstr "वेब पार्श्व पट्टी"
 #| msgid "Clear History"
 msgctxt "@title:tab"
 msgid "History"
-msgstr "इतिहास साफ करू"
+msgstr "इतिहास"
 
 #: sidebar/history_module/kcmhistory.cpp:71
 msgid " day"
@@ -1301,8 +1294,7 @@ msgstr[1] "दिन"
 
 #: sidebar/history_module/kcmhistory.cpp:198
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
-msgstr ""
-"<h1>इतिहास किनार पट्टी</h1> अहाँ एतय इतिहास बाजू पट्टी केँ कान्फिगर कए सकैत छी."
+msgstr "<h1>इतिहास किनार पट्टी</h1> अहाँ एतय इतिहास बाजू पट्टी केँ कान्फिगर कए सकैत छी."
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:417
 #, kde-format
@@ -1412,7 +1404,7 @@ msgstr "नवीन फोल्डर बनाबू...(&C)"
 
 #: sidebar/trees/konq_sidebartree.cpp:214
 msgid "Move to Trash"
-msgstr ""
+msgstr "रद्दीमे भेजू"
 
 #: sidebar/trees/konq_sidebartree.cpp:218
 msgid "Rename"
@@ -1673,8 +1665,7 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:157
 #, kde-format
-msgid ""
-"For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
+msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
 msgstr "कान्करर केर संबंध मे विस्तृत दस्ताबेजसभ क' लेल <a href=\"%1\">एतए</a> देखू."
 
 #: about/konq_aboutpage.cc:159
@@ -1737,10 +1728,8 @@ msgstr "<A HREF=\"%1\">ECMA-262</A> संस्करण 3 (मोटा रू
 
 #: about/konq_aboutpage.cc:214
 #, kde-format
-msgid ""
-"JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
-msgstr ""
-"जावास्क्रिप्ट अक्षम अछि (विश्वव्यापी). जावास्क्रिप्ट सक्षम करू <A HREF=\"%1\">एतए</A>."
+msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
+msgstr "जावास्क्रिप्ट अक्षम अछि (विश्वव्यापी). जावास्क्रिप्ट सक्षम करू <A HREF=\"%1\">एतए</A>."
 
 #: about/konq_aboutpage.cc:215
 #, kde-format
@@ -1947,10 +1936,8 @@ msgstr ""
 
 #: about/konq_aboutpage.cc:322
 #, kde-format
-msgid ""
-"Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
-msgstr ""
-"अपन इंटरनेट कनेक्शनक गति केँ बढाबै क' लेल कैचिंग <a href=\"%1\">प्राक्सी</a> क' प्रयोग करू."
+msgid "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
+msgstr "अपन इंटरनेट कनेक्शनक गति केँ बढाबै क' लेल कैचिंग <a href=\"%1\">प्राक्सी</a> क' प्रयोग करू."
 
 #: about/konq_aboutpage.cc:324
 #, fuzzy, kde-format
@@ -1987,8 +1974,7 @@ msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr "<td>माइम प्रकार</td><td>विवरण</td><td>प्रत्यय</td><td>प्लगइन</td>"
 
 #: about/konq_aboutpage.cc:462
-msgid ""
-"Do you want to disable showing the introduction in the webbrowsing profile?"
+msgid "Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr "की अहाँ वेब ब्राउजिंग प्रोफाइल मे परिचय देखाओल जाएनाइ अक्षम कएनाइ चाहब?"
 
 #: about/konq_aboutpage.cc:464
@@ -2012,8 +1998,7 @@ msgid "&Execute Shell Command..."
 msgstr "शेल कमांड चलाबू...(&E)"
 
 #: shellcmdplugin/kshellcmdplugin.cpp:50
-msgid ""
-"KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
+msgid "KShellCmdPlugin::slotExecuteShellCommand: Program error, please report a bug."
 msgstr ""
 
 #: shellcmdplugin/kshellcmdplugin.cpp:56
@@ -2389,29 +2374,3 @@ msgid ""
 "will be opened inside current window."
 msgstr ""
 
-#~ msgid "&Save View Profile \"%1\"..."
-#~ msgstr "दृश्य प्रोफाइल सहेजू \"%1\"...(&S)"
-
-#~ msgid "Configure Navigation Panel"
-#~ msgstr "नेविगेशन फलक कान्फिगर करू"
-
-#~ msgid "Close Navigation Panel"
-#~ msgstr "नेविगेशन फलक बन्न करू"
-
-#~ msgid "Select Type"
-#~ msgstr "प्रकार चुनू"
-
-#~ msgid "Select type:"
-#~ msgstr "प्रकार चुनू:"
-
-#~ msgid "Web SideBar Plugin"
-#~ msgstr "वेब पार्श्व पट्टी प्लगइन"
-
-#~ msgid "<qt><b>%1</b> does not exist</qt>"
-#~ msgstr "<qt><b>%1</b> मोजुद नहि अछि<qt>"
-
-#~ msgid "Minutes"
-#~ msgstr "मिनट"
-
-#~ msgid "Days"
-#~ msgstr "दिन"
