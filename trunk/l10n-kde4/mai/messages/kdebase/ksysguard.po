@@ -3,18 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-01-16 05:59+0100\n"
-"PO-Revision-Date: 2009-01-17 23:00+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"PO-Revision-Date: 2010-01-29 16:05+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -533,7 +535,7 @@ msgstr ""
 
 #: ksgrd/SensorManager.cc:162
 msgid "Disk Information"
-msgstr ""
+msgstr "डिस्क सूचना"
 
 #: ksgrd/SensorManager.cc:165
 #, kde-format
@@ -957,7 +959,7 @@ msgstr "मापक"
 #, fuzzy
 #| msgid "Vertical Scale"
 msgid "Vertical scale"
-msgstr "खडा स्केल"
+msgstr "उर्ध्वाधर पैमाना"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:97
 msgid "Specify graph range:"
@@ -987,7 +989,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Horizontal Scale"
 msgid "Horizontal scale"
-msgstr "आडा स्केल"
+msgstr "क्षैतिज पएमाना"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:133
 #, fuzzy
@@ -1101,7 +1103,7 @@ msgstr ""
 #, kde-format
 msgctxt "units"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #: SensorDisplayLib/FancyPlotter.cc:518
 #, kde-format
@@ -1120,25 +1122,25 @@ msgstr "%1 क' %2"
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
-msgstr ""
+msgstr "%1 TB"
 
 #: SensorDisplayLib/FancyPlotter.cc:613
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
-msgstr ""
+msgstr "%1 GB"
 
 #: SensorDisplayLib/FancyPlotter.cc:616
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
-msgstr ""
+msgstr "%1 MB"
 
 #: SensorDisplayLib/FancyPlotter.cc:619
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
-msgstr ""
+msgstr "%1 KB"
 
 #: SensorDisplayLib/FancyPlotter.cc:624
 #, kde-format
@@ -1170,7 +1172,7 @@ msgstr ""
 #| msgid "%"
 msgctxt "unitless - just a number"
 msgid "%1"
-msgstr "%"
+msgstr "%1"
 
 #: SensorDisplayLib/SensorLogger.cc:138
 msgid "Logging"
@@ -1241,8 +1243,7 @@ msgid "Foreground color:"
 msgstr "अग्रभूमि क' रंगः"
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgctxt "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
 msgstr "मल्टीमीटर बिन्यास "
 
@@ -1277,7 +1278,7 @@ msgstr "फाइल (&F)"
 #, fuzzy
 #| msgid "&File"
 msgid "&View"
-msgstr "फाइल (&F)"
+msgstr "दृश्य (&V)"
 
 #. i18n: file: ksysguardui.rc:18
 #. i18n: ectx: Menu (settings)
@@ -1329,7 +1330,7 @@ msgstr "अलार्म सक्षम करू (&n)"
 #, fuzzy
 #| msgid "Title:"
 msgid "&Title:"
-msgstr "शीर्षक:"
+msgstr "शीर्षक (&T):"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
@@ -1653,69 +1654,3 @@ msgstr ""
 msgid "Optional worksheet files to load"
 msgstr "लोड करब क' लेल वैकल्पिक वर्कशीट फाइलसभ"
 
-#, fuzzy
-#~| msgid " sec"
-#~ msgctxt "Units"
-#~ msgid "%1 second"
-#~ msgid_plural "%1 seconds"
-#~ msgstr[0] " sec"
-#~ msgstr[1] " sec"
-
-#, fuzzy
-#~| msgctxt "a percentage"
-#~| msgid "%"
-#~ msgid "%1"
-#~ msgstr "%"
-
-#~ msgctxt "Arguments are formatted byte sizes (used/total)"
-#~ msgid " Memory: %1 / %2 "
-#~ msgstr "मेमोरी: %1 / %2 "
-
-#~ msgid "Font:"
-#~ msgstr "फान्टः"
-
-#~ msgid "Background:"
-#~ msgstr "पृष्ठभूमि:"
-
-#~ msgid "Do you really want to delete the display?"
-#~ msgstr "की अहाँ सचमुच मे प्रदर्शक केँ मेटाबैक लेल चाहैत छी?"
-
-#~ msgid "Delete Display"
-#~ msgstr "प्रदर्शक मेटाबू"
-
-#~ msgid "&Edit"
-#~ msgstr "सँपादित करू (&E)"
-
-#, fuzzy
-#~| msgid "Automatic range detection"
-#~ msgid "Automatic range"
-#~ msgstr "स्वचलित रेंज डिटेक्शन"
-
-#, fuzzy
-#~| msgctxt "a percentage"
-#~| msgid "%"
-#~ msgctxt "units in percentage"
-#~ msgid "%1%"
-#~ msgstr "%"
-
-#~ msgid "Connection to %1 has been lost."
-#~ msgstr "%1 सँ कनेक्शन खोएलक."
-
-#~ msgid "&Title"
-#~ msgstr "शीर्षक (&T)"
-
-#~ msgid "T&itle"
-#~ msgstr "शीर्षकः (&i)"
-
-#~ msgid "System Guard Applet Settings"
-#~ msgstr "तंत्र गार्ड अप्लेट बिन्यास"
-
-#~ msgid "Size ratio:"
-#~ msgstr "आकार अनुपातः"
-
-#~ msgctxt "Number suffix in spinbox"
-#~ msgid "%"
-#~ msgstr "%"
-
-#~ msgid "Launch &System Guard"
-#~ msgstr "तंत्र रक्षक प्रारंभ करू (&S)"
