@@ -4,18 +4,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-10-26 06:23+0100\n"
-"PO-Revision-Date: 2009-01-18 15:36+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"PO-Revision-Date: 2010-01-29 15:10+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -111,7 +113,7 @@ msgstr "फेलसेफ"
 #, kde-format
 msgctxt "@item:inmenu session type"
 msgid "%1 (previous)"
-msgstr ""
+msgstr "%1 (पछिला)"
 
 #: kgreeter.cpp:616
 #, kde-format
@@ -119,6 +121,8 @@ msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
 msgstr ""
+"अहाँक सहेजल सत्र प्रकार '%1' आब वैध नहि रहल.\n"
+"कृपया कोनो नव चुनू,  आन छल 'पूर्वनिर्धारित' उपयोग मे लेल जएताह."
 
 #: kgreeter.cpp:739
 msgid "Warning: this is an unsecured session"
@@ -130,6 +134,9 @@ msgid ""
 "This means that anybody can connect to it,\n"
 "open windows on it or intercept your input."
 msgstr ""
+"ई प्रदर्शक केँ एक्स-आथोराइज़ेशनक आवश्यकता नहि अछि.\n"
+"एकर अर्थ अछि जे कोनो एकराँ जुड़ि सकैत अछि,\n"
+"एकरा पर विंडोज़ खोलू अथवा अपन इनपुट केँ देखू."
 
 #: kgreeter.cpp:794
 msgctxt "@action:button"
@@ -172,11 +179,10 @@ msgid "Sw&itch User"
 msgstr "प्रयोक्ता बदलू (&i)"
 
 #: kgdialog.cpp:72
-#, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Session"
 msgid "Canc&el Session"
-msgstr "सत्र"
+msgstr "सत्र रद्द करू (&e)"
 
 #: kgdialog.cpp:73
 msgid "R&estart X Server"
@@ -215,38 +221,39 @@ msgstr ""
 
 #: kgverify.cpp:488
 msgid "You are required to change your password immediately (password aged)."
-msgstr ""
-"अहाँक अपन पासवर्ड आवश्यक रूप सँ तत्काल बदलब पड़त (पासवर्ड कालबाधित भए चुकल अछि)."
+msgstr "अहाँक अपन पासवर्ड आवश्यक रूप सँ तत्काल बदलब पड़त (पासवर्ड कालबाधित भए चुकल अछि)."
 
 #: kgverify.cpp:489
 msgid "You are required to change your password immediately (root enforced)."
-msgstr ""
+msgstr "अहाँकेँ अपन कूटशब्द आवश्यक रूपेँ तत्काल बदलब पड़त (रूट द्वारा बाध्य)"
 
 #: kgverify.cpp:490
 msgid "You are not allowed to login at the moment."
-msgstr ""
+msgstr "अहाँ एहि समय लागइन क' लेल स्वीकार्य नहि अछि."
 
 #: kgverify.cpp:491
 msgid "Home folder not available."
-msgstr ""
+msgstr "होम फोल्डर उपलब्ध नहि"
 
 #: kgverify.cpp:492
 msgid ""
 "Logins are not allowed at the moment.\n"
 "Try again later."
 msgstr ""
+"अहाँ एहि समय लागइन क' लेल स्वीकार्य नहि अछि.\n"
+"फेर सँ कोशिश करू"
 
 #: kgverify.cpp:493
 msgid "Your login shell is not listed in /etc/shells."
-msgstr ""
+msgstr "अहाँक लागइन शेल /etc/shells मे सूचीबद्ध नहि अछि."
 
 #: kgverify.cpp:494
 msgid "Root logins are not allowed."
-msgstr ""
+msgstr "रूट लागइन स्वीकार्य नहि अछि."
 
 #: kgverify.cpp:495
 msgid "Your account has expired; please contact your system administrator."
-msgstr ""
+msgstr "अहाँक खाताक अवधि खत्म भए गेल अछि. कृपया अपन तंत्र प्रशासक सँ संपर्क करू."
 
 #: kgverify.cpp:505
 msgid ""
@@ -254,28 +261,31 @@ msgid ""
 "Please look at KDM's logfile(s) for more information\n"
 "or contact your system administrator."
 msgstr ""
+"एकटा गंभीर त्रुटि भेल.\n"
+"बेसी जानकारी क' लेल कृपया केडीएमक लाग फाइल देखू\n"
+"या अपन तंत्र प्रशासक सँ संपर्क करू."
 
 #: kgverify.cpp:530
 #, kde-format
 msgid "Your account expires tomorrow."
 msgid_plural "Your account expires in %1 days."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "अहाँक खाता समय काल्हि खतम भए जाएत."
+msgstr[1] "अहाँक खाता समय %1 काल्हि खतम भए जाएत."
 
 #: kgverify.cpp:532
 msgid "Your account expires today."
-msgstr ""
+msgstr "अहाँक खाता समय आइ खतम भए जाएत."
 
 #: kgverify.cpp:538
 #, kde-format
 msgid "Your password expires tomorrow."
 msgid_plural "Your password expires in %1 days."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "अहाँक खाता समय काल्हि खतम भए जाएत."
+msgstr[1] "अहाँक खाता समय काल्हि खतम %1 भए जाएत."
 
 #: kgverify.cpp:540
 msgid "Your password expires today."
-msgstr ""
+msgstr "अहाँक कूटशब्द आइ खतम भए रहल अछि."
 
 #: kgverify.cpp:614 kgverify.cpp:1070
 msgid "Authentication failed"
@@ -284,7 +294,7 @@ msgstr "सत्यापन असफल"
 #: kgverify.cpp:762
 #, kde-format
 msgid "Authenticated user (%1) does not match requested user (%2).\n"
-msgstr ""
+msgstr "प्रामाणिक प्रयोक्ता (%1) निवेदित प्रयोक्ता (%2) सँ मेल नहि खाइछ.\n"
 
 #: kgverify.cpp:1051
 #, kde-format
@@ -295,7 +305,7 @@ msgstr[1] "%1 सेकण्ड मे स्वचालित लोगिन
 
 #: kgverify.cpp:1063
 msgid "Warning: Caps Lock is on"
-msgstr ""
+msgstr "चेतावनी: कैप्स लाक चालू अछि"
 
 #: kgverify.cpp:1067
 msgid "Change failed"
@@ -304,7 +314,7 @@ msgstr "परिवर्तन असफल"
 #: kgverify.cpp:1120
 #, kde-format
 msgid "Theme not usable with authentication method '%1'."
-msgstr ""
+msgstr "प्रमाणीकरण विधि '%1' सँ प्रसंग उपयोग मे नहि लेल जाए सकैत."
 
 #: kgverify.cpp:1157
 msgctxt "@title:window"
@@ -322,7 +332,7 @@ msgstr "कार्यक्रम...(&S)"
 
 #: kdmshutdown.cpp:264
 msgid "Shutdown Type"
-msgstr ""
+msgstr "बन्न करबाक प्रकार"
 
 #: kdmshutdown.cpp:268
 msgid "&Turn off computer"
@@ -351,11 +361,11 @@ msgstr "टाइमआउट केर बाद बलपूर्वक (&F)"
 
 #: kdmshutdown.cpp:356
 msgid "Entered start date is invalid."
-msgstr ""
+msgstr "जे प्रारंभ तिथि दाखिल करल गेल अछि ओ अवैध अछि."
 
 #: kdmshutdown.cpp:365
 msgid "Entered timeout date is invalid."
-msgstr ""
+msgstr "जे टाइमआउट तिथि भरल गेल अछि ओ अवैध अछि."
 
 #: kdmshutdown.cpp:479
 msgid "&Turn Off Computer"
@@ -399,7 +409,7 @@ msgstr "सक्रिय सत्र छोडू:"
 
 #: kdmshutdown.cpp:617
 msgid "No permission to abort active sessions:"
-msgstr ""
+msgstr "सक्रिय सत्र केँ छोड़बाक लेल कोनो अनुमति नहि:"
 
 #: kdmshutdown.cpp:628
 msgctxt "@title:column"
@@ -412,11 +422,10 @@ msgid "Location"
 msgstr "स्थान"
 
 #: kdmshutdown.cpp:670
-#, fuzzy
 #| msgctxt "after timeout:"
 #| msgid "cancel shutdown"
 msgid "Cancel pending shutdown:"
-msgstr "बन्न कएनाइ रद्द करू"
+msgstr "स्बथगित बन्न रद्द करू:"
 
 #: kdmshutdown.cpp:671
 msgid "No permission to cancel pending shutdown:"
@@ -543,11 +552,11 @@ msgstr "कैप्स लाक सक्षम अछि"
 
 #: themer/kdmlabel.cpp:254
 msgid "User %u will log in in %t"
-msgstr ""
+msgstr "प्रयोक्ता %u, %t सेकेण्ड मे लागइन भए रहल अछि"
 
 #: themer/kdmlabel.cpp:255
 msgid "Welcome to %h"
-msgstr ""
+msgstr "%h मे अहाँक स्वागत अछि"
 
 #: themer/kdmlabel.cpp:256
 msgid "_Domain:"
@@ -571,8 +580,8 @@ msgstr "लागिन (_L)"
 msgctxt "will login in ..."
 msgid "1 second"
 msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 सकेण्ड"
+msgstr[1] "%1 सकेण्ड"
 
 #: themer/kdmlabel.cpp:298
 #, no-c-format
@@ -600,8 +609,8 @@ msgstr ""
 msgctxt "user: ..."
 msgid "%2: TTY login"
 msgid_plural "%2: %1 TTY logins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2: टीटीवाई लागइन"
+msgstr[1] "%2: %1 टीटीवाई लागइन"
 
 #: utils.cpp:99
 msgctxt "... session"
@@ -620,5 +629,3 @@ msgctxt "... host"
 msgid "X login on %1"
 msgstr "एक्स %1 पर लागइन भए रहल अछि"
 
-#~ msgid "Abort S&ession"
-#~ msgstr "सत्र छोडू (&e)"
