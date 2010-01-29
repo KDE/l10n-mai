@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2009-11-21 06:19+0100\n"
-"PO-Revision-Date: 2009-05-31 12:54+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"PO-Revision-Date: 2010-01-29 15:44+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -49,11 +51,10 @@ msgid "Value"
 msgstr "मान"
 
 #: base/info_aix.cpp:307
-#, fuzzy
 #| msgid "MB"
 msgctxt "Mebibyte"
 msgid "MiB "
-msgstr "MB"
+msgstr "MiB "
 
 #: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
 #: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
@@ -100,38 +101,42 @@ msgid "CPU %1: %2, unknown speed"
 msgstr "सीपीयू %1: %2, अज्ञात गति"
 
 #: base/info_fbsd.cpp:145
+#, fuzzy
 msgid ""
 "Your sound system could not be queried.  /dev/sndstat does not exist or is "
 "not readable."
-msgstr ""
+msgstr "नहि नहि अथवा अछि नहि."
 
 #: base/info_fbsd.cpp:173
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
-msgstr ""
+#, fuzzy
+msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgstr "एससीएसआई नहि नहि पाबलक"
 
 #: base/info_fbsd.cpp:178
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
-msgstr ""
+#, fuzzy
+msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgstr "एससीएसआई नहि नहि"
 
 #: base/info_fbsd.cpp:226
-msgid ""
-"Could not find any programs with which to query your system's PCI information"
-msgstr ""
+#, fuzzy
+msgid "Could not find any programs with which to query your system's PCI information"
+msgstr "नहि खोजू कोनो भी क' सँग मे प्रश्न s पीसीआई"
 
 #: base/info_fbsd.cpp:243
 #, kde-format
+#, fuzzy
 msgid "PCI subsystem could not be queried: %1 could not be executed"
-msgstr ""
+msgstr "पीसीआई नहि नहि"
 
 #: base/info_fbsd.cpp:255
+#, fuzzy
 msgid "The PCI subsystem could not be queried, this may need root privileges."
-msgstr ""
+msgstr "द पीसीआई नहि रूट."
 
 #: base/info_fbsd.cpp:270
+#, fuzzy
 msgid "Could not check file system info: "
-msgstr ""
+msgstr "नहि जाँचू फाइल सूचना "
 
 #: base/info_fbsd.cpp:277 base/info_linux.cpp:476 base/info_openbsd.cpp:267
 #: base/info_solaris.cpp:174
@@ -195,21 +200,19 @@ msgid "Numerical Coprocessor (FPU)"
 msgstr "न्यूमेरिकल कोप्रोसेसर (एफपीयू)"
 
 #: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
-#, fuzzy
 #| msgid "MB"
 msgctxt "Mebibyte"
 msgid "MiB"
-msgstr "MB"
+msgstr "MiB"
 
 #: base/info_hpux.cpp:243
 msgid "Total Physical Memory"
 msgstr "कुल फिजीकल मेमोरी"
 
 #: base/info_hpux.cpp:245
-#, fuzzy
 #| msgid "Bytes"
 msgid " Bytes"
-msgstr "बाइटसभ"
+msgstr " Bytes"
 
 #: base/info_hpux.cpp:246
 msgid "Size of One Page"
@@ -448,30 +451,31 @@ msgid "No audio devices found."
 msgstr "कोनो आडियो अओजार नहि भेटल."
 
 #: base/info_netbsd.cpp:237 base/info_openbsd.cpp:247
+#, fuzzy
 msgid "No SCSI devices found."
-msgstr ""
+msgstr "नहि एससीएसआई पाबलक."
 
 #: base/info_netbsd.cpp:273
 msgid "Total Nodes"
-msgstr ""
+msgstr "योग नोड"
 
 #: base/info_netbsd.cpp:273
 msgid "Free Nodes"
-msgstr ""
+msgstr "मुक्त नोड"
 
 #: base/info_netbsd.cpp:273
 msgid "Flags"
 msgstr "फ्लैग"
 
 #: base/info_openbsd.cpp:261
+#, fuzzy
 msgid "Unable to run /sbin/mount."
-msgstr ""
+msgstr "मे."
 
 #: base/info_osx.cpp:121
-#, fuzzy
 #| msgid "Device"
 msgid "Device Name"
-msgstr "डिवाइस"
+msgstr "डिवाइस नाम"
 
 #: base/info_osx.cpp:131
 msgid "Manufacturer"
@@ -483,11 +487,11 @@ msgstr "उदाहरण"
 
 #: base/info_solaris.cpp:69
 msgid "CPU Type"
-msgstr ""
+msgstr "CPU प्रकार"
 
 #: base/info_solaris.cpp:69
 msgid "FPU Type"
-msgstr ""
+msgstr "एफपीयू प्रकार"
 
 #: base/info_solaris.cpp:69
 msgid "State"
@@ -495,7 +499,7 @@ msgstr "स्थिति"
 
 #: base/info_solaris.cpp:174
 msgid "Mount Time"
-msgstr ""
+msgstr "माउन्ट समय"
 
 #: base/info_solaris.cpp:444
 msgid "character special"
@@ -508,39 +512,40 @@ msgstr ""
 #: base/info_solaris.cpp:449
 msgctxt "Can be either character special or block special"
 msgid "Special type:"
-msgstr ""
+msgstr "विशेष प्रकार:"
 
 #: base/info_solaris.cpp:462
 msgid "Nodetype:"
-msgstr ""
+msgstr "Nodetype:"
 
 #: base/info_solaris.cpp:469
 msgid "Major/Minor:"
-msgstr ""
+msgstr "मेजर गौण:"
 
 #: base/info_solaris.cpp:540
 msgid "(no value)"
-msgstr ""
+msgstr "नहि मान"
 
 #: base/info_solaris.cpp:605
 msgid "Driver Name:"
-msgstr ""
+msgstr "ड्राइवर नाम:"
 
 #: base/info_solaris.cpp:607
+#, fuzzy
 msgid "(driver not attached)"
-msgstr ""
+msgstr "नहि"
 
 #: base/info_solaris.cpp:614
 msgid "Binding Name:"
-msgstr ""
+msgstr "बांधि रहल अछि नाम:"
 
 #: base/info_solaris.cpp:629
 msgid "Compatible Names:"
-msgstr ""
+msgstr "संगत नाम:"
 
 #: base/info_solaris.cpp:633
 msgid "Physical Path:"
-msgstr ""
+msgstr "भौतिक पथ:"
 
 #: base/info_solaris.cpp:643
 msgid "Properties"
@@ -556,58 +561,55 @@ msgstr "मान:"
 
 #: base/info_solaris.cpp:672
 msgid "Minor Nodes"
-msgstr ""
+msgstr "गौण नोड"
 
 #: base/info_solaris.cpp:697
 msgid "Device Information"
 msgstr "डिवायस सूचना"
 
 #: base/os_base.h:36
-#, fuzzy
 #| msgid "ALSBFirst (LSB)"
 msgid "LSBFirst"
-msgstr "ALSBFirst (LSB)"
+msgstr "LSBFirst"
 
 #: base/os_base.h:38
-#, fuzzy
 #| msgid "AMSBFirst (MSB)"
 msgid "MSBFirst"
-msgstr "AMSBFirst (MSB)"
+msgstr "MSBFirst"
 
 #: base/os_base.h:40
 #, kde-format
 msgid "Unknown Order %1"
-msgstr ""
+msgstr "अज्ञात क्रम %1"
 
 #: base/os_base.h:44
 #, kde-format
 msgid "1 Bit"
 msgid_plural "%1 Bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 Bit"
+msgstr[1] "%1 Bits"
 
 #: base/os_base.h:50
-#, fuzzy
 #| msgid "Bytes"
 msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
 msgid "1 Byte"
-msgstr "बाइटसभ"
+msgstr "1 Byte"
 
 #: base/os_base.h:52
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Bytes"
 msgctxt "plural form: '%1 Bytes'"
 msgid "%1 Bytes"
-msgstr "बाइटसभ"
+msgstr "%1 Bytes"
 
 #: base/os_base.h:90
 #, kde-format
 msgid "Screen # %1"
-msgstr ""
+msgstr "स्क्रीन # %1"
 
 #: base/os_base.h:92
 msgid "(Default Screen)"
-msgstr ""
+msgstr "मूलभूत स्क्रीन"
 
 #: base/os_base.h:101
 msgid "Dimensions"
@@ -616,7 +618,7 @@ msgstr "आयाम"
 #: base/os_base.h:101
 #, kde-format
 msgid "%1 x %2 Pixels (%3 x %4 mm)"
-msgstr ""
+msgstr "%1 x %2 Pixels (%3 x %4 mm)"
 
 #: base/os_base.h:105
 msgid "Resolution"
@@ -625,20 +627,22 @@ msgstr "विभेदन"
 #: base/os_base.h:105
 #, kde-format
 msgid "%1 x %2 dpi"
-msgstr ""
+msgstr "%1 x %2 dpi"
 
 #: base/os_base.h:122
 #, kde-format
 msgid "Depths (%1)"
-msgstr ""
+msgstr "गहराई (%1)"
 
 #: base/os_base.h:128
+#, fuzzy
 msgid "Root Window ID"
-msgstr ""
+msgstr "रूट विंडो ID"
 
 #: base/os_base.h:132
+#, fuzzy
 msgid "Depth of Root Window"
-msgstr ""
+msgstr "गहिराइ क' रूट विंडो"
 
 #: base/os_base.h:132
 #, kde-format
@@ -655,25 +659,30 @@ msgstr "सक्रिय प्रोसेसरक संख्या"
 
 #: base/os_base.h:136
 #, kde-format
+#, fuzzy
 msgid "minimum %1, maximum %2"
-msgstr ""
+msgstr "न्यूनतम अधिकतम 2"
 
 #: base/os_base.h:140
+#, fuzzy
 msgid "Default Colormap"
-msgstr ""
+msgstr "मूलभूत रंगमैप"
 
 #: base/os_base.h:144
+#, fuzzy
 msgid "Default Number of Colormap Cells"
-msgstr ""
+msgstr "मूलभूत संख्या क' रंगमैप कोष्ठ सभ"
 
 #: base/os_base.h:148
+#, fuzzy
 msgid "Preallocated Pixels"
-msgstr ""
+msgstr "पिक्सल"
 
 #: base/os_base.h:148
 #, kde-format
+#, fuzzy
 msgid "Black %1, White %2"
-msgstr ""
+msgstr "करिया उज्जर 2"
 
 #: base/os_base.h:151
 msgid "Yes"
@@ -684,96 +693,101 @@ msgid "No"
 msgstr "नहि"
 
 #: base/os_base.h:155
-#, fuzzy
 #| msgid "Mount Options"
 msgid "Options"
-msgstr "माउन्ट विकल्प"
+msgstr "विकल्प"
 
 #: base/os_base.h:155
+#, fuzzy
 msgid "When mapped"
-msgstr ""
+msgstr "जखन"
 
 #: base/os_base.h:155
 #, kde-format
+#, fuzzy
 msgid "backing-store: %1, save-unders: %2"
-msgstr ""
+msgstr "सहेजू 2"
 
 #: base/os_base.h:161
+#, fuzzy
 msgid "Largest Cursor"
-msgstr ""
+msgstr "सभ सँ बड़ कर्सर"
 
 #: base/os_base.h:163
 msgid "unlimited"
 msgstr "असीमित"
 
 #: base/os_base.h:169
+#, fuzzy
 msgid "Current Input Event Mask"
-msgstr ""
+msgstr "मोजुदा इनपुट घटना मास्क"
 
 #: base/os_base.h:175
 #, kde-format
+#, fuzzy
 msgid "Event = %1"
-msgstr ""
+msgstr "घटना 1"
 
 #: base/os_base.h:208
-#, fuzzy
 #| msgid "Device Information"
 msgid "Server Information"
-msgstr "डिवायस सूचना"
+msgstr "सर्वरक सूचना"
 
 #: base/os_base.h:214
 msgid "Name of the Display"
 msgstr "प्रदर्शक क' नाम"
 
 #: base/os_base.h:218
-#, fuzzy
 #| msgid "Vendor"
 msgid "Vendor String"
-msgstr "विक्रेता"
+msgstr "विक्रेता स्ट्रिंग"
 
 #: base/os_base.h:222
-#, fuzzy
 #| msgid "Vendor Number"
 msgid "Vendor Release Number"
-msgstr "विक्रेता क्रमांक"
+msgstr "विक्रेता रिलीज क्रमांक"
 
 #: base/os_base.h:226
-#, fuzzy
 #| msgid "Vendor Number"
 msgid "Version Number"
-msgstr "विक्रेता क्रमांक"
+msgstr "संस्करण सँख्या"
 
 #: base/os_base.h:230
+#, fuzzy
 msgid "Available Screens"
-msgstr ""
+msgstr "उपलब्ध"
 
 #: base/os_base.h:240
+#, fuzzy
 msgid "Supported Extensions"
-msgstr ""
+msgstr "समर्थित विस्तार"
 
 #: base/os_base.h:255
+#, fuzzy
 msgid "Supported Pixmap Formats"
-msgstr ""
+msgstr "समर्थित पिक्समैप रचना"
 
 #: base/os_base.h:262
 #, kde-format
+#, fuzzy
 msgid "Pixmap Format #%1"
-msgstr ""
+msgstr "पिक्समैप प्रारूप 1"
 
 #: base/os_base.h:262
 #, kde-format
+#, fuzzy
 msgid "%1 BPP, Depth: %2, Scanline padding: %3"
-msgstr ""
+msgstr "गहिराइ 3"
 
 #: base/os_base.h:274
+#, fuzzy
 msgid "Maximum Request Size"
-msgstr ""
+msgstr "अधिकतम निवेदन आकार"
 
 #: base/os_base.h:278
-#, fuzzy
 #| msgid "Ev Buffer Size"
 msgid "Motion Buffer Size"
-msgstr "Ev बफर आकार"
+msgstr "गति बफर आकार"
 
 #: base/os_base.h:282
 msgid "Bitmap"
@@ -784,51 +798,55 @@ msgid "Unit"
 msgstr "एकाइ"
 
 #: base/os_base.h:290
-#, fuzzy
 #| msgid "Bit Order"
 msgid "Order"
-msgstr "बिट अनुक्रम"
+msgstr "क्रम"
 
 #: base/os_base.h:294
 msgid "Padding"
 msgstr "पैडिंग"
 
 #: base/os_base.h:298
-#, fuzzy
 #| msgid "Byte Order"
 msgid "Image Byte Order"
-msgstr "बाइट अनुक्रम"
+msgstr "छवि बाइट अनुक्रम"
 
 #: base/os_current.h:49 base/os_current.h:64 base/os_current.h:95
 #: base/os_current.h:109 base/os_current.h:123 base/os_current.h:137
 #: base/os_current.h:152 base/os_current.h:166 base/os_current.h:180
+#, fuzzy
 msgid "This system may not be completely supported yet."
-msgstr ""
+msgstr "नहि."
 
 #: aboutwidget.cpp:38 main.cpp:91
+#, fuzzy
 msgid "KDE Info Center"
-msgstr ""
+msgstr "केडीई सूचना केंद्र"
 
 #: aboutwidget.cpp:40
+#, fuzzy
 msgid "Get system and desktop environment information"
-msgstr ""
+msgstr "पाउ आओर"
 
 #: aboutwidget.cpp:42
+#, fuzzy
 msgid ""
 "Welcome to the \"KDE Info Center\", a central place to find information "
 "about your computer system."
-msgstr ""
+msgstr "स्वागतम मे केडीई सूचना केंद्र a मे खोजू क' बारेमे."
 
 #: aboutwidget.cpp:46
+#, fuzzy
 msgid ""
 "Click on the \"Help\" tab on the left to view help for the active control "
 "module. Use the \"Search\" tab if you are unsure where to look for a "
 "particular configuration option."
-msgstr ""
+msgstr "क्लिक करू पर मद्दति  टैब पर बायाँ मे मदद क'लेल क्रियाशील नियंत्रण उपयोग करू खोजू टैब मे क'लेल a."
 
 #: aboutwidget.cpp:52
+#, fuzzy
 msgid "KDE version:"
-msgstr ""
+msgstr "केडीई सँस्करण:"
 
 #: aboutwidget.cpp:53
 msgid "User:"
@@ -839,12 +857,14 @@ msgid "Hostname:"
 msgstr "होस्टनामः"
 
 #: aboutwidget.cpp:55
+#, fuzzy
 msgid "System:"
-msgstr ""
+msgstr "सिस्टम:"
 
 #: aboutwidget.cpp:56
+#, fuzzy
 msgid "Release:"
-msgstr ""
+msgstr "छोडू:"
 
 #: aboutwidget.cpp:57
 msgid "Machine:"
@@ -852,33 +872,38 @@ msgstr "मशीनः"
 
 #: dockcontainer.cpp:69
 #, kde-format
+#, fuzzy
 msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
-msgstr ""
+msgstr "<p> क्लिक करू मे<a href=\"%1\"> दस्ती</a></p>"
 
 #: dockcontainer.cpp:74
+#, fuzzy
 msgid ""
 "<h1>KDE Info Center</h1>There is no quick help available for the active info "
 "module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</a> to "
 "read the general Info Center manual."
-msgstr ""
+msgstr "<h1> केडीई सूचना केंद्र</h1> अछि नहि मदद उपलब्ध क'लेल क्रियाशील सूचना<br /><br /> क्लिक करू<a href = \"kinfocenter/index.html\"></a> मे पढ़ू सूचना केंद्र."
 
 #: dockcontainer.cpp:91
+#, fuzzy
 msgid "<big><b>Loading...</b></big>"
-msgstr ""
+msgstr "<big><b> लोड भए रहल अछि</b></big>"
 
 #: dockcontainer.cpp:147
+#, fuzzy
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes before running the new module or discard "
 "the changes?"
-msgstr ""
+msgstr "in क्रियाशील मे लागू करू पहिने चलि रहल अछि नवीन अथवा?"
 
 #: dockcontainer.cpp:149
+#, fuzzy
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes before exiting the System Settings or "
 "discard the changes?"
-msgstr ""
+msgstr "in क्रियाशील मे लागू करू पहिने सिस्टम जमावट अथवा?"
 
 #: dockcontainer.cpp:151
 msgid "Unsaved Changes"
@@ -889,12 +914,14 @@ msgid "Filter:"
 msgstr "फिल्टर:"
 
 #: main.cpp:92
+#, fuzzy
 msgid "The KDE Info Center"
-msgstr ""
+msgstr "द केडीई सूचना केंद्र"
 
 #: main.cpp:93
+#, fuzzy
 msgid "(c) 1998-2004, The KDE Control Center Developers"
-msgstr ""
+msgstr "c द केडीई नियंत्रण केंद्र विकासकएनिहार"
 
 #: main.cpp:98
 msgid "Nicolas Ternisien"
@@ -933,8 +960,9 @@ msgid "General Information"
 msgstr "सामान्य सूचना"
 
 #: proxywidget.cpp:51
+#, fuzzy
 msgid "The currently loaded configuration module."
-msgstr ""
+msgstr "द."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -947,8 +975,9 @@ msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
 #: toplevel.cpp:119 toplevel.cpp:150 toplevel.cpp:217
+#, fuzzy
 msgid "About Current Module"
-msgstr ""
+msgstr "क' बारेमे मोजुदा मोड्यूल"
 
 #: toplevel.cpp:126 toplevel.cpp:158 toplevel.cpp:223
 msgid "&Report Bug..."
@@ -962,10 +991,7 @@ msgstr "%1 केर संबंध में"
 
 #: toplevel.cpp:160
 #, kde-format
-msgid "Report Bug on Module %1..."
-msgstr ""
-
 #, fuzzy
-#~| msgid "MB"
-#~ msgid " MB"
-#~ msgstr "MB"
+msgid "Report Bug on Module %1..."
+msgstr "रिपोट पर मोड्यूल."
+
