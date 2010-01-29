@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-01-02 05:57+0100\n"
-"PO-Revision-Date: 2009-05-31 12:54+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"PO-Revision-Date: 2010-01-29 15:41+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
 "\n"
 "\n"
 
@@ -32,8 +34,9 @@ msgstr "sangeeta09@gmail.com"
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:17
 #. i18n: ectx: property (toolTip), widget (QLabel, stateLabel)
 #: rc.cpp:5
+#, fuzzy
 msgid "Change the exported state for the actions."
-msgstr ""
+msgstr "बदलू क'लेल."
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:20
 #. i18n: ectx: property (text), widget (QLabel, stateLabel)
@@ -73,18 +76,43 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in an "
 "enabled state.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Configure in which state "
+"the actions should be exported.</p>\n"
+"<p style=\" margin-top:8px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Actual State</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in "
+"their current state.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Disabled</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in a "
+"disabled state.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Enabled</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:8px; margin-left:30px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Export the actions in an "
+"enabled state.</p></body></html>"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:44
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: rc.cpp:24
+#, fuzzy
 msgctxt "Don't change the state of exported hotkey actions."
 msgid "Actual State"
-msgstr ""
+msgstr "स्थिति"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:49
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: rc.cpp:27
-#, fuzzy
 #| msgid "Enabled"
 msgctxt "Export hotkey actions in enabled state."
 msgid "Enabled"
@@ -93,75 +121,79 @@ msgstr "सक्षम"
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:54
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: rc.cpp:30
-#, fuzzy
 #| msgid "Enabled"
 msgctxt "Export hotkey actions into disabled  state"
 msgid "Disabled"
-msgstr "सक्षम"
+msgstr "अक्षम"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:62
 #. i18n: ectx: property (statusTip), widget (QLabel, idLabel)
 #: rc.cpp:33
+#, fuzzy
 msgid "KHotkeys file id."
-msgstr ""
+msgstr "फाइल."
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:65
 #. i18n: ectx: property (whatsThis), widget (QLabel, idLabel)
 #: rc.cpp:36
+#, fuzzy
 msgid ""
 "A khotkeys file id is used to ensure files are not imported more than once. "
 "They are mostly used for automatic updates from the KDE developers."
-msgstr ""
+msgstr "A फाइल अछि प्रयुक्त मे नहि प्रयुक्त क'लेल स्वचालित सँ केडीई."
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:68
 #. i18n: ectx: property (text), widget (QLabel, idLabel)
 #: rc.cpp:39
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:78
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, id)
 #: rc.cpp:42
+#, fuzzy
 msgid "Set import id for file, or leave empty"
-msgstr ""
+msgstr "सेट क'लेल फाइल अथवा खाली"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:85
 #. i18n: ectx: property (text), widget (QLabel, filenameLabel)
 #: rc.cpp:45
 msgid "Filename"
-msgstr ""
+msgstr "फाइलनाम"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:124
 #. i18n: ectx: property (text), widget (QLabel, allowMergingLabel)
 #: rc.cpp:49
+#, fuzzy
 msgid "Allow Merging"
-msgstr ""
+msgstr "स्वीकारू"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:134
 #. i18n: ectx: property (toolTip), widget (QCheckBox, allowMerging)
 #: rc.cpp:52
+#, fuzzy
 msgid "Merge into existing directories on import?"
-msgstr ""
+msgstr "मिलाबू पर?"
 
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:137
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, allowMerging)
 #: rc.cpp:55
+#, fuzzy
 msgid ""
 "Allow merging of content if a directory with the same name exists on "
 "importing. If merging is not allowed, there will be two directories with the "
 "same name."
-msgstr ""
+msgstr "स्वीकारू क' a निर्देशिका क' सँग पर अछि नहि दुइ क' सँग."
 
 #. i18n: file: kcm_hotkeys/triggers/shortcut_trigger_widget.ui:17
 #. i18n: ectx: property (text), widget (QLabel, shortcut_label)
 #: rc.cpp:58
 msgid "&Shortcut:"
-msgstr ""
+msgstr "शार्टकट (&S):"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, when_group)
 #: rc.cpp:61
-#, fuzzy
 #| msgid "Trigger"
 msgid "Trigger When"
 msgstr "ट्रिगर"
@@ -170,27 +202,26 @@ msgstr "ट्रिगर"
 #. i18n: ectx: property (text), widget (QRadioButton, window_appears)
 #: rc.cpp:64
 msgid "Window appears"
-msgstr ""
+msgstr "विंडो प्रकट होइछ"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:29
 #. i18n: ectx: property (text), widget (QRadioButton, window_disappears)
 #: rc.cpp:67
 msgid "Window disappears"
-msgstr ""
+msgstr "विंडो प्रकट नहि होइछ"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:36
 #. i18n: ectx: property (text), widget (QRadioButton, window_gets_focus)
 #: rc.cpp:70
-#, fuzzy
 #| msgid "Action"
 msgid "Window gets focus"
-msgstr "क्रिया"
+msgstr "विंडो फोकस पाबैछ"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, window_lost_focus)
 #: rc.cpp:73
 msgid "Window loses focus"
-msgstr ""
+msgstr "विंडो फोकस नहि अछि"
 
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:53
 #. i18n: ectx: property (title), widget (QGroupBox, window_group)
@@ -220,7 +251,7 @@ msgstr "संपादन"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: rc.cpp:82
 msgid "Window Data"
-msgstr ""
+msgstr "विंडो आँकड़ा"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:24
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
@@ -231,18 +262,16 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
 #: rc.cpp:85 rc.cpp:178
-#, fuzzy
 #| msgid "Comment"
 msgid "Comment:"
-msgstr "टिप्पणी"
+msgstr "टिप्पणीः"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, window_title_label)
 #: rc.cpp:88
-#, fuzzy
 #| msgid "Action"
 msgid "Window title:"
-msgstr "क्रिया"
+msgstr "विंडो शीर्षक:"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:39
 #. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
@@ -257,8 +286,9 @@ msgstr "क्रिया"
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:131
 #. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: rc.cpp:91 rc.cpp:115 rc.cpp:139
+#, fuzzy
 msgid "Is Not Important"
-msgstr ""
+msgstr "Not महत्वपूर्ण"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:44
 #. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
@@ -306,7 +336,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: rc.cpp:100 rc.cpp:124 rc.cpp:148
 msgid "Matches Regular Expression"
-msgstr ""
+msgstr "मिलान नियमित अभिव्यक्ति"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:59
 #. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
@@ -321,8 +351,9 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:151
 #. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: rc.cpp:103 rc.cpp:127 rc.cpp:151
+#, fuzzy
 msgid "Does Not Contain"
-msgstr ""
+msgstr "Not"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:64
 #. i18n: ectx: property (text), item, widget (QComboBox, window_title_combo)
@@ -337,7 +368,6 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:156
 #. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: rc.cpp:106 rc.cpp:130 rc.cpp:154
-#, fuzzy
 #| msgctxt "Not_condition"
 #| msgid "Not"
 msgid "Is Not"
@@ -356,30 +386,29 @@ msgstr "Not"
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:161
 #. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: rc.cpp:109 rc.cpp:133 rc.cpp:157
+#, fuzzy
 msgid "Does Not Match Regular Expression"
-msgstr ""
+msgstr "Not नियमित अभिव्यक्ति"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, window_class_label)
 #: rc.cpp:112
-#, fuzzy
 #| msgid "Action"
 msgid "Window class:"
-msgstr "क्रिया"
+msgstr "विंडो वर्ग:"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:123
 #. i18n: ectx: property (text), widget (QLabel, window_role_label)
 #: rc.cpp:136
-#, fuzzy
 #| msgid "Action"
 msgid "Window role:"
-msgstr "क्रिया"
+msgstr "विंडो भूमिका:"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:195
 #. i18n: ectx: property (text), widget (QPushButton, autodetect)
 #: rc.cpp:160
 msgid "&Autodetect"
-msgstr ""
+msgstr "अपने जाँचू"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:205
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -427,15 +456,14 @@ msgstr "नया... (&N)"
 #. i18n: ectx: property (text), widget (QPushButton, duplicate_button)
 #: rc.cpp:187
 msgid "&Duplicate..."
-msgstr ""
+msgstr "नकल."
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:59
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
 #: rc.cpp:190
-#, fuzzy
 #| msgid "Delete"
 msgid "&Delete"
-msgstr "मेटाबू"
+msgstr "मेटाबू (&D)"
 
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:20
 #. i18n: ectx: property (text), widget (QTreeWidget, tree)
@@ -465,19 +493,20 @@ msgstr "मेटाबू"
 #. i18n: ectx: property (title), widget (QGroupBox, global_group)
 #: rc.cpp:205
 msgid "Input Actions Daemon"
-msgstr ""
+msgstr "इनपुट क्रियासभ डेमन"
 
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, enabled)
 #: rc.cpp:208
+#, fuzzy
 msgid "Start the Input Actions daemon on login"
-msgstr ""
+msgstr "प्रारंभ इनपुट क्रियासभ पर"
 
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:48
 #. i18n: ectx: property (title), widget (QGroupBox, gestures_group)
 #: rc.cpp:211
 msgid "Gestures"
-msgstr ""
+msgstr "मुद्रा"
 
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:57
 #. i18n: ectx: property (text), widget (QLabel, gestures_timeout_label)
@@ -495,12 +524,11 @@ msgstr "ms"
 #. i18n: ectx: property (text), widget (QLabel, gestures_button_label)
 #: rc.cpp:220
 msgid "Mouse button:"
-msgstr ""
+msgstr "माउस बटन:"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:18
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:223
-#, fuzzy
 #| msgid "Remote Application:"
 msgid "Remote application:"
 msgstr "दूरस्थ अनुप्रयोगः"
@@ -508,7 +536,6 @@ msgstr "दूरस्थ अनुप्रयोगः"
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, objectLabel)
 #: rc.cpp:226
-#, fuzzy
 #| msgid "Remote Application:"
 msgid "Remote object:"
 msgstr "दूरस्थ अनुप्रयोगः"
@@ -517,13 +544,13 @@ msgstr "दूरस्थ अनुप्रयोगः"
 #. i18n: ectx: property (text), widget (QLabel, functionLabel)
 #: rc.cpp:229
 msgid "Function:"
-msgstr ""
+msgstr "फंक्शन:"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:57
 #. i18n: ectx: property (text), widget (QLabel, argumentsLabel)
 #: rc.cpp:232
 msgid "Arguments:"
-msgstr ""
+msgstr "आर्गुमेंट्स:"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, execButton)
@@ -535,49 +562,46 @@ msgstr "कॉल"
 #. i18n: ectx: property (text), widget (QPushButton, launchButton)
 #: rc.cpp:238
 msgid "Launch  D-Bus Browser"
-msgstr ""
+msgstr "लांच करू D बस ब्राउज़र"
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:27
 #. i18n: ectx: property (text), widget (QRadioButton, active_radio)
 #: rc.cpp:244
-#, fuzzy
 #| msgid "Action"
 msgid "Active window"
-msgstr "क्रिया"
+msgstr "सक्रिय विंडो"
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:34
 #. i18n: ectx: property (text), widget (QRadioButton, specific_radio)
 #: rc.cpp:247
 msgid "Specific window"
-msgstr ""
+msgstr "विंडो विशेष"
 
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:41
 #. i18n: ectx: property (text), widget (QRadioButton, action_radio)
 #: rc.cpp:250
-#, fuzzy
 #| msgid "Action"
 msgid "Action window"
-msgstr "क्रिया"
+msgstr "सक्रिय विंडो"
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:253
-#, fuzzy
 #| msgid "Application"
 msgid "Application:"
-msgstr "अनुप्रयोग"
+msgstr "अनुप्रयोग:"
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:30
 #. i18n: ectx: property (text), widget (KPushButton, applicationButton)
 #: rc.cpp:256
 msgid "Select Application ..."
-msgstr ""
+msgstr "चुनू अनुप्रयोग."
 
 #. i18n: file: kcm_hotkeys/actions/command_url_action_widget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, commandLabel)
 #: rc.cpp:259
 msgid "Command/URL:"
-msgstr ""
+msgstr "कमांड /URL:"
 
 #. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, settings_button)
@@ -594,27 +618,28 @@ msgid "Comment"
 msgstr "टिप्पणी"
 
 #: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:32
+#, fuzzy
 msgid "Edit Gesture"
-msgstr ""
+msgstr "संपादन"
 
 #: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:36
+#, fuzzy
 msgid ""
 "Draw the gesture you would like to record below. Press and hold the left "
 "mouse button while drawing, and release when you have finished."
-msgstr ""
+msgstr "घीचू समान मे नीच्चाँ दाबू आओर बायाँ माउस बटन आओर."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:27
 msgctxt "Condition type"
 msgid "Active Window ..."
-msgstr ""
+msgstr "सक्रिय विंडो."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:29
 msgctxt "Condition type"
 msgid "Existing Window ..."
-msgstr ""
+msgstr "मोजुदा विंडो..."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:31
-#, fuzzy
 #| msgctxt "And_condition"
 #| msgid "And"
 msgctxt "Condition type"
@@ -622,7 +647,6 @@ msgid "And"
 msgstr "आओर"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:33
-#, fuzzy
 #| msgctxt "Or_condition"
 #| msgid "Or"
 msgctxt "Condition type"
@@ -630,7 +654,6 @@ msgid "Or"
 msgstr "अथवा"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:35
-#, fuzzy
 #| msgctxt "Not_condition"
 #| msgid "Not"
 msgctxt "Condition type"
@@ -638,7 +661,6 @@ msgid "Not"
 msgstr "Not"
 
 #: kcm_hotkeys/conditions/conditions_widget.cpp:80
-#, fuzzy
 #| msgctxt "And_condition"
 #| msgid "And"
 msgctxt "Add a new condition"
@@ -657,13 +679,12 @@ msgstr "जाँच"
 #: kcm_hotkeys/hotkeys_context_menu.cpp:130
 #: kcm_hotkeys/hotkeys_context_menu.cpp:143 kcm_hotkeys/hotkeys_model.cpp:92
 msgid "New Group"
-msgstr ""
+msgstr "नवीन समूह"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:147
-#, fuzzy
 #| msgid "Export..."
 msgid "Export Group..."
-msgstr "निर्यात करू..."
+msgstr "निर्यात समूह..."
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:148
 msgid "Import..."
@@ -671,55 +692,52 @@ msgstr "आयात..."
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:162
 msgid "Global Shortcut"
-msgstr ""
+msgstr "वैश्विक शार्टकट"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:175
-#, fuzzy
 #| msgid "Action"
 msgid "Window Action"
-msgstr "क्रिया"
+msgstr "विंडो क्रिया"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:188
 msgid "Mouse Gesture Action"
-msgstr ""
+msgstr "माउस मुद्रा क्रिया"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:269
 msgid "Command/URL"
-msgstr ""
+msgstr "कमांड URL"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:276
 msgid "D-Bus Command"
-msgstr ""
+msgstr "D बस कमांड"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:283
 msgid "K-Menu Entry"
-msgstr ""
+msgstr "K मेनू  प्रविष्टि"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:290
 msgid "Send Keyboard Input"
-msgstr ""
+msgstr "पठाबू कुँजीपटल इनपुट"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:312
 #: kcm_hotkeys/hotkeys_context_menu.cpp:341
 #: kcm_hotkeys/hotkeys_context_menu.cpp:370
-#, fuzzy
 #| msgid "Action"
 msgid "New Action"
-msgstr "क्रिया"
+msgstr "नया क्रिया"
 
 #: kcm_hotkeys/actions/dbus_action_widget.cpp:122
+#, fuzzy
 msgid "Failed to run qdbusviewer"
-msgstr ""
+msgstr "असफल मे"
 
 #: kcm_hotkeys/hotkeys_model.cpp:403
-#, fuzzy
 #| msgid "Name"
 msgctxt "action name"
 msgid "Name"
 msgstr "नाम"
 
 #: kcm_hotkeys/hotkeys_model.cpp:407
-#, fuzzy
 #| msgid "Enabled"
 msgctxt "action enabled"
 msgid "Enabled"
@@ -731,39 +749,41 @@ msgstr "प्रकार"
 
 #: kcm_hotkeys/hotkeys_export_widget.cpp:37
 msgid "Export Group"
-msgstr ""
+msgstr "निर्यात समूह"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:109
 msgid "KDE Hotkeys Configuration Module"
-msgstr ""
+msgstr "केडीई हॉटकी बिन्यास मोड्यूल"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:113
 msgid "Copyright 2008 (c) Michael Jansen"
-msgstr ""
+msgstr "Copyright 2008 (c) Michael Jansen"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:116
 msgid "Michael Jansen"
-msgstr ""
+msgstr "Michael Jansen"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:117
 msgid "Maintainer"
 msgstr "अनुरक्षक"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:345
+#, fuzzy
 msgid ""
 "The current action has unsaved changes. If you continue these changes will "
 "be lost."
-msgstr ""
+msgstr "द."
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:346
 msgid "Save changes"
 msgstr "बदलाव सहेजू"
 
 #: kcm_hotkeys/kcm_hotkeys.cpp:379 kcm_hotkeys/kcm_hotkeys.cpp:403
+#, fuzzy
 msgid ""
 "Unable to contact khotkeys. Your changes are saved, but they could not be "
 "activated."
-msgstr ""
+msgstr "मे नहि."
 
 #: kcm_hotkeys/simple_action_data_widget.cpp:124
 msgid "Trigger"
@@ -775,7 +795,7 @@ msgstr "क्रिया"
 
 #: libkhotkeysprivate/triggers/shortcut_trigger.cpp:137
 msgid "Shortcut trigger: "
-msgstr ""
+msgstr "शार्टकट ट्रिगर"
 
 #: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
 msgid "Gesture trigger"
@@ -783,11 +803,11 @@ msgstr ""
 
 #: libkhotkeysprivate/triggers/window_trigger.cpp:150
 msgid "Window trigger: "
-msgstr ""
+msgstr "विंडो ट्र्गिर "
 
 #: libkhotkeysprivate/triggers/voice_trigger.cpp:67
 msgid "Voice trigger: "
-msgstr ""
+msgstr "आवाज ट्रिगर"
 
 #: libkhotkeysprivate/conditions/or_condition.cpp:69
 msgctxt "Or_condition"
@@ -806,69 +826,69 @@ msgstr "Not"
 
 #: libkhotkeysprivate/conditions/active_window_condition.cpp:82
 msgid "Active window: "
-msgstr ""
+msgstr "सक्रिय विंडो "
 
 #: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
 msgid "Existing window: "
-msgstr ""
+msgstr "मोजुदा विंडो "
 
 #: libkhotkeysprivate/windows_helper/window_selection_rules.cpp:82
 msgid "Window simple: "
-msgstr ""
+msgstr "विंडो सरल "
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:91
+#, fuzzy
 msgid "No service configured."
-msgstr ""
+msgstr "नहि."
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:92
 #: libkhotkeysprivate/actions/menuentry_action.cpp:101
 #, kde-format
 msgid "Input Action: %1"
-msgstr ""
+msgstr "इनपुट क्रिया %1"
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:100
 #, kde-format
+#, fuzzy
 msgid "Failed to start service '%1'."
-msgstr ""
+msgstr "असफल मे प्रारंभ."
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:115
 msgid "Menu entry: "
-msgstr ""
+msgstr "मेनू  प्रविष्टि "
 
 #: libkhotkeysprivate/actions/dbus_action.cpp:143
 msgid "D-Bus: "
-msgstr ""
+msgstr "D बस "
 
 #: libkhotkeysprivate/actions/command_url_action.cpp:79
 msgid "Command/URL : "
-msgstr ""
+msgstr "कमांड URL "
 
 #: libkhotkeysprivate/actions/activate_window_action.cpp:91
 msgid "Activate window: "
-msgstr ""
+msgstr "सक्रिय करू विंडो "
 
 #: libkhotkeysprivate/actions/keyboard_input_action.cpp:191
 msgid "Keyboard input: "
-msgstr ""
+msgstr "कुँजीपटल इनपुट"
 
 #: libkhotkeysprivate/settings.cpp:318
+#, fuzzy
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
 "want to import it again?"
-msgstr ""
+msgstr "फाइल पहिने मे?"
 
 #: libkhotkeysprivate/settings.cpp:346
+#, fuzzy
 msgid ""
 "This \"actions\" file has no ImportId field and therefore it cannot be "
 "determined whether or not it has been imported already. Are you sure you "
 "want to import it?"
-msgstr ""
+msgstr "फाइल नहि क्षेत्र आओर अथवा नहि मे?"
 
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
-msgstr ""
+msgstr "मेनू संपादक प्रविष्टि"
 
-#, fuzzy
-#~| msgid "Normal"
-#~ msgid "Form"
-#~ msgstr "सामान्य"
