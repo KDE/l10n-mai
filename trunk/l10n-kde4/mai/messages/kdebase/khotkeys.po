@@ -16,7 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -113,7 +114,6 @@ msgstr "स्थिति"
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:49
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: rc.cpp:27
-#| msgid "Enabled"
 msgctxt "Export hotkey actions in enabled state."
 msgid "Enabled"
 msgstr "सक्षम"
@@ -121,7 +121,6 @@ msgstr "सक्षम"
 #. i18n: file: kcm_hotkeys/hotkeys_export_widget.ui:54
 #. i18n: ectx: property (text), item, widget (QComboBox, state)
 #: rc.cpp:30
-#| msgid "Enabled"
 msgctxt "Export hotkey actions into disabled  state"
 msgid "Disabled"
 msgstr "अक्षम"
@@ -194,7 +193,6 @@ msgstr "शार्टकट (&S):"
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, when_group)
 #: rc.cpp:61
-#| msgid "Trigger"
 msgid "Trigger When"
 msgstr "ट्रिगर"
 
@@ -213,7 +211,6 @@ msgstr "विंडो प्रकट नहि होइछ"
 #. i18n: file: kcm_hotkeys/triggers/window_trigger_widget.ui:36
 #. i18n: ectx: property (text), widget (QRadioButton, window_gets_focus)
 #: rc.cpp:70
-#| msgid "Action"
 msgid "Window gets focus"
 msgstr "विंडो फोकस पाबैछ"
 
@@ -262,14 +259,12 @@ msgstr "विंडो आँकड़ा"
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
 #: rc.cpp:85 rc.cpp:178
-#| msgid "Comment"
 msgid "Comment:"
 msgstr "टिप्पणीः"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, window_title_label)
 #: rc.cpp:88
-#| msgid "Action"
 msgid "Window title:"
 msgstr "विंडो शीर्षक:"
 
@@ -368,8 +363,6 @@ msgstr "Not"
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:156
 #. i18n: ectx: property (text), item, widget (QComboBox, window_role_combo)
 #: rc.cpp:106 rc.cpp:130 rc.cpp:154
-#| msgctxt "Not_condition"
-#| msgid "Not"
 msgid "Is Not"
 msgstr "Not"
 
@@ -393,14 +386,12 @@ msgstr "Not नियमित अभिव्यक्ति"
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, window_class_label)
 #: rc.cpp:112
-#| msgid "Action"
 msgid "Window class:"
 msgstr "विंडो वर्ग:"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:123
 #. i18n: ectx: property (text), widget (QLabel, window_role_label)
 #: rc.cpp:136
-#| msgid "Action"
 msgid "Window role:"
 msgstr "विंडो भूमिका:"
 
@@ -461,7 +452,6 @@ msgstr "नकल."
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:59
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
 #: rc.cpp:190
-#| msgid "Delete"
 msgid "&Delete"
 msgstr "मेटाबू (&D)"
 
@@ -529,14 +519,12 @@ msgstr "माउस बटन:"
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:18
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:223
-#| msgid "Remote Application:"
 msgid "Remote application:"
 msgstr "दूरस्थ अनुप्रयोगः"
 
 #. i18n: file: kcm_hotkeys/actions/dbus_action_widget.ui:31
 #. i18n: ectx: property (text), widget (QLabel, objectLabel)
 #: rc.cpp:226
-#| msgid "Remote Application:"
 msgid "Remote object:"
 msgstr "दूरस्थ अनुप्रयोगः"
 
@@ -567,7 +555,6 @@ msgstr "लांच करू D बस ब्राउज़र"
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:27
 #. i18n: ectx: property (text), widget (QRadioButton, active_radio)
 #: rc.cpp:244
-#| msgid "Action"
 msgid "Active window"
 msgstr "सक्रिय विंडो"
 
@@ -580,14 +567,12 @@ msgstr "विंडो विशेष"
 #. i18n: file: kcm_hotkeys/actions/keyboard_input_action_widget.ui:41
 #. i18n: ectx: property (text), widget (QRadioButton, action_radio)
 #: rc.cpp:250
-#| msgid "Action"
 msgid "Action window"
 msgstr "सक्रिय विंडो"
 
 #. i18n: file: kcm_hotkeys/actions/menuentry_action_widget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, applicationLabel)
 #: rc.cpp:253
-#| msgid "Application"
 msgid "Application:"
 msgstr "अनुप्रयोग:"
 
@@ -640,29 +625,21 @@ msgid "Existing Window ..."
 msgstr "मोजुदा विंडो..."
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:31
-#| msgctxt "And_condition"
-#| msgid "And"
 msgctxt "Condition type"
 msgid "And"
 msgstr "आओर"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:33
-#| msgctxt "Or_condition"
-#| msgid "Or"
 msgctxt "Condition type"
 msgid "Or"
 msgstr "अथवा"
 
 #: kcm_hotkeys/conditions/condition_type_menu.cpp:35
-#| msgctxt "Not_condition"
-#| msgid "Not"
 msgctxt "Condition type"
 msgid "Not"
 msgstr "Not"
 
 #: kcm_hotkeys/conditions/conditions_widget.cpp:80
-#| msgctxt "And_condition"
-#| msgid "And"
 msgctxt "Add a new condition"
 msgid "And"
 msgstr "आओर"
@@ -682,7 +659,6 @@ msgid "New Group"
 msgstr "नवीन समूह"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:147
-#| msgid "Export..."
 msgid "Export Group..."
 msgstr "निर्यात समूह..."
 
@@ -695,7 +671,6 @@ msgid "Global Shortcut"
 msgstr "वैश्विक शार्टकट"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:175
-#| msgid "Action"
 msgid "Window Action"
 msgstr "विंडो क्रिया"
 
@@ -722,7 +697,6 @@ msgstr "पठाबू कुँजीपटल इनपुट"
 #: kcm_hotkeys/hotkeys_context_menu.cpp:312
 #: kcm_hotkeys/hotkeys_context_menu.cpp:341
 #: kcm_hotkeys/hotkeys_context_menu.cpp:370
-#| msgid "Action"
 msgid "New Action"
 msgstr "नया क्रिया"
 
@@ -732,13 +706,11 @@ msgid "Failed to run qdbusviewer"
 msgstr "असफल मे"
 
 #: kcm_hotkeys/hotkeys_model.cpp:403
-#| msgid "Name"
 msgctxt "action name"
 msgid "Name"
 msgstr "नाम"
 
 #: kcm_hotkeys/hotkeys_model.cpp:407
-#| msgid "Enabled"
 msgctxt "action enabled"
 msgid "Enabled"
 msgstr "सक्षम"
@@ -848,8 +820,7 @@ msgid "Input Action: %1"
 msgstr "इनपुट क्रिया %1"
 
 #: libkhotkeysprivate/actions/menuentry_action.cpp:100
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Failed to start service '%1'."
 msgstr "असफल मे प्रारंभ."
 
@@ -891,4 +862,3 @@ msgstr "फाइल नहि क्षेत्र आओर अथवा न�
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr "मेनू संपादक प्रविष्टि"
-

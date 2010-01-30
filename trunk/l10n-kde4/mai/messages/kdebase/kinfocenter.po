@@ -16,7 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -51,7 +52,6 @@ msgid "Value"
 msgstr "मान"
 
 #: base/info_aix.cpp:307
-#| msgid "MB"
 msgctxt "Mebibyte"
 msgid "MiB "
 msgstr "MiB "
@@ -109,22 +109,24 @@ msgstr "नहि नहि अथवा अछि नहि."
 
 #: base/info_fbsd.cpp:173
 #, fuzzy
-msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
 msgstr "एससीएसआई नहि नहि पाबलक"
 
 #: base/info_fbsd.cpp:178
 #, fuzzy
-msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
 msgstr "एससीएसआई नहि नहि"
 
 #: base/info_fbsd.cpp:226
 #, fuzzy
-msgid "Could not find any programs with which to query your system's PCI information"
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
 msgstr "नहि खोजू कोनो भी क' सँग मे प्रश्न s पीसीआई"
 
 #: base/info_fbsd.cpp:243
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "PCI subsystem could not be queried: %1 could not be executed"
 msgstr "पीसीआई नहि नहि"
 
@@ -200,7 +202,6 @@ msgid "Numerical Coprocessor (FPU)"
 msgstr "न्यूमेरिकल कोप्रोसेसर (एफपीयू)"
 
 #: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
-#| msgid "MB"
 msgctxt "Mebibyte"
 msgid "MiB"
 msgstr "MiB"
@@ -210,7 +211,6 @@ msgid "Total Physical Memory"
 msgstr "कुल फिजीकल मेमोरी"
 
 #: base/info_hpux.cpp:245
-#| msgid "Bytes"
 msgid " Bytes"
 msgstr " Bytes"
 
@@ -473,7 +473,6 @@ msgid "Unable to run /sbin/mount."
 msgstr "मे."
 
 #: base/info_osx.cpp:121
-#| msgid "Device"
 msgid "Device Name"
 msgstr "डिवाइस नाम"
 
@@ -568,12 +567,10 @@ msgid "Device Information"
 msgstr "डिवायस सूचना"
 
 #: base/os_base.h:36
-#| msgid "ALSBFirst (LSB)"
 msgid "LSBFirst"
 msgstr "LSBFirst"
 
 #: base/os_base.h:38
-#| msgid "AMSBFirst (MSB)"
 msgid "MSBFirst"
 msgstr "MSBFirst"
 
@@ -590,14 +587,12 @@ msgstr[0] "1 Bit"
 msgstr[1] "%1 Bits"
 
 #: base/os_base.h:50
-#| msgid "Bytes"
 msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
 msgid "1 Byte"
 msgstr "1 Byte"
 
 #: base/os_base.h:52
 #, kde-format
-#| msgid "Bytes"
 msgctxt "plural form: '%1 Bytes'"
 msgid "%1 Bytes"
 msgstr "%1 Bytes"
@@ -658,8 +653,7 @@ msgid "Number of Colormaps"
 msgstr "सक्रिय प्रोसेसरक संख्या"
 
 #: base/os_base.h:136
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "minimum %1, maximum %2"
 msgstr "न्यूनतम अधिकतम 2"
 
@@ -679,8 +673,7 @@ msgid "Preallocated Pixels"
 msgstr "पिक्सल"
 
 #: base/os_base.h:148
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Black %1, White %2"
 msgstr "करिया उज्जर 2"
 
@@ -693,7 +686,6 @@ msgid "No"
 msgstr "नहि"
 
 #: base/os_base.h:155
-#| msgid "Mount Options"
 msgid "Options"
 msgstr "विकल्प"
 
@@ -703,8 +695,7 @@ msgid "When mapped"
 msgstr "जखन"
 
 #: base/os_base.h:155
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "backing-store: %1, save-unders: %2"
 msgstr "सहेजू 2"
 
@@ -723,13 +714,11 @@ msgid "Current Input Event Mask"
 msgstr "मोजुदा इनपुट घटना मास्क"
 
 #: base/os_base.h:175
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Event = %1"
 msgstr "घटना 1"
 
 #: base/os_base.h:208
-#| msgid "Device Information"
 msgid "Server Information"
 msgstr "सर्वरक सूचना"
 
@@ -738,17 +727,14 @@ msgid "Name of the Display"
 msgstr "प्रदर्शक क' नाम"
 
 #: base/os_base.h:218
-#| msgid "Vendor"
 msgid "Vendor String"
 msgstr "विक्रेता स्ट्रिंग"
 
 #: base/os_base.h:222
-#| msgid "Vendor Number"
 msgid "Vendor Release Number"
 msgstr "विक्रेता रिलीज क्रमांक"
 
 #: base/os_base.h:226
-#| msgid "Vendor Number"
 msgid "Version Number"
 msgstr "संस्करण सँख्या"
 
@@ -768,14 +754,12 @@ msgid "Supported Pixmap Formats"
 msgstr "समर्थित पिक्समैप रचना"
 
 #: base/os_base.h:262
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Pixmap Format #%1"
 msgstr "पिक्समैप प्रारूप 1"
 
 #: base/os_base.h:262
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "%1 BPP, Depth: %2, Scanline padding: %3"
 msgstr "गहिराइ 3"
 
@@ -785,7 +769,6 @@ msgid "Maximum Request Size"
 msgstr "अधिकतम निवेदन आकार"
 
 #: base/os_base.h:278
-#| msgid "Ev Buffer Size"
 msgid "Motion Buffer Size"
 msgstr "गति बफर आकार"
 
@@ -798,7 +781,6 @@ msgid "Unit"
 msgstr "एकाइ"
 
 #: base/os_base.h:290
-#| msgid "Bit Order"
 msgid "Order"
 msgstr "क्रम"
 
@@ -807,7 +789,6 @@ msgid "Padding"
 msgstr "पैडिंग"
 
 #: base/os_base.h:298
-#| msgid "Byte Order"
 msgid "Image Byte Order"
 msgstr "छवि बाइट अनुक्रम"
 
@@ -841,7 +822,9 @@ msgid ""
 "Click on the \"Help\" tab on the left to view help for the active control "
 "module. Use the \"Search\" tab if you are unsure where to look for a "
 "particular configuration option."
-msgstr "क्लिक करू पर मद्दति  टैब पर बायाँ मे मदद क'लेल क्रियाशील नियंत्रण उपयोग करू खोजू टैब मे क'लेल a."
+msgstr ""
+"क्लिक करू पर मद्दति  टैब पर बायाँ मे मदद क'लेल क्रियाशील नियंत्रण उपयोग करू खोजू टैब मे "
+"क'लेल a."
 
 #: aboutwidget.cpp:52
 #, fuzzy
@@ -871,8 +854,7 @@ msgid "Machine:"
 msgstr "मशीनः"
 
 #: dockcontainer.cpp:69
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
 msgstr "<p> क्लिक करू मे<a href=\"%1\"> दस्ती</a></p>"
 
@@ -882,7 +864,9 @@ msgid ""
 "<h1>KDE Info Center</h1>There is no quick help available for the active info "
 "module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</a> to "
 "read the general Info Center manual."
-msgstr "<h1> केडीई सूचना केंद्र</h1> अछि नहि मदद उपलब्ध क'लेल क्रियाशील सूचना<br /><br /> क्लिक करू<a href = \"kinfocenter/index.html\"></a> मे पढ़ू सूचना केंद्र."
+msgstr ""
+"<h1> केडीई सूचना केंद्र</h1> अछि नहि मदद उपलब्ध क'लेल क्रियाशील सूचना<br /><br /> "
+"क्लिक करू<a href = \"kinfocenter/index.html\"></a> मे पढ़ू सूचना केंद्र."
 
 #: dockcontainer.cpp:91
 #, fuzzy
@@ -990,8 +974,6 @@ msgid "About %1"
 msgstr "%1 केर संबंध में"
 
 #: toplevel.cpp:160
-#, kde-format
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Report Bug on Module %1..."
 msgstr "रिपोट पर मोड्यूल."
-
