@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-02 05:57+0100\n"
+"POT-Creation-Date: 2010-02-05 02:26+0100\n"
 "PO-Revision-Date: 2010-01-29 13:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -21,163 +21,133 @@ msgstr ""
 "\n"
 "\n"
 
-#: buttons.cpp:610
+#: auroraepreview.cpp:317 preview.cpp:383
+msgid "Active Window"
+msgstr "क्रियाशील विन्डो"
+
+#: auroraepreview.cpp:320 preview.cpp:383
+msgid "Inactive Window"
+msgstr "अक्रिय विन्डो"
+
+#: buttonsconfigdialog.cpp:44
+#, fuzzy
+#| msgid "&Buttons"
+msgid "Buttons"
+msgstr "बटन (&B)"
+
+#: buttons.cpp:613
 msgid "KDE"
 msgstr "केडीई"
 
-#: buttons.cpp:640
+#: buttons.cpp:643
 #, kde-format
 msgid "%1 (unavailable)"
 msgstr "%1 (अनुपलब्ध)"
 
-#: buttons.cpp:663
+#: buttons.cpp:666
 msgid ""
 "To add or remove titlebar buttons, simply <i>drag</i> items between the "
 "available item list and the titlebar preview. Similarly, drag items within "
 "the titlebar preview to re-position them."
 msgstr ""
 
-#: buttons.cpp:759
+#: buttons.cpp:708
 msgid "Resize"
 msgstr "आकार बदलू"
 
-#: buttons.cpp:763
+#: buttons.cpp:712
 msgid "Shade"
 msgstr "छायांकित"
 
-#: buttons.cpp:767
+#: buttons.cpp:716
 msgid "Keep Below Others"
 msgstr "आनसभ केर नीच्चाँ राखू"
 
-#: buttons.cpp:771
+#: buttons.cpp:720
 msgid "Keep Above Others"
 msgstr "आनसभ केर उप्पर राखू"
 
-#: buttons.cpp:775
+#: buttons.cpp:724
 msgid "Close"
 msgstr "बन्न करू"
 
-#: buttons.cpp:779
+#: buttons.cpp:728
 msgid "Maximize"
 msgstr "पैघ करू"
 
-#: buttons.cpp:783
+#: buttons.cpp:732
 msgid "Minimize"
 msgstr "छोट करू"
 
-#: buttons.cpp:787
+#: buttons.cpp:736
 msgid "Help"
 msgstr "मद्दति "
 
-#: buttons.cpp:791
+#: buttons.cpp:740
 msgid "On All Desktops"
 msgstr "सभटा डेस्कटाप पर"
 
-#: buttons.cpp:795
+#: buttons.cpp:744
 msgid "Menu"
 msgstr "मेनू "
 
-#: buttons.cpp:799
+#: buttons.cpp:748
 msgid "--- spacer ---"
 msgstr "---स्पेसर---"
 
-#: kwindecoration.cpp:98
-msgid ""
-"Select the window decoration. This is the look and feel of both the window "
-"borders and the window handle."
-msgstr "विंडो सजावट चुनू. ई विंडो किनारा तथा विंडो हैंडल क' रूपेँ आओर आकार अछि."
-
-#: kwindecoration.cpp:103
-msgid "Decoration Options"
-msgstr "सजावट विकल्प"
-
-#: kwindecoration.cpp:113
-msgid "B&order size:"
-msgstr "किनारक आकार:"
-
-#: kwindecoration.cpp:116
-msgid "Use this combobox to change the border size of the decoration."
-msgstr "सजावट केर किनार आकार केँ बदलब क' लेल एहि काम्बो-बक्से क' उपयोग करू."
-
-#: kwindecoration.cpp:133
-msgid "&Show window button tooltips"
-msgstr "विंडो बटन अओजार-नुस्खा देखाबू (&S)"
-
-#: kwindecoration.cpp:135
-msgid ""
-"Enabling this checkbox will show window button tooltips. If this checkbox is "
-"off, no window button tooltips will be shown."
-msgstr ""
-
-#: kwindecoration.cpp:139
-msgid "Use custom titlebar button &positions"
-msgstr "मनपसिन्न शीर्षक पट्टी बटन स्थितिसभक इस्तेमाल करू (&p)"
-
-#: kwindecoration.cpp:141
-msgid ""
-"The appropriate settings can be found in the \"Buttons\" Tab; please note "
-"that this option is not available on all styles yet."
-msgstr ""
-"\"बटन्स\" टैब मे उपयुक्त बिन्यास पाएल जाए सकैत अछि. कृप्या टीप लिअ'कि ई विकल्प सबहि "
-"शैली मे उपलब्ध नहि अछि."
-
-#: kwindecoration.cpp:176
-msgid "&Window Decoration"
-msgstr "विंडो सजावट (&W)"
-
-#: kwindecoration.cpp:177
-msgid "&Buttons"
-msgstr "बटन (&B)"
-
-#: kwindecoration.cpp:192
-msgid "kcmkwindecoration"
-msgstr "केसीएमविनडेकोरेशन"
-
-#: kwindecoration.cpp:193
-msgid "Window Decoration Control Module"
-msgstr "विंडो सजावट नियंत्रण मोड्यूल"
-
-#: kwindecoration.cpp:195
-msgid "(c) 2001 Karol Szwed"
-msgstr "(c) 2001 केरोल स्जवेड"
-
-#: kwindecoration.cpp:196
-msgid "Karol Szwed"
-msgstr "केरोल स्जवेड"
-
-#: kwindecoration.cpp:276
+#: configdialog.cpp:33
 msgid "Tiny"
 msgstr "नन्हा"
 
-#: kwindecoration.cpp:277
+#: configdialog.cpp:34
 msgid "Normal"
 msgstr "सामान्य"
 
-#: kwindecoration.cpp:278
+#: configdialog.cpp:35
 msgid "Large"
 msgstr "पैघ"
 
-#: kwindecoration.cpp:279
+#: configdialog.cpp:36
 msgid "Very Large"
 msgstr "बहुत बड"
 
-#: kwindecoration.cpp:280
+#: configdialog.cpp:37
 msgid "Huge"
 msgstr "विशाल"
 
-#: kwindecoration.cpp:281
+#: configdialog.cpp:38
 msgid "Very Huge"
 msgstr "अत्यंत विशाल"
 
-#: kwindecoration.cpp:282
+#: configdialog.cpp:39
 msgid "Oversized"
 msgstr "वृहताकार"
 
-#: kwindecoration.cpp:553 kwindecoration.cpp:554
+#: configdialog.cpp:58
+msgid "Decoration Options"
+msgstr "सजावट विकल्प"
+
+#: kwindecoration.cpp:98
+msgid "kcmkwindecoration"
+msgstr "केसीएमविनडेकोरेशन"
+
+#: kwindecoration.cpp:99
+msgid "Window Decoration Control Module"
+msgstr "विंडो सजावट नियंत्रण मोड्यूल"
+
+#: kwindecoration.cpp:101
+msgid "(c) 2001 Karol Szwed"
+msgstr "(c) 2001 केरोल स्जवेड"
+
+#: kwindecoration.cpp:102
+msgid "Karol Szwed"
+msgstr "केरोल स्जवेड"
+
+#: kwindecoration.cpp:237
 msgid "Oxygen"
 msgstr "आक्सीजन"
 
-#: kwindecoration.cpp:598
+#: kwindecoration.cpp:251
 msgid ""
 "<h1>Window Manager Decoration</h1><p>This module allows you to choose the "
 "window border decorations, as well as titlebar button positions and custom "
@@ -190,7 +160,7 @@ msgid ""
 "positions of the buttons to your liking.</p>"
 msgstr ""
 
-#: preview.cpp:54
+#: preview.cpp:52
 msgid ""
 "No preview available.\n"
 "Most probably there\n"
@@ -200,20 +170,83 @@ msgstr ""
 "पूरे संभावना अछि जे\n"
 "प्लगइन केँ लोड करबा मे समस्या आएल."
 
-#: preview.cpp:367
-msgid "Active Window"
-msgstr "क्रियाशील विन्डो"
+#. i18n: file: buttons.ui:17
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showToolTipsCheckBox)
+#: rc.cpp:3
+msgid ""
+"Enabling this checkbox will show window button tooltips. If this checkbox is "
+"off, no window button tooltips will be shown."
+msgstr ""
 
-#: preview.cpp:367
-msgid "Inactive Window"
-msgstr "अक्रिय विन्डो"
+#. i18n: file: buttons.ui:20
+#. i18n: ectx: property (text), widget (QCheckBox, showToolTipsCheckBox)
+#: rc.cpp:6
+msgid "&Show window button tooltips"
+msgstr "विंडो बटन अओजार-नुस्खा देखाबू (&S)"
 
-#: rc.cpp:1
+#. i18n: file: buttons.ui:27
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useCustomButtonPositionsCheckBox)
+#: rc.cpp:9
+msgid ""
+"The appropriate settings can be found in the \"Buttons\" Tab; please note "
+"that this option is not available on all styles yet."
+msgstr ""
+"\"बटन्स\" टैब मे उपयुक्त बिन्यास पाएल जाए सकैत अछि. कृप्या टीप लिअ'कि ई विकल्प सबहि "
+"शैली मे उपलब्ध नहि अछि."
+
+#. i18n: file: buttons.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, useCustomButtonPositionsCheckBox)
+#: rc.cpp:12
+msgid "Use custom titlebar button &positions"
+msgstr "मनपसिन्न शीर्षक पट्टी बटन स्थितिसभक इस्तेमाल करू (&p)"
+
+#. i18n: file: config.ui:19
+#. i18n: ectx: property (text), widget (QLabel, borderLabel)
+#: rc.cpp:15
+msgid "B&order size:"
+msgstr "किनारक आकार:"
+
+#. i18n: file: config.ui:29
+#. i18n: ectx: property (whatsThis), widget (KComboBox, bordersCombo)
+#: rc.cpp:18
+msgid "Use this combobox to change the border size of the decoration."
+msgstr "सजावट केर किनार आकार केँ बदलब क' लेल एहि काम्बो-बक्से क' उपयोग करू."
+
+#. i18n: file: decoration.ui:17
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchEdit)
+#: rc.cpp:21
+msgid "Search"
+msgstr ""
+
+#. i18n: file: decoration.ui:27
+#. i18n: ectx: property (whatsThis), widget (QListView, decorationList)
+#: rc.cpp:24
+msgid ""
+"Select the window decoration. This is the look and feel of both the window "
+"borders and the window handle."
+msgstr "विंडो सजावट चुनू. ई विंडो किनारा तथा विंडो हैंडल क' रूपेँ आओर आकार अछि."
+
+#. i18n: file: decoration.ui:52
+#. i18n: ectx: property (text), widget (KPushButton, configureButtonsButton)
+#: rc.cpp:27
+msgid "Configure Buttons ..."
+msgstr ""
+
+#. i18n: file: decoration.ui:59
+#. i18n: ectx: property (text), widget (KPushButton, ghnsButton)
+#: rc.cpp:30
+msgid "Get New Decorations ..."
+msgstr ""
+
+#: rc.cpp:31
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "संगीता कुमारी"
 
-#: rc.cpp:2
+#: rc.cpp:32
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
+
+#~ msgid "&Window Decoration"
+#~ msgstr "विंडो सजावट (&W)"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-08 06:11+0100\n"
+"POT-Creation-Date: 2010-02-05 02:24+0100\n"
 "PO-Revision-Date: 2010-01-29 15:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -111,22 +111,37 @@ msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|KDE Bookmark Files (*.xml)"
 
 #: bookmarkmodel.cpp:86
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
 msgid "Bookmarks"
 msgstr "पुस्तकचिह्न"
 
-#: bookmarkmodel.cpp:184
-msgid "Bookmark"
-msgstr "पुस्तकचिह्न"
-
 #: bookmarkmodel.cpp:186
-msgid "URL"
-msgstr "URL"
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "नाम:"
 
-#: bookmarkmodel.cpp:188
+#: bookmarkmodel.cpp:190
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "स्थानः"
+
+#: bookmarkmodel.cpp:194
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
 msgid "Comment"
 msgstr "टिप्पणी"
 
-#: bookmarkmodel.cpp:190
+#: bookmarkmodel.cpp:198
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
 msgid "Status"
 msgstr "स्थिति"
 
@@ -486,7 +501,9 @@ msgid "Rename"
 msgstr "नाम बदलू"
 
 #: actionsimpl.cpp:104
-msgid "C&hange URL"
+#, fuzzy
+#| msgid "C&hange URL"
+msgid "C&hange Location"
 msgstr "यूआरएल बदलू (&h)"
 
 #: actionsimpl.cpp:110
@@ -636,3 +653,9 @@ msgstr "वस्तु मेटाउ"
 #: exporters.cpp:48
 msgid "My Bookmarks"
 msgstr "हमर पुस्तकचिह्न"
+
+#~ msgid "Bookmark"
+#~ msgstr "पुस्तकचिह्न"
+
+#~ msgid "URL"
+#~ msgstr "URL"
