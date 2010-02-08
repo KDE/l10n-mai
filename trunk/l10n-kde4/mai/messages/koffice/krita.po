@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-07 07:49+0100\n"
+"POT-Creation-Date: 2010-02-08 07:13+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6023,7 +6023,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/compose/wdg_compose.ui:52
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:2357 ui/tool/kis_tool_paint.cc:167
+#: rc.cpp:2357 ui/tool/kis_tool_paint.cc:168
 msgid "Opacity: "
 msgstr ""
 
@@ -8356,7 +8356,7 @@ msgstr "अग्रभूमि रँग"
 msgid "No options"
 msgstr "विकल्प"
 
-#: ui/tool/kis_tool_paint.cc:175
+#: ui/tool/kis_tool_paint.cc:176
 msgid "Mode: "
 msgstr ""
 
@@ -8457,7 +8457,7 @@ msgstr "लागू करू"
 msgid "New Transformation Mask"
 msgstr ""
 
-#: ui/flake/kis_shape_controller.cpp:303
+#: ui/flake/kis_shape_controller.cpp:311
 #, kde-format
 msgid "Flake shapes %1"
 msgstr ""
@@ -9036,7 +9036,7 @@ msgid ""
 "affected by any operation."
 msgstr ""
 
-#: ui/widgets/kis_filter_selector_widget.cc:139
+#: ui/widgets/kis_filter_selector_widget.cc:140
 #: plugins/extensions/tonemapping/kis_tonemapping_dialog.cc:128
 msgid "No configuration option."
 msgstr ""
@@ -9853,6 +9853,10 @@ msgstr "TIFF विकल्प"
 msgid "Elliptical Selection"
 msgstr ""
 
+#: plugins/tools/selectiontools/kis_tool_select_brush.h:69
+msgid "Select by brush"
+msgstr ""
+
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:93
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:115
 msgid "Contiguous Area Selection"
@@ -9884,6 +9888,19 @@ msgstr ""
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.h:62
 msgid "Select a contiguous area of colors"
 msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:61
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:145
+#, fuzzy
+#| msgid "Border Selection"
+msgid "Brush Selection"
+msgstr "सीमा चयन"
+
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:64
+#, fuzzy
+#| msgid "Brushes"
+msgid "Brush size:"
+msgstr "ब्रश"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.h:67
 msgid "Select an area by its outline"
