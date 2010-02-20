@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-19 07:00+0100\n"
+"POT-Creation-Date: 2010-02-20 07:07+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3293,9 +3293,9 @@ msgstr "त्रिज्या"
 #. i18n: file: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:930
-#, fuzzy
-#| msgid "Threshold"
-msgid "Treshold"
+#: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:54
+#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:54
+msgid "Threshold"
 msgstr "दहलीज"
 
 #. i18n: file: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:83
@@ -9041,7 +9041,7 @@ msgstr "दृष्टिगोचर"
 msgid "Locked"
 msgstr "तालाबन्न"
 
-#: ui/kis_node_model.cpp:298 image/kis_selection_mask.cpp:106
+#: ui/kis_node_model.cpp:298 image/kis_selection_mask.cpp:107
 #: plugins/paintops/libpaintop/kis_paintop_options_widget.cpp:87
 msgid "Active"
 msgstr "सक्रिय"
@@ -9174,6 +9174,10 @@ msgstr ""
 
 #: ui/widgets/kis_gradient_slider_widget.cc:52
 msgid "Remove Segment"
+msgstr ""
+
+#: ui/widgets/kis_preset_chooser.cpp:131
+msgid "Search preset"
 msgstr ""
 
 #: ui/widgets/kis_meta_data_merge_strategy_chooser_widget.cc:62
@@ -11049,11 +11053,6 @@ msgstr ""
 msgid "&Wavelet Noise Reducer"
 msgstr ""
 
-#: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:54
-#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:54
-msgid "Threshold"
-msgstr "दहलीज"
-
 #: plugins/filters/imageenhancement/kis_simple_noise_reducer.h:43
 msgid "Gaussian Noise Reducer"
 msgstr ""
@@ -11873,6 +11872,11 @@ msgstr "नियमित"
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:68
 msgid "Ruler assistant editor tool"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Threshold"
+#~ msgid "Treshold"
+#~ msgstr "दहलीज"
 
 #, fuzzy
 #~| msgid "Polyline"
