@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 06:07+0000\n"
+"POT-Creation-Date: 2010-02-23 06:25+0000\n"
 "PO-Revision-Date: 2010-01-28 13:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -2309,8 +2309,8 @@ msgstr "केडीई चालू हए केर काले कान्�
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:3
 msgctxt "Name"
-msgid "KDED Konqueror Preloader Module"
-msgstr "केडीईडी कान्क्वेरर प्रीलोडर मोड्यूल"
+msgid "Browser Preloader"
+msgstr ""
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:87
 msgctxt "Comment"
@@ -2952,15 +2952,16 @@ msgid "Bookmark Toolbar"
 msgstr "पसंदीदा अओजार पट्टी"
 
 #: apps/lib/konq/favicons/favicons.desktop:3
+#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
+#, fuzzy
 msgctxt "Name"
-msgid "KDED Favicon Module"
-msgstr "केडीईडी फेविकान मोड्यूल"
+msgid "Favicons"
+msgstr "फेविकान"
 
 #: apps/lib/konq/favicons/favicons.desktop:91
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
 msgctxt "Comment"
-msgid "Shortcut icon support"
-msgstr "शार्टकट प्रतीक आधार"
+msgid "Stores website icons"
+msgstr ""
 
 #: apps/lib/konq/konqdndpopupmenuplugin.desktop:4
 #, fuzzy
@@ -3654,9 +3655,17 @@ msgid "Configure the CGI KIO slave"
 msgstr "सीजीआई केआईओ स्लेव बिन्यस्त करू"
 
 #: runtime/kioslave/desktop/desktopnotifier.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Watcher"
 msgctxt "Name"
-msgid "KDED Desktop Folder Notifier"
-msgstr "केडीईडी डेस्कटॉप फ़ोल्डर नोटिफ़ायर"
+msgid "Directory Watcher"
+msgstr "नेटवर्क वाचर"
+
+#: runtime/kioslave/desktop/desktopnotifier.desktop:84
+msgctxt "Comment"
+msgid "Monitors directories for changes"
+msgstr ""
 
 #: runtime/kioslave/desktop/directory.trash:3
 #: runtime/kioslave/trash/kcmtrash.desktop:1
@@ -3706,9 +3715,17 @@ msgid ""
 msgstr ""
 
 #: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Remote Base URL Notifier"
 msgctxt "Name"
-msgid "KDED Remote Base URL Notifier"
+msgid "Remote URL Change Notifier"
 msgstr "केडीईडी रिमोट आधारित यूआरएल नोटिफायर"
+
+#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:80
+msgctxt "Comment"
+msgid "Provides change notification to the remote:/ ioslave"
+msgstr ""
 
 #: runtime/kioslave/sftp/sftp.protocol:15
 msgctxt "Description"
@@ -4011,13 +4028,19 @@ msgid "KDE Notification Daemon"
 msgstr "केडीई सूचना डेमन"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Name"
-msgid "KDED Password Module"
-msgstr "KDED गूढ़किल्ली माड्यूल"
+msgid "Password Caching"
+msgstr "गूढ़किल्ली कैशिंगक समर्थन"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Comment"
-msgid "Password caching support"
+msgid "Temporary password caching"
 msgstr "गूढ़किल्ली कैशिंगक समर्थन"
 
 #: runtime/kstyles/highcontrast/highcontrast.themerc:2
@@ -4245,14 +4268,17 @@ msgid "Web widget style"
 msgstr "वेब विजेट शैली"
 
 #: runtime/ktimezoned/ktimezoned.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Time Zone Daemon"
 msgctxt "Name"
-msgid "KDE Time Zone Daemon"
+msgid "Time Zone"
 msgstr "केडीई टाइम जोन डेमन"
 
 #: runtime/ktimezoned/ktimezoned.desktop:90
 msgctxt "Comment"
-msgid "Time zone daemon for KDE"
-msgstr "केडीई क' लेल समय क्षेत्र डेमन"
+msgid "Holds the configured time zone for the desktop"
+msgstr ""
 
 #: runtime/kuiserver/kuiserver.desktop:3
 msgctxt "Name"
@@ -8403,12 +8429,12 @@ msgstr "Xine बैकेंड विन्यास"
 #: runtime/phonon/kded-module/phononserver.desktop:8
 #, fuzzy
 msgctxt "Name"
-msgid "Sound Policy Server"
+msgid "Sound Policy"
 msgstr "ध्वनि नियम सर्वर"
 
 #: runtime/phonon/kded-module/phononserver.desktop:78
 msgctxt "Comment"
-msgid "A server to centralize decisions and data of applications using Phonon"
+msgid "Provides sound system policy to applications"
 msgstr ""
 
 #: runtime/phonon/platform_kde/phononbackend.desktop:4
@@ -8492,6 +8518,11 @@ msgctxt "Name"
 msgid "KDED Windows Start Menu Module"
 msgstr "KDED विंडो आरंभ मेनू माड्यूल"
 
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
+msgctxt "Comment"
+msgid "Shortcut icon support"
+msgstr "शार्टकट प्रतीक आधार"
+
 #: runtime/renamedlgplugins/audio/renaudiodlg.desktop:3
 msgctxt "Name"
 msgid "Audio Preview"
@@ -8503,14 +8534,16 @@ msgid "Image Displayer"
 msgstr "छवि देखैनिहार"
 
 #: runtime/solidautoeject/solidautoeject.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Driver"
 msgctxt "Name"
-msgid "Solid Auto-eject service"
-msgstr "सोलिड आटो इजेक्ट सेवा"
+msgid "Drive Ejector"
+msgstr "ड्राइवर"
 
 #: runtime/solidautoeject/solidautoeject.desktop:62
 msgctxt "Comment"
-msgid ""
-"Allows to automatically release drives when their eject button is pushed"
+msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
@@ -8533,17 +8566,20 @@ msgstr ""
 
 #: runtime/solid-device-automounter/kded/device_automounter.desktop:55
 msgctxt "Comment"
-msgid "Automatically mounts devices when they are plugged in, or at login"
+msgid "Automatically mounts devices as needed"
 msgstr ""
 
 #: runtime/soliduiserver/soliduiserver.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Hardware"
 msgctxt "Name"
-msgid "Solid User Interface Server"
-msgstr "ठोस प्रयोक्ता अंतरफलक सर्वर"
+msgid "Hardware Detection"
+msgstr "हार्डवेयर"
 
 #: runtime/soliduiserver/soliduiserver.desktop:82
 msgctxt "Comment"
-msgid "A User Interface server for Solid, the hardware detection system"
+msgid "Provides a user interface for hardware events"
 msgstr ""
 
 #: workspace/kcontrol/access/kaccess.desktop:3
@@ -9008,7 +9044,12 @@ msgstr "एक्स स्क्रीन क' आकार बदलब आओ
 
 #: workspace/kcontrol/randr/module/randrmonitor.desktop:2
 msgctxt "Name"
-msgid "Detecting RANDR (monitor) changes"
+msgid "Display Management change monitor"
+msgstr ""
+
+#: workspace/kcontrol/randr/module/randrmonitor.desktop:47
+msgctxt "Comment"
+msgid "Is this required when kephal has its own kded module?"
 msgstr ""
 
 #: workspace/kcontrol/randr/randr.desktop:14
@@ -9609,15 +9650,16 @@ msgid "Oxygen Theme"
 msgstr "आक्सीजन थीम"
 
 #: workspace/khotkeys/app/khotkeys.desktop:3
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
+#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
 msgctxt "Name"
-msgid "KHotKeys"
-msgstr "के-हाट-कीज"
+msgid "Input Actions"
+msgstr "इनपुट क्रिया"
 
 #: workspace/khotkeys/app/khotkeys.desktop:88
-#, fuzzy
 msgctxt "Comment"
-msgid "KHotKeys daemon. No daemon, no hotkeys."
-msgstr "के-हॉट-कीज डेमन. कोनो डेमन नहि, कोनो हाट-कीज नहि."
+msgid "Input Actions service performing configured actions on key presses"
+msgstr ""
 
 #: workspace/khotkeys/data/defaults.khotkeys:5
 #: workspace/khotkeys/data/defaults.khotkeys:141
@@ -10044,12 +10086,6 @@ msgstr "जखन प्रिंटस्क्रीन बटन दबाए
 msgctxt "Name"
 msgid "PrintScreen"
 msgstr "प्रिंट-स्क्रीन"
-
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
-#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
-msgctxt "Name"
-msgid "Input Actions"
-msgstr "इनपुट क्रिया"
 
 #: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
 #, fuzzy
@@ -11740,7 +11776,6 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr "किछु प्रभाव केँ बैकेंड या हार्डवेयरक द्वारा समर्थित नहि कएल गेल अछि."
 
 #: workspace/kwrited/kwrited-autostart.desktop:2
-#: workspace/kwrited/kwrited.desktop:2
 msgctxt "Name"
 msgid "KDE Write Daemon"
 msgstr "केडीई राइट डेमन"
@@ -11751,6 +11786,14 @@ msgctxt "Comment"
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr ""
 "स्थानीय प्रयोक्तासभक द्वारा राइट(1) अथवा वाल(1) केर जरिआ भेजल गए संदेशसभ क' लेल देखू"
+
+#: workspace/kwrited/kwrited.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Name"
+msgid "Write Daemon"
+msgstr "केडीई राइट डेमन"
 
 #: workspace/kwrited/kwrited.notifyrc:3
 #, fuzzy
@@ -11772,9 +11815,16 @@ msgstr "डेमन द्वारा राइट(1) या वाल(1) क�
 
 #: workspace/libs/kephal/kded_kephal/kephal.desktop:10
 #, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
 msgctxt "Name"
-msgid "KDED-module for screen-management"
-msgstr "स्क्रीन प्रबंधन हेतु केडीईडी-मॉड्यूल"
+msgid "Display Management"
+msgstr "फाइल प्रबंधन"
+
+#: workspace/libs/kephal/kded_kephal/kephal.desktop:75
+msgctxt "Comment"
+msgid "Manages displays and video outputs"
+msgstr ""
 
 #: workspace/libs/ksysguard/processcore/actions.actions:2
 #, fuzzy
@@ -12250,14 +12300,12 @@ msgstr "तंत्र तश्तरीमे न्यूनतम कएल
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
 msgctxt "Name"
-msgid "KDED Status Notifier watcher"
+msgid "Status Notifier Manager"
 msgstr "केडीई सूचना डेमन"
 
 #: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:51
 msgctxt "Comment"
-msgid ""
-"Keep track of applications that want to use the D-Bus based status notifier "
-"protocol."
+msgid "Manages services that provide status notifier user interfaces"
 msgstr ""
 
 #: workspace/plasma/generic/applets/webbrowser/plasma-applet-webbrowser.desktop:3
@@ -12414,12 +12462,6 @@ msgstr "कमांड चलाउ"
 msgctxt "Comment"
 msgid "Run Executable Data Engine"
 msgstr "एक्जीक्यूटेबल डाटा इंजिन चलाउ"
-
-#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
-#, fuzzy
-msgctxt "Name"
-msgid "Favicons"
-msgstr "फेविकान"
 
 #: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:73
 #, fuzzy
@@ -12760,7 +12802,6 @@ msgid "Basic Power Management Operations"
 msgstr "आधारभूत बिजली प्रबंधन आपरेशन"
 
 #: workspace/plasma/generic/runners/powerdevil/plasma-runner-powerdevil.desktop:70
-#: workspace/powerdevil/daemon/powerdevil.desktop:11
 msgctxt "Name"
 msgid "PowerDevil"
 msgstr "पावर-डेविल"
@@ -13209,17 +13250,17 @@ msgctxt "Comment"
 msgid "Set up policies for applications using PolicyKit"
 msgstr ""
 
-#: workspace/powerdevil/daemon/powerdevil.desktop:80
-#, fuzzy
-msgctxt "Comment"
-msgid "A Laptop Power Management Daemon"
-msgstr "लैपटॉप बिजली प्रबंधन डेमन"
-
+#: workspace/powerdevil/daemon/powerdevil.desktop:11
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
 #: workspace/powerdevil/powerdevil.notifyrc:2
 msgctxt "Name"
 msgid "Power Management"
 msgstr "पावर मैनेजमेंट"
+
+#: workspace/powerdevil/daemon/powerdevil.desktop:80
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr ""
 
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:85
 #, fuzzy
@@ -13419,8 +13460,11 @@ msgid "Linux Infrared Remote Control"
 msgstr ""
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Status Daemon"
 msgctxt "Name"
-msgid "Network Status Daemon"
+msgid "Network Status"
 msgstr "नेटवर्क स्थिति डेमन"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:75
@@ -14100,6 +14144,53 @@ msgstr "बसंती सूर्यकिरण"
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr "शनिक छल्ला"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Konqueror Preloader Module"
+#~ msgstr "केडीईडी कान्क्वेरर प्रीलोडर मोड्यूल"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Favicon Module"
+#~ msgstr "केडीईडी फेविकान मोड्यूल"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Desktop Folder Notifier"
+#~ msgstr "केडीईडी डेस्कटॉप फ़ोल्डर नोटिफ़ायर"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Password Module"
+#~ msgstr "KDED गूढ़किल्ली माड्यूल"
+
+#~ msgctxt "Comment"
+#~ msgid "Time zone daemon for KDE"
+#~ msgstr "केडीई क' लेल समय क्षेत्र डेमन"
+
+#~ msgctxt "Name"
+#~ msgid "Solid Auto-eject service"
+#~ msgstr "सोलिड आटो इजेक्ट सेवा"
+
+#~ msgctxt "Name"
+#~ msgid "Solid User Interface Server"
+#~ msgstr "ठोस प्रयोक्ता अंतरफलक सर्वर"
+
+#~ msgctxt "Name"
+#~ msgid "KHotKeys"
+#~ msgstr "के-हाट-कीज"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "KHotKeys daemon. No daemon, no hotkeys."
+#~ msgstr "के-हॉट-कीज डेमन. कोनो डेमन नहि, कोनो हाट-कीज नहि."
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "KDED-module for screen-management"
+#~ msgstr "स्क्रीन प्रबंधन हेतु केडीईडी-मॉड्यूल"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "A Laptop Power Management Daemon"
+#~ msgstr "लैपटॉप बिजली प्रबंधन डेमन"
 
 #~ msgctxt "Name"
 #~ msgid "Sound"
