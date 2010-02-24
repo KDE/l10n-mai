@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-23 07:03+0100\n"
+"POT-Creation-Date: 2010-02-24 07:09+0100\n"
 "PO-Revision-Date: 2010-01-28 12:03+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -2166,12 +2166,12 @@ msgstr "केडीइ केँ होस्टनाम मे परिव�
 msgid "(c) 2001 Waldo Bastian"
 msgstr "(C) 2001 वाल्दो बास्तियान"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:639 khtml/khtml_global.cpp:212
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:622 khtml/khtml_global.cpp:212
 #: kconf_update/kconf_update.cpp:963
 msgid "Waldo Bastian"
 msgstr "वाल्दो बास्तियान"
 
-#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:638 kded/kbuildsycoca.cpp:639
+#: kded/khostname.cpp:220 kded/kbuildsycoca.cpp:621 kded/kbuildsycoca.cpp:622
 #: kross/qts/main.cpp:63 kross/test/main.cpp:149 kross/console/main.cpp:102
 #: kde3support/kdeui/k3aboutdialog.cpp:184
 msgid "Author"
@@ -2197,103 +2197,49 @@ msgstr "केडीइ डेमन - जखन आवश्यक हुए, �
 msgid "Check Sycoca database only once"
 msgstr "सिकोका डाटाबेस एक बेर जाँचू"
 
-#: kded/kbuildsycoca.cpp:406
-#, kde-format
-msgid ""
-"Error creating database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"डाटाबेस '%1' तैआर करब मे त्रुटि.\n"
-"कृप्या जाँचू जे डिरेक्ट्री मे अनुमतिसभ सही छी आओर डिस्क भरल तँ नहि अछि.\n"
-
-#: kded/kbuildsycoca.cpp:406 kded/kbuildsycoca.cpp:437
-#: kded/kbuildsycoca.cpp:635
+#: kded/kbuildsycoca.cpp:618
 msgid "KBuildSycoca"
 msgstr "के-बिल्ड-सायकोका"
 
-#: kded/kbuildsycoca.cpp:437
-#, kde-format
-msgid ""
-"Error writing database '%1'.\n"
-"Check that the permissions are correct on the directory and the disk is not "
-"full.\n"
-msgstr ""
-"डाटाबेस '%1' लिखबा मे त्रुटि.\n"
-"कृप्या जाँचि करू जे डिरेक्ट्री मे अनुमतिसभ सही छी आओर डिस्क भरल भेलहुँ तँ नहि अछि.\n"
-
-#: kded/kbuildsycoca.cpp:636
+#: kded/kbuildsycoca.cpp:619
 msgid "Rebuilds the system configuration cache."
 msgstr "तंत्र बिन्यास कैश फिनु निर्मित करू"
 
-#: kded/kbuildsycoca.cpp:637
+#: kded/kbuildsycoca.cpp:620
 msgid "(c) 1999-2002 KDE Developers"
 msgstr "(c) 1998-2002 केडीइ डेवलपर्स"
 
-#: kded/kbuildsycoca.cpp:638
+#: kded/kbuildsycoca.cpp:621
 msgid "David Faure"
 msgstr "डेविड फ़ॉउर"
 
-#: kded/kbuildsycoca.cpp:642
+#: kded/kbuildsycoca.cpp:625
 msgid "Do not signal applications to update"
 msgstr "अनुप्रयोगसभ केँ अद्यतन क' लेल संकेत नहि दिअ'"
 
-#: kded/kbuildsycoca.cpp:643
+#: kded/kbuildsycoca.cpp:626
 msgid "Disable incremental update, re-read everything"
 msgstr "इंक्रीमेंटल अपडेट अक्षम करू, सबहि फिनु सँ  पढ़ू"
 
-#: kded/kbuildsycoca.cpp:644
+#: kded/kbuildsycoca.cpp:627
 msgid "Check file timestamps"
 msgstr "फाइल टाइमस्टैम्प्स जाँचू"
 
-#: kded/kbuildsycoca.cpp:645
+#: kded/kbuildsycoca.cpp:628
 msgid "Disable checking files (dangerous)"
 msgstr "फाइल जाँच अक्षम करू (खतरनाक)"
 
-#: kded/kbuildsycoca.cpp:646
+#: kded/kbuildsycoca.cpp:629
 msgid "Create global database"
 msgstr "वैश्विक डाटाबेस बनाबू"
 
-#: kded/kbuildsycoca.cpp:647
+#: kded/kbuildsycoca.cpp:630
 msgid "Perform menu generation test run only"
 msgstr "केवल मेनू जनरेशन टेस्ट रन पूरा करू"
 
-#: kded/kbuildsycoca.cpp:648
+#: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "डिबग प्रक्रिया क' लेल मेनू आईडी ट्रैक करू"
-
-#: kded/kbuildsycoca.cpp:650
-msgid "Silent - work without windows and stderr"
-msgstr "शांत - विंडोज़ आओर एसटीडीईआरआर केर बिनु काज करू"
-
-#: kded/kbuildsycoca.cpp:651
-msgid "Show progress information (even if 'silent' mode is on)"
-msgstr "प्रगति जानकारी देखाबू (तखनो जँ 'शांत' मोड चालू अछि)"
-
-#: kded/kbuildsycoca.cpp:677
-msgid "Reloading KDE configuration, please wait..."
-msgstr "केडीइ बिन्यास फिनु सँ लोड कएल जाए रहल अछि. कृप्या इंतजार करू..."
-
-#: kded/kbuildsycoca.cpp:678
-msgid "KDE Configuration Manager"
-msgstr "केडीइ बिन्यास प्रबंधक"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do you want to reload KDE configuration?"
-msgstr "की अहाँ केडीइ बिन्यास केँ फिनु सँ लोड कएनाइ चाहैत छी?"
-
-#: kded/kbuildsycoca.cpp:680
-msgctxt "Reload KDE configuration messagebox"
-msgid "Reload"
-msgstr "फिनु लोड करू"
-
-#: kded/kbuildsycoca.cpp:680
-msgid "Do Not Reload"
-msgstr "फिनु लोड नहि करू"
-
-#: kded/kbuildsycoca.cpp:858
-msgid "Configuration information reloaded successfully."
-msgstr "बिन्यास जानकारी सफलतापूर्वक फिनु सँ लोड भ' गेल."
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -7967,18 +7913,18 @@ msgstr "वर्तनी जाँचि सम्पन्न."
 msgid "Sonnet Configuration"
 msgstr "सॉन्नेट बिन्यास"
 
-#: kdeui/sonnet/highlighter.cpp:241 kdeui/sonnet/highlighter.cpp:264
+#: kdeui/sonnet/highlighter.cpp:292 kdeui/sonnet/highlighter.cpp:315
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:470
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:576
 msgid "As-you-type spell checking enabled."
 msgstr "टाइप करब केर दौरान वर्तनी जाँचि सक्षम राखू"
 
-#: kdeui/sonnet/highlighter.cpp:243
+#: kdeui/sonnet/highlighter.cpp:294
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:578
 msgid "Too many misspelled words. As-you-type spell checking disabled."
 msgstr "बेसी गलत वर्तनी केर शब्द छी. टाइप करब केर दौरान वर्तनी जाँचि बन्न राखल गेल अछि"
 
-#: kdeui/sonnet/highlighter.cpp:266
+#: kdeui/sonnet/highlighter.cpp:317
 #: kde3support/kdeui/k3syntaxhighlighter.cpp:472
 msgid "As-you-type spell checking disabled."
 msgstr "टाइप करब केर दौरान वर्तनी जाँचि अक्षम राखू"
@@ -12687,6 +12633,47 @@ msgstr "आइ क' नुस्ख़ा (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "एहन कोनो फंक्शन नहि \"%1\""
+
+#~ msgid ""
+#~ "Error creating database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "डाटाबेस '%1' तैआर करब मे त्रुटि.\n"
+#~ "कृप्या जाँचू जे डिरेक्ट्री मे अनुमतिसभ सही छी आओर डिस्क भरल तँ नहि अछि.\n"
+
+#~ msgid ""
+#~ "Error writing database '%1'.\n"
+#~ "Check that the permissions are correct on the directory and the disk is "
+#~ "not full.\n"
+#~ msgstr ""
+#~ "डाटाबेस '%1' लिखबा मे त्रुटि.\n"
+#~ "कृप्या जाँचि करू जे डिरेक्ट्री मे अनुमतिसभ सही छी आओर डिस्क भरल भेलहुँ तँ नहि अछि.\n"
+
+#~ msgid "Silent - work without windows and stderr"
+#~ msgstr "शांत - विंडोज़ आओर एसटीडीईआरआर केर बिनु काज करू"
+
+#~ msgid "Show progress information (even if 'silent' mode is on)"
+#~ msgstr "प्रगति जानकारी देखाबू (तखनो जँ 'शांत' मोड चालू अछि)"
+
+#~ msgid "Reloading KDE configuration, please wait..."
+#~ msgstr "केडीइ बिन्यास फिनु सँ लोड कएल जाए रहल अछि. कृप्या इंतजार करू..."
+
+#~ msgid "KDE Configuration Manager"
+#~ msgstr "केडीइ बिन्यास प्रबंधक"
+
+#~ msgid "Do you want to reload KDE configuration?"
+#~ msgstr "की अहाँ केडीइ बिन्यास केँ फिनु सँ लोड कएनाइ चाहैत छी?"
+
+#~ msgctxt "Reload KDE configuration messagebox"
+#~ msgid "Reload"
+#~ msgstr "फिनु लोड करू"
+
+#~ msgid "Do Not Reload"
+#~ msgstr "फिनु लोड नहि करू"
+
+#~ msgid "Configuration information reloaded successfully."
+#~ msgstr "बिन्यास जानकारी सफलतापूर्वक फिनु सँ लोड भ' गेल."
 
 #~ msgid "Form"
 #~ msgstr "फार्म"
