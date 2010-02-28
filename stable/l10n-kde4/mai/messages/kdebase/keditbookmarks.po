@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-08 06:11+0100\n"
+"POT-Creation-Date: 2010-02-26 20:27+0100\n"
 "PO-Revision-Date: 2010-01-29 15:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -24,111 +24,47 @@ msgstr ""
 "\n"
 "\n"
 
-#: commands.cpp:117
-msgid "Insert Separator"
-msgstr "विभाजक प्रविष्ट करू"
+#: kebsearchline.cpp:273
+msgid "Search Columns"
+msgstr "खोज स्तम्भ"
 
-#: commands.cpp:126
-msgid "Create Bookmark"
-msgstr "पुस्तकचिह्न बनाउ"
+#: kebsearchline.cpp:276
+msgid "All Visible Columns"
+msgstr "सभटा दृष्टिगोचर स्तम्भ"
 
-#: commands.cpp:135
-msgid "Create Folder"
-msgstr "फोल्डर बनाबू "
-
-#: commands.cpp:144
+#: kebsearchline.cpp:285
 #, kde-format
-msgid "Copy %1"
-msgstr "%1 कापी करू"
+msgctxt "Column number %1"
+msgid "Column No. %1"
+msgstr "स्तम्भ सं. %1"
 
-#: commands.cpp:233
-msgid "Icon Change"
-msgstr "चिह्न बदलू"
+#: kebsearchline.cpp:680
+msgid "S&earch:"
+msgstr "खोजू: (&e)"
 
-#: commands.cpp:235
-msgid "Title Change"
-msgstr "शीर्षक बदलू"
+#: bookmarkinfo.cpp:254
+msgid "Name:"
+msgstr "नाम:"
 
-#: commands.cpp:237
-#, fuzzy
-msgid "URL Change"
-msgstr "URL बदलू"
+#: bookmarkinfo.cpp:262
+msgid "Location:"
+msgstr "स्थानः"
 
-#: commands.cpp:239
-msgid "Comment Change"
-msgstr "टिप्पणी बदलू"
+#: bookmarkinfo.cpp:270
+msgid "Comment:"
+msgstr "टिप्पणीः"
 
-#: commands.cpp:445
-#, kde-format
-msgid "Move %1"
-msgstr "%1 घसकाबू"
+#: bookmarkinfo.cpp:277
+msgid "First viewed:"
+msgstr "पहिल बेर देखल गेलः"
 
-#: commands.cpp:557
-msgid "Set as Bookmark Toolbar"
-msgstr "अओजार पट्टीक तरह सेट करू"
+#: bookmarkinfo.cpp:280
+msgid "Viewed last:"
+msgstr "अंतिम बेर देखल गेलः"
 
-#: commands.cpp:593
-msgid "Copy Items"
-msgstr "वस्तु नकल करू"
-
-#: commands.cpp:594
-msgid "Move Items"
-msgstr "वस्तु घसकाउ"
-
-#: importers.cpp:55
-#, kde-format
-msgid "Import %1 Bookmarks"
-msgstr "पुस्तकचिह्न  %1 आयात करू"
-
-#: importers.cpp:59
-#, kde-format
-msgid "%1 Bookmarks"
-msgstr "%1 पुस्तकचिन्ह"
-
-#: importers.cpp:89
-msgid "Import as a new subfolder or replace all the current bookmarks?"
-msgstr "एकटा नव उपफोल्डरक तरह आयात करू अथवा वर्तमान सभटा पुस्तकचिह्न केँ बदलू?"
-
-#: importers.cpp:90
-#, kde-format
-msgid "%1 Import"
-msgstr "%1 आयात"
-
-#: importers.cpp:91
-msgid "As New Folder"
-msgstr "नव फोल्डर जहिना"
-
-#: importers.cpp:91
-msgid "Replace"
-msgstr "बदलू"
-
-#: importers.cpp:201
-msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
-msgstr "*.xbel|Galeon Bookmark Files (*.xbel)"
-
-#: importers.cpp:210
-msgid "*.xml|KDE Bookmark Files (*.xml)"
-msgstr "*.xml|KDE Bookmark Files (*.xml)"
-
-#: bookmarkmodel.cpp:86
-msgid "Bookmarks"
-msgstr "पुस्तकचिह्न"
-
-#: bookmarkmodel.cpp:184
-msgid "Bookmark"
-msgstr "पुस्तकचिह्न"
-
-#: bookmarkmodel.cpp:186
-msgid "URL"
-msgstr "URL"
-
-#: bookmarkmodel.cpp:188
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: bookmarkmodel.cpp:190
-msgid "Status"
-msgstr "स्थिति"
+#: bookmarkinfo.cpp:283
+msgid "Times visited:"
+msgstr "एतबा बेर देखल गेलः"
 
 #: main.cpp:66
 #, fuzzy, kde-format
@@ -249,6 +185,128 @@ msgstr "अहाँ केवल एकटा उल्लेखित कए �
 msgid "You may only specify a single --import option."
 msgstr "अहाँ केवल एकटा उल्लेखित कए सकैत अछि --import विकल्प."
 
+#: importers.cpp:55
+#, kde-format
+msgid "Import %1 Bookmarks"
+msgstr "पुस्तकचिह्न  %1 आयात करू"
+
+#: importers.cpp:59
+#, kde-format
+msgid "%1 Bookmarks"
+msgstr "%1 पुस्तकचिन्ह"
+
+#: importers.cpp:89
+msgid "Import as a new subfolder or replace all the current bookmarks?"
+msgstr "एकटा नव उपफोल्डरक तरह आयात करू अथवा वर्तमान सभटा पुस्तकचिह्न केँ बदलू?"
+
+#: importers.cpp:90
+#, kde-format
+msgid "%1 Import"
+msgstr "%1 आयात"
+
+#: importers.cpp:91
+msgid "As New Folder"
+msgstr "नव फोल्डर जहिना"
+
+#: importers.cpp:91
+msgid "Replace"
+msgstr "बदलू"
+
+#: importers.cpp:201
+msgid "*.xbel|Galeon Bookmark Files (*.xbel)"
+msgstr "*.xbel|Galeon Bookmark Files (*.xbel)"
+
+#: importers.cpp:210
+msgid "*.xml|KDE Bookmark Files (*.xml)"
+msgstr "*.xml|KDE Bookmark Files (*.xml)"
+
+#: bookmarkmodel.cpp:86
+msgid "Bookmarks"
+msgstr "पुस्तकचिह्न"
+
+#: bookmarkmodel.cpp:184
+msgid "Bookmark"
+msgstr "पुस्तकचिह्न"
+
+#: bookmarkmodel.cpp:186
+msgid "URL"
+msgstr "URL"
+
+#: bookmarkmodel.cpp:188
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: bookmarkmodel.cpp:190
+msgid "Status"
+msgstr "स्थिति"
+
+#: commands.cpp:117
+msgid "Insert Separator"
+msgstr "विभाजक प्रविष्ट करू"
+
+#: commands.cpp:126
+msgid "Create Bookmark"
+msgstr "पुस्तकचिह्न बनाउ"
+
+#: commands.cpp:135
+msgid "Create Folder"
+msgstr "फोल्डर बनाबू "
+
+#: commands.cpp:144
+#, kde-format
+msgid "Copy %1"
+msgstr "%1 कापी करू"
+
+#: commands.cpp:233
+msgid "Icon Change"
+msgstr "चिह्न बदलू"
+
+#: commands.cpp:235
+msgid "Title Change"
+msgstr "शीर्षक बदलू"
+
+#: commands.cpp:237
+#, fuzzy
+msgid "URL Change"
+msgstr "URL बदलू"
+
+#: commands.cpp:239
+msgid "Comment Change"
+msgstr "टिप्पणी बदलू"
+
+#: commands.cpp:445
+#, kde-format
+msgid "Move %1"
+msgstr "%1 घसकाबू"
+
+#: commands.cpp:557
+msgid "Set as Bookmark Toolbar"
+msgstr "अओजार पट्टीक तरह सेट करू"
+
+#: commands.cpp:593
+msgid "Copy Items"
+msgstr "वस्तु नकल करू"
+
+#: commands.cpp:594
+msgid "Move Items"
+msgstr "वस्तु घसकाउ"
+
+#: favicons.cpp:81 testlink.cpp:130
+msgid "OK"
+msgstr "बेस"
+
+#: favicons.cpp:81
+msgid "No favicon found"
+msgstr "कोनो फेवीकोन नहि पएलक"
+
+#: favicons.cpp:93
+msgid "Updating favicon..."
+msgstr "फेवीकोन अद्यतन कए रहल अछि."
+
+#: favicons.cpp:102
+msgid "Local file"
+msgstr "स्थानीय फाइल"
+
 #: kbookmarkmerger.cpp:39
 msgid "KBookmarkMerger"
 msgstr "KBookmarkMerger"
@@ -274,208 +332,6 @@ msgstr "मूल लेखक"
 #: kbookmarkmerger.cpp:49
 msgid "Directory to scan for extra bookmarks"
 msgstr "बाइली पुस्तकचिह्न क' लेल स्कैन करब लेल निर्देशिका"
-
-#: bookmarkinfo.cpp:254
-msgid "Name:"
-msgstr "नाम:"
-
-#: bookmarkinfo.cpp:262
-msgid "Location:"
-msgstr "स्थानः"
-
-#: bookmarkinfo.cpp:270
-msgid "Comment:"
-msgstr "टिप्पणीः"
-
-#: bookmarkinfo.cpp:277
-msgid "First viewed:"
-msgstr "पहिल बेर देखल गेलः"
-
-#: bookmarkinfo.cpp:280
-msgid "Viewed last:"
-msgstr "अंतिम बेर देखल गेलः"
-
-#: bookmarkinfo.cpp:283
-msgid "Times visited:"
-msgstr "एतबा बेर देखल गेलः"
-
-#: kebsearchline.cpp:273
-msgid "Search Columns"
-msgstr "खोज स्तम्भ"
-
-#: kebsearchline.cpp:276
-msgid "All Visible Columns"
-msgstr "सभटा दृष्टिगोचर स्तम्भ"
-
-#: kebsearchline.cpp:285
-#, kde-format
-msgctxt "Column number %1"
-msgid "Column No. %1"
-msgstr "स्तम्भ सं. %1"
-
-#: kebsearchline.cpp:680
-msgid "S&earch:"
-msgstr "खोजू: (&e)"
-
-#: favicons.cpp:81 testlink.cpp:130
-msgid "OK"
-msgstr "बेस"
-
-#: favicons.cpp:81
-msgid "No favicon found"
-msgstr "कोनो फेवीकोन नहि पएलक"
-
-#: favicons.cpp:93
-msgid "Updating favicon..."
-msgstr "फेवीकोन अद्यतन कए रहल अछि."
-
-#: favicons.cpp:102
-msgid "Local file"
-msgstr "स्थानीय फाइल"
-
-#. i18n: file: keditbookmarks-genui.rc:6
-#. i18n: ectx: Menu (file)
-#. i18n: file: keditbookmarksui.rc:6
-#. i18n: ectx: Menu (file)
-#. i18n: file: keditbookmarks-genui.rc:6
-#. i18n: ectx: Menu (file)
-#. i18n: file: keditbookmarksui.rc:6
-#. i18n: ectx: Menu (file)
-#: rc.cpp:3 rc.cpp:24 rc.cpp:56 rc.cpp:77
-msgid "&File"
-msgstr "फाइल (&F)"
-
-#. i18n: file: keditbookmarks-genui.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: keditbookmarksui.rc:32
-#. i18n: ectx: Menu (edit)
-#. i18n: file: keditbookmarks-genui.rc:13
-#. i18n: ectx: Menu (edit)
-#. i18n: file: keditbookmarksui.rc:32
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:6 rc.cpp:33 rc.cpp:59 rc.cpp:86
-msgid "&Edit"
-msgstr "सँपादित करू (&E)"
-
-#. i18n: file: keditbookmarks-genui.rc:25
-#. i18n: ectx: Menu (view)
-#. i18n: file: keditbookmarksui.rc:44
-#. i18n: ectx: Menu (view)
-#. i18n: file: keditbookmarks-genui.rc:25
-#. i18n: ectx: Menu (view)
-#. i18n: file: keditbookmarksui.rc:44
-#. i18n: ectx: Menu (view)
-#: rc.cpp:9 rc.cpp:36 rc.cpp:62 rc.cpp:89
-msgid "&View"
-msgstr "दृश्य (&V)"
-
-#. i18n: file: keditbookmarks-genui.rc:30
-#. i18n: ectx: Menu (folder)
-#. i18n: file: keditbookmarksui.rc:49
-#. i18n: ectx: Menu (folder)
-#. i18n: file: keditbookmarks-genui.rc:30
-#. i18n: ectx: Menu (folder)
-#. i18n: file: keditbookmarksui.rc:49
-#. i18n: ectx: Menu (folder)
-#: rc.cpp:12 rc.cpp:39 rc.cpp:65 rc.cpp:92
-msgid "&Folder"
-msgstr "फोल्डर (&F)"
-
-#. i18n: file: keditbookmarks-genui.rc:38
-#. i18n: ectx: Menu (bookmark)
-#. i18n: file: keditbookmarksui.rc:58
-#. i18n: ectx: Menu (bookmark)
-#. i18n: file: keditbookmarks-genui.rc:38
-#. i18n: ectx: Menu (bookmark)
-#. i18n: file: keditbookmarksui.rc:58
-#. i18n: ectx: Menu (bookmark)
-#: rc.cpp:15 rc.cpp:42 rc.cpp:68 rc.cpp:95
-msgid "&Bookmark"
-msgstr "पुस्तकचिन्ह (&B)"
-
-#. i18n: file: keditbookmarks-genui.rc:42
-#. i18n: ectx: Menu (settings)
-#. i18n: file: keditbookmarksui.rc:74
-#. i18n: ectx: Menu (settings)
-#. i18n: file: keditbookmarks-genui.rc:42
-#. i18n: ectx: Menu (settings)
-#. i18n: file: keditbookmarksui.rc:74
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:18 rc.cpp:48 rc.cpp:71 rc.cpp:101
-msgid "&Settings"
-msgstr "जमावट (&S)"
-
-#. i18n: file: keditbookmarks-genui.rc:48
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: keditbookmarksui.rc:81
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: keditbookmarks-genui.rc:48
-#. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: keditbookmarksui.rc:81
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:21 rc.cpp:51 rc.cpp:74 rc.cpp:104
-msgid "Main Toolbar"
-msgstr "मुख्य अओजार पट्टी"
-
-#. i18n: file: keditbookmarksui.rc:10
-#. i18n: ectx: Menu (import)
-#: rc.cpp:27 rc.cpp:80
-msgid "&Import"
-msgstr "आयात करु (&I)"
-
-#. i18n: file: keditbookmarksui.rc:20
-#. i18n: ectx: Menu (export)
-#: rc.cpp:30 rc.cpp:83
-msgid "&Export"
-msgstr "निर्यात(&E)"
-
-#. i18n: file: keditbookmarksui.rc:66
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:45 rc.cpp:98
-msgid "&Tools"
-msgstr "अओजार (&T)"
-
-#: rc.cpp:52
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:53
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#: testlink.cpp:107
-msgid "Checking..."
-msgstr "जाँचि रहल अछि..."
-
-#: importers.h:101
-msgid "Galeon"
-msgstr "गेलियन"
-
-#: importers.h:111
-msgid "KDE"
-msgstr "केडीई"
-
-#: importers.h:132
-msgid "Netscape"
-msgstr "नेटस्केप"
-
-#: importers.h:142
-msgid "Mozilla"
-msgstr "मोजिला"
-
-#: importers.h:152
-msgid "IE"
-msgstr "IE"
-
-#: importers.h:164
-msgid "Opera"
-msgstr "आपेरा"
-
-#: importers.h:176
-msgid "Crashes"
-msgstr "क्रैशसभ"
 
 #: actionsimpl.cpp:92
 msgid "&Delete"
@@ -633,6 +489,150 @@ msgstr "अकारादि क्रम मे छांटू"
 msgid "Delete Items"
 msgstr "वस्तु मेटाउ"
 
+#: importers.h:101
+msgid "Galeon"
+msgstr "गेलियन"
+
+#: importers.h:111
+msgid "KDE"
+msgstr "केडीई"
+
+#: importers.h:132
+msgid "Netscape"
+msgstr "नेटस्केप"
+
+#: importers.h:142
+msgid "Mozilla"
+msgstr "मोजिला"
+
+#: importers.h:152
+msgid "IE"
+msgstr "IE"
+
+#: importers.h:164
+msgid "Opera"
+msgstr "आपेरा"
+
+#: importers.h:176
+msgid "Crashes"
+msgstr "क्रैशसभ"
+
 #: exporters.cpp:48
 msgid "My Bookmarks"
 msgstr "हमर पुस्तकचिह्न"
+
+#: testlink.cpp:107
+msgid "Checking..."
+msgstr "जाँचि रहल अछि..."
+
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarks-genui.rc:6
+#. i18n: ectx: Menu (file)
+#. i18n: file: keditbookmarksui.rc:6
+#. i18n: ectx: Menu (file)
+#: rc.cpp:3 rc.cpp:24 rc.cpp:56 rc.cpp:77
+msgid "&File"
+msgstr "फाइल (&F)"
+
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarks-genui.rc:13
+#. i18n: ectx: Menu (edit)
+#. i18n: file: keditbookmarksui.rc:32
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:6 rc.cpp:33 rc.cpp:59 rc.cpp:86
+msgid "&Edit"
+msgstr "सँपादित करू (&E)"
+
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarks-genui.rc:25
+#. i18n: ectx: Menu (view)
+#. i18n: file: keditbookmarksui.rc:44
+#. i18n: ectx: Menu (view)
+#: rc.cpp:9 rc.cpp:36 rc.cpp:62 rc.cpp:89
+msgid "&View"
+msgstr "दृश्य (&V)"
+
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarks-genui.rc:30
+#. i18n: ectx: Menu (folder)
+#. i18n: file: keditbookmarksui.rc:49
+#. i18n: ectx: Menu (folder)
+#: rc.cpp:12 rc.cpp:39 rc.cpp:65 rc.cpp:92
+msgid "&Folder"
+msgstr "फोल्डर (&F)"
+
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarks-genui.rc:38
+#. i18n: ectx: Menu (bookmark)
+#. i18n: file: keditbookmarksui.rc:58
+#. i18n: ectx: Menu (bookmark)
+#: rc.cpp:15 rc.cpp:42 rc.cpp:68 rc.cpp:95
+msgid "&Bookmark"
+msgstr "पुस्तकचिन्ह (&B)"
+
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarks-genui.rc:42
+#. i18n: ectx: Menu (settings)
+#. i18n: file: keditbookmarksui.rc:74
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:18 rc.cpp:48 rc.cpp:71 rc.cpp:101
+msgid "&Settings"
+msgstr "जमावट (&S)"
+
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarks-genui.rc:48
+#. i18n: ectx: ToolBar (mainToolBar)
+#. i18n: file: keditbookmarksui.rc:81
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21 rc.cpp:51 rc.cpp:74 rc.cpp:104
+msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
+
+#. i18n: file: keditbookmarksui.rc:10
+#. i18n: ectx: Menu (import)
+#: rc.cpp:27 rc.cpp:80
+msgid "&Import"
+msgstr "आयात करु (&I)"
+
+#. i18n: file: keditbookmarksui.rc:20
+#. i18n: ectx: Menu (export)
+#: rc.cpp:30 rc.cpp:83
+msgid "&Export"
+msgstr "निर्यात(&E)"
+
+#. i18n: file: keditbookmarksui.rc:66
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:45 rc.cpp:98
+msgid "&Tools"
+msgstr "अओजार (&T)"
+
+#: rc.cpp:52
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:53
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
