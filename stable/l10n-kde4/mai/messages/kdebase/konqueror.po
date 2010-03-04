@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-26 20:27+0100\n"
+"POT-Creation-Date: 2010-03-04 01:18+0100\n"
 "PO-Revision-Date: 2010-01-29 15:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -347,7 +347,7 @@ msgstr "दृश्य प्रोफाइल कान्फिगर कर
 msgid "Load &View Profile"
 msgstr "दृश्य प्रोफाइल लोड करू (&V)"
 
-#: src/konqmainwindow.cpp:3740 sidebar/web_module/web_module.h:57
+#: src/konqmainwindow.cpp:3740 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "फिनु लोड करू (&R)"
 
@@ -570,7 +570,7 @@ msgid "Open the document in current window"
 msgstr "दस्ताबेज केँ वर्तमान दृश्य मे खोलू"
 
 #: src/konqmainwindow.cpp:4622 src/konqhistoryview.cpp:62
-#: sidebar/web_module/web_module.h:54
+#: sidebar/web_module/web_module.cpp:61
 msgid "Open in New &Window"
 msgstr "नवीन विंडोमे खोलू (&W)"
 
@@ -1372,7 +1372,7 @@ msgid "Enter folder name:"
 msgstr "फोल्डर नाम भरू:"
 
 #: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:251
+#: sidebar/web_module/web_module.cpp:300
 #, fuzzy
 #| msgid "Name:"
 msgctxt "@label"
@@ -1380,7 +1380,7 @@ msgid "Name:"
 msgstr "नाम:"
 
 #: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:251
+#: sidebar/web_module/web_module.cpp:300
 msgctxt "@label"
 msgid "Path or URL:"
 msgstr ""
@@ -1390,37 +1390,37 @@ msgctxt "@title:window"
 msgid "Add folder sidebar module"
 msgstr ""
 
-#: sidebar/web_module/web_module.cpp:89
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "लिंक खोलू (&O)"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "स्वचालित रीलोड कएनाइ नियत करू (&A)"
+
+#: sidebar/web_module/web_module.cpp:137
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "ताजा करब केर टाइम-आउट केँ नियत करू (0 सँ अक्षम भए जाइछ)"
 
-#: sidebar/web_module/web_module.cpp:97
+#: sidebar/web_module/web_module.cpp:145
 msgid " min"
 msgstr "मि."
 
-#: sidebar/web_module/web_module.cpp:99
+#: sidebar/web_module/web_module.cpp:148
 msgid " sec"
 msgstr " sec"
 
-#: sidebar/web_module/web_module.cpp:231
+#: sidebar/web_module/web_module.cpp:280
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@action:inmenu Add"
 msgid "Web Sidebar Module"
 msgstr "वेब पार्श्व पट्टी"
 
-#: sidebar/web_module/web_module.cpp:252
+#: sidebar/web_module/web_module.cpp:301
 msgctxt "@title:window"
 msgid "Add web sidebar module"
 msgstr ""
-
-#: sidebar/web_module/web_module.h:52
-msgid "&Open Link"
-msgstr "लिंक खोलू (&O)"
-
-#: sidebar/web_module/web_module.h:59
-msgid "Set &Automatic Reload"
-msgstr "स्वचालित रीलोड कएनाइ नियत करू (&A)"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
