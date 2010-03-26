@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-25 04:18+0100\n"
+"POT-Creation-Date: 2010-03-26 04:36+0100\n"
 "PO-Revision-Date: 2010-01-28 12:03+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -2263,7 +2263,7 @@ msgstr "सेबेस्टियन साए"
 
 #: kross/test/main.cpp:149 kross/console/main.cpp:102 kross/qts/main.cpp:63
 #: kde3support/kdeui/k3aboutdialog.cpp:184 kded/kbuildsycoca.cpp:621
-#: kded/kbuildsycoca.cpp:622 kded/khostname.cpp:220
+#: kded/kbuildsycoca.cpp:622
 msgid "Author"
 msgstr "लेखक"
 
@@ -2412,11 +2412,11 @@ msgid "(c) 2001, Waldo Bastian"
 msgstr "(C) 2001 वाल्दो बास्तियान"
 
 #: kconf_update/kconf_update.cpp:963 khtml/khtml_global.cpp:213
-#: kded/kbuildsycoca.cpp:622 kded/khostname.cpp:220
+#: kded/kbuildsycoca.cpp:622
 msgid "Waldo Bastian"
 msgstr "वाल्दो बास्तियान"
 
-#: nepomuk/query/queryparser.cpp:342
+#: nepomuk/query/queryparser.cpp:360
 msgctxt ""
 "Boolean AND keyword in desktop search strings. You can add several variants "
 "separated by spaces, e.g. retain the English one alongside the translation; "
@@ -2425,7 +2425,7 @@ msgctxt ""
 msgid "and"
 msgstr "आओर"
 
-#: nepomuk/query/queryparser.cpp:351
+#: nepomuk/query/queryparser.cpp:369
 msgctxt ""
 "Boolean OR keyword in desktop search strings. You can add several variants "
 "separated by spaces, e.g. retain the English one alongside the translation; "
@@ -3034,31 +3034,48 @@ msgstr "सभ देनिहार"
 msgid "All Categories"
 msgstr "सभ श्रेणीसभ"
 
-#: knewstuff/knewstuff3/core/installation.cpp:151
+#: knewstuff/knewstuff3/core/installation.cpp:154
 msgid "Invalid item."
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:158
+#: knewstuff/knewstuff3/core/installation.cpp:161
 #, kde-format
 msgid "Download of item failed: no download url for \"%1\""
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:193
+#: knewstuff/knewstuff3/core/installation.cpp:196
 #, kde-format
 msgid "Download of \"%1\" failed, error: %2"
 msgstr ""
 
-#: knewstuff/knewstuff3/core/installation.cpp:260
+#: knewstuff/knewstuff3/core/installation.cpp:204
+msgid ""
+"The downloaded file is a html file. This indicates a link to a website "
+"instead of the actual download. Would you like to open the site with a "
+"browser instead?"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:204
+#, fuzzy
+#| msgid "Could not create temporary file."
+msgid "Possibly bad download link"
+msgstr "अस्थायी फाइल बनाए नहि सकल."
+
+#: knewstuff/knewstuff3/core/installation.cpp:207
+msgid "Downloaded file was a HTML file. Opened in browser."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:279
 #, fuzzy, kde-format
 #| msgid "Could not install %1"
 msgid "Could not install \"%1\": file not found."
 msgstr "%1 केँ संस्थापित  नहि कएल जाए सकल"
 
-#: knewstuff/knewstuff3/core/installation.cpp:451
+#: knewstuff/knewstuff3/core/installation.cpp:470
 msgid "Overwrite existing file?"
 msgstr "मोजुदा फाइल पर लिखू?"
 
-#: knewstuff/knewstuff3/core/installation.cpp:451
+#: knewstuff/knewstuff3/core/installation.cpp:470
 msgid "Download File:"
 msgstr "फाइल डाउनलोड करू"
 
@@ -8144,15 +8161,15 @@ msgstr "इंटरनेट मे ढूँढू"
 msgid "&Search"
 msgstr "खोज (&S)"
 
-#: kded/kded.cpp:858
+#: kded/kded.cpp:862
 msgid "KDE Daemon"
 msgstr "केडीइ ङेमन"
 
-#: kded/kded.cpp:860
+#: kded/kded.cpp:864
 msgid "KDE Daemon - triggers Sycoca database updates when needed"
 msgstr "केडीइ डेमन - जखन आवश्यक हुए, सिकोका डाटाबेस अद्यतन ट्रिगर करैत अछि."
 
-#: kded/kded.cpp:863
+#: kded/kded.cpp:867
 msgid "Check Sycoca database only once"
 msgstr "सिकोका डाटाबेस एक बेर जाँचू"
 
@@ -8199,34 +8216,6 @@ msgstr "केवल मेनू जनरेशन टेस्ट रन प�
 #: kded/kbuildsycoca.cpp:631
 msgid "Track menu id for debug purposes"
 msgstr "डिबग प्रक्रिया क' लेल मेनू आईडी ट्रैक करू"
-
-#: kded/khostname.cpp:72
-msgid "Error: HOME environment variable not set.\n"
-msgstr "त्रुटिः होम एनवायरनमेंट वेरिएबल सेट नहि अछि.\n"
-
-#: kded/khostname.cpp:82
-msgid "Error: DISPLAY environment variable not set.\n"
-msgstr "त्रुटिः डिस्प्ले एनवायरनमेंट वेरिएबल सेट नहि अछि.\n"
-
-#: kded/khostname.cpp:217
-msgid "KDontChangeTheHostName"
-msgstr "के-डोन्ट-चेंज-द-होस्ट-नाम"
-
-#: kded/khostname.cpp:218
-msgid "Informs KDE about a change in hostname"
-msgstr "केडीइ केँ होस्टनाम मे परिवर्तन केर संबंध मे बतबैत अछि."
-
-#: kded/khostname.cpp:219
-msgid "(c) 2001 Waldo Bastian"
-msgstr "(C) 2001 वाल्दो बास्तियान"
-
-#: kded/khostname.cpp:223
-msgid "Old hostname"
-msgstr "पुरान होस्ट नाम"
-
-#: kded/khostname.cpp:224
-msgid "New hostname"
-msgstr "नवीन होस्ट नाम"
 
 #: kpty/kptydevice.cpp:306
 msgid "Error reading from PTY"
@@ -11910,24 +11899,24 @@ msgid "Minimize"
 msgstr "छोट करू"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:353
-#: kdeui/notifications/kstatusnotifieritem.cpp:780
+#: kdeui/notifications/kstatusnotifieritem.cpp:355
+#: kdeui/notifications/kstatusnotifieritem.cpp:781
 msgid "&Minimize"
 msgstr "न्यूनतम (&M)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:778
+#: kdeui/notifications/kstatusnotifieritem.cpp:779
 msgid "&Restore"
 msgstr "घुराबू (&R)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:788
+#: kdeui/notifications/kstatusnotifieritem.cpp:789
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>की अहाँ सुनिश्चित छी जे अहाँ <b>%1</b> सँ बाहर जएनाइ चाहैत छी?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:791
+#: kdeui/notifications/kstatusnotifieritem.cpp:792
 msgid "Confirm Quit From System Tray"
 msgstr "तंत्र तश्तरी सँ बाहर जाए कए पुष्टि करू"
 
@@ -12883,6 +12872,27 @@ msgstr "ई की अछि. (&T)"
 msgid "Tip of the &Day"
 msgstr "आइ क' नुस्ख़ा (&D)"
 
+#~ msgid "Error: HOME environment variable not set.\n"
+#~ msgstr "त्रुटिः होम एनवायरनमेंट वेरिएबल सेट नहि अछि.\n"
+
+#~ msgid "Error: DISPLAY environment variable not set.\n"
+#~ msgstr "त्रुटिः डिस्प्ले एनवायरनमेंट वेरिएबल सेट नहि अछि.\n"
+
+#~ msgid "KDontChangeTheHostName"
+#~ msgstr "के-डोन्ट-चेंज-द-होस्ट-नाम"
+
+#~ msgid "Informs KDE about a change in hostname"
+#~ msgstr "केडीइ केँ होस्टनाम मे परिवर्तन केर संबंध मे बतबैत अछि."
+
+#~ msgid "(c) 2001 Waldo Bastian"
+#~ msgstr "(C) 2001 वाल्दो बास्तियान"
+
+#~ msgid "Old hostname"
+#~ msgstr "पुरान होस्ट नाम"
+
+#~ msgid "New hostname"
+#~ msgstr "नवीन होस्ट नाम"
+
 #, fuzzy
 #~| msgid "Description"
 #~ msgid "description"
@@ -12897,11 +12907,6 @@ msgstr "आइ क' नुस्ख़ा (&D)"
 #~| msgid "Could not construct value"
 #~ msgid "Could not get account balance."
 #~ msgstr "मूल्य बनाए नहि सकल"
-
-#, fuzzy
-#~| msgid "Could not create temporary file."
-#~ msgid "Could not get download link."
-#~ msgstr "अस्थायी फाइल बनाए नहि सकल."
 
 #~ msgid "Voting failed."
 #~ msgstr "वोटिंग विफल."
