@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-03 04:40+0200\n"
+"POT-Creation-Date: 2010-04-04 04:37+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -190,7 +190,7 @@ msgctxt "@label:listbox"
 msgid "Preview:"
 msgstr "पूर्वावलोकनः"
 
-#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:345
+#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:372
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -804,7 +804,6 @@ msgid "Save search options"
 msgstr ""
 
 #: search/dolphinsearchoptionsconfigurator.cpp:148
-#: statusbar/statusbarmessagelabel.cpp:50
 msgctxt "@action:button"
 msgid "Close"
 msgstr "बन्न करू"
@@ -942,16 +941,52 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "बाइली सूचना"
 
-#: statusbar/statusbarspaceinfo.cpp:78 statusbar/statusbarspaceinfo.cpp:91
+#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "अज्ञात आकार"
 
-#: statusbar/statusbarspaceinfo.cpp:102
+#: statusbar/statusbarspaceinfo.cpp:104
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 मुक्त"
+
+#: statusbar/dolphinstatusbar.cpp:269
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@action:inmenu"
+msgid "Copy Information Message"
+msgstr "सूचना"
+
+#: statusbar/dolphinstatusbar.cpp:272
+msgctxt "@action:inmenu"
+msgid "Copy Error Message"
+msgstr ""
+
+#: statusbar/dolphinstatusbar.cpp:279
+#, fuzzy
+#| msgid "Show tooltips"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "टूलटिप देखाबू"
+
+#: statusbar/dolphinstatusbar.cpp:283
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "सूचना"
+
+#: statusbar/statusbarmessagelabel.cpp:53
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Close"
+msgctxt "@info"
+msgid "Close"
+msgstr "बन्न करू"
 
 #: filterbar.cpp:41
 msgctxt "@info:tooltip"
