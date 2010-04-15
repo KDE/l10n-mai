@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-14 04:48+0200\n"
+"POT-Creation-Date: 2010-04-15 04:28+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -229,7 +229,7 @@ msgstr "पंक्ति: %1 स्तम्भ: %2 "
 msgid " BLOCK "
 msgstr " ब्लाक"
 
-#: tests/katetest.cpp:650 document/katedocument.cpp:3809
+#: tests/katetest.cpp:650 document/katedocument.cpp:3810
 msgid "Untitled"
 msgstr "अनाम"
 
@@ -1510,27 +1510,27 @@ msgstr "मेटाकए लिखू"
 msgid "INS"
 msgstr "प्रविष्ट"
 
-#: view/kateviewhelpers.cpp:370
+#: view/kateviewhelpers.cpp:354
 msgid "Available Commands"
 msgstr "मोजुद कमांडसभ"
 
-#: view/kateviewhelpers.cpp:372
+#: view/kateviewhelpers.cpp:356
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:383
+#: view/kateviewhelpers.cpp:367
 #, kde-format
 msgid "No help for '%1'"
 msgstr "'%1' क' लेल कोनो मद्दति नहि"
 
-#: view/kateviewhelpers.cpp:386
+#: view/kateviewhelpers.cpp:370
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr "एहन कोनो कमांड नहि: <b>%1</b>"
 
-#: view/kateviewhelpers.cpp:391
+#: view/kateviewhelpers.cpp:375
 msgid ""
 "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
 "[ arguments ]</b></code><br />For a list of available commands, enter "
@@ -1538,43 +1538,43 @@ msgid ""
 "<code><b>help &lt;command&gt;</b></code></p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:498
+#: view/kateviewhelpers.cpp:482
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:514
+#: view/kateviewhelpers.cpp:498
 msgid "Success: "
 msgstr "सफलता:"
 
-#: view/kateviewhelpers.cpp:521
+#: view/kateviewhelpers.cpp:505
 msgid "Error: "
 msgstr "त्रुटि "
 
-#: view/kateviewhelpers.cpp:523
+#: view/kateviewhelpers.cpp:507
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr "कमांड \"%1\" असफल."
 
-#: view/kateviewhelpers.cpp:529
+#: view/kateviewhelpers.cpp:513
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr "एहन कोनो कमांड नहि: \"%1\""
 
-#: view/kateviewhelpers.cpp:748 utils/kateschema.cpp:204
+#: view/kateviewhelpers.cpp:732 utils/kateschema.cpp:204
 msgid "Bookmark"
 msgstr "पुस्तचिन्ह"
 
-#: view/kateviewhelpers.cpp:1507 view/kateviewhelpers.cpp:1508
+#: view/kateviewhelpers.cpp:1491 view/kateviewhelpers.cpp:1492
 #, kde-format
 msgid "Mark Type %1"
 msgstr "मार्क टाइप %1"
 
-#: view/kateviewhelpers.cpp:1527
+#: view/kateviewhelpers.cpp:1511
 msgid "Set Default Mark Type"
 msgstr "मूलभूत मार्क टाइप नियत करू"
 
-#: view/kateviewhelpers.cpp:1593
+#: view/kateviewhelpers.cpp:1577
 msgid "Disable Annotation Bar"
 msgstr ""
 
@@ -1588,13 +1588,13 @@ msgstr ""
 msgid "Saving problems"
 msgstr "सहेजनाइ समस्या"
 
-#: document/katedocument.cpp:127 document/katedocument.cpp:2182
-#: document/katedocument.cpp:2197 document/katedocument.cpp:2203
-#: document/katedocument.cpp:2214
+#: document/katedocument.cpp:127 document/katedocument.cpp:2183
+#: document/katedocument.cpp:2198 document/katedocument.cpp:2204
+#: document/katedocument.cpp:2215
 msgid "Save Nevertheless"
 msgstr "कहिनो सहेजू"
 
-#: document/katedocument.cpp:2137 document/katedocument.cpp:2142
+#: document/katedocument.cpp:2138 document/katedocument.cpp:2143
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -1605,7 +1605,7 @@ msgstr ""
 "\n"
 "जाँच करू जे अहाँक पास एहि फाइल केँ पढ़बा क' अनुमति अछि."
 
-#: document/katedocument.cpp:2153 document/katedocument.cpp:2160
+#: document/katedocument.cpp:2154 document/katedocument.cpp:2161
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters. It "
@@ -1614,22 +1614,22 @@ msgid ""
 "again in the menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2157
+#: document/katedocument.cpp:2158
 #, fuzzy
 #| msgid "E&ncoding"
 msgid "Broken Encoding"
 msgstr "एनकोडिंग (&n)"
 
-#: document/katedocument.cpp:2180
+#: document/katedocument.cpp:2181
 #, kde-format
 msgid "The file %1 is a binary, saving it will result in a corrupt file."
 msgstr "फाइल %1 द्विचर अछि. एकरा सहेजबा सँ ई खराब भए जएताह."
 
-#: document/katedocument.cpp:2181
+#: document/katedocument.cpp:2182
 msgid "Trying to Save Binary File"
 msgstr "बाइनरी फाइल केँ सहेजने क' कोसिस क' जाए रहल अछि"
 
-#: document/katedocument.cpp:2197
+#: document/katedocument.cpp:2198
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
 "data in the file on disk."
@@ -1637,11 +1637,11 @@ msgstr ""
 "की अहाँ सच्चे एहि अपरिवर्धित फाइल केँ सहेजबाक लेल चाहब? डिस्क मे फाइल केर बदलल गेल डाटा "
 "केँ मेटाकए अहाँ लिखि देब"
 
-#: document/katedocument.cpp:2197
+#: document/katedocument.cpp:2198
 msgid "Trying to Save Unmodified File"
 msgstr "अपरिवर्धित फाइल केँ सहेजने क' कोसिस कएल जाए रहल अछि"
 
-#: document/katedocument.cpp:2203
+#: document/katedocument.cpp:2204
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
 "disk were changed. There could be some data lost."
@@ -1649,12 +1649,12 @@ msgstr ""
 "की अहाँ वास्तव मे एहि फाइल केँ सहेजबाक लेल चाहैत छी? अहाँक खुलल फाइल आओर डिस्क क' फाइल "
 "दुनू बदलत. ओतए किछु डाटा नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2203 document/katedocument.cpp:2214
-#: document/katedocument.cpp:2459
+#: document/katedocument.cpp:2204 document/katedocument.cpp:2215
+#: document/katedocument.cpp:2460
 msgid "Possible Data Loss"
 msgstr "संभावित डाटा नुकसान"
 
-#: document/katedocument.cpp:2214
+#: document/katedocument.cpp:2215
 msgid ""
 "The selected encoding cannot encode every unicode character in this "
 "document. Do you really want to save it? There could be some data lost."
@@ -1662,7 +1662,7 @@ msgstr ""
 "चयनित एनकोडिंग एहि दस्ताबेज केर सभटा यूनिकोड अक्षरकेँ एनकोड नहि कए सकैत अछि. की अहाँ "
 "सच्चे एकरा सहेजना चाहैत छी? एतय किछु डाटाक नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2278
+#: document/katedocument.cpp:2279
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -1671,15 +1671,15 @@ msgid ""
 "only for you."
 msgstr ""
 
-#: document/katedocument.cpp:2281
+#: document/katedocument.cpp:2282
 msgid "Failed to create backup copy."
 msgstr "बैकअप प्रतिलिपि बनाबै मे असफल."
 
-#: document/katedocument.cpp:2282
+#: document/katedocument.cpp:2283
 msgid "Try to Save Nevertheless"
 msgstr "कहिनो सहेजबाक कोसिस करू"
 
-#: document/katedocument.cpp:2316
+#: document/katedocument.cpp:2317
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -1692,66 +1692,66 @@ msgstr ""
 " जाँचू जे एहि फाइल पर अहाँक पास लिखबा क' अनुमति अछि आओर डिस्क मे पर्याप्त जगह मोजुद "
 "अछि."
 
-#: document/katedocument.cpp:2458
+#: document/katedocument.cpp:2459
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr "की अहाँ वास्तव मे एहि फाइल केँ बन्न कएनाइ चाहब?  डाटा नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2459
+#: document/katedocument.cpp:2460
 msgid "Close Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: document/katedocument.cpp:3841 document/katedocument.cpp:4013
-#: document/katedocument.cpp:4634
+#: document/katedocument.cpp:3842 document/katedocument.cpp:4014
+#: document/katedocument.cpp:4635
 msgid "Save File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:3850
+#: document/katedocument.cpp:3851
 msgid "Save failed"
 msgstr "सहेजनाइ विफल"
 
-#: document/katedocument.cpp:3919 dialogs/katedialogs.cpp:1448
+#: document/katedocument.cpp:3920 dialogs/katedialogs.cpp:1448
 msgid "What do you want to do?"
 msgstr "अहाँ की कएनाइ चाहैत छी?"
 
-#: document/katedocument.cpp:3920
+#: document/katedocument.cpp:3921
 msgid "File Was Changed on Disk"
 msgstr "फाइल केँ डिस्क मे बदएल देने गेल छल"
 
-#: document/katedocument.cpp:3920 dialogs/katedialogs.cpp:1426
+#: document/katedocument.cpp:3921 dialogs/katedialogs.cpp:1426
 msgid "&Reload File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
-#: document/katedocument.cpp:3920
+#: document/katedocument.cpp:3921
 msgid "&Ignore Changes"
 msgstr "परिवर्तन केँ नजरअंदाज करू (&I)"
 
-#: document/katedocument.cpp:4529
+#: document/katedocument.cpp:4530
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा परिवर्धित कएल गेल अछि."
 
-#: document/katedocument.cpp:4532
+#: document/katedocument.cpp:4533
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा बनाएल गेल अछि."
 
-#: document/katedocument.cpp:4535
+#: document/katedocument.cpp:4536
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा मेटाएल गेल अछि."
 
-#: document/katedocument.cpp:4662
+#: document/katedocument.cpp:4663
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: document/katedocument.cpp:4664
+#: document/katedocument.cpp:4665
 msgid "Overwrite File?"
 msgstr "फाइल केर उप्पर लिखू?"
 
-#: document/katedocument.cpp:5073
+#: document/katedocument.cpp:5074
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -1760,7 +1760,7 @@ msgstr ""
 "दस्ताबेज \"%1\" परिवर्तित कएल गेल अछि.\n"
 "की अहाँ एकरा सहेजना चाहब अथवा परिवर्तनसभ केँ फेंक दिअ'?"
 
-#: document/katedocument.cpp:5075
+#: document/katedocument.cpp:5076
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
 
