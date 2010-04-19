@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 03:05+0000\n"
+"POT-Creation-Date: 2010-04-19 02:58+0000\n"
 "PO-Revision-Date: 2010-01-28 13:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -1435,7 +1435,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "सूचनासभ"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:15
+#: runtime/kcontrol/knotify/kcmnotify.desktop:16
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "तंत्र सूचना कान्फिगरेशन"
@@ -6033,7 +6033,6 @@ msgid "More Applications"
 msgstr "आओर बेसी अनुप्रयोग"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-multimedia.desktop:2
 msgctxt "Name"
 msgid "Multimedia"
@@ -6052,7 +6051,6 @@ msgstr "विज्ञान आओर गणित"
 
 #: runtime/menu/desktop/kde-system.directory:4
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-system.desktop:2
-#: workspace/systemsettings/categories/settings-system.desktop:8
 msgctxt "Name"
 msgid "System"
 msgstr "सिस्टम"
@@ -6081,7 +6079,6 @@ msgid "Accessibility"
 msgstr "अभिगम्यता"
 
 #: runtime/menu/desktop/kde-utilities-desktop.directory:4
-#: workspace/systemsettings/categories/settings-desktop.desktop:8
 msgctxt "Name"
 msgid "Desktop"
 msgstr "डेस्कटाप"
@@ -6363,6 +6360,14 @@ msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr "स्ट्रिगी फ़ाइल सूची बनाना पुनरारंभ"
 
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Phonon Xine"
+msgctxt "Name"
+msgid "Phonon"
+msgstr "Phonon Xine"
+
 #: runtime/phonon/kcm/kcm_phonon.desktop:103
 #, fuzzy
 msgctxt "Comment"
@@ -6502,6 +6507,7 @@ msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
+#: workspace/systemsettings/categories/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -6688,12 +6694,12 @@ msgctxt "Comment"
 msgid "Color settings"
 msgstr "रंग बिन्यास"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:14
+#: workspace/kcontrol/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
 msgstr "दिनाँक आ समय"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:104
+#: workspace/kcontrol/dateandtime/clock.desktop:105
 msgctxt "Comment"
 msgid "Date and time settings"
 msgstr "दिनाँक आओर समय क' बिन्यास"
@@ -6740,13 +6746,12 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "फान्ट्स बिन्यास"
 
-#: workspace/kcontrol/hardware/display/display.desktop:11
-#: workspace/systemsettings/categories/settings-display.desktop:8
+#: workspace/kcontrol/hardware/display/display.desktop:12
 msgctxt "Name"
 msgid "Display"
 msgstr "देखाबू"
 
-#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/kcontrol/hardware/display/display.desktop:100
 #: workspace/systemsettings/categories/settings-display.desktop:96
 msgctxt "Comment"
 msgid "Display Settings"
@@ -6824,9 +6829,12 @@ msgid "XPlanet by Hari Nair"
 msgstr "XPlanet द्वारा हरि नायर"
 
 #: workspace/kcontrol/kdm/kdm.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PrintScreen"
 msgctxt "Name"
-msgid "Login Manager"
-msgstr "लागइन प्रबंधक"
+msgid "Login Screen"
+msgstr "प्रिंट-स्क्रीन"
 
 #: workspace/kcontrol/kdm/kdm.desktop:105
 msgctxt "Comment"
@@ -8062,7 +8070,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "वेब शार्टकट"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure Hotkey settings"
@@ -8463,8 +8471,11 @@ msgid "ScreenSaver"
 msgstr "स्क्रीन सेवर"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Session Manager"
 msgctxt "Name"
-msgid "Session Manager"
+msgid "Session Management"
 msgstr "सत्र प्रबंधक"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:100
@@ -9402,9 +9413,10 @@ msgid "Configure desktop effects"
 msgstr "डेस्कटाप प्रभाव बिन्यस्त करू"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
+#, fuzzy
 msgctxt "Name"
-msgid "Windows"
-msgstr "विंडोज"
+msgid "Window Decorations"
+msgstr "विंडो सूचना"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
 msgctxt "Comment"
@@ -9412,9 +9424,12 @@ msgid "Configure the look and feel of window titles"
 msgstr "विंडो शीर्षकों केर रूप आकार केँ बिन्यस्त करू"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
 msgctxt "Name"
-msgid "Multiple Desktops"
-msgstr "कतेक डेस्कटाप"
+msgid "Virtual Desktops"
+msgstr "डेस्कटाप"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
 msgctxt "Comment"
@@ -9432,7 +9447,6 @@ msgid "Configure keyboard and mouse settings"
 msgstr "कुंजीपट आओर माउस सेटिंग बिन्यस्त करू"
 
 #: workspace/kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:11
-#: workspace/systemsettings/categories/settings-advanced.desktop:8
 msgctxt "Name"
 msgid "Advanced"
 msgstr "उन्नत"
@@ -9474,9 +9488,10 @@ msgid "Configure the window behavior"
 msgstr "विंडो व्यवहार बिन्यस्त करू"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:14
+#, fuzzy
 msgctxt "Name"
-msgid "Window-Specific"
-msgstr "विंडो विशिष्ट"
+msgid "Window Rules"
+msgstr "विंडो बन्न करू"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
 msgctxt "Comment"
@@ -9499,10 +9514,10 @@ msgstr "सक्रिय सक्रीन किनार विन्यस
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Highlight Window"
+#| msgid "Box Switch"
 msgctxt "Name"
-msgid "Navigate Through Windows"
-msgstr "विंडो आलोकित करू"
+msgid "Task Switcher"
+msgstr "बाक्स स्विच"
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
 #, fuzzy
@@ -11666,7 +11681,7 @@ msgctxt "Name"
 msgid "Solid Backend"
 msgstr "स्लाइड बैक"
 
-#: workspace/solid/kcm/kcm_solid.desktop:94
+#: workspace/solid/kcm/kcm_solid.desktop:14
 msgctxt "Comment"
 msgid "Hardware Integration Configuration with Solid"
 msgstr ""
@@ -12177,11 +12192,6 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "तंत्र बिन्यास"
 
-#: workspace/systemsettings/categories/settings-about-me.desktop:8
-msgctxt "Name"
-msgid "About Me"
-msgstr "हमरा संबंधमे"
-
 #: workspace/systemsettings/categories/settings-account-details.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12189,11 +12199,6 @@ msgstr "हमरा संबंधमे"
 msgctxt "Name"
 msgid "Account Details"
 msgstr "विवरण"
-
-#: workspace/systemsettings/categories/settings-advanced-user-settings.desktop:8
-msgctxt "Name"
-msgid "Advanced User Settings"
-msgstr "उन्नत प्रयोक्ता बिन्यास"
 
 #: workspace/systemsettings/categories/settings-application-and-system-notifications.desktop:8
 #, fuzzy
@@ -12217,15 +12222,34 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "अनुप्रयोग चालक"
 
+#: workspace/systemsettings/categories/settings-audio-and-video.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Audio and Video IDE"
+msgctxt "Name"
+msgid "Audio and Video"
+msgstr "आडियो आओर वीडियो आईडीई"
+
 #: workspace/systemsettings/categories/settings-bluetooth.desktop:8
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr "ब्लूटूथ"
 
-#: workspace/systemsettings/categories/settings-computer-administration.desktop:9
+#: workspace/systemsettings/categories/settings-desktop-appearance.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Search"
 msgctxt "Name"
-msgid "Computer Administration"
-msgstr "कम्प्यूटर प्रशासन"
+msgid "Desktop Appearance"
+msgstr "डेस्कटाप खोज"
+
+#: workspace/systemsettings/categories/settings-display.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Name"
+msgid "Display and Monitor"
+msgstr "फाइल प्रबंधन"
 
 #: workspace/systemsettings/categories/settings-general.desktop:9
 #, fuzzy
@@ -12240,11 +12264,6 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "हार्डवेयर"
 
-#: workspace/systemsettings/categories/settings-keyboard-and-mouse.desktop:8
-msgctxt "Name"
-msgid "Keyboard & Mouse"
-msgstr "कुंजीपट आ माउस"
-
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
@@ -12252,11 +12271,6 @@ msgstr "कुंजीपट आ माउस"
 msgctxt "Name"
 msgid "Locale"
 msgstr "तार्किक खेल"
-
-#: workspace/systemsettings/categories/settings-look-and-feel.desktop:9
-msgctxt "Name"
-msgid "Look & Feel"
-msgstr "रूप आ आकार"
 
 #: workspace/systemsettings/categories/settings-lost-and-found.desktop:9
 #, fuzzy
@@ -12266,9 +12280,20 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "हराएल आ पाएल"
 
-#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:9
+#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Network & Connectivity"
+msgid "Main Input Devices"
+msgstr "डिवाइस"
+
+#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network & Connectivity"
+msgctxt "Name"
+msgid "Network and Connectivity"
 msgstr "नेटवर्क आ कनेक्टिविटी"
 
 #: workspace/systemsettings/categories/settings-network-settings.desktop:8
@@ -12276,10 +12301,21 @@ msgctxt "Name"
 msgid "Network Settings"
 msgstr "नेटवर्क विन्यास "
 
-#: workspace/systemsettings/categories/settings-personal.desktop:8
+#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Personal"
-msgstr "व्यक्तिगत"
+msgid "Other Input Devices"
+msgstr "डिवाइस"
+
+#: workspace/systemsettings/categories/settings-permissions.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Partitions"
+msgctxt "Name"
+msgid "Permissions"
+msgstr "पार्टीशन्स"
 
 #: workspace/systemsettings/categories/settings-personal-information.desktop:8
 #, fuzzy
@@ -12289,10 +12325,13 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "प्रोसेसरक सूचना"
 
-#: workspace/systemsettings/categories/settings-regional-and-language.desktop:8
+#: workspace/systemsettings/categories/settings-security.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Metacity"
 msgctxt "Name"
-msgid "Regional & Language"
-msgstr "क्षेत्रीयता आ भाषा"
+msgid "Security"
+msgstr "मेटासिटी"
 
 #: workspace/systemsettings/categories/settings-sharing.desktop:8
 msgctxt "Name"
@@ -12306,6 +12345,27 @@ msgstr "साझेदारी"
 msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "शार्टकट प्रतीक आधार"
+
+#: workspace/systemsettings/categories/settings-startup-and-shutdown.desktop:8
+msgctxt "Name"
+msgid "Startup and Shutdown"
+msgstr ""
+
+#: workspace/systemsettings/categories/settings-system-administration.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "SAM System-Administration"
+msgctxt "Name"
+msgid "System Administration"
+msgstr "एसएएम तंत्र प्रशासक"
+
+#: workspace/systemsettings/categories/settings-workspace-appearance-and-behavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Appearance and Behavior"
+msgstr "अनुप्रयोग चालक"
 
 #: workspace/systemsettings/categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -12427,6 +12487,57 @@ msgstr "बसंती सूर्यकिरण"
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr "शनिक छल्ला"
+
+#~ msgctxt "Name"
+#~ msgid "Login Manager"
+#~ msgstr "लागइन प्रबंधक"
+
+#~ msgctxt "Name"
+#~ msgid "Windows"
+#~ msgstr "विंडोज"
+
+#~ msgctxt "Name"
+#~ msgid "Multiple Desktops"
+#~ msgstr "कतेक डेस्कटाप"
+
+#~ msgctxt "Name"
+#~ msgid "Window-Specific"
+#~ msgstr "विंडो विशिष्ट"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Highlight Window"
+#~ msgctxt "Name"
+#~ msgid "Navigate Through Windows"
+#~ msgstr "विंडो आलोकित करू"
+
+#~ msgctxt "Name"
+#~ msgid "About Me"
+#~ msgstr "हमरा संबंधमे"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced User Settings"
+#~ msgstr "उन्नत प्रयोक्ता बिन्यास"
+
+#~ msgctxt "Name"
+#~ msgid "Computer Administration"
+#~ msgstr "कम्प्यूटर प्रशासन"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard & Mouse"
+#~ msgstr "कुंजीपट आ माउस"
+
+#~ msgctxt "Name"
+#~ msgid "Look & Feel"
+#~ msgstr "रूप आ आकार"
+
+#~ msgctxt "Name"
+#~ msgid "Personal"
+#~ msgstr "व्यक्तिगत"
+
+#~ msgctxt "Name"
+#~ msgid "Regional & Language"
+#~ msgstr "क्षेत्रीयता आ भाषा"
 
 #~ msgctxt "Name"
 #~ msgid "System Notifications"
@@ -13369,10 +13480,6 @@ msgstr "शनिक छल्ला"
 #~ msgid "Broadcast 2000"
 #~ msgstr "ब्राडकास्ट 2000"
 
-#~ msgctxt "GenericName"
-#~ msgid "Audio and Video IDE"
-#~ msgstr "आडियो आओर वीडियो आईडीई"
-
 #~ msgctxt "Name"
 #~ msgid "DJPlay"
 #~ msgstr "डीजीप्ले"
@@ -13766,10 +13873,6 @@ msgstr "शनिक छल्ला"
 #~ msgstr "एक्स रिसोर्स संपादक"
 
 #~ msgctxt "Name"
-#~ msgid "SAM System-Administration"
-#~ msgstr "एसएएम तंत्र प्रशासक"
-
-#~ msgctxt "Name"
 #~ msgid "Terminal"
 #~ msgstr "टर्मिनल"
 
@@ -14106,10 +14209,6 @@ msgstr "शनिक छल्ला"
 #~ msgctxt "Comment"
 #~ msgid "Attached devices information"
 #~ msgstr "युक्ति सूचना संलग्न"
-
-#~ msgctxt "Name"
-#~ msgid "Partitions"
-#~ msgstr "पार्टीशन्स"
 
 #~ msgctxt "Comment"
 #~ msgid "Partition information"
