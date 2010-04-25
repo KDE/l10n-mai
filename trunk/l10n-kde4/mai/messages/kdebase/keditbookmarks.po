@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: keditbookmarks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-19 04:43+0200\n"
+"POT-Creation-Date: 2010-04-25 04:52+0200\n"
 "PO-Revision-Date: 2010-01-29 15:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -195,92 +195,6 @@ msgstr "*.xbel|Galeon Bookmark Files (*.xbel)"
 #: importers.cpp:208
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|KDE Bookmark Files (*.xml)"
-
-#: bookmarkmodel.cpp:107
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "name of the container of all browser bookmarks"
-msgid "Bookmarks"
-msgstr "पुस्तकचिह्न"
-
-#: bookmarkmodel.cpp:206
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@title:column name of a bookmark"
-msgid "Name"
-msgstr "नाम:"
-
-#: bookmarkmodel.cpp:210
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@title:column name of a bookmark"
-msgid "Location"
-msgstr "स्थानः"
-
-#: bookmarkmodel.cpp:214
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@title:column comment for a bookmark"
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: bookmarkmodel.cpp:218
-#, fuzzy
-#| msgid "Status"
-msgctxt "@title:column status of a bookmark"
-msgid "Status"
-msgstr "स्थिति"
-
-#: commands.cpp:68
-msgid "Insert Separator"
-msgstr "विभाजक प्रविष्ट करू"
-
-#: commands.cpp:77
-msgid "Create Bookmark"
-msgstr "पुस्तकचिह्न बनाउ"
-
-#: commands.cpp:86
-msgid "Create Folder"
-msgstr "फोल्डर बनाबू "
-
-#: commands.cpp:95
-#, kde-format
-msgid "Copy %1"
-msgstr "%1 कापी करू"
-
-#: commands.cpp:183
-msgid "Icon Change"
-msgstr "चिह्न बदलू"
-
-#: commands.cpp:185
-msgid "Title Change"
-msgstr "शीर्षक बदलू"
-
-#: commands.cpp:187
-#, fuzzy
-msgid "URL Change"
-msgstr "URL बदलू"
-
-#: commands.cpp:189
-msgid "Comment Change"
-msgstr "टिप्पणी बदलू"
-
-#: commands.cpp:359
-#, kde-format
-msgid "Move %1"
-msgstr "%1 घसकाबू"
-
-#: commands.cpp:476
-msgid "Set as Bookmark Toolbar"
-msgstr "अओजार पट्टीक तरह सेट करू"
-
-#: commands.cpp:512
-msgid "Copy Items"
-msgstr "वस्तु नकल करू"
-
-#: commands.cpp:513
-msgid "Move Items"
-msgstr "वस्तु घसकाउ"
 
 #: updater.cpp:87
 #, kde-format
@@ -534,6 +448,92 @@ msgstr "अंतिम बेर देखल गेलः"
 #: bookmarkinfowidget.cpp:275
 msgid "Times visited:"
 msgstr "एतबा बेर देखल गेलः"
+
+#: kbookmarkmodel/model.cpp:112
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "name of the container of all browser bookmarks"
+msgid "Bookmarks"
+msgstr "पुस्तकचिह्न"
+
+#: kbookmarkmodel/model.cpp:216
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@title:column name of a bookmark"
+msgid "Name"
+msgstr "नाम:"
+
+#: kbookmarkmodel/model.cpp:220
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@title:column name of a bookmark"
+msgid "Location"
+msgstr "स्थानः"
+
+#: kbookmarkmodel/model.cpp:224
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@title:column comment for a bookmark"
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: kbookmarkmodel/model.cpp:228
+#, fuzzy
+#| msgid "Status"
+msgctxt "@title:column status of a bookmark"
+msgid "Status"
+msgstr "स्थिति"
+
+#: kbookmarkmodel/commands.cpp:68
+msgid "Insert Separator"
+msgstr "विभाजक प्रविष्ट करू"
+
+#: kbookmarkmodel/commands.cpp:77
+msgid "Create Bookmark"
+msgstr "पुस्तकचिह्न बनाउ"
+
+#: kbookmarkmodel/commands.cpp:86
+msgid "Create Folder"
+msgstr "फोल्डर बनाबू "
+
+#: kbookmarkmodel/commands.cpp:95
+#, kde-format
+msgid "Copy %1"
+msgstr "%1 कापी करू"
+
+#: kbookmarkmodel/commands.cpp:183
+msgid "Icon Change"
+msgstr "चिह्न बदलू"
+
+#: kbookmarkmodel/commands.cpp:185
+msgid "Title Change"
+msgstr "शीर्षक बदलू"
+
+#: kbookmarkmodel/commands.cpp:187
+#, fuzzy
+msgid "URL Change"
+msgstr "URL बदलू"
+
+#: kbookmarkmodel/commands.cpp:189
+msgid "Comment Change"
+msgstr "टिप्पणी बदलू"
+
+#: kbookmarkmodel/commands.cpp:359
+#, kde-format
+msgid "Move %1"
+msgstr "%1 घसकाबू"
+
+#: kbookmarkmodel/commands.cpp:476
+msgid "Set as Bookmark Toolbar"
+msgstr "अओजार पट्टीक तरह सेट करू"
+
+#: kbookmarkmodel/commands.cpp:512
+msgid "Copy Items"
+msgstr "वस्तु नकल करू"
+
+#: kbookmarkmodel/commands.cpp:513
+msgid "Move Items"
+msgstr "वस्तु घसकाउ"
 
 #. i18n: file: keditbookmarks-genui.rc:6
 #. i18n: ectx: Menu (file)
