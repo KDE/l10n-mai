@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-24 04:52+0200\n"
+"POT-Creation-Date: 2010-04-27 05:14+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2490,34 +2490,44 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "क्रियासभ"
 
-#: kio/kfileitemactions.cpp:507
+#: kio/kfileitemactions.cpp:522
+#, fuzzy, kde-format
+#| msgid "Open with:"
+msgid "&Open with %1"
+msgstr "के सँग खोलू:"
+
+#: kio/kfileitemactions.cpp:525 ../kfile/kfilewidget.cpp:1956
+msgid "&Open"
+msgstr "खोलू (&O)"
+
+#: kio/kfileitemactions.cpp:540
 #, fuzzy
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "एकरासँ खोलू"
 
-#: kio/kfileitemactions.cpp:524
+#: kio/kfileitemactions.cpp:557
 #, fuzzy
 #| msgid "Others"
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "आन "
 
-#: kio/kfileitemactions.cpp:526 kio/kfileitemactions.cpp:538
+#: kio/kfileitemactions.cpp:559 kio/kfileitemactions.cpp:571
 #, fuzzy
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "एकरासँ खोलू"
 
-#: kio/kfileitemactions.cpp:566
+#: kio/kfileitemactions.cpp:673
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "Open &with %1"
 msgstr "के सँग खोलू:"
 
-#: kio/kfileitemactions.cpp:568
+#: kio/kfileitemactions.cpp:675
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
@@ -5844,10 +5854,6 @@ msgstr "*|सभटा फोल्डर"
 #: ../kfile/kfilewidget.cpp:1792 ../kfile/kfilefiltercombo.cpp:36
 msgid "*|All Files"
 msgstr "*|सभटा फाइलसभ"
-
-#: ../kfile/kfilewidget.cpp:1956
-msgid "&Open"
-msgstr "खोलू (&O)"
 
 #: ../kfile/kfilewidget.cpp:2041
 #, kde-format
