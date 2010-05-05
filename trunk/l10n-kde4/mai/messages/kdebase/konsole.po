@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 04:52+0200\n"
+"POT-Creation-Date: 2010-05-05 04:49+0200\n"
 "PO-Revision-Date: 2010-01-29 15:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -235,7 +235,7 @@ msgstr "इ-मेल भेजू..."
 msgid "Copy Email Address"
 msgstr "इ-मेल पता नकल करू"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:501
+#: HistorySizeDialog.cpp:51
 msgid "Scrollback Options"
 msgstr "स्क्रालबैक विकल्प"
 
@@ -555,49 +555,39 @@ msgstr "लार्स क्नोल"
 msgid "Thanks to many others.\n"
 msgstr "आओरो बेबीलोकनिसभ केँ धन्यवाद.\n"
 
-#. i18n: file: ../desktop/konsoleui.rc:45
-#. i18n: ectx: Menu (new-tab)
-#: MainWindow.cpp:233 rc.cpp:882
-msgid "New &Tab"
+#: MainWindow.cpp:233
+#, fuzzy
+#| msgid "New &Tab"
+msgid "&New Tab"
 msgstr "नवीन टैब (&T)"
 
-#: MainWindow.cpp:238
-#, fuzzy
-#| msgid "Delete Profile"
-msgid "&Default Profile"
-msgstr "प्रोफाइल मेटाबू"
-
-#: MainWindow.cpp:244
+#: MainWindow.cpp:240
 msgid "New &Window"
 msgstr "नया विंडो (&W)"
 
-#: MainWindow.cpp:249
+#: MainWindow.cpp:245
 msgid "Remote Connection..."
 msgstr "रिमोट कनेक्शन..."
 
-#: MainWindow.cpp:260
+#: MainWindow.cpp:256
 msgid "&Bookmarks"
 msgstr "पुस्तचिह्न (&B)"
 
-#: MainWindow.cpp:271
-msgid "Show Menu Bar"
-msgstr "मेनूपट्टी देखाबू"
-
-#: MainWindow.cpp:293 Part.cpp:116
+#: MainWindow.cpp:284 Part.cpp:116
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Profiles..."
 msgstr "प्रोफाइल प्रबंधित करू..."
 
-#: MainWindow.cpp:376
+#: MainWindow.cpp:375
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: MainWindow.cpp:378 SessionController.cpp:608
+#: MainWindow.cpp:377 SessionController.cpp:597
 msgid "Confirm Close"
 msgstr "बन्न करबाक पुष्टि करू"
 
-#: MainWindow.cpp:380
+#: MainWindow.cpp:379
 msgid "Close Current Tab"
 msgstr "मोजुदा टैब बन्न करू"
 
@@ -617,7 +607,7 @@ msgstr "मेनू मे देखाबू"
 msgid "Shortcut"
 msgstr "शार्टकट"
 
-#: ManageProfilesDialog.cpp:350
+#: ManageProfilesDialog.cpp:352
 msgid "New Profile"
 msgstr "नवीन प्रोफाइल"
 
@@ -1501,13 +1491,13 @@ msgstr "sangeeta09@gmail.com"
 msgid "Copy Input To"
 msgstr "इनपुट एतय नकल करू..."
 
-#. i18n: file: ../desktop/sessionui.rc:43
+#. i18n: file: ../desktop/sessionui.rc:37
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr "डिबग"
 
-#. i18n: file: ../desktop/sessionui.rc:62
+#. i18n: file: ../desktop/sessionui.rc:56
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1556,6 +1546,12 @@ msgstr "जमावट"
 #: rc.cpp:879
 msgid "Help"
 msgstr "मद्दति "
+
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: rc.cpp:882
+msgid "New &Tab"
+msgstr "नवीन टैब (&T)"
 
 #: RemoteConnectionDialog.cpp:39
 msgid "New Remote Connection"
@@ -1617,94 +1613,98 @@ msgstr ""
 msgid "&Close Tab"
 msgstr "टैब बन्न करू (&C)"
 
-#: SessionController.cpp:401
+#: SessionController.cpp:400
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:416
+#: SessionController.cpp:414
 msgid "Paste Selection"
 msgstr "चयन साटू"
 
-#: SessionController.cpp:422
+#: SessionController.cpp:419
 msgid "&Rename Tab..."
 msgstr "टैब क' नाम बदलू... (&R)"
 
-#: SessionController.cpp:429
+#: SessionController.cpp:425
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:436
+#: SessionController.cpp:431
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgid "&Select Tabs..."
 msgstr "टैब क' नाम बदलू... (&R)"
 
-#: SessionController.cpp:443
+#: SessionController.cpp:436
 msgid "&None"
 msgstr "किछु नहि (&N)"
 
-#: SessionController.cpp:450
-#, fuzzy
-#| msgid "Clear && Reset"
-msgid "Clear and Reset"
-msgstr "साफ करू आ रीसेट करू"
-
-#: SessionController.cpp:455
+#: SessionController.cpp:442
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:461
+#: SessionController.cpp:447
 msgid "Monitor for &Activity"
 msgstr "क्रिया क' लेल मानीटर करू (&A)"
 
-#: SessionController.cpp:466
+#: SessionController.cpp:452
 msgid "Monitor for &Silence"
 msgstr "शान्ति क' लेल मानीटर करू (&S)"
 
-#: SessionController.cpp:472
-msgid "Character Encoding"
-msgstr "संप्रतीक एनकोडिंग"
+#: SessionController.cpp:458
+#, fuzzy
+#| msgid "Encoding"
+msgid "Set &Encoding"
+msgstr "एनकोडिंग"
 
-#: SessionController.cpp:479
+#: SessionController.cpp:466
 msgid "Enlarge Font"
 msgstr ""
 
-#: SessionController.cpp:482
+#: SessionController.cpp:471
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Shrink View"
 msgid "Shrink Font"
 msgstr "छोट दृश्य"
 
-#: SessionController.cpp:498
+#: SessionController.cpp:489
 #, fuzzy
 #| msgid "Save Output..."
-msgid "Save Output As..."
+msgid "Save Output &As..."
 msgstr "आउटपुट सहेजू..."
 
-#: SessionController.cpp:506
+#: SessionController.cpp:492
 #, fuzzy
-#| msgid "Clear Scrollback && Reset"
-msgid "Clear Scrollback and Reset"
-msgstr "स्क्रालबैक साफ करू आ रीसेट करू"
+#| msgid "Manage Profiles..."
+msgid "Configure Scrollback..."
+msgstr "प्रोफाइल प्रबंधित करू..."
 
-#: SessionController.cpp:513
-msgid "Edit Current Profile..."
-msgstr "वर्तमान प्रोफाइल संपादित करू..."
+#: SessionController.cpp:496
+#, fuzzy
+#| msgid "Scrollback"
+msgid "Clear Scrollback"
+msgstr "स्क्रालबैक"
 
-#: SessionController.cpp:517
+#: SessionController.cpp:502
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Current Profile..."
+msgstr "प्रोफाइल प्रबंधित करू..."
+
+#: SessionController.cpp:505
 msgid "Change Profile"
 msgstr "प्रोफाइल बदलू"
 
-#: SessionController.cpp:558
+#: SessionController.cpp:547
 msgid "Rename Tab"
 msgstr "टैब केँ नवीन नाम दिअ'"
 
-#: SessionController.cpp:559
+#: SessionController.cpp:548
 msgid "Enter new tab text:"
 msgstr "नवीन टैब पाठ भरू:"
 
-#: SessionController.cpp:602
+#: SessionController.cpp:591
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -1712,7 +1712,7 @@ msgstr ""
 "एकटा प्रोग्राम अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्द "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:605
+#: SessionController.cpp:594
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1721,43 +1721,43 @@ msgstr ""
 "प्रोग्राम '%1' अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्न "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:1163
+#: SessionController.cpp:1139
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1172
+#: SessionController.cpp:1148
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1184
+#: SessionController.cpp:1160
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1193
+#: SessionController.cpp:1169
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1199
+#: SessionController.cpp:1175
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1271
+#: SessionController.cpp:1247
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 सँ आउटपुट सहेजू"
 
-#: SessionController.cpp:1282
+#: SessionController.cpp:1258
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 एकटा अवैध यूआरएल अछि. आउटपुट सहेजल नहि जाए सकैत अछि."
 
-#: SessionController.cpp:1371
+#: SessionController.cpp:1347
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1952,8 +1952,10 @@ msgid "Close Others"
 msgstr "आनसभ केँ बन्न करू"
 
 #: ViewManager.cpp:183
-msgid "&Detach View"
-msgstr "दृश्य अलग करू (&D)"
+#, fuzzy
+#| msgid "Close Current Tab"
+msgid "D&etach Current Tab"
+msgstr "मोजुदा टैब बन्न करू"
 
 #: ViewManager.cpp:192
 msgctxt "@action:inmenu"
@@ -1982,8 +1984,32 @@ msgstr ""
 msgid "&Stop"
 msgstr "रोकू (&S)"
 
-#~ msgid "Scrollback"
-#~ msgstr "स्क्रालबैक"
+#, fuzzy
+#~| msgid "Delete Profile"
+#~ msgid "&Default Profile"
+#~ msgstr "प्रोफाइल मेटाबू"
+
+#~ msgid "Show Menu Bar"
+#~ msgstr "मेनूपट्टी देखाबू"
+
+#, fuzzy
+#~| msgid "Clear && Reset"
+#~ msgid "Clear and Reset"
+#~ msgstr "साफ करू आ रीसेट करू"
+
+#~ msgid "Character Encoding"
+#~ msgstr "संप्रतीक एनकोडिंग"
+
+#, fuzzy
+#~| msgid "Clear Scrollback && Reset"
+#~ msgid "Clear Scrollback and Reset"
+#~ msgstr "स्क्रालबैक साफ करू आ रीसेट करू"
+
+#~ msgid "Edit Current Profile..."
+#~ msgstr "वर्तमान प्रोफाइल संपादित करू..."
+
+#~ msgid "&Detach View"
+#~ msgstr "दृश्य अलग करू (&D)"
 
 #~ msgid "&Copy"
 #~ msgstr "कोपी करू (&C)"
