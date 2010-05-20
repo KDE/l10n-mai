@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:41+0200\n"
+"POT-Creation-Date: 2010-05-20 04:48+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,24 +23,36 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kioslaves/search/kio_nepomuksearch.cpp:59
-#: kioslaves/search/kio_nepomuksearch.cpp:250
+#: kioslaves/search/kio_nepomuksearch.cpp:72
+#, fuzzy, kde-format
+#| msgid "Query Results"
+msgctxt ""
+"@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+"user entered."
+msgid "Query Results from '%1'"
+msgstr "प्रश्न परिणाम"
+
+#: kioslaves/search/kio_nepomuksearch.cpp:76
 msgid "Query Results"
 msgstr "प्रश्न परिणाम"
 
-#: kioslaves/search/kio_nepomuksearch.cpp:124
+#: kioslaves/search/kio_nepomuksearch.cpp:147
 #: kioslaves/nepomuk/kio_nepomuk.cpp:637
 #, fuzzy
 msgid ""
 "The Nepomuk system is not activated. Unable to answer queries without it."
 msgstr "द अछि नहि मे."
 
-#: kioslaves/search/kio_nepomuksearch.cpp:130
+#: kioslaves/search/kio_nepomuksearch.cpp:153
 #, fuzzy
 msgid ""
 "The Nepomuk query service is not running. Unable to answer queries without "
 "it."
 msgstr "द प्रश्न अछि नहि चलि रहल अछि मे."
+
+#: kioslaves/search/kio_nepomuksearch.cpp:273
+msgid "Desktop Queries"
+msgstr ""
 
 #: kioslaves/timeline/kio_timeline.cpp:107
 msgctxt ""
@@ -539,17 +551,26 @@ msgstr "मेमोरी उपयोग"
 #. i18n: file: kcm/nepomukconfigwidget.ui:197
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:80
-#, fuzzy
 msgid ""
-"The maximum amount of memory the Nepomuk database should use. The more "
-"memory Nepomuk has the more performant it will be."
-msgstr "द अधिकतम क' द."
+"<p>The maximum amount of main memory the Nepomuk system should use for its "
+"database process. The more memory is available to Nepomuk the better will be "
+"its performance. (The Nepomuk database process shows up as <command>virtuoso-"
+"t</command> in the process manager.)"
+msgstr ""
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:225
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
 #: rc.cpp:83
-msgid " MB"
+#, fuzzy
+#| msgid " MB"
+msgid " MiB"
 msgstr " MB"
+
+#, fuzzy
+#~ msgid ""
+#~ "The maximum amount of memory the Nepomuk database should use. The more "
+#~ "memory Nepomuk has the more performant it will be."
+#~ msgstr "द अधिकतम क' द."
 
 #~ msgctxt "@info:status"
 #~ msgid "Checking file system for new files"
