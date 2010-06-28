@@ -1,0 +1,158 @@
+# translation of plasma_applet_battery.po to Maithili
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_battery\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2010-05-14 04:46+0200\n"
+"PO-Revision-Date: 2010-01-29 16:12+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Maithili <maithili.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+
+#: battery.cpp:198 battery.cpp:670
+msgid "Battery:"
+msgstr "बैटरी"
+
+#: battery.cpp:205 battery.cpp:677
+#, fuzzy, kde-format
+#| msgid "Battery:"
+msgctxt "Placeholder is the battery ID"
+msgid "Battery %1:"
+msgstr "बैटरी"
+
+#: battery.cpp:216 battery.cpp:684
+msgid "AC Adapter:"
+msgstr "AC एडाप्टर"
+
+#: battery.cpp:217 battery.cpp:686
+msgid "Plugged in"
+msgstr ""
+
+#: battery.cpp:217 battery.cpp:688
+msgid "Not plugged in"
+msgstr ""
+
+#: battery.cpp:342
+msgid "General"
+msgstr "सामान्य"
+
+#: battery.cpp:497
+msgid "Screen Brightness"
+msgstr "स्क्रीनक चमकीलापन"
+
+#: battery.cpp:517
+#, fuzzy
+#| msgid "Power Profile"
+msgid "Power Profile:"
+msgstr "पावरक प्रोफाइल"
+
+#: battery.cpp:547
+#, fuzzy
+#| msgid "Sleep"
+msgctxt "Suspend the computer to RAM; translation should be short"
+msgid "Sleep"
+msgstr "स्लीप"
+
+#: battery.cpp:561
+#, fuzzy
+#| msgid "Hibernate"
+msgctxt "Suspend the computer to disk; translation should be short"
+msgid "Hibernate"
+msgstr "हाइबरनेट करू"
+
+#: battery.cpp:574
+msgctxt "tooltip on the config button in the popup"
+msgid "Configure Power Management..."
+msgstr "पावर मैनेजमेंट विन्यस्त करू..."
+
+#: battery.cpp:593
+msgid "Power Management"
+msgstr "पावर मैनेजमेंट"
+
+#: battery.cpp:640
+#, kde-format
+msgid "%1% (charged)"
+msgstr "%1% (चार्ज्ड)"
+
+#: battery.cpp:645
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "%1% (discharging)"
+msgid "%1% (discharging)"
+msgstr "%1% (डिस्चार्जिंग)"
+
+#: battery.cpp:651
+#, kde-format
+msgid "%1% (charging)"
+msgstr "%1% (चार्जिंग)"
+
+#: battery.cpp:654 battery.cpp:703
+msgctxt "Battery is not plugged in"
+msgid "Not present"
+msgstr "नहि मोजुद"
+
+#: battery.cpp:702
+msgid "<b>Battery:</b> "
+msgstr "<b> बैटरी</b>"
+
+#: battery.cpp:954 battery.cpp:985 battery.cpp:997
+#, kde-format
+msgctxt "overlay on the battery, needs to be really tiny"
+msgid "%1%"
+msgstr ""
+
+#. i18n: file: batteryConfig.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
+#: rc.cpp:3 rc.cpp:12
+msgid "Configure Battery Monitor"
+msgstr "बैटरी मानीटर कान्फिगर करू"
+
+#. i18n: file: batteryConfig.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, showBatteryStringCheckBox)
+#: rc.cpp:6 rc.cpp:15
+msgid "Show charge &information"
+msgstr ""
+
+#. i18n: file: batteryConfig.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, showMultipleBatteriesCheckBox)
+#: rc.cpp:9 rc.cpp:18
+msgid "Show the state for &each battery present"
+msgstr "हर उपस्थित बैटरीक लेल स्थिति देखाबू (&e)"
+
+#~ msgctxt "Shown when a time estimate is not available"
+#~ msgid "%1% (discharging)"
+#~ msgstr "%1% (डिस्चार्जिंग)"
+
+#~| msgid "<b>Battery %1:</b> %2% (charging)<br />"
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "<b>Battery %1:</b>"
+#~ msgstr "<b>Battery %1:</b>"
+
+#~| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charged)"
+#~ msgstr "%1% (charged)"
+
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (discharging)"
+#~ msgstr "%1% (discharging)"
+
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgctxt "state of battery"
+#~ msgid "%1% (charging)"
+#~ msgstr "%1% (charging)"
