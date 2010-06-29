@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmagenericshell\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-11 04:57+0200\n"
+"POT-Creation-Date: 2010-06-29 02:39+0200\n"
 "PO-Revision-Date: 2010-01-29 16:20+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -99,10 +99,6 @@ msgstr "चलि रहल अछि"
 msgid "Categories:"
 msgstr "श्रेणिसभ:"
 
-#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
-msgid "Filters"
-msgstr "फिल्टरसभ"
-
 #: widgetsexplorer/appletsfiltering.cpp:175
 #, fuzzy
 #| msgid "Enter search phrase here"
@@ -132,9 +128,52 @@ msgstr "नवीन %1 डाउनलोड करू"
 msgid "Install Widget From Local File..."
 msgstr "स्थानीय फाइल सँ विजेट सँस्थापित करू"
 
+#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "फिल्टरसभ"
+
 #: widgetsexplorer/plasmaappletitemmodel.cpp:188
 msgid "Containments"
 msgstr "कंटेनमेंट"
+
+#: scripting/containment.cpp:169
+msgid "widgetById requires an id"
+msgstr ""
+
+#: scripting/containment.cpp:194
+msgid "widgetById requires a name of a widget or a widget object"
+msgstr ""
+
+#: scripting/layouttemplatepackagestructure.cpp:30
+msgid "Main Script File"
+msgstr ""
+
+#: scripting/scriptengine.cpp:66 scripting/scriptengine.cpp:182
+msgid "activityById requires an id"
+msgstr ""
+
+#: scripting/scriptengine.cpp:83
+msgid "activityForScreen requires a screen id"
+msgstr ""
+
+#: scripting/scriptengine.cpp:118
+#, kde-format
+msgid "Could not find a plugin for %1 named %2."
+msgstr ""
+
+#: scripting/scriptengine.cpp:291
+#, kde-format
+msgid "Unable to load script file: %1"
+msgstr ""
+
+#: scripting/scriptengine.cpp:349
+#, kde-format
+msgid ""
+"Error: %1 at line %2\n"
+"\n"
+"Backtrace:\n"
+"%3"
+msgstr ""
 
 #: tests/background.cpp:38
 msgid "Plasma"
@@ -249,45 +288,6 @@ msgstr "फिनु सँ आबंटित करू"
 
 #: mouseplugins.cpp:159
 msgid "This trigger is assigned to another plugin."
-msgstr ""
-
-#: scripting/containment.cpp:169
-msgid "widgetById requires an id"
-msgstr ""
-
-#: scripting/containment.cpp:194
-msgid "widgetById requires a name of a widget or a widget object"
-msgstr ""
-
-#: scripting/scriptengine.cpp:66 scripting/scriptengine.cpp:182
-msgid "activityById requires an id"
-msgstr ""
-
-#: scripting/scriptengine.cpp:83
-msgid "activityForScreen requires a screen id"
-msgstr ""
-
-#: scripting/scriptengine.cpp:118
-#, kde-format
-msgid "Could not find a plugin for %1 named %2."
-msgstr ""
-
-#: scripting/scriptengine.cpp:291
-#, kde-format
-msgid "Unable to load script file: %1"
-msgstr ""
-
-#: scripting/scriptengine.cpp:349
-#, kde-format
-msgid ""
-"Error: %1 at line %2\n"
-"\n"
-"Backtrace:\n"
-"%3"
-msgstr ""
-
-#: scripting/layouttemplatepackagestructure.cpp:30
-msgid "Main Script File"
 msgstr ""
 
 #. i18n: file: ActivityConfiguration.ui:52
