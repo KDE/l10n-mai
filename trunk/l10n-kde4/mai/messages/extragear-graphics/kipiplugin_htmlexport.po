@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_htmlexport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 05:00+0200\n"
+"POT-Creation-Date: 2010-07-01 05:11+0200\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,6 +18,116 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#: plugin.cpp:72
+msgid "Export to &HTML..."
+msgstr ""
+
+#: plugin.cpp:92
+msgid "Generating gallery..."
+msgstr ""
+
+#: plugin.cpp:99
+msgid "Finished, but some warnings occurred."
+msgstr ""
+
+#: imagegenerationfunctor.cpp:89
+#, kde-format
+msgid "Could not read image '%1'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:95
+#, kde-format
+msgid "Format of image '%1' is unknown"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:104
+#, kde-format
+msgid "Error loading image '%1'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:140
+#, kde-format
+msgid "Could not save image '%1' to '%2'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:161
+#, kde-format
+msgid "Could not save thumbnail for image '%1' to '%2'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:170
+msgid "unavailable"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:338
+#, kde-format
+msgid "Could not open file '%1' for writing"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:342
+#, kde-format
+msgid "Could not save image to file '%1'"
+msgstr ""
+
+#: wizard.cpp:170
+#, kde-format
+msgctxt "'%1' is a label for a theme parameter"
+msgid "%1:"
+msgstr ""
+
+#: wizard.cpp:206
+msgid "Export image collections to HTML pages"
+msgstr ""
+
+#: wizard.cpp:212
+msgid "HTML Export"
+msgstr "एचटीएमएल निर्यात"
+
+#: wizard.cpp:215
+msgid "A KIPI plugin to export image collections to HTML pages"
+msgstr ""
+
+#: wizard.cpp:216
+msgid "(c) 2006-2008, Aurelien Gateau"
+msgstr ""
+
+#: wizard.cpp:219
+msgid "Aurelien Gateau"
+msgstr ""
+
+#: wizard.cpp:220
+msgid "Author and Maintainer"
+msgstr ""
+
+#: wizard.cpp:228
+msgid "Handbook"
+msgstr ""
+
+#: wizard.cpp:237
+msgid "Collection Selection"
+msgstr ""
+
+#: wizard.cpp:242
+msgid "Theme"
+msgstr "प्रसंग"
+
+#: wizard.cpp:247
+msgid "Theme Parameters"
+msgstr ""
+
+#: wizard.cpp:249
+msgid "Image Settings"
+msgstr ""
+
+#: wizard.cpp:251
+msgid "Output"
+msgstr "आउटपुट"
+
+#: wizard.cpp:307
+#, kde-format
+msgid "Author: %1"
+msgstr ""
 
 #: generator.cpp:136
 #, kde-format
@@ -163,57 +273,6 @@ msgstr ""
 msgid "Could not create folder '%1' in '%2'"
 msgstr ""
 
-#: imagegenerationfunctor.cpp:89
-#, kde-format
-msgid "Could not read image '%1'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:95
-#, kde-format
-msgid "Format of image '%1' is unknown"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:104
-#, kde-format
-msgid "Error loading image '%1'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:140
-#, kde-format
-msgid "Could not save image '%1' to '%2'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:161
-#, kde-format
-msgid "Could not save thumbnail for image '%1' to '%2'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:170
-msgid "unavailable"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:338
-#, kde-format
-msgid "Could not open file '%1' for writing"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:342
-#, kde-format
-msgid "Could not save image to file '%1'"
-msgstr ""
-
-#: plugin.cpp:72
-msgid "Export to &HTML..."
-msgstr ""
-
-#: plugin.cpp:92
-msgid "Generating gallery..."
-msgstr ""
-
-#: plugin.cpp:99
-msgid "Finished, but some warnings occurred."
-msgstr ""
-
 #. i18n: file: imagesettingspage.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3 rc.cpp:65
@@ -333,62 +392,3 @@ msgstr "संगीता कुमारी"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
-
-#: wizard.cpp:170
-#, kde-format
-msgctxt "'%1' is a label for a theme parameter"
-msgid "%1:"
-msgstr ""
-
-#: wizard.cpp:206
-msgid "Export image collections to HTML pages"
-msgstr ""
-
-#: wizard.cpp:212
-msgid "HTML Export"
-msgstr "एचटीएमएल निर्यात"
-
-#: wizard.cpp:215
-msgid "A KIPI plugin to export image collections to HTML pages"
-msgstr ""
-
-#: wizard.cpp:216
-msgid "(c) 2006-2008, Aurelien Gateau"
-msgstr ""
-
-#: wizard.cpp:219
-msgid "Aurelien Gateau"
-msgstr ""
-
-#: wizard.cpp:220
-msgid "Author and Maintainer"
-msgstr ""
-
-#: wizard.cpp:228
-msgid "Handbook"
-msgstr ""
-
-#: wizard.cpp:237
-msgid "Collection Selection"
-msgstr ""
-
-#: wizard.cpp:242
-msgid "Theme"
-msgstr "प्रसंग"
-
-#: wizard.cpp:247
-msgid "Theme Parameters"
-msgstr ""
-
-#: wizard.cpp:249
-msgid "Image Settings"
-msgstr ""
-
-#: wizard.cpp:251
-msgid "Output"
-msgstr "आउटपुट"
-
-#: wizard.cpp:307
-#, kde-format
-msgid "Author: %1"
-msgstr ""

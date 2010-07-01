@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_metadataedit\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-03 05:00+0200\n"
+"POT-Creation-Date: 2010-07-01 05:11+0200\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18,6 +18,4495 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#: iptc/iptcsubjects.cpp:57
+msgid ""
+"Enter here the Informative Provider Reference. I.P.R is a name registered "
+"with the IPTC/NAA, identifying the provider that provides an indicator of "
+"the content. The default value for the I.P.R is \"IPTC\" if a standard "
+"Reference Code is used. This field is limited to 32 ASCII characters."
+msgstr ""
+
+#: iptc/iptcsubjects.cpp:65
+msgid ""
+"Enter here the Subject Reference Number. Provides a numeric code to indicate "
+"the Subject Name plus optional Subject Matter and Subject Detail Names in "
+"the language of the service. Subject Reference is a number from the range "
+"01000000 to 17999999 and represent a language independent international "
+"reference to a Subject. A Subject is identified by its Reference Number and "
+"corresponding Names taken from a standard lists given by IPTC/NAA. If a "
+"standard reference code is used, these lists are the English language "
+"reference versions. This field is limited to 8 ASCII digit code."
+msgstr ""
+
+#: iptc/iptcsubjects.cpp:80
+msgid ""
+"Enter here the Subject Name. English language is used if you selected a "
+"standard IPTC/NAA reference code. This field is limited to 64 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcsubjects.cpp:87
+msgid ""
+"Enter here the Subject Matter Name. English language is used if you selected "
+"a standard IPTC/NAA reference code. This field is limited to 64 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcsubjects.cpp:94
+msgid ""
+"Enter here the Subject Detail Name. English language is used if you selected "
+"a standard IPTC/NAA reference code. This field is limited to 64 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcsubjects.cpp:98 iptc/iptcstatus.cpp:130
+#: iptc/iptccategories.cpp:123 iptc/iptcorigin.cpp:497
+#: iptc/iptcproperties.cpp:239 iptc/iptccredits.cpp:147
+#: iptc/iptckeywords.cpp:111 iptc/iptccontent.cpp:128
+#: iptc/iptcenvelope.cpp:269
+msgid ""
+"<b>Note: <b><a href='http://en.wikipedia.org/wiki/"
+"IPTC_Information_Interchange_Model'>IPTC</a></b> text tags only support the "
+"printable <b><a href='http://en.wikipedia.org/wiki/Ascii'>ASCII</a></b> "
+"characters and limit string sizes. Use contextual help for details.</b>"
+msgstr ""
+
+#: iptc/iptcstatus.cpp:91
+#, fuzzy
+#| msgid "Title:"
+msgctxt "image title"
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: iptc/iptcstatus.cpp:96
+msgid ""
+"Set here the shorthand reference of content. This field is limited to 64 "
+"ASCII characters."
+msgstr ""
+
+#: iptc/iptcstatus.cpp:101
+#, fuzzy
+#| msgid "Status"
+msgid "Edit Status:"
+msgstr "स्थिति"
+
+#: iptc/iptcstatus.cpp:106
+msgid ""
+"Set here the title of content status. This field is limited to 64 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcstatus.cpp:111
+msgid "Job Identifier:"
+msgstr ""
+
+#: iptc/iptcstatus.cpp:116
+msgid ""
+"Set here the string that identifies content that recurs. This field is "
+"limited to 32 ASCII characters."
+msgstr ""
+
+#: iptc/iptcstatus.cpp:121 xmp/xmpstatus.cpp:105
+msgid "Special Instructions:"
+msgstr ""
+
+#: iptc/iptcstatus.cpp:125
+msgid ""
+"Enter the editorial usage instructions. This field is limited to 256 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptccategories.cpp:92 xmp/xmpcategories.cpp:86
+msgid "Identify subject of content (3 chars max):"
+msgstr ""
+
+#: iptc/iptccategories.cpp:97
+msgid ""
+"Set here the category of content. This field is limited to 3 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptccategories.cpp:100 xmp/xmpcategories.cpp:93
+msgid "Supplemental categories:"
+msgstr ""
+
+#: iptc/iptccategories.cpp:106
+msgid ""
+"Enter here a new supplemental category of content. This field is limited to "
+"32 ASCII characters."
+msgstr ""
+
+#: iptc/iptccategories.cpp:112 iptc/iptckeywords.cpp:100
+#: xmp/xmpcategories.cpp:102 xmp/xmpkeywords.cpp:91
+msgid "&Add"
+msgstr "जोड़ू (&A)"
+
+#: iptc/iptccategories.cpp:113 iptc/iptckeywords.cpp:101
+#: xmp/xmpcategories.cpp:103 xmp/xmpkeywords.cpp:92
+msgid "&Delete"
+msgstr "मेटाबू (&D)"
+
+#: iptc/iptccategories.cpp:114 iptc/iptckeywords.cpp:102
+#: xmp/xmpcategories.cpp:104 xmp/xmpkeywords.cpp:93
+msgid "&Replace"
+msgstr "बदलू (R)"
+
+#: iptc/iptcorigin.cpp:101 xmp/xmporigin.cpp:92
+msgid "Afghanistan"
+msgstr "अफगानिस्तान"
+
+#: iptc/iptcorigin.cpp:102 xmp/xmporigin.cpp:93
+msgid "Albania"
+msgstr "अलबानिया"
+
+#: iptc/iptcorigin.cpp:103 xmp/xmporigin.cpp:94
+msgid "Algeria"
+msgstr "अल्जीरिया"
+
+#: iptc/iptcorigin.cpp:104 xmp/xmporigin.cpp:95
+msgid "American Samoa"
+msgstr "अमेरिकन समोआ"
+
+#: iptc/iptcorigin.cpp:105 xmp/xmporigin.cpp:96
+msgid "Andorra"
+msgstr "अंडोरा"
+
+#: iptc/iptcorigin.cpp:106 iptc/iptcorigin.cpp:108 xmp/xmporigin.cpp:97
+#: xmp/xmporigin.cpp:99
+msgid "Angola"
+msgstr "अंगोला"
+
+#: iptc/iptcorigin.cpp:107 xmp/xmporigin.cpp:98
+msgid "Anguilla"
+msgstr "एंग्विला"
+
+#: iptc/iptcorigin.cpp:109 xmp/xmporigin.cpp:100
+msgid "Antarctica"
+msgstr "अंटार्कटिका"
+
+#: iptc/iptcorigin.cpp:110 xmp/xmporigin.cpp:101
+msgid "Antigua and Barbuda"
+msgstr "एंटिगुआ आओर बर्बुडा"
+
+#: iptc/iptcorigin.cpp:111 xmp/xmporigin.cpp:102
+msgid "Argentina"
+msgstr "अर्जेन्टिना"
+
+#: iptc/iptcorigin.cpp:112 xmp/xmporigin.cpp:103
+msgid "Armenia"
+msgstr "आर्मेनिया"
+
+#: iptc/iptcorigin.cpp:113 xmp/xmporigin.cpp:104
+msgid "Aruba"
+msgstr "अरूबा"
+
+#: iptc/iptcorigin.cpp:114 xmp/xmporigin.cpp:105
+msgid "Australia"
+msgstr "आस्ट्रेलिया"
+
+#: iptc/iptcorigin.cpp:115 xmp/xmporigin.cpp:106
+msgid "Austria"
+msgstr "आस्ट्रिया"
+
+#: iptc/iptcorigin.cpp:116 xmp/xmporigin.cpp:107
+msgid "Azerbaijan"
+msgstr "अजरबैजान"
+
+#: iptc/iptcorigin.cpp:117 xmp/xmporigin.cpp:108
+msgid "Bahamas"
+msgstr "बहामा"
+
+#: iptc/iptcorigin.cpp:118 xmp/xmporigin.cpp:109
+msgid "Bahrain"
+msgstr "बहरीन"
+
+#: iptc/iptcorigin.cpp:119 xmp/xmporigin.cpp:110
+msgid "Bangladesh"
+msgstr "बांग्लादेश"
+
+#: iptc/iptcorigin.cpp:120 xmp/xmporigin.cpp:111
+msgid "Barbados"
+msgstr "बारबोडस"
+
+#: iptc/iptcorigin.cpp:121 xmp/xmporigin.cpp:112
+msgid "Belarus"
+msgstr "बेलारूस"
+
+#: iptc/iptcorigin.cpp:122 xmp/xmporigin.cpp:113
+msgid "Belgium"
+msgstr "बेल्जियम"
+
+#: iptc/iptcorigin.cpp:123 xmp/xmporigin.cpp:114
+msgid "Belize"
+msgstr "बेलाइज"
+
+#: iptc/iptcorigin.cpp:124 xmp/xmporigin.cpp:115
+msgid "Benin"
+msgstr "बेनिन"
+
+#: iptc/iptcorigin.cpp:125 xmp/xmporigin.cpp:116
+msgid "Bermuda"
+msgstr "बरमुडा"
+
+#: iptc/iptcorigin.cpp:126 xmp/xmporigin.cpp:117
+msgid "Bhutan"
+msgstr "भूटान"
+
+#: iptc/iptcorigin.cpp:127 xmp/xmporigin.cpp:118
+msgid "Bolivia"
+msgstr "बोलिविया"
+
+#: iptc/iptcorigin.cpp:128 xmp/xmporigin.cpp:119
+msgid "Bosnia and Herzegovina"
+msgstr "बोस्निया आओर हर्जेगोविना"
+
+#: iptc/iptcorigin.cpp:129 xmp/xmporigin.cpp:120
+msgid "Botswana"
+msgstr "बोत्सवाना"
+
+#: iptc/iptcorigin.cpp:130 xmp/xmporigin.cpp:121
+msgid "Bouvet Island"
+msgstr "बौभेट द्वीप"
+
+#: iptc/iptcorigin.cpp:131 xmp/xmporigin.cpp:122
+msgid "Brazil"
+msgstr "ब्राजील"
+
+#: iptc/iptcorigin.cpp:132 xmp/xmporigin.cpp:123
+msgid "British Indian Ocean Territory"
+msgstr "ब्रिटिश इंडियन समुद्री क्षेत्र"
+
+#: iptc/iptcorigin.cpp:133 xmp/xmporigin.cpp:124
+msgid "British Virgin Islands"
+msgstr "ब्रिटिश वर्जिन द्वीप"
+
+#: iptc/iptcorigin.cpp:134 xmp/xmporigin.cpp:125
+msgid "Brunei Darussalam"
+msgstr "ब्रुनेई दारूसलाम"
+
+#: iptc/iptcorigin.cpp:135 xmp/xmporigin.cpp:126
+msgid "Bulgaria"
+msgstr "बल्गारिया"
+
+#: iptc/iptcorigin.cpp:136 xmp/xmporigin.cpp:127
+msgid "Burkina Faso"
+msgstr "बुर्किना फासो"
+
+#: iptc/iptcorigin.cpp:137 xmp/xmporigin.cpp:128
+msgid "Burundi"
+msgstr "बुरूंडी"
+
+#: iptc/iptcorigin.cpp:138 xmp/xmporigin.cpp:129
+msgid "Cambodia"
+msgstr "कंबोडिया"
+
+#: iptc/iptcorigin.cpp:139 xmp/xmporigin.cpp:130
+msgid "Cameroon"
+msgstr "कैमरून"
+
+#: iptc/iptcorigin.cpp:140 xmp/xmporigin.cpp:131
+msgid "Canada"
+msgstr "कनाडा"
+
+#: iptc/iptcorigin.cpp:141 xmp/xmporigin.cpp:132
+msgid "Cape Verde"
+msgstr "केप वर्डे"
+
+#: iptc/iptcorigin.cpp:142 xmp/xmporigin.cpp:133
+msgid "Cayman Islands"
+msgstr "कैमन द्वीप"
+
+#: iptc/iptcorigin.cpp:143 xmp/xmporigin.cpp:134
+msgid "Central African Republic"
+msgstr "केंद्रीय अफ्रीकी गणतंत्र"
+
+#: iptc/iptcorigin.cpp:144 xmp/xmporigin.cpp:135
+msgid "Chad"
+msgstr "चाड"
+
+#: iptc/iptcorigin.cpp:145 xmp/xmporigin.cpp:136
+msgid "Chile"
+msgstr "चिली"
+
+#: iptc/iptcorigin.cpp:146 xmp/xmporigin.cpp:137
+msgid "China"
+msgstr "चीन"
+
+#: iptc/iptcorigin.cpp:147 xmp/xmporigin.cpp:138
+#, fuzzy
+#| msgid "Cayman Islands"
+msgid "Christmas Island "
+msgstr "कैमन द्वीप"
+
+#: iptc/iptcorigin.cpp:148 xmp/xmporigin.cpp:139
+msgid "Cocos Islands"
+msgstr "कोकोस द्वीप"
+
+#: iptc/iptcorigin.cpp:149 xmp/xmporigin.cpp:140
+msgid "Colombia"
+msgstr "कोलंबिया"
+
+#: iptc/iptcorigin.cpp:150 xmp/xmporigin.cpp:141
+msgid "Comoros"
+msgstr "कोमोरोस"
+
+#: iptc/iptcorigin.cpp:151 xmp/xmporigin.cpp:142
+msgid "Zaire"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:152 xmp/xmporigin.cpp:143
+msgid "Congo"
+msgstr "कांगो"
+
+#: iptc/iptcorigin.cpp:153 xmp/xmporigin.cpp:144
+msgid "Cook Islands"
+msgstr "कुक द्वीप"
+
+#: iptc/iptcorigin.cpp:154 xmp/xmporigin.cpp:145
+msgid "Costa Rica"
+msgstr "कोस्टा रिका"
+
+#: iptc/iptcorigin.cpp:155 xmp/xmporigin.cpp:146
+msgid "Ivory Coast"
+msgstr "आइवरी कोस्ट"
+
+#: iptc/iptcorigin.cpp:156 xmp/xmporigin.cpp:147
+msgid "Cuba"
+msgstr "क्यूबा"
+
+#: iptc/iptcorigin.cpp:157 xmp/xmporigin.cpp:148
+msgid "Cyprus"
+msgstr "साइप्रस"
+
+#: iptc/iptcorigin.cpp:158 xmp/xmporigin.cpp:149
+msgid "Czech Republic"
+msgstr "चेक गणतंत्र"
+
+#: iptc/iptcorigin.cpp:159 xmp/xmporigin.cpp:150
+msgid "Denmark"
+msgstr "डेनमार्क"
+
+#: iptc/iptcorigin.cpp:160 xmp/xmporigin.cpp:151
+msgid "Djibouti"
+msgstr "दिबोती"
+
+#: iptc/iptcorigin.cpp:161 xmp/xmporigin.cpp:152
+msgid "Dominica"
+msgstr "डोमिनिका"
+
+#: iptc/iptcorigin.cpp:162 xmp/xmporigin.cpp:153
+msgid "Dominican Republic"
+msgstr "डोमिनिकन गणतंत्र"
+
+#: iptc/iptcorigin.cpp:163 xmp/xmporigin.cpp:154
+msgid "Ecuador"
+msgstr "इक्वेडर"
+
+#: iptc/iptcorigin.cpp:164 xmp/xmporigin.cpp:155
+msgid "Egypt"
+msgstr "मिश्र"
+
+#: iptc/iptcorigin.cpp:165 xmp/xmporigin.cpp:156
+msgid "El Salvador"
+msgstr "अल सल्वाडोर"
+
+#: iptc/iptcorigin.cpp:166 xmp/xmporigin.cpp:157
+msgid "Equatorial Guinea"
+msgstr "भूमध्यरेखीय गायना"
+
+#: iptc/iptcorigin.cpp:167 xmp/xmporigin.cpp:158
+msgid "Eritrea"
+msgstr "इरीट्रिया"
+
+#: iptc/iptcorigin.cpp:168 xmp/xmporigin.cpp:159
+msgid "Estonia"
+msgstr "इस्टोनिया"
+
+#: iptc/iptcorigin.cpp:169 xmp/xmporigin.cpp:160
+msgid "Ethiopia"
+msgstr "इथोपिया"
+
+#: iptc/iptcorigin.cpp:170 xmp/xmporigin.cpp:161
+#, fuzzy
+#| msgid "Cook Islands"
+msgid "Faeroe Islands"
+msgstr "कुक द्वीप"
+
+#: iptc/iptcorigin.cpp:171 xmp/xmporigin.cpp:162
+msgid "Falkland Islands"
+msgstr "फाकलैंड द्वीप"
+
+#: iptc/iptcorigin.cpp:172 xmp/xmporigin.cpp:163
+#, fuzzy
+#| msgid "US Virgin Islands"
+msgid "Fiji Islands"
+msgstr "US वर्जिन द्वीप"
+
+#: iptc/iptcorigin.cpp:173 xmp/xmporigin.cpp:164
+msgid "Finland"
+msgstr "फिनलैंड"
+
+#: iptc/iptcorigin.cpp:174 xmp/xmporigin.cpp:165
+msgid "France"
+msgstr "फ्रांस"
+
+#: iptc/iptcorigin.cpp:175 xmp/xmporigin.cpp:166
+msgid "French Guiana"
+msgstr "फ्रेंच गायना"
+
+#: iptc/iptcorigin.cpp:176 xmp/xmporigin.cpp:167
+msgid "French Polynesia"
+msgstr "फ्रेंच पोलीनेशिया"
+
+#: iptc/iptcorigin.cpp:177 xmp/xmporigin.cpp:168
+msgid "French Southern Territories"
+msgstr "फ्रेंच दक्षिण परिक्षेत्र"
+
+#: iptc/iptcorigin.cpp:178 xmp/xmporigin.cpp:169
+msgid "Gabon"
+msgstr "गैबन"
+
+#: iptc/iptcorigin.cpp:179 xmp/xmporigin.cpp:170
+msgid "Gambia"
+msgstr "गैंबिया"
+
+#: iptc/iptcorigin.cpp:180 xmp/xmporigin.cpp:171
+msgid "Georgia"
+msgstr "जार्जिया"
+
+#: iptc/iptcorigin.cpp:181 xmp/xmporigin.cpp:172
+msgid "Germany"
+msgstr "जर्मनी"
+
+#: iptc/iptcorigin.cpp:182 xmp/xmporigin.cpp:173
+msgid "Ghana"
+msgstr "घाना"
+
+#: iptc/iptcorigin.cpp:183 xmp/xmporigin.cpp:174
+msgid "Gibraltar"
+msgstr "जिब्राल्टर"
+
+#: iptc/iptcorigin.cpp:184 xmp/xmporigin.cpp:175
+msgid "Greece"
+msgstr "ग्रीस"
+
+#: iptc/iptcorigin.cpp:185 xmp/xmporigin.cpp:176
+msgid "Greenland"
+msgstr "ग्रीनलैंड"
+
+#: iptc/iptcorigin.cpp:186 xmp/xmporigin.cpp:177
+msgid "Grenada"
+msgstr "ग्रेनाडा"
+
+#: iptc/iptcorigin.cpp:187 xmp/xmporigin.cpp:178
+msgid "Guadaloupe"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:188 xmp/xmporigin.cpp:179
+msgid "Guam"
+msgstr "गुआम"
+
+#: iptc/iptcorigin.cpp:189 xmp/xmporigin.cpp:180
+msgid "Guatemala"
+msgstr "गुआटेमाला"
+
+#: iptc/iptcorigin.cpp:190 xmp/xmporigin.cpp:181
+msgid "Guinea"
+msgstr "गायना"
+
+#: iptc/iptcorigin.cpp:191 xmp/xmporigin.cpp:182
+msgid "Guinea-Bissau"
+msgstr "गाइना बिसाउ"
+
+#: iptc/iptcorigin.cpp:192 xmp/xmporigin.cpp:183
+msgid "Guyana"
+msgstr "गुयाना"
+
+#: iptc/iptcorigin.cpp:193 xmp/xmporigin.cpp:184
+msgid "Haiti"
+msgstr "हैती"
+
+#: iptc/iptcorigin.cpp:194 xmp/xmporigin.cpp:185
+msgid "Heard and McDonald Islands"
+msgstr "हर्ड आ मैकडोनाल्ड द्वीप"
+
+#: iptc/iptcorigin.cpp:195 xmp/xmporigin.cpp:186
+#, fuzzy
+#| msgid "Latvia"
+msgid "Vatican"
+msgstr "लातविया"
+
+#: iptc/iptcorigin.cpp:196 xmp/xmporigin.cpp:187
+msgid "Honduras"
+msgstr "होंडुरास"
+
+#: iptc/iptcorigin.cpp:197 xmp/xmporigin.cpp:188
+msgid "Hong Kong"
+msgstr "हांग कांग"
+
+#: iptc/iptcorigin.cpp:198 xmp/xmporigin.cpp:189
+msgid "Croatia"
+msgstr "क्रोशिया"
+
+#: iptc/iptcorigin.cpp:199 xmp/xmporigin.cpp:190
+msgid "Hungary"
+msgstr "हंगरी"
+
+#: iptc/iptcorigin.cpp:200 xmp/xmporigin.cpp:191
+msgid "Iceland"
+msgstr "आइसलैंड"
+
+#: iptc/iptcorigin.cpp:201 xmp/xmporigin.cpp:192
+msgid "India"
+msgstr "भारत"
+
+#: iptc/iptcorigin.cpp:202 xmp/xmporigin.cpp:193
+msgid "Indonesia"
+msgstr "इंडोनेशिया"
+
+#: iptc/iptcorigin.cpp:203 xmp/xmporigin.cpp:194
+msgid "Iran"
+msgstr "इरान"
+
+#: iptc/iptcorigin.cpp:204 xmp/xmporigin.cpp:195
+msgid "Iraq"
+msgstr "इराक"
+
+#: iptc/iptcorigin.cpp:205 xmp/xmporigin.cpp:196
+msgid "Ireland"
+msgstr "आयरलैंड"
+
+#: iptc/iptcorigin.cpp:206 xmp/xmporigin.cpp:197
+msgid "Israel"
+msgstr "इज़राइल"
+
+#: iptc/iptcorigin.cpp:207 xmp/xmporigin.cpp:198
+msgid "Italy"
+msgstr "इटली"
+
+#: iptc/iptcorigin.cpp:208 xmp/xmporigin.cpp:199
+msgid "Jamaica"
+msgstr "जमैका"
+
+#: iptc/iptcorigin.cpp:209 xmp/xmporigin.cpp:200
+msgid "Japan"
+msgstr "जापान"
+
+#: iptc/iptcorigin.cpp:210 xmp/xmporigin.cpp:201
+msgid "Jordan"
+msgstr "जोर्डन"
+
+#: iptc/iptcorigin.cpp:211 xmp/xmporigin.cpp:202
+msgid "Kazakhstan"
+msgstr "कजाखस्तान"
+
+#: iptc/iptcorigin.cpp:212 xmp/xmporigin.cpp:203
+msgid "Kenya"
+msgstr "कीनिया"
+
+#: iptc/iptcorigin.cpp:213 xmp/xmporigin.cpp:204
+msgid "Kiribati"
+msgstr "किरीबाती"
+
+#: iptc/iptcorigin.cpp:214 iptc/iptcorigin.cpp:215 xmp/xmporigin.cpp:205
+#: xmp/xmporigin.cpp:206
+#, fuzzy
+#| msgid "Forecast"
+msgid "Korea"
+msgstr "पूर्वानुमान"
+
+#: iptc/iptcorigin.cpp:216 xmp/xmporigin.cpp:207
+msgid "Kuwait"
+msgstr "कुवैत"
+
+#: iptc/iptcorigin.cpp:217 xmp/xmporigin.cpp:208
+#, fuzzy
+#| msgid "Czech Republic"
+msgid "Kyrgyz Republic"
+msgstr "चेक गणतंत्र"
+
+#: iptc/iptcorigin.cpp:218 xmp/xmporigin.cpp:209
+msgid "Lao"
+msgstr "लाओ"
+
+#: iptc/iptcorigin.cpp:219 xmp/xmporigin.cpp:210
+msgid "Latvia"
+msgstr "लातविया"
+
+#: iptc/iptcorigin.cpp:220 xmp/xmporigin.cpp:211
+msgid "Lebanon"
+msgstr "लेबनान"
+
+#: iptc/iptcorigin.cpp:221 xmp/xmporigin.cpp:212
+msgid "Lesotho"
+msgstr "लेसोथो"
+
+#: iptc/iptcorigin.cpp:222 xmp/xmporigin.cpp:213
+msgid "Liberia"
+msgstr "लाइबेरिया"
+
+#: iptc/iptcorigin.cpp:223 xmp/xmporigin.cpp:214
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:224 xmp/xmporigin.cpp:215
+msgid "Liechtenstein"
+msgstr "लिचेंस्टाइन"
+
+#: iptc/iptcorigin.cpp:225 xmp/xmporigin.cpp:216
+msgid "Lithuania"
+msgstr "लिथुआनिया"
+
+#: iptc/iptcorigin.cpp:226 xmp/xmporigin.cpp:217
+msgid "Luxembourg"
+msgstr "लक्समबर्ग"
+
+#: iptc/iptcorigin.cpp:227 xmp/xmporigin.cpp:218
+msgid "Macao"
+msgstr "मकाओ"
+
+#: iptc/iptcorigin.cpp:228 xmp/xmporigin.cpp:219
+msgid "Macedonia"
+msgstr "मेसीडोनिया"
+
+#: iptc/iptcorigin.cpp:229 xmp/xmporigin.cpp:220
+msgid "Madagascar"
+msgstr "मेडागास्कर"
+
+#: iptc/iptcorigin.cpp:230 xmp/xmporigin.cpp:221
+msgid "Malawi"
+msgstr "मलावी"
+
+#: iptc/iptcorigin.cpp:231 xmp/xmporigin.cpp:222
+msgid "Malaysia"
+msgstr "मलेशिया"
+
+#: iptc/iptcorigin.cpp:232 xmp/xmporigin.cpp:223
+msgid "Maldives"
+msgstr "मालदीव"
+
+#: iptc/iptcorigin.cpp:233 xmp/xmporigin.cpp:224
+msgid "Mali"
+msgstr "माली"
+
+#: iptc/iptcorigin.cpp:234 xmp/xmporigin.cpp:225
+msgid "Malta"
+msgstr "माल्टा"
+
+#: iptc/iptcorigin.cpp:235 xmp/xmporigin.cpp:226
+msgid "Marshall Islands"
+msgstr "मार्शल द्वीप"
+
+#: iptc/iptcorigin.cpp:236 xmp/xmporigin.cpp:227
+msgid "Martinique"
+msgstr "मार्टीनीक"
+
+#: iptc/iptcorigin.cpp:237 xmp/xmporigin.cpp:228
+msgid "Mauritania"
+msgstr "मारीटेनिया"
+
+#: iptc/iptcorigin.cpp:238 xmp/xmporigin.cpp:229
+msgid "Mauritius"
+msgstr "मॉरीशस"
+
+#: iptc/iptcorigin.cpp:239 xmp/xmporigin.cpp:230
+msgid "Mayotte"
+msgstr "मयोटे"
+
+#: iptc/iptcorigin.cpp:240 xmp/xmporigin.cpp:231
+msgid "Mexico"
+msgstr "मेक्सिको"
+
+#: iptc/iptcorigin.cpp:241 xmp/xmporigin.cpp:232
+msgid "Micronesia"
+msgstr "माइक्रोनेशिया"
+
+#: iptc/iptcorigin.cpp:242 xmp/xmporigin.cpp:233
+msgid "Moldova"
+msgstr "माल्डोवा"
+
+#: iptc/iptcorigin.cpp:243 xmp/xmporigin.cpp:234
+msgid "Monaco"
+msgstr "मोनाको"
+
+#: iptc/iptcorigin.cpp:244 xmp/xmporigin.cpp:235
+msgid "Mongolia"
+msgstr "मंगोलिया"
+
+#: iptc/iptcorigin.cpp:245 xmp/xmporigin.cpp:236
+msgid "Montserrat"
+msgstr "मोंट्सेराट"
+
+#: iptc/iptcorigin.cpp:246 xmp/xmporigin.cpp:237
+msgid "Morocco"
+msgstr "मोरोक्को"
+
+#: iptc/iptcorigin.cpp:247 xmp/xmporigin.cpp:238
+msgid "Mozambique"
+msgstr "मोजांबिक"
+
+#: iptc/iptcorigin.cpp:248 xmp/xmporigin.cpp:239
+msgid "Myanmar"
+msgstr "म्यानमार"
+
+#: iptc/iptcorigin.cpp:249 xmp/xmporigin.cpp:240
+msgid "Namibia"
+msgstr "नामीबिया"
+
+#: iptc/iptcorigin.cpp:250 xmp/xmporigin.cpp:241
+msgid "Nauru"
+msgstr "नौरू"
+
+#: iptc/iptcorigin.cpp:251 xmp/xmporigin.cpp:242
+msgid "Nepal"
+msgstr "नेपाल"
+
+#: iptc/iptcorigin.cpp:252 xmp/xmporigin.cpp:243
+msgid "Netherlands Antilles"
+msgstr "नीदरलैंड्स एंटीलेस"
+
+#: iptc/iptcorigin.cpp:253 xmp/xmporigin.cpp:244
+msgid "Netherlands"
+msgstr "नीदरलैंड्स"
+
+#: iptc/iptcorigin.cpp:254 xmp/xmporigin.cpp:245
+msgid "New Caledonia"
+msgstr "न्यू कैलिडोनिया"
+
+#: iptc/iptcorigin.cpp:255 xmp/xmporigin.cpp:246
+msgid "New Zealand"
+msgstr "न्यूजीलैंड"
+
+#: iptc/iptcorigin.cpp:256 xmp/xmporigin.cpp:247
+msgid "Nicaragua"
+msgstr "निकारागुआ"
+
+#: iptc/iptcorigin.cpp:257 xmp/xmporigin.cpp:248
+msgid "Niger"
+msgstr "नाइजर"
+
+#: iptc/iptcorigin.cpp:258 xmp/xmporigin.cpp:249
+msgid "Nigeria"
+msgstr "नाइजीरिया"
+
+#: iptc/iptcorigin.cpp:259 xmp/xmporigin.cpp:250
+msgid "Niue"
+msgstr "निवे"
+
+#: iptc/iptcorigin.cpp:260 xmp/xmporigin.cpp:251
+msgid "Norfolk Island"
+msgstr "नोरफोक द्वीप"
+
+#: iptc/iptcorigin.cpp:261 xmp/xmporigin.cpp:252
+msgid "Northern Mariana Islands"
+msgstr "उत्तरी मरियाना द्वीप"
+
+#: iptc/iptcorigin.cpp:262 xmp/xmporigin.cpp:253
+msgid "Norway"
+msgstr "नार्वे"
+
+#: iptc/iptcorigin.cpp:263 xmp/xmporigin.cpp:254
+msgid "Oman"
+msgstr "ओमान"
+
+#: iptc/iptcorigin.cpp:264 xmp/xmporigin.cpp:255
+msgid "Pakistan"
+msgstr "पाकिस्तान"
+
+#: iptc/iptcorigin.cpp:265 xmp/xmporigin.cpp:256
+msgid "Palau"
+msgstr "पलाउ"
+
+#: iptc/iptcorigin.cpp:266 xmp/xmporigin.cpp:257
+msgid "Palestinian Territory"
+msgstr "फिलीस्तीनी क्षेत्र"
+
+#: iptc/iptcorigin.cpp:267 xmp/xmporigin.cpp:258
+msgid "Panama"
+msgstr "पनामा"
+
+#: iptc/iptcorigin.cpp:268 xmp/xmporigin.cpp:259
+msgid "Papua New Guinea"
+msgstr "पापुआ न्यू गिनी"
+
+#: iptc/iptcorigin.cpp:269 xmp/xmporigin.cpp:260
+msgid "Paraguay"
+msgstr "पराग्वे"
+
+#: iptc/iptcorigin.cpp:270 xmp/xmporigin.cpp:261
+msgid "Peru"
+msgstr "पेरू"
+
+#: iptc/iptcorigin.cpp:271 xmp/xmporigin.cpp:262
+msgid "Philippines"
+msgstr "फिलीपीन"
+
+#: iptc/iptcorigin.cpp:272 xmp/xmporigin.cpp:263
+#, fuzzy
+#| msgid "British Virgin Islands"
+msgid "Pitcairn Island"
+msgstr "ब्रिटिश वर्जिन द्वीप"
+
+#: iptc/iptcorigin.cpp:273 xmp/xmporigin.cpp:264
+msgid "Poland"
+msgstr "पोलेंड"
+
+#: iptc/iptcorigin.cpp:274 xmp/xmporigin.cpp:265
+msgid "Portugal"
+msgstr "पुर्तगाल"
+
+#: iptc/iptcorigin.cpp:275 xmp/xmporigin.cpp:266
+msgid "Puerto Rico"
+msgstr "प्यूरिटो रिको"
+
+#: iptc/iptcorigin.cpp:276 xmp/xmporigin.cpp:267
+msgid "Qatar"
+msgstr "कातार"
+
+#: iptc/iptcorigin.cpp:277 xmp/xmporigin.cpp:268
+msgid "Reunion"
+msgstr "रीयूनियन"
+
+#: iptc/iptcorigin.cpp:278 xmp/xmporigin.cpp:269
+msgid "Romania"
+msgstr "रोमानिया"
+
+#: iptc/iptcorigin.cpp:279 xmp/xmporigin.cpp:270
+msgid "Russian Federation"
+msgstr "रूस परिसंघ"
+
+#: iptc/iptcorigin.cpp:280 xmp/xmporigin.cpp:271
+msgid "Rwanda"
+msgstr "रवांडा"
+
+#: iptc/iptcorigin.cpp:281 xmp/xmporigin.cpp:272
+msgid "St. Helena"
+msgstr "सेंट हेलेना"
+
+#: iptc/iptcorigin.cpp:282 xmp/xmporigin.cpp:273
+msgid "St. Kitts and Nevis"
+msgstr "सेंट किट्स आओर नेविस"
+
+#: iptc/iptcorigin.cpp:283 xmp/xmporigin.cpp:274
+msgid "St. Lucia"
+msgstr "सेंट लूसिया"
+
+#: iptc/iptcorigin.cpp:284 xmp/xmporigin.cpp:275
+msgid "St. Pierre and Miquelon"
+msgstr "सेंट पियरे आ मिकेलन"
+
+#: iptc/iptcorigin.cpp:285 xmp/xmporigin.cpp:276
+msgid "St. Vincent and the Grenadines"
+msgstr "सेंट विंसेंट आओर ग्रेनेडाइन्स"
+
+#: iptc/iptcorigin.cpp:286 xmp/xmporigin.cpp:277
+msgid "Samoa"
+msgstr "समोआ"
+
+#: iptc/iptcorigin.cpp:287 xmp/xmporigin.cpp:278
+msgid "San Marino"
+msgstr "सैन मेरिनो"
+
+#: iptc/iptcorigin.cpp:288 xmp/xmporigin.cpp:279
+msgid "Sao Tome and Principe"
+msgstr "साओ टोम आओर प्रिन्साइप"
+
+#: iptc/iptcorigin.cpp:289 xmp/xmporigin.cpp:280
+msgid "Saudi Arabia"
+msgstr "सऊदी अरब"
+
+#: iptc/iptcorigin.cpp:290 xmp/xmporigin.cpp:281
+msgid "Senegal"
+msgstr "सेनेगल"
+
+#: iptc/iptcorigin.cpp:291 xmp/xmporigin.cpp:282
+msgid "Serbia and Montenegro"
+msgstr "सर्बीया आओर मोन्टेनेग्रो"
+
+#: iptc/iptcorigin.cpp:292 xmp/xmporigin.cpp:283
+msgid "Seychelles"
+msgstr "सिचेलीस"
+
+#: iptc/iptcorigin.cpp:293 xmp/xmporigin.cpp:284
+msgid "Sierra Leone"
+msgstr "सियरा लियोन"
+
+#: iptc/iptcorigin.cpp:294 xmp/xmporigin.cpp:285
+msgid "Singapore"
+msgstr "सिंगापुर"
+
+#: iptc/iptcorigin.cpp:295 xmp/xmporigin.cpp:286
+msgid "Slovakia"
+msgstr "स्लोवाकिया"
+
+#: iptc/iptcorigin.cpp:296 xmp/xmporigin.cpp:287
+msgid "Slovenia"
+msgstr "स्लोवेनिया"
+
+#: iptc/iptcorigin.cpp:297 xmp/xmporigin.cpp:288
+msgid "Solomon Islands"
+msgstr "सोलोमन द्वीप"
+
+#: iptc/iptcorigin.cpp:298 xmp/xmporigin.cpp:289
+msgid "Somalia"
+msgstr "सोमालिया"
+
+#: iptc/iptcorigin.cpp:299 xmp/xmporigin.cpp:290
+msgid "South Africa"
+msgstr "दक्षिण अफ्रीका"
+
+#: iptc/iptcorigin.cpp:300 xmp/xmporigin.cpp:291
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "दक्षिण जार्जिया आओर दक्षिण सैंडविच द्वीप"
+
+#: iptc/iptcorigin.cpp:301 xmp/xmporigin.cpp:292
+msgid "Spain"
+msgstr "स्पेन"
+
+#: iptc/iptcorigin.cpp:302 xmp/xmporigin.cpp:293
+msgid "Sri Lanka"
+msgstr "श्रीलंका"
+
+#: iptc/iptcorigin.cpp:303 xmp/xmporigin.cpp:294
+msgid "Sudan"
+msgstr "सूडान"
+
+#: iptc/iptcorigin.cpp:304 xmp/xmporigin.cpp:295
+msgid "Suriname"
+msgstr "सुरीनाम"
+
+#: iptc/iptcorigin.cpp:305 xmp/xmporigin.cpp:296
+#, fuzzy
+#| msgid "Heard and McDonald Islands"
+msgid "Svalbard & Jan Mayen Islands"
+msgstr "हर्ड आ मैकडोनाल्ड द्वीप"
+
+#: iptc/iptcorigin.cpp:306 xmp/xmporigin.cpp:297
+msgid "Swaziland"
+msgstr "स्वाजीलैंड"
+
+#: iptc/iptcorigin.cpp:307 xmp/xmporigin.cpp:298
+msgid "Sweden"
+msgstr "स्वीडन"
+
+#: iptc/iptcorigin.cpp:308 xmp/xmporigin.cpp:299
+msgid "Switzerland"
+msgstr "स्विट्जरलैंड"
+
+#: iptc/iptcorigin.cpp:309 xmp/xmporigin.cpp:300
+#, fuzzy
+#| msgid "Central African Republic"
+msgid "Syrian Arab Republic"
+msgstr "केंद्रीय अफ्रीकी गणतंत्र"
+
+#: iptc/iptcorigin.cpp:310 xmp/xmporigin.cpp:301
+msgid "Taiwan"
+msgstr "ताइवान"
+
+#: iptc/iptcorigin.cpp:311 xmp/xmporigin.cpp:302
+msgid "Tajikistan"
+msgstr "ताजीकिस्तान"
+
+#: iptc/iptcorigin.cpp:312 xmp/xmporigin.cpp:303
+msgid "Tanzania"
+msgstr "तान्झानीया"
+
+#: iptc/iptcorigin.cpp:313 xmp/xmporigin.cpp:304
+msgid "Thailand"
+msgstr "थाइलैंड"
+
+#: iptc/iptcorigin.cpp:314 xmp/xmporigin.cpp:305
+msgid "Timor-Leste"
+msgstr "तिमोर-लेस्टे"
+
+#: iptc/iptcorigin.cpp:315 xmp/xmporigin.cpp:306
+msgid "Togo"
+msgstr "टोगो"
+
+#: iptc/iptcorigin.cpp:316 xmp/xmporigin.cpp:307
+#, fuzzy
+#| msgid "Cook Islands"
+msgid "Tokelau Islands"
+msgstr "कुक द्वीप"
+
+#: iptc/iptcorigin.cpp:317 xmp/xmporigin.cpp:308
+msgid "Tonga"
+msgstr "टोन्गा"
+
+#: iptc/iptcorigin.cpp:318 xmp/xmporigin.cpp:309
+msgid "Trinidad and Tobago"
+msgstr "ट्रिनिदाद आओर टोबेगो"
+
+#: iptc/iptcorigin.cpp:319 xmp/xmporigin.cpp:310
+msgid "Tunisia"
+msgstr "ट्यूनीशिया"
+
+#: iptc/iptcorigin.cpp:320 xmp/xmporigin.cpp:311
+msgid "Turkey"
+msgstr "तुर्की"
+
+#: iptc/iptcorigin.cpp:321 xmp/xmporigin.cpp:312
+msgid "Turkmenistan"
+msgstr "तुर्कमेनिस्तान"
+
+#: iptc/iptcorigin.cpp:322 xmp/xmporigin.cpp:313
+msgid "Turks and Caicos Islands"
+msgstr "तुर्क्स आओर केईकोस द्वीपओ"
+
+#: iptc/iptcorigin.cpp:323 xmp/xmporigin.cpp:314
+msgid "Tuvalu"
+msgstr "तुवालू"
+
+#: iptc/iptcorigin.cpp:324 xmp/xmporigin.cpp:315
+msgid "US Virgin Islands"
+msgstr "US वर्जिन द्वीप"
+
+#: iptc/iptcorigin.cpp:325 xmp/xmporigin.cpp:316
+msgid "Uganda"
+msgstr "यूगांडा"
+
+#: iptc/iptcorigin.cpp:326 xmp/xmporigin.cpp:317
+msgid "Ukraine"
+msgstr "उक्रेन"
+
+#: iptc/iptcorigin.cpp:327 xmp/xmporigin.cpp:318
+msgid "United Arab Emirates"
+msgstr "संयुक्त अरब अमीरात"
+
+#: iptc/iptcorigin.cpp:328 xmp/xmporigin.cpp:319
+msgid "United Kingdom"
+msgstr "यूनाइटेड किंगडम"
+
+#: iptc/iptcorigin.cpp:329 xmp/xmporigin.cpp:320
+msgid "United States Minor Outlying Islands"
+msgstr "युनाइटेड स्टेट्स माइनर आउटलेइंग द्वीप"
+
+#: iptc/iptcorigin.cpp:330 xmp/xmporigin.cpp:321
+msgid "United States of America"
+msgstr "युनाइटेड स्टेट आफ अमेरिका"
+
+#: iptc/iptcorigin.cpp:331 xmp/xmporigin.cpp:322
+msgid "Uruguay, Eastern Republic of"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:332 xmp/xmporigin.cpp:323
+msgid "Uzbekistan"
+msgstr "उजबेकिस्तान"
+
+#: iptc/iptcorigin.cpp:333 xmp/xmporigin.cpp:324
+msgid "Vanuatu"
+msgstr "वैनुआटु"
+
+#: iptc/iptcorigin.cpp:334 xmp/xmporigin.cpp:325
+msgid "Venezuela"
+msgstr "वेनेजुएला"
+
+#: iptc/iptcorigin.cpp:335 xmp/xmporigin.cpp:326
+msgid "Viet Nam"
+msgstr "वियतनाम"
+
+#: iptc/iptcorigin.cpp:336 xmp/xmporigin.cpp:327
+#, fuzzy
+#| msgid "Falkland Islands"
+msgid "Wallis and Futuna Islands "
+msgstr "फाकलैंड द्वीप"
+
+#: iptc/iptcorigin.cpp:337 xmp/xmporigin.cpp:328
+msgid "Western Sahara"
+msgstr "पश्चिम सहारा"
+
+#: iptc/iptcorigin.cpp:338 xmp/xmporigin.cpp:329
+msgid "Yemen"
+msgstr "यमन"
+
+#: iptc/iptcorigin.cpp:339 xmp/xmporigin.cpp:330
+msgid "Zambia"
+msgstr "जांबिया"
+
+#: iptc/iptcorigin.cpp:340 xmp/xmporigin.cpp:331
+msgid "Zimbabwe"
+msgstr "जिंबाब्वे"
+
+#: iptc/iptcorigin.cpp:344 xmp/xmporigin.cpp:335
+#, fuzzy
+#| msgid "United Kingdom"
+msgid "United Nations"
+msgstr "यूनाइटेड किंगडम"
+
+#: iptc/iptcorigin.cpp:345 xmp/xmporigin.cpp:336
+msgid "European Union"
+msgstr "यूरोपियन यूनियन"
+
+#: iptc/iptcorigin.cpp:346 xmp/xmporigin.cpp:337
+msgid "Space"
+msgstr "अंतरिक्ष"
+
+#: iptc/iptcorigin.cpp:347 xmp/xmporigin.cpp:338
+msgid "At Sea"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:348 xmp/xmporigin.cpp:339
+msgid "In Flight"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:349 xmp/xmporigin.cpp:340
+#, fuzzy
+#| msgid "Finland"
+msgid "England"
+msgstr "फिनलैंड"
+
+#: iptc/iptcorigin.cpp:350 xmp/xmporigin.cpp:341
+msgid "Scotland"
+msgstr "स्काटलैंड"
+
+#: iptc/iptcorigin.cpp:351 xmp/xmporigin.cpp:342
+msgid "Northern Ireland"
+msgstr "उत्तरी आयरलैंड"
+
+#: iptc/iptcorigin.cpp:352 xmp/xmporigin.cpp:343
+msgid "Wales"
+msgstr "वेल्स"
+
+#: iptc/iptcorigin.cpp:353 xmp/xmporigin.cpp:344
+msgid "Palestine"
+msgstr "पेलेस्टाइन"
+
+#: iptc/iptcorigin.cpp:354 xmp/xmporigin.cpp:345
+#, fuzzy
+#| msgid "Ghana"
+msgid "Gaza"
+msgstr "घाना"
+
+#: iptc/iptcorigin.cpp:355 xmp/xmporigin.cpp:346
+#, fuzzy
+#| msgid "Mexico"
+msgid "Jericho"
+msgstr "मेक्सिको"
+
+#: iptc/iptcorigin.cpp:403 xmp/xmporigin.cpp:383
+msgid "Digitization date"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:404
+msgid "Digitization time"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:410 xmp/xmporigin.cpp:388 exif/exifdatetime.cpp:163
+msgid "Set digitization date to today"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:412 xmp/xmporigin.cpp:390
+msgid "Set here the creation date of digital representation."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:414
+msgid "Set here the creation time of digital representation."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:421 xmp/xmporigin.cpp:397
+#, fuzzy
+#| msgid "Croatia"
+msgid "Creation date"
+msgstr "क्रोशिया"
+
+#: iptc/iptcorigin.cpp:422
+msgid "Creation time"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:425 xmp/xmporigin.cpp:399 exif/exifdatetime.cpp:115
+#, kde-format
+msgid "Sync creation date hosted by %1"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:428 xmp/xmporigin.cpp:402
+msgid "Sync EXIF creation date"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:432 xmp/xmporigin.cpp:406 exif/exifdatetime.cpp:123
+msgid "Set creation date to today"
+msgstr ""
+
+#: iptc/iptcorigin.cpp:434 xmp/xmporigin.cpp:408
+msgid "Set here the creation date of intellectual content."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:436
+msgid "Set here the creation time of intellectual content."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:443
+msgid "Location:"
+msgstr "स्थानः"
+
+#: iptc/iptcorigin.cpp:444
+msgid "Set here the full country name referenced by the content."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:455 xmp/xmporigin.cpp:415 xmp/xmpcredits.cpp:153
+msgid "City:"
+msgstr "शहर:"
+
+#: iptc/iptcorigin.cpp:460
+msgid ""
+"Set here the city of content origin. This field is limited to 32 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:465 xmp/xmporigin.cpp:422
+#, fuzzy
+#| msgid "Location:"
+msgid "Sublocation:"
+msgstr "स्थानः"
+
+#: iptc/iptcorigin.cpp:470
+msgid ""
+"Set here the content location within city. This field is limited to 32 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:475 xmp/xmporigin.cpp:429
+msgid "State/Province:"
+msgstr "राज्य/प्रदेश:"
+
+#: iptc/iptcorigin.cpp:480
+msgid ""
+"Set here the Province or State of content origin. This field is limited to "
+"32 ASCII characters."
+msgstr ""
+
+#: iptc/iptcorigin.cpp:485 xmp/xmporigin.cpp:436 xmp/xmpcredits.cpp:158
+msgid "Country:"
+msgstr "देश:"
+
+#: iptc/iptcorigin.cpp:493
+msgid "Select here country name of content origin."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:135
+msgid "Release date"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:136
+msgid "Release time"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:142
+msgid "Set release date to today"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:144
+msgid "Set here the earliest intended usable date of intellectual content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:146
+msgid "Set here the earliest intended usable time of intellectual content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:152
+msgid "Expiration date"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:153
+msgid "Expiration time"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:159
+msgid "Set expiration date to today"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:161
+msgid "Set here the latest intended usable date of intellectual content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:163
+msgid "Set here the latest intended usable time of intellectual content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:170 xmp/xmpproperties.cpp:174
+#: common/altlangstringedit.cpp:312
+msgid "Language:"
+msgstr "भाषा:"
+
+#: iptc/iptcproperties.cpp:182 xmp/xmpproperties.cpp:175
+msgid "Select here the language of content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:186 iptc/iptcenvelope.cpp:223
+#: xmp/xmpproperties.cpp:186
+msgid "Priority:"
+msgstr "प्राथमिकता:"
+
+#: iptc/iptcproperties.cpp:188 xmp/xmpproperties.cpp:188
+#, fuzzy
+#| msgid "None"
+msgctxt "editorial urgency of content"
+msgid "0: None"
+msgstr "किछु नहि"
+
+#: iptc/iptcproperties.cpp:189 xmp/xmpproperties.cpp:189
+#, fuzzy
+#| msgid "High"
+msgctxt "editorial urgency of content"
+msgid "1: High"
+msgstr "बेसी"
+
+#: iptc/iptcproperties.cpp:193 xmp/xmpproperties.cpp:193
+#, fuzzy
+#| msgid "Normal"
+msgctxt "editorial urgency of content"
+msgid "5: Normal"
+msgstr "सामान्य"
+
+#: iptc/iptcproperties.cpp:196 xmp/xmpproperties.cpp:196
+#, fuzzy
+#| msgid "Low"
+msgctxt "editorial urgency of content"
+msgid "8: Low"
+msgstr "कम"
+
+#: iptc/iptcproperties.cpp:197 xmp/xmpproperties.cpp:197
+msgid "Select here the editorial urgency of content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:201
+msgid "Cycle:"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:203
+msgid "Morning"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:204
+msgid "Afternoon"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:205
+#, fuzzy
+#| msgid "Benin"
+msgid "Evening"
+msgstr "बेनिन"
+
+#: iptc/iptcproperties.cpp:206
+msgid "Select here the editorial cycle of content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:210 xmp/xmpproperties.cpp:213
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: iptc/iptcproperties.cpp:216 xmp/xmpproperties.cpp:117
+msgid "News"
+msgstr "समाचार"
+
+#: iptc/iptcproperties.cpp:217 xmp/xmpproperties.cpp:113
+msgid "Data"
+msgstr "आँकड़ा"
+
+#: iptc/iptcproperties.cpp:218 xmp/xmpproperties.cpp:110
+#, fuzzy
+#| msgid "History"
+msgid "Advisory"
+msgstr "इतिहास"
+
+#: iptc/iptcproperties.cpp:219
+msgid "Select here the editorial type of content."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:220
+msgid ""
+"Set here the editorial type description of content. This field is limited to "
+"64 ASCII characters."
+msgstr ""
+
+#: iptc/iptcproperties.cpp:229 xmp/xmpproperties.cpp:257
+msgid "Reference:"
+msgstr ""
+
+#: iptc/iptcproperties.cpp:234
+msgid ""
+"Set here the original content transmission reference. This field is limited "
+"to 32 ASCII characters."
+msgstr ""
+
+#: iptc/iptccredits.cpp:99 xmp/xmpcontent.cpp:124
+msgid "Copyright:"
+msgstr "कॉपीराइट:"
+
+#: iptc/iptccredits.cpp:104
+msgid ""
+"Set here the necessary copyright notice. This field is limited to 128 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptccredits.cpp:109 xmp/xmpcredits.cpp:113
+#, fuzzy
+#| msgid "Belize"
+msgid "Byline:"
+msgstr "बेलाइज"
+
+#: iptc/iptccredits.cpp:110 xmp/xmpcredits.cpp:114
+msgid "Set here the name of content creator."
+msgstr ""
+
+#: iptc/iptccredits.cpp:115 xmp/xmpcredits.cpp:118
+#, fuzzy
+#| msgid "Title:"
+msgid "Byline Title:"
+msgstr "शीर्षक:"
+
+#: iptc/iptccredits.cpp:116 xmp/xmpcredits.cpp:121
+msgid "Set here the title of content creator."
+msgstr ""
+
+#: iptc/iptccredits.cpp:121 xmp/xmpcredits.cpp:183
+#, fuzzy
+#| msgid "Credits"
+msgid "Credit:"
+msgstr "श्रेय"
+
+#: iptc/iptccredits.cpp:126
+msgid ""
+"Set here the content provider. This field is limited to 32 ASCII characters."
+msgstr ""
+
+#: iptc/iptccredits.cpp:131 xmp/xmpcredits.cpp:190
+#, fuzzy
+#| msgid "Source:"
+msgctxt "original owner of content"
+msgid "Source:"
+msgstr "श्रोत:"
+
+#: iptc/iptccredits.cpp:136
+msgid ""
+"Set here the original owner of content. This field is limited to 32 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptccredits.cpp:141
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact:"
+msgstr "संपर्क"
+
+#: iptc/iptccredits.cpp:142
+msgid "Set here the person or organisation to contact."
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:153 xmp/xmpeditdialog.cpp:149
+#: exif/exifeditdialog.cpp:143
+msgid "Next"
+msgstr "अगिला"
+
+#: iptc/iptceditdialog.cpp:154 xmp/xmpeditdialog.cpp:150
+#: exif/exifeditdialog.cpp:144
+msgid "Previous"
+msgstr "पछिला"
+
+#: iptc/iptceditdialog.cpp:161 xmp/xmpeditdialog.cpp:157
+msgid "Content"
+msgstr "विषय"
+
+#: iptc/iptceditdialog.cpp:162 xmp/xmpeditdialog.cpp:158
+msgid ""
+"<qt>Content Information<br/><i>Use this panel to describe the visual content "
+"of the image</i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:167 xmp/xmpeditdialog.cpp:163
+msgid "Origin"
+msgstr "मूल"
+
+#: iptc/iptceditdialog.cpp:168 xmp/xmpeditdialog.cpp:164
+msgid ""
+"<qt>Origin Information<br/><i>Use this panel for formal descriptive "
+"information about the image</i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:173 xmp/xmpeditdialog.cpp:169
+msgid "Credits"
+msgstr "श्रेय"
+
+#: iptc/iptceditdialog.cpp:174 xmp/xmpeditdialog.cpp:170
+msgid ""
+"<qt>Credit Information<br/><i>Use this panel to record copyright information "
+"about the image</i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:179 xmp/xmpeditdialog.cpp:175
+msgid "Subjects"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:180 xmp/xmpeditdialog.cpp:176
+msgid ""
+"<qt>Subject Information<br/><i>Use this panel to record subject information "
+"about the image</i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:185 xmp/xmpeditdialog.cpp:181
+msgid "Keywords"
+msgstr "बीजशब्द"
+
+#: iptc/iptceditdialog.cpp:186 xmp/xmpeditdialog.cpp:182
+msgid ""
+"<qt>Keyword Information<br/><i>Use this panel to record keywords relevant to "
+"the image</i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:191 xmp/xmpeditdialog.cpp:187
+msgid "Categories"
+msgstr "श्रेणिसभ"
+
+#: iptc/iptceditdialog.cpp:192 xmp/xmpeditdialog.cpp:188
+msgid ""
+"<qt>Category Information<br/><i>Use this panel to record categories relevant "
+"to the image</i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:197 xmp/xmpeditdialog.cpp:193
+msgid "Status"
+msgstr "स्थिति"
+
+#: iptc/iptceditdialog.cpp:198 xmp/xmpeditdialog.cpp:194
+msgid ""
+"<qt>Status Information<br/><i>Use this panel to record workflow information</"
+"i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:203 xmp/xmpeditdialog.cpp:199
+msgid "Properties"
+msgstr "गुण"
+
+#: iptc/iptceditdialog.cpp:204 xmp/xmpeditdialog.cpp:200
+msgid ""
+"<qt>Status Properties<br/><i>Use this panel to record workflow properties</"
+"i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:209
+msgid "Envelope"
+msgstr "लिफाफ"
+
+#: iptc/iptceditdialog.cpp:210
+msgid ""
+"<qt>Envelope Information<br/><i>Use this panel to record editorial details</"
+"i></qt>"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:217 comment/commentremovedialog.cpp:96
+#: comment/commenteditdialog.cpp:97 xmp/xmpeditdialog.cpp:207
+#: exif/exifeditdialog.cpp:183
+#, fuzzy
+#| msgid "Metadata"
+msgid "Edit Metadata"
+msgstr "मेटाडाटा"
+
+#: iptc/iptceditdialog.cpp:220 comment/commentremovedialog.cpp:99
+#: comment/commenteditdialog.cpp:100 xmp/xmpeditdialog.cpp:210
+#: exif/exifeditdialog.cpp:186
+msgid "A Plugin to edit pictures' metadata."
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:221 comment/commentremovedialog.cpp:100
+#: comment/commenteditdialog.cpp:101 exif/exifeditdialog.cpp:187
+msgid "(c) 2006-2010, Gilles Caulier"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:223 comment/commentremovedialog.cpp:102
+#: comment/commenteditdialog.cpp:103 xmp/xmpeditdialog.cpp:213
+#: exif/exifeditdialog.cpp:189
+msgid "Gilles Caulier"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:223 comment/commentremovedialog.cpp:102
+#: comment/commenteditdialog.cpp:103 xmp/xmpeditdialog.cpp:213
+#: exif/exifeditdialog.cpp:189
+msgid "Author and Maintainer"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:231 comment/commentremovedialog.cpp:110
+#: comment/commenteditdialog.cpp:111 xmp/xmpeditdialog.cpp:221
+#: exif/exifeditdialog.cpp:197
+msgid "Handbook"
+msgstr ""
+
+#: iptc/iptceditdialog.cpp:380
+#, fuzzy
+#| msgid "Metadata"
+msgid "Edit IPTC Metadata"
+msgstr "मेटाडाटा"
+
+#: iptc/iptceditdialog.cpp:381 xmp/xmpeditdialog.cpp:372
+#: exif/exifeditdialog.cpp:335
+msgid "(read only)"
+msgstr ""
+
+#: iptc/iptckeywords.cpp:88 xmp/xmpkeywords.cpp:82
+msgid "Use information retrieval words:"
+msgstr ""
+
+#: iptc/iptckeywords.cpp:94
+msgid "Enter here a new keyword. This field is limited to 64 ASCII characters."
+msgstr ""
+
+#: iptc/iptccontent.cpp:97 xmp/xmpcontent.cpp:92
+msgid "Headline:"
+msgstr ""
+
+#: iptc/iptccontent.cpp:102
+msgid ""
+"Enter here the content synopsis. This field is limited to 256 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptccontent.cpp:107 xmp/xmpcontent.cpp:99
+#, fuzzy
+#| msgid "Caption"
+msgctxt "content description"
+msgid "Caption:"
+msgstr "अनुशीर्षक"
+
+#: iptc/iptccontent.cpp:109 comment/commenteditdialog.cpp:132
+#: xmp/xmpcontent.cpp:105 exif/exifcaption.cpp:152
+msgid "Sync JFIF Comment section"
+msgstr ""
+
+#: iptc/iptccontent.cpp:110 xmp/xmpcontent.cpp:106
+#, kde-format
+msgid "Sync caption entered through %1"
+msgstr ""
+
+#: iptc/iptccontent.cpp:113 comment/commenteditdialog.cpp:133
+#: xmp/xmpcontent.cpp:109
+msgid "Sync EXIF Comment"
+msgstr ""
+
+#: iptc/iptccontent.cpp:117
+msgid ""
+"Enter the content description. This field is limited to 2000 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptccontent.cpp:122 xmp/xmpcontent.cpp:119
+#, fuzzy
+#| msgid "Caption"
+msgid "Caption Writer:"
+msgstr "अनुशीर्षक"
+
+#: iptc/iptccontent.cpp:123 xmp/xmpcontent.cpp:122
+msgid "Enter the name of the caption author."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:91
+msgid "No ObjectData"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:92
+msgid "IPTC-NAA Digital Newsphoto Parameter Record (version 1)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:93
+msgid "IPTC-NAA Digital Newsphoto Parameter Record (version 2)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:94
+msgid "IPTC-NAA Digital Newsphoto Parameter Record (version 3)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:95
+msgid "IPTC-NAA Digital Newsphoto Parameter Record (version 4)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:96
+msgid "IPTC7901 Recommended Message Format"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:97
+msgid "Tagged Image File Format (version 5.0)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:98
+msgid "Tagged Image File Format (version 6.0)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:99
+msgid "Illustrator"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:100
+#, fuzzy
+#| msgid "Single"
+msgid "AppleSingle"
+msgstr "असगर"
+
+#: iptc/iptcenvelope.cpp:101
+msgid "NAA 89-3 (ANPA 1312)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:102
+msgid "MacBinary II"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:103
+msgid "IPTC Unstructured Character Oriented File Format"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:104
+msgid "United Press International ANPA 1312 variant"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:105
+msgid "United Press International Down-Load Message"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:106
+msgid "JPEG File Interchange"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:107
+msgid "Photo-CD Image-Pac"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:108
+msgid "Microsoft Bit Mapped Graphics File [*.BMP]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:109
+msgid "Digital Audio File [*.WAV]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:110
+msgid "Audio plus Moving Video [*.AVI]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:111
+msgid "PC DOS/Windows Executable Files [*.COM][*.EXE]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:112
+msgid "Compressed Binary File [*.ZIP]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:113
+msgid "Audio Interchange File Format AIFF"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:114
+msgid "RIFF Wave (Microsoft Corporation)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:115
+msgid "Freehand (version 3.1)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:116
+msgid "Freehand (version 4.0)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:117
+msgid "Freehand (version 5.0)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:118
+msgid "Freehand (version 5.5)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:119
+msgid "Hypertext Markup Language \"HTML\""
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:120
+msgid "MPEG 2 Audio Layer 2 (Musicom), ISO/IEC"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:121
+msgid "MPEG 2 Audio Layer 3, ISO/IEC"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:122
+msgid "Portable Document File [*.PDF] Adobe"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:123
+msgid "News Industry Text Format"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:124
+msgid "Tape Archive [*.TAR]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:125
+msgid "Tidningarnas Telegrambyra NITF version (TTNITF DTD)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:126
+msgid "Ritzaus Bureau NITF version (RBNITF DTD)"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:127
+msgid "Corel Draw [*.CDR]"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:174
+msgid "Destination:"
+msgstr "गंतव्य:"
+
+#: iptc/iptcenvelope.cpp:178
+msgid ""
+"Enter the envelope destination. This field is limited to 1024 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:183
+msgid "U.N.O ID:"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:188
+msgid ""
+"Set here the Unique Name of Object identifier. This field is limited to 80 "
+"ASCII characters."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:193
+msgid "Product ID:"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:198
+msgid ""
+"Set here the product identifier. This field is limited to 32 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:203
+#, fuzzy
+#| msgid "State/Province:"
+msgid "Service ID:"
+msgstr "राज्य/प्रदेश:"
+
+#: iptc/iptcenvelope.cpp:208
+msgid ""
+"Set here the service identifier. This field is limited to 10 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:213
+#, fuzzy
+#| msgid "Envelope"
+msgid "Envelope ID:"
+msgstr "लिफाफ"
+
+#: iptc/iptcenvelope.cpp:218
+msgid ""
+"Set here the envelope identifier. This field is limited to 8 ASCII "
+"characters."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:225
+#, fuzzy
+#| msgid "None"
+msgctxt "priority for the envelope"
+msgid "0: None"
+msgstr "किछु नहि"
+
+#: iptc/iptcenvelope.cpp:226
+#, fuzzy
+#| msgid "High"
+msgctxt "priority for the envelope"
+msgid "1: High"
+msgstr "बेसी"
+
+#: iptc/iptcenvelope.cpp:230
+#, fuzzy
+#| msgid "Normal"
+msgctxt "priority for the envelope"
+msgid "5: Normal"
+msgstr "सामान्य"
+
+#: iptc/iptcenvelope.cpp:233
+#, fuzzy
+#| msgid "Low"
+msgctxt "priority for the envelope"
+msgid "8: Low"
+msgstr "कम"
+
+#: iptc/iptcenvelope.cpp:234
+msgid "Select here the envelope priority."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:238
+msgid "Format:"
+msgstr "प्रारूप:"
+
+#: iptc/iptcenvelope.cpp:250
+msgid "Select here envelope file format."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:254
+msgid "Sent date:"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:255
+msgid "Sent time:"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:261
+msgid "Set envelope sent date to today"
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:263
+msgid "Set here the date when the service sent the material."
+msgstr ""
+
+#: iptc/iptcenvelope.cpp:264
+msgid "Set here the time when the service sent the material."
+msgstr ""
+
+#: comment/commentremovedialog.cpp:90 plugin_metadataedit.cpp:847
+msgid "Remove Image Caption"
+msgstr ""
+
+#: comment/commentremovedialog.cpp:121
+#, kde-format
+msgid "Remove caption hosted by %1"
+msgstr ""
+
+#: comment/commentremovedialog.cpp:124
+msgid "Remove JFIF Comment section"
+msgstr ""
+
+#: comment/commentremovedialog.cpp:125
+msgid "Remove EXIF Comment"
+msgstr ""
+
+#: comment/commentremovedialog.cpp:126
+msgid "Remove XMP Caption"
+msgstr ""
+
+#: comment/commentremovedialog.cpp:127
+msgid "Remove IPTC Caption"
+msgstr ""
+
+#: comment/commentremovedialog.cpp:132
+msgid ""
+"<b>Note: Captions from currently selected images will be permanently removed."
+"</b>"
+msgstr ""
+
+#: comment/commenteditdialog.cpp:91 plugin_metadataedit.cpp:766
+msgid "Edit Image Caption"
+msgstr ""
+
+#: comment/commenteditdialog.cpp:122
+#, kde-format
+msgid ""
+"Enter the image caption entered through <b>%1</b>. This field is not limited "
+"(excepted with IPTC). UTF-8 encoding will be used to save text."
+msgstr ""
+
+#: comment/commenteditdialog.cpp:134
+#, fuzzy
+#| msgid "Caption"
+msgid "Sync XMP Caption"
+msgstr "अनुशीर्षक"
+
+#: comment/commenteditdialog.cpp:135 exif/exifcaption.cpp:154
+msgid "Sync IPTC caption (warning: limited to 2000 printable Ascii characters)"
+msgstr ""
+
+#: comment/commenteditdialog.cpp:141
+msgid ""
+"<b>Note: captions from currently selected images will be permanently "
+"replaced.</b>"
+msgstr ""
+
+#: xmp/xmpcontent.cpp:95
+msgid "Enter here the content synopsis."
+msgstr ""
+
+#: xmp/xmpcontent.cpp:100
+msgid "Enter the content description."
+msgstr ""
+
+#: xmp/xmpcontent.cpp:102
+msgid "Default Language Caption Options"
+msgstr ""
+
+#: xmp/xmpcontent.cpp:125
+msgid "Enter the necessary copyright notice."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:55
+msgid ""
+"Enter here the Informative Provider Reference. I.P.R is a name registered "
+"with the XMP/NAA, identifying the provider that provides an indicator of the "
+"content. The default value for the I.P.R is \"XMP\" if a standard Reference "
+"Code is used."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:61
+msgid ""
+"Enter here the Subject Reference Number. Provides a numeric code to indicate "
+"the Subject Name plus optional Subject Matter and Subject Detail Names in "
+"the language of the service. Subject Reference is a number from the range "
+"01000000 to 17999999 and represent a language independent international "
+"reference to a Subject. A Subject is identified by its Reference Number and "
+"corresponding Names taken from a standard lists given by XMP/NAA. If a "
+"standard reference code is used, these lists are the English language "
+"reference versions. This field is limited to 8 digit code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:74
+msgid ""
+"Enter here the Subject Name. English language is used if you selected a "
+"standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:78
+msgid ""
+"Enter here the Subject Matter Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpsubjects.cpp:82
+msgid ""
+"Enter here the Subject Detail Name. English language is used if you selected "
+"a standard XMP/NAA reference code."
+msgstr ""
+
+#: xmp/xmpstatus.cpp:88
+#, fuzzy
+#| msgid "Title:"
+msgctxt "short title for the content"
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: xmp/xmpstatus.cpp:89
+msgid "Set here a shorthand reference for the content."
+msgstr ""
+
+#: xmp/xmpstatus.cpp:93
+msgid "Nickname:"
+msgstr "उपनामः"
+
+#: xmp/xmpstatus.cpp:96
+msgid "A short informal name for the resource."
+msgstr ""
+
+#: xmp/xmpstatus.cpp:100
+msgid "Identifiers:"
+msgstr ""
+
+#: xmp/xmpstatus.cpp:101
+msgid "Set here the strings that identify content that recurs."
+msgstr ""
+
+#: xmp/xmpstatus.cpp:107
+msgid "Enter the editorial usage instructions."
+msgstr ""
+
+#: xmp/xmpcategories.cpp:90
+msgid ""
+"Set here the category of content. This field is limited to 3 characters."
+msgstr ""
+
+#: xmp/xmpcategories.cpp:97
+msgid "Enter here a new supplemental category of content."
+msgstr ""
+
+#: xmp/xmporigin.cpp:418
+msgid "Set here the content's city of origin."
+msgstr ""
+
+#: xmp/xmporigin.cpp:425
+msgid "Set here the content's location within the city."
+msgstr ""
+
+#: xmp/xmporigin.cpp:432
+msgid "Set here the content's Province or State of origin."
+msgstr ""
+
+#: xmp/xmporigin.cpp:444
+msgid "Select here the content's country of origin."
+msgstr ""
+
+#: xmp/xmpproperties.cpp:85
+msgid "Headshot"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:86
+msgid "Half-length"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:87
+msgid "Full-length"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:88
+msgctxt "Side view of a person"
+msgid "Profile"
+msgstr "प्रोफाइल"
+
+#: xmp/xmpproperties.cpp:89
+msgid "Rear view"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:90
+msgid "Single"
+msgstr "असगर"
+
+#: xmp/xmpproperties.cpp:91
+msgid "Couple"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:92
+msgid "Two"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:93
+#, fuzzy
+#| msgid "Group"
+msgctxt "group of people"
+msgid "Group"
+msgstr "समूह"
+
+#: xmp/xmpproperties.cpp:94
+msgid "General view"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:95
+msgid "Panoramic view"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:96
+msgid "Aerial view"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:97
+msgid "Under-water"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:98 exif/exifdevice.cpp:299
+msgid "Night scene"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:99
+msgid "Satellite"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:100
+msgid "Exterior view"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:101
+msgid "Interior view"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:102
+msgid "Close-up"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:103
+msgid "Action"
+msgstr "क्रिया"
+
+#: xmp/xmpproperties.cpp:104
+msgid "Performing"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:105
+msgid "Posing"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:106
+msgid "Symbolic"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:107
+msgid "Off-beat"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:108
+msgid "Movie scene"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:111
+msgid "Alert"
+msgstr "चेतावनी"
+
+#: xmp/xmpproperties.cpp:112
+msgid "Catalog"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:114
+#, fuzzy
+#| msgid "Document"
+msgctxt "type is a document"
+msgid "Document"
+msgstr "दस्तावेज"
+
+#: xmp/xmpproperties.cpp:115
+msgid "DTD"
+msgstr "DTD"
+
+#: xmp/xmpproperties.cpp:116
+msgid "Maintenance"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:118
+msgid "News Management Mode"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:119
+msgid "Package"
+msgstr "संकुल"
+
+#: xmp/xmpproperties.cpp:120
+msgid "Schema"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:121
+msgid "Topic"
+msgstr "विषय"
+
+#: xmp/xmpproperties.cpp:122
+#, fuzzy
+#| msgid "Topic"
+msgid "Topic Set"
+msgstr "विषय"
+
+#: xmp/xmpproperties.cpp:201
+#, fuzzy
+#| msgid "Senegal"
+msgid "Scene:"
+msgstr "सेनेगल"
+
+#: xmp/xmpproperties.cpp:202
+msgid "Select here the scene type of the content."
+msgstr ""
+
+#: xmp/xmpproperties.cpp:214
+msgid "Select here the editorial type of the content."
+msgstr ""
+
+#: xmp/xmpproperties.cpp:225 common/objectattributesedit.cpp:96
+msgid "Attribute:"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:229
+msgid "Set here the editorial attribute description of the content."
+msgstr ""
+
+#: xmp/xmpproperties.cpp:231
+msgid "Select here the editorial attribute of the content."
+msgstr ""
+
+#: xmp/xmpproperties.cpp:232
+#, fuzzy
+#| msgid "Current"
+msgctxt "editorial content attribute"
+msgid "Current"
+msgstr "मोजुदा"
+
+#: xmp/xmpproperties.cpp:233
+#, fuzzy
+#| msgid "Malaysia"
+msgctxt "editorial content attribute"
+msgid "Analysis"
+msgstr "मलेशिया"
+
+#: xmp/xmpproperties.cpp:234
+msgctxt "editorial content attribute"
+msgid "Archive material"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:235
+#, fuzzy
+#| msgid "Background"
+msgctxt "editorial content attribute"
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: xmp/xmpproperties.cpp:236
+#, fuzzy
+#| msgid "Feature"
+msgctxt "editorial content attribute"
+msgid "Feature"
+msgstr "विशेषता"
+
+#: xmp/xmpproperties.cpp:237
+#, fuzzy
+#| msgid "Forecast"
+msgctxt "editorial content attribute"
+msgid "Forecast"
+msgstr "पूर्वानुमान"
+
+#: xmp/xmpproperties.cpp:238
+#, fuzzy
+#| msgid "History"
+msgctxt "editorial content attribute"
+msgid "History"
+msgstr "इतिहास"
+
+#: xmp/xmpproperties.cpp:239
+msgctxt "editorial content attribute"
+msgid "Obituary"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:240
+#, fuzzy
+#| msgid "Origin"
+msgctxt "editorial content attribute"
+msgid "Opinion"
+msgstr "मूल"
+
+#: xmp/xmpproperties.cpp:241
+msgctxt "editorial content attribute"
+msgid "Polls & Surveys"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:242
+#, fuzzy
+#| msgctxt "Content type"
+#| msgid "Profile"
+msgctxt "editorial content attribute"
+msgid "Profile"
+msgstr "प्रोफाइल"
+
+#: xmp/xmpproperties.cpp:243
+msgctxt "editorial content attribute"
+msgid "Results Listings & Table"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:244
+msgctxt "editorial content attribute"
+msgid "Side bar & Supporting information"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:245
+#, fuzzy
+#| msgid "Summary"
+msgctxt "editorial content attribute"
+msgid "Summary"
+msgstr "सारांश"
+
+#: xmp/xmpproperties.cpp:246
+msgctxt "editorial content attribute"
+msgid "Transcript & Verbatim"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:247
+msgctxt "editorial content attribute"
+msgid "Interview"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:248
+msgctxt "editorial content attribute"
+msgid "From the Scene"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:249
+#, fuzzy
+#| msgid "Properties"
+msgctxt "editorial content attribute"
+msgid "Retrospective"
+msgstr "गुण"
+
+#: xmp/xmpproperties.cpp:250
+#, fuzzy
+#| msgid "Statistics"
+msgctxt "editorial content attribute"
+msgid "Statistics"
+msgstr "सांख्यिकी"
+
+#: xmp/xmpproperties.cpp:251
+#, fuzzy
+#| msgid "Update"
+msgctxt "editorial content attribute"
+msgid "Update"
+msgstr "अद्यतन"
+
+#: xmp/xmpproperties.cpp:252
+msgctxt "editorial content attribute"
+msgid "Wrap-up"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:253
+msgctxt "editorial content attribute"
+msgid "Press Release"
+msgstr ""
+
+#: xmp/xmpproperties.cpp:260
+msgid "Set here the original content transmission reference."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:125
+msgid "Contact"
+msgstr "संपर्क"
+
+#: xmp/xmpcredits.cpp:128
+#, fuzzy
+#| msgid "E-mail:"
+msgctxt "contact email address"
+msgid "E-mail:"
+msgstr "इमेल:"
+
+#: xmp/xmpcredits.cpp:131
+msgid "Set here the contact e-mail."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:133
+msgid "URL:"
+msgstr "URL:"
+
+#: xmp/xmpcredits.cpp:136
+msgid "Set here the contact URL."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:138
+msgid "Phone:"
+msgstr ""
+
+#: xmp/xmpcredits.cpp:141
+msgid "Set here the contact 'phone number."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:143
+msgctxt "Street address"
+msgid "Address:"
+msgstr "पता:"
+
+#: xmp/xmpcredits.cpp:146
+msgid "Set here the contact address."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:148
+#, fuzzy
+#| msgid "Portrait"
+msgid "Postal code:"
+msgstr "व्यक्तिचित्र"
+
+#: xmp/xmpcredits.cpp:151
+msgid "Set here the contact postal code."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:156
+msgid "Set here the contact city."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:161
+msgid "Set here the contact country."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:186
+msgid "Set here the content provider."
+msgstr ""
+
+#: xmp/xmpcredits.cpp:193
+msgid "Set here the original owner of content."
+msgstr ""
+
+#: xmp/xmpeditdialog.cpp:211
+msgid "(c) 2007-2009, Gilles Caulier"
+msgstr ""
+
+#: xmp/xmpeditdialog.cpp:371
+#, fuzzy
+#| msgid "Metadata"
+msgid "Edit XMP Metadata"
+msgstr "मेटाडाटा"
+
+#: xmp/xmpkeywords.cpp:86
+msgid "Enter here a new keyword."
+msgstr ""
+
+#: common/altlangstringedit.cpp:74
+#, fuzzy
+#| msgid "Language:"
+msgid "Default Language"
+msgstr "भाषा:"
+
+#: common/altlangstringedit.cpp:78
+msgid "Afrikaans (South Africa)"
+msgstr "अफ्रीकी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:79
+#, fuzzy
+#| msgid "Ethiopia"
+msgid "Amharic (Ethiopia)"
+msgstr "इथोपिया"
+
+#: common/altlangstringedit.cpp:80
+msgid "Arabic (UAE)"
+msgstr "अरबी (UAE)"
+
+#: common/altlangstringedit.cpp:81
+msgid "Arabic (Bahrain)"
+msgstr "अरबी (बहरिन)"
+
+#: common/altlangstringedit.cpp:82
+#, fuzzy
+#| msgid "Arabic (Syria)"
+msgid "Arabic (Algeria)"
+msgstr "अरबी (सिरिया)"
+
+#: common/altlangstringedit.cpp:83
+msgid "Arabic (Egypt)"
+msgstr "अरबी (मिश्र)"
+
+#: common/altlangstringedit.cpp:84
+msgid "Arabic (Iraq)"
+msgstr "अरबी (इराक)"
+
+#: common/altlangstringedit.cpp:85
+msgid "Arabic (Jordan)"
+msgstr "अरबी (जोर्डन)"
+
+#: common/altlangstringedit.cpp:86
+msgid "Arabic (Kuwait)"
+msgstr "अरबी (कुवैत)"
+
+#: common/altlangstringedit.cpp:87
+msgid "Arabic (Lebanon)"
+msgstr "अरबी (लेबनॉन)"
+
+#: common/altlangstringedit.cpp:88
+msgid "Arabic (Libya)"
+msgstr "अरबी (लीबिया)"
+
+#: common/altlangstringedit.cpp:89
+msgid "Arabic (Morocco)"
+msgstr "अरबी (मोरोक्को)"
+
+#: common/altlangstringedit.cpp:90
+msgid "Arabic (Oman)"
+msgstr "अरबी (ओमन)"
+
+#: common/altlangstringedit.cpp:91
+msgid "Arabic (Qatar)"
+msgstr "अरेबियन (कतार)"
+
+#: common/altlangstringedit.cpp:92
+msgid "Arabic (Saudi Arabia)"
+msgstr "अरबी (सउदी अरब)"
+
+#: common/altlangstringedit.cpp:93
+msgid "Arabic (Syria)"
+msgstr "अरबी (सिरिया)"
+
+#: common/altlangstringedit.cpp:94
+msgid "Arabic (Tunisia)"
+msgstr "अरबी (ट्यूनिशिया)"
+
+#: common/altlangstringedit.cpp:95
+msgid "Arabic (Yemen)"
+msgstr "अरबी (येमन)"
+
+#: common/altlangstringedit.cpp:96
+msgid "Assamese (India)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:97
+msgid "Bashkir (Russia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:98
+msgid "Belarusian (Belarus)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:99
+msgid "Bulgarian (Bulgaria)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:100
+msgid "Bengali (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:101
+msgid "Tibetan (Bhutan)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:102
+msgid "Tibetan (PRC)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:103
+#, fuzzy
+#| msgid "French (France)"
+msgid "Breton (France)"
+msgstr "फ्रेन्च (फ्रान्स)"
+
+#: common/altlangstringedit.cpp:104
+msgid "Catalan (Andorra)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:105
+#, fuzzy
+#| msgid "Spanish (Spain)"
+msgid "Catalan (Spain)"
+msgstr "स्पेनिश (स्पेन)"
+
+#: common/altlangstringedit.cpp:106
+#, fuzzy
+#| msgid "French (France)"
+msgid "Catalan (France)"
+msgstr "फ्रेन्च (फ्रान्स)"
+
+#: common/altlangstringedit.cpp:107
+#, fuzzy
+#| msgid "French (France)"
+msgid "Corsican (France)"
+msgstr "फ्रेन्च (फ्रान्स)"
+
+#: common/altlangstringedit.cpp:108
+#, fuzzy
+#| msgid "Czech Republic"
+msgid "Czech (Czech Republic)"
+msgstr "चेक गणतंत्र"
+
+#: common/altlangstringedit.cpp:109
+#, fuzzy
+#| msgid "English (United Kingdom)"
+msgid "Welsh (United Kingdom)"
+msgstr "अंग्रेजी (यूनाइडेट किंगडम)"
+
+#: common/altlangstringedit.cpp:110
+#, fuzzy
+#| msgid "Spanish (Panama)"
+msgid "Danish (Denmark)"
+msgstr "स्पेनिश (पनामा)"
+
+#: common/altlangstringedit.cpp:111
+msgid "German (Austria)"
+msgstr "जर्मन (आस्ट्रिया)"
+
+#: common/altlangstringedit.cpp:112
+msgid "German (Switzerland)"
+msgstr "जर्मन (स्विट्जरलैंड)"
+
+#: common/altlangstringedit.cpp:113
+msgid "German (Germany)"
+msgstr "जर्मन (जर्मनी)"
+
+#: common/altlangstringedit.cpp:114
+msgid "German (Liechtenstein)"
+msgstr "जर्मन (लिचेंस्टाइन)"
+
+#: common/altlangstringedit.cpp:115
+msgid "German (Luxembourg)"
+msgstr "जर्मन (लक्सेम्बर्ग)"
+
+#: common/altlangstringedit.cpp:116
+#, fuzzy
+#| msgid "Greece"
+msgid "Greek (Greece)"
+msgstr "ग्रीस"
+
+#: common/altlangstringedit.cpp:117
+msgid "English (Australia)"
+msgstr "अंग्रेजी (आस्ट्रेलिया)"
+
+#: common/altlangstringedit.cpp:118
+msgid "English (Belize)"
+msgstr "अंग्रेजी (बेलिज)"
+
+#: common/altlangstringedit.cpp:119
+msgid "English (Canada)"
+msgstr "अंग्रेजी (कनाडा)"
+
+#: common/altlangstringedit.cpp:120
+msgid "English (Caribbean)"
+msgstr "अंग्रेजी (कैरीबियन)"
+
+#: common/altlangstringedit.cpp:121
+msgid "English (United Kingdom)"
+msgstr "अंग्रेजी (यूनाइडेट किंगडम)"
+
+#: common/altlangstringedit.cpp:122
+msgid "English (Ireland)"
+msgstr "अंग्रेजी (आयरलैंड)"
+
+#: common/altlangstringedit.cpp:123
+msgid "English (India)"
+msgstr "अँग्रेजी (भारत)"
+
+#: common/altlangstringedit.cpp:124
+msgid "English (Jamaica)"
+msgstr "अंग्रेजी (जमैका)"
+
+#: common/altlangstringedit.cpp:125
+#, fuzzy
+#| msgid "English (Jamaica)"
+msgid "English (Malaysia)"
+msgstr "अंग्रेजी (जमैका)"
+
+#: common/altlangstringedit.cpp:126
+msgid "English (New Zealand)"
+msgstr "अंग्रेजी (न्यूजीलैंड)"
+
+#: common/altlangstringedit.cpp:127
+msgid "English (Philippines)"
+msgstr "अंग्रेजी (फिलीपीन)"
+
+#: common/altlangstringedit.cpp:128
+#, fuzzy
+#| msgid "Chinese (Singapore)"
+msgid "English (Singapore)"
+msgstr "चीनी (सिंगापुर)"
+
+#: common/altlangstringedit.cpp:129
+msgid "English (Trinidad)"
+msgstr "अंग्रेजी (ट्रिनिडाड)"
+
+#: common/altlangstringedit.cpp:130
+#, fuzzy
+#| msgid "English (United Kingdom)"
+msgid "English (United States)"
+msgstr "अंग्रेजी (यूनाइडेट किंगडम)"
+
+#: common/altlangstringedit.cpp:131
+msgid "English (South Africa)"
+msgstr "अंग्रेजी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:132
+msgid "English (Zimbabwe)"
+msgstr "अंग्रेजी (जिम्बावे)"
+
+#: common/altlangstringedit.cpp:133
+msgid "Spanish (Argentina)"
+msgstr "स्पेनिश (अर्जेंटीना)"
+
+#: common/altlangstringedit.cpp:134
+msgid "Spanish (Bolivia)"
+msgstr "स्पेनिश (बोलिविया)"
+
+#: common/altlangstringedit.cpp:135
+msgid "Spanish (Chile)"
+msgstr "स्पेनिश (चिली)"
+
+#: common/altlangstringedit.cpp:136
+msgid "Spanish (Colombia)"
+msgstr "स्पेनिश (कोलम्बिया)"
+
+#: common/altlangstringedit.cpp:137
+msgid "Spanish (Costa Rica)"
+msgstr "स्पेनिश (कोस्टा रिका)"
+
+#: common/altlangstringedit.cpp:138
+#, fuzzy
+#| msgid "Dominican Republic"
+msgid "Spanish (Dominican Republic)"
+msgstr "डोमिनिकन गणतंत्र"
+
+#: common/altlangstringedit.cpp:139
+msgid "Spanish (Ecuador)"
+msgstr "स्पेनिश (इक्वेडर)"
+
+#: common/altlangstringedit.cpp:140
+msgid "Spanish (Spain)"
+msgstr "स्पेनिश (स्पेन)"
+
+#: common/altlangstringedit.cpp:141
+msgid "Spanish (Guatemala)"
+msgstr "स्पेनिश (गुआटेमाला)"
+
+#: common/altlangstringedit.cpp:142
+msgid "Spanish (Honduras)"
+msgstr "स्पेनिश (होन्डुरास)"
+
+#: common/altlangstringedit.cpp:143
+msgid "Spanish (Mexico)"
+msgstr "स्पेनिश (मेक्सिको)"
+
+#: common/altlangstringedit.cpp:144
+msgid "Spanish (Nicaragua)"
+msgstr "स्पेनिश (निकारागुआ)"
+
+#: common/altlangstringedit.cpp:145
+msgid "Spanish (Panama)"
+msgstr "स्पेनिश (पनामा)"
+
+#: common/altlangstringedit.cpp:146
+msgid "Spanish (Peru)"
+msgstr "स्पेनिश (पेरु)"
+
+#: common/altlangstringedit.cpp:147
+msgid "Spanish (Puerto Rico)"
+msgstr "स्पेनिश (प्यूरिटो रिको)"
+
+#: common/altlangstringedit.cpp:148
+msgid "Spanish (Paraguay)"
+msgstr "स्पेनिश (परागुवे)"
+
+#: common/altlangstringedit.cpp:149
+msgid "Spanish (El Salvador)"
+msgstr "स्पेनिश (एल सल्वाडोर)"
+
+#: common/altlangstringedit.cpp:150
+msgid "Spanish (Uruguay)"
+msgstr "स्पेनिश (उरुगुवे)"
+
+#: common/altlangstringedit.cpp:151
+#, fuzzy
+#| msgid "Spanish (Honduras)"
+msgid "Spanish (United States)"
+msgstr "स्पेनिश (होन्डुरास)"
+
+#: common/altlangstringedit.cpp:152
+msgid "Spanish (Venezuela)"
+msgstr "स्पेनिश (वेनेजुएला)"
+
+#: common/altlangstringedit.cpp:153
+msgid "Estonian (Estonia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:154
+msgid "Basque (Basque Country)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:155
+#, fuzzy
+#| msgid "German (Germany)"
+msgid "Persian (Iran)"
+msgstr "जर्मन (जर्मनी)"
+
+#: common/altlangstringedit.cpp:156
+#, fuzzy
+#| msgid "Swedish (Finland)"
+msgid "Finnish (Finland)"
+msgstr "स्वीडिश (फिनलैंड)"
+
+#: common/altlangstringedit.cpp:157
+#, fuzzy
+#| msgid "Marshall Islands"
+msgid "Faeroese (Faero Islands)"
+msgstr "मार्शल द्वीप"
+
+#: common/altlangstringedit.cpp:158
+msgid "French (Belgium)"
+msgstr "फ्रेंच (बेल्जियम)"
+
+#: common/altlangstringedit.cpp:159
+msgid "French (Canada)"
+msgstr "फ्रेंच (कनाडा)"
+
+#: common/altlangstringedit.cpp:160
+msgid "French (Switzerland)"
+msgstr "फ्रेंच (स्विट्जरलैंड)"
+
+#: common/altlangstringedit.cpp:161
+msgid "French (France)"
+msgstr "फ्रेन्च (फ्रान्स)"
+
+#: common/altlangstringedit.cpp:162
+msgid "French (Luxembourg)"
+msgstr "फ्रेंच (लक्सेम्बर्ग)"
+
+#: common/altlangstringedit.cpp:163
+msgid "French (Monaco)"
+msgstr "फ्रेंच (मोनोको)"
+
+#: common/altlangstringedit.cpp:164
+#, fuzzy
+#| msgid "Dutch (Netherlands)"
+msgid "Frisian (Netherlands)"
+msgstr "डच (नीदरलैंड)"
+
+#: common/altlangstringedit.cpp:165
+#, fuzzy
+#| msgid "English (Ireland)"
+msgid "Irish (Ireland)"
+msgstr "अंग्रेजी (आयरलैंड)"
+
+#: common/altlangstringedit.cpp:166
+#, fuzzy
+#| msgid "Italian (Italy)"
+msgid "Galician (Galicia)"
+msgstr "इटालियन (इटली)"
+
+#: common/altlangstringedit.cpp:167
+#, fuzzy
+#| msgid "Bengali (India)"
+msgid "Gujarati (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:168
+msgid "Hebrew (Israel)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:169
+#, fuzzy
+#| msgid "Urdu (India)"
+msgid "Hindi (India)"
+msgstr "उर्दू (भारत)"
+
+#: common/altlangstringedit.cpp:170
+#, fuzzy
+#| msgid "Bosnia and Herzegovina"
+msgid "Croatian (Bosnia and Herzegovina, Latin)"
+msgstr "बोस्निया आओर हर्जेगोविना"
+
+#: common/altlangstringedit.cpp:171
+msgid "Croatian (Croatia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:172
+msgid "Hungarian (Hungary)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:173
+#, fuzzy
+#| msgid "German (Austria)"
+msgid "Armenian (Armenia)"
+msgstr "जर्मन (आस्ट्रिया)"
+
+#: common/altlangstringedit.cpp:174
+#, fuzzy
+#| msgid "Indonesia"
+msgid "(Indonesian)"
+msgstr "इंडोनेशिया"
+
+#: common/altlangstringedit.cpp:175
+msgid "Yi (PRC)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:176
+#, fuzzy
+#| msgid "English (Ireland)"
+msgid "Icelandic (Iceland)"
+msgstr "अंग्रेजी (आयरलैंड)"
+
+#: common/altlangstringedit.cpp:177
+msgid "Italian (Switzerland)"
+msgstr "इतालवी (स्विट्जरलैंड)"
+
+#: common/altlangstringedit.cpp:178
+msgid "Italian (Italy)"
+msgstr "इटालियन (इटली)"
+
+#: common/altlangstringedit.cpp:179
+#, fuzzy
+#| msgid "Spanish (Spain)"
+msgid "Japanese (Japan)"
+msgstr "स्पेनिश (स्पेन)"
+
+#: common/altlangstringedit.cpp:180
+#, fuzzy
+#| msgid "German (Germany)"
+msgid "Georgian (Georgia)"
+msgstr "जर्मन (जर्मनी)"
+
+#: common/altlangstringedit.cpp:181
+#, fuzzy
+#| msgid "Kazakhstan"
+msgid "Kazakh (Kazakhstan)"
+msgstr "कजाखस्तान"
+
+#: common/altlangstringedit.cpp:182
+#, fuzzy
+#| msgid "English (Ireland)"
+msgid "Greenlandic (Greenland)"
+msgstr "अंग्रेजी (आयरलैंड)"
+
+#: common/altlangstringedit.cpp:183
+#, fuzzy
+#| msgid "Cambodia"
+msgid "Khmer (Cambodia)"
+msgstr "कंबोडिया"
+
+#: common/altlangstringedit.cpp:184
+#, fuzzy
+#| msgid "Bengali (India)"
+msgid "Kannada (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:185
+#, fuzzy
+#| msgid "Afrikaans (South Africa)"
+msgid "Korean (South Korea)"
+msgstr "अफ्रीकी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:186
+msgid "Kyrgyz (Kyrgyzstan)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:187
+#, fuzzy
+#| msgid "German (Luxembourg)"
+msgid "Luxembourgish (Luxembourg)"
+msgstr "जर्मन (लक्सेम्बर्ग)"
+
+#: common/altlangstringedit.cpp:188
+msgid "Lao (Lao PDR)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:189
+msgid "Lithuanian (Lithuania)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:190
+msgid "Latvian (Latvia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:191
+msgid "Maori (New Zealand)"
+msgstr "माओरी (न्यूजीलैंड)"
+
+#: common/altlangstringedit.cpp:192
+msgid "Macedonian (Macedonia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:193
+#, fuzzy
+#| msgid "Malay (Malaysia)"
+msgid "Malayalam (India)"
+msgstr "मलय (मलेशिया)"
+
+#: common/altlangstringedit.cpp:194
+#, fuzzy
+#| msgid "Mongolia"
+msgid "Mongolian (PRC)"
+msgstr "मंगोलिया"
+
+#: common/altlangstringedit.cpp:195
+msgid "Mongolian (Mongolia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:196
+#, fuzzy
+#| msgid "Bengali (India)"
+msgid "Marathi (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:197
+#, fuzzy
+#| msgid "Brunei Darussalam"
+msgid "Malay (Brunei Darussalam)"
+msgstr "ब्रुनेई दारूसलाम"
+
+#: common/altlangstringedit.cpp:198
+msgid "Malay (Malaysia)"
+msgstr "मलय (मलेशिया)"
+
+#: common/altlangstringedit.cpp:199
+#, fuzzy
+#| msgid "Malay (Malaysia)"
+msgid "Maltese (Malta)"
+msgstr "मलय (मलेशिया)"
+
+#: common/altlangstringedit.cpp:200
+msgid "Norwegian Bokmål (Norway)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:201
+msgid "Nepali (Nepal)"
+msgstr "नेपाली"
+
+#: common/altlangstringedit.cpp:202
+msgid "Dutch (Belgium)"
+msgstr "डच (बेल्जियम)"
+
+#: common/altlangstringedit.cpp:203
+msgid "Dutch (Netherlands)"
+msgstr "डच (नीदरलैंड)"
+
+#: common/altlangstringedit.cpp:204
+msgid "Norwegian Nynorsk (Norway)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:205
+#, fuzzy
+#| msgid "English (South Africa)"
+msgid "Sesotho sa Leboa (South Africa)"
+msgstr "अंग्रेजी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:206
+#, fuzzy
+#| msgid "French (France)"
+msgid "Occitan (France)"
+msgstr "फ्रेन्च (फ्रान्स)"
+
+#: common/altlangstringedit.cpp:207
+#, fuzzy
+#| msgid "Urdu (India)"
+msgid "Oriya (India)"
+msgstr "उर्दू (भारत)"
+
+#: common/altlangstringedit.cpp:208
+#, fuzzy
+#| msgid "Bengali (India)"
+msgid "Punjabi (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:209
+#, fuzzy
+#| msgid "English (Ireland)"
+msgid "Polish (Poland)"
+msgstr "अंग्रेजी (आयरलैंड)"
+
+#: common/altlangstringedit.cpp:210
+#, fuzzy
+#| msgid "Afghanistan"
+msgid "Pashto (Afghanistan)"
+msgstr "अफगानिस्तान"
+
+#: common/altlangstringedit.cpp:211
+msgid "Portuguese (Brazil)"
+msgstr "पुर्तगाली (ब्राजिल)"
+
+#: common/altlangstringedit.cpp:212
+msgid "Portuguese (Portugal)"
+msgstr "पोर्चुगीस (पुर्तगाल)"
+
+#: common/altlangstringedit.cpp:213
+#, fuzzy
+#| msgid "German (Switzerland)"
+msgid "Romansh (Switzerland)"
+msgstr "जर्मन (स्विट्जरलैंड)"
+
+#: common/altlangstringedit.cpp:214
+msgid "Romanian (Romania)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:215
+msgid "Russian (Russia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:216
+msgid "Kinyarwanda (Rwanda)"
+msgstr "कीनियारबांडा (रबांडा)"
+
+#: common/altlangstringedit.cpp:217
+#, fuzzy
+#| msgid "Bengali (India)"
+msgid "Sanskrit (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:218
+#, fuzzy
+#| msgid "Northern Ireland"
+msgid "Sami (Northern, Finland)"
+msgstr "उत्तरी आयरलैंड"
+
+#: common/altlangstringedit.cpp:219
+msgid "Sami (Northern, Norway)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:220
+msgid "Sami (Northern, Sweden)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:221
+#, fuzzy
+#| msgid "Sri Lanka"
+msgid "Sinhala (Sri Lanka)"
+msgstr "श्रीलंका"
+
+#: common/altlangstringedit.cpp:222
+#, fuzzy
+#| msgid "Slovakia"
+msgid "Slovak (Slovakia)"
+msgstr "स्लोवाकिया"
+
+#: common/altlangstringedit.cpp:223
+msgid "Slovenian (Slovenia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:224
+msgid "Albanian (Albania)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:225
+msgid "Swedish (Finland)"
+msgstr "स्वीडिश (फिनलैंड)"
+
+#: common/altlangstringedit.cpp:226
+msgid "Swedish (Sweden)"
+msgstr "स्वीडिश (स्वीडन)"
+
+#: common/altlangstringedit.cpp:227
+msgid "Swahili (Kenya)"
+msgstr "स्वाहिली (कीनिया)"
+
+#: common/altlangstringedit.cpp:228
+#, fuzzy
+#| msgid "Bengali (India)"
+msgid "Tamil (India)"
+msgstr "बंगाली (भारत)"
+
+#: common/altlangstringedit.cpp:229
+#, fuzzy
+#| msgid "Urdu (India)"
+msgid "Telugu (India)"
+msgstr "उर्दू (भारत)"
+
+#: common/altlangstringedit.cpp:230
+#, fuzzy
+#| msgid "Thailand"
+msgid "Thai (Thailand)"
+msgstr "थाइलैंड"
+
+#: common/altlangstringedit.cpp:231
+#, fuzzy
+#| msgid "Turkmenistan"
+msgid "Turkmen (Turkmenistan)"
+msgstr "तुर्कमेनिस्तान"
+
+#: common/altlangstringedit.cpp:232
+#, fuzzy
+#| msgid "Afrikaans (South Africa)"
+msgid "Setswana Tswana (South Africa)"
+msgstr "अफ्रीकी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:233
+msgid "Urdu (India)"
+msgstr "उर्दू (भारत)"
+
+#: common/altlangstringedit.cpp:234
+msgid "Turkish (Turkey)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:235
+msgid "Tatar (Russia)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:236
+msgid "Uighur (PRC)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:237
+msgid "Ukrainian (Ukraine)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:238
+msgid "Urdu (Pakistan)"
+msgstr "उर्दू (पाकिस्तान)"
+
+#: common/altlangstringedit.cpp:239
+msgid "Vietnamese (Vietnam)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:240
+#, fuzzy
+#| msgid "Senegal"
+msgid "Wolof (Senegal)"
+msgstr "सेनेगल"
+
+#: common/altlangstringedit.cpp:241
+#, fuzzy
+#| msgid "English (South Africa)"
+msgid "isiXhosa Xhosa (South Africa)"
+msgstr "अंग्रेजी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:242
+#, fuzzy
+#| msgid "Nigeria"
+msgid "Yoruba (Nigeria)"
+msgstr "नाइजीरिया"
+
+#: common/altlangstringedit.cpp:243
+#, fuzzy
+#| msgid "Chinese (Singapore)"
+msgid "Chinese (PRC)"
+msgstr "चीनी (सिंगापुर)"
+
+#: common/altlangstringedit.cpp:244
+msgid "Chinese (Hong Kong SAR, PRC)"
+msgstr ""
+
+#: common/altlangstringedit.cpp:245
+#, fuzzy
+#| msgid "Chinese (Singapore)"
+msgid "Chinese (Macao SAR)"
+msgstr "चीनी (सिंगापुर)"
+
+#: common/altlangstringedit.cpp:246
+msgid "Chinese (Singapore)"
+msgstr "चीनी (सिंगापुर)"
+
+#: common/altlangstringedit.cpp:247
+#, fuzzy
+#| msgid "Chinese (Singapore)"
+msgid "Chinese (Taiwan)"
+msgstr "चीनी (सिंगापुर)"
+
+#: common/altlangstringedit.cpp:248
+#, fuzzy
+#| msgid "English (South Africa)"
+msgid "isiZulu Zulu (South Africa)"
+msgstr "अंग्रेजी (दक्षिण अफ्रीका)"
+
+#: common/altlangstringedit.cpp:285 common/multivaluesedit.cpp:94
+#: common/objectattributesedit.cpp:104 common/multistringsedit.cpp:90
+msgid "Add a new value to the list"
+msgstr ""
+
+#: common/altlangstringedit.cpp:286 common/multivaluesedit.cpp:95
+#: common/objectattributesedit.cpp:105 common/multistringsedit.cpp:91
+msgid "Remove the current selected value from the list"
+msgstr ""
+
+#: common/altlangstringedit.cpp:287 common/multivaluesedit.cpp:96
+#: common/objectattributesedit.cpp:106 common/multistringsedit.cpp:92
+msgid "Replace the current selected value from the list"
+msgstr ""
+
+#: common/altlangstringedit.cpp:298
+msgid "Select here language code."
+msgstr ""
+
+#: common/objectattributesedit.cpp:118
+msgid "Select here the editorial attribute of content."
+msgstr ""
+
+#: common/objectattributesedit.cpp:119
+#, fuzzy
+#| msgid "Current"
+msgctxt "Content type"
+msgid "Current"
+msgstr "मोजुदा"
+
+#: common/objectattributesedit.cpp:120
+#, fuzzy
+#| msgid "Malaysia"
+msgctxt "Content type"
+msgid "Analysis"
+msgstr "मलेशिया"
+
+#: common/objectattributesedit.cpp:121
+msgctxt "Content type"
+msgid "Archive material"
+msgstr ""
+
+#: common/objectattributesedit.cpp:122
+#, fuzzy
+#| msgid "Background"
+msgctxt "Content type"
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: common/objectattributesedit.cpp:123
+#, fuzzy
+#| msgid "Feature"
+msgctxt "Content type"
+msgid "Feature"
+msgstr "विशेषता"
+
+#: common/objectattributesedit.cpp:124
+#, fuzzy
+#| msgid "Forecast"
+msgctxt "Content type"
+msgid "Forecast"
+msgstr "पूर्वानुमान"
+
+#: common/objectattributesedit.cpp:125
+#, fuzzy
+#| msgid "History"
+msgctxt "Content type"
+msgid "History"
+msgstr "इतिहास"
+
+#: common/objectattributesedit.cpp:126
+msgctxt "Content type"
+msgid "Obituary"
+msgstr ""
+
+#: common/objectattributesedit.cpp:127
+#, fuzzy
+#| msgid "Origin"
+msgctxt "Content type"
+msgid "Opinion"
+msgstr "मूल"
+
+#: common/objectattributesedit.cpp:128
+msgctxt "Content type"
+msgid "Polls & Surveys"
+msgstr ""
+
+#: common/objectattributesedit.cpp:129
+msgctxt "Content type"
+msgid "Profile"
+msgstr "प्रोफाइल"
+
+#: common/objectattributesedit.cpp:130
+msgctxt "Content type"
+msgid "Results Listings & Table"
+msgstr ""
+
+#: common/objectattributesedit.cpp:131
+msgctxt "Content type"
+msgid "Side bar & Supporting information"
+msgstr ""
+
+#: common/objectattributesedit.cpp:132
+#, fuzzy
+#| msgid "Summary"
+msgctxt "Content type"
+msgid "Summary"
+msgstr "सारांश"
+
+#: common/objectattributesedit.cpp:133
+msgctxt "Content type"
+msgid "Transcript & Verbatim"
+msgstr ""
+
+#: common/objectattributesedit.cpp:134
+msgctxt "Content type"
+msgid "Interview"
+msgstr ""
+
+#: common/objectattributesedit.cpp:135
+msgctxt "Content type"
+msgid "From the Scene"
+msgstr ""
+
+#: common/objectattributesedit.cpp:136
+#, fuzzy
+#| msgid "Properties"
+msgctxt "Content type"
+msgid "Retrospective"
+msgstr "गुण"
+
+#: common/objectattributesedit.cpp:137
+#, fuzzy
+#| msgid "Statistics"
+msgctxt "Content type"
+msgid "Statistics"
+msgstr "सांख्यिकी"
+
+#: common/objectattributesedit.cpp:138
+#, fuzzy
+#| msgid "Update"
+msgctxt "Content type"
+msgid "Update"
+msgstr "अद्यतन"
+
+#: common/objectattributesedit.cpp:139
+msgctxt "Content type"
+msgid "Wrap-up"
+msgstr ""
+
+#: common/objectattributesedit.cpp:140
+msgctxt "Content type"
+msgid "Press Release"
+msgstr ""
+
+#: common/objectattributesedit.cpp:146
+msgid ""
+"Set here the editorial attribute description of content. This field is "
+"limited to 64 ASCII characters."
+msgstr ""
+
+#: common/objectattributesedit.cpp:151 common/multistringsedit.cpp:106
+msgid " This field is limited to:"
+msgstr ""
+
+#: common/objectattributesedit.cpp:157 common/multistringsedit.cpp:112
+msgid "<p>Printable ASCII characters.</p>"
+msgstr ""
+
+#: common/objectattributesedit.cpp:163 common/multistringsedit.cpp:118
+#, kde-format
+msgid "<p>1 character.</p>"
+msgid_plural "<p>%1 characters.</p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: exif/exifeditdialog.cpp:151
+#, fuzzy
+#| msgid "Caption"
+msgctxt "image caption"
+msgid "Caption"
+msgstr "अनुशीर्षक"
+
+#: exif/exifeditdialog.cpp:152
+msgid "Caption Information"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:156
+msgid "Date & Time"
+msgstr "दिनाँक आ समय"
+
+#: exif/exifeditdialog.cpp:157
+msgid "Date and Time Information"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:161
+msgid "Lens"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:162
+msgid "Lens Settings"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:166
+msgid "Device"
+msgstr "डिवाइस"
+
+#: exif/exifeditdialog.cpp:167
+msgid "Capture Device Settings"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:171
+msgid "Light"
+msgstr "हलुक"
+
+#: exif/exifeditdialog.cpp:172
+msgid "Light Source Information"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:176
+msgctxt "Picture adjustments"
+msgid "Adjustments"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:177
+msgid "Pictures Adjustments"
+msgstr ""
+
+#: exif/exifeditdialog.cpp:334
+#, fuzzy
+#| msgid "Metadata"
+msgid "Edit EXIF Metadata"
+msgstr "मेटाडाटा"
+
+#: exif/exiflight.cpp:88
+#, fuzzy
+#| msgid "Flash"
+msgid "No flash"
+msgstr "चमक"
+
+#: exif/exiflight.cpp:89
+msgid "Fired"
+msgstr ""
+
+#: exif/exiflight.cpp:90
+msgid "Fired, no strobe return light"
+msgstr ""
+
+#: exif/exiflight.cpp:91
+msgid "Fired, strobe return light"
+msgstr ""
+
+#: exif/exiflight.cpp:92
+msgid "Yes, compulsory"
+msgstr ""
+
+#: exif/exiflight.cpp:93
+msgid "Yes, compulsory, no return light"
+msgstr ""
+
+#: exif/exiflight.cpp:94
+msgid "Yes, compulsory, return light"
+msgstr ""
+
+#: exif/exiflight.cpp:95
+msgid "No, compulsory"
+msgstr ""
+
+#: exif/exiflight.cpp:96
+msgid "No, auto"
+msgstr ""
+
+#: exif/exiflight.cpp:97
+msgid "Yes, auto"
+msgstr ""
+
+#: exif/exiflight.cpp:98
+msgid "Yes, auto, no return light"
+msgstr ""
+
+#: exif/exiflight.cpp:99
+msgid "Yes, auto, return light"
+msgstr ""
+
+#: exif/exiflight.cpp:100
+msgid "No flash function"
+msgstr ""
+
+#: exif/exiflight.cpp:101
+msgid "Yes, red-eye"
+msgstr ""
+
+#: exif/exiflight.cpp:102
+msgid "Yes, red-eye, no return light"
+msgstr ""
+
+#: exif/exiflight.cpp:103
+msgid "Yes, red-eye, return light"
+msgstr ""
+
+#: exif/exiflight.cpp:104
+msgid "Yes, compulsory, red-eye"
+msgstr ""
+
+#: exif/exiflight.cpp:105
+msgid "Yes, compulsory, red-eye, no return light"
+msgstr ""
+
+#: exif/exiflight.cpp:106
+msgid "Yes, compulsory, red-eye, return light"
+msgstr ""
+
+#: exif/exiflight.cpp:107
+msgid "Yes, auto, red-eye"
+msgstr ""
+
+#: exif/exiflight.cpp:108
+msgid "Yes, auto, red-eye, no return light"
+msgstr ""
+
+#: exif/exiflight.cpp:109
+msgid "Yes, auto, red-eye, return light"
+msgstr ""
+
+#: exif/exiflight.cpp:138
+msgid "Light source:"
+msgstr ""
+
+#: exif/exiflight.cpp:140
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "light source"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: exif/exiflight.cpp:141
+#, fuzzy
+#| msgid "Light"
+msgctxt "light source"
+msgid "Daylight"
+msgstr "हलुक"
+
+#: exif/exiflight.cpp:142
+#, fuzzy
+#| msgid "Forecast"
+msgctxt "light source"
+msgid "Fluorescent"
+msgstr "पूर्वानुमान"
+
+#: exif/exiflight.cpp:143
+msgctxt "light source"
+msgid "Tungsten (incandescent light)"
+msgstr ""
+
+#: exif/exiflight.cpp:144
+#, fuzzy
+#| msgid "Flash"
+msgctxt "light source"
+msgid "Flash"
+msgstr "चमक"
+
+#: exif/exiflight.cpp:145
+msgctxt "light source"
+msgid "Fine weather"
+msgstr ""
+
+#: exif/exiflight.cpp:146
+msgctxt "light source"
+msgid "Cloudy weather"
+msgstr ""
+
+#: exif/exiflight.cpp:147
+#, fuzzy
+#| msgid "Shade"
+msgctxt "light source"
+msgid "Shade"
+msgstr "छायांकित"
+
+#: exif/exiflight.cpp:148
+msgctxt "light source"
+msgid "Daylight fluorescent (D 5700 - 7100K)"
+msgstr ""
+
+#: exif/exiflight.cpp:149
+msgctxt "light source"
+msgid "Day white fluorescent (N 4600 - 5400K)"
+msgstr ""
+
+#: exif/exiflight.cpp:150
+msgctxt "light source"
+msgid "Cool white fluorescent (W 3900 - 4500K)"
+msgstr ""
+
+#: exif/exiflight.cpp:151
+msgctxt "light source"
+msgid "White fluorescent (WW 3200 - 3700K)"
+msgstr ""
+
+#: exif/exiflight.cpp:152
+#, fuzzy
+#| msgid "Standard"
+msgctxt "light source"
+msgid "Standard light A"
+msgstr "मानक"
+
+#: exif/exiflight.cpp:153
+#, fuzzy
+#| msgid "Standard"
+msgctxt "light source"
+msgid "Standard light B"
+msgstr "मानक"
+
+#: exif/exiflight.cpp:154
+#, fuzzy
+#| msgid "Standard"
+msgctxt "light source"
+msgid "Standard light C"
+msgstr "मानक"
+
+#: exif/exiflight.cpp:155
+msgctxt "light source"
+msgid "D55"
+msgstr ""
+
+#: exif/exiflight.cpp:156
+msgctxt "light source"
+msgid "D65"
+msgstr ""
+
+#: exif/exiflight.cpp:157
+msgctxt "light source"
+msgid "D75"
+msgstr ""
+
+#: exif/exiflight.cpp:158
+msgctxt "light source"
+msgid "D50"
+msgstr ""
+
+#: exif/exiflight.cpp:159
+msgctxt "light source"
+msgid "ISO studio tungsten"
+msgstr ""
+
+#: exif/exiflight.cpp:160
+msgctxt "light source"
+msgid "Other light source"
+msgstr ""
+
+#: exif/exiflight.cpp:161
+msgid "Select here the kind of light source used to take the picture."
+msgstr ""
+
+#: exif/exiflight.cpp:166
+#, fuzzy
+#| msgid "Flash"
+msgid "Flash mode:"
+msgstr "चमक"
+
+#: exif/exiflight.cpp:173
+msgid ""
+"Select here the flash program mode used by the camera to take the picture."
+msgstr ""
+
+#: exif/exiflight.cpp:178
+msgid "Flash energy (BCPS):"
+msgstr ""
+
+#: exif/exiflight.cpp:184
+msgid ""
+"Set here the flash energy used to take the picture in BCPS units.  Beam "
+"Candle Power Seconds is the measure of effective intensity of a light source "
+"when it is focused into a beam by a reflector or lens. This value is the "
+"effective intensity for a period of one second."
+msgstr ""
+
+#: exif/exiflight.cpp:192
+msgid "White balance:"
+msgstr ""
+
+#: exif/exiflight.cpp:194
+msgid "Auto"
+msgstr "स्वचालित"
+
+#: exif/exiflight.cpp:195
+msgid "Manual"
+msgstr "दस्ती"
+
+#: exif/exiflight.cpp:196
+msgid ""
+"Select here the white balance mode set by the camera when the picture was "
+"taken."
+msgstr ""
+
+#: exif/exifadjust.cpp:98
+msgid "Brightness (APEX):"
+msgstr ""
+
+#: exif/exifadjust.cpp:103
+msgid ""
+"Set here the brightness adjustment value in APEX unit used by camera to take "
+"the picture."
+msgstr ""
+
+#: exif/exifadjust.cpp:108
+msgid "Gain Control:"
+msgstr ""
+
+#: exif/exifadjust.cpp:110
+#, fuzzy
+#| msgid "None"
+msgctxt "gain control"
+msgid "None"
+msgstr "किछु नहि"
+
+#: exif/exifadjust.cpp:111
+msgctxt "gain control"
+msgid "Low gain up"
+msgstr ""
+
+#: exif/exifadjust.cpp:112
+msgctxt "gain control"
+msgid "High gain up"
+msgstr ""
+
+#: exif/exifadjust.cpp:113
+msgctxt "gain control"
+msgid "Low gain down"
+msgstr ""
+
+#: exif/exifadjust.cpp:114
+msgctxt "gain control"
+msgid "High gain down"
+msgstr ""
+
+#: exif/exifadjust.cpp:115
+msgid ""
+"Set here the degree of overall image gain adjustment used by camera to take "
+"the picture."
+msgstr ""
+
+#: exif/exifadjust.cpp:120
+msgid "Contrast:"
+msgstr "विरोधी:"
+
+#: exif/exifadjust.cpp:122
+#, fuzzy
+#| msgid "Normal"
+msgctxt "contrast mode"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: exif/exifadjust.cpp:123
+#, fuzzy
+#| msgid "Soft"
+msgctxt "contrast mode"
+msgid "Soft"
+msgstr "नरम"
+
+#: exif/exifadjust.cpp:124
+#, fuzzy
+#| msgid "Hard"
+msgctxt "contrast mode"
+msgid "Hard"
+msgstr "कठिन"
+
+#: exif/exifadjust.cpp:125
+msgid ""
+"Set here the direction of contrast processing applied by the camera to take "
+"the picture."
+msgstr ""
+
+#: exif/exifadjust.cpp:130
+msgid "Saturation:"
+msgstr "संतृप्ति:"
+
+#: exif/exifadjust.cpp:132
+#, fuzzy
+#| msgid "Normal"
+msgctxt "saturation mode"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: exif/exifadjust.cpp:133
+#, fuzzy
+#| msgid "Low"
+msgctxt "saturation mode"
+msgid "Low"
+msgstr "कम"
+
+#: exif/exifadjust.cpp:134
+#, fuzzy
+#| msgid "High"
+msgctxt "saturation mode"
+msgid "High"
+msgstr "बेसी"
+
+#: exif/exifadjust.cpp:135
+msgid ""
+"Set here the direction of saturation processing applied by the camera to "
+"take the picture."
+msgstr ""
+
+#: exif/exifadjust.cpp:140
+msgid "Sharpness:"
+msgstr ""
+
+#: exif/exifadjust.cpp:142
+#, fuzzy
+#| msgid "Normal"
+msgctxt "sharpness mode"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: exif/exifadjust.cpp:143
+#, fuzzy
+#| msgid "Soft"
+msgctxt "sharpness mode"
+msgid "Soft"
+msgstr "नरम"
+
+#: exif/exifadjust.cpp:144
+#, fuzzy
+#| msgid "Hard"
+msgctxt "sharpness mode"
+msgid "Hard"
+msgstr "कठिन"
+
+#: exif/exifadjust.cpp:145
+msgid ""
+"Set here the direction of sharpness processing applied by the camera to take "
+"the picture."
+msgstr ""
+
+#: exif/exifadjust.cpp:150
+msgid "Custom rendered:"
+msgstr ""
+
+#: exif/exifadjust.cpp:152
+msgid "Normal process"
+msgstr ""
+
+#: exif/exifadjust.cpp:153
+msgid "Custom process"
+msgstr ""
+
+#: exif/exifadjust.cpp:154
+msgid ""
+"Set here the use of special processing on image data, such as rendering "
+"geared to output."
+msgstr ""
+
+#: exif/exifdatetime.cpp:111
+msgid "Creation date and time"
+msgstr ""
+
+#: exif/exifdatetime.cpp:112
+msgid "Creation sub-second"
+msgstr ""
+
+#: exif/exifdatetime.cpp:118
+msgid "Sync XMP creation date"
+msgstr ""
+
+#: exif/exifdatetime.cpp:119
+msgid "Sync IPTC creation date"
+msgstr ""
+
+#: exif/exifdatetime.cpp:128
+msgid ""
+"Set here the date and time of image creation. In this standard it is the "
+"date and time the file was changed."
+msgstr ""
+
+#: exif/exifdatetime.cpp:130
+msgid ""
+"Set here the fractions of seconds for the date and time of image creation."
+msgstr ""
+
+#: exif/exifdatetime.cpp:137
+msgid "Original date and time"
+msgstr ""
+
+#: exif/exifdatetime.cpp:138
+msgid "Original sub-second"
+msgstr ""
+
+#: exif/exifdatetime.cpp:144
+msgid "Set original date to today"
+msgstr ""
+
+#: exif/exifdatetime.cpp:146
+msgid ""
+"Set here the date and time when the original image data was generated. For a "
+"digital still camera the date and time the picture was taken are recorded."
+msgstr ""
+
+#: exif/exifdatetime.cpp:149
+msgid ""
+"Set here the fractions of seconds for the date and time when the original "
+"image data was generated."
+msgstr ""
+
+#: exif/exifdatetime.cpp:156
+msgid "Digitization date and time"
+msgstr ""
+
+#: exif/exifdatetime.cpp:157
+msgid "Digitization sub-second"
+msgstr ""
+
+#: exif/exifdatetime.cpp:165
+msgid ""
+"Set here the date and time when the image was stored as digital data. If, "
+"for example, an image was captured by a digital still camera and at the same "
+"time the file was recorded, then Original and Digitization date and time "
+"will have the same contents."
+msgstr ""
+
+#: exif/exifdatetime.cpp:170
+msgid ""
+"Set here the fractions of seconds for the date and time when the image was "
+"stored as digital data."
+msgstr ""
+
+#: exif/exifcaption.cpp:106
+#, fuzzy
+#| msgid "Name:"
+msgctxt "name of the document this image has been scanned from"
+msgid "Name (*):"
+msgstr "नाम:"
+
+#: exif/exifcaption.cpp:110
+msgid ""
+"Enter the name of the document from which this image was been scanned. This "
+"field is limited to ASCII characters."
+msgstr ""
+
+#: exif/exifcaption.cpp:116
+#, fuzzy
+#| msgid "Title:"
+msgctxt "image title"
+msgid "Title (*):"
+msgstr "शीर्षक:"
+
+#: exif/exifcaption.cpp:120
+msgid "Enter the image title. This field is limited to ASCII characters."
+msgstr ""
+
+#: exif/exifcaption.cpp:125
+#, fuzzy
+#| msgid "Title:"
+msgid "Artist (*):"
+msgstr "शीर्षक:"
+
+#: exif/exifcaption.cpp:129
+msgid ""
+"Enter the image author's name. This field is limited to ASCII characters."
+msgstr ""
+
+#: exif/exifcaption.cpp:134
+#, fuzzy
+#| msgid "Copyright:"
+msgid "Copyright (*):"
+msgstr "कॉपीराइट:"
+
+#: exif/exifcaption.cpp:138
+msgid ""
+"Enter the copyright owner of the image. This field is limited to ASCII "
+"characters."
+msgstr ""
+
+#: exif/exifcaption.cpp:143
+#, fuzzy
+#| msgid "Caption"
+msgctxt "image cpation"
+msgid "Caption:"
+msgstr "अनुशीर्षक"
+
+#: exif/exifcaption.cpp:145
+msgid ""
+"Enter the image's caption. This field is not limited. UTF8 encoding will be "
+"used to save the text."
+msgstr ""
+
+#: exif/exifcaption.cpp:149
+#, kde-format
+msgid "Sync captions entered through %1"
+msgstr ""
+
+#: exif/exifcaption.cpp:153
+msgid "Sync XMP caption"
+msgstr ""
+
+#: exif/exifcaption.cpp:162 exif/exifdevice.cpp:316
+msgid ""
+"<b>Note: <b><a href='http://en.wikipedia.org/wiki/EXIF'>EXIF</a></b> text "
+"tags marked by (*) only support printable <b><a href='http://en.wikipedia."
+"org/wiki/Ascii'>ASCII</a></b> characters.</b>"
+msgstr ""
+
+#: exif/exifdevice.cpp:133
+msgid "Device manufacturer (*):"
+msgstr ""
+
+#: exif/exifdevice.cpp:137
+msgid ""
+"Set here the manufacturer of image input equipment used to take the picture. "
+"This field is limited to ASCII characters."
+msgstr ""
+
+#: exif/exifdevice.cpp:142
+msgid "Device model (*):"
+msgstr ""
+
+#: exif/exifdevice.cpp:146
+msgid ""
+"Set here the model of image input equipment used to take the picture. This "
+"field is limited to ASCII characters."
+msgstr ""
+
+#: exif/exifdevice.cpp:151
+#, fuzzy
+#| msgid "Device"
+msgid "Device type:"
+msgstr "डिवाइस"
+
+#: exif/exifdevice.cpp:153
+msgid "Film scanner"
+msgstr ""
+
+#: exif/exifdevice.cpp:154
+msgid "Reflection print scanner"
+msgstr ""
+
+#: exif/exifdevice.cpp:155
+msgid "Digital still camera"
+msgstr ""
+
+#: exif/exifdevice.cpp:156
+msgid "Select here the image input equipment type used to take the picture."
+msgstr ""
+
+#: exif/exifdevice.cpp:159
+msgid ""
+"<b>Warning: EXIF <b><a href='http://en.wikipedia.org/wiki/"
+"Exchangeable_image_file_format#MakerNote_data'>Makernotes</a></b> can be "
+"unreadable if you set wrong device manufacturer/model description.</b>"
+msgstr ""
+
+#: exif/exifdevice.cpp:171
+msgid "Exposure time (seconds):"
+msgstr ""
+
+#: exif/exifdevice.cpp:176
+msgid ""
+"Set on this option to set the exposure time of picture, given in seconds."
+msgstr ""
+
+#: exif/exifdevice.cpp:181
+msgid "Exposure program:"
+msgstr ""
+
+#: exif/exifdevice.cpp:183
+msgctxt "exposure program"
+msgid "Not defined"
+msgstr ""
+
+#: exif/exifdevice.cpp:184
+#, fuzzy
+#| msgid "Manual"
+msgctxt "exposure program"
+msgid "Manual"
+msgstr "दस्ती"
+
+#: exif/exifdevice.cpp:185
+#, fuzzy
+#| msgid "Auto"
+msgctxt "exposure program"
+msgid "Auto"
+msgstr "स्वचालित"
+
+#: exif/exifdevice.cpp:186
+msgctxt "exposure program"
+msgid "Aperture priority"
+msgstr ""
+
+#: exif/exifdevice.cpp:187
+msgctxt "exposure program"
+msgid "Shutter priority"
+msgstr ""
+
+#: exif/exifdevice.cpp:188
+#, fuzzy
+#| msgid "Action"
+msgctxt "exposure program"
+msgid "Creative program"
+msgstr "क्रिया"
+
+#: exif/exifdevice.cpp:189
+#, fuzzy
+#| msgid "Action"
+msgctxt "exposure program"
+msgid "Action program"
+msgstr "क्रिया"
+
+#: exif/exifdevice.cpp:190
+#, fuzzy
+#| msgid "Portrait"
+msgctxt "exposure program"
+msgid "Portrait mode"
+msgstr "व्यक्तिचित्र"
+
+#: exif/exifdevice.cpp:191
+#, fuzzy
+#| msgid "Landscape"
+msgctxt "exposure program"
+msgid "Landscape mode"
+msgstr "लैंडस्केप"
+
+#: exif/exifdevice.cpp:192
+msgid ""
+"Select here the program used by the camera to set exposure when the picture "
+"was taken."
+msgstr ""
+
+#: exif/exifdevice.cpp:197
+msgid "Exposure mode:"
+msgstr ""
+
+#: exif/exifdevice.cpp:199
+#, fuzzy
+#| msgid "Auto"
+msgctxt "exposure mode"
+msgid "Auto"
+msgstr "स्वचालित"
+
+#: exif/exifdevice.cpp:200
+#, fuzzy
+#| msgid "Manual"
+msgctxt "exposure mode"
+msgid "Manual"
+msgstr "दस्ती"
+
+#: exif/exifdevice.cpp:201
+msgctxt "exposure mode"
+msgid "Auto bracket"
+msgstr ""
+
+#: exif/exifdevice.cpp:202
+msgid ""
+"Select here the mode used by the camera to set exposure when the picture was "
+"taken. In auto-bracketing mode, the camera shoots a series of frames of the "
+"same scene at different exposure settings."
+msgstr ""
+
+#: exif/exifdevice.cpp:210
+msgid "Exposure bias (APEX):"
+msgstr ""
+
+#: exif/exifdevice.cpp:215
+msgid ""
+"Set here the exposure bias value (in APEX units) used by camera to take the "
+"picture."
+msgstr ""
+
+#: exif/exifdevice.cpp:222
+msgid "Metering mode:"
+msgstr ""
+
+#: exif/exifdevice.cpp:224
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "metering mode"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: exif/exifdevice.cpp:225
+#, fuzzy
+#| msgid "Average"
+msgctxt "metering mode"
+msgid "Average"
+msgstr "औसत"
+
+#: exif/exifdevice.cpp:226
+msgctxt "metering mode"
+msgid "Center weighted average"
+msgstr ""
+
+#: exif/exifdevice.cpp:227
+#, fuzzy
+#| msgid "Soft"
+msgctxt "metering mode"
+msgid "Spot"
+msgstr "नरम"
+
+#: exif/exifdevice.cpp:228
+msgctxt "metering mode"
+msgid "Multi-spot"
+msgstr ""
+
+#: exif/exifdevice.cpp:229
+msgctxt "metering mode"
+msgid "Multi-segment"
+msgstr ""
+
+#: exif/exifdevice.cpp:230
+#, fuzzy
+#| msgid "Partial"
+msgctxt "metering mode"
+msgid "Partial"
+msgstr "आँशिक"
+
+#: exif/exifdevice.cpp:231
+#, fuzzy
+#| msgid "Other"
+msgctxt "metering mode"
+msgid "Other"
+msgstr "आन"
+
+#: exif/exifdevice.cpp:232
+msgid ""
+"Select here the metering mode used by the camera to set exposure when the "
+"picture was taken."
+msgstr ""
+
+#: exif/exifdevice.cpp:237
+msgid "Sensitivity (ISO):"
+msgstr ""
+
+#: exif/exifdevice.cpp:275
+msgid "Select here the ISO Speed of the camera which took the picture."
+msgstr ""
+
+#: exif/exifdevice.cpp:280
+msgid "Sensing method:"
+msgstr ""
+
+#: exif/exifdevice.cpp:282
+msgid "Not defined"
+msgstr ""
+
+#: exif/exifdevice.cpp:283
+msgid "One-chip color area"
+msgstr ""
+
+#: exif/exifdevice.cpp:284
+msgid "Two-chip color area"
+msgstr ""
+
+#: exif/exifdevice.cpp:285
+msgid "Three-chip color area"
+msgstr ""
+
+#: exif/exifdevice.cpp:286
+msgid "Color sequential area"
+msgstr ""
+
+#: exif/exifdevice.cpp:287
+msgid "Trilinear sensor"
+msgstr ""
+
+#: exif/exifdevice.cpp:288
+msgid "Color sequential linear"
+msgstr ""
+
+#: exif/exifdevice.cpp:289
+msgid ""
+"Select here the image sensor type used by the camera to take the picture."
+msgstr ""
+
+#: exif/exifdevice.cpp:294
+msgid "Scene capture type:"
+msgstr ""
+
+#: exif/exifdevice.cpp:296
+msgid "Standard"
+msgstr "मानक"
+
+#: exif/exifdevice.cpp:297
+msgid "Landscape"
+msgstr "लैंडस्केप"
+
+#: exif/exifdevice.cpp:298
+msgid "Portrait"
+msgstr "व्यक्तिचित्र"
+
+#: exif/exifdevice.cpp:300
+msgid "Select here the type of scene used by the camera to take the picture."
+msgstr ""
+
+#: exif/exifdevice.cpp:305
+msgid "Subject distance type:"
+msgstr ""
+
+#: exif/exifdevice.cpp:307
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: exif/exifdevice.cpp:308
+msgid "Macro"
+msgstr "मैक्रो"
+
+#: exif/exifdevice.cpp:309
+msgid "Close view"
+msgstr ""
+
+#: exif/exifdevice.cpp:310
+msgid "Distant view"
+msgstr ""
+
+#: exif/exifdevice.cpp:311
+msgid ""
+"Select here the type of distance between the subject and the image input "
+"equipment."
+msgstr ""
+
+#: exif/exiflens.cpp:156
+msgid "Focal length (mm):"
+msgstr ""
+
+#: exif/exiflens.cpp:162
+msgid ""
+"Set here the lens focal length in millimeters used by camera to take the "
+"picture."
+msgstr ""
+
+#: exif/exiflens.cpp:167
+msgid "Focal length in 35mm film (mm):"
+msgstr ""
+
+#: exif/exiflens.cpp:169
+msgid ""
+"Set here equivalent focal length assuming a 35mm film camera, in mm. A value "
+"of 0 means the focal length is unknown."
+msgstr ""
+
+#: exif/exiflens.cpp:175
+msgid "Digital zoom ratio:"
+msgstr ""
+
+#: exif/exiflens.cpp:181
+msgid "Set here the digital zoom ratio used by camera to take the picture."
+msgstr ""
+
+#: exif/exiflens.cpp:186
+msgid "Lens aperture (f-number):"
+msgstr ""
+
+#: exif/exiflens.cpp:189
+msgid "Select here the lens aperture used by camera to take the picture."
+msgstr ""
+
+#: exif/exiflens.cpp:194
+msgid "Max. lens aperture (f-number):"
+msgstr ""
+
+#: exif/exiflens.cpp:197
+msgid ""
+"Select here the smallest aperture of the lens used by camera to take the "
+"picture."
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #: plugin_metadataedit.cpp:82
 msgid "Metadata"
@@ -200,1530 +4689,12 @@ msgstr ""
 msgid "Unable to set captions as image metadata from:"
 msgstr ""
 
-#: plugin_metadataedit.cpp:766
-msgid "Edit Image Caption"
-msgstr ""
-
 #: plugin_metadataedit.cpp:845
 msgid "Unable to remove caption as image metadata from:"
 msgstr ""
-
-#: plugin_metadataedit.cpp:847
-msgid "Remove Image Caption"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#~ msgid "Afrikaans (South Africa)"
-#~ msgstr "अफ्रीकी (दक्षिण अफ्रीका)"
-
-#~ msgid "Arabic (UAE)"
-#~ msgstr "अरबी (UAE)"
-
-#~ msgid "Arabic (Bahrain)"
-#~ msgstr "अरबी (बहरिन)"
-
-#~ msgid "Arabic (Egypt)"
-#~ msgstr "अरबी (मिश्र)"
-
-#~ msgid "Arabic (Iraq)"
-#~ msgstr "अरबी (इराक)"
-
-#~ msgid "Arabic (Jordan)"
-#~ msgstr "अरबी (जोर्डन)"
-
-#~ msgid "Arabic (Kuwait)"
-#~ msgstr "अरबी (कुवैत)"
-
-#~ msgid "Arabic (Lebanon)"
-#~ msgstr "अरबी (लेबनॉन)"
-
-#~ msgid "Arabic (Libya)"
-#~ msgstr "अरबी (लीबिया)"
-
-#~ msgid "Arabic (Morocco)"
-#~ msgstr "अरबी (मोरोक्को)"
-
-#~ msgid "Arabic (Oman)"
-#~ msgstr "अरबी (ओमन)"
-
-#~ msgid "Arabic (Qatar)"
-#~ msgstr "अरेबियन (कतार)"
-
-#~ msgid "Arabic (Saudi Arabia)"
-#~ msgstr "अरबी (सउदी अरब)"
-
-#~ msgid "Arabic (Syria)"
-#~ msgstr "अरबी (सिरिया)"
-
-#~ msgid "Arabic (Tunisia)"
-#~ msgstr "अरबी (ट्यूनिशिया)"
-
-#~ msgid "Arabic (Yemen)"
-#~ msgstr "अरबी (येमन)"
-
-#~ msgid "Bengali (India)"
-#~ msgstr "बंगाली (भारत)"
-
-#~ msgid "German (Austria)"
-#~ msgstr "जर्मन (आस्ट्रिया)"
-
-#~ msgid "German (Switzerland)"
-#~ msgstr "जर्मन (स्विट्जरलैंड)"
-
-#~ msgid "German (Germany)"
-#~ msgstr "जर्मन (जर्मनी)"
-
-#~ msgid "German (Liechtenstein)"
-#~ msgstr "जर्मन (लिचेंस्टाइन)"
-
-#~ msgid "German (Luxembourg)"
-#~ msgstr "जर्मन (लक्सेम्बर्ग)"
-
-#~ msgid "English (Australia)"
-#~ msgstr "अंग्रेजी (आस्ट्रेलिया)"
-
-#~ msgid "English (Belize)"
-#~ msgstr "अंग्रेजी (बेलिज)"
-
-#~ msgid "English (Canada)"
-#~ msgstr "अंग्रेजी (कनाडा)"
-
-#~ msgid "English (Caribbean)"
-#~ msgstr "अंग्रेजी (कैरीबियन)"
-
-#~ msgid "English (United Kingdom)"
-#~ msgstr "अंग्रेजी (यूनाइडेट किंगडम)"
-
-#~ msgid "English (Ireland)"
-#~ msgstr "अंग्रेजी (आयरलैंड)"
-
-#~ msgid "English (India)"
-#~ msgstr "अँग्रेजी (भारत)"
-
-#~ msgid "English (Jamaica)"
-#~ msgstr "अंग्रेजी (जमैका)"
-
-#~ msgid "English (New Zealand)"
-#~ msgstr "अंग्रेजी (न्यूजीलैंड)"
-
-#~ msgid "English (Philippines)"
-#~ msgstr "अंग्रेजी (फिलीपीन)"
-
-#~ msgid "English (Trinidad)"
-#~ msgstr "अंग्रेजी (ट्रिनिडाड)"
-
-#~ msgid "English (South Africa)"
-#~ msgstr "अंग्रेजी (दक्षिण अफ्रीका)"
-
-#~ msgid "English (Zimbabwe)"
-#~ msgstr "अंग्रेजी (जिम्बावे)"
-
-#~ msgid "Spanish (Argentina)"
-#~ msgstr "स्पेनिश (अर्जेंटीना)"
-
-#~ msgid "Spanish (Bolivia)"
-#~ msgstr "स्पेनिश (बोलिविया)"
-
-#~ msgid "Spanish (Chile)"
-#~ msgstr "स्पेनिश (चिली)"
-
-#~ msgid "Spanish (Colombia)"
-#~ msgstr "स्पेनिश (कोलम्बिया)"
-
-#~ msgid "Spanish (Costa Rica)"
-#~ msgstr "स्पेनिश (कोस्टा रिका)"
-
-#~ msgid "Spanish (Ecuador)"
-#~ msgstr "स्पेनिश (इक्वेडर)"
-
-#~ msgid "Spanish (Spain)"
-#~ msgstr "स्पेनिश (स्पेन)"
-
-#~ msgid "Spanish (Guatemala)"
-#~ msgstr "स्पेनिश (गुआटेमाला)"
-
-#~ msgid "Spanish (Honduras)"
-#~ msgstr "स्पेनिश (होन्डुरास)"
-
-#~ msgid "Spanish (Mexico)"
-#~ msgstr "स्पेनिश (मेक्सिको)"
-
-#~ msgid "Spanish (Nicaragua)"
-#~ msgstr "स्पेनिश (निकारागुआ)"
-
-#~ msgid "Spanish (Panama)"
-#~ msgstr "स्पेनिश (पनामा)"
-
-#~ msgid "Spanish (Peru)"
-#~ msgstr "स्पेनिश (पेरु)"
-
-#~ msgid "Spanish (Puerto Rico)"
-#~ msgstr "स्पेनिश (प्यूरिटो रिको)"
-
-#~ msgid "Spanish (Paraguay)"
-#~ msgstr "स्पेनिश (परागुवे)"
-
-#~ msgid "Spanish (El Salvador)"
-#~ msgstr "स्पेनिश (एल सल्वाडोर)"
-
-#~ msgid "Spanish (Uruguay)"
-#~ msgstr "स्पेनिश (उरुगुवे)"
-
-#~ msgid "Spanish (Venezuela)"
-#~ msgstr "स्पेनिश (वेनेजुएला)"
-
-#~ msgid "French (Belgium)"
-#~ msgstr "फ्रेंच (बेल्जियम)"
-
-#~ msgid "French (Canada)"
-#~ msgstr "फ्रेंच (कनाडा)"
-
-#~ msgid "French (Switzerland)"
-#~ msgstr "फ्रेंच (स्विट्जरलैंड)"
-
-#~ msgid "French (France)"
-#~ msgstr "फ्रेन्च (फ्रान्स)"
-
-#~ msgid "French (Luxembourg)"
-#~ msgstr "फ्रेंच (लक्सेम्बर्ग)"
-
-#~ msgid "French (Monaco)"
-#~ msgstr "फ्रेंच (मोनोको)"
-
-#~ msgid "Italian (Switzerland)"
-#~ msgstr "इतालवी (स्विट्जरलैंड)"
-
-#~ msgid "Italian (Italy)"
-#~ msgstr "इटालियन (इटली)"
-
-#, fuzzy
-#~| msgid "Afrikaans (South Africa)"
-#~ msgid "Korean (South Korea)"
-#~ msgstr "अफ्रीकी (दक्षिण अफ्रीका)"
-
-#~ msgid "Maori (New Zealand)"
-#~ msgstr "माओरी (न्यूजीलैंड)"
-
-#~ msgid "Malay (Malaysia)"
-#~ msgstr "मलय (मलेशिया)"
-
-#~ msgid "Nepali (Nepal)"
-#~ msgstr "नेपाली"
-
-#~ msgid "Dutch (Belgium)"
-#~ msgstr "डच (बेल्जियम)"
-
-#~ msgid "Dutch (Netherlands)"
-#~ msgstr "डच (नीदरलैंड)"
-
-#~ msgid "Portuguese (Brazil)"
-#~ msgstr "पुर्तगाली (ब्राजिल)"
-
-#~ msgid "Portuguese (Portugal)"
-#~ msgstr "पोर्चुगीस (पुर्तगाल)"
-
-#~ msgid "Kinyarwanda (Rwanda)"
-#~ msgstr "कीनियारबांडा (रबांडा)"
-
-#~ msgid "Swedish (Finland)"
-#~ msgstr "स्वीडिश (फिनलैंड)"
-
-#~ msgid "Swedish (Sweden)"
-#~ msgstr "स्वीडिश (स्वीडन)"
-
-#~ msgid "Swahili (Kenya)"
-#~ msgstr "स्वाहिली (कीनिया)"
-
-#~ msgid "Urdu (India)"
-#~ msgstr "उर्दू (भारत)"
-
-#~ msgid "Urdu (Pakistan)"
-#~ msgstr "उर्दू (पाकिस्तान)"
-
-#~ msgid "Chinese (Singapore)"
-#~ msgstr "चीनी (सिंगापुर)"
-
-#~ msgid "Language:"
-#~ msgstr "भाषा:"
-
-#, fuzzy
-#~| msgid "None"
-#~ msgctxt "gain control"
-#~ msgid "None"
-#~ msgstr "किछु नहि"
-
-#~ msgid "Contrast:"
-#~ msgstr "विरोधी:"
-
-#, fuzzy
-#~| msgid "Normal"
-#~ msgctxt "contrast mode"
-#~ msgid "Normal"
-#~ msgstr "सामान्य"
-
-#, fuzzy
-#~| msgid "Soft"
-#~ msgctxt "contrast mode"
-#~ msgid "Soft"
-#~ msgstr "नरम"
-
-#, fuzzy
-#~| msgid "Hard"
-#~ msgctxt "contrast mode"
-#~ msgid "Hard"
-#~ msgstr "कठिन"
-
-#~ msgid "Saturation:"
-#~ msgstr "संतृप्ति:"
-
-#, fuzzy
-#~| msgid "Normal"
-#~ msgctxt "saturation mode"
-#~ msgid "Normal"
-#~ msgstr "सामान्य"
-
-#, fuzzy
-#~| msgid "Low"
-#~ msgctxt "saturation mode"
-#~ msgid "Low"
-#~ msgstr "कम"
-
-#, fuzzy
-#~| msgid "High"
-#~ msgctxt "saturation mode"
-#~ msgid "High"
-#~ msgstr "बेसी"
-
-#, fuzzy
-#~| msgid "Normal"
-#~ msgctxt "sharpness mode"
-#~ msgid "Normal"
-#~ msgstr "सामान्य"
-
-#, fuzzy
-#~| msgid "Soft"
-#~ msgctxt "sharpness mode"
-#~ msgid "Soft"
-#~ msgstr "नरम"
-
-#, fuzzy
-#~| msgid "Hard"
-#~ msgctxt "sharpness mode"
-#~ msgid "Hard"
-#~ msgstr "कठिन"
-
-#, fuzzy
-#~| msgid "Name:"
-#~ msgctxt "name of the document this image has been scanned from"
-#~ msgid "Name (*):"
-#~ msgstr "नाम:"
-
-#, fuzzy
-#~| msgid "Title:"
-#~ msgctxt "image title"
-#~ msgid "Title (*):"
-#~ msgstr "शीर्षक:"
-
-#, fuzzy
-#~| msgid "Caption"
-#~ msgctxt "image cpation"
-#~ msgid "Caption:"
-#~ msgstr "अनुशीर्षक"
-
-#, fuzzy
-#~| msgid "Manual"
-#~ msgctxt "exposure program"
-#~ msgid "Manual"
-#~ msgstr "दस्ती"
-
-#, fuzzy
-#~| msgid "Auto"
-#~ msgctxt "exposure program"
-#~ msgid "Auto"
-#~ msgstr "स्वचालित"
-
-#, fuzzy
-#~| msgid "Action"
-#~ msgctxt "exposure program"
-#~ msgid "Action program"
-#~ msgstr "क्रिया"
-
-#, fuzzy
-#~| msgid "Portrait"
-#~ msgctxt "exposure program"
-#~ msgid "Portrait mode"
-#~ msgstr "व्यक्तिचित्र"
-
-#, fuzzy
-#~| msgid "Landscape"
-#~ msgctxt "exposure program"
-#~ msgid "Landscape mode"
-#~ msgstr "लैंडस्केप"
-
-#, fuzzy
-#~| msgid "Auto"
-#~ msgctxt "exposure mode"
-#~ msgid "Auto"
-#~ msgstr "स्वचालित"
-
-#, fuzzy
-#~| msgid "Manual"
-#~ msgctxt "exposure mode"
-#~ msgid "Manual"
-#~ msgstr "दस्ती"
-
-#, fuzzy
-#~| msgid "Unknown"
-#~ msgctxt "metering mode"
-#~ msgid "Unknown"
-#~ msgstr "अज्ञात"
-
-#, fuzzy
-#~| msgid "Average"
-#~ msgctxt "metering mode"
-#~ msgid "Average"
-#~ msgstr "औसत"
-
-#, fuzzy
-#~| msgid "Soft"
-#~ msgctxt "metering mode"
-#~ msgid "Spot"
-#~ msgstr "नरम"
-
-#, fuzzy
-#~| msgid "Partial"
-#~ msgctxt "metering mode"
-#~ msgid "Partial"
-#~ msgstr "आँशिक"
-
-#, fuzzy
-#~| msgid "Other"
-#~ msgctxt "metering mode"
-#~ msgid "Other"
-#~ msgstr "आन"
-
-#~ msgid "Standard"
-#~ msgstr "मानक"
-
-#~ msgid "Landscape"
-#~ msgstr "लैंडस्केप"
-
-#~ msgid "Portrait"
-#~ msgstr "व्यक्तिचित्र"
-
-#~ msgid "Unknown"
-#~ msgstr "अज्ञात"
-
-#~ msgid "Macro"
-#~ msgstr "मैक्रो"
-
-#~ msgid "Next"
-#~ msgstr "अगिला"
-
-#~ msgid "Previous"
-#~ msgstr "पछिला"
-
-#, fuzzy
-#~| msgid "Caption"
-#~ msgctxt "image caption"
-#~ msgid "Caption"
-#~ msgstr "अनुशीर्षक"
-
-#~ msgid "Date & Time"
-#~ msgstr "दिनाँक आ समय"
-
-#~ msgid "Device"
-#~ msgstr "डिवाइस"
-
-#~ msgid "Light"
-#~ msgstr "हलुक"
-
-#, fuzzy
-#~| msgid "Unknown"
-#~ msgctxt "light source"
-#~ msgid "Unknown"
-#~ msgstr "अज्ञात"
-
-#, fuzzy
-#~| msgid "Light"
-#~ msgctxt "light source"
-#~ msgid "Daylight"
-#~ msgstr "हलुक"
-
-#, fuzzy
-#~| msgid "Forecast"
-#~ msgctxt "light source"
-#~ msgid "Fluorescent"
-#~ msgstr "पूर्वानुमान"
-
-#, fuzzy
-#~| msgid "Flash"
-#~ msgctxt "light source"
-#~ msgid "Flash"
-#~ msgstr "चमक"
-
-#, fuzzy
-#~| msgid "Shade"
-#~ msgctxt "light source"
-#~ msgid "Shade"
-#~ msgstr "छायांकित"
-
-#, fuzzy
-#~| msgid "Standard"
-#~ msgctxt "light source"
-#~ msgid "Standard light A"
-#~ msgstr "मानक"
-
-#, fuzzy
-#~| msgid "Standard"
-#~ msgctxt "light source"
-#~ msgid "Standard light B"
-#~ msgstr "मानक"
-
-#, fuzzy
-#~| msgid "Standard"
-#~ msgctxt "light source"
-#~ msgid "Standard light C"
-#~ msgstr "मानक"
-
-#~ msgid "Auto"
-#~ msgstr "स्वचालित"
-
-#~ msgid "Manual"
-#~ msgstr "दस्ती"
-
-#~ msgid "&Add"
-#~ msgstr "जोड़ू (&A)"
-
-#~ msgid "&Delete"
-#~ msgstr "मेटाबू (&D)"
-
-#~ msgid "&Replace"
-#~ msgstr "बदलू (R)"
-
-#, fuzzy
-#~| msgid "Caption"
-#~ msgctxt "content description"
-#~ msgid "Caption:"
-#~ msgstr "अनुशीर्षक"
-
-#~ msgid "Copyright:"
-#~ msgstr "कॉपीराइट:"
-
-#, fuzzy
-#~| msgid "Source:"
-#~ msgctxt "original owner of content"
-#~ msgid "Source:"
-#~ msgstr "श्रोत:"
-
-#~ msgid "Content"
-#~ msgstr "विषय"
-
-#~ msgid "Origin"
-#~ msgstr "मूल"
-
-#~ msgid "Credits"
-#~ msgstr "श्रेय"
-
-#~ msgid "Keywords"
-#~ msgstr "बीजशब्द"
-
-#~ msgid "Categories"
-#~ msgstr "श्रेणिसभ"
-
-#~ msgid "Status"
-#~ msgstr "स्थिति"
-
-#~ msgid "Properties"
-#~ msgstr "गुण"
-
-#~ msgid "Envelope"
-#~ msgstr "लिफाफ"
-
-#~ msgid "Destination:"
-#~ msgstr "गंतव्य:"
-
-#~ msgid "Priority:"
-#~ msgstr "प्राथमिकता:"
-
-#, fuzzy
-#~| msgid "None"
-#~ msgctxt "priority for the envelope"
-#~ msgid "0: None"
-#~ msgstr "किछु नहि"
-
-#, fuzzy
-#~| msgid "High"
-#~ msgctxt "priority for the envelope"
-#~ msgid "1: High"
-#~ msgstr "बेसी"
-
-#, fuzzy
-#~| msgid "Normal"
-#~ msgctxt "priority for the envelope"
-#~ msgid "5: Normal"
-#~ msgstr "सामान्य"
-
-#, fuzzy
-#~| msgid "Low"
-#~ msgctxt "priority for the envelope"
-#~ msgid "8: Low"
-#~ msgstr "कम"
-
-#~ msgid "Format:"
-#~ msgstr "प्रारूप:"
-
-#~ msgid "Afghanistan"
-#~ msgstr "अफगानिस्तान"
-
-#~ msgid "Albania"
-#~ msgstr "अलबानिया"
-
-#~ msgid "Algeria"
-#~ msgstr "अल्जीरिया"
-
-#~ msgid "American Samoa"
-#~ msgstr "अमेरिकन समोआ"
-
-#~ msgid "Andorra"
-#~ msgstr "अंडोरा"
-
-#~ msgid "Angola"
-#~ msgstr "अंगोला"
-
-#~ msgid "Anguilla"
-#~ msgstr "एंग्विला"
-
-#~ msgid "Antarctica"
-#~ msgstr "अंटार्कटिका"
-
-#~ msgid "Antigua and Barbuda"
-#~ msgstr "एंटिगुआ आओर बर्बुडा"
-
-#~ msgid "Argentina"
-#~ msgstr "अर्जेन्टिना"
-
-#~ msgid "Armenia"
-#~ msgstr "आर्मेनिया"
-
-#~ msgid "Aruba"
-#~ msgstr "अरूबा"
-
-#~ msgid "Australia"
-#~ msgstr "आस्ट्रेलिया"
-
-#~ msgid "Austria"
-#~ msgstr "आस्ट्रिया"
-
-#~ msgid "Azerbaijan"
-#~ msgstr "अजरबैजान"
-
-#~ msgid "Bahamas"
-#~ msgstr "बहामा"
-
-#~ msgid "Bahrain"
-#~ msgstr "बहरीन"
-
-#~ msgid "Bangladesh"
-#~ msgstr "बांग्लादेश"
-
-#~ msgid "Barbados"
-#~ msgstr "बारबोडस"
-
-#~ msgid "Belarus"
-#~ msgstr "बेलारूस"
-
-#~ msgid "Belgium"
-#~ msgstr "बेल्जियम"
-
-#~ msgid "Belize"
-#~ msgstr "बेलाइज"
-
-#~ msgid "Benin"
-#~ msgstr "बेनिन"
-
-#~ msgid "Bermuda"
-#~ msgstr "बरमुडा"
-
-#~ msgid "Bhutan"
-#~ msgstr "भूटान"
-
-#~ msgid "Bolivia"
-#~ msgstr "बोलिविया"
-
-#~ msgid "Bosnia and Herzegovina"
-#~ msgstr "बोस्निया आओर हर्जेगोविना"
-
-#~ msgid "Botswana"
-#~ msgstr "बोत्सवाना"
-
-#~ msgid "Bouvet Island"
-#~ msgstr "बौभेट द्वीप"
-
-#~ msgid "Brazil"
-#~ msgstr "ब्राजील"
-
-#~ msgid "British Indian Ocean Territory"
-#~ msgstr "ब्रिटिश इंडियन समुद्री क्षेत्र"
-
-#~ msgid "British Virgin Islands"
-#~ msgstr "ब्रिटिश वर्जिन द्वीप"
-
-#~ msgid "Brunei Darussalam"
-#~ msgstr "ब्रुनेई दारूसलाम"
-
-#~ msgid "Bulgaria"
-#~ msgstr "बल्गारिया"
-
-#~ msgid "Burkina Faso"
-#~ msgstr "बुर्किना फासो"
-
-#~ msgid "Burundi"
-#~ msgstr "बुरूंडी"
-
-#~ msgid "Cambodia"
-#~ msgstr "कंबोडिया"
-
-#~ msgid "Cameroon"
-#~ msgstr "कैमरून"
-
-#~ msgid "Canada"
-#~ msgstr "कनाडा"
-
-#~ msgid "Cape Verde"
-#~ msgstr "केप वर्डे"
-
-#~ msgid "Cayman Islands"
-#~ msgstr "कैमन द्वीप"
-
-#~ msgid "Central African Republic"
-#~ msgstr "केंद्रीय अफ्रीकी गणतंत्र"
-
-#~ msgid "Chad"
-#~ msgstr "चाड"
-
-#~ msgid "Chile"
-#~ msgstr "चिली"
-
-#~ msgid "China"
-#~ msgstr "चीन"
-
-#~ msgid "Cocos Islands"
-#~ msgstr "कोकोस द्वीप"
-
-#~ msgid "Colombia"
-#~ msgstr "कोलंबिया"
-
-#~ msgid "Comoros"
-#~ msgstr "कोमोरोस"
-
-#~ msgid "Congo"
-#~ msgstr "कांगो"
-
-#~ msgid "Cook Islands"
-#~ msgstr "कुक द्वीप"
-
-#~ msgid "Costa Rica"
-#~ msgstr "कोस्टा रिका"
-
-#~ msgid "Ivory Coast"
-#~ msgstr "आइवरी कोस्ट"
-
-#~ msgid "Cuba"
-#~ msgstr "क्यूबा"
-
-#~ msgid "Cyprus"
-#~ msgstr "साइप्रस"
-
-#~ msgid "Czech Republic"
-#~ msgstr "चेक गणतंत्र"
-
-#~ msgid "Denmark"
-#~ msgstr "डेनमार्क"
-
-#~ msgid "Djibouti"
-#~ msgstr "दिबोती"
-
-#~ msgid "Dominica"
-#~ msgstr "डोमिनिका"
-
-#~ msgid "Dominican Republic"
-#~ msgstr "डोमिनिकन गणतंत्र"
-
-#~ msgid "Ecuador"
-#~ msgstr "इक्वेडर"
-
-#~ msgid "Egypt"
-#~ msgstr "मिश्र"
-
-#~ msgid "El Salvador"
-#~ msgstr "अल सल्वाडोर"
-
-#~ msgid "Equatorial Guinea"
-#~ msgstr "भूमध्यरेखीय गायना"
-
-#~ msgid "Eritrea"
-#~ msgstr "इरीट्रिया"
-
-#~ msgid "Estonia"
-#~ msgstr "इस्टोनिया"
-
-#~ msgid "Ethiopia"
-#~ msgstr "इथोपिया"
-
-#~ msgid "Falkland Islands"
-#~ msgstr "फाकलैंड द्वीप"
-
-#~ msgid "Finland"
-#~ msgstr "फिनलैंड"
-
-#~ msgid "France"
-#~ msgstr "फ्रांस"
-
-#~ msgid "French Guiana"
-#~ msgstr "फ्रेंच गायना"
-
-#~ msgid "French Polynesia"
-#~ msgstr "फ्रेंच पोलीनेशिया"
-
-#~ msgid "French Southern Territories"
-#~ msgstr "फ्रेंच दक्षिण परिक्षेत्र"
-
-#~ msgid "Gabon"
-#~ msgstr "गैबन"
-
-#~ msgid "Gambia"
-#~ msgstr "गैंबिया"
-
-#~ msgid "Georgia"
-#~ msgstr "जार्जिया"
-
-#~ msgid "Germany"
-#~ msgstr "जर्मनी"
-
-#~ msgid "Ghana"
-#~ msgstr "घाना"
-
-#~ msgid "Gibraltar"
-#~ msgstr "जिब्राल्टर"
-
-#~ msgid "Greece"
-#~ msgstr "ग्रीस"
-
-#~ msgid "Greenland"
-#~ msgstr "ग्रीनलैंड"
-
-#~ msgid "Grenada"
-#~ msgstr "ग्रेनाडा"
-
-#~ msgid "Guam"
-#~ msgstr "गुआम"
-
-#~ msgid "Guatemala"
-#~ msgstr "गुआटेमाला"
-
-#~ msgid "Guinea"
-#~ msgstr "गायना"
-
-#~ msgid "Guinea-Bissau"
-#~ msgstr "गाइना बिसाउ"
-
-#~ msgid "Guyana"
-#~ msgstr "गुयाना"
-
-#~ msgid "Haiti"
-#~ msgstr "हैती"
-
-#~ msgid "Heard and McDonald Islands"
-#~ msgstr "हर्ड आ मैकडोनाल्ड द्वीप"
-
-#~ msgid "Honduras"
-#~ msgstr "होंडुरास"
-
-#~ msgid "Hong Kong"
-#~ msgstr "हांग कांग"
-
-#~ msgid "Croatia"
-#~ msgstr "क्रोशिया"
-
-#~ msgid "Hungary"
-#~ msgstr "हंगरी"
-
-#~ msgid "Iceland"
-#~ msgstr "आइसलैंड"
-
-#~ msgid "India"
-#~ msgstr "भारत"
-
-#~ msgid "Indonesia"
-#~ msgstr "इंडोनेशिया"
-
-#~ msgid "Iran"
-#~ msgstr "इरान"
-
-#~ msgid "Iraq"
-#~ msgstr "इराक"
-
-#~ msgid "Ireland"
-#~ msgstr "आयरलैंड"
-
-#~ msgid "Israel"
-#~ msgstr "इज़राइल"
-
-#~ msgid "Italy"
-#~ msgstr "इटली"
-
-#~ msgid "Jamaica"
-#~ msgstr "जमैका"
-
-#~ msgid "Japan"
-#~ msgstr "जापान"
-
-#~ msgid "Jordan"
-#~ msgstr "जोर्डन"
-
-#~ msgid "Kazakhstan"
-#~ msgstr "कजाखस्तान"
-
-#~ msgid "Kenya"
-#~ msgstr "कीनिया"
-
-#~ msgid "Kiribati"
-#~ msgstr "किरीबाती"
-
-#~ msgid "Kuwait"
-#~ msgstr "कुवैत"
-
-#~ msgid "Lao"
-#~ msgstr "लाओ"
-
-#~ msgid "Latvia"
-#~ msgstr "लातविया"
-
-#~ msgid "Lebanon"
-#~ msgstr "लेबनान"
-
-#~ msgid "Lesotho"
-#~ msgstr "लेसोथो"
-
-#~ msgid "Liberia"
-#~ msgstr "लाइबेरिया"
-
-#~ msgid "Liechtenstein"
-#~ msgstr "लिचेंस्टाइन"
-
-#~ msgid "Lithuania"
-#~ msgstr "लिथुआनिया"
-
-#~ msgid "Luxembourg"
-#~ msgstr "लक्समबर्ग"
-
-#~ msgid "Macao"
-#~ msgstr "मकाओ"
-
-#~ msgid "Macedonia"
-#~ msgstr "मेसीडोनिया"
-
-#~ msgid "Madagascar"
-#~ msgstr "मेडागास्कर"
-
-#~ msgid "Malawi"
-#~ msgstr "मलावी"
-
-#~ msgid "Malaysia"
-#~ msgstr "मलेशिया"
-
-#~ msgid "Maldives"
-#~ msgstr "मालदीव"
-
-#~ msgid "Mali"
-#~ msgstr "माली"
-
-#~ msgid "Malta"
-#~ msgstr "माल्टा"
-
-#~ msgid "Marshall Islands"
-#~ msgstr "मार्शल द्वीप"
-
-#~ msgid "Martinique"
-#~ msgstr "मार्टीनीक"
-
-#~ msgid "Mauritania"
-#~ msgstr "मारीटेनिया"
-
-#~ msgid "Mauritius"
-#~ msgstr "मॉरीशस"
-
-#~ msgid "Mayotte"
-#~ msgstr "मयोटे"
-
-#~ msgid "Mexico"
-#~ msgstr "मेक्सिको"
-
-#~ msgid "Micronesia"
-#~ msgstr "माइक्रोनेशिया"
-
-#~ msgid "Moldova"
-#~ msgstr "माल्डोवा"
-
-#~ msgid "Monaco"
-#~ msgstr "मोनाको"
-
-#~ msgid "Mongolia"
-#~ msgstr "मंगोलिया"
-
-#~ msgid "Montserrat"
-#~ msgstr "मोंट्सेराट"
-
-#~ msgid "Morocco"
-#~ msgstr "मोरोक्को"
-
-#~ msgid "Mozambique"
-#~ msgstr "मोजांबिक"
-
-#~ msgid "Myanmar"
-#~ msgstr "म्यानमार"
-
-#~ msgid "Namibia"
-#~ msgstr "नामीबिया"
-
-#~ msgid "Nauru"
-#~ msgstr "नौरू"
-
-#~ msgid "Nepal"
-#~ msgstr "नेपाल"
-
-#~ msgid "Netherlands Antilles"
-#~ msgstr "नीदरलैंड्स एंटीलेस"
-
-#~ msgid "Netherlands"
-#~ msgstr "नीदरलैंड्स"
-
-#~ msgid "New Caledonia"
-#~ msgstr "न्यू कैलिडोनिया"
-
-#~ msgid "New Zealand"
-#~ msgstr "न्यूजीलैंड"
-
-#~ msgid "Nicaragua"
-#~ msgstr "निकारागुआ"
-
-#~ msgid "Niger"
-#~ msgstr "नाइजर"
-
-#~ msgid "Nigeria"
-#~ msgstr "नाइजीरिया"
-
-#~ msgid "Niue"
-#~ msgstr "निवे"
-
-#~ msgid "Norfolk Island"
-#~ msgstr "नोरफोक द्वीप"
-
-#~ msgid "Northern Mariana Islands"
-#~ msgstr "उत्तरी मरियाना द्वीप"
-
-#~ msgid "Norway"
-#~ msgstr "नार्वे"
-
-#~ msgid "Oman"
-#~ msgstr "ओमान"
-
-#~ msgid "Pakistan"
-#~ msgstr "पाकिस्तान"
-
-#~ msgid "Palau"
-#~ msgstr "पलाउ"
-
-#~ msgid "Palestinian Territory"
-#~ msgstr "फिलीस्तीनी क्षेत्र"
-
-#~ msgid "Panama"
-#~ msgstr "पनामा"
-
-#~ msgid "Papua New Guinea"
-#~ msgstr "पापुआ न्यू गिनी"
-
-#~ msgid "Paraguay"
-#~ msgstr "पराग्वे"
-
-#~ msgid "Peru"
-#~ msgstr "पेरू"
-
-#~ msgid "Philippines"
-#~ msgstr "फिलीपीन"
-
-#~ msgid "Poland"
-#~ msgstr "पोलेंड"
-
-#~ msgid "Portugal"
-#~ msgstr "पुर्तगाल"
-
-#~ msgid "Puerto Rico"
-#~ msgstr "प्यूरिटो रिको"
-
-#~ msgid "Qatar"
-#~ msgstr "कातार"
-
-#~ msgid "Reunion"
-#~ msgstr "रीयूनियन"
-
-#~ msgid "Romania"
-#~ msgstr "रोमानिया"
-
-#~ msgid "Russian Federation"
-#~ msgstr "रूस परिसंघ"
-
-#~ msgid "Rwanda"
-#~ msgstr "रवांडा"
-
-#~ msgid "St. Helena"
-#~ msgstr "सेंट हेलेना"
-
-#~ msgid "St. Kitts and Nevis"
-#~ msgstr "सेंट किट्स आओर नेविस"
-
-#~ msgid "St. Lucia"
-#~ msgstr "सेंट लूसिया"
-
-#~ msgid "St. Pierre and Miquelon"
-#~ msgstr "सेंट पियरे आ मिकेलन"
-
-#~ msgid "St. Vincent and the Grenadines"
-#~ msgstr "सेंट विंसेंट आओर ग्रेनेडाइन्स"
-
-#~ msgid "Samoa"
-#~ msgstr "समोआ"
-
-#~ msgid "San Marino"
-#~ msgstr "सैन मेरिनो"
-
-#~ msgid "Sao Tome and Principe"
-#~ msgstr "साओ टोम आओर प्रिन्साइप"
-
-#~ msgid "Saudi Arabia"
-#~ msgstr "सऊदी अरब"
-
-#~ msgid "Senegal"
-#~ msgstr "सेनेगल"
-
-#~ msgid "Serbia and Montenegro"
-#~ msgstr "सर्बीया आओर मोन्टेनेग्रो"
-
-#~ msgid "Seychelles"
-#~ msgstr "सिचेलीस"
-
-#~ msgid "Sierra Leone"
-#~ msgstr "सियरा लियोन"
-
-#~ msgid "Singapore"
-#~ msgstr "सिंगापुर"
-
-#~ msgid "Slovakia"
-#~ msgstr "स्लोवाकिया"
-
-#~ msgid "Slovenia"
-#~ msgstr "स्लोवेनिया"
-
-#~ msgid "Solomon Islands"
-#~ msgstr "सोलोमन द्वीप"
-
-#~ msgid "Somalia"
-#~ msgstr "सोमालिया"
-
-#~ msgid "South Africa"
-#~ msgstr "दक्षिण अफ्रीका"
-
-#~ msgid "South Georgia and the South Sandwich Islands"
-#~ msgstr "दक्षिण जार्जिया आओर दक्षिण सैंडविच द्वीप"
-
-#~ msgid "Spain"
-#~ msgstr "स्पेन"
-
-#~ msgid "Sri Lanka"
-#~ msgstr "श्रीलंका"
-
-#~ msgid "Sudan"
-#~ msgstr "सूडान"
-
-#~ msgid "Suriname"
-#~ msgstr "सुरीनाम"
-
-#~ msgid "Swaziland"
-#~ msgstr "स्वाजीलैंड"
-
-#~ msgid "Sweden"
-#~ msgstr "स्वीडन"
-
-#~ msgid "Switzerland"
-#~ msgstr "स्विट्जरलैंड"
-
-#~ msgid "Taiwan"
-#~ msgstr "ताइवान"
-
-#~ msgid "Tajikistan"
-#~ msgstr "ताजीकिस्तान"
-
-#~ msgid "Tanzania"
-#~ msgstr "तान्झानीया"
-
-#~ msgid "Thailand"
-#~ msgstr "थाइलैंड"
-
-#~ msgid "Timor-Leste"
-#~ msgstr "तिमोर-लेस्टे"
-
-#~ msgid "Togo"
-#~ msgstr "टोगो"
-
-#~ msgid "Tonga"
-#~ msgstr "टोन्गा"
-
-#~ msgid "Trinidad and Tobago"
-#~ msgstr "ट्रिनिदाद आओर टोबेगो"
-
-#~ msgid "Tunisia"
-#~ msgstr "ट्यूनीशिया"
-
-#~ msgid "Turkey"
-#~ msgstr "तुर्की"
-
-#~ msgid "Turkmenistan"
-#~ msgstr "तुर्कमेनिस्तान"
-
-#~ msgid "Turks and Caicos Islands"
-#~ msgstr "तुर्क्स आओर केईकोस द्वीपओ"
-
-#~ msgid "Tuvalu"
-#~ msgstr "तुवालू"
-
-#~ msgid "US Virgin Islands"
-#~ msgstr "US वर्जिन द्वीप"
-
-#~ msgid "Uganda"
-#~ msgstr "यूगांडा"
-
-#~ msgid "Ukraine"
-#~ msgstr "उक्रेन"
-
-#~ msgid "United Arab Emirates"
-#~ msgstr "संयुक्त अरब अमीरात"
-
-#~ msgid "United Kingdom"
-#~ msgstr "यूनाइटेड किंगडम"
-
-#~ msgid "United States Minor Outlying Islands"
-#~ msgstr "युनाइटेड स्टेट्स माइनर आउटलेइंग द्वीप"
-
-#~ msgid "United States of America"
-#~ msgstr "युनाइटेड स्टेट आफ अमेरिका"
-
-#~ msgid "Uzbekistan"
-#~ msgstr "उजबेकिस्तान"
-
-#~ msgid "Vanuatu"
-#~ msgstr "वैनुआटु"
-
-#~ msgid "Venezuela"
-#~ msgstr "वेनेजुएला"
-
-#~ msgid "Viet Nam"
-#~ msgstr "वियतनाम"
-
-#~ msgid "Western Sahara"
-#~ msgstr "पश्चिम सहारा"
-
-#~ msgid "Yemen"
-#~ msgstr "यमन"
-
-#~ msgid "Zambia"
-#~ msgstr "जांबिया"
-
-#~ msgid "Zimbabwe"
-#~ msgstr "जिंबाब्वे"
-
-#~ msgid "European Union"
-#~ msgstr "यूरोपियन यूनियन"
-
-#~ msgid "Space"
-#~ msgstr "अंतरिक्ष"
-
-#~ msgid "Scotland"
-#~ msgstr "स्काटलैंड"
-
-#~ msgid "Northern Ireland"
-#~ msgstr "उत्तरी आयरलैंड"
-
-#~ msgid "Wales"
-#~ msgstr "वेल्स"
-
-#~ msgid "Palestine"
-#~ msgstr "पेलेस्टाइन"
-
-#~ msgid "Location:"
-#~ msgstr "स्थानः"
-
-#~ msgid "City:"
-#~ msgstr "शहर:"
-
-#~ msgid "State/Province:"
-#~ msgstr "राज्य/प्रदेश:"
-
-#~ msgid "Country:"
-#~ msgstr "देश:"
-
-#, fuzzy
-#~| msgid "None"
-#~ msgctxt "editorial urgency of content"
-#~ msgid "0: None"
-#~ msgstr "किछु नहि"
-
-#, fuzzy
-#~| msgid "High"
-#~ msgctxt "editorial urgency of content"
-#~ msgid "1: High"
-#~ msgstr "बेसी"
-
-#, fuzzy
-#~| msgid "Normal"
-#~ msgctxt "editorial urgency of content"
-#~ msgid "5: Normal"
-#~ msgstr "सामान्य"
-
-#, fuzzy
-#~| msgid "Low"
-#~ msgctxt "editorial urgency of content"
-#~ msgid "8: Low"
-#~ msgstr "कम"
-
-#~ msgid "Type:"
-#~ msgstr "प्रकार:"
-
-#~ msgid "News"
-#~ msgstr "समाचार"
-
-#~ msgid "Data"
-#~ msgstr "आँकड़ा"
-
-#, fuzzy
-#~| msgid "Title:"
-#~ msgctxt "image title"
-#~ msgid "Title:"
-#~ msgstr "शीर्षक:"
-
-#, fuzzy
-#~| msgid "Current"
-#~ msgctxt "Content type"
-#~ msgid "Current"
-#~ msgstr "मोजुदा"
-
-#, fuzzy
-#~| msgid "Malaysia"
-#~ msgctxt "Content type"
-#~ msgid "Analysis"
-#~ msgstr "मलेशिया"
-
-#, fuzzy
-#~| msgid "Background"
-#~ msgctxt "Content type"
-#~ msgid "Background"
-#~ msgstr "पृष्ठभूमि"
-
-#, fuzzy
-#~| msgid "Feature"
-#~ msgctxt "Content type"
-#~ msgid "Feature"
-#~ msgstr "विशेषता"
-
-#, fuzzy
-#~| msgid "Forecast"
-#~ msgctxt "Content type"
-#~ msgid "Forecast"
-#~ msgstr "पूर्वानुमान"
-
-#, fuzzy
-#~| msgid "History"
-#~ msgctxt "Content type"
-#~ msgid "History"
-#~ msgstr "इतिहास"
-
-#, fuzzy
-#~| msgid "Origin"
-#~ msgctxt "Content type"
-#~ msgid "Opinion"
-#~ msgstr "मूल"
-
-#~ msgctxt "Content type"
-#~ msgid "Profile"
-#~ msgstr "प्रोफाइल"
-
-#, fuzzy
-#~| msgid "Summary"
-#~ msgctxt "Content type"
-#~ msgid "Summary"
-#~ msgstr "सारांश"
-
-#, fuzzy
-#~| msgid "Properties"
-#~ msgctxt "Content type"
-#~ msgid "Retrospective"
-#~ msgstr "गुण"
-
-#, fuzzy
-#~| msgid "Statistics"
-#~ msgctxt "Content type"
-#~ msgid "Statistics"
-#~ msgstr "सांख्यिकी"
-
-#, fuzzy
-#~| msgid "Update"
-#~ msgctxt "Content type"
-#~ msgid "Update"
-#~ msgstr "अद्यतन"
 
 #, fuzzy
 #~| msgid "Name:"
 #~ msgctxt "name of the subject"
 #~ msgid "Name:"
 #~ msgstr "नाम:"
-
-#~ msgid "Contact"
-#~ msgstr "संपर्क"
-
-#, fuzzy
-#~| msgid "E-mail:"
-#~ msgctxt "contact email address"
-#~ msgid "E-mail:"
-#~ msgstr "इमेल:"
-
-#~ msgid "URL:"
-#~ msgstr "URL:"
-
-#~ msgctxt "Street address"
-#~ msgid "Address:"
-#~ msgstr "पता:"
-
-#~ msgctxt "Side view of a person"
-#~ msgid "Profile"
-#~ msgstr "प्रोफाइल"
-
-#~ msgid "Single"
-#~ msgstr "असगर"
-
-#, fuzzy
-#~| msgid "Group"
-#~ msgctxt "group of people"
-#~ msgid "Group"
-#~ msgstr "समूह"
-
-#~ msgid "Action"
-#~ msgstr "क्रिया"
-
-#~ msgid "Alert"
-#~ msgstr "चेतावनी"
-
-#, fuzzy
-#~| msgid "Document"
-#~ msgctxt "type is a document"
-#~ msgid "Document"
-#~ msgstr "दस्तावेज"
-
-#~ msgid "DTD"
-#~ msgstr "DTD"
-
-#~ msgid "Package"
-#~ msgstr "संकुल"
-
-#~ msgid "Topic"
-#~ msgstr "विषय"
-
-#, fuzzy
-#~| msgid "Current"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Current"
-#~ msgstr "मोजुदा"
-
-#, fuzzy
-#~| msgid "Malaysia"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Analysis"
-#~ msgstr "मलेशिया"
-
-#, fuzzy
-#~| msgid "Background"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Background"
-#~ msgstr "पृष्ठभूमि"
-
-#, fuzzy
-#~| msgid "Feature"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Feature"
-#~ msgstr "विशेषता"
-
-#, fuzzy
-#~| msgid "Forecast"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Forecast"
-#~ msgstr "पूर्वानुमान"
-
-#, fuzzy
-#~| msgid "History"
-#~ msgctxt "editorial content attribute"
-#~ msgid "History"
-#~ msgstr "इतिहास"
-
-#, fuzzy
-#~| msgid "Origin"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Opinion"
-#~ msgstr "मूल"
-
-#, fuzzy
-#~| msgctxt "Content type"
-#~| msgid "Profile"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Profile"
-#~ msgstr "प्रोफाइल"
-
-#, fuzzy
-#~| msgid "Summary"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Summary"
-#~ msgstr "सारांश"
-
-#, fuzzy
-#~| msgid "Properties"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Retrospective"
-#~ msgstr "गुण"
-
-#, fuzzy
-#~| msgid "Statistics"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Statistics"
-#~ msgstr "सांख्यिकी"
-
-#, fuzzy
-#~| msgid "Update"
-#~ msgctxt "editorial content attribute"
-#~ msgid "Update"
-#~ msgstr "अद्यतन"
-
-#, fuzzy
-#~| msgid "Title:"
-#~ msgctxt "short title for the content"
-#~ msgid "Title:"
-#~ msgstr "शीर्षक:"
-
-#~ msgid "Nickname:"
-#~ msgstr "उपनामः"
