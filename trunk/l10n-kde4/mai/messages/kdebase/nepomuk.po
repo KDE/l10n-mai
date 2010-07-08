@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-07 05:06+0200\n"
+"POT-Creation-Date: 2010-07-08 05:13+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,25 +23,33 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kioslaves/search/kio_nepomuksearch.cpp:122
-#: kioslaves/nepomuk/kio_nepomuk.cpp:264
+#: kioslaves/search/kio_nepomuksearch.cpp:70
+msgid "Query folder"
+msgstr ""
+
+#: kioslaves/search/kio_nepomuksearch.cpp:126
+#: kioslaves/nepomuk/kio_nepomuk.cpp:265
 #, fuzzy
 msgid ""
 "The Nepomuk system is not activated. Unable to answer queries without it."
 msgstr "द अछि नहि मे."
 
-#: kioslaves/search/kio_nepomuksearch.cpp:128
+#: kioslaves/search/kio_nepomuksearch.cpp:132
 #, fuzzy
 msgid ""
 "The Nepomuk query service is not running. Unable to answer queries without "
 "it."
 msgstr "द प्रश्न अछि नहि चलि रहल अछि मे."
 
-#: kioslaves/search/kio_nepomuksearch.cpp:214
+#: kioslaves/search/kio_nepomuksearch.cpp:249
 msgid "Desktop Queries"
 msgstr ""
 
-#: kioslaves/timeline/kio_timeline.cpp:80
+#: kioslaves/search/kio_nepomuksearch.cpp:427
+msgid "Saved Query"
+msgstr ""
+
+#: kioslaves/timeline/kio_timeline.cpp:83
 msgctxt ""
 "Month and year used in a tree above the actual days. Have a look at http://"
 "api.kde.org/4.x-api/kdelibs-apidocs/kdecore/html/classKCalendarSystem."
@@ -51,12 +59,18 @@ msgctxt ""
 msgid "%B %Y"
 msgstr "%B %Y"
 
-#: kioslaves/timeline/kio_timeline.cpp:112
+#: kioslaves/timeline/kio_timeline.cpp:119
+msgid ""
+"The Nepomuk Strigi file indexing service is not running. Without it timeline "
+"results are not available."
+msgstr ""
+
+#: kioslaves/timeline/kio_timeline.cpp:125
 msgid "Today"
 msgstr "आइ"
 
-#: kioslaves/timeline/kio_timeline.cpp:113
-#: kioslaves/timeline/kio_timeline.cpp:225
+#: kioslaves/timeline/kio_timeline.cpp:126
+#: kioslaves/timeline/kio_timeline.cpp:238
 msgid "Calendar"
 msgstr "कैलेंडर"
 
@@ -68,7 +82,7 @@ msgctxt ""
 msgid "%1 (on unmounted medium <resource>%2</resource>)"
 msgstr ""
 
-#: kioslaves/common/resourcestat.cpp:314
+#: kioslaves/common/resourcestat.cpp:311
 #, kde-format
 msgid "Things tagged '%1'"
 msgstr ""
@@ -91,107 +105,77 @@ msgstr "मे मेटाबू आओर सबहि मे आओर सँ
 msgid "Delete Resource"
 msgstr "मेटाबू संसाधन"
 
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:191
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:186
 msgid "Resource does not exist"
 msgstr "संसाधन नहि"
 
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:193
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:188
 msgid "Relations:"
 msgstr "सम्बन्ध:"
 
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:233
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:228
 msgid "Backlinks:"
 msgstr "बैकलिंक"
 
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:253
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:248
 msgid "Actions:"
 msgstr "क्रियासभ:"
 
-#: kioslaves/nepomuk/resourcepagegenerator.cpp:254
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:249
 msgid "Delete resource"
 msgstr "मेटाबू संसाधन"
 
-#: services/ontologyloader/ontologyloader.cpp:118
-#, fuzzy, kde-format
-msgid "Parsing of file %1 failed (%2)"
-msgstr "क' फाइल"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:322
+msgid "Hide URIs"
+msgstr ""
 
-#: services/strigi/systray.cpp:41 services/strigi/systray.cpp:44
-#: services/strigi/systray.cpp:88
-msgid "Search Service"
-msgstr "खोजू सेवा"
+#: kioslaves/nepomuk/resourcepagegenerator.cpp:322
+msgid "Show URIs"
+msgstr ""
 
-#: services/strigi/systray.cpp:46 services/strigi/systray.cpp:47
-msgid "Suspend File Indexing"
-msgstr "सस्पेंड करू फाइल सूचीकरण"
-
-#: services/strigi/systray.cpp:48
-#, fuzzy
-msgid "Suspend or resume the file indexer manually"
-msgstr "सस्पेंड करू अथवा फाइल"
-
-#: services/strigi/systray.cpp:53
-msgid "Configure File Indexer"
-msgstr "बिन्यस्त करू फाइल"
-
-#: services/strigi/strigiservice.cpp:173
+#: services/strigi/strigiservice.cpp:167
 msgctxt "@info:status"
 msgid "File indexer is suspended"
 msgstr "फाइल सूचीकरण करैबला स्थगित अछि"
 
-#: services/strigi/strigiservice.cpp:177
+#: services/strigi/strigiservice.cpp:171
 #, fuzzy
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files"
 msgstr "अछि in फोल्डर 1"
 
-#: services/strigi/strigiservice.cpp:179
+#: services/strigi/strigiservice.cpp:173
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files in folder %1"
 msgstr "अछि in फोल्डर 1"
 
-#: services/strigi/strigiservice.cpp:182
+#: services/strigi/strigiservice.cpp:176
 msgctxt "@info:status"
 msgid "File indexer is idle"
 msgstr "फाइल सूचीकएनिहार निष्क्रिय अछि"
 
-#: services/strigi/statuswidget.cpp:53
-msgid "Configure"
-msgstr "बिन्यस्त करू"
-
-#: services/strigi/statuswidget.cpp:113
-msgid "Calculation failed"
-msgstr "गिनती विफल"
-
-#: services/strigi/statuswidget.cpp:124
-#, kde-format
-msgid "1 file in index"
-msgid_plural "%1 files in index"
-msgstr[0] "1 फाइल सूचीमे"
-msgstr[1] "%1 फाइल सूचीमे"
-
-#: services/strigi/eventmonitor.cpp:65
+#: services/strigi/eventmonitor.cpp:66
 #, fuzzy
 msgid "Indexing files for fast searching. This process may take a while."
 msgstr "सूचीकरण क'लेल a."
 
-#: services/strigi/eventmonitor.cpp:93 services/strigi/eventmonitor.cpp:122
+#: services/strigi/eventmonitor.cpp:94 services/strigi/eventmonitor.cpp:123
 #, fuzzy
 msgid "Resuming indexing of files for fast searching."
 msgstr "क' क'लेल."
 
-#: services/strigi/eventmonitor.cpp:100
+#: services/strigi/eventmonitor.cpp:101
 #, fuzzy
 msgid "Suspending the indexing of files to preserve resources."
 msgstr "क' मे."
 
-#: services/strigi/eventmonitor.cpp:114
+#: services/strigi/eventmonitor.cpp:115
 #, fuzzy, kde-format
 msgid "Disk space is running low (%1 left). Suspending indexing of files."
 msgstr "डिस्क स्थान अछि चलि रहल अछि निम्न बायाँ क'."
 
-#: services/strigi/eventmonitor.cpp:142
+#: services/strigi/eventmonitor.cpp:143
 #, fuzzy, kde-format
 msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
@@ -258,6 +242,11 @@ msgstr "पुरान बैकेंड"
 msgid "New backend"
 msgstr "नवीन बैकेंड"
 
+#: services/storage/ontologyloader.cpp:116
+#, fuzzy, kde-format
+msgid "Parsing of file %1 failed (%2)"
+msgstr "क' फाइल"
+
 #: server/main.cpp:89
 msgid "Nepomuk Server"
 msgstr "नेपोमक सर्वर"
@@ -266,62 +255,85 @@ msgstr "नेपोमक सर्वर"
 msgid "Nepomuk Server - Manages Nepomuk storage and services"
 msgstr "नेपोमक सर्वर - नेपोमक भंडार आओर सेवा प्रबंधित करैत अछि"
 
-#: server/main.cpp:93 servicestub/main.cpp:72
+#: server/main.cpp:93 servicestub/main.cpp:73
 msgid "(c) 2008, Sebastian Trüg"
 msgstr "(C) 2007, सेबेस्तियन त्रुग"
 
-#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:89 servicestub/main.cpp:76
+#: server/main.cpp:96 kcm/nepomukserverkcm.cpp:113 servicestub/main.cpp:77
 msgid "Sebastian Trüg"
 msgstr "सेबेस्तियन त्रुग"
 
-#: server/main.cpp:96 servicestub/main.cpp:76
+#: server/main.cpp:96 servicestub/main.cpp:77
 msgid "Maintainer"
 msgstr "अनुरक्षक"
 
-#: kcm/nepomukserverkcm.cpp:86
+#: kcm/nepomukserverkcm.cpp:91
+msgctxt "'Home' as in 'Home path', i.e. /home/username"
+msgid "Home"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:92
+#, kde-format
+msgid "<strong><filename>%1</filename></strong>"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:94
+msgid "some subfolders excluded"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:110
 msgid "Nepomuk Configuration Module"
 msgstr "नेपोमक कान्फिगरेशन मोड्यूल"
 
-#: kcm/nepomukserverkcm.cpp:88
-msgid "Copyright 2007 Sebastian Trüg"
+#: kcm/nepomukserverkcm.cpp:112
+#, fuzzy
+#| msgid "Copyright 2007 Sebastian Trüg"
+msgid "Copyright 2007-2010 Sebastian Trüg"
 msgstr "सर्वाधिकार 2007 सेबेस्तिएन त्रुग"
 
-#: kcm/nepomukserverkcm.cpp:149
+#: kcm/nepomukserverkcm.cpp:164
+msgid ""
+"The Nepomuk installation is not complete. No Nepomuk settings can be "
+"provided."
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:267
 #, fuzzy
-msgid "No Soprano Database backend available. Please check your installation."
-msgstr "नहि डाटाबेस उपलब्ध कृप्या जाँचू."
-
-#: kcm/nepomukserverkcm.cpp:150
-msgid "Nepomuk cannot be started"
-msgstr ""
-
-#: kcm/nepomukserverkcm.cpp:158
+#| msgid ""
+#| "The Nepomuk Server is not running. The settings have been saved and will "
+#| "be used the next time the server is started."
 msgid ""
-"The Nepomuk Server is not running. The settings will be used the next time "
-"the server is started."
-msgstr ""
-"नेपोमक सर्वर चलि नहि रहल अछि. जखन अगिला बेर सर्वर प्रारंभ हाएत तँ ई बिन्याससभ क' "
-"प्रयोग कएल जाएत."
-
-#: kcm/nepomukserverkcm.cpp:160 kcm/nepomukserverkcm.cpp:237
-msgid "Nepomuk server not running"
-msgstr "नेपोमक सर्वर नहि चलि रहल अछि"
-
-#: kcm/nepomukserverkcm.cpp:235
-msgid ""
-"The Nepomuk Server is not running. The settings have been saved and will be "
+"Failed to start Nepomuk Server. The settings have been saved and will be "
 "used the next time the server is started."
 msgstr ""
 "नेपोमक सर्वर चलि नहि रहल अछि. बिन्याससभ केँ सहेज लेल गेल अछि आओर जखन अगिला बेर सर्वर "
 "प्रारंभ होगा तँ ई बिन्याससभ क' प्रयोग कएल जाएत."
 
-#: kcm/nepomukserverkcm.cpp:264
+#: kcm/nepomukserverkcm.cpp:269
+msgid "Nepomuk server not running"
+msgstr "नेपोमक सर्वर नहि चलि रहल अछि"
+
+#: kcm/nepomukserverkcm.cpp:311
+#, fuzzy
+#| msgid "Nepomuk store size:"
+msgctxt "@info:status"
+msgid "Nepomuk system is active"
+msgstr "Nepomuk जमा स्थिति:"
+
+#: kcm/nepomukserverkcm.cpp:314
+#, fuzzy
+#| msgid "Nepomuk store size:"
+msgctxt "@info:status"
+msgid "Nepomuk system is inactive"
+msgstr "Nepomuk जमा स्थिति:"
+
+#: kcm/nepomukserverkcm.cpp:326
 #, fuzzy, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "असफल मे"
 
-#: kcm/nepomukserverkcm.cpp:274
+#: kcm/nepomukserverkcm.cpp:336
 #, fuzzy
 msgctxt "@info:status"
 msgid ""
@@ -329,12 +341,20 @@ msgid ""
 "problem."
 msgstr "मे मे."
 
-#: kcm/nepomukserverkcm.cpp:278
+#: kcm/nepomukserverkcm.cpp:340
 #, fuzzy
 #| msgid "Nepomuk server not running"
 msgctxt "@info:status"
 msgid "Strigi service not running."
 msgstr "नहि चलि रहल अछि."
+
+#: kcm/nepomukserverkcm.cpp:362
+msgid "Custom root folder query"
+msgstr ""
+
+#: kcm/nepomukserverkcm.cpp:363
+msgid "Please enter a query to be listed in the root folder"
+msgstr ""
 
 #: kcm/folderselectionmodel.cpp:108
 #, fuzzy, kde-format
@@ -350,20 +370,31 @@ msgid ""
 "desktop search)"
 msgstr "<filename></filename><nl/><emphasis> नहि</emphasis> सूचीबद्ध क'लेल"
 
-#: servicestub/main.cpp:68 servicestub/main.cpp:70
+#: kcm/statuswidget.cpp:100
+msgid "Calculation failed"
+msgstr "गिनती विफल"
+
+#: kcm/statuswidget.cpp:111
+#, kde-format
+msgid "1 file in index"
+msgid_plural "%1 files in index"
+msgstr[0] "1 फाइल सूचीमे"
+msgstr[1] "%1 फाइल सूचीमे"
+
+#: servicestub/main.cpp:69 servicestub/main.cpp:71
 msgid "Nepomuk Service Stub"
 msgstr "नेपोमक सेवा स्टब"
 
-#: servicestub/main.cpp:79
+#: servicestub/main.cpp:80
 msgctxt "@info:shell"
 msgid "Service to start"
 msgstr "सेवा जकरा प्रारंभ कएनाइ अछि"
 
-#: servicestub/main.cpp:91
+#: servicestub/main.cpp:92
 msgid "No service name specified"
 msgstr "कोनो सेवा नाम उल्लेखित नहि अछि"
 
-#: servicestub/main.cpp:118
+#: servicestub/main.cpp:119
 msgid "Unknown service name:"
 msgstr "अज्ञात सेवा नाम: "
 
@@ -377,81 +408,49 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: file: services/strigi/statuswidget.ui:9
-#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: rc.cpp:5
-msgid "Nepomuk Strigi File Indexing"
-msgstr "Nepomuk Strigi फाइल सूचीकरण"
-
-#. i18n: file: services/strigi/statuswidget.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:8
-msgid "Strigi Indexing State"
-msgstr "Strigi सूचीकरणक स्थिति"
-
-#. i18n: file: services/strigi/statuswidget.ui:35
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:11
-msgid "Nepomuk Storage State"
-msgstr "Nepomuk भंडारक स्थिति"
-
-#. i18n: file: services/strigi/statuswidget.ui:41
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:14
-msgid "Indexed files:"
-msgstr "सूचीबद्ध फाइल:"
-
-#. i18n: file: services/strigi/statuswidget.ui:54
-#. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
-#. i18n: file: services/strigi/statuswidget.ui:74
-#. i18n: ectx: property (text), widget (QLabel, m_labelStoreSize)
-#: rc.cpp:17 rc.cpp:23
-msgid "Calculating..."
-msgstr "गणनामे... "
-
-#. i18n: file: services/strigi/statuswidget.ui:61
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:20
-msgid "Nepomuk store size:"
-msgstr "Nepomuk जमा स्थिति:"
-
 #. i18n: file: kcm/nepomukconfigwidget.ui:14
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:26
+#: rc.cpp:5
 msgid "Basic Settings"
 msgstr "मूल बिन्यास "
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:20
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:29
+#: rc.cpp:8
 msgid "Nepomuk Semantic Desktop"
 msgstr "नेपोमक सेमेन्टिक डेस्कटाप"
 
 #. i18n: file: kcm/nepomukconfigwidget.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:32
+#: rc.cpp:11
 #, fuzzy
 msgid ""
 "Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
 "the Desktop Search."
 msgstr "डेस्कटाप आओर क' क' सँग डेस्कटाप खोजू."
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:36
+#. i18n: file: kcm/nepomukconfigwidget.ui:40
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
-#: rc.cpp:35
+#: rc.cpp:14
 msgid "Enable Nepomuk Semantic Desktop"
 msgstr "नेपोमक सेमेन्टिक डेस्कटापक सक्षम करू"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:46
+#. i18n: file: kcm/nepomukconfigwidget.ui:86
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonDetails)
+#: rc.cpp:17
+msgid "Details..."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:101
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:38
+#: rc.cpp:20
 #, fuzzy
 msgid "Strigi Desktop File Indexer"
 msgstr "डेस्कटाप फाइल"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:52
+#. i18n: file: kcm/nepomukconfigwidget.ui:107
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:41
+#: rc.cpp:23
 msgid ""
 "Strigi desktop search allows searching for files by content instead of just "
 "by name."
@@ -459,90 +458,209 @@ msgstr ""
 "स्ट्रिगी डेस्कटाप खोज केर जरिआ केवल नाम केर बदला फाइलसभ केँ ओकर सामग्री सँ खोजल जाए सकैत "
 "अछि."
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:62
+#. i18n: file: kcm/nepomukconfigwidget.ui:117
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableStrigi)
-#: rc.cpp:44
+#: rc.cpp:26
 #, fuzzy
 msgid "Enable Strigi Desktop File Indexer"
 msgstr "सक्रिय करू डेस्कटाप फाइल"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:123
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:47
+#. i18n: file: kcm/nepomukconfigwidget.ui:178
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rc.cpp:29
+msgid "Desktop Query"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:184
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#: rc.cpp:32
 msgid "File Indexing"
 msgstr "फाइल सूचीकरण"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:129
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:50
-msgid "Strigi Index Folders"
-msgstr "स्ट्रिगी निर्देशिका फोल्डर"
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:135
+#. i18n: file: kcm/nepomukconfigwidget.ui:190
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: file: kcm/indexfolderselectionwidget.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:53
+#: rc.cpp:35 rc.cpp:154
 #, fuzzy
 msgid ""
 "Select the local folders that contain files to be indexed for fast desktop "
 "searches"
 msgstr "चुनू स्थानीय मे सूचीबद्ध क'लेल"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:148
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
-#: rc.cpp:56
+#. i18n: file: kcm/nepomukconfigwidget.ui:210
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_labelIndexFolders)
+#. i18n: file: kcm/nepomukconfigwidget.ui:325
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_customQueryLabel)
+#: rc.cpp:38 rc.cpp:84
+msgid "KSqueezedTextLabel"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:217
+#. i18n: ectx: property (text), widget (KUrlLabel, m_buttonCustomizeIndexFolders)
+#: rc.cpp:41
 #, fuzzy
-msgid "Check to be able to select hidden folders"
-msgstr "जाँचू मे मे नुकाएल "
+#| msgid "Strigi Index Folders"
+msgid "Customize index folders..."
+msgstr "स्ट्रिगी निर्देशिका फोल्डर"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:151
-#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
-#: rc.cpp:59
-msgid "Show hidden folders"
-msgstr "छिपल नुकाएल  फोल्जर"
-
-#. i18n: file: kcm/nepomukconfigwidget.ui:158
+#. i18n: file: kcm/nepomukconfigwidget.ui:226
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkIndexRemovableMedia)
-#: rc.cpp:62
+#: rc.cpp:44
 #, fuzzy
 msgid ""
 "Index the files on removable media like USB sticks when they are mounted"
 msgstr "सूची पर मीडिया समान यूएसबी"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:161
+#. i18n: file: kcm/nepomukconfigwidget.ui:229
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkIndexRemovableMedia)
-#: rc.cpp:65
+#: rc.cpp:47
 #, fuzzy
 #| msgid "Index Files on Removable Media"
 msgid "Index files on removable media"
 msgstr "सूची फाइल पर हटबैयोग्य मीडिया"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:171
-#. i18n: ectx: property (toolTip), widget (KEditListBox, m_editStrigiExcludeFilters)
-#: rc.cpp:68
-msgid "Filters which define the files that Strigi should ignore"
-msgstr "फिल्टर जे ई निर्धारित करैत अछि जे स्ट्रिगी कओन फाइलसभकेँ अनदेखा करताह"
+#. i18n: file: kcm/nepomukconfigwidget.ui:239
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: rc.cpp:50
+msgid "Query Base Folder Listing"
+msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:177
-#. i18n: ectx: property (title), widget (KEditListBox, m_editStrigiExcludeFilters)
-#: rc.cpp:71
-msgid "Strigi Index Exclude Filters"
-msgstr "स्ट्रिगी इंडेक्स एक्सक्लूड फिल्टर्स"
+#. i18n: file: kcm/nepomukconfigwidget.ui:245
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:53
+msgid ""
+"Please choose what should be listed in the Desktop Query root folder besides "
+"the history and the saved queries."
+msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:185
+#. i18n: file: kcm/nepomukconfigwidget.ui:257
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_checkRootQueryNeverOpened)
+#: rc.cpp:56
+msgid "Show the latest never opened files"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:260
+#. i18n: ectx: property (text), widget (QRadioButton, m_checkRootQueryNeverOpened)
+#: rc.cpp:59
+msgid "Never opened"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:270
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_checkRootQueryFancy)
+#: rc.cpp:63
+msgid "Tries to show the most important files."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:273
+#. i18n: ectx: property (text), widget (QRadioButton, m_checkRootQueryFancy)
+#: rc.cpp:66
+msgid "Most important files"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:283
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_checkRootQueryLastModified)
+#: rc.cpp:70
+msgid "Show the most recently modified files."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:286
+#. i18n: ectx: property (text), widget (QRadioButton, m_checkRootQueryLastModified)
+#: rc.cpp:73
+msgid "Last modified files"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:301
+#. i18n: ectx: property (toolTip), widget (QRadioButton, m_checkRootQueryCustom)
+#: rc.cpp:77
+msgid "Specify the query that should be listed."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:304
+#. i18n: ectx: property (text), widget (QRadioButton, m_checkRootQueryCustom)
+#: rc.cpp:80
+msgid "Custom query"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:332
+#. i18n: ectx: property (text), widget (KUrlLabel, m_buttonEditCustomQuery)
+#: rc.cpp:87
+msgid "Edit..."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:375
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: rc.cpp:90
+msgid "Miscellaneous"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:381
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#: rc.cpp:93
+msgid ""
+"Specify the maximum number of results that should be listed in query folders."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:384
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:96
+msgid "Maximum number of results in initial listing:"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:400
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, m_spinMaxResults)
+#: rc.cpp:99
+msgid "Show all results"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:418
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkAlwaysSortByScore)
+#: rc.cpp:102
+msgid "Sort all desktop query results by importance as deducted by Nepomuk"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:422
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_checkAlwaysSortByScore)
+#: rc.cpp:105
+msgid ""
+"Sort all search resulty by the importance deducted by Nepomuk.\n"
+"The importance of a resource is determined by its usage times, its usage "
+"frequence, its type, and other criteria."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:425
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkAlwaysSortByScore)
+#: rc.cpp:109
+msgid "Always sort results by importance"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:441
+#. i18n: ectx: property (toolTip), widget (KUrlLabel, m_buttonEditDocumentPriorities)
+#: rc.cpp:112
+msgid "Modify the importance of document types"
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:444
+#. i18n: ectx: property (text), widget (KUrlLabel, m_buttonEditDocumentPriorities)
+#: rc.cpp:115
+msgid "Modify document types priorities..."
+msgstr ""
+
+#. i18n: file: kcm/nepomukconfigwidget.ui:483
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:74
+#: rc.cpp:118
 msgid "Advanced Settings"
 msgstr "उन्नत विन्यास"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:191
+#. i18n: file: kcm/nepomukconfigwidget.ui:489
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: rc.cpp:77
+#: rc.cpp:121
 msgid "Memory Usage"
 msgstr "मेमोरी उपयोग"
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:197
+#. i18n: file: kcm/nepomukconfigwidget.ui:495
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:80
+#: rc.cpp:124
 msgid ""
 "<p>The maximum amount of main memory the Nepomuk system should use for its "
 "database process. The more memory is available to Nepomuk the better will be "
@@ -550,13 +668,125 @@ msgid ""
 "t</command> in the process manager.)"
 msgstr ""
 
-#. i18n: file: kcm/nepomukconfigwidget.ui:225
+#. i18n: file: kcm/nepomukconfigwidget.ui:523
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
-#: rc.cpp:83
+#: rc.cpp:127
 #, fuzzy
 #| msgid " MB"
 msgid " MiB"
 msgstr " MB"
+
+#. i18n: file: kcm/statuswidget.ui:10
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
+#: rc.cpp:130
+#, fuzzy
+#| msgid "Nepomuk store size:"
+msgid "Nepomuk Repository Details"
+msgstr "Nepomuk जमा स्थिति:"
+
+#. i18n: file: kcm/statuswidget.ui:13
+#. i18n: ectx: property (comment), widget (KTitleWidget, m_title)
+#: rc.cpp:133
+msgid "Status of the KDE metadata store"
+msgstr ""
+
+#. i18n: file: kcm/statuswidget.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:136
+msgid "Indexed files:"
+msgstr "सूचीबद्ध फाइल:"
+
+#. i18n: file: kcm/statuswidget.ui:35
+#. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
+#. i18n: file: kcm/statuswidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, m_labelStoreSize)
+#: rc.cpp:139 rc.cpp:145
+msgid "Calculating..."
+msgstr "गणनामे... "
+
+#. i18n: file: kcm/statuswidget.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:142
+msgid "Nepomuk store size:"
+msgstr "Nepomuk जमा स्थिति:"
+
+#. i18n: file: kcm/indexfolderselectionwidget.ui:7
+#. i18n: ectx: property (windowTitle), widget (QWidget, IndexFolderSelectionWidget)
+#: rc.cpp:148
+msgid "Form"
+msgstr ""
+
+#. i18n: file: kcm/indexfolderselectionwidget.ui:13
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:151
+msgid "Strigi Index Folders"
+msgstr "स्ट्रिगी निर्देशिका फोल्डर"
+
+#. i18n: file: kcm/indexfolderselectionwidget.ui:32
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
+#: rc.cpp:157
+#, fuzzy
+msgid "Check to be able to select hidden folders"
+msgstr "जाँचू मे मे नुकाएल "
+
+#. i18n: file: kcm/indexfolderselectionwidget.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
+#: rc.cpp:160
+msgid "Show hidden folders"
+msgstr "छिपल नुकाएल  फोल्जर"
+
+#. i18n: file: kcm/indexfolderselectionwidget.ui:45
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:163
+msgid "Strigi Index Exclude Filters"
+msgstr "स्ट्रिगी इंडेक्स एक्सक्लूड फिल्टर्स"
+
+#. i18n: file: kcm/indexfolderselectionwidget.ui:51
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:166
+msgid ""
+"Select expressions to exclude files from indexing by matching their filenames"
+msgstr ""
+
+#~ msgid "Search Service"
+#~ msgstr "खोजू सेवा"
+
+#~ msgid "Suspend File Indexing"
+#~ msgstr "सस्पेंड करू फाइल सूचीकरण"
+
+#, fuzzy
+#~ msgid "Suspend or resume the file indexer manually"
+#~ msgstr "सस्पेंड करू अथवा फाइल"
+
+#~ msgid "Configure File Indexer"
+#~ msgstr "बिन्यस्त करू फाइल"
+
+#~ msgid "Configure"
+#~ msgstr "बिन्यस्त करू"
+
+#, fuzzy
+#~ msgid ""
+#~ "No Soprano Database backend available. Please check your installation."
+#~ msgstr "नहि डाटाबेस उपलब्ध कृप्या जाँचू."
+
+#~ msgid ""
+#~ "The Nepomuk Server is not running. The settings will be used the next "
+#~ "time the server is started."
+#~ msgstr ""
+#~ "नेपोमक सर्वर चलि नहि रहल अछि. जखन अगिला बेर सर्वर प्रारंभ हाएत तँ ई बिन्याससभ क' "
+#~ "प्रयोग कएल जाएत."
+
+#~ msgid "Nepomuk Strigi File Indexing"
+#~ msgstr "Nepomuk Strigi फाइल सूचीकरण"
+
+#~ msgid "Strigi Indexing State"
+#~ msgstr "Strigi सूचीकरणक स्थिति"
+
+#~ msgid "Nepomuk Storage State"
+#~ msgstr "Nepomuk भंडारक स्थिति"
+
+#~ msgid "Filters which define the files that Strigi should ignore"
+#~ msgstr "फिल्टर जे ई निर्धारित करैत अछि जे स्ट्रिगी कओन फाइलसभकेँ अनदेखा करताह"
 
 #, fuzzy
 #~| msgid "Query Results"
