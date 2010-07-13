@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-11 05:06+0200\n"
+"POT-Creation-Date: 2010-07-13 06:01+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1927,22 +1927,22 @@ msgstr "बाहर निकालू"
 msgid "Unmount"
 msgstr "अनारोहित करू"
 
-#: kio/slave.cpp:432
+#: kio/slave.cpp:436
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr "अनचिन्ह प्रोटोकाल '%1'."
 
-#: kio/slave.cpp:440
+#: kio/slave.cpp:444
 #, kde-format
 msgid "Can not find io-slave for protocol '%1'."
 msgstr "प्रोटोकाल '%1' क' लेल आइओ-स्लेव  प्राप्त नहि कए सकल."
 
-#: kio/slave.cpp:459
+#: kio/slave.cpp:463
 #, kde-format
 msgid "Cannot talk to klauncher: %1"
 msgstr "के-लांचर सँ बात नहि कए सकल: %1"
 
-#: kio/slave.cpp:467
+#: kio/slave.cpp:471
 #, kde-format
 msgid ""
 "Unable to create io-slave:\n"
@@ -5154,23 +5154,35 @@ msgstr ""
 " %1 क' लेल \n"
 "अनुमतिसभ बदएल नहि सकल."
 
-#: ../kioslave/file/file.cpp:911
+#: ../kioslave/file/file.cpp:912
 msgid "No Media inserted or Media not recognized."
 msgstr "कोनो मीडिया प्रविष्ट नहि कएल गेल अछि अथवा मीडिया केँ पहचानल नहि जाए सकल."
 
-#: ../kioslave/file/file.cpp:921 ../kioslave/file/file.cpp:1123
+#: ../kioslave/file/file.cpp:922 ../kioslave/file/file.cpp:1131
 msgid "\"vold\" is not running."
 msgstr "\"vold\" चलि नहि रहल अछि."
 
-#: ../kioslave/file/file.cpp:956
+#: ../kioslave/file/file.cpp:957
 msgid "Could not find program \"mount\""
 msgstr "प्रोग्राम \"mount\" नहि भेटल"
 
-#: ../kioslave/file/file.cpp:1136
+#: ../kioslave/file/file.cpp:1036
+#, fuzzy
+#| msgid "Writing to %1 is not supported."
+msgid "mounting is not supported by wince."
+msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
+
+#: ../kioslave/file/file.cpp:1144
 msgid "Could not find program \"umount\""
 msgstr "प्रोग्राम \"umount\" नहि भेटल"
 
-#: ../kioslave/file/file.cpp:1224
+#: ../kioslave/file/file.cpp:1158
+#, fuzzy
+#| msgid "Writing to %1 is not supported."
+msgid "unmounting is not supported by wince."
+msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
+
+#: ../kioslave/file/file.cpp:1245
 #, kde-format
 msgid "Could not read %1"
 msgstr " %1 पढ़ि नहि सकल"
@@ -6392,51 +6404,51 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "नेटवर्क"
 
-#: ../kfile/kfileplacesmodel.cpp:155
+#: ../kfile/kfileplacesmodel.cpp:159
 #, fuzzy
 #| msgid "Root"
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr "रूट"
 
-#: ../kfile/kfileplacesmodel.cpp:159
+#: ../kfile/kfileplacesmodel.cpp:163
 #, fuzzy
 #| msgid "Trash"
 msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "रद्दी"
 
-#: ../kfile/kfileplacesmodel.cpp:754
+#: ../kfile/kfileplacesmodel.cpp:758
 #, kde-format
 msgid "&Release '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:756
+#: ../kfile/kfileplacesmodel.cpp:760
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:759
+#: ../kfile/kfileplacesmodel.cpp:763
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "अनमाउन्ट  '%1' (&U)"
 
-#: ../kfile/kfileplacesmodel.cpp:780
+#: ../kfile/kfileplacesmodel.cpp:784
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "'%1' बाहर करू (&E)"
 
-#: ../kfile/kfileplacesmodel.cpp:814
+#: ../kfile/kfileplacesmodel.cpp:818
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:850
+#: ../kfile/kfileplacesmodel.cpp:854
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:854
+#: ../kfile/kfileplacesmodel.cpp:858
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "'%1' पर पहुँचबाक कोसिस मे एकटा त्रुटि भेल"
