@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:49+0200\n"
+"POT-Creation-Date: 2010-08-23 05:34+0200\n"
 "PO-Revision-Date: 2009-04-22 00:19+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2753,9 +2753,13 @@ msgstr "हटाबू"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: file: dialogs/SpecialPasteWidget.ui:70
 #. i18n: ectx: property (text), widget (QRadioButton, formatButton)
+#. i18n: file: kspread.rc:227
+#. i18n: ectx: ToolBar (fontPropertyToolBar)
+#. i18n: file: kspread.rc:231
+#. i18n: ectx: ToolBar (formatToolBar)
 #. i18n: file: functions/conversion.xml:251
-#: rc.cpp:53 rc.cpp:398 xml_doc.cpp:198 dialogs/LayoutDialog.cpp:886
-#: ui/CellToolBase.cpp:183
+#: rc.cpp:53 rc.cpp:398 rc.cpp:812 rc.cpp:815 xml_doc.cpp:198
+#: dialogs/LayoutDialog.cpp:886 ui/CellToolBase.cpp:183
 msgid "Format"
 msgstr "प्रारूप"
 
@@ -3218,7 +3222,9 @@ msgstr ""
 
 #. i18n: file: dialogs/PositionWidget.ui:179
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
-#: rc.cpp:249 commands/MergeCommand.cpp:134 commands/Undo.cpp:1878
+#. i18n: file: kspread.rc:102
+#. i18n: ectx: Menu (MergeCellMenu)
+#: rc.cpp:249 rc.cpp:773 commands/MergeCommand.cpp:134 commands/Undo.cpp:1878
 #: ui/CellToolBase.cpp:439
 msgid "Merge Cells"
 msgstr "कोष्ठसभकेँ मिलाबू"
@@ -4236,6 +4242,179 @@ msgstr ""
 #: rc.cpp:733
 msgid "Move selected sheet to the bottom"
 msgstr ""
+
+#. i18n: file: kspread.kcfg:12
+#. i18n: ectx: label, entry, group (Editor)
+#: rc.cpp:736
+msgid "Navigate in the text by left/right arrow keys in the cell editor."
+msgstr ""
+
+#. i18n: file: kspread.kcfg:14
+#. i18n: ectx: whatsthis, entry, group (Editor)
+#: rc.cpp:739
+msgid ""
+"If true, you can navigate by left/right arrows in the cell editor.\n"
+"              Otherwise, the editing mode will be left."
+msgstr ""
+
+#. i18n: file: kspread.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:743
+msgid "&File"
+msgstr "फाइल (&F)"
+
+#. i18n: file: kspread.rc:10
+#. i18n: ectx: Menu (Edit)
+#. i18n: file: kspread_readonly.rc:3
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:746 rc.cpp:821
+msgid "&Edit"
+msgstr "सँपादित करू (&E)"
+
+#. i18n: file: kspread.rc:19
+#. i18n: ectx: Menu (Fill)
+#: rc.cpp:749
+#, fuzzy
+#| msgid "File"
+msgid "Fi&ll"
+msgstr "फाइल"
+
+#. i18n: file: kspread.rc:32
+#. i18n: ectx: Menu (Clear)
+#: rc.cpp:752
+msgid "Clear"
+msgstr "खाली"
+
+#. i18n: file: kspread.rc:41
+#. i18n: ectx: Menu (Delete)
+#: rc.cpp:755 commands/DeleteCommand.cpp:36 commands/Undo.cpp:1292
+#: part/View.cpp:504
+msgid "Delete"
+msgstr "मेटाबू"
+
+#. i18n: file: kspread.rc:51
+#. i18n: ectx: Menu (View)
+#. i18n: file: kspread_readonly.rc:8
+#. i18n: ectx: Menu (view)
+#: rc.cpp:758 rc.cpp:824
+msgid "&View"
+msgstr "दृश्य (&V)"
+
+#. i18n: file: kspread.rc:63
+#. i18n: ectx: Menu (go)
+#: rc.cpp:761
+msgid "&Go"
+msgstr ""
+
+#. i18n: file: kspread.rc:74
+#. i18n: ectx: Menu (Insert)
+#: rc.cpp:764 ui/CharSelectDia.cpp:56 ui/CharSelectDia.cpp:73
+msgid "&Insert"
+msgstr "जोड़ू (&I)"
+
+#. i18n: file: kspread.rc:87
+#. i18n: ectx: Menu (ExternalData)
+#: rc.cpp:767
+msgid "&External Data"
+msgstr ""
+
+#. i18n: file: kspread.rc:94
+#. i18n: ectx: Menu (Format)
+#: rc.cpp:770
+#, fuzzy
+#| msgid "Format"
+msgid "F&ormat"
+msgstr "प्रारूप"
+
+#. i18n: file: kspread.rc:110
+#. i18n: ectx: Menu (Row)
+#: rc.cpp:776
+#, fuzzy
+#| msgid "Row"
+msgid "&Row"
+msgstr "पँक्ति"
+
+#. i18n: file: kspread.rc:116
+#. i18n: ectx: Menu (Column)
+#: rc.cpp:779
+#, fuzzy
+#| msgid "Column"
+msgid "&Column"
+msgstr "कालम"
+
+#. i18n: file: kspread.rc:122
+#. i18n: ectx: Menu (Sheet)
+#: rc.cpp:782
+#, fuzzy
+#| msgid "Sheet"
+msgid "&Sheet"
+msgstr "शीट"
+
+#. i18n: file: kspread.rc:130
+#. i18n: ectx: Menu (PrintRange)
+#: rc.cpp:785
+#, fuzzy
+#| msgid "Define Print Range"
+msgid "&Print Range"
+msgstr "छपाइ परिसरकेँ परिभाषा दिअ'"
+
+#. i18n: file: kspread.rc:135
+#. i18n: ectx: Menu
+#: rc.cpp:788
+msgid "Manual Page Breaks"
+msgstr ""
+
+#. i18n: file: kspread.rc:145
+#. i18n: ectx: Menu (Data)
+#: rc.cpp:791
+#, fuzzy
+#| msgid "Date"
+msgid "&Data"
+msgstr "दिनांक"
+
+#. i18n: file: kspread.rc:147
+#. i18n: ectx: Menu (Filter)
+#: rc.cpp:794
+msgid "Filter"
+msgstr "फिल्टर"
+
+#. i18n: file: kspread.rc:162
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:797
+msgid "&Tools"
+msgstr "अओजार (&T)"
+
+#. i18n: file: kspread.rc:175
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:800
+msgid "&Settings"
+msgstr "जमावट (&S)"
+
+#. i18n: file: kspread.rc:205
+#. i18n: ectx: ToolBar (editToolBar)
+#: rc.cpp:803
+msgid "Edit"
+msgstr "संपादन"
+
+#. i18n: file: kspread.rc:215
+#. i18n: ectx: ToolBar (navigationToolBar)
+#: rc.cpp:806
+msgid "Navigation"
+msgstr "नेविगेशन"
+
+#. i18n: file: kspread.rc:221
+#. i18n: ectx: Menu
+#: rc.cpp:809
+msgid "Activate"
+msgstr ""
+
+#. i18n: file: kspread.rc:255
+#. i18n: ectx: ToolBar (colorAndBorderToolBar)
+#: rc.cpp:818
+#, fuzzy
+#| msgid "Border"
+msgid "Color/Border"
+msgstr "किनार"
 
 #: Sheet.cpp:933
 msgid "Dependency"
@@ -15473,10 +15652,6 @@ msgstr "कोष्ठ जोडू"
 msgid "Remove Cells"
 msgstr ""
 
-#: commands/DeleteCommand.cpp:36 commands/Undo.cpp:1292 part/View.cpp:504
-msgid "Delete"
-msgstr "मेटाबू"
-
 #: commands/IndentationCommand.cpp:38 commands/IndentationCommand.cpp:64
 msgid "Increase Indentation"
 msgstr ""
@@ -18822,10 +18997,6 @@ msgstr "परिवर्तन फेंक दिअ'"
 msgid "Select Character"
 msgstr ""
 
-#: ui/CharSelectDia.cpp:56 ui/CharSelectDia.cpp:73
-msgid "&Insert"
-msgstr "जोड़ू (&I)"
-
 #: ui/CharSelectDia.cpp:57 ui/CharSelectDia.cpp:74
 msgid "Insert the selected character in the text"
 msgstr ""
@@ -18860,33 +19031,6 @@ msgstr ""
 #: ui/RegionSelector.cpp:161
 msgid "Select Multiple Cells"
 msgstr ""
-
-#~ msgid "&File"
-#~ msgstr "फाइल (&F)"
-
-#~ msgid "&Edit"
-#~ msgstr "सँपादित करू (&E)"
-
-#~ msgid "Clear"
-#~ msgstr "खाली"
-
-#~ msgid "&View"
-#~ msgstr "दृश्य (&V)"
-
-#~ msgid "Filter"
-#~ msgstr "फिल्टर"
-
-#~ msgid "&Tools"
-#~ msgstr "अओजार (&T)"
-
-#~ msgid "&Settings"
-#~ msgstr "जमावट (&S)"
-
-#~ msgid "Edit"
-#~ msgstr "संपादन"
-
-#~ msgid "Navigation"
-#~ msgstr "नेविगेशन"
 
 #~ msgid "Options"
 #~ msgstr "विकल्प"

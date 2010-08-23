@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:43+0200\n"
+"POT-Creation-Date: 2010-08-23 05:29+0200\n"
 "PO-Revision-Date: 2010-01-29 15:54+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -330,7 +330,9 @@ msgstr "जखन क्रिया केँ चलाएल जाए तँ 
 
 #. i18n: file: actionsconfig.ui:31
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableMagicMimeActions)
-#: rc.cpp:11
+#. i18n: file: klipper.kcfg:84
+#. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
+#: rc.cpp:11 rc.cpp:160
 #, fuzzy
 msgid "Enable MIME-based actions"
 msgstr "सक्रिय करू"
@@ -443,13 +445,17 @@ msgstr "सहेजू क्लिपबोर्ड पर बाहर न�
 
 #. i18n: file: generalconfig.ui:24
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
-#: rc.cpp:66
+#. i18n: file: klipper.kcfg:16
+#. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
+#: rc.cpp:66 rc.cpp:102
 msgid "Prevent empty clipboard"
 msgstr "खाली क्लिपबोर्ड रोकू"
 
 #. i18n: file: generalconfig.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreImages)
-#: rc.cpp:75
+#. i18n: file: klipper.kcfg:21
+#. i18n: ectx: label, entry (IgnoreImages), group (General)
+#: rc.cpp:75 rc.cpp:108
 msgid "Ignore images"
 msgstr "छवि नज़रअंदाज़ करू"
 
@@ -495,6 +501,162 @@ msgstr "क्रिया पापअपक समय खत्म:"
 msgid "Clipboard history size:"
 msgstr "क्लिपबोर्डक इतिहास आकार:"
 
+#. i18n: file: klipper.kcfg:9
+#. i18n: ectx: label, entry (Version), group (General)
+#: rc.cpp:96
+msgid "Klipper version"
+msgstr "क्लिपर संस्करण"
+
+#. i18n: file: klipper.kcfg:12
+#. i18n: ectx: label, entry (KeepClipboardContents), group (General)
+#: rc.cpp:99
+msgid "Keep clipboard contents"
+msgstr "क्लिपबोर्ड सामग्री राखू"
+
+#. i18n: file: klipper.kcfg:18
+#. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
+#: rc.cpp:105
+msgid ""
+"Selecting this option has the effect, that the clipboard can never be "
+"emptied. E.g. when an application exits, the clipboard would usually be "
+"emptied."
+msgstr ""
+"ई विकल्प केँ चुनबा क' प्रभाव ई  हाएत अछि जे क्लिपबोर्ड  कहियो  खाली नहि कएल जाए सकैत. "
+"उदाहरण क' लेल- जखन अनुप्रयोग बाहर  हाएत  अछि. क्लिपबोर्ड सामान्यतः खाली  हाएत अछि."
+
+#. i18n: file: klipper.kcfg:25
+#. i18n: ectx: label, entry (IgnoreSelection), group (General)
+#: rc.cpp:111
+msgid "Ignore Selection"
+msgstr "उपेक्षा चुनाव"
+
+#. i18n: file: klipper.kcfg:27
+#. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
+#: rc.cpp:114
+#, fuzzy
+msgid ""
+"<qt>When an area of the screen is selected with mouse or keyboard, this is "
+"called \"the selection\". If this option is set, the selection is not "
+"entered into the clipboard history, though it is still available for pasting "
+"using the middle mouse button.</qt>"
+msgstr ""
+"<qt> जखन क' अछि चयनित क' सँग माउस अथवा कीबोर्ड अछि अछि set अछि नहि क्लिपबोर्ड "
+"अछि उपलब्ध क'लेल माउस बटन</qt>"
+
+#. i18n: file: klipper.kcfg:34
+#. i18n: ectx: label, entry (SyncClipboards), group (General)
+#: rc.cpp:118
+msgid "Synchronize clipboard and selection"
+msgstr "क्लिपबोर्ड आओर चयन तुल्यकालित करू"
+
+#. i18n: file: klipper.kcfg:36
+#. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
+#: rc.cpp:121
+#, fuzzy
+msgid ""
+"<qt>When an area of the screen is selected with mouse or keyboard, this is "
+"called \"the selection\". If this option is selected, the selection and the "
+"clipboard is kept the same, so that anything in the selection is immediately "
+"available for pasting elsewhere using any method, including the traditional "
+"middle mouse button. Otherwise, the selection is recorded in the clipboard "
+"history, but the selection can only be pasted using the middle mouse button. "
+"Also see the 'Ignore Selection' option.</qt>"
+msgstr ""
+"<qt> जखन क' अछि चयनित क' सँग माउस अथवा कीबोर्ड अछि अछि चयनित आओर क्लिपबोर्ड अछि "
+"in अछि तुरंत उपलब्ध क'लेल कोनो भी माउस बटन अछि in क्लिपबोर्ड माउस बटन उपेक्षा चुनाव</"
+"qt>"
+
+#. i18n: file: klipper.kcfg:39
+#. i18n: ectx: label, entry (SelectionTextOnly), group (General)
+#: rc.cpp:124
+msgid "Selection text only"
+msgstr "चयन पाठ केवल"
+
+#. i18n: file: klipper.kcfg:41
+#. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
+#: rc.cpp:127
+#, fuzzy
+msgid ""
+"<qt>When an area of the screen is selected with mouse or keyboard, this is "
+"called \"the selection\". If this option is selected, only text selections "
+"are stored in the history, while images and other selections are not.</qt>"
+msgstr ""
+"<qt> जखन क' अछि चयनित क' सँग माउस अथवा कीबोर्ड अछि अछि चयनित पाठ in आओर आन  "
+"नहि</qt>"
+
+#. i18n: file: klipper.kcfg:44
+#. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
+#: rc.cpp:130
+msgid "Use graphical regexp editor"
+msgstr "आलेखी regexp संपादक कए प्रयोग करू"
+
+#. i18n: file: klipper.kcfg:48
+#. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
+#: rc.cpp:133
+msgid "URL grabber enabled"
+msgstr "URL सक्षम सक्रिय"
+
+#. i18n: file: klipper.kcfg:53
+#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
+#: rc.cpp:136
+msgid "No actions for WM_CLASS"
+msgstr "WM_CLASS क लेल कोनो क्रिया नहि"
+
+#. i18n: file: klipper.kcfg:56
+#. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
+#: rc.cpp:139
+#, fuzzy
+msgid "Timeout for action popups (seconds)"
+msgstr "समय समाप्ति क'लेल सकेण्ड"
+
+#. i18n: file: klipper.kcfg:60
+#. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
+#: rc.cpp:142
+msgid "A value of 0 disables the timeout"
+msgstr "0 क' मान टाइमआउट केँ अक्षम करैत अछि"
+
+#. i18n: file: klipper.kcfg:63
+#. i18n: ectx: label, entry (MaxClipItems), group (General)
+#: rc.cpp:145
+msgid "Clipboard history size"
+msgstr "क्लिपबोर्डक इतिहासक आकार"
+
+#. i18n: file: klipper.kcfg:69
+#. i18n: ectx: label, entry (ActionList), group (General)
+#: rc.cpp:148
+#, fuzzy
+msgid "Dummy entry for indicating changes in an action's tree widget"
+msgstr "प्रविष्टि क'लेल in s ट्री"
+
+#. i18n: file: klipper.kcfg:75
+#. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
+#: rc.cpp:151
+#, fuzzy
+#| msgid "Remove whitespace when executing actions"
+msgid "Strip whitespace when executing an action"
+msgstr "जखन क्रिया केँ चलाएल जाए तँ व्हाइटस्पेसेस हटाउ"
+
+#. i18n: file: klipper.kcfg:77
+#. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
+#: rc.cpp:154
+msgid ""
+"Sometimes, the selected text has some whitespace at the end, which, if "
+"loaded as URL in a browser would cause an error. Enabling this option "
+"removes any whitespace at the beginning or end of the selected string (the "
+"original clipboard contents will not be modified)."
+msgstr ""
+" कहियो - कहियो  चुनल गेल पाठ क' अंत मे व्हाइट-स्पेस  हाएत  अछि. जँ यूआरएलक तरह ब्राउज़र "
+"मे लोड  हाएत  अछि तँ ई त्रुटि पैदा कए सकैत अछि. एहि विकल्प केँ सक्षम करब पर कोनो "
+"व्हाइटस्पेस जे चुनल गेल वाक्यांश क' प्रारंभ अथवा अंत मे, तँ ओकरा हटाए देत अछि (क्लिपबोर्ड क' "
+"मूल विषय-वस्तु मे कोनो परिवर्धन नहि हाएत)."
+
+#. i18n: file: klipper.kcfg:80
+#. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
+#: rc.cpp:157
+#, fuzzy
+msgid "Replay action in history"
+msgstr "in"
+
 #: tray.cpp:41
 #, fuzzy
 #| msgid "Keep clipboard contents"
@@ -517,102 +679,6 @@ msgstr "ई पापअप केँ अक्षम करू"
 #: urlgrabber.cpp:247
 msgid "&Cancel"
 msgstr "रद्द करू (&C)"
-
-#~ msgid "Klipper version"
-#~ msgstr "क्लिपर संस्करण"
-
-#~ msgid "Keep clipboard contents"
-#~ msgstr "क्लिपबोर्ड सामग्री राखू"
-
-#~ msgid ""
-#~ "Selecting this option has the effect, that the clipboard can never be "
-#~ "emptied. E.g. when an application exits, the clipboard would usually be "
-#~ "emptied."
-#~ msgstr ""
-#~ "ई विकल्प केँ चुनबा क' प्रभाव ई  हाएत अछि जे क्लिपबोर्ड  कहियो  खाली नहि कएल जाए "
-#~ "सकैत. उदाहरण क' लेल- जखन अनुप्रयोग बाहर  हाएत  अछि. क्लिपबोर्ड सामान्यतः खाली  "
-#~ "हाएत अछि."
-
-#~ msgid "Ignore Selection"
-#~ msgstr "उपेक्षा चुनाव"
-
-#, fuzzy
-#~ msgid ""
-#~ "<qt>When an area of the screen is selected with mouse or keyboard, this "
-#~ "is called \"the selection\". If this option is set, the selection is not "
-#~ "entered into the clipboard history, though it is still available for "
-#~ "pasting using the middle mouse button.</qt>"
-#~ msgstr ""
-#~ "<qt> जखन क' अछि चयनित क' सँग माउस अथवा कीबोर्ड अछि अछि set अछि नहि क्लिपबोर्ड "
-#~ "अछि उपलब्ध क'लेल माउस बटन</qt>"
-
-#~ msgid "Synchronize clipboard and selection"
-#~ msgstr "क्लिपबोर्ड आओर चयन तुल्यकालित करू"
-
-#, fuzzy
-#~ msgid ""
-#~ "<qt>When an area of the screen is selected with mouse or keyboard, this "
-#~ "is called \"the selection\". If this option is selected, the selection "
-#~ "and the clipboard is kept the same, so that anything in the selection is "
-#~ "immediately available for pasting elsewhere using any method, including "
-#~ "the traditional middle mouse button. Otherwise, the selection is recorded "
-#~ "in the clipboard history, but the selection can only be pasted using the "
-#~ "middle mouse button. Also see the 'Ignore Selection' option.</qt>"
-#~ msgstr ""
-#~ "<qt> जखन क' अछि चयनित क' सँग माउस अथवा कीबोर्ड अछि अछि चयनित आओर क्लिपबोर्ड "
-#~ "अछि in अछि तुरंत उपलब्ध क'लेल कोनो भी माउस बटन अछि in क्लिपबोर्ड माउस बटन उपेक्षा "
-#~ "चुनाव</qt>"
-
-#~ msgid "Selection text only"
-#~ msgstr "चयन पाठ केवल"
-
-#, fuzzy
-#~ msgid ""
-#~ "<qt>When an area of the screen is selected with mouse or keyboard, this "
-#~ "is called \"the selection\". If this option is selected, only text "
-#~ "selections are stored in the history, while images and other selections "
-#~ "are not.</qt>"
-#~ msgstr ""
-#~ "<qt> जखन क' अछि चयनित क' सँग माउस अथवा कीबोर्ड अछि अछि चयनित पाठ in आओर आन  "
-#~ "नहि</qt>"
-
-#~ msgid "Use graphical regexp editor"
-#~ msgstr "आलेखी regexp संपादक कए प्रयोग करू"
-
-#~ msgid "URL grabber enabled"
-#~ msgstr "URL सक्षम सक्रिय"
-
-#~ msgid "No actions for WM_CLASS"
-#~ msgstr "WM_CLASS क लेल कोनो क्रिया नहि"
-
-#, fuzzy
-#~ msgid "Timeout for action popups (seconds)"
-#~ msgstr "समय समाप्ति क'लेल सकेण्ड"
-
-#~ msgid "A value of 0 disables the timeout"
-#~ msgstr "0 क' मान टाइमआउट केँ अक्षम करैत अछि"
-
-#~ msgid "Clipboard history size"
-#~ msgstr "क्लिपबोर्डक इतिहासक आकार"
-
-#, fuzzy
-#~ msgid "Dummy entry for indicating changes in an action's tree widget"
-#~ msgstr "प्रविष्टि क'लेल in s ट्री"
-
-#~ msgid ""
-#~ "Sometimes, the selected text has some whitespace at the end, which, if "
-#~ "loaded as URL in a browser would cause an error. Enabling this option "
-#~ "removes any whitespace at the beginning or end of the selected string "
-#~ "(the original clipboard contents will not be modified)."
-#~ msgstr ""
-#~ " कहियो - कहियो  चुनल गेल पाठ क' अंत मे व्हाइट-स्पेस  हाएत  अछि. जँ यूआरएलक तरह "
-#~ "ब्राउज़र मे लोड  हाएत  अछि तँ ई त्रुटि पैदा कए सकैत अछि. एहि विकल्प केँ सक्षम करब पर "
-#~ "कोनो व्हाइटस्पेस जे चुनल गेल वाक्यांश क' प्रारंभ अथवा अंत मे, तँ ओकरा हटाए देत अछि "
-#~ "(क्लिपबोर्ड क' मूल विषय-वस्तु मे कोनो परिवर्धन नहि हाएत)."
-
-#, fuzzy
-#~ msgid "Replay action in history"
-#~ msgstr "in"
 
 #~ msgid "Show Klipper Popup-Menu"
 #~ msgstr "क्लिपर पापअप मेनू देखाउ"
