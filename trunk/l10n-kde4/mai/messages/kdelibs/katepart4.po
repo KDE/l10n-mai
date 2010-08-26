@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-24 06:06+0200\n"
+"POT-Creation-Date: 2010-08-26 05:56+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -60,71 +60,6 @@ msgstr ""
 #: mode/katemodeconfigpage.cpp:289
 msgid "Select Mime Types"
 msgstr "माइम प्रकार चुनू"
-
-#: tests/test_regression.cpp:104
-msgid "Directory containing tests, basedir and output directories."
-msgstr "डिरेक्ट्री मे जांच, बेसडिरेक्ट्रीज आओर आउटपुट डिरेक्ट्रीज छी."
-
-#: tests/test_regression.cpp:105
-msgid ""
-"Compare failures of this testrun against snapshot <snapshot>. Defaults to "
-"the most recently captured failure snapshot or none if none exists."
-msgstr ""
-
-#: tests/test_regression.cpp:107
-msgid "Do not suppress debug output"
-msgstr "डिबग आउटपुट नहि दबाबू"
-
-#: tests/test_regression.cpp:109
-msgid "Regenerate baseline (instead of checking)"
-msgstr "बेसलाइन फिनु सँ जेनरेट करू (जाँच केर बदला)"
-
-#: tests/test_regression.cpp:110
-msgid "Keep output files even on success"
-msgstr ""
-
-#: tests/test_regression.cpp:111
-msgid "Save failures of this testrun as failure snapshot <snapshot>"
-msgstr ""
-
-#: tests/test_regression.cpp:113
-msgid "Show the window while running tests"
-msgstr "जखन जाँचि चलि रहल अछि तँ विंडो देखाबू"
-
-#: tests/test_regression.cpp:115
-msgid "Only run a single test. Multiple options allowed."
-msgstr "केवल असगर जाँच चलाबू. बहु विकल्प स्वीकार्य नहि छी."
-
-#: tests/test_regression.cpp:117
-msgid "Put output in <directory> instead of <base_dir>/output"
-msgstr "आउटपुट केँ <directory> मे राखू बदला एतय <base_dir>/output"
-
-#: tests/test_regression.cpp:118
-msgid "Run each test case in a separate process."
-msgstr ""
-
-#: tests/test_regression.cpp:119
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-"डिरेक्ट्री जकरामे जाँच, बेसडिरेक्ट्री आ आउटपुट डिरेक्ट्रीज छी. तखन विचार कएल जाए जखन -b "
-"निर्दिष्ट नहि हुए."
-
-#: tests/test_regression.cpp:120
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-"टेस्टकेस क' लेल रिलेटिव पथ, अथवा चलाबै क' लेल टेस्टकेस की डिरेक्ट्री ( -t केर समतुल्य)."
-
-#: tests/test_regression.cpp:137
-msgid "TestRegression"
-msgstr "टेस्ट-रीग्रेसन"
-
-#: tests/test_regression.cpp:138
-msgid "Regression tester for kate"
-msgstr "kate क लेल रिग्रेसन जाँचक"
 
 #: tests/katetest.cpp:103 tests/katetest.cpp:542
 msgid ""
@@ -1777,9 +1712,17 @@ msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
 
 #: dialogs/katedialogs.cpp:240 dialogs/katedialogs.cpp:242
+#, fuzzy
+#| msgid " characters"
+msgid " character"
+msgid_plural " characters"
+msgstr[0] "अक्षर"
+msgstr[1] "अक्षर"
+
 #: dialogs/katedialogs.cpp:627
 #, fuzzy
 #| msgid " characters"
+msgctxt "Wrap words at"
 msgid " character"
 msgid_plural " characters"
 msgstr[0] "अक्षर"
@@ -2123,11 +2066,11 @@ msgstr "<qt>त्रुटि <b>%4</b><br /> फाइल %1 मे %2/%3</qt>
 msgid "Unable to open %1"
 msgstr "%1 खोलबा मे अक्षम"
 
-#: syntax/katesyntaxdocument.cpp:492
+#: syntax/katesyntaxdocument.cpp:491
 msgid "Errors!"
 msgstr "त्रुटि!"
 
-#: syntax/katesyntaxdocument.cpp:497
+#: syntax/katesyntaxdocument.cpp:496
 #, kde-format
 msgid "Error: %1"
 msgstr "त्रुटि: %1"
@@ -6346,6 +6289,43 @@ msgstr "YAML"
 msgctxt "Language"
 msgid "Zonnon"
 msgstr "Zonnon"
+
+#~ msgid "Directory containing tests, basedir and output directories."
+#~ msgstr "डिरेक्ट्री मे जांच, बेसडिरेक्ट्रीज आओर आउटपुट डिरेक्ट्रीज छी."
+
+#~ msgid "Do not suppress debug output"
+#~ msgstr "डिबग आउटपुट नहि दबाबू"
+
+#~ msgid "Regenerate baseline (instead of checking)"
+#~ msgstr "बेसलाइन फिनु सँ जेनरेट करू (जाँच केर बदला)"
+
+#~ msgid "Show the window while running tests"
+#~ msgstr "जखन जाँचि चलि रहल अछि तँ विंडो देखाबू"
+
+#~ msgid "Only run a single test. Multiple options allowed."
+#~ msgstr "केवल असगर जाँच चलाबू. बहु विकल्प स्वीकार्य नहि छी."
+
+#~ msgid "Put output in <directory> instead of <base_dir>/output"
+#~ msgstr "आउटपुट केँ <directory> मे राखू बदला एतय <base_dir>/output"
+
+#~ msgid ""
+#~ "Directory containing tests, basedir and output directories. Only regarded "
+#~ "if -b is not specified."
+#~ msgstr ""
+#~ "डिरेक्ट्री जकरामे जाँच, बेसडिरेक्ट्री आ आउटपुट डिरेक्ट्रीज छी. तखन विचार कएल जाए जखन -"
+#~ "b निर्दिष्ट नहि हुए."
+
+#~ msgid ""
+#~ "Relative path to testcase, or directory of testcases to be run "
+#~ "(equivalent to -t)."
+#~ msgstr ""
+#~ "टेस्टकेस क' लेल रिलेटिव पथ, अथवा चलाबै क' लेल टेस्टकेस की डिरेक्ट्री ( -t केर समतुल्य)."
+
+#~ msgid "TestRegression"
+#~ msgstr "टेस्ट-रीग्रेसन"
+
+#~ msgid "Regression tester for kate"
+#~ msgstr "kate क लेल रिग्रेसन जाँचक"
 
 #~ msgid "Error: "
 #~ msgstr "त्रुटि "
