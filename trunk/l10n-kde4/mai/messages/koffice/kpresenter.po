@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:49+0200\n"
+"POT-Creation-Date: 2010-09-02 07:05+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1093,7 +1093,7 @@ msgstr ""
 #: part/ui/KPrCustomSlideShowsDialog.cpp:82
 #: part/ui/KPrCustomSlideShowsDialog.cpp:239
 #: part/ui/KPrCustomSlideShowsDialog.cpp:257
-#: part/ui/KPrHtmlExportDialog.cpp:119
+#: part/ui/KPrHtmlExportDialog.cpp:119 part/KPrViewModeSlidesSorter.cpp:257
 #, kde-format
 msgid "Slide %1"
 msgstr ""
@@ -1417,61 +1417,67 @@ msgstr "अंतिम स्लाइड"
 msgid "Configure KPresenter..."
 msgstr ""
 
-#: part/KPrView.cpp:179
+#: part/KPrView.cpp:185
 msgid "Export as HTML..."
 msgstr ""
 
-#: part/KPrView.cpp:183
+#: part/KPrView.cpp:189
 msgid "Normal"
 msgstr "सामान्य"
 
-#: part/KPrView.cpp:189
+#: part/KPrView.cpp:195
 msgid "Notes"
 msgstr "टिप्पणी"
 
-#: part/KPrView.cpp:194
+#: part/KPrView.cpp:200
+#, fuzzy
+#| msgid "Slide Show"
+msgid "Slides Sorter"
+msgstr "स्लाइड शो"
+
+#: part/KPrView.cpp:205
 #, fuzzy
 #| msgid "Insert Slide"
 msgid "Insert Pictures..."
 msgstr "स्लाइड जोडू"
 
-#: part/KPrView.cpp:202
+#: part/KPrView.cpp:214
 msgid "Create Appear Animation"
 msgstr ""
 
-#: part/KPrView.cpp:206
+#: part/KPrView.cpp:218
 msgid "Edit Custom Slide Shows..."
 msgstr ""
 
-#: part/KPrView.cpp:210
+#: part/KPrView.cpp:222
 msgid "Start Presentation"
 msgstr ""
 
-#: part/KPrView.cpp:213
+#: part/KPrView.cpp:225
 msgid "From Current Slide"
 msgstr ""
 
-#: part/KPrView.cpp:218
+#: part/KPrView.cpp:230
 msgid "From First Slide"
 msgstr ""
 
-#: part/KPrView.cpp:223
+#: part/KPrView.cpp:235
 msgid "Configure Slide Show..."
 msgstr ""
 
-#: part/KPrView.cpp:227
+#: part/KPrView.cpp:239
 msgid "Configure Presenter View..."
 msgstr ""
 
-#: part/KPrView.cpp:231
+#: part/KPrView.cpp:243
 msgid "Draw on the presentation..."
 msgstr ""
 
-#: part/KPrView.cpp:238
+#: part/KPrView.cpp:250
 msgid "Highlight the presentation..."
 msgstr ""
 
-#: part/KPrView.cpp:245
+#: part/KPrView.cpp:257
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
@@ -1753,7 +1759,7 @@ msgstr "सँपादित करू (&E)"
 msgid "&View"
 msgstr "दृश्य (&V)"
 
-#. i18n: file: part/kpresenter.rc:49
+#. i18n: file: part/kpresenter.rc:50
 #. i18n: ectx: Menu (insert)
 #. i18n: file: kpresenter.rc:53
 #. i18n: ectx: Menu (Insert)
@@ -1761,7 +1767,7 @@ msgstr "दृश्य (&V)"
 msgid "&Insert"
 msgstr "जोड़ू (&I)"
 
-#. i18n: file: part/kpresenter.rc:54
+#. i18n: file: part/kpresenter.rc:55
 #. i18n: ectx: Menu (format)
 #. i18n: file: kpresenter.rc:90
 #. i18n: ectx: Menu (Format)
@@ -1769,13 +1775,13 @@ msgstr "जोड़ू (&I)"
 msgid "F&ormat"
 msgstr ""
 
-#. i18n: file: part/kpresenter.rc:63
+#. i18n: file: part/kpresenter.rc:64
 #. i18n: ectx: Menu (page)
 #: rc.cpp:146
 msgid "&Slide"
 msgstr ""
 
-#. i18n: file: part/kpresenter.rc:74
+#. i18n: file: part/kpresenter.rc:75
 #. i18n: ectx: Menu (slideshow)
 #. i18n: file: kpresenter_readonly.rc:12
 #. i18n: ectx: Menu (Slide Show)
@@ -1785,7 +1791,7 @@ msgstr ""
 msgid "Sli&de Show"
 msgstr ""
 
-#. i18n: file: part/kpresenter.rc:81
+#. i18n: file: part/kpresenter.rc:82
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kpresenter.rc:179
 #. i18n: ectx: Menu (settings)
