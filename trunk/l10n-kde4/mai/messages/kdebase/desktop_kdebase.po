@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 05:29+0000\n"
+"POT-Creation-Date: 2010-09-07 01:09+0000\n"
 "PO-Revision-Date: 2010-01-28 13:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -2162,7 +2162,7 @@ msgctxt "Name"
 msgid "Baidu"
 msgstr ""
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/baidu.desktop:22
+#: runtime/kurifilter-plugins/ikws/searchproviders/baidu.desktop:23
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.dict.cc/?s=\\\\{@}"
@@ -2191,7 +2191,7 @@ msgctxt "Name"
 msgid "Bing"
 msgstr "बेनिन"
 
-#: runtime/kurifilter-plugins/ikws/searchproviders/bing.desktop:23
+#: runtime/kurifilter-plugins/ikws/searchproviders/bing.desktop:24
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://info.alexa.com/search?q=\\\\{@}"
@@ -6685,12 +6685,27 @@ msgstr "फालबैक प्रतीक प्रसंग"
 #| msgctxt "Name"
 #| msgid "Network & Connectivity"
 msgctxt "Name"
-msgid "Newspaper Activity"
+msgid "Newspaper Layout"
 msgstr "नेटवर्क आ कनेक्टिविटी"
 
 #: runtime/plasma/containments/newspaper/plasma-containment-newspaper.desktop:45
 msgctxt "Comment"
-msgid "An activity that puts widgets on two columns"
+msgid "A layout that puts widgets into columns"
+msgstr ""
+
+#: runtime/plasma/kpart/plasma-kpart.desktop:2
+msgctxt "Name"
+msgid "plasma-kpart"
+msgstr ""
+
+#: runtime/plasma/kpart/shell/plasma-kpart-shell.desktop:2
+msgctxt "Name"
+msgid "plasma-kpart-shell"
+msgstr ""
+
+#: runtime/plasma/kpart/shell/plasma-kpart-shell.desktop:14
+msgctxt "GenericName"
+msgid "A KPart shell for Plasma"
 msgstr ""
 
 #: runtime/plasma/remotewidgetshelper/kcm_remotewidgets.actions:2
@@ -8903,7 +8918,7 @@ msgctxt "Name"
 msgid "Session Management"
 msgstr "सत्र प्रबंधक"
 
-#: workspace/ksmserver/kcm/kcmsmserver.desktop:60
+#: workspace/ksmserver/kcm/kcmsmserver.desktop:61
 msgctxt "Comment"
 msgid "Configure the session manager and logout settings"
 msgstr "सत्र प्रबंधक आओर लागआउट सेटिंग बिन्यस्त करू"
@@ -8975,7 +8990,6 @@ msgid "Highcolor version of the classic style"
 msgstr "क्लासिक शैलीक उच्च-रंग संस्करण"
 
 #: workspace/kstyles/themes/keramik.themerc:2
-#: workspace/kwin/clients/keramik/keramik.desktop:2
 msgctxt "Name"
 msgid "Keramik"
 msgstr "केरामिक"
@@ -9180,50 +9194,20 @@ msgctxt "Name"
 msgid "B II"
 msgstr "बी II"
 
-#: workspace/kwin/clients/kde2/kde2.desktop:2
-msgctxt "Name"
-msgid "KDE 2"
-msgstr "केडीई 2"
-
-#: workspace/kwin/clients/kwmtheme/kwmtheme.desktop:2
-msgctxt "Name"
-msgid "KWM Theme"
-msgstr "केडबल्यूएम प्रसंग"
-
 #: workspace/kwin/clients/laptop/laptop.desktop:2
 msgctxt "Name"
 msgid "Laptop"
 msgstr "लैपटाप"
-
-#: workspace/kwin/clients/modernsystem/modernsystem.desktop:2
-msgctxt "Name"
-msgid "Modern System"
-msgstr "आधुनिक तंत्र"
 
 #: workspace/kwin/clients/plastik/plastik.desktop:3
 msgctxt "Name"
 msgid "Plastik"
 msgstr "प्लास्टिक"
 
-#: workspace/kwin/clients/quartz/quartz.desktop:2
-msgctxt "Name"
-msgid "Quartz"
-msgstr "क्वार्ट्ज"
-
-#: workspace/kwin/clients/redmond/redmond.desktop:2
-msgctxt "Name"
-msgid "Redmond"
-msgstr "रेडमंड"
-
 #: workspace/kwin/clients/tabstrip/tabstrip.desktop:2
 msgctxt "Name"
 msgid "Tabstrip"
 msgstr ""
-
-#: workspace/kwin/clients/web/web.desktop:2
-msgctxt "Name"
-msgid "Web"
-msgstr "वेब"
 
 #: workspace/kwin/data/fsp_workarounds_1.kwinrules:2
 msgctxt "Description"
@@ -9884,7 +9868,7 @@ msgctxt "Name"
 msgid "Virtual Desktops"
 msgstr "डेस्कटाप"
 
-#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:62
+#: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:63
 msgctxt "Comment"
 msgid "You can configure how many virtual desktops there are."
 msgstr "अहाँ बिन्यस्त कए सकैत छी जे ओतए कतेक आभासी डेस्कटाप हुए."
@@ -10713,11 +10697,10 @@ msgid "Desktop Dashboard"
 msgstr "डैशबोर्ड"
 
 #: workspace/plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:46
-#: workspace/plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:66
 #, fuzzy
 msgctxt "Comment"
-msgid "Default desktop containment"
-msgstr "पूर्वनिर्धारित डेस्कटाप कंटेनमेंट"
+msgid "Widget Dashboard"
+msgstr "डैशबोर्ड"
 
 #: workspace/plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:3
 #, fuzzy
@@ -10726,6 +10709,12 @@ msgstr "पूर्वनिर्धारित डेस्कटाप क�
 msgctxt "Name|plasma containment"
 msgid "Desktop"
 msgstr "डेस्कटाप"
+
+#: workspace/plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:66
+#, fuzzy
+msgctxt "Comment"
+msgid "Default desktop"
+msgstr "पूर्वनिर्धारित डेस्कटाप कंटेनमेंट"
 
 #: workspace/plasma/desktop/containments/panel/plasma-containment-panel.desktop:2
 #, fuzzy
@@ -10736,11 +10725,9 @@ msgid "Empty Panel"
 msgstr "पटल"
 
 #: workspace/plasma/desktop/containments/panel/plasma-containment-panel.desktop:48
-#: workspace/plasma/netbook/containments/netpanel/plasma-containment-netpanel.desktop:60
-#, fuzzy
 msgctxt "Comment"
-msgid "A containment for a panel"
-msgstr "फलकक लेल कंटेनमेंट"
+msgid "A simple linear panel"
+msgstr ""
 
 #: workspace/plasma/desktop/runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:2
 #, fuzzy
@@ -11440,7 +11427,7 @@ msgctxt "Name"
 msgid "privatepaste.com"
 msgstr ""
 
-#: workspace/plasma/generic/dataengines/share/backends/privatepaste/metadata.desktop:9
+#: workspace/plasma/generic/dataengines/share/backends/privatepaste/metadata.desktop:10
 msgctxt "Comment"
 msgid "Paste text with the PrivatePaste.com service"
 msgstr ""
@@ -11965,17 +11952,23 @@ msgctxt "Name"
 msgid "Panel for Netbooks"
 msgstr ""
 
+#: workspace/plasma/netbook/containments/netpanel/plasma-containment-netpanel.desktop:60
+#, fuzzy
+msgctxt "Comment"
+msgid "A containment for a panel"
+msgstr "फलकक लेल कंटेनमेंट"
+
 #: workspace/plasma/netbook/containments/sal/plasma-containment-sal.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Search Engine"
 msgctxt "Name"
-msgid "Search and Launch Containment"
+msgid "Search and Launch"
 msgstr "खोज इंजिन"
 
 #: workspace/plasma/netbook/containments/sal/plasma-containment-sal.desktop:55
 msgctxt "Comment"
-msgid "Special Containment with Launcher"
+msgid "Full screen application launcher with search interface"
 msgstr ""
 
 #: workspace/plasma/netbook/containments/sal/plasma-sal-menu.desktop:5
@@ -13124,6 +13117,37 @@ msgstr "क्वार्ट्ज"
 msgctxt "Name"
 msgid "Red Leaf"
 msgstr "लाल पत्ता"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 2"
+#~ msgstr "केडीई 2"
+
+#~ msgctxt "Name"
+#~ msgid "KWM Theme"
+#~ msgstr "केडबल्यूएम प्रसंग"
+
+#~ msgctxt "Name"
+#~ msgid "Modern System"
+#~ msgstr "आधुनिक तंत्र"
+
+#~ msgctxt "Name"
+#~ msgid "Quartz"
+#~ msgstr "क्वार्ट्ज"
+
+#~ msgctxt "Name"
+#~ msgid "Redmond"
+#~ msgstr "रेडमंड"
+
+#~ msgctxt "Name"
+#~ msgid "Web"
+#~ msgstr "वेब"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Search Engine"
+#~ msgctxt "Name"
+#~ msgid "Search and Launch Containment"
+#~ msgstr "खोज इंजिन"
 
 #~ msgctxt "Comment"
 #~ msgid "Nepomuk Data Migration Level 1"
