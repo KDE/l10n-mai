@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-21 07:09+0200\n"
+"POT-Creation-Date: 2010-09-22 06:04+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -85,7 +85,7 @@ msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: panels/folders/treeviewcontextmenu.cpp:112 dolphincontextmenu.cpp:321
+#: panels/folders/treeviewcontextmenu.cpp:112 dolphincontextmenu.cpp:324
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "गुण"
@@ -1155,15 +1155,32 @@ msgstr ""
 "फाइल दृश्य मे देखाओल जएताह."
 
 #. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
-#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#. i18n: ectx: label, entry (Version), group (Dolphin)
 #: rc.cpp:177
+#, fuzzy
+#| msgctxt "@title::column"
+#| msgid "Version"
+msgctxt "@label"
+msgid "Version"
+msgstr "संस्करण"
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
+#. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
+#: rc.cpp:180
+msgctxt "@info:whatsthis"
+msgid "This option defines the used version of the view properties."
+msgstr ""
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:26
+#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#: rc.cpp:183
 msgctxt "@label"
 msgid "View Mode"
 msgstr "दृश्य मोड"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
 #. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:180
+#: rc.cpp:186
 msgctxt "@info:whatsthis"
 msgid ""
 "This option controls the style of the view. Currently supported values "
@@ -1172,32 +1189,32 @@ msgstr ""
 "ई विकल्प दृश्य की शैली केँ नियंत्रित करैत अछि. वर्तमान मे समर्थित मूल्यसभ मे शामिल अछि - "
 "प्रतीक (०), विवरण (१) आओर स्तम्भ (२) दृश्य."
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
 #. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:183
+#: rc.cpp:189
 msgctxt "@label"
 msgid "Show preview"
 msgstr "पूर्वावलोकन देखाबू"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:35
 #. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:186
+#: rc.cpp:192
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, a preview of the file content is shown as an "
 "icon."
 msgstr "जखन ई विकल्प सक्षम कएल जाइछ तँ फाइलक सामग्री केँ प्रतीक केर रूपेँ देखाओल जाइछ."
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
 #. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:189
+#: rc.cpp:195
 msgctxt "@label"
 msgid "Categorized Sorting"
 msgstr "श्रेणी केर अनुसार क्रमबद्ध"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:41
 #. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:192
+#: rc.cpp:198
 msgctxt "@info:whatsthis"
 msgid ""
 "When this option is enabled, the sorted items are summarized by their "
@@ -1205,118 +1222,125 @@ msgid ""
 msgstr ""
 "जखन ई विकल्प सक्षम कएल जाइछ तँ छांटल गेल वस्तुसभ केँ हुनकर श्रेणी केर अनुसार जमाएल जाइछ."
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:46
 #. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:195
+#: rc.cpp:201
 msgctxt "@label"
 msgid "Sort files by"
 msgstr "फाइल केँ एहिना छाँटू"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
 #. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:198
+#: rc.cpp:204
 msgctxt "@info:whatsthis"
 msgid ""
 "This option defines which attribute (name, size, date, etc.) sorting is "
 "performed on."
 msgstr "ई विकल्प निर्धारित करैत अछि जे कओन सँ गुण (नाम, आकार, तिथि आदि) पर छाँटल जाए."
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:201
+#: rc.cpp:207
 msgctxt "@label"
 msgid "Order in which to sort files"
 msgstr "फाइलसभ केँ छाँटबाक अनुक्रम"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:61
 #. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
-#: rc.cpp:204
+#: rc.cpp:210
 msgctxt "@label"
 msgid "Show folders first when sorting files and folders"
 msgstr ""
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:66
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:207
+#: rc.cpp:213
+msgctxt "@label"
+msgid "Additional information (deprecated, use AdditionInfoV2 instead)"
+msgstr ""
+
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:71
+#. i18n: ectx: label, entry (AdditionalInfoV2), group (Dolphin)
+#: rc.cpp:216
 msgctxt "@label"
 msgid "Additional information"
 msgstr "बाइली सूचना"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:64
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:76
 #. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:210
+#: rc.cpp:219
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "अंतिम बार बदलल गेल गुण"
 
-#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:65
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:77
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:213
+#: rc.cpp:222
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "प्रयोक्ता द्वारा अंतिम बेर ई गुणसभ मे परिवर्तन कएल गेल छल."
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:10
 #. i18n: ectx: label, entry (Location), group (Search)
-#: rc.cpp:222
+#: rc.cpp:231
 msgid "Location"
 msgstr "स्थान"
 
 #. i18n: file: search/dolphin_searchsettings.kcfg:14
 #. i18n: ectx: label, entry (What), group (Search)
-#: rc.cpp:225
+#: rc.cpp:234
 msgid "What"
 msgstr "की"
 
 #. i18n: file: dolphinui.rc:34
 #. i18n: ectx: Menu (navigation_bar)
-#: rc.cpp:228
+#: rc.cpp:237
 msgctxt "@title:menu"
 msgid "Location Bar"
 msgstr "स्थान पट्टी"
 
 #. i18n: file: dolphinui.rc:88
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:231
+#: rc.cpp:240
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
 #. i18n: file: dolphinpart.rc:4
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:234
+#: rc.cpp:243
 msgid "&Edit"
 msgstr "सँपादित करू (&E)"
 
 #. i18n: file: dolphinpart.rc:14
 #. i18n: ectx: Menu (selection)
-#: rc.cpp:237
+#: rc.cpp:246
 msgctxt "@title:menu"
 msgid "Selection"
 msgstr "चुनाव"
 
 #. i18n: file: dolphinpart.rc:23
 #. i18n: ectx: Menu (view)
-#: rc.cpp:240
+#: rc.cpp:249
 msgid "&View"
 msgstr "दृश्य (&V)"
 
 #. i18n: file: dolphinpart.rc:32
 #. i18n: ectx: Menu (go)
-#: rc.cpp:243
+#: rc.cpp:252
 msgid "&Go"
 msgstr "जाउ (&G)"
 
 #. i18n: file: dolphinpart.rc:40
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:246
+#: rc.cpp:255
 msgctxt "@title:menu"
 msgid "Tools"
 msgstr "अओजार"
 
 #. i18n: file: dolphinpart.rc:48
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:249
+#: rc.cpp:258
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "डाल्फिन अओजार पट्टी"
@@ -1402,48 +1426,48 @@ msgstr "विचयनित करू"
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
-#: dolphincontextmenu.cpp:157
+#: dolphincontextmenu.cpp:159
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "रद्दी खाली करू"
 
-#: dolphincontextmenu.cpp:163 dolphincontextmenu.cpp:316
+#: dolphincontextmenu.cpp:165 dolphincontextmenu.cpp:319
 msgctxt "@action:inmenu Add current folder to places"
 msgid "Add to Places"
 msgstr "स्थान मे जोडू"
 
-#: dolphincontextmenu.cpp:177
+#: dolphincontextmenu.cpp:179
 msgctxt "@info"
 msgid "Do you really want to empty the Trash? All items will be deleted."
 msgstr ""
 "की अहाँ सचमुच रद्दी कए टोकरी केँ खाली कएनाइ चाहैत छी? सबहि वस्तुसभ केँ मेटाए देल जएताह."
 
-#: dolphincontextmenu.cpp:181
+#: dolphincontextmenu.cpp:183
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "रद्दी खाली करू"
 
-#: dolphincontextmenu.cpp:190
+#: dolphincontextmenu.cpp:192
 msgctxt "@label"
 msgid "Trash"
 msgstr "रद्दी"
 
-#: dolphincontextmenu.cpp:202
+#: dolphincontextmenu.cpp:204
 msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "पूर्व अवस्थामे पहुँचाबू"
 
-#: dolphincontextmenu.cpp:230 dolphinmainwindow.cpp:1317
+#: dolphincontextmenu.cpp:233 dolphinmainwindow.cpp:1317
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "नवीन बनाबू"
 
-#: dolphincontextmenu.cpp:263
+#: dolphincontextmenu.cpp:246
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "स्थान मे जोडू"
 
-#: dolphincontextmenu.cpp:401
+#: dolphincontextmenu.cpp:404
 msgctxt "@action:inmenu"
 msgid "Paste Into Folder"
 msgstr "फोल्डर मे साटू"
@@ -1802,7 +1826,7 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "बाइली सूचना"
 
-#: views/additionalinfoaccessor.cpp:99
+#: views/additionalinfoaccessor.cpp:105
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Size"
@@ -1810,7 +1834,7 @@ msgctxt "@label"
 msgid "Size"
 msgstr "आकार"
 
-#: views/additionalinfoaccessor.cpp:100
+#: views/additionalinfoaccessor.cpp:106
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -1818,7 +1842,7 @@ msgctxt "@label"
 msgid "Date"
 msgstr "दिनांक"
 
-#: views/additionalinfoaccessor.cpp:101
+#: views/additionalinfoaccessor.cpp:107
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Permissions"
@@ -1826,7 +1850,7 @@ msgctxt "@label"
 msgid "Permissions"
 msgstr "अनुमतिसभ"
 
-#: views/additionalinfoaccessor.cpp:102
+#: views/additionalinfoaccessor.cpp:108
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Owner"
@@ -1834,7 +1858,7 @@ msgctxt "@label"
 msgid "Owner"
 msgstr "मालिक"
 
-#: views/additionalinfoaccessor.cpp:103
+#: views/additionalinfoaccessor.cpp:109
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -1842,7 +1866,7 @@ msgctxt "@label"
 msgid "Group"
 msgstr "समूह"
 
-#: views/additionalinfoaccessor.cpp:104
+#: views/additionalinfoaccessor.cpp:110
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Type"
@@ -1850,7 +1874,7 @@ msgctxt "@label"
 msgid "Type"
 msgstr "प्रकार"
 
-#: views/additionalinfoaccessor.cpp:105
+#: views/additionalinfoaccessor.cpp:111
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Description:"
@@ -1858,7 +1882,7 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "विवरण:"
 
-#: views/additionalinfoaccessor.cpp:106
+#: views/additionalinfoaccessor.cpp:112
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -2482,10 +2506,6 @@ msgstr "फिल्टर:"
 #~ msgctxt "@item::intable"
 #~ msgid "Conflicting"
 #~ msgstr "सूचना"
-
-#~ msgctxt "@title::column"
-#~ msgid "Version"
-#~ msgstr "संस्करण"
 
 #~ msgctxt "@action:inmenu Additional information"
 #~ msgid "Size"
