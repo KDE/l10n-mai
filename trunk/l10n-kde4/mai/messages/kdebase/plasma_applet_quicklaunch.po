@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:43+0200\n"
+"POT-Creation-Date: 2010-09-23 06:09+0200\n"
 "PO-Revision-Date: 2010-01-28 13:52+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -22,53 +22,63 @@ msgstr ""
 "\n"
 "\n"
 
-#: icongrid.cpp:304
+#: iconarea.cpp:319 icongrid.cpp:319
 msgid "Multiple items"
 msgstr ""
 
-#: icongrid.cpp:404
+#: iconarea.cpp:420 icongrid.cpp:420
 #, fuzzy
 #| msgid "Configure QuickLaunch"
 msgid "Quicklaunch"
 msgstr "क्विक लाँच विन्यस्त करू"
 
-#: icongrid.cpp:405
+#: iconarea.cpp:421 icongrid.cpp:421
 msgid "Add launchers by Drag and Drop or by using the context menu."
 msgstr ""
 
 #. i18n: file: quicklaunchConfig.ui:102
 #. i18n: ectx: property (text), widget (QLabel, forceMaxRowsOrColumnsLabel)
-#: quicklaunch.cpp:121 rc.cpp:18
+#: quicklaunch.cpp:125 rc.cpp:18
 msgid "Force row settings:"
 msgstr ""
 
-#: quicklaunch.cpp:122
+#: quicklaunch.cpp:126
 msgid "Max row count:"
 msgstr ""
 
-#: quicklaunch.cpp:131
+#: quicklaunch.cpp:135
 msgid "Force column settings:"
 msgstr ""
 
-#: quicklaunch.cpp:132
+#: quicklaunch.cpp:136
 msgid "Max column count:"
 msgstr ""
 
-#: quicklaunch.cpp:146
+#: quicklaunch.cpp:150
 msgid "General"
 msgstr "सामान्य"
 
-#: quicklaunch.cpp:392
+#: quicklaunch.cpp:406
 #, fuzzy
 #| msgid "Add Icon..."
 msgid "Add Launcher..."
 msgstr "जोड़ू चिह्न..."
 
-#: quicklaunch.cpp:395
+#: quicklaunch.cpp:409
 #, fuzzy
 #| msgid "Remove Icon"
 msgid "Remove Launcher"
 msgstr "हटाबू चिह्न"
+
+#: quicklaunch.cpp:470
+msgid "Show hidden icons"
+msgstr ""
+
+#: quicklaunch.cpp:470
+#, fuzzy
+#| msgid "Visible icons:"
+msgid "Hide icons"
+msgstr "दृष्टिगोचर चिह्न:"
 
 #. i18n: file: quicklaunchConfig.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, quicklaunchConfig)
@@ -109,9 +119,6 @@ msgstr "असीमित"
 
 #~ msgid "Sort Alphabetically (Z to A)"
 #~ msgstr "सोर्ट वर्णक्रम मे Z केँ A"
-
-#~ msgid "Visible icons:"
-#~ msgstr "दृष्टिगोचर चिह्न:"
 
 #~ msgid "Icon size:"
 #~ msgstr "चिह्न आकार:"
