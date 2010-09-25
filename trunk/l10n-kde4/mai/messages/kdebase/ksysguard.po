@@ -15,7 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "\n"
 "\n"
@@ -105,8 +106,6 @@ msgstr "%1 KiB/s"
 
 #: SensorDisplayLib/FancyPlotter.cc:639
 #, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
 msgctxt "unitless - just a number"
 msgid "%1"
 msgstr "%1"
@@ -155,7 +154,6 @@ msgid "Label"
 msgstr "लेबल"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:51
-#| msgid "Signal Plotter Settings"
 msgid "Plotter Settings"
 msgstr "प्लाटर बिन्यास"
 
@@ -179,7 +177,6 @@ msgid "Scales"
 msgstr "मापक"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:90
-#| msgid "Vertical Scale"
 msgid "Vertical scale"
 msgstr "उर्ध्वाधर पैमाना"
 
@@ -218,12 +215,10 @@ msgid ""
 msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:125
-#| msgid "Horizontal Scale"
 msgid "Horizontal scale"
 msgstr "क्षैतिज पएमाना"
 
 #: SensorDisplayLib/FancyPlotterSettings.cc:132
-#| msgid "pixels per time period"
 msgid "Pixels per time period:"
 msgstr "पिक्सल्स प्रति समय अवधि"
 
@@ -453,7 +448,8 @@ msgid "Sensor Logger"
 msgstr "सेंसर लागर"
 
 #: SensorDisplayLib/MultiMeterSettings.cc:31
-msgctxt "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
 msgid "Multimeter Settings"
 msgstr "मल्टीमीटर बिन्यास "
 
@@ -713,22 +709,18 @@ msgid "Transmitter"
 msgstr "ट्रांसमीटर"
 
 #: ksgrd/SensorManager.cc:103
-#| msgid "Rate"
 msgid "Data Rate"
 msgstr "डेटा दर"
 
 #: ksgrd/SensorManager.cc:104
-#| msgid "Compressed Packets"
 msgid "Compressed Packets Rate"
 msgstr "संपीडित पैकेट्स दर"
 
 #: ksgrd/SensorManager.cc:105
-#| msgid "Dropped Packets"
 msgid "Dropped Packets Rate"
 msgstr "ड्राप्ड पैकेट्स दर"
 
 #: ksgrd/SensorManager.cc:106
-#| msgid "Errors"
 msgid "Error Rate"
 msgstr "त्रुटि दर"
 
@@ -739,17 +731,14 @@ msgid "FIFO Overruns Rate"
 msgstr "फीफो ओवर-रन्स"
 
 #: ksgrd/SensorManager.cc:108
-#| msgid "Frame Errors"
 msgid "Frame Error Rate"
 msgstr "फ्रेम त्रुटि दर"
 
 #: ksgrd/SensorManager.cc:109
-#| msgid "Multicast"
 msgid "Multicast Packet Rate"
 msgstr "मल्टीकास्ट पैकेट दर"
 
 #: ksgrd/SensorManager.cc:110
-#| msgid "Packets"
 msgid "Packet Rate"
 msgstr "पैकेट्स दर"
 
@@ -790,7 +779,6 @@ msgid "Frame Errors"
 msgstr "फ्रेम त्रुटिसभ"
 
 #: ksgrd/SensorManager.cc:120
-#| msgid "Multicast"
 msgid "Multicast Packets"
 msgstr "मल्टीकास्ट पैकेट"
 
@@ -799,8 +787,6 @@ msgid "Packets"
 msgstr "पैकेट्स"
 
 #: ksgrd/SensorManager.cc:122
-#| msgctxt "@item sensor description ('carrier' is a type of network signal)"
-#| msgid "Carrier"
 msgctxt "@item sensor description ('carrier' is a type of network signal)"
 msgid "Carrier Losses"
 msgstr "कैरियर हानि"
@@ -1255,7 +1241,6 @@ msgstr[1] ""
 
 #: ksysguard.cc:443
 #, kde-format
-#| msgid " CPU: %1% "
 msgid "CPU: %1%%1%"
 msgstr "CPU: %1%%1%"
 
@@ -1271,8 +1256,6 @@ msgstr "कोनो स्वेप जगह उपलब्ध नहि"
 
 #: ksysguard.cc:487
 #, kde-format
-#| msgctxt "Arguments are formatted byte sizes (used/total)"
-#| msgid " Swap: %1 / %2 "
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr "Swap: %1 / %2Swap: %1%1"
@@ -1477,7 +1460,6 @@ msgstr "अलार्म सक्षम करू (&n)"
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:38
-#| msgid "Title:"
 msgid "&Title:"
 msgstr "शीर्षक (&T):"
 
@@ -1554,7 +1536,6 @@ msgstr "पाठ (&T)"
 #. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:110
-#| msgid "Title:"
 msgid "T&itle:"
 msgstr "शीर्षक:"
 
@@ -1591,7 +1572,6 @@ msgstr "फाइल (&F)"
 #. i18n: file: ksysguardui.rc:14
 #. i18n: ectx: Menu (view)
 #: rc.cpp:134
-#| msgid "&File"
 msgid "&View"
 msgstr "दृश्य (&V)"
 
@@ -1638,4 +1618,3 @@ msgstr "मेमोरी आओर स्वैप इतिहास"
 #: rc.cpp:158
 msgid "Network History"
 msgstr "सँजाल इतिहास"
-

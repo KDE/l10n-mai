@@ -7,14 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-20 06:08+0200\n"
+"POT-Creation-Date: 2010-09-25 06:11+0200\n"
 "PO-Revision-Date: 2010-09-24 16:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
@@ -280,17 +281,17 @@ msgctxt "@info/plain"
 msgid "today"
 msgstr "आइ"
 
-#: resources/resourcelocaldir.cpp:484 akonadimodel.cpp:961
+#: resources/resourcelocaldir.cpp:484 akonadimodel.cpp:965
 msgctxt "@info/plain Directory in filesystem"
 msgid "Directory"
 msgstr "निर्देशिका"
 
-#: resources/resourcelocal.cpp:268 akonadimodel.cpp:962
+#: resources/resourcelocal.cpp:268 akonadimodel.cpp:966
 msgctxt "@info/plain"
 msgid "File"
 msgstr "फाइल"
 
-#: resources/resourceremote.cpp:365 akonadimodel.cpp:960
+#: resources/resourceremote.cpp:365 akonadimodel.cpp:964
 msgctxt "@info/plain"
 msgid "URL"
 msgstr "URL"
@@ -311,7 +312,7 @@ msgid "Alarm templates"
 msgstr ""
 
 #: resources/alarmresource.cpp:358 resourcemodelview.cpp:114
-#: resourceselector.cpp:713 akonadimodel.cpp:232
+#: resourceselector.cpp:713 akonadimodel.cpp:236
 msgctxt "@info/plain"
 msgid "Read-only"
 msgstr "केवल पढ़बा-जोग"
@@ -333,7 +334,7 @@ msgid "Disabled (wrong alarm type)"
 msgstr ""
 
 #: resources/alarmresource.cpp:359 resourcemodelview.cpp:113
-#: resourceselector.cpp:718 akonadimodel.cpp:231
+#: resourceselector.cpp:718 akonadimodel.cpp:235
 msgctxt "@info/plain"
 msgid "Disabled"
 msgstr "अक्षम"
@@ -469,11 +470,13 @@ msgstr ""
 
 #: kamail.cpp:88
 msgctxt "@info/plain"
-msgid "A 'From' email address must be configured in order to execute email alarms."
+msgid ""
+"A 'From' email address must be configured in order to execute email alarms."
 msgstr ""
 
 #: kamail.cpp:91
-msgctxt "@info/plain KMail folder name: this should be translated the same as in kmail"
+msgctxt ""
+"@info/plain KMail folder name: this should be translated the same as in kmail"
 msgid "sent-mail"
 msgstr ""
 
@@ -704,37 +707,37 @@ msgctxt "@info/plain"
 msgid "Reactivate multiple alarms"
 msgstr ""
 
-#: resourcemodelview.cpp:117 akonadimodel.cpp:236
+#: resourcemodelview.cpp:117 akonadimodel.cpp:240
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4, %5"
 msgstr ""
 
-#: resourcemodelview.cpp:123 akonadimodel.cpp:242
+#: resourcemodelview.cpp:123 akonadimodel.cpp:246
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4"
 msgstr ""
 
-#: resourcemodelview.cpp:129 akonadimodel.cpp:247
+#: resourcemodelview.cpp:129 akonadimodel.cpp:251
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2: <filename>%3</filename>"
 msgstr ""
 
-#: resourcemodelview.cpp:416 akonadimodel.cpp:1956
+#: resourcemodelview.cpp:416 akonadimodel.cpp:1978
 msgctxt "@info"
 msgid "You cannot disable your default active alarm calendar."
 msgstr ""
 
-#: resourcemodelview.cpp:425 akonadimodel.cpp:1962
+#: resourcemodelview.cpp:425 akonadimodel.cpp:1984
 msgctxt "@info"
 msgid ""
 "You cannot disable your default archived alarm calendar while expired alarms "
 "are configured to be kept."
 msgstr ""
 
-#: resourcemodelview.cpp:430 akonadimodel.cpp:1966
+#: resourcemodelview.cpp:430 akonadimodel.cpp:1988
 msgctxt "@info"
 msgid "Do you really want to disable your default calendar?"
 msgstr ""
@@ -928,7 +931,8 @@ msgstr ""
 
 #: fontcolourbutton.cpp:47
 msgctxt "@info:whatsthis"
-msgid "Choose the font, and foreground and background color, for the alarm message."
+msgid ""
+"Choose the font, and foreground and background color, for the alarm message."
 msgstr ""
 
 #: fontcolourbutton.cpp:71
@@ -965,7 +969,8 @@ msgstr ""
 #: commandoptions.cpp:370
 #, kde-format
 msgctxt "@info:shell"
-msgid "<icode>%1</icode> requires speech synthesis to be configured using Jovie"
+msgid ""
+"<icode>%1</icode> requires speech synthesis to be configured using Jovie"
 msgstr ""
 
 #: commandoptions.cpp:467
@@ -1350,7 +1355,8 @@ msgstr ""
 
 #: fontcolour.cpp:100
 msgctxt "@info:whatsthis"
-msgid "Check to use the default font current at the time the alarm is displayed."
+msgid ""
+"Check to use the default font current at the time the alarm is displayed."
 msgstr ""
 
 #: mainwindow.cpp:121
@@ -1596,108 +1602,108 @@ msgid ""
 "cancellation period"
 msgstr ""
 
-#: eventlistmodel.cpp:312 akonadimodel.cpp:474
+#: eventlistmodel.cpp:312 akonadimodel.cpp:478
 msgctxt "@info:tooltip"
 msgid "Command execution failed"
 msgstr ""
 
-#: eventlistmodel.cpp:314 akonadimodel.cpp:476
+#: eventlistmodel.cpp:314 akonadimodel.cpp:480
 msgctxt "@info:tooltip"
 msgid "Pre-alarm action execution failed"
 msgstr ""
 
-#: eventlistmodel.cpp:316 akonadimodel.cpp:478
+#: eventlistmodel.cpp:316 akonadimodel.cpp:482
 msgctxt "@info:tooltip"
 msgid "Post-alarm action execution failed"
 msgstr ""
 
-#: eventlistmodel.cpp:318 akonadimodel.cpp:480
+#: eventlistmodel.cpp:318 akonadimodel.cpp:484
 msgctxt "@info:tooltip"
 msgid "Pre- and post-alarm action execution failed"
 msgstr ""
 
-#: eventlistmodel.cpp:362 akonadimodel.cpp:665
+#: eventlistmodel.cpp:362 akonadimodel.cpp:669
 msgctxt "@title:column"
 msgid "Time"
 msgstr "समय"
 
-#: eventlistmodel.cpp:364 akonadimodel.cpp:667
+#: eventlistmodel.cpp:364 akonadimodel.cpp:671
 msgctxt "@title:column"
 msgid "Time To"
 msgstr ""
 
-#: eventlistmodel.cpp:366 akonadimodel.cpp:669
+#: eventlistmodel.cpp:366 akonadimodel.cpp:673
 msgctxt "@title:column"
 msgid "Repeat"
 msgstr "दोहराबू"
 
-#: eventlistmodel.cpp:372 akonadimodel.cpp:675
+#: eventlistmodel.cpp:372 akonadimodel.cpp:679
 msgctxt "@title:column"
 msgid "Message, File or Command"
 msgstr ""
 
-#: eventlistmodel.cpp:374 akonadimodel.cpp:677
+#: eventlistmodel.cpp:374 akonadimodel.cpp:681
 msgctxt "@title:column Template name"
 msgid "Name"
 msgstr "नाम"
 
-#: eventlistmodel.cpp:831 eventlistmodel.cpp:869 akonadimodel.cpp:697
-#: akonadimodel.cpp:735
+#: eventlistmodel.cpp:831 eventlistmodel.cpp:869 akonadimodel.cpp:701
+#: akonadimodel.cpp:739
 msgctxt "@info/plain Alarm never occurs"
 msgid "Never"
 msgstr "कहियो नहि"
 
-#: eventlistmodel.cpp:875 akonadimodel.cpp:741
+#: eventlistmodel.cpp:875 akonadimodel.cpp:745
 #, no-c-format, kde-format
 msgctxt "@info/plain n days"
 msgid "%1d"
 msgstr ""
 
-#: eventlistmodel.cpp:884 akonadimodel.cpp:750
+#: eventlistmodel.cpp:884 akonadimodel.cpp:754
 #, kde-format
 msgctxt "@info/plain hours:minutes"
 msgid "%1:%2"
 msgstr ""
 
-#: eventlistmodel.cpp:887 akonadimodel.cpp:753
+#: eventlistmodel.cpp:887 akonadimodel.cpp:757
 #, kde-format
 msgctxt "@info/plain days hours:minutes"
 msgid "%1d %2:%3"
 msgstr ""
 
-#: eventlistmodel.cpp:971 akonadimodel.cpp:1046
+#: eventlistmodel.cpp:971 akonadimodel.cpp:1050
 msgctxt "@info:whatsthis"
 msgid "Next scheduled date and time of the alarm"
 msgstr ""
 
-#: eventlistmodel.cpp:973 akonadimodel.cpp:1048
+#: eventlistmodel.cpp:973 akonadimodel.cpp:1052
 msgctxt "@info:whatsthis"
 msgid "How long until the next scheduled trigger of the alarm"
 msgstr ""
 
-#: eventlistmodel.cpp:975 akonadimodel.cpp:1050
+#: eventlistmodel.cpp:975 akonadimodel.cpp:1054
 msgctxt "@info:whatsthis"
 msgid "How often the alarm recurs"
 msgstr ""
 
-#: eventlistmodel.cpp:977 akonadimodel.cpp:1052
+#: eventlistmodel.cpp:977 akonadimodel.cpp:1056
 msgctxt "@info:whatsthis"
 msgid "Background color of alarm message"
 msgstr ""
 
-#: eventlistmodel.cpp:979 akonadimodel.cpp:1054
+#: eventlistmodel.cpp:979 akonadimodel.cpp:1058
 msgctxt "@info:whatsthis"
 msgid "Alarm type (message, file, command or email)"
 msgstr ""
 
-#: eventlistmodel.cpp:981 akonadimodel.cpp:1056
+#: eventlistmodel.cpp:981 akonadimodel.cpp:1060
 msgctxt "@info:whatsthis"
 msgid ""
 "Alarm message text, URL of text file to display, command to execute, or "
 "email subject line"
 msgstr ""
 
-#: eventlistmodel.cpp:983 akonadimodel.cpp:1058
+#: eventlistmodel.cpp:983 akonadimodel.cpp:1062
 msgctxt "@info:whatsthis"
 msgid "Name of the alarm template"
 msgstr ""
@@ -1705,12 +1711,14 @@ msgstr ""
 #: kalarmapp.cpp:337
 #, kde-format
 msgctxt "@info:shell"
-msgid "<icode>%1</icode>: Event <resource>%2</resource> not found, or not editable"
+msgid ""
+"<icode>%1</icode>: Event <resource>%2</resource> not found, or not editable"
 msgstr ""
 
 #: kalarmapp.cpp:548
 msgctxt "@info"
-msgid "Quitting will disable alarms (once any alarm message windows are closed)."
+msgid ""
+"Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr ""
 
 #: kalarmapp.cpp:558
@@ -1799,7 +1807,8 @@ msgstr ""
 
 #: repetitionbutton.cpp:196
 msgctxt "@info:whatsthis"
-msgid "Enter the number of times to trigger the alarm after its initial occurrence"
+msgid ""
+"Enter the number of times to trigger the alarm after its initial occurrence"
 msgstr ""
 
 #: repetitionbutton.cpp:204
@@ -1931,7 +1940,8 @@ msgstr "सकेण्ड"
 
 #: sounddlg.cpp:258
 msgctxt "@info:whatsthis"
-msgid "Enter how many seconds to fade the sound before reaching the set volume."
+msgid ""
+"Enter how many seconds to fade the sound before reaching the set volume."
 msgstr ""
 
 #: sounddlg.cpp:265
@@ -2185,7 +2195,8 @@ msgstr ""
 
 #: editdlgtypes.cpp:238
 msgctxt "@info:whatsthis"
-msgid "Enter how long in advance of the main alarm to display a reminder alarm."
+msgid ""
+"Enter how long in advance of the main alarm to display a reminder alarm."
 msgstr ""
 
 #: editdlgtypes.cpp:239
@@ -2312,7 +2323,8 @@ msgstr ""
 
 #: editdlgtypes.cpp:950
 msgctxt "@info"
-msgid "Log file must be the name or path of a local file, with write permission."
+msgid ""
+"Log file must be the name or path of a local file, with write permission."
 msgstr ""
 
 #: editdlgtypes.cpp:967
@@ -3342,7 +3354,8 @@ msgstr ""
 #. i18n: ectx: whatsthis, entry (DefaultEmailBcc), group (Defaults)
 #: rc.cpp:294
 msgctxt "@info:whatsthis"
-msgid "Default setting in the alarm edit dialog for blind copying emails to self."
+msgid ""
+"Default setting in the alarm edit dialog for blind copying emails to self."
 msgstr ""
 
 #. i18n: file: kalarmconfig.kcfg:313
@@ -3693,7 +3706,8 @@ msgstr ""
 #: prefdlg.cpp:478
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "Check to execute command alarms in a terminal window by <icode>%1</icode>"
+msgid ""
+"Check to execute command alarms in a terminal window by <icode>%1</icode>"
 msgstr ""
 
 #: prefdlg.cpp:487
@@ -4041,7 +4055,8 @@ msgstr ""
 #: prefdlg.cpp:1198
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid "The default setting for <interface>%1</interface> in the alarm edit dialog."
+msgid ""
+"The default setting for <interface>%1</interface> in the alarm edit dialog."
 msgstr ""
 
 #: prefdlg.cpp:1205 prefdlg.cpp:1568
@@ -4386,7 +4401,8 @@ msgstr ""
 #: functions.cpp:1569
 #, kde-format
 msgctxt "@info"
-msgid "Unable to start <application>KMail</application><nl/>(<message>%1</message>)"
+msgid ""
+"Unable to start <application>KMail</application><nl/>(<message>%1</message>)"
 msgstr ""
 
 #: functions.cpp:1847
@@ -4564,7 +4580,8 @@ msgid "Simulate system time [[[yyyy-]mm-]dd-]hh:mm [TZ] (debug mode)"
 msgstr ""
 
 #: main.cpp:107
-msgid "Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
+msgid ""
+"Trigger alarm at time [[[yyyy-]mm-]dd-]hh:mm [TZ], or date yyyy-mm-dd [TZ]"
 msgstr ""
 
 #: main.cpp:108
@@ -4788,7 +4805,8 @@ msgstr ""
 #: messagewin.cpp:1622
 #, kde-format
 msgctxt "@info"
-msgid "<para>Error playing audio file: <filename>%1</filename></para><para>%2</para>"
+msgid ""
+"<para>Error playing audio file: <filename>%1</filename></para><para>%2</para>"
 msgstr ""
 
 #: messagewin.cpp:1946
@@ -5430,7 +5448,8 @@ msgstr ""
 
 #: recurrenceedit.cpp:1386
 msgctxt "@info:whatsthis"
-msgid "Repeat the alarm on one day of the week, in the selected week of the month"
+msgid ""
+"Repeat the alarm on one day of the week, in the selected week of the month"
 msgstr ""
 
 #: recurrenceedit.cpp:1390
@@ -5662,52 +5681,51 @@ msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr ""
 
-#: akonadimodel.cpp:654
+#: akonadimodel.cpp:658
 msgctxt "@title:column"
 msgid "Calendars"
 msgstr "कैलेंडर"
 
-#: akonadimodel.cpp:1098
+#: akonadimodel.cpp:1102
 msgctxt "@info/plain"
 msgid "Failed to create new calendar resource"
 msgstr ""
 
-#: akonadimodel.cpp:1098 akonadimodel.cpp:1144 akonadimodel.cpp:1162
-#: akonadimodel.cpp:1470
+#: akonadimodel.cpp:1102 akonadimodel.cpp:1148 akonadimodel.cpp:1166
+#: akonadimodel.cpp:1474
 #, kde-format
 msgctxt "@info"
 msgid "%1<nl/>(%2)"
 msgstr ""
 
-#: akonadimodel.cpp:1142
+#: akonadimodel.cpp:1146
 #, kde-format
 msgctxt "@info"
 msgid "Failed to remove calendar <resource>%1</resource>."
 msgstr ""
 
-#: akonadimodel.cpp:1160
+#: akonadimodel.cpp:1164
 #, kde-format
 msgctxt "@info"
 msgid "Failed to update calendar <resource>%1</resource>."
 msgstr ""
 
-#: akonadimodel.cpp:1461
+#: akonadimodel.cpp:1465
 msgctxt "@info/plain"
 msgid "Failed to create alarm."
 msgstr ""
 
-#: akonadimodel.cpp:1463
+#: akonadimodel.cpp:1467
 msgctxt "@info/plain"
 msgid "Failed to update alarm."
 msgstr ""
 
-#: akonadimodel.cpp:1465
+#: akonadimodel.cpp:1469
 msgctxt "@info/plain"
 msgid "Failed to delete alarm."
 msgstr ""
 
-#: akonadimodel.cpp:2452
+#: akonadimodel.cpp:2475
 msgctxt "@title:window"
 msgid "Choose Calendar"
 msgstr ""
-
