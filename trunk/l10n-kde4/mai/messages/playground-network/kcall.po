@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcall\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-03 06:30+0200\n"
+"POT-Creation-Date: 2010-10-13 06:29+0200\n"
 "PO-Revision-Date: 2010-09-24 13:00+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -16,6 +16,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: contactlistcontroller.cpp:62
+msgctxt "@action:inmenu"
+msgid "Voice call"
+msgstr ""
+
+#: contactlistcontroller.cpp:65
+msgctxt "@action:inmenu"
+msgid "Video call"
+msgstr ""
+
+#: contactlistcontroller.cpp:71
+msgctxt "@action:inmenu"
+msgid "Status"
+msgstr "स्थिति"
+
+#: contactlistcontroller.cpp:72
+msgctxt "@action:inmenu"
+msgid "Available"
+msgstr "उपलब्ध"
+
+#: contactlistcontroller.cpp:73
+msgctxt "@action:inmenu"
+msgid "Away"
+msgstr "दूरि"
+
+#: contactlistcontroller.cpp:74
+msgctxt "@action:inmenu"
+msgid "Be right back"
+msgstr ""
+
+#: contactlistcontroller.cpp:75
+msgctxt "@action:inmenu"
+msgid "Busy"
+msgstr "व्यस्त"
+
+#: contactlistcontroller.cpp:76
+msgctxt "@action:inmenu"
+msgid "Do not disturb"
+msgstr "तँग नहि करू"
+
+#: contactlistcontroller.cpp:77
+msgctxt "@action:inmenu"
+msgid "Extended Away"
+msgstr "बड़ समय लेल अनुपस्थित"
+
+#: contactlistcontroller.cpp:78
+msgctxt "@action:inmenu"
+msgid "Invisible"
+msgstr "अदृश्य"
+
+#: contactlistcontroller.cpp:79
+msgctxt "@action:inmenu"
+msgid "Offline"
+msgstr "आफलाइन"
+
+#: kcall_handler/calllog.cpp:36
+#, kde-format
+msgid "Warning: %1"
+msgstr ""
+
+#: kcall_handler/calllog.cpp:39
+#, kde-format
+msgid "Error: %1"
+msgstr "त्रुटि: %1"
 
 #: kcall_handler/callwindow.cpp:128
 msgctxt "@action"
@@ -71,32 +136,6 @@ msgstr ""
 msgctxt "@action"
 msgid "Send video"
 msgstr ""
-
-#: kcall_handler/calllog.cpp:36
-#, kde-format
-msgid "Warning: %1"
-msgstr ""
-
-#: kcall_handler/calllog.cpp:39
-#, kde-format
-msgid "Error: %1"
-msgstr "त्रुटि: %1"
-
-#: kcall_handler/videobalancewidget.cpp:50
-msgid "Brightness"
-msgstr "चमकीलापन"
-
-#: kcall_handler/videobalancewidget.cpp:51
-msgid "Contrast"
-msgstr "विरोधी"
-
-#: kcall_handler/videobalancewidget.cpp:52
-msgid "Hue"
-msgstr "वर्ण"
-
-#: kcall_handler/videobalancewidget.cpp:53
-msgid "Saturation"
-msgstr "संतृप्ति"
 
 #: kcall_handler/main.cpp:30 main.cpp:28 systrayicon.cpp:48
 msgid "KCall"
@@ -173,6 +212,71 @@ msgstr ""
 msgid "User %1 left the conference."
 msgstr ""
 
+#: kcall_handler/videobalancewidget.cpp:50
+msgid "Brightness"
+msgstr "चमकीलापन"
+
+#: kcall_handler/videobalancewidget.cpp:51
+msgid "Contrast"
+msgstr "विरोधी"
+
+#: kcall_handler/videobalancewidget.cpp:52
+msgid "Hue"
+msgstr "वर्ण"
+
+#: kcall_handler/videobalancewidget.cpp:53
+msgid "Saturation"
+msgstr "संतृप्ति"
+
+#: kcm/kcmkcalldevices.cpp:58
+msgid "Audio input device"
+msgstr "ऑडियो इनपुट डिवायस"
+
+#: kcm/kcmkcalldevices.cpp:59
+msgid "Audio output device"
+msgstr "ऑडियो आउटपुट डिवायस"
+
+#: kcm/kcmkcalldevices.cpp:60
+msgid "Video input device"
+msgstr "वीडियो इनपुट डिवाइस"
+
+#: kcm/kcmkcalldevices.cpp:61
+msgid "Video output driver"
+msgstr ""
+
+#: libkcallprivate/accountitem.cpp:38
+msgctxt "@info:status"
+msgid "Waiting for account information..."
+msgstr ""
+
+#: libkcallprivate/accountitem.cpp:46
+#, kde-format
+msgctxt "protocol - display name (Connecting)"
+msgid "%1 - %2 (Connecting)"
+msgstr ""
+
+#: libkcallprivate/accountitem.cpp:49
+#, kde-format
+msgctxt "protocol - display name"
+msgid "%1 - %2"
+msgstr ""
+
+#: libkgstdevices/devicemanager.cpp:141
+msgid "Xv video renderer"
+msgstr ""
+
+#: libkgstdevices/devicemanager.cpp:145
+msgid "X11 video renderer"
+msgstr ""
+
+#: libkgstdevices/devicemanager.cpp:154
+msgid "Autodetect"
+msgstr "अपने जाँचू"
+
+#: libkgstdevices/devicemanager.cpp:318
+msgid "Test input device"
+msgstr ""
+
 #: libkgstdevices/devicesmodel.cpp:81
 msgctxt "autodetected audio or video system"
 msgid "Autodetected"
@@ -221,22 +325,6 @@ msgstr ""
 
 #: libkgstdevices/devicesmodel.cpp:145
 msgid "Driver-specific handle"
-msgstr ""
-
-#: libkgstdevices/devicemanager.cpp:141
-msgid "Xv video renderer"
-msgstr ""
-
-#: libkgstdevices/devicemanager.cpp:145
-msgid "X11 video renderer"
-msgstr ""
-
-#: libkgstdevices/devicemanager.cpp:154
-msgid "Autodetect"
-msgstr "अपने जाँचू"
-
-#: libkgstdevices/devicemanager.cpp:318
-msgid "Test input device"
 msgstr ""
 
 #: libkgstdevices/tabledevicechooser.cpp:73
@@ -307,37 +395,16 @@ msgstr "विवरण देखाबू"
 msgid "Hide details"
 msgstr "विवरण नुकाबू"
 
-#: libkcallprivate/accountitem.cpp:38
-msgctxt "@info:status"
-msgid "Waiting for account information..."
+#: libtelepathy-kde-call/callchannelhandler.cpp:111
+msgid "The audio input device could not be initialized"
 msgstr ""
 
-#: libkcallprivate/accountitem.cpp:46
-#, kde-format
-msgctxt "protocol - display name (Connecting)"
-msgid "%1 - %2 (Connecting)"
+#: libtelepathy-kde-call/callchannelhandler.cpp:183
+msgid "The video input device could not be initialized."
 msgstr ""
 
-#: libkcallprivate/accountitem.cpp:49
-#, kde-format
-msgctxt "protocol - display name"
-msgid "%1 - %2"
-msgstr ""
-
-#: kcm/kcmkcalldevices.cpp:58
-msgid "Audio input device"
-msgstr "ऑडियो इनपुट डिवायस"
-
-#: kcm/kcmkcalldevices.cpp:59
-msgid "Audio output device"
-msgstr "ऑडियो आउटपुट डिवायस"
-
-#: kcm/kcmkcalldevices.cpp:60
-msgid "Video input device"
-msgstr "वीडियो इनपुट डिवाइस"
-
-#: kcm/kcmkcalldevices.cpp:61
-msgid "Video output driver"
+#: libtelepathy-kde-call/callchannelhandler.cpp:255
+msgid "The audio output device could not be initialized"
 msgstr ""
 
 #: mainwindow.cpp:42
@@ -374,73 +441,6 @@ msgstr "जोड़ू"
 msgid ""
 "You have requested to close KCall. Note that KCall will not actually quit, "
 "but it will stay active in the system tray waiting for incoming calls."
-msgstr ""
-
-#: contactlistcontroller.cpp:62
-msgctxt "@action:inmenu"
-msgid "Voice call"
-msgstr ""
-
-#: contactlistcontroller.cpp:65
-msgctxt "@action:inmenu"
-msgid "Video call"
-msgstr ""
-
-#: contactlistcontroller.cpp:71
-msgctxt "@action:inmenu"
-msgid "Status"
-msgstr "स्थिति"
-
-#: contactlistcontroller.cpp:72
-msgctxt "@action:inmenu"
-msgid "Available"
-msgstr "उपलब्ध"
-
-#: contactlistcontroller.cpp:73
-msgctxt "@action:inmenu"
-msgid "Away"
-msgstr "दूरि"
-
-#: contactlistcontroller.cpp:74
-msgctxt "@action:inmenu"
-msgid "Be right back"
-msgstr ""
-
-#: contactlistcontroller.cpp:75
-msgctxt "@action:inmenu"
-msgid "Busy"
-msgstr "व्यस्त"
-
-#: contactlistcontroller.cpp:76
-msgctxt "@action:inmenu"
-msgid "Do not disturb"
-msgstr "तँग नहि करू"
-
-#: contactlistcontroller.cpp:77
-msgctxt "@action:inmenu"
-msgid "Extended Away"
-msgstr "बड़ समय लेल अनुपस्थित"
-
-#: contactlistcontroller.cpp:78
-msgctxt "@action:inmenu"
-msgid "Invisible"
-msgstr "अदृश्य"
-
-#: contactlistcontroller.cpp:79
-msgctxt "@action:inmenu"
-msgid "Offline"
-msgstr "आफलाइन"
-
-#: libtelepathy-kde-call/callchannelhandler.cpp:111
-msgid "The audio input device could not be initialized"
-msgstr ""
-
-#: libtelepathy-kde-call/callchannelhandler.cpp:183
-msgid "The video input device could not be initialized."
-msgstr ""
-
-#: libtelepathy-kde-call/callchannelhandler.cpp:255
-msgid "The audio output device could not be initialized"
 msgstr ""
 
 #: rc.cpp:1
@@ -511,7 +511,7 @@ msgstr "कॉल"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kcallui.rc:16
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:32 rc.cpp:83
+#: rc.cpp:32 rc.cpp:77
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
@@ -605,13 +605,13 @@ msgstr ""
 
 #. i18n: file: kcm/callwindowsettingspage.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseOnDisconnect)
-#: rc.cpp:77
+#: rc.cpp:80
 msgid "Automatically close the call window after a timeout"
 msgstr ""
 
 #. i18n: file: kcm/callwindowsettingspage.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:80
+#: rc.cpp:83
 msgid "Timeout in seconds:"
 msgstr ""
 
