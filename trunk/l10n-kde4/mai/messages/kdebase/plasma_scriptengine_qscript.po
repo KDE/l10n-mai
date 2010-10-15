@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_scriptengine_qscript\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-14 06:05+0200\n"
+"POT-Creation-Date: 2010-10-15 06:16+0200\n"
 "PO-Revision-Date: 2010-01-29 16:27+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -143,27 +143,38 @@ msgstr ""
 msgid "Authorization for required extension '%1' was denied."
 msgstr ""
 
-#: plasmoid/simplejavascriptapplet.cpp:125
-#, kde-format
-msgid "Error in %1 on line %2.<br><br>%3"
-msgstr ""
+#: plasmoid/declarativeappletscript.cpp:144
+#: plasmoid/declarativeappletscript.cpp:165
+#: plasmoid/simplejavascriptapplet.cpp:705
+#: plasmoid/simplejavascriptapplet.cpp:723
+msgid "Constructor takes at least 1 argument"
+msgstr "निर्माता कम सँ कम 1 तर्क लेत अछि"
 
+#: plasmoid/declarativeappletscript.cpp:350
 #: plasmoid/simplejavascriptapplet.cpp:577
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "dataEngine() takes one argument"
 msgstr "छपाइ एकटा तर्क लेत अछि"
 
+#: plasmoid/declarativeappletscript.cpp:355
+#: plasmoid/declarativeappletscript.cpp:376
 #: plasmoid/simplejavascriptapplet.cpp:582
 #: plasmoid/simplejavascriptapplet.cpp:603
 msgid "Could not extract the Applet"
 msgstr "एप्लेट घीँच नहि सकल"
 
+#: plasmoid/declarativeappletscript.cpp:369
 #: plasmoid/simplejavascriptapplet.cpp:596
 #, fuzzy
 #| msgid "print takes one argument"
 msgid "service() takes two arguments"
 msgstr "छपाइ एकटा तर्क लेत अछि"
+
+#: plasmoid/simplejavascriptapplet.cpp:125
+#, kde-format
+msgid "Error in %1 on line %2.<br><br>%3"
+msgstr ""
 
 #: plasmoid/simplejavascriptapplet.cpp:616
 #, fuzzy
@@ -186,11 +197,6 @@ msgstr "छपाइ एकटा तर्क लेत अछि"
 #, kde-format
 msgid "Unable to open '%1'"
 msgstr "%1 केँ खोलि नहि सकल"
-
-#: plasmoid/simplejavascriptapplet.cpp:705
-#: plasmoid/simplejavascriptapplet.cpp:723
-msgid "Constructor takes at least 1 argument"
-msgstr "निर्माता कम सँ कम 1 तर्क लेत अछि"
 
 #: simplebindings/i18n.cpp:33
 #, fuzzy
