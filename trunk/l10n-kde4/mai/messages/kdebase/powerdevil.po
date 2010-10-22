@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-21 06:14+0200\n"
+"POT-Creation-Date: 2010-10-22 06:15+0200\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -24,43 +24,177 @@ msgstr ""
 "\n"
 "\n"
 
-#: daemon/PowerDevilDaemon.cpp:141
-msgid "PowerDevil"
-msgstr "पावर-डेविल"
+#: SuspensionLockHandler.cpp:75
+#, kde-format
+msgid ""
+"The application %1 is inhibiting suspension for the following reason:\n"
+"%2"
+msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:142
+#: actions/dpms/powerdevildpmsactionconfig.cpp:57
+#: actions/bundled/suspendsessionconfig.cpp:71
+#: actions/bundled/runscriptconfig.cpp:76
+#: actions/bundled/disabledesktopeffectsconfig.cpp:65
+#: actions/bundled/dimdisplayconfig.cpp:60
+#, fuzzy
+#| msgid "min"
+msgid " min"
+msgstr "मि."
+
+#: actions/dpms/powerdevildpmsactionconfig.cpp:58
+#, fuzzy
+#| msgid "&Power off after"
+msgid "Switch off after"
+msgstr "एतबा समयक बाद बिजली बन्न करू (&P)"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:62
+msgid "Level"
+msgstr ""
+
+#: actions/bundled/suspendsessionconfig.cpp:75
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
+msgid "Do nothing"
+msgstr "किछु नहि करू"
+
+#: actions/bundled/suspendsessionconfig.cpp:77
+#: actions/bundled/handlebuttoneventsconfig.cpp:79
+msgid "Sleep"
+msgstr ""
+
+#: actions/bundled/suspendsessionconfig.cpp:80
+#: actions/bundled/handlebuttoneventsconfig.cpp:82
+msgid "Hibernate"
+msgstr ""
+
+#: actions/bundled/suspendsessionconfig.cpp:82
+#: actions/bundled/handlebuttoneventsconfig.cpp:84
+msgid "Shutdown"
+msgstr "बन्न करू"
+
+#: actions/bundled/suspendsessionconfig.cpp:83
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
+#, fuzzy
+#| msgid "Lock Screen"
+msgid "Lock screen"
+msgstr "स्क्रीन पर ताला लगाबू"
+
+#: actions/bundled/suspendsessionconfig.cpp:92
+#: actions/bundled/runscriptconfig.cpp:79
+#: actions/bundled/runscriptconfig.cpp:100
+#: actions/bundled/disabledesktopeffectsconfig.cpp:68
+#: actions/bundled/disabledesktopeffectsconfig.cpp:89
+#: actions/bundled/dimdisplayconfig.cpp:61
+msgid "After"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:68
+msgid "Script"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:77
+#: actions/bundled/disabledesktopeffectsconfig.cpp:67
+#, fuzzy
+#| msgid "New Profile"
+msgid "On Profile Load"
+msgstr "नवीन प्रोफाइल"
+
+#: actions/bundled/runscriptconfig.cpp:78
+msgid "On Profile Unload"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:89
+msgid "Run script"
+msgstr ""
+
+#: actions/bundled/disabledesktopeffectsconfig.cpp:79
+#, fuzzy
+#| msgid "Disable KWin compositing, if active"
+msgid "Disable effects"
+msgstr "जँ सक्रिय अछि तँ के-विन कम्पोजिटिंग अक्षम करू"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, fuzzy
+#| msgid "Prompt Log out dialog"
+msgid "Prompt log out dialog"
+msgstr "लाग आउट समाद पूछू"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:89
+msgid "Turn off screen"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:98
+#, fuzzy
+#| msgid "When Laptop Lid Closed"
+msgid "When laptop lid closed"
+msgstr "जखन लैपटापक ढक्कन बन्न अछि तँ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#, fuzzy
+#| msgid "When Power Button pressed"
+msgid "When power button pressed"
+msgstr "जखन पावर बटन दबाएल जाए"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
+#, fuzzy
+#| msgid "When Sleep Button pressed"
+msgid "When sleep button pressed"
+msgstr "जखन स्लीप बटन दबाएल जाए"
+
+#: backends/upower/upowersuspendjob.cpp:70
+#, fuzzy
+#| msgid "Supported suspend methods"
+msgid "Unsupported suspend method"
+msgstr "समर्थित निलंबन विधिसभ"
+
+#: kdedpowerdevil.cpp:48
 #, fuzzy
 #| msgid "A Power Management tool for KDE4"
-msgid "A Power Management tool for KDE4"
+msgid "KDE Power Management System"
 msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
 
-#: daemon/PowerDevilDaemon.cpp:143
-#, fuzzy
-#| msgid "(c), 2008 Dario Freddi"
-msgid "(c) 2008 Dario Freddi"
-msgstr "(c) 2008 डेरियो फ्रेदी"
+#: kdedpowerdevil.cpp:49
+msgid ""
+"KDE Power Management System is PowerDevil, an advanced, modular and "
+"lightweight Power Management daemon"
+msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:146 daemon/kdedpowerdevil.cpp:55
-#: kcmodule/PowerDevilKCM.cpp:59 kcmodule/EditPage.cpp:73
+#: kdedpowerdevil.cpp:52
+msgid "(c) 2010 MetalWorkers Co."
+msgstr ""
+
+#: kdedpowerdevil.cpp:55
 msgid "Dario Freddi"
 msgstr "डेरियो फ्रेदी"
 
-#: daemon/PowerDevilDaemon.cpp:146 kcmodule/PowerDevilKCM.cpp:59
-#: kcmodule/EditPage.cpp:73
-msgid "Maintainer"
-msgstr "अनुरक्षक"
+#: kdedpowerdevil.cpp:55
+msgid "Developer"
+msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:224 daemon/powerdevilcore.cpp:151
+#: powerdevilcore.cpp:159
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:229 daemon/powerdevilcore.cpp:158
+#: powerdevilcore.cpp:166
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: daemon/PowerDevilDaemon.cpp:290 daemon/powerdevilcore.cpp:276
+#: powerdevilcore.cpp:242
+#, kde-format
+msgid ""
+"The profile \"%1\" has been selected, but it does not exist.\n"
+"Please check your PowerDevil configuration."
+msgstr ""
+
+#: powerdevilcore.cpp:255
+#, kde-format
+msgid ""
+"The profile \"%1\" tried to activate %2, a non existent action. This is "
+"usually due to an installation problem or to a configuration problem."
+msgstr ""
+
+#: powerdevilcore.cpp:284
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -68,299 +202,7 @@ msgstr ""
 "बैटरी इंटरफेस सँ कनेक्ट नहि भए सकल!\n"
 "कृप्या अपन सिस्टम कान्फिगरेशन जाँचू"
 
-#: daemon/PowerDevilDaemon.cpp:345
-#, fuzzy
-#| msgid "The power adaptor has been plugged in"
-msgid ""
-"The power adaptor has been plugged in. Any pending suspend actions have been "
-"canceled."
-msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
-
-#: daemon/PowerDevilDaemon.cpp:348 daemon/powerdevilcore.cpp:334
-msgid "The power adaptor has been plugged in."
-msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
-
-#: daemon/PowerDevilDaemon.cpp:354 daemon/powerdevilcore.cpp:337
-msgid "The power adaptor has been unplugged."
-msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
-
-#: daemon/PowerDevilDaemon.cpp:509
-#, kde-format
-msgid ""
-"Your battery level is critical, the computer will be halted in 1 second."
-msgid_plural ""
-"Your battery level is critical, the computer will be halted in %1 seconds."
-msgstr[0] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
-msgstr[1] ""
-"अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी %1 सेकण्ड मे हाल्ट भए जएताह. ई प्रक्रिया केँ "
-"रोकबाक लेल एतए क्लिक करू."
-
-#: daemon/PowerDevilDaemon.cpp:522
-#, kde-format
-msgid ""
-"Your battery level is critical, the computer will be suspended to disk in 1 "
-"second."
-msgid_plural ""
-"Your battery level is critical, the computer will be suspended to disk in %1 "
-"seconds."
-msgstr[0] "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे सस्पेंड भए जएताह. "
-msgstr[1] "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी %1 सेकण्ड मे सस्पेंड भए जएताह. "
-
-#: daemon/PowerDevilDaemon.cpp:535
-#, kde-format
-msgid ""
-"Your battery level is critical, the computer will be suspended to RAM in 1 "
-"second."
-msgid_plural ""
-"Your battery level is critical, the computer will be suspended to RAM in %1 "
-"seconds."
-msgstr[0] "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
-msgstr[1] "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी %1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
-
-#: daemon/PowerDevilDaemon.cpp:548
-#, kde-format
-msgid ""
-"Your battery level is critical, the computer will be put into standby in 1 "
-"second."
-msgid_plural ""
-"Your battery level is critical, the computer will be put into standby in %1 "
-"seconds."
-msgstr[0] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
-msgstr[1] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी %1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
-
-#: daemon/PowerDevilDaemon.cpp:559 daemon/powerdevilcore.cpp:383
-msgid "Your battery level is critical: save your work as soon as possible."
-msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
-
-#: daemon/PowerDevilDaemon.cpp:565 daemon/powerdevilcore.cpp:389
-msgid "Your battery has reached the warning level."
-msgstr "अहाँक बैटरीक स्तर चेतावनी स्तर तकि पहुँचि गेल अछि"
-
-#: daemon/PowerDevilDaemon.cpp:569 daemon/powerdevilcore.cpp:394
-msgid "Your battery has reached a low level."
-msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
-
-#: daemon/PowerDevilDaemon.cpp:700
-#, kde-format
-msgid "The computer will be halted in 1 second."
-msgid_plural "The computer will be halted in %1 seconds."
-msgstr[0] "कम्प्यूटर 1 सेकण्डमे हाल्ट भए जएताह. "
-msgstr[1] "कम्प्यूटर %1 सेकण्डमे हाल्ट भए जएताह. "
-
-#: daemon/PowerDevilDaemon.cpp:720
-#, kde-format
-msgid "The computer will be suspended to disk in 1 second."
-msgid_plural "The computer will be suspended to disk in %1 seconds."
-msgstr[0] "कम्प्यूटर 1 सेकण्डमे सस्पेंड भए जएताह. "
-msgstr[1] "कम्प्यूटर %1 सेकण्डमे सस्पेंड भए जएताह. "
-
-#: daemon/PowerDevilDaemon.cpp:740
-#, kde-format
-msgid "The computer will be suspended to RAM in 1 second."
-msgid_plural "The computer will be suspended to RAM in %1 seconds."
-msgstr[0] "कम्प्यूटर 1 सेकण्ड मे रैममे सस्पेंड भए जएताह."
-msgstr[1] ""
-"कम्प्यूटर %1 सेकण्ड मे रैममे सस्पेंड भए जएताह. ई प्रक्रिया केँ रोकबाक लेल एतए क्लिक करू."
-
-#: daemon/PowerDevilDaemon.cpp:760
-#, kde-format
-msgid "The computer will be put into standby in 1 second."
-msgid_plural "The computer will be put into standby in %1 seconds."
-msgstr[0] "कम्प्यूटर 1 सेकण्ड मे स्टैण्डबाइ भए जएताह."
-msgstr[1] "कम्प्यूटर %1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
-
-#: daemon/PowerDevilDaemon.cpp:865
-msgid "There was an error while suspending:"
-msgstr "सस्पेंड करबाक काले एकटा त्रुटि भेल"
-
-#: daemon/PowerDevilDaemon.cpp:985
-msgid "The screen is being locked"
-msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
-
-#: daemon/PowerDevilDaemon.cpp:999
-msgctxt "Interrupts the suspension/shutdown process"
-msgid "Cancel"
-msgstr "रद करू"
-
-#: daemon/PowerDevilDaemon.cpp:1047 daemon/PowerDevilDaemon.cpp:1341
-#: daemon/powerdevilcore.cpp:234
-#, kde-format
-msgid ""
-"The profile \"%1\" has been selected, but it does not exist.\n"
-"Please check your PowerDevil configuration."
-msgstr ""
-
-#: daemon/PowerDevilDaemon.cpp:1150
-#, kde-format
-msgid "Profile changed to \"%1\""
-msgstr "प्रोफाइल \"%1\" पर बदलल गेल"
-
-#: daemon/PowerDevilDaemon.cpp:1181 kcmodule/CapabilitiesPage.cpp:121
-msgid "Suspend to Disk"
-msgstr "स्थगित केँ डिस्क"
-
-#: daemon/PowerDevilDaemon.cpp:1185 kcmodule/CapabilitiesPage.cpp:125
-msgid "Suspend to RAM"
-msgstr "स्थगित केँ RAM"
-
-#: daemon/PowerDevilDaemon.cpp:1189 kcmodule/CapabilitiesPage.cpp:129
-msgid "Standby"
-msgstr "स्टैंडबाए"
-
-#: daemon/SuspensionLockHandler.cpp:75
-#, kde-format
-msgid ""
-"The application %1 is inhibiting suspension for the following reason:\n"
-"%2"
-msgstr ""
-
-#: daemon/actions/dpms/powerdevildpmsactionconfig.cpp:57
-#: daemon/actions/bundled/suspendsessionconfig.cpp:71
-#: daemon/actions/bundled/runscriptconfig.cpp:76
-#: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:65
-#: daemon/actions/bundled/dimdisplayconfig.cpp:60
-#, fuzzy
-#| msgid "min"
-msgid " min"
-msgstr "मि."
-
-#: daemon/actions/dpms/powerdevildpmsactionconfig.cpp:58
-#, fuzzy
-#| msgid "&Power off after"
-msgid "Switch off after"
-msgstr "एतबा समयक बाद बिजली बन्न करू (&P)"
-
-#: daemon/actions/bundled/brightnesscontrolconfig.cpp:62
-msgid "Level"
-msgstr ""
-
-#: daemon/actions/bundled/suspendsessionconfig.cpp:75
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:77
-#: kcmodule/GeneralPage.cpp:74
-msgid "Do nothing"
-msgstr "किछु नहि करू"
-
-#: daemon/actions/bundled/suspendsessionconfig.cpp:77
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:79
-#: kcmodule/GeneralPage.cpp:76
-msgid "Sleep"
-msgstr ""
-
-#: daemon/actions/bundled/suspendsessionconfig.cpp:80
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:82
-#: kcmodule/GeneralPage.cpp:79
-msgid "Hibernate"
-msgstr ""
-
-#: daemon/actions/bundled/suspendsessionconfig.cpp:82
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:84
-#: kcmodule/GeneralPage.cpp:81
-msgid "Shutdown"
-msgstr "बन्न करू"
-
-#: daemon/actions/bundled/suspendsessionconfig.cpp:83
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:85
-#, fuzzy
-#| msgid "Lock Screen"
-msgid "Lock screen"
-msgstr "स्क्रीन पर ताला लगाबू"
-
-#: daemon/actions/bundled/suspendsessionconfig.cpp:92
-#: daemon/actions/bundled/runscriptconfig.cpp:79
-#: daemon/actions/bundled/runscriptconfig.cpp:100
-#: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:68
-#: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:89
-#: daemon/actions/bundled/dimdisplayconfig.cpp:61
-msgid "After"
-msgstr ""
-
-#: daemon/actions/bundled/runscriptconfig.cpp:68
-msgid "Script"
-msgstr ""
-
-#: daemon/actions/bundled/runscriptconfig.cpp:77
-#: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:67
-#, fuzzy
-#| msgid "New Profile"
-msgid "On Profile Load"
-msgstr "नवीन प्रोफाइल"
-
-#: daemon/actions/bundled/runscriptconfig.cpp:78
-msgid "On Profile Unload"
-msgstr ""
-
-#: daemon/actions/bundled/runscriptconfig.cpp:89
-msgid "Run script"
-msgstr ""
-
-#: daemon/actions/bundled/disabledesktopeffectsconfig.cpp:79
-#, fuzzy
-#| msgid "Disable KWin compositing, if active"
-msgid "Disable effects"
-msgstr "जँ सक्रिय अछि तँ के-विन कम्पोजिटिंग अक्षम करू"
-
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:87
-#, fuzzy
-#| msgid "Prompt Log out dialog"
-msgid "Prompt log out dialog"
-msgstr "लाग आउट समाद पूछू"
-
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:89
-msgid "Turn off screen"
-msgstr ""
-
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:98
-#, fuzzy
-#| msgid "When Laptop Lid Closed"
-msgid "When laptop lid closed"
-msgstr "जखन लैपटापक ढक्कन बन्न अछि तँ"
-
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:99
-#, fuzzy
-#| msgid "When Power Button pressed"
-msgid "When power button pressed"
-msgstr "जखन पावर बटन दबाएल जाए"
-
-#: daemon/actions/bundled/handlebuttoneventsconfig.cpp:100
-#, fuzzy
-#| msgid "When Sleep Button pressed"
-msgid "When sleep button pressed"
-msgstr "जखन स्लीप बटन दबाएल जाए"
-
-#: daemon/backends/upower/upowersuspendjob.cpp:70
-#, fuzzy
-#| msgid "Supported suspend methods"
-msgid "Unsupported suspend method"
-msgstr "समर्थित निलंबन विधिसभ"
-
-#: daemon/kdedpowerdevil.cpp:48
-#, fuzzy
-#| msgid "A Power Management tool for KDE4"
-msgid "KDE Power Management System"
-msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
-
-#: daemon/kdedpowerdevil.cpp:49
-msgid ""
-"KDE Power Management System is PowerDevil, an advanced, modular and "
-"lightweight Power Management daemon"
-msgstr ""
-
-#: daemon/kdedpowerdevil.cpp:52
-msgid "(c) 2010 MetalWorkers Co."
-msgstr ""
-
-#: daemon/kdedpowerdevil.cpp:55
-msgid "Developer"
-msgstr ""
-
-#: daemon/powerdevilcore.cpp:247
-#, kde-format
-msgid ""
-"The profile \"%1\" tried to activate %2, a non existent action. This is "
-"usually due to an installation problem or to a configuration problem."
-msgstr ""
-
-#: daemon/powerdevilcore.cpp:332
+#: powerdevilcore.cpp:340
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -368,7 +210,15 @@ msgid ""
 "been cancelled"
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: daemon/powerdevilcore.cpp:368
+#: powerdevilcore.cpp:342
+msgid "The power adaptor has been plugged in."
+msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
+
+#: powerdevilcore.cpp:345
+msgid "The power adaptor has been unplugged."
+msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
+
+#: powerdevilcore.cpp:376
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -378,7 +228,7 @@ msgid ""
 "Your battery level is critical, the computer will be halted in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: daemon/powerdevilcore.cpp:373
+#: powerdevilcore.cpp:381
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -389,7 +239,7 @@ msgid ""
 "seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: daemon/powerdevilcore.cpp:378
+#: powerdevilcore.cpp:386
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be suspended to RAM in "
@@ -401,152 +251,36 @@ msgid ""
 "Your battery level is critical, the computer will be suspended in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
 
-#: kcmodule/ConfigWidget.cpp:35
-msgid "General Settings"
-msgstr "सामान्य जमावट"
+#: powerdevilcore.cpp:391
+msgid "Your battery level is critical: save your work as soon as possible."
+msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
-#: kcmodule/ConfigWidget.cpp:36
-msgid "Edit Profiles"
-msgstr "प्रोफाइल संपादित करू"
+#: powerdevilcore.cpp:397
+msgid "Your battery has reached the warning level."
+msgstr "अहाँक बैटरीक स्तर चेतावनी स्तर तकि पहुँचि गेल अछि"
 
-#: kcmodule/ConfigWidget.cpp:37
-msgid "Capabilities"
-msgstr "योग्यता"
+#: powerdevilcore.cpp:402
+msgid "Your battery has reached a low level."
+msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
 
-#: kcmodule/PowerDevilKCM.cpp:52
-msgid "PowerDevil Configuration"
-msgstr "पावरडेविल कान्फिगरेशन"
-
-#: kcmodule/PowerDevilKCM.cpp:53
-msgid "A configurator for PowerDevil"
-msgstr "पावर-डेविलक लेल एकटा कान्फिगरेटर"
-
-#: kcmodule/PowerDevilKCM.cpp:54
-msgid "(c), 2008 Dario Freddi"
-msgstr "(c) 2008 डेरियो फ्रेदी"
-
-#: kcmodule/PowerDevilKCM.cpp:55 kcmodule/EditPage.cpp:69
-msgid ""
-"From this module, you can configure the Daemon, create and edit powersaving "
-"profiles, and see your system's capabilities."
-msgstr ""
-
-#: kcmodule/PowerDevilKCM.cpp:64
-msgid ""
-"<h1>PowerDevil configuration</h1> <p>This module lets you configure "
-"PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
-"started upon KDE startup.</p> <p>PowerDevil has 2 levels of configuration: a "
-"general one, that is always applied, and a profile-based one, that lets you "
-"configure a specific behavior in every situation. You can also have a look "
-"at your system capabilities in the last tab. To get you started, first "
-"configure the options in the first 2 tabs. Then switch to the fourth one, "
-"and create/edit your profiles. Last but not least, assign your profiles in "
-"the third Tab. You do not have to restart PowerDevil, just click \"Apply\", "
-"and you are done.</p>"
-msgstr ""
-
-#: kcmodule/PowerDevilKCM.cpp:88
-msgid ""
-"Another power manager has been detected. PowerDevil will not start if other "
-"power managers are active. If you want to use PowerDevil as your primary "
-"power manager, please remove the existing one and restart the PowerDevil "
-"service."
-msgstr ""
-
-#: kcmodule/PowerDevilKCM.cpp:93
-msgid ""
-"It seems powersaved is running on this system. PowerDevil will not start if "
-"other power managers are active. If you want to use PowerDevil as your "
-"primary power manager, please stop powersaved and restart the PowerDevil "
-"service."
-msgstr ""
-
-#: kcmodule/PowerDevilKCM.cpp:103
-msgid ""
-"PowerDevil seems not to be started. Either you have its service turned off, "
-"or there is a problem in D-Bus."
-msgstr ""
-
-#: kcmodule/EditPage.cpp:66
+#: powerdevilprofilegenerator.cpp:58
 #, fuzzy
-#| msgid "PowerDevil Configuration"
-msgid "Power Profiles Configuration"
-msgstr "पावरडेविल कान्फिगरेशन"
+#| msgid "Performance"
+msgctxt "Name of a power profile"
+msgid "Performance"
+msgstr "प्रदर्शन"
 
-#: kcmodule/EditPage.cpp:67
+#: powerdevilprofilegenerator.cpp:108
 #, fuzzy
-#| msgid "A configurator for PowerDevil"
-msgid "A profile configurator for KDE Power Management System"
-msgstr "पावर-डेविलक लेल एकटा कान्फिगरेटर"
+#| msgid "Powersave"
+msgctxt "Name of a power profile"
+msgid "Powersave"
+msgstr "ऊर्जा-बचत"
 
-#: kcmodule/EditPage.cpp:68
-#, fuzzy
-#| msgid "(c), 2008 Dario Freddi"
-msgid "(c), 2010 Dario Freddi"
-msgstr "(c) 2008 डेरियो फ्रेदी"
-
-#: kcmodule/EditPage.cpp:312
-#, fuzzy
-#| msgid "Please enter a name for the new profile"
-msgid "Please enter a name for the new profile:"
-msgstr "कृप्या नवीन प्रोफाइल क' लेल एकटा नाम दिअ' :"
-
-#: kcmodule/EditPage.cpp:314 kcmodule/EditPage.cpp:317
-#: kcmodule/EditPage.cpp:366 kcmodule/EditPage.cpp:369
-msgid "The name for the new profile"
-msgstr "नवीन प्रोफाइलक नाम"
-
-#: kcmodule/EditPage.cpp:315 kcmodule/EditPage.cpp:318
-#: kcmodule/EditPage.cpp:367 kcmodule/EditPage.cpp:370
-msgid "Enter here the name for the profile you are creating"
-msgstr "एतए पर आप प्रोफाइलक नाम भरू जकरा अहाँ बनाए रहल छी"
-
-#: kcmodule/EditPage.cpp:364
-#, fuzzy
-#| msgid "Please enter a name for this profile"
-msgid "Please enter a name for this profile:"
-msgstr "ई प्रोफाइलक लेल एकटा नाम भरू"
-
-#: kcmodule/EditPage.cpp:398
-#, fuzzy
-#| msgid "Import PowerDevil profiles"
-msgid "Import PowerDevil Profiles"
-msgstr "पावरडेविल प्रोफाइलकेँ आयात करू"
-
-#: kcmodule/EditPage.cpp:421
-#, fuzzy
-#| msgid "Export PowerDevil profiles"
-msgid "Export PowerDevil Profiles"
-msgstr "पावरडेविर प्रोफाइलकेँ निर्यात करू"
-
-#: kcmodule/EditPage.cpp:453
-msgid ""
-"The current profile has not been saved.\n"
-"Do you want to save it?"
+#: powerdevilprofilegenerator.cpp:150
+msgctxt "Name of a power profile"
+msgid "Aggressive powersave"
 msgstr ""
-"वर्तमान प्रोफाइल सहेजल नहि गेल अछि.\n"
-"की अहाँ एकरा सहेजब चाहैत छी?"
-
-#: kcmodule/EditPage.cpp:454
-msgid "Save Profile"
-msgstr "प्रोफाइल सहेजू"
-
-#: kcmodule/CapabilitiesPage.cpp:135
-msgctxt "None"
-msgid "No methods found"
-msgstr "कोनो विधि नहि भेटल"
-
-#: kcmodule/CapabilitiesPage.cpp:197
-msgid ""
-"ConsoleKit was not found active on your PC, or PowerDevil cannot contact it. "
-"ConsoleKit lets PowerDevil detect whether the current session is active, "
-"which is useful if you have more than one user logged into your system at "
-"any one time."
-msgstr ""
-
-#: kcmodule/CapabilitiesPage.cpp:202
-msgid "No issues found with your configuration."
-msgstr "अहाँक कान्फिगरेशन युक्त कोनो इश्यू नहि भेटल."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -558,309 +292,303 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: file: kcmodule/profileEditPage.ui:61
-#. i18n: ectx: property (text), widget (QWidget, scrollAreaWidgetContents)
-#: rc.cpp:5
-msgid "New Profile"
-msgstr "नवीन प्रोफाइल"
+#~ msgid "PowerDevil"
+#~ msgstr "पावर-डेविल"
 
-#. i18n: file: kcmodule/profileEditPage.ui:66
-#. i18n: ectx: property (text), widget (QWidget, scrollAreaWidgetContents)
-#: rc.cpp:8
-msgid "Delete Profile"
-msgstr "प्रोफाइल मेटाबू"
-
-#. i18n: file: kcmodule/profileEditPage.ui:71
-#. i18n: ectx: property (text), widget (QWidget, scrollAreaWidgetContents)
-#: rc.cpp:11
-msgid "Import Profiles"
-msgstr "प्रोफाइल आयात करू"
-
-#. i18n: file: kcmodule/profileEditPage.ui:76
-#. i18n: ectx: property (text), widget (QWidget, scrollAreaWidgetContents)
-#: rc.cpp:14
-msgid "Export Profiles"
-msgstr "प्रोफाइल निर्यात करू"
-
-#. i18n: file: kcmodule/generalPage.ui:21
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rc.cpp:17
 #, fuzzy
-#| msgid "Settings and Profiles"
-msgid "Settings and Profile"
-msgstr "विन्यास आ प्रोफाइल"
+#~| msgid "A Power Management tool for KDE4"
+#~ msgid "A Power Management tool for KDE4"
+#~ msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
 
-#. i18n: file: kcmodule/generalPage.ui:27
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20
-msgid "<b>Events</b>"
-msgstr ""
-
-#. i18n: file: kcmodule/generalPage.ui:39
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:23
-msgid "Lock screen on resume"
-msgstr "पुनरारंभ पर स्क्रीनक तालाबन्न करू"
-
-#. i18n: file: kcmodule/generalPage.ui:52
-#. i18n: ectx: property (toolTip), widget (QCheckBox, lockScreenOnResume)
-#: rc.cpp:26
-msgid "Locks screen when waking up from suspension"
-msgstr "जखन निलंबन सँ जागैत अछि तँ स्क्रीन पर ताला लगाबैछ"
-
-#. i18n: file: kcmodule/generalPage.ui:58
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, lockScreenOnResume)
-#: rc.cpp:29
 #, fuzzy
-#| msgid "You will be asked for password when resuming from sleep state"
-msgid "You will be asked for a password when resuming from sleep state"
-msgstr "जखन अहाँ स्लीप स्थिति सँ पुनरारंभ करब तँ अहाँक पासवर्डक लेल पूछल जाएत"
+#~| msgid "(c), 2008 Dario Freddi"
+#~ msgid "(c) 2008 Dario Freddi"
+#~ msgstr "(c) 2008 डेरियो फ्रेदी"
 
-#. i18n: file: kcmodule/generalPage.ui:82
-#. i18n: ectx: property (text), widget (QPushButton, notificationsButton)
-#: rc.cpp:32
+#~ msgid "Maintainer"
+#~ msgstr "अनुरक्षक"
+
 #, fuzzy
-#| msgid "Configure Notifications"
-msgid "Configure Notifications..."
-msgstr "सूचनासभ बिन्यस्त करू"
+#~| msgid "The power adaptor has been plugged in"
+#~ msgid ""
+#~ "The power adaptor has been plugged in. Any pending suspend actions have "
+#~ "been canceled."
+#~ msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#. i18n: file: kcmodule/generalPage.ui:110
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:35
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
-"weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"weight:600;\">Profile Assignment</span></p></body></html>"
-msgstr ""
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be halted in 1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be halted in %1 seconds."
+#~ msgstr[0] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
+#~ msgstr[1] ""
+#~ "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी %1 सेकण्ड मे हाल्ट भए जएताह. ई प्रक्रिया केँ "
+#~ "रोकबाक लेल एतए क्लिक करू."
 
-#. i18n: file: kcmodule/generalPage.ui:122
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:42
-msgid "When AC Adaptor is plugged in"
-msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be suspended to disk in "
+#~ "1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be suspended to disk in "
+#~ "%1 seconds."
+#~ msgstr[0] "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे सस्पेंड भए जएताह. "
+#~ msgstr[1] "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी %1 सेकण्ड मे सस्पेंड भए जएताह. "
 
-#. i18n: file: kcmodule/generalPage.ui:142
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:45
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be suspended to RAM in "
+#~ "1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be suspended to RAM in %"
+#~ "1 seconds."
+#~ msgstr[0] ""
+#~ "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
+#~ msgstr[1] ""
+#~ "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी %1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
+
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be put into standby in "
+#~ "1 second."
+#~ msgid_plural ""
+#~ "Your battery level is critical, the computer will be put into standby in %"
+#~ "1 seconds."
+#~ msgstr[0] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
+#~ msgstr[1] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी %1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
+
+#~ msgid "The computer will be halted in 1 second."
+#~ msgid_plural "The computer will be halted in %1 seconds."
+#~ msgstr[0] "कम्प्यूटर 1 सेकण्डमे हाल्ट भए जएताह. "
+#~ msgstr[1] "कम्प्यूटर %1 सेकण्डमे हाल्ट भए जएताह. "
+
+#~ msgid "The computer will be suspended to disk in 1 second."
+#~ msgid_plural "The computer will be suspended to disk in %1 seconds."
+#~ msgstr[0] "कम्प्यूटर 1 सेकण्डमे सस्पेंड भए जएताह. "
+#~ msgstr[1] "कम्प्यूटर %1 सेकण्डमे सस्पेंड भए जएताह. "
+
+#~ msgid "The computer will be suspended to RAM in 1 second."
+#~ msgid_plural "The computer will be suspended to RAM in %1 seconds."
+#~ msgstr[0] "कम्प्यूटर 1 सेकण्ड मे रैममे सस्पेंड भए जएताह."
+#~ msgstr[1] ""
+#~ "कम्प्यूटर %1 सेकण्ड मे रैममे सस्पेंड भए जएताह. ई प्रक्रिया केँ रोकबाक लेल एतए क्लिक करू."
+
+#~ msgid "The computer will be put into standby in 1 second."
+#~ msgid_plural "The computer will be put into standby in %1 seconds."
+#~ msgstr[0] "कम्प्यूटर 1 सेकण्ड मे स्टैण्डबाइ भए जएताह."
+#~ msgstr[1] "कम्प्यूटर %1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
+
+#~ msgid "There was an error while suspending:"
+#~ msgstr "सस्पेंड करबाक काले एकटा त्रुटि भेल"
+
+#~ msgid "The screen is being locked"
+#~ msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
+
+#~ msgctxt "Interrupts the suspension/shutdown process"
+#~ msgid "Cancel"
+#~ msgstr "रद करू"
+
+#~ msgid "Profile changed to \"%1\""
+#~ msgstr "प्रोफाइल \"%1\" पर बदलल गेल"
+
+#~ msgid "Suspend to Disk"
+#~ msgstr "स्थगित केँ डिस्क"
+
+#~ msgid "Suspend to RAM"
+#~ msgstr "स्थगित केँ RAM"
+
+#~ msgid "Standby"
+#~ msgstr "स्टैंडबाए"
+
+#~ msgid "General Settings"
+#~ msgstr "सामान्य जमावट"
+
+#~ msgid "Edit Profiles"
+#~ msgstr "प्रोफाइल संपादित करू"
+
+#~ msgid "Capabilities"
+#~ msgstr "योग्यता"
+
+#~ msgid "PowerDevil Configuration"
+#~ msgstr "पावरडेविल कान्फिगरेशन"
+
+#~ msgid "A configurator for PowerDevil"
+#~ msgstr "पावर-डेविलक लेल एकटा कान्फिगरेटर"
+
+#~ msgid "(c), 2008 Dario Freddi"
+#~ msgstr "(c) 2008 डेरियो फ्रेदी"
+
 #, fuzzy
-#| msgid "When AC Adaptor is plugged in"
-msgid "When AC Adaptor is unplugged"
-msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
+#~| msgid "PowerDevil Configuration"
+#~ msgid "Power Profiles Configuration"
+#~ msgstr "पावरडेविल कान्फिगरेशन"
 
-#. i18n: file: kcmodule/generalPage.ui:162
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:48
-msgid "When battery is at low level"
-msgstr "जखन बैटरी कम स्तर पर अछि"
-
-#. i18n: file: kcmodule/generalPage.ui:182
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:51
-msgid "When battery is at warning level"
-msgstr "जखन बैटरी चेतावनी स्तर पर अछि"
-
-#. i18n: file: kcmodule/generalPage.ui:218
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:54
-msgid "Advanced Battery Settings"
-msgstr "उन्नत बैटरी विन्यास"
-
-#. i18n: file: kcmodule/generalPage.ui:226
-#. i18n: ectx: property (text), widget (QLabel, BatteryCriticalLabel)
-#: rc.cpp:57
-msgid "When battery remaining is critical"
-msgstr "जखन बैटरी गंभीर रूपेँ खाली भ' जाएत"
-
-#. i18n: file: kcmodule/generalPage.ui:283
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:60
-msgid "Battery Levels"
-msgstr "बैटरी स्तर"
-
-#. i18n: file: kcmodule/generalPage.ui:292
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:63
-msgid "Battery is at low level at"
-msgstr "बैटरी ई स्तर पर कम मानल जएताह"
-
-#. i18n: file: kcmodule/generalPage.ui:308
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, lowSpin)
-#: rc.cpp:66
-msgid "Low battery level"
-msgstr "कम बैटरी स्तर"
-
-#. i18n: file: kcmodule/generalPage.ui:311
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, lowSpin)
-#: rc.cpp:69
-msgid "Battery will be considered low when it reaches this level"
-msgstr "बैटरी केँ कम स्तर पर माना जाएताह जखन ओ ई स्तर तकि पहुँचि जाएत"
-
-#. i18n: file: kcmodule/generalPage.ui:314
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, lowSpin)
-#. i18n: file: kcmodule/generalPage.ui:346
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, warningSpin)
-#. i18n: file: kcmodule/generalPage.ui:378
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:73 rc.cpp:86 rc.cpp:99
-#, no-c-format
-msgid "%"
-msgstr "%"
-
-#. i18n: file: kcmodule/generalPage.ui:324
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:76
-msgid "Battery is at warning level at"
-msgstr "बैटरीक चेतावनी स्तर अछि"
-
-#. i18n: file: kcmodule/generalPage.ui:340
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, warningSpin)
-#: rc.cpp:79
-msgid "Warning battery level"
-msgstr "बैटरी चेतावनी स्तर"
-
-#. i18n: file: kcmodule/generalPage.ui:343
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, warningSpin)
-#: rc.cpp:82
-msgid "Battery will be considered at warning level when it reaches this level"
-msgstr "जखन बैटरी ई स्तर तकि पहुँच जएताह तखन चेतावनी स्तर तकि मानल जाएत"
-
-#. i18n: file: kcmodule/generalPage.ui:356
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:89
-msgid "Battery is at critical level at"
-msgstr "बैटरीक स्तर गंभीर भए जाएत ई स्तर पर"
-
-#. i18n: file: kcmodule/generalPage.ui:372
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:92
-msgid "Critical battery level"
-msgstr "बैटरीक गंभीर स्तर"
-
-#. i18n: file: kcmodule/generalPage.ui:375
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, criticalSpin)
-#: rc.cpp:95
-msgid "Battery will be considered critical when it reaches this level"
-msgstr "बैटरीक स्थिति गंभीर मानल जएताह जखन ओ ई स्तर तकि पहुँच जएताह"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:23
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: rc.cpp:102
-msgid "System Capabilities"
-msgstr "तंत्र क्षमतासभ"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:35
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:105
 #, fuzzy
-#| msgid "Number of CPU"
-msgid "Number of CPUs"
-msgstr "सीपीयूक संख्या"
+#~| msgid "A configurator for PowerDevil"
+#~ msgid "A profile configurator for KDE Power Management System"
+#~ msgstr "पावर-डेविलक लेल एकटा कान्फिगरेटर"
 
-#. i18n: file: kcmodule/capabilitiesPage.ui:49
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:108
-msgid "Number of Batteries"
-msgstr "बैटरीक संख्या"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:77
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: rc.cpp:111
-msgid "Supported suspend methods"
-msgstr "समर्थित निलंबन विधिसभ"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:104
-#. i18n: ectx: property (toolTip), widget (QLabel, label_4)
-#: rc.cpp:114
-msgid "Support for DPMS"
-msgstr "डीपीएमएस समर्थन हेतु"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:107
-#. i18n: ectx: property (whatsThis), widget (QLabel, label_4)
-#: rc.cpp:117
-msgid ""
-"If this is enabled, PowerDevil will be able to configure power management "
-"for your monitor"
-msgstr ""
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:110
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:120
-msgid "DPMS Support"
-msgstr "डीपीएमएस समर्थन"
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:124
-#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
-#: rc.cpp:123
-msgid "Checks if ConsoleKit is active on your system"
-msgstr ""
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:127
-#. i18n: ectx: property (whatsThis), widget (QLabel, label_6)
-#: rc.cpp:126
-msgid ""
-"ConsoleKit lets PowerDevil detect whether the current session is active, "
-"which is useful if you have more than one user logged into your system at "
-"any one time."
-msgstr ""
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:130
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:129
-msgid "ConsoleKit Runtime Support"
-msgstr ""
-
-#. i18n: file: kcmodule/capabilitiesPage.ui:151
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:132
-msgid "Status"
-msgstr "स्थिति"
-
-#. i18n: file: kcmodule/error.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, errorWidget)
-#: rc.cpp:135
-msgid "PowerDevil error"
-msgstr "पावर-डेविल त्रुटि"
-
-#. i18n: file: kcmodule/error.ui:56
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:138
-msgid ""
-"The configuration module can not be started, since there seems to be a "
-"problem with the PowerDevil Daemon. Read below for more details"
-msgstr ""
-
-#. i18n: file: kcmodule/profileEditWidget.ui:19
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:141
 #, fuzzy
-#| msgid "Edit Profiles"
-msgid "Editing Profile"
-msgstr "प्रोफाइल संपादित करू"
+#~| msgid "(c), 2008 Dario Freddi"
+#~ msgid "(c), 2010 Dario Freddi"
+#~ msgstr "(c) 2008 डेरियो फ्रेदी"
 
-#. i18n: file: kcmodule/profileEditWidget.ui:29
-#. i18n: ectx: property (text), widget (KPushButton, kpushbutton)
-#: rc.cpp:144
-msgid "Remove"
-msgstr ""
+#, fuzzy
+#~| msgid "Please enter a name for the new profile"
+#~ msgid "Please enter a name for the new profile:"
+#~ msgstr "कृप्या नवीन प्रोफाइल क' लेल एकटा नाम दिअ' :"
 
-#. i18n: file: kcmodule/profileEditWidget.ui:36
-#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_2)
-#: rc.cpp:147
-msgid "Rename"
-msgstr ""
+#~ msgid "The name for the new profile"
+#~ msgstr "नवीन प्रोफाइलक नाम"
 
-#. i18n: file: kcmodule/profileEditWidget.ui:43
-#. i18n: ectx: property (text), widget (KPushButton, addProfileButton)
-#: rc.cpp:150
-msgid "Add"
-msgstr ""
+#~ msgid "Enter here the name for the profile you are creating"
+#~ msgstr "एतए पर आप प्रोफाइलक नाम भरू जकरा अहाँ बनाए रहल छी"
+
+#, fuzzy
+#~| msgid "Please enter a name for this profile"
+#~ msgid "Please enter a name for this profile:"
+#~ msgstr "ई प्रोफाइलक लेल एकटा नाम भरू"
+
+#, fuzzy
+#~| msgid "Import PowerDevil profiles"
+#~ msgid "Import PowerDevil Profiles"
+#~ msgstr "पावरडेविल प्रोफाइलकेँ आयात करू"
+
+#, fuzzy
+#~| msgid "Export PowerDevil profiles"
+#~ msgid "Export PowerDevil Profiles"
+#~ msgstr "पावरडेविर प्रोफाइलकेँ निर्यात करू"
+
+#~ msgid ""
+#~ "The current profile has not been saved.\n"
+#~ "Do you want to save it?"
+#~ msgstr ""
+#~ "वर्तमान प्रोफाइल सहेजल नहि गेल अछि.\n"
+#~ "की अहाँ एकरा सहेजब चाहैत छी?"
+
+#~ msgid "Save Profile"
+#~ msgstr "प्रोफाइल सहेजू"
+
+#~ msgctxt "None"
+#~ msgid "No methods found"
+#~ msgstr "कोनो विधि नहि भेटल"
+
+#~ msgid "No issues found with your configuration."
+#~ msgstr "अहाँक कान्फिगरेशन युक्त कोनो इश्यू नहि भेटल."
+
+#~ msgid "New Profile"
+#~ msgstr "नवीन प्रोफाइल"
+
+#~ msgid "Delete Profile"
+#~ msgstr "प्रोफाइल मेटाबू"
+
+#~ msgid "Import Profiles"
+#~ msgstr "प्रोफाइल आयात करू"
+
+#~ msgid "Export Profiles"
+#~ msgstr "प्रोफाइल निर्यात करू"
+
+#, fuzzy
+#~| msgid "Settings and Profiles"
+#~ msgid "Settings and Profile"
+#~ msgstr "विन्यास आ प्रोफाइल"
+
+#~ msgid "Lock screen on resume"
+#~ msgstr "पुनरारंभ पर स्क्रीनक तालाबन्न करू"
+
+#~ msgid "Locks screen when waking up from suspension"
+#~ msgstr "जखन निलंबन सँ जागैत अछि तँ स्क्रीन पर ताला लगाबैछ"
+
+#, fuzzy
+#~| msgid "You will be asked for password when resuming from sleep state"
+#~ msgid "You will be asked for a password when resuming from sleep state"
+#~ msgstr "जखन अहाँ स्लीप स्थिति सँ पुनरारंभ करब तँ अहाँक पासवर्डक लेल पूछल जाएत"
+
+#, fuzzy
+#~| msgid "Configure Notifications"
+#~ msgid "Configure Notifications..."
+#~ msgstr "सूचनासभ बिन्यस्त करू"
+
+#~ msgid "When AC Adaptor is plugged in"
+#~ msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
+
+#, fuzzy
+#~| msgid "When AC Adaptor is plugged in"
+#~ msgid "When AC Adaptor is unplugged"
+#~ msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
+
+#~ msgid "When battery is at low level"
+#~ msgstr "जखन बैटरी कम स्तर पर अछि"
+
+#~ msgid "When battery is at warning level"
+#~ msgstr "जखन बैटरी चेतावनी स्तर पर अछि"
+
+#~ msgid "Advanced Battery Settings"
+#~ msgstr "उन्नत बैटरी विन्यास"
+
+#~ msgid "When battery remaining is critical"
+#~ msgstr "जखन बैटरी गंभीर रूपेँ खाली भ' जाएत"
+
+#~ msgid "Battery Levels"
+#~ msgstr "बैटरी स्तर"
+
+#~ msgid "Battery is at low level at"
+#~ msgstr "बैटरी ई स्तर पर कम मानल जएताह"
+
+#~ msgid "Low battery level"
+#~ msgstr "कम बैटरी स्तर"
+
+#~ msgid "Battery will be considered low when it reaches this level"
+#~ msgstr "बैटरी केँ कम स्तर पर माना जाएताह जखन ओ ई स्तर तकि पहुँचि जाएत"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Battery is at warning level at"
+#~ msgstr "बैटरीक चेतावनी स्तर अछि"
+
+#~ msgid "Warning battery level"
+#~ msgstr "बैटरी चेतावनी स्तर"
+
+#~ msgid ""
+#~ "Battery will be considered at warning level when it reaches this level"
+#~ msgstr "जखन बैटरी ई स्तर तकि पहुँच जएताह तखन चेतावनी स्तर तकि मानल जाएत"
+
+#~ msgid "Battery is at critical level at"
+#~ msgstr "बैटरीक स्तर गंभीर भए जाएत ई स्तर पर"
+
+#~ msgid "Critical battery level"
+#~ msgstr "बैटरीक गंभीर स्तर"
+
+#~ msgid "Battery will be considered critical when it reaches this level"
+#~ msgstr "बैटरीक स्थिति गंभीर मानल जएताह जखन ओ ई स्तर तकि पहुँच जएताह"
+
+#~ msgid "System Capabilities"
+#~ msgstr "तंत्र क्षमतासभ"
+
+#, fuzzy
+#~| msgid "Number of CPU"
+#~ msgid "Number of CPUs"
+#~ msgstr "सीपीयूक संख्या"
+
+#~ msgid "Number of Batteries"
+#~ msgstr "बैटरीक संख्या"
+
+#~ msgid "Supported suspend methods"
+#~ msgstr "समर्थित निलंबन विधिसभ"
+
+#~ msgid "Support for DPMS"
+#~ msgstr "डीपीएमएस समर्थन हेतु"
+
+#~ msgid "DPMS Support"
+#~ msgstr "डीपीएमएस समर्थन"
+
+#~ msgid "Status"
+#~ msgstr "स्थिति"
+
+#~ msgid "PowerDevil error"
+#~ msgstr "पावर-डेविल त्रुटि"
+
+#, fuzzy
+#~| msgid "Edit Profiles"
+#~ msgid "Editing Profile"
+#~ msgstr "प्रोफाइल संपादित करू"
 
 #, fuzzy
 #~| msgid "Profiles assignment"
@@ -972,17 +700,11 @@ msgstr ""
 #~ msgid "Supported schemes"
 #~ msgstr "समर्थित योजनासभ"
 
-#~ msgid "Performance"
-#~ msgstr "प्रदर्शन"
-
 #~ msgid "Dynamic (ondemand)"
 #~ msgstr "गतिशील (आनडिमांड)"
 
 #~ msgid "Dynamic (conservative)"
 #~ msgstr "गतिशील (कंजरवेटिव)"
-
-#~ msgid "Powersave"
-#~ msgstr "ऊर्जा-बचत"
 
 #~ msgid "Userspace"
 #~ msgstr "अपरस्पेस"

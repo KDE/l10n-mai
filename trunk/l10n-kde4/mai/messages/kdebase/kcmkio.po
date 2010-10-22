@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-27 06:04+0200\n"
+"POT-Creation-Date: 2010-10-22 06:15+0200\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -71,36 +71,36 @@ msgid ""
 "sites without being prompted every time KDE receives a cookie.</p>"
 msgstr ""
 
-#: kcookiesmanagement.cpp:166 kcookiesmanagement.cpp:183
+#: kcookiesmanagement.cpp:143 kcookiesmanagement.cpp:159
 msgid "D-Bus Communication Error"
 msgstr "डी_बस कम्यूनिकेशन त्रुटि"
 
-#: kcookiesmanagement.cpp:167
+#: kcookiesmanagement.cpp:144
 msgid "Unable to delete all the cookies as requested."
 msgstr "जहिना निवेदित अछि. सबहि कुकीज केँ मेटाबै मे अक्षम."
 
-#: kcookiesmanagement.cpp:184
+#: kcookiesmanagement.cpp:160
 msgid "Unable to delete cookies as requested."
 msgstr "जहिना निवेदित अछि. कुकीज केँ मेटाबै मे अक्षम."
 
-#: kcookiesmanagement.cpp:256
+#: kcookiesmanagement.cpp:231
 msgid "<h1>Cookie Management Quick Help</h1>"
 msgstr "<h1>कुकीज प्रबंधन तत्काल मद्दति</h1>"
 
-#: kcookiesmanagement.cpp:266
+#: kcookiesmanagement.cpp:241
 msgid "Information Lookup Failure"
 msgstr "जानकारी देखनाइ असफल"
 
-#: kcookiesmanagement.cpp:267
+#: kcookiesmanagement.cpp:242
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
 msgstr "अहाँक कम्प्यूटर पर भंडारित कुकीज केर संबंध मे जानकारी निकाल पाबै मे अक्षम."
 
-#: kcookiesmanagement.cpp:376
+#: kcookiesmanagement.cpp:332
 msgid "End of session"
 msgstr "सत्र क' अंत"
 
-#: kcookiesmanagement.cpp:385
+#: kcookiesmanagement.cpp:341
 msgid "Yes"
 msgstr "हँ"
 
@@ -732,7 +732,7 @@ msgid "Auto &Detect"
 msgstr "अपने पता लगाबू (&D)"
 
 #. i18n: file: kcookiesmanagementdlg.ui:20
-#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, searchLineEdit)
 #. i18n: file: kcookiespoliciesdlg.ui:225
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: rc.cpp:170 rc.cpp:307
@@ -740,29 +740,29 @@ msgid "Search"
 msgstr "खोजू"
 
 #. i18n: file: kcookiesmanagementdlg.ui:27
-#. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, cookiesTreeWidget)
 #: rc.cpp:173
 msgid "Search interactively for domains and hosts"
 msgstr "डोमेन तथा होस्ट क' लेल पूछताछ कए खोज"
 
-#. i18n: file: kcookiesmanagementdlg.ui:49
-#. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
+#. i18n: file: kcookiesmanagementdlg.ui:43
+#. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: rc.cpp:176
 #, fuzzy
 #| msgid "Site Name"
 msgid "Site"
 msgstr "साइट नाम"
 
-#. i18n: file: kcookiesmanagementdlg.ui:54
-#. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
+#. i18n: file: kcookiesmanagementdlg.ui:48
+#. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: rc.cpp:179
 #, fuzzy
 #| msgid "Site Name"
 msgid "Cookie Name"
 msgstr "साइट नाम"
 
-#. i18n: file: kcookiesmanagementdlg.ui:62
-#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#. i18n: file: kcookiesmanagementdlg.ui:56
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #. i18n: file: kcookiespoliciesdlg.ui:156
 #. i18n: ectx: property (text), widget (KPushButton, pbDelete)
 #. i18n: file: useragentdlg.ui:208
@@ -771,8 +771,8 @@ msgstr "साइट नाम"
 msgid "D&elete"
 msgstr "मेटाबू (&e)"
 
-#. i18n: file: kcookiesmanagementdlg.ui:69
-#. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
+#. i18n: file: kcookiesmanagementdlg.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
 #. i18n: file: kcookiespoliciesdlg.ui:163
 #. i18n: ectx: property (text), widget (KPushButton, pbDeleteAll)
 #. i18n: file: useragentdlg.ui:218
@@ -781,56 +781,56 @@ msgstr "मेटाबू (&e)"
 msgid "Delete A&ll"
 msgstr "सभटा मेटाबू (&l)"
 
-#. i18n: file: kcookiesmanagementdlg.ui:76
-#. i18n: ectx: property (text), widget (QPushButton, pbPolicy)
+#. i18n: file: kcookiesmanagementdlg.ui:70
+#. i18n: ectx: property (text), widget (QPushButton, changePolicyButton)
 #: rc.cpp:188
 msgid "Change &Policy..."
 msgstr "पालिसी बदलू.... (&P)"
 
-#. i18n: file: kcookiesmanagementdlg.ui:83
-#. i18n: ectx: property (text), widget (QPushButton, pbReload)
+#. i18n: file: kcookiesmanagementdlg.ui:77
+#. i18n: ectx: property (text), widget (QPushButton, reloadButton)
 #: rc.cpp:191
 msgid "&Reload List"
 msgstr "सूची रीलोड करू (&R)"
 
-#. i18n: file: kcookiesmanagementdlg.ui:103
-#. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
+#. i18n: file: kcookiesmanagementdlg.ui:97
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #: rc.cpp:194
 msgid "Details"
 msgstr "विवरण"
 
-#. i18n: file: kcookiesmanagementdlg.ui:112
-#. i18n: ectx: property (text), widget (QLabel, lbName)
+#. i18n: file: kcookiesmanagementdlg.ui:106
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: rc.cpp:197
 msgid "Name:"
 msgstr "नाम:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:135
-#. i18n: ectx: property (text), widget (QLabel, lbValue)
+#. i18n: file: kcookiesmanagementdlg.ui:129
+#. i18n: ectx: property (text), widget (QLabel, valueLabel)
 #: rc.cpp:200
 msgid "Value:"
 msgstr "मान:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:158
-#. i18n: ectx: property (text), widget (QLabel, lbDomain)
+#. i18n: file: kcookiesmanagementdlg.ui:152
+#. i18n: ectx: property (text), widget (QLabel, domainLabel)
 #: rc.cpp:203
 msgid "Domain:"
 msgstr "डोमेन:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:181
-#. i18n: ectx: property (text), widget (QLabel, lbPath)
+#. i18n: file: kcookiesmanagementdlg.ui:175
+#. i18n: ectx: property (text), widget (QLabel, patchLabel)
 #: rc.cpp:206
 msgid "Path:"
 msgstr "पथः"
 
-#. i18n: file: kcookiesmanagementdlg.ui:204
-#. i18n: ectx: property (text), widget (QLabel, lbExpires)
+#. i18n: file: kcookiesmanagementdlg.ui:198
+#. i18n: ectx: property (text), widget (QLabel, expiresLabel)
 #: rc.cpp:209
 msgid "Expires:"
 msgstr "अवधि पूर्ण अछि:"
 
-#. i18n: file: kcookiesmanagementdlg.ui:227
-#. i18n: ectx: property (text), widget (QLabel, lbSecure)
+#. i18n: file: kcookiesmanagementdlg.ui:221
+#. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: rc.cpp:212
 msgid "Secure:"
 msgstr "सुरक्षितः"

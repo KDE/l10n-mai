@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-21 06:27+0200\n"
+"POT-Creation-Date: 2010-10-22 06:26+0200\n"
 "PO-Revision-Date: 2010-09-24 20:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -620,7 +620,7 @@ msgid "OK"
 msgstr "बेस"
 
 #: krusader/Dialogs/krmaskchoice.cpp:139 krusader/Dialogs/packguibase.cpp:316
-#: krusader/DiskUsage/diskusage.cpp:167 krusader/Panel/listpanel.cpp:938
+#: krusader/DiskUsage/diskusage.cpp:167 krusader/Panel/listpanel.cpp:945
 #: krusader/Panel/panelpopup.cpp:142
 msgid "Cancel"
 msgstr "रद करू"
@@ -707,7 +707,7 @@ msgstr ""
 #: krusader/Dialogs/krkeydialog.cpp:148 krusader/Dialogs/checksumdlg.cpp:680
 #: krusader/Konfigurator/kgcolors.cpp:580 krusader/DiskUsage/diskusage.cpp:598
 #: krusader/Queue/queuedialog.cpp:398 krusader/Queue/queuewidget.cpp:158
-#: krusader/Panel/panelfunc.cpp:834
+#: krusader/Panel/panelfunc.cpp:836
 msgid "Warning"
 msgstr "चेतावनी"
 
@@ -4463,8 +4463,8 @@ msgstr "खोलू (&O)"
 
 #: krusader/DiskUsage/radialMap/widgetEvents.cpp:183
 #: krusader/DiskUsage/radialMap/widgetEvents.cpp:201
-#: krusader/DiskUsage/diskusage.cpp:591 krusader/Panel/panelfunc.cpp:822
-#: krusader/Panel/panelfunc.cpp:825 krusader/Panel/panelfunc.cpp:828
+#: krusader/DiskUsage/diskusage.cpp:591 krusader/Panel/panelfunc.cpp:824
+#: krusader/Panel/panelfunc.cpp:827 krusader/Panel/panelfunc.cpp:830
 msgid "&Delete"
 msgstr "मेटाबू (&D)"
 
@@ -4516,7 +4516,7 @@ msgctxt "singularOnly"
 msgid "Do you really want to move this item to the trash?"
 msgstr ""
 
-#: krusader/DiskUsage/diskusage.cpp:588 krusader/Panel/panelfunc.cpp:819
+#: krusader/DiskUsage/diskusage.cpp:588 krusader/Panel/panelfunc.cpp:821
 msgid "&Trash"
 msgstr "रद्दी (&T)"
 
@@ -4833,7 +4833,7 @@ msgstr "सँपादित करू (&E)"
 msgid "Mkdir"
 msgstr "मीडिया"
 
-#: krusader/GUI/kfnkeys.cpp:109 krusader/Panel/krview.cpp:679
+#: krusader/GUI/kfnkeys.cpp:109 krusader/Panel/krview.cpp:732
 #: krusader/Panel/krpopupmenu.cpp:188 krusader/Panel/listpanelactions.cpp:89
 msgid "Rename"
 msgstr "नाम बदलू"
@@ -5057,7 +5057,7 @@ msgstr ""
 msgid "&Load"
 msgstr "लोड करु (&L)"
 
-#: krusader/Filter/generalfilter.cpp:185 krusader/Panel/panelfunc.cpp:1016
+#: krusader/Filter/generalfilter.cpp:185 krusader/Panel/panelfunc.cpp:1018
 msgid "&Overwrite"
 msgstr "मेटाकए लिखू (&O)"
 
@@ -5592,11 +5592,17 @@ msgid ""
 "Nothing exported."
 msgstr ""
 
+#: krusader/Panel/quickfilter.cpp:38
+#, fuzzy
+#| msgid "File"
+msgid "Filter:"
+msgstr "फाइल"
+
 #: krusader/Panel/krpreviewpopup.cpp:49
 msgid "Preview not available"
 msgstr "पूर्वावलोकन उपलब्ध नहि"
 
-#: krusader/Panel/krview.cpp:491
+#: krusader/Panel/krview.cpp:544
 #, kde-format
 msgctxt ""
 "%1=number of selected items,%2=total number of items,                     %"
@@ -5605,7 +5611,7 @@ msgctxt ""
 msgid "%1 out of %2, %3 (%4) out of %5 (%6)"
 msgstr ""
 
-#: krusader/Panel/krview.cpp:499
+#: krusader/Panel/krview.cpp:552
 #, kde-format
 msgctxt ""
 "%1=number of selected items,%2=total number of items,                     %"
@@ -5613,27 +5619,27 @@ msgctxt ""
 msgid "%1 out of %2, %3 out of %4"
 msgstr ""
 
-#: krusader/Panel/krview.cpp:679
+#: krusader/Panel/krview.cpp:732
 #, kde-format
 msgid "Rename %1 to:"
 msgstr ""
 
-#: krusader/Panel/krview.cpp:1151
+#: krusader/Panel/krview.cpp:1207
 msgid "Filter Files"
 msgstr ""
 
-#: krusader/Panel/krview.cpp:1151 krusader/Panel/krview.cpp:1155
+#: krusader/Panel/krview.cpp:1207 krusader/Panel/krview.cpp:1211
 msgid "Apply filter to directories"
 msgstr ""
 
-#: krusader/Panel/krview.cpp:1172
+#: krusader/Panel/krview.cpp:1228
 #, fuzzy
 #| msgid "Text Files"
 msgid "Select Files"
 msgstr "पाठ फाइल"
 
-#: krusader/Panel/krview.cpp:1172 krusader/Panel/krview.cpp:1173
-#: krusader/Panel/krview.cpp:1179
+#: krusader/Panel/krview.cpp:1228 krusader/Panel/krview.cpp:1229
+#: krusader/Panel/krview.cpp:1235
 #, fuzzy
 #| msgid "Please select a directory"
 msgid "Apply selection to directories"
@@ -5727,99 +5733,99 @@ msgstr "पाठ फाइल..."
 msgid "Create New"
 msgstr "नवीन बनाबू"
 
-#: krusader/Panel/listpanel.cpp:153
+#: krusader/Panel/listpanel.cpp:154
 msgid ""
 "The statusbar displays information about the FILESYSTEM which holds your "
 "current directory: Total size, free space, type of filesystem, etc."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:171
+#: krusader/Panel/listpanel.cpp:172
 msgid ""
 "Open menu with bookmarks. You can also add current location to the list, "
 "edit bookmarks or add subfolder to the list."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:181
+#: krusader/Panel/listpanel.cpp:182
 msgid "Use superb KDE file dialog to choose location."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:184
+#: krusader/Panel/listpanel.cpp:185
 msgid ""
 "Name of directory where you are. You can also enter name of desired location "
 "to move there. Use of Net protocols like ftp or fish is possible."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:246 krusader/Panel/listpanel.cpp:533
+#: krusader/Panel/listpanel.cpp:247 krusader/Panel/listpanel.cpp:540
 msgid "Open the popup panel"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:256
+#: krusader/Panel/listpanel.cpp:257
 msgid "="
 msgstr "="
 
-#: krusader/Panel/listpanel.cpp:258
+#: krusader/Panel/listpanel.cpp:259
 msgid "Equal"
 msgstr "क' बराबर"
 
-#: krusader/Panel/listpanel.cpp:264
+#: krusader/Panel/listpanel.cpp:265
 msgid ".."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:266
+#: krusader/Panel/listpanel.cpp:267
 msgid "Up"
 msgstr "उप्पर"
 
-#: krusader/Panel/listpanel.cpp:272
+#: krusader/Panel/listpanel.cpp:273
 msgid "~"
 msgstr "~"
 
-#: krusader/Panel/listpanel.cpp:274
+#: krusader/Panel/listpanel.cpp:275
 msgid "Home"
 msgstr "घर"
 
-#: krusader/Panel/listpanel.cpp:280
+#: krusader/Panel/listpanel.cpp:281
 msgid "/"
 msgstr "/"
 
-#: krusader/Panel/listpanel.cpp:282 krusader/Panel/listpanelactions.cpp:106
+#: krusader/Panel/listpanel.cpp:283 krusader/Panel/listpanelactions.cpp:106
 msgid "Root"
 msgstr "रूट"
 
-#: krusader/Panel/listpanel.cpp:315
+#: krusader/Panel/listpanel.cpp:323
 msgid ""
 "The totals bar shows how many files exist, how many selected and the bytes "
 "math"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:527
+#: krusader/Panel/listpanel.cpp:534
 msgid "Close the popup panel"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:788
+#: krusader/Panel/listpanel.cpp:795
 msgid "No space information on non-local filesystems"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:797
+#: krusader/Panel/listpanel.cpp:804
 msgid "No space information on [dev]"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:802
+#: krusader/Panel/listpanel.cpp:809
 msgid "No space information on [procfs]"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:807
+#: krusader/Panel/listpanel.cpp:814
 msgid "No space information on [proc]"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:812
+#: krusader/Panel/listpanel.cpp:819
 msgid "Mt.Man: working ..."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:827
+#: krusader/Panel/listpanel.cpp:834
 msgid "unknown"
 msgstr "अज्ञात"
 
-#: krusader/Panel/listpanel.cpp:837
+#: krusader/Panel/listpanel.cpp:844
 #, kde-format
 msgctxt ""
 "%1=free space,%2=total space,%3=percentage of "
@@ -5827,44 +5833,44 @@ msgctxt ""
 msgid "%1 free out of %2 (%3%) on %4 [(%5)]"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:844
+#: krusader/Panel/listpanel.cpp:851
 #, kde-format
 msgid "%1 free"
 msgstr "%1 मुक्त"
 
-#: krusader/Panel/listpanel.cpp:902
+#: krusader/Panel/listpanel.cpp:909
 msgid "Cannot drop here, no write permissions."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:928 krusader/Panel/panelpopup.cpp:136
+#: krusader/Panel/listpanel.cpp:935 krusader/Panel/panelpopup.cpp:136
 msgid "Copy Here"
 msgstr "एतए नकल करु"
 
-#: krusader/Panel/listpanel.cpp:931 krusader/Panel/panelpopup.cpp:138
+#: krusader/Panel/listpanel.cpp:938 krusader/Panel/panelpopup.cpp:138
 msgid "Move Here"
 msgstr "एतए घसकाबू"
 
-#: krusader/Panel/listpanel.cpp:935 krusader/Panel/panelpopup.cpp:140
+#: krusader/Panel/listpanel.cpp:942 krusader/Panel/panelpopup.cpp:140
 msgid "Link Here"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1130
+#: krusader/Panel/listpanel.cpp:1137
 msgid "loading previews"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1176
+#: krusader/Panel/listpanel.cpp:1183
 msgid ">> Reading..."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1196
+#: krusader/Panel/listpanel.cpp:1203
 msgid "Reading"
 msgstr "रीडिंग"
 
-#: krusader/Panel/listpanel.cpp:1202
+#: krusader/Panel/listpanel.cpp:1209
 msgid "Reading: "
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1241
+#: krusader/Panel/listpanel.cpp:1248
 #, kde-format
 msgid "Error: %1"
 msgstr "त्रुटि: %1"
@@ -5882,135 +5888,135 @@ msgstr "कालम"
 msgid "Automatically Resize Columns"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:353
+#: krusader/Panel/panelfunc.cpp:355
 msgid "You can edit links only on local file systems"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:364
+#: krusader/Panel/panelfunc.cpp:366
 msgid "The current file is not a link, so it cannot be redirected."
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:371
+#: krusader/Panel/panelfunc.cpp:373
 msgid "Link Redirection"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:372
+#: krusader/Panel/panelfunc.cpp:374
 msgid "Please enter the new link destination:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:379
+#: krusader/Panel/panelfunc.cpp:381
 #, kde-format
 msgid "Cannot remove old link: %1"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:384
+#: krusader/Panel/panelfunc.cpp:386
 #, kde-format
 msgid "Failed to create a new link: %1"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:392
+#: krusader/Panel/panelfunc.cpp:394
 msgid "You can create links only on local file systems"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:401
+#: krusader/Panel/panelfunc.cpp:403
 msgid "New Link"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:401
+#: krusader/Panel/panelfunc.cpp:403
 #, kde-format
 msgid "Create a new link to: %1"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:409 krusader/Panel/panelfunc.cpp:658
+#: krusader/Panel/panelfunc.cpp:411 krusader/Panel/panelfunc.cpp:660
 msgid "A directory or a file with this name already exists."
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:421
+#: krusader/Panel/panelfunc.cpp:423
 #, kde-format
 msgid "Failed to create a new symlink '%1' to: '%2'"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:425
+#: krusader/Panel/panelfunc.cpp:427
 #, kde-format
 msgid "Failed to create a new link '%1' to '%2'"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:441
+#: krusader/Panel/panelfunc.cpp:443
 msgid "No permissions to view this file."
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:452
+#: krusader/Panel/panelfunc.cpp:454
 msgid "Enter a URL to view:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:471
+#: krusader/Panel/panelfunc.cpp:473
 msgid "You cannot edit a directory"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:476
+#: krusader/Panel/panelfunc.cpp:478
 msgid "No permissions to edit this file."
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:489
+#: krusader/Panel/panelfunc.cpp:491
 msgid "Enter the filename to edit:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:533
+#: krusader/Panel/panelfunc.cpp:535
 msgid "Moving into archive is disabled"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:543
+#: krusader/Panel/panelfunc.cpp:545
 #, kde-format
 msgid "Move %1 to:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:545
+#: krusader/Panel/panelfunc.cpp:547
 #, kde-format
 msgid "Move %1 file to:"
 msgid_plural "Move %1 files to:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/panelfunc.cpp:610
+#: krusader/Panel/panelfunc.cpp:612
 msgid "You cannot move files to this file system"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:639
+#: krusader/Panel/panelfunc.cpp:641
 msgid "New directory"
 msgstr "नवीन निर्देशिका"
 
-#: krusader/Panel/panelfunc.cpp:639
+#: krusader/Panel/panelfunc.cpp:641
 msgid "Directory's name:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:731
+#: krusader/Panel/panelfunc.cpp:733
 #, kde-format
 msgid "Copy %1 to:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:733
+#: krusader/Panel/panelfunc.cpp:735
 #, kde-format
 msgid "Copy %1 file to:"
 msgid_plural "Copy %1 files to:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/panelfunc.cpp:788
+#: krusader/Panel/panelfunc.cpp:790
 msgid "You cannot copy files to this file system"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:800
+#: krusader/Panel/panelfunc.cpp:802
 msgid "You do not have write permission to this directory"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:818
+#: krusader/Panel/panelfunc.cpp:820
 #, kde-format
 msgid "Do you really want to move this item to the trash?"
 msgid_plural "Do you really want to move these %1 items to the trash?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/panelfunc.cpp:821
+#: krusader/Panel/panelfunc.cpp:823
 #, kde-format
 msgid ""
 "Do you really want to delete this virtual item (physical files stay "
@@ -6021,7 +6027,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/panelfunc.cpp:824
+#: krusader/Panel/panelfunc.cpp:826
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete this item <b>physically</b> (not just "
@@ -6032,40 +6038,40 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/panelfunc.cpp:827
+#: krusader/Panel/panelfunc.cpp:829
 #, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "की अहाँ सचमुच एहि वस्तु केँ मेटाएब चाहैत छी?"
 msgstr[1] "की अहाँ सचमुच %1 वस्तु केँ मेटाएब चाहैत छी?"
 
-#: krusader/Panel/panelfunc.cpp:851
+#: krusader/Panel/panelfunc.cpp:853
 #, kde-format
 msgid ""
 "<qt><p>Directory <b>%1</b> is not empty!</p><p>Skip this one or Delete All?</"
 "p></qt>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:852
+#: krusader/Panel/panelfunc.cpp:854
 msgid "&Skip"
 msgstr "छोड़ू (&S)"
 
-#: krusader/Panel/panelfunc.cpp:852
+#: krusader/Panel/panelfunc.cpp:854
 msgid "&Delete All"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:999
+#: krusader/Panel/panelfunc.cpp:1001
 msgid "Cannot pack files onto a virtual destination!"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:1012
+#: krusader/Panel/panelfunc.cpp:1014
 #, kde-format
 msgid ""
 "<qt><p>The archive <b>%1.%2</b> already exists. Do you want to overwrite it?"
 "</p><p>All data in the previous archive will be lost!</p></qt>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:1014
+#: krusader/Panel/panelfunc.cpp:1016
 #, kde-format
 msgid ""
 "<qt><p>The archive <b>%1.%2</b> already exists. Do you want to overwrite it?"
@@ -6073,23 +6079,23 @@ msgid ""
 "entries for new names.</p></qt>"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:1067
+#: krusader/Panel/panelfunc.cpp:1069
 #, kde-format
 msgid "Unpack %1 to:"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:1069
+#: krusader/Panel/panelfunc.cpp:1071
 #, kde-format
 msgid "Unpack %1 file to:"
 msgid_plural "Unpack %1 files to:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/panelfunc.cpp:1277
+#: krusader/Panel/panelfunc.cpp:1279
 msgid "Cannot cut a virtual URL collection to the clipboard!"
 msgstr ""
 
-#: krusader/Panel/panelfunc.cpp:1279
+#: krusader/Panel/panelfunc.cpp:1281
 msgid "Cannot copy a virtual URL collection onto the clipboard!"
 msgstr ""
 
@@ -6466,22 +6472,26 @@ msgid "Apply settings to other tabs"
 msgstr ""
 
 #: krusader/Panel/viewactions.cpp:63
+msgid "QuickFilter"
+msgstr ""
+
+#: krusader/Panel/viewactions.cpp:64
 msgid "Save settings as default"
 msgstr ""
 
-#: krusader/Panel/viewactions.cpp:66
+#: krusader/Panel/viewactions.cpp:67
 msgid "Select files using a filter"
 msgstr ""
 
-#: krusader/Panel/viewactions.cpp:67
+#: krusader/Panel/viewactions.cpp:68
 msgid "Select all files in the current directory"
 msgstr ""
 
-#: krusader/Panel/viewactions.cpp:68
+#: krusader/Panel/viewactions.cpp:69
 msgid "Unselect all selected files"
 msgstr ""
 
-#: krusader/Panel/viewactions.cpp:69
+#: krusader/Panel/viewactions.cpp:70
 msgid "Save settings as default for new instances of this view type"
 msgstr ""
 
