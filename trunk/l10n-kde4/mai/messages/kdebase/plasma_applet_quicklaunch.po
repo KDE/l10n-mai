@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_quicklaunch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-08 06:02+0200\n"
+"POT-Creation-Date: 2010-10-23 06:43+0200\n"
 "PO-Revision-Date: 2010-01-28 13:52+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -22,59 +22,67 @@ msgstr ""
 "\n"
 "\n"
 
-#: launcherlist.cpp:368
+#: launcherlist.cpp:385
 msgid "Multiple items"
 msgstr ""
 
-#: launcherlist.cpp:485
+#: launcherlist.cpp:503
 #, fuzzy
 #| msgid "Configure QuickLaunch"
 msgid "Quicklaunch"
 msgstr "क्विक लाँच विन्यस्त करू"
 
-#: launcherlist.cpp:486
+#: launcherlist.cpp:504
 msgid "Add launchers by Drag and Drop or by using the context menu."
 msgstr ""
 
-#. i18n: file: quicklaunchConfig.ui:102
-#. i18n: ectx: property (text), widget (QLabel, forceMaxRowsOrColumnsLabel)
-#: quicklaunch.cpp:123 rc.cpp:18
-msgid "Force row settings:"
+#. i18n: file: quicklaunchConfig.ui:20
+#. i18n: ectx: property (text), widget (QLabel, autoSectionCountEnabledLabel)
+#: quicklaunch.cpp:137 rc.cpp:6
+msgid "Determine number of rows automatically:"
 msgstr ""
 
-#: quicklaunch.cpp:124
-msgid "Max row count:"
+#. i18n: file: quicklaunchConfig.ui:53
+#. i18n: ectx: property (text), widget (QLabel, sectionCountLabel)
+#: quicklaunch.cpp:139 rc.cpp:9
+msgid "Number of rows:"
 msgstr ""
 
-#: quicklaunch.cpp:133
-msgid "Force column settings:"
+#: quicklaunch.cpp:149
+msgid "Determine number of columns automatically:"
 msgstr ""
 
-#: quicklaunch.cpp:134
-msgid "Max column count:"
+#: quicklaunch.cpp:151
+msgid "Number of columns:"
 msgstr ""
 
-#: quicklaunch.cpp:148
+#: quicklaunch.cpp:167
 msgid "General"
 msgstr "सामान्य"
 
-#: quicklaunch.cpp:578
+#: quicklaunch.cpp:656
 #, fuzzy
 #| msgid "Add Icon..."
 msgid "Add Launcher..."
 msgstr "जोड़ू चिह्न..."
 
-#: quicklaunch.cpp:581
+#: quicklaunch.cpp:659
+#, fuzzy
+#| msgid "Add Icon..."
+msgid "Edit Launcher..."
+msgstr "जोड़ू चिह्न..."
+
+#: quicklaunch.cpp:662
 #, fuzzy
 #| msgid "Remove Icon"
 msgid "Remove Launcher"
 msgstr "हटाबू चिह्न"
 
-#: quicklaunch.cpp:642
+#: quicklaunch.cpp:723
 msgid "Show hidden icons"
 msgstr ""
 
-#: quicklaunch.cpp:642
+#: quicklaunch.cpp:723
 #, fuzzy
 #| msgid "Visible icons:"
 msgid "Hide icons"
@@ -88,31 +96,22 @@ msgstr "दृष्टिगोचर चिह्न:"
 msgid "Configure Quicklaunch"
 msgstr "क्विक लाँच विन्यस्त करू"
 
-#. i18n: file: quicklaunchConfig.ui:33
+#. i18n: file: quicklaunchConfig.ui:79
 #. i18n: ectx: property (text), widget (QLabel, launcherNamesVisibleLabel)
-#: rc.cpp:6
+#: rc.cpp:12
 msgid "Show launcher names:"
 msgstr ""
 
-#. i18n: file: quicklaunchConfig.ui:53
+#. i18n: file: quicklaunchConfig.ui:99
 #. i18n: ectx: property (text), widget (QLabel, popupEnabledLabel)
-#: rc.cpp:9
+#: rc.cpp:15
 msgid "Enable popup:"
 msgstr ""
 
-#. i18n: file: quicklaunchConfig.ui:73
-#. i18n: ectx: property (text), widget (QLabel, maxRowsOrColumnsLabel)
-#: rc.cpp:12
-msgid "Maximum rows:"
-msgstr ""
-
-#. i18n: file: quicklaunchConfig.ui:86
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, maxRowsOrColumnsSpinBox)
-#: rc.cpp:15
 #, fuzzy
-#| msgid "Unlimited"
-msgid "unlimited"
-msgstr "असीमित"
+#~| msgid "Unlimited"
+#~ msgid "unlimited"
+#~ msgstr "असीमित"
 
 #~ msgid "Sort Alphabetically (A to Z)"
 #~ msgstr "सोर्ट वर्णक्रम मे A केँ Z"
