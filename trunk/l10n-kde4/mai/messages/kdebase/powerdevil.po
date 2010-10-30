@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-28 06:08+0200\n"
+"POT-Creation-Date: 2010-10-30 06:12+0200\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,13 +23,6 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-
-#: SuspensionLockHandler.cpp:75
-#, kde-format
-msgid ""
-"The application %1 is inhibiting suspension for the following reason:\n"
-"%2"
-msgstr ""
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:57
 #: actions/bundled/suspendsessionconfig.cpp:71
@@ -170,31 +163,37 @@ msgstr "डेरियो फ्रेदी"
 msgid "Developer"
 msgstr ""
 
-#: powerdevilcore.cpp:159
+#: powerdevilcore.cpp:78
+msgid ""
+"No valid Power Management backend plugins were found. A new installation "
+"might solve this problem."
+msgstr ""
+
+#: powerdevilcore.cpp:173
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:166
+#: powerdevilcore.cpp:180
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:242
+#: powerdevilcore.cpp:256
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist.\n"
 "Please check your PowerDevil configuration."
 msgstr ""
 
-#: powerdevilcore.cpp:255
+#: powerdevilcore.cpp:269
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:284
+#: powerdevilcore.cpp:298
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -202,7 +201,7 @@ msgstr ""
 "बैटरी इंटरफेस सँ कनेक्ट नहि भए सकल!\n"
 "कृप्या अपन सिस्टम कान्फिगरेशन जाँचू"
 
-#: powerdevilcore.cpp:340
+#: powerdevilcore.cpp:354
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -210,15 +209,23 @@ msgid ""
 "been cancelled"
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:342
+#: powerdevilcore.cpp:356
 msgid "The power adaptor has been plugged in."
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:345
+#: powerdevilcore.cpp:359
 msgid "The power adaptor has been unplugged."
 msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
 
-#: powerdevilcore.cpp:376
+#: powerdevilcore.cpp:365
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+
+#: powerdevilcore.cpp:392
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -228,7 +235,7 @@ msgid ""
 "Your battery level is critical, the computer will be halted in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:381
+#: powerdevilcore.cpp:397
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -239,7 +246,7 @@ msgid ""
 "seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:386
+#: powerdevilcore.cpp:402
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be suspended to RAM in "
@@ -251,15 +258,15 @@ msgid ""
 "Your battery level is critical, the computer will be suspended in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
 
-#: powerdevilcore.cpp:391
+#: powerdevilcore.cpp:407
 msgid "Your battery level is critical: save your work as soon as possible."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
-#: powerdevilcore.cpp:397
+#: powerdevilcore.cpp:413
 msgid "Your battery has reached the warning level."
 msgstr "अहाँक बैटरीक स्तर चेतावनी स्तर तकि पहुँचि गेल अछि"
 
-#: powerdevilcore.cpp:402
+#: powerdevilcore.cpp:418
 msgid "Your battery has reached a low level."
 msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
 
