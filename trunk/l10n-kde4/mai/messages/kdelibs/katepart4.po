@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-01 06:13+0100\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -60,12 +60,6 @@ msgstr ""
 #: mode/katemodeconfigpage.cpp:290
 msgid "Select Mime Types"
 msgstr "माइम प्रकार चुनू"
-
-#: tests/testutils.cpp:195 script/katescript.cpp:93
-#, fuzzy, kde-format
-#| msgid "Unable to open %1"
-msgid "Unable to find '%1'"
-msgstr "%1 खोलबा मे अक्षम"
 
 #: search/katesearchbar.cpp:76
 msgid "Add..."
@@ -1160,6 +1154,34 @@ msgstr "मूलभूत मार्क टाइप नियत करू"
 msgid "Disable Annotation Bar"
 msgstr ""
 
+#: view/kateviewaccessible.h:65
+msgid "Move To..."
+msgstr ""
+
+#: view/kateviewaccessible.h:66
+#, fuzzy
+#| msgid "Move Word Left"
+msgid "Move Left"
+msgstr "शब्द बम्माँ घसकाबू"
+
+#: view/kateviewaccessible.h:67
+#, fuzzy
+#| msgid "Move Word Right"
+msgid "Move Right"
+msgstr "शब्द दहिन्ना घसकाबू"
+
+#: view/kateviewaccessible.h:68
+#, fuzzy
+#| msgid "Scroll Line Up"
+msgid "Move Up"
+msgstr "पंक्ति उप्पर स्क्रोल करू"
+
+#: view/kateviewaccessible.h:69
+#, fuzzy
+#| msgid "Scroll Line Down"
+msgid "Move Down"
+msgstr "पंक्ति नीच्चाँ स्क्रोल करू"
+
 #: document/katedocument.cpp:124
 #, kde-format
 msgid ""
@@ -2054,43 +2076,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09 AT gmail DOT com"
 
-#: utils/kateglobal.cpp:281
+#: utils/kateglobal.cpp:282
 msgid "Configure"
 msgstr "बिन्यस्त करू"
 
-#: utils/kateglobal.cpp:365 utils/kateglobal.cpp:391
+#: utils/kateglobal.cpp:366 utils/kateglobal.cpp:392
 msgid "Appearance"
 msgstr "प्रकटन"
 
-#: utils/kateglobal.cpp:368
+#: utils/kateglobal.cpp:369
 msgid "Fonts & Colors"
 msgstr "फौन्ट आ रंग"
 
-#: utils/kateglobal.cpp:371
+#: utils/kateglobal.cpp:372
 msgid "Editing"
 msgstr "संपादन"
 
-#: utils/kateglobal.cpp:374
+#: utils/kateglobal.cpp:375
 msgid "Open/Save"
 msgstr "खोलू/सहेजू"
 
-#: utils/kateglobal.cpp:377
+#: utils/kateglobal.cpp:378
 msgid "Extensions"
 msgstr "विस्तार"
 
-#: utils/kateglobal.cpp:394
+#: utils/kateglobal.cpp:395
 msgid "Font & Color Schemas"
 msgstr "फौन्ट आ रंग प्रसंग"
 
-#: utils/kateglobal.cpp:397
+#: utils/kateglobal.cpp:398
 msgid "Editing Options"
 msgstr "संपादन विकल्प"
 
-#: utils/kateglobal.cpp:400
+#: utils/kateglobal.cpp:401
 msgid "File Opening & Saving"
 msgstr "फाइल खोलनाइ आ सहेजनाइ"
 
-#: utils/kateglobal.cpp:403
+#: utils/kateglobal.cpp:404
 msgid "Extensions Manager"
 msgstr "एक्सटेंशन्स प्रबंधक"
 
@@ -2539,11 +2561,17 @@ msgstr ""
 msgid "Missing argument(s). Usage: %1 <from> [<to>]"
 msgstr "छूटल आर्गुमेंट. उपयोग: %1 <value>"
 
-#: utils/katecmds.cpp:658
+#: utils/katecmds.cpp:491
+#, fuzzy
+#| msgid "Document to open"
+msgid "Document written to disk"
+msgstr "खोलबा क' लेल दस्ताबेज"
+
+#: utils/katecmds.cpp:827
 msgid "Sorry, but Kate is not able to replace newlines, yet"
 msgstr ""
 
-#: utils/katecmds.cpp:697
+#: utils/katecmds.cpp:866
 #, kde-format
 msgctxt "substituted into the previous message"
 msgid "1 line"
@@ -2551,7 +2579,7 @@ msgid_plural "%1 lines"
 msgstr[0] "1 पंक्ति"
 msgstr[1] "%1 पंक्ति"
 
-#: utils/katecmds.cpp:695
+#: utils/katecmds.cpp:864
 #, kde-format
 msgctxt "%2 is the translation of the next message"
 msgid "1 replacement done on %2"
@@ -2746,6 +2774,12 @@ msgstr "कमांड: %1 नहि मिला."
 #: script/katescriptmanager.cpp:349
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr ""
+
+#: script/katescript.cpp:93
+#, fuzzy, kde-format
+#| msgid "Unable to open %1"
+msgid "Unable to find '%1'"
+msgstr "%1 खोलबा मे अक्षम"
 
 #: script/katescript.cpp:275
 #, fuzzy, kde-format
@@ -6338,9 +6372,6 @@ msgstr "Zonnon"
 
 #~ msgid "Navigate to this column"
 #~ msgstr "ई स्तम्भ पर नेविगेट करू"
-
-#~ msgid "Document to open"
-#~ msgstr "खोलबा क' लेल दस्ताबेज"
 
 #~ msgid "KWrite"
 #~ msgstr "के-राइट"

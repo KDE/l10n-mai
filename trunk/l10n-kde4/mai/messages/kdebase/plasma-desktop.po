@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-01 06:11+0100\n"
+"POT-Creation-Date: 2010-11-02 07:13+0100\n"
 "PO-Revision-Date: 2010-01-29 16:18+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -48,7 +48,7 @@ msgstr "पछिला क्रियाकलाप"
 msgid "Add Panel"
 msgstr "फलक जोड़ू"
 
-#: desktopcorona.cpp:560 plasmaapp.cpp:1326
+#: desktopcorona.cpp:569 plasmaapp.cpp:1326
 msgid "unnamed"
 msgstr ""
 
@@ -56,7 +56,7 @@ msgstr ""
 msgid "&Execute"
 msgstr ""
 
-#: interactiveconsole.cpp:68
+#: interactiveconsole.cpp:68 activitymanager/filterbar.cpp:157
 msgid "Templates"
 msgstr ""
 
@@ -271,11 +271,12 @@ msgid "Remove activity?"
 msgstr "अगिला क्रियाकलाप"
 
 #: activitymanager/activitycontrols.cpp:54
-msgid "Confirm Removal"
+msgid "Remove"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:59
-msgid "Cancel Removal"
+#: activitymanager/activitycontrols.cpp:86
+msgid "Cancel"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:75
@@ -283,11 +284,7 @@ msgid "Accept changes?"
 msgstr ""
 
 #: activitymanager/activitycontrols.cpp:80
-msgid "Apply Changes"
-msgstr ""
-
-#: activitymanager/activitycontrols.cpp:86
-msgid "Cancel Changes"
+msgid "Apply"
 msgstr ""
 
 #: activitymanager/activityicon.cpp:305
@@ -317,7 +314,13 @@ msgstr ""
 msgid "New Activity"
 msgstr "अगिला क्रियाकलाप"
 
-#: activitymanager/filterbar.cpp:193
+#: activitymanager/filterbar.cpp:168
+#, fuzzy
+#| msgid "Desktop"
+msgid "Empty Desktop"
+msgstr "डेस्कटाप"
+
+#: activitymanager/filterbar.cpp:203
 #, fuzzy
 #| msgid "Add to current activity"
 msgid "Clone current activity"
@@ -330,9 +333,6 @@ msgstr "अगिला क्रियाकलाप मे जोड़ू"
 
 #~ msgid "Plasma Workspace"
 #~ msgstr "प्लाज्मा काजस्थल"
-
-#~ msgid "Desktop"
-#~ msgstr "डेस्कटाप"
 
 #~ msgid "Zoom Out"
 #~ msgstr "ज़ूम आउट"

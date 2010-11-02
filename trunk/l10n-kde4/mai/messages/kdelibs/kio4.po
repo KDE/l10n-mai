@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3043,7 +3043,7 @@ msgstr ""
 msgid "P&review"
 msgstr "पूर्वावलोकन (&r)"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -3921,61 +3921,63 @@ msgstr "सिर्फ स्थानीय फाइल सिस्टम �
 msgid "Advanced Options for %1"
 msgstr "%1 क' लेल विस्तृत विकल्प "
 
-#: kfile/kfilemetadatawidget.cpp:541
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Size:"
-msgstr "आकार:"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "आकार:"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "Type:"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "प्रकार:"
-
-#: kfile/kfilemetadatawidget.cpp:644
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
 #| msgid "Modified:"
 msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "परिवर्धितः"
 
-#: kfile/kfilemetadatawidget.cpp:645
+#: kfile/kfilemetadataprovider.cpp:408
 #, fuzzy
-#| msgid "Owner:"
+#| msgid "Owner"
 msgctxt "@label"
-msgid "Owner:"
-msgstr "मालिक:"
+msgid "Owner"
+msgstr "मालिक"
 
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 #, fuzzy
-#| msgid "Permissions:"
+#| msgctxt "@title:column"
+#| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions:"
-msgstr "अनुमतिः"
+msgid "Permissions"
+msgstr "अनुमतिसभ"
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 #| msgid "Sorting"
 msgctxt "@label"
 msgid "Rating"
 msgstr "छाँटनाइ"
 
-#: kfile/kfilemetadataprovider.cpp:306
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "आकार"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 #| msgid "Trash"
 msgctxt "@label"
 msgid "Tags"
 msgstr "रद्दी"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "आकार:"
+
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "प्रकार"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -4095,43 +4097,6 @@ msgstr "टिप्पणी"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "टिप्पणी"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "प्रकार"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "आकार"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "परिवर्धितः"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr "मालिक"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@item::inlistbox"
-msgid "Permissions"
-msgstr "अनुमतिसभ"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -6697,6 +6662,68 @@ msgstr "'%1' पर पहुँचबाक कोसिस मे एकटा
 msgid "Show Hidden Folders"
 msgstr ""
 
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "आकार:"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "प्रकार:"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "परिवर्धितः"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "मालिक:"
+
+#, fuzzy
+#~| msgid "Permissions:"
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "अनुमतिः"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "प्रकार"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Size"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "आकार"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "परिवर्धितः"
+
+#, fuzzy
+#~| msgid "Owner"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Owner"
+#~ msgstr "मालिक"
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Permissions"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Permissions"
+#~ msgstr "अनुमतिसभ"
+
 #~ msgid "Unmounted Icon"
 #~ msgstr "अनमाउन्टेड प्रतीक"
 
@@ -6717,32 +6744,6 @@ msgstr ""
 #~ msgstr ""
 #~ "ई क्रिया, '%1' केँ अपन मेटाकए लिखत.\n"
 #~ "कृप्या एकटा नवीन फाइल नाम भरू:"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "आकार"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "परिवर्धितः"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "मालिक"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Permissions"
-#~ msgctxt "@label"
-#~ msgid "Permissions"
-#~ msgstr "अनुमतिसभ"
 
 #~ msgctxt "Available space out of total partition size (percent used)"
 #~ msgid "%1 out of %2 (%3% used)"
