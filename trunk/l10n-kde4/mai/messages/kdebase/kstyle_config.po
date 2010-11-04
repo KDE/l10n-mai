@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstyle_config\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-23 06:09+0200\n"
+"POT-Creation-Date: 2010-11-04 06:21+0100\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -545,14 +545,18 @@ msgstr "टैब"
 #. i18n: file: oxygen/config/ui/oxygenstyleconfig.ui:329
 #. i18n: ectx: property (text), widget (QRadioButton, _tabStyleSingle)
 #: rc.cpp:101
+#, fuzzy
+#| msgid "Single"
+msgctxt "Renders each inactive tab in a tabbar as separate darker slab"
 msgid "Single"
 msgstr "असगर"
 
 #. i18n: file: oxygen/config/ui/oxygenstyleconfig.ui:336
 #. i18n: ectx: property (text), widget (QRadioButton, _tabStylePlain)
-#. i18n: file: oxygen/demo/ui/oxygenframedemowidget.ui:134
-#. i18n: ectx: property (text), widget (QRadioButton, plainFrameRadioButton)
-#: rc.cpp:104 rc.cpp:488
+#: rc.cpp:104
+#, fuzzy
+#| msgid "Plain"
+msgctxt "Renders inactive tabs in a tabbar as a unique darker slab"
 msgid "Plain"
 msgstr "सादा"
 
@@ -1203,6 +1207,12 @@ msgstr ""
 #: rc.cpp:485
 msgid "Raised"
 msgstr ""
+
+#. i18n: file: oxygen/demo/ui/oxygenframedemowidget.ui:134
+#. i18n: ectx: property (text), widget (QRadioButton, plainFrameRadioButton)
+#: rc.cpp:488
+msgid "Plain"
+msgstr "सादा"
 
 #. i18n: file: oxygen/demo/ui/oxygenframedemowidget.ui:141
 #. i18n: ectx: property (text), widget (QRadioButton, sunkenFrameRadioButton)
