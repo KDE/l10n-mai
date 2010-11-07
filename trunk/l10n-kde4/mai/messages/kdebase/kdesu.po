@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdesu\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-27 06:12+0200\n"
+"POT-Creation-Date: 2010-11-07 06:08+0100\n"
 "PO-Revision-Date: 2010-01-29 15:08+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -100,33 +100,33 @@ msgctxt ""
 msgid "Makes the dialog transient for an X app specified by winid"
 msgstr ""
 
-#: kdesu.cpp:140
+#: kdesu.cpp:142
 #, kde-format
-msgid "Command '%1' not found."
-msgstr "कमांड '%1' नहि भेटल."
+msgid "Cannot execute command '%1'."
+msgstr ""
 
-#: kdesu.cpp:215
+#: kdesu.cpp:224
 #, kde-format
 msgid "Illegal priority: %1"
 msgstr "अवैध प्राथमिकताः %1"
 
-#: kdesu.cpp:246
+#: kdesu.cpp:255
 msgid "No command specified."
 msgstr "कोनो कमांड उल्लेखित नहि अछि."
 
-#: kdesu.cpp:363
+#: kdesu.cpp:372
 msgid "Su returned with an error.\n"
 msgstr "एसयू एकटा त्रुटि केर सँग घुरैलक.\n"
 
-#: kdesu.cpp:386
+#: kdesu.cpp:395
 msgid "Command:"
 msgstr "कमांड:"
 
-#: kdesu.cpp:394
+#: kdesu.cpp:403
 msgid "realtime: "
 msgstr "रीयलटाइम:"
 
-#: kdesu.cpp:397
+#: kdesu.cpp:406
 msgid "Priority:"
 msgstr "प्राथमिकताः"
 
@@ -194,10 +194,19 @@ msgid ""
 "The program 'su' could not be found.<br />Ensure your PATH is set correctly."
 msgstr ""
 
-#: sudlg.cpp:95
-msgid "Incorrect password, please try again."
-msgstr "गलत पासवर्ड, कृप्या फिनु सँ कोसिस करू."
+#: sudlg.cpp:94
+msgid ""
+"Permission denied.<br />Possibly incorrect password, please try again.<br /"
+">On some systems, you need to be in a special group (often: wheel) to use "
+"this program."
+msgstr ""
 
-#: sudlg.cpp:99
+#: sudlg.cpp:101
 msgid "Internal error: illegal return from SuProcess::checkInstall()"
 msgstr "आंतरिक त्रुटि: SuProcess::checkInstall() सँ अवैध रिटर्न"
+
+#~ msgid "Command '%1' not found."
+#~ msgstr "कमांड '%1' नहि भेटल."
+
+#~ msgid "Incorrect password, please try again."
+#~ msgstr "गलत पासवर्ड, कृप्या फिनु सँ कोसिस करू."
