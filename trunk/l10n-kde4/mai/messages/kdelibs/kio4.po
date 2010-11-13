@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-12 06:36+0100\n"
+"POT-Creation-Date: 2010-11-13 12:16+0100\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2194,10 +2194,6 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr ""
 
-#: kio/accessmanagerreply_p.cpp:69
-msgid "Blocked request."
-msgstr ""
-
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr "डाटा फ़ार्मेट:"
@@ -2593,6 +2589,16 @@ msgstr "समूह"
 msgctxt "@title:column"
 msgid "Type"
 msgstr "प्रकार"
+
+#: kio/accessmanager.cpp:154
+msgid "Blocked request."
+msgstr ""
+
+#: kio/accessmanager.cpp:192
+#, fuzzy
+#| msgid "Unknown Error"
+msgid "Unknown HTTP verb."
+msgstr "अनजान त्रुटि"
 
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
@@ -6826,11 +6832,6 @@ msgstr ""
 
 #~ msgid "size %1"
 #~ msgstr "आकार %1"
-
-#, fuzzy
-#~| msgid "Unknown Error"
-#~ msgid "Unknown Error."
-#~ msgstr "अनजान त्रुटि"
 
 #~ msgid "Add Bookmark"
 #~ msgstr "पुस्तक चिन्ह जोड़ू"
