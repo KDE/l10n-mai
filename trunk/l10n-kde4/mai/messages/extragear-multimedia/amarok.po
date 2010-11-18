@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-17 06:27+0100\n"
+"POT-Creation-Date: 2010-11-18 06:22+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1674,7 +1674,7 @@ msgstr ""
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:80
 #: context/applets/videoclip/VideoclipApplet.cpp:118
 #: context/applets/wikipedia/WikipediaApplet.cpp:556
-#: context/applets/tabs/TabsApplet.cpp:133
+#: context/applets/tabs/TabsApplet.cpp:122
 msgid "Settings"
 msgstr "जमावट"
 
@@ -2407,70 +2407,70 @@ msgstr "ट्रैक"
 msgid "Wikipedia Language Settings"
 msgstr ""
 
-#: context/applets/tabs/TabsView.cpp:155
-msgid "tab provided from: "
-msgstr ""
-
-#: context/applets/tabs/TabsApplet.cpp:102
-#: context/applets/tabs/TabsApplet.cpp:214
+#: context/applets/tabs/TabsApplet.cpp:95
+#: context/applets/tabs/TabsApplet.cpp:198
+#: context/applets/tabs/TabsApplet.cpp:226
 #: context/applets/tabs/TabsApplet.cpp:242
-#: context/applets/tabs/TabsApplet.cpp:258
 #, fuzzy
 #| msgid "Tags"
 msgctxt "Guitar tablature"
 msgid "Tabs"
 msgstr "टैगसभ"
 
-#: context/applets/tabs/TabsApplet.cpp:124
+#: context/applets/tabs/TabsApplet.cpp:113
 #, fuzzy
 #| msgid "Reload"
 msgctxt "Guitar tablature"
 msgid "Reload tabs"
 msgstr "पुनः लोड करू"
 
-#: context/applets/tabs/TabsApplet.cpp:197
+#: context/applets/tabs/TabsApplet.cpp:181
 msgctxt "Guitar tablature"
 msgid "Tabs: No track playing"
 msgstr ""
 
-#: context/applets/tabs/TabsApplet.cpp:227
+#: context/applets/tabs/TabsApplet.cpp:211
 #, fuzzy
 #| msgid "Settings"
 msgid "Tabs: Fetching ..."
 msgstr "जमावट"
 
-#: context/applets/tabs/TabsApplet.cpp:228
+#: context/applets/tabs/TabsApplet.cpp:212
 msgid "Tabs are being fetched"
 msgstr ""
 
-#: context/applets/tabs/TabsApplet.cpp:249
+#: context/applets/tabs/TabsApplet.cpp:233
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "No tabs for %1 by %2"
 msgstr ""
 
-#: context/applets/tabs/TabsApplet.cpp:250
+#: context/applets/tabs/TabsApplet.cpp:234
 msgid "There were no tabs found for this track"
 msgstr ""
 
-#: context/applets/tabs/TabsApplet.cpp:284
+#: context/applets/tabs/TabsApplet.cpp:268
 #, kde-format
 msgctxt "Guitar tablature"
 msgid "Tabs : %1 - %2"
 msgstr ""
 
-#: context/applets/tabs/TabsApplet.cpp:365
+#: context/applets/tabs/TabsApplet.cpp:351
 #, fuzzy
 #| msgid "Settings"
 msgctxt "Guitar tablature settings"
 msgid "Tabs Settings"
 msgstr "जमावट"
 
-#: context/applets/tabs/TabsApplet.cpp:395
+#: context/applets/tabs/TabsApplet.cpp:381
 #, fuzzy
 #| msgid "Reload"
 msgid "Reload Tabs"
 msgstr "पुनः लोड करू"
+
+#: context/applets/tabs/TabsView.cpp:177
+msgid "tab provided from: "
+msgstr ""
 
 #: context/containments/oldcontainment/ColumnContainment.cpp:98
 #: context/toolbar/AppletToolbarAddItem.cpp:71
@@ -3332,19 +3332,6 @@ msgstr ""
 msgid "UPnP Error: %1"
 msgstr ""
 
-#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
-#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: core-impl/collections/db/DatabaseMeta.cpp:245 rc.cpp:1708
-msgid "Stream"
-msgstr "धारा"
-
-#: core-impl/collections/db/DatabaseMeta.cpp:258
-#: core-impl/collections/db/sql/SqlMeta.cpp:269
-#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:139
-#, kde-format
-msgid "%1 - %2"
-msgstr ""
-
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:462
 msgid "Organizing tracks"
 msgstr ""
@@ -3381,6 +3368,13 @@ msgstr ""
 msgid "Organize Files"
 msgstr ""
 
+#: core-impl/collections/db/sql/SqlMeta.cpp:272
+#: core-impl/collections/db/DatabaseMeta.cpp:258
+#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:139
+#, kde-format
+msgid "%1 - %2"
+msgstr ""
+
 #: core-impl/collections/db/ScanManager.cpp:203
 msgid "Scanning music"
 msgstr ""
@@ -3401,6 +3395,12 @@ msgstr ""
 #: core-impl/collections/db/ScanManager.cpp:442
 msgid "Collection Scan Error"
 msgstr ""
+
+#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
+#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
+#: core-impl/collections/db/DatabaseMeta.cpp:245 rc.cpp:1708
+msgid "Stream"
+msgstr "धारा"
 
 #: core-impl/meta/default/DefaultMetaTypes.h:39
 #: core-impl/meta/default/DefaultMetaTypes.h:79
