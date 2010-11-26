@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-25 06:50+0100\n"
+"POT-Creation-Date: 2010-11-26 06:31+0100\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1178,10 +1178,8 @@ msgid "&New Folder..."
 msgstr "नव फोल्डर...(&N)"
 
 #: standardactionmanager.cpp:81
-#, fuzzy
-#| msgid "&New Folder..."
-msgid "New Folder..."
-msgstr "नव फोल्डर...(&N)"
+msgid "New"
+msgstr ""
 
 #: standardactionmanager.cpp:83 standardactionmanager.cpp:171
 #, kde-format
@@ -1190,14 +1188,11 @@ msgid_plural "&Delete %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardactionmanager.cpp:83 standardactionmanager.cpp:190
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "New Folder"
-msgid "Delete Folder"
-msgid_plural "Delete %1 Folders"
-msgstr[0] "नवीन फोल्डर"
-msgstr[1] "नवीन फोल्डर"
+#: standardactionmanager.cpp:83
+#, fuzzy
+#| msgid "Delete Resource"
+msgid "Delete"
+msgstr "मेटाबू संसाधन"
 
 #: standardactionmanager.cpp:84 standardactionmanager.cpp:173
 #, kde-format
@@ -1206,23 +1201,26 @@ msgid_plural "&Synchronize %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardactionmanager.cpp:84 standardactionmanager.cpp:192
-#, kde-format
-msgid "Synchronize Folder"
-msgid_plural "Synchronize %1 Folders"
-msgstr[0] ""
-msgstr[1] ""
+#: standardactionmanager.cpp:84 standardactionmanager.cpp:102
+msgid "Synchronize"
+msgstr ""
 
 #: standardactionmanager.cpp:85
 msgid "Folder &Properties"
 msgstr ""
 
-#: standardactionmanager.cpp:85
-msgid "Folder Properties"
+#: standardactionmanager.cpp:85 standardactionmanager.cpp:101
+msgid "Properties"
 msgstr ""
 
 #: standardactionmanager.cpp:87
 msgid "&Paste"
+msgstr "साटू (&P)"
+
+#: standardactionmanager.cpp:87
+#, fuzzy
+#| msgid "&Paste"
+msgid "Paste"
 msgstr "साटू (&P)"
 
 #: standardactionmanager.cpp:89
@@ -1230,24 +1228,43 @@ msgid "Manage Local &Subscriptions..."
 msgstr ""
 
 #: standardactionmanager.cpp:89
-msgid "Manage Local Subscriptions..."
+msgid "Manage Local Subscriptions"
 msgstr ""
 
 #: standardactionmanager.cpp:90
 msgid "Add to Favorite Folders"
 msgstr ""
 
+#: standardactionmanager.cpp:90
+msgid "Add to Favorite"
+msgstr ""
+
 #: standardactionmanager.cpp:91
 msgid "Remove from Favorite Folders"
+msgstr ""
+
+#: standardactionmanager.cpp:91
+msgid "Remove from Favorite"
 msgstr ""
 
 #: standardactionmanager.cpp:92
 msgid "Rename Favorite..."
 msgstr ""
 
+#: standardactionmanager.cpp:92
+msgid "Rename"
+msgstr ""
+
 #: standardactionmanager.cpp:93 standardactionmanager.cpp:104
 msgid "Copy Folder To..."
 msgstr ""
+
+#: standardactionmanager.cpp:93 standardactionmanager.cpp:94
+#: standardactionmanager.cpp:104 standardactionmanager.cpp:106
+#, fuzzy
+#| msgid "&Copy Here"
+msgid "Copy To"
+msgstr "एतए नकल करू (&C)"
 
 #: standardactionmanager.cpp:94 standardactionmanager.cpp:106
 msgid "Copy Item To..."
@@ -1255,6 +1272,11 @@ msgstr ""
 
 #: standardactionmanager.cpp:95 standardactionmanager.cpp:107
 msgid "Move Item To..."
+msgstr ""
+
+#: standardactionmanager.cpp:95 standardactionmanager.cpp:96
+#: standardactionmanager.cpp:105 standardactionmanager.cpp:107
+msgid "Move To"
 msgstr ""
 
 #: standardactionmanager.cpp:96 standardactionmanager.cpp:105
@@ -1268,12 +1290,9 @@ msgid_plural "&Cut %1 Items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardactionmanager.cpp:97 standardactionmanager.cpp:184
-#, kde-format
-msgid "Cut Item"
-msgid_plural "Cut %1 Items"
-msgstr[0] ""
-msgstr[1] ""
+#: standardactionmanager.cpp:97 standardactionmanager.cpp:98
+msgid "Cut"
+msgstr ""
 
 #: standardactionmanager.cpp:98 standardactionmanager.cpp:167
 #, kde-format
@@ -1281,15 +1300,6 @@ msgid "&Cut Folder"
 msgid_plural "&Cut %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
-
-#: standardactionmanager.cpp:98 standardactionmanager.cpp:186
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "New Folder"
-msgid "Cut Folder"
-msgid_plural "Cut %1 Folders"
-msgstr[0] "नवीन फोल्डर"
-msgstr[1] "नवीन फोल्डर"
 
 #: standardactionmanager.cpp:99
 msgid "Create Resource"
@@ -1307,13 +1317,8 @@ msgstr[1] "मेटाबू संसाधन"
 msgid "&Resource Properties"
 msgstr ""
 
-#: standardactionmanager.cpp:101
-msgid "Resource Properties"
-msgstr ""
-
 #: standardactionmanager.cpp:102 standardactionmanager.cpp:196
 #, kde-format
-#| msgid "Synchronize Resource"
 msgid "Synchronize Resource"
 msgid_plural "Synchronize %1 Resources"
 msgstr[0] ""
@@ -1374,6 +1379,22 @@ msgid_plural "Copy %1 Items"
 msgstr[0] "एतए नकल करू (&C)"
 msgstr[1] "एतए नकल करू (&C)"
 
+#: standardactionmanager.cpp:184
+#, kde-format
+msgid "Cut Item"
+msgid_plural "Cut %1 Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardactionmanager.cpp:186
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "New Folder"
+msgid "Cut Folder"
+msgid_plural "Cut %1 Folders"
+msgstr[0] "नवीन फोल्डर"
+msgstr[1] "नवीन फोल्डर"
+
 #: standardactionmanager.cpp:188
 #, fuzzy, kde-format
 #| msgid "Delete Resource"
@@ -1381,6 +1402,22 @@ msgid "Delete Item"
 msgid_plural "Delete %1 Items"
 msgstr[0] "मेटाबू संसाधन"
 msgstr[1] "मेटाबू संसाधन"
+
+#: standardactionmanager.cpp:190
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "New Folder"
+msgid "Delete Folder"
+msgid_plural "Delete %1 Folders"
+msgstr[0] "नवीन फोल्डर"
+msgstr[1] "नवीन फोल्डर"
+
+#: standardactionmanager.cpp:192
+#, kde-format
+msgid "Synchronize Folder"
+msgid_plural "Synchronize %1 Folders"
+msgstr[0] ""
+msgstr[1] ""
 
 #: standardactionmanager.cpp:201
 msgctxt "@label:textbox name of a thing"
@@ -1607,6 +1644,11 @@ msgstr ""
 #: conflicthandling/conflictresolvedialog.cpp:232
 msgid "Data"
 msgstr "आँकड़ा"
+
+#, fuzzy
+#~| msgid "&New Folder..."
+#~ msgid "New Folder..."
+#~ msgstr "नव फोल्डर...(&N)"
 
 #~ msgid "Cache"
 #~ msgstr "कैश"
