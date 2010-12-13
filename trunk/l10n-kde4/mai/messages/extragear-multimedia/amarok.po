@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-10 02:33+0100\n"
+"POT-Creation-Date: 2010-12-13 02:21+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -5747,19 +5747,6 @@ msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "नवीन फोल्डर"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:175
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:224
-#, kde-format
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] ""
-msgstr[1] ""
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:385
-msgid "Source"
-msgstr "श्रोत"
-
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
 msgid "&Rename Folder..."
 msgstr ""
@@ -5776,6 +5763,19 @@ msgstr "नवीन नाम"
 msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
 msgstr ""
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:175
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:224
+#, kde-format
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] ""
+msgstr[1] ""
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:385
+msgid "Source"
+msgstr "श्रोत"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -7268,14 +7268,14 @@ msgstr[1] ""
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/file/PlaylistFileProvider.cpp:442
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:129
-#: playlistmanager/PlaylistManager.cpp:353
+#: playlistmanager/PlaylistManager.cpp:354
 msgid "Change playlist"
 msgstr ""
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
 #: playlistmanager/file/PlaylistFileProvider.cpp:443
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:130
-#: playlistmanager/PlaylistManager.cpp:354
+#: playlistmanager/PlaylistManager.cpp:355
 msgid "Enter new name for playlist:"
 msgstr ""
 
@@ -7410,15 +7410,6 @@ msgstr ""
 msgid "Remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/TrashCollectionLocation.cpp:46
-msgid "Trash"
-msgstr "रद्दी"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:97
-#, kde-format
-msgid "Moving to trash: %1"
-msgstr ""
-
 #: core-impl/collections/support/FileCollectionLocation.cpp:119
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:631
 #, kde-format
@@ -7434,6 +7425,15 @@ msgid ""
 "kbuildsycoca4 --noincremental<br>$ amarok</pre>More information can be found "
 "in the README file. For further assistance join us at #amarok on irc."
 "freenode.net.</p>"
+msgstr ""
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:46
+msgid "Trash"
+msgstr "रद्दी"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:100
+#, kde-format
+msgid "Moving to trash: %1"
 msgstr ""
 
 #: core-impl/collections/umscollection/handler/UmsHandler.cpp:476
@@ -7555,28 +7555,28 @@ msgstr ""
 msgid "Unable to start Amarok collection scanner."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:397
+#: core-impl/collections/db/ScanManager.cpp:400
 #, kde-format
 msgid "Found one direcory"
 msgid_plural "Found %1 directories"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/db/ScanManager.cpp:409
+#: core-impl/collections/db/ScanManager.cpp:412
 #, kde-format
 msgid "Got directory \"%1\" from scanner."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:447
+#: core-impl/collections/db/ScanManager.cpp:450
 #, kde-format
 msgid "Aborting scanner with error: %1"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:474
+#: core-impl/collections/db/ScanManager.cpp:477
 msgid "Scanner aborted."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:571
+#: core-impl/collections/db/ScanManager.cpp:574
 msgid ""
 "The collection scan had to be aborted. Too many errors were encountered "
 "during the scan."
@@ -11110,7 +11110,7 @@ msgstr ""
 msgid "Local playlists stored in the database"
 msgstr ""
 
-#: playlistmanager/PlaylistManager.cpp:277
+#: playlistmanager/PlaylistManager.cpp:278
 msgid "Downloading Playlist"
 msgstr ""
 
