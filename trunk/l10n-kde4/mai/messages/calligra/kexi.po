@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-17 02:52+0100\n"
+"POT-Creation-Date: 2010-12-21 02:58+0100\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -400,17 +400,6 @@ msgstr "चेतावनी"
 msgid "Do not show this message again"
 msgstr "ई संदेश फिनु सँ  नहि देखाबू"
 
-#: core/kexiinternalpart.cpp:53 core/kexipartmanager.cpp:137
-#, kde-format
-msgid ""
-"Incompatible plugin \"%1\" version: found version %2, expected version %3."
-msgstr ""
-
-#: core/kexiinternalpart.cpp:68
-#, kde-format
-msgid "Could not load \"%1\" plugin."
-msgstr ""
-
 #: core/kexipart.cpp:68
 msgid "Details:"
 msgstr "विवरण:"
@@ -480,22 +469,6 @@ msgstr ""
 #: core/kexipart.cpp:464 kexidb/field.cpp:718 kexidb/field.cpp:742
 msgid "Object"
 msgstr "वस्तु"
-
-#: core/kexipartmanager.cpp:66
-#, kde-format
-msgid ""
-"No \"%1\" service type installed. Check your Kexi installation. Aborting."
-msgstr ""
-
-#: core/kexipartmanager.cpp:150
-#, kde-format
-msgid "Error while loading plugin \"%1\""
-msgstr ""
-
-#: core/kexipartmanager.cpp:192
-#, kde-format
-msgid "No plugin for class \"%1\""
-msgstr ""
 
 #: core/kexiproject.cpp:198
 #, kde-format
@@ -765,6 +738,33 @@ msgstr "संगीता कुमारी"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
+
+#: core/kexiinternalpart.cpp:53 core/kexipartmanager.cpp:137
+#, kde-format
+msgid ""
+"Incompatible plugin \"%1\" version: found version %2, expected version %3."
+msgstr ""
+
+#: core/kexiinternalpart.cpp:68
+#, kde-format
+msgid "Could not load \"%1\" plugin."
+msgstr ""
+
+#: core/kexipartmanager.cpp:66
+#, kde-format
+msgid ""
+"No \"%1\" service type installed. Check your Kexi installation. Aborting."
+msgstr ""
+
+#: core/kexipartmanager.cpp:150
+#, kde-format
+msgid "Error while loading plugin \"%1\""
+msgstr ""
+
+#: core/kexipartmanager.cpp:192
+#, kde-format
+msgid "No plugin for class \"%1\""
+msgstr ""
 
 #: formeditor/WidgetTreeWidget.cpp:96 formeditor/commands.cpp:2218
 #: main/printing/kexisimpleprintingengine.cpp:326
@@ -3221,25 +3221,6 @@ msgstr ""
 msgid "KexiDB driver version"
 msgstr ""
 
-#: kexidb/drivermanager.cpp:171
-msgid "Could not find any database drivers."
-msgstr ""
-
-#: kexidb/drivermanager.cpp:181 kexidb/drivermanager.cpp:200
-#, kde-format
-msgid "Could not find database driver \"%1\"."
-msgstr ""
-
-#: kexidb/drivermanager.cpp:231
-#, kde-format
-msgid "Could not load database driver \"%1\"."
-msgstr ""
-
-#: kexidb/drivermanager.cpp:374
-#, kde-format
-msgid "No such driver service: \"%1\"."
-msgstr ""
-
 #: kexidb/drivers/pqxx/pqxxconnection.cpp:208
 #: kexidb/drivers/pqxx/pqxxconnection.cpp:287
 #: kexidb/drivers/pqxx/pqxxconnection.cpp:384
@@ -3613,6 +3594,25 @@ msgstr "संख्या"
 #: widget/utils/kexicontextmenuutils.cpp:293
 msgid "Image"
 msgstr "चित्र"
+
+#: kexidb/drivermanager.cpp:171
+msgid "Could not find any database drivers."
+msgstr ""
+
+#: kexidb/drivermanager.cpp:181 kexidb/drivermanager.cpp:200
+#, kde-format
+msgid "Could not find database driver \"%1\"."
+msgstr ""
+
+#: kexidb/drivermanager.cpp:231
+#, kde-format
+msgid "Could not load database driver \"%1\"."
+msgstr ""
+
+#: kexidb/drivermanager.cpp:374
+#, kde-format
+msgid "No such driver service: \"%1\"."
+msgstr ""
 
 #: kexiutils/identifier.cpp:92
 #, kde-format
