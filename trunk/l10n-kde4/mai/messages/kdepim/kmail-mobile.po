@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail-mobile\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-21 02:28+0100\n"
+"POT-Creation-Date: 2010-12-26 03:01+0100\n"
 "PO-Revision-Date: 2010-09-24 16:27+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,1078 +18,173 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: mainview.cpp:335
-msgid "Messagelist Display Format"
+#: attachmenteditor.cpp:43
+msgid "Add Attachment"
 msgstr ""
 
-#: mainview.cpp:356 rc.cpp:248
-#, fuzzy
-#| msgid "Email"
-msgid "Mail"
-msgstr "इमेल"
-
-#: mainview.cpp:392
-msgid "Identities"
-msgstr ""
-
-#: mainview.cpp:396
-msgid "New Email"
-msgstr ""
-
-#: mainview.cpp:400 emailsimporthandler.cpp:54
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Import Emails"
-msgstr "sangeeta09@gmail.com"
-
-#: mainview.cpp:404
-msgid "Export Emails From This Account"
-msgstr ""
-
-#: mainview.cpp:408
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Export Displayed Emails"
-msgstr "sangeeta09@gmail.com"
-
-#: mainview.cpp:412
-msgid "Show Source"
-msgstr ""
-
-#: mainview.cpp:416
-msgid "Email Encoding"
-msgstr ""
-
-#: mainview.cpp:420
-msgid "Show All Recipients"
-msgstr ""
-
-#: mainview.cpp:499
-msgid "Could not recover a saved message."
-msgstr ""
-
-#: mainview.cpp:500
-msgid "Recover Message Error"
-msgstr ""
-
-#: mainview.cpp:553
-msgid "Could not restore a draft."
-msgstr ""
-
-#: mainview.cpp:554 mainview.cpp:563 mainview.cpp:572
-msgid "Restore Draft Error"
-msgstr ""
-
-#: mainview.cpp:562
-msgid "Invalid draft message."
-msgstr ""
-
-#: mainview.cpp:571
-msgid "Message content error"
-msgstr ""
-
-#: mainview.cpp:631
-msgid "KMail is currently in offline mode. How do you want to proceed?"
-msgstr ""
-
-#: mainview.cpp:633
-msgid "Online/Offline"
-msgstr "औनलाइन/औफलाइन"
-
-#: mainview.cpp:634
-msgid "Work Online"
-msgstr "आनलाइन काम करू"
-
-#: mainview.cpp:635
-msgid "Work Offline"
-msgstr "आफलाइन काज करू"
-
-#: mainview.cpp:673 mainview.cpp:680
-msgid "Send Queued Email Via"
-msgstr ""
-
-#: mainview.cpp:693 rc.cpp:255 rc.cpp:256 rc.cpp:257 rc.cpp:260
-msgid "Discard"
-msgstr ""
-
-#: mainview.cpp:923
-msgid "Error trying to set item status"
-msgstr ""
-
-#: mainview.cpp:924
-msgid "Messages status error"
-msgstr ""
-
-#: mainview.cpp:1099
-msgid "Cannot delete draft."
-msgstr ""
-
-#: mainview.cpp:1100
-msgid "Delete Draft Error"
-msgstr ""
-
-#: mainview.cpp:1155
-msgid "Mark Displayed Emails As Read"
-msgstr ""
-
-#: mainview.cpp:1156 mainview.cpp:1408 mailactionmanager.cpp:125
-msgid "Move Displayed Emails To Trash"
-msgstr ""
-
-#: mainview.cpp:1157
-msgid "Move Email To Trash"
-msgstr ""
-
-#: mainview.cpp:1158
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Remove Duplicate Emails"
-msgstr "sangeeta09@gmail.com"
-
-#: mainview.cpp:1160
-msgid "Copy Email To"
-msgstr ""
-
-#: mainview.cpp:1161
-msgid "Move Email To"
-msgstr ""
-
-#: mainview.cpp:1163
-#, fuzzy
-#| msgid "Folder"
-msgid "New Subfolder"
-msgstr "फोल्डर"
-
-#: mainview.cpp:1164
-msgid "Synchronize This Folder"
-msgid_plural "Synchronize These Folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: mainview.cpp:1165
-msgid "Folder Properties"
-msgstr ""
-
-#: mainview.cpp:1166
-#, fuzzy
-#| msgid "Select"
-msgid "Delete Folder"
-msgid_plural "Delete Folders"
-msgstr[0] "चुनू"
-msgstr[1] "चुनू"
-
-#: mainview.cpp:1167
-#, fuzzy
-#| msgid "Folder"
-msgid "Move Folder To"
-msgstr "फोल्डर"
-
-#: mainview.cpp:1168
-#, fuzzy
-#| msgid "Folder"
-msgid "Copy Folder To"
-msgstr "फोल्डर"
-
-#: mainview.cpp:1170
-msgid "Synchronize All Accounts"
-msgstr ""
-
-#: mainview.cpp:1182
-msgid "Add"
-msgstr "जोड़ू"
-
-#: mainview.cpp:1183
-msgid "Delete"
-msgstr "मेटाबू"
-
-#: mainview.cpp:1184 rc.cpp:190 rc.cpp:232 rc.cpp:247
-msgid "Edit"
-msgstr "संपादन"
-
-#: mainview.cpp:1192
-msgctxt "@title:window"
-msgid "New Account"
-msgstr "नवीन खाता"
-
-#: mainview.cpp:1194
-#, kde-format
-msgid "Could not create account: %1"
-msgstr ""
-
-#: mainview.cpp:1196
-msgid "Account creation failed"
-msgstr ""
-
-#: mainview.cpp:1199
-msgctxt "@title:window"
-msgid "Delete Account?"
-msgstr ""
-
-#: mainview.cpp:1201
-msgid "Do you really want to delete the selected account?"
-msgstr ""
-
-#: mainview.cpp:1415
-msgid "Empty Trash"
-msgstr ""
-
-#: mainview.cpp:1505
-msgid "Could not fetch template."
-msgstr ""
-
-#: mainview.cpp:1506
-msgid "Template Fetching Error"
-msgstr ""
-
-#: messagelistproxy.cpp:99
-msgid "Unknown"
-msgstr ""
-
-#: messagelistproxy.cpp:101
-msgid "Today"
-msgstr ""
-
-#: messagelistproxy.cpp:103
-msgid "Yesterday"
-msgstr ""
-
-#: messagelistproxy.cpp:113
-#, kde-format
-msgid "One Week Ago"
-msgid_plural "%1 Weeks Ago"
-msgstr[0] ""
-msgstr[1] ""
-
-#: messagelistproxy.cpp:117
-#, kde-format
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr ""
-
-#: main.cpp:60
-msgid "KMail Mobile"
-msgstr ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#. i18n: file: configwidget.ui:25
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5
-msgid "Appearance"
-msgstr ""
-
-#. i18n: file: configwidget.ui:50
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceShowHtmlStatusBar)
-#: rc.cpp:8
-msgid "Show HTML statusbar"
-msgstr ""
-
-#. i18n: file: configwidget.ui:57
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceReplaceSmileys)
-#: rc.cpp:11
-msgid "Replace smileys by emoticons"
-msgstr ""
-
-#. i18n: file: configwidget.ui:64
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceReduceQuotedFontSize)
-#: rc.cpp:14
-msgid "Reduce font size for quoted text"
-msgstr ""
-
-#. i18n: file: configwidget.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:17 rc.cpp:195
-msgid "Composer"
-msgstr ""
-
-#. i18n: file: configwidget.ui:108
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerInsertSignature)
-#: rc.cpp:20
-msgid "Automatically insert signature"
-msgstr ""
-
-#. i18n: file: configwidget.ui:115
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposertInsertSignatureAboveQuote)
-#: rc.cpp:23
-msgid "Insert signature above quoted text"
-msgstr ""
-
-#. i18n: file: configwidget.ui:122
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerPrependSeparator)
-#: rc.cpp:26
-msgid "Prepend separator to signature"
-msgstr ""
-
-#. i18n: file: configwidget.ui:129
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerUseSmartQuoting)
-#: rc.cpp:29
-msgid "Use smart quoting"
-msgstr ""
-
-#. i18n: file: configwidget.ui:136
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerRequestMDN)
-#: rc.cpp:32
-msgid "Automatically request MDN"
-msgstr ""
-
-#. i18n: file: configwidget.ui:143
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerUseRecentAddressCompletion)
-#: rc.cpp:35
-msgid "Use recent addresses for autocompletion"
-msgstr ""
-
-#. i18n: file: configwidget.ui:152
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerWordWrapAtColumn)
-#: rc.cpp:38
-msgid "Word wrap at column"
-msgstr ""
-
-#. i18n: file: configwidget.ui:177
-#. i18n: ectx: property (text), widget (QPushButton, configureCompletionOrderButton)
-#: rc.cpp:41
-msgid "Configure completion order"
-msgstr ""
-
-#. i18n: file: configwidget.ui:184
-#. i18n: ectx: property (text), widget (QPushButton, editRecentAddressesButton)
-#: rc.cpp:44
-msgid "Edit recent addresses"
-msgstr ""
-
-#. i18n: file: configwidget.ui:201
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:47
-msgid "Templates"
-msgstr ""
-
-#. i18n: file: configwidget.ui:224
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:50
-msgid "New Message:"
-msgstr ""
-
-#. i18n: file: configwidget.ui:253
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:53
-msgid "Reply to Sender:"
-msgstr ""
-
-#. i18n: file: configwidget.ui:282
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:56
-msgid "Reply to All / Reply to List:"
-msgstr ""
-
-#. i18n: file: configwidget.ui:311
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:59
-#, fuzzy
-#| msgid "Forward"
-msgid "Forward Message:"
-msgstr "आगाँक तरफ"
-
-#. i18n: file: configwidget.ui:342
-#. i18n: ectx: property (text), widget (QLabel, howDoesThisWorkLabel)
-#: rc.cpp:62
-msgid "How does this work?"
-msgstr ""
-
-#. i18n: file: configwidget.ui:365
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerReplaceReplyPrefixes)
-#: rc.cpp:65
-msgid "Replace recognized reply prefixes"
-msgstr ""
-
-#. i18n: file: configwidget.ui:372
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerReplaceForwardPrefixes)
-#: rc.cpp:68
-msgid "Replace recognized forward prefixes"
-msgstr ""
-
-#. i18n: file: configwidget.ui:379
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerOutlookCompatibleNaming)
-#: rc.cpp:71
-msgid "Outlook compatible attachment naming"
-msgstr ""
-
-#. i18n: file: configwidget.ui:386
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerDetectMissingAttachments)
-#: rc.cpp:74
-msgid "Enable detection of missing attachments"
-msgstr ""
-
-#. i18n: file: configwidget.ui:405
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:77
-msgid "Invitations"
-msgstr ""
-
-#. i18n: file: configwidget.ui:430
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvitationsOutlookCompatible)
-#: rc.cpp:80
-msgid "Outlook compatible invitations"
-msgstr ""
-
-#. i18n: file: configwidget.ui:437
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvitationsAutomaticSending)
-#: rc.cpp:83
-msgid "Automatic invitation sending"
-msgstr ""
-
-#. i18n: file: configwidget.ui:445
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvitationsDeleteAfterReply)
-#: rc.cpp:86
-msgid ""
-"Delete invitation emails after the reply\n"
-"to them has been sent"
-msgstr ""
-
-#. i18n: file: configwidget.ui:464
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:90
-msgid "Misc"
-msgstr ""
-
-#. i18n: file: configwidget.ui:487
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MiscEmptyTrashAtExit)
-#: rc.cpp:93
-msgid "Empty local trash folder on program exit"
-msgstr ""
-
-#. i18n: file: configwidget.ui:496
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:96
-msgid "Close to quota threshold:"
-msgstr ""
-
-#. i18n: file: configwidget.ui:503
-#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MiscQuotaWarningThreshold)
-#: rc.cpp:100
-#, no-c-format
-msgid " %"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:20
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:103
-msgid "Search for:"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:34
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:106
-msgid "In:"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:56
-#. i18n: ectx: property (text), widget (QCheckBox, inSubjects)
-#: rc.cpp:109
-#, fuzzy
-#| msgid "Subject:"
-msgid "Subjects"
-msgstr "विषय:"
-
-#. i18n: file: searchwidget.ui:63
-#. i18n: ectx: property (text), widget (QCheckBox, inSenders)
-#: rc.cpp:112
-#, fuzzy
-#| msgid "Send"
-msgid "Senders"
-msgstr "पठाबू"
-
-#. i18n: file: searchwidget.ui:70
-#. i18n: ectx: property (text), widget (QCheckBox, inRecipients)
-#: rc.cpp:115 rc.cpp:218
-msgid "Recipients"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:77
-#. i18n: ectx: property (text), widget (QCheckBox, inBodyContents)
-#: rc.cpp:118
-msgid "Body Contents"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:87
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:121
-msgid "Sent between:"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:109
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:124
-msgid "and"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:128
-#. i18n: ectx: property (text), widget (QCheckBox, includeDateRange)
-#: rc.cpp:127
-msgid "Include messages within the specified date range"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:135
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:130
-msgid "Located in:"
-msgstr ""
-
-#. i18n: file: searchwidget.ui:157
-#. i18n: ectx: property (text), widget (QRadioButton, locatedInAnyCollection)
-#: rc.cpp:133
-#, fuzzy
-#| msgid "Folder"
-msgid "any folder"
-msgstr "फोल्डर"
-
-#. i18n: file: searchwidget.ui:167
-#. i18n: ectx: property (text), widget (QRadioButton, locatedInSpecificCollection)
-#: rc.cpp:136
-#, fuzzy
-#| msgid "Folder"
-msgid "only in folder"
-msgstr "फोल्डर"
-
-#. i18n: file: messagelistsettingseditor.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:139
-msgid "Sorting:"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:25
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
-#: rc.cpp:142
-msgid "By Date/Time"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:30
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
-#: rc.cpp:145
-msgid "By Most Recent in Discussion"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:35
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
-#. i18n: file: messagelistsettingseditor.ui:92
-#. i18n: ectx: property (text), item, widget (QComboBox, mGroupingOption)
-#: rc.cpp:148 rc.cpp:175
-msgid "By Smart Sender/Receiver"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:40
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
-#: rc.cpp:151
-#, fuzzy
-#| msgid "Subject:"
-msgid "By Subject"
-msgstr "विषय:"
-
-#. i18n: file: messagelistsettingseditor.ui:45
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
-#: rc.cpp:154
-msgid "By Size"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:54
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOrder)
-#: rc.cpp:157
-msgid "Ascending"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:59
-#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOrder)
-#: rc.cpp:160
-msgid "Descending"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:67
-#. i18n: ectx: property (text), widget (QCheckBox, mSaveForCollection)
-#: rc.cpp:163
-msgid "Folder always uses this sort order"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:74
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:166
-msgid "Grouping:"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:82
-#. i18n: ectx: property (text), item, widget (QComboBox, mGroupingOption)
-#: rc.cpp:169
-msgid "None"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:87
-#. i18n: ectx: property (text), item, widget (QComboBox, mGroupingOption)
-#: rc.cpp:172
-msgid "By Starting Date of Discussion"
-msgstr ""
-
-#. i18n: file: messagelistsettingseditor.ui:100
-#. i18n: ectx: property (text), widget (QCheckBox, mUseThreading)
-#: rc.cpp:178
-msgid "Show threads"
-msgstr ""
-
-#. i18n: file: settings.kcfg.cmake:37
-#. i18n: ectx: label, entry (TooManyRecipients), group (Composer)
-#: rc.cpp:181
-msgid "Warn if the number of recipients is larger than"
-msgstr ""
-
-#. i18n: file: settings.kcfg.cmake:39
-#. i18n: ectx: whatsthis, entry (TooManyRecipients), group (Composer)
-#. i18n: file: settings.kcfg.cmake:46
-#. i18n: ectx: whatsthis, entry (RecipientThreshold), group (Composer)
-#: rc.cpp:184 rc.cpp:188
-msgid ""
-"If the number of recipients is larger than this value, KMail Mobile will "
-"warn and ask for a confirmation before sending the mail. The warning can be "
-"turned off."
-msgstr ""
-
-#: rc.cpp:189
-#, fuzzy
-#| msgid "Forward"
-msgid "Message"
-msgstr "आगाँक तरफ"
-
-#: rc.cpp:191
-#, fuzzy
-#| msgid "Actions"
-msgid "Options"
-msgstr "क्रियासभ"
-
-#: rc.cpp:192 configwidget.cpp:341
-#, fuzzy
-#| msgid "Sign"
-msgid "Signature"
-msgstr "हस्ताक्षर करू"
-
-#: rc.cpp:193
-msgid "Security"
-msgstr ""
-
-#: rc.cpp:194
-msgid "Snippets"
-msgstr ""
-
-#: rc.cpp:196
-msgid "Configure Identity"
-msgstr ""
-
-#: rc.cpp:197
-msgid "Configure Transport"
-msgstr ""
-
-#: rc.cpp:198 composerview.cpp:513
-msgid "Close Composer"
-msgstr ""
-
-#: rc.cpp:201 rc.cpp:217
-#, fuzzy, kde-format
-#| msgid "Folder"
-msgid "1 folder"
-msgid_plural "%1 folders"
-msgstr[0] "फोल्डर"
-msgstr[1] "फोल्डर"
-
-#: rc.cpp:202
-#, kde-format
-msgid "from 1 account"
-msgid_plural "from %1 accounts"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:203
-#, kde-format
-msgid "1 thread"
-msgid_plural "%1 threads"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:204
-msgid "Select"
-msgstr "चुनू"
-
-#: rc.cpp:204
-msgid "Change Selection"
-msgstr ""
-
-#: rc.cpp:205
-msgid "Write new Email"
-msgstr ""
-
-#: rc.cpp:206
-msgid "No messages in this folder"
-msgstr ""
-
-#: rc.cpp:207
-msgid "Back to Threads"
-msgstr ""
-
-#: rc.cpp:208 rc.cpp:219
-msgid "Actions"
-msgstr "क्रियासभ"
-
-#: rc.cpp:209
-#, fuzzy, kde-format
-#| msgid "Forward"
-msgid "One message found"
-msgid_plural "%1 messages found"
-msgstr[0] "आगाँक तरफ"
-msgstr[1] "आगाँक तरफ"
-
-#: rc.cpp:210
-#, kde-format
-msgctxt "This text is only visible if messages > 1"
-msgid "%2 messages, %1 unread"
-msgid_plural "%2 messages, %1 unread"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:212
-#, fuzzy, kde-format
-#| msgid "Forward"
-msgid "One message"
-msgid_plural "%1 messages"
-msgstr[0] "आगाँक तरफ"
-msgstr[1] "आगाँक तरफ"
-
-#: rc.cpp:213
-msgid "Subject:"
-msgstr "विषय:"
-
-#: rc.cpp:214
-msgid "Message will be signed"
-msgstr ""
-
-#: rc.cpp:215
-msgid "Message will be encrypted"
-msgstr ""
-
-#: rc.cpp:216
-msgid "Identity:"
-msgstr ""
-
-#: rc.cpp:220
-msgid "Ok"
-msgstr ""
-
-#: rc.cpp:221 rc.cpp:224
-msgid "Cancel"
-msgstr ""
-
-#: rc.cpp:222
-#, kde-format
-msgid "<b>Access Control List for '%1'</b>"
-msgstr ""
-
-#: rc.cpp:223
-msgid "Save"
-msgstr ""
-
-#: rc.cpp:225
-msgid "Home"
-msgstr "घर"
-
-#: rc.cpp:226
-#, fuzzy
-#| msgid "Select"
-msgid "Select Multiple Folders"
-msgstr "चुनू"
-
-#: rc.cpp:227
-msgid "Accounts"
-msgstr "खाता"
-
-#: rc.cpp:228
-#, fuzzy
-#| msgid "Folders"
-msgid "Filter"
-msgstr "फोल्डरसभ"
-
-#: rc.cpp:229
-msgid "Account"
-msgstr "खाता"
-
-#: rc.cpp:230
-msgid "Folder"
-msgstr "फोल्डर"
-
-#: rc.cpp:231
-#, fuzzy
-#| msgid "Edit"
-msgid "Edit ACLs"
-msgstr "संपादन"
-
-#: rc.cpp:233 rc.cpp:237 rc.cpp:243
-msgid "View"
-msgstr "दृश्य"
-
-#: rc.cpp:234 rc.cpp:238
-msgid "Add View As Favorite"
-msgstr ""
-
-#: rc.cpp:235 rc.cpp:240
-msgid "Switch To Editing Mode"
-msgstr ""
-
-#: rc.cpp:236
-msgid "Folders"
-msgstr "फोल्डरसभ"
-
-#: rc.cpp:239
-#, fuzzy
-#| msgid "Select"
-msgid "Select Folders"
-msgstr "चुनू"
-
-#: rc.cpp:241
-msgid "Email"
-msgstr "इमेल"
-
-#: rc.cpp:242
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Mark Email As"
-msgstr "sangeeta09@gmail.com"
-
-#: rc.cpp:244
-msgid "Copy Email To Clipboard"
-msgstr ""
-
-#: rc.cpp:245
-msgid "Attachments"
-msgstr "संलग्नक"
-
-#: rc.cpp:246
+#: attachmenteditor.cpp:45
 #, fuzzy
 #| msgid "Attachments"
-msgid "Save All Attachments"
+msgid "Remove Attachment"
 msgstr "संलग्नक"
 
-#: rc.cpp:249
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Search For Emails"
-msgstr "sangeeta09@gmail.com"
-
-#: rc.cpp:250
-msgid "Configure Mail"
-msgstr ""
-
-#: rc.cpp:251 mailactionmanager.cpp:67
-msgid "Reply to Author"
-msgstr ""
-
-#: rc.cpp:252 mailactionmanager.cpp:64
-msgid "Reply to All"
-msgstr ""
-
-#: rc.cpp:253
-msgid "Reply to List"
-msgstr ""
-
-#: rc.cpp:254 mailactionmanager.cpp:73
-msgid "Reply Without Quoting"
-msgstr ""
-
-#: rc.cpp:258 mailactionmanager.cpp:81
-msgid "Forward as Attachment"
-msgstr ""
-
-#: rc.cpp:259 mailactionmanager.cpp:84
-msgid "Redirect"
-msgstr ""
-
-#: rc.cpp:200
-#, kde-format
-msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 emails"
-msgid ""
-"You have selected \n"
-"%1\n"
-"%2\n"
-"%3"
-msgstr ""
-
-#: composerview.cpp:149 attachmenteditor.cpp:48
+#: attachmenteditor.cpp:48 composerview.cpp:150
 msgid "Sign"
 msgstr "हस्ताक्षर करू"
 
-#: composerview.cpp:155 attachmenteditor.cpp:53
+#: attachmenteditor.cpp:53 composerview.cpp:156
 msgid "Encrypt"
 msgstr "गोपन करू"
 
-#: composerview.cpp:161
+#: charsetselectiondialog.cpp:38
+msgid "Auto"
+msgstr ""
+
+#: composerview.cpp:162
 #, fuzzy
 #| msgid "Send"
 msgid "Send Later"
 msgstr "पठाबू"
 
-#: composerview.cpp:165
+#: composerview.cpp:166
 msgid "Save As Draft"
 msgstr ""
 
-#: composerview.cpp:170
+#: composerview.cpp:171
 msgid "Save As Template"
 msgstr ""
 
-#: composerview.cpp:174
+#: composerview.cpp:175
 msgid "Clean Spaces"
 msgstr ""
 
-#: composerview.cpp:177
+#: composerview.cpp:178
 msgid "Add Quote Characters"
 msgstr ""
 
-#: composerview.cpp:180
+#: composerview.cpp:181
 msgid "Remove Quote Characters"
 msgstr ""
 
-#: composerview.cpp:183
+#: composerview.cpp:184
 msgid "Check Spelling"
 msgstr ""
 
-#: composerview.cpp:186
+#: composerview.cpp:187
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgid "Search in Email"
 msgstr "sangeeta09@gmail.com"
 
-#: composerview.cpp:189
+#: composerview.cpp:190
 msgid "Continue Search"
 msgstr ""
 
-#: composerview.cpp:192
+#: composerview.cpp:193
 #, fuzzy
 #| msgid "&Replace"
 msgid "Replace"
 msgstr "बदलू (R)"
 
-#: composerview.cpp:195
+#: composerview.cpp:196
 msgid "Append Signature"
 msgstr ""
 
-#: composerview.cpp:198
+#: composerview.cpp:199
 msgid "Prepend Signature"
 msgstr ""
 
-#: composerview.cpp:201
+#: composerview.cpp:202
 msgid "Insert Signature at Cursor Position"
 msgstr ""
 
-#: composerview.cpp:204
+#: composerview.cpp:205
 msgid "Urgent"
 msgstr "अत्यावश्यक"
 
-#: composerview.cpp:209
+#: composerview.cpp:210
 msgid "Request Notification"
 msgstr ""
 
-#: composerview.cpp:215
+#: composerview.cpp:216
 msgid "Wordwrap"
 msgstr ""
 
-#: composerview.cpp:221 mailactionmanager.cpp:117
+#: composerview.cpp:222 mailactionmanager.cpp:117
 msgid "Use Fixed Font"
 msgstr ""
 
-#: composerview.cpp:227
+#: composerview.cpp:228
 #, fuzzy
 #| msgid "Forward"
 msgid "Crypto Message Format"
 msgstr "आगाँक तरफ"
 
-#: composerview.cpp:230
+#: composerview.cpp:231
 msgid "Attach Public Key"
 msgstr ""
 
-#: composerview.cpp:231
+#: composerview.cpp:232
 msgid "Insert Signature At Cursor Position"
 msgstr ""
 
-#: composerview.cpp:322
+#: composerview.cpp:331
 msgid "You should specify at least one recipient for this message."
 msgstr ""
 
-#: composerview.cpp:323
+#: composerview.cpp:332
 msgid "No recipients found"
 msgstr ""
 
-#: composerview.cpp:329
+#: composerview.cpp:338
 msgid ""
 "You did not specify a subject. Do you want to send the message without "
 "specifying one?"
 msgstr ""
 
-#: composerview.cpp:330
+#: composerview.cpp:339
 msgid "No subject"
 msgstr "कोनो विषय नहि"
 
-#: composerview.cpp:374
+#: composerview.cpp:383
 msgid "New mail"
 msgstr ""
 
-#: composerview.cpp:468
+#: composerview.cpp:477
 #, kde-format
 msgctxt "Notification when there was an error while trying to send an email"
 msgid "Error while trying to send email. %1"
 msgstr ""
 
-#: composerview.cpp:508
+#: composerview.cpp:517
 msgid "&Save as Draft"
 msgstr ""
 
-#: composerview.cpp:509
+#: composerview.cpp:518
 msgid "Save this message in the Drafts folder. "
 msgstr ""
 
-#: composerview.cpp:512
+#: composerview.cpp:521
 msgid "Do you want to save the message for later or discard it?"
 msgstr ""
 
-#: composerview.cpp:637
+#: composerview.cpp:522 rc.cpp:243
+msgid "Close Composer"
+msgstr ""
+
+#: composerview.cpp:646
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: composerview.cpp:639
+#: composerview.cpp:648
 msgid "Lose the formatting?"
 msgstr ""
 
-#: composerview.cpp:639
+#: composerview.cpp:648
 msgid "Lose Formatting"
-msgstr ""
-
-#: vacationmanager.cpp:43
-msgid "Edit \"Out of Office\" Replies"
-msgstr ""
-
-#: vacationmanager.cpp:90
-msgid ""
-"KMail Mobile's Out of Office Reply functionality relies on server-side "
-"filtering. You have not yet configured an IMAP server for this.\n"
-"You can do this on the \"Filtering\" tab of the IMAP account configuration."
-msgstr ""
-
-#: vacationmanager.cpp:95
-msgid "No Server-Side Filtering Configured"
 msgstr ""
 
 #: configwidget.cpp:55
@@ -1272,6 +367,12 @@ msgstr ""
 msgid "Miscellaneous"
 msgstr ""
 
+#: configwidget.cpp:341 rc.cpp:237
+#, fuzzy
+#| msgid "Sign"
+msgid "Signature"
+msgstr "हस्ताक्षर करू"
+
 #: configwidget.cpp:345
 msgid "Insert File Content"
 msgstr ""
@@ -1300,6 +401,78 @@ msgstr ""
 msgid "Turn Debug Off"
 msgstr ""
 
+#: emailsexporthandler.cpp:30
+msgid "Which emails shall be exported?"
+msgstr ""
+
+#: emailsexporthandler.cpp:35
+#, fuzzy
+#| msgid "Email"
+msgid "All Emails"
+msgstr "इमेल"
+
+#: emailsexporthandler.cpp:40
+msgid "Emails in current folder"
+msgstr ""
+
+#: emailsexporthandler.cpp:63
+#, kde-format
+msgid "Unable to open MBox file %1"
+msgstr ""
+
+#: emailsexporthandler.cpp:72
+#, kde-format
+msgid "Unable to save emails to MBox file %1"
+msgstr ""
+
+#: emailsimporthandler.cpp:34
+msgid "Select MBox to Import"
+msgstr ""
+
+#: emailsimporthandler.cpp:39
+msgid "Select the folder the imported email(s) shall be saved in:"
+msgstr ""
+
+#: emailsimporthandler.cpp:44
+#, fuzzy
+#| msgid "Select"
+msgid "Select Folder"
+msgstr "चुनू"
+
+#: emailsimporthandler.cpp:49
+#, kde-format
+msgid "Importing one email to %2"
+msgid_plural "Importing %1 emails to %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: emailsimporthandler.cpp:54 mainview.cpp:422
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Import Emails"
+msgstr "sangeeta09@gmail.com"
+
+#: emailsimporthandler.cpp:84
+msgid "MBox Import Failed"
+msgstr ""
+
+#: emailsimporthandler.cpp:86
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>When trying to read the MBox, there was an error opening the file "
+"<filename>%1</filename>:</para>"
+msgstr ""
+
+#: emailsimporthandler.cpp:95
+msgid "No emails were imported, due to errors with the MBox."
+msgstr ""
+
+#: emailsimporthandler.cpp:97
+msgid "The MBox does not contain any emails."
+msgstr ""
+
 #: mailactionmanager.cpp:42
 msgid "Important"
 msgstr "महत्वपूर्ण"
@@ -1322,13 +495,33 @@ msgstr "इमेल"
 msgid "Reply"
 msgstr "जवाब"
 
+#: mailactionmanager.cpp:64 rc.cpp:247
+msgid "Reply to All"
+msgstr ""
+
+#: mailactionmanager.cpp:67 rc.cpp:246
+msgid "Reply to Author"
+msgstr ""
+
 #: mailactionmanager.cpp:70
 msgid "Reply to Mailing List"
+msgstr ""
+
+#: mailactionmanager.cpp:73 rc.cpp:249
+msgid "Reply Without Quoting"
 msgstr ""
 
 #: mailactionmanager.cpp:78
 msgid "Forward"
 msgstr "आगाँक तरफ"
+
+#: mailactionmanager.cpp:81 rc.cpp:202
+msgid "Forward as Attachment"
+msgstr ""
+
+#: mailactionmanager.cpp:84 rc.cpp:203
+msgid "Redirect"
+msgstr ""
 
 #: mailactionmanager.cpp:87
 msgid "Save Favorite"
@@ -1364,6 +557,10 @@ msgstr ""
 msgid "Expiration Properties"
 msgstr ""
 
+#: mailactionmanager.cpp:125 mainview.cpp:1206 mainview.cpp:1458
+msgid "Move Displayed Emails To Trash"
+msgstr ""
+
 #: mailactionmanager.cpp:128
 msgid "Create Task From Email"
 msgstr ""
@@ -1382,15 +579,253 @@ msgstr ""
 msgid "New Filter"
 msgstr "फोल्डरसभ"
 
-#: attachmenteditor.cpp:43
-msgid "Add Attachment"
+#: main.cpp:60
+msgid "KMail Mobile"
 msgstr ""
 
-#: attachmenteditor.cpp:45
+#: mainview.cpp:357
+msgid "Messagelist Display Format"
+msgstr ""
+
+#: mainview.cpp:378 rc.cpp:231
 #, fuzzy
-#| msgid "Attachments"
-msgid "Remove Attachment"
-msgstr "संलग्नक"
+#| msgid "Email"
+msgid "Mail"
+msgstr "इमेल"
+
+#: mainview.cpp:414
+msgid "Identities"
+msgstr ""
+
+#: mainview.cpp:418
+msgid "New Email"
+msgstr ""
+
+#: mainview.cpp:426
+msgid "Export Emails From This Account"
+msgstr ""
+
+#: mainview.cpp:430
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Export Displayed Emails"
+msgstr "sangeeta09@gmail.com"
+
+#: mainview.cpp:434
+msgid "Show Source"
+msgstr ""
+
+#: mainview.cpp:438
+msgid "Email Encoding"
+msgstr ""
+
+#: mainview.cpp:442
+msgid "Show All Recipients"
+msgstr ""
+
+#: mainview.cpp:521
+msgid "Could not recover a saved message."
+msgstr ""
+
+#: mainview.cpp:522
+msgid "Recover Message Error"
+msgstr ""
+
+#: mainview.cpp:575
+msgid "Could not restore a draft."
+msgstr ""
+
+#: mainview.cpp:576 mainview.cpp:585 mainview.cpp:594
+msgid "Restore Draft Error"
+msgstr ""
+
+#: mainview.cpp:584
+msgid "Invalid draft message."
+msgstr ""
+
+#: mainview.cpp:593
+msgid "Message content error"
+msgstr ""
+
+#: mainview.cpp:653
+msgid "KMail is currently in offline mode. How do you want to proceed?"
+msgstr ""
+
+#: mainview.cpp:655
+msgid "Online/Offline"
+msgstr "औनलाइन/औफलाइन"
+
+#: mainview.cpp:656
+msgid "Work Online"
+msgstr "आनलाइन काम करू"
+
+#: mainview.cpp:657
+msgid "Work Offline"
+msgstr "आफलाइन काज करू"
+
+#: mainview.cpp:695 mainview.cpp:702
+msgid "Send Queued Email Via"
+msgstr ""
+
+#: mainview.cpp:715 rc.cpp:204 rc.cpp:244 rc.cpp:245 rc.cpp:250
+msgid "Discard"
+msgstr ""
+
+#: mainview.cpp:973
+msgid "Error trying to set item status"
+msgstr ""
+
+#: mainview.cpp:974
+msgid "Messages status error"
+msgstr ""
+
+#: mainview.cpp:1149
+msgid "Cannot delete draft."
+msgstr ""
+
+#: mainview.cpp:1150
+msgid "Delete Draft Error"
+msgstr ""
+
+#: mainview.cpp:1205
+msgid "Mark Displayed Emails As Read"
+msgstr ""
+
+#: mainview.cpp:1207
+msgid "Move Email To Trash"
+msgstr ""
+
+#: mainview.cpp:1208
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Remove Duplicate Emails"
+msgstr "sangeeta09@gmail.com"
+
+#: mainview.cpp:1210
+msgid "Copy Email To"
+msgstr ""
+
+#: mainview.cpp:1211
+msgid "Move Email To"
+msgstr ""
+
+#: mainview.cpp:1213
+#, fuzzy
+#| msgid "Folder"
+msgid "New Subfolder"
+msgstr "फोल्डर"
+
+#: mainview.cpp:1214
+msgid "Synchronize This Folder"
+msgid_plural "Synchronize These Folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mainview.cpp:1215
+msgid "Folder Properties"
+msgstr ""
+
+#: mainview.cpp:1216
+#, fuzzy
+#| msgid "Select"
+msgid "Delete Folder"
+msgid_plural "Delete Folders"
+msgstr[0] "चुनू"
+msgstr[1] "चुनू"
+
+#: mainview.cpp:1217
+#, fuzzy
+#| msgid "Folder"
+msgid "Move Folder To"
+msgstr "फोल्डर"
+
+#: mainview.cpp:1218
+#, fuzzy
+#| msgid "Folder"
+msgid "Copy Folder To"
+msgstr "फोल्डर"
+
+#: mainview.cpp:1220
+msgid "Synchronize All Accounts"
+msgstr ""
+
+#: mainview.cpp:1232
+msgid "Add"
+msgstr "जोड़ू"
+
+#: mainview.cpp:1233
+msgid "Delete"
+msgstr "मेटाबू"
+
+#: mainview.cpp:1234 rc.cpp:215 rc.cpp:230 rc.cpp:235
+msgid "Edit"
+msgstr "संपादन"
+
+#: mainview.cpp:1242
+msgctxt "@title:window"
+msgid "New Account"
+msgstr "नवीन खाता"
+
+#: mainview.cpp:1244
+#, kde-format
+msgid "Could not create account: %1"
+msgstr ""
+
+#: mainview.cpp:1246
+msgid "Account creation failed"
+msgstr ""
+
+#: mainview.cpp:1249
+msgctxt "@title:window"
+msgid "Delete Account?"
+msgstr ""
+
+#: mainview.cpp:1251
+msgid "Do you really want to delete the selected account?"
+msgstr ""
+
+#: mainview.cpp:1465
+msgid "Empty Trash"
+msgstr ""
+
+#: mainview.cpp:1555
+msgid "Could not fetch template."
+msgstr ""
+
+#: mainview.cpp:1556
+msgid "Template Fetching Error"
+msgstr ""
+
+#: messagelistproxy.cpp:99
+msgid "Unknown"
+msgstr ""
+
+#: messagelistproxy.cpp:101
+msgid "Today"
+msgstr ""
+
+#: messagelistproxy.cpp:103
+msgid "Yesterday"
+msgstr ""
+
+#: messagelistproxy.cpp:113
+#, kde-format
+msgid "One Week Ago"
+msgid_plural "%1 Weeks Ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: messagelistproxy.cpp:117
+#, kde-format
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr ""
+
+#: messagelistsettingscontroller.cpp:35
+msgid "Change Sorting/Grouping..."
+msgstr ""
 
 #: savemailcommand.cpp:47
 msgid ""
@@ -1413,77 +848,648 @@ msgstr ""
 msgid "&Replace"
 msgstr "बदलू (R)"
 
-#: emailsimporthandler.cpp:34
-msgid "Select MBox to Import"
+#: vacationmanager.cpp:43
+msgid "Edit \"Out of Office\" Replies"
 msgstr ""
 
-#: emailsimporthandler.cpp:39
-msgid "Select the folder the imported email(s) shall be saved in:"
+#: vacationmanager.cpp:90
+msgid ""
+"KMail Mobile's Out of Office Reply functionality relies on server-side "
+"filtering. You have not yet configured an IMAP server for this.\n"
+"You can do this on the \"Filtering\" tab of the IMAP account configuration."
 msgstr ""
 
-#: emailsimporthandler.cpp:44
+#: vacationmanager.cpp:95
+msgid "No Server-Side Filtering Configured"
+msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
+#. i18n: file: configwidget.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:5
+msgid "Appearance"
+msgstr ""
+
+#. i18n: file: configwidget.ui:50
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceShowHtmlStatusBar)
+#: rc.cpp:8
+msgid "Show HTML statusbar"
+msgstr ""
+
+#. i18n: file: configwidget.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceReplaceSmileys)
+#: rc.cpp:11
+msgid "Replace smileys by emoticons"
+msgstr ""
+
+#. i18n: file: configwidget.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceReduceQuotedFontSize)
+#: rc.cpp:14
+msgid "Reduce font size for quoted text"
+msgstr ""
+
+#. i18n: file: configwidget.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:17 rc.cpp:240
+msgid "Composer"
+msgstr ""
+
+#. i18n: file: configwidget.ui:108
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerInsertSignature)
+#: rc.cpp:20
+msgid "Automatically insert signature"
+msgstr ""
+
+#. i18n: file: configwidget.ui:115
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposertInsertSignatureAboveQuote)
+#: rc.cpp:23
+msgid "Insert signature above quoted text"
+msgstr ""
+
+#. i18n: file: configwidget.ui:122
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerPrependSeparator)
+#: rc.cpp:26
+msgid "Prepend separator to signature"
+msgstr ""
+
+#. i18n: file: configwidget.ui:129
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerUseSmartQuoting)
+#: rc.cpp:29
+msgid "Use smart quoting"
+msgstr ""
+
+#. i18n: file: configwidget.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerRequestMDN)
+#: rc.cpp:32
+msgid "Automatically request MDN"
+msgstr ""
+
+#. i18n: file: configwidget.ui:143
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerUseRecentAddressCompletion)
+#: rc.cpp:35
+msgid "Use recent addresses for autocompletion"
+msgstr ""
+
+#. i18n: file: configwidget.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerWordWrapAtColumn)
+#: rc.cpp:38
+msgid "Word wrap at column"
+msgstr ""
+
+#. i18n: file: configwidget.ui:177
+#. i18n: ectx: property (text), widget (QPushButton, configureCompletionOrderButton)
+#: rc.cpp:41
+msgid "Configure completion order"
+msgstr ""
+
+#. i18n: file: configwidget.ui:184
+#. i18n: ectx: property (text), widget (QPushButton, editRecentAddressesButton)
+#: rc.cpp:44
+msgid "Edit recent addresses"
+msgstr ""
+
+#. i18n: file: configwidget.ui:201
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:47
+msgid "Templates"
+msgstr ""
+
+#. i18n: file: configwidget.ui:224
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:50
+msgid "New Message:"
+msgstr ""
+
+#. i18n: file: configwidget.ui:253
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:53
+msgid "Reply to Sender:"
+msgstr ""
+
+#. i18n: file: configwidget.ui:282
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:56
+msgid "Reply to All / Reply to List:"
+msgstr ""
+
+#. i18n: file: configwidget.ui:311
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: rc.cpp:59
 #, fuzzy
-#| msgid "Select"
-msgid "Select Folder"
-msgstr "चुनू"
+#| msgid "Forward"
+msgid "Forward Message:"
+msgstr "आगाँक तरफ"
 
-#: emailsimporthandler.cpp:49
+#. i18n: file: configwidget.ui:342
+#. i18n: ectx: property (text), widget (QLabel, howDoesThisWorkLabel)
+#: rc.cpp:62
+msgid "How does this work?"
+msgstr ""
+
+#. i18n: file: configwidget.ui:365
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerReplaceReplyPrefixes)
+#: rc.cpp:65
+msgid "Replace recognized reply prefixes"
+msgstr ""
+
+#. i18n: file: configwidget.ui:372
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerReplaceForwardPrefixes)
+#: rc.cpp:68
+msgid "Replace recognized forward prefixes"
+msgstr ""
+
+#. i18n: file: configwidget.ui:379
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerOutlookCompatibleNaming)
+#: rc.cpp:71
+msgid "Outlook compatible attachment naming"
+msgstr ""
+
+#. i18n: file: configwidget.ui:386
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComposerDetectMissingAttachments)
+#: rc.cpp:74
+msgid "Enable detection of missing attachments"
+msgstr ""
+
+#. i18n: file: configwidget.ui:405
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:77
+msgid "Invitations"
+msgstr ""
+
+#. i18n: file: configwidget.ui:430
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvitationsOutlookCompatible)
+#: rc.cpp:80
+msgid "Outlook compatible invitations"
+msgstr ""
+
+#. i18n: file: configwidget.ui:437
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvitationsAutomaticSending)
+#: rc.cpp:83
+msgid "Automatic invitation sending"
+msgstr ""
+
+#. i18n: file: configwidget.ui:445
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvitationsDeleteAfterReply)
+#: rc.cpp:86
+msgid ""
+"Delete invitation emails after the reply\n"
+"to them has been sent"
+msgstr ""
+
+#. i18n: file: configwidget.ui:464
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:90
+msgid "Misc"
+msgstr ""
+
+#. i18n: file: configwidget.ui:487
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MiscEmptyTrashAtExit)
+#: rc.cpp:93
+msgid "Empty local trash folder on program exit"
+msgstr ""
+
+#. i18n: file: configwidget.ui:496
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: rc.cpp:96
+msgid "Close to quota threshold:"
+msgstr ""
+
+#. i18n: file: configwidget.ui:503
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MiscQuotaWarningThreshold)
+#: rc.cpp:100
+#, no-c-format
+msgid " %"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:103
+msgid "Sorting:"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:25
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
+#: rc.cpp:106
+msgid "By Date/Time"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:30
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
+#: rc.cpp:109
+msgid "By Most Recent in Discussion"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:35
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
+#. i18n: file: messagelistsettingseditor.ui:97
+#. i18n: ectx: property (text), item, widget (QComboBox, mGroupingOption)
+#: rc.cpp:112 rc.cpp:142
+msgid "By Smart Sender/Receiver"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:40
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
+#: rc.cpp:115
+#, fuzzy
+#| msgid "Subject:"
+msgid "By Subject"
+msgstr "विषय:"
+
+#. i18n: file: messagelistsettingseditor.ui:45
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
+#: rc.cpp:118
+msgid "By Size"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:50
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOption)
+#: rc.cpp:121
+msgid "By Action Item Status"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:59
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOrder)
+#: rc.cpp:124
+msgid "Ascending"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:64
+#. i18n: ectx: property (text), item, widget (QComboBox, mSortingOrder)
+#: rc.cpp:127
+msgid "Descending"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:72
+#. i18n: ectx: property (text), widget (QCheckBox, mSaveForCollection)
+#: rc.cpp:130
+msgid "Folder always uses this sort order"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:79
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:133
+msgid "Grouping:"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:87
+#. i18n: ectx: property (text), item, widget (QComboBox, mGroupingOption)
+#: rc.cpp:136
+msgid "None"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:92
+#. i18n: ectx: property (text), item, widget (QComboBox, mGroupingOption)
+#: rc.cpp:139
+msgid "By Starting Date of Discussion"
+msgstr ""
+
+#. i18n: file: messagelistsettingseditor.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, mUseThreading)
+#: rc.cpp:145
+msgid "Show threads"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:20
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:148
+msgid "Search for:"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:151
+msgid "In:"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, inSubjects)
+#: rc.cpp:154
+#, fuzzy
+#| msgid "Subject:"
+msgid "Subjects"
+msgstr "विषय:"
+
+#. i18n: file: searchwidget.ui:63
+#. i18n: ectx: property (text), widget (QCheckBox, inSenders)
+#: rc.cpp:157
+#, fuzzy
+#| msgid "Send"
+msgid "Senders"
+msgstr "पठाबू"
+
+#. i18n: file: searchwidget.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, inRecipients)
+#: rc.cpp:160 rc.cpp:251
+msgid "Recipients"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:77
+#. i18n: ectx: property (text), widget (QCheckBox, inBodyContents)
+#: rc.cpp:163
+msgid "Body Contents"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:166
+msgid "Sent between:"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:109
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:169
+msgid "and"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:128
+#. i18n: ectx: property (text), widget (QCheckBox, includeDateRange)
+#: rc.cpp:172
+msgid "Include messages within the specified date range"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:135
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:175
+msgid "Located in:"
+msgstr ""
+
+#. i18n: file: searchwidget.ui:157
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInAnyCollection)
+#: rc.cpp:178
+#, fuzzy
+#| msgid "Folder"
+msgid "any folder"
+msgstr "फोल्डर"
+
+#. i18n: file: searchwidget.ui:167
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInSpecificCollection)
+#: rc.cpp:181
+#, fuzzy
+#| msgid "Folder"
+msgid "only in folder"
+msgstr "फोल्डर"
+
+#. i18n: file: settings.kcfg.cmake:37
+#. i18n: ectx: label, entry (TooManyRecipients), group (Composer)
+#: rc.cpp:184
+msgid "Warn if the number of recipients is larger than"
+msgstr ""
+
+#. i18n: file: settings.kcfg.cmake:39
+#. i18n: ectx: whatsthis, entry (TooManyRecipients), group (Composer)
+#. i18n: file: settings.kcfg.cmake:46
+#. i18n: ectx: whatsthis, entry (RecipientThreshold), group (Composer)
+#: rc.cpp:187 rc.cpp:191
+msgid ""
+"If the number of recipients is larger than this value, KMail Mobile will "
+"warn and ask for a confirmation before sending the mail. The warning can be "
+"turned off."
+msgstr ""
+
+#: rc.cpp:192
 #, kde-format
-msgid "Importing one email to %2"
-msgid_plural "Importing %1 emails to %2"
+msgid "<b>Access Control List for '%1'</b>"
+msgstr ""
+
+#: rc.cpp:193
+msgid "Save"
+msgstr ""
+
+#: rc.cpp:194 rc.cpp:197
+msgid "Cancel"
+msgstr ""
+
+#: rc.cpp:195 rc.cpp:255
+#, fuzzy, kde-format
+#| msgid "Folder"
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "फोल्डर"
+msgstr[1] "फोल्डर"
+
+#: rc.cpp:196
+msgid "Ok"
+msgstr ""
+
+#: rc.cpp:198
+msgid "Subject:"
+msgstr "विषय:"
+
+#: rc.cpp:199
+msgid "Message will be signed"
+msgstr ""
+
+#: rc.cpp:200
+msgid "Message will be encrypted"
+msgstr ""
+
+#: rc.cpp:201
+msgid "Identity:"
+msgstr ""
+
+#: rc.cpp:205
+#, kde-format
+msgctxt "This text is only visible if messages > 1"
+msgid "%2 messages, %1 unread"
+msgid_plural "%2 messages, %1 unread"
 msgstr[0] ""
 msgstr[1] ""
 
-#: emailsimporthandler.cpp:84
-msgid "MBox Import Failed"
-msgstr ""
+#: rc.cpp:207
+#, fuzzy, kde-format
+#| msgid "Forward"
+msgid "One message"
+msgid_plural "%1 messages"
+msgstr[0] "आगाँक तरफ"
+msgstr[1] "आगाँक तरफ"
 
-#: emailsimporthandler.cpp:86
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>When trying to read the MBox, there was an error opening the file "
-"<filename>%1</filename>:</para>"
-msgstr ""
+#: rc.cpp:208
+msgid "Home"
+msgstr "घर"
 
-#: emailsimporthandler.cpp:95
-msgid "No emails were imported, due to errors with the MBox."
-msgstr ""
-
-#: emailsimporthandler.cpp:97
-msgid "The MBox does not contain any emails."
-msgstr ""
-
-#: emailsexporthandler.cpp:30
-msgid "Which emails shall be exported?"
-msgstr ""
-
-#: emailsexporthandler.cpp:35
+#: rc.cpp:209
 #, fuzzy
-#| msgid "Email"
-msgid "All Emails"
+#| msgid "Select"
+msgid "Select Multiple Folders"
+msgstr "चुनू"
+
+#: rc.cpp:210
+msgid "Accounts"
+msgstr "खाता"
+
+#: rc.cpp:211
+#, fuzzy
+#| msgid "Folders"
+msgid "Filter"
+msgstr "फोल्डरसभ"
+
+#: rc.cpp:212
+msgid "Account"
+msgstr "खाता"
+
+#: rc.cpp:213
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: rc.cpp:214
+#, fuzzy
+#| msgid "Edit"
+msgid "Edit ACLs"
+msgstr "संपादन"
+
+#: rc.cpp:216 rc.cpp:220 rc.cpp:226
+msgid "View"
+msgstr "दृश्य"
+
+#: rc.cpp:217 rc.cpp:221
+msgid "Add View As Favorite"
+msgstr ""
+
+#: rc.cpp:218 rc.cpp:223
+msgid "Switch To Editing Mode"
+msgstr ""
+
+#: rc.cpp:219
+msgid "Folders"
+msgstr "फोल्डरसभ"
+
+#: rc.cpp:222
+#, fuzzy
+#| msgid "Select"
+msgid "Select Folders"
+msgstr "चुनू"
+
+#: rc.cpp:224
+msgid "Email"
 msgstr "इमेल"
 
-#: emailsexporthandler.cpp:40
-msgid "Emails in current folder"
+#: rc.cpp:225
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Mark Email As"
+msgstr "sangeeta09@gmail.com"
+
+#: rc.cpp:227
+msgid "Copy Email To Clipboard"
 msgstr ""
 
-#: emailsexporthandler.cpp:63
+#: rc.cpp:228
+msgid "Attachments"
+msgstr "संलग्नक"
+
+#: rc.cpp:229
+#, fuzzy
+#| msgid "Attachments"
+msgid "Save All Attachments"
+msgstr "संलग्नक"
+
+#: rc.cpp:232
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Search For Emails"
+msgstr "sangeeta09@gmail.com"
+
+#: rc.cpp:233
+msgid "Configure Mail"
+msgstr ""
+
+#: rc.cpp:234
+#, fuzzy
+#| msgid "Forward"
+msgid "Message"
+msgstr "आगाँक तरफ"
+
+#: rc.cpp:236
+#, fuzzy
+#| msgid "Actions"
+msgid "Options"
+msgstr "क्रियासभ"
+
+#: rc.cpp:238
+msgid "Security"
+msgstr ""
+
+#: rc.cpp:239
+msgid "Snippets"
+msgstr ""
+
+#: rc.cpp:241
+msgid "Configure Identity"
+msgstr ""
+
+#: rc.cpp:242
+msgid "Configure Transport"
+msgstr ""
+
+#: rc.cpp:248
+msgid "Reply to List"
+msgstr ""
+
+#: rc.cpp:252 rc.cpp:262
+msgid "Actions"
+msgstr "क्रियासभ"
+
+#: rc.cpp:256
 #, kde-format
-msgid "Unable to open MBox file %1"
-msgstr ""
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] ""
+msgstr[1] ""
 
-#: emailsexporthandler.cpp:72
+#: rc.cpp:257
 #, kde-format
-msgid "Unable to save emails to MBox file %1"
+msgid "1 thread"
+msgid_plural "%1 threads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: rc.cpp:258
+msgid "Select"
+msgstr "चुनू"
+
+#: rc.cpp:258
+msgid "Change Selection"
 msgstr ""
 
-#: charsetselectiondialog.cpp:38
-msgid "Auto"
+#: rc.cpp:259
+msgid "Write new Email"
 msgstr ""
 
-#: messagelistsettingscontroller.cpp:35
-msgid "Change Sorting/Grouping..."
+#: rc.cpp:260
+msgid "No messages in this folder"
+msgstr ""
+
+#: rc.cpp:261
+msgid "Back to Threads"
+msgstr ""
+
+#: rc.cpp:263
+#, fuzzy, kde-format
+#| msgid "Forward"
+msgid "One message found"
+msgid_plural "%1 messages found"
+msgstr[0] "आगाँक तरफ"
+msgstr[1] "आगाँक तरफ"
+
+#: rc.cpp:254
+#, kde-format
+msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 emails"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
 msgstr ""
 
 #, fuzzy

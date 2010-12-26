@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_notifications\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-18 02:18+0100\n"
+"POT-Creation-Date: 2010-12-26 02:55+0100\n"
 "PO-Revision-Date: 2010-09-24 16:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -44,6 +44,37 @@ msgid "%1 file, to: %2"
 msgid_plural "%1 files, to: %2"
 msgstr[0] ""
 msgstr[1] ""
+
+#: ui/notificationgroup.cpp:42
+msgid "Notifications"
+msgstr "सूचनासभ"
+
+#: ui/notificationgroup.cpp:50
+msgctxt "Show all  notifications"
+msgid "All"
+msgstr "सभ"
+
+#: ui/notificationgroup.cpp:92 ui/notificationwidget.cpp:325
+#, kde-format
+msgid "Notification from %1"
+msgstr "अधिसूचना %1"
+
+#: ui/jobtotalswidget.cpp:83
+msgctxt "Generic title for the job transfer popup"
+msgid "Jobs"
+msgstr ""
+
+#: ui/notifications.cpp:123
+msgid "No notifications and no jobs"
+msgstr "सूचना नहि आओर काज नहि"
+
+#: ui/notifications.cpp:211
+msgid "Information"
+msgstr "सूचना"
+
+#: ui/notifications.cpp:213
+msgid "Choose which information to show"
+msgstr ""
 
 #: ui/jobwidget.cpp:114 ui/jobwidget.cpp:419
 msgid "More"
@@ -102,28 +133,6 @@ msgstr[1] ""
 msgid "Less"
 msgstr "कम"
 
-#: ui/jobtotalswidget.cpp:83
-msgctxt "Generic title for the job transfer popup"
-msgid "Jobs"
-msgstr ""
-
-#: ui/notifications.cpp:123
-msgid "No notifications and no jobs"
-msgstr "सूचना नहि आओर काज नहि"
-
-#: ui/notifications.cpp:211
-msgid "Information"
-msgstr "सूचना"
-
-#: ui/notifications.cpp:213
-msgid "Choose which information to show"
-msgstr ""
-
-#: ui/notificationwidget.cpp:325 ui/notificationgroup.cpp:92
-#, kde-format
-msgid "Notification from %1"
-msgstr "अधिसूचना %1"
-
 #: ui/busywidget.cpp:274
 #, kde-format
 msgid "%1 running job"
@@ -159,15 +168,6 @@ msgstr ""
 #: ui/busywidget.cpp:303
 msgid "Notifications and jobs"
 msgstr ""
-
-#: ui/notificationgroup.cpp:42
-msgid "Notifications"
-msgstr "सूचनासभ"
-
-#: ui/notificationgroup.cpp:50
-msgctxt "Show all  notifications"
-msgid "All"
-msgstr "सभ"
 
 #. i18n: file: ui/notificationsconfig.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
