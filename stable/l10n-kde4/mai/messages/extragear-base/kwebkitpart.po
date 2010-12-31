@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwebkitpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-21 01:46+0200\n"
+"POT-Creation-Date: 2010-12-31 10:35+0100\n"
 "PO-Revision-Date: 2010-09-08 12:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -102,28 +102,51 @@ msgstr ""
 msgid "KDELauncher"
 msgstr ""
 
-#: src/settings/webkitsettings.cpp:167
-msgid "Accept"
-msgstr "स्वीकारू"
+#: src/kwebkitpart.cpp:66
+msgctxt "Program Name"
+msgid "KWebKitPart"
+msgstr ""
 
-#: src/settings/webkitsettings.cpp:168
-msgid "Reject"
-msgstr "अस्वीकृत करू"
+#: src/kwebkitpart.cpp:68
+msgctxt "Short Description"
+msgid "QtWebKit Browser Engine Component"
+msgstr ""
 
-#: src/settings/webkitsettings.cpp:852
-msgid "Filter error"
-msgstr "फ़िल्टर त्रुटि"
-
-#: src/ui/passwordbar.cpp:87
-#, kde-format
+#: src/kwebkitpart.cpp:70
 msgid ""
-"<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
+"(C) 2009-2010 Dawit Alemayehu\n"
+"(C) 2008-2010 Urs Wolfer\n"
+"(C) 2007 Trolltech ASA"
 msgstr ""
 
-#: src/ui/searchbar.cpp:65
-msgctxt "label for input line to find text"
-msgid "&Find:"
+#: src/kwebkitpart.cpp:74
+msgid "Urs Wolfer"
 msgstr ""
+
+#: src/kwebkitpart.cpp:74
+msgid "Maintainer, Developer"
+msgstr ""
+
+#: src/kwebkitpart.cpp:75
+msgid "Dawit Alemayehu"
+msgstr "दावित अलेमायेहू"
+
+#: src/kwebkitpart.cpp:75 src/kwebkitpart.cpp:76 src/kwebkitpart.cpp:77
+#: src/kwebkitpart.cpp:78
+msgid "Developer"
+msgstr "डेवलपर"
+
+#: src/kwebkitpart.cpp:76
+msgid "Michael Howell"
+msgstr ""
+
+#: src/kwebkitpart.cpp:77
+msgid "Laurent Montel"
+msgstr ""
+
+#: src/kwebkitpart.cpp:78
+msgid "Dirk Mueller"
+msgstr "डिर्क मुलर"
 
 #: src/kwebkitpart_p.cpp:162 src/webview.cpp:196
 msgid "Save &Frame As..."
@@ -233,87 +256,28 @@ msgstr ""
 msgid "&Close Wallet"
 msgstr "वैलट बन्न करू (&C)"
 
-#: src/webview.cpp:162
-msgctxt "@title:menu HTML frame/iframe"
-msgid "Frame"
-msgstr "फ्रेम "
+#: src/settings/webkitsettings.cpp:167
+msgid "Accept"
+msgstr "स्वीकारू"
 
-#: src/webview.cpp:164
-msgid "Open in New &Window"
-msgstr "नवीन विंडोमे खोलू (&W)"
+#: src/settings/webkitsettings.cpp:168
+msgid "Reject"
+msgstr "अस्वीकृत करू"
 
-#: src/webview.cpp:170
-msgid "Open in &This Window"
-msgstr "ई विंडो मे खोलू (&T)"
+#: src/settings/webkitsettings.cpp:852
+msgid "Filter error"
+msgstr "फ़िल्टर त्रुटि"
 
-#: src/webview.cpp:175
-msgid "Open in &New Tab"
-msgstr "नवीन टैब मे खोलू (&N)"
-
-#: src/webview.cpp:185
-msgid "Reload Frame"
-msgstr "फ्रेम फिनु लोड करू"
-
-#: src/webview.cpp:201
-msgid "View Frame Source"
-msgstr "फ्रेम स्रोत देखू"
-
-#: src/webview.cpp:220
-msgid "Save Image As..."
-msgstr "चित्र ई रूपेँ सहेजू..."
-
-#: src/webview.cpp:227
-msgid "Send Image..."
-msgstr "छवि भेजू..."
-
-#: src/webview.cpp:234
-msgid "Copy Image"
-msgstr "छवि नकल करू"
-
-#: src/webview.cpp:243
+#: src/ui/passwordbar.cpp:87
 #, kde-format
-msgid "View Image (%1)"
-msgstr "छवि ( %1) देखू"
-
-#: src/webview.cpp:271 src/webview.cpp:305
-msgid "&Copy Text"
-msgstr "पाठक नकल बनाबू (&C)"
-
-#: src/webview.cpp:282
-#, kde-format
-msgctxt "open selected url"
-msgid "Open '%1'"
-msgstr " '%1' खोलू"
-
-#: src/webview.cpp:312
-msgid "&Copy Email Address"
-msgstr "ई-मेल पता नकल करू (&C)"
-
-#: src/webview.cpp:319
-msgid "&Copy Link Address"
-msgstr "कड़ी क' पता नकल करू (&C)"
-
-#: src/webview.cpp:326
-msgid "&Save Link As..."
-msgstr "लिंक एहन सहेजू (&S)"
-
-#: src/webview.cpp:352
-#, kde-format
-msgctxt "Search \"search provider\" for \"text\""
-msgid "Search %1 for '%2'"
+msgid ""
+"<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
 msgstr ""
 
-#: src/webview.cpp:364 src/webview.cpp:424
-#, kde-format
-msgctxt "Search for \"text\" with"
-msgid "Search for '%1' with"
-msgstr "'%1' केँ ढूँढू एकरा सँग"
-
-#: src/webview.cpp:411
-#, kde-format
-msgctxt "Search for \"text\" with \"search provider\""
-msgid "Search for '%1' with %2"
-msgstr "'%1' केँ ढूँढू एकरा सँग %2"
+#: src/ui/searchbar.cpp:65
+msgctxt "label for input line to find text"
+msgid "&Find:"
+msgstr ""
 
 #: src/webpage.cpp:390
 #, kde-format
@@ -472,51 +436,87 @@ msgstr "संभावित कारण:"
 msgid "Possible Solutions:"
 msgstr "संभावित समाधानः"
 
-#: src/kwebkitpart.cpp:66
-msgctxt "Program Name"
-msgid "KWebKitPart"
+#: src/webview.cpp:162
+msgctxt "@title:menu HTML frame/iframe"
+msgid "Frame"
+msgstr "फ्रेम "
+
+#: src/webview.cpp:164
+msgid "Open in New &Window"
+msgstr "नवीन विंडोमे खोलू (&W)"
+
+#: src/webview.cpp:170
+msgid "Open in &This Window"
+msgstr "ई विंडो मे खोलू (&T)"
+
+#: src/webview.cpp:175
+msgid "Open in &New Tab"
+msgstr "नवीन टैब मे खोलू (&N)"
+
+#: src/webview.cpp:185
+msgid "Reload Frame"
+msgstr "फ्रेम फिनु लोड करू"
+
+#: src/webview.cpp:201
+msgid "View Frame Source"
+msgstr "फ्रेम स्रोत देखू"
+
+#: src/webview.cpp:220
+msgid "Save Image As..."
+msgstr "चित्र ई रूपेँ सहेजू..."
+
+#: src/webview.cpp:227
+msgid "Send Image..."
+msgstr "छवि भेजू..."
+
+#: src/webview.cpp:234
+msgid "Copy Image"
+msgstr "छवि नकल करू"
+
+#: src/webview.cpp:243
+#, kde-format
+msgid "View Image (%1)"
+msgstr "छवि ( %1) देखू"
+
+#: src/webview.cpp:271 src/webview.cpp:305
+msgid "&Copy Text"
+msgstr "पाठक नकल बनाबू (&C)"
+
+#: src/webview.cpp:282
+#, kde-format
+msgctxt "open selected url"
+msgid "Open '%1'"
+msgstr " '%1' खोलू"
+
+#: src/webview.cpp:312
+msgid "&Copy Email Address"
+msgstr "ई-मेल पता नकल करू (&C)"
+
+#: src/webview.cpp:319
+msgid "&Copy Link Address"
+msgstr "कड़ी क' पता नकल करू (&C)"
+
+#: src/webview.cpp:326
+msgid "&Save Link As..."
+msgstr "लिंक एहन सहेजू (&S)"
+
+#: src/webview.cpp:352
+#, kde-format
+msgctxt "Search \"search provider\" for \"text\""
+msgid "Search %1 for '%2'"
 msgstr ""
 
-#: src/kwebkitpart.cpp:68
-msgctxt "Short Description"
-msgid "QtWebKit Browser Engine Component"
-msgstr ""
+#: src/webview.cpp:364 src/webview.cpp:424
+#, kde-format
+msgctxt "Search for \"text\" with"
+msgid "Search for '%1' with"
+msgstr "'%1' केँ ढूँढू एकरा सँग"
 
-#: src/kwebkitpart.cpp:70
-msgid ""
-"(C) 2009-2010 Dawit Alemayehu\n"
-"(C) 2008-2010 Urs Wolfer\n"
-"(C) 2007 Trolltech ASA"
-msgstr ""
-
-#: src/kwebkitpart.cpp:74
-msgid "Urs Wolfer"
-msgstr ""
-
-#: src/kwebkitpart.cpp:74
-msgid "Maintainer, Developer"
-msgstr ""
-
-#: src/kwebkitpart.cpp:75
-msgid "Dawit Alemayehu"
-msgstr "दावित अलेमायेहू"
-
-#: src/kwebkitpart.cpp:75 src/kwebkitpart.cpp:76 src/kwebkitpart.cpp:77
-#: src/kwebkitpart.cpp:78
-msgid "Developer"
-msgstr "डेवलपर"
-
-#: src/kwebkitpart.cpp:76
-msgid "Michael Howell"
-msgstr ""
-
-#: src/kwebkitpart.cpp:77
-msgid "Laurent Montel"
-msgstr ""
-
-#: src/kwebkitpart.cpp:78
-msgid "Dirk Mueller"
-msgstr "डिर्क मुलर"
+#: src/webview.cpp:411
+#, kde-format
+msgctxt "Search for \"text\" with \"search provider\""
+msgid "Search for '%1' with %2"
+msgstr "'%1' केँ ढूँढू एकरा सँग %2"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -528,63 +528,69 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
+#. i18n: file: src/kwebkitpart.rc:26
+#. i18n: ectx: ToolBar (htmlToolBar)
+#: rc.cpp:5
+msgid "HTML Toolbar"
+msgstr "एचटीएमएल अओजार-पट्टी"
+
 #. i18n: file: src/ui/passwordbar.ui:29
 #. i18n: ectx: property (text), widget (QLabel, infoLabel)
-#: rc.cpp:5
+#: rc.cpp:8
 msgid "Do you want to store this password?"
 msgstr ""
 
 #. i18n: file: src/ui/passwordbar.ui:49
 #. i18n: ectx: property (text), widget (QToolButton, rememberButton)
-#: rc.cpp:8
+#: rc.cpp:11
 msgid "&Remember"
 msgstr "याद राखू (R)"
 
 #. i18n: file: src/ui/passwordbar.ui:59
 #. i18n: ectx: property (text), widget (QToolButton, notNowButton)
-#: rc.cpp:11
+#: rc.cpp:14
 msgid "&Not Now"
 msgstr "अखन नहि (N)"
 
 #. i18n: file: src/ui/passwordbar.ui:69
 #. i18n: ectx: property (text), widget (QToolButton, neverButton)
-#: rc.cpp:14
+#: rc.cpp:17
 msgid "Ne&ver for this site"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:23
 #. i18n: ectx: property (toolTip), widget (QToolButton, closeButton)
-#: rc.cpp:17
+#: rc.cpp:20
 msgid "Close the search bar"
 msgstr "खोज पट्टी बन्न करू"
 
 #. i18n: file: src/ui/searchbar.ui:26
 #. i18n: ectx: property (shortcut), widget (QToolButton, closeButton)
-#: rc.cpp:20
+#: rc.cpp:23
 msgid "Esc"
 msgstr "Esc"
 
 #. i18n: file: src/ui/searchbar.ui:36
 #. i18n: ectx: property (text), widget (QLabel, searchInfo)
-#: rc.cpp:23
+#: rc.cpp:26
 msgid "&Find:"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:46
 #. i18n: ectx: property (toolTip), widget (KLineEdit, searchLineEdit)
-#: rc.cpp:26
+#: rc.cpp:29
 msgid "Enter the text to search for here"
 msgstr "ढूंढल जाए बला पाठ एतय भरू"
 
 #. i18n: file: src/ui/searchbar.ui:56
 #. i18n: ectx: property (toolTip), widget (QToolButton, nextButton)
-#: rc.cpp:29
+#: rc.cpp:32
 msgid "Find the next match for the current search phrase"
 msgstr "वर्तमान मे ढूंढल जाए रहल वाक्यांश केर अगिला मिलान केँ ढूँढू"
 
 #. i18n: file: src/ui/searchbar.ui:59
 #. i18n: ectx: property (text), widget (QToolButton, nextButton)
-#: rc.cpp:32
+#: rc.cpp:35
 msgid "&Next"
 msgstr "आगाँ (&N)"
 
@@ -592,48 +598,42 @@ msgstr "आगाँ (&N)"
 #. i18n: ectx: property (toolTip), widget (QToolButton, previousButton)
 #. i18n: file: src/ui/searchbar.ui:76
 #. i18n: ectx: property (toolTip), widget (QToolButton, optionsButton)
-#: rc.cpp:35 rc.cpp:41
+#: rc.cpp:38 rc.cpp:44
 msgid "Find the previous match for the current search phrase"
 msgstr "वर्तमान मे ढूंढल जाएल रहल वाक्यांश केर पछिला मिलान केँ ढूंढू"
 
 #. i18n: file: src/ui/searchbar.ui:69
 #. i18n: ectx: property (text), widget (QToolButton, previousButton)
-#: rc.cpp:38
+#: rc.cpp:41
 msgid "&Previous"
 msgstr "पछिला (&P)"
 
 #. i18n: file: src/ui/searchbar.ui:79
 #. i18n: ectx: property (text), widget (QToolButton, optionsButton)
-#: rc.cpp:44
+#: rc.cpp:47
 msgid "&Options"
 msgstr "विकल्प (O)"
 
 #. i18n: file: src/ui/searchbar.ui:105
 #. i18n: ectx: property (text), item, widget (QToolButton, optionsButton)
-#: rc.cpp:47
+#: rc.cpp:50
 msgid "&Match Case"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:116
 #. i18n: ectx: property (text), item, widget (QToolButton, optionsButton)
-#: rc.cpp:50
+#: rc.cpp:53
 msgid "&Search As You Type"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:124
 #. i18n: ectx: property (text), item, widget (QToolButton, optionsButton)
-#: rc.cpp:53
+#: rc.cpp:56
 msgid "&Highlight All Matches"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:127
 #. i18n: ectx: property (toolTip), item, widget (QToolButton, optionsButton)
-#: rc.cpp:56
+#: rc.cpp:59
 msgid "Highlight Matches"
 msgstr ""
-
-#. i18n: file: src/kwebkitpart.rc:26
-#. i18n: ectx: ToolBar (htmlToolBar)
-#: rc.cpp:59
-msgid "HTML Toolbar"
-msgstr "एचटीएमएल अओजार-पट्टी"
