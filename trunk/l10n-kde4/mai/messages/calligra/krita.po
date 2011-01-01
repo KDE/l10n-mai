@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-29 03:05+0100\n"
+"POT-Creation-Date: 2011-01-01 02:56+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -9795,16 +9795,6 @@ msgstr ""
 msgid "Ellipse assistant"
 msgstr "दीर्घवृत्त"
 
-#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:35
-msgid "Perspective assistant"
-msgstr ""
-
-#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:234
-#, fuzzy
-#| msgid "Percentile:"
-msgid "Perspective"
-msgstr "प्रतिशतता:"
-
 #: plugins/assistants/RulerAssistant/SplineAssistant.cc:35
 msgid "Spline assistant"
 msgstr ""
@@ -9815,14 +9805,6 @@ msgstr ""
 msgid "Spline"
 msgstr "साइन"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:396
-msgid "Errors were encountered. Not all assistants were successfully loaded."
-msgstr ""
-
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:79
-msgid "Ruler assistant editor tool"
-msgstr ""
-
 #: plugins/assistants/RulerAssistant/RulerAssistant.cc:32
 msgid "Ruler assistant"
 msgstr ""
@@ -9832,6 +9814,25 @@ msgstr ""
 #| msgid "Regular"
 msgid "Ruler"
 msgstr "नियमित"
+
+#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:34
+msgid "Perspective assistant"
+msgstr ""
+
+#: plugins/assistants/RulerAssistant/PerspectiveAssistant.cc:295
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
+#, fuzzy
+#| msgid "Percentile:"
+msgid "Perspective"
+msgstr "प्रतिशतता:"
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:417
+msgid "Errors were encountered. Not all assistants were successfully loaded."
+msgstr ""
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:82
+msgid "Ruler assistant editor tool"
+msgstr ""
 
 #: plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:135
 #, fuzzy
@@ -11212,32 +11213,6 @@ msgstr "ब्रश"
 msgid "Color options"
 msgstr "विकल्प"
 
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:28
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:31
-msgid "0.0"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:29
-#: plugins/paintops/libpaintop/kis_curve_option.cpp:32
-msgid "1.0"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:95
-#, fuzzy
-#| msgid "Scales"
-msgid "Scale: "
-msgstr "मापक"
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:104
-#, fuzzy
-#| msgid "Rotation"
-msgid "Rotation: "
-msgstr "घुमाव"
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:110
-msgid "Spacing: "
-msgstr ""
-
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:36
 msgid "Fuzzy"
 msgstr ""
@@ -11256,6 +11231,32 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:45
 msgid "Y-Tilt"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:95
+#, fuzzy
+#| msgid "Scales"
+msgid "Scale: "
+msgstr "मापक"
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:104
+#, fuzzy
+#| msgid "Rotation"
+msgid "Rotation: "
+msgstr "घुमाव"
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:110
+msgid "Spacing: "
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:28
+#: plugins/paintops/libpaintop/kis_curve_option.cpp:31
+msgid "0.0"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:29
+#: plugins/paintops/libpaintop/kis_curve_option.cpp:32
+msgid "1.0"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_pressure_darken_option.cpp:27
@@ -11430,6 +11431,18 @@ msgstr ""
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:72
 msgid "30°"
 msgstr ""
+
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:77
+#, fuzzy
+#| msgid "Feather"
+msgid "Far"
+msgstr "पंख"
+
+#: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:78
+#, fuzzy
+#| msgid "Star"
+msgid "Near"
+msgstr "तारा"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:81
 msgid ""
@@ -13322,18 +13335,6 @@ msgstr "अग्रभूमि रँग"
 msgid "No options"
 msgstr "विकल्प"
 
-#: ui/tool/kis_tool_freehand.cc:89
-#, fuzzy
-#| msgid "Brushes"
-msgid "Increase Brush Size"
-msgstr "ब्रश"
-
-#: ui/tool/kis_tool_freehand.cc:94
-#, fuzzy
-#| msgid "Brushes"
-msgid "Decrease Brush Size"
-msgstr "ब्रश"
-
 #: ui/tool/kis_tool_polyline_base.cpp:37
 msgid "&Finish"
 msgstr ""
@@ -13347,6 +13348,18 @@ msgstr "चुनाव"
 #| msgid "Crop Image"
 msgid "Mirror: "
 msgstr "चित्र काटू"
+
+#: ui/tool/kis_tool_freehand.cc:90
+#, fuzzy
+#| msgid "Brushes"
+msgid "Increase Brush Size"
+msgstr "ब्रश"
+
+#: ui/tool/kis_tool_freehand.cc:95
+#, fuzzy
+#| msgid "Brushes"
+msgid "Decrease Brush Size"
+msgstr "ब्रश"
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
@@ -13699,9 +13712,6 @@ msgstr "%1%"
 #~| msgid "Polyline"
 #~ msgid "Polyline tool"
 #~ msgstr "पोलीलैन"
-
-#~ msgid "Feather"
-#~ msgstr "पंख"
 
 #~ msgid "Brush:"
 #~ msgstr "ब्रश:"
