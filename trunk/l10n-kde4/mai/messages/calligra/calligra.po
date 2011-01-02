@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-30 02:59+0100\n"
+"POT-Creation-Date: 2011-01-02 03:00+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -64,6 +64,7 @@ msgid "Paste Shapes"
 msgstr ""
 
 #: flake/KoToolBase.cpp:175 flake/KoToolManager.cpp:350
+#: main/KoToolDocker.cpp:205
 msgid "Tool Options"
 msgstr "अओजार विकल्प"
 
@@ -410,7 +411,7 @@ msgstr ""
 msgid "Script Manager"
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:299 main/KoMainWindow.cpp:592
+#: kokross/KoScriptManager.cpp:299 main/KoMainWindow.cpp:595
 msgid "Save"
 msgstr "सहेजू"
 
@@ -506,7 +507,7 @@ msgstr "तालाबन्न"
 msgid "Reparent shapes"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1687
+#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1700
 msgid "Document"
 msgstr "दस्तावेज"
 
@@ -625,99 +626,6 @@ msgid "Paste Page"
 msgid_plural "Paste Pages"
 msgstr[0] ""
 msgstr[1] ""
-
-#: kopageapp/KoPAView.cpp:239 main/KoToolBoxFactory.cpp:36
-msgid "Tools"
-msgstr "अओजार"
-
-#: kopageapp/KoPAView.cpp:276
-msgid "D&elete"
-msgstr "मेटाबू (&e)"
-
-#: kopageapp/KoPAView.cpp:287
-msgid "Snap to Grid"
-msgstr "ग्रिडमे स्नेप करू"
-
-#: kopageapp/KoPAView.cpp:297
-msgid "Show Master Pages"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:301
-msgid "Show Rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:303
-msgid "Show/hide the view's rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:307
-msgid "Insert Page"
-msgstr "पृष्ठ जोड़ू"
-
-#: kopageapp/KoPAView.cpp:309 kopageapp/KoPAView.cpp:310
-msgid "Insert a new page after the current one"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:313
-msgid "Copy Page"
-msgstr "कोपी करू पृष्ठ"
-
-#: kopageapp/KoPAView.cpp:315 kopageapp/KoPAView.cpp:316
-msgid "Copy the current page"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:319
-msgid "Delete Page"
-msgstr "पृष्ट मिटाउ"
-
-#: kopageapp/KoPAView.cpp:322 kopageapp/KoPAView.cpp:323
-msgid "Delete the current page"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:326
-msgid "Master Page..."
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:330
-msgid "Page Layout..."
-msgstr ""
-
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:63
-#. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:339 rc.cpp:317
-msgid "Variable"
-msgstr "परिवर्तनीय"
-
-#: kopageapp/KoPAView.cpp:344
-#, fuzzy
-#| msgid "Open Document"
-msgid "Import Document..."
-msgstr "दस्तावेज खोलू"
-
-#: kopageapp/KoPAView.cpp:348
-msgid "Configure..."
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:401
-msgid "Import Slideshow"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:404 main/KoMainWindow.cpp:1204
-msgid "Import Document"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:433 kopageapp/KoPAView.cpp:437
-#, kde-format
-msgid ""
-"Could not import\n"
-"%1"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:541
-#, fuzzy
-#| msgid "Change"
-msgid "Change page layout"
-msgstr "बदलू"
 
 #: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:35
 msgid "Change master slide"
@@ -851,6 +759,99 @@ msgstr ""
 #: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:93
 msgid "Change background image"
 msgstr ""
+
+#: kopageapp/KoPAView.cpp:239 main/KoToolBoxFactory.cpp:36
+msgid "Tools"
+msgstr "अओजार"
+
+#: kopageapp/KoPAView.cpp:276
+msgid "D&elete"
+msgstr "मेटाबू (&e)"
+
+#: kopageapp/KoPAView.cpp:287
+msgid "Snap to Grid"
+msgstr "ग्रिडमे स्नेप करू"
+
+#: kopageapp/KoPAView.cpp:297
+msgid "Show Master Pages"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:301
+msgid "Show Rulers"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:303
+msgid "Show/hide the view's rulers"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:307
+msgid "Insert Page"
+msgstr "पृष्ठ जोड़ू"
+
+#: kopageapp/KoPAView.cpp:309 kopageapp/KoPAView.cpp:310
+msgid "Insert a new page after the current one"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:313
+msgid "Copy Page"
+msgstr "कोपी करू पृष्ठ"
+
+#: kopageapp/KoPAView.cpp:315 kopageapp/KoPAView.cpp:316
+msgid "Copy the current page"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:319
+msgid "Delete Page"
+msgstr "पृष्ट मिटाउ"
+
+#: kopageapp/KoPAView.cpp:322 kopageapp/KoPAView.cpp:323
+msgid "Delete the current page"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:326
+msgid "Master Page..."
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:330
+msgid "Page Layout..."
+msgstr ""
+
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:63
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: kopageapp/KoPAView.cpp:339 rc.cpp:317
+msgid "Variable"
+msgstr "परिवर्तनीय"
+
+#: kopageapp/KoPAView.cpp:344
+#, fuzzy
+#| msgid "Open Document"
+msgid "Import Document..."
+msgstr "दस्तावेज खोलू"
+
+#: kopageapp/KoPAView.cpp:348
+msgid "Configure..."
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:401
+msgid "Import Slideshow"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:404 main/KoMainWindow.cpp:1211
+msgid "Import Document"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:433 kopageapp/KoPAView.cpp:437
+#, kde-format
+msgid ""
+"Could not import\n"
+"%1"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:541
+#, fuzzy
+#| msgid "Change"
+msgid "Change page layout"
+msgstr "बदलू"
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1359,6 +1360,18 @@ msgstr "प्रारूप"
 msgid "Default"
 msgstr "मूलभूत"
 
+#: kotext/commands/DeleteTableColumnCommand.cpp:39
+#, fuzzy
+#| msgid "Delete"
+msgid "Delete Column"
+msgstr "मेटाबू"
+
+#: kotext/commands/DeleteTableRowCommand.cpp:39
+#, fuzzy
+#| msgid "Delete"
+msgid "Delete Row"
+msgstr "मेटाबू"
+
 #: kotext/KoTextEditor.cpp:435 kotext/KoTextEditor.cpp:440
 msgid "Bold"
 msgstr "मोट"
@@ -1493,18 +1506,6 @@ msgstr ""
 msgid "Line Break"
 msgstr "खण्डन जोडू"
 
-#: kotext/commands/DeleteTableColumnCommand.cpp:39
-#, fuzzy
-#| msgid "Delete"
-msgid "Delete Column"
-msgstr "मेटाबू"
-
-#: kotext/commands/DeleteTableRowCommand.cpp:39
-#, fuzzy
-#| msgid "Delete"
-msgid "Delete Row"
-msgstr "मेटाबू"
-
 #: main/KoApplication.cpp:77
 msgid "Only print and exit"
 msgstr ""
@@ -1563,6 +1564,10 @@ msgstr ""
 #: main/KoApplicationAdaptor.cpp:50
 #, kde-format
 msgid "Unknown Calligra MimeType %1. Check your installation."
+msgstr ""
+
+#: main/KoDockerManager.cpp:68
+msgid "Tool Bars Docker"
 msgstr ""
 
 #: main/KoDocument.cpp:503
@@ -1634,7 +1639,7 @@ msgid ""
 "Do you want to open it instead?"
 msgstr ""
 
-#: main/KoDocument.cpp:1279 main/KoDocument.cpp:1546 main/KoMainWindow.cpp:635
+#: main/KoDocument.cpp:1279 main/KoDocument.cpp:1546 main/KoMainWindow.cpp:638
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
@@ -1752,12 +1757,12 @@ msgid ""
 "an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:1924 main/KoMainWindow.cpp:1132
+#: main/KoDocument.cpp:1924 main/KoMainWindow.cpp:1139
 #: pigment/resources/KoColorSet.cpp:214
 msgid "Untitled"
 msgstr "अनाम"
 
-#: main/KoDocument.cpp:1927 main/KoMainWindow.cpp:1135
+#: main/KoDocument.cpp:1927 main/KoMainWindow.cpp:1142
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -1824,7 +1829,7 @@ msgstr ""
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: main/KoDocumentInfoDlg.cpp:90 main/KoMainWindow.cpp:283
+#: main/KoDocumentInfoDlg.cpp:90 main/KoMainWindow.cpp:287
 msgid "Document Information"
 msgstr "दस्ताबेज जानकारी"
 
@@ -1923,7 +1928,7 @@ msgid ""
 "document now?</qt>"
 msgstr ""
 
-#: main/KoDocumentInfoDlg.cpp:489 main/KoMainWindow.cpp:757
+#: main/KoDocumentInfoDlg.cpp:489 main/KoMainWindow.cpp:760
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr ""
@@ -1970,7 +1975,7 @@ msgstr "हँ"
 msgid "No"
 msgstr "नहि"
 
-#: main/KoExistingDocumentPane.cpp:44 main/KoMainWindow.cpp:1202
+#: main/KoExistingDocumentPane.cpp:44 main/KoMainWindow.cpp:1209
 #: main/KoOpenPane.cpp:358 main/KoOpenPane.cpp:362
 msgid "Open Document"
 msgstr "दस्तावेज खोलू"
@@ -2026,149 +2031,149 @@ msgstr ""
 msgid "Shows or hides grid"
 msgstr ""
 
-#: main/KoMainWindow.cpp:154
+#: main/KoMainWindow.cpp:158
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:255
+#: main/KoMainWindow.cpp:259
 msgid "Export as PDF..."
 msgstr "PDF रूपेँ निर्यात करू..."
 
-#: main/KoMainWindow.cpp:265
+#: main/KoMainWindow.cpp:269
 msgid "Reload"
 msgstr "पुनः लोड करू"
 
-#: main/KoMainWindow.cpp:269
+#: main/KoMainWindow.cpp:273
 msgid "Versions..."
 msgstr "संस्करण..."
 
-#: main/KoMainWindow.cpp:273
+#: main/KoMainWindow.cpp:277
 msgid "I&mport..."
 msgstr "आयात... (&m)"
 
-#: main/KoMainWindow.cpp:277
+#: main/KoMainWindow.cpp:281
 msgid "E&xport..."
 msgstr ""
 
-#: main/KoMainWindow.cpp:308
+#: main/KoMainWindow.cpp:312
 msgid "&Close All Views"
 msgstr ""
 
-#: main/KoMainWindow.cpp:315
+#: main/KoMainWindow.cpp:319
 msgid "&Split View"
 msgstr ""
 
-#: main/KoMainWindow.cpp:320
+#: main/KoMainWindow.cpp:324
 msgid "&Remove View"
 msgstr ""
 
-#: main/KoMainWindow.cpp:326
+#: main/KoMainWindow.cpp:330
 msgid "Full Screen Mode"
 msgstr "पूर्ण स्क्रीन मोड"
 
-#: main/KoMainWindow.cpp:331
+#: main/KoMainWindow.cpp:335
 msgid "Splitter &Orientation"
 msgstr ""
 
-#: main/KoMainWindow.cpp:335
+#: main/KoMainWindow.cpp:339
 msgid "&Horizontal"
 msgstr ""
 
-#: main/KoMainWindow.cpp:335
+#: main/KoMainWindow.cpp:339
 msgid "&Vertical"
 msgstr ""
 
-#: main/KoMainWindow.cpp:343
+#: main/KoMainWindow.cpp:347
 #, fuzzy
 #| msgid "Show Guides"
 msgid "Show Dockers"
 msgstr "गाइड देखाबू"
 
-#: main/KoMainWindow.cpp:344
+#: main/KoMainWindow.cpp:348
 #, fuzzy
 #| msgid "Show Guides"
 msgid "Hide Dockers"
 msgstr "गाइड देखाबू"
 
-#: main/KoMainWindow.cpp:351
+#: main/KoMainWindow.cpp:355
 msgid "Dockers"
 msgstr ""
 
-#: main/KoMainWindow.cpp:586
+#: main/KoMainWindow.cpp:589
 msgid "(write protected)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:590
+#: main/KoMainWindow.cpp:593
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:765
+#: main/KoMainWindow.cpp:768
 #, kde-format
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
 "want to save in this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:768
+#: main/KoMainWindow.cpp:771
 msgid "Confirm Save"
 msgstr "सहेजनाइ संपुष्ट करू"
 
-#: main/KoMainWindow.cpp:777
+#: main/KoMainWindow.cpp:780
 #, kde-format
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
 "want to export to this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:780
+#: main/KoMainWindow.cpp:783
 msgid "Confirm Export"
 msgstr ""
 
-#: main/KoMainWindow.cpp:781
+#: main/KoMainWindow.cpp:784
 msgid "Export"
 msgstr "निर्यात"
 
-#: main/KoMainWindow.cpp:864
+#: main/KoMainWindow.cpp:867
 msgid "Save Document As"
 msgstr "दस्तावेज एहिना सहेजू"
 
-#: main/KoMainWindow.cpp:866
+#: main/KoMainWindow.cpp:869
 msgid "Export Document As"
 msgstr ""
 
-#: main/KoMainWindow.cpp:924 main/KoMainWindow.cpp:1337
+#: main/KoMainWindow.cpp:927 main/KoMainWindow.cpp:1344
 msgid ""
 "A document with this name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
 
-#: main/KoMainWindow.cpp:926 main/KoMainWindow.cpp:1339
-#: main/KoMainWindow.cpp:1727
+#: main/KoMainWindow.cpp:929 main/KoMainWindow.cpp:1346
+#: main/KoMainWindow.cpp:1740
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: main/KoMainWindow.cpp:1331
+#: main/KoMainWindow.cpp:1338
 msgid "Write PDF"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1621
+#: main/KoMainWindow.cpp:1632
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1623
+#: main/KoMainWindow.cpp:1634
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1695
+#: main/KoMainWindow.cpp:1708
 #, kde-format
 msgid "Document - %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1725
+#: main/KoMainWindow.cpp:1738
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
@@ -2341,6 +2346,14 @@ msgstr ""
 
 #: main/KoTemplatesPane.cpp:47
 msgid "Use This Template"
+msgstr ""
+
+#: main/KoToolDocker.cpp:232
+msgid "Toggles showing a title bar"
+msgstr ""
+
+#: main/KoToolDocker.cpp:241
+msgid "Toggles organising the options in tabs or not"
 msgstr ""
 
 #: main/KoVersionDialog.cpp:48
