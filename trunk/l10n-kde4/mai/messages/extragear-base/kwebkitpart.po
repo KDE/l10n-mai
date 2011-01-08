@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwebkitpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-01 02:25+0100\n"
+"POT-Creation-Date: 2011-01-08 02:30+0100\n"
 "PO-Revision-Date: 2010-09-08 12:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -242,16 +242,61 @@ msgstr "अस्वीकृत करू"
 msgid "Filter error"
 msgstr "फ़िल्टर त्रुटि"
 
-#: src/ui/passwordbar.cpp:87
+#: src/ui/searchbar.cpp:65
+msgctxt "label for input line to find text"
+msgid "&Find:"
+msgstr ""
+
+#: src/ui/passwordbar.cpp:85
 #, kde-format
 msgid ""
 "<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
 msgstr ""
 
-#: src/ui/searchbar.cpp:65
-msgctxt "label for input line to find text"
-msgid "&Find:"
+#: src/kwebkitpart.cpp:66
+msgctxt "Program Name"
+msgid "KWebKitPart"
 msgstr ""
+
+#: src/kwebkitpart.cpp:68
+msgctxt "Short Description"
+msgid "QtWebKit Browser Engine Component"
+msgstr ""
+
+#: src/kwebkitpart.cpp:70
+msgid ""
+"(C) 2009-2010 Dawit Alemayehu\n"
+"(C) 2008-2010 Urs Wolfer\n"
+"(C) 2007 Trolltech ASA"
+msgstr ""
+
+#: src/kwebkitpart.cpp:74
+msgid "Dawit Alemayehu"
+msgstr "दावित अलेमायेहू"
+
+#: src/kwebkitpart.cpp:74 src/kwebkitpart.cpp:75
+msgid "Maintainer, Developer"
+msgstr ""
+
+#: src/kwebkitpart.cpp:75
+msgid "Urs Wolfer"
+msgstr ""
+
+#: src/kwebkitpart.cpp:76
+msgid "Michael Howell"
+msgstr ""
+
+#: src/kwebkitpart.cpp:76 src/kwebkitpart.cpp:77 src/kwebkitpart.cpp:78
+msgid "Developer"
+msgstr "डेवलपर"
+
+#: src/kwebkitpart.cpp:77
+msgid "Laurent Montel"
+msgstr ""
+
+#: src/kwebkitpart.cpp:78
+msgid "Dirk Mueller"
+msgstr "डिर्क मुलर"
 
 #: src/webpage.cpp:249
 #, kde-format
@@ -325,32 +370,32 @@ msgstr "संभावित समाधानः"
 msgid "Choose files to upload"
 msgstr ""
 
-#: src/webpage.cpp:640
+#: src/webpage.cpp:611
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br/><b>%1</b>.<br/>Do you want to follow "
 "the link?</qt>"
 msgstr ""
 
-#: src/webpage.cpp:642
+#: src/webpage.cpp:613
 msgid "Security Warning"
 msgstr "सुरक्षा चेतावनी"
 
-#: src/webpage.cpp:643
+#: src/webpage.cpp:614
 msgctxt "follow link despite of security warning"
 msgid "Follow"
 msgstr "अनुसरण करू"
 
-#: src/webpage.cpp:645
+#: src/webpage.cpp:616
 msgid "Security Alert"
 msgstr "सुरक्षा चेतावनी"
 
-#: src/webpage.cpp:646
+#: src/webpage.cpp:617
 #, kde-format
 msgid "<qt>Access by untrusted page to<br/><b>%1</b><br/> denied.</qt>"
 msgstr ""
 
-#: src/webpage.cpp:674
+#: src/webpage.cpp:645
 msgid ""
 "Warning: This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -358,15 +403,15 @@ msgid ""
 "Are you sure you want to send the data unencrypted?"
 msgstr ""
 
-#: src/webpage.cpp:681 src/webpage.cpp:692
+#: src/webpage.cpp:652 src/webpage.cpp:663
 msgid "Network Transmission"
 msgstr "नेटवर्क ट्रांसमिशन"
 
-#: src/webpage.cpp:682
+#: src/webpage.cpp:653
 msgid "&Send Unencrypted"
 msgstr "अनएनक्रिप्टेड भेजू (&S)"
 
-#: src/webpage.cpp:689
+#: src/webpage.cpp:660
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -374,35 +419,35 @@ msgstr ""
 "ई साइट, इमेल केर द्वारा फ़ॉर्म डाटा पेश करबाक कोसिसमे अछि.\n"
 "की अहाँ एकरा जारी रखनाइ चाहैत छी?"
 
-#: src/webpage.cpp:693
+#: src/webpage.cpp:664
 msgid "&Send Email"
 msgstr "इमेल भेजू (&S)"
 
-#: src/webpage.cpp:740
+#: src/webpage.cpp:711
 msgid ""
 "<qt>Do you want to allow this site to attach the following files to the "
 "email message?</qt>"
 msgstr ""
 
-#: src/webpage.cpp:742
+#: src/webpage.cpp:713
 msgid "Email Attachment Confirmation"
 msgstr ""
 
-#: src/webpage.cpp:743
+#: src/webpage.cpp:714
 msgid "&Allow attachments"
 msgstr ""
 
-#: src/webpage.cpp:744
+#: src/webpage.cpp:715
 msgid "&Ignore attachments"
 msgstr ""
 
-#: src/webpage.cpp:756
+#: src/webpage.cpp:727
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: src/webpage.cpp:759
+#: src/webpage.cpp:730
 msgid "Attachment Removed"
 msgstr ""
 
@@ -493,51 +538,6 @@ msgctxt "Search for \"text\" with"
 msgid "Search for '%1' with"
 msgstr "'%1' केँ ढूँढू एकरा सँग"
 
-#: src/kwebkitpart.cpp:66
-msgctxt "Program Name"
-msgid "KWebKitPart"
-msgstr ""
-
-#: src/kwebkitpart.cpp:68
-msgctxt "Short Description"
-msgid "QtWebKit Browser Engine Component"
-msgstr ""
-
-#: src/kwebkitpart.cpp:70
-msgid ""
-"(C) 2009-2010 Dawit Alemayehu\n"
-"(C) 2008-2010 Urs Wolfer\n"
-"(C) 2007 Trolltech ASA"
-msgstr ""
-
-#: src/kwebkitpart.cpp:74
-msgid "Dawit Alemayehu"
-msgstr "दावित अलेमायेहू"
-
-#: src/kwebkitpart.cpp:74 src/kwebkitpart.cpp:75
-msgid "Maintainer, Developer"
-msgstr ""
-
-#: src/kwebkitpart.cpp:75
-msgid "Urs Wolfer"
-msgstr ""
-
-#: src/kwebkitpart.cpp:76
-msgid "Michael Howell"
-msgstr ""
-
-#: src/kwebkitpart.cpp:76 src/kwebkitpart.cpp:77 src/kwebkitpart.cpp:78
-msgid "Developer"
-msgstr "डेवलपर"
-
-#: src/kwebkitpart.cpp:77
-msgid "Laurent Montel"
-msgstr ""
-
-#: src/kwebkitpart.cpp:78
-msgid "Dirk Mueller"
-msgstr "डिर्क मुलर"
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -554,63 +554,39 @@ msgstr "sangeeta09@gmail.com"
 msgid "HTML Toolbar"
 msgstr "एचटीएमएल अओजार-पट्टी"
 
-#. i18n: file: src/ui/passwordbar.ui:29
-#. i18n: ectx: property (text), widget (QLabel, infoLabel)
-#: rc.cpp:8
-msgid "Do you want to store this password?"
-msgstr ""
-
-#. i18n: file: src/ui/passwordbar.ui:49
-#. i18n: ectx: property (text), widget (QToolButton, rememberButton)
-#: rc.cpp:11
-msgid "&Remember"
-msgstr "याद राखू (R)"
-
-#. i18n: file: src/ui/passwordbar.ui:59
-#. i18n: ectx: property (text), widget (QToolButton, notNowButton)
-#: rc.cpp:14
-msgid "&Not Now"
-msgstr "अखन नहि (N)"
-
-#. i18n: file: src/ui/passwordbar.ui:69
-#. i18n: ectx: property (text), widget (QToolButton, neverButton)
-#: rc.cpp:17
-msgid "Ne&ver for this site"
-msgstr ""
-
 #. i18n: file: src/ui/searchbar.ui:23
 #. i18n: ectx: property (toolTip), widget (QToolButton, closeButton)
-#: rc.cpp:20
+#: rc.cpp:8
 msgid "Close the search bar"
 msgstr "खोज पट्टी बन्न करू"
 
 #. i18n: file: src/ui/searchbar.ui:26
 #. i18n: ectx: property (shortcut), widget (QToolButton, closeButton)
-#: rc.cpp:23
+#: rc.cpp:11
 msgid "Esc"
 msgstr "Esc"
 
 #. i18n: file: src/ui/searchbar.ui:36
 #. i18n: ectx: property (text), widget (QLabel, searchInfo)
-#: rc.cpp:26
+#: rc.cpp:14
 msgid "&Find:"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:46
 #. i18n: ectx: property (toolTip), widget (KLineEdit, searchLineEdit)
-#: rc.cpp:29
+#: rc.cpp:17
 msgid "Enter the text to search for here"
 msgstr "ढूंढल जाए बला पाठ एतय भरू"
 
 #. i18n: file: src/ui/searchbar.ui:56
 #. i18n: ectx: property (toolTip), widget (QToolButton, nextButton)
-#: rc.cpp:32
+#: rc.cpp:20
 msgid "Find the next match for the current search phrase"
 msgstr "वर्तमान मे ढूंढल जाए रहल वाक्यांश केर अगिला मिलान केँ ढूँढू"
 
 #. i18n: file: src/ui/searchbar.ui:59
 #. i18n: ectx: property (text), widget (QToolButton, nextButton)
-#: rc.cpp:35
+#: rc.cpp:23
 msgid "&Next"
 msgstr "आगाँ (&N)"
 
@@ -618,45 +594,69 @@ msgstr "आगाँ (&N)"
 #. i18n: ectx: property (toolTip), widget (QToolButton, previousButton)
 #. i18n: file: src/ui/searchbar.ui:76
 #. i18n: ectx: property (toolTip), widget (QToolButton, optionsButton)
-#: rc.cpp:38 rc.cpp:44
+#: rc.cpp:26 rc.cpp:32
 msgid "Find the previous match for the current search phrase"
 msgstr "वर्तमान मे ढूंढल जाएल रहल वाक्यांश केर पछिला मिलान केँ ढूंढू"
 
 #. i18n: file: src/ui/searchbar.ui:69
 #. i18n: ectx: property (text), widget (QToolButton, previousButton)
-#: rc.cpp:41
+#: rc.cpp:29
 msgid "&Previous"
 msgstr "पछिला (&P)"
 
 #. i18n: file: src/ui/searchbar.ui:79
 #. i18n: ectx: property (text), widget (QToolButton, optionsButton)
-#: rc.cpp:47
+#: rc.cpp:35
 msgid "&Options"
 msgstr "विकल्प (O)"
 
 #. i18n: file: src/ui/searchbar.ui:105
 #. i18n: ectx: property (text), item, widget (QToolButton, optionsButton)
-#: rc.cpp:50
+#: rc.cpp:38
 msgid "&Match Case"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:116
 #. i18n: ectx: property (text), item, widget (QToolButton, optionsButton)
-#: rc.cpp:53
+#: rc.cpp:41
 msgid "&Search As You Type"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:124
 #. i18n: ectx: property (text), item, widget (QToolButton, optionsButton)
-#: rc.cpp:56
+#: rc.cpp:44
 msgid "&Highlight All Matches"
 msgstr ""
 
 #. i18n: file: src/ui/searchbar.ui:127
 #. i18n: ectx: property (toolTip), item, widget (QToolButton, optionsButton)
-#: rc.cpp:59
+#: rc.cpp:47
 msgid "Highlight Matches"
 msgstr ""
+
+#. i18n: file: src/ui/passwordbar.ui:29
+#. i18n: ectx: property (text), widget (QLabel, infoLabel)
+#: rc.cpp:50
+msgid "Do you want to store this password?"
+msgstr ""
+
+#. i18n: file: src/ui/passwordbar.ui:49
+#. i18n: ectx: property (text), widget (QToolButton, rememberButton)
+#: rc.cpp:53
+msgid "&Remember"
+msgstr "याद राखू (R)"
+
+#. i18n: file: src/ui/passwordbar.ui:59
+#. i18n: ectx: property (text), widget (QToolButton, neverButton)
+#: rc.cpp:56
+msgid "Ne&ver for this site"
+msgstr ""
+
+#. i18n: file: src/ui/passwordbar.ui:69
+#. i18n: ectx: property (text), widget (QToolButton, notNowButton)
+#: rc.cpp:59
+msgid "&Not Now"
+msgstr "अखन नहि (N)"
 
 #~ msgctxt "Search for \"text\" with \"search provider\""
 #~ msgid "Search for '%1' with %2"
