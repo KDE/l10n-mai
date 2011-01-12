@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-10 02:34+0100\n"
+"POT-Creation-Date: 2011-01-12 02:35+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -77,6 +77,146 @@ msgstr "प्ले काउंट"
 
 #: TrayIcon.cpp:183
 msgid "Last played"
+msgstr ""
+
+#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: App.cpp:112 rc.cpp:516 MainWindow.cpp:108
+msgid "Amarok"
+msgstr ""
+
+#: App.cpp:113
+msgid "The audio player for KDE"
+msgstr ""
+
+#: App.cpp:114
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2011, The Amarok Development Squad"
+msgstr ""
+
+#: App.cpp:115
+#, kde-format
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org\n"
+"\n"
+"(Build Date: %1)"
+msgstr ""
+
+#: App.cpp:439
+msgid "Files/URLs to open"
+msgstr ""
+
+#: App.cpp:440
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:442
+msgid "Skip backwards in playlist"
+msgstr ""
+
+#: App.cpp:444
+msgid "Start playing current playlist"
+msgstr ""
+
+#: App.cpp:446
+msgid "Play if stopped, pause if playing"
+msgstr ""
+
+#: App.cpp:447
+msgid "Pause playback"
+msgstr ""
+
+#: App.cpp:449
+msgid "Stop playback"
+msgstr ""
+
+#: App.cpp:451
+msgid "Skip forwards in playlist"
+msgstr ""
+
+#: App.cpp:452
+msgid "Additional options:"
+msgstr ""
+
+#: App.cpp:454
+msgid "Append files/URLs to playlist"
+msgstr ""
+
+#: App.cpp:455
+msgid "Queue URLs after the currently playing track"
+msgstr ""
+
+#: App.cpp:457
+msgid "Load URLs, replacing current playlist"
+msgstr ""
+
+#: App.cpp:459
+msgid "Print verbose debugging information"
+msgstr ""
+
+#: App.cpp:461
+msgid "Disable colorization for debug output."
+msgstr ""
+
+#: App.cpp:463
+msgid "Allow running multiple Amarok instances"
+msgstr ""
+
+#: App.cpp:464
+msgid "Base for relative filenames/URLs"
+msgstr ""
+
+#: App.cpp:466
+msgid "Unit test options:"
+msgstr ""
+
+#: App.cpp:467
+msgid "Run integrated unit tests"
+msgstr ""
+
+#: App.cpp:468
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr ""
+
+#: App.cpp:469
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr ""
+
+#: App.cpp:470
+msgid "Verbosity from 0-3 (highest)"
+msgstr ""
+
+#: App.cpp:710
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:711
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+
+#: App.cpp:712
+msgid "Database Error"
+msgstr ""
+
+#: App.cpp:760
+msgid "Moving files to trash"
+msgstr ""
+
+#: App.cpp:848
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
 msgstr ""
 
 #: rc.cpp:1
@@ -1094,12 +1234,6 @@ msgstr "कलाकार"
 msgid "Title"
 msgstr "शीर्षक"
 
-#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: rc.cpp:516 App.cpp:112 MainWindow.cpp:108
-msgid "Amarok"
-msgstr ""
-
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:519
@@ -1700,7 +1834,7 @@ msgstr ""
 
 #. i18n: file: dialogs/MusicBrainzTagger.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
-#: rc.cpp:856 dialogs/TagDialog.cpp:1901
+#: rc.cpp:856 dialogs/TagDialog.cpp:1908
 msgid "MusicBrainz Tagger"
 msgstr ""
 
@@ -2298,13 +2432,13 @@ msgstr ""
 
 #. i18n: file: dialogs/TagDialogBase.ui:654
 #. i18n: ectx: property (text), widget (QLabel, scoreLabel)
-#: rc.cpp:1151 dialogs/TagDialog.cpp:1082
+#: rc.cpp:1151 dialogs/TagDialog.cpp:1080
 msgid "Score:"
 msgstr "अंक:"
 
 #. i18n: file: dialogs/TagDialogBase.ui:686
 #. i18n: ectx: property (text), widget (QLabel, ratingLabel)
-#: rc.cpp:1154 dialogs/TagDialog.cpp:1084
+#: rc.cpp:1154 dialogs/TagDialog.cpp:1082
 msgid "Rating:"
 msgstr "रेटिंग:"
 
@@ -4830,140 +4964,6 @@ msgstr ""
 msgid "Verbose"
 msgstr "वरबोज"
 
-#: App.cpp:113
-msgid "The audio player for KDE"
-msgstr ""
-
-#: App.cpp:114
-msgid ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2010, The Amarok Development Squad"
-msgstr ""
-
-#: App.cpp:115
-#, kde-format
-msgid ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Feedback:\n"
-"amarok@kde.org\n"
-"\n"
-"(Build Date: %1)"
-msgstr ""
-
-#: App.cpp:439
-msgid "Files/URLs to open"
-msgstr ""
-
-#: App.cpp:440
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:442
-msgid "Skip backwards in playlist"
-msgstr ""
-
-#: App.cpp:444
-msgid "Start playing current playlist"
-msgstr ""
-
-#: App.cpp:446
-msgid "Play if stopped, pause if playing"
-msgstr ""
-
-#: App.cpp:447
-msgid "Pause playback"
-msgstr ""
-
-#: App.cpp:449
-msgid "Stop playback"
-msgstr ""
-
-#: App.cpp:451
-msgid "Skip forwards in playlist"
-msgstr ""
-
-#: App.cpp:452
-msgid "Additional options:"
-msgstr ""
-
-#: App.cpp:454
-msgid "Append files/URLs to playlist"
-msgstr ""
-
-#: App.cpp:455
-msgid "Queue URLs after the currently playing track"
-msgstr ""
-
-#: App.cpp:457
-msgid "Load URLs, replacing current playlist"
-msgstr ""
-
-#: App.cpp:459
-msgid "Print verbose debugging information"
-msgstr ""
-
-#: App.cpp:461
-msgid "Disable colorization for debug output."
-msgstr ""
-
-#: App.cpp:463
-msgid "Allow running multiple Amarok instances"
-msgstr ""
-
-#: App.cpp:464
-msgid "Base for relative filenames/URLs"
-msgstr ""
-
-#: App.cpp:466
-msgid "Unit test options:"
-msgstr ""
-
-#: App.cpp:467
-msgid "Run integrated unit tests"
-msgstr ""
-
-#: App.cpp:468
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr ""
-
-#: App.cpp:469
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr ""
-
-#: App.cpp:470
-msgid "Verbosity from 0-3 (highest)"
-msgstr ""
-
-#: App.cpp:710
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:711
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-
-#: App.cpp:712
-msgid "Database Error"
-msgstr ""
-
-#: App.cpp:760
-msgid "Moving files to trash"
-msgstr ""
-
-#: App.cpp:848
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
-
 #: MainWindow.cpp:274
 msgid "Local Music"
 msgstr ""
@@ -6176,10 +6176,6 @@ msgstr ""
 msgid "Click For Location Navigation"
 msgstr ""
 
-#: browsers/BrowserCategoryList.cpp:48
-msgid "Filter Music Sources"
-msgstr ""
-
 #: browsers/BrowserBreadcrumbItem.cpp:69
 msgid "Media Sources Home"
 msgstr ""
@@ -6261,6 +6257,10 @@ msgstr ""
 
 #: browsers/CollectionTreeView.cpp:1079
 msgid "Delete Tracks"
+msgstr ""
+
+#: browsers/BrowserCategoryList.cpp:48
+msgid "Filter Music Sources"
 msgstr ""
 
 #: configdialog/ConfigDialog.cpp:54
@@ -10069,139 +10069,6 @@ msgstr ""
 msgid "New Preset"
 msgstr ""
 
-#: dialogs/TagDialog.cpp:605
-msgid "Filename Layout Chooser"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:718
-msgid "Tags"
-msgstr "टैगसभ"
-
-#: dialogs/TagDialog.cpp:720
-msgid "Statistics"
-msgstr "सांख्यिकी"
-
-#: dialogs/TagDialog.cpp:866
-msgctxt "The value for this tag is not known"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: dialogs/TagDialog.cpp:925
-msgid "Tracks by this Artist"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:933
-msgid "Albums by this Artist"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:992
-#, kde-format
-msgid "Track Details: %1 by %2"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1016 dialogs/TagDialog.cpp:1026
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1024
-#, kde-format
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1028
-#, kde-format
-msgid "<b>%1</b>"
-msgstr "<b>%1</b>"
-
-#: dialogs/TagDialog.cpp:1075
-msgid "Length:"
-msgstr "नमाइः "
-
-#: dialogs/TagDialog.cpp:1076
-msgid "Bit rate:"
-msgstr "बिट रेटः"
-
-#: dialogs/TagDialog.cpp:1077
-msgid "Sample rate:"
-msgstr "नमूना दरः"
-
-#: dialogs/TagDialog.cpp:1078
-msgid "Size:"
-msgstr "आकार:"
-
-#: dialogs/TagDialog.cpp:1079
-msgid "Format:"
-msgstr "प्रारूप:"
-
-#: dialogs/TagDialog.cpp:1086
-msgid "Play Count:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1089
-msgid "First Played:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1090
-msgctxt "When this track was first played"
-msgid "Never"
-msgstr "कहियो नहि"
-
-#: dialogs/TagDialog.cpp:1091
-msgctxt "a single item (singular)"
-msgid "Last Played:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1092
-msgctxt "When this track was last played"
-msgid "Never"
-msgstr "कहियो नहि"
-
-#: dialogs/TagDialog.cpp:1096
-msgid "Collection:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1098
-msgctxt "The collection this track is part of"
-msgid "None"
-msgstr "किछु नहि"
-
-#: dialogs/TagDialog.cpp:1230
-#, kde-format
-msgctxt "The amount of tracks being edited"
-msgid "1 Track"
-msgid_plural "Information for %1 Tracks"
-msgstr[0] ""
-msgstr[1] ""
-
-#: dialogs/TagDialog.cpp:1370
-#, kde-format
-msgid "Editing 1 file"
-msgid_plural "Editing %1 files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: dialogs/TagDialog.cpp:1375
-msgid "Rated Songs:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1377
-msgid "Average Rating:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1379
-msgid "Scored Songs:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1381
-msgid "Average Score:"
-msgstr ""
-
-#: dialogs/TagDialog.cpp:1713
-msgid ""
-"Writing to file failed. Please check permissions and available disc space."
-msgstr ""
-
 #: dialogs/FilenameLayoutDialog.cpp:122
 msgid "Collection root"
 msgstr ""
@@ -10278,6 +10145,139 @@ msgstr ""
 #: dialogs/FilenameLayoutDialog.cpp:637
 msgid "Folder"
 msgstr "फोल्डर"
+
+#: dialogs/TagDialog.cpp:605
+msgid "Filename Layout Chooser"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:718
+msgid "Tags"
+msgstr "टैगसभ"
+
+#: dialogs/TagDialog.cpp:720
+msgid "Statistics"
+msgstr "सांख्यिकी"
+
+#: dialogs/TagDialog.cpp:866
+msgctxt "The value for this tag is not known"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: dialogs/TagDialog.cpp:925
+msgid "Tracks by this Artist"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:933
+msgid "Albums by this Artist"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:990
+#, kde-format
+msgid "Track Details: %1 by %2"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1014 dialogs/TagDialog.cpp:1024
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1022
+#, kde-format
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1026
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: dialogs/TagDialog.cpp:1073
+msgid "Length:"
+msgstr "नमाइः "
+
+#: dialogs/TagDialog.cpp:1074
+msgid "Bit rate:"
+msgstr "बिट रेटः"
+
+#: dialogs/TagDialog.cpp:1075
+msgid "Sample rate:"
+msgstr "नमूना दरः"
+
+#: dialogs/TagDialog.cpp:1076
+msgid "Size:"
+msgstr "आकार:"
+
+#: dialogs/TagDialog.cpp:1077
+msgid "Format:"
+msgstr "प्रारूप:"
+
+#: dialogs/TagDialog.cpp:1084
+msgid "Play Count:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1087
+msgid "First Played:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1088
+msgctxt "When this track was first played"
+msgid "Never"
+msgstr "कहियो नहि"
+
+#: dialogs/TagDialog.cpp:1089
+msgctxt "a single item (singular)"
+msgid "Last Played:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1090
+msgctxt "When this track was last played"
+msgid "Never"
+msgstr "कहियो नहि"
+
+#: dialogs/TagDialog.cpp:1094
+msgid "Collection:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1096
+msgctxt "The collection this track is part of"
+msgid "None"
+msgstr "किछु नहि"
+
+#: dialogs/TagDialog.cpp:1185
+#, kde-format
+msgctxt "The amount of tracks being edited"
+msgid "1 Track"
+msgid_plural "Information for %1 Tracks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/TagDialog.cpp:1325
+#, kde-format
+msgid "Editing 1 file"
+msgid_plural "Editing %1 files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dialogs/TagDialog.cpp:1330
+msgid "Rated Songs:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1332
+msgid "Average Rating:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1334
+msgid "Scored Songs:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1336
+msgid "Average Score:"
+msgstr ""
+
+#: dialogs/TagDialog.cpp:1720
+msgid ""
+"Writing to file failed. Please check permissions and available disc space."
+msgstr ""
 
 #: dynamic/biases/EchoNest.cpp:50
 msgid "Echo Nest Similar Artists"
@@ -13666,48 +13666,60 @@ msgstr ""
 msgid "Loads of stuff"
 msgstr ""
 
-#: main.cpp:214
-msgid "Benoît AlK Zugmeyer"
+#: main.cpp:212
+msgid "Tomasz Dudzik"
 msgstr ""
 
-#: main.cpp:215
-msgid "Dr. Tilmann Bubeck"
+#: main.cpp:212
+msgid "Splash screen"
 msgstr ""
 
 #: main.cpp:216
-msgid "Edward Karavakis"
+msgid "Benoît AlK Zugmeyer"
 msgstr ""
 
 #: main.cpp:217
-msgid "Hekkro"
+msgid "Dr. Tilmann Bubeck"
 msgstr ""
 
 #: main.cpp:218
-msgid "Maik Keller"
+msgid "Edward Karavakis"
 msgstr ""
 
 #: main.cpp:219
-msgid "Nathan Caza"
+msgid "Hekkro"
 msgstr ""
 
 #: main.cpp:220
-msgid "Paul Erntges"
+msgid "Maik Keller"
 msgstr ""
 
 #: main.cpp:221
-msgid "Robert Štětka"
+msgid "Nathan Caza"
 msgstr ""
 
 #: main.cpp:222
-msgid "Robert Tell"
+msgid "Paul Erntges"
 msgstr ""
 
 #: main.cpp:223
-msgid "Ryan Rix"
+msgid "Robert Štětka"
 msgstr ""
 
 #: main.cpp:224
+msgid "Robert Tell"
+msgstr ""
+
+#: main.cpp:225
+msgid "Ryan Rix"
+msgstr ""
+
+#: main.cpp:226
 msgid "Thomas Kahle"
+msgstr ""
+
+#: main.cpp:227
+msgid "Valentin V. Bartenev"
 msgstr ""
 
 #~ msgid "Zoom Out"
