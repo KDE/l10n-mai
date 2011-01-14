@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-12 03:05+0100\n"
+"POT-Creation-Date: 2011-01-14 03:02+0100\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -98,11 +98,11 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, bDelete)
 #: commands/ChangeTrackedDeleteCommand.cpp:76
 #: commands/ChangeTrackedDeleteCommand.cpp:288 commands/DeleteCommand.cpp:43
-#: TextTool.cpp:1992 rc.cpp:308
+#: TextTool.cpp:1997 rc.cpp:308
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: commands/ChangeTrackedDeleteCommand.cpp:182 TextTool.cpp:1987
+#: commands/ChangeTrackedDeleteCommand.cpp:182 TextTool.cpp:1992
 msgid "Key Press"
 msgstr ""
 
@@ -266,6 +266,21 @@ msgstr "अनुच्छेद स्टाइल"
 msgid "Insert a table"
 msgstr "जोडू"
 
+#: dialogs/SimpleParagraphWidget.cpp:129
+msgctxt "Short for LeftToRight"
+msgid "LTR"
+msgstr "LTR"
+
+#: dialogs/SimpleParagraphWidget.cpp:132
+msgctxt "Short for RightToLeft"
+msgid "RTL"
+msgstr "RTL"
+
+#: dialogs/SimpleParagraphWidget.cpp:136
+msgctxt "Automatic direction detection"
+msgid "Auto"
+msgstr "स्वचालित"
+
 #: dialogs/StyleManagerDialog.cpp:29
 msgid "Style Manager"
 msgstr ""
@@ -319,21 +334,6 @@ msgstr ""
 #| msgid "Insert"
 msgid "Insert Table"
 msgstr "जोडू"
-
-#: dialogs/SimpleParagraphWidget.cpp:124
-msgctxt "Short for LeftToRight"
-msgid "LTR"
-msgstr "LTR"
-
-#: dialogs/SimpleParagraphWidget.cpp:127
-msgctxt "Short for RightToLeft"
-msgid "RTL"
-msgstr "RTL"
-
-#: dialogs/SimpleParagraphWidget.cpp:131
-msgctxt "Automatic direction detection"
-msgid "Auto"
-msgstr "स्वचालित"
 
 #: ListItemsHelper.cpp:179
 msgctxt "Text list-style"
@@ -736,33 +736,33 @@ msgstr "मेटाबू"
 msgid "Formatting"
 msgstr ""
 
-#: TextTool.cpp:1622
+#: TextTool.cpp:1627
 #, fuzzy
 #| msgid "Character style"
 msgid "Character"
 msgstr "संप्रतीक शैली"
 
-#: TextTool.cpp:1623
+#: TextTool.cpp:1628
 #, fuzzy
 #| msgid "Paragraph style"
 msgid "Paragraph"
 msgstr "अनुच्छेद स्टाइल"
 
-#: TextTool.cpp:1624
+#: TextTool.cpp:1629
 msgid "Styles"
 msgstr "शैलीसभ"
 
-#: TextTool.cpp:1625
+#: TextTool.cpp:1630
 #, fuzzy
 #| msgid "Tamil"
 msgid "Table"
 msgstr "तमिल"
 
-#: TextTool.cpp:1987 TextTool.cpp:1992
+#: TextTool.cpp:1992 TextTool.cpp:1997
 msgid "Autocorrection"
 msgstr ""
 
-#: TextTool.cpp:2266
+#: TextTool.cpp:2271
 #, kde-format
 msgid ""
 "This link points to the program or script '%1'.\n"
@@ -770,7 +770,7 @@ msgid ""
 "this program?"
 msgstr ""
 
-#: TextTool.cpp:2271
+#: TextTool.cpp:2276
 msgid "Open Link?"
 msgstr ""
 
@@ -830,11 +830,11 @@ msgstr "पृष्ठभूमि रंग"
 #. i18n: ectx: property (text), widget (QToolButton, customCharacter)
 #. i18n: file: dialogs/ParagraphDecorations.ui:55
 #. i18n: ectx: property (text), widget (QToolButton, resetBackgroundColor)
-#. i18n: file: dialogs/StylesWidget.ui:26
+#. i18n: file: dialogs/StylesWidget.ui:23
 #. i18n: ectx: property (text), widget (QToolButton, applyStyle)
-#. i18n: file: dialogs/StylesWidget.ui:36
+#. i18n: file: dialogs/StylesWidget.ui:33
 #. i18n: ectx: property (text), widget (QToolButton, modifyStyle)
-#. i18n: file: dialogs/StylesWidget.ui:59
+#. i18n: file: dialogs/StylesWidget.ui:56
 #. i18n: ectx: property (text), widget (QToolButton, newStyle)
 #. i18n: file: dialogs/StylesWidget.ui:66
 #. i18n: ectx: property (text), widget (QToolButton, deleteStyle)
@@ -1321,19 +1321,19 @@ msgid ""
 "Use the Styles docker to apply styles to text.</p></body></html>"
 msgstr ""
 
-#. i18n: file: dialogs/StylesWidget.ui:23
+#. i18n: file: dialogs/StylesWidget.ui:20
 #. i18n: ectx: property (toolTip), widget (QToolButton, applyStyle)
 #: rc.cpp:319
 msgid "Apply selected style to text"
 msgstr ""
 
-#. i18n: file: dialogs/StylesWidget.ui:33
+#. i18n: file: dialogs/StylesWidget.ui:30
 #. i18n: ectx: property (toolTip), widget (QToolButton, modifyStyle)
 #: rc.cpp:325
 msgid "Show properties"
 msgstr ""
 
-#. i18n: file: dialogs/StylesWidget.ui:56
+#. i18n: file: dialogs/StylesWidget.ui:53
 #. i18n: ectx: property (toolTip), widget (QToolButton, newStyle)
 #: rc.cpp:331
 msgid "Add a new style"
