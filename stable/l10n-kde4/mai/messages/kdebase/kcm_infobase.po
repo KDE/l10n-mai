@@ -3,18 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Rajesh Ranjan <rajesh672@gmail.com>, 2010.
+# Rajesh Ranjan <rajesh672 at gmail dot com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcm_infobase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-05-03 04:52+0200\n"
-"PO-Revision-Date: 2010-09-24 15:51+0530\n"
-"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"PO-Revision-Date: 2011-01-15 15:19+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672 at gmail dot com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -47,7 +48,7 @@ msgstr "मान"
 #: info_aix.cpp:322
 msgctxt "Mebibyte"
 msgid "MiB "
-msgstr ""
+msgstr "मे बा"
 
 #: info_aix.cpp:327 info_fbsd.cpp:277 info_fbsd.cpp:305 info_hpux.cpp:365
 #: info_linux.cpp:480 info_netbsd.cpp:161 info_netbsd.cpp:273
@@ -90,38 +91,44 @@ msgid "CPU %1: %2, unknown speed"
 msgstr "सीपीयू %1: %2, अज्ञात गति"
 
 #: info_fbsd.cpp:145
+#, fuzzy
 msgid ""
 "Your sound system could not be queried.  /dev/sndstat does not exist or is "
 "not readable."
 msgstr ""
+"आपके ध्वनि तंत्र से पूछताछ नहीं हो सकी. /dev/sndstat अस्तित्व में नहीं है या पढ़ा जा सकने "
+"योग्य नहीं है."
 
 #: info_fbsd.cpp:173
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
-msgstr ""
+#, fuzzy
+msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgstr "SCSI उपतंत्र से पूछताछ नहीं हो सकी.: /sbin/camcontrol नहीं पा सका"
 
 #: info_fbsd.cpp:178
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
-msgstr ""
+#, fuzzy
+msgid "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgstr "SCSI उपतंत्र से पूछताछ नहीं हो सकी.: /sbin/camcontrol चलाया नहीं जा सका"
 
 #: info_fbsd.cpp:226
-msgid ""
-"Could not find any programs with which to query your system's PCI information"
-msgstr ""
+#, fuzzy
+msgid "Could not find any programs with which to query your system's PCI information"
+msgstr "नहीं ढूंढें के साथ को से. पीसीआई"
 
 #: info_fbsd.cpp:243
 #, kde-format
+#, fuzzy
 msgid "PCI subsystem could not be queried: %1 could not be executed"
-msgstr ""
+msgstr "पीसीआई उपतंत्र से पूछताछ नहीं हो सकी.: %1 चलाया नहीं जा सका"
 
 #: info_fbsd.cpp:255
+#, fuzzy
 msgid "The PCI subsystem could not be queried, this may need root privileges."
-msgstr ""
+msgstr "पीसीआई उपतंत्र से पूछताछ नहीं हो सकी, इसे रूट का विशेषाधिकार चाहिए."
 
 #: info_fbsd.cpp:270
+#, fuzzy
 msgid "Could not check file system info: "
-msgstr ""
+msgstr "फ़ाइल तंत्र जानकारी नही जांच पाए"
 
 #: info_fbsd.cpp:277 info_linux.cpp:480 info_openbsd.cpp:267
 #: info_solaris.cpp:174
@@ -195,7 +202,7 @@ msgstr "कुल फिजीकल मेमोरी"
 
 #: info_hpux.cpp:249
 msgid " Bytes"
-msgstr ""
+msgstr "बाइट्स"
 
 #: info_hpux.cpp:250
 msgid "Size of One Page"
@@ -434,28 +441,30 @@ msgid "No audio devices found."
 msgstr "कोनो आडियो अओजार नहि भेटल."
 
 #: info_netbsd.cpp:237 info_openbsd.cpp:247
+#, fuzzy
 msgid "No SCSI devices found."
-msgstr ""
+msgstr "कोई एससीएसआई औज़ार नहीं मिला."
 
 #: info_netbsd.cpp:273
 msgid "Total Nodes"
-msgstr ""
+msgstr "कुल नोड"
 
 #: info_netbsd.cpp:273
 msgid "Free Nodes"
-msgstr ""
+msgstr "मुक्त नोड्स"
 
 #: info_netbsd.cpp:273
 msgid "Flags"
 msgstr "फ्लैग"
 
 #: info_openbsd.cpp:261
+#, fuzzy
 msgid "Unable to run /sbin/mount."
-msgstr ""
+msgstr "/sbin/mount चलाने में अक्षम."
 
 #: info_osx.cpp:121
 msgid "Device Name"
-msgstr ""
+msgstr "युक्ति नाम"
 
 #: info_osx.cpp:131
 msgid "Manufacturer"
@@ -467,11 +476,11 @@ msgstr "उदाहरण"
 
 #: info_solaris.cpp:69
 msgid "CPU Type"
-msgstr ""
+msgstr "सीपीयू प्रकार"
 
 #: info_solaris.cpp:69
 msgid "FPU Type"
-msgstr ""
+msgstr "एफपीयू प्रकार"
 
 #: info_solaris.cpp:69
 msgid "State"
@@ -479,52 +488,53 @@ msgstr "स्थिति"
 
 #: info_solaris.cpp:174
 msgid "Mount Time"
-msgstr ""
+msgstr "माउन्ट समय"
 
 #: info_solaris.cpp:444
 msgid "character special"
-msgstr ""
+msgstr "कैरेक्टर विशेष"
 
 #: info_solaris.cpp:446
 msgid "block special"
-msgstr ""
+msgstr "ब्लॉक विशेष"
 
 #: info_solaris.cpp:449
 msgctxt "Can be either character special or block special"
 msgid "Special type:"
-msgstr ""
+msgstr "विशेष प्रकार:"
 
 #: info_solaris.cpp:462
 msgid "Nodetype:"
-msgstr ""
+msgstr "नोड-प्रकारः"
 
 #: info_solaris.cpp:469
 msgid "Major/Minor:"
-msgstr ""
+msgstr "गुरू/लघुः"
 
 #: info_solaris.cpp:540
 msgid "(no value)"
-msgstr ""
+msgstr "(कोनो मूल्य नहि)"
 
 #: info_solaris.cpp:605
 msgid "Driver Name:"
-msgstr ""
+msgstr "ड्राईवर नाम:"
 
 #: info_solaris.cpp:607
+#, fuzzy
 msgid "(driver not attached)"
-msgstr ""
+msgstr "(ड्राइवर संलग्न नहीं है)"
 
 #: info_solaris.cpp:614
 msgid "Binding Name:"
-msgstr ""
+msgstr "बाइंडिंग नाम:"
 
 #: info_solaris.cpp:629
 msgid "Compatible Names:"
-msgstr ""
+msgstr "कम्पेटिबल नामः"
 
 #: info_solaris.cpp:633
 msgid "Physical Path:"
-msgstr ""
+msgstr "फिज़ीकल पथः"
 
 #: info_solaris.cpp:643
 msgid "Properties"
@@ -540,7 +550,7 @@ msgstr "मान:"
 
 #: info_solaris.cpp:672
 msgid "Minor Nodes"
-msgstr ""
+msgstr "माइनर नोड्स"
 
 #: info_solaris.cpp:697
 msgid "Device Information"
@@ -548,43 +558,43 @@ msgstr "डिवायस सूचना"
 
 #: os_base.h:57
 msgid "LSBFirst"
-msgstr ""
+msgstr "LSBFirst"
 
 #: os_base.h:59
 msgid "MSBFirst"
-msgstr ""
+msgstr "MSBFirst"
 
 #: os_base.h:61
 #, kde-format
 msgid "Unknown Order %1"
-msgstr ""
+msgstr "अज्ञात अनुक्रम %1"
 
 #: os_base.h:65
 #, kde-format
 msgid "1 Bit"
 msgid_plural "%1 Bits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 बिट"
+msgstr[1] "%1 बिट"
 
 #: os_base.h:71
 msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
 msgid "1 Byte"
-msgstr ""
+msgstr "1 बाइट"
 
 #: os_base.h:73
 #, kde-format
 msgctxt "plural form: '%1 Bytes'"
 msgid "%1 Bytes"
-msgstr ""
+msgstr "%1 बाइट्स"
 
 #: os_base.h:111
 #, kde-format
 msgid "Screen # %1"
-msgstr ""
+msgstr "स्क्रीन # %1"
 
 #: os_base.h:113
 msgid "(Default Screen)"
-msgstr ""
+msgstr "(डिफ़ॉल्ट स्क्रीन)"
 
 #: os_base.h:122
 msgid "Dimensions"
@@ -593,7 +603,7 @@ msgstr "आयाम"
 #: os_base.h:122
 #, kde-format
 msgid "%1 x %2 Pixels (%3 x %4 mm)"
-msgstr ""
+msgstr "%1 x %2 पिक्सेल (%3 x %4 mm)"
 
 #: os_base.h:126
 msgid "Resolution"
@@ -602,53 +612,54 @@ msgstr "विभेदन"
 #: os_base.h:126
 #, kde-format
 msgid "%1 x %2 dpi"
-msgstr ""
+msgstr "%1 x %2 डीपीआई"
 
 #: os_base.h:143
 #, kde-format
 msgid "Depths (%1)"
-msgstr ""
+msgstr "गहराई (%1)"
 
 #: os_base.h:149
 msgid "Root Window ID"
-msgstr ""
+msgstr "रूट विंडो आईडी"
 
 #: os_base.h:153
 msgid "Depth of Root Window"
-msgstr ""
+msgstr "क रूट विंडो"
 
 #: os_base.h:153
 #, kde-format
 msgid "%1 plane"
 msgid_plural "%1 planes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 समतल"
+msgstr[1] "%1 समतल"
 
 #: os_base.h:157
 msgid "Number of Colormaps"
-msgstr ""
+msgstr "कलरमेप्सक संख्या"
 
 #: os_base.h:157
 #, kde-format
 msgid "minimum %1, maximum %2"
-msgstr ""
+msgstr "न्यूनतम %1, अधिकतम %2"
 
 #: os_base.h:161
 msgid "Default Colormap"
-msgstr ""
+msgstr "डिफ़ॉल्ट रंगनक्शा"
 
 #: os_base.h:165
+#, fuzzy
 msgid "Default Number of Colormap Cells"
-msgstr ""
+msgstr "डिफ़ॉल्ट संख्या का"
 
 #: os_base.h:169
 msgid "Preallocated Pixels"
-msgstr ""
+msgstr "Preallocated Pixelss"
 
 #: os_base.h:169
 #, kde-format
 msgid "Black %1, White %2"
-msgstr ""
+msgstr "कारि %1, उज्जर %2"
 
 #: os_base.h:172
 msgid "Yes"
@@ -663,30 +674,32 @@ msgid "Options"
 msgstr "विकल्प"
 
 #: os_base.h:176
+#, fuzzy
 msgid "When mapped"
-msgstr ""
+msgstr "जब मैप्ड हो"
 
 #: os_base.h:176
 #, kde-format
 msgid "backing-store: %1, save-unders: %2"
-msgstr ""
+msgstr "बेकिंग-स्टोर: %1, सेव-अंडर्स: %2"
 
 #: os_base.h:182
 msgid "Largest Cursor"
-msgstr ""
+msgstr "सबसँ पैघ संकेतक"
 
 #: os_base.h:184
 msgid "unlimited"
 msgstr "असीमित"
 
 #: os_base.h:190
+#, fuzzy
 msgid "Current Input Event Mask"
-msgstr ""
+msgstr "मौज़ूदा इनपुट इवेंट मास्क"
 
 #: os_base.h:196
 #, kde-format
 msgid "Event = %1"
-msgstr ""
+msgstr "घटना = %1"
 
 #: os_base.h:229
 msgid "Server Information"
@@ -698,11 +711,11 @@ msgstr "प्रदर्शक क' नाम"
 
 #: os_base.h:239
 msgid "Vendor String"
-msgstr ""
+msgstr "विक्रेता स्ट्रिंग"
 
 #: os_base.h:243
 msgid "Vendor Release Number"
-msgstr ""
+msgstr "विक्रेता जारी क्रमांक"
 
 #: os_base.h:247
 msgid "Version Number"
@@ -710,33 +723,33 @@ msgstr "संस्करण सँख्या"
 
 #: os_base.h:251
 msgid "Available Screens"
-msgstr ""
+msgstr "उपलब्द स्क्रीन"
 
 #: os_base.h:261
 msgid "Supported Extensions"
-msgstr ""
+msgstr "समर्थित एक्सटेंशन्स"
 
 #: os_base.h:276
 msgid "Supported Pixmap Formats"
-msgstr ""
+msgstr "समर्थित पिक्समेप फार्मेट्स"
 
 #: os_base.h:283
 #, kde-format
 msgid "Pixmap Format #%1"
-msgstr ""
+msgstr "पिक्समेप फार्मेट #%1"
 
 #: os_base.h:283
 #, kde-format
 msgid "%1 BPP, Depth: %2, Scanline padding: %3"
-msgstr ""
+msgstr "%1 BPP, गहराइ: %2, स्कैनलाइन पैडिंग: %3"
 
 #: os_base.h:295
 msgid "Maximum Request Size"
-msgstr ""
+msgstr "अधिकतम निवेदित आकार"
 
 #: os_base.h:299
 msgid "Motion Buffer Size"
-msgstr ""
+msgstr "गति बफर आकार"
 
 #: os_base.h:303
 msgid "Bitmap"
@@ -756,10 +769,12 @@ msgstr "पैडिंग"
 
 #: os_base.h:319
 msgid "Image Byte Order"
-msgstr ""
+msgstr "छवि बाइट अनुक्रम"
 
 #: os_current.h:70 os_current.h:85 os_current.h:116 os_current.h:130
 #: os_current.h:144 os_current.h:158 os_current.h:173 os_current.h:187
 #: os_current.h:201
+#, fuzzy
 msgid "This system may not be completely supported yet."
-msgstr ""
+msgstr "नहीं."
+

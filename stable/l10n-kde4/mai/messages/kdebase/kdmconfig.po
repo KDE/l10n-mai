@@ -4,19 +4,20 @@
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
 # Rajesh Ranjan <rajesh672@gmail.com>, 2010.
+# Rajesh Ranjan <rajesh672 at gmail dot com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2010-10-26 06:47+0200\n"
-"PO-Revision-Date: 2010-01-29 15:09+0530\n"
-"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
-"Language-Team: Maithili <maithili.sf.net>\n"
+"PO-Revision-Date: 2011-01-15 15:35+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672 at gmail dot com>\n"
+"Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "\n"
 "\n"
@@ -27,12 +28,17 @@ msgid "E&nable background"
 msgstr "पृष्ठभूमि सक्षम करू (&n)"
 
 #: background.cpp:41
+#, fuzzy
 msgid ""
 "If this is checked, KDM will use the settings below for the background. If "
 "it is disabled, you have to look after the background yourself. This is done "
 "by running some program (possibly xsetroot) in the script specified in the "
 "Setup= option in kdmrc (usually Xsetup)."
 msgstr ""
+"यदि यह चेक किया जाता है, केडीएम नीचे दिए गए विन्यास को पृष्ठभूमि के लिए उपयोग करेगा. "
+"यदि यह अक्षम किया जाता है, आपको स्वयं को पृष्ठभूमि के लिए देखना होगा. यह कुछ प्रोग्राम "
+"(संभवतः xsetroot) चलाकर किया जाता है जो स्क्रिप्ट उल्लेखित होता है- सेटअप=विकल्प kdmrc "
+"में (प्रायः एक्ससेटअप)."
 
 #: kdm-conv.cpp:49
 msgid "<big><b><center>Attention<br/>Read help</center></b></big>"
@@ -43,10 +49,13 @@ msgid "Enable Au&to-Login"
 msgstr "स्वचालित लागइन सक्षम करू (&t)"
 
 #: kdm-conv.cpp:65
+#, fuzzy
 msgid ""
 "Turn on the auto-login feature. This applies only to KDM's graphical login. "
 "Think twice before enabling this!"
 msgstr ""
+"स्वतः लॉगइन विशेषता चालू करें. यह सिर्फ केडीएम के चित्रमय लॉगइन पर ही लागू होता है. इसे "
+"सक्षम करने से पहले दोबारा सोच लें!"
 
 #: kdm-conv.cpp:72
 msgid "Use&r:"
@@ -100,10 +109,13 @@ msgid ""
 msgstr ""
 
 #: kdm-conv.cpp:120
+#, fuzzy
 msgid ""
 "Select the user to be preselected for login. This box is editable, so you "
 "can specify an arbitrary non-existent user to mislead possible attackers."
 msgstr ""
+"लॉगइन के लिए एक पूर्व-चयनित उपयोक्ता चुनें. यह बक्सा संपादन योग्य है, जिससे संभावित "
+"हमलावरों को बहकाने के लिए आप यहाँ एक मनमाने, अस्तित्वहीन उपयोक्ता को उल्लेखित कर सकते हैं."
 
 #: kdm-conv.cpp:135
 msgctxt "@option:check action"
@@ -111,33 +123,45 @@ msgid "Focus pass&word"
 msgstr "पासवर्ड फोकस करू (&w)"
 
 #: kdm-conv.cpp:138
+#, fuzzy
 msgid ""
 "When this option is on, KDM will place the cursor in the password field "
 "instead of the user field after preselecting a user. Use this to save one "
 "key press per login, if the preselection usually does not need to be changed."
 msgstr ""
+"यदि यह विकल्प चालू किया जाता है, केडीएम एक पूर्व-चयनित उपयोक्ता को चुन कर संकेतक को "
+"पासवर्ड फील्ड में रख देगा बजाए उपयोक्ता फील्ड के. इसका उपयोग प्रति लॉगइन एक अतिरिक्त "
+"कुंजी दबाने से बचने के लिए करें यदि पूर्व चयनित उपयोक्ता प्रायः बदलते नहीं हैं."
 
 #: kdm-conv.cpp:144
 msgid "Enable Password-&Less Logins"
 msgstr "पासवर्ड बिनु लागइन सक्षम करू (&L)"
 
 #: kdm-conv.cpp:151
+#, fuzzy
 msgid ""
 "When this option is checked, the checked users from the list below will be "
 "allowed to log in without entering their password. This applies only to "
 "KDM's graphical login. Think twice before enabling this!"
 msgstr ""
+"जब यह विकल्प चुना जाता है, नीचे दी गई सूची में से चुना गया उपयोक्ता बिना पासवर्ड भरे "
+"लॉगइन के लिए स्वीकार्य होगा. यह सिर्फ केडीएम के चित्रमय लॉगइन पर लागू होगा. इसे सक्षम "
+"करने से पहले दोबारा विचार कर लें!"
 
 #: kdm-conv.cpp:158
 msgid "No password re&quired for:"
 msgstr "क' लेल कोनो पासवर्ड आवश्यक नहि (&q)"
 
 #: kdm-conv.cpp:164
+#, fuzzy
 msgid ""
 "Check all users you want to allow a password-less login for. Entries denoted "
 "with '@' are user groups. Checking a group is like checking all users in "
 "that group."
 msgstr ""
+"उन सभी उपयोक्ताओं को चुनें जिन्हें आप चाहते हैं कि वे पासवर्ड रहित लॉगइन कर सकें. प्रविष्टियाँ "
+"जो कि '@' से चिह्नित हैं, वे उपयोक्ता समूह हैं. किसी समूह को चेक करना वैसे ही है जैसे कि उस "
+"समूह के सभी उपयोक्ताओं को चेक करना."
 
 #: kdm-conv.cpp:168 kdm-shut.cpp:95
 msgctxt "@title:group"
@@ -149,18 +173,24 @@ msgid "Automatically log in again after &X server crash"
 msgstr "एक्स सर्वर क्रेश हए केर बाद फिनु सँ स्वचलित लागइन करू (&X)"
 
 #: kdm-conv.cpp:174
+#, fuzzy
 msgid ""
 "When this option is on, a user will be logged in again automatically when "
 "their session is interrupted by an X server crash; note that this can open a "
 "security hole: if you use a screen locker than KDE's integrated one, this "
 "will make circumventing a password-secured screen lock possible."
 msgstr ""
+"जब यह विकल्प चालू होगा, उपयोगकर्ता स्वचालित रूप से फिर से लॉगइन हो जाएगा जब सत्र एक्स "
+"सर्वर क्रेश से अवरूद्ध होगा. टीप लें कि यह सुरक्षा खामियों को खोल सकता है यदि आप केडीई के "
+"इंटीग्रेटेड लाकर से भिन्न स्क्रीन लाकर उपयोग करते हैं, तब यह पासवर्ड सुरक्षित स्क्रीन लाक को "
+"बायपास करना संभव बनाता है."
 
 #: kdm-dlg.cpp:64
 msgid "&Greeting:"
 msgstr "अभिवादनः (&G)"
 
 #: kdm-dlg.cpp:71
+#, fuzzy
 msgid ""
 "<p>This is the \"headline\" for KDM's login window. You may want to put some "
 "nice greeting or information about the operating system here.</p><p>KDM will "
@@ -171,6 +201,12 @@ msgid ""
 "system's version</li><li>%m -> the machine (hardware) type</li><li>%% -> a "
 "single %</li></ul>"
 msgstr ""
+"यह केडीएम लॉगइन विंडो का \"हेडलाइन\" है. आप यहाँ कुछ सुंदर अभिवादन या आपरेटिंग सिस्टम के "
+"बारे में जानकारी रख सकते हैं.<p>केडीएम निम्न अक्षर युगल को संबंधित विषयवस्तु से प्रतिस्थापित "
+"कर देगा:<br><ul><li>%d -> मौज़ूदा शक्ल-सूरत</li><li>%h -> होस्ट नाम, संभवतः डोमेन "
+"नाम सहित</li><li>%n -> नोड नाम, बहुत संभव है- बगैर डोमेन नाम के होस्ट नाम </li><li>%"
+"s -> आपरेटिंग सिस्टम</li><li>%r -> आपरेटिंग सिस्टम का संस्करण</li><li>%m -> मशीन "
+"(हार्डवेयर) क़िस्म </li><li>%% -> एक एकल %</li></ul>"
 
 #: kdm-dlg.cpp:92
 msgid "Logo area:"
@@ -190,20 +226,24 @@ msgid "Sho&w logo"
 msgstr "लोगो देखाबू (&w)"
 
 #: kdm-dlg.cpp:110
+#, fuzzy
 msgid ""
 "You can choose to display a custom logo (see below), a clock or no logo at "
 "all."
-msgstr ""
+msgstr "आप चुन सकते हैं मनपसंद लोगो (नीचे देखें), एक घड़ी या कोई लोगो नहीं."
 
 #: kdm-dlg.cpp:116
 msgid "&Logo:"
 msgstr "लोगोः (&L)"
 
 #: kdm-dlg.cpp:127
+#, fuzzy
 msgid ""
 "Click here to choose an image that KDM will display. You can also drag and "
 "drop an image onto this button (e.g. from Konqueror)."
 msgstr ""
+"छवि चुनने के लिए यहाँ क्लिक करें जिसो केडीएम दिखाएगा. आप कोई छवि इस बटन पर खींच और "
+"छोड़ सकते हैं (जैसे, कॉन्करर से)."
 
 #: kdm-dlg.cpp:138
 msgid "Dialog &position:"
@@ -211,11 +251,15 @@ msgstr "संवाद स्थान: (&p)"
 
 #: kdm-dlg.cpp:221
 #, kde-format
+#, fuzzy
 msgid ""
 "There was an error loading the image:\n"
 "%1\n"
 "It will not be saved."
 msgstr ""
+"छवि लोड करते समय त्रुटि हुई:\n"
+"%1\n"
+"यह सहेजा नहीं जाएगा."
 
 #: kdm-dlg.cpp:257 kdm-dlg.cpp:285
 #, c-format
@@ -223,10 +267,13 @@ msgid "Welcome to %s at %n"
 msgstr " %s पर %n मे अहाँक स्वागत अछि"
 
 #: kdm-dlg.cpp:295
+#, fuzzy
 msgid ""
 "<h1>KDM - Dialog</h1> Here you can configure the basic appearance of the KDM "
 "login manager in dialog mode, i.e. a greeting string, an icon etc."
 msgstr ""
+"<h1>केडीएम - संवाद</h1> यहाँ पर आप केडीएम लॉगइन प्रबंधक के मूल रूप को संवाद मोड में "
+"कॉन्फ़िगर कर सकते हैं - जैसे कि अभिवादन वाक्यांश, प्रतीक इत्यादि."
 
 #: kdm-gen.cpp:47
 msgctxt "@title:group 'man locale' ..."
@@ -238,10 +285,13 @@ msgid "&Language:"
 msgstr "भाषा (&L):"
 
 #: kdm-gen.cpp:58
+#, fuzzy
 msgid ""
 "Here you can choose the language used by KDM. This setting does not affect a "
 "user's personal settings; that will take effect after login."
 msgstr ""
+"यहाँ आप केडीएम द्वारा उपयोग की जाने वाली भाषा चुन सकते हैं. यह विन्यास उपयोक्ता के निजी "
+"विन्यास को प्रभावित नहीं करेगी जो लॉगइन के बाद प्रभावी होता है."
 
 #: kdm-gen.cpp:65
 msgctxt "@title:group"
@@ -253,8 +303,9 @@ msgid "&Use themed greeter"
 msgstr "प्रसंग युक्त ग्रीटर (स्वागतकर्ता) क' प्रयोग करू (&U)"
 
 #: kdm-gen.cpp:73
+#, fuzzy
 msgid "Enable this if you would like to use a themed Login Manager."
-msgstr ""
+msgstr "इसे सक्षम करें यदि आप प्रसंग युक्त लॉगइन प्रबंधक इस्तेमाल करना चाहते हैं."
 
 #: kdm-gen.cpp:77 kdm-gen.cpp:88 kdm-users.cpp:114
 msgid "<placeholder>default</placeholder>"
@@ -265,16 +316,18 @@ msgid "GUI s&tyle:"
 msgstr "जीयूआई शैलीः (&t)"
 
 #: kdm-gen.cpp:84
+#, fuzzy
 msgid "You can choose a basic GUI style here that will be used by KDM only."
-msgstr ""
+msgstr "आप यहाँ मूल जीयूआई शैली चुन सकते हैं जो सिर्फ केडीएम द्वारा ही उपयोग में लिया जाएगा."
 
 #: kdm-gen.cpp:92
 msgid "Color sche&me:"
 msgstr "रंग योजनाः (&m)"
 
 #: kdm-gen.cpp:94
+#, fuzzy
 msgid "You can choose a basic Color Scheme here that will be used by KDM only."
-msgstr ""
+msgstr "आप यहाँ मूल रंग योजना चुन सकते हैं जो सिर्फ केडीएम द्वारा ही उपयोग में लिया जाएगा."
 
 #: kdm-gen.cpp:97
 msgctxt "@title:group"
@@ -282,10 +335,13 @@ msgid "Fonts"
 msgstr "फान्ट"
 
 #: kdm-gen.cpp:104
+#, fuzzy
 msgid ""
 "This changes the font which is used for all the text in the login manager "
 "except for the greeting and failure messages."
 msgstr ""
+"अभिवादन तथा असफल संदेशों को छोड़कर लॉगइन प्रबंधक के अन्य सभी पाठ में उपयोग में आने वाला "
+"फ़ॉन्ट इससे बदल जाएगा."
 
 #: kdm-gen.cpp:107
 msgctxt "... font"
@@ -293,10 +349,11 @@ msgid "&General:"
 msgstr "सामान्यः (&G)"
 
 #: kdm-gen.cpp:111
+#, fuzzy
 msgid ""
 "This changes the font which is used for failure messages in the login "
 "manager."
-msgstr ""
+msgstr "लॉगइन प्रबंधक के असफल संदेशों में उपयोग में आने वाला फ़ॉन्ट इससे बदल जाएगा"
 
 #: kdm-gen.cpp:113
 msgctxt "font for ..."
@@ -304,8 +361,9 @@ msgid "&Failure:"
 msgstr "असफल: (&F)"
 
 #: kdm-gen.cpp:117
+#, fuzzy
 msgid "This changes the font which is used for the login manager's greeting."
-msgstr ""
+msgstr "लॉगइन प्रबंधक के अभिवादन में उपयोग में आने वाला फ़ॉन्ट इससे बदल जाएगा."
 
 #: kdm-gen.cpp:119
 msgctxt "font for ..."
@@ -313,14 +371,18 @@ msgid "Gree&ting:"
 msgstr "अभिवादनः (&t)"
 
 #: kdm-gen.cpp:121
+#, fuzzy
 msgid "Use anti-aliasing for fonts"
-msgstr ""
+msgstr "फ़ॉन्ट के लिए एंटी-अलियासिंग इस्तेमाल करें"
 
 #: kdm-gen.cpp:123
+#, fuzzy
 msgid ""
 "If you check this box and your X-Server has the Xft extension, fonts will be "
 "antialiased (smoothed) in the login dialog."
 msgstr ""
+"यदि आप इस बक्से को चेक करते हैं और आपके एक्स-सर्वर में Xft एक्सटेंशन है, फ़ॉन्ट लॉगइन संवाद में "
+"एंटिएलियास्ड (चिकने) हो जाएंगे. "
 
 #: kdm-shut.cpp:45
 msgid "Allow Shutdown"
@@ -352,6 +414,7 @@ msgid "&Remote:"
 msgstr "रिमोटः (&R)"
 
 #: kdm-shut.cpp:64
+#, fuzzy
 msgid ""
 "Here you can select who is allowed to shutdown the computer using KDM. You "
 "can specify different values for local (console) and remote displays. "
@@ -360,6 +423,12 @@ msgid ""
 "after the user has entered the root password</li> <li><em>Nobody:</em> "
 "nobody can shutdown the computer using KDM</li></ul>"
 msgstr ""
+"यहाँ आप चुन सकते हैं कि केडीएम के उपयोग से कम्प्यूटर बन्द करने के लिए कौन अधिकृत होगा. आप "
+"स्थानीय (कंसोल) तथा रिमोट प्रदर्शक के लिए भिन्न मान उल्लेखित कर सकते हैं. संभावित मूल्य हैं:"
+"<ul> <li><em>हरकोई:</em> केडीएम के उपयोग से हरकोई कम्पयूटर बन्द कर सकेगा</li> "
+"<li><em>सिर्फ रूट:</em> केडीएम तभी कम्प्यूटर बन्द करना स्वीकारेगा जब उपयोक्ता रूट "
+"पासवर्ड भरेगा</li> <li><em>कोई नहीं:</em> केडीएम की मदद से कोई भी कम्प्यूटर को बन्द "
+"नहीं कर सकेगा</li></ul>"
 
 #: kdm-shut.cpp:74
 msgctxt "@title:group shell commands for shutdown"
@@ -372,8 +441,9 @@ msgid "H&alt:"
 msgstr "हाल्ट:(&a)"
 
 #: kdm-shut.cpp:81
+#, fuzzy
 msgid "Command to initiate the system halt. Typical value: /sbin/halt"
-msgstr ""
+msgstr "तंत्र हाल्ट करना प्रारंभ करने के लिए कमांड. विशिष्ट मूल्य: /sbin/halt"
 
 #: kdm-shut.cpp:86
 msgctxt "command for ..."
@@ -381,8 +451,9 @@ msgid "Reb&oot:"
 msgstr "रीबूटः (&o)"
 
 #: kdm-shut.cpp:90
+#, fuzzy
 msgid "Command to initiate the system reboot. Typical value: /sbin/reboot"
-msgstr ""
+msgstr "तंत्र हाल्ट करना प्रारंभ करने के लिए कमांड. विशिष्ट मूल्य: /sbin/reboot"
 
 #: kdm-shut.cpp:98
 msgctxt "boot manager"
@@ -402,8 +473,9 @@ msgid "Boot manager:"
 msgstr "बूट प्रबंधक"
 
 #: kdm-shut.cpp:106
+#, fuzzy
 msgid "Enable boot options in the \"Shutdown...\" dialog."
-msgstr ""
+msgstr " \"बंद करें...\" संवाद में बूट विकल्प दिखाएँ."
 
 #: kdm-theme.cpp:98
 msgctxt "@title:column"
@@ -416,14 +488,18 @@ msgid "Author"
 msgstr "लेखक"
 
 #: kdm-theme.cpp:103
+#, fuzzy
 msgid ""
 "This is a list of installed themes.\n"
 "Click the one to be used."
 msgstr ""
+"यह संस्थापित थीम की सूची है.\n"
+"जिसे प्रयोग करना है उस पर क्लिक करें."
 
 #: kdm-theme.cpp:111
+#, fuzzy
 msgid "This is a screen shot of what KDM will look like."
-msgstr ""
+msgstr "यह केडीएम का स्क्रीन शॉट है कि वो कैसा दिखाई देगा."
 
 #: kdm-theme.cpp:119
 msgid "This contains information about the selected theme."
@@ -508,7 +584,7 @@ msgstr "<qt>संस्थापित कएल जाए रहल अछि 
 #| msgid "<qt>Installing <strong>%1</strong> theme</qt>"
 msgctxt "@info:progress"
 msgid "<qt>Installing the themes</qt>"
-msgstr "<qt>संस्थापित कएल जाए रहल अछि <strong>%1</strong> प्रसंग</qt>"
+msgstr "<qt>प्रसंग संस्थापित किया जा रहा है </qt>"
 
 #: kdm-theme.cpp:324
 #, fuzzy
@@ -533,11 +609,10 @@ msgstr "प्रसंग मेटाबू?"
 #, fuzzy
 #| msgid "Are you sure you want to remove the following themes?"
 msgid "There were errors while deleting the following themes:\n"
-msgstr "की अहाँ सुनिश्चित छी जे अहाँ निम्न प्रसंग केँ मिटाना चाहैत अछि?"
+msgstr "निम्न प्रसंग को मिटाने में त्रुटि हुई:\n"
 
 #: kdm-users.cpp:111
-msgid ""
-"User 'nobody' does not exist. Displaying user images will not work in KDM."
+msgid "User 'nobody' does not exist. Displaying user images will not work in KDM."
 msgstr ""
 "प्रयोक्ता 'nobody'  मोजुद नहि अछि. केडीएम मे प्रयोक्ता छवि केँ प्रदर्शित कएनाइ काज नहि "
 "करताह."
@@ -548,12 +623,16 @@ msgid "System U&IDs"
 msgstr "तंत्र यूआईडी (&I)"
 
 #: kdm-users.cpp:119
+#, fuzzy
 msgid ""
 "Users with a UID (numerical user identification) outside this range will not "
 "be listed by KDM and this setup dialog. Note that users with the UID 0 "
 "(typically root) are not affected by this and must be explicitly excluded in "
 "\"Inverse selection\" mode."
 msgstr ""
+"उपयोक्ता यदि इस रेंज से बाहर यूआईडी (न्यूमेरिकल यूज़र आइडेंटिफिकेशन)  युक्त होगा तो केडीएम "
+"और इसके सेटअप संवाद में सूचीबद्ध नहीं होगा. टीप लें कि यूआईडी 0 वाले उपयोक्ता (विशिष्टतया "
+"रूट) इससे प्रभावित नहीं होते हैं तथा साफ-साफ अलग होने ही चाहिएँ \"उलटे चयन\" मोड में."
 
 #: kdm-users.cpp:125
 msgctxt "UIDs"
@@ -576,10 +655,13 @@ msgid "Show list"
 msgstr "सूची देखाबू"
 
 #: kdm-users.cpp:148
+#, fuzzy
 msgid ""
 "If this option is checked, KDM will show a list of users, so users can click "
 "on their name or image rather than typing in their login."
 msgstr ""
+"यदि यह विकल्प चुना जाता है, केडीएम उपयोक्ता की सूची दिखाएगा, जिससे उपयोक्ता अपने नाम "
+"या छवि पर क्लिक कर लॉगइन कर सकते हैं, बजाए अपना लॉगइन टाइप करके."
 
 #: kdm-users.cpp:150
 msgctxt "user ..."
@@ -587,10 +669,13 @@ msgid "Autocompletion"
 msgstr "स्वतःपूर्ण करू"
 
 #: kdm-users.cpp:152
+#, fuzzy
 msgid ""
 "If this option is checked, KDM will automatically complete user names while "
 "they are typed in the line edit."
 msgstr ""
+"यदि यह विकल्प चुना जाता है, केडीएम स्वचालित रूप से उपयोक्ता नामों को पूरा करेगा जब वे "
+"पंक्ति में टाइप किए जा रहे होंगे."
 
 #: kdm-users.cpp:155
 msgctxt "@option:check mode of the user selection"
@@ -610,10 +695,13 @@ msgid "Sor&t users"
 msgstr "प्रयोक्ता क्रमबद्ध करू (&t)"
 
 #: kdm-users.cpp:163
+#, fuzzy
 msgid ""
 "If this is checked, KDM will alphabetically sort the user list. Otherwise "
 "users are listed in the order they appear in the password file."
 msgstr ""
+"यदि यह विकल्प चुना जाता है, केडीएम उपयोक्ताओं की सूची को वर्णमाला क्रम में क्रमबद्ध करेगा. "
+"अन्यथा उपयोक्ता जैसा कि पासवर्ड फ़ाइल में सूचीबद्ध हैं, उस सूची अनुसार दिखेंगे."
 
 #: kdm-users.cpp:180
 msgid "S&elect users and groups:"
@@ -624,20 +712,28 @@ msgid "Selected Users"
 msgstr "चुनल गेल प्रयोक्ता"
 
 #: kdm-users.cpp:186
+#, fuzzy
 msgid ""
 "KDM will show all checked users. Entries denoted with '@' are user groups. "
 "Checking a group is like checking all users in that group."
 msgstr ""
+"केडीएम सभी चयनित उपयोक्ताओं को दिखाएगा. प्रविष्टियाँ जो कि '@' से चिह्नित हैं, वे "
+"उपयोक्ता समूह हैं. किसी समूह को चेक करना वैसे ही है जैसे कि उस समूह के सभी उपयोक्ताओं को चेक "
+"करना."
 
 #: kdm-users.cpp:195
 msgid "Excluded Users"
 msgstr "अलग कएल गेल प्रयोक्ता"
 
 #: kdm-users.cpp:197
+#, fuzzy
 msgid ""
 "KDM will show all non-checked non-system users. Entries denoted with '@' are "
 "user groups. Checking a group is like checking all users in that group."
 msgstr ""
+"केडीएम सभी अ-चयनित नॉन-सिस्टम उपयोक्ताओं को दिखाएगा. प्रविष्टियाँ जो कि '@' से "
+"चिह्नित हैं, वे उपयोक्ता समूह हैं. किसी समूह को चेक करना वैसे ही है जैसे कि उस समूह के सभी "
+"उपयोक्ताओं को चेक करना."
 
 #: kdm-users.cpp:206
 msgctxt "@title:group source for user faces"
@@ -645,6 +741,7 @@ msgid "User Image Source"
 msgstr "प्रयोक्ता छवि स्रोत"
 
 #: kdm-users.cpp:208
+#, fuzzy
 msgid ""
 "Here you can specify where KDM will obtain the images that represent users. "
 "\"System\" represents the global folder; these are the pictures you can set "
@@ -652,6 +749,11 @@ msgid ""
 "The two selections in the middle define the order of preference if both "
 "sources are available."
 msgstr ""
+"यहाँ आप उल्लेखित कर सकते हैं कि उपयोक्ताओं के प्रतिनिधित्व करती छवियों को केडीएम कहाँ से "
+"प्राप्त करे. \"System\" वैश्विक फ़ोल्डर को दर्शाता है; ये नीचे दी गई तस्वीरें आप नियत कर "
+"सकते हैं. \"User\" का अर्थ है कि केडीएम उपयोक्ता के  $HOME/.face.icon फ़ाइल को पढ़ "
+"सकता है. मध्य में दिए गए दो चयन प्राथमिकताओं के क्रम को पारिभाषित करते हैं, यदि दोनों "
+"स्रोत उपलब्ध हैं."
 
 #: kdm-users.cpp:212
 msgctxt "@option:radio image source"
@@ -691,11 +793,15 @@ msgid "Click or drop an image here"
 msgstr "क्लिक करू अथवा एतय कोनो छवि डालू"
 
 #: kdm-users.cpp:246
+#, fuzzy
 msgid ""
 "Here you can see the image assigned to the user selected in the combo box "
 "above. Click on the image button to select from a list of images or drag and "
 "drop your own image on to the button (e.g. from Konqueror)."
 msgstr ""
+"यहाँ आप ऊपर कॉम्बो बक्से में चुने गए उपयोक्ता को आबंटित छवि को देख सकते हैं. छवियों की सूची "
+"में से चुनने के लिए चित्र बटन पर क्लिक करें या आप कोई भी चित्र को बटन पर खींच और छोड़ कर "
+"चित्र चयन कर सकते हैं (जैसे, कॉन्करर से)"
 
 #: kdm-users.cpp:250
 msgctxt "@action:button assign default user face"
@@ -703,9 +809,11 @@ msgid "R&eset"
 msgstr "रीसेट करू (&e)"
 
 #: kdm-users.cpp:252
-msgid ""
-"Click this button to make KDM use the default image for the selected user."
+#, fuzzy
+msgid "Click this button to make KDM use the default image for the selected user."
 msgstr ""
+"केडीएम चुने गए उपयोक्ताओं के लिए डिफ़ॉल्ट छवियों को उपयोग में ले इस के लिए इस बटन पर क्लिक "
+"करें."
 
 #: kdm-users.cpp:351
 msgid "Save image as default?"
@@ -720,8 +828,8 @@ msgid ""
 "There was an error while loading the image\n"
 "%1"
 msgstr ""
-"छवि %1\n"
-"लोड करब मे त्रुटि भेल"
+"छवि लोड करने में त्रुटि हुई\n"
+"%1"
 
 #: kdm-users.cpp:379
 #, fuzzy, kde-format
@@ -732,8 +840,8 @@ msgid ""
 "There was an error while saving the image:\n"
 "%1"
 msgstr ""
-"छवि %1 \n"
-"सहेजएमे त्रुटि भेल"
+"छवि सहेजने में त्रुटि हुई:\n"
+"%1"
 
 #: kdm-users.cpp:408
 #, fuzzy, kde-format
@@ -744,8 +852,8 @@ msgid ""
 "There was an error while removing the image:\n"
 "%1"
 msgstr ""
-"छवि %1\n"
-"लोड करब मे त्रुटि भेल"
+"छवि हटाने करने में त्रुटि हुई:\n"
+"%1"
 
 #: main.cpp:73
 #, kde-format
@@ -768,10 +876,9 @@ msgid "KDE Login Manager Config Module"
 msgstr "केडीई लागइन प्रबंधक कान्फिग मोड्यूल"
 
 #: main.cpp:117
-#, fuzzy
 #| msgid "(c) 1996-2008 The KDM Authors"
 msgid "(c) 1996-2010 The KDM Authors"
-msgstr "(c) 1996-2008 केडीएम केर लेखक गण"
+msgstr "(c) 1996-2010 The KDM Authors"
 
 #: main.cpp:120
 msgid "Thomas Tanghus"
@@ -799,7 +906,7 @@ msgstr "स्टीफन लीफ"
 
 #: main.cpp:124
 msgid "Igor Krivenko"
-msgstr ""
+msgstr "Igor Krivenko"
 
 #: main.cpp:127
 msgid ""
@@ -902,3 +1009,4 @@ msgstr "संगीता कुमारी"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
+

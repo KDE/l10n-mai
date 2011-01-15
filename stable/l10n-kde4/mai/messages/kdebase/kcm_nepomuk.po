@@ -1,22 +1,23 @@
-# translation of nepomuk.po to Maithili
+# translation of kcm_nepomuk.po to Maithili
 # translation of nepomuk.po to
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
 # Rajesh Ranjan <rajesh672@gmail.com>, 2010.
+# Rajesh Ranjan <rajesh672 at gmail dot com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: nepomuk\n"
+"Project-Id-Version: kcm_nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2011-01-06 02:14+0100\n"
-"PO-Revision-Date: 2010-01-29 16:11+0530\n"
-"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
-"Language-Team: Maithili <maithili.sf.net>\n"
+"PO-Revision-Date: 2011-01-15 15:31+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672 at gmail dot com>\n"
+"Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
 "\n"
 "\n"
 "\n"
@@ -26,7 +27,7 @@ msgstr ""
 #: nepomukserverkcm.cpp:95
 msgctxt "'Home' as in 'Home path', i.e. /home/username"
 msgid "Home"
-msgstr ""
+msgstr "घर"
 
 #: nepomukserverkcm.cpp:96
 #, kde-format
@@ -42,10 +43,9 @@ msgid "Nepomuk Configuration Module"
 msgstr "नेपोमक कान्फिगरेशन मोड्यूल"
 
 #: nepomukserverkcm.cpp:144
-#, fuzzy
 #| msgid "Copyright 2007 Sebastian Trüg"
 msgid "Copyright 2007-2010 Sebastian Trüg"
-msgstr "सर्वाधिकार 2007 सेबेस्तिएन त्रुग"
+msgstr "Copyright 2007-2010 Sebastian Trüg"
 
 #: nepomukserverkcm.cpp:145
 msgid "Sebastian Trüg"
@@ -198,10 +198,9 @@ msgstr "sangeeta09@gmail.com"
 #. i18n: file: statuswidget.ui:20
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
 #: rc.cpp:5
-#, fuzzy
 #| msgid "Nepomuk store size:"
 msgid "Nepomuk Repository Details"
-msgstr "Nepomuk जमा स्थिति:"
+msgstr "Nepomuk जमा स्थिति"
 
 #. i18n: file: statuswidget.ui:23
 #. i18n: ectx: property (comment), widget (KTitleWidget, m_title)
@@ -260,7 +259,7 @@ msgstr "नेपोमक सेमेन्टिक डेस्कटाप�
 #. i18n: ectx: property (text), widget (KUrlLabel, m_buttonDetails)
 #: rc.cpp:36
 msgid "Details..."
-msgstr ""
+msgstr "विवरण..."
 
 #. i18n: file: nepomukconfigwidget.ui:101
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -321,8 +320,7 @@ msgstr "स्ट्रिगी निर्देशिका फोल्ड�
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkIndexRemovableMedia)
 #: rc.cpp:60
 #, fuzzy
-msgid ""
-"Index the files on removable media like USB sticks when they are mounted"
+msgid "Index the files on removable media like USB sticks when they are mounted"
 msgstr "सूची पर मीडिया समान यूएसबी"
 
 #. i18n: file: nepomukconfigwidget.ui:229
@@ -357,7 +355,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, m_checkRootQueryNeverOpened)
 #: rc.cpp:75
 msgid "Never opened"
-msgstr ""
+msgstr "कखनो खुलल नहि"
 
 #. i18n: file: nepomukconfigwidget.ui:270
 #. i18n: ectx: property (toolTip), widget (QRadioButton, m_checkRootQueryFancy)
@@ -399,13 +397,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KUrlLabel, m_buttonEditCustomQuery)
 #: rc.cpp:100
 msgid "Edit..."
-msgstr ""
+msgstr "संपादन..."
 
 #. i18n: file: nepomukconfigwidget.ui:374
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
 #: rc.cpp:103
-msgid ""
-"Specify the maximum number of results that should be listed in query folders."
+msgid "Specify the maximum number of results that should be listed in query folders."
 msgstr ""
 
 #. i18n: file: nepomukconfigwidget.ui:377
@@ -482,7 +479,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
 #: rc.cpp:139
 msgid "Tools"
-msgstr ""
+msgstr "अओजार"
 
 #. i18n: file: nepomukconfigwidget.ui:532
 #. i18n: ectx: property (text), widget (KPushButton, m_buttonManualBackup)
@@ -521,10 +518,9 @@ msgstr ""
 #. i18n: file: nepomukconfigwidget.ui:616
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
 #: rc.cpp:157
-#, fuzzy
 #| msgid " MB"
 msgid " MiB"
-msgstr " MB"
+msgstr "मेबा"
 
 #. i18n: file: indexfolderselectionwidget.ui:10
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -554,265 +550,6 @@ msgstr "स्ट्रिगी इंडेक्स एक्सक्लू�
 #. i18n: file: indexfolderselectionwidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:175
-msgid ""
-"Select expressions to exclude files from indexing by matching their filenames"
+msgid "Select expressions to exclude files from indexing by matching their filenames"
 msgstr ""
 
-#, fuzzy
-#~| msgid "Search Service"
-#~ msgid "Search excerpt: %1"
-#~ msgstr "खोजू सेवा"
-
-#, fuzzy
-#~ msgid ""
-#~ "The Nepomuk system is not activated. Unable to answer queries without it."
-#~ msgstr "द अछि नहि मे."
-
-#, fuzzy
-#~ msgid ""
-#~ "The Nepomuk query service is not running. Unable to answer queries "
-#~ "without it."
-#~ msgstr "द प्रश्न अछि नहि चलि रहल अछि मे."
-
-#~ msgctxt ""
-#~ "Month and year used in a tree above the actual days. Have a look at "
-#~ "http://api.kde.org/4.x-api/kdelibs-apidocs/kdecore/html/"
-#~ "classKCalendarSystem.html#a560204439a4b670ad36c16c404f292b4 to see which "
-#~ "variables you can use and ask kde-i18n-doc@kde.org if you have problems "
-#~ "understanding how to translate this"
-#~ msgid "%B %Y"
-#~ msgstr "%B %Y"
-
-#~ msgid "Today"
-#~ msgstr "आइ"
-
-#~ msgid "Calendar"
-#~ msgstr "कैलेंडर"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Please insert the removable medium <resource>%1</resource> to access this "
-#~ "file."
-#~ msgstr "कृप्या मध्यम<resource></resource> मे अभिगम फाइल."
-
-#, fuzzy
-#~ msgid ""
-#~ "Do you really want to delete the resource and all relations to and from "
-#~ "it?"
-#~ msgstr "मे मेटाबू आओर सबहि मे आओर सँ?"
-
-#~ msgid "Delete Resource"
-#~ msgstr "मेटाबू संसाधन"
-
-#~ msgid "Resource does not exist"
-#~ msgstr "संसाधन नहि"
-
-#~ msgid "Relations:"
-#~ msgstr "सम्बन्ध:"
-
-#~ msgid "Backlinks:"
-#~ msgstr "बैकलिंक"
-
-#~ msgid "Actions:"
-#~ msgstr "क्रियासभ:"
-
-#~ msgid "Delete resource"
-#~ msgstr "मेटाबू संसाधन"
-
-#~ msgctxt "@info:status"
-#~ msgid "File indexer is suspended"
-#~ msgstr "फाइल सूचीकरण करैबला स्थगित अछि"
-
-#, fuzzy
-#~ msgctxt "@info:status"
-#~ msgid "Strigi is currently indexing files"
-#~ msgstr "अछि in फोल्डर 1"
-
-#, fuzzy
-#~ msgctxt "@info:status"
-#~ msgid "Strigi is currently indexing files in folder %1"
-#~ msgstr "अछि in फोल्डर 1"
-
-#~ msgctxt "@info:status"
-#~ msgid "File indexer is idle"
-#~ msgstr "फाइल सूचीकएनिहार निष्क्रिय अछि"
-
-#, fuzzy
-#~ msgid "Indexing files for fast searching. This process may take a while."
-#~ msgstr "सूचीकरण क'लेल a."
-
-#, fuzzy
-#~ msgid "Resuming indexing of files for fast searching."
-#~ msgstr "क' क'लेल."
-
-#, fuzzy
-#~ msgid "Suspending the indexing of files to preserve resources."
-#~ msgstr "क' मे."
-
-#, fuzzy
-#~ msgid "Disk space is running low (%1 left). Suspending indexing of files."
-#~ msgstr "डिस्क स्थान अछि चलि रहल अछि निम्न बायाँ क'."
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-#~ msgid "Initial indexing of files for fast searching finished in %1"
-#~ msgstr "क' क'लेल in 1"
-
-#, fuzzy
-#~ msgctxt "@info - notification message"
-#~ msgid ""
-#~ "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
-#~ "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
-#~ msgstr "डेस्कटाप सर्वर मे डाटा प्लगइन अछि क'लेल."
-
-#, fuzzy
-#~ msgctxt "@info - notification message"
-#~ msgid ""
-#~ "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
-#~ "Installing the Virtuoso server and ODBC driver is mandatory for using "
-#~ "Nepomuk."
-#~ msgstr "डेस्कटाप सर्वर मे डाटा सर्वर आओर ODBC अछि क'लेल."
-
-#, fuzzy
-#~ msgctxt "@info - notification message"
-#~ msgid ""
-#~ "Nepomuk was not able to find the configured database backend '%1'. "
-#~ "Existing data can thus not be accessed. For data security reasons Nepomuk "
-#~ "will be disabled until the situation has been resolved manually."
-#~ msgstr "नहि मे खोजू डाटा नहि क'लेल डाटा निष्क्रिय करू."
-
-#, fuzzy
-#~ msgctxt "@info - notification message"
-#~ msgid "Converting Nepomuk data to a new backend. This might take a while."
-#~ msgstr "डाटा मे a नवीन a."
-
-#, fuzzy
-#~ msgctxt "@info - notification message"
-#~ msgid ""
-#~ "Converting Nepomuk data to the new backend failed. For data security "
-#~ "reasons Nepomuk will be disabled until the situation has been resolved "
-#~ "manually."
-#~ msgstr "डाटा मे नवीन क'लेल डाटा निष्क्रिय करू."
-
-#, fuzzy
-#~ msgctxt "@info - notification message"
-#~ msgid "Successfully converted Nepomuk data to the new backend."
-#~ msgstr "डाटा मे नवीन."
-
-#, fuzzy
-#~| msgid "Converting Nepomuk database"
-#~ msgctxt "@title job"
-#~ msgid "Converting Nepomuk database"
-#~ msgstr "नेपोमक डाटाबेस परिवर्तित कएल जाए रहल अछि"
-
-#~ msgid "Old backend"
-#~ msgstr "पुरान बैकेंड"
-
-#~ msgid "New backend"
-#~ msgstr "नवीन बैकेंड"
-
-#, fuzzy
-#~ msgid "Parsing of file %1 failed (%2)"
-#~ msgstr "क' फाइल"
-
-#, fuzzy
-#~| msgid "Nepomuk Semantic Desktop"
-#~ msgid "Nepomuk Backup"
-#~ msgstr "नेपोमक सेमेन्टिक डेस्कटाप"
-
-#~ msgid "Maintainer"
-#~ msgstr "अनुरक्षक"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The Nepomuk backup service does not seem to be running. Backups cannot be "
-#~ "handled without it."
-#~ msgstr "द प्रश्न अछि नहि चलि रहल अछि मे."
-
-#~ msgid "Nepomuk Server"
-#~ msgstr "नेपोमक सर्वर"
-
-#~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
-#~ msgstr "नेपोमक सर्वर - नेपोमक भंडार आओर सेवा प्रबंधित करैत अछि"
-
-#~ msgid "(c) 2008, Sebastian Trüg"
-#~ msgstr "(C) 2007, सेबेस्तियन त्रुग"
-
-#~ msgid "Nepomuk Service Stub"
-#~ msgstr "नेपोमक सेवा स्टब"
-
-#~ msgctxt "@info:shell"
-#~ msgid "Service to start"
-#~ msgstr "सेवा जकरा प्रारंभ कएनाइ अछि"
-
-#~ msgid "No service name specified"
-#~ msgstr "कोनो सेवा नाम उल्लेखित नहि अछि"
-
-#~ msgid "Unknown service name:"
-#~ msgstr "अज्ञात सेवा नाम: "
-
-#, fuzzy
-#~| msgid "Converting Nepomuk database"
-#~ msgid "Restore Nepomuk Database"
-#~ msgstr "नेपोमक डाटाबेस परिवर्तित कएल जाए रहल अछि"
-
-#~ msgid "Suspend File Indexing"
-#~ msgstr "सस्पेंड करू फाइल सूचीकरण"
-
-#, fuzzy
-#~ msgid "Suspend or resume the file indexer manually"
-#~ msgstr "सस्पेंड करू अथवा फाइल"
-
-#~ msgid "Configure File Indexer"
-#~ msgstr "बिन्यस्त करू फाइल"
-
-#~ msgid "Configure"
-#~ msgstr "बिन्यस्त करू"
-
-#, fuzzy
-#~ msgid ""
-#~ "No Soprano Database backend available. Please check your installation."
-#~ msgstr "नहि डाटाबेस उपलब्ध कृप्या जाँचू."
-
-#~ msgid ""
-#~ "The Nepomuk Server is not running. The settings will be used the next "
-#~ "time the server is started."
-#~ msgstr ""
-#~ "नेपोमक सर्वर चलि नहि रहल अछि. जखन अगिला बेर सर्वर प्रारंभ हाएत तँ ई बिन्याससभ क' "
-#~ "प्रयोग कएल जाएत."
-
-#~ msgid "Nepomuk Strigi File Indexing"
-#~ msgstr "Nepomuk Strigi फाइल सूचीकरण"
-
-#~ msgid "Strigi Indexing State"
-#~ msgstr "Strigi सूचीकरणक स्थिति"
-
-#~ msgid "Nepomuk Storage State"
-#~ msgstr "Nepomuk भंडारक स्थिति"
-
-#~ msgid "Filters which define the files that Strigi should ignore"
-#~ msgstr "फिल्टर जे ई निर्धारित करैत अछि जे स्ट्रिगी कओन फाइलसभकेँ अनदेखा करताह"
-
-#, fuzzy
-#~| msgid "Query Results"
-#~ msgctxt ""
-#~ "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
-#~ "user entered."
-#~ msgid "Query Results from '%1'"
-#~ msgstr "प्रश्न परिणाम"
-
-#~ msgid "Query Results"
-#~ msgstr "प्रश्न परिणाम"
-
-#, fuzzy
-#~ msgid ""
-#~ "The maximum amount of memory the Nepomuk database should use. The more "
-#~ "memory Nepomuk has the more performant it will be."
-#~ msgstr "द अधिकतम क' द."
-
-#~ msgctxt "@info:status"
-#~ msgid "Checking file system for new files"
-#~ msgstr "फाइल क'लेल नवीन सिस्टम"
