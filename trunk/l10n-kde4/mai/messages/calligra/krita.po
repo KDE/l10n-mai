@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-17 03:04+0100\n"
+"POT-Creation-Date: 2011-01-19 03:04+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -12032,10 +12032,6 @@ msgstr ""
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:79
-msgid "Paint with brushes"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:174
 msgid "Cannot pick a color as no layer is active."
 msgstr ""
@@ -12054,10 +12050,6 @@ msgstr ""
 #: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
 msgid "Palette"
 msgstr "रंग-पट्टिका"
-
-#: plugins/tools/defaulttools/kis_tool_colorpicker.h:96
-msgid "Select a color from the image or current layer"
-msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_ellipse.h:55
 msgid "Draw an ellipse"
@@ -12090,10 +12082,6 @@ msgstr ""
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_fill.h:91
-msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_gradient.cc:327
@@ -12158,10 +12146,6 @@ msgstr ""
 msgid "Preview opacity:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.h:123
-msgid "Draw a gradient."
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_line.cc:170
 msgctxt "a straight drawn line"
 msgid "Line"
@@ -12190,20 +12174,36 @@ msgstr ""
 msgid "Measure the distance between two points"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:92
-msgid "Move a layer"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_pan.h:74
-msgid "Move and rotate your canvas"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_path.h:75
 msgid "Draw a path."
 msgstr ""
 
+#: plugins/tools/defaulttools/kis_tool_brush.h:79
+msgid "Paint with brushes (B)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_colorpicker.h:96
+msgid "Select a color from the image or current layer (P)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_fill.h:91
+msgid "Fill a contiguous area of color with a color, or fill a selection. (F)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.h:123
+msgid "Draw a gradient. (G)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_move.h:92
+msgid "Move a layer (SHIFT+V)"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_pan.h:74
+msgid "Move and rotate your canvas  (ALT+V)"
+msgstr ""
+
 #: plugins/tools/defaulttools/kis_tool_rectangle.h:61
-msgid "Draw a rectangle"
+msgid "Draw a rectangle (R)"
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:64
@@ -12218,10 +12218,6 @@ msgstr "सीमा चयन"
 #| msgid "Brushes"
 msgid "Brush size:"
 msgstr "ब्रश"
-
-#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
-msgid "Select by brush"
-msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:92
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:116
@@ -12242,10 +12238,6 @@ msgstr ""
 msgid "Elliptical Selection"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:69
-msgid "Select an elliptical area"
-msgstr ""
-
 #: plugins/tools/selectiontools/kis_tool_select_magnetic.cc:134
 #, fuzzy
 #| msgid "Grow Selection"
@@ -12257,12 +12249,6 @@ msgstr "चयन बढाउ"
 #: plugins/tools/selectiontools/kis_tool_select_path.cc:179
 msgid "Path Selection"
 msgstr ""
-
-#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
-#, fuzzy
-#| msgid "Border selection by"
-msgid "Magnetic selection tool"
-msgstr "एकरा द्वारा सीमा चयन"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:117
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:196
@@ -12297,13 +12283,27 @@ msgstr ""
 msgid "Rectangular Selection"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
-msgid "Select a rectangular area"
-msgstr ""
-
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:122
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:141
 msgid "Similar Selection"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
+msgid "Select by brush (SHIFT+B)"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:69
+msgid "Select an elliptical area (J)"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_magnetic.h:126
+#, fuzzy
+#| msgid "Border selection by"
+msgid "Magnetic selection tool (SHIFT+E)"
+msgstr "एकरा द्वारा सीमा चयन"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
+msgid "Select a rectangular area (SHIFT+R)"
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:62
