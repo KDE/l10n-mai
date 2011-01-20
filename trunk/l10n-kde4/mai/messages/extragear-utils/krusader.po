@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-13 02:40+0100\n"
+"POT-Creation-Date: 2011-01-20 02:42+0100\n"
 "PO-Revision-Date: 2010-09-24 20:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2129,45 +2129,6 @@ msgstr ""
 msgid "Execution mode"
 msgstr ""
 
-#: krusader/GUI/kfnkeys.cpp:70
-msgid "Quit Krusader."
-msgstr ""
-
-#: krusader/GUI/kfnkeys.cpp:102
-#, fuzzy
-#| msgid "Terminal"
-msgid "Term"
-msgstr "टर्मिनल"
-
-#: krusader/GUI/kfnkeys.cpp:104
-#, fuzzy
-#| msgid "&Edit"
-msgid "Edit"
-msgstr "सँपादित करू (&E)"
-
-#: krusader/GUI/kfnkeys.cpp:105 krusader/VFS/kiojobwrapper.cpp:251
-msgid "Copy"
-msgstr "कापी करू"
-
-#: krusader/GUI/kfnkeys.cpp:106 krusader/VFS/kiojobwrapper.cpp:254
-msgid "Move"
-msgstr "घसकाबू"
-
-#: krusader/GUI/kfnkeys.cpp:107
-#, fuzzy
-#| msgid "Media"
-msgid "Mkdir"
-msgstr "मीडिया"
-
-#: krusader/GUI/kfnkeys.cpp:109 krusader/Panel/krpopupmenu.cpp:188
-#: krusader/Panel/krview.cpp:721 krusader/Panel/listpanelactions.cpp:89
-msgid "Rename"
-msgstr "नाम बदलू"
-
-#: krusader/GUI/kfnkeys.cpp:110
-msgid " Quit"
-msgstr ""
-
 #: krusader/GUI/krremoteencodingmenu.cpp:118
 msgid "Reload"
 msgstr "पुनः लोड करू"
@@ -2283,6 +2244,45 @@ msgid ""
 "This button toggles the sync-browse mode.\n"
 "When active, each directory change is performed in the\n"
 "active and inactive panel - if possible."
+msgstr ""
+
+#: krusader/GUI/kfnkeys.cpp:70
+msgid "Quit Krusader."
+msgstr ""
+
+#: krusader/GUI/kfnkeys.cpp:102
+#, fuzzy
+#| msgid "Terminal"
+msgid "Term"
+msgstr "टर्मिनल"
+
+#: krusader/GUI/kfnkeys.cpp:104
+#, fuzzy
+#| msgid "&Edit"
+msgid "Edit"
+msgstr "सँपादित करू (&E)"
+
+#: krusader/GUI/kfnkeys.cpp:105 krusader/VFS/kiojobwrapper.cpp:251
+msgid "Copy"
+msgstr "कापी करू"
+
+#: krusader/GUI/kfnkeys.cpp:106 krusader/VFS/kiojobwrapper.cpp:254
+msgid "Move"
+msgstr "घसकाबू"
+
+#: krusader/GUI/kfnkeys.cpp:107
+#, fuzzy
+#| msgid "Media"
+msgid "Mkdir"
+msgstr "मीडिया"
+
+#: krusader/GUI/kfnkeys.cpp:109 krusader/Panel/krpopupmenu.cpp:188
+#: krusader/Panel/krview.cpp:721 krusader/Panel/listpanelactions.cpp:89
+msgid "Rename"
+msgstr "नाम बदलू"
+
+#: krusader/GUI/kfnkeys.cpp:110
+msgid " Quit"
 msgstr ""
 
 #: krusader/KViewer/krviewer.cpp:86
@@ -2504,10 +2504,10 @@ msgstr ""
 #: krusader/Konfigurator/kgdependencies.cpp:58
 #: krusader/Konfigurator/kggeneral.cpp:206
 #: krusader/Konfigurator/kggeneral.cpp:214
-#: krusader/Konfigurator/kgpanel.cpp:82 krusader/Konfigurator/kgpanel.cpp:318
-#: krusader/Konfigurator/kgpanel.cpp:514
 #: krusader/Konfigurator/kgstartup.cpp:50
 #: krusader/Konfigurator/konfigurator.cpp:153
+#: krusader/Konfigurator/kgpanel.cpp:82 krusader/Konfigurator/kgpanel.cpp:318
+#: krusader/Konfigurator/kgpanel.cpp:514
 msgid "General"
 msgstr "सामान्य"
 
@@ -3255,6 +3255,411 @@ msgid ""
 " and must contain at least one more '.' character"
 msgstr ""
 
+#: krusader/Konfigurator/kgprotocols.cpp:69
+msgid "Links"
+msgstr "लिंक"
+
+#: krusader/Konfigurator/kgprotocols.cpp:73
+msgid "Defined Links"
+msgstr ""
+
+#: krusader/Konfigurator/kgprotocols.cpp:90
+msgid "Add protocol to the link list."
+msgstr ""
+
+#: krusader/Konfigurator/kgprotocols.cpp:95
+msgid "Remove protocol from the link list."
+msgstr ""
+
+#: krusader/Konfigurator/kgprotocols.cpp:107
+msgid "Add mime to the selected protocol on the link list."
+msgstr ""
+
+#: krusader/Konfigurator/kgprotocols.cpp:112
+msgid "Remove mime from the link list."
+msgstr ""
+
+#: krusader/Konfigurator/kgprotocols.cpp:120
+#: krusader/Konfigurator/konfigurator.cpp:166
+msgid "Protocols"
+msgstr "प्रोटोकाल"
+
+#: krusader/Konfigurator/kgprotocols.cpp:131
+msgid "Mimes"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:53
+msgid ""
+"Defines the panel profile used at startup. A panel profile contains:"
+"<ul><li>all the tabs paths</li><li>the current tab</li><li>the active panel</"
+"li></ul><b>&lt;Last session&gt;</b> is a special panel profile which is "
+"saved automatically when Krusader is closed."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:54
+msgid "Startup profile:"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:59
+msgid "<Last session>"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:77
+msgid "Show splashscreen"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:77
+msgid "Display a splashscreen when starting krusader."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:78
+msgid "Single instance mode"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:78
+msgid "Only one Krusader instance is allowed to run."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:88
+msgid "User Interface"
+msgstr "प्रयोक्ता अंतरफलक"
+
+#: krusader/Konfigurator/kgstartup.cpp:92
+msgid "Save settings on exit"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:93
+msgid ""
+"Check the state of the user interface components and restore them to their "
+"condition when last shutdown."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:94
+msgid "Show toolbar"
+msgstr "अओजारपट्टी देखाबू"
+
+#: krusader/Konfigurator/kgstartup.cpp:94
+msgid "Toolbar will be visible after startup."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:95
+msgid "Show statusbar"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:95
+msgid "Statusbar will be visible after startup."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:96
+msgid "Show function keys"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:96
+msgid "Function keys will be visible after startup."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:97
+msgid "Show command line"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:97
+msgid "Command line will be visible after startup."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:98
+msgid "Show terminal emulator"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:99
+msgid "Terminal emulator will be visible after startup."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:100
+msgid "Save last position, size and panel settings"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:101
+msgid ""
+"<p>At startup, the main window will resize itself to the size it was when "
+"last shutdown.                   It will also appear in the same location of "
+"the screen, having panels sorted and aligned as they were before.</"
+"p>                  <p>If this option is disabled, you can use the menu "
+"<i>Window -> Save Position</i> option                   to manually set the "
+"main window's size and position at startup.</p>"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:105
+msgid "Update default panel settings"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:106
+msgid ""
+"When settings of a panel are changed, save them as the default for new "
+"panels of the same type."
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:107
+msgid "Start to tray"
+msgstr ""
+
+#: krusader/Konfigurator/kgstartup.cpp:108
+msgid ""
+"Krusader starts to tray (if minimize to tray is set), without showing the "
+"main window"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:51
+msgid "Information"
+msgstr "सूचना"
+
+#: krusader/Konfigurator/kguseractions.cpp:56
+msgid ""
+"Here you can configure settings about useractions.\n"
+"To set up, configure and manage your useractions please use ActionMan."
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:60
+msgid "Start ActionMan"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:67
+msgid "Terminal execution"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:71
+msgid "Terminal for UserActions:"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:77
+msgid ""
+"%t will be replaced by the title of the action,\n"
+"%d with the workdir."
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:84
+msgid "Output collection"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:89
+msgid "Normal font:"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:102
+msgid "Font with fixed width:"
+msgstr ""
+
+#: krusader/Konfigurator/kguseractions.cpp:114
+msgid "Use fixed width font as default"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:68
+msgid "Konfigurator"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:69
+msgid "Defaults"
+msgstr "मूलभूत"
+
+#: krusader/Konfigurator/konfigurator.cpp:72
+msgid "Konfigurator - Creating Your Own Krusader"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:75
+#: krusader/Queue/queuedialog.cpp:156 krusader/Search/krsearchdialog.cpp:181
+#: krusader/Synchronizer/synchronizergui.cpp:1515
+#: krusader/UserAction/kraction.cpp:67
+msgid "Close"
+msgstr "बन्न करू"
+
+#: krusader/Konfigurator/konfigurator.cpp:147
+msgid "Startup"
+msgstr "प्रारंभमे"
+
+#: krusader/Konfigurator/konfigurator.cpp:147
+msgid "Krusader's settings upon startup"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:149
+#: krusader/Konfigurator/kgpanel.cpp:248 krusader/paneltabbar.cpp:43
+msgid "Panel"
+msgstr "पटल"
+
+#: krusader/Konfigurator/konfigurator.cpp:153
+msgid "Basic Operations"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:155
+msgid "Advanced"
+msgstr "उन्नत"
+
+#: krusader/Konfigurator/konfigurator.cpp:155
+msgid "Be sure you know what you're doing!"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:157
+msgid "Customize the way Krusader deals with archives"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:160
+msgid "Dependencies"
+msgstr "निर्भरता"
+
+#: krusader/Konfigurator/konfigurator.cpp:160
+msgid "Set the full path of the external applications"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:163
+#: krusader/Panel/krpopupmenu.cpp:147
+#: krusader/UserAction/useractionpopupmenu.cpp:29
+msgid "User Actions"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:163
+msgid "Configure your personal actions"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:166
+msgid "Link mimes to protocols"
+msgstr ""
+
+#: krusader/Konfigurator/konfigurator.cpp:221
+msgid "The current page has been changed. Do you want to apply changes?"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:548
+msgid "Custom color"
+msgstr "पसंदीदा रंग"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:556
+msgid "Red"
+msgstr "लाल"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:557
+msgid "Green"
+msgstr "हरिअर"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:558
+msgid "Blue"
+msgstr "नीला"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:559
+msgid "Cyan"
+msgstr "नीलिमा"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:560
+msgid "Magenta"
+msgstr "मैजेन्टा"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:561
+msgid "Yellow"
+msgstr "पिअर"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:562
+msgid "Dark Red"
+msgstr "गहिर लाल"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:563
+msgid "Dark Green"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:564
+msgid "Dark Blue"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:565
+msgid "Dark Cyan"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:566
+msgid "Dark Magenta"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:567
+msgid "Dark Yellow"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:568
+msgid "White"
+msgstr "उज्जर"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:569
+msgid "Light Gray"
+msgstr "हलुक ग्रे"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:570
+msgid "Gray"
+msgstr "ग्रे"
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:571
+msgid "Dark Gray"
+msgstr ""
+
+#: krusader/Konfigurator/konfiguratoritems.cpp:572
+msgid "Black"
+msgstr "करिया"
+
+#: krusader/Konfigurator/krresulttable.cpp:121
+msgid "unarj not found, but arj found, which will be used for unpacking"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:127
+msgid "rpm found, but cpio not found which is required for unpacking"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:130
+#: krusader/Konfigurator/krresulttable.cpp:296
+msgid "Found"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:131
+msgid "Packing"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:132
+msgid "Unpacking"
+msgstr "खोलल जाए रहल अछि"
+
+#: krusader/Konfigurator/krresulttable.cpp:133
+msgid "Note"
+msgstr "नोट"
+
+#: krusader/Konfigurator/krresulttable.cpp:198
+#: krusader/Konfigurator/krresulttable.cpp:216
+#: krusader/Konfigurator/krresulttable.cpp:375
+msgid "enabled"
+msgstr "सक्षम"
+
+#: krusader/Konfigurator/krresulttable.cpp:203
+#: krusader/Konfigurator/krresulttable.cpp:221
+#: krusader/Konfigurator/krresulttable.cpp:380
+msgid "disabled"
+msgstr "निष्क्रिय करू"
+
+#: krusader/Konfigurator/krresulttable.cpp:289
+msgid "diff utility"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:290
+msgid "email client"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:291
+msgid "batch renamer"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:292
+msgid "checksum utility"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:295
+msgid "Tool"
+msgstr ""
+
+#: krusader/Konfigurator/krresulttable.cpp:297
+#: krusader/VFS/kiojobwrapper.cpp:246
+msgid "Status"
+msgstr "स्थिति"
+
 #: krusader/Konfigurator/kgpanel.cpp:90
 msgid "Flat Origin Bar"
 msgstr ""
@@ -3400,11 +3805,6 @@ msgstr ""
 #: krusader/Konfigurator/kgpanel.cpp:247
 msgid "Box"
 msgstr ""
-
-#: krusader/Konfigurator/kgpanel.cpp:248
-#: krusader/Konfigurator/konfigurator.cpp:149 krusader/paneltabbar.cpp:43
-msgid "Panel"
-msgstr "पटल"
 
 #: krusader/Konfigurator/kgpanel.cpp:255
 msgid "Frame Shadow:"
@@ -3830,406 +4230,6 @@ msgid ""
 "context menu. \n"
 "Otherwise, user needs to click and hold the right mouse button for 500ms."
 msgstr ""
-
-#: krusader/Konfigurator/kgprotocols.cpp:69
-msgid "Links"
-msgstr "लिंक"
-
-#: krusader/Konfigurator/kgprotocols.cpp:73
-msgid "Defined Links"
-msgstr ""
-
-#: krusader/Konfigurator/kgprotocols.cpp:90
-msgid "Add protocol to the link list."
-msgstr ""
-
-#: krusader/Konfigurator/kgprotocols.cpp:95
-msgid "Remove protocol from the link list."
-msgstr ""
-
-#: krusader/Konfigurator/kgprotocols.cpp:107
-msgid "Add mime to the selected protocol on the link list."
-msgstr ""
-
-#: krusader/Konfigurator/kgprotocols.cpp:112
-msgid "Remove mime from the link list."
-msgstr ""
-
-#: krusader/Konfigurator/kgprotocols.cpp:120
-#: krusader/Konfigurator/konfigurator.cpp:166
-msgid "Protocols"
-msgstr "प्रोटोकाल"
-
-#: krusader/Konfigurator/kgprotocols.cpp:131
-msgid "Mimes"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:53
-msgid ""
-"Defines the panel profile used at startup. A panel profile contains:"
-"<ul><li>all the tabs paths</li><li>the current tab</li><li>the active panel</"
-"li></ul><b>&lt;Last session&gt;</b> is a special panel profile which is "
-"saved automatically when Krusader is closed."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:54
-msgid "Startup profile:"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:59
-msgid "<Last session>"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:77
-msgid "Show splashscreen"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:77
-msgid "Display a splashscreen when starting krusader."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:78
-msgid "Single instance mode"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:78
-msgid "Only one Krusader instance is allowed to run."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:88
-msgid "User Interface"
-msgstr "प्रयोक्ता अंतरफलक"
-
-#: krusader/Konfigurator/kgstartup.cpp:92
-msgid "Save settings on exit"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:93
-msgid ""
-"Check the state of the user interface components and restore them to their "
-"condition when last shutdown."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:94
-msgid "Show toolbar"
-msgstr "अओजारपट्टी देखाबू"
-
-#: krusader/Konfigurator/kgstartup.cpp:94
-msgid "Toolbar will be visible after startup."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:95
-msgid "Show statusbar"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:95
-msgid "Statusbar will be visible after startup."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:96
-msgid "Show function keys"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:96
-msgid "Function keys will be visible after startup."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:97
-msgid "Show command line"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:97
-msgid "Command line will be visible after startup."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:98
-msgid "Show terminal emulator"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:99
-msgid "Terminal emulator will be visible after startup."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:100
-msgid "Save last position, size and panel settings"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:101
-msgid ""
-"<p>At startup, the main window will resize itself to the size it was when "
-"last shutdown.                   It will also appear in the same location of "
-"the screen, having panels sorted and aligned as they were before.</"
-"p>                  <p>If this option is disabled, you can use the menu "
-"<i>Window -> Save Position</i> option                   to manually set the "
-"main window's size and position at startup.</p>"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:105
-msgid "Update default panel settings"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:106
-msgid ""
-"When settings of a panel are changed, save them as the default for new "
-"panels of the same type."
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:107
-msgid "Start to tray"
-msgstr ""
-
-#: krusader/Konfigurator/kgstartup.cpp:108
-msgid ""
-"Krusader starts to tray (if minimize to tray is set), without showing the "
-"main window"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:51
-msgid "Information"
-msgstr "सूचना"
-
-#: krusader/Konfigurator/kguseractions.cpp:56
-msgid ""
-"Here you can configure settings about useractions.\n"
-"To set up, configure and manage your useractions please use ActionMan."
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:60
-msgid "Start ActionMan"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:67
-msgid "Terminal execution"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:71
-msgid "Terminal for UserActions:"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:77
-msgid ""
-"%t will be replaced by the title of the action,\n"
-"%d with the workdir."
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:84
-msgid "Output collection"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:89
-msgid "Normal font:"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:102
-msgid "Font with fixed width:"
-msgstr ""
-
-#: krusader/Konfigurator/kguseractions.cpp:114
-msgid "Use fixed width font as default"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:68
-msgid "Konfigurator"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:69
-msgid "Defaults"
-msgstr "मूलभूत"
-
-#: krusader/Konfigurator/konfigurator.cpp:72
-msgid "Konfigurator - Creating Your Own Krusader"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:75
-#: krusader/Queue/queuedialog.cpp:156 krusader/Search/krsearchdialog.cpp:181
-#: krusader/Synchronizer/synchronizergui.cpp:1515
-#: krusader/UserAction/kraction.cpp:67
-msgid "Close"
-msgstr "बन्न करू"
-
-#: krusader/Konfigurator/konfigurator.cpp:147
-msgid "Startup"
-msgstr "प्रारंभमे"
-
-#: krusader/Konfigurator/konfigurator.cpp:147
-msgid "Krusader's settings upon startup"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:153
-msgid "Basic Operations"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:155
-msgid "Advanced"
-msgstr "उन्नत"
-
-#: krusader/Konfigurator/konfigurator.cpp:155
-msgid "Be sure you know what you're doing!"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:157
-msgid "Customize the way Krusader deals with archives"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:160
-msgid "Dependencies"
-msgstr "निर्भरता"
-
-#: krusader/Konfigurator/konfigurator.cpp:160
-msgid "Set the full path of the external applications"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:163
-#: krusader/Panel/krpopupmenu.cpp:147
-#: krusader/UserAction/useractionpopupmenu.cpp:29
-msgid "User Actions"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:163
-msgid "Configure your personal actions"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:166
-msgid "Link mimes to protocols"
-msgstr ""
-
-#: krusader/Konfigurator/konfigurator.cpp:221
-msgid "The current page has been changed. Do you want to apply changes?"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:548
-msgid "Custom color"
-msgstr "पसंदीदा रंग"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:556
-msgid "Red"
-msgstr "लाल"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:557
-msgid "Green"
-msgstr "हरिअर"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:558
-msgid "Blue"
-msgstr "नीला"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:559
-msgid "Cyan"
-msgstr "नीलिमा"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:560
-msgid "Magenta"
-msgstr "मैजेन्टा"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:561
-msgid "Yellow"
-msgstr "पिअर"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:562
-msgid "Dark Red"
-msgstr "गहिर लाल"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:563
-msgid "Dark Green"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:564
-msgid "Dark Blue"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:565
-msgid "Dark Cyan"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:566
-msgid "Dark Magenta"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:567
-msgid "Dark Yellow"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:568
-msgid "White"
-msgstr "उज्जर"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:569
-msgid "Light Gray"
-msgstr "हलुक ग्रे"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:570
-msgid "Gray"
-msgstr "ग्रे"
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:571
-msgid "Dark Gray"
-msgstr ""
-
-#: krusader/Konfigurator/konfiguratoritems.cpp:572
-msgid "Black"
-msgstr "करिया"
-
-#: krusader/Konfigurator/krresulttable.cpp:121
-msgid "unarj not found, but arj found, which will be used for unpacking"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:127
-msgid "rpm found, but cpio not found which is required for unpacking"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:130
-#: krusader/Konfigurator/krresulttable.cpp:296
-msgid "Found"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:131
-msgid "Packing"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:132
-msgid "Unpacking"
-msgstr "खोलल जाए रहल अछि"
-
-#: krusader/Konfigurator/krresulttable.cpp:133
-msgid "Note"
-msgstr "नोट"
-
-#: krusader/Konfigurator/krresulttable.cpp:198
-#: krusader/Konfigurator/krresulttable.cpp:216
-#: krusader/Konfigurator/krresulttable.cpp:375
-msgid "enabled"
-msgstr "सक्षम"
-
-#: krusader/Konfigurator/krresulttable.cpp:203
-#: krusader/Konfigurator/krresulttable.cpp:221
-#: krusader/Konfigurator/krresulttable.cpp:380
-msgid "disabled"
-msgstr "निष्क्रिय करू"
-
-#: krusader/Konfigurator/krresulttable.cpp:289
-msgid "diff utility"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:290
-msgid "email client"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:291
-msgid "batch renamer"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:292
-msgid "checksum utility"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:295
-msgid "Tool"
-msgstr ""
-
-#: krusader/Konfigurator/krresulttable.cpp:297
-#: krusader/VFS/kiojobwrapper.cpp:246
-msgid "Status"
-msgstr "स्थिति"
 
 #: krusader/KrJS/krjs.cpp:77
 #, kde-format
@@ -5540,24 +5540,6 @@ msgstr ""
 msgid "Error writing file %1!"
 msgstr ""
 
-#: krusader/Splitter/splitter.cpp:71
-msgid "Krusader::Splitting..."
-msgstr ""
-
-#: krusader/Splitter/splitter.cpp:72
-#, kde-format
-msgid "Splitting the file %1..."
-msgstr ""
-
-#: krusader/Splitter/splitter.cpp:75
-msgid "Can't split a directory!"
-msgstr ""
-
-#: krusader/Splitter/splitter.cpp:234
-#, kde-format
-msgid "Error at writing file %1!"
-msgstr ""
-
 #: krusader/Splitter/splittergui.cpp:45
 msgid "1.44 MB (3.5\")"
 msgstr ""
@@ -5629,6 +5611,24 @@ msgstr ""
 
 #: krusader/Splitter/splittergui.cpp:223
 msgid "The directory path URL is malformed!"
+msgstr ""
+
+#: krusader/Splitter/splitter.cpp:71
+msgid "Krusader::Splitting..."
+msgstr ""
+
+#: krusader/Splitter/splitter.cpp:72
+#, kde-format
+msgid "Splitting the file %1..."
+msgstr ""
+
+#: krusader/Splitter/splitter.cpp:75
+msgid "Can't split a directory!"
+msgstr ""
+
+#: krusader/Splitter/splitter.cpp:234
+#, kde-format
+msgid "Error at writing file %1!"
 msgstr ""
 
 #: krusader/Synchronizer/feedtolistboxdialog.cpp:57
@@ -6771,218 +6771,6 @@ msgstr ""
 msgid "Creating new directories is allowed only in the 'virt:/' directory."
 msgstr ""
 
-#: krusader/kractions.cpp:174
-msgid "Tab-Switch panel"
-msgstr ""
-
-#: krusader/kractions.cpp:179
-msgid "Show Actions Toolbar"
-msgstr ""
-
-#: krusader/kractions.cpp:187
-msgid "Show &FN Keys Bar"
-msgstr ""
-
-#: krusader/kractions.cpp:189
-msgid "Show &Command Line"
-msgstr ""
-
-#: krusader/kractions.cpp:191
-msgid "Show Terminal &Emulator"
-msgstr ""
-
-#: krusader/kractions.cpp:194
-msgid "Show &Hidden Files"
-msgstr ""
-
-#: krusader/kractions.cpp:196
-msgid "Show Previews"
-msgstr ""
-
-#: krusader/kractions.cpp:198
-msgid "S&wap Panels"
-msgstr ""
-
-#: krusader/kractions.cpp:204
-msgid "Sw&ap Sides"
-msgstr ""
-
-#: krusader/kractions.cpp:208
-msgid "popup cmdline"
-msgstr ""
-
-#: krusader/kractions.cpp:212
-msgid "Start &Root Mode Krusader"
-msgstr ""
-
-#: krusader/kractions.cpp:213
-msgid "Pro&files"
-msgstr ""
-
-#: krusader/kractions.cpp:214
-msgid "Sp&lit File..."
-msgstr ""
-
-#: krusader/kractions.cpp:215
-msgid "Com&bine Files..."
-msgstr ""
-
-#: krusader/kractions.cpp:216
-msgid "&Select Newer and Single"
-msgstr ""
-
-#: krusader/kractions.cpp:217
-msgid "Select &Newer"
-msgstr ""
-
-#: krusader/kractions.cpp:218
-msgid "Select &Single"
-msgstr ""
-
-#: krusader/kractions.cpp:219
-msgid "Select Different &and Single"
-msgstr ""
-
-#: krusader/kractions.cpp:220
-msgid "Select &Different"
-msgstr ""
-
-#: krusader/kractions.cpp:235
-msgid "Start and &Forget"
-msgstr ""
-
-#: krusader/kractions.cpp:236
-msgid "Display &Separated Standard and Error Output"
-msgstr ""
-
-#: krusader/kractions.cpp:237
-msgid "Display &Mixed Standard and Error Output"
-msgstr ""
-
-#: krusader/kractions.cpp:238
-msgid "Start in &New Terminal"
-msgstr ""
-
-#: krusader/kractions.cpp:239
-msgid "Send to &Embedded Terminal Emulator"
-msgstr ""
-
-#: krusader/kractions.cpp:256
-msgid "Start &Terminal"
-msgstr ""
-
-#: krusader/kractions.cpp:262
-msgid "&Search..."
-msgstr ""
-
-#: krusader/kractions.cpp:263
-msgid "&Locate..."
-msgstr ""
-
-#: krusader/kractions.cpp:264
-msgid "Synchronize &Directories..."
-msgstr ""
-
-#: krusader/kractions.cpp:265
-msgid "D&isk Usage..."
-msgstr ""
-
-#: krusader/kractions.cpp:266
-msgid "&Queue Manager..."
-msgstr ""
-
-#: krusader/kractions.cpp:267
-msgid "Configure &Krusader..."
-msgstr ""
-
-#: krusader/kractions.cpp:268
-msgid "Save &Position"
-msgstr ""
-
-#: krusader/kractions.cpp:269
-msgid "Compare b&y Content..."
-msgstr ""
-
-#: krusader/kractions.cpp:270
-msgid "Multi &Rename..."
-msgstr ""
-
-#: krusader/kractions.cpp:274 krusader/krusaderview.cpp:380
-msgid "Vertical Mode"
-msgstr ""
-
-#: krusader/kractions.cpp:275
-msgid "New Tab"
-msgstr "नवीन टैब"
-
-#: krusader/kractions.cpp:276
-msgid "Duplicate Current Tab"
-msgstr ""
-
-#: krusader/kractions.cpp:277
-msgid "Close Current Tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: krusader/kractions.cpp:278
-msgid "Next Tab"
-msgstr ""
-
-#: krusader/kractions.cpp:279
-msgid "Previous Tab"
-msgstr ""
-
-#: krusader/kractions.cpp:280
-msgid "Close Inactive Tabs"
-msgstr ""
-
-#: krusader/kractions.cpp:281
-msgid "Close Duplicated Tabs"
-msgstr ""
-
-#: krusader/kractions.cpp:282 krusader/panelmanager.cpp:306
-msgid "Lock Tab"
-msgstr ""
-
-#: krusader/kractions.cpp:290
-msgid "Manage User Actions..."
-msgstr ""
-
-#: krusader/kractions.cpp:292
-msgid "Select Remote Charset"
-msgstr ""
-
-#: krusader/kractions.cpp:294
-msgid "Quit"
-msgstr "बाहर"
-
-#: krusader/kractions.cpp:295
-msgid "Popular URLs..."
-msgstr ""
-
-#: krusader/kractions.cpp:296
-msgid "Toggle Fullwidget Terminal Emulator"
-msgstr ""
-
-#: krusader/kractions.cpp:300
-msgid "Move Focus Up"
-msgstr ""
-
-#: krusader/kractions.cpp:301
-msgid "Move Focus Down"
-msgstr ""
-
-#: krusader/kractions.cpp:304
-msgid "Setup Krusader the way you like it"
-msgstr ""
-
-#: krusader/kractions.cpp:305
-msgid "Search for files"
-msgstr ""
-
-#: krusader/kractions.cpp:311
-msgid "JavaScript Console..."
-msgstr ""
-
 #: krusader/krslots.cpp:116
 msgid "No selected files to send!"
 msgstr ""
@@ -7088,37 +6876,12 @@ msgstr ""
 msgid "Empty trashbin"
 msgstr ""
 
-#: krusader/krusader.cpp:243
-msgid "Statusbar will show basic information about file below mouse pointer."
-msgstr ""
-
-#: krusader/krusader.cpp:337
-msgid ""
-"A configuration of 1.51 or older was detected. Krusader has to reset your "
-"configuration to default values.\n"
-"Note: Your bookmarks and keybindings will remain intact.\n"
-" Krusader will now run Konfigurator."
-msgstr ""
-
-#: krusader/krusader.cpp:349
-msgid ""
-"<qt><b>Welcome to Krusader!</b><p>As this is your first run, your machine "
-"will now be checked for external applications. Then the Konfigurator will be "
-"launched where you can customize Krusader to your needs.</p></qt>"
-msgstr ""
-
-#: krusader/krusader.cpp:568
-msgid "Are you sure you want to quit?"
-msgstr "की अहाँ निश्चित छी जे अहाँ छोड़नाइ चाहैत अछि?"
-
-#: krusader/krusader.cpp:821
-msgid ""
-"Could not create a temporary directory. Handling of Archives will not be "
-"possible until this is fixed."
-msgstr ""
-
 #: krusader/krusaderview.cpp:94
 msgid "Function keys allow performing fast operations on files."
+msgstr ""
+
+#: krusader/krusaderview.cpp:380 krusader/kractions.cpp:274
+msgid "Vertical Mode"
 msgstr ""
 
 #: krusader/krusaderview.cpp:384
@@ -7651,6 +7414,243 @@ msgstr ""
 
 #: krusader/panelmanager.cpp:306
 msgid "Unlock Tab"
+msgstr ""
+
+#: krusader/panelmanager.cpp:306 krusader/kractions.cpp:282
+msgid "Lock Tab"
+msgstr ""
+
+#: krusader/kractions.cpp:174
+msgid "Tab-Switch panel"
+msgstr ""
+
+#: krusader/kractions.cpp:179
+msgid "Show Actions Toolbar"
+msgstr ""
+
+#: krusader/kractions.cpp:187
+msgid "Show &FN Keys Bar"
+msgstr ""
+
+#: krusader/kractions.cpp:189
+msgid "Show &Command Line"
+msgstr ""
+
+#: krusader/kractions.cpp:191
+msgid "Show Terminal &Emulator"
+msgstr ""
+
+#: krusader/kractions.cpp:194
+msgid "Show &Hidden Files"
+msgstr ""
+
+#: krusader/kractions.cpp:196
+msgid "Show Previews"
+msgstr ""
+
+#: krusader/kractions.cpp:198
+msgid "S&wap Panels"
+msgstr ""
+
+#: krusader/kractions.cpp:204
+msgid "Sw&ap Sides"
+msgstr ""
+
+#: krusader/kractions.cpp:208
+msgid "popup cmdline"
+msgstr ""
+
+#: krusader/kractions.cpp:212
+msgid "Start &Root Mode Krusader"
+msgstr ""
+
+#: krusader/kractions.cpp:213
+msgid "Pro&files"
+msgstr ""
+
+#: krusader/kractions.cpp:214
+msgid "Sp&lit File..."
+msgstr ""
+
+#: krusader/kractions.cpp:215
+msgid "Com&bine Files..."
+msgstr ""
+
+#: krusader/kractions.cpp:216
+msgid "&Select Newer and Single"
+msgstr ""
+
+#: krusader/kractions.cpp:217
+msgid "Select &Newer"
+msgstr ""
+
+#: krusader/kractions.cpp:218
+msgid "Select &Single"
+msgstr ""
+
+#: krusader/kractions.cpp:219
+msgid "Select Different &and Single"
+msgstr ""
+
+#: krusader/kractions.cpp:220
+msgid "Select &Different"
+msgstr ""
+
+#: krusader/kractions.cpp:235
+msgid "Start and &Forget"
+msgstr ""
+
+#: krusader/kractions.cpp:236
+msgid "Display &Separated Standard and Error Output"
+msgstr ""
+
+#: krusader/kractions.cpp:237
+msgid "Display &Mixed Standard and Error Output"
+msgstr ""
+
+#: krusader/kractions.cpp:238
+msgid "Start in &New Terminal"
+msgstr ""
+
+#: krusader/kractions.cpp:239
+msgid "Send to &Embedded Terminal Emulator"
+msgstr ""
+
+#: krusader/kractions.cpp:256
+msgid "Start &Terminal"
+msgstr ""
+
+#: krusader/kractions.cpp:262
+msgid "&Search..."
+msgstr ""
+
+#: krusader/kractions.cpp:263
+msgid "&Locate..."
+msgstr ""
+
+#: krusader/kractions.cpp:264
+msgid "Synchronize &Directories..."
+msgstr ""
+
+#: krusader/kractions.cpp:265
+msgid "D&isk Usage..."
+msgstr ""
+
+#: krusader/kractions.cpp:266
+msgid "&Queue Manager..."
+msgstr ""
+
+#: krusader/kractions.cpp:267
+msgid "Configure &Krusader..."
+msgstr ""
+
+#: krusader/kractions.cpp:268
+msgid "Save &Position"
+msgstr ""
+
+#: krusader/kractions.cpp:269
+msgid "Compare b&y Content..."
+msgstr ""
+
+#: krusader/kractions.cpp:270
+msgid "Multi &Rename..."
+msgstr ""
+
+#: krusader/kractions.cpp:275
+msgid "New Tab"
+msgstr "नवीन टैब"
+
+#: krusader/kractions.cpp:276
+msgid "Duplicate Current Tab"
+msgstr ""
+
+#: krusader/kractions.cpp:277
+msgid "Close Current Tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: krusader/kractions.cpp:278
+msgid "Next Tab"
+msgstr ""
+
+#: krusader/kractions.cpp:279
+msgid "Previous Tab"
+msgstr ""
+
+#: krusader/kractions.cpp:280
+msgid "Close Inactive Tabs"
+msgstr ""
+
+#: krusader/kractions.cpp:281
+msgid "Close Duplicated Tabs"
+msgstr ""
+
+#: krusader/kractions.cpp:290
+msgid "Manage User Actions..."
+msgstr ""
+
+#: krusader/kractions.cpp:292
+msgid "Select Remote Charset"
+msgstr ""
+
+#: krusader/kractions.cpp:294
+msgid "Quit"
+msgstr "बाहर"
+
+#: krusader/kractions.cpp:295
+msgid "Popular URLs..."
+msgstr ""
+
+#: krusader/kractions.cpp:296
+msgid "Toggle Fullwidget Terminal Emulator"
+msgstr ""
+
+#: krusader/kractions.cpp:300
+msgid "Move Focus Up"
+msgstr ""
+
+#: krusader/kractions.cpp:301
+msgid "Move Focus Down"
+msgstr ""
+
+#: krusader/kractions.cpp:304
+msgid "Setup Krusader the way you like it"
+msgstr ""
+
+#: krusader/kractions.cpp:305
+msgid "Search for files"
+msgstr ""
+
+#: krusader/kractions.cpp:311
+msgid "JavaScript Console..."
+msgstr ""
+
+#: krusader/krusader.cpp:243
+msgid "Statusbar will show basic information about file below mouse pointer."
+msgstr ""
+
+#: krusader/krusader.cpp:337
+msgid ""
+"A configuration of 1.51 or older was detected. Krusader has to reset your "
+"configuration to default values.\n"
+"Note: Your bookmarks and keybindings will remain intact.\n"
+" Krusader will now run Konfigurator."
+msgstr ""
+
+#: krusader/krusader.cpp:349
+msgid ""
+"<qt><b>Welcome to Krusader!</b><p>As this is your first run, your machine "
+"will now be checked for external applications. Then the Konfigurator will be "
+"launched where you can customize Krusader to your needs.</p></qt>"
+msgstr ""
+
+#: krusader/krusader.cpp:568
+msgid "Are you sure you want to quit?"
+msgstr "की अहाँ निश्चित छी जे अहाँ छोड़नाइ चाहैत अछि?"
+
+#: krusader/krusader.cpp:821
+msgid ""
+"Could not create a temporary directory. Handling of Archives will not be "
+"possible until this is fixed."
 msgstr ""
 
 #: krArc/krarc.cpp:195

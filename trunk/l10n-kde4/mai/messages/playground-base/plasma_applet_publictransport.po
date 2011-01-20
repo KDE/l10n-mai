@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_publictransport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-19 02:48+0100\n"
+"POT-Creation-Date: 2011-01-20 02:48+0100\n"
 "PO-Revision-Date: 2010-09-24 13:36+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -548,12 +548,19 @@ msgid_plural "%1 hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: global.cpp:324
-#, kde-format
-msgid "@info/plain Duration string with zero hours, %1 is minutes"
-msgid_plural "%1 minute"
-msgstr[0] ""
-msgstr[1] ""
+#: global.cpp:325
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "The automatically added relative time string, when the journey search "
+#| "line ends with the keyword 'in'. This should be match by the regular "
+#| "expression for a relative time, like '(in) 5 minutes'. That regexp and "
+#| "the keyword ('in') are also localizable. Don't include the 'in' here."
+#| msgid "%1 minutes"
+msgctxt "@info/plain Duration string with zero hours, %1 is minutes"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 मिनट"
+msgstr[1] "%1 मिनट"
 
 #: global.cpp:328
 msgctxt ""

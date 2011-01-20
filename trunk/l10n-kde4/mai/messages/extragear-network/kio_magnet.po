@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_magnet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-14 02:58+0100\n"
+"POT-Creation-Date: 2011-01-17 02:40+0100\n"
 "PO-Revision-Date: 2010-09-24 13:07+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,61 +17,74 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: kio_magnet.cpp:154 kio_magnet.cpp:236 kio_magnet.cpp:265
+#: dbushandler.cpp:90
+msgid ""
+"The Web share for magnet-links is disabled.         You can set it up at "
+"settings:/network-and-connectivity/sharing"
+msgstr ""
+
+#: dbushandler.cpp:110
+msgid ""
+"Cannot start process for KTorrent.                           This should not "
+"happen, even if KTorrent is not installed.                           Check "
+"your machines resources and limits."
+msgstr ""
+
+#: dbushandler.cpp:137
+#, kde-format
+msgid ""
+"Could not connect to KTorrent via DBus                                     "
+"after %1 seconds. Is it broken?"
+msgstr ""
+
+#: dbushandler.cpp:156
+msgid ""
+"Could not get the group list, do you have a compatible KTorrent version "
+"running?"
+msgstr ""
+
+#: dbushandler.cpp:276
+#, kde-format
+msgid "The link for %1 does not contain the required btih hash-parameter."
+msgstr ""
+
+#: dbushandler.cpp:336
+msgid "(no name given)"
+msgstr ""
+
+#: dbushandler.cpp:339
+msgid "(no path given)"
+msgstr ""
+
+#: dbushandler.cpp:342
+msgid "(magnet dht)"
+msgstr ""
+
+#: dbushandler.cpp:557
+msgid "Torrent has been removed from KTorrent."
+msgstr ""
+
+#: kio_magnet.cpp:242
 #, kde-format
 msgid ""
 "File exits in KTorrent, but cannot open it on disk at path \"%1\". Have you "
 "removed the file manually?"
 msgstr ""
 
-#: kio_magnet.cpp:195
+#: kio_magnet.cpp:306
+msgid "You cannot write to magnet resources."
+msgstr ""
+
+#: kio_magnet.cpp:322 kio_magnet.cpp:352
 #, kde-format
-msgid "Do you want to download and share the torrent-file: \"%1\"?"
-msgstr ""
-
-#: kio_magnet.cpp:196
-msgid "Magnet-Link confirmation"
-msgstr ""
-
-#: kio_magnet.cpp:197
-#, kde-format
-msgid "Download of torrent-file \"%1\" rejected by user."
-msgstr ""
-
-#: ktorrentdbusinterface.cpp:82
 msgid ""
-"The Web share for magnet-links is disabled.         You can set it up at "
-"settings:/network-and-connectivity/sharing"
+"File exists in KTorrent, but cannot open it on disk at path \"%1\". Have you "
+"removed the file manually?"
 msgstr ""
 
-#: ktorrentdbusinterface.cpp:100
-msgid ""
-"Cannot start process for KTorrent. This should not happen, \t\t\t   even if "
-"KTorrent is not installed."
-msgstr ""
-
-#: ktorrentdbusinterface.cpp:124
+#: kio_magnet.cpp:329
 #, kde-format
-msgid "Could not connect to KTorrent via DBus after %1 seconds. Is it broken?"
-msgstr ""
-
-#: ktorrentdbusinterface.cpp:141
-msgid ""
-"Could not get the group list, do you have a compatible KTorrent version "
-"running?"
-msgstr ""
-
-#: ktorrentdbusinterface.cpp:204
-#, kde-format
-msgid "The link for %1 does not contain the required btih hash-parameter."
-msgstr ""
-
-#: ktorrentdbusinterface.cpp:384
-msgid "Could not fetch path from KTorrent."
-msgstr ""
-
-#: ktorrentdbusinterface.cpp:412
-msgid "Torrent has been removed from KTorrent."
+msgid "File \"%1\" is a directory. This should not happen. Please file a bug."
 msgstr ""
 
 #~ msgid "License issue"
