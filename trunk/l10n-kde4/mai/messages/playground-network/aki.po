@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aki\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-16 02:49+0100\n"
+"POT-Creation-Date: 2011-01-23 03:14+0100\n"
 "PO-Revision-Date: 2010-09-24 12:58+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -139,71 +139,71 @@ msgstr "चैनल"
 msgid "Password:"
 msgstr "कूटशब्द: "
 
-#: aki/dialogs/identitydialog.cxx:119
+#: aki/dialogs/quickconnectiondialog.cxx:44 aki/dialogs/networkdialog.cxx:149
+msgid "Connect"
+msgstr "जोड़ू"
+
+#: aki/dialogs/identitydialog.cxx:169
 msgid "Add New Identity"
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:119
+#: aki/dialogs/identitydialog.cxx:169
 msgid "Enter a new identity name."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:126
+#: aki/dialogs/identitydialog.cxx:176
 msgid "Unable to add identity. Identity already exists."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:139
+#: aki/dialogs/identitydialog.cxx:189
 #, fuzzy
 #| msgid "Nickname:"
 msgid "Add New Nickname"
 msgstr "उपनामः"
 
-#: aki/dialogs/identitydialog.cxx:139 aki/dialogs/identitydialog.cxx:215
+#: aki/dialogs/identitydialog.cxx:189 aki/dialogs/identitydialog.cxx:268
 msgid "Enter a new nickname."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:146
+#: aki/dialogs/identitydialog.cxx:196
 msgid "Unable to add nickname. Nickname already exists."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:189
+#: aki/dialogs/identitydialog.cxx:242
 msgid "Edit Identity"
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:189
+#: aki/dialogs/identitydialog.cxx:242
 msgid "Enter a new identity."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:196
+#: aki/dialogs/identitydialog.cxx:249
 msgid "Unable to edit Identity. Identity already exists."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:215
+#: aki/dialogs/identitydialog.cxx:268
 #, fuzzy
 #| msgid "Nickname:"
 msgid "Edit Nickname"
 msgstr "उपनामः"
 
-#: aki/dialogs/identitydialog.cxx:222
+#: aki/dialogs/identitydialog.cxx:275
 msgid "Unable to edit nickname. Nickname already exists."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:310 aki/dialogs/identitydialog.cxx:332
+#: aki/dialogs/identitydialog.cxx:362 aki/dialogs/identitydialog.cxx:384
 #: aki/dialogs/networkdialog.cxx:453 aki/dialogs/networkdialog.cxx:484
 #, kde-format
 msgid "You are about to remove %1. This cannot be undone."
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:312
+#: aki/dialogs/identitydialog.cxx:364
 msgid "Confirm Identity Deletion"
 msgstr ""
 
-#: aki/dialogs/identitydialog.cxx:334
+#: aki/dialogs/identitydialog.cxx:386
 msgid "Confirm Nickname Deletion"
 msgstr ""
-
-#: aki/dialogs/networkdialog.cxx:149 aki/dialogs/quickconnectiondialog.cxx:44
-msgid "Connect"
-msgstr "जोड़ू"
 
 #: aki/dialogs/networkdialog.cxx:255
 #, fuzzy
@@ -236,6 +236,50 @@ msgstr ""
 #: aki/dialogs/networkdialog.cxx:486
 msgid "Confirm Network Deletion"
 msgstr ""
+
+#: aki/dialogs/welcomedialog.cxx:29
+msgid "IRC Setup"
+msgstr ""
+
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:45
+#, fuzzy
+#| msgid "Networks"
+msgid "Network Name:"
+msgstr "नेटवर्क"
+
+#. i18n: file: aki/dialogs/ui/networkdialog.ui:191
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:58 rc.cpp:170
+msgid "Servers"
+msgstr "सर्वर"
+
+#. i18n: file: aki/dialogs/ui/networkdialog.ui:250
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:71 rc.cpp:185
+msgid "Channels"
+msgstr "चैनल"
+
+#. i18n: file: aki/dialogs/ui/networkdialog.ui:349
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:83 rc.cpp:209
+msgid "Authentication"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/networkdialog.ui:357
+#. i18n: ectx: property (title), widget (QGroupBox, autoIdentifyGroupBox)
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:89 rc.cpp:212
+msgid "Auto Identify"
+msgstr ""
+
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:100
+msgid "Service Name"
+msgstr ""
+
+#: aki/dialogs/welcomedialogpages/serverwelcomepage.cxx:110
+#, fuzzy
+#| msgid "Password:"
+msgid "Service Password"
+msgstr "कूटशब्द: "
 
 #: aki/docks/privatemessages/privatemessagedock.cxx:26
 #, fuzzy
@@ -356,36 +400,36 @@ msgstr ""
 msgid "Aki IRC Client"
 msgstr ""
 
-#: aki/mainwindow.cxx:131
+#: aki/mainwindow.cxx:134
 #, fuzzy
 #| msgid "Networks"
 msgid "Network List"
 msgstr "नेटवर्क"
 
-#: aki/mainwindow.cxx:132
+#: aki/mainwindow.cxx:135
 msgid "Quick Connection"
 msgstr ""
 
-#: aki/mainwindow.cxx:134
+#: aki/mainwindow.cxx:137
 msgid "Reconnect"
 msgstr "फिनु जोड़ू"
 
-#: aki/mainwindow.cxx:135
+#: aki/mainwindow.cxx:138
 msgid "Disconnect"
 msgstr "डिसकनेक्ट करू"
 
-#: aki/mainwindow.cxx:136
+#: aki/mainwindow.cxx:139
 #, fuzzy
 #| msgctxt "Quit application"
 #| msgid "&Quit"
 msgid "Quit"
 msgstr "छोड़ू (&Q)"
 
-#: aki/mainwindow.cxx:137
+#: aki/mainwindow.cxx:140
 msgid "Identities..."
 msgstr ""
 
-#: aki/mainwindow.cxx:139
+#: aki/mainwindow.cxx:142
 msgid "Bookmarks"
 msgstr ""
 
@@ -805,12 +849,6 @@ msgstr ""
 msgid "Connect on startup"
 msgstr ""
 
-#. i18n: file: aki/dialogs/ui/networkdialog.ui:191
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:170
-msgid "Servers"
-msgstr "सर्वर"
-
 #. i18n: file: aki/dialogs/ui/networkdialog.ui:201
 #. i18n: ectx: property (text), widget (KPushButton, addAddressButton)
 #: rc.cpp:173
@@ -836,12 +874,6 @@ msgstr ""
 #: rc.cpp:182
 msgid "Connect to random servers"
 msgstr ""
-
-#. i18n: file: aki/dialogs/ui/networkdialog.ui:250
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:185
-msgid "Channels"
-msgstr "चैनल"
 
 #. i18n: file: aki/dialogs/ui/networkdialog.ui:260
 #. i18n: ectx: property (text), widget (KPushButton, addChannelButton)
@@ -894,18 +926,6 @@ msgstr "एनकोडिंग"
 #| msgid "Encoding"
 msgid "Encoding:"
 msgstr "एनकोडिंग"
-
-#. i18n: file: aki/dialogs/ui/networkdialog.ui:349
-#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: rc.cpp:209
-msgid "Authentication"
-msgstr ""
-
-#. i18n: file: aki/dialogs/ui/networkdialog.ui:357
-#. i18n: ectx: property (title), widget (QGroupBox, autoIdentifyGroupBox)
-#: rc.cpp:212
-msgid "Auto Identify"
-msgstr ""
 
 #. i18n: file: aki/dialogs/ui/networkdialog.ui:371
 #. i18n: ectx: property (text), widget (QLabel, label_5)
