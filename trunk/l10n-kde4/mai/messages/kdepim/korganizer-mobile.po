@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer-mobile\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-22 02:48+0100\n"
+"POT-Creation-Date: 2011-01-25 02:57+0100\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,6 +17,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: BulkActionComponent.qml:31
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "1 calendar"
+msgid_plural "%1 calendars"
+msgstr[0] "कैलेंडर"
+msgstr[1] "कैलेंडर"
+
+#: EventListView.qml:44
+#, kde-format
+msgid "%1 (%2)"
+msgstr ""
 
 #: eventsexporthandler.cpp:31
 msgid "Which events shall be exported?"
@@ -82,6 +95,14 @@ msgstr ""
 msgid "KOrganizer Mobile"
 msgstr ""
 
+#: ConfigDialog.qml:84
+msgid "Ok"
+msgstr ""
+
+#: ConfigDialog.qml:96
+msgid "Cancel"
+msgstr ""
+
 #: configwidget.cpp:43 configwidget.cpp:48
 msgid "Category inside, calendar outside"
 msgstr ""
@@ -111,7 +132,7 @@ msgctxt "No holiday region"
 msgid "None"
 msgstr ""
 
-#: mainview.cpp:127 rc.cpp:225
+#: mainview.cpp:127 KorganizerActions.qml:202
 msgid "Calendar"
 msgstr "कैलेंडर"
 
@@ -345,7 +366,7 @@ msgstr "जोड़ू"
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: mainview.cpp:517 rc.cpp:189 rc.cpp:224
+#: mainview.cpp:517 KorganizerActions.qml:85 KorganizerActions.qml:192
 msgid "Edit"
 msgstr "संपादन"
 
@@ -383,6 +404,189 @@ msgstr ""
 #: mainview.cpp:729
 msgid "No item selected."
 msgstr ""
+
+#: KorganizerActions.qml:37
+msgid "Home"
+msgstr "घर"
+
+#: KorganizerActions.qml:39
+#, fuzzy
+#| msgid "Calendar"
+msgid "Select Multiple Calendars"
+msgstr "कैलेंडर"
+
+#: KorganizerActions.qml:49
+msgid "Accounts"
+msgstr "खाता"
+
+#: KorganizerActions.qml:57
+msgid "Account"
+msgstr "खाता"
+
+#: KorganizerActions.qml:68 KorganizerActions.qml:96 KorganizerActions.qml:114
+#: KorganizerActions.qml:138 KorganizerActions.qml:162
+msgid "View"
+msgstr "दृश्य"
+
+#: KorganizerActions.qml:69 KorganizerActions.qml:97 KorganizerActions.qml:116
+#: KorganizerActions.qml:139 KorganizerActions.qml:163
+msgid "Add View As Favorite"
+msgstr ""
+
+#: KorganizerActions.qml:70 KorganizerActions.qml:98 KorganizerActions.qml:117
+msgid "Switch To Editing Mode"
+msgstr ""
+
+#: KorganizerActions.qml:76
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: KorganizerActions.qml:104
+msgid "Folders"
+msgstr "फोल्डरसभ"
+
+#: KorganizerActions.qml:115 KorganizerActions.qml:164
+#, fuzzy
+#| msgid "Calendar"
+msgid "Select Calendars"
+msgstr "कैलेंडर"
+
+#: KorganizerActions.qml:123
+msgid "Choice"
+msgstr ""
+
+#: KorganizerActions.qml:125 KorganizerActions.qml:149
+#, fuzzy
+#| msgid "Today"
+msgid "Show Today"
+msgstr "आइ"
+
+#: KorganizerActions.qml:126 KorganizerActions.qml:150
+msgid "Day View"
+msgstr "दिवस दृश्य"
+
+#: KorganizerActions.qml:127 KorganizerActions.qml:151
+msgid "Next Three Days View"
+msgstr ""
+
+#: KorganizerActions.qml:128 KorganizerActions.qml:152
+msgid "Week View"
+msgstr "सप्ताह दृश्य"
+
+#: KorganizerActions.qml:129 KorganizerActions.qml:153
+#, fuzzy
+#| msgid "Week View"
+msgid "Work Week View"
+msgstr "सप्ताह दृश्य"
+
+#: KorganizerActions.qml:130 KorganizerActions.qml:154
+msgid "Month View"
+msgstr "महिना दृश्य"
+
+#: KorganizerActions.qml:131 KorganizerActions.qml:155
+msgid "Event List View"
+msgstr ""
+
+#: KorganizerActions.qml:132 KorganizerActions.qml:156
+#: korganizer-mobile.qml:337
+msgid "Timeline"
+msgstr ""
+
+#: KorganizerActions.qml:141
+msgid "Back To Folder Selection"
+msgstr ""
+
+#: KorganizerActions.qml:147
+msgid "Calendars"
+msgstr "कैलेंडर"
+
+#: KorganizerActions.qml:170
+msgid "Event"
+msgstr "घटना"
+
+#: KorganizerActions.qml:185
+msgid "Attachments"
+msgstr "संलग्नक"
+
+#: KorganizerActions.qml:207
+#, fuzzy
+#| msgid "Edit Event"
+msgid "Search For Events"
+msgstr "घटना संपादित करू"
+
+#: KorganizerActions.qml:208
+#, fuzzy
+#| msgid "Calendar"
+msgid "Configure Calendar"
+msgstr "कैलेंडर"
+
+#: korganizer-mobile.qml:221
+#, fuzzy, kde-format
+#| msgid "Folder"
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "फोल्डर"
+msgstr[1] "फोल्डर"
+
+#: korganizer-mobile.qml:222
+#, kde-format
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: korganizer-mobile.qml:223
+#, fuzzy, kde-format
+#| msgid "Event"
+msgid "1 event"
+msgid_plural "%1 events"
+msgstr[0] "घटना"
+msgstr[1] "घटना"
+
+#: korganizer-mobile.qml:220
+#, kde-format
+msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 events"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
+msgstr ""
+
+#: korganizer-mobile.qml:240
+msgid "Select"
+msgstr "चुनू"
+
+#: korganizer-mobile.qml:269 korganizer-mobile.qml:349
+msgid "New Appointment"
+msgstr ""
+
+#: korganizer-mobile.qml:301
+msgid "yyyy-MM-dd"
+msgstr ""
+
+#: korganizer-mobile.qml:310
+msgid "Day view"
+msgstr ""
+
+#: korganizer-mobile.qml:319
+msgid "Week view"
+msgstr ""
+
+#: korganizer-mobile.qml:328
+msgid "Month view"
+msgstr ""
+
+#: korganizer-mobile.qml:369
+msgid "Actions"
+msgstr "क्रियासभ"
+
+#: korganizer-mobile.qml:546
+#, kde-format
+msgid "One event found"
+msgid_plural "%1 events found"
+msgstr[0] ""
+msgstr[1] ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -763,207 +967,6 @@ msgstr "फोल्डर"
 #| msgid "Folder"
 msgid "only in folder"
 msgstr "फोल्डर"
-
-#: rc.cpp:177
-#, fuzzy, kde-format
-#| msgid "Calendar"
-msgid "1 calendar"
-msgid_plural "%1 calendars"
-msgstr[0] "कैलेंडर"
-msgstr[1] "कैलेंडर"
-
-#: rc.cpp:178
-#, kde-format
-msgid "%1 (%2)"
-msgstr ""
-
-#: rc.cpp:179
-msgid "Ok"
-msgstr ""
-
-#: rc.cpp:180
-msgid "Cancel"
-msgstr ""
-
-#: rc.cpp:181
-msgid "Home"
-msgstr "घर"
-
-#: rc.cpp:182
-#, fuzzy
-#| msgid "Calendar"
-msgid "Select Multiple Calendars"
-msgstr "कैलेंडर"
-
-#: rc.cpp:183
-msgid "Accounts"
-msgstr "खाता"
-
-#: rc.cpp:184
-msgid "Account"
-msgstr "खाता"
-
-#: rc.cpp:185 rc.cpp:190 rc.cpp:194 rc.cpp:207 rc.cpp:219
-msgid "View"
-msgstr "दृश्य"
-
-#: rc.cpp:186 rc.cpp:191 rc.cpp:196 rc.cpp:208 rc.cpp:220
-msgid "Add View As Favorite"
-msgstr ""
-
-#: rc.cpp:187 rc.cpp:192 rc.cpp:197
-msgid "Switch To Editing Mode"
-msgstr ""
-
-#: rc.cpp:188
-msgid "Folder"
-msgstr "फोल्डर"
-
-#: rc.cpp:193
-msgid "Folders"
-msgstr "फोल्डरसभ"
-
-#: rc.cpp:195 rc.cpp:221
-#, fuzzy
-#| msgid "Calendar"
-msgid "Select Calendars"
-msgstr "कैलेंडर"
-
-#: rc.cpp:198
-msgid "Choice"
-msgstr ""
-
-#: rc.cpp:199 rc.cpp:211
-#, fuzzy
-#| msgid "Today"
-msgid "Show Today"
-msgstr "आइ"
-
-#: rc.cpp:200 rc.cpp:212
-msgid "Day View"
-msgstr "दिवस दृश्य"
-
-#: rc.cpp:201 rc.cpp:213
-msgid "Next Three Days View"
-msgstr ""
-
-#: rc.cpp:202 rc.cpp:214
-msgid "Week View"
-msgstr "सप्ताह दृश्य"
-
-#: rc.cpp:203 rc.cpp:215
-#, fuzzy
-#| msgid "Week View"
-msgid "Work Week View"
-msgstr "सप्ताह दृश्य"
-
-#: rc.cpp:204 rc.cpp:216
-msgid "Month View"
-msgstr "महिना दृश्य"
-
-#: rc.cpp:205 rc.cpp:217
-msgid "Event List View"
-msgstr ""
-
-#: rc.cpp:206 rc.cpp:218 rc.cpp:239
-msgid "Timeline"
-msgstr ""
-
-#: rc.cpp:209
-msgid "Back To Folder Selection"
-msgstr ""
-
-#: rc.cpp:210
-msgid "Calendars"
-msgstr "कैलेंडर"
-
-#: rc.cpp:222
-msgid "Event"
-msgstr "घटना"
-
-#: rc.cpp:223
-msgid "Attachments"
-msgstr "संलग्नक"
-
-#: rc.cpp:226
-#, fuzzy
-#| msgid "Edit Event"
-msgid "Search For Events"
-msgstr "घटना संपादित करू"
-
-#: rc.cpp:227
-#, fuzzy
-#| msgid "Calendar"
-msgid "Configure Calendar"
-msgstr "कैलेंडर"
-
-#: rc.cpp:230
-#, fuzzy, kde-format
-#| msgid "Folder"
-msgid "1 folder"
-msgid_plural "%1 folders"
-msgstr[0] "फोल्डर"
-msgstr[1] "फोल्डर"
-
-#: rc.cpp:231
-#, kde-format
-msgid "from 1 account"
-msgid_plural "from %1 accounts"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:232
-#, fuzzy, kde-format
-#| msgid "Event"
-msgid "1 event"
-msgid_plural "%1 events"
-msgstr[0] "घटना"
-msgstr[1] "घटना"
-
-#: rc.cpp:233
-msgid "Select"
-msgstr "चुनू"
-
-#: rc.cpp:234 rc.cpp:240
-msgid "New Appointment"
-msgstr ""
-
-#: rc.cpp:235
-msgid "yyyy-MM-dd"
-msgstr ""
-
-#: rc.cpp:236
-msgid "Day view"
-msgstr ""
-
-#: rc.cpp:237
-msgid "Week view"
-msgstr ""
-
-#: rc.cpp:238
-msgid "Month view"
-msgstr ""
-
-#: rc.cpp:241
-msgid "Actions"
-msgstr "क्रियासभ"
-
-#: rc.cpp:242
-#, kde-format
-msgid "One event found"
-msgid_plural "%1 events found"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:229
-#, kde-format
-msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 events"
-msgid ""
-"You have selected \n"
-"%1\n"
-"%2\n"
-"%3"
-msgstr ""
 
 #, fuzzy
 #~| msgid "Folder"

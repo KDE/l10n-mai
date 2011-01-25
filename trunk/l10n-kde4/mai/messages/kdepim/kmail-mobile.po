@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail-mobile\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-22 02:48+0100\n"
+"POT-Creation-Date: 2011-01-25 02:57+0100\n"
 "PO-Revision-Date: 2010-09-24 16:27+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,6 +17,285 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: AclEditor.qml:43
+#, kde-format
+msgid "<b>Access Control List for '%1'</b>"
+msgstr ""
+
+#: AclEditor.qml:81
+msgid "Save"
+msgstr ""
+
+#: AclEditor.qml:94 ConfigDialog.qml:72
+msgid "Cancel"
+msgstr ""
+
+#: BulkActionComponent.qml:33 kmail-mobile.qml:183
+#, fuzzy, kde-format
+#| msgid "Folder"
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "फोल्डर"
+msgstr[1] "फोल्डर"
+
+#: ConfigDialog.qml:60
+msgid "Ok"
+msgstr ""
+
+#: EditorView.qml:34
+msgid "Subject:"
+msgstr "विषय:"
+
+#: EditorView.qml:83
+msgid "Message will be signed"
+msgstr ""
+
+#: EditorView.qml:97
+msgid "Message will be encrypted"
+msgstr ""
+
+#: EditorView.qml:131
+msgid "Identity:"
+msgstr ""
+
+#: ForwardOptionsPage.qml:53 mailactionmanager.cpp:81
+msgid "Forward as Attachment"
+msgstr ""
+
+#: ForwardOptionsPage.qml:61 mailactionmanager.cpp:84
+msgid "Redirect"
+msgstr ""
+
+#: ForwardOptionsPage.qml:69 MarkAsPage.qml:77 NewMailPage.qml:67
+#: ReplyOptionsPage.qml:85 mainview.cpp:716
+msgid "Discard"
+msgstr ""
+
+#: HeaderView.qml:139
+#, kde-format
+msgctxt "This text is only visible if messages > 1"
+msgid "%2 messages, %1 unread"
+msgid_plural "%2 messages, %1 unread"
+msgstr[0] ""
+msgstr[1] ""
+
+#: HeaderView.qml:141
+#, fuzzy, kde-format
+#| msgid "Forward"
+msgid "One message"
+msgid_plural "%1 messages"
+msgstr[0] "आगाँक तरफ"
+msgstr[1] "आगाँक तरफ"
+
+#: KMailActions.qml:36
+msgid "Home"
+msgstr "घर"
+
+#: KMailActions.qml:46
+#, fuzzy
+#| msgid "Select"
+msgid "Select Multiple Folders"
+msgstr "चुनू"
+
+#: KMailActions.qml:58
+msgid "Accounts"
+msgstr "खाता"
+
+#: KMailActions.qml:66
+#, fuzzy
+#| msgid "Folders"
+msgid "Filter"
+msgstr "फोल्डरसभ"
+
+#: KMailActions.qml:79
+msgid "Account"
+msgstr "खाता"
+
+#: KMailActions.qml:90
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: KMailActions.qml:98
+#, fuzzy
+#| msgid "Edit"
+msgid "Edit ACLs"
+msgstr "संपादन"
+
+#: KMailActions.qml:104 KMailActions.qml:203 KMailComposerActions.qml:46
+#: mainview.cpp:1322
+msgid "Edit"
+msgstr "संपादन"
+
+#: KMailActions.qml:115 KMailActions.qml:138 KMailActions.qml:183
+msgid "View"
+msgstr "दृश्य"
+
+#: KMailActions.qml:116 KMailActions.qml:139
+msgid "Add View As Favorite"
+msgstr ""
+
+#: KMailActions.qml:117 KMailActions.qml:141
+msgid "Switch To Editing Mode"
+msgstr ""
+
+#: KMailActions.qml:126
+msgid "Folders"
+msgstr "फोल्डरसभ"
+
+#: KMailActions.qml:140
+#, fuzzy
+#| msgid "Select"
+msgid "Select Folders"
+msgstr "चुनू"
+
+#: KMailActions.qml:150
+msgid "Email"
+msgstr "इमेल"
+
+#: KMailActions.qml:170
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Mark Email As"
+msgstr "sangeeta09@gmail.com"
+
+#: KMailActions.qml:185
+msgid "Copy Email To Clipboard"
+msgstr ""
+
+#: KMailActions.qml:195
+msgid "Attachments"
+msgstr "संलग्नक"
+
+#: KMailActions.qml:196
+#, fuzzy
+#| msgid "Attachments"
+msgid "Save All Attachments"
+msgstr "संलग्नक"
+
+#: KMailActions.qml:213 mainview.cpp:379
+#, fuzzy
+#| msgid "Email"
+msgid "Mail"
+msgstr "इमेल"
+
+#: KMailActions.qml:219
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Search For Emails"
+msgstr "sangeeta09@gmail.com"
+
+#: KMailActions.qml:220
+msgid "Configure Mail"
+msgstr ""
+
+#: KMailComposerActions.qml:37
+#, fuzzy
+#| msgid "Forward"
+msgid "Message"
+msgstr "आगाँक तरफ"
+
+#: KMailComposerActions.qml:59
+#, fuzzy
+#| msgid "Actions"
+msgid "Options"
+msgstr "क्रियासभ"
+
+#: KMailComposerActions.qml:71
+#, fuzzy
+#| msgid "Sign"
+msgid "Signature"
+msgstr "हस्ताक्षर करू"
+
+#: KMailComposerActions.qml:80
+msgid "Security"
+msgstr ""
+
+#: KMailComposerActions.qml:88
+msgid "Snippets"
+msgstr ""
+
+#. i18n: file: configwidget.ui:83
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: KMailComposerActions.qml:94 rc.cpp:17
+msgid "Composer"
+msgstr ""
+
+#: KMailComposerActions.qml:95
+msgid "Configure Identity"
+msgstr ""
+
+#: KMailComposerActions.qml:96
+msgid "Configure Transport"
+msgstr ""
+
+#: KMailComposerActions.qml:97 composerview.cpp:535
+msgid "Close Composer"
+msgstr ""
+
+#: ReplyOptionsPage.qml:53 mailactionmanager.cpp:67
+msgid "Reply to Author"
+msgstr ""
+
+#: ReplyOptionsPage.qml:61 mailactionmanager.cpp:64
+msgid "Reply to All"
+msgstr ""
+
+#: ReplyOptionsPage.qml:69
+msgid "Reply to List"
+msgstr ""
+
+#: ReplyOptionsPage.qml:77 mailactionmanager.cpp:73
+msgid "Reply Without Quoting"
+msgstr ""
+
+#: SnippetsEditor.qml:93
+msgid ""
+"Insert\n"
+"Snippet"
+msgstr ""
+
+#: SnippetsEditor.qml:94
+msgid ""
+"Add\n"
+"Snippet"
+msgstr ""
+
+#: SnippetsEditor.qml:95
+msgid ""
+"Edit\n"
+"Snippet"
+msgstr ""
+
+#: SnippetsEditor.qml:96
+#, fuzzy
+#| msgid "Delete"
+msgid ""
+"Delete\n"
+"Snippet"
+msgstr "मेटाबू"
+
+#: SnippetsEditor.qml:97
+msgid ""
+"Add\n"
+"Group"
+msgstr ""
+
+#: SnippetsEditor.qml:98
+msgid ""
+"Edit\n"
+"Group"
+msgstr ""
+
+#: SnippetsEditor.qml:99
+#, fuzzy
+#| msgid "Delete"
+msgid ""
+"Delete\n"
+"Group"
+msgstr "मेटाबू"
 
 #: attachmenteditor.cpp:43
 msgid "Add Attachment"
@@ -169,10 +448,6 @@ msgstr ""
 msgid "Do you want to save the message for later or discard it?"
 msgstr ""
 
-#: composerview.cpp:535 rc.cpp:288
-msgid "Close Composer"
-msgstr ""
-
 #: composerview.cpp:659
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
@@ -263,6 +538,68 @@ msgstr ""
 msgid "The MBox does not contain any emails."
 msgstr ""
 
+#. i18n: file: searchwidget.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, inRecipients)
+#: kmail-composer.qml:48 rc.cpp:205
+msgid "Recipients"
+msgstr ""
+
+#: kmail-composer.qml:79 kmail-mobile.qml:381
+msgid "Actions"
+msgstr "क्रियासभ"
+
+#: kmail-mobile.qml:184
+#, kde-format
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kmail-mobile.qml:185
+#, kde-format
+msgid "1 thread"
+msgid_plural "%1 threads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kmail-mobile.qml:182
+#, kde-format
+msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 emails"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
+msgstr ""
+
+#: kmail-mobile.qml:206
+msgid "Select"
+msgstr "चुनू"
+
+#: kmail-mobile.qml:206
+msgid "Change Selection"
+msgstr ""
+
+#: kmail-mobile.qml:232
+msgid "Write new Email"
+msgstr ""
+
+#: kmail-mobile.qml:251
+msgid "No messages in this folder"
+msgstr ""
+
+#: kmail-mobile.qml:331
+msgid "Back to Threads"
+msgstr ""
+
+#: kmail-mobile.qml:538
+#, fuzzy, kde-format
+#| msgid "Forward"
+msgid "One message found"
+msgid_plural "%1 messages found"
+msgstr[0] "आगाँक तरफ"
+msgstr[1] "आगाँक तरफ"
+
 #: mailactionmanager.cpp:42 mainview.cpp:1246 mainview.cpp:1300
 msgid "Important"
 msgstr "महत्वपूर्ण"
@@ -285,33 +622,13 @@ msgstr "इमेल"
 msgid "Reply"
 msgstr "जवाब"
 
-#: mailactionmanager.cpp:64 rc.cpp:292
-msgid "Reply to All"
-msgstr ""
-
-#: mailactionmanager.cpp:67 rc.cpp:291
-msgid "Reply to Author"
-msgstr ""
-
 #: mailactionmanager.cpp:70
 msgid "Reply to Mailing List"
-msgstr ""
-
-#: mailactionmanager.cpp:73 rc.cpp:294
-msgid "Reply Without Quoting"
 msgstr ""
 
 #: mailactionmanager.cpp:78
 msgid "Forward"
 msgstr "आगाँक तरफ"
-
-#: mailactionmanager.cpp:81 rc.cpp:247
-msgid "Forward as Attachment"
-msgstr ""
-
-#: mailactionmanager.cpp:84 rc.cpp:248
-msgid "Redirect"
-msgstr ""
 
 #: mailactionmanager.cpp:87
 msgid "Save Favorite"
@@ -402,12 +719,6 @@ msgstr ""
 msgid "Messagelist Display Format"
 msgstr ""
 
-#: mainview.cpp:379 rc.cpp:276
-#, fuzzy
-#| msgid "Email"
-msgid "Mail"
-msgstr "इमेल"
-
 #: mainview.cpp:415
 msgid "Identities"
 msgstr ""
@@ -481,10 +792,6 @@ msgstr "आफलाइन काज करू"
 
 #: mainview.cpp:696 mainview.cpp:703
 msgid "Send Queued Email Via"
-msgstr ""
-
-#: mainview.cpp:716 rc.cpp:249 rc.cpp:289 rc.cpp:290 rc.cpp:295
-msgid "Discard"
 msgstr ""
 
 #: mainview.cpp:974
@@ -596,10 +903,6 @@ msgstr "जोड़ू"
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: mainview.cpp:1322 rc.cpp:260 rc.cpp:275 rc.cpp:280
-msgid "Edit"
-msgstr "संपादन"
-
 #: mainview.cpp:1330
 msgctxt "@title:window"
 msgid "New Account"
@@ -707,12 +1010,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AppearanceReduceQuotedFontSize)
 #: rc.cpp:14
 msgid "Reduce font size for quoted text"
-msgstr ""
-
-#. i18n: file: configwidget.ui:83
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:17 rc.cpp:285
-msgid "Composer"
 msgstr ""
 
 #. i18n: file: configwidget.ui:108
@@ -1034,12 +1331,6 @@ msgstr "विषय:"
 msgid "Senders"
 msgstr "पठाबू"
 
-#. i18n: file: searchwidget.ui:70
-#. i18n: ectx: property (text), widget (QCheckBox, inRecipients)
-#: rc.cpp:205 rc.cpp:303
-msgid "Recipients"
-msgstr ""
-
 #. i18n: file: searchwidget.ui:77
 #. i18n: ectx: property (text), widget (QCheckBox, inBodyContents)
 #: rc.cpp:208
@@ -1101,295 +1392,6 @@ msgid ""
 "If the number of recipients is larger than this value, KMail Mobile will "
 "warn and ask for a confirmation before sending the mail. The warning can be "
 "turned off."
-msgstr ""
-
-#: rc.cpp:237
-#, kde-format
-msgid "<b>Access Control List for '%1'</b>"
-msgstr ""
-
-#: rc.cpp:238
-msgid "Save"
-msgstr ""
-
-#: rc.cpp:239 rc.cpp:242
-msgid "Cancel"
-msgstr ""
-
-#: rc.cpp:240 rc.cpp:307
-#, fuzzy, kde-format
-#| msgid "Folder"
-msgid "1 folder"
-msgid_plural "%1 folders"
-msgstr[0] "फोल्डर"
-msgstr[1] "फोल्डर"
-
-#: rc.cpp:241
-msgid "Ok"
-msgstr ""
-
-#: rc.cpp:243
-msgid "Subject:"
-msgstr "विषय:"
-
-#: rc.cpp:244
-msgid "Message will be signed"
-msgstr ""
-
-#: rc.cpp:245
-msgid "Message will be encrypted"
-msgstr ""
-
-#: rc.cpp:246
-msgid "Identity:"
-msgstr ""
-
-#: rc.cpp:250
-#, kde-format
-msgctxt "This text is only visible if messages > 1"
-msgid "%2 messages, %1 unread"
-msgid_plural "%2 messages, %1 unread"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:252
-#, fuzzy, kde-format
-#| msgid "Forward"
-msgid "One message"
-msgid_plural "%1 messages"
-msgstr[0] "आगाँक तरफ"
-msgstr[1] "आगाँक तरफ"
-
-#: rc.cpp:253
-msgid "Home"
-msgstr "घर"
-
-#: rc.cpp:254
-#, fuzzy
-#| msgid "Select"
-msgid "Select Multiple Folders"
-msgstr "चुनू"
-
-#: rc.cpp:255
-msgid "Accounts"
-msgstr "खाता"
-
-#: rc.cpp:256
-#, fuzzy
-#| msgid "Folders"
-msgid "Filter"
-msgstr "फोल्डरसभ"
-
-#: rc.cpp:257
-msgid "Account"
-msgstr "खाता"
-
-#: rc.cpp:258
-msgid "Folder"
-msgstr "फोल्डर"
-
-#: rc.cpp:259
-#, fuzzy
-#| msgid "Edit"
-msgid "Edit ACLs"
-msgstr "संपादन"
-
-#: rc.cpp:261 rc.cpp:265 rc.cpp:271
-msgid "View"
-msgstr "दृश्य"
-
-#: rc.cpp:262 rc.cpp:266
-msgid "Add View As Favorite"
-msgstr ""
-
-#: rc.cpp:263 rc.cpp:268
-msgid "Switch To Editing Mode"
-msgstr ""
-
-#: rc.cpp:264
-msgid "Folders"
-msgstr "फोल्डरसभ"
-
-#: rc.cpp:267
-#, fuzzy
-#| msgid "Select"
-msgid "Select Folders"
-msgstr "चुनू"
-
-#: rc.cpp:269
-msgid "Email"
-msgstr "इमेल"
-
-#: rc.cpp:270
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Mark Email As"
-msgstr "sangeeta09@gmail.com"
-
-#: rc.cpp:272
-msgid "Copy Email To Clipboard"
-msgstr ""
-
-#: rc.cpp:273
-msgid "Attachments"
-msgstr "संलग्नक"
-
-#: rc.cpp:274
-#, fuzzy
-#| msgid "Attachments"
-msgid "Save All Attachments"
-msgstr "संलग्नक"
-
-#: rc.cpp:277
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Search For Emails"
-msgstr "sangeeta09@gmail.com"
-
-#: rc.cpp:278
-msgid "Configure Mail"
-msgstr ""
-
-#: rc.cpp:279
-#, fuzzy
-#| msgid "Forward"
-msgid "Message"
-msgstr "आगाँक तरफ"
-
-#: rc.cpp:281
-#, fuzzy
-#| msgid "Actions"
-msgid "Options"
-msgstr "क्रियासभ"
-
-#: rc.cpp:282
-#, fuzzy
-#| msgid "Sign"
-msgid "Signature"
-msgstr "हस्ताक्षर करू"
-
-#: rc.cpp:283
-msgid "Security"
-msgstr ""
-
-#: rc.cpp:284
-msgid "Snippets"
-msgstr ""
-
-#: rc.cpp:286
-msgid "Configure Identity"
-msgstr ""
-
-#: rc.cpp:287
-msgid "Configure Transport"
-msgstr ""
-
-#: rc.cpp:293
-msgid "Reply to List"
-msgstr ""
-
-#: rc.cpp:296
-msgid ""
-"Insert\n"
-"Snippet"
-msgstr ""
-
-#: rc.cpp:297
-msgid ""
-"Add\n"
-"Snippet"
-msgstr ""
-
-#: rc.cpp:298
-msgid ""
-"Edit\n"
-"Snippet"
-msgstr ""
-
-#: rc.cpp:299
-#, fuzzy
-#| msgid "Delete"
-msgid ""
-"Delete\n"
-"Snippet"
-msgstr "मेटाबू"
-
-#: rc.cpp:300
-msgid ""
-"Add\n"
-"Group"
-msgstr ""
-
-#: rc.cpp:301
-msgid ""
-"Edit\n"
-"Group"
-msgstr ""
-
-#: rc.cpp:302
-#, fuzzy
-#| msgid "Delete"
-msgid ""
-"Delete\n"
-"Group"
-msgstr "मेटाबू"
-
-#: rc.cpp:304 rc.cpp:314
-msgid "Actions"
-msgstr "क्रियासभ"
-
-#: rc.cpp:308
-#, kde-format
-msgid "from 1 account"
-msgid_plural "from %1 accounts"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:309
-#, kde-format
-msgid "1 thread"
-msgid_plural "%1 threads"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:310
-msgid "Select"
-msgstr "चुनू"
-
-#: rc.cpp:310
-msgid "Change Selection"
-msgstr ""
-
-#: rc.cpp:311
-msgid "Write new Email"
-msgstr ""
-
-#: rc.cpp:312
-msgid "No messages in this folder"
-msgstr ""
-
-#: rc.cpp:313
-msgid "Back to Threads"
-msgstr ""
-
-#: rc.cpp:315
-#, fuzzy, kde-format
-#| msgid "Forward"
-msgid "One message found"
-msgid_plural "%1 messages found"
-msgstr[0] "आगाँक तरफ"
-msgstr[1] "आगाँक तरफ"
-
-#: rc.cpp:306
-#, kde-format
-msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 emails"
-msgid ""
-"You have selected \n"
-"%1\n"
-"%2\n"
-"%3"
 msgstr ""
 
 #, fuzzy
