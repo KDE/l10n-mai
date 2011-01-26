@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-25 03:40+0100\n"
+"POT-Creation-Date: 2011-01-26 03:31+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1397,7 +1397,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/compose/wdg_compose.ui:52
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:210 ui/tool/kis_tool_paint.cc:250
+#: rc.cpp:210 ui/tool/kis_tool_paint.cc:247
 msgid "Opacity: "
 msgstr ""
 
@@ -1887,7 +1887,7 @@ msgstr "संतृप्ति:"
 #. i18n: ectx: property (text), widget (QRadioButton, lastUsedColorsAlignVertical)
 #. i18n: file: plugins/extensions/dockers/colorselectorng/wdg_color_selector_settings.ui:741
 #. i18n: ectx: property (text), widget (QRadioButton, commonColorsAlignVertical)
-#: rc.cpp:395 rc.cpp:431 ui/tool/kis_tool_paint.cc:259
+#: rc.cpp:395 rc.cpp:431
 #, fuzzy
 #| msgid "Vertical:"
 msgid "Vertical"
@@ -1901,7 +1901,7 @@ msgstr "उर्ध्वाधर"
 #. i18n: ectx: property (text), widget (QRadioButton, lastUsedColorsAlignHorizontal)
 #. i18n: file: plugins/extensions/dockers/colorselectorng/wdg_color_selector_settings.ui:748
 #. i18n: ectx: property (text), widget (QRadioButton, commonColorsAlignHorizontal)
-#: rc.cpp:398 rc.cpp:434 ui/tool/kis_tool_paint.cc:258
+#: rc.cpp:398 rc.cpp:434
 #, fuzzy
 #| msgid "Horizontal:"
 msgid "Horizontal"
@@ -9531,11 +9531,6 @@ msgstr "चित्रकेँ फिनु आकार दिअ'"
 msgid "Convert Image Type"
 msgstr ""
 
-#: image/commands/kis_layer_props_command.cpp:42
-#: image/commands/kis_node_property_list_command.cpp:25
-msgid "Property Changes"
-msgstr ""
-
 #: image/commands/kis_node_compositeop_command.cpp:28
 msgid "Node Composite Mode"
 msgstr ""
@@ -9545,6 +9540,11 @@ msgstr ""
 #| msgid "Opacity"
 msgid "Node Opacity"
 msgstr "अपारदर्शिता"
+
+#: image/commands/kis_node_property_list_command.cpp:25
+#: image/commands/kis_layer_props_command.cpp:43
+msgid "Property Changes"
+msgstr ""
 
 #: image/commands/kis_reselect_global_selection_command.cpp:30
 msgid "Reselect"
@@ -9675,7 +9675,7 @@ msgstr "प्रोफाइल"
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:730 ui/kis_layer_manager.cc:799
+#: image/kis_image.cc:730 ui/kis_layer_manager.cc:802
 msgid "Flatten Image"
 msgstr "चित्र चपटा करू"
 
@@ -10486,7 +10486,7 @@ msgid "Rotate Layer of 90° to the Left"
 msgstr ""
 
 #: plugins/extensions/rotateimage/rotateimage.cc:151
-#: ui/kis_layer_manager.cc:737
+#: ui/kis_layer_manager.cc:740
 msgid "Rotate Layer"
 msgstr "परत घुमाबू"
 
@@ -10542,7 +10542,7 @@ msgid "Separate Image"
 msgstr ""
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:242
-#: ui/kis_layer_manager.cc:890
+#: ui/kis_layer_manager.cc:893
 msgid "Export Layer"
 msgstr ""
 
@@ -13031,7 +13031,7 @@ msgstr ""
 msgid "&Flatten Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:147 ui/kis_layer_manager.cc:862
+#: ui/kis_layer_manager.cc:147 ui/kis_layer_manager.cc:865
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
@@ -13057,44 +13057,44 @@ msgstr ""
 msgid "Generator Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:350 ui/kis_layer_manager.cc:366
-#: ui/kis_layer_manager.cc:409 ui/kis_layer_manager.cc:442
-#: ui/kis_layer_manager.cc:580
+#: ui/kis_layer_manager.cc:353 ui/kis_layer_manager.cc:369
+#: ui/kis_layer_manager.cc:412 ui/kis_layer_manager.cc:445
+#: ui/kis_layer_manager.cc:583
 msgid "Could not add layer to image."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:350 ui/kis_layer_manager.cc:366
-#: ui/kis_layer_manager.cc:409 ui/kis_layer_manager.cc:442
-#: ui/kis_layer_manager.cc:580
+#: ui/kis_layer_manager.cc:353 ui/kis_layer_manager.cc:369
+#: ui/kis_layer_manager.cc:412 ui/kis_layer_manager.cc:445
+#: ui/kis_layer_manager.cc:583
 msgid "Layer Error"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:472
+#: ui/kis_layer_manager.cc:475
 msgid "New Filter Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:657 ui/kis_layer_manager.cc:667
+#: ui/kis_layer_manager.cc:660 ui/kis_layer_manager.cc:670
 msgid "Mirror Layer X"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:684 ui/kis_layer_manager.cc:694
+#: ui/kis_layer_manager.cc:687 ui/kis_layer_manager.cc:697
 #: ui/kis_mask_manager.cc:378
 msgid "Mirror Layer Y"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:716
+#: ui/kis_layer_manager.cc:719
 msgid "Scale Layer"
 msgstr "परत मापू"
 
-#: ui/kis_layer_manager.cc:769 ui/kis_layer_manager.cc:772
+#: ui/kis_layer_manager.cc:772 ui/kis_layer_manager.cc:775
 msgid "Shear layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:798
+#: ui/kis_layer_manager.cc:801
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:800
+#: ui/kis_layer_manager.cc:803
 msgid "&Flatten Image"
 msgstr ""
 
@@ -13172,39 +13172,51 @@ msgstr ""
 msgid "Hide Painting Assistants"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:98
+#: ui/kis_paintop_box.cc:99
 msgid "Painter's Toolchest"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:102
+#: ui/kis_paintop_box.cc:103
 msgid "Artist's materials"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:110
+#: ui/kis_paintop_box.cc:111
 #, fuzzy
 #| msgid "Edit Palette"
 msgid "Edit brush settings"
 msgstr "पैलेट संपादित करू"
 
-#: ui/kis_paintop_box.cc:116
+#: ui/kis_paintop_box.cc:117
 msgid "Choose brush preset"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:123
+#: ui/kis_paintop_box.cc:124
 msgid "Set eraser mode"
 msgstr ""
 
-#: ui/kis_paintop_box.cc:132
+#: ui/kis_paintop_box.cc:134
+#, fuzzy
+#| msgid "Horizontal:"
+msgid "Set horizontal mirror mode"
+msgstr "क्षैतिजः"
+
+#: ui/kis_paintop_box.cc:144
+#, fuzzy
+#| msgid "Vertical:"
+msgid "Set vertical mirror mode"
+msgstr "उर्ध्वाधर"
+
+#: ui/kis_paintop_box.cc:155
 msgid "Mode: "
 msgstr ""
 
-#: ui/kis_paintop_box.cc:143
+#: ui/kis_paintop_box.cc:166
 #, fuzzy
 #| msgid "Edit Palette"
 msgid "Save to Palette"
 msgstr "पैलेट संपादित करू"
 
-#: ui/kis_paintop_box.cc:151
+#: ui/kis_paintop_box.cc:174
 #, fuzzy
 #| msgid "Colorspace"
 msgid "Choose workspace"
@@ -13436,12 +13448,6 @@ msgstr ""
 msgid "Selection"
 msgstr "चुनाव"
 
-#: ui/tool/kis_tool_paint.cc:257
-#, fuzzy
-#| msgid "Crop Image"
-msgid "Mirror: "
-msgstr "चित्र काटू"
-
 #: ui/tool/kis_tool_freehand.cc:90
 #, fuzzy
 #| msgid "Brushes"
@@ -13537,6 +13543,11 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgid "Crop Image"
+#~ msgid "Mirror: "
+#~ msgstr "चित्र काटू"
 
 #, fuzzy
 #~| msgid "Border selection by"
