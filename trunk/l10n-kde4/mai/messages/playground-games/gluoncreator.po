@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gluoncreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-29 03:18+0100\n"
+"POT-Creation-Date: 2011-02-02 03:31+0100\n"
 "PO-Revision-Date: 2010-09-24 13:12+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -33,7 +33,7 @@ msgstr "आन "
 msgid "Plugins"
 msgstr "प्लगिन"
 
-#: dialogs/newprojectdialogpage.cpp:66 mainwindow.cpp:346 mainwindow.cpp:354
+#: dialogs/newprojectdialogpage.cpp:66 mainwindow.cpp:335 mainwindow.cpp:343
 #, fuzzy
 #| msgid "Project"
 msgid "New Project"
@@ -59,9 +59,9 @@ msgstr "प्रोजेक्ट"
 msgid "You need to enter a name and location to continue"
 msgstr ""
 
-#: dialogs/newprojectdialogpage.cpp:116
-#: plugins/docks/projectdock/projectdock.cpp:133
-#: plugins/docks/projectdock/projectdock.cpp:196 mainwindow.cpp:255
+#: dialogs/newprojectdialogpage.cpp:116 mainwindow.cpp:244
+#: plugins/docks/projectdock/projectdock.cpp:143
+#: plugins/docks/projectdock/projectdock.cpp:207
 msgid "New Scene"
 msgstr ""
 
@@ -126,6 +126,10 @@ msgstr "श्रेणी"
 #: lib/models/componentmodel.cpp:192
 msgid "Component"
 msgstr "घटक"
+
+#: lib/objectmanager.cpp:231
+msgid "NewScene"
+msgstr ""
 
 #: lib/widgets/gluonobjectpropertywidgetitem.cpp:93
 msgctxt "Edit/preview currently selected object"
@@ -272,8 +276,156 @@ msgstr ""
 msgid "Add Property"
 msgstr "गुण"
 
-#: lib/objectmanager.cpp:202
-msgid "NewScene"
+#: main.cpp:34 main.cpp:48
+msgid "Gluon Creator"
+msgstr ""
+
+#: main.cpp:37
+msgid "Copyright 2009-2010 by multiple contributors."
+msgstr ""
+
+#: main.cpp:42
+msgid "Arjen Hiemstra"
+msgstr ""
+
+#: main.cpp:42
+msgid "Gluon Core, Gluon Graphics, Gluon Engine, Gluon Creator"
+msgstr ""
+
+#: main.cpp:43
+msgid "Dan Leinir Tuthra Jensen"
+msgstr ""
+
+#: main.cpp:43
+msgid "Gluon Core, Gluon Engine, Gluon Creator"
+msgstr ""
+
+#: main.cpp:44
+msgid "Sacha Schutz"
+msgstr ""
+
+#: main.cpp:44
+msgid "Gluon Graphics,Gluon Audio,Gluon Input"
+msgstr ""
+
+#: main.cpp:45
+msgid "Guillaume Martres"
+msgstr "Guillaume Martres"
+
+#: main.cpp:45
+msgid "Gluon Audio, Gluon Graphics"
+msgstr ""
+
+#: main.cpp:46
+msgid "Kim Jung Nissen"
+msgstr ""
+
+#: main.cpp:46
+msgid "Gluon Input, Mac compatibility"
+msgstr ""
+
+#: main.cpp:47
+msgid "Rivo Laks"
+msgstr "रिवो लेक्स"
+
+#: main.cpp:47
+msgid "Gluon Graphics through KGLLIB"
+msgstr ""
+
+#: main.cpp:48
+msgid "Laszlo Papp"
+msgstr ""
+
+#: main.cpp:53
+msgid "GDL file to open"
+msgstr ""
+
+#: mainwindow.cpp:155 mainwindow.cpp:158
+msgctxt "View Game Tab"
+msgid "View"
+msgstr "दृश्य"
+
+#: mainwindow.cpp:157
+msgid "Opening project..."
+msgstr ""
+
+#: mainwindow.cpp:173
+msgid "Project successfully opened"
+msgstr ""
+
+#: mainwindow.cpp:174 mainwindow.cpp:202
+#, kde-format
+msgid "%1 - Gluon Creator"
+msgstr ""
+
+#: mainwindow.cpp:180
+msgid "Unable to open project file..."
+msgstr ""
+
+#: mainwindow.cpp:193
+msgid "Saving project..."
+msgstr ""
+
+#: mainwindow.cpp:198
+msgid "Could not save file."
+msgstr ""
+
+#: mainwindow.cpp:201
+msgid "Project successfully saved."
+msgstr ""
+
+#: mainwindow.cpp:215
+msgid "*.gluon|Gluon Project Files"
+msgstr "*.gluon|Gluon Project Files"
+
+#: mainwindow.cpp:240
+msgid "New Object"
+msgstr ""
+
+#: mainwindow.cpp:248
+#, fuzzy
+#| msgid "Camera"
+msgid "Play Game"
+msgstr "कैमरा"
+
+#: mainwindow.cpp:252
+msgid "Pause Game"
+msgstr ""
+
+#: mainwindow.cpp:256
+#, fuzzy
+#| msgid "Camera"
+msgid "Stop Game"
+msgstr "कैमरा"
+
+#: mainwindow.cpp:260
+msgid "Add Assets..."
+msgstr ""
+
+#: mainwindow.cpp:264
+msgid "Set current scene as entry point"
+msgstr ""
+
+#: mainwindow.cpp:268
+msgid "Lock layout"
+msgstr ""
+
+#: mainwindow.cpp:335
+#, kde-format
+msgid "%1 [modified]"
+msgstr ""
+
+#: mainwindow.cpp:343
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: mainwindow.cpp:351
+msgid "The project has been changed. Do you want to save before closing?"
+msgstr ""
+
+#: mainwindow.cpp:351
+msgid "Save Before Closing?"
 msgstr ""
 
 #: plugins/docks/componentsdock/componentsdockplugin.cpp:41
@@ -289,46 +441,46 @@ msgstr ""
 msgid "Messages"
 msgstr ""
 
-#: plugins/docks/projectdock/projectdock.cpp:129
+#: plugins/docks/projectdock/projectdock.cpp:139
 msgid "New Folder..."
 msgstr "नवीन फोल्डर..."
 
-#: plugins/docks/projectdock/projectdock.cpp:140
+#: plugins/docks/projectdock/projectdock.cpp:150
 #, kde-format
 msgid "New %1"
 msgstr ""
 
-#: plugins/docks/projectdock/projectdock.cpp:156
+#: plugins/docks/projectdock/projectdock.cpp:166
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgid "Delete \"%1\"..."
 msgstr "मेटाबू"
 
-#: plugins/docks/projectdock/projectdock.cpp:198
+#: plugins/docks/projectdock/projectdock.cpp:209
 msgctxt "Delete selected object from project"
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: plugins/docks/projectdock/projectdock.cpp:299
+#: plugins/docks/projectdock/projectdock.cpp:310
 #, kde-format
 msgid ""
 "Please confirm that you wish to delete the object %1. This will delete both "
 "this item and all its children!"
 msgstr ""
 
-#: plugins/docks/projectdock/projectdock.cpp:299
+#: plugins/docks/projectdock/projectdock.cpp:310
 msgid "Really Delete?"
 msgstr "सच्चे मेटाबू?"
 
-#: plugins/docks/projectdock/projectdock.cpp:316
+#: plugins/docks/projectdock/projectdock.cpp:327
 msgid "Enter Name"
 msgstr ""
 
-#: plugins/docks/projectdock/projectdock.cpp:316
+#: plugins/docks/projectdock/projectdock.cpp:327
 msgid "Please enter the name of the new folder in the text box below:"
 msgstr ""
 
-#: plugins/docks/projectdock/projectdock.cpp:316
+#: plugins/docks/projectdock/projectdock.cpp:327
 msgid "New Folder"
 msgstr "नवीन फोल्डर"
 
@@ -336,16 +488,24 @@ msgstr "नवीन फोल्डर"
 msgid "Properties"
 msgstr "गुण"
 
-#: plugins/docks/scenedock/scenedockplugin.cpp:44
-msgid "Scene"
-msgstr ""
-
 #: plugins/docks/scenedock/scenedock.cpp:92
 msgid "Delete Object(s)"
 msgstr ""
 
 #: plugins/docks/scenedock/scenedock.cpp:101
 msgid "New GameObject"
+msgstr ""
+
+#: plugins/docks/scenedock/scenedockplugin.cpp:44
+msgid "Scene"
+msgstr ""
+
+#: plugins/kparts/codeeditorpart/Actions/AddEdge.cpp:35
+msgid "Add Edge"
+msgstr ""
+
+#: plugins/kparts/codeeditorpart/Actions/AddEdge.cpp:36
+msgid "Creates a new edge between 2 nodes"
 msgstr ""
 
 #: plugins/kparts/codeeditorpart/Actions/AddNode.cpp:33
@@ -390,14 +550,6 @@ msgstr "मेटाबू"
 
 #: plugins/kparts/codeeditorpart/Actions/Select.cpp:38
 msgid "Select Items by clicking on them."
-msgstr ""
-
-#: plugins/kparts/codeeditorpart/Actions/AddEdge.cpp:35
-msgid "Add Edge"
-msgstr ""
-
-#: plugins/kparts/codeeditorpart/Actions/AddEdge.cpp:36
-msgid "Creates a new edge between 2 nodes"
 msgstr ""
 
 #: plugins/kparts/codeeditorpart/Core/DynamicPropertiesList.cpp:186
@@ -482,158 +634,6 @@ msgstr ""
 #| msgid "Plugins"
 msgid "Points"
 msgstr "प्लगिन"
-
-#: main.cpp:34 main.cpp:48
-msgid "Gluon Creator"
-msgstr ""
-
-#: main.cpp:37
-msgid "Copyright 2009-2010 by multiple contributors."
-msgstr ""
-
-#: main.cpp:42
-msgid "Arjen Hiemstra"
-msgstr ""
-
-#: main.cpp:42
-msgid "Gluon Core, Gluon Graphics, Gluon Engine, Gluon Creator"
-msgstr ""
-
-#: main.cpp:43
-msgid "Dan Leinir Tuthra Jensen"
-msgstr ""
-
-#: main.cpp:43
-msgid "Gluon Core, Gluon Engine, Gluon Creator"
-msgstr ""
-
-#: main.cpp:44
-msgid "Sacha Schutz"
-msgstr ""
-
-#: main.cpp:44
-msgid "Gluon Graphics,Gluon Audio,Gluon Input"
-msgstr ""
-
-#: main.cpp:45
-msgid "Guillaume Martres"
-msgstr "Guillaume Martres"
-
-#: main.cpp:45
-msgid "Gluon Audio, Gluon Graphics"
-msgstr ""
-
-#: main.cpp:46
-msgid "Kim Jung Nissen"
-msgstr ""
-
-#: main.cpp:46
-msgid "Gluon Input, Mac compatibility"
-msgstr ""
-
-#: main.cpp:47
-msgid "Rivo Laks"
-msgstr "रिवो लेक्स"
-
-#: main.cpp:47
-msgid "Gluon Graphics through KGLLIB"
-msgstr ""
-
-#: main.cpp:48
-msgid "Laszlo Papp"
-msgstr ""
-
-#: main.cpp:53
-msgid "GDL file to open"
-msgstr ""
-
-#: mainwindow.cpp:157
-msgid "Opening project..."
-msgstr ""
-
-#: mainwindow.cpp:159
-msgctxt "View Game Tab"
-msgid "View"
-msgstr "दृश्य"
-
-#: mainwindow.cpp:184
-msgid "Project successfully opened"
-msgstr ""
-
-#: mainwindow.cpp:185 mainwindow.cpp:213
-#, kde-format
-msgid "%1 - Gluon Creator"
-msgstr ""
-
-#: mainwindow.cpp:191
-msgid "Unable to open project file..."
-msgstr ""
-
-#: mainwindow.cpp:204
-msgid "Saving project..."
-msgstr ""
-
-#: mainwindow.cpp:209
-msgid "Could not save file."
-msgstr ""
-
-#: mainwindow.cpp:212
-msgid "Project successfully saved."
-msgstr ""
-
-#: mainwindow.cpp:226
-msgid "*.gluon|Gluon Project Files"
-msgstr "*.gluon|Gluon Project Files"
-
-#: mainwindow.cpp:251
-msgid "New Object"
-msgstr ""
-
-#: mainwindow.cpp:259
-#, fuzzy
-#| msgid "Camera"
-msgid "Play Game"
-msgstr "कैमरा"
-
-#: mainwindow.cpp:263
-msgid "Pause Game"
-msgstr ""
-
-#: mainwindow.cpp:267
-#, fuzzy
-#| msgid "Camera"
-msgid "Stop Game"
-msgstr "कैमरा"
-
-#: mainwindow.cpp:271
-msgid "Add Assets..."
-msgstr ""
-
-#: mainwindow.cpp:275
-msgid "Set current scene as entry point"
-msgstr ""
-
-#: mainwindow.cpp:279
-msgid "Lock layout"
-msgstr ""
-
-#: mainwindow.cpp:346
-#, kde-format
-msgid "%1 [modified]"
-msgstr ""
-
-#: mainwindow.cpp:354
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: mainwindow.cpp:362
-msgid "The project has been changed. Do you want to save before closing?"
-msgstr ""
-
-#: mainwindow.cpp:362
-msgid "Save Before Closing?"
-msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

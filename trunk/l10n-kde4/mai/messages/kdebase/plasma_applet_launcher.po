@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:36+0100\n"
+"POT-Creation-Date: 2011-02-02 03:07+0100\n"
 "PO-Revision-Date: 2010-01-28 13:51+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -20,94 +20,212 @@ msgstr ""
 "\n"
 "\n"
 
-#: simpleapplet/simpleapplet.cpp:193 core/favoritesmodel.cpp:49
-#: core/favoritesmodel.cpp:322 ui/launcher.cpp:116 ui/launcher.cpp:175
+#: applet/applet.cpp:84
+msgid "Kickoff Application Launcher"
+msgstr "किकआफ अनुप्रयोग लान्चर"
+
+#: applet/applet.cpp:85
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
+msgstr "प्रिय अनुप्रयोग प्रयुक्त वस्तुसभ आओर"
+
+#: applet/applet.cpp:108 simpleapplet/simpleapplet.cpp:345
+#, fuzzy
+#| msgid "Applications"
+msgid "Edit Applications..."
+msgstr "अनुप्रयोग"
+
+#: applet/applet.cpp:114
+msgid "Switch to Classic Menu Style"
+msgstr "केँ क्लासिक मेन्यू शैली"
+
+#: applet/applet.cpp:159
+msgctxt "General configuration page"
+msgid "General"
+msgstr "सामान्य"
+
+#: core/applicationmodel.cpp:335
+msgid "Games"
+msgstr "खेल"
+
+#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
+msgid "All Applications"
+msgstr "सभटा अनुप्रयोग"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:116 ui/launcher.cpp:175
 msgid "Favorites"
 msgstr "प्रिय"
 
-#: simpleapplet/simpleapplet.cpp:194
-msgid "Bookmarks"
-msgstr "पुस्तकचिह्न"
-
-#: simpleapplet/simpleapplet.cpp:195 core/systemmodel.cpp:84
-#: core/recentlyusedmodel.cpp:120 ui/launcher.cpp:118 ui/launcher.cpp:205
-msgid "Applications"
-msgstr "अनुप्रयोग"
-
-#: simpleapplet/simpleapplet.cpp:196 core/systemmodel.cpp:327
-#: ui/launcher.cpp:118 ui/launcher.cpp:239
-msgid "Computer"
-msgstr "कम्प्यूटर"
-
-#: simpleapplet/simpleapplet.cpp:197 core/recentlyusedmodel.cpp:186
-#: ui/launcher.cpp:119 ui/launcher.cpp:218
-msgid "Recently Used"
-msgstr "हालमे प्रयुक्त"
-
-#: simpleapplet/simpleapplet.cpp:198 core/recentlyusedmodel.cpp:190
-msgid "Recently Used Applications"
-msgstr "हालक अनुप्रयोग साफ करू"
-
-#: simpleapplet/simpleapplet.cpp:199 core/recentlyusedmodel.cpp:188
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "हालमे प्रयुक्त"
-
-#: simpleapplet/simpleapplet.cpp:200
-msgid "System Settings"
-msgstr "तंत्र बिन्यास"
-
-#: simpleapplet/simpleapplet.cpp:201 core/systemmodel.cpp:215
-msgid "Run Command..."
-msgstr "कमांड चलाबू..."
-
-#: simpleapplet/simpleapplet.cpp:202 core/leavemodel.cpp:57
-msgid "Switch User"
-msgstr "प्रयोक्ता बदलू"
-
-#: simpleapplet/simpleapplet.cpp:203 core/leavemodel.cpp:69
-msgid "Save Session"
-msgstr "सहेजू सत्र"
-
-#: simpleapplet/simpleapplet.cpp:204 core/leavemodel.cpp:55
-msgid "Lock Screen"
-msgstr "स्क्रीन पर ताला लगाबू"
-
-#: simpleapplet/simpleapplet.cpp:205 core/leavemodel.cpp:73
-msgctxt "Puts the system on standby"
-msgid "Standby"
-msgstr "स्टैंडबाए"
-
-#: simpleapplet/simpleapplet.cpp:206 core/leavemodel.cpp:77
-msgid "Hibernate"
-msgstr "हाइबरनेट करू"
-
-#: simpleapplet/simpleapplet.cpp:207 core/leavemodel.cpp:81
-msgid "Sleep"
-msgstr "स्लीप"
-
-#: simpleapplet/simpleapplet.cpp:208
-msgctxt "Restart Computer"
-msgid "Restart"
-msgstr "पुनः प्रारंभ करू"
-
-#: simpleapplet/simpleapplet.cpp:209 core/leavemodel.cpp:61
-#, fuzzy
-#| msgid "Shutdown"
-msgid "Shut down"
-msgstr "बन्न करू"
-
-#: simpleapplet/simpleapplet.cpp:210 core/leavemodel.cpp:49
+#: core/leavemodel.cpp:49 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
 #| msgid "Logout"
 msgid "Log out"
 msgstr "लाग आउट"
 
-#: simpleapplet/simpleapplet.cpp:211 core/leavemodel.cpp:106
+#: core/leavemodel.cpp:51
+msgid "End session"
+msgstr "सत्र समाप्त करू"
+
+#: core/leavemodel.cpp:53
+msgid "Lock"
+msgstr "लाक करू"
+
+#: core/leavemodel.cpp:55 simpleapplet/simpleapplet.cpp:204
+msgid "Lock Screen"
+msgstr "स्क्रीन पर ताला लगाबू"
+
+#: core/leavemodel.cpp:57 simpleapplet/simpleapplet.cpp:202
+msgid "Switch User"
+msgstr "प्रयोक्ता बदलू"
+
+#: core/leavemodel.cpp:59
+msgid "Start a parallel session as a different user"
+msgstr "एकटा भिन्न प्रयोक्ता केर रूपेँ समानान्तर सत्र प्रारंभ करू"
+
+#: core/leavemodel.cpp:61 simpleapplet/simpleapplet.cpp:209
+#, fuzzy
+#| msgid "Shutdown"
+msgid "Shut down"
+msgstr "बन्न करू"
+
+#: core/leavemodel.cpp:63
+msgid "Turn off computer"
+msgstr "कंप्यूटर बन्न करू"
+
+#: core/leavemodel.cpp:65
+msgctxt "Restart computer"
+msgid "Restart"
+msgstr "पुनः प्रारंभ करू"
+
+#: core/leavemodel.cpp:67
+msgid "Restart Computer"
+msgstr "कम्प्यूटर फिनु सँ चालू करू "
+
+#: core/leavemodel.cpp:69 simpleapplet/simpleapplet.cpp:203
+msgid "Save Session"
+msgstr "सहेजू सत्र"
+
+#: core/leavemodel.cpp:71
+msgid "Save current session for next login"
+msgstr "सहेजू सत्रक लेल लागिन"
+
+#: core/leavemodel.cpp:73 simpleapplet/simpleapplet.cpp:205
+msgctxt "Puts the system on standby"
+msgid "Standby"
+msgstr "स्टैंडबाए"
+
+#: core/leavemodel.cpp:75
+msgid "Pause without logging out"
+msgstr "ठहरू लागिंग बाहर"
+
+#: core/leavemodel.cpp:77 simpleapplet/simpleapplet.cpp:206
+msgid "Hibernate"
+msgstr "हाइबरनेट करू"
+
+#: core/leavemodel.cpp:79
+msgid "Suspend to disk"
+msgstr "स्थगित केँ डिस्क"
+
+#: core/leavemodel.cpp:81 simpleapplet/simpleapplet.cpp:207
+msgid "Sleep"
+msgstr "स्लीप"
+
+#: core/leavemodel.cpp:83
+msgid "Suspend to RAM"
+msgstr "स्थगित केँ RAM"
+
+#: core/leavemodel.cpp:106 simpleapplet/simpleapplet.cpp:211
 #: ui/launcher.cpp:163
 msgid "Leave"
 msgstr "छोडू"
+
+#: core/leavemodel.cpp:118
+msgid "Session"
+msgstr "सत्र"
+
+#: core/leavemodel.cpp:146
+msgid "System"
+msgstr "सिस्टम"
+
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "घर फोल्डर"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "नेटवर्क फोल्डरसभ"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "दस्तावेज"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:84
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:118 ui/launcher.cpp:205
+msgid "Applications"
+msgstr "अनुप्रयोग"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:119 ui/launcher.cpp:218
+msgid "Recently Used"
+msgstr "हालमे प्रयुक्त"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "हालमे प्रयुक्त"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+msgid "Recently Used Applications"
+msgstr "हालक अनुप्रयोग साफ करू"
+
+#: core/systemmodel.cpp:85
+msgid "Places"
+msgstr "स्थान"
+
+#: core/systemmodel.cpp:86
+msgid "Removable Storage"
+msgstr "हटाएल जाए सकैबला भंडार"
+
+#: core/systemmodel.cpp:87
+msgid "Storage"
+msgstr "भंडारण"
+
+#: core/systemmodel.cpp:215 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr "कमांड चलाबू..."
+
+#: core/systemmodel.cpp:219
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:327 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:118 ui/launcher.cpp:239
+msgid "Computer"
+msgstr "कम्प्यूटर"
+
+#: main.cpp:32
+msgid "Kickoff"
+msgstr "किकआफ"
+
+#: main.cpp:33
+msgid "Application Launcher"
+msgstr "अनुप्रयोग चालक"
+
+#: simpleapplet/simpleapplet.cpp:194
+msgid "Bookmarks"
+msgstr "पुस्तकचिह्न"
+
+#: simpleapplet/simpleapplet.cpp:200
+msgid "System Settings"
+msgstr "तंत्र बिन्यास"
+
+#: simpleapplet/simpleapplet.cpp:208
+msgctxt "Restart Computer"
+msgid "Restart"
+msgstr "पुनः प्रारंभ करू"
 
 #: simpleapplet/simpleapplet.cpp:267
 msgid "Application Launcher Menu"
@@ -118,12 +236,6 @@ msgstr "अनुप्रयोग चलाबैबला मेनू"
 #| msgid "Kickoff Application Launcher"
 msgid "Switch to Application Launcher Style"
 msgstr "किकआफ अनुप्रयोग लान्चर"
-
-#: simpleapplet/simpleapplet.cpp:345 applet/applet.cpp:108
-#, fuzzy
-#| msgid "Applications"
-msgid "Edit Applications..."
-msgstr "अनुप्रयोग"
 
 #: simpleapplet/simpleapplet.cpp:445
 msgid "View"
@@ -179,109 +291,33 @@ msgstr "विकल्प"
 msgid "Actions"
 msgstr "क्रियासभ"
 
-#: applet/applet.cpp:84
-msgid "Kickoff Application Launcher"
-msgstr "किकआफ अनुप्रयोग लान्चर"
+#: ui/contextmenufactory.cpp:83
+msgid "Advanced"
+msgstr "उन्नत"
 
-#: applet/applet.cpp:85
-msgid ""
-"Favorites, applications, computer places, recently used items and desktop "
-"sessions"
-msgstr "प्रिय अनुप्रयोग प्रयुक्त वस्तुसभ आओर"
+#: ui/contextmenufactory.cpp:158
+msgid "Remove From Favorites"
+msgstr "पसंदीदा सँ मेटाबू"
 
-#: applet/applet.cpp:114
-msgid "Switch to Classic Menu Style"
-msgstr "केँ क्लासिक मेन्यू शैली"
+#: ui/contextmenufactory.cpp:163
+msgid "Add to Favorites"
+msgstr "मनपसंदमे जोडू"
 
-#: applet/applet.cpp:159
-msgctxt "General configuration page"
-msgid "General"
-msgstr "सामान्य"
+#: ui/contextmenufactory.cpp:195
+msgid "Add to Desktop"
+msgstr "डेस्कटाप मे जोडू"
 
-#: core/systemmodel.cpp:85
-msgid "Places"
-msgstr "स्थान"
+#: ui/contextmenufactory.cpp:203
+msgid "Add to Panel"
+msgstr "पटलमे जोडू"
 
-#: core/systemmodel.cpp:86
-msgid "Removable Storage"
-msgstr "हटाएल जाए सकैबला भंडार"
+#: ui/contextmenufactory.cpp:228
+msgid "Eject"
+msgstr "बाहर निकालू"
 
-#: core/systemmodel.cpp:87
-msgid "Storage"
-msgstr "भंडारण"
-
-#: core/systemmodel.cpp:219
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/leavemodel.cpp:51
-msgid "End session"
-msgstr "सत्र समाप्त करू"
-
-#: core/leavemodel.cpp:53
-msgid "Lock"
-msgstr "लाक करू"
-
-#: core/leavemodel.cpp:59
-msgid "Start a parallel session as a different user"
-msgstr "एकटा भिन्न प्रयोक्ता केर रूपेँ समानान्तर सत्र प्रारंभ करू"
-
-#: core/leavemodel.cpp:63
-msgid "Turn off computer"
-msgstr "कंप्यूटर बन्न करू"
-
-#: core/leavemodel.cpp:65
-msgctxt "Restart computer"
-msgid "Restart"
-msgstr "पुनः प्रारंभ करू"
-
-#: core/leavemodel.cpp:67
-msgid "Restart Computer"
-msgstr "कम्प्यूटर फिनु सँ चालू करू "
-
-#: core/leavemodel.cpp:71
-msgid "Save current session for next login"
-msgstr "सहेजू सत्रक लेल लागिन"
-
-#: core/leavemodel.cpp:75
-msgid "Pause without logging out"
-msgstr "ठहरू लागिंग बाहर"
-
-#: core/leavemodel.cpp:79
-msgid "Suspend to disk"
-msgstr "स्थगित केँ डिस्क"
-
-#: core/leavemodel.cpp:83
-msgid "Suspend to RAM"
-msgstr "स्थगित केँ RAM"
-
-#: core/leavemodel.cpp:118
-msgid "Session"
-msgstr "सत्र"
-
-#: core/leavemodel.cpp:146
-msgid "System"
-msgstr "सिस्टम"
-
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "घर फोल्डर"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "नेटवर्क फोल्डरसभ"
-
-#: core/applicationmodel.cpp:335
-msgid "Games"
-msgstr "खेल"
-
-#: core/applicationmodel.cpp:425 ui/flipscrollview.cpp:138
-msgid "All Applications"
-msgstr "सभटा अनुप्रयोग"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "दस्तावेज"
+#: ui/contextmenufactory.cpp:230
+msgid "Safely Remove"
+msgstr "हटाबू"
 
 #: ui/launcher.cpp:178
 msgid "Sort Alphabetically (A to Z)"
@@ -311,46 +347,10 @@ msgctxt "full name, login name, hostname"
 msgid "<b>%1 (%2)</b> on <b>%3</b>"
 msgstr "<b>%1 (%2)</b> पर<b>%3</b>"
 
-#: ui/contextmenufactory.cpp:83
-msgid "Advanced"
-msgstr "उन्नत"
-
-#: ui/contextmenufactory.cpp:158
-msgid "Remove From Favorites"
-msgstr "पसंदीदा सँ मेटाबू"
-
-#: ui/contextmenufactory.cpp:163
-msgid "Add to Favorites"
-msgstr "मनपसंदमे जोडू"
-
-#: ui/contextmenufactory.cpp:195
-msgid "Add to Desktop"
-msgstr "डेस्कटाप मे जोडू"
-
-#: ui/contextmenufactory.cpp:203
-msgid "Add to Panel"
-msgstr "पटलमे जोडू"
-
-#: ui/contextmenufactory.cpp:228
-msgid "Eject"
-msgstr "बाहर निकालू"
-
-#: ui/contextmenufactory.cpp:230
-msgid "Safely Remove"
-msgstr "हटाबू"
-
 #: ui/searchbar.cpp:70
 msgctxt "Label of the search bar textedit"
 msgid "Search:"
 msgstr "खोजू:"
-
-#: main.cpp:32
-msgid "Kickoff"
-msgstr "किकआफ"
-
-#: main.cpp:33
-msgid "Application Launcher"
-msgstr "अनुप्रयोग चालक"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

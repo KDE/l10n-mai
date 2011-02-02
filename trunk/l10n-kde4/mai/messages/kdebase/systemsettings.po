@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-11 02:36+0100\n"
+"POT-Creation-Date: 2011-02-02 03:07+0100\n"
 "PO-Revision-Date: 2010-01-29 16:36+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,49 +23,6 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: app/ToolTips/tooltipmanager.cpp:224
-#, kde-format
-msgid "<i>Contains 1 item</i>"
-msgid_plural "<i>Contains %1 items</i>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: app/main.cpp:35 classic/CategoryList.cpp:38
-msgid "System Settings"
-msgstr "तंत्र विन्यास"
-
-#: app/main.cpp:35
-msgid "Central configuration center for KDE."
-msgstr ""
-
-#: app/main.cpp:36 classic/ClassicMode.cpp:69 icons/IconMode.cpp:64
-msgid "(c) 2009, Ben Cooksley"
-msgstr "(c) 2009, Ben Cooksley"
-
-#: app/main.cpp:37 classic/ClassicMode.cpp:70 icons/IconMode.cpp:65
-msgid "Ben Cooksley"
-msgstr "Ben Cooksley"
-
-#: app/main.cpp:37
-msgid "Maintainer"
-msgstr "अनुरक्षक"
-
-#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:66
-msgid "Mathias Soeken"
-msgstr ""
-
-#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:66
-msgid "Developer"
-msgstr "डेवलपर"
-
-#: app/main.cpp:39
-msgid "Will Stephenson"
-msgstr ""
-
-#: app/main.cpp:39
-msgid "Internal module representation, internal module model"
-msgstr ""
 
 #: app/SettingsBase.cpp:58
 msgctxt "Search through a list of control modules"
@@ -114,6 +71,61 @@ msgstr ""
 msgid "About %1"
 msgstr "%1 केर संबंध में"
 
+#: app/ToolTips/tooltipmanager.cpp:224
+#, kde-format
+msgid "<i>Contains 1 item</i>"
+msgid_plural "<i>Contains %1 items</i>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/main.cpp:35 classic/CategoryList.cpp:38
+msgid "System Settings"
+msgstr "तंत्र विन्यास"
+
+#: app/main.cpp:35
+msgid "Central configuration center for KDE."
+msgstr ""
+
+#: app/main.cpp:36 classic/ClassicMode.cpp:69 icons/IconMode.cpp:64
+msgid "(c) 2009, Ben Cooksley"
+msgstr "(c) 2009, Ben Cooksley"
+
+#: app/main.cpp:37 classic/ClassicMode.cpp:70 icons/IconMode.cpp:65
+msgid "Ben Cooksley"
+msgstr "Ben Cooksley"
+
+#: app/main.cpp:37
+msgid "Maintainer"
+msgstr "अनुरक्षक"
+
+#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:66
+msgid "Mathias Soeken"
+msgstr ""
+
+#: app/main.cpp:38 classic/ClassicMode.cpp:71 icons/IconMode.cpp:66
+msgid "Developer"
+msgstr "डेवलपर"
+
+#: app/main.cpp:39
+msgid "Will Stephenson"
+msgstr ""
+
+#: app/main.cpp:39
+msgid "Internal module representation, internal module model"
+msgstr ""
+
+#: classic/CategoryList.cpp:39
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure your system"
+msgstr "विन्यस्त करू"
+
+#: classic/CategoryList.cpp:40
+msgid ""
+"Welcome to \"System Settings\", a central place to configure your computer "
+"system."
+msgstr ""
+
 #: classic/ClassicMode.cpp:67 classic/ClassicMode.cpp:237
 msgid "Tree View"
 msgstr "तरू दृश्य"
@@ -126,16 +138,14 @@ msgstr ""
 msgid "Author"
 msgstr "लेखक"
 
-#: classic/CategoryList.cpp:39
-#, fuzzy
-#| msgid "Configure"
-msgid "Configure your system"
-msgstr "विन्यस्त करू"
+#: core/ExternalAppModule.cpp:31
+#, kde-format
+msgid "%1 is an external application and has been automatically launched"
+msgstr ""
 
-#: classic/CategoryList.cpp:40
-msgid ""
-"Welcome to \"System Settings\", a central place to configure your computer "
-"system."
+#: core/ExternalAppModule.cpp:32
+#, kde-format
+msgid "Relaunch %1"
 msgstr ""
 
 #: core/ModuleView.cpp:83
@@ -159,16 +169,6 @@ msgstr ""
 #| msgid "System Settings"
 msgid "Apply Settings"
 msgstr "तंत्र विन्यास"
-
-#: core/ExternalAppModule.cpp:31
-#, kde-format
-msgid "%1 is an external application and has been automatically launched"
-msgstr ""
-
-#: core/ExternalAppModule.cpp:32
-#, kde-format
-msgid "Relaunch %1"
-msgstr ""
 
 #: icons/IconMode.cpp:62
 msgid "Icon View"
@@ -209,25 +209,25 @@ msgstr ""
 msgid "Show detailed tooltips"
 msgstr ""
 
-#. i18n: file: app/systemsettingsui.rc:16
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:11
-#, fuzzy
-#| msgid "System Settings"
-msgid "About System Settings"
-msgstr "तंत्र विन्यास"
-
 #. i18n: file: app/systemsettings.kcfg:9
 #. i18n: ectx: label, entry (ShowToolTips), group (Main)
-#: rc.cpp:14
+#: rc.cpp:11
 msgid "Determines whether detailed tooltips should be used"
 msgstr ""
 
 #. i18n: file: app/systemsettings.kcfg:13
 #. i18n: ectx: label, entry (ActiveView), group (Main)
-#: rc.cpp:17
+#: rc.cpp:14
 msgid "Internal name for the view used"
 msgstr ""
+
+#. i18n: file: app/systemsettingsui.rc:16
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:17
+#, fuzzy
+#| msgid "System Settings"
+msgid "About System Settings"
+msgstr "तंत्र विन्यास"
 
 #. i18n: file: classic/configClassic.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
