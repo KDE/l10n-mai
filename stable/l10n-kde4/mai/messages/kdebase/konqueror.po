@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 12:17+0100\n"
+"POT-Creation-Date: 2011-02-04 10:21+0100\n"
 "PO-Revision-Date: 2011-01-15 15:45+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672 at gmail dot com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -337,26 +337,6 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "रुकल भेल"
 
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr ""
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 देखाबू"
-
-#: src/konqhistorydialog.cpp:45
-msgctxt "@title:window"
-msgid "History"
-msgstr "इतिहास"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "छाँटू"
-
 #: src/konqhistorymodel.cpp:137
 #, kde-format
 msgid ""
@@ -413,6 +393,11 @@ msgstr "तिथि अनुसार (&D)"
 msgid "Search in history"
 msgstr "इतिहास मे खोजू"
 
+#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "छाँटू"
+
 #: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
 msgid "Do you really want to clear the entire history?"
 msgstr "की अहाँ समग्र इतिहास साफ कएनाइ चाहैत छी?"
@@ -420,6 +405,144 @@ msgstr "की अहाँ समग्र इतिहास साफ कए�
 #: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
 msgid "Clear History?"
 msgstr "इतिहास मेटाबू ?"
+
+#: src/konqprofiledlg.cpp:111
+msgid "Profile Management"
+msgstr "प्रोफाइल प्रबंधन"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "प्रोफाइल नाम बदलू (&R)"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "प्रोफाइल मेटाबू (&D)"
+
+#: src/konqsessiondlg.cpp:77
+msgid "Manage Sessions"
+msgstr "सत्रसभ केँ प्रबंधित करू"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr "खोलू (&O)"
+
+#: src/konqsessiondlg.cpp:175
+msgid "Rename Session"
+msgstr "सत्र फिनु नाम दिअ'"
+
+#: src/konqsessiondlg.cpp:223
+msgid "Save Session"
+msgstr "सहेजू सत्र"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:248
+msgid "Session exists. Overwrite?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:332
+msgid "Restore Session?"
+msgstr "सत्र फिनु बहाल करू?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "सत्र फिनु बहाल करू"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "सत्र फिनु नहि बहाल करू"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "हमरासँ बाद मे पूछू"
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "नवीन टैब खोलू"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3612
+msgid "&Reload All Tabs"
+msgstr "सभटा टैब फिनु सँ लोड करू (&R)"
+
+#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2439
+#: src/konqmainwindow.cpp:3550
+msgid "Close &Other Tabs"
+msgstr "आन टैब बन्न करू (&O)"
+
+#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3523
+msgid "&New Tab"
+msgstr "नवीन टैब (&N)"
+
+#: src/konqtabs.cpp:465
+msgid "&Duplicate Tab"
+msgstr "टैबक नकल (&D)"
+
+#: src/konqtabs.cpp:470
+msgid "&Reload Tab"
+msgstr "टैब फिनु लोड करू (&R)"
+
+#: src/konqtabs.cpp:477
+msgid "Other Tabs"
+msgstr "आन टैब"
+
+#: src/konqtabs.cpp:482
+msgid "D&etach Tab"
+msgstr "टैब केँ अलग करू (&e)"
+
+#: src/konqtabs.cpp:488
+msgid "&Close Tab"
+msgstr "टैब बन्न करू (&C)"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+msgid "Und&o: Closed Tab"
+msgstr ""
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+msgid "Und&o: Closed Window"
+msgstr ""
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr ""
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 देखाबू"
+
+#: src/konqhistorydialog.cpp:45
+msgctxt "@title:window"
+msgid "History"
+msgstr "इतिहास"
 
 #: src/konqmain.cpp:96
 #, fuzzy
@@ -570,11 +693,6 @@ msgstr "की अहाँ सच्चे आन सबहि टैब बन
 msgid "Close Other Tabs Confirmation"
 msgstr "आन टैब बन्न करब लेल पुष्टि"
 
-#: src/konqmainwindow.cpp:2439 src/konqmainwindow.cpp:3550
-#: src/konqtabs.cpp:349
-msgid "Close &Other Tabs"
-msgstr "आन टैब बन्न करू (&O)"
-
 #: src/konqmainwindow.cpp:2454
 msgid ""
 "This tab contains changes that have not been submitted.\n"
@@ -711,10 +829,6 @@ msgstr "विभाजित दृश्य बम्माँ / दहिन�
 msgid "Split View &Top/Bottom"
 msgstr "विभाजित दृश्य उप्पर / नीच्चाँ (&T)"
 
-#: src/konqmainwindow.cpp:3523 src/konqtabs.cpp:460
-msgid "&New Tab"
-msgstr "नवीन टैब (&N)"
-
 #: src/konqmainwindow.cpp:3529
 msgid "&Duplicate Current Tab"
 msgstr "मोजुदा टैबक नकल बनाबू (&D)"
@@ -767,10 +881,6 @@ msgstr "दृश्य प्रोफाइल लोड करू (&V)"
 #: src/konqmainwindow.cpp:3607 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "फिनु लोड करू (&R)"
-
-#: src/konqmainwindow.cpp:3612 src/konqtabs.cpp:326
-msgid "&Reload All Tabs"
-msgstr "सभटा टैब फिनु सँ लोड करू (&R)"
 
 #: src/konqmainwindow.cpp:3620
 msgid "&Force Reload"
@@ -1072,116 +1182,6 @@ msgstr ""
 "प्रतीत होइछ जे ओतए कान्फिगरेशन त्रुटि अछि. अहाँ कान्करर केँ %1 केर सँग सम्बद्ध कएने छी. पर "
 "ई एहि प्रकारक फाइलसभ केँ संभाल नहि सकैत अछि."
 
-#: src/konqprofiledlg.cpp:111
-msgid "Profile Management"
-msgstr "प्रोफाइल प्रबंधन"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "प्रोफाइल नाम बदलू (&R)"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "प्रोफाइल मेटाबू (&D)"
-
-#: src/konqsessiondlg.cpp:77
-msgid "Manage Sessions"
-msgstr "सत्रसभ केँ प्रबंधित करू"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "खोलू (&O)"
-
-#: src/konqsessiondlg.cpp:175
-msgid "Rename Session"
-msgstr "सत्र फिनु नाम दिअ'"
-
-#: src/konqsessiondlg.cpp:223
-msgid "Save Session"
-msgstr "सहेजू सत्र"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:248
-msgid "Session exists. Overwrite?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:332
-msgid "Restore Session?"
-msgstr "सत्र फिनु बहाल करू?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "सत्र फिनु बहाल करू"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "सत्र फिनु नहि बहाल करू"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "हमरासँ बाद मे पूछू"
-
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "नवीन टैब खोलू"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "टैबक नकल (&D)"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "टैब फिनु लोड करू (&R)"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "आन टैब"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "टैब केँ अलग करू (&e)"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "टैब बन्न करू (&C)"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-msgid "Und&o: Closed Tab"
-msgstr ""
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-msgid "Und&o: Closed Window"
-msgstr ""
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
 #: src/konqview.cpp:1199
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -1451,6 +1451,23 @@ msgstr "पुस्तक चिह्न जोडू"
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "मूल वस्तु %1 ट्री मे नहि भेटल. आंतरिक त्रुटि."
 
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Name:"
+msgstr "नाम:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
 msgstr "नवीन फोल्डर बनाबू...(&C)"
@@ -1478,23 +1495,6 @@ msgstr "नवीन फोल्डर बनाबू"
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "फोल्डर नाम भरू:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Name:"
-msgstr "नाम:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
