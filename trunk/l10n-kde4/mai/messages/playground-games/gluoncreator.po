@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gluoncreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:31+0100\n"
+"POT-Creation-Date: 2011-02-07 02:53+0100\n"
 "PO-Revision-Date: 2010-09-24 13:12+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -33,7 +33,13 @@ msgstr "आन "
 msgid "Plugins"
 msgstr "प्लगिन"
 
-#: dialogs/newprojectdialogpage.cpp:66 mainwindow.cpp:335 mainwindow.cpp:343
+#: dialogs/recentprojectsdialogpage.cpp:60
+#, fuzzy
+#| msgid "Project"
+msgid "Recent Projects"
+msgstr "प्रोजेक्ट"
+
+#: dialogs/newprojectdialogpage.cpp:66 mainwindow.cpp:337 mainwindow.cpp:345
 #, fuzzy
 #| msgid "Project"
 msgid "New Project"
@@ -59,9 +65,9 @@ msgstr "प्रोजेक्ट"
 msgid "You need to enter a name and location to continue"
 msgstr ""
 
-#: dialogs/newprojectdialogpage.cpp:116 mainwindow.cpp:244
+#: dialogs/newprojectdialogpage.cpp:116
 #: plugins/docks/projectdock/projectdock.cpp:143
-#: plugins/docks/projectdock/projectdock.cpp:207
+#: plugins/docks/projectdock/projectdock.cpp:207 mainwindow.cpp:244
 msgid "New Scene"
 msgstr ""
 
@@ -98,21 +104,15 @@ msgstr ""
 msgid "Path already exists and contains files"
 msgstr ""
 
-#: dialogs/openprojectdialogpage.cpp:57
+#: dialogs/openprojectdialogpage.cpp:59
 #, fuzzy
 #| msgid "Project"
 msgid "Open Project"
 msgstr "प्रोजेक्ट"
 
-#: dialogs/openprojectdialogpage.cpp:69
+#: dialogs/openprojectdialogpage.cpp:71
 #: plugins/docks/projectdock/projectdockplugin.cpp:39
 msgid "Project"
-msgstr "प्रोजेक्ट"
-
-#: dialogs/recentprojectsdialogpage.cpp:60
-#, fuzzy
-#| msgid "Project"
-msgid "Recent Projects"
 msgstr "प्रोजेक्ट"
 
 #: lib/models/componentmodel.cpp:185
@@ -340,94 +340,6 @@ msgstr ""
 msgid "GDL file to open"
 msgstr ""
 
-#: mainwindow.cpp:155 mainwindow.cpp:158
-msgctxt "View Game Tab"
-msgid "View"
-msgstr "दृश्य"
-
-#: mainwindow.cpp:157
-msgid "Opening project..."
-msgstr ""
-
-#: mainwindow.cpp:173
-msgid "Project successfully opened"
-msgstr ""
-
-#: mainwindow.cpp:174 mainwindow.cpp:202
-#, kde-format
-msgid "%1 - Gluon Creator"
-msgstr ""
-
-#: mainwindow.cpp:180
-msgid "Unable to open project file..."
-msgstr ""
-
-#: mainwindow.cpp:193
-msgid "Saving project..."
-msgstr ""
-
-#: mainwindow.cpp:198
-msgid "Could not save file."
-msgstr ""
-
-#: mainwindow.cpp:201
-msgid "Project successfully saved."
-msgstr ""
-
-#: mainwindow.cpp:215
-msgid "*.gluon|Gluon Project Files"
-msgstr "*.gluon|Gluon Project Files"
-
-#: mainwindow.cpp:240
-msgid "New Object"
-msgstr ""
-
-#: mainwindow.cpp:248
-#, fuzzy
-#| msgid "Camera"
-msgid "Play Game"
-msgstr "कैमरा"
-
-#: mainwindow.cpp:252
-msgid "Pause Game"
-msgstr ""
-
-#: mainwindow.cpp:256
-#, fuzzy
-#| msgid "Camera"
-msgid "Stop Game"
-msgstr "कैमरा"
-
-#: mainwindow.cpp:260
-msgid "Add Assets..."
-msgstr ""
-
-#: mainwindow.cpp:264
-msgid "Set current scene as entry point"
-msgstr ""
-
-#: mainwindow.cpp:268
-msgid "Lock layout"
-msgstr ""
-
-#: mainwindow.cpp:335
-#, kde-format
-msgid "%1 [modified]"
-msgstr ""
-
-#: mainwindow.cpp:343
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: mainwindow.cpp:351
-msgid "The project has been changed. Do you want to save before closing?"
-msgstr ""
-
-#: mainwindow.cpp:351
-msgid "Save Before Closing?"
-msgstr ""
-
 #: plugins/docks/componentsdock/componentsdockplugin.cpp:41
 msgid "Components"
 msgstr "अवयव"
@@ -634,6 +546,96 @@ msgstr ""
 #| msgid "Plugins"
 msgid "Points"
 msgstr "प्लगिन"
+
+#: mainwindow.cpp:155 mainwindow.cpp:158 mainwindow.cpp:303
+msgctxt "View Game Tab"
+msgid "View"
+msgstr "दृश्य"
+
+#: mainwindow.cpp:157
+msgid "Opening project..."
+msgstr ""
+
+#: mainwindow.cpp:173
+msgid "Project successfully opened"
+msgstr ""
+
+#: mainwindow.cpp:174 mainwindow.cpp:202
+#, kde-format
+msgid "%1 - Gluon Creator"
+msgstr ""
+
+#: mainwindow.cpp:180
+msgid "Unable to open project file..."
+msgstr ""
+
+#: mainwindow.cpp:193
+msgid "Saving project..."
+msgstr ""
+
+#: mainwindow.cpp:198
+msgid "Could not save file."
+msgstr ""
+
+#: mainwindow.cpp:201
+msgid "Project successfully saved."
+msgstr ""
+
+#: mainwindow.cpp:215
+#, fuzzy, kde-format
+#| msgid "*.gluon|Gluon Project Files"
+msgid "*%1|Gluon Project Files"
+msgstr "*.gluon|Gluon Project Files"
+
+#: mainwindow.cpp:240
+msgid "New Object"
+msgstr ""
+
+#: mainwindow.cpp:248
+#, fuzzy
+#| msgid "Camera"
+msgid "Play Game"
+msgstr "कैमरा"
+
+#: mainwindow.cpp:252
+msgid "Pause Game"
+msgstr ""
+
+#: mainwindow.cpp:256
+#, fuzzy
+#| msgid "Camera"
+msgid "Stop Game"
+msgstr "कैमरा"
+
+#: mainwindow.cpp:260
+msgid "Add Assets..."
+msgstr ""
+
+#: mainwindow.cpp:264
+msgid "Set current scene as entry point"
+msgstr ""
+
+#: mainwindow.cpp:268
+msgid "Lock layout"
+msgstr ""
+
+#: mainwindow.cpp:337
+#, kde-format
+msgid "%1 [modified]"
+msgstr ""
+
+#: mainwindow.cpp:345
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: mainwindow.cpp:353
+msgid "The project has been changed. Do you want to save before closing?"
+msgstr ""
+
+#: mainwindow.cpp:353
+msgid "Save Before Closing?"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
