@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_emailnotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-08 03:05+0100\n"
+"POT-Creation-Date: 2011-02-09 03:09+0100\n"
 "PO-Revision-Date: 2010-09-24 13:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,71 +17,81 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: dialog.cpp:73
+#: dialog.cpp:75
 msgid "New Messages"
 msgstr ""
 
-#: dialog.cpp:87
+#: dialog.cpp:89
 msgctxt "tooltip on the refresh button"
 msgid "Check Mail"
 msgstr ""
 
-#: dialog.cpp:95
+#: dialog.cpp:97
 msgctxt "no active search, no results shown"
 msgid "Idle."
 msgstr "निष्क्रिय."
 
-#: dialog.cpp:118
+#: dialog.cpp:120
 #, kde-format
 msgctxt "tab text"
 msgid "New (%1)"
 msgstr ""
 
-#: dialog.cpp:119
+#: dialog.cpp:121
 #, kde-format
 msgctxt "tab text"
 msgid "Important (%1)"
 msgstr ""
 
-#: dialog.cpp:128
+#: dialog.cpp:130
 msgctxt "list title"
 msgid "New Messages"
 msgstr ""
 
-#: dialog.cpp:164
+#: dialog.cpp:135
+msgctxt "clear button in emailnotifier popup -- keep short"
+msgid "Clear"
+msgstr ""
+
+#: dialog.cpp:136
+msgctxt "tooltip clear button"
+msgid "Hide all messages"
+msgstr ""
+
+#: dialog.cpp:174
 msgctxt "tab title"
 msgid "Important Messages"
 msgstr ""
 
-#: dialog.cpp:203
+#: dialog.cpp:213
 msgctxt "dialog status"
 msgid "Checking mail..."
 msgstr ""
 
-#: dialog.cpp:271
+#: dialog.cpp:290
 #, kde-format
 msgctxt "sync status running"
 msgid "Checking mail in %1"
 msgstr ""
 
-#: dialog.cpp:274
+#: dialog.cpp:293
 #, kde-format
 msgctxt "sync status idle"
 msgid "%1 is idle"
 msgstr ""
 
-#: dialog.cpp:277
+#: dialog.cpp:296
 #, kde-format
 msgctxt "sync status error"
 msgid "Error checking mail in %1"
 msgstr ""
 
-#: emaillist.cpp:344
+#: emaillist.cpp:351
 msgctxt "applet status"
 msgid "No New Messages"
 msgstr ""
 
-#: emaillist.cpp:347
+#: emaillist.cpp:354
 #, kde-format
 msgctxt "applet status"
 msgid "%1 New Message"
@@ -89,17 +99,17 @@ msgid_plural "%1 New Messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: emailnotifier.cpp:92
+#: emailnotifier.cpp:90
 msgctxt "dialog status"
 msgid "Searching for Inbox folders..."
 msgstr ""
 
-#: emailnotifier.cpp:115
+#: emailnotifier.cpp:113
 msgctxt "used for string comparison for finding default email folder"
 msgid "Inbox"
 msgstr "इनबाक्स"
 
-#: emailnotifier.cpp:145
+#: emailnotifier.cpp:143
 #, kde-format
 msgctxt "dialog status"
 msgid "Added %1 inbox."
@@ -107,23 +117,23 @@ msgid_plural "Added %1 inbox folders."
 msgstr[0] ""
 msgstr[1] ""
 
-#: emailnotifier.cpp:217
+#: emailnotifier.cpp:210
 msgctxt "tooltip on startup"
 msgid "No new email"
 msgstr ""
 
-#: emailnotifier.cpp:230
+#: emailnotifier.cpp:223
 msgid "Mail"
 msgstr "डाक"
 
-#: emailnotifier.cpp:457
+#: emailnotifier.cpp:444
 #, kde-format
 msgid "%1 New Message"
 msgid_plural "%1 New Messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: emailnotifier.cpp:463
+#: emailnotifier.cpp:450
 msgctxt "tooltip: no new emails"
 msgid "No New Messages"
 msgstr ""
@@ -237,25 +247,16 @@ msgid "<b>Messages</b>"
 msgstr ""
 
 #. i18n: file: emailnotifierConfig.ui:72
-#. i18n: ectx: property (text), widget (QCheckBox, allowHtml)
+#. i18n: ectx: property (text), widget (QCheckBox, showImportant)
 #: rc.cpp:12
-msgid "Allow HTML"
+msgid "Also show messages marked as Important"
 msgstr ""
 
-#. i18n: file: emailnotifierConfig.ui:79
-#. i18n: ectx: property (text), widget (QLabel, generallabel)
-#: rc.cpp:15
-msgid "<b>Display</b>"
-msgstr "<b>देखाबू</b>"
-
-#. i18n: file: emailnotifierConfig.ui:92
+#. i18n: file: emailnotifierConfig.ui:82
 #. i18n: ectx: property (text), widget (QCheckBox, showImportantSeparately)
-#: rc.cpp:18
+#: rc.cpp:15
 msgid "Show Important messages in a separate list"
 msgstr ""
 
-#. i18n: file: emailnotifierConfig.ui:99
-#. i18n: ectx: property (text), widget (QCheckBox, showImportant)
-#: rc.cpp:21
-msgid "Also show messages marked as Important"
-msgstr ""
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>देखाबू</b>"

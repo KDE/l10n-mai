@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-04 02:31+0100\n"
+"POT-Creation-Date: 2011-02-09 02:53+0100\n"
 "PO-Revision-Date: 2010-09-24 12:01+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -109,7 +109,18 @@ msgstr ""
 msgid "Files that will be sent"
 msgstr ""
 
+#: actionplugins/sendfile/helper/sendfilewizard.cpp:59
+msgid "Bluetooth Send Files"
+msgstr ""
+
+#: actionplugins/sendfile/helper/sendfilewizard.cpp:61
+#, fuzzy
+#| msgid "Send File"
+msgid "Send Files"
+msgstr "फाइल पठाउ"
+
 #: actionplugins/sendfile/helper/sendfilesjob.cpp:80
+#: actionplugins/sendfile/helper/sendfilesjob.cpp:90
 msgid "Sending file over Bluetooth"
 msgstr ""
 
@@ -128,22 +139,6 @@ msgstr "सँ"
 msgctxt "File transfer destination"
 msgid "To"
 msgstr "केँ"
-
-#: actionplugins/sendfile/helper/sendfilesjob.cpp:90
-#: daemon/helpers/filereceiver/openobex/filetransferjob.cpp:102
-#: daemon/helpers/filereceiver/openobex/filetransferjob.cpp:141
-msgid "Receiving file over Bluetooth"
-msgstr ""
-
-#: actionplugins/sendfile/helper/sendfilewizard.cpp:59
-msgid "Bluetooth Send Files"
-msgstr ""
-
-#: actionplugins/sendfile/helper/sendfilewizard.cpp:61
-#, fuzzy
-#| msgid "Send File"
-msgid "Send Files"
-msgstr "फाइल पठाउ"
 
 #: daemon/helpers/authorize/authorize.cpp:43
 #, kde-format
@@ -200,6 +195,11 @@ msgstr ""
 #: daemon/helpers/filereceiver/main.cpp:36 daemon/kded/BlueDevilDaemon.cpp:76
 msgid "Eduardo Robles Elvira"
 msgstr "एडयूर्डो रोब्लस एल्विरा"
+
+#: daemon/helpers/filereceiver/openobex/filetransferjob.cpp:102
+#: daemon/helpers/filereceiver/openobex/filetransferjob.cpp:141
+msgid "Receiving file over Bluetooth"
+msgstr ""
 
 #: daemon/helpers/filereceiver/openobex/serversession.cpp:123
 #, kde-format
