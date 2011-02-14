@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-04 10:22+0100\n"
+"POT-Creation-Date: 2011-02-14 20:27+0100\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -38,7 +38,12 @@ msgstr "पुरान बैकेंड"
 msgid "New backend"
 msgstr "नवीन बैकेंड"
 
-#: repository.cpp:94
+#: ontologyloader.cpp:117
+#, fuzzy, kde-format
+msgid "Parsing of file %1 failed (%2)"
+msgstr "क' फाइल"
+
+#: repository.cpp:98
 #, fuzzy
 msgctxt "@info - notification message"
 msgid ""
@@ -46,7 +51,7 @@ msgid ""
 "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
 msgstr "डेस्कटाप सर्वर मे डाटा प्लगइन अछि क'लेल."
 
-#: repository.cpp:106
+#: repository.cpp:110
 #, fuzzy
 msgctxt "@info - notification message"
 msgid ""
@@ -55,7 +60,7 @@ msgid ""
 "Nepomuk."
 msgstr "डेस्कटाप सर्वर मे डाटा सर्वर आओर ODBC अछि क'लेल."
 
-#: repository.cpp:219
+#: repository.cpp:227
 #, fuzzy, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -64,13 +69,13 @@ msgid ""
 "disabled until the situation has been resolved manually."
 msgstr "नहि मे खोजू डाटा नहि क'लेल डाटा निष्क्रिय करू."
 
-#: repository.cpp:253
+#: repository.cpp:261
 #, fuzzy
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr "डाटा मे a नवीन a."
 
-#: repository.cpp:266
+#: repository.cpp:274
 #, fuzzy
 msgctxt "@info - notification message"
 msgid ""
@@ -78,16 +83,11 @@ msgid ""
 "Nepomuk will be disabled until the situation has been resolved manually."
 msgstr "डाटा मे नवीन क'लेल डाटा निष्क्रिय करू."
 
-#: repository.cpp:280
+#: repository.cpp:288
 #, fuzzy
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "डाटा मे नवीन."
-
-#: ontologyloader.cpp:121
-#, fuzzy, kde-format
-msgid "Parsing of file %1 failed (%2)"
-msgstr "क' फाइल"
 
 #, fuzzy
 #~| msgid "Search Service"
