@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevvalgrind\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-20 03:48+0100\n"
+"POT-Creation-Date: 2011-02-21 04:00+0100\n"
 "PO-Revision-Date: 2010-09-24 13:23+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,43 +17,128 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: valgrindmodel.cpp:286
+#. i18n: file: valgrindconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: file: valgrindgenericconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: valgrindconfigpage.cpp:97 valgrindlauncher.cpp:117 valgrindplugin.cpp:67
+#: valgrindplugin.cpp:102 rc.cpp:11 rc.cpp:101
+msgid "Valgrind"
+msgstr ""
+
+#: valgrindgenericconfigpage.cpp:89
+msgid "Global settings"
+msgstr ""
+
+#: valgrindjob.cpp:107
+#, kde-format
+msgid ""
+"No environment group specified, looks like a broken configuration, please "
+"check run configuration '%1'. Using default environment group."
+msgstr ""
+
+#: valgrindjob.cpp:227
+#, kde-format
+msgid "Socket error while communicating with valgrind: \"%1\""
+msgstr ""
+
+#: valgrindjob.cpp:228
+msgid "Valgrind communication error"
+msgstr ""
+
+#: valgrindjob.cpp:240
+#, kde-format
+msgid "Failed to start valgrind from \"%1\"."
+msgstr ""
+
+#: valgrindjob.cpp:240
+msgid "Failed to start Valgrind"
+msgstr ""
+
+#: valgrindjob.cpp:243
+msgid "Valgrind crashed."
+msgstr ""
+
+#: valgrindjob.cpp:243 valgrindjob.cpp:246 valgrindjob.cpp:249
+#: valgrindjob.cpp:252 valgrindjob.cpp:255 valgrindparser.cpp:157
+msgid "Valgrind Error"
+msgstr ""
+
+#: valgrindjob.cpp:246
+msgid "Valgrind process timed out."
+msgstr ""
+
+#: valgrindjob.cpp:249
+msgid "Write to Valgrind process failed."
+msgstr ""
+
+#: valgrindjob.cpp:252
+msgid "Read from Valgrind process failed."
+msgstr ""
+
+#: valgrindjob.cpp:255
+msgid "Unknown Valgrind process error."
+msgstr ""
+
+#: valgrindlauncher.cpp:107
+msgid "Profile application with Valgrind"
+msgstr ""
+
+#: valgrindmodel.cpp:72
 #, kde-format
 msgid "at: %1"
 msgstr ""
 
-#: valgrindmodel.cpp:288
+#: valgrindmodel.cpp:74
 #, kde-format
 msgid "by: %1"
 msgstr ""
 
-#: valgrindmodel.cpp:350
+#: valgrindmodel.cpp:136
 msgid "Function"
 msgstr "फंक्शन"
 
-#: valgrindmodel.cpp:352
+#: valgrindmodel.cpp:138
 msgid "Source"
 msgstr "श्रोत"
 
-#: valgrindmodel.cpp:354
+#: valgrindmodel.cpp:140
 msgid "Object"
 msgstr "वस्तु"
 
-#: valgrindmodel.cpp:554
+#: valgrindparser.cpp:157
 #, kde-format
 msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
 msgstr ""
 
-#: valgrindmodel.cpp:554 valgrindjob.cpp:229 valgrindjob.cpp:232
-#: valgrindjob.cpp:235 valgrindjob.cpp:238 valgrindjob.cpp:241
-msgid "Valgrind Error"
+#: valgrindplugin.cpp:67
+msgid "Support for running Valgrind"
 msgstr ""
 
-#: valgrindwidget.cpp:35
+#: valgrindplugin.cpp:107
+msgid "Valgrind ($CurrentTool?)"
+msgstr ""
+
+#: valgrindplugin.cpp:108
+msgid ""
+"Launches the currently selected launch configuration with the Valgrind "
+"presets"
+msgstr ""
+
+#: valgrindplugin.cpp:149
+msgid "Open Valgrind Output"
+msgstr ""
+
+#: valgrindplugin.cpp:155
+#, kde-format
+msgid "Could not open Valgrind output: %1"
+msgstr ""
+
+#: valgrindwidget.cpp:36
 msgid "Valgrind Output"
 msgstr ""
 
-#: valgrindwidget.cpp:37
+#: valgrindwidget.cpp:38
 msgid ""
 "<b>Valgrind</b><p>Shows the output of valgrind. Valgrind detects:<br/>use of "
 "uninitialized memory;<br/>reading/writing memory after it has been free'd;"
@@ -62,115 +147,6 @@ msgid ""
 "malloc'd blocks are lost forever;<br/>passing of uninitialised and/or "
 "unaddressable memory to system calls;<br/>mismatched use of malloc/new/new "
 "[] vs free/delete/delete [];<br/>some abuses of the POSIX pthread API.</p>"
-msgstr ""
-
-#: valgrindconfig.cpp:102
-msgid "Profile application with Valgrind"
-msgstr ""
-
-#. i18n: file: valgrindconfig.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: valgrindconfig.cpp:112 valgrindconfig.cpp:185 valgrindplugin.cpp:65
-#: valgrindplugin.cpp:100 rc.cpp:11
-msgid "Valgrind"
-msgstr ""
-
-#: valgrindconfig.cpp:216 valgrindplugin.cpp:112
-msgid "Cache Simulator"
-msgstr ""
-
-#: valgrindconfig.cpp:244 valgrindplugin.cpp:106
-msgid "Call Tracing"
-msgstr ""
-
-#: valgrindconfig.cpp:271 valgrindplugin.cpp:109
-msgid "Race Conditions"
-msgstr ""
-
-#: valgrindconfig.cpp:298 valgrindplugin.cpp:103
-msgid "Memory Check"
-msgstr ""
-
-#: valgrindjob.cpp:98
-#, kde-format
-msgid ""
-"No environment group specified, looks like a broken configuration, please "
-"check run configuration '%1'. Using default environment group."
-msgstr ""
-
-#: valgrindjob.cpp:213
-#, kde-format
-msgid "Socket error while communicating with valgrind: \"%1\""
-msgstr ""
-
-#: valgrindjob.cpp:214
-msgid "Valgrind communication error"
-msgstr ""
-
-#: valgrindjob.cpp:226
-#, kde-format
-msgid "Failed to start valgrind from \"%1\"."
-msgstr ""
-
-#: valgrindjob.cpp:226
-msgid "Failed to start Valgrind"
-msgstr ""
-
-#: valgrindjob.cpp:229
-msgid "Valgrind crashed."
-msgstr ""
-
-#: valgrindjob.cpp:232
-msgid "Valgrind process timed out."
-msgstr ""
-
-#: valgrindjob.cpp:235
-msgid "Write to Valgrind process failed."
-msgstr ""
-
-#: valgrindjob.cpp:238
-msgid "Read from Valgrind process failed."
-msgstr ""
-
-#: valgrindjob.cpp:241
-msgid "Unknown Valgrind process error."
-msgstr ""
-
-#: valgrindplugin.cpp:65
-msgid "Support for running Valgrind"
-msgstr ""
-
-#: valgrindplugin.cpp:104
-msgid ""
-"Launches the currently selected launch configuration with the Valgrind "
-"Memory Checker (memcheck)."
-msgstr ""
-
-#: valgrindplugin.cpp:107
-msgid ""
-"Launches the currently selected launch configuration with the Valgrind Call "
-"Tracing (callgrind)."
-msgstr ""
-
-#: valgrindplugin.cpp:110
-msgid ""
-"Launches the currently selected launch configuration with the Valgrind Race "
-"Conditions Checker (helgrind)."
-msgstr ""
-
-#: valgrindplugin.cpp:113
-msgid ""
-"Launches the currently selected launch configuration with the Valgrind Cache "
-"Simulator (cachegrind)."
-msgstr ""
-
-#: valgrindplugin.cpp:180
-msgid "Open Valgrind Output"
-msgstr ""
-
-#: valgrindplugin.cpp:186
-#, kde-format
-msgid "Could not open Valgrind output: %1"
 msgstr ""
 
 #: rc.cpp:1
@@ -199,19 +175,25 @@ msgstr ""
 
 #. i18n: file: valgrindconfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:14
+#. i18n: file: valgrindgenericconfig.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:14 rc.cpp:104
 msgid "Extra &Parameters:"
 msgstr ""
 
 #. i18n: file: valgrindconfig.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:17
+#. i18n: file: valgrindgenericconfig.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:17 rc.cpp:107
 msgid "Display stack to &depth:"
 msgstr ""
 
 #. i18n: file: valgrindconfig.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:20
+#. i18n: file: valgrindgenericconfig.ui:56
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:20 rc.cpp:110
 msgid "Maximum &frame stack size:"
 msgstr ""
 
@@ -219,19 +201,25 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (KIntNumInput, maxStackFrame)
 #. i18n: file: valgrindconfig.ui:184
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, freeBlockList)
-#: rc.cpp:23 rc.cpp:65
+#. i18n: file: valgrindgenericconfig.ui:75
+#. i18n: ectx: property (suffix), widget (KIntNumInput, maxStackSize)
+#: rc.cpp:23 rc.cpp:65 rc.cpp:113
 msgid " bytes"
 msgstr ""
 
 #. i18n: file: valgrindconfig.ui:82
 #. i18n: ectx: property (text), widget (QCheckBox, limitErrors)
-#: rc.cpp:26
+#. i18n: file: valgrindgenericconfig.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, limitErrors)
+#: rc.cpp:26 rc.cpp:122
 msgid "Limit &identical error display"
 msgstr ""
 
 #. i18n: file: valgrindconfig.ui:89
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:29
+#. i18n: file: valgrindgenericconfig.ui:82
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:29 rc.cpp:116
 msgid "Valgrind Executable:"
 msgstr ""
 
@@ -366,3 +354,9 @@ msgstr ""
 #: rc.cpp:98
 msgid "All"
 msgstr "सभ"
+
+#. i18n: file: valgrindgenericconfig.ui:124
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:119
+msgid "Valgrind tool:"
+msgstr ""
