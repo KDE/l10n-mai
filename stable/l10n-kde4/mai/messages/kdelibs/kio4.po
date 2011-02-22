@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 13:45+0100\n"
+"POT-Creation-Date: 2011-02-22 13:37+0100\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1603,8 +1603,8 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "अनमाउंटिंग"
 
-#: kio/job.cpp:2110 kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
-#: kio/global.cpp:666 kio/paste.cpp:64
+#: kio/job.cpp:2110 kio/global.cpp:666 kio/copyjob.cpp:1349
+#: kio/copyjob.cpp:1920 kio/paste.cpp:64
 msgid "File Already Exists"
 msgstr "फाइल पहिने सँ अस्तित्व मे अछि. "
 
@@ -1625,14 +1625,6 @@ msgstr "फाइल छोड़ू (&S)"
 #, kde-format
 msgid "Unable to create io-slave: %1"
 msgstr "आइओ-स्लेव तैआर करब मे अक्षम: %1"
-
-#: kio/copyjob.cpp:1025 kio/global.cpp:676
-msgid "Folder Already Exists"
-msgstr "फोल्डर पहिने सँ अस्तित्व मे अछि"
-
-#: kio/copyjob.cpp:1337 kio/copyjob.cpp:1908
-msgid "Already Exists as Folder"
-msgstr "पहिने सँ फोल्डर केर रूपेँ अछि"
 
 #: kio/fileundomanager.cpp:116
 msgid "Creating directory"
@@ -2601,6 +2593,10 @@ msgstr "मोजुदा फाइल मेटाकए फिनु सँ  
 msgid "Choose an alternate filename for the new file."
 msgstr "नवीन फाइल क' लेल वैकल्पिक नाम चुनू."
 
+#: kio/global.cpp:676 kio/copyjob.cpp:1030
+msgid "Folder Already Exists"
+msgstr "फोल्डर पहिने सँ अस्तित्व मे अछि"
+
 #: kio/global.cpp:677
 msgid ""
 "The requested folder could not be created because a folder with the same "
@@ -3481,6 +3477,10 @@ msgstr "बाहर निकालू"
 #: kio/kdesktopfileactions.cpp:221
 msgid "Unmount"
 msgstr "अनारोहित करू"
+
+#: kio/copyjob.cpp:1349 kio/copyjob.cpp:1920
+msgid "Already Exists as Folder"
+msgstr "पहिने सँ फोल्डर केर रूपेँ अछि"
 
 #: kio/kdirmodel.cpp:992
 msgctxt "@title:column"
