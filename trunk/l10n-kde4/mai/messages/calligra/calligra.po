@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-22 03:21+0100\n"
+"POT-Creation-Date: 2011-02-23 03:08+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1350,6 +1350,50 @@ msgctxt "Underline Style"
 msgid "Double"
 msgstr "दुगुना"
 
+#. i18n: file: widgets/KoCsvImportDialog.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#: kotext/KoTextEditor_p.h:82 kotext/KoTextEditor_p.h:119 rc.cpp:440
+msgid "Format"
+msgstr "प्रारूप"
+
+#: kotext/commands/DeleteTableColumnCommand.cpp:39
+#, fuzzy
+#| msgid "Delete"
+msgid "Delete Column"
+msgstr "मेटाबू"
+
+#: kotext/commands/DeleteTableRowCommand.cpp:39
+#, fuzzy
+#| msgid "Delete"
+msgid "Delete Row"
+msgstr "मेटाबू"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:41
+msgid "Insert Column Right"
+msgstr ""
+
+#: kotext/commands/InsertTableColumnCommand.cpp:43
+#, fuzzy
+#| msgid "Insert Index"
+msgid "Insert Column Left"
+msgstr "अनुक्रमणिका जोडू"
+
+#: kotext/commands/InsertTableRowCommand.cpp:41
+#, fuzzy
+#| msgid "Insert Break"
+msgid "Insert Row Below"
+msgstr "खण्डन जोडू"
+
+#: kotext/commands/InsertTableRowCommand.cpp:43
+#, fuzzy
+#| msgid "Insert page"
+msgid "Insert Row Above"
+msgstr "पृष्ठ जोडू"
+
+#: kotext/styles/KoStyleManager.cpp:90
+msgid "Default"
+msgstr "मूलभूत"
+
 #: kotext/KoTextEditor.cpp:437 kotext/KoTextEditor.cpp:442
 msgid "Bold"
 msgstr "मोट"
@@ -1456,55 +1500,11 @@ msgstr ""
 msgid "Key Press"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1070
+#: kotext/KoTextEditor.cpp:1072
 #, fuzzy
 #| msgid "Insert Break"
 msgid "Line Break"
 msgstr "खण्डन जोडू"
-
-#. i18n: file: widgets/KoCsvImportDialog.ui:147
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:82 kotext/KoTextEditor_p.h:119 rc.cpp:440
-msgid "Format"
-msgstr "प्रारूप"
-
-#: kotext/commands/DeleteTableColumnCommand.cpp:39
-#, fuzzy
-#| msgid "Delete"
-msgid "Delete Column"
-msgstr "मेटाबू"
-
-#: kotext/commands/DeleteTableRowCommand.cpp:39
-#, fuzzy
-#| msgid "Delete"
-msgid "Delete Row"
-msgstr "मेटाबू"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:41
-msgid "Insert Column Right"
-msgstr ""
-
-#: kotext/commands/InsertTableColumnCommand.cpp:43
-#, fuzzy
-#| msgid "Insert Index"
-msgid "Insert Column Left"
-msgstr "अनुक्रमणिका जोडू"
-
-#: kotext/commands/InsertTableRowCommand.cpp:41
-#, fuzzy
-#| msgid "Insert Break"
-msgid "Insert Row Below"
-msgstr "खण्डन जोडू"
-
-#: kotext/commands/InsertTableRowCommand.cpp:43
-#, fuzzy
-#| msgid "Insert page"
-msgid "Insert Row Above"
-msgstr "पृष्ठ जोडू"
-
-#: kotext/styles/KoStyleManager.cpp:90
-msgid "Default"
-msgstr "मूलभूत"
 
 #: main/KoApplication.cpp:77
 msgid "Only print and exit"
