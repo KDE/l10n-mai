@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevvalgrind\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-27 03:54+0100\n"
+"POT-Creation-Date: 2011-02-28 04:02+0100\n"
 "PO-Revision-Date: 2010-09-24 13:23+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -82,29 +82,6 @@ msgstr ""
 msgid "Unknown Valgrind process error."
 msgstr ""
 
-#: valgrindmemcheckconfigpage.cpp:68
-msgid "Memcheck settings"
-msgstr ""
-
-#: valgrindcachegrindconfigpage.cpp:44
-msgid "Cachegrind settings"
-msgstr ""
-
-#: valgrindgenericconfigpage.cpp:96
-msgid "Global settings"
-msgstr ""
-
-#: valgrindlauncher.cpp:104
-msgid "Profile application with Valgrind"
-msgstr ""
-
-#. i18n: file: valgrindgenericconfig.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: valgrindlauncher.cpp:114 valgrindplugin.cpp:67 valgrindplugin.cpp:102
-#: rc.cpp:11
-msgid "Valgrind"
-msgstr ""
-
 #: valgrindmodel.cpp:82
 #, kde-format
 msgid "at: %1"
@@ -132,6 +109,13 @@ msgstr "वस्तु"
 msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
 msgstr ""
 
+#. i18n: file: config/ui/valgrindgenericconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: valgrindplugin.cpp:67 valgrindplugin.cpp:102 valgrindlauncher.cpp:121
+#: rc.cpp:26
+msgid "Valgrind"
+msgstr ""
+
 #: valgrindplugin.cpp:67
 msgid "Support for running Valgrind"
 msgstr ""
@@ -149,6 +133,40 @@ msgstr ""
 #: valgrindplugin.cpp:164
 #, kde-format
 msgid "Could not open Valgrind output: %1"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindcachegrindconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/valgrindcachegrindconfigpage.cpp:44 rc.cpp:11
+msgid "Cachegrind"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindcallgrindconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/valgrindcallgrindconfigpage.cpp:61 rc.cpp:14
+msgid "Callgrind"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindhelgrindconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/valgrindhelgrindconfigpage.cpp:67 rc.cpp:50
+msgid "Helgrind"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindmassifconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/valgrindmassifconfigpage.cpp:44 rc.cpp:56
+msgid "Massif"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindmemcheckconfig.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/valgrindmemcheckconfigpage.cpp:68 rc.cpp:59
+msgid "Memcheck"
+msgstr ""
+
+#: valgrindlauncher.cpp:111
+msgid "Profile application with Valgrind"
 msgstr ""
 
 #: rc.cpp:1
@@ -175,80 +193,92 @@ msgctxt "@title:menu"
 msgid "Profile Launch (Valgrind)"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:23
+#. i18n: file: config/ui/valgrindcallgrindconfig.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, separateThreadReporting)
+#: rc.cpp:17
+msgid "Separate Thread Reporting"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindcallgrindconfig.ui:30
+#. i18n: ectx: property (text), widget (QCheckBox, fullCacheSimulation)
+#: rc.cpp:20
+msgid "Full Cache Simulation"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindcallgrindconfig.ui:37
+#. i18n: ectx: property (text), widget (QCheckBox, simulateHardwarePrefetcher)
+#: rc.cpp:23
+msgid "Simulate Hardware Prefetcher"
+msgstr ""
+
+#. i18n: file: config/ui/valgrindgenericconfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: valgrindmemcheckconfig.ui:23
+#. i18n: file: config/ui/valgrindmemcheckconfig.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:14 rc.cpp:38
+#: rc.cpp:29 rc.cpp:62
 msgid "Extra &Parameters:"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:36
+#. i18n: file: config/ui/valgrindgenericconfig.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:17
+#: rc.cpp:32
 msgid "Display stack to &depth:"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:56
+#. i18n: file: config/ui/valgrindgenericconfig.ui:56
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:20
+#: rc.cpp:35
 msgid "Maximum &frame stack size:"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:75
+#. i18n: file: config/ui/valgrindgenericconfig.ui:75
 #. i18n: ectx: property (suffix), widget (KIntNumInput, maxStackSize)
-#. i18n: file: valgrindmemcheckconfig.ui:55
+#. i18n: file: config/ui/valgrindmemcheckconfig.ui:55
 #. i18n: ectx: property (suffix), widget (KIntNumInput, freeListSize)
-#: rc.cpp:23 rc.cpp:44
+#: rc.cpp:38 rc.cpp:68
 msgid " bytes"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:82
+#. i18n: file: config/ui/valgrindgenericconfig.ui:82
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:26
+#: rc.cpp:41
 msgid "Valgrind Executable:"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:124
+#. i18n: file: config/ui/valgrindgenericconfig.ui:124
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:29
+#: rc.cpp:44
 msgid "Valgrind tool:"
 msgstr ""
 
-#. i18n: file: valgrindgenericconfig.ui:131
+#. i18n: file: config/ui/valgrindgenericconfig.ui:131
 #. i18n: ectx: property (text), widget (QCheckBox, limitErrors)
-#: rc.cpp:32
+#: rc.cpp:47
 msgid "Limit errors if too many"
 msgstr ""
 
-#. i18n: file: valgrindmemcheckconfig.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:35
-msgid "Memcheck"
+#. i18n: file: config/ui/valgrindhelgrindconfig.ui:23
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: rc.cpp:53
+msgid "Extra Synchronization Events:"
 msgstr ""
 
-#. i18n: file: valgrindmemcheckconfig.ui:36
+#. i18n: file: config/ui/valgrindmemcheckconfig.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:41
+#: rc.cpp:65
 msgid "Freelist size"
 msgstr ""
 
-#. i18n: file: valgrindmemcheckconfig.ui:75
+#. i18n: file: config/ui/valgrindmemcheckconfig.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, trackOrigin)
-#: rc.cpp:47
+#: rc.cpp:71
 msgid "Track unitialized values origins"
 msgstr ""
 
-#. i18n: file: valgrindmemcheckconfig.ui:82
+#. i18n: file: config/ui/valgrindmemcheckconfig.ui:82
 #. i18n: ectx: property (text), widget (QCheckBox, showReachable)
-#: rc.cpp:50
+#: rc.cpp:74
 msgid "Show reachable"
-msgstr ""
-
-#. i18n: file: valgrindcachegrindconfig.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:53
-msgid "Cachegrind"
 msgstr ""
 
 #~ msgid "None"
