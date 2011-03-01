@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libknetworkmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-22 03:23+0100\n"
+"POT-Creation-Date: 2011-03-01 03:28+0100\n"
 "PO-Revision-Date: 2010-09-08 12:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -511,19 +511,39 @@ msgctxt "@info:tooltip unknown security"
 msgid "Unknown security type"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:101
+#: libs/service/notificationmanager.cpp:102
+#, kde-format
+msgctxt "@info:status Notification text when connecting"
+msgid "Activating %1"
+msgstr ""
+
+#: libs/service/notificationmanager.cpp:106
 #, kde-format
 msgctxt "@info:status Notification text when a connection has been activated"
 msgid "%1 activated"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:105
+#: libs/service/notificationmanager.cpp:111
+#, fuzzy, kde-format
+#| msgctxt "network interface connection failed state label"
+#| msgid "Connection Failed"
+msgctxt "@info:status Notification text when connection has failed"
+msgid "Connection %1 failed"
+msgstr "संबंधन बिफल भए गेल"
+
+#: libs/service/notificationmanager.cpp:113
 #, kde-format
 msgctxt "@info:status Notification text when deactivating a connection"
 msgid "%1 deactivated"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:158
+#: libs/service/notificationmanager.cpp:122
+#, kde-format
+msgctxt "@info:status Notification text when wireless/gsm signal is low"
+msgid "Low signal on %1"
+msgstr ""
+
+#: libs/service/notificationmanager.cpp:174
 #, kde-format
 msgctxt ""
 "@info:status interface (%2) status notification title when a connection (%1) "
@@ -531,7 +551,7 @@ msgctxt ""
 msgid "Activating %1 on %2"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:168
+#: libs/service/notificationmanager.cpp:184
 #, kde-format
 msgctxt ""
 "@info:status interface (%2) status notification title when a connection (%1) "
@@ -539,7 +559,7 @@ msgctxt ""
 msgid "%1 on %2"
 msgstr "%2 पर %1"
 
-#: libs/service/notificationmanager.cpp:182
+#: libs/service/notificationmanager.cpp:198
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -547,7 +567,7 @@ msgctxt ""
 msgid "%1 because it is now being managed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:185
+#: libs/service/notificationmanager.cpp:201
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -555,7 +575,7 @@ msgctxt ""
 msgid "%1 because it is no longer being managed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:188
+#: libs/service/notificationmanager.cpp:204
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -563,7 +583,7 @@ msgctxt ""
 msgid "%1 because configuration failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:191
+#: libs/service/notificationmanager.cpp:207
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -571,7 +591,7 @@ msgctxt ""
 msgid "%1 because the configuration is unavailable"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:194
+#: libs/service/notificationmanager.cpp:210
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -579,7 +599,7 @@ msgctxt ""
 msgid "%1 because the configuration has expired"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:197
+#: libs/service/notificationmanager.cpp:213
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -587,7 +607,7 @@ msgctxt ""
 msgid "%1 because secrets were not provided"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:200
+#: libs/service/notificationmanager.cpp:216
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -595,7 +615,7 @@ msgctxt ""
 msgid "%1 because the authorization supplicant disconnected"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:203
+#: libs/service/notificationmanager.cpp:219
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -603,7 +623,7 @@ msgctxt ""
 msgid "%1 because the authorization supplicant's configuration failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:206
+#: libs/service/notificationmanager.cpp:222
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -611,7 +631,7 @@ msgctxt ""
 msgid "%1 because the authorization supplicant failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:209
+#: libs/service/notificationmanager.cpp:225
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -619,7 +639,7 @@ msgctxt ""
 msgid "%1 because the authorization supplicant timed out"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:212
+#: libs/service/notificationmanager.cpp:228
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -627,7 +647,7 @@ msgctxt ""
 msgid "%1 because PPP failed to start"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:215
+#: libs/service/notificationmanager.cpp:231
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -635,7 +655,7 @@ msgctxt ""
 msgid "%1 because PPP disconnected"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:218
+#: libs/service/notificationmanager.cpp:234
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -643,7 +663,7 @@ msgctxt ""
 msgid "%1 because PPP failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:221
+#: libs/service/notificationmanager.cpp:237
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -651,7 +671,7 @@ msgctxt ""
 msgid "%1 because DHCP failed to start"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:224
+#: libs/service/notificationmanager.cpp:240
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -659,7 +679,7 @@ msgctxt ""
 msgid "%1 because a DHCP error occurred"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:227
+#: libs/service/notificationmanager.cpp:243
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -667,7 +687,7 @@ msgctxt ""
 msgid "%1 because DHCP failed "
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:230
+#: libs/service/notificationmanager.cpp:246
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -675,7 +695,7 @@ msgctxt ""
 msgid "%1 because the shared service failed to start"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:233
+#: libs/service/notificationmanager.cpp:249
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -683,7 +703,7 @@ msgctxt ""
 msgid "%1 because the shared service failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:236
+#: libs/service/notificationmanager.cpp:252
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -691,7 +711,7 @@ msgctxt ""
 msgid "%1 because the auto IP service failed to start"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:239
+#: libs/service/notificationmanager.cpp:255
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -699,7 +719,7 @@ msgctxt ""
 msgid "%1 because the auto IP service reported an error"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:242
+#: libs/service/notificationmanager.cpp:258
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -707,7 +727,7 @@ msgctxt ""
 msgid "%1 because the auto IP service failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:245
+#: libs/service/notificationmanager.cpp:261
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -715,7 +735,7 @@ msgctxt ""
 msgid "%1 because the modem is busy"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:248
+#: libs/service/notificationmanager.cpp:264
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -723,7 +743,7 @@ msgctxt ""
 msgid "%1 because the modem has no dial tone"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:251
+#: libs/service/notificationmanager.cpp:267
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -731,7 +751,7 @@ msgctxt ""
 msgid "%1 because the modem shows no carrier"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:254
+#: libs/service/notificationmanager.cpp:270
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -739,7 +759,7 @@ msgctxt ""
 msgid "%1 because the modem dial timed out"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:257
+#: libs/service/notificationmanager.cpp:273
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -747,7 +767,7 @@ msgctxt ""
 msgid "%1 because the modem could not be initialized"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:260
+#: libs/service/notificationmanager.cpp:276
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -755,7 +775,7 @@ msgctxt ""
 msgid "%1 because the GSM APN could not be selected"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:263
+#: libs/service/notificationmanager.cpp:279
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -763,7 +783,7 @@ msgctxt ""
 msgid "%1 because the GSM modem is not searching"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:266
+#: libs/service/notificationmanager.cpp:282
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -771,7 +791,7 @@ msgctxt ""
 msgid "%1 because GSM network registration was denied"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:269
+#: libs/service/notificationmanager.cpp:285
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -779,7 +799,7 @@ msgctxt ""
 msgid "%1 because GSM network registration timed out"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:272
+#: libs/service/notificationmanager.cpp:288
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -787,7 +807,7 @@ msgctxt ""
 msgid "%1 because GSM registration failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:275
+#: libs/service/notificationmanager.cpp:291
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -795,7 +815,7 @@ msgctxt ""
 msgid "%1 because the GSM PIN check failed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:278
+#: libs/service/notificationmanager.cpp:294
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -803,7 +823,7 @@ msgctxt ""
 msgid "%1 because firmware is missing"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:281
+#: libs/service/notificationmanager.cpp:297
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -811,7 +831,7 @@ msgctxt ""
 msgid "%1 because the device was removed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:284
+#: libs/service/notificationmanager.cpp:300
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -819,7 +839,7 @@ msgctxt ""
 msgid "%1 because the networking system is now sleeping"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:287
+#: libs/service/notificationmanager.cpp:303
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -827,7 +847,7 @@ msgctxt ""
 msgid "%1 because the connection was removed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:290
+#: libs/service/notificationmanager.cpp:306
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -835,7 +855,7 @@ msgctxt ""
 msgid "%1 by request"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:293
+#: libs/service/notificationmanager.cpp:309
 #, kde-format
 msgctxt ""
 "@info:status Notification when an interface changes state (%1) due to "
@@ -843,13 +863,13 @@ msgctxt ""
 msgid "%1 because the cable was disconnected"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:422
+#: libs/service/notificationmanager.cpp:438
 #, kde-format
 msgctxt "@info:status Notification for hardware added"
 msgid "%1 attached"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:457
+#: libs/service/notificationmanager.cpp:473
 #, kde-format
 msgctxt ""
 "@info:status Notification for hardware removed giving vendor supplied "
@@ -857,21 +877,21 @@ msgctxt ""
 msgid "%1 removed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:460
+#: libs/service/notificationmanager.cpp:476
 msgctxt ""
 "@info:status Notification for hardware removed used if we don't have its "
 "user-visible name"
 msgid "Network interface removed"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:485
+#: libs/service/notificationmanager.cpp:501
 #, kde-format
 msgctxt ""
 "@info:status Notification text when a single wireless network was found"
 msgid "Wireless network %1 found"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:488
+#: libs/service/notificationmanager.cpp:504
 #, kde-format
 msgctxt ""
 "@info:status Notification text when multiple wireless networks are found. %2 "
@@ -882,14 +902,14 @@ msgid_plural "<b>New wireless networks:</b><br /> %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libs/service/notificationmanager.cpp:501
+#: libs/service/notificationmanager.cpp:517
 #, kde-format
 msgctxt ""
 "@info:status Notification text when a single wireless network disappeared"
 msgid "Wireless network %1 disappeared"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:505
+#: libs/service/notificationmanager.cpp:521
 #, kde-format
 msgctxt ""
 "@info:status Notification text when multiple wireless networks have "
@@ -900,24 +920,24 @@ msgid_plural "<b>Wireless networks disappeared:</b><br /> %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libs/service/notificationmanager.cpp:517
+#: libs/service/notificationmanager.cpp:533
 msgctxt "@info:status Notification for radio kill switch turned on"
 msgid "Wireless hardware enabled"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:519
+#: libs/service/notificationmanager.cpp:535
 msgctxt "@info:status Notification for radio kill switch turned on"
 msgid "Wireless hardware disabled"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:526
+#: libs/service/notificationmanager.cpp:542
 msgctxt ""
 "@info:status Notification when the networking subsystem (NetworkManager, "
 "etc) is disabled"
 msgid "Networking system disabled"
 msgstr ""
 
-#: libs/service/notificationmanager.cpp:532
+#: libs/service/notificationmanager.cpp:548
 msgctxt ""
 "@info:status Notification when the networking subsystem (NetworkManager, "
 "etc) is already running"
