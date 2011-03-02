@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_batchprocessimages\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-22 03:26+0100\n"
+"POT-Creation-Date: 2011-03-02 03:18+0100\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -260,40 +260,40 @@ msgid ""
 msgstr ""
 
 #: imagepreview.cpp:63 recompressimagesdialog.cpp:67 renameimagesdialog.cpp:65
-#: resizeimagesdialog.cpp:166 borderimagesdialog.cpp:69
-#: colorimagesdialog.cpp:68 convertimagesdialog.cpp:76
-#: effectimagesdialog.cpp:67 filterimagesdialog.cpp:67
+#: borderimagesdialog.cpp:69 colorimagesdialog.cpp:68
+#: convertimagesdialog.cpp:76 effectimagesdialog.cpp:67
+#: filterimagesdialog.cpp:67 resizeimagesdialog.cpp:166
 msgid ""
 "(c) 2003-2009, Gilles Caulier\n"
 "(c) 2007-2009, Aurélien Gateau"
 msgstr ""
 
 #: imagepreview.cpp:66 recompressimagesdialog.cpp:70 renameimagesdialog.cpp:68
-#: resizeimagesdialog.cpp:169 borderimagesdialog.cpp:72
-#: colorimagesdialog.cpp:71 convertimagesdialog.cpp:79
-#: effectimagesdialog.cpp:70 filterimagesdialog.cpp:70
+#: borderimagesdialog.cpp:72 colorimagesdialog.cpp:71
+#: convertimagesdialog.cpp:79 effectimagesdialog.cpp:70
+#: filterimagesdialog.cpp:70 resizeimagesdialog.cpp:169
 msgid "Gilles Caulier"
 msgstr ""
 
 #: imagepreview.cpp:66 recompressimagesdialog.cpp:70 renameimagesdialog.cpp:68
-#: resizeimagesdialog.cpp:169 borderimagesdialog.cpp:72
-#: colorimagesdialog.cpp:71 convertimagesdialog.cpp:79
-#: effectimagesdialog.cpp:70 filterimagesdialog.cpp:70
+#: borderimagesdialog.cpp:72 colorimagesdialog.cpp:71
+#: convertimagesdialog.cpp:79 effectimagesdialog.cpp:70
+#: filterimagesdialog.cpp:70 resizeimagesdialog.cpp:169
 msgid "Author"
 msgstr "लेखक"
 
 #: imagepreview.cpp:69 recompressimagesdialog.cpp:73 renameimagesdialog.cpp:71
-#: resizeimagesdialog.cpp:171 borderimagesdialog.cpp:75
-#: colorimagesdialog.cpp:74 convertimagesdialog.cpp:82
-#: effectimagesdialog.cpp:73 filterimagesdialog.cpp:73
+#: borderimagesdialog.cpp:75 colorimagesdialog.cpp:74
+#: convertimagesdialog.cpp:82 effectimagesdialog.cpp:73
+#: filterimagesdialog.cpp:73 resizeimagesdialog.cpp:171
 msgid "Aurelien Gateau"
 msgstr ""
 
 #: imagepreview.cpp:69 recompressimagesdialog.cpp:73 renameimagesdialog.cpp:71
-#: resizeimagesdialog.cpp:171 resizeimagesdialog.cpp:173
 #: borderimagesdialog.cpp:75 colorimagesdialog.cpp:74
 #: convertimagesdialog.cpp:82 effectimagesdialog.cpp:73
-#: filterimagesdialog.cpp:73
+#: filterimagesdialog.cpp:73 resizeimagesdialog.cpp:171
+#: resizeimagesdialog.cpp:173
 msgid "Maintainer"
 msgstr "अनुरक्षक"
 
@@ -360,8 +360,8 @@ msgctxt "image compression"
 msgid "None"
 msgstr "किछु नहि"
 
-#: recompressimagesdialog.cpp:245 resizeimagesdialog.cpp:278
-#: batchprocessimagesdialog.cpp:405 batchprocessimagesdialog.cpp:470
+#: recompressimagesdialog.cpp:245 batchprocessimagesdialog.cpp:405
+#: batchprocessimagesdialog.cpp:470 resizeimagesdialog.cpp:278
 msgid "Skipped."
 msgstr ""
 
@@ -459,52 +459,6 @@ msgstr "बेस"
 msgctxt "batch process result"
 msgid "Failed"
 msgstr "असफल"
-
-#: resizeimagesdialog.cpp:148
-msgid "Batch Resize Images"
-msgstr ""
-
-#: resizeimagesdialog.cpp:155
-msgid "Proportional (1 dim.)"
-msgstr ""
-
-#: resizeimagesdialog.cpp:156
-msgid "Proportional (2 dim.)"
-msgstr ""
-
-#: resizeimagesdialog.cpp:157
-msgid "Non-Proportional"
-msgstr ""
-
-#: resizeimagesdialog.cpp:158
-msgid "Prepare to Print"
-msgstr ""
-
-#: resizeimagesdialog.cpp:161
-msgid "Batch resize images"
-msgstr ""
-
-#: resizeimagesdialog.cpp:164
-msgid ""
-"A Kipi plugin to batch-resize images.\n"
-"This plugin uses the \"convert\" program from the \"ImageMagick\" package."
-msgstr ""
-
-#: resizeimagesdialog.cpp:173
-msgid "Johannes Wienke"
-msgstr ""
-
-#: resizeimagesdialog.cpp:184
-msgid "Image Resizing Options"
-msgstr ""
-
-#: resizeimagesdialog.cpp:187
-msgid "Type:"
-msgstr "प्रकार:"
-
-#: resizeimagesdialog.cpp:194
-msgid "<p>Select here the image-resize type.</p>"
-msgstr ""
 
 #: resizeoptionsdialog.cpp:53
 msgid "Image-Resize Options"
@@ -1580,6 +1534,52 @@ msgid ""
 "process\n"
 "preview\n"
 "image."
+msgstr ""
+
+#: resizeimagesdialog.cpp:148
+msgid "Batch Resize Images"
+msgstr ""
+
+#: resizeimagesdialog.cpp:155
+msgid "Proportional (1 dim.)"
+msgstr ""
+
+#: resizeimagesdialog.cpp:156
+msgid "Proportional (2 dim.)"
+msgstr ""
+
+#: resizeimagesdialog.cpp:157
+msgid "Non-Proportional"
+msgstr ""
+
+#: resizeimagesdialog.cpp:158
+msgid "Prepare to Print"
+msgstr ""
+
+#: resizeimagesdialog.cpp:161
+msgid "Batch resize images"
+msgstr ""
+
+#: resizeimagesdialog.cpp:164
+msgid ""
+"A Kipi plugin to batch-resize images.\n"
+"This plugin uses the \"convert\" program from the \"ImageMagick\" package."
+msgstr ""
+
+#: resizeimagesdialog.cpp:173
+msgid "Johannes Wienke"
+msgstr ""
+
+#: resizeimagesdialog.cpp:184
+msgid "Image Resizing Options"
+msgstr ""
+
+#: resizeimagesdialog.cpp:187
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: resizeimagesdialog.cpp:194
+msgid "<p>Select here the image-resize type.</p>"
 msgstr ""
 
 #: rc.cpp:1
