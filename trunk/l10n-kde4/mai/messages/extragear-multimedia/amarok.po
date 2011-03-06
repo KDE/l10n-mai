@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-05 03:38+0100\n"
+"POT-Creation-Date: 2011-03-06 03:22+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -30,12 +30,12 @@ msgid "Volume"
 msgstr "आवाज"
 
 #: TrayIcon.cpp:153 context/applets/currenttrack/CurrentTrack.cpp:448
-#: core/meta/support/MetaConstants.cpp:121 playlist/PlaylistModel.cpp:905
+#: core/meta/support/MetaConstants.cpp:122 playlist/PlaylistModel.cpp:905
 #: widgets/SmartPlaylistEditor.cpp:185
 msgid "Score"
 msgstr "अंक"
 
-#: TrayIcon.cpp:171 core/meta/support/MetaConstants.cpp:122
+#: TrayIcon.cpp:171 core/meta/support/MetaConstants.cpp:123
 #: playlist/ProgressiveSearchWidget.cpp:109 playlist/PlaylistModel.cpp:906
 #: widgets/SmartPlaylistEditor.cpp:185
 msgid "Rating"
@@ -504,7 +504,7 @@ msgid "Album Artist"
 msgstr "एल्बम कलाकार"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1163
-#: core/meta/support/MetaConstants.cpp:109
+#: core/meta/support/MetaConstants.cpp:110
 #: dialogs/FilenameLayoutDialog.cpp:234 dialogs/FilenameLayoutDialog.cpp:598
 #: playlist/PlaylistModel.cpp:892 widgets/SmartPlaylistEditor.cpp:183
 #: widgets/SmartPlaylistEditor.cpp:197
@@ -512,7 +512,7 @@ msgid "Composer"
 msgstr ""
 
 #: browsers/CollectionTreeItemModelBase.cpp:1164
-#: core/meta/support/MetaConstants.cpp:108 dialogs/transferdialog.cpp:90
+#: core/meta/support/MetaConstants.cpp:109 dialogs/transferdialog.cpp:90
 #: dialogs/FilenameLayoutDialog.cpp:254 dialogs/FilenameLayoutDialog.cpp:633
 #: playlist/ProgressiveSearchWidget.cpp:95 playlist/PlaylistModel.cpp:898
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
@@ -520,7 +520,7 @@ msgid "Genre"
 msgstr "घराना"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1165
-#: core/meta/support/MetaConstants.cpp:110
+#: core/meta/support/MetaConstants.cpp:111
 #: dialogs/FilenameLayoutDialog.cpp:238 dialogs/FilenameLayoutDialog.cpp:605
 #: playlist/PlaylistModel.cpp:893 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:197 widgets/SmartPlaylistEditor.cpp:921
@@ -528,7 +528,7 @@ msgid "Year"
 msgstr "वर्ष"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1166
-#: core/meta/support/MetaConstants.cpp:134 widgets/SmartPlaylistEditor.cpp:187
+#: core/meta/support/MetaConstants.cpp:135 widgets/SmartPlaylistEditor.cpp:187
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Label"
 msgstr "लेबल"
@@ -1102,7 +1102,7 @@ msgstr[1] ""
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:86
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: browsers/playlistbrowser/PodcastModel.cpp:336
-#: core/meta/support/MetaConstants.cpp:105
+#: core/meta/support/MetaConstants.cpp:106
 #: dialogs/FilenameLayoutDialog.cpp:226 dialogs/FilenameLayoutDialog.cpp:577
 #: musicbrainz/MusicBrainzTags.cpp:358 playlist/PlaylistModel.cpp:889
 #: widgets/SmartPlaylistEditor.cpp:183 rc.cpp:1031
@@ -1409,7 +1409,7 @@ msgid "Genres"
 msgstr "घराना"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:449
-#: core/meta/support/MetaConstants.cpp:124
+#: core/meta/support/MetaConstants.cpp:125
 msgid "Last Played"
 msgstr "अंतिम बार खेलल गेल"
 
@@ -2495,12 +2495,6 @@ msgstr ""
 msgid "Show under Various Artists"
 msgstr ""
 
-#: core-impl/collections/db/sql/SqlMeta.cpp:272
-#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
-#, kde-format
-msgid "%1 - %2"
-msgstr ""
-
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
 #: core-impl/collections/db/sql/SqlCollection.cpp:81 rc.cpp:1515
@@ -2552,6 +2546,12 @@ msgstr "टैगसभ"
 #: core-impl/collections/support/FileCollectionLocation.cpp:99
 #, kde-format
 msgid "Removing: %1"
+msgstr ""
+
+#: core-impl/collections/db/sql/SqlMeta.cpp:272
+#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
+#, kde-format
+msgid "%1 - %2"
 msgstr ""
 
 #: core-impl/collections/db/ScanManager.cpp:134
@@ -3233,347 +3233,6 @@ msgstr ""
 msgid "Downloading Podcast \"%1\""
 msgstr ""
 
-#: core/meta/support/MetaConstants.cpp:103
-#, fuzzy
-#| msgid "Rating"
-msgctxt ""
-"The field name in case nothing specific is selected e.g. in the automatic "
-"playlist generator"
-msgid "anything"
-msgstr "रेटिंग"
-
-#: core/meta/support/MetaConstants.cpp:104
-msgctxt "The name of the file this track is stored in"
-msgid "filename"
-msgstr "फाइलनाम"
-
-#: core/meta/support/MetaConstants.cpp:106
-#, fuzzy
-#| msgid "Attribute"
-msgid "Artist Name"
-msgstr "विशेषता"
-
-#: core/meta/support/MetaConstants.cpp:107
-#, fuzzy
-#| msgid "Album"
-msgid "Album Name"
-msgstr "एल्बम"
-
-#: core/meta/support/MetaConstants.cpp:111
-#: dialogs/FilenameLayoutDialog.cpp:250 dialogs/FilenameLayoutDialog.cpp:626
-#: playlist/PlaylistModel.cpp:899 widgets/SmartPlaylistEditor.cpp:184
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: core/meta/support/MetaConstants.cpp:112
-#: dialogs/OrganizeCollectionDialog.cpp:157
-msgid "Track Number"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:113 playlist/PlaylistModel.cpp:895
-msgid "Disc Number"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:114
-msgid "Bpm"
-msgstr ""
-
-#. i18n: file: network/NetworkRequests.ui:56
-#. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: core/meta/support/MetaConstants.cpp:115 playlist/PlaylistModel.cpp:902
-#: widgets/SmartPlaylistEditor.cpp:183 rc.cpp:1875
-msgid "Length"
-msgstr "नमाइ"
-
-#: core/meta/support/MetaConstants.cpp:116
-#, fuzzy
-#| msgid "Bit rate:"
-msgid "Bit Rate"
-msgstr "बिट रेटः"
-
-#: core/meta/support/MetaConstants.cpp:117 playlist/PlaylistModel.cpp:904
-msgid "Sample Rate"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:118 playlist/PlaylistModel.cpp:910
-msgid "File Size"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:119
-#, fuzzy
-#| msgctxt "@item::intable File Format"
-#| msgid "Format"
-msgid "Format"
-msgstr "प्रारूप"
-
-#: core/meta/support/MetaConstants.cpp:120
-msgid "Added to Collection"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:123
-#, fuzzy
-#| msgid "Last Played"
-msgid "First Played"
-msgstr "अंतिम बार खेलल गेल"
-
-#: core/meta/support/MetaConstants.cpp:125
-#, fuzzy
-#| msgid "Play Count"
-msgid "Playcount"
-msgstr "प्ले काउंट"
-
-#: core/meta/support/MetaConstants.cpp:126
-msgid "Unique Id"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:128
-#, fuzzy
-#| msgid "Track"
-msgid "track gain"
-msgstr "ट्रैक"
-
-#: core/meta/support/MetaConstants.cpp:129
-msgid "track gain peak"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:130
-#, fuzzy
-#| msgid "Album Artist"
-msgid "album gain"
-msgstr "एल्बम कलाकार"
-
-#: core/meta/support/MetaConstants.cpp:131
-msgid "album gain peak"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:133
-#, fuzzy
-#| msgid "Album Artist"
-msgid "Album Artist Name"
-msgstr "एल्बम कलाकार"
-
-#: core/meta/support/MetaConstants.cpp:135
-#, fuzzy
-#| msgid "modified"
-msgid "Last Modified"
-msgstr "परिवर्धित"
-
-#: core/meta/support/MetaConstants.cpp:146
-#, fuzzy
-#| msgid "Rating"
-msgctxt ""
-"The field name in case nothing specific is selected e.g. in the automatic "
-"playlist generator. Use a one word translation."
-msgid "anything"
-msgstr "रेटिंग"
-
-#: core/meta/support/MetaConstants.cpp:147
-#, fuzzy
-#| msgid "filename"
-msgctxt ""
-"One word translation used in the collection filter. The name of the file "
-"this track is stored in"
-msgid "filename"
-msgstr "फाइलनाम"
-
-#: core/meta/support/MetaConstants.cpp:148
-#, fuzzy
-#| msgid "title"
-msgctxt "One word translation used in the collection filter"
-msgid "title"
-msgstr "शीर्षक"
-
-#: core/meta/support/MetaConstants.cpp:149
-#, fuzzy
-#| msgid "Artist"
-msgctxt "One word translation used in the collection filter"
-msgid "artist"
-msgstr "कलाकार"
-
-#: core/meta/support/MetaConstants.cpp:150
-#, fuzzy
-#| msgid "Album"
-msgctxt "One word translation used in the collection filter"
-msgid "album"
-msgstr "एल्बम"
-
-#: core/meta/support/MetaConstants.cpp:151
-#, fuzzy
-#| msgid "Genre"
-msgctxt "One word translation used in the collection filter"
-msgid "genre"
-msgstr "घराना"
-
-#: core/meta/support/MetaConstants.cpp:152
-msgctxt "One word translation used in the collection filter"
-msgid "composer"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:153
-#, fuzzy
-#| msgid "year"
-msgctxt "One word translation used in the collection filter"
-msgid "year"
-msgstr "साल"
-
-#: core/meta/support/MetaConstants.cpp:154
-#, fuzzy
-#| msgid "Comment"
-msgctxt "One word translation used in the collection filter"
-msgid "comment"
-msgstr "टिप्पणी"
-
-#: core/meta/support/MetaConstants.cpp:155
-msgctxt "One word translation used in the collection filter"
-msgid "tracknumber"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:156
-msgctxt "One word translation used in the collection filter"
-msgid "discnumber"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:157
-msgctxt "One word translation used in the collection filter"
-msgid "bpm"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:158
-#, fuzzy
-#| msgid "length"
-msgctxt "One word translation used in the collection filter"
-msgid "length"
-msgstr "नमाइ"
-
-#: core/meta/support/MetaConstants.cpp:159
-#, fuzzy
-#| msgid "Bit rate:"
-msgctxt "One word translation used in the collection filter"
-msgid "bitrate"
-msgstr "बिट रेटः"
-
-#: core/meta/support/MetaConstants.cpp:160
-#, fuzzy
-#| msgid "Sample rate:"
-msgctxt "One word translation used in the collection filter"
-msgid "samplerate"
-msgstr "नमूना दरः"
-
-#: core/meta/support/MetaConstants.cpp:161
-#, fuzzy
-#| msgctxt "'File size' playlist column name and token for playlist layouts"
-#| msgid "File size"
-msgctxt "One word translation used in the collection filter"
-msgid "filesize"
-msgstr "फाइल पूर्वावलोकन"
-
-#: core/meta/support/MetaConstants.cpp:162
-#, fuzzy
-#| msgid "Format"
-msgctxt "One word translation used in the collection filter"
-msgid "format"
-msgstr "प्रारूप"
-
-#: core/meta/support/MetaConstants.cpp:163
-#, fuzzy
-#| msgid "Added"
-msgctxt "One word translation used in the collection filter"
-msgid "added"
-msgstr "जोड़ल"
-
-#: core/meta/support/MetaConstants.cpp:164
-#, fuzzy
-#| msgid "Score"
-msgctxt "One word translation used in the collection filter"
-msgid "score"
-msgstr "अंक"
-
-#: core/meta/support/MetaConstants.cpp:165
-#, fuzzy
-#| msgid "Rating"
-msgctxt "One word translation used in the collection filter"
-msgid "rating"
-msgstr "रेटिंग"
-
-#: core/meta/support/MetaConstants.cpp:166
-#, fuzzy
-#| msgid "first"
-msgctxt ""
-"One word translation used in the collection filter. First played time / "
-"access date"
-msgid "firstplay"
-msgstr "पहिल"
-
-#: core/meta/support/MetaConstants.cpp:167
-#, fuzzy
-#| msgid "Playlist"
-msgctxt ""
-"One word translation used in the collection filter. Last played time / "
-"access date"
-msgid "lastplay"
-msgstr "गीत-सूची"
-
-#: core/meta/support/MetaConstants.cpp:168
-#, fuzzy
-#| msgid "Play Count"
-msgctxt "One word translation used in the collection filter"
-msgid "playcount"
-msgstr "प्ले काउंट"
-
-#: core/meta/support/MetaConstants.cpp:169
-msgctxt "One word translation used in the collection filter"
-msgid "uniqueid"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:171
-#, fuzzy
-#| msgid "Track"
-msgctxt "One word translation used in the collection filter"
-msgid "trackgain"
-msgstr "ट्रैक"
-
-#: core/meta/support/MetaConstants.cpp:172
-#, fuzzy
-#| msgid "Track"
-msgctxt "One word translation used in the collection filter"
-msgid "trackgainpeak"
-msgstr "ट्रैक"
-
-#: core/meta/support/MetaConstants.cpp:173
-#, fuzzy
-#| msgid "Album Artist"
-msgctxt "One word translation used in the collection filter"
-msgid "albumgain"
-msgstr "एल्बम कलाकार"
-
-#: core/meta/support/MetaConstants.cpp:174
-#, fuzzy
-#| msgid "Album Artist"
-msgctxt "One word translation used in the collection filter"
-msgid "albumgainpeak"
-msgstr "एल्बम कलाकार"
-
-#: core/meta/support/MetaConstants.cpp:176
-#, fuzzy
-#| msgid "Album Artist"
-msgctxt "One word translation used in the collection filter"
-msgid "albumartist"
-msgstr "एल्बम कलाकार"
-
-#: core/meta/support/MetaConstants.cpp:177
-#, fuzzy
-#| msgid "label"
-msgctxt "One word translation used in the collection filter"
-msgid "label"
-msgstr "लेबल"
-
-#: core/meta/support/MetaConstants.cpp:178
-#, fuzzy
-#| msgid "modified"
-msgctxt "One word translation used in the collection filter"
-msgid "modified"
-msgstr "परिवर्धित"
-
 #: core/meta/support/MetaUtility.cpp:392
 msgctxt ""
 "the time format for a time length when the time is below 1 hour see QTime "
@@ -3646,6 +3305,347 @@ msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "सकेण्ड"
 msgstr[1] "सकेण्ड"
+
+#: core/meta/support/MetaConstants.cpp:104
+#, fuzzy
+#| msgid "Rating"
+msgctxt ""
+"The field name in case nothing specific is selected e.g. in the automatic "
+"playlist generator"
+msgid "anything"
+msgstr "रेटिंग"
+
+#: core/meta/support/MetaConstants.cpp:105
+msgctxt "The name of the file this track is stored in"
+msgid "filename"
+msgstr "फाइलनाम"
+
+#: core/meta/support/MetaConstants.cpp:107
+#, fuzzy
+#| msgid "Attribute"
+msgid "Artist Name"
+msgstr "विशेषता"
+
+#: core/meta/support/MetaConstants.cpp:108
+#, fuzzy
+#| msgid "Album"
+msgid "Album Name"
+msgstr "एल्बम"
+
+#: core/meta/support/MetaConstants.cpp:112
+#: dialogs/FilenameLayoutDialog.cpp:250 dialogs/FilenameLayoutDialog.cpp:626
+#: playlist/PlaylistModel.cpp:899 widgets/SmartPlaylistEditor.cpp:184
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: core/meta/support/MetaConstants.cpp:113
+#: dialogs/OrganizeCollectionDialog.cpp:157
+msgid "Track Number"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:114 playlist/PlaylistModel.cpp:895
+msgid "Disc Number"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:115
+msgid "Bpm"
+msgstr ""
+
+#. i18n: file: network/NetworkRequests.ui:56
+#. i18n: ectx: property (text), widget (QTreeWidget, requestList)
+#: core/meta/support/MetaConstants.cpp:116 playlist/PlaylistModel.cpp:902
+#: widgets/SmartPlaylistEditor.cpp:183 rc.cpp:1875
+msgid "Length"
+msgstr "नमाइ"
+
+#: core/meta/support/MetaConstants.cpp:117
+#, fuzzy
+#| msgid "Bit rate:"
+msgid "Bit Rate"
+msgstr "बिट रेटः"
+
+#: core/meta/support/MetaConstants.cpp:118 playlist/PlaylistModel.cpp:904
+msgid "Sample Rate"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:119 playlist/PlaylistModel.cpp:910
+msgid "File Size"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:120
+#, fuzzy
+#| msgctxt "@item::intable File Format"
+#| msgid "Format"
+msgid "Format"
+msgstr "प्रारूप"
+
+#: core/meta/support/MetaConstants.cpp:121
+msgid "Added to Collection"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:124
+#, fuzzy
+#| msgid "Last Played"
+msgid "First Played"
+msgstr "अंतिम बार खेलल गेल"
+
+#: core/meta/support/MetaConstants.cpp:126
+#, fuzzy
+#| msgid "Play Count"
+msgid "Playcount"
+msgstr "प्ले काउंट"
+
+#: core/meta/support/MetaConstants.cpp:127
+msgid "Unique Id"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:129
+#, fuzzy
+#| msgid "Track"
+msgid "track gain"
+msgstr "ट्रैक"
+
+#: core/meta/support/MetaConstants.cpp:130
+msgid "track gain peak"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:131
+#, fuzzy
+#| msgid "Album Artist"
+msgid "album gain"
+msgstr "एल्बम कलाकार"
+
+#: core/meta/support/MetaConstants.cpp:132
+msgid "album gain peak"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:134
+#, fuzzy
+#| msgid "Album Artist"
+msgid "Album Artist Name"
+msgstr "एल्बम कलाकार"
+
+#: core/meta/support/MetaConstants.cpp:136
+#, fuzzy
+#| msgid "modified"
+msgid "Last Modified"
+msgstr "परिवर्धित"
+
+#: core/meta/support/MetaConstants.cpp:147
+#, fuzzy
+#| msgid "Rating"
+msgctxt ""
+"The field name in case nothing specific is selected e.g. in the automatic "
+"playlist generator. Use a one word translation."
+msgid "anything"
+msgstr "रेटिंग"
+
+#: core/meta/support/MetaConstants.cpp:148
+#, fuzzy
+#| msgid "filename"
+msgctxt ""
+"One word translation used in the collection filter. The name of the file "
+"this track is stored in"
+msgid "filename"
+msgstr "फाइलनाम"
+
+#: core/meta/support/MetaConstants.cpp:149
+#, fuzzy
+#| msgid "title"
+msgctxt "One word translation used in the collection filter"
+msgid "title"
+msgstr "शीर्षक"
+
+#: core/meta/support/MetaConstants.cpp:150
+#, fuzzy
+#| msgid "Artist"
+msgctxt "One word translation used in the collection filter"
+msgid "artist"
+msgstr "कलाकार"
+
+#: core/meta/support/MetaConstants.cpp:151
+#, fuzzy
+#| msgid "Album"
+msgctxt "One word translation used in the collection filter"
+msgid "album"
+msgstr "एल्बम"
+
+#: core/meta/support/MetaConstants.cpp:152
+#, fuzzy
+#| msgid "Genre"
+msgctxt "One word translation used in the collection filter"
+msgid "genre"
+msgstr "घराना"
+
+#: core/meta/support/MetaConstants.cpp:153
+msgctxt "One word translation used in the collection filter"
+msgid "composer"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:154
+#, fuzzy
+#| msgid "year"
+msgctxt "One word translation used in the collection filter"
+msgid "year"
+msgstr "साल"
+
+#: core/meta/support/MetaConstants.cpp:155
+#, fuzzy
+#| msgid "Comment"
+msgctxt "One word translation used in the collection filter"
+msgid "comment"
+msgstr "टिप्पणी"
+
+#: core/meta/support/MetaConstants.cpp:156
+msgctxt "One word translation used in the collection filter"
+msgid "tracknumber"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:157
+msgctxt "One word translation used in the collection filter"
+msgid "discnumber"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:158
+msgctxt "One word translation used in the collection filter"
+msgid "bpm"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:159
+#, fuzzy
+#| msgid "length"
+msgctxt "One word translation used in the collection filter"
+msgid "length"
+msgstr "नमाइ"
+
+#: core/meta/support/MetaConstants.cpp:160
+#, fuzzy
+#| msgid "Bit rate:"
+msgctxt "One word translation used in the collection filter"
+msgid "bitrate"
+msgstr "बिट रेटः"
+
+#: core/meta/support/MetaConstants.cpp:161
+#, fuzzy
+#| msgid "Sample rate:"
+msgctxt "One word translation used in the collection filter"
+msgid "samplerate"
+msgstr "नमूना दरः"
+
+#: core/meta/support/MetaConstants.cpp:162
+#, fuzzy
+#| msgctxt "'File size' playlist column name and token for playlist layouts"
+#| msgid "File size"
+msgctxt "One word translation used in the collection filter"
+msgid "filesize"
+msgstr "फाइल पूर्वावलोकन"
+
+#: core/meta/support/MetaConstants.cpp:163
+#, fuzzy
+#| msgid "Format"
+msgctxt "One word translation used in the collection filter"
+msgid "format"
+msgstr "प्रारूप"
+
+#: core/meta/support/MetaConstants.cpp:164
+#, fuzzy
+#| msgid "Added"
+msgctxt "One word translation used in the collection filter"
+msgid "added"
+msgstr "जोड़ल"
+
+#: core/meta/support/MetaConstants.cpp:165
+#, fuzzy
+#| msgid "Score"
+msgctxt "One word translation used in the collection filter"
+msgid "score"
+msgstr "अंक"
+
+#: core/meta/support/MetaConstants.cpp:166
+#, fuzzy
+#| msgid "Rating"
+msgctxt "One word translation used in the collection filter"
+msgid "rating"
+msgstr "रेटिंग"
+
+#: core/meta/support/MetaConstants.cpp:167
+#, fuzzy
+#| msgid "first"
+msgctxt ""
+"One word translation used in the collection filter. First played time / "
+"access date"
+msgid "firstplay"
+msgstr "पहिल"
+
+#: core/meta/support/MetaConstants.cpp:168
+#, fuzzy
+#| msgid "Playlist"
+msgctxt ""
+"One word translation used in the collection filter. Last played time / "
+"access date"
+msgid "lastplay"
+msgstr "गीत-सूची"
+
+#: core/meta/support/MetaConstants.cpp:169
+#, fuzzy
+#| msgid "Play Count"
+msgctxt "One word translation used in the collection filter"
+msgid "playcount"
+msgstr "प्ले काउंट"
+
+#: core/meta/support/MetaConstants.cpp:170
+msgctxt "One word translation used in the collection filter"
+msgid "uniqueid"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:172
+#, fuzzy
+#| msgid "Track"
+msgctxt "One word translation used in the collection filter"
+msgid "trackgain"
+msgstr "ट्रैक"
+
+#: core/meta/support/MetaConstants.cpp:173
+#, fuzzy
+#| msgid "Track"
+msgctxt "One word translation used in the collection filter"
+msgid "trackgainpeak"
+msgstr "ट्रैक"
+
+#: core/meta/support/MetaConstants.cpp:174
+#, fuzzy
+#| msgid "Album Artist"
+msgctxt "One word translation used in the collection filter"
+msgid "albumgain"
+msgstr "एल्बम कलाकार"
+
+#: core/meta/support/MetaConstants.cpp:175
+#, fuzzy
+#| msgid "Album Artist"
+msgctxt "One word translation used in the collection filter"
+msgid "albumgainpeak"
+msgstr "एल्बम कलाकार"
+
+#: core/meta/support/MetaConstants.cpp:177
+#, fuzzy
+#| msgid "Album Artist"
+msgctxt "One word translation used in the collection filter"
+msgid "albumartist"
+msgstr "एल्बम कलाकार"
+
+#: core/meta/support/MetaConstants.cpp:178
+#, fuzzy
+#| msgid "label"
+msgctxt "One word translation used in the collection filter"
+msgid "label"
+msgstr "लेबल"
+
+#: core/meta/support/MetaConstants.cpp:179
+#, fuzzy
+#| msgid "modified"
+msgctxt "One word translation used in the collection filter"
+msgid "modified"
+msgstr "परिवर्धित"
 
 #: core/podcasts/PodcastReader.cpp:455
 #, kde-format
