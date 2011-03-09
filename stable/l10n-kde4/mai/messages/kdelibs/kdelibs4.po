@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-25 13:11+0100\n"
+"POT-Creation-Date: 2011-03-09 12:26+0100\n"
 "PO-Revision-Date: 2011-01-14 11:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672 at gmail dot com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1130,7 +1130,7 @@ msgstr "<h1>केजेएसएम्बेड दस्ताबेज प्
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:655 kparts/browserrun.cpp:329
+#: rc.cpp:655 kparts/browserrun.cpp:336
 msgid "Execute"
 msgstr "चलाउ"
 
@@ -9836,12 +9836,12 @@ msgstr ""
 msgid "Overwrite"
 msgstr "एकरा उप्पर लिखू"
 
-#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:390
+#: khtml/khtml_ext.cpp:940 kparts/browserrun.cpp:397
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "डाउनलोड प्रबंधक (%1) अहाँक पथ ($PATH ) पर ढूंढल नहि जाए सकल"
 
-#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:391
+#: khtml/khtml_ext.cpp:941 kparts/browserrun.cpp:398
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -10156,7 +10156,7 @@ msgid " - BCC: "
 msgstr " - बेनामी प्रतिलिपि: "
 
 #: khtml/khtml_part.cpp:3710 khtml/khtml_part.cpp:3939
-#: khtml/khtml_part.cpp:4361 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:419
+#: khtml/khtml_part.cpp:4361 khtml/khtml_run.cpp:104 kparts/browserrun.cpp:426
 msgid "Save As"
 msgstr "एहिना सहेजू"
 
@@ -12138,15 +12138,6 @@ msgctxt "@info:whatsthis"
 msgid "This is the file name suggested by the server"
 msgstr ""
 
-#: kparts/browserrun.cpp:328
-#, kde-format
-msgid "Do you really want to execute '%1'?"
-msgstr "की अहाँ '%1' केँ सचमुच चलाना चाहब? "
-
-#: kparts/browserrun.cpp:329
-msgid "Execute File?"
-msgstr "फाइल चलाबू?"
-
 #: kparts/part.cpp:817
 msgid "Untitled"
 msgstr "अनाम"
@@ -12163,6 +12154,15 @@ msgstr ""
 #: kparts/part.cpp:825
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
+
+#: kparts/browserrun.cpp:335
+#, kde-format
+msgid "Do you really want to execute '%1'?"
+msgstr "की अहाँ '%1' केँ सचमुच चलाना चाहब? "
+
+#: kparts/browserrun.cpp:336
+msgid "Execute File?"
+msgstr "फाइल चलाबू?"
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
