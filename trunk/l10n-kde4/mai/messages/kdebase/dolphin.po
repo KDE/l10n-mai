@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-09 03:31+0100\n"
+"POT-Creation-Date: 2011-03-10 03:29+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -33,30 +33,6 @@ msgstr "फिल्टर पट्टी नुकाबू"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "फिल्टर:"
-
-#: panels/filter/filterpanel.cpp:110
-#, fuzzy
-#| msgctxt "@item:inlistbox Text width"
-#| msgid "Small"
-msgctxt "option:check Refers to a filter on image size"
-msgid "Small"
-msgstr "छोट"
-
-#: panels/filter/filterpanel.cpp:112
-#, fuzzy
-#| msgctxt "@item:inlistbox Text width"
-#| msgid "Medium"
-msgctxt "option:check Refers to a filter on image size"
-msgid "Medium"
-msgstr "मध्यम"
-
-#: panels/filter/filterpanel.cpp:115
-#, fuzzy
-#| msgctxt "@item:inlistbox Text width"
-#| msgid "Large"
-msgctxt "option:check Refers to a filter on image size"
-msgid "Large"
-msgstr "पैघ"
 
 #: panels/folders/treeviewcontextmenu.cpp:59
 msgctxt "@action:inmenu"
@@ -143,6 +119,30 @@ msgstr "कान्फिगर..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
+
+#: panels/search/searchpanel.cpp:110
+#, fuzzy
+#| msgctxt "@item:inlistbox Text width"
+#| msgid "Small"
+msgctxt "option:check Refers to a filter on image size"
+msgid "Small"
+msgstr "छोट"
+
+#: panels/search/searchpanel.cpp:112
+#, fuzzy
+#| msgctxt "@item:inlistbox Text width"
+#| msgid "Medium"
+msgctxt "option:check Refers to a filter on image size"
+msgid "Medium"
+msgstr "मध्यम"
+
+#: panels/search/searchpanel.cpp:115
+#, fuzzy
+#| msgctxt "@item:inlistbox Text width"
+#| msgid "Large"
+msgctxt "option:check Refers to a filter on image size"
+msgid "Large"
+msgstr "पैघ"
 
 #: search/dolphinsearchbox.cpp:105
 #, kde-format
@@ -1840,11 +1840,11 @@ msgstr "टर्मिनल"
 
 #: dolphinmainwindow.cpp:1667
 #, fuzzy
-#| msgctxt "@label:textbox"
-#| msgid "Filter:"
+#| msgctxt "@action:button"
+#| msgid "Search"
 msgctxt "@title:window"
-msgid "Filter"
-msgstr "फिल्टर:"
+msgid "Search"
+msgstr "खोजू"
 
 #: dolphinmainwindow.cpp:1698
 msgctxt "@title:window"
@@ -2379,6 +2379,13 @@ msgstr "पाठ लाइनक संख्या"
 msgid "Enabled plugins"
 msgstr ""
 
+#, fuzzy
+#~| msgctxt "@label:textbox"
+#~| msgid "Filter:"
+#~ msgctxt "@title:window"
+#~ msgid "Filter"
+#~ msgstr "फिल्टर:"
+
 #~ msgctxt "@action:button"
 #~ msgid "Configure..."
 #~ msgstr "कान्फिगर..."
@@ -2514,10 +2521,6 @@ msgstr ""
 #~ msgctxt "@info"
 #~ msgid "Add search option"
 #~ msgstr "खोज विकल्प जोड़ू"
-
-#~ msgctxt "@action:button"
-#~ msgid "Search"
-#~ msgstr "खोजू"
 
 #~ msgctxt "@action:button"
 #~ msgid "Save"
