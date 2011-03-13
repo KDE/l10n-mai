@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-11 03:26+0100\n"
+"POT-Creation-Date: 2011-03-13 03:22+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2003,7 +2003,7 @@ msgstr "चुनल केँ हटाबू"
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: rc.cpp:975 context/applets/lyrics/LyricsApplet.cpp:642
+#: rc.cpp:975 context/applets/lyrics/LyricsApplet.cpp:647
 msgid "Lyrics Settings"
 msgstr ""
 
@@ -4729,7 +4729,7 @@ msgstr ""
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: rc.cpp:2446 context/applets/albums/Albums.cpp:334
-#: context/applets/lyrics/LyricsApplet.cpp:418
+#: context/applets/lyrics/LyricsApplet.cpp:423
 #: firstruntutorial/FirstRunTutorialPage.cpp:56
 msgid "Close"
 msgstr "बन्न करू"
@@ -5984,10 +5984,10 @@ msgid "Generic"
 msgstr "जेनेरिक"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:57
-#: context/applets/lyrics/LyricsApplet.cpp:393
-#: context/applets/lyrics/LyricsApplet.cpp:506
-#: context/applets/lyrics/LyricsApplet.cpp:532
-#: context/applets/lyrics/LyricsApplet.cpp:558 dialogs/TagDialog.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:398
+#: context/applets/lyrics/LyricsApplet.cpp:511
+#: context/applets/lyrics/LyricsApplet.cpp:537
+#: context/applets/lyrics/LyricsApplet.cpp:563 dialogs/TagDialog.cpp:550
 msgid "Lyrics"
 msgstr ""
 
@@ -6088,7 +6088,7 @@ msgstr ""
 
 #: context/applets/albums/Albums.cpp:74
 #: context/applets/labels/LabelsApplet.cpp:111
-#: context/applets/lyrics/LyricsApplet.cpp:432
+#: context/applets/lyrics/LyricsApplet.cpp:437
 #: context/applets/photos/PhotosApplet.cpp:76
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:97
 #: context/applets/tabs/TabsApplet.cpp:104
@@ -6285,60 +6285,60 @@ msgstr "संबंधन जमावट"
 msgid "artist: %1"
 msgstr "कलाकार: %1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:179
+#: context/applets/lyrics/LyricsApplet.cpp:181
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Used if the current track has no artist."
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: context/applets/lyrics/LyricsApplet.cpp:186
+#: context/applets/lyrics/LyricsApplet.cpp:188
 #, kde-format
 msgid ""
 "While you were editing the lyrics of <b>%1 - %2</b> the track has changed. "
 "Do you want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:193
+#: context/applets/lyrics/LyricsApplet.cpp:195
 #, kde-format
 msgid ""
 "The lyrics of <b>%1 - %2</b> changed while you were editing them. Do you "
 "want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:404
+#: context/applets/lyrics/LyricsApplet.cpp:409
 msgid "Edit Lyrics"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:411
+#: context/applets/lyrics/LyricsApplet.cpp:416
 msgid "Save Lyrics"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:425
+#: context/applets/lyrics/LyricsApplet.cpp:430
 msgid "Reload Lyrics"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:501
+#: context/applets/lyrics/LyricsApplet.cpp:506
 msgid "Lyrics: No script is running"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:513
+#: context/applets/lyrics/LyricsApplet.cpp:518
 msgid "Lyrics: Fetching ..."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:517
+#: context/applets/lyrics/LyricsApplet.cpp:522
 msgid "Lyrics: Fetch error"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:523
+#: context/applets/lyrics/LyricsApplet.cpp:528
 msgid "Lyrics: Suggested URLs"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:565
+#: context/applets/lyrics/LyricsApplet.cpp:570
 msgid "Lyrics: Not found"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:605
+#: context/applets/lyrics/LyricsApplet.cpp:610
 msgctxt "@info"
 msgid ""
 "Do you really want to refetch lyrics for this track? All changes you may "
@@ -7127,7 +7127,11 @@ msgstr ""
 msgid "Containments"
 msgstr "कंटेनमेंट"
 
-#: context/LyricsManager.cpp:170
+#: context/LyricsManager.cpp:135
+msgid "Retrieved lyrics is empty"
+msgstr ""
+
+#: context/LyricsManager.cpp:176
 msgid "Lyrics data could not be parsed"
 msgstr ""
 
