@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-10 03:22+0100\n"
+"POT-Creation-Date: 2011-03-14 03:26+0100\n"
 "PO-Revision-Date: 2010-09-24 12:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -5340,7 +5340,7 @@ msgstr "प्रसंग"
 msgid "K3b GUI Themes"
 msgstr ""
 
-#: option/k3boptiondialog.cpp:192 rip/k3baudiocdview.cpp:469
+#: option/k3boptiondialog.cpp:192
 msgid "CDDB"
 msgstr ""
 
@@ -7614,7 +7614,7 @@ msgstr ""
 
 #: rip/k3baudioprojectconvertingdialog.cpp:105
 #: rip/k3baudiorippingdialog.cpp:124 rip/k3bvideocdview.cpp:366
-#: rip/k3baudiocdview.cpp:219
+#: rip/k3baudiocdview.cpp:192
 #, kde-format
 msgid "1 track (%2)"
 msgid_plural "%1 tracks (%2)"
@@ -7791,7 +7791,7 @@ msgstr ""
 
 #: rip/k3baudiorippingdialog.cpp:200 rip/k3bvideocdrippingdialog.cpp:118
 #: rip/k3bvideocdview.cpp:386 rip/videodvd/k3bvideodvdrippingview.cpp:305
-#: rip/k3baudiocdview.cpp:262
+#: rip/k3baudiocdview.cpp:251
 msgid "Start Ripping"
 msgstr ""
 
@@ -8125,22 +8125,22 @@ msgid "Segments"
 msgstr "खण्ड"
 
 #: rip/k3bvideocdview.cpp:374 rip/videodvd/k3bvideodvdrippingview.cpp:285
-#: rip/k3baudiocdview.cpp:250
+#: rip/k3baudiocdview.cpp:223
 msgid "Check All"
 msgstr "सभटा जाँचू"
 
 #: rip/k3bvideocdview.cpp:377 rip/videodvd/k3bvideodvdrippingview.cpp:290
-#: rip/k3baudiocdview.cpp:252
+#: rip/k3baudiocdview.cpp:227
 msgid "Uncheck All"
 msgstr "सभटा अनचेक करू"
 
 #: rip/k3bvideocdview.cpp:380 rip/videodvd/k3bvideodvdrippingview.cpp:295
-#: rip/k3baudiocdview.cpp:254
+#: rip/k3baudiocdview.cpp:231
 msgid "Check Track"
 msgstr ""
 
 #: rip/k3bvideocdview.cpp:383 rip/videodvd/k3bvideodvdrippingview.cpp:300
-#: rip/k3baudiocdview.cpp:256
+#: rip/k3baudiocdview.cpp:235
 msgid "Uncheck Track"
 msgstr ""
 
@@ -8154,11 +8154,11 @@ msgstr "फाइलसभ खोलू"
 msgid "View plain data files"
 msgstr ""
 
-#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:307
+#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:322
 msgid "Please select the tracks to rip."
 msgstr ""
 
-#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:308
+#: rip/k3bvideocdview.cpp:452 rip/k3baudiocdview.cpp:323
 msgid "No Tracks Selected"
 msgstr ""
 
@@ -8485,95 +8485,6 @@ msgstr ""
 msgid "Subpicture"
 msgstr ""
 
-#: rip/k3baudiocdview.cpp:156
-msgid "Searching for Artist information..."
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:187
-#, kde-format
-msgid ""
-"Found Cd-Text (%1 - %2). Do you want to use it instead of CDDB (%3 - %4)?"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:192
-msgid "Found Cd-Text"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:193
-msgid "Use CD-Text"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:194
-msgid "Use CDDB"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:241
-msgid "Audio CD"
-msgstr "ऑडियो सीडी"
-
-#: rip/k3baudiocdview.cpp:258
-msgid "Edit Track CDDB Info"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:260
-msgid "Edit Album CDDB Info"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:264
-#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:49
-msgid "Query CDDB"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:266
-msgid "Save CDDB Entry Locally"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:268
-msgid "Show Data Part"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:270
-msgid "Mounts the data part of CD"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:328
-#, kde-format
-msgid "CDDB Track %1"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:343 rip/k3baudiocdview.cpp:405
-msgid "Title:"
-msgstr "शीर्षक:"
-
-#: rip/k3baudiocdview.cpp:346 rip/k3baudiocdview.cpp:407
-msgid "Artist:"
-msgstr "कलाकारः"
-
-#: rip/k3baudiocdview.cpp:348 rip/k3baudiocdview.cpp:409
-msgid "Extra info:"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:367
-msgid "Album Cddb"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:411
-msgid "Genre:"
-msgstr ""
-
-#: rip/k3baudiocdview.cpp:413
-msgid "Year:"
-msgstr "वर्षः"
-
-#: rip/k3baudiocdview.cpp:416
-msgid "Category:"
-msgstr "श्रेणी"
-
-#: rip/k3baudiocdview.cpp:470
-#, kde-format
-msgid "Saved entry in category %1."
-msgstr ""
-
 #: rip/k3baudiotrackmodel.cpp:161
 msgid "Artist"
 msgstr "कलाकार"
@@ -8588,6 +8499,107 @@ msgstr "शीर्षक"
 #| msgid "Track"
 msgid "Data Track"
 msgstr "ट्रैक"
+
+#: rip/k3baudiocdview.cpp:158
+msgid "Searching for Artist information..."
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:214
+msgid "Audio CD"
+msgstr "ऑडियो सीडी"
+
+#: rip/k3baudiocdview.cpp:239
+msgid "Edit Track Info..."
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:240
+msgid "Edit current track information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:245
+msgid "Edit Album Info..."
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:246
+msgid "Edit album information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:252
+msgid "Start audio ripping process"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:257
+msgid "Query CD Database"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:258
+msgid "Look for information on CDDB"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:263
+msgid "Read CD-Text"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:264
+msgid "Read CD-Text information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:269
+msgid "Load CD Info"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:270
+msgid "Load track and album information"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:277
+msgid "Save CD Info Locally"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:278
+msgid "Save track and album information to the local CDDB cache"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:283
+msgid "Show Data Part"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:284
+msgid "Mounts the data part of CD"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:344
+#, kde-format
+msgid "CDDB Track %1"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:359 rip/k3baudiocdview.cpp:421
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: rip/k3baudiocdview.cpp:362 rip/k3baudiocdview.cpp:423
+msgid "Artist:"
+msgstr "कलाकारः"
+
+#: rip/k3baudiocdview.cpp:364 rip/k3baudiocdview.cpp:425
+msgid "Extra info:"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:383
+msgid "Album Cddb"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:427
+msgid "Genre:"
+msgstr ""
+
+#: rip/k3baudiocdview.cpp:429
+msgid "Year:"
+msgstr "वर्षः"
+
+#: rip/k3baudiocdview.cpp:432
+msgid "Category:"
+msgstr "श्रेणी"
 
 #: ../plugins/decoder/ffmpeg/k3bffmpegwrapper.cpp:208
 msgid "Windows Media v1"
@@ -9014,6 +9026,10 @@ msgstr "सम्पन्न"
 
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:386
 msgid "Rename audio files based on their meta info."
+msgstr ""
+
+#: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:49
+msgid "Query CDDB"
 msgstr ""
 
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:50
