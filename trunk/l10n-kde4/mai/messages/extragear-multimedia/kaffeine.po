@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:22+0100\n"
+"POT-Creation-Date: 2011-03-15 03:32+0100\n"
 "PO-Revision-Date: 2009-04-21 23:39+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -519,8 +519,7 @@ msgstr ""
 msgid "Circular right"
 msgstr ""
 
-#: dvb/dvbchannel.cpp:736 dvb/dvbrecordingdialog.cpp:185
-#: dvb/dvbscandialog.cpp:206
+#: dvb/dvbchannel.cpp:736 dvb/dvbscandialog.cpp:206
 msgid "Name"
 msgstr "नाम"
 
@@ -528,12 +527,12 @@ msgstr "नाम"
 msgid "Number"
 msgstr "संख्या"
 
-#: dvb/dvbchannel.cpp:988 dvb/dvbrecordingdialog.cpp:64
+#: dvb/dvbchannel.cpp:988
 msgid "Edit"
 msgstr "संपादन"
 
-#: dvb/dvbchannel.cpp:997 dvb/dvbrecordingdialog.cpp:72
-#: playlist/playlisttab.cpp:406 playlist/playlisttab.cpp:427
+#: dvb/dvbchannel.cpp:997 playlist/playlisttab.cpp:406
+#: playlist/playlisttab.cpp:427
 #, fuzzy
 #| msgid "Remove"
 msgctxt "remove an item from a list"
@@ -552,7 +551,6 @@ msgid "Channel Settings"
 msgstr ""
 
 #: dvb/dvbchannel.cpp:1118 dvb/dvbconfigdialog.cpp:680
-#: dvb/dvbrecordingdialog.cpp:284
 msgid "Name:"
 msgstr "नाम:"
 
@@ -947,6 +945,7 @@ msgid "<font color=#800000>%1 - %2</font><br><br>"
 msgstr ""
 
 #: dvb/dvbepgdialog.cpp:253 dvb/dvbepgdialog.cpp:407
+#: dvb/dvbrecordingdialog.cpp:188
 #, fuzzy
 #| msgid "Channel"
 msgctxt "@title:column tv show"
@@ -958,7 +957,7 @@ msgctxt "@title:column tv show"
 msgid "Start"
 msgstr ""
 
-#: dvb/dvbepgdialog.cpp:403
+#: dvb/dvbepgdialog.cpp:403 dvb/dvbrecordingdialog.cpp:192
 #, fuzzy
 #| msgid "Duration"
 msgctxt "@title:column tv show"
@@ -977,62 +976,98 @@ msgctxt "message box"
 msgid "No available device found."
 msgstr ""
 
-#: dvb/dvbrecordingdialog.cpp:40 dvb/dvbtab.cpp:102
-msgctxt "dialog"
+#: dvb/dvbrecordingdialog.cpp:40
+msgctxt "@title:window"
 msgid "Recording Schedule"
 msgstr ""
 
-#: dvb/dvbrecordingdialog.cpp:57 playlist/playlisttab.cpp:417
+#: dvb/dvbrecordingdialog.cpp:54
 #, fuzzy
 #| msgid "New"
-msgctxt "add a new item to a list"
+msgctxt "@action"
 msgid "New"
 msgstr "नवीन"
 
-#: dvb/dvbrecordingdialog.cpp:187
-msgid "Channel"
-msgstr "चैनल"
+#: dvb/dvbrecordingdialog.cpp:61
+#, fuzzy
+#| msgid "Edit"
+msgctxt "@action"
+msgid "Edit"
+msgstr "संपादन"
 
-#: dvb/dvbrecordingdialog.cpp:189
+#: dvb/dvbrecordingdialog.cpp:68
+#, fuzzy
+#| msgid "Remove"
+msgctxt "@action"
+msgid "Remove"
+msgstr "हटाबू"
+
+#: dvb/dvbrecordingdialog.cpp:186
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column recording"
+msgid "Name"
+msgstr "नाम"
+
+#: dvb/dvbrecordingdialog.cpp:190
+#, fuzzy
+#| msgid "Begin"
+msgctxt "@title:column tv show"
 msgid "Begin"
 msgstr "शुरू करू"
 
-#: dvb/dvbrecordingdialog.cpp:191
-msgid "Duration"
-msgstr "अवधि"
-
-#: dvb/dvbrecordingdialog.cpp:275
-msgctxt "subdialog of 'Recording Schedule'"
+#: dvb/dvbrecordingdialog.cpp:280
+msgctxt "@title:window recording"
 msgid "Edit Schedule Entry"
 msgstr ""
 
-#: dvb/dvbrecordingdialog.cpp:297
+#: dvb/dvbrecordingdialog.cpp:288
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label recording"
+msgid "Name:"
+msgstr "नाम:"
+
+#: dvb/dvbrecordingdialog.cpp:301
+#, fuzzy
+#| msgid "Channel:"
+msgctxt "@label tv show"
 msgid "Channel:"
 msgstr "चैनलः"
 
-#: dvb/dvbrecordingdialog.cpp:307
+#: dvb/dvbrecordingdialog.cpp:311
+#, fuzzy
+#| msgid "Begin"
+msgctxt "@label tv show"
 msgid "Begin:"
-msgstr ""
+msgstr "शुरू करू"
 
-#: dvb/dvbrecordingdialog.cpp:315
+#: dvb/dvbrecordingdialog.cpp:319
+#, fuzzy
+#| msgid "Duration:"
+msgctxt "@label tv show"
 msgid "Duration:"
 msgstr "अवधिः"
 
-#: dvb/dvbrecordingdialog.cpp:324
+#: dvb/dvbrecordingdialog.cpp:328
+#, fuzzy
+#| msgid "End:"
+msgctxt "@label tv show"
 msgid "End:"
 msgstr "अंत:"
 
-#: dvb/dvbrecordingdialog.cpp:328
+#: dvb/dvbrecordingdialog.cpp:332
+msgctxt "@label recording"
 msgid "Repeat:"
 msgstr ""
 
-#: dvb/dvbrecordingdialog.cpp:332
-msgctxt "button next to the 'Repeat:' label"
+#: dvb/dvbrecordingdialog.cpp:336
+msgctxt "@action next to 'Repeat:'"
 msgid "Never"
 msgstr ""
 
-#: dvb/dvbrecordingdialog.cpp:336
-msgctxt "button next to the 'Repeat:' label"
+#: dvb/dvbrecordingdialog.cpp:340
+msgctxt "@action next to 'Repeat:'"
 msgid "Daily"
 msgstr ""
 
@@ -1136,6 +1171,11 @@ msgstr ""
 msgid "OSD"
 msgstr ""
 
+#: dvb/dvbtab.cpp:102
+msgctxt "dialog"
+msgid "Recording Schedule"
+msgstr ""
+
 #: dvb/dvbtab.cpp:109
 msgid "Instant Record"
 msgstr ""
@@ -1232,6 +1272,13 @@ msgstr "रेडियो"
 msgid "Add Subtitle"
 msgstr ""
 
+#: playlist/playlisttab.cpp:417
+#, fuzzy
+#| msgid "New"
+msgctxt "add a new item to a list"
+msgid "New"
+msgstr "नवीन"
+
 #: playlist/playlisttab.cpp:422
 #, fuzzy
 #| msgid "Remove"
@@ -1258,6 +1305,12 @@ msgid ""
 "*.m3u|M3U Playlist\n"
 "*.pls|PLS Playlist"
 msgstr ""
+
+#~ msgid "Channel"
+#~ msgstr "चैनल"
+
+#~ msgid "Duration"
+#~ msgstr "अवधि"
 
 #, fuzzy
 #~| msgid "Name"
