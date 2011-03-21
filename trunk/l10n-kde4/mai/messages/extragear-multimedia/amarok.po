@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-20 03:23+0100\n"
+"POT-Creation-Date: 2011-03-21 03:23+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1212,9 +1212,9 @@ msgid "Generic"
 msgstr "जेनेरिक"
 
 #: configdialog/dialogs/ScriptsConfig.cpp:57
-#: context/applets/lyrics/LyricsApplet.cpp:398
-#: context/applets/lyrics/LyricsApplet.cpp:511
-#: context/applets/lyrics/LyricsApplet.cpp:555 dialogs/TagDialog.cpp:550
+#: context/applets/lyrics/LyricsApplet.cpp:395
+#: context/applets/lyrics/LyricsApplet.cpp:512
+#: context/applets/lyrics/LyricsApplet.cpp:556 dialogs/TagDialog.cpp:550
 msgid "Lyrics"
 msgstr ""
 
@@ -1315,7 +1315,7 @@ msgstr ""
 
 #: context/applets/albums/Albums.cpp:74
 #: context/applets/labels/LabelsApplet.cpp:111
-#: context/applets/lyrics/LyricsApplet.cpp:437
+#: context/applets/lyrics/LyricsApplet.cpp:434
 #: context/applets/photos/PhotosApplet.cpp:76
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:97
 #: context/applets/tabs/TabsApplet.cpp:104
@@ -1367,7 +1367,7 @@ msgstr ""
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: context/applets/albums/Albums.cpp:334
-#: context/applets/lyrics/LyricsApplet.cpp:423
+#: context/applets/lyrics/LyricsApplet.cpp:420
 #: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:2446
 msgid "Close"
 msgstr "बन्न करू"
@@ -1540,6 +1540,12 @@ msgstr "जमावट"
 msgid "Replacement Settings"
 msgstr "संबंधन जमावट"
 
+#: context/applets/lyrics/LyricsSuggestionsListWidget.cpp:90
+#, fuzzy, kde-format
+#| msgid "Artist: %1"
+msgid "artist: %1"
+msgstr "कलाकार: %1"
+
 #: context/applets/lyrics/LyricsApplet.cpp:181
 #, fuzzy
 #| msgid "Unknown"
@@ -1561,39 +1567,39 @@ msgid ""
 "want to save your changes?"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:409
+#: context/applets/lyrics/LyricsApplet.cpp:406
 msgid "Edit Lyrics"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:416
+#: context/applets/lyrics/LyricsApplet.cpp:413
 msgid "Save Lyrics"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:430
+#: context/applets/lyrics/LyricsApplet.cpp:427
 msgid "Reload Lyrics"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:506
+#: context/applets/lyrics/LyricsApplet.cpp:507
 msgid "Lyrics: No script is running"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:518
+#: context/applets/lyrics/LyricsApplet.cpp:519
 msgid "Lyrics: Fetching ..."
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:522
+#: context/applets/lyrics/LyricsApplet.cpp:523
 msgid "Lyrics: Fetch error"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:528
+#: context/applets/lyrics/LyricsApplet.cpp:529
 msgid "Lyrics: Suggested URLs"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:562
+#: context/applets/lyrics/LyricsApplet.cpp:563
 msgid "Lyrics: Not found"
 msgstr ""
 
-#: context/applets/lyrics/LyricsApplet.cpp:602
+#: context/applets/lyrics/LyricsApplet.cpp:603
 msgctxt "@info"
 msgid ""
 "Do you really want to refetch lyrics for this track? All changes you may "
@@ -1602,15 +1608,9 @@ msgstr ""
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: context/applets/lyrics/LyricsApplet.cpp:639 rc.cpp:975
+#: context/applets/lyrics/LyricsApplet.cpp:640 rc.cpp:975
 msgid "Lyrics Settings"
 msgstr ""
-
-#: context/applets/lyrics/LyricsSuggestionsListWidget.cpp:90
-#, fuzzy, kde-format
-#| msgid "Artist: %1"
-msgid "artist: %1"
-msgstr "कलाकार: %1"
 
 #: context/applets/photos/PhotosApplet.cpp:62
 msgid "Photos"
