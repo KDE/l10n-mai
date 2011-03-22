@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-21 03:23+0100\n"
+"POT-Creation-Date: 2011-03-22 03:38+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -4258,7 +4258,7 @@ msgstr ""
 msgid "All Artists"
 msgstr ""
 
-#: covermanager/CoverManager.cpp:174 widgets/SearchWidget.cpp:81
+#: covermanager/CoverManager.cpp:174 widgets/SearchWidget.cpp:82
 msgid "Enter search terms here"
 msgstr ""
 
@@ -5065,28 +5065,6 @@ msgstr ""
 msgid "New Preset"
 msgstr ""
 
-#. i18n: file: dialogs/EditFilterDialog.ui:172
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:37 rc.cpp:1261
-msgid "AND"
-msgstr "आओर"
-
-#. i18n: file: dialogs/EditFilterDialog.ui:177
-#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
-#: dialogs/EditFilterDialog.cpp:38 rc.cpp:1264
-msgid "OR"
-msgstr "अथवा"
-
-#: dialogs/EditFilterDialog.cpp:39
-#, fuzzy
-#| msgid "Sample rate:"
-msgid "Simple text"
-msgstr "नमूना दरः"
-
-#: dialogs/EditFilterDialog.cpp:46
-msgid "Edit Filter"
-msgstr ""
-
 #: dialogs/deviceconfiguredialog.cpp:39
 #, kde-format
 msgid "Select Plugin for %1"
@@ -5231,6 +5209,28 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, MusicBrainzTagger)
 #: dialogs/TagDialog.cpp:1427 rc.cpp:1474
 msgid "MusicBrainz Tagger"
+msgstr ""
+
+#. i18n: file: dialogs/EditFilterDialog.ui:172
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:39 rc.cpp:1261
+msgid "AND"
+msgstr "आओर"
+
+#. i18n: file: dialogs/EditFilterDialog.ui:177
+#. i18n: ectx: property (text), item, widget (QComboBox, cbAndOr)
+#: dialogs/EditFilterDialog.cpp:40 rc.cpp:1264
+msgid "OR"
+msgstr "अथवा"
+
+#: dialogs/EditFilterDialog.cpp:41
+#, fuzzy
+#| msgid "Sample rate:"
+msgid "Simple text"
+msgstr "नमूना दरः"
+
+#: dialogs/EditFilterDialog.cpp:49
+msgid "Edit Filter"
 msgstr ""
 
 #: dynamic/BiasedPlaylist.cpp:142
@@ -6296,7 +6296,7 @@ msgstr ""
 #: playlistgenerator/constraints/PlaylistDuration.cpp:273
 #: playlistgenerator/constraints/PlaylistLength.cpp:210
 #: playlistgenerator/constraints/TagMatch.cpp:473
-#: widgets/MetaQueryWidget.cpp:918
+#: widgets/MetaQueryWidget.cpp:893
 msgid "unknown comparison"
 msgstr ""
 
@@ -6335,7 +6335,7 @@ msgstr "एकरासँ बेसी"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/PlaylistLength.cpp:208
 #: playlistgenerator/constraints/TagMatch.cpp:448
-#: widgets/MetaQueryWidget.cpp:899 rc.cpp:2135 rc.cpp:2219 rc.cpp:2252
+#: widgets/MetaQueryWidget.cpp:880 rc.cpp:2135 rc.cpp:2219 rc.cpp:2252
 msgid "less than"
 msgstr "एकरासँ कम"
 
@@ -6404,7 +6404,7 @@ msgid "\"%1\""
 msgstr ""
 
 #: playlistgenerator/constraints/TagMatch.cpp:444
-#: widgets/MetaQueryWidget.cpp:901
+#: widgets/MetaQueryWidget.cpp:882
 msgctxt "a numerical tag (like year or track number) equals a value"
 msgid "equals"
 msgstr "बराबर"
@@ -6416,7 +6416,7 @@ msgstr "बराबर"
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:614
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_ComparisonRating)
 #: playlistgenerator/constraints/TagMatch.cpp:446
-#: widgets/MetaQueryWidget.cpp:903 rc.cpp:2141 rc.cpp:2225 rc.cpp:2258
+#: widgets/MetaQueryWidget.cpp:884 rc.cpp:2141 rc.cpp:2225 rc.cpp:2258
 msgid "greater than"
 msgstr "सँ बेसी"
 
@@ -6456,20 +6456,18 @@ msgid "equals"
 msgstr "बराबर"
 
 #: playlistgenerator/constraints/TagMatch.cpp:464
-#: widgets/MetaQueryWidget.cpp:911
 msgctxt ""
 "an alphabetical tag (like title or artist name) starts with some string"
 msgid "starts with"
 msgstr "एकरासँ आरंभ होइत अछि"
 
 #: playlistgenerator/constraints/TagMatch.cpp:466
-#: widgets/MetaQueryWidget.cpp:913
 msgctxt "an alphabetical tag (like title or artist name) ends with some string"
 msgid "ends with"
 msgstr "एकरासँ समाप्त होइत अछि"
 
 #: playlistgenerator/constraints/TagMatch.cpp:468
-#: widgets/MetaQueryWidget.cpp:907
+#: widgets/MetaQueryWidget.cpp:888
 msgctxt "an alphabetical tag (like title or artist name) contains some string"
 msgid "contains"
 msgstr "राखैत अछि"
@@ -7604,24 +7602,24 @@ msgstr ""
 msgid "gpodder.net is an online Podcast Directory & Synchonisation Service."
 msgstr ""
 
-#. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: services/ServiceBase.cpp:144 rc.cpp:1932
-msgid "Group By"
-msgstr ""
-
-#: services/ServiceBase.cpp:308
-msgid "This service does not accept any messages"
-msgstr ""
-
-#: services/ServiceBase.cpp:315
-msgid "ERROR: unknown message"
-msgstr ""
-
 #: services/ServicePluginManager.cpp:161 services/ServicePluginManager.cpp:178
 #: services/ServicePluginManager.cpp:195
 #, kde-format
 msgid "No service named %1 is currently loaded"
+msgstr ""
+
+#. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: services/ServiceBase.cpp:147 rc.cpp:1932
+msgid "Group By"
+msgstr ""
+
+#: services/ServiceBase.cpp:311
+msgid "This service does not accept any messages"
+msgstr ""
+
+#: services/ServiceBase.cpp:318
+msgid "ERROR: unknown message"
 msgstr ""
 
 #: statusbar/CompoundProgressBar.cpp:64 statusbar/CompoundProgressBar.cpp:157
@@ -7791,14 +7789,6 @@ msgstr "बजाउ"
 #: widgets/PlayPauseButton.cpp:81
 msgid "Pause"
 msgstr "ठहरू"
-
-#: widgets/SearchWidget.cpp:72
-msgid "Enter space-separated terms to search."
-msgstr ""
-
-#: widgets/SearchWidget.cpp:87 widgets/SearchWidget.cpp:159
-msgid "Edit filter"
-msgstr ""
 
 #: widgets/SliderWidget.cpp:244
 msgid "100%"
@@ -8002,7 +7992,7 @@ msgstr "एकर पहिने अछि"
 
 #: widgets/SmartPlaylistEditor.cpp:934 widgets/SmartPlaylistEditor.cpp:956
 #: widgets/SmartPlaylistEditor.cpp:984 widgets/SmartPlaylistEditor.cpp:1003
-#: widgets/MetaQueryWidget.cpp:441
+#: widgets/MetaQueryWidget.cpp:436
 msgid "and"
 msgstr "आओर"
 
@@ -8134,82 +8124,76 @@ msgid_plural "months"
 msgstr[0] "महीना"
 msgstr[1] "महीना"
 
-#: widgets/MetaQueryWidget.cpp:229
+#: widgets/MetaQueryWidget.cpp:220
 msgid "Simple Search"
 msgstr ""
 
-#: widgets/MetaQueryWidget.cpp:551
+#: widgets/MetaQueryWidget.cpp:532
 msgctxt "Unit for data rate kilo bit per seconds"
 msgid "kbps"
 msgstr ""
 
-#: widgets/MetaQueryWidget.cpp:553
+#: widgets/MetaQueryWidget.cpp:534
 #, fuzzy
 #| msgid "Hz"
 msgctxt "Unit for sample rate"
 msgid "Hz"
 msgstr "हर्त्ज"
 
-#: widgets/MetaQueryWidget.cpp:555
+#: widgets/MetaQueryWidget.cpp:536
 msgctxt "Unit for file size in mega byte"
 msgid "MiB"
 msgstr ""
 
-#: widgets/MetaQueryWidget.cpp:879
+#: widgets/MetaQueryWidget.cpp:862
 #, fuzzy
 #| msgid "before"
 msgctxt "The date lies before the given fixed date"
 msgid "before"
 msgstr "पहिने"
 
-#: widgets/MetaQueryWidget.cpp:881
+#: widgets/MetaQueryWidget.cpp:864
 #, fuzzy
 #| msgid "on"
 msgctxt "The date is the same as the given fixed date"
 msgid "on"
 msgstr "पर"
 
-#: widgets/MetaQueryWidget.cpp:883
+#: widgets/MetaQueryWidget.cpp:866
 #, fuzzy
 #| msgid "after"
 msgctxt "The date is after the given fixed date"
 msgid "after"
 msgstr "बादमे"
 
-#: widgets/MetaQueryWidget.cpp:885
+#: widgets/MetaQueryWidget.cpp:868
 #, fuzzy
 #| msgid "is between"
 msgctxt "The date is between the given fixed dates"
 msgid "between"
 msgstr "बीचमे अछि"
 
-#: widgets/MetaQueryWidget.cpp:887
+#: widgets/MetaQueryWidget.cpp:870
 #, fuzzy
 #| msgid "more than"
 msgctxt "The date lies before the given time interval"
 msgid "older than"
 msgstr "एकरासँ बेसी"
 
-#: widgets/MetaQueryWidget.cpp:889
-#, fuzzy
-#| msgid "with"
-msgctxt "The date lies after the given time interval"
-msgid "within"
-msgstr "क' सँग"
-
-#: widgets/MetaQueryWidget.cpp:905
+#: widgets/MetaQueryWidget.cpp:886
 #, fuzzy
 #| msgid "is between"
 msgctxt "a numerical tag (like year or track number) is between two values"
 msgid "between"
 msgstr "बीचमे अछि"
 
-#: widgets/MetaQueryWidget.cpp:909
-#, fuzzy
-#| msgid "Places"
-msgctxt "an alphabetical tag (like title or artist name) equals some string"
-msgid "matches"
-msgstr "स्थान"
+#: widgets/SearchWidget.cpp:73
+msgid "Enter space-separated terms to search."
+msgstr ""
+
+#: widgets/SearchWidget.cpp:88 widgets/SearchWidget.cpp:160
+msgid "Edit filter"
+msgstr ""
 
 #: ActionClasses.cpp:85
 msgid "Amarok Menu"
@@ -13770,6 +13754,18 @@ msgstr ""
 #: rc.cpp:2524
 msgid "Verbose"
 msgstr "वरबोज"
+
+#, fuzzy
+#~| msgid "with"
+#~ msgctxt "The date lies after the given time interval"
+#~ msgid "within"
+#~ msgstr "क' सँग"
+
+#, fuzzy
+#~| msgid "Places"
+#~ msgctxt "an alphabetical tag (like title or artist name) equals some string"
+#~ msgid "matches"
+#~ msgstr "स्थान"
 
 #~ msgctxt "Title, as in: the title of this item"
 #~ msgid "Name"
