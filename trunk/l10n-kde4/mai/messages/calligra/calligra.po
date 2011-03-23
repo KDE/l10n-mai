@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-19 03:14+0100\n"
+"POT-Creation-Date: 2011-03-23 03:17+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -59,7 +59,7 @@ msgstr ""
 msgid "%1 Options"
 msgstr "%1 बिकल्प"
 
-#: flake/KoShapePaste.cpp:100
+#: flake/KoShapePaste.cpp:168
 msgid "Paste Shapes"
 msgstr ""
 
@@ -607,38 +607,6 @@ msgid_plural "Move pages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:33
-#, fuzzy
-#| msgid "Confirm Save"
-msgid "Configure"
-msgstr "सहेजनाइ संपुष्ट करू"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:38
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:39
-#: main/config/KoConfigMiscPage.cpp:80 pigment/KoCompositeOp.cpp:43
-msgid "Misc"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:43
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:44
-#: main/config/KoConfigGridPage.cpp:65
-msgid "Grid"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:50
-#, fuzzy
-#| msgid "Document"
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr "दस्तावेज"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:51
-#: main/config/KoConfigDocumentPage.cpp:58
-#, fuzzy
-#| msgid "Document Information"
-msgid "Document Settings"
-msgstr "दस्ताबेज जानकारी"
-
 #: kopageapp/dialogs/KoPAMasterPageDialog.cpp:41
 msgid "Select a master slide design:"
 msgstr ""
@@ -655,6 +623,38 @@ msgstr ""
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:110
 msgid "Master Page"
 msgstr ""
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:35
+#, fuzzy
+#| msgid "Confirm Save"
+msgid "Configure"
+msgstr "सहेजनाइ संपुष्ट करू"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:40
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:41
+#: main/config/KoConfigMiscPage.cpp:85 pigment/KoCompositeOp.cpp:43
+msgid "Misc"
+msgstr ""
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:45
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:46
+#: main/config/KoConfigGridPage.cpp:65
+msgid "Grid"
+msgstr ""
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:52
+#, fuzzy
+#| msgid "Document"
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "दस्तावेज"
+
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:53
+#: main/config/KoConfigDocumentPage.cpp:58
+#, fuzzy
+#| msgid "Document Information"
+msgid "Document Settings"
+msgstr "दस्ताबेज जानकारी"
 
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
 msgid "Background Tool"
@@ -2679,22 +2679,26 @@ msgctxt "Vertical grid spacing"
 msgid "&Vertical:"
 msgstr "लम्बवत"
 
-#: main/config/KoConfigMiscPage.cpp:91
+#: main/config/KoConfigMiscPage.cpp:96
 #, fuzzy
 #| msgid "Unit:"
 msgid "Units:"
 msgstr "एकाइः"
 
-#: main/config/KoConfigMiscPage.cpp:99
+#: main/config/KoConfigMiscPage.cpp:104
 msgid "Handle radius:"
 msgstr ""
 
-#: main/config/KoConfigMiscPage.cpp:107
+#: main/config/KoConfigMiscPage.cpp:112
 msgid "Grab sensitivity:"
 msgstr ""
 
-#: main/config/KoConfigMiscPage.cpp:115
-msgid "Copy offset:"
+#: main/config/KoConfigMiscPage.cpp:120
+msgid "Paste offset:"
+msgstr ""
+
+#: main/config/KoConfigMiscPage.cpp:129
+msgid "Paste at Cursor"
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:164
