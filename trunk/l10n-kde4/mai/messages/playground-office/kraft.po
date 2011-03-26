@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kraft\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-25 04:12+0100\n"
+"POT-Creation-Date: 2011-03-26 04:14+0100\n"
 "PO-Revision-Date: 2010-09-24 12:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -38,7 +38,7 @@ msgstr "जोड़ू"
 #. i18n: file: doctypeeditbase.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, mPbRemove)
 #: prefsdialog.cpp:125 prefswages.cpp:97 prefsunits.cpp:83 rc.cpp:733
-#: portalview.cpp:137
+#: portalview.cpp:138
 msgid "Remove"
 msgstr "हटाबू"
 
@@ -280,8 +280,8 @@ msgid "Open a viewer on an archived document"
 msgstr ""
 
 #: portal.cpp:210 portal.cpp:334 portal.cpp:386 portal.cpp:468 portal.cpp:508
-#: portal.cpp:533 portal.cpp:590 portal.cpp:752 portal.cpp:759 portal.cpp:766
-#: portal.cpp:783 katalogview.cpp:250 katalogview.cpp:274 katalogview.cpp:289
+#: portal.cpp:533 portal.cpp:590 portal.cpp:750 portal.cpp:757 portal.cpp:764
+#: portal.cpp:781 katalogview.cpp:250 katalogview.cpp:274 katalogview.cpp:289
 #: katalogview.cpp:299 katalogview.cpp:309 katalogview.cpp:322
 #: katalogview.cpp:330 katalogview.cpp:337 katalogview.cpp:344
 #: katalogview.cpp:391 katalogview.cpp:400 katalogview.cpp:409
@@ -353,23 +353,23 @@ msgstr ""
 msgid "Opening document %1"
 msgstr "दस्तावेज छापू"
 
-#: portal.cpp:726
+#: portal.cpp:724
 msgid "Exiting..."
 msgstr ""
 
-#: portal.cpp:750 katalogview.cpp:328
+#: portal.cpp:748 katalogview.cpp:328
 msgid "Cutting selection..."
 msgstr ""
 
-#: portal.cpp:757 katalogview.cpp:335
+#: portal.cpp:755 katalogview.cpp:335
 msgid "Copying selection to clipboard..."
 msgstr ""
 
-#: portal.cpp:764 katalogview.cpp:342
+#: portal.cpp:762 katalogview.cpp:342
 msgid "Inserting clipboard contents..."
 msgstr ""
 
-#: portal.cpp:771
+#: portal.cpp:769
 msgid "Toggle the statusbar..."
 msgstr ""
 
@@ -490,59 +490,59 @@ msgstr ""
 msgid "Shows all documents along a timeline"
 msgstr ""
 
-#: models/documentmodel.cpp:63
+#: models/documentmodel.cpp:61
 msgid "Id"
 msgstr ""
 
-#: models/documentmodel.cpp:64
+#: models/documentmodel.cpp:62
 #, fuzzy
 #| msgid "Document"
 msgid "Doc. number"
 msgstr "दस्तावेज"
 
-#: models/documentmodel.cpp:65
+#: models/documentmodel.cpp:63
 #, fuzzy
 #| msgid "Doc-Type"
 msgid "Doc. type"
 msgstr "Doc-Type"
 
-#: models/documentmodel.cpp:66
+#: models/documentmodel.cpp:64
 msgid "Whiteboard"
 msgstr "उज्जरबोर्ड"
 
-#: models/documentmodel.cpp:67
+#: models/documentmodel.cpp:65
 #, fuzzy
 #| msgid "Client Name"
 msgid "Client ID"
 msgstr "क्लाइंट नाम"
 
-#: models/documentmodel.cpp:68
+#: models/documentmodel.cpp:66
 #, fuzzy
 #| msgid "Last Modified"
 msgid "Last modified"
 msgstr "अंतिम रूपांतरित"
 
-#: models/documentmodel.cpp:69
+#: models/documentmodel.cpp:67
 msgid "Creation date"
 msgstr ""
 
-#: models/documentmodel.cpp:70
+#: models/documentmodel.cpp:68
 #, fuzzy
 #| msgid "Project"
 msgid "Project label"
 msgstr "प्रोजेक्ट"
 
-#: models/documentmodel.cpp:71
+#: models/documentmodel.cpp:69
 #, fuzzy
 #| msgid "Client Name"
 msgid "Client"
 msgstr "क्लाइंट नाम"
 
-#: models/documentmodel.cpp:121 katalog.cpp:143
+#: models/documentmodel.cpp:126 katalog.cpp:143
 msgid "not found"
 msgstr ""
 
-#: models/documentmodel.cpp:127
+#: models/documentmodel.cpp:132
 #, fuzzy
 #| msgid "Printing..."
 msgid "retrieving..."
@@ -1561,16 +1561,6 @@ msgstr ""
 #: materialselectdialog.cpp:38 materialselectdialog.cpp:43
 msgid "Select Material for Calculation"
 msgstr ""
-
-#: catalogselection.cpp:56
-msgid "Selected &Catalog: "
-msgstr ""
-
-#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
-#, fuzzy
-#| msgid "Edit Document"
-msgid "Append to Document"
-msgstr "दस्तावेज संपादन करू"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2975,6 +2965,16 @@ msgstr ""
 msgid "Insert all Items &after"
 msgstr ""
 
+#: catalogselection.cpp:56
+msgid "Selected &Catalog: "
+msgstr ""
+
+#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
+#, fuzzy
+#| msgid "Edit Document"
+msgid "Append to Document"
+msgstr "दस्तावेज संपादन करू"
+
 #: insertplantdialog.cpp:58
 msgid "Growth"
 msgstr ""
@@ -2984,105 +2984,105 @@ msgstr ""
 msgid "(price entered in %1/%2)"
 msgstr ""
 
-#: portalview.cpp:62
+#: portalview.cpp:63
 msgid "Catalogs"
 msgstr "कैटलौग"
 
-#: portalview.cpp:68
+#: portalview.cpp:69
 msgid "Kraft Document Overview"
 msgstr ""
 
-#: portalview.cpp:77 portalview.cpp:94
+#: portalview.cpp:78 portalview.cpp:95
 msgid "Available Catalogs"
 msgstr ""
 
-#: portalview.cpp:79
+#: portalview.cpp:80
 msgid "No catalogs available."
 msgstr ""
 
-#: portalview.cpp:127
+#: portalview.cpp:128
 msgid "Open"
 msgstr "खोलू"
 
-#: portalview.cpp:132
+#: portalview.cpp:133
 msgid "XML Export"
 msgstr ""
 
-#: portalview.cpp:160
+#: portalview.cpp:161
 msgid "System Details"
 msgstr ""
 
-#: portalview.cpp:179
+#: portalview.cpp:180
 msgid "<h2>Welcome to Kraft</h2>"
 msgstr ""
 
-#: portalview.cpp:181
+#: portalview.cpp:182
 #, kde-format
 msgid "Kraft Version: %1</td>"
 msgstr ""
 
-#: portalview.cpp:191
+#: portalview.cpp:192
 msgid "Country Setting: "
 msgstr ""
 
-#: portalview.cpp:195
+#: portalview.cpp:196
 msgid "Language Setting: "
 msgstr ""
 
-#: portalview.cpp:209
+#: portalview.cpp:210
 msgid "Database Information"
 msgstr ""
 
-#: portalview.cpp:211
+#: portalview.cpp:212
 msgid "Kraft database name:"
 msgstr ""
 
-#: portalview.cpp:214
+#: portalview.cpp:215
 msgid "Database schema version:"
 msgstr ""
 
-#: portalview.cpp:222
+#: portalview.cpp:223
 msgid "Qt database driver:"
 msgstr ""
 
-#: portalview.cpp:225
+#: portalview.cpp:226
 msgid "Database connection:"
 msgstr ""
 
-#: portalview.cpp:231
+#: portalview.cpp:232
 msgid "established"
 msgstr ""
 
-#: portalview.cpp:233
+#: portalview.cpp:234
 msgid "<font color=\"red\">NOT AVAILABLE!</font>"
 msgstr ""
 
-#: portalview.cpp:242
+#: portalview.cpp:243
 msgid "Database Version:"
 msgstr ""
 
-#: portalview.cpp:248
+#: portalview.cpp:249
 msgid "External Tools"
 msgstr "बाहरी अओजार"
 
-#: portalview.cpp:250
+#: portalview.cpp:251
 msgid "RML to PDF conversion tool:"
 msgstr ""
 
-#: portalview.cpp:255
+#: portalview.cpp:256
 msgid "not found!"
 msgstr ""
 
-#: portalview.cpp:257
+#: portalview.cpp:258
 msgid "iconv tool for text import:"
 msgstr ""
 
-#: portalview.cpp:271
+#: portalview.cpp:272
 msgid ""
 "There is a initialisation error on your system. Kraft will not work that way."
 msgstr ""
 
-#: portalview.cpp:287
+#: portalview.cpp:288
 #, fuzzy
 #| msgid "Document"
 msgid "Documents"
