@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-12 03:29+0100\n"
+"POT-Creation-Date: 2011-03-28 03:35+0200\n"
 "PO-Revision-Date: 2010-09-24 20:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -835,8 +835,9 @@ msgstr ""
 #: krusader/Dialogs/krmaskchoice.cpp:114
 #: krusader/Dialogs/kurllistrequester.cpp:137
 #: krusader/DiskUsage/diskusage.cpp:746 krusader/GUI/kfnkeys.cpp:108
-#: krusader/Konfigurator/kgcolors.cpp:512 krusader/Panel/krpopupmenu.cpp:196
-#: krusader/Panel/listpanelactions.cpp:88 krusader/Queue/queuewidget.cpp:143
+#: krusader/Konfigurator/kgcolors.cpp:512
+#: krusader/Panel/listpanelactions.cpp:88 krusader/Panel/krpopupmenu.cpp:196
+#: krusader/Queue/queuewidget.cpp:143
 msgid "Delete"
 msgstr "मेटाबू"
 
@@ -2362,8 +2363,8 @@ msgstr "घसकाबू"
 msgid "Mkdir"
 msgstr "मीडिया"
 
-#: krusader/GUI/kfnkeys.cpp:109 krusader/Panel/krpopupmenu.cpp:188
-#: krusader/Panel/listpanelactions.cpp:89 krusader/Panel/krview.cpp:738
+#: krusader/GUI/kfnkeys.cpp:109 krusader/Panel/listpanelactions.cpp:89
+#: krusader/Panel/krview.cpp:738 krusader/Panel/krpopupmenu.cpp:188
 msgid "Rename"
 msgstr "नाम बदलू"
 
@@ -4717,90 +4718,6 @@ msgid_plural "and %1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: krusader/Panel/krpopupmenu.cpp:89
-msgid "Open/Run"
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:93
-msgid "Run"
-msgstr "चलाबू"
-
-#: krusader/Panel/krpopupmenu.cpp:96 krusader/Panel/krpopupmenu.cpp:99
-msgid "Open in New Tab"
-msgstr "नवीन टैब मे खोलू"
-
-#: krusader/Panel/krpopupmenu.cpp:137
-msgid "Other..."
-msgstr "आन..."
-
-#: krusader/Panel/krpopupmenu.cpp:140
-msgid "Open With"
-msgstr "एकरासँ खोलू"
-
-#: krusader/Panel/krpopupmenu.cpp:182
-msgid "Copy..."
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:185 krusader/Panel/listpanelactions.cpp:84
-msgid "Move..."
-msgstr "घसकाबू..."
-
-#: krusader/Panel/krpopupmenu.cpp:194
-msgid "Move to Trash"
-msgstr "रद्दीमे भेजू"
-
-#: krusader/Panel/krpopupmenu.cpp:207 krusader/Panel/listpanelactions.cpp:102
-msgid "New Symlink..."
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:208
-msgid "New Hardlink..."
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:210
-msgid "Redirect Link..."
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:213
-msgid "Link Handling"
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:233
-msgid "Send by Email"
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:238
-msgid "Restore"
-msgstr "पूर्व अवस्थामे पहुँचाबू"
-
-#: krusader/Panel/krpopupmenu.cpp:244
-msgid "Synchronize Selected Files..."
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:249
-msgid "Copy to Clipboard"
-msgstr "क्लिपबोर्डमे कॉपी करू"
-
-#: krusader/Panel/krpopupmenu.cpp:251
-msgid "Cut to Clipboard"
-msgstr ""
-
-#: krusader/Panel/krpopupmenu.cpp:252 krusader/Panel/krpopupmenu.cpp:272
-msgid "Paste from Clipboard"
-msgstr "क्लिपबोर्डसँ साटू"
-
-#: krusader/Panel/krpopupmenu.cpp:277
-msgid "Folder..."
-msgstr "फोल्डर..."
-
-#: krusader/Panel/krpopupmenu.cpp:278
-msgid "Text File..."
-msgstr "पाठ फाइल..."
-
-#: krusader/Panel/krpopupmenu.cpp:282
-msgid "Create New"
-msgstr "नवीन बनाबू"
-
 #: krusader/Panel/krpreviewpopup.cpp:49
 msgid "Preview not available"
 msgstr "पूर्वावलोकन उपलब्ध नहि"
@@ -4862,6 +4779,10 @@ msgstr "फाइल संपादित करू"
 msgid "Copy to other panel"
 msgstr ""
 
+#: krusader/Panel/listpanelactions.cpp:84 krusader/Panel/krpopupmenu.cpp:185
+msgid "Move..."
+msgstr "घसकाबू..."
+
 #: krusader/Panel/listpanelactions.cpp:85
 msgid "Copy by queue..."
 msgstr ""
@@ -4912,6 +4833,10 @@ msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:101
 msgid "Verify Checksum..."
+msgstr ""
+
+#: krusader/Panel/listpanelactions.cpp:102 krusader/Panel/krpopupmenu.cpp:207
+msgid "New Symlink..."
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:103
@@ -5474,6 +5399,82 @@ msgstr "पाठ फाइल"
 #| msgid "Please select a directory"
 msgid "Apply selection to directories"
 msgstr "कृप्या एकटा निर्देशिका चुनू"
+
+#: krusader/Panel/krpopupmenu.cpp:89
+msgid "Open/Run"
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:93
+msgid "Run"
+msgstr "चलाबू"
+
+#: krusader/Panel/krpopupmenu.cpp:96 krusader/Panel/krpopupmenu.cpp:99
+msgid "Open in New Tab"
+msgstr "नवीन टैब मे खोलू"
+
+#: krusader/Panel/krpopupmenu.cpp:137
+msgid "Other..."
+msgstr "आन..."
+
+#: krusader/Panel/krpopupmenu.cpp:140
+msgid "Open With"
+msgstr "एकरासँ खोलू"
+
+#: krusader/Panel/krpopupmenu.cpp:182
+msgid "Copy..."
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:194
+msgid "Move to Trash"
+msgstr "रद्दीमे भेजू"
+
+#: krusader/Panel/krpopupmenu.cpp:208
+msgid "New Hardlink..."
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:210
+msgid "Redirect Link..."
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:213
+msgid "Link Handling"
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:233
+msgid "Send by Email"
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:238
+msgid "Restore"
+msgstr "पूर्व अवस्थामे पहुँचाबू"
+
+#: krusader/Panel/krpopupmenu.cpp:244
+msgid "Synchronize Selected Files..."
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:249
+msgid "Copy to Clipboard"
+msgstr "क्लिपबोर्डमे कॉपी करू"
+
+#: krusader/Panel/krpopupmenu.cpp:251
+msgid "Cut to Clipboard"
+msgstr ""
+
+#: krusader/Panel/krpopupmenu.cpp:252 krusader/Panel/krpopupmenu.cpp:272
+msgid "Paste from Clipboard"
+msgstr "क्लिपबोर्डसँ साटू"
+
+#: krusader/Panel/krpopupmenu.cpp:277
+msgid "Folder..."
+msgstr "फोल्डर..."
+
+#: krusader/Panel/krpopupmenu.cpp:278
+msgid "Text File..."
+msgstr "पाठ फाइल..."
+
+#: krusader/Panel/krpopupmenu.cpp:282
+msgid "Create New"
+msgstr "नवीन बनाबू"
 
 #: krusader/Panel/listpanel.cpp:173
 msgid ""
