@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kraft\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-28 04:16+0200\n"
+"POT-Creation-Date: 2011-03-29 04:26+0200\n"
 "PO-Revision-Date: 2010-09-24 12:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -506,7 +506,7 @@ msgstr "दस्तावेज"
 msgid "Doc. type"
 msgstr "Doc-Type"
 
-#: models/documentmodel.cpp:64
+#: models/documentmodel.cpp:64 docdigestdetailview.cpp:105
 msgid "Whiteboard"
 msgstr "उज्जरबोर्ड"
 
@@ -533,6 +533,12 @@ msgid "Project label"
 msgstr "प्रोजेक्ट"
 
 #: models/documentmodel.cpp:69
+#, fuzzy
+#| msgid "Client Name"
+msgid "Client Address"
+msgstr "क्लाइंट नाम"
+
+#: models/documentmodel.cpp:70
 #, fuzzy
 #| msgid "Client Name"
 msgid "Client"
@@ -1561,6 +1567,16 @@ msgstr ""
 #: materialselectdialog.cpp:38 materialselectdialog.cpp:43
 msgid "Select Material for Calculation"
 msgstr ""
+
+#: catalogselection.cpp:56
+msgid "Selected &Catalog: "
+msgstr ""
+
+#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
+#, fuzzy
+#| msgid "Edit Document"
+msgid "Append to Document"
+msgstr "दस्तावेज संपादन करू"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2965,16 +2981,6 @@ msgstr ""
 msgid "Insert all Items &after"
 msgstr ""
 
-#: catalogselection.cpp:56
-msgid "Selected &Catalog: "
-msgstr ""
-
-#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
-#, fuzzy
-#| msgid "Edit Document"
-msgid "Append to Document"
-msgstr "दस्तावेज संपादन करू"
-
 #: insertplantdialog.cpp:58
 msgid "Growth"
 msgstr ""
@@ -3315,42 +3321,67 @@ msgstr ""
 msgid "Edit name and description of chapter %1"
 msgstr ""
 
-#: docdigestdetailview.cpp:120
+#: docdigestdetailview.cpp:102
+msgid "Date"
+msgstr "दिनांक"
+
+#: docdigestdetailview.cpp:110
+#, fuzzy
+#| msgid "Project"
+msgid "Project"
+msgstr "प्रोजेक्ट"
+
+#: docdigestdetailview.cpp:114
+msgid "Customer"
+msgstr ""
+
+#: docdigestdetailview.cpp:125
+msgid "The address is not listed in an address book."
+msgstr ""
+
+#: docdigestdetailview.cpp:127
+#, kde-format
+msgid ""
+"The client has the address book id %1 but can not found in our address books."
+msgstr ""
+
+#: docdigestdetailview.cpp:130
+msgid "The client can be found in our address books."
+msgstr ""
+
+#: docdigestdetailview.cpp:141
 msgid "preferred address"
 msgstr ""
 
-#: docdigestdetailview.cpp:124
+#: docdigestdetailview.cpp:145
 msgid "home address"
 msgstr ""
 
-#: docdigestdetailview.cpp:128
+#: docdigestdetailview.cpp:149
 msgid "work address"
 msgstr ""
 
-#: docdigestdetailview.cpp:132
+#: docdigestdetailview.cpp:153
 msgid "postal address"
 msgstr ""
 
-#: docdigestdetailview.cpp:136
+#: docdigestdetailview.cpp:157
 msgid "international address"
 msgstr ""
 
-#: docdigestdetailview.cpp:140
+#: docdigestdetailview.cpp:161
 msgid "domestic address"
 msgstr ""
 
-#: docdigestdetailview.cpp:144
+#: docdigestdetailview.cpp:165
 #, fuzzy
 #| msgid "Unknown"
 msgid "unknown"
 msgstr "अज्ञात"
 
-#: docdigestdetailview.cpp:166
+#: docdigestdetailview.cpp:188
 msgid "This document was never printed."
 msgstr ""
 
 #~ msgid "Type"
 #~ msgstr "प्रकार"
-
-#~ msgid "Date"
-#~ msgstr "दिनांक"

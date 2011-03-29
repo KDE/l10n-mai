@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_gpssync\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-13 03:18+0100\n"
+"POT-Creation-Date: 2011-03-29 03:31+0200\n"
 "PO-Revision-Date: 2010-09-24 12:10+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -404,15 +404,27 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
+#: gpsdataparser.cpp:626
+#, kde-format
+msgid "Could not open: %1"
+msgstr ""
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
+#: gpsdataparser.cpp:632
+msgid "File is empty!"
+msgstr ""
+
+#: gpsdataparser.cpp:648
+#, kde-format
+msgid "Parsing error: %1"
+msgstr ""
+
+#: gpsdataparser.cpp:657
+msgid "No GPX element found - probably not a GPX file!"
+msgstr ""
+
+#: gpsdataparser.cpp:661
+msgid "File is a GPX file, but no datapoints were found!"
+msgstr ""
 
 #: gpsbookmarkowner.cpp:108
 msgid "Bookmark location"
@@ -592,28 +604,6 @@ msgid "1 image correlated"
 msgid_plural "%1 images correlated"
 msgstr[0] ""
 msgstr[1] ""
-
-#: gpsdataparser.cpp:623
-#, kde-format
-msgid "Could not open: %1"
-msgstr ""
-
-#: gpsdataparser.cpp:629
-msgid "File is empty!"
-msgstr ""
-
-#: gpsdataparser.cpp:645
-#, kde-format
-msgid "Parsing error: %1"
-msgstr ""
-
-#: gpsdataparser.cpp:654
-msgid "No GPX element found - probably not a GPX file!"
-msgstr ""
-
-#: gpsdataparser.cpp:658
-msgid "File is a GPX file, but no datapoints were found!"
-msgstr ""
 
 #: gpsimagedetails.cpp:120
 msgid "Coordinates"
@@ -978,6 +968,16 @@ msgstr "बिन्यास"
 msgctxt "General setup"
 msgid "General"
 msgstr ""
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #~ msgctxt "entry was added manually"
 #~ msgid "Added"

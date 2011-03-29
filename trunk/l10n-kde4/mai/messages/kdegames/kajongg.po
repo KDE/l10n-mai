@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kajongg\n"
 "Report-Msgid-Bugs-To: wolfgang@rohdewald.de\n"
-"POT-Creation-Date: 2011-03-25 03:36+0100\n"
+"POT-Creation-Date: 2011-03-29 03:50+0200\n"
 "PO-Revision-Date: 2010-09-24 16:38+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -51,7 +51,7 @@ msgstr "दृश्य"
 msgid "Toolbar"
 msgstr "अओजारपट्टी"
 
-#: src/sound.py:55
+#: src/sound.py:57
 msgid "No voices will be heard because the program ogg123 is missing"
 msgstr ""
 
@@ -1135,7 +1135,7 @@ msgstr ""
 msgid "Login aborted"
 msgstr ""
 
-#: src/humanclient.py:671
+#: src/humanclient.py:672
 msgid "removed stale socket <filename>%1</filename>"
 msgstr ""
 
@@ -1166,7 +1166,17 @@ msgctxt "USER is not known on SERVER"
 msgid "%1 is not known on %2, do you want to open an account?"
 msgstr ""
 
-#: src/humanclient.py:1036
+#: src/humanclient.py:962
+#, python-format
+msgid "calling kajongg server on UNIX socket %s"
+msgstr ""
+
+#: src/humanclient.py:964
+#, python-format
+msgid "calling kajongg server on %s:%d"
+msgstr ""
+
+#: src/humanclient.py:1040
 msgid "The connection to the server %1 broke, please try again later."
 msgstr ""
 
