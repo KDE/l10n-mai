@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kraft\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-31 04:08+0200\n"
+"POT-Creation-Date: 2011-04-01 04:21+0200\n"
 "PO-Revision-Date: 2010-09-24 12:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -490,65 +490,65 @@ msgstr ""
 msgid "Shows all documents along a timeline"
 msgstr ""
 
-#: models/documentmodel.cpp:61
+#: models/documentmodel.cpp:62
 msgid "Id"
 msgstr ""
 
-#: models/documentmodel.cpp:62
-#, fuzzy
-#| msgid "Document"
-msgid "Doc. number"
-msgstr "दस्तावेज"
-
 #: models/documentmodel.cpp:63
 #, fuzzy
+#| msgid "Document"
+msgid "Doc. Number"
+msgstr "दस्तावेज"
+
+#: models/documentmodel.cpp:64
+#, fuzzy
 #| msgid "Doc-Type"
-msgid "Doc. type"
+msgid "Doc. Type"
 msgstr "Doc-Type"
 
-#: models/documentmodel.cpp:64 docdigestdetailview.cpp:105
+#: models/documentmodel.cpp:65 docdigestdetailview.cpp:105
 msgid "Whiteboard"
 msgstr "उज्जरबोर्ड"
 
-#: models/documentmodel.cpp:65
+#: models/documentmodel.cpp:66
 #, fuzzy
 #| msgid "Client Name"
-msgid "Client ID"
+msgid "Client Id"
 msgstr "क्लाइंट नाम"
 
-#: models/documentmodel.cpp:66
+#: models/documentmodel.cpp:67
 #, fuzzy
 #| msgid "Last Modified"
 msgid "Last modified"
 msgstr "अंतिम रूपांतरित"
 
-#: models/documentmodel.cpp:67
+#: models/documentmodel.cpp:68
 msgid "Creation date"
 msgstr ""
 
-#: models/documentmodel.cpp:68
+#: models/documentmodel.cpp:69 docdigestdetailview.cpp:110
 #, fuzzy
 #| msgid "Project"
-msgid "Project label"
+msgid "Project"
 msgstr "प्रोजेक्ट"
 
-#: models/documentmodel.cpp:69
+#: models/documentmodel.cpp:70
 #, fuzzy
 #| msgid "Client Name"
 msgid "Client Address"
 msgstr "क्लाइंट नाम"
 
-#: models/documentmodel.cpp:70
+#: models/documentmodel.cpp:71
 #, fuzzy
 #| msgid "Client Name"
 msgid "Client"
 msgstr "क्लाइंट नाम"
 
-#: models/documentmodel.cpp:126 katalog.cpp:143
+#: models/documentmodel.cpp:136 katalog.cpp:143
 msgid "not found"
 msgstr ""
 
-#: models/documentmodel.cpp:132
+#: models/documentmodel.cpp:142
 #, fuzzy
 #| msgid "Printing..."
 msgid "retrieving..."
@@ -1567,16 +1567,6 @@ msgstr ""
 #: materialselectdialog.cpp:38 materialselectdialog.cpp:43
 msgid "Select Material for Calculation"
 msgstr ""
-
-#: catalogselection.cpp:56
-msgid "Selected &Catalog: "
-msgstr ""
-
-#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
-#, fuzzy
-#| msgid "Edit Document"
-msgid "Append to Document"
-msgstr "दस्तावेज संपादन करू"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2990,6 +2980,16 @@ msgstr ""
 msgid "Insert all Items &after"
 msgstr ""
 
+#: catalogselection.cpp:56
+msgid "Selected &Catalog: "
+msgstr ""
+
+#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
+#, fuzzy
+#| msgid "Edit Document"
+msgid "Append to Document"
+msgstr "दस्तावेज संपादन करू"
+
 #: insertplantdialog.cpp:58
 msgid "Growth"
 msgstr ""
@@ -3334,12 +3334,6 @@ msgstr ""
 msgid "Date"
 msgstr "दिनांक"
 
-#: docdigestdetailview.cpp:110
-#, fuzzy
-#| msgid "Project"
-msgid "Project"
-msgstr "प्रोजेक्ट"
-
 #: docdigestdetailview.cpp:114
 msgid "Customer"
 msgstr ""
@@ -3391,6 +3385,11 @@ msgstr "अज्ञात"
 #: docdigestdetailview.cpp:188
 msgid "This document was never printed."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "Project label"
+#~ msgstr "प्रोजेक्ट"
 
 #~ msgid "Type"
 #~ msgstr "प्रकार"
