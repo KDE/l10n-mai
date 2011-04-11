@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwebkitpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:28+0200\n"
+"POT-Creation-Date: 2011-04-11 03:31+0200\n"
 "PO-Revision-Date: 2010-09-08 12:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -137,6 +137,169 @@ msgstr ""
 msgid "Blocked by ad filter"
 msgstr ""
 
+#: src/webview.cpp:208
+msgid "Save Image As..."
+msgstr "चित्र ई रूपेँ सहेजू..."
+
+#: src/webview.cpp:213
+msgid "Send Image..."
+msgstr "छवि भेजू..."
+
+#: src/webview.cpp:218
+#, fuzzy
+#| msgid "Copy Image"
+msgid "Copy Image URL"
+msgstr "छवि नकल करू"
+
+#: src/webview.cpp:223
+msgid "Copy Image"
+msgstr "छवि नकल करू"
+
+#: src/webview.cpp:229
+#, kde-format
+msgid "View Image (%1)"
+msgstr "छवि ( %1) देखू"
+
+#: src/webview.cpp:235
+#, fuzzy
+#| msgid "Send Image..."
+msgid "Block Image..."
+msgstr "छवि भेजू..."
+
+#: src/webview.cpp:243
+#, kde-format
+msgid "Block Images From %1"
+msgstr ""
+
+#: src/webview.cpp:250
+msgctxt "@title:menu HTML frame/iframe"
+msgid "Frame"
+msgstr "फ्रेम "
+
+#: src/webview.cpp:252
+msgid "Open in New &Window"
+msgstr "नवीन विंडोमे खोलू (&W)"
+
+#: src/webview.cpp:258
+msgid "Open in &This Window"
+msgstr "ई विंडो मे खोलू (&T)"
+
+#: src/webview.cpp:263
+msgid "Open in &New Tab"
+msgstr "नवीन टैब मे खोलू (&N)"
+
+#: src/webview.cpp:273
+msgid "Reload Frame"
+msgstr "फ्रेम फिनु लोड करू"
+
+#: src/webview.cpp:278 src/kwebkitpart.cpp:207
+msgid "Print Frame..."
+msgstr "फ्रेम छापू...."
+
+#: src/webview.cpp:284 src/kwebkitpart.cpp:203
+msgid "Save &Frame As..."
+msgstr "फ्रेम एहन सहेजू...(&F)"
+
+#: src/webview.cpp:289
+msgid "View Frame Source"
+msgstr "फ्रेम स्रोत देखू"
+
+#: src/webview.cpp:303
+#, fuzzy
+#| msgid "Send Image..."
+msgid "Block IFrame..."
+msgstr "छवि भेजू..."
+
+#: src/webview.cpp:337 src/webview.cpp:371
+msgid "&Copy Text"
+msgstr "पाठक नकल बनाबू (&C)"
+
+#: src/webview.cpp:347
+#, kde-format
+msgctxt "open selected url"
+msgid "Open '%1'"
+msgstr " '%1' खोलू"
+
+#: src/webview.cpp:377
+msgid "&Copy Email Address"
+msgstr "ई-मेल पता नकल करू (&C)"
+
+#: src/webview.cpp:382
+#, fuzzy
+#| msgid "&Copy Link Address"
+msgid "&Copy Link URL"
+msgstr "कड़ी क' पता नकल करू (&C)"
+
+#: src/webview.cpp:387
+msgid "&Save Link As..."
+msgstr "लिंक एहन सहेजू (&S)"
+
+#: src/webview.cpp:407
+msgid "&Play"
+msgstr ""
+
+#: src/webview.cpp:407
+msgid "&Pause"
+msgstr ""
+
+#: src/webview.cpp:412
+msgid "Un&mute"
+msgstr ""
+
+#: src/webview.cpp:412
+msgid "&Mute"
+msgstr ""
+
+#: src/webview.cpp:417
+msgid "&Loop"
+msgstr ""
+
+#: src/webview.cpp:424
+msgid "Show &Controls"
+msgstr ""
+
+#: src/webview.cpp:437
+#, fuzzy
+#| msgid "Save Image As..."
+msgid "Sa&ve Video As..."
+msgstr "चित्र ई रूपेँ सहेजू..."
+
+#: src/webview.cpp:438
+msgid "C&opy Video URL"
+msgstr ""
+
+#: src/webview.cpp:440
+#, fuzzy
+#| msgid "&Save Link As..."
+msgid "Sa&ve Audio As..."
+msgstr "लिंक एहन सहेजू (&S)"
+
+#: src/webview.cpp:441
+msgid "C&opy Audio URL"
+msgstr ""
+
+#: src/webview.cpp:443
+#, fuzzy
+#| msgid "Save Image As..."
+msgid "Sa&ve Media As..."
+msgstr "चित्र ई रूपेँ सहेजू..."
+
+#: src/webview.cpp:444
+msgid "C&opy Media URL"
+msgstr ""
+
+#: src/webview.cpp:484
+#, kde-format
+msgctxt "Search \"search provider\" for \"text\""
+msgid "Search %1 for '%2'"
+msgstr ""
+
+#: src/webview.cpp:496
+#, kde-format
+msgctxt "Search for \"text\" with"
+msgid "Search for '%1' with"
+msgstr "'%1' केँ ढूँढू एकरा सँग"
+
 #: src/kwebkitpart.cpp:94
 msgctxt "Program Name"
 msgid "KWebKitPart"
@@ -181,14 +344,6 @@ msgstr ""
 #: src/kwebkitpart.cpp:106
 msgid "Dirk Mueller"
 msgstr "डिर्क मुलर"
-
-#: src/kwebkitpart.cpp:203 src/webview.cpp:284
-msgid "Save &Frame As..."
-msgstr "फ्रेम एहन सहेजू...(&F)"
-
-#: src/kwebkitpart.cpp:207 src/webview.cpp:278
-msgid "Print Frame..."
-msgstr "फ्रेम छापू...."
 
 #: src/kwebkitpart.cpp:211
 msgctxt "zoom in action"
@@ -451,161 +606,6 @@ msgstr ""
 #: src/webpage.cpp:730
 msgid "Attachment Removed"
 msgstr ""
-
-#: src/webview.cpp:208
-msgid "Save Image As..."
-msgstr "चित्र ई रूपेँ सहेजू..."
-
-#: src/webview.cpp:213
-msgid "Send Image..."
-msgstr "छवि भेजू..."
-
-#: src/webview.cpp:218
-#, fuzzy
-#| msgid "Copy Image"
-msgid "Copy Image URL"
-msgstr "छवि नकल करू"
-
-#: src/webview.cpp:223
-msgid "Copy Image"
-msgstr "छवि नकल करू"
-
-#: src/webview.cpp:229
-#, kde-format
-msgid "View Image (%1)"
-msgstr "छवि ( %1) देखू"
-
-#: src/webview.cpp:235
-#, fuzzy
-#| msgid "Send Image..."
-msgid "Block Image..."
-msgstr "छवि भेजू..."
-
-#: src/webview.cpp:243
-#, kde-format
-msgid "Block Images From %1"
-msgstr ""
-
-#: src/webview.cpp:250
-msgctxt "@title:menu HTML frame/iframe"
-msgid "Frame"
-msgstr "फ्रेम "
-
-#: src/webview.cpp:252
-msgid "Open in New &Window"
-msgstr "नवीन विंडोमे खोलू (&W)"
-
-#: src/webview.cpp:258
-msgid "Open in &This Window"
-msgstr "ई विंडो मे खोलू (&T)"
-
-#: src/webview.cpp:263
-msgid "Open in &New Tab"
-msgstr "नवीन टैब मे खोलू (&N)"
-
-#: src/webview.cpp:273
-msgid "Reload Frame"
-msgstr "फ्रेम फिनु लोड करू"
-
-#: src/webview.cpp:289
-msgid "View Frame Source"
-msgstr "फ्रेम स्रोत देखू"
-
-#: src/webview.cpp:303
-#, fuzzy
-#| msgid "Send Image..."
-msgid "Block IFrame..."
-msgstr "छवि भेजू..."
-
-#: src/webview.cpp:337 src/webview.cpp:371
-msgid "&Copy Text"
-msgstr "पाठक नकल बनाबू (&C)"
-
-#: src/webview.cpp:347
-#, kde-format
-msgctxt "open selected url"
-msgid "Open '%1'"
-msgstr " '%1' खोलू"
-
-#: src/webview.cpp:377
-msgid "&Copy Email Address"
-msgstr "ई-मेल पता नकल करू (&C)"
-
-#: src/webview.cpp:382
-#, fuzzy
-#| msgid "&Copy Link Address"
-msgid "&Copy Link URL"
-msgstr "कड़ी क' पता नकल करू (&C)"
-
-#: src/webview.cpp:387
-msgid "&Save Link As..."
-msgstr "लिंक एहन सहेजू (&S)"
-
-#: src/webview.cpp:407
-msgid "&Play"
-msgstr ""
-
-#: src/webview.cpp:407
-msgid "&Pause"
-msgstr ""
-
-#: src/webview.cpp:412
-msgid "Un&mute"
-msgstr ""
-
-#: src/webview.cpp:412
-msgid "&Mute"
-msgstr ""
-
-#: src/webview.cpp:417
-msgid "&Loop"
-msgstr ""
-
-#: src/webview.cpp:424
-msgid "Show &Controls"
-msgstr ""
-
-#: src/webview.cpp:437
-#, fuzzy
-#| msgid "Save Image As..."
-msgid "Sa&ve Video As..."
-msgstr "चित्र ई रूपेँ सहेजू..."
-
-#: src/webview.cpp:438
-msgid "C&opy Video URL"
-msgstr ""
-
-#: src/webview.cpp:440
-#, fuzzy
-#| msgid "&Save Link As..."
-msgid "Sa&ve Audio As..."
-msgstr "लिंक एहन सहेजू (&S)"
-
-#: src/webview.cpp:441
-msgid "C&opy Audio URL"
-msgstr ""
-
-#: src/webview.cpp:443
-#, fuzzy
-#| msgid "Save Image As..."
-msgid "Sa&ve Media As..."
-msgstr "चित्र ई रूपेँ सहेजू..."
-
-#: src/webview.cpp:444
-msgid "C&opy Media URL"
-msgstr ""
-
-#: src/webview.cpp:484
-#, kde-format
-msgctxt "Search \"search provider\" for \"text\""
-msgid "Search %1 for '%2'"
-msgstr ""
-
-#: src/webview.cpp:496
-#, kde-format
-msgctxt "Search for \"text\" with"
-msgid "Search for '%1' with"
-msgstr "'%1' केँ ढूँढू एकरा सँग"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
