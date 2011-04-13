@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-12 03:43+0200\n"
+"POT-Creation-Date: 2011-04-13 03:25+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -632,7 +632,7 @@ msgstr "सहेजनाइ संपुष्ट करू"
 
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:40
 #: kopageapp/dialogs/KoPAConfigureDialog.cpp:41
-#: main/config/KoConfigMiscPage.cpp:78 pigment/KoCompositeOp.cpp:43
+#: main/config/KoConfigMiscPage.cpp:78 pigment/KoCompositeOp.cpp:39
 msgid "Misc"
 msgstr ""
 
@@ -857,7 +857,7 @@ msgstr "पसंदीदा"
 #: kopageapp/KoPADocumentStructureDocker.cpp:641
 #: koreport/wrtembed/KoReportDesigner.cpp:833
 #: pigment/compositeops/KoCompositeOpCopy.h:37
-#: pigment/compositeops/KoCompositeOpCopy2.h:52
+#: pigment/compositeops/KoCompositeOpCopy2.h:42
 msgid "Copy"
 msgstr "कापी करू"
 
@@ -3108,37 +3108,19 @@ msgstr ""
 msgid "32 Bits Float"
 msgstr ""
 
-#: pigment/KoCompositeOp.cpp:27
-msgid "Mix"
-msgstr ""
-
-#: pigment/KoCompositeOp.cpp:31
-#, fuzzy
-#| msgid "Lighten"
-msgid "Light"
-msgstr "हलुक करू"
-
-#: pigment/KoCompositeOp.cpp:35
-#, fuzzy
-#| msgid "Automatic"
-msgid "Arithmetic"
-msgstr "स्वचालित"
-
-#: pigment/KoCompositeOp.cpp:39
-msgid "Color"
-msgstr "रंग"
-
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:48
 msgid "Clear"
 msgstr "खाली"
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:121
 #: pigment/compositeops/KoCompositeOpSubtract.h:37
+#: pigment/compositeops/KoCompositeOps.h:87
 msgid "Subtract"
 msgstr "घटओनाइ"
 
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:193
 #: pigment/compositeops/KoCompositeOpMultiply.h:35
+#: pigment/compositeops/KoCompositeOps.h:88
 msgid "Multiply"
 msgstr "गुणा"
 
@@ -3163,7 +3145,7 @@ msgid "L*a*b* (16-bit integer/channel, unmanaged)"
 msgstr ""
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:42
-#: widgets/KoUniColorChooser.cpp:201
+#: pigment/compositeops/KoCompositeOps.h:152 widgets/KoUniColorChooser.cpp:201
 msgid "Lightness"
 msgstr ""
 
@@ -3217,6 +3199,7 @@ msgid "Alpha darken"
 msgstr ""
 
 #: pigment/compositeops/KoCompositeOpDivide.h:36
+#: pigment/compositeops/KoCompositeOps.h:89
 msgid "Divide"
 msgstr "भाग"
 
@@ -3245,10 +3228,12 @@ msgid "Normal"
 msgstr "सामान्य"
 
 #: pigment/compositeops/KoCompositeOpOverlay.h:36
+#: pigment/compositeops/KoCompositeOps.h:62
 msgid "Overlay"
 msgstr "ओवरले"
 
 #: pigment/compositeops/KoCompositeOpScreen.h:36
+#: pigment/compositeops/KoCompositeOps.h:70
 msgid "Screen"
 msgstr "स्क्रीन"
 
@@ -3268,8 +3253,366 @@ msgstr "लिखू"
 msgid "Copy Opacy"
 msgstr "अल्फा"
 
+#: pigment/compositeops/KoCompositeOpDissolve.h:61
+msgid "Dissolve"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:63
+msgid "Grain Merge"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:64
+msgid "Grain Extract"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:65
+#, fuzzy
+#| msgid "Height:"
+msgid "Hard Mix"
+msgstr "उँचाइ:"
+
+#: pigment/compositeops/KoCompositeOps.h:66
+msgid "Geometric Mean"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:67
+#, fuzzy
+#| msgid "Variable"
+msgid "Parallel"
+msgstr "परिवर्तनीय"
+
+#: pigment/compositeops/KoCompositeOps.h:68
+msgid "Allanon"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:71
+#, fuzzy
+#| msgid "Color"
+msgid "Color Dodge"
+msgstr "रंग"
+
+#: pigment/compositeops/KoCompositeOps.h:72
+#, fuzzy
+#| msgid "Lighten"
+msgid "Linear Dodge"
+msgstr "हलुक करू"
+
+#: pigment/compositeops/KoCompositeOps.h:73 pigment/KoCompositeOp.cpp:32
+msgid "Lighten"
+msgstr "हलुक करू"
+
+#: pigment/compositeops/KoCompositeOps.h:74
+#, fuzzy
+#| msgid "Height:"
+msgid "Hard Light"
+msgstr "उँचाइ:"
+
+#: pigment/compositeops/KoCompositeOps.h:75
+#, fuzzy
+#| msgid "Straight"
+msgid "Soft Light"
+msgstr "सीधा"
+
+#: pigment/compositeops/KoCompositeOps.h:76
+#, fuzzy
+#| msgid "Lighten"
+msgid "Gamma Light"
+msgstr "हलुक करू"
+
+#: pigment/compositeops/KoCompositeOps.h:77
+#, fuzzy
+#| msgid "Lighten"
+msgid "Vivid Light"
+msgstr "हलुक करू"
+
+#: pigment/compositeops/KoCompositeOps.h:78
+#, fuzzy
+#| msgid "Lighten"
+msgid "Pin Light"
+msgstr "हलुक करू"
+
+#: pigment/compositeops/KoCompositeOps.h:79
+#, fuzzy
+#| msgid "Lighten"
+msgid "Linear Light"
+msgstr "हलुक करू"
+
+#: pigment/compositeops/KoCompositeOps.h:81
+#, fuzzy
+#| msgid "Color"
+msgid "Color Burn"
+msgstr "रंग"
+
+#: pigment/compositeops/KoCompositeOps.h:82
+#, fuzzy
+#| msgid "Insert Break"
+msgid "Linear Burn"
+msgstr "खण्डन जोडू"
+
+#: pigment/compositeops/KoCompositeOps.h:83 pigment/KoCompositeOp.cpp:33
+msgid "Darken"
+msgstr "गहिर करू"
+
+#: pigment/compositeops/KoCompositeOps.h:84
+msgid "Gamma Dark"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:86
+#, fuzzy
+#| msgid "Position:"
+msgid "Addition"
+msgstr "स्थिति: "
+
+#: pigment/compositeops/KoCompositeOps.h:91
+msgid "Arcus Tangent"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:92
+msgid "Difference"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:93
+msgid "Exclusion"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:94
+msgid "Equivalence"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:95
+msgid "Additive-Substractive"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:100
+#, fuzzy
+#| msgid "Alpha"
+msgid "Copy Alpha"
+msgstr "अल्फा"
+
+#: pigment/compositeops/KoCompositeOps.h:125
+#, fuzzy
+#| msgid "Copy Page"
+msgid "Copy Red"
+msgstr "कोपी करू पृष्ठ"
+
+#: pigment/compositeops/KoCompositeOps.h:126
+#, fuzzy
+#| msgid "Green"
+msgid "Copy Green"
+msgstr "हरिअर"
+
+#: pigment/compositeops/KoCompositeOps.h:127
+#, fuzzy
+#| msgid "Copy Page"
+msgid "Copy Blue"
+msgstr "कोपी करू पृष्ठ"
+
+#: pigment/compositeops/KoCompositeOps.h:129 pigment/KoCompositeOp.cpp:27
+msgid "Color"
+msgstr "रंग"
+
+#: pigment/compositeops/KoCompositeOps.h:130 widgets/KoUniColorChooser.cpp:116
+msgid "Hue"
+msgstr "वर्ण"
+
+#: pigment/compositeops/KoCompositeOps.h:131 widgets/KoUniColorChooser.cpp:125
+msgid "Saturation"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:132
+#, fuzzy
+#| msgid "Saturation"
+msgid "Increase Saturation"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:133
+#, fuzzy
+#| msgid "Saturation"
+msgid "Decrease Saturation"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:134
+msgid "Luminosity"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:135
+#, fuzzy
+#| msgid "Increase Indent"
+msgid "Increase Luminosity"
+msgstr "हाशिया बढ़ाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:136
+#, fuzzy
+#| msgid "Decrease Indent"
+msgid "Decrease Luminosity"
+msgstr "हाशिया घटाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:138
+#, fuzzy
+#| msgid "Color"
+msgid "Color HSI"
+msgstr "रंग"
+
+#: pigment/compositeops/KoCompositeOps.h:139
+#, fuzzy
+#| msgid "Hue"
+msgid "Hue HSI"
+msgstr "वर्ण"
+
+#: pigment/compositeops/KoCompositeOps.h:140
+#, fuzzy
+#| msgid "Saturation"
+msgid "Saturation HSI"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:141
+#, fuzzy
+#| msgid "Saturation"
+msgid "Increase Saturation HSI"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:142
+#, fuzzy
+#| msgid "Saturation"
+msgid "Decrease Saturation HSI"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:143
+msgid "Intensity"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOps.h:144
+#, fuzzy
+#| msgid "Increase Indent"
+msgid "Increase Intensity"
+msgstr "हाशिया बढ़ाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:145
+#, fuzzy
+#| msgid "Decrease Indent"
+msgid "Decrease Intensity"
+msgstr "हाशिया घटाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:147
+#, fuzzy
+#| msgid "Color"
+msgid "Color HSL"
+msgstr "रंग"
+
+#: pigment/compositeops/KoCompositeOps.h:148
+#, fuzzy
+#| msgid "Hue"
+msgid "Hue HSL"
+msgstr "वर्ण"
+
+#: pigment/compositeops/KoCompositeOps.h:149
+#, fuzzy
+#| msgid "Saturation"
+msgid "Saturation HSL"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:150
+#, fuzzy
+#| msgid "Saturation"
+msgid "Increase Saturation HSL"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:151
+#, fuzzy
+#| msgid "Saturation"
+msgid "Decrease Saturation HSL"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:153
+#, fuzzy
+#| msgid "Increase Indent"
+msgid "Increase Lightness"
+msgstr "हाशिया बढ़ाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:154
+#, fuzzy
+#| msgid "Decrease Indent"
+msgid "Decrease Lightness"
+msgstr "हाशिया घटाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:156
+#, fuzzy
+#| msgid "Color"
+msgid "Color HSV"
+msgstr "रंग"
+
+#: pigment/compositeops/KoCompositeOps.h:157
+#, fuzzy
+#| msgid "Hue"
+msgid "Hue HSV"
+msgstr "वर्ण"
+
+#: pigment/compositeops/KoCompositeOps.h:158
+#, fuzzy
+#| msgid "Saturation"
+msgid "Saturation HSV"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:159
+#, fuzzy
+#| msgid "Saturation"
+msgid "Increase Saturation HSV"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:160
+#, fuzzy
+#| msgid "Saturation"
+msgid "Decrease Saturation HSV"
+msgstr "संतृप्ति"
+
+#: pigment/compositeops/KoCompositeOps.h:161
+msgid "Value"
+msgstr "मान"
+
+#: pigment/compositeops/KoCompositeOps.h:162
+#, fuzzy
+#| msgid "Increase Indent"
+msgid "Increase Value"
+msgstr "हाशिया बढ़ाबू"
+
+#: pigment/compositeops/KoCompositeOps.h:163
+#, fuzzy
+#| msgid "Decrease Indent"
+msgid "Decrease Value"
+msgstr "हाशिया घटाबू"
+
 #: pigment/resources/KoStopGradient.cpp:421
 msgid "SVG Gradient"
+msgstr ""
+
+#: pigment/KoCompositeOp.cpp:30
+#, fuzzy
+#| msgid "Automatic"
+msgid "Arithmetic"
+msgstr "स्वचालित"
+
+#: pigment/KoCompositeOp.cpp:31
+msgid "Negative"
+msgstr ""
+
+#: pigment/KoCompositeOp.cpp:34
+msgid "HSY"
+msgstr ""
+
+#: pigment/KoCompositeOp.cpp:35
+msgid "HSI"
+msgstr ""
+
+#: pigment/KoCompositeOp.cpp:36
+msgid "HSL"
+msgstr ""
+
+#: pigment/KoCompositeOp.cpp:37
+msgid "HSV"
+msgstr ""
+
+#: pigment/KoCompositeOp.cpp:38
+msgid "Mix"
 msgstr ""
 
 #: widgets/KoColorSetWidget.cpp:189
@@ -3417,14 +3760,6 @@ msgstr "आकार"
 #: widgets/KoResourceItemChooser.cpp:124
 msgid "Choose File to Add"
 msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:116
-msgid "Hue"
-msgstr "वर्ण"
-
-#: widgets/KoUniColorChooser.cpp:125
-msgid "Saturation"
-msgstr "संतृप्ति"
 
 #: widgets/KoUniColorChooser.cpp:134
 msgid "Value (brightness)"
@@ -4582,6 +4917,11 @@ msgid "Blur radius:"
 msgstr ""
 
 #, fuzzy
+#~| msgid "Lighten"
+#~ msgid "Light"
+#~ msgstr "हलुक करू"
+
+#, fuzzy
 #~| msgid "Show Guides"
 #~ msgid "Hide Dockers"
 #~ msgstr "गाइड देखाबू"
@@ -4590,87 +4930,6 @@ msgstr ""
 #~| msgid "Stop"
 #~ msgid "Atop"
 #~ msgstr "रोकू"
-
-#, fuzzy
-#~| msgid "Height:"
-#~ msgid "Hard Mix"
-#~ msgstr "उँचाइ:"
-
-#, fuzzy
-#~| msgid "Color"
-#~ msgid "Color Burn"
-#~ msgstr "रंग"
-
-#, fuzzy
-#~| msgid "Color"
-#~ msgid "Color Dodge"
-#~ msgstr "रंग"
-
-#, fuzzy
-#~| msgid "Insert Break"
-#~ msgid "Linear Burn"
-#~ msgstr "खण्डन जोडू"
-
-#~ msgid "Darken"
-#~ msgstr "गहिर करू"
-
-#~ msgid "Lighten"
-#~ msgstr "हलुक करू"
-
-#, fuzzy
-#~| msgid "Height:"
-#~ msgid "Hard Light"
-#~ msgstr "उँचाइ:"
-
-#, fuzzy
-#~| msgid "Straight"
-#~ msgid "Soft Light"
-#~ msgstr "सीधा"
-
-#, fuzzy
-#~| msgid "Lighten"
-#~ msgid "Gamma Light"
-#~ msgstr "हलुक करू"
-
-#, fuzzy
-#~| msgid "Lighten"
-#~ msgid "Vivid Light"
-#~ msgstr "हलुक करू"
-
-#, fuzzy
-#~| msgid "Lighten"
-#~ msgid "Pin Light"
-#~ msgstr "हलुक करू"
-
-#, fuzzy
-#~| msgid "Lighten"
-#~ msgid "Linear Light"
-#~ msgstr "हलुक करू"
-
-#, fuzzy
-#~| msgid "Position:"
-#~ msgid "Addition"
-#~ msgstr "स्थिति: "
-
-#, fuzzy
-#~| msgid "Variable"
-#~ msgid "Parallel"
-#~ msgstr "परिवर्तनीय"
-
-#, fuzzy
-#~| msgid "Copy Page"
-#~ msgid "Copy Red"
-#~ msgstr "कोपी करू पृष्ठ"
-
-#, fuzzy
-#~| msgid "Green"
-#~ msgid "Copy Green"
-#~ msgstr "हरिअर"
-
-#, fuzzy
-#~| msgid "Copy Page"
-#~ msgid "Copy Blue"
-#~ msgstr "कोपी करू पृष्ठ"
 
 #~ msgid "KOffice"
 #~ msgstr "के-ऑफ़िस"
@@ -4724,9 +4983,6 @@ msgstr ""
 #~| msgid "Format"
 #~ msgid "Form"
 #~ msgstr "प्रारूप"
-
-#~ msgid "Value"
-#~ msgstr "मान"
 
 #, fuzzy
 #~| msgid "Custom"
