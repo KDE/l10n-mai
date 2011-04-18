@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aki\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-01 04:16+0200\n"
+"POT-Creation-Date: 2011-04-18 04:27+0200\n"
 "PO-Revision-Date: 2010-09-24 12:58+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -469,6 +469,22 @@ msgstr ""
 msgid "Identity already exists."
 msgstr ""
 
+#: aki/dialogs/importdialogpages/importdialog.cxx:31
+msgid "Import Assistant"
+msgstr ""
+
+#: aki/dialogs/importdialogpages/importdialog.cxx:34
+msgid "Import Settings and Data"
+msgstr ""
+
+#: aki/dialogs/importdialogpages/importdialog.cxx:44
+msgid "Import Aki Settings"
+msgstr ""
+
+#: aki/dialogs/importdialogpages/importdialog.cxx:48
+msgid "Import XChat Settings"
+msgstr ""
+
 #: aki/docks/privatemessages/privatemessagedock.cxx:26
 #, fuzzy
 #| msgid "Private"
@@ -493,7 +509,9 @@ msgstr ""
 msgid "Server"
 msgstr "सर्वर"
 
-#: aki/main.cxx:32
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:38
+#. i18n: ectx: property (text), widget (QRadioButton, akiRadio)
+#: aki/main.cxx:32 rc.cpp:353
 msgid "Aki"
 msgstr ""
 
@@ -768,40 +786,40 @@ msgstr ""
 msgid "Remove Channel"
 msgstr "चैनल"
 
-#: aki/mainwindow.cxx:67
+#: aki/mainwindow.cxx:68
 msgid "Aki IRC Client"
 msgstr ""
 
-#: aki/mainwindow.cxx:136
+#: aki/mainwindow.cxx:140
 #, fuzzy
 #| msgid "Networks"
 msgid "Network List"
 msgstr "नेटवर्क"
 
-#: aki/mainwindow.cxx:137
+#: aki/mainwindow.cxx:141
 msgid "Quick Connection"
 msgstr ""
 
-#: aki/mainwindow.cxx:139
+#: aki/mainwindow.cxx:143
 msgid "Reconnect"
 msgstr "फिनु जोड़ू"
 
-#: aki/mainwindow.cxx:140
+#: aki/mainwindow.cxx:144
 msgid "Disconnect"
 msgstr "डिसकनेक्ट करू"
 
-#: aki/mainwindow.cxx:141
+#: aki/mainwindow.cxx:145
 #, fuzzy
 #| msgctxt "Quit application"
 #| msgid "&Quit"
 msgid "Quit"
 msgstr "छोड़ू (&Q)"
 
-#: aki/mainwindow.cxx:142
+#: aki/mainwindow.cxx:146
 msgid "Identities..."
 msgstr ""
 
-#: aki/mainwindow.cxx:144
+#: aki/mainwindow.cxx:148
 msgid "Bookmarks"
 msgstr ""
 
@@ -1365,6 +1383,121 @@ msgstr "उपनामः"
 msgid "Enable SSL"
 msgstr "लौगिंग सक्रिय करू"
 
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:17
+#. i18n: ectx: property (whatsThis), widget (QWidget, ImportStartPage)
+#: rc.cpp:344
+msgid ""
+"Import wizard will allow you to migrate your settings from other IRC Clients"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:25
+#. i18n: ectx: property (text), widget (QLabel, mainHeader)
+#: rc.cpp:347
+msgid ""
+"Import Server Lists from other IRC Clients, Identities, Nicknames and "
+"Servers:"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:35
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, akiRadio)
+#: rc.cpp:350
+msgid "Allows importing of Aki's own Server List and database"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:48
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, konversationRadio)
+#: rc.cpp:356
+msgid "Allows importing of Konversation's Server List"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:51
+#. i18n: ectx: property (text), widget (QRadioButton, konversationRadio)
+#: rc.cpp:359
+#, fuzzy
+#| msgid "Connection"
+msgid "Konversation"
+msgstr "कनेक्शन"
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:58
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mircRadio)
+#: rc.cpp:362
+msgid "Allows importing of mIRC's Server List"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:61
+#. i18n: ectx: property (text), widget (QRadioButton, mircRadio)
+#: rc.cpp:365
+msgid "mIRC"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:68
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, xchatRadio)
+#: rc.cpp:368
+msgid "Allows importing of XChat's Server List"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:71
+#. i18n: ectx: property (text), widget (QRadioButton, xchatRadio)
+#: rc.cpp:371
+#, fuzzy
+#| msgid "Chat"
+msgid "XChat"
+msgstr "गप्प-सप्प"
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:78
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, dontImportAnythingRadio)
+#: rc.cpp:374
+msgid ""
+"Will not import anything and will start out with new settings for the first "
+"time"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importstartpage.ui:81
+#. i18n: ectx: property (text), widget (QRadioButton, dontImportAnythingRadio)
+#: rc.cpp:377
+msgid "Don't import anything"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importxchatpage.ui:22
+#. i18n: ectx: property (text), widget (QLabel, mainHeader)
+#: rc.cpp:380
+msgid "Please select the Server List you wish to use:"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importxchatpage.ui:32
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, defaultRadio)
+#: rc.cpp:383
+msgid "Uses the default Server List from the XChat directory"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importxchatpage.ui:35
+#. i18n: ectx: property (text), widget (QRadioButton, defaultRadio)
+#: rc.cpp:386
+#, fuzzy
+#| msgid "Default:"
+msgid "Default"
+msgstr "मूलभूत:"
+
+#. i18n: file: aki/dialogs/ui/importxchatpage.ui:45
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, customRadio)
+#: rc.cpp:389
+msgid "Uses a custom XChat Server List file"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importxchatpage.ui:48
+#. i18n: ectx: property (text), widget (QRadioButton, customRadio)
+#: rc.cpp:392
+msgid "Custom"
+msgstr ""
+
+#. i18n: file: aki/dialogs/ui/importxchatpage.ui:68
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, customUrl)
+#: rc.cpp:395
+msgid ""
+"Select the location of where the XChat Server List file is located, if one "
+"is not available use the Default option"
+msgstr ""
+
 #, fuzzy
 #~| msgid "Nickname:"
 #~ msgid "Add New Nickname"
@@ -1520,14 +1653,8 @@ msgstr "लौगिंग सक्रिय करू"
 #~ msgid "Tabs"
 #~ msgstr "टैब"
 
-#~ msgid "Default:"
-#~ msgstr "मूलभूत:"
-
 #~ msgid "Highlight:"
 #~ msgstr "उभारू:"
-
-#~ msgid "Chat"
-#~ msgstr "गप्प-सप्प"
 
 #~ msgid "Text"
 #~ msgstr "पाठ"
