@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:06+0100\n"
+"POT-Creation-Date: 2011-04-21 03:46+0200\n"
 "PO-Revision-Date: 2009-01-18 15:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -492,7 +492,7 @@ msgid ""
 "permissions problem - you should consult the manual on how to fix this."
 msgstr ""
 
-#. i18n: file: xcursor/themepage.ui:31
+#. i18n: file: xcursor/themepage.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:68
 msgid "Select the cursor theme you want to use (hover preview to test cursor):"
@@ -500,35 +500,51 @@ msgstr ""
 "संकेतक प्रसंग जे अहाँ उपयोग कएनाइ चाहैत छी ओकरा चुनू (संकेतक केँ जाँचबाक क' लेल पूर्वावलोकन "
 "केर उप्पर मंडराबू) "
 
-#. i18n: file: xcursor/themepage.ui:38
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#. i18n: file: xcursor/themepage.ui:56
+#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
 #: rc.cpp:71
+msgid "Get new color schemes from the Internet"
+msgstr ""
+
+#. i18n: file: xcursor/themepage.ui:59
+#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
+#: rc.cpp:74
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Get New Theme..."
+msgstr "नवीन प्रसंग संस्थापित करू..."
+
+#. i18n: file: xcursor/themepage.ui:66
+#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#: rc.cpp:77
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Install From File..."
+msgstr "नवीन प्रसंग संस्थापित करू..."
+
+#. i18n: file: xcursor/themepage.ui:73
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:80
 msgid "Remove Theme"
 msgstr "प्रसंग हटाबू"
-
-#. i18n: file: xcursor/themepage.ui:45
-#. i18n: ectx: property (text), widget (KPushButton, installButton)
-#: rc.cpp:74
-msgid "Install New Theme..."
-msgstr "नवीन प्रसंग संस्थापित करू..."
 
 #: core/themepage.cpp:54
 msgid "Select the cursor theme you want to use:"
 msgstr "संकेतक प्रसंग चुनू जकर उपयोग अहाँ कएनाइ चाहैत छी:"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:67
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:75
 msgid "Name"
 msgstr "नाम"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:70
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:78
 msgid "Description"
 msgstr "विवरण"
 
-#: core/themepage.cpp:100 xcursor/themepage.cpp:196
+#: core/themepage.cpp:100 xcursor/themepage.cpp:201
 msgid "You have to restart KDE for these changes to take effect."
 msgstr "परिवर्तनसभ केँ प्रभाव मे लाबै क' लेल अहाँक केडीई केँ फिनु सँ प्रारंभ कएनाइ पड़त."
 
-#: core/themepage.cpp:101 xcursor/themepage.cpp:197
+#: core/themepage.cpp:101 xcursor/themepage.cpp:202
 msgid "Cursor Settings Changed"
 msgstr "संकेतक बिन्यास परिवर्तित"
 
@@ -572,45 +588,45 @@ msgstr "केडीई-क्लासिक"
 msgid "The default cursor theme in KDE 2 and 3"
 msgstr ""
 
-#: xcursor/themepage.cpp:284
+#: xcursor/themepage.cpp:298
 msgid "Drag or Type Theme URL"
 msgstr "प्रसंग यूआरएल घींचू अथवा टाइप करू"
 
-#: xcursor/themepage.cpp:295
+#: xcursor/themepage.cpp:309
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "संकेतक प्रसंग अभिलेख %1 पाबै मे अक्षम."
 
-#: xcursor/themepage.cpp:298
+#: xcursor/themepage.cpp:312
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address %"
 "1 is correct."
 msgstr "संकेतक प्रसंग अभिलेख डाउनलोड करबा मे अक्षम; कृप्या जाँचें जे पता %1 सही अछि."
 
-#: xcursor/themepage.cpp:307
+#: xcursor/themepage.cpp:321
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "फाइल %1 वैध संकेतक प्रसंग अभिलेखागार जहिना प्रतीत नहि अछि."
 
-#: xcursor/themepage.cpp:322
+#: xcursor/themepage.cpp:336
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:328
+#: xcursor/themepage.cpp:342
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
 "will delete all the files installed by this theme.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:334
+#: xcursor/themepage.cpp:348
 msgid "Confirmation"
 msgstr "पुष्टिकरण"
 
-#: xcursor/themepage.cpp:391
+#: xcursor/themepage.cpp:405
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -619,7 +635,7 @@ msgstr ""
 "एकटा प्रसंग %1 नाम सँ प्रतीक प्रसंग फोल्डर मे पहिने सँ उपलब्ध अछि. की अहाँ ओकरा एकरासँ "
 "बदलब चाहैत अछि?"
 
-#: xcursor/themepage.cpp:395
+#: xcursor/themepage.cpp:409
 msgid "Overwrite Theme?"
 msgstr "प्रसंग मेटाकए लिखू?"
 

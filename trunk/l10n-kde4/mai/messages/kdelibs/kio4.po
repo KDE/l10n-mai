@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-20 04:01+0200\n"
+"POT-Creation-Date: 2011-04-21 04:01+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -360,7 +360,7 @@ msgstr "एहिना सहेजू"
 msgid "*|All files"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:360 ../kfile/kfilefiltercombo.cpp:180
+#: kfile/kfiledialog.cpp:360 ../kfile/kfilefiltercombo.cpp:185
 msgid "All Supported Files"
 msgstr "सभटा समर्थित फाइलसभ"
 
@@ -6143,10 +6143,6 @@ msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "गुण"
 
-#: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
-msgid "*|All Files"
-msgstr "*|सभटा फाइलसभ"
-
 #: ../kfile/kfileplaceeditdialog.cpp:90
 #, fuzzy
 #| msgid "Edit Places Entry"
@@ -6652,6 +6648,10 @@ msgstr "रिमोट फाइलसभ स्वीकार्य नहि
 msgid "*|All Folders"
 msgstr "*|सभटा फोल्डर"
 
+#: ../kfile/kfilewidget.cpp:1802 ../kfile/kfilefiltercombo.cpp:36
+msgid "*|All Files"
+msgstr "*|सभटा फाइलसभ"
+
 #: ../kfile/kfilewidget.cpp:2051
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
@@ -6703,6 +6703,12 @@ msgid ""
 "bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
+
+#: ../kfile/kfilefiltercombo.cpp:194
+#, fuzzy
+#| msgid "*|All Files"
+msgid "All Files"
+msgstr "*|सभटा फाइलसभ"
 
 #, fuzzy
 #~| msgid "&Name:"
