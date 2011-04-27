@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail-mobile\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-24 04:09+0200\n"
+"POT-Creation-Date: 2011-04-27 15:24+0200\n"
 "PO-Revision-Date: 2010-09-24 16:27+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -394,6 +394,10 @@ msgctxt "Message Aggregation Group Header: Month name and Year number"
 msgid "%1 %2"
 msgstr ""
 
+#: main.cpp:60
+msgid "Kontact Touch Mail"
+msgstr ""
+
 #: mainview.cpp:366
 msgid "Messagelist Display Format"
 msgstr ""
@@ -671,10 +675,6 @@ msgstr ""
 
 #: vacationmanager.cpp:95
 msgid "No Server-Side Filtering Configured"
-msgstr ""
-
-#: main.cpp:60
-msgid "Kontact Touch Mail"
 msgstr ""
 
 #: rc.cpp:1
@@ -1225,6 +1225,10 @@ msgid_plural "%1 folders"
 msgstr[0] "फोल्डर"
 msgstr[1] "फोल्डर"
 
+#: ConfigDialog.qml:51
+msgid "Ok"
+msgstr ""
+
 #: EditorView.qml:34
 msgid "Subject:"
 msgstr "विषय:"
@@ -1240,6 +1244,21 @@ msgstr ""
 #: EditorView.qml:131
 msgid "Identity:"
 msgstr ""
+
+#: HeaderView.qml:140
+msgctxt "This text is only visible if messages > 1"
+msgid "%2 messages, %1 unread"
+msgid_plural "%2 messages, %1 unread"
+msgstr[0] ""
+msgstr[1] ""
+
+#: HeaderView.qml:142
+#, fuzzy
+#| msgid "Forward"
+msgid "One message"
+msgid_plural "%1 messages"
+msgstr[0] "आगाँक तरफ"
+msgstr[1] "आगाँक तरफ"
 
 #: KMailActions.qml:36
 msgid "Home"
@@ -1421,21 +1440,6 @@ msgstr "मेटाबू"
 msgid "Actions"
 msgstr "क्रियासभ"
 
-#: HeaderView.qml:140
-msgctxt "This text is only visible if messages > 1"
-msgid "%2 messages, %1 unread"
-msgid_plural "%2 messages, %1 unread"
-msgstr[0] ""
-msgstr[1] ""
-
-#: HeaderView.qml:142
-#, fuzzy
-#| msgid "Forward"
-msgid "One message"
-msgid_plural "%1 messages"
-msgstr[0] "आगाँक तरफ"
-msgstr[1] "आगाँक तरफ"
-
 #: kmail-mobile.qml:184
 msgid "from 1 account"
 msgid_plural "from %1 accounts"
@@ -1486,10 +1490,6 @@ msgid "One message found"
 msgid_plural "%1 messages found"
 msgstr[0] "आगाँक तरफ"
 msgstr[1] "आगाँक तरफ"
-
-#: ConfigDialog.qml:51
-msgid "Ok"
-msgstr ""
 
 #, fuzzy
 #~| msgid "Forward"
