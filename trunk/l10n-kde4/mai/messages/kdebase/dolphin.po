@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-27 03:47+0200\n"
+"POT-Creation-Date: 2011-04-30 03:45+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -817,6 +817,17 @@ msgctxt "@title:group General settings"
 msgid "General"
 msgstr "सामान्य"
 
+#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
+msgctxt "@info:status"
+msgid "Unknown size"
+msgstr "अज्ञात आकार"
+
+#: statusbar/statusbarspaceinfo.cpp:104
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 मुक्त"
+
 #: statusbar/dolphinstatusbar.cpp:294
 #, fuzzy
 #| msgctxt "@title:window"
@@ -844,17 +855,6 @@ msgstr "टूलटिप देखाबू"
 msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "सूचना"
-
-#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
-msgctxt "@info:status"
-msgid "Unknown size"
-msgstr "अज्ञात आकार"
-
-#: statusbar/statusbarspaceinfo.cpp:104
-#, kde-format
-msgctxt "@info:status Free disk space"
-msgid "%1 free"
-msgstr "%1 मुक्त"
 
 #: views/dolphinremoteencoding.cpp:53
 msgid "Select Remote Charset"
