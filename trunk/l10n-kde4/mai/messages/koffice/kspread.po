@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-04 04:13+0200\n"
+"POT-Creation-Date: 2011-05-07 04:14+0200\n"
 "PO-Revision-Date: 2009-04-22 00:19+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2782,49 +2782,49 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ChartDatabaseSelector)
+#. i18n: file: chart/KCChartDatabaseSelector.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, KCChartDatabaseSelector)
 #: rc.cpp:5
 msgid "Database Selector"
 msgstr ""
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:22
+#. i18n: file: chart/KCChartDatabaseSelector.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, m_areaBox)
 #: rc.cpp:8
 msgid "Data Area"
 msgstr ""
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:28
+#. i18n: file: chart/KCChartDatabaseSelector.ui:28
 #. i18n: ectx: property (text), widget (QLabel, m_areaLabel)
 #: rc.cpp:11
 msgid "Area:"
 msgstr "क्षेत्र:"
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:41
+#. i18n: file: chart/KCChartDatabaseSelector.ui:41
 #. i18n: ectx: property (text), widget (QCheckBox, m_firstRowAsLabel)
 #: rc.cpp:14
 msgid "First row as label"
 msgstr ""
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:48
+#. i18n: file: chart/KCChartDatabaseSelector.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, m_firstColumnAsLabel)
 #: rc.cpp:17
 msgid "First column as label"
 msgstr ""
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:58
+#. i18n: file: chart/KCChartDatabaseSelector.ui:58
 #. i18n: ectx: property (title), widget (QGroupBox, m_formatBox)
 #: rc.cpp:20
 msgid "Data Format"
 msgstr ""
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:64
+#. i18n: file: chart/KCChartDatabaseSelector.ui:64
 #. i18n: ectx: property (text), widget (QRadioButton, m_dataInRows)
 #: rc.cpp:23
 msgid "Data sets in rows"
 msgstr ""
 
-#. i18n: file: chart/ChartDatabaseSelector.ui:71
+#. i18n: file: chart/KCChartDatabaseSelector.ui:71
 #. i18n: ectx: property (text), widget (QRadioButton, m_dataInColumns)
 #: rc.cpp:26
 msgid "Data sets in columns"
@@ -3360,7 +3360,8 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
 #. i18n: file: kcells.rc:102
 #. i18n: ectx: Menu (MergeCellMenu)
-#: rc.cpp:249 rc.cpp:773 commands/MergeCommand.cpp:132 ui/CellToolBase.cpp:439
+#: rc.cpp:249 rc.cpp:773 commands/KCMergeCommand.cpp:132
+#: ui/CellToolBase.cpp:439
 msgid "Merge Cells"
 msgstr "कोष्ठसभकेँ मिलाबू"
 
@@ -4422,7 +4423,7 @@ msgstr "खाली"
 
 #. i18n: file: kcells.rc:41
 #. i18n: ectx: Menu (Delete)
-#: rc.cpp:755 commands/DeleteCommand.cpp:35 part/KCView.cpp:500
+#: rc.cpp:755 commands/KCDeleteCommand.cpp:35 part/KCView.cpp:500
 msgid "Delete"
 msgstr "मेटाबू"
 
@@ -5137,7 +5138,7 @@ msgid "ARABIC(\"XCIX\") returns 99"
 msgstr ""
 
 #. i18n: file: functions/database.xml:5
-#: xml_doc.cpp:218 chart/ChartDatabaseSelectorFactory.cpp:36
+#: xml_doc.cpp:218 chart/KCChartDatabaseSelectorFactory.cpp:36
 #: dialogs/DatabaseDialog.cpp:137 ui/CellToolBase.cpp:678
 msgid "Database"
 msgstr "डाटाबेस"
@@ -15446,225 +15447,6 @@ msgstr ""
 msgid "PI() equals 3.141592654..."
 msgstr ""
 
-#: commands/AbstractRegionCommand.cpp:134
-msgid ""
-"Processing is not possible, because some cells are locked as elements of a "
-"matrix."
-msgstr ""
-
-#: commands/AbstractRegionCommand.cpp:147
-msgid "Processing is not possible, because some cells are protected."
-msgstr ""
-
-#: commands/ApplyFilterCommand.cpp:36
-msgid "Apply Filter"
-msgstr "फिल्टर लागू करू"
-
-#: commands/AutoFillCommand.cpp:119 dialogs/ListDialog.cpp:143
-#: dialogs/SortDialog.cpp:369
-msgid "January"
-msgstr "जनवरी"
-
-#: commands/AutoFillCommand.cpp:120 dialogs/ListDialog.cpp:144
-#: dialogs/SortDialog.cpp:369
-msgid "February"
-msgstr "फरवरी"
-
-#: commands/AutoFillCommand.cpp:121 dialogs/ListDialog.cpp:145
-#: dialogs/SortDialog.cpp:369
-msgid "March"
-msgstr "मार्च"
-
-#: commands/AutoFillCommand.cpp:122 dialogs/ListDialog.cpp:146
-#: dialogs/SortDialog.cpp:370
-msgid "April"
-msgstr "अप्रैल"
-
-#: commands/AutoFillCommand.cpp:123 dialogs/ListDialog.cpp:147
-#: dialogs/ListDialog.cpp:163 dialogs/SortDialog.cpp:370
-msgid "May"
-msgstr "मई"
-
-#: commands/AutoFillCommand.cpp:124 dialogs/ListDialog.cpp:148
-#: dialogs/SortDialog.cpp:370
-msgid "June"
-msgstr "जून"
-
-#: commands/AutoFillCommand.cpp:125 dialogs/ListDialog.cpp:149
-#: dialogs/SortDialog.cpp:371
-msgid "July"
-msgstr "जुलाई"
-
-#: commands/AutoFillCommand.cpp:126 dialogs/ListDialog.cpp:150
-#: dialogs/SortDialog.cpp:371
-msgid "August"
-msgstr "अगस्त"
-
-#: commands/AutoFillCommand.cpp:127 dialogs/ListDialog.cpp:151
-#: dialogs/SortDialog.cpp:371
-msgid "September"
-msgstr "सितम्बर"
-
-#: commands/AutoFillCommand.cpp:128 dialogs/ListDialog.cpp:152
-#: dialogs/SortDialog.cpp:372
-msgid "October"
-msgstr "अक्टूबर"
-
-#: commands/AutoFillCommand.cpp:129 dialogs/ListDialog.cpp:153
-#: dialogs/SortDialog.cpp:372
-msgid "November"
-msgstr "नवम्बर"
-
-#: commands/AutoFillCommand.cpp:130 dialogs/ListDialog.cpp:154
-#: dialogs/SortDialog.cpp:373
-msgid "December"
-msgstr "दिसम्बर"
-
-#: commands/AutoFillCommand.cpp:135 dialogs/ListDialog.cpp:159
-msgid "Jan"
-msgstr "जनवरी"
-
-#: commands/AutoFillCommand.cpp:136 dialogs/ListDialog.cpp:160
-msgid "Feb"
-msgstr "फरवरी"
-
-#: commands/AutoFillCommand.cpp:137 dialogs/ListDialog.cpp:161
-msgid "Mar"
-msgstr "मार्च"
-
-#: commands/AutoFillCommand.cpp:138 dialogs/ListDialog.cpp:162
-msgid "Apr"
-msgstr "अप्रैल"
-
-#: commands/AutoFillCommand.cpp:139
-msgctxt "May short"
-msgid "May"
-msgstr "मई"
-
-#: commands/AutoFillCommand.cpp:140 dialogs/ListDialog.cpp:164
-msgid "Jun"
-msgstr "जून"
-
-#: commands/AutoFillCommand.cpp:141 dialogs/ListDialog.cpp:165
-msgid "Jul"
-msgstr "जुलाइ"
-
-#: commands/AutoFillCommand.cpp:142 dialogs/ListDialog.cpp:166
-msgid "Aug"
-msgstr "अगस्त"
-
-#: commands/AutoFillCommand.cpp:143 dialogs/ListDialog.cpp:167
-msgid "Sep"
-msgstr "सितंबर"
-
-#: commands/AutoFillCommand.cpp:144 dialogs/ListDialog.cpp:168
-msgid "Oct"
-msgstr "अक्टूबर"
-
-#: commands/AutoFillCommand.cpp:145 dialogs/ListDialog.cpp:169
-msgid "Nov"
-msgstr "नबंबर"
-
-#: commands/AutoFillCommand.cpp:146 dialogs/ListDialog.cpp:170
-msgid "Dec"
-msgstr "दिसंबर"
-
-#: commands/AutoFillCommand.cpp:151 dialogs/ListDialog.cpp:173
-#: dialogs/SortDialog.cpp:375
-msgid "Monday"
-msgstr "सोमवार"
-
-#: commands/AutoFillCommand.cpp:152 dialogs/ListDialog.cpp:174
-#: dialogs/SortDialog.cpp:375
-msgid "Tuesday"
-msgstr "मंगलवार"
-
-#: commands/AutoFillCommand.cpp:153 dialogs/ListDialog.cpp:175
-#: dialogs/SortDialog.cpp:375
-msgid "Wednesday"
-msgstr "बुधवार"
-
-#: commands/AutoFillCommand.cpp:154 dialogs/ListDialog.cpp:176
-#: dialogs/SortDialog.cpp:376
-msgid "Thursday"
-msgstr "वृहस्पतिवार"
-
-#: commands/AutoFillCommand.cpp:155 dialogs/ListDialog.cpp:177
-#: dialogs/SortDialog.cpp:376
-msgid "Friday"
-msgstr "शुक्रवार"
-
-#: commands/AutoFillCommand.cpp:156 dialogs/ListDialog.cpp:178
-#: dialogs/SortDialog.cpp:376
-msgid "Saturday"
-msgstr "शनिवार"
-
-#: commands/AutoFillCommand.cpp:157 dialogs/ListDialog.cpp:179
-#: dialogs/SortDialog.cpp:377
-msgid "Sunday"
-msgstr "रविवार"
-
-#: commands/AutoFillCommand.cpp:162 dialogs/ListDialog.cpp:182
-msgid "Mon"
-msgstr "सोम"
-
-#: commands/AutoFillCommand.cpp:163 dialogs/ListDialog.cpp:183
-msgid "Tue"
-msgstr "मंगल"
-
-#: commands/AutoFillCommand.cpp:164 dialogs/ListDialog.cpp:184
-msgid "Wed"
-msgstr "बुध"
-
-#: commands/AutoFillCommand.cpp:165 dialogs/ListDialog.cpp:185
-msgid "Thu"
-msgstr "गुरू"
-
-#: commands/AutoFillCommand.cpp:166 dialogs/ListDialog.cpp:186
-msgid "Fri"
-msgstr "शुक्र"
-
-#: commands/AutoFillCommand.cpp:167 dialogs/ListDialog.cpp:187
-msgid "Sat"
-msgstr "शनि"
-
-#: commands/AutoFillCommand.cpp:168 dialogs/ListDialog.cpp:188
-msgid "Sun"
-msgstr "रवि"
-
-#: commands/AutoFillCommand.cpp:684
-msgid "Autofill"
-msgstr ""
-
-#: commands/AutoFilterCommand.cpp:35
-msgid "Auto-Filter"
-msgstr ""
-
-#: commands/AutoFormatCommand.cpp:33
-msgid "Auto-Format"
-msgstr ""
-
-#: commands/BorderColorCommand.cpp:37
-msgid "Change Border Color"
-msgstr ""
-
-#: commands/CommentCommand.cpp:60 ui/CellToolBase.cpp:576
-#: ui/CellToolBase.cpp:2395
-msgid "Remove Comment"
-msgstr ""
-
-#: commands/CommentCommand.cpp:62 dialogs/CommentDialog.cpp:80
-msgid "Add Comment"
-msgstr "टिपप्णी जोड़ू"
-
-#: commands/ConditionCommand.cpp:59
-msgid "Remove Conditional Formatting"
-msgstr ""
-
-#: commands/ConditionCommand.cpp:61
-msgid "Add Conditional Formatting"
-msgstr ""
-
 #: commands/DataManipulators.cpp:159
 msgid "Change Value"
 msgstr ""
@@ -15690,54 +15472,301 @@ msgstr "कोष्ठ जोडू"
 msgid "Remove Cells"
 msgstr ""
 
-#: commands/IndentationCommand.cpp:36 commands/IndentationCommand.cpp:62
+#: commands/KCAbstractRegionCommand.cpp:134
+msgid ""
+"Processing is not possible, because some cells are locked as elements of a "
+"matrix."
+msgstr ""
+
+#: commands/KCAbstractRegionCommand.cpp:147
+msgid "Processing is not possible, because some cells are protected."
+msgstr ""
+
+#: commands/KCApplyFilterCommand.cpp:36
+msgid "Apply Filter"
+msgstr "फिल्टर लागू करू"
+
+#: commands/KCAutoFillCommand.cpp:119 dialogs/ListDialog.cpp:143
+#: dialogs/SortDialog.cpp:369
+msgid "January"
+msgstr "जनवरी"
+
+#: commands/KCAutoFillCommand.cpp:120 dialogs/ListDialog.cpp:144
+#: dialogs/SortDialog.cpp:369
+msgid "February"
+msgstr "फरवरी"
+
+#: commands/KCAutoFillCommand.cpp:121 dialogs/ListDialog.cpp:145
+#: dialogs/SortDialog.cpp:369
+msgid "March"
+msgstr "मार्च"
+
+#: commands/KCAutoFillCommand.cpp:122 dialogs/ListDialog.cpp:146
+#: dialogs/SortDialog.cpp:370
+msgid "April"
+msgstr "अप्रैल"
+
+#: commands/KCAutoFillCommand.cpp:123 dialogs/ListDialog.cpp:147
+#: dialogs/ListDialog.cpp:163 dialogs/SortDialog.cpp:370
+msgid "May"
+msgstr "मई"
+
+#: commands/KCAutoFillCommand.cpp:124 dialogs/ListDialog.cpp:148
+#: dialogs/SortDialog.cpp:370
+msgid "June"
+msgstr "जून"
+
+#: commands/KCAutoFillCommand.cpp:125 dialogs/ListDialog.cpp:149
+#: dialogs/SortDialog.cpp:371
+msgid "July"
+msgstr "जुलाई"
+
+#: commands/KCAutoFillCommand.cpp:126 dialogs/ListDialog.cpp:150
+#: dialogs/SortDialog.cpp:371
+msgid "August"
+msgstr "अगस्त"
+
+#: commands/KCAutoFillCommand.cpp:127 dialogs/ListDialog.cpp:151
+#: dialogs/SortDialog.cpp:371
+msgid "September"
+msgstr "सितम्बर"
+
+#: commands/KCAutoFillCommand.cpp:128 dialogs/ListDialog.cpp:152
+#: dialogs/SortDialog.cpp:372
+msgid "October"
+msgstr "अक्टूबर"
+
+#: commands/KCAutoFillCommand.cpp:129 dialogs/ListDialog.cpp:153
+#: dialogs/SortDialog.cpp:372
+msgid "November"
+msgstr "नवम्बर"
+
+#: commands/KCAutoFillCommand.cpp:130 dialogs/ListDialog.cpp:154
+#: dialogs/SortDialog.cpp:373
+msgid "December"
+msgstr "दिसम्बर"
+
+#: commands/KCAutoFillCommand.cpp:135 dialogs/ListDialog.cpp:159
+msgid "Jan"
+msgstr "जनवरी"
+
+#: commands/KCAutoFillCommand.cpp:136 dialogs/ListDialog.cpp:160
+msgid "Feb"
+msgstr "फरवरी"
+
+#: commands/KCAutoFillCommand.cpp:137 dialogs/ListDialog.cpp:161
+msgid "Mar"
+msgstr "मार्च"
+
+#: commands/KCAutoFillCommand.cpp:138 dialogs/ListDialog.cpp:162
+msgid "Apr"
+msgstr "अप्रैल"
+
+#: commands/KCAutoFillCommand.cpp:139
+msgctxt "May short"
+msgid "May"
+msgstr "मई"
+
+#: commands/KCAutoFillCommand.cpp:140 dialogs/ListDialog.cpp:164
+msgid "Jun"
+msgstr "जून"
+
+#: commands/KCAutoFillCommand.cpp:141 dialogs/ListDialog.cpp:165
+msgid "Jul"
+msgstr "जुलाइ"
+
+#: commands/KCAutoFillCommand.cpp:142 dialogs/ListDialog.cpp:166
+msgid "Aug"
+msgstr "अगस्त"
+
+#: commands/KCAutoFillCommand.cpp:143 dialogs/ListDialog.cpp:167
+msgid "Sep"
+msgstr "सितंबर"
+
+#: commands/KCAutoFillCommand.cpp:144 dialogs/ListDialog.cpp:168
+msgid "Oct"
+msgstr "अक्टूबर"
+
+#: commands/KCAutoFillCommand.cpp:145 dialogs/ListDialog.cpp:169
+msgid "Nov"
+msgstr "नबंबर"
+
+#: commands/KCAutoFillCommand.cpp:146 dialogs/ListDialog.cpp:170
+msgid "Dec"
+msgstr "दिसंबर"
+
+#: commands/KCAutoFillCommand.cpp:151 dialogs/ListDialog.cpp:173
+#: dialogs/SortDialog.cpp:375
+msgid "Monday"
+msgstr "सोमवार"
+
+#: commands/KCAutoFillCommand.cpp:152 dialogs/ListDialog.cpp:174
+#: dialogs/SortDialog.cpp:375
+msgid "Tuesday"
+msgstr "मंगलवार"
+
+#: commands/KCAutoFillCommand.cpp:153 dialogs/ListDialog.cpp:175
+#: dialogs/SortDialog.cpp:375
+msgid "Wednesday"
+msgstr "बुधवार"
+
+#: commands/KCAutoFillCommand.cpp:154 dialogs/ListDialog.cpp:176
+#: dialogs/SortDialog.cpp:376
+msgid "Thursday"
+msgstr "वृहस्पतिवार"
+
+#: commands/KCAutoFillCommand.cpp:155 dialogs/ListDialog.cpp:177
+#: dialogs/SortDialog.cpp:376
+msgid "Friday"
+msgstr "शुक्रवार"
+
+#: commands/KCAutoFillCommand.cpp:156 dialogs/ListDialog.cpp:178
+#: dialogs/SortDialog.cpp:376
+msgid "Saturday"
+msgstr "शनिवार"
+
+#: commands/KCAutoFillCommand.cpp:157 dialogs/ListDialog.cpp:179
+#: dialogs/SortDialog.cpp:377
+msgid "Sunday"
+msgstr "रविवार"
+
+#: commands/KCAutoFillCommand.cpp:162 dialogs/ListDialog.cpp:182
+msgid "Mon"
+msgstr "सोम"
+
+#: commands/KCAutoFillCommand.cpp:163 dialogs/ListDialog.cpp:183
+msgid "Tue"
+msgstr "मंगल"
+
+#: commands/KCAutoFillCommand.cpp:164 dialogs/ListDialog.cpp:184
+msgid "Wed"
+msgstr "बुध"
+
+#: commands/KCAutoFillCommand.cpp:165 dialogs/ListDialog.cpp:185
+msgid "Thu"
+msgstr "गुरू"
+
+#: commands/KCAutoFillCommand.cpp:166 dialogs/ListDialog.cpp:186
+msgid "Fri"
+msgstr "शुक्र"
+
+#: commands/KCAutoFillCommand.cpp:167 dialogs/ListDialog.cpp:187
+msgid "Sat"
+msgstr "शनि"
+
+#: commands/KCAutoFillCommand.cpp:168 dialogs/ListDialog.cpp:188
+msgid "Sun"
+msgstr "रवि"
+
+#: commands/KCAutoFillCommand.cpp:684
+msgid "Autofill"
+msgstr ""
+
+#: commands/KCAutoFilterCommand.cpp:35
+msgid "Auto-Filter"
+msgstr ""
+
+#: commands/KCAutoFormatCommand.cpp:33
+msgid "Auto-Format"
+msgstr ""
+
+#: commands/KCBorderColorCommand.cpp:37
+msgid "Change Border Color"
+msgstr ""
+
+#: commands/KCCommentCommand.cpp:60 ui/CellToolBase.cpp:576
+#: ui/CellToolBase.cpp:2395
+msgid "Remove Comment"
+msgstr ""
+
+#: commands/KCCommentCommand.cpp:62 dialogs/CommentDialog.cpp:80
+msgid "Add Comment"
+msgstr "टिपप्णी जोड़ू"
+
+#: commands/KCConditionCommand.cpp:59
+msgid "Remove Conditional Formatting"
+msgstr ""
+
+#: commands/KCConditionCommand.cpp:61
+msgid "Add Conditional Formatting"
+msgstr ""
+
+#: commands/KCIndentationCommand.cpp:36 commands/KCIndentationCommand.cpp:62
 msgid "Increase Indentation"
 msgstr ""
 
-#: commands/IndentationCommand.cpp:64
+#: commands/KCIndentationCommand.cpp:64
 msgid "Decrease Indentation"
 msgstr ""
 
-#: commands/LinkCommand.cpp:37 ui/CellToolBase.cpp:598
+#: commands/KCLinkCommand.cpp:37 ui/CellToolBase.cpp:598
 msgid "Remove Link"
 msgstr "लिंक मेटाबू"
 
-#: commands/LinkCommand.cpp:37
+#: commands/KCLinkCommand.cpp:37
 msgid "Set Link"
 msgstr ""
 
-#: commands/MergeCommand.cpp:128 ui/CellToolBase.cpp:444
+#: commands/KCMergeCommand.cpp:128 ui/CellToolBase.cpp:444
 msgid "Merge Cells Horizontally"
 msgstr ""
 
-#: commands/MergeCommand.cpp:130 ui/CellToolBase.cpp:449
+#: commands/KCMergeCommand.cpp:130 ui/CellToolBase.cpp:449
 msgid "Merge Cells Vertically"
 msgstr ""
 
-#: commands/MergeCommand.cpp:135 ui/CellToolBase.cpp:454
+#: commands/KCMergeCommand.cpp:135 ui/CellToolBase.cpp:454
 msgid "Dissociate Cells"
 msgstr ""
 
-#: commands/MergeCommand.cpp:141
+#: commands/KCMergeCommand.cpp:141
 msgid "Merging of columns or rows is not supported."
 msgstr ""
 
-#: commands/NamedAreaCommand.cpp:34 commands/NamedAreaCommand.cpp:50
+#: commands/KCNamedAreaCommand.cpp:34 commands/KCNamedAreaCommand.cpp:50
 #: dialogs/AddNamedAreaDialog.cpp:46
 msgid "Add Named Area"
 msgstr ""
 
-#: commands/NamedAreaCommand.cpp:52 dialogs/NamedAreaDialog.cpp:186
+#: commands/KCNamedAreaCommand.cpp:52 dialogs/NamedAreaDialog.cpp:186
 msgid "Remove Named Area"
 msgstr ""
 
-#: commands/PrecisionCommand.cpp:34 commands/PrecisionCommand.cpp:60
+#: commands/KCPrecisionCommand.cpp:34 commands/KCPrecisionCommand.cpp:60
 #: ui/CellToolBase.cpp:400
 msgid "Increase Precision"
 msgstr ""
 
-#: commands/PrecisionCommand.cpp:62 ui/CellToolBase.cpp:405
+#: commands/KCPrecisionCommand.cpp:62 ui/CellToolBase.cpp:405
 msgid "Decrease Precision"
+msgstr ""
+
+#: commands/KCSortManipulator.cpp:39
+msgid "Sort Data"
+msgstr ""
+
+#: commands/KCSpellCheckCommand.cpp:100
+msgid "Do you want to check the spelling in the next sheet?"
+msgstr ""
+
+#: commands/KCSpellCheckCommand.cpp:129
+msgid "Correct Misspelled Words"
+msgstr ""
+
+#: commands/KCStyleCommand.cpp:183
+msgid "Reset Style"
+msgstr ""
+
+#: commands/KCStyleCommand.cpp:185
+msgid "Change Style"
+msgstr ""
+
+#: commands/KCValidityCommand.cpp:60
+msgid "Remove Validity Check"
+msgstr ""
+
+#: commands/KCValidityCommand.cpp:62
+msgid "Add Validity Check"
 msgstr ""
 
 #: commands/RowColumnManipulators.cpp:45 dialogs/Resize2Dialog.cpp:115
@@ -15818,34 +15847,6 @@ msgstr ""
 
 #: commands/SheetCommands.cpp:205
 msgid "Change Sheet Properties"
-msgstr ""
-
-#: commands/SortManipulator.cpp:39
-msgid "Sort Data"
-msgstr ""
-
-#: commands/SpellCheckCommand.cpp:100
-msgid "Do you want to check the spelling in the next sheet?"
-msgstr ""
-
-#: commands/SpellCheckCommand.cpp:129
-msgid "Correct Misspelled Words"
-msgstr ""
-
-#: commands/StyleCommand.cpp:183
-msgid "Reset Style"
-msgstr ""
-
-#: commands/StyleCommand.cpp:185
-msgid "Change Style"
-msgstr ""
-
-#: commands/ValidityCommand.cpp:60
-msgid "Remove Validity Check"
-msgstr ""
-
-#: commands/ValidityCommand.cpp:62
-msgid "Add Validity Check"
 msgstr ""
 
 #: database/FilterPopup.cpp:67 dialogs/FormulaDialog.cpp:100
