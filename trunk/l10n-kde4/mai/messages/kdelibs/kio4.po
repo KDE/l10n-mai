@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-06 04:06+0200\n"
+"POT-Creation-Date: 2011-05-08 04:16+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1598,7 +1598,7 @@ msgid "Folder Already Exists"
 msgstr "फोल्डर पहिने सँ अस्तित्व मे अछि"
 
 #: kio/copyjob.cpp:1349 kio/copyjob.cpp:1920 kio/global.cpp:669
-#: kio/job.cpp:2207 kio/paste.cpp:116
+#: kio/job.cpp:2208 kio/paste.cpp:116
 msgid "File Already Exists"
 msgstr "फाइल पहिने सँ अस्तित्व मे अछि. "
 
@@ -3248,7 +3248,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "आन निवेदनकेँ उत्तर देबामे सर्वर बेसी व्यस्त अछि."
 
-#: kio/global.cpp:1094 kio/slavebase.cpp:1302
+#: kio/global.cpp:1094 kio/slavebase.cpp:1326
 msgid "Unknown Error"
 msgstr "अनजान त्रुटि"
 
@@ -5473,11 +5473,11 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:524 ../kioslave/http/http.cpp:3325
+#: ../kioslave/ftp/ftp.cpp:524 ../kioslave/http/http.cpp:3327
 msgid "You need to supply a username and a password to access this site."
 msgstr "ई साइट पर पहुँचबा क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द दिअ' पड़त."
 
-#: ../kioslave/ftp/ftp.cpp:526 ../kioslave/http/http.cpp:3327
+#: ../kioslave/ftp/ftp.cpp:526 ../kioslave/http/http.cpp:3329
 msgid "Site:"
 msgstr "साइट:"
 
@@ -5486,11 +5486,11 @@ msgstr "साइट:"
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:625
+#: ../kioslave/ftp/ftp.cpp:629
 msgid "Login OK"
 msgstr "लागइन बेस"
 
-#: ../kioslave/ftp/ftp.cpp:654
+#: ../kioslave/ftp/ftp.cpp:658
 #, kde-format
 msgid "Could not login to %1."
 msgstr " %1 पर लागइन नहि भए सकल."
@@ -5861,7 +5861,7 @@ msgstr "%1 सम्पर्क मे. जवाबक प्रतीक्�
 msgid "Server processing request, please wait..."
 msgstr "सर्वर प्रक्रिया क' लेल निवेदन, कृप्या इंतजार करू..."
 
-#: ../kioslave/http/http.cpp:3337 ../kioslave/http/http.cpp:5240
+#: ../kioslave/http/http.cpp:3339 ../kioslave/http/http.cpp:5242
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5869,46 +5869,46 @@ msgstr ""
 "एकरासँ पहिने जे अहाँक केओ साइट पर पहुँचक अनुमति देल जाए, नीच्चाँ सूची-बद्ध कएल प्राक्सी "
 "सर्वर क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द देनाइ हाएत."
 
-#: ../kioslave/http/http.cpp:3340 ../kioslave/http/http.cpp:5244
+#: ../kioslave/http/http.cpp:3342 ../kioslave/http/http.cpp:5246
 msgid "Proxy:"
 msgstr "प्राक्सीः"
 
-#: ../kioslave/http/http.cpp:3401
+#: ../kioslave/http/http.cpp:3403
 msgid "Authentication Failed."
 msgstr "प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:3404 ../kioslave/http/http.cpp:5246
+#: ../kioslave/http/http.cpp:3406 ../kioslave/http/http.cpp:5248
 msgid "Proxy Authentication Failed."
 msgstr "प्राक्सी प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:3414 ../kioslave/http/http.cpp:5245
+#: ../kioslave/http/http.cpp:3416 ../kioslave/http/http.cpp:5247
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> पर <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:3446
+#: ../kioslave/http/http.cpp:3448
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "अनुमोदन समाद "
 
-#: ../kioslave/http/http.cpp:3463
+#: ../kioslave/http/http.cpp:3465
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "अनुमोदन समाद "
 
-#: ../kioslave/http/http.cpp:3852 ../kioslave/http/http.cpp:3906
+#: ../kioslave/http/http.cpp:3854 ../kioslave/http/http.cpp:3908
 #, kde-format
 msgid "Sending data to %1"
 msgstr " %1 केँ डाटा भेज रहल अछि"
 
-#: ../kioslave/http/http.cpp:4368
+#: ../kioslave/http/http.cpp:4370
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
 
-#: ../kioslave/http/http.cpp:4374
+#: ../kioslave/http/http.cpp:4376
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr " %1 सँ फिनु सँ प्राप्ति मे..."
