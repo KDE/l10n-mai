@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kraft\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-09 04:44+0200\n"
+"POT-Creation-Date: 2011-05-10 04:56+0200\n"
 "PO-Revision-Date: 2010-09-24 12:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -186,7 +186,7 @@ msgstr ""
 msgid "Document Positions"
 msgstr ""
 
-#: portal.cpp:122 docdigestview.cpp:60
+#: portal.cpp:122
 msgid "Create Document"
 msgstr "दस्तावेज बनाउ"
 
@@ -291,8 +291,8 @@ msgstr ""
 
 #. i18n: file: kraftui.rc:20
 #. i18n: ectx: ToolBar (documentToolBar)
-#: portal.cpp:225 docdigestview.cpp:127 docdigestview.cpp:129
-#: docdigestview.cpp:131 rc.cpp:658
+#: portal.cpp:225 docdigestview.cpp:110 docdigestview.cpp:112
+#: docdigestview.cpp:114 rc.cpp:658
 msgid "Document Actions"
 msgstr ""
 
@@ -466,27 +466,27 @@ msgstr "रंग"
 msgid "Description"
 msgstr "विवरण"
 
-#: docdigestview.cpp:148
+#: docdigestview.cpp:131
 msgid "Latest Documents"
 msgstr ""
 
-#: docdigestview.cpp:150
+#: docdigestview.cpp:133
 msgid "Shows the latest ten documents"
 msgstr ""
 
-#: docdigestview.cpp:168
+#: docdigestview.cpp:151
 msgid "All Documents"
 msgstr "सबहि दस्ताबेज"
 
-#: docdigestview.cpp:170
+#: docdigestview.cpp:153
 msgid "Shows a complete list of all documents"
 msgstr ""
 
-#: docdigestview.cpp:188
+#: docdigestview.cpp:171
 msgid "Timelined Documents"
 msgstr ""
 
-#: docdigestview.cpp:190
+#: docdigestview.cpp:173
 msgid "Shows all documents along a timeline"
 msgstr ""
 
@@ -548,7 +548,7 @@ msgstr "क्लाइंट नाम"
 msgid "not found"
 msgstr ""
 
-#: models/documentmodel.cpp:142
+#: models/documentmodel.cpp:145
 #, fuzzy
 #| msgid "Printing..."
 msgid "retrieving..."
@@ -1567,6 +1567,16 @@ msgstr ""
 #: materialselectdialog.cpp:38 materialselectdialog.cpp:43
 msgid "Select Material for Calculation"
 msgstr ""
+
+#: catalogselection.cpp:56
+msgid "Selected &Catalog: "
+msgstr ""
+
+#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
+#, fuzzy
+#| msgid "Edit Document"
+msgid "Append to Document"
+msgstr "दस्तावेज संपादन करू"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2992,16 +3002,6 @@ msgstr ""
 msgid "Insert all Items &after"
 msgstr ""
 
-#: catalogselection.cpp:56
-msgid "Selected &Catalog: "
-msgstr ""
-
-#: catalogselection.cpp:149 catalogselection.cpp:164 catalogselection.cpp:173
-#, fuzzy
-#| msgid "Edit Document"
-msgid "Append to Document"
-msgstr "दस्तावेज संपादन करू"
-
 #: insertplantdialog.cpp:58
 msgid "Growth"
 msgstr ""
@@ -3119,29 +3119,29 @@ msgstr "दस्तावेज"
 msgid "Export XML Katalog"
 msgstr ""
 
-#: external/ktreeviewsearchline.cpp:461
+#: external/ktreeviewsearchline.cpp:466
 msgid "Search Options"
 msgstr ""
 
-#: external/ktreeviewsearchline.cpp:462
+#: external/ktreeviewsearchline.cpp:467
 msgctxt "Enable case sensitive search in the side navigation panels"
 msgid "Case Sensitive"
 msgstr ""
 
-#: external/ktreeviewsearchline.cpp:465
+#: external/ktreeviewsearchline.cpp:470
 msgctxt "Enable regular expression search in the side navigation panels"
 msgid "Regular Expression"
 msgstr ""
 
-#: external/ktreeviewsearchline.cpp:471
+#: external/ktreeviewsearchline.cpp:476
 msgid "Search Columns"
 msgstr ""
 
-#: external/ktreeviewsearchline.cpp:473
+#: external/ktreeviewsearchline.cpp:478
 msgid "All Visible Columns"
 msgstr ""
 
-#: external/ktreeviewsearchline.cpp:630
+#: external/ktreeviewsearchline.cpp:635
 #, fuzzy
 #| msgid "Search:"
 msgid "S&earch:"

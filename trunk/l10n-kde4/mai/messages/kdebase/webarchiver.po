@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: webarchiver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:50+0200\n"
+"POT-Creation-Date: 2011-05-10 04:06+0200\n"
 "PO-Revision-Date: 2009-04-21 23:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19,9 +19,8 @@ msgstr ""
 "\n"
 "\n"
 
-#. i18n: file: archiveviewbase.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, ArchiveViewBase)
-#: archivedialog.cpp:161 rc.cpp:9
+#: archivedialog.cpp:161
+msgctxt "@title:window"
 msgid "Web Archiver"
 msgstr ""
 
@@ -34,6 +33,7 @@ msgid "Url"
 msgstr ""
 
 #: archivedialog.cpp:240
+msgctxt "@title:window"
 msgid "Unable to Open Web-Archive"
 msgstr ""
 
@@ -79,6 +79,9 @@ msgid "Save Page as Web-Archive"
 msgstr ""
 
 #: plugin_webarchiver.cpp:100
+#, fuzzy
+#| msgid "Invalid URL"
+msgctxt "@title:window"
 msgid "Invalid URL"
 msgstr "अवैध URL"
 
@@ -91,6 +94,7 @@ msgid ""
 msgstr ""
 
 #: plugin_webarchiver.cpp:115
+msgctxt "@title:window"
 msgid "File Exists"
 msgstr ""
 
@@ -116,6 +120,12 @@ msgstr "अओजार (&T)"
 #: rc.cpp:6
 msgid "Extra Toolbar"
 msgstr "बाइली अओजार पट्टी"
+
+#. i18n: file: archiveviewbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ArchiveViewBase)
+#: rc.cpp:9
+msgid "Web Archiver"
+msgstr ""
 
 #. i18n: file: archiveviewbase.ui:39
 #. i18n: ectx: property (text), widget (QLabel, targetLabel)
