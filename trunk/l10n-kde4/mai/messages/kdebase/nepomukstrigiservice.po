@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-04 03:49+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -22,34 +22,6 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: strigiservice.cpp:160
-msgctxt "@info:status"
-msgid "File indexer is suspended"
-msgstr "फाइल सूचीकरण करैबला स्थगित अछि"
-
-#: strigiservice.cpp:166
-#, fuzzy
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files"
-msgstr "अछि in फोल्डर 1"
-
-#: strigiservice.cpp:170
-#, fuzzy, kde-format
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1"
-msgstr "अछि in फोल्डर 1"
-
-#: strigiservice.cpp:172
-#, fuzzy, kde-format
-msgctxt "@info:status"
-msgid "Strigi is currently indexing files in folder %1 (%2)"
-msgstr "अछि in फोल्डर 1"
-
-#: strigiservice.cpp:176
-msgctxt "@info:status"
-msgid "File indexer is idle"
-msgstr "फाइल सूचीकएनिहार निष्क्रिय अछि"
 
 #: eventmonitor.cpp:69
 #, fuzzy
@@ -76,6 +48,82 @@ msgstr "डिस्क स्थान अछि चलि रहल अछि 
 msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
 msgstr "क' क'लेल in 1"
+
+#: indexer/main.cpp:35
+#, fuzzy
+#| msgid "Nepomuk Strigi File Indexing"
+msgid "NepomukStrigiIndexer"
+msgstr "Nepomuk Strigi फाइल सूचीकरण"
+
+#: indexer/main.cpp:37
+msgid ""
+"NepomukStrigiIndexder indexes the contents of a file and saves the results "
+"in Nepomuk"
+msgstr ""
+
+#: indexer/main.cpp:39
+msgid "(C) 2011, Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:40
+msgid "Vishesh Handa"
+msgstr ""
+
+#: indexer/main.cpp:40
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Current maintainer"
+msgstr "अनुरक्षक"
+
+#: indexer/main.cpp:45
+msgid "The uri provided will be forced on the resource"
+msgstr ""
+
+#: indexer/main.cpp:46
+msgid "The modification time of the resource"
+msgstr ""
+
+#: indexer/main.cpp:47
+msgid "The url of the file to be indexed"
+msgstr ""
+
+#: strigiservice.cpp:155
+msgctxt "@info:status"
+msgid "File indexer is suspended"
+msgstr "फाइल सूचीकरण करैबला स्थगित अछि"
+
+#: strigiservice.cpp:161
+#, fuzzy
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files"
+msgstr "अछि in फोल्डर 1"
+
+#: strigiservice.cpp:165
+#, fuzzy, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1"
+msgstr "अछि in फोल्डर 1"
+
+#: strigiservice.cpp:167
+#, fuzzy, kde-format
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files in folder %1 (%2)"
+msgstr "अछि in फोल्डर 1"
+
+#: strigiservice.cpp:171
+msgctxt "@info:status"
+msgid "File indexer is idle"
+msgstr "फाइल सूचीकएनिहार निष्क्रिय अछि"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #, fuzzy
 #~| msgid "Search Service"
@@ -201,9 +249,6 @@ msgstr "क' क'लेल in 1"
 #~ msgid "Nepomuk Backup"
 #~ msgstr "नेपोमक सेमेन्टिक डेस्कटाप"
 
-#~ msgid "Maintainer"
-#~ msgstr "अनुरक्षक"
-
 #~ msgid "Sebastian Trüg"
 #~ msgstr "सेबेस्तियन त्रुग"
 
@@ -315,14 +360,6 @@ msgstr "क' क'लेल in 1"
 
 #~ msgid "Unknown service name:"
 #~ msgstr "अज्ञात सेवा नाम: "
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "संगीता कुमारी"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "sangeeta09@gmail.com"
 
 #, fuzzy
 #~| msgid "Converting Nepomuk database"
@@ -445,9 +482,6 @@ msgstr "क' क'लेल in 1"
 #~ msgstr ""
 #~ "नेपोमक सर्वर चलि नहि रहल अछि. जखन अगिला बेर सर्वर प्रारंभ हाएत तँ ई बिन्याससभ क' "
 #~ "प्रयोग कएल जाएत."
-
-#~ msgid "Nepomuk Strigi File Indexing"
-#~ msgstr "Nepomuk Strigi फाइल सूचीकरण"
 
 #~ msgid "Strigi Indexing State"
 #~ msgstr "Strigi सूचीकरणक स्थिति"

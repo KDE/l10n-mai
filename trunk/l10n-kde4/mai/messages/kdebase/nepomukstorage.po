@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-10 03:44+0200\n"
+"POT-Creation-Date: 2011-05-12 04:10+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -38,12 +38,31 @@ msgstr "पुरान बैकेंड"
 msgid "New backend"
 msgstr "नवीन बैकेंड"
 
+#: test/fakedatamanagementservice.cpp:123
+#: test/fakedatamanagementservice.cpp:125
+msgid "Fake Data Management Service"
+msgstr ""
+
+#: test/fakedatamanagementservice.cpp:127
+#, fuzzy
+#| msgid "(c) 2008, Sebastian Trüg"
+msgid "(c) 2011, Sebastian Trüg"
+msgstr "(C) 2007, सेबेस्तियन त्रुग"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Sebastian Trüg"
+msgstr "सेबेस्तियन त्रुग"
+
+#: test/fakedatamanagementservice.cpp:131
+msgid "Maintainer"
+msgstr "अनुरक्षक"
+
 #: ontologyloader.cpp:135
 #, fuzzy, kde-format
 msgid "Parsing of file %1 failed (%2)"
 msgstr "क' फाइल"
 
-#: repository.cpp:104
+#: repository.cpp:110
 #, fuzzy
 msgctxt "@info - notification message"
 msgid ""
@@ -51,7 +70,7 @@ msgid ""
 "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
 msgstr "डेस्कटाप सर्वर मे डाटा प्लगइन अछि क'लेल."
 
-#: repository.cpp:116
+#: repository.cpp:122
 #, fuzzy
 msgctxt "@info - notification message"
 msgid ""
@@ -60,7 +79,7 @@ msgid ""
 "Nepomuk."
 msgstr "डेस्कटाप सर्वर मे डाटा सर्वर आओर ODBC अछि क'लेल."
 
-#: repository.cpp:239
+#: repository.cpp:257
 #, fuzzy, kde-format
 msgctxt "@info - notification message"
 msgid ""
@@ -69,13 +88,13 @@ msgid ""
 "disabled until the situation has been resolved manually."
 msgstr "नहि मे खोजू डाटा नहि क'लेल डाटा निष्क्रिय करू."
 
-#: repository.cpp:273
+#: repository.cpp:291
 #, fuzzy
 msgctxt "@info - notification message"
 msgid "Converting Nepomuk data to a new backend. This might take a while."
 msgstr "डाटा मे a नवीन a."
 
-#: repository.cpp:286
+#: repository.cpp:304
 #, fuzzy
 msgctxt "@info - notification message"
 msgid ""
@@ -83,11 +102,21 @@ msgid ""
 "Nepomuk will be disabled until the situation has been resolved manually."
 msgstr "डाटा मे नवीन क'लेल डाटा निष्क्रिय करू."
 
-#: repository.cpp:300
+#: repository.cpp:318
 #, fuzzy
 msgctxt "@info - notification message"
 msgid "Successfully converted Nepomuk data to the new backend."
 msgstr "डाटा मे नवीन."
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #, fuzzy
 #~| msgid "Search Service"
@@ -196,12 +225,6 @@ msgstr "डाटा मे नवीन."
 #~ msgid "Nepomuk Backup"
 #~ msgstr "नेपोमक सेमेन्टिक डेस्कटाप"
 
-#~ msgid "Maintainer"
-#~ msgstr "अनुरक्षक"
-
-#~ msgid "Sebastian Trüg"
-#~ msgstr "सेबेस्तियन त्रुग"
-
 #, fuzzy
 #~ msgctxt "@info"
 #~ msgid ""
@@ -214,9 +237,6 @@ msgstr "डाटा मे नवीन."
 
 #~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
 #~ msgstr "नेपोमक सर्वर - नेपोमक भंडार आओर सेवा प्रबंधित करैत अछि"
-
-#~ msgid "(c) 2008, Sebastian Trüg"
-#~ msgstr "(C) 2007, सेबेस्तियन त्रुग"
 
 #~ msgid "Nepomuk Configuration Module"
 #~ msgstr "नेपोमक कान्फिगरेशन मोड्यूल"
@@ -310,14 +330,6 @@ msgstr "डाटा मे नवीन."
 
 #~ msgid "Unknown service name:"
 #~ msgstr "अज्ञात सेवा नाम: "
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "संगीता कुमारी"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "sangeeta09@gmail.com"
 
 #, fuzzy
 #~| msgid "Converting Nepomuk database"
