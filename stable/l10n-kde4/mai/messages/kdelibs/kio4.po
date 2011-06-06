@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-01 14:12+0200\n"
+"POT-Creation-Date: 2011-06-06 14:19+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -56,13 +56,13 @@ msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr ""
 
-#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:278
+#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:281
 msgctxt "@title:window"
 msgid "Select Folder"
 msgstr ""
 
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:1013
+#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1013
+#: ../kfile/kdirselectdialog.cpp:135
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "नवीन फोल्डर"
@@ -5891,66 +5891,6 @@ msgstr "केआईओ_मेटाइन्फ़ो"
 msgid "No metainfo for %1"
 msgstr "%1 क' लेल कोनो मेटाजानकारी नहि "
 
-#: ../kfile/kdirselectdialog.cpp:128
-msgctxt "folder name"
-msgid "New Folder"
-msgstr "नवीन फोल्डर"
-
-#: ../kfile/kdirselectdialog.cpp:133
-#, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"नवीन फोल्डर:\n"
-"%1 मे बनाबू"
-
-#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:766
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "एकटा फाइल अथवा फोल्डर नाम %1  पहिने सँ अस्तित्व मे अछि. "
-
-#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:768
-msgid "You do not have permission to create that folder."
-msgstr "ई फोल्डर केँ बनाबै क' लेल अहाँक पास अनुमति नहि अछि."
-
-#: ../kfile/kdirselectdialog.cpp:280
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "नवीन फोल्डर..."
-
-#: ../kfile/kdirselectdialog.cpp:321
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "नवीन फोल्डर..."
-
-#: ../kfile/kdirselectdialog.cpp:328
-#, fuzzy
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr "रद्दीमे भेजू"
-
-#: ../kfile/kdirselectdialog.cpp:335
-#, fuzzy
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "मेटाबू"
-
-#: ../kfile/kdirselectdialog.cpp:344
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr ""
-
-#: ../kfile/kdirselectdialog.cpp:351
-#, fuzzy
-#| msgid "Properties"
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr "गुण"
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1790
 msgid "*|All Files"
 msgstr "*|सभटा फाइलसभ"
@@ -6084,10 +6024,6 @@ msgstr ""
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "'%1' पर पहुँचबाक कोसिस मे एकटा त्रुटि भेल"
-
-#: ../kfile/kfiletreeview.cpp:187
-msgid "Show Hidden Folders"
-msgstr ""
 
 #: ../kfile/kfilewidget.cpp:285
 msgid ""
@@ -6422,6 +6358,10 @@ msgstr ""
 "नवीन फोल्डर:\n"
 "%1 मे बनाबू"
 
+#: ../kfile/kfiletreeview.cpp:187
+msgid "Show Hidden Folders"
+msgstr ""
+
 #: ../kfile/kfileplacesview.cpp:575
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
@@ -6511,6 +6451,15 @@ msgstr "स्थान नेविगेशन क' लेल क्लिक 
 #: ../kfile/kurlnavigatortogglebutton.cpp:92
 msgid "Click to Edit Location"
 msgstr "स्थान संपादन क' लेल क्लिक करू"
+
+#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "एकटा फाइल अथवा फोल्डर नाम %1  पहिने सँ अस्तित्व मे अछि. "
+
+#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
+msgid "You do not have permission to create that folder."
+msgstr "ई फोल्डर केँ बनाबै क' लेल अहाँक पास अनुमति नहि अछि."
 
 #: ../kfile/kdiroperator.cpp:783
 msgid "You did not select a file to delete."
@@ -6673,6 +6622,57 @@ msgstr "फाइल खोलबा क' संवाद"
 #: ../kfile/kdiroperator.cpp:1990
 msgid "&View"
 msgstr "दृश्य (&V)"
+
+#: ../kfile/kdirselectdialog.cpp:131
+msgctxt "folder name"
+msgid "New Folder"
+msgstr "नवीन फोल्डर"
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"नवीन फोल्डर:\n"
+"%1 मे बनाबू"
+
+#: ../kfile/kdirselectdialog.cpp:283
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr "नवीन फोल्डर..."
+
+#: ../kfile/kdirselectdialog.cpp:324
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr "नवीन फोल्डर..."
+
+#: ../kfile/kdirselectdialog.cpp:331
+#, fuzzy
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "रद्दीमे भेजू"
+
+#: ../kfile/kdirselectdialog.cpp:338
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "मेटाबू"
+
+#: ../kfile/kdirselectdialog.cpp:347
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:354
+#, fuzzy
+#| msgid "Properties"
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "गुण"
 
 #, fuzzy
 #~| msgid "Size:"
