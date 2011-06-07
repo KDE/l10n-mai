@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gluoncreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 04:47+0200\n"
+"POT-Creation-Date: 2011-06-07 04:58+0200\n"
 "PO-Revision-Date: 2010-09-24 13:12+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -32,17 +32,6 @@ msgstr "आन "
 #: dialogs/configdialog.cpp:37
 msgid "Plugins"
 msgstr "प्लगिन"
-
-#: dialogs/openprojectdialogpage.cpp:57
-#, fuzzy
-#| msgid "Project"
-msgid "Open Project"
-msgstr "प्रोजेक्ट"
-
-#: dialogs/openprojectdialogpage.cpp:69
-#: plugins/docks/projectdock/projectdockplugin.cpp:40
-msgid "Project"
-msgstr "प्रोजेक्ट"
 
 #: dialogs/newprojectdialogpage.cpp:68 mainwindow.cpp:364 mainwindow.cpp:372
 #, fuzzy
@@ -112,6 +101,17 @@ msgstr ""
 msgid "Path already exists and contains files"
 msgstr ""
 
+#: dialogs/openprojectdialogpage.cpp:57
+#, fuzzy
+#| msgid "Project"
+msgid "Open Project"
+msgstr "प्रोजेक्ट"
+
+#: dialogs/openprojectdialogpage.cpp:69
+#: plugins/docks/projectdock/projectdockplugin.cpp:40
+msgid "Project"
+msgstr "प्रोजेक्ट"
+
 #: dialogs/recentprojectsdialogpage.cpp:58 mainwindow.cpp:260
 #, fuzzy
 #| msgid "Project"
@@ -162,35 +162,6 @@ msgstr ""
 #: lib/widgets/gluonobjectpropertywidgetitem.cpp:209
 msgid "(no object selected)"
 msgstr ""
-
-#: lib/widgets/propertywidgetcontainer.cpp:201
-msgid "Add Custom Property..."
-msgstr ""
-
-#: lib/widgets/propertywidgetcontainer.cpp:209
-msgid "Move Up"
-msgstr "उप्पर जाउ"
-
-#: lib/widgets/propertywidgetcontainer.cpp:213
-msgid "Move Down"
-msgstr "नीच्चाँ जाउ"
-
-#: lib/widgets/propertywidgetcontainer.cpp:221
-#: plugins/docks/scenedock/scenedock.cpp:100
-#: plugins/kparts/codeeditorpart/Actions/DeleteAction.cpp:34
-msgid "Delete"
-msgstr "मेटाबू"
-
-#: lib/widgets/propertywidgetcontainer.cpp:270
-#, kde-format
-msgid "Are you sure you wish to delete the item %1?"
-msgstr ""
-
-#: lib/widgets/propertywidgetcontainer.cpp:270
-#, fuzzy
-#| msgid "Delete"
-msgid "Delete Item?"
-msgstr "मेटाबू"
 
 #: lib/widgets/propertywidgetitemnewcustomproperty.cpp:49
 msgid "Boolean (bool)"
@@ -269,6 +240,35 @@ msgstr ""
 #| msgid "Properties"
 msgid "Add Property"
 msgstr "गुण"
+
+#: lib/widgets/propertywidgetcontainer.cpp:201
+msgid "Add Custom Property..."
+msgstr ""
+
+#: lib/widgets/propertywidgetcontainer.cpp:209
+msgid "Move Up"
+msgstr "उप्पर जाउ"
+
+#: lib/widgets/propertywidgetcontainer.cpp:213
+msgid "Move Down"
+msgstr "नीच्चाँ जाउ"
+
+#: lib/widgets/propertywidgetcontainer.cpp:221
+#: plugins/docks/scenedock/scenedock.cpp:100
+#: plugins/kparts/codeeditorpart/Actions/DeleteAction.cpp:34
+msgid "Delete"
+msgstr "मेटाबू"
+
+#: lib/widgets/propertywidgetcontainer.cpp:270
+#, kde-format
+msgid "Are you sure you wish to delete the item %1?"
+msgstr ""
+
+#: lib/widgets/propertywidgetcontainer.cpp:270
+#, fuzzy
+#| msgid "Delete"
+msgid "Delete Item?"
+msgstr "मेटाबू"
 
 #: lib/objectmanager.cpp:247
 msgid "NewScene"
@@ -389,15 +389,15 @@ msgstr ""
 msgid "Properties"
 msgstr "गुण"
 
+#: plugins/docks/scenedock/scenedockplugin.cpp:44
+msgid "Scene"
+msgstr ""
+
 #: plugins/docks/scenedock/scenedock.cpp:93 mainwindow.cpp:268
 #, fuzzy
 #| msgid "Project"
 msgid "New Game Object"
 msgstr "प्रोजेक्ट"
-
-#: plugins/docks/scenedock/scenedockplugin.cpp:44
-msgid "Scene"
-msgstr ""
 
 #: plugins/kparts/codeeditorpart/Actions/AddEdge.cpp:35
 msgid "Add Edge"
@@ -494,6 +494,11 @@ msgstr "कैमरा"
 msgid "Value: %1"
 msgstr ""
 
+#: plugins/kparts/codeeditorpart/Models/model_GraphLayers.cpp:97
+#, kde-format
+msgid "Untitled%1"
+msgstr ""
+
 #: plugins/kparts/codeeditorpart/Models/model_GraphProperties.cpp:100
 #, fuzzy
 #| msgid "Properties"
@@ -509,11 +514,6 @@ msgstr "गुण"
 #: plugins/kparts/codeeditorpart/Models/model_GraphProperties.cpp:102
 #: rc.cpp:74 rc.cpp:80 rc.cpp:236
 msgid "Value"
-msgstr ""
-
-#: plugins/kparts/codeeditorpart/Models/model_GraphLayers.cpp:97
-#, kde-format
-msgid "Untitled%1"
 msgstr ""
 
 #: plugins/kparts/gluonviewerpart/gluonviewerpart.cpp:82
