@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 14:19+0200\n"
+"POT-Creation-Date: 2011-06-08 14:08+0200\n"
 "PO-Revision-Date: 2011-01-14 11:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672 at gmail dot com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -3396,41 +3396,6 @@ msgstr ""
 msgid "KDE-tempfile"
 msgstr "केडीइ-टेम्पफाइल"
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr "फंक्शन केँ मुख्य थ्रेड सँ बजाएल जएनाइ चाही."
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr ""
-"के लांचर डी_बस केर जरिआ पहुँच नहि पाएल. %1 केँ काल करब केर दौरान त्रुटि:\n"
-"%2\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"केडीइ मद्दति केंद्र चालू नहि कए सकल:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "मद्दति केंद्र चालू नहि कए सकल"
-
 #: kdecore/kernel/ktoolinvocation_x11.cpp:280
 #, kde-format
 msgid ""
@@ -3477,6 +3442,41 @@ msgstr ""
 #: kdecore/kernel/ktoolinvocation_x11.cpp:400
 msgid "Could not launch Terminal Client"
 msgstr "टर्मिनल क्लाएंट केँ चालू नहि कए सकल"
+
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr "फंक्शन केँ मुख्य थ्रेड सँ बजाएल जएनाइ चाही."
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr ""
+"के लांचर डी_बस केर जरिआ पहुँच नहि पाएल. %1 केँ काल करब केर दौरान त्रुटि:\n"
+"%2\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"केडीइ मद्दति केंद्र चालू नहि कए सकल:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "मद्दति केंद्र चालू नहि कए सकल"
 
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
@@ -7038,6 +7038,11 @@ msgstr[1] "%1 फाइल"
 msgid "Click this to collapse the dialog, to hide details"
 msgstr ""
 
+#: kdeui/kernel/kapplication.cpp:830
+#, kde-format
+msgid "The style '%1' was not found"
+msgstr "शैली  '%1'  नहि भेटल"
+
 #: kdeui/kernel/kuniqueapplication.cpp:88
 msgid "Do not run in the background."
 msgstr "पृष्ठ भूमि मे नहि चलाबू."
@@ -7045,11 +7050,6 @@ msgstr "पृष्ठ भूमि मे नहि चलाबू."
 #: kdeui/kernel/kuniqueapplication.cpp:90
 msgid "Internally added if launched from Finder"
 msgstr "जँ फ़ाइंडर केर द्वारा चालू कएल जाइत अछि तँ आंतरिक रूपेँ जोड़ल गेल"
-
-#: kdeui/kernel/kapplication.cpp:830
-#, kde-format
-msgid "The style '%1' was not found"
-msgstr "शैली  '%1'  नहि भेटल"
 
 #: kdeui/notifications/knotificationrestrictions.cpp:181
 msgid "Unknown Application"
@@ -12451,7 +12451,7 @@ msgstr[1] "प्लगइन डिपेंडेंसीज़ केर क
 msgid "Search Plugins"
 msgstr "खोज प्लगइन"
 
-#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
+#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
 #, kde-format
 msgctxt "Used only for plugins"
 msgid "About %1"
