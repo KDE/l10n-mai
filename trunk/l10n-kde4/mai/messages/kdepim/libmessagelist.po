@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-21 04:09+0200\n"
+"POT-Creation-Date: 2011-06-12 04:18+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -108,66 +108,6 @@ msgstr ""
 msgid "Batch Job (No Interactivity)"
 msgstr ""
 
-#: core/item.cpp:222
-msgctxt "Status of an item"
-msgid "Read"
-msgstr "पढ़ू"
-
-#: core/item.cpp:224
-msgctxt "Status of an item"
-msgid "Unread"
-msgstr "अपठित"
-
-#: core/item.cpp:227
-msgctxt "Status of an item"
-msgid "Has Attachment"
-msgstr ""
-
-#: core/item.cpp:230
-msgctxt "Status of an item"
-msgid "Replied"
-msgstr "जवाब"
-
-#: core/item.cpp:233
-msgctxt "Status of an item"
-msgid "Forwarded"
-msgstr "अग्रसारित"
-
-#: core/item.cpp:236
-msgctxt "Status of an item"
-msgid "Sent"
-msgstr "भेजल-डाक"
-
-#: core/item.cpp:239
-msgctxt "Status of an item"
-msgid "Important"
-msgstr "महत्वपूर्ण"
-
-#: core/item.cpp:242
-msgctxt "Status of an item"
-msgid "Action Item"
-msgstr ""
-
-#: core/item.cpp:245
-msgctxt "Status of an item"
-msgid "Spam"
-msgstr ""
-
-#: core/item.cpp:248
-msgctxt "Status of an item"
-msgid "Ham"
-msgstr ""
-
-#: core/item.cpp:251
-msgctxt "Status of an item"
-msgid "Watched"
-msgstr ""
-
-#: core/item.cpp:254
-msgctxt "Status of an item"
-msgid "Ignored"
-msgstr "अनदेखा कएल गेल"
-
 #: core/sortorder.cpp:39 core/sortorder.cpp:83
 msgid "None (Storage Order)"
 msgstr ""
@@ -254,8 +194,7 @@ msgctxt "Description of Type Date"
 msgid "Date"
 msgstr "दिनांक"
 
-#: core/theme.cpp:87 core/manager.cpp:736 utils/themeeditor.cpp:196
-#: utils/themeeditor.cpp:204
+#: core/theme.cpp:87 core/manager.cpp:736
 msgid "Sender/Receiver"
 msgstr ""
 
@@ -579,85 +518,10 @@ msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/model.cpp:290
-msgid "Today"
-msgstr "आइ"
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr "कालि"
-
-#: core/model.cpp:293 core/manager.cpp:98
+#: core/manager.cpp:98 core/model.cpp:293
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "अज्ञात"
-
-#: core/model.cpp:294
-msgid "Last Week"
-msgstr "अंतिम सप्ताह"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr "दुइ सप्ताह पहिने"
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr "तीन सप्ताह पहिने"
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:512 utils/themeeditor.cpp:206
-msgid "Receiver"
-msgstr "पएनिहार"
-
-#: core/model.cpp:513 utils/themeeditor.cpp:205
-msgid "Sender"
-msgstr "प्रेषक"
-
-#: core/model.cpp:1335
-#, kde-format
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: core/model.cpp:3764
-#, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3770 core/model.cpp:3776
-#, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3782
-#, kde-format
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3788
-#, kde-format
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3884
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "तैआर"
 
 #: core/manager.cpp:320
 msgid "Current Activity, Threaded"
@@ -929,6 +793,141 @@ msgstr ""
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
 
+#: core/item.cpp:228
+msgctxt "Status of an item"
+msgid "Read"
+msgstr "पढ़ू"
+
+#: core/item.cpp:230
+msgctxt "Status of an item"
+msgid "Unread"
+msgstr "अपठित"
+
+#: core/item.cpp:233
+msgctxt "Status of an item"
+msgid "Has Attachment"
+msgstr ""
+
+#: core/item.cpp:236
+msgctxt "Status of an item"
+msgid "Replied"
+msgstr "जवाब"
+
+#: core/item.cpp:239
+msgctxt "Status of an item"
+msgid "Forwarded"
+msgstr "अग्रसारित"
+
+#: core/item.cpp:242
+msgctxt "Status of an item"
+msgid "Sent"
+msgstr "भेजल-डाक"
+
+#: core/item.cpp:245
+msgctxt "Status of an item"
+msgid "Important"
+msgstr "महत्वपूर्ण"
+
+#: core/item.cpp:248
+msgctxt "Status of an item"
+msgid "Action Item"
+msgstr ""
+
+#: core/item.cpp:251
+msgctxt "Status of an item"
+msgid "Spam"
+msgstr ""
+
+#: core/item.cpp:254
+msgctxt "Status of an item"
+msgid "Ham"
+msgstr ""
+
+#: core/item.cpp:257
+msgctxt "Status of an item"
+msgid "Watched"
+msgstr ""
+
+#: core/item.cpp:260
+msgctxt "Status of an item"
+msgid "Ignored"
+msgstr "अनदेखा कएल गेल"
+
+#: core/model.cpp:290
+msgid "Today"
+msgstr "आइ"
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr "कालि"
+
+#: core/model.cpp:294
+msgid "Last Week"
+msgstr "अंतिम सप्ताह"
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr "दुइ सप्ताह पहिने"
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr "तीन सप्ताह पहिने"
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:512 utils/themeeditor.cpp:204
+msgid "Receiver"
+msgstr "पएनिहार"
+
+#: core/model.cpp:513 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: core/model.cpp:1335
+#, kde-format
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3764
+#, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3770 core/model.cpp:3776
+#, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3782
+#, kde-format
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3788
+#, kde-format
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3884
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "तैआर"
+
 #: pane.cpp:110
 msgctxt "@info:tooltip"
 msgid "Open a new tab"
@@ -957,16 +956,6 @@ msgstr "टैब बन्न करू"
 msgctxt "@action:inmenu"
 msgid "Close All Other Tabs"
 msgstr ""
-
-#: storagemodel.cpp:239
-msgctxt "displayed as subject when the subject of a mail is empty"
-msgid "No Subject"
-msgstr ""
-
-#: storagemodel.cpp:240
-msgctxt "displayed when a mail has unknown sender, receiver or date"
-msgid "Unknown"
-msgstr "अज्ञात"
 
 #: utils/aggregationeditor.cpp:47
 msgid "Groups && Threading"
@@ -1042,7 +1031,7 @@ msgstr ""
 msgid "Unnamed Theme"
 msgstr ""
 
-#: utils/configurethemesdialog.cpp:323 utils/themeeditor.cpp:1228
+#: utils/configurethemesdialog.cpp:323 utils/themeeditor.cpp:1226
 msgid "New Column"
 msgstr ""
 
@@ -1104,159 +1093,159 @@ msgstr ""
 msgid "Message Group"
 msgstr ""
 
-#: utils/themeeditor.cpp:197 utils/themeeditor.cpp:207
+#: utils/themeeditor.cpp:196 utils/themeeditor.cpp:205
 msgid ""
 "Very long subject very long subject very long subject very long subject very "
 "long subject very long"
 msgstr ""
 
-#: utils/themeeditor.cpp:212
+#: utils/themeeditor.cpp:210
 msgid "Sample Tag 1"
 msgstr ""
 
-#: utils/themeeditor.cpp:213
+#: utils/themeeditor.cpp:211
 msgid "Sample Tag 2"
 msgstr ""
 
-#: utils/themeeditor.cpp:214
+#: utils/themeeditor.cpp:212
 msgid "Sample Tag 3"
 msgstr ""
 
-#: utils/themeeditor.cpp:418
+#: utils/themeeditor.cpp:416
 msgctxt "Indicates whether or not a header label is visible"
 msgid "Visible"
 msgstr "दृष्टिगोचर"
 
-#: utils/themeeditor.cpp:860
+#: utils/themeeditor.cpp:858
 msgctxt "@action:inmenu soften the text color"
 msgid "Soften"
 msgstr ""
 
-#: utils/themeeditor.cpp:870
+#: utils/themeeditor.cpp:868
 msgctxt "@action:inmenu Font setting"
 msgid "Default"
 msgstr "मूलभूत"
 
-#: utils/themeeditor.cpp:875
+#: utils/themeeditor.cpp:873
 msgctxt "@action:inmenu Font setting"
 msgid "Custom..."
 msgstr "मनपसिन्न..."
 
-#: utils/themeeditor.cpp:888
+#: utils/themeeditor.cpp:886
 msgid "Font"
 msgstr "फोन्ट"
 
-#: utils/themeeditor.cpp:898
+#: utils/themeeditor.cpp:896
 msgctxt "@action:inmenu Foreground color setting"
 msgid "Default"
 msgstr "मूलभूत"
 
-#: utils/themeeditor.cpp:903
+#: utils/themeeditor.cpp:901
 msgctxt "@action:inmenu Foreground color setting"
 msgid "Custom..."
 msgstr "मनपसिन्न..."
 
-#: utils/themeeditor.cpp:916
+#: utils/themeeditor.cpp:914
 msgid "Foreground Color"
 msgstr "अग्रभूमि रँग"
 
-#: utils/themeeditor.cpp:927
+#: utils/themeeditor.cpp:925
 msgctxt ""
 "Hide a mark if the mail does not have the attribute, e.g. Important mark on "
 "a non important mail"
 msgid "Hide"
 msgstr "नुकाबू"
 
-#: utils/themeeditor.cpp:932
+#: utils/themeeditor.cpp:930
 msgctxt ""
 "Keep a empty space in the list if the mail does not have the attribute, e.g. "
 "Important mark on a non important mail"
 msgid "Keep Empty Space"
 msgstr ""
 
-#: utils/themeeditor.cpp:937
+#: utils/themeeditor.cpp:935
 msgctxt ""
 "Show the icon softened in the list if the mail does not have the attribute, "
 "e.g. Important mark on a non important mail"
 msgid "Keep Softened Icon"
 msgstr ""
 
-#: utils/themeeditor.cpp:946
+#: utils/themeeditor.cpp:944
 msgid "When Disabled"
 msgstr ""
 
-#: utils/themeeditor.cpp:955
+#: utils/themeeditor.cpp:953
 msgid "Group Header"
 msgstr "समूह शीर्षिका"
 
-#: utils/themeeditor.cpp:963
+#: utils/themeeditor.cpp:961
 msgctxt "@action:inmenu Group header background color setting"
 msgid "None"
 msgstr "किछु नहि"
 
-#: utils/themeeditor.cpp:968
+#: utils/themeeditor.cpp:966
 msgctxt "@action:inmenu Group header background color setting"
 msgid "Automatic"
 msgstr "स्वचालित"
 
-#: utils/themeeditor.cpp:973
+#: utils/themeeditor.cpp:971
 msgctxt "@action:inmenu Group header background color setting"
 msgid "Custom..."
 msgstr "मनपसिन्न..."
 
-#: utils/themeeditor.cpp:986
+#: utils/themeeditor.cpp:984
 msgid "Background Color"
 msgstr "पृष्ठभूमि रँग"
 
-#: utils/themeeditor.cpp:1008
+#: utils/themeeditor.cpp:1006
 msgid "Background Style"
 msgstr ""
 
-#: utils/themeeditor.cpp:1198 utils/themeeditor.cpp:1262
+#: utils/themeeditor.cpp:1196 utils/themeeditor.cpp:1260
 msgid "Column Properties"
 msgstr ""
 
-#: utils/themeeditor.cpp:1202
+#: utils/themeeditor.cpp:1200
 msgid "Add Column..."
 msgstr ""
 
-#: utils/themeeditor.cpp:1206
+#: utils/themeeditor.cpp:1204
 msgid "Delete Column"
 msgstr "कालम मेटाउ"
 
-#: utils/themeeditor.cpp:1235
+#: utils/themeeditor.cpp:1233
 msgid "Add New Column"
 msgstr ""
 
-#: utils/themeeditor.cpp:1307
+#: utils/themeeditor.cpp:1305
 msgid "Appearance"
 msgstr "प्रकटन"
 
-#: utils/themeeditor.cpp:1311
+#: utils/themeeditor.cpp:1309
 msgid "Content Items"
 msgstr ""
 
-#: utils/themeeditor.cpp:1452
+#: utils/themeeditor.cpp:1450
 msgid ""
 "Right click on the header to add or modify columns. Drag the content items "
 "and drop them on the columns in order to compose your theme. Right click on "
 "the items inside the view for more options."
 msgstr ""
 
-#: utils/themeeditor.cpp:1461
+#: utils/themeeditor.cpp:1459
 msgctxt "@title:tab Advanced theme settings"
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: utils/themeeditor.cpp:1465
+#: utils/themeeditor.cpp:1463
 msgid "Header:"
 msgstr ""
 
-#: utils/themeeditor.cpp:1471
+#: utils/themeeditor.cpp:1469
 msgid "Icon size:"
 msgstr "चिह्न आकार:"
 
-#: utils/themeeditor.cpp:1477
+#: utils/themeeditor.cpp:1475
 msgctxt "suffix in a spinbox"
 msgid " pixel"
 msgid_plural " pixels"
@@ -1286,6 +1275,16 @@ msgstr "एतए नकल करू (&C)"
 #: widget.cpp:383
 msgid "C&ancel"
 msgstr "रद करू (&a)"
+
+#: storagemodel.cpp:239
+msgctxt "displayed as subject when the subject of a mail is empty"
+msgid "No Subject"
+msgstr ""
+
+#: storagemodel.cpp:240
+msgctxt "displayed when a mail has unknown sender, receiver or date"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
