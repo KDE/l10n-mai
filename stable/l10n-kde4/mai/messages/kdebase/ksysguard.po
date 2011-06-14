@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-29 14:00+0200\n"
+"POT-Creation-Date: 2011-06-14 15:42+0200\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -501,25 +501,6 @@ msgctxt ""
 msgid "Multimeter Settings"
 msgstr "मल्टीमीटर बिन्यास "
 
-#: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
-msgid "&Properties"
-msgstr "गुण (&P)"
-
-#: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
-msgid "&Remove Display"
-msgstr "प्रदर्शक मेटाबू (&R)"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
 msgstr "लाग कए रहल अछि"
@@ -546,6 +527,16 @@ msgstr "लाग फाइल"
 #: SensorDisplayLib/SensorLoggerDlg.cpp:32
 msgid "Sensor Logger"
 msgstr "सेंसर लागर"
+
+#: SensorDisplayLib/SensorLogger.cpp:598
+#: SensorDisplayLib/SensorDisplay.cpp:118
+msgid "&Properties"
+msgstr "गुण (&P)"
+
+#: SensorDisplayLib/SensorLogger.cpp:603
+#: SensorDisplayLib/SensorDisplay.cpp:123
+msgid "&Remove Display"
+msgstr "प्रदर्शक मेटाबू (&R)"
 
 #: SensorDisplayLib/SensorLogger.cpp:608
 msgid "&Remove Sensor"
@@ -586,6 +577,15 @@ msgstr "स्थिति"
 #: SensorDisplayLib/SensorModel.cpp:178
 msgid "Label"
 msgstr "लेबल"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
 
 #: ksgrd/SensorAgent.cpp:109
 #, kde-format
