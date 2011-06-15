@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-14 04:25+0200\n"
+"POT-Creation-Date: 2011-06-15 04:00+0200\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1390,75 +1390,6 @@ msgstr "शीट मे स्तम्भक सँख्या कतए अ�
 msgid "Enter the title of the worksheet here."
 msgstr "वर्कशीट क' शीर्षक एतय भरू."
 
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "फाइल %1 केँ खोलि नहि सकल."
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "फाइल %1 वैध एक्सएमएल नहि राखैत अछि."
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"फाइल %1 मे कोनो वैध वर्कशीट परिभाषा नहि अछि जकरामे दस्ताबेज किस्म 'के-सिस-गार्ड-वर्क-"
-"शीट' अछि."
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "फाइल %1 मे एकटा अवैध वर्कशीट आकार अछि."
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "फाइल %1 सहेज नहि सकैत"
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr "क्लिपबोर्ड मे वैध प्रदर्शक वर्णन नहि अछि."
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr "प्रदर्शक प्रकार चुनू"
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr "लाइन ग्राफ (&L)"
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr "डिजिटल प्रदर्शन (&D)"
-
-#: WorkSheet.cpp:378
-msgid "&Bar graph"
-msgstr "बार-ग्राफ (&B)"
-
-#: WorkSheet.cpp:379
-msgid "Log to a &file"
-msgstr "एकटा फाइल मे लाग करू (&f)"
-
-#: WorkSheet.cpp:528
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove this display?"
-msgstr "प्रदर्शक मेटाबू (&R)"
-
-#: WorkSheet.cpp:529
-#, fuzzy
-#| msgid "&Remove Display"
-msgid "Remove Display"
-msgstr "प्रदर्शक मेटाबू (&R)"
-
-#: WorkSheet.cpp:570
-msgid "Dummy"
-msgstr "डमी"
-
 #: ksysguard.cpp:74
 msgid "KDE System Monitor"
 msgstr "केडीइ तंत्र मानीटर"
@@ -1662,6 +1593,75 @@ msgstr ""
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "सिस्टम मानीटर"
+
+#: WorkSheet.cpp:89
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "फाइल %1 केँ खोलि नहि सकल."
+
+#: WorkSheet.cpp:97
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "फाइल %1 वैध एक्सएमएल नहि राखैत अछि."
+
+#: WorkSheet.cpp:104
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"फाइल %1 मे कोनो वैध वर्कशीट परिभाषा नहि अछि जकरामे दस्ताबेज किस्म 'के-सिस-गार्ड-वर्क-"
+"शीट' अछि."
+
+#: WorkSheet.cpp:128
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "फाइल %1 मे एकटा अवैध वर्कशीट आकार अछि."
+
+#: WorkSheet.cpp:229
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "फाइल %1 सहेज नहि सकैत"
+
+#: WorkSheet.cpp:275
+msgid "The clipboard does not contain a valid display description."
+msgstr "क्लिपबोर्ड मे वैध प्रदर्शक वर्णन नहि अछि."
+
+#: WorkSheet.cpp:376
+msgid "Select Display Type"
+msgstr "प्रदर्शक प्रकार चुनू"
+
+#: WorkSheet.cpp:377
+msgid "&Line graph"
+msgstr "लाइन ग्राफ (&L)"
+
+#: WorkSheet.cpp:378
+msgid "&Digital display"
+msgstr "डिजिटल प्रदर्शन (&D)"
+
+#: WorkSheet.cpp:379
+msgid "&Bar graph"
+msgstr "बार-ग्राफ (&B)"
+
+#: WorkSheet.cpp:380
+msgid "Log to a &file"
+msgstr "एकटा फाइल मे लाग करू (&f)"
+
+#: WorkSheet.cpp:529
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove this display?"
+msgstr "प्रदर्शक मेटाबू (&R)"
+
+#: WorkSheet.cpp:530
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove Display"
+msgstr "प्रदर्शक मेटाबू (&R)"
+
+#: WorkSheet.cpp:571
+msgid "Dummy"
+msgstr "डमी"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

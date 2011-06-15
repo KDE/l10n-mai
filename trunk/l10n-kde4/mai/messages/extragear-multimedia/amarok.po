@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-13 03:51+0200\n"
+"POT-Creation-Date: 2011-06-15 03:48+0200\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -16,6 +16,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: ActionClasses.cpp:86
+msgid "Amarok Menu"
+msgstr ""
+
+#: ActionClasses.cpp:176
+msgid "Play/Pause"
+msgstr "बजाउ/ठहरू"
+
+#: ActionClasses.cpp:313
+msgid "Click to change"
+msgstr ""
+
+#: ActionClasses.cpp:330
+msgid "&Replay Gain Mode"
+msgstr ""
+
+#: ActionClasses.cpp:332
+msgctxt "Replay Gain state, as in, disabled"
+msgid "&Off"
+msgstr "बन्न  (&O)"
+
+#: ActionClasses.cpp:332
+msgctxt "Item, as in, music"
+msgid "&Track"
+msgstr ""
+
+#: ActionClasses.cpp:333
+msgid "&Album"
+msgstr ""
+
+#: ActionClasses.cpp:342
+msgid "&Equalizer"
+msgstr ""
+
+#: ActionClasses.cpp:370
+msgid "Your current setup does not support the equalizer feature"
+msgstr ""
+
+#: ActionClasses.cpp:375
+msgctxt "Equalizer state, as in, disabled"
+msgid "&Off"
+msgstr "बन्न  (&O)"
+
+#: ActionClasses.cpp:398
+msgid "Burn"
+msgstr "लिखू"
+
+#: ActionClasses.cpp:437
+msgid "Current Playlist"
+msgstr ""
+
+#: ActionClasses.cpp:438
+msgid "Selected Tracks"
+msgstr ""
+
+#: ActionClasses.cpp:469
+msgid "Stop"
+msgstr "रोकू"
+
+#: ActionClasses.cpp:521
+msgid "Stop after current Track"
+msgstr ""
+
+#: ActionClasses.cpp:536
+msgid "Stop after current track: On"
+msgstr ""
+
+#: ActionClasses.cpp:542
+msgid "Stop after current track: Off"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -4930,77 +5001,6 @@ msgstr ""
 msgid "Verbose"
 msgstr "वरबोज"
 
-#: ActionClasses.cpp:86
-msgid "Amarok Menu"
-msgstr ""
-
-#: ActionClasses.cpp:176
-msgid "Play/Pause"
-msgstr "बजाउ/ठहरू"
-
-#: ActionClasses.cpp:313
-msgid "Click to change"
-msgstr ""
-
-#: ActionClasses.cpp:330
-msgid "&Replay Gain Mode"
-msgstr ""
-
-#: ActionClasses.cpp:332
-msgctxt "Replay Gain state, as in, disabled"
-msgid "&Off"
-msgstr "बन्न  (&O)"
-
-#: ActionClasses.cpp:332
-msgctxt "Item, as in, music"
-msgid "&Track"
-msgstr ""
-
-#: ActionClasses.cpp:333
-msgid "&Album"
-msgstr ""
-
-#: ActionClasses.cpp:342
-msgid "&Equalizer"
-msgstr ""
-
-#: ActionClasses.cpp:370
-msgid "Your current setup does not support the equalizer feature"
-msgstr ""
-
-#: ActionClasses.cpp:375
-msgctxt "Equalizer state, as in, disabled"
-msgid "&Off"
-msgstr "बन्न  (&O)"
-
-#: ActionClasses.cpp:398
-msgid "Burn"
-msgstr "लिखू"
-
-#: ActionClasses.cpp:437
-msgid "Current Playlist"
-msgstr ""
-
-#: ActionClasses.cpp:438
-msgid "Selected Tracks"
-msgstr ""
-
-#: ActionClasses.cpp:469
-msgid "Stop"
-msgstr "रोकू"
-
-#: ActionClasses.cpp:521
-msgid "Stop after current Track"
-msgstr ""
-
-#: ActionClasses.cpp:536
-msgid "Stop after current track: On"
-msgstr ""
-
-#: ActionClasses.cpp:542
-msgid "Stop after current track: Off"
-msgstr ""
-
 #: equalizer/EqualizerPresets.cpp:90
 msgid "Manual"
 msgstr ""
@@ -6538,10 +6538,6 @@ msgstr ""
 msgid "Devices"
 msgstr ""
 
-#: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:31
-msgid "Search Scripts"
-msgstr ""
-
 #: configdialog/dialogs/ScriptsConfig.cpp:53
 msgid "Generic"
 msgstr "जेनेरिक"
@@ -6566,6 +6562,10 @@ msgstr ""
 msgid ""
 "<p>Script successfully uninstalled.</p><p>Please restart Amarok to totally "
 "remove the script.</p>"
+msgstr ""
+
+#: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:30
+msgid "Search Scripts"
 msgstr ""
 
 #: configdialog/ConfigDialog.cpp:58
@@ -10415,48 +10415,47 @@ msgid ""
 "dB"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:168 dialogs/EqualizerDialog.cpp:262
-#: dialogs/EqualizerDialog.cpp:318
+#: dialogs/EqualizerDialog.cpp:256
 msgctxt "Equalizer state, as in, disabled"
 msgid "Off"
 msgstr "बन्न"
 
-#: dialogs/EqualizerDialog.cpp:270
+#: dialogs/EqualizerDialog.cpp:273
 msgid "Cannot delete this preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:271
+#: dialogs/EqualizerDialog.cpp:274
 msgid "Default presets can not be deleted"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:272
+#: dialogs/EqualizerDialog.cpp:275
 msgid "Error deleting preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:284
+#: dialogs/EqualizerDialog.cpp:298
 msgid "Cannot restore this preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:285
+#: dialogs/EqualizerDialog.cpp:299
 msgid "Only default presets can be restored"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:286
+#: dialogs/EqualizerDialog.cpp:300
 msgid "Error restoring preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:305
+#: dialogs/EqualizerDialog.cpp:320
 msgid "Cannot save this preset"
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:306
+#: dialogs/EqualizerDialog.cpp:321
 msgid ""
 "Preset 'Manual' is reserved for momentary settings.\n"
 "                                              Please choose different name "
 "and try again."
 msgstr ""
 
-#: dialogs/EqualizerDialog.cpp:308
+#: dialogs/EqualizerDialog.cpp:323
 msgid "Error saving preset"
 msgstr ""
 

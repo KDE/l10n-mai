@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-14 04:18+0200\n"
+"POT-Creation-Date: 2011-06-15 03:55+0200\n"
 "PO-Revision-Date: 2010-09-24 20:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2711,7 +2711,7 @@ msgstr ""
 msgid "No file selected or selected file can't be displayed."
 msgstr ""
 
-#: krusader/KViewer/panelviewer.cpp:338
+#: krusader/KViewer/panelviewer.cpp:340
 #, kde-format
 msgid "%1 is bigger than %2 MB"
 msgstr ""
@@ -5325,30 +5325,6 @@ msgstr ""
 msgid "Disk Usage: %1"
 msgstr ""
 
-#: krusader/Panel/krvfsmodel.cpp:130
-#: krusader/Synchronizer/synchronizergui.cpp:2049
-#: krusader/Synchronizer/synchronizergui.cpp:2055
-#: krusader/Synchronizer/synchronizergui.cpp:2100
-#: krusader/Synchronizer/synchronizergui.cpp:2106
-msgid "<DIR>"
-msgstr ""
-
-#: krusader/Panel/krvfsmodel.cpp:467
-msgid "Ext"
-msgstr ""
-
-#: krusader/Panel/krvfsmodel.cpp:470
-msgid "Modified"
-msgstr "सुधार कएल"
-
-#: krusader/Panel/krvfsmodel.cpp:471
-msgid "Perms"
-msgstr ""
-
-#: krusader/Panel/krvfsmodel.cpp:472
-msgid "rwx"
-msgstr ""
-
 #: krusader/Panel/krviewitem.cpp:67
 msgid "Climb up the directory tree"
 msgstr ""
@@ -5614,6 +5590,30 @@ msgstr "त्रुटि: %1"
 #: krusader/Panel/krpreviewpopup.cpp:104
 msgid "Preview not available"
 msgstr "पूर्वावलोकन उपलब्ध नहि"
+
+#: krusader/Panel/krvfsmodel.cpp:130
+#: krusader/Synchronizer/synchronizergui.cpp:2049
+#: krusader/Synchronizer/synchronizergui.cpp:2055
+#: krusader/Synchronizer/synchronizergui.cpp:2100
+#: krusader/Synchronizer/synchronizergui.cpp:2106
+msgid "<DIR>"
+msgstr ""
+
+#: krusader/Panel/krvfsmodel.cpp:467
+msgid "Ext"
+msgstr ""
+
+#: krusader/Panel/krvfsmodel.cpp:470
+msgid "Modified"
+msgstr "सुधार कएल"
+
+#: krusader/Panel/krvfsmodel.cpp:471
+msgid "Perms"
+msgstr ""
+
+#: krusader/Panel/krvfsmodel.cpp:472
+msgid "rwx"
+msgstr ""
 
 #: krusader/Queue/queue.cpp:84
 msgid "An error occurred during processing the queue.\n"
@@ -6986,6 +6986,16 @@ msgctxt "%1=filename, %2=percentage"
 msgid "Searching content of '%1' (%2%)"
 msgstr ""
 
+#: krusader/VFS/virt_vfs.cpp:100
+msgid ""
+"You cannot copy files directly to the 'virt:/' directory.\n"
+"You can create a sub directory and copy your files into it."
+msgstr ""
+
+#: krusader/VFS/virt_vfs.cpp:196
+msgid "Creating new directories is allowed only in the 'virt:/' directory."
+msgstr ""
+
 #: krusader/VFS/normal_vfs.cpp:99
 #, kde-format
 msgid "The directory %1 does not exist."
@@ -7004,16 +7014,6 @@ msgstr ""
 
 #: krusader/VFS/normal_vfs.cpp:231
 msgid "Cannot create a directory. Check your permissions."
-msgstr ""
-
-#: krusader/VFS/virt_vfs.cpp:100
-msgid ""
-"You cannot copy files directly to the 'virt:/' directory.\n"
-"You can create a sub directory and copy your files into it."
-msgstr ""
-
-#: krusader/VFS/virt_vfs.cpp:196
-msgid "Creating new directories is allowed only in the 'virt:/' directory."
 msgstr ""
 
 #: krusader/krslots.cpp:109
