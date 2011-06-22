@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-19 03:43+0200\n"
+"POT-Creation-Date: 2011-06-22 03:41+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -261,33 +261,6 @@ msgstr ""
 msgid "Pan"
 msgstr "पीएएन"
 
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
-#, fuzzy
-#| msgid "Change"
-msgid "Change Segment"
-msgstr "बदलू"
-
-#: flake/tools/KoPathToolFactory.cpp:29
-msgid "Path editing tool"
-msgstr ""
-
-#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
-#: widgets/KoZoomController.cpp:39
-msgid "Zoom"
-msgstr "जूम"
-
-#: flake/tools/KoCreatePathTool.cpp:369 flake/tools/KoPathTool.cpp:184
-msgid "Snapping"
-msgstr "स्नैपिंग"
-
-#: flake/tools/KoCreatePathTool.cpp:375
-msgid "Angle snapping delta"
-msgstr ""
-
-#: flake/tools/KoCreatePathTool.cpp:380
-msgid "Angle Constraints"
-msgstr ""
-
 #: flake/tools/KoPathTool.cpp:90
 msgid "Corner point"
 msgstr ""
@@ -344,6 +317,10 @@ msgstr ""
 msgid "Line/Curve"
 msgstr ""
 
+#: flake/tools/KoPathTool.cpp:184 flake/tools/KoCreatePathTool.cpp:369
+msgid "Snapping"
+msgstr "स्नैपिंग"
+
 #: flake/tools/KoPathTool.cpp:519
 msgid "Drag to move handle."
 msgstr ""
@@ -363,6 +340,29 @@ msgstr ""
 #: flake/tools/KoPathTool.cpp:612
 msgid "Press B to break path at selected segments."
 msgstr ""
+
+#: flake/tools/KoPathToolFactory.cpp:29
+msgid "Path editing tool"
+msgstr ""
+
+#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
+#: widgets/KoZoomController.cpp:39
+msgid "Zoom"
+msgstr "जूम"
+
+#: flake/tools/KoCreatePathTool.cpp:375
+msgid "Angle snapping delta"
+msgstr ""
+
+#: flake/tools/KoCreatePathTool.cpp:380
+msgid "Angle Constraints"
+msgstr ""
+
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
+#, fuzzy
+#| msgid "Change"
+msgid "Change Segment"
+msgstr "बदलू"
 
 #: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
@@ -486,39 +486,9 @@ msgstr ""
 msgid "Execute Script File"
 msgstr ""
 
-#: kopageapp/KoPADocumentModel.cpp:166 kopageapp/KoPAPageThumbnailModel.cpp:67
+#: kopageapp/KoPAPageThumbnailModel.cpp:67 kopageapp/KoPADocumentModel.cpp:166
 #, kde-format
 msgid "Slide %1"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:168
-#, kde-format
-msgid "Page  %1"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:172
-#: kopageapp/KoPADocumentStructureDocker.cpp:118
-msgid "Layer"
-msgstr "स्तर"
-
-#: kopageapp/KoPADocumentModel.cpp:175
-msgid "Group"
-msgstr "समूह"
-
-#: kopageapp/KoPADocumentModel.cpp:178
-msgid "Shape"
-msgstr "आकार"
-
-#: kopageapp/KoPADocumentModel.cpp:291
-msgid "Visible"
-msgstr "दृष्टिगोचर"
-
-#: kopageapp/KoPADocumentModel.cpp:292
-msgid "Locked"
-msgstr "तालाबन्न"
-
-#: kopageapp/KoPADocumentModel.cpp:505 kopageapp/KoPADocumentModel.cpp:526
-msgid "Reparent shapes"
 msgstr ""
 
 #: kopageapp/KoPAPageThumbnailModel.cpp:69
@@ -526,28 +496,12 @@ msgstr ""
 msgid "Page %1"
 msgstr "पृष्ठ %1"
 
-#: kopageapp/KoPAPastePage.cpp:131
-msgid "Paste Slide"
-msgid_plural "Paste Slides"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kopageapp/KoPAPastePage.cpp:134
-msgid "Paste Page"
-msgid_plural "Paste Pages"
-msgstr[0] ""
-msgstr[1] ""
-
 #: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:35
 msgid "Change master slide"
 msgstr ""
 
 #: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:38
 msgid "Change master page"
-msgstr ""
-
-#: kopageapp/commands/KoPAChangePageLayoutCommand.cpp:33
-msgid "Set Page Layout"
 msgstr ""
 
 #: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:31
@@ -568,6 +522,10 @@ msgstr ""
 
 #: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:34
 msgid "Hide master shapes"
+msgstr ""
+
+#: kopageapp/commands/KoPAChangePageLayoutCommand.cpp:33
+msgid "Set Page Layout"
 msgstr ""
 
 #: kopageapp/commands/KoPAPageDeleteCommand.cpp:39
@@ -656,10 +614,6 @@ msgstr "दस्तावेज"
 msgid "Document Settings"
 msgstr "दस्ताबेज जानकारी"
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:93
-msgid "Change background image"
-msgstr ""
-
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
 msgid "Background Tool"
 msgstr ""
@@ -670,6 +624,40 @@ msgstr ""
 
 #: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:30
 msgid "Background editing tool"
+msgstr ""
+
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:93
+msgid "Change background image"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:168
+#, kde-format
+msgid "Page  %1"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:172
+#: kopageapp/KoPADocumentStructureDocker.cpp:118
+msgid "Layer"
+msgstr "स्तर"
+
+#: kopageapp/KoPADocumentModel.cpp:175
+msgid "Group"
+msgstr "समूह"
+
+#: kopageapp/KoPADocumentModel.cpp:178
+msgid "Shape"
+msgstr "आकार"
+
+#: kopageapp/KoPADocumentModel.cpp:291
+msgid "Visible"
+msgstr "दृष्टिगोचर"
+
+#: kopageapp/KoPADocumentModel.cpp:292
+msgid "Locked"
+msgstr "तालाबन्न"
+
+#: kopageapp/KoPADocumentModel.cpp:505 kopageapp/KoPADocumentModel.cpp:526
+msgid "Reparent shapes"
 msgstr ""
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1723
@@ -774,6 +762,18 @@ msgstr "कापी करू"
 #| msgid "Date"
 msgid "Paste"
 msgstr "दिनांक"
+
+#: kopageapp/KoPAPastePage.cpp:131
+msgid "Paste Slide"
+msgid_plural "Paste Slides"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kopageapp/KoPAPastePage.cpp:134
+msgid "Paste Page"
+msgid_plural "Paste Pages"
+msgstr[0] ""
+msgstr[1] ""
 
 #: kopageapp/KoPAView.cpp:241 main/KoToolBoxFactory.cpp:37
 msgid "Tools"
@@ -2210,12 +2210,12 @@ msgid "Export to PDF"
 msgstr "PDF रूपेँ निर्यात करू..."
 
 #: main/KoMainWindow.cpp:1385 main/KoUndoStackAction.cpp:36
-#: main/KoUndoStackAction.cpp:52
+#: main/KoUndoStackAction.cpp:52 kundo2/kundo2stack.cpp:1093
 msgid "Undo"
 msgstr ""
 
 #: main/KoMainWindow.cpp:1386 main/KoUndoStackAction.cpp:44
-#: main/KoUndoStackAction.cpp:52
+#: main/KoUndoStackAction.cpp:52 kundo2/kundo2stack.cpp:1074
 #, fuzzy
 #| msgid "Red"
 msgid "Redo"
@@ -4037,6 +4037,29 @@ msgstr ""
 #: textlayout/ListItemsHelper.cpp:212
 msgid "ArabicAlphabet"
 msgstr ""
+
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:841
+#, kde-format
+msgid "Undo %1"
+msgstr ""
+
+#: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:841
+msgctxt "Default text for undo action"
+msgid "Undo"
+msgstr ""
+
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:867
+#, fuzzy, kde-format
+#| msgid "Red"
+msgid "Redo %1"
+msgstr "लाल"
+
+#: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:867
+#, fuzzy
+#| msgid "Red"
+msgctxt "Default text for redo action"
+msgid "Redo"
+msgstr "लाल"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
