@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-22 03:41+0200\n"
+"POT-Creation-Date: 2011-07-06 03:51+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -139,6 +139,7 @@ msgstr ""
 #: part/KPrPicturesImport.cpp:57
 #, fuzzy
 #| msgid "Insert Slide"
+msgctxt "(qtundo-format)"
 msgid "Insert Pictures"
 msgstr "स्लाइड जोडू"
 
@@ -358,26 +359,31 @@ msgid "Blackscreen on the presentation..."
 msgstr ""
 
 #: part/commands/KPrAnimationCreateCommand.cpp:34
+msgctxt "(qtundo-format)"
 msgid "Create shape animation"
 msgstr ""
 
 #: part/commands/KPrPageEffectSetCommand.cpp:38
+#, fuzzy
+#| msgid "No Effect"
+msgctxt "(qtundo-format)"
 msgid "Create page effect"
-msgstr ""
+msgstr "कोनो प्रभाव नहि"
 
 #: part/commands/KPrPageEffectSetCommand.cpp:41
+msgctxt "(qtundo-format)"
 msgid "Modify page effect"
 msgstr ""
 
 #: part/commands/KPrPageEffectSetCommand.cpp:45
+msgctxt "(qtundo-format)"
 msgid "Delete page effect"
 msgstr ""
 
-#. i18n: file: stage_only.rc:20
-#. i18n: ectx: ToolBar (editToolBar)
-#. i18n: file: stage.rc:189
-#. i18n: ectx: ToolBar (editToolBar)
-#: part/commands/KPrSetCustomSlideShowsCommand.cpp:33 rc.cpp:164 rc.cpp:221
+#: part/commands/KPrSetCustomSlideShowsCommand.cpp:33
+#, fuzzy
+#| msgid "Edit"
+msgctxt "(qtundo-format)"
 msgid "Edit"
 msgstr "संपादन"
 
@@ -390,7 +396,11 @@ msgid "File to open"
 msgstr ""
 
 #: part/pagelayout/KPrPlaceholders.cpp:58
+msgid "Set Layout"
+msgstr ""
+
 #: part/pagelayout/KPrPlaceholders.cpp:59
+msgctxt "(qtundo-format)"
 msgid "Set Layout"
 msgstr ""
 
@@ -427,8 +437,11 @@ msgid "Shape Animation"
 msgstr ""
 
 #: part/tools/KPrPlaceholderTool.cpp:92
+#, fuzzy
+#| msgid "Shape"
+msgctxt "(qtundo-format)"
 msgid "Edit Shape"
-msgstr ""
+msgstr "आकार"
 
 #: part/ui/KPrConfigurePresenterViewDialog.cpp:42
 #, kde-format
@@ -583,6 +596,7 @@ msgid "Rename"
 msgstr ""
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:94
+msgctxt "(qtundo-format)"
 msgid "Change sound action"
 msgstr ""
 
@@ -1872,6 +1886,14 @@ msgstr ""
 #: rc.cpp:152 rc.cpp:215
 msgid "&Settings"
 msgstr "जमावट (&S)"
+
+#. i18n: file: stage_only.rc:20
+#. i18n: ectx: ToolBar (editToolBar)
+#. i18n: file: stage.rc:189
+#. i18n: ectx: ToolBar (editToolBar)
+#: rc.cpp:164 rc.cpp:221
+msgid "Edit"
+msgstr "संपादन"
 
 #. i18n: file: stage_only.rc:25
 #. i18n: ectx: ToolBar (screenToolBar)
