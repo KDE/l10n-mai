@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-07 04:45+0200\n"
+"POT-Creation-Date: 2011-07-09 04:40+0200\n"
 "PO-Revision-Date: 2010-09-24 13:40+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: docbrowser/docbrowser.cpp:33 mainwindow.cpp:220
+#: docbrowser/docbrowser.cpp:33 mainwindow.cpp:219
 msgid "Documentation"
 msgstr "दस्ताबेजीकरण"
 
@@ -59,15 +59,15 @@ msgstr ""
 msgid "Loading Plasmate Guide..."
 msgstr ""
 
-#: editors/metadata/metadataeditor.cpp:102 startpage.cpp:142
+#: editors/metadata/metadataeditor.cpp:102 startpage.cpp:141
 msgid "Data Engine"
 msgstr ""
 
-#: editors/metadata/metadataeditor.cpp:105 startpage.cpp:144
+#: editors/metadata/metadataeditor.cpp:105 startpage.cpp:143
 msgid "Theme"
 msgstr "प्रसंग"
 
-#: editors/metadata/metadataeditor.cpp:108 startpage.cpp:143
+#: editors/metadata/metadataeditor.cpp:108 startpage.cpp:142
 msgid "Runner"
 msgstr ""
 
@@ -203,22 +203,41 @@ msgstr ""
 msgid "Right Edge"
 msgstr ""
 
-#: projectmanager/projectmanager.cpp:45
+#: projectmanager/projectmanager.cpp:48
 msgid "Load Project"
 msgstr ""
 
-#: projectmanager/projectmanager.cpp:48
-msgid "Delete Project"
+#: projectmanager/projectmanager.cpp:51 projectmanager/projectmanager.cpp:53
+msgid "Remove Project"
 msgstr ""
 
-#: projectmanager/projectmanager.cpp:65
+#: projectmanager/projectmanager.cpp:56
+#, fuzzy
+#| msgid "Files"
+msgid "From List"
+msgstr "फाइल"
+
+#: projectmanager/projectmanager.cpp:57
+msgid "From Disk"
+msgstr ""
+
+#: projectmanager/projectmanager.cpp:76
 msgid ""
-"Are you sure you want to delete the selected projects? This cannot be undone."
-msgstr ""
+"Are you sure you want to remove the selected project from the project list?"
+msgid_plural ""
+"Are you sure you want to remove the selected projects from the project list?"
+msgstr[0] ""
+msgstr[1] ""
 
-#: projectmanager/projectmanager.cpp:101
-msgid "Please select exactly one project to load."
-msgstr ""
+#: projectmanager/projectmanager.cpp:88
+msgid ""
+"Are you sure you want to remove the selected project from disk? This cannot "
+"be undone"
+msgid_plural ""
+"Are you sure you want to remove the selected projects from disk? This cannot "
+"be undone"
+msgstr[0] ""
+msgstr[1] ""
 
 #: publisher/publisher.cpp:36
 msgid "Export project"
@@ -481,92 +500,92 @@ msgstr "नवीन..."
 msgid "Metadata"
 msgstr "मेटाडाटा"
 
-#: mainwindow.cpp:207
+#: mainwindow.cpp:206
 msgid "Close Project"
 msgstr ""
 
-#: mainwindow.cpp:212
+#: mainwindow.cpp:211
 msgid "Refresh Preview"
 msgstr ""
 
-#: mainwindow.cpp:213
+#: mainwindow.cpp:212
 msgid "Create Save Point"
 msgstr ""
 
-#: mainwindow.cpp:214
+#: mainwindow.cpp:213
 msgid "Publish"
 msgstr ""
 
-#: mainwindow.cpp:216 mainwindow.cpp:782
+#: mainwindow.cpp:215 mainwindow.cpp:772
 msgid "Preview"
 msgstr ""
 
-#: mainwindow.cpp:217 mainwindow.cpp:325
+#: mainwindow.cpp:216 mainwindow.cpp:324
 msgid "Notes"
 msgstr ""
 
-#: mainwindow.cpp:218 mainwindow.cpp:298
+#: mainwindow.cpp:217 mainwindow.cpp:297
 msgid "Files"
 msgstr "फाइल"
 
-#: mainwindow.cpp:219
+#: mainwindow.cpp:218
 msgid "Timeline"
 msgstr ""
 
-#: mainwindow.cpp:653
+#: mainwindow.cpp:652
 msgid "Invalid plasmagick package."
 msgstr ""
 
-#: mainwindow.cpp:684
+#: mainwindow.cpp:674
 msgid "Select a file to edit."
 msgstr ""
 
-#: mainwindow.cpp:784
+#: mainwindow.cpp:774
 msgid "Previewer"
 msgstr ""
 
-#: startpage.cpp:141
+#: startpage.cpp:140
 msgid "Plasma Widget"
 msgstr ""
 
-#: startpage.cpp:288
+#: startpage.cpp:287
 #, fuzzy, kde-format
 #| msgid "Author:"
 msgid "Author: %1"
 msgstr "लेखक:"
 
-#: startpage.cpp:297
+#: startpage.cpp:296
 #, fuzzy, kde-format
 #| msgid "Version:"
 msgid "Version: %1"
 msgstr "संस्करण:"
 
-#: startpage.cpp:302
+#: startpage.cpp:301
 #, kde-format
 msgid "API: %1"
 msgstr ""
 
-#: startpage.cpp:311
+#: startpage.cpp:310
 msgid "Project type: Plasmoid"
 msgstr ""
 
-#: startpage.cpp:314
+#: startpage.cpp:313
 msgid "Project type: Data Engine"
 msgstr ""
 
-#: startpage.cpp:317
+#: startpage.cpp:316
 msgid "Project type: Theme"
 msgstr ""
 
-#: startpage.cpp:320
+#: startpage.cpp:319
 msgid "Project type: Runner"
 msgstr ""
 
-#: startpage.cpp:341
+#: startpage.cpp:340
 msgid "Manage Projects..."
 msgstr ""
 
-#: startpage.cpp:343
+#: startpage.cpp:342
 msgid "More projects..."
 msgstr ""
 
@@ -1036,11 +1055,6 @@ msgstr ""
 
 #~ msgid "Cancel"
 #~ msgstr "रद करू"
-
-#, fuzzy
-#~| msgid "Files"
-#~ msgid "File List"
-#~ msgstr "फाइल"
 
 #~ msgid "MainWindow"
 #~ msgstr "मुख्यविंडो:"
