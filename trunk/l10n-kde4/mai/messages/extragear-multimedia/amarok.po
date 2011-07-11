@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-09 03:57+0200\n"
+"POT-Creation-Date: 2011-07-11 04:42+0200\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -6380,7 +6380,7 @@ msgid ""
 "save are also shown here."
 msgstr ""
 
-#: browsers/servicebrowser/ServiceBrowser.cpp:44
+#: browsers/servicebrowser/ServiceBrowser.cpp:40
 msgid ""
 "The Internet browser lets you browse online sources of content that "
 "integrates directly into Amarok. Amarok ships with a number of these "
@@ -6423,10 +6423,6 @@ msgstr ""
 
 #: browsers/BrowserBreadcrumbWidget.cpp:62
 msgid "Click For Location Navigation"
-msgstr ""
-
-#: browsers/BrowserCategoryList.cpp:52
-msgid "Filter Music Sources"
 msgstr ""
 
 #: browsers/BrowserDock.cpp:36
@@ -6505,6 +6501,10 @@ msgstr "वर्ष"
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Label"
 msgstr "लेबल"
+
+#: browsers/BrowserCategoryList.cpp:52
+msgid "Filter Music Sources"
+msgstr ""
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 msgctxt ""
@@ -7848,11 +7848,6 @@ msgstr ""
 msgid "%1 - %2"
 msgstr ""
 
-#: core-impl/collections/db/ScanResultProcessor.cpp:261
-msgctxt "The genre name for classical music"
-msgid "Classical"
-msgstr ""
-
 #: core-impl/collections/db/ScanManager.cpp:136
 msgid "Database import requested"
 msgstr ""
@@ -7911,6 +7906,11 @@ msgstr ""
 msgid ""
 "The collection scan had to be aborted. Too many errors were encountered "
 "during the scan."
+msgstr ""
+
+#: core-impl/collections/db/ScanResultProcessor.cpp:261
+msgctxt "The genre name for classical music"
+msgid "Classical"
 msgstr ""
 
 #: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:292
@@ -13214,6 +13214,30 @@ msgstr "बजाउ"
 msgid "Pause"
 msgstr "ठहरू"
 
+#: widgets/TrackSelectWidget.cpp:67
+#, kde-format
+msgid "Checkpoint: <b>%1</b>"
+msgstr ""
+
+#: widgets/TrackSelectWidget.cpp:87
+#, kde-format
+msgid "Track: %1"
+msgstr ""
+
+#: widgets/TrackSelectWidget.cpp:89
+#, kde-format
+msgid "Album: %1"
+msgstr ""
+
+#: widgets/TrackSelectWidget.cpp:91
+#, kde-format
+msgid "Artist: %1"
+msgstr "कलाकार: %1"
+
+#: widgets/TrackSelectWidget.cpp:95
+msgid "empty"
+msgstr "खाली"
+
 #: widgets/SmartPlaylistEditor.cpp:79
 msgid "Create Smart Playlist"
 msgstr ""
@@ -13401,30 +13425,6 @@ msgstr ""
 #: widgets/TokenWithLayout.cpp:253
 msgid "[suffix]"
 msgstr ""
-
-#: widgets/TrackSelectWidget.cpp:66
-#, kde-format
-msgid "Checkpoint: <b>%1</b>"
-msgstr ""
-
-#: widgets/TrackSelectWidget.cpp:86
-#, kde-format
-msgid "Track: %1"
-msgstr ""
-
-#: widgets/TrackSelectWidget.cpp:88
-#, kde-format
-msgid "Album: %1"
-msgstr ""
-
-#: widgets/TrackSelectWidget.cpp:90
-#, kde-format
-msgid "Artist: %1"
-msgstr "कलाकार: %1"
-
-#: widgets/TrackSelectWidget.cpp:94
-msgid "empty"
-msgstr "खाली"
 
 #: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:142
 msgid "Muted"

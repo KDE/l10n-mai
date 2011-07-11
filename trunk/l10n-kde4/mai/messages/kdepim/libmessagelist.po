@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-06 04:34+0200\n"
+"POT-Creation-Date: 2011-07-11 05:08+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -183,156 +183,6 @@ msgstr "आरोहण क्रम"
 msgctxt "Sort order for mail groups"
 msgid "Descending"
 msgstr "अवरोहण क्रम"
-
-#: core/theme.cpp:81
-msgctxt "Description of Type Subject"
-msgid "Subject"
-msgstr "विषय"
-
-#: core/theme.cpp:84
-msgctxt "Description of Type Date"
-msgid "Date"
-msgstr "दिनांक"
-
-#: core/theme.cpp:87 core/manager.cpp:736
-msgid "Sender/Receiver"
-msgstr ""
-
-#: core/theme.cpp:90
-msgctxt "Description of Type Sender"
-msgid "Sender"
-msgstr "प्रेषक"
-
-#: core/theme.cpp:93
-msgctxt "Description of Type Receiver"
-msgid "Receiver"
-msgstr "पएनिहार"
-
-#: core/theme.cpp:96
-msgctxt "Description of Type Size"
-msgid "Size"
-msgstr "आकार"
-
-#: core/theme.cpp:99
-msgid "Unread/Read Icon"
-msgstr ""
-
-#: core/theme.cpp:102
-msgid "Attachment Icon"
-msgstr ""
-
-#: core/theme.cpp:105
-msgid "Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:108
-msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:111
-msgid "Action Item Icon"
-msgstr ""
-
-#: core/theme.cpp:114
-msgid "Important Icon"
-msgstr ""
-
-#: core/theme.cpp:117
-msgid "Group Header Label"
-msgstr ""
-
-#: core/theme.cpp:120
-msgid "Spam/Ham Icon"
-msgstr ""
-
-#: core/theme.cpp:123
-msgid "Watched/Ignored Icon"
-msgstr ""
-
-#: core/theme.cpp:126
-msgid "Group Header Expand/Collapse Icon"
-msgstr ""
-
-#: core/theme.cpp:129
-msgid "Encryption State Icon"
-msgstr ""
-
-#: core/theme.cpp:132
-msgid "Signature State Icon"
-msgstr ""
-
-#: core/theme.cpp:135
-msgid "Vertical Separation Line"
-msgstr ""
-
-#: core/theme.cpp:138
-msgid "Horizontal Spacer"
-msgstr ""
-
-#: core/theme.cpp:141
-msgid "Max Date"
-msgstr ""
-
-#: core/theme.cpp:144
-msgid "Message Tags"
-msgstr ""
-
-#: core/theme.cpp:147
-msgid "Note Icon"
-msgstr ""
-
-#: core/theme.cpp:149
-msgid "Invitation Icon"
-msgstr ""
-
-#: core/theme.cpp:151
-msgctxt "Description for an Unknown Type"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: core/theme.cpp:607 core/manager.cpp:744
-msgid "Unread"
-msgstr "अपठित"
-
-#: core/theme.cpp:757
-msgid "Never Show"
-msgstr ""
-
-#: core/theme.cpp:758
-msgid "Always Show"
-msgstr ""
-
-#: core/theme.cpp:765
-msgid "Plain Rectangles"
-msgstr ""
-
-#: core/theme.cpp:766
-msgid "Plain Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:767
-msgid "Rounded Rectangles"
-msgstr "गोलाकार आयत"
-
-#: core/theme.cpp:768
-msgid "Rounded Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:769
-msgid "Gradient Rectangles"
-msgstr ""
-
-#: core/theme.cpp:770
-msgid "Gradient Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:771
-msgid "Styled Rectangles"
-msgstr ""
-
-#: core/theme.cpp:772
-msgid "Styled Joined Rectangles"
-msgstr ""
 
 #: core/view.cpp:721
 msgid "Adjust Column Sizes"
@@ -618,6 +468,10 @@ msgctxt "@title:column Subject of messages"
 msgid "Subject"
 msgstr "विषय"
 
+#: core/manager.cpp:736 core/theme.cpp:87
+msgid "Sender/Receiver"
+msgstr ""
+
 #: core/manager.cpp:738
 msgctxt "Sender of a message"
 msgid "Sender"
@@ -646,6 +500,10 @@ msgstr "आकार"
 msgctxt "Attachement indication"
 msgid "Attachment"
 msgstr "संलग्नक"
+
+#: core/manager.cpp:744 core/theme.cpp:608
+msgid "Unread"
+msgstr "अपठित"
 
 #: core/manager.cpp:745
 msgid "Replied"
@@ -927,6 +785,148 @@ msgstr[1] ""
 msgctxt "@info:status Finished view fill"
 msgid "Ready"
 msgstr "तैआर"
+
+#: core/theme.cpp:81
+msgctxt "Description of Type Subject"
+msgid "Subject"
+msgstr "विषय"
+
+#: core/theme.cpp:84
+msgctxt "Description of Type Date"
+msgid "Date"
+msgstr "दिनांक"
+
+#: core/theme.cpp:90
+msgctxt "Description of Type Sender"
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: core/theme.cpp:93
+msgctxt "Description of Type Receiver"
+msgid "Receiver"
+msgstr "पएनिहार"
+
+#: core/theme.cpp:96
+msgctxt "Description of Type Size"
+msgid "Size"
+msgstr "आकार"
+
+#: core/theme.cpp:99
+msgid "Unread/Read Icon"
+msgstr ""
+
+#: core/theme.cpp:102
+msgid "Attachment Icon"
+msgstr ""
+
+#: core/theme.cpp:105
+msgid "Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:108
+msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:111
+msgid "Action Item Icon"
+msgstr ""
+
+#: core/theme.cpp:114
+msgid "Important Icon"
+msgstr ""
+
+#: core/theme.cpp:117
+msgid "Group Header Label"
+msgstr ""
+
+#: core/theme.cpp:120
+msgid "Spam/Ham Icon"
+msgstr ""
+
+#: core/theme.cpp:123
+msgid "Watched/Ignored Icon"
+msgstr ""
+
+#: core/theme.cpp:126
+msgid "Group Header Expand/Collapse Icon"
+msgstr ""
+
+#: core/theme.cpp:129
+msgid "Encryption State Icon"
+msgstr ""
+
+#: core/theme.cpp:132
+msgid "Signature State Icon"
+msgstr ""
+
+#: core/theme.cpp:135
+msgid "Vertical Separation Line"
+msgstr ""
+
+#: core/theme.cpp:138
+msgid "Horizontal Spacer"
+msgstr ""
+
+#: core/theme.cpp:141
+msgid "Max Date"
+msgstr ""
+
+#: core/theme.cpp:144
+msgid "Message Tags"
+msgstr ""
+
+#: core/theme.cpp:147
+msgid "Note Icon"
+msgstr ""
+
+#: core/theme.cpp:149
+msgid "Invitation Icon"
+msgstr ""
+
+#: core/theme.cpp:151
+msgctxt "Description for an Unknown Type"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: core/theme.cpp:758
+msgid "Never Show"
+msgstr ""
+
+#: core/theme.cpp:759
+msgid "Always Show"
+msgstr ""
+
+#: core/theme.cpp:766
+msgid "Plain Rectangles"
+msgstr ""
+
+#: core/theme.cpp:767
+msgid "Plain Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:768
+msgid "Rounded Rectangles"
+msgstr "गोलाकार आयत"
+
+#: core/theme.cpp:769
+msgid "Rounded Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:770
+msgid "Gradient Rectangles"
+msgstr ""
+
+#: core/theme.cpp:771
+msgid "Gradient Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:772
+msgid "Styled Rectangles"
+msgstr ""
+
+#: core/theme.cpp:773
+msgid "Styled Joined Rectangles"
+msgstr ""
 
 #: utils/aggregationeditor.cpp:47
 msgid "Groups && Threading"
