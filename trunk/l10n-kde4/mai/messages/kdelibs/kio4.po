@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-08 04:18+0200\n"
+"POT-Creation-Date: 2011-07-12 04:33+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -125,14 +125,6 @@ msgstr "पुस्तकचिह्न"
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr|ओपेरा पसंद फाइलसभ (*.adr)"
 
-#: bookmarks/kbookmarkmanager.cc:443
-#, kde-format
-msgid ""
-"Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
-msgstr ""
-
 #: bookmarks/kbookmarkmenu.cc:267
 msgid "Add Bookmark Here"
 msgstr "एतए  पसंदीदा  जोड़ू"
@@ -231,106 +223,17 @@ msgstr "नवीन विंडोमे खोलू."
 msgid "Open in New Tab"
 msgstr "नवीन टैब मे खोलू"
 
+#: bookmarks/kbookmarkmanager.cc:443
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
 msgstr "खराब डाटा प्राप्त कएल जाए रहल अछि."
-
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
-msgid "Owner"
-msgstr "मालिक"
-
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
-msgid "Owning Group"
-msgstr "मालिक समूह"
-
-#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
-#: kfile/kpropertiesdialog.cpp:2001
-msgid "Others"
-msgstr "आन "
-
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
-msgid "Mask"
-msgstr "मास्क"
-
-#: kfile/kacleditwidget.cpp:65
-msgid "Named User"
-msgstr "नामित प्रयोक्ता"
-
-#: kfile/kacleditwidget.cpp:66
-msgid "Named Group"
-msgstr "नामित समूह"
-
-#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
-#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
-msgid "Add Entry..."
-msgstr "प्रविष्टि जोड़ू..."
-
-#: kfile/kacleditwidget.cpp:102
-msgid "Edit Entry..."
-msgstr "प्रविष्टि संपादित करू..."
-
-#: kfile/kacleditwidget.cpp:106
-msgid "Delete Entry"
-msgstr "प्रविष्टि मेटाबू"
-
-#: kfile/kacleditwidget.cpp:307
-msgid " (Default)"
-msgstr "(मूलभूत)"
-
-#: kfile/kacleditwidget.cpp:431
-msgid "Edit ACL Entry"
-msgstr "एसीएल प्रविष्टि संपादित करू"
-
-#: kfile/kacleditwidget.cpp:439
-msgid "Entry Type"
-msgstr "प्रविष्टि प्रकार"
-
-#: kfile/kacleditwidget.cpp:445
-msgid "Default for new files in this folder"
-msgstr "ई फोल्डर क' लेल नवीन फाइलसभ क' लेल मूलभूत"
-
-#: kfile/kacleditwidget.cpp:474
-msgid "Named user"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:479
-msgid "Named group"
-msgstr ""
-
-#: kfile/kacleditwidget.cpp:499
-msgid "User: "
-msgstr "प्रयोक्ता: "
-
-#: kfile/kacleditwidget.cpp:505
-msgid "Group: "
-msgstr "समूह:"
-
-#: kfile/kacleditwidget.cpp:625
-msgid "Type"
-msgstr "प्रकार"
-
-#: kfile/kacleditwidget.cpp:626
-msgid "Name"
-msgstr "नाम"
-
-#: kfile/kacleditwidget.cpp:627
-msgctxt "read permission"
-msgid "r"
-msgstr "r"
-
-#: kfile/kacleditwidget.cpp:628
-msgctxt "write permission"
-msgid "w"
-msgstr "w"
-
-#: kfile/kacleditwidget.cpp:629
-msgctxt "execute permission"
-msgid "x"
-msgstr "x"
-
-#: kfile/kacleditwidget.cpp:630
-msgid "Effective"
-msgstr "प्रभावी"
 
 #: kfile/kdevicelistmodel.cpp:116
 msgid "Device name"
@@ -1202,6 +1105,11 @@ msgstr "प्रयोक्ता"
 msgid "Group"
 msgstr "समूह"
 
+#: kfile/kpropertiesdialog.cpp:2001 kfile/kacleditwidget.cpp:63
+#: kfile/kacleditwidget.cpp:464
+msgid "Others"
+msgstr "आन "
+
 #: kfile/kpropertiesdialog.cpp:2005
 msgid "Set UID"
 msgstr "यूआईडी सेट करू"
@@ -1446,6 +1354,98 @@ msgstr "स्थिति"
 #: kfile/kicondialog.cpp:691
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm *.svg *.svgz|प्रतीक फाइलसभ (*.png *.xpm *.svg *.svgz)"
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+msgid "Owner"
+msgstr "मालिक"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr "मालिक समूह"
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr "मास्क"
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr "नामित प्रयोक्ता"
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr "नामित समूह"
+
+#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
+#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
+msgid "Add Entry..."
+msgstr "प्रविष्टि जोड़ू..."
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr "प्रविष्टि संपादित करू..."
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr "प्रविष्टि मेटाबू"
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr "(मूलभूत)"
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr "एसीएल प्रविष्टि संपादित करू"
+
+#: kfile/kacleditwidget.cpp:439
+msgid "Entry Type"
+msgstr "प्रविष्टि प्रकार"
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr "ई फोल्डर क' लेल नवीन फाइलसभ क' लेल मूलभूत"
+
+#: kfile/kacleditwidget.cpp:474
+msgid "Named user"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:479
+msgid "Named group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr "प्रयोक्ता: "
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr "समूह:"
+
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr "प्रकार"
+
+#: kfile/kacleditwidget.cpp:626
+msgid "Name"
+msgstr "नाम"
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr "r"
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr "w"
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr "x"
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
+msgstr "प्रभावी"
 
 #: kfile/kfilemetadataprovider.cpp:400
 #, fuzzy
@@ -6061,13 +6061,6 @@ msgstr "स्थान नेविगेशन क' लेल क्लिक 
 msgid "Click to Edit Location"
 msgstr "स्थान संपादन क' लेल क्लिक करू"
 
-#: ../kfile/kurlnavigatorbutton.cpp:611
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "जमा करू"
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
 msgid "*|All Files"
 msgstr "*|सभटा फाइलसभ"
@@ -6724,6 +6717,13 @@ msgstr ""
 #: ../kfile/kurlnavigator.cpp:690
 msgid "Custom Path"
 msgstr "मनपसंद पथ"
+
+#: ../kfile/kurlnavigatorbutton.cpp:612
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "जमा करू"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "एकटा नवीन एकाइ '%1' नाम सँ पहिने सँ मोजुद अछि.  "
