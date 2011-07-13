@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:06+0100\n"
+"POT-Creation-Date: 2011-07-13 13:51+0200\n"
 "PO-Revision-Date: 2010-01-29 15:53+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -127,32 +127,17 @@ msgid ""
 "instead of automatically deleting files.</para>"
 msgstr ""
 
-#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
-#: kio_trash.cpp:505 kio_trash.cpp:517
-#, kde-format
-msgid "Malformed URL %1"
-msgstr "गलत यूआरएल %1"
-
-#: kio_trash.cpp:111
-#, kde-format
-msgid ""
-"The directory %1 does not exist anymore, so it is not possible to restore "
-"this item to its original location. You can either recreate that directory "
-"and use the restore operation again, or drag the item anywhere else to "
-"restore it."
-msgstr ""
-
-#: kio_trash.cpp:140 kio_trash_win.cpp:228
+#: kio_trash_win.cpp:228 kio_trash.cpp:140
 msgid "This file is already in the trash bin."
 msgstr "फाइल पहिने सँ रद्दीक टोकरी मे अछि."
-
-#: kio_trash.cpp:228 kio_trash_win.cpp:252
-msgid "Internal error in copyOrMove, should never happen"
-msgstr ""
 
 #: kio_trash_win.cpp:241
 msgid "not supported"
 msgstr "समर्थित नहि अछि"
+
+#: kio_trash_win.cpp:252 kio_trash.cpp:228
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
 
 #: ktrash.cpp:32
 msgid "ktrash"
@@ -185,4 +170,19 @@ msgstr ""
 
 #: trashimpl.cpp:1136
 msgid "The file is too large to be trashed."
+msgstr ""
+
+#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:307 kio_trash.cpp:339
+#: kio_trash.cpp:505 kio_trash.cpp:517
+#, kde-format
+msgid "Malformed URL %1"
+msgstr "गलत यूआरएल %1"
+
+#: kio_trash.cpp:111
+#, kde-format
+msgid ""
+"The directory %1 does not exist anymore, so it is not possible to restore "
+"this item to its original location. You can either recreate that directory "
+"and use the restore operation again, or drag the item anywhere else to "
+"restore it."
 msgstr ""
