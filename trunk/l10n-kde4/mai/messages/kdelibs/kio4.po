@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-12 04:33+0200\n"
+"POT-Creation-Date: 2011-07-13 04:16+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -5364,12 +5364,12 @@ msgstr ""
 msgid "SHA1 digest:"
 msgstr ""
 
-#: ../kioslave/file/file.cpp:211
+#: ../kioslave/file/file_unix.cpp:231
 #, kde-format
-msgid "Setting ACL for %1"
-msgstr " %1 क' लेल एसीएल सेट कएनाइ"
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr "फाइल केँ %1 सँ %2 पर नकल नहि कए सकल. (त्रुटि क्र.: %3)"
 
-#: ../kioslave/file/file.cpp:728 ../kioslave/file/file_unix.cpp:300
+#: ../kioslave/file/file_unix.cpp:300 ../kioslave/file/file.cpp:728
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -5377,6 +5377,26 @@ msgid ""
 msgstr ""
 " %1 क' लेल \n"
 "अनुमतिसभ बदएल नहि सकल."
+
+#: ../kioslave/file/file_unix.cpp:344
+#, kde-format
+msgid "No media in device for %1"
+msgstr "%1 क' लेल अओजार मे कोनो मीडिया नहि "
+
+#: ../kioslave/file/file_unix.cpp:613
+#, kde-format
+msgid "Could not get user id for given user name %1"
+msgstr "देल गेल प्रयोक्ता नाम %1 क' लेल प्रयोक्ता आईडी प्राप्त नहि कए सकल"
+
+#: ../kioslave/file/file_unix.cpp:626
+#, kde-format
+msgid "Could not get group id for given group name %1"
+msgstr "देल गेल समूह नाम %1 क' लेल समूह आईडी प्राप्त नहि कए सकल"
+
+#: ../kioslave/file/file.cpp:211
+#, kde-format
+msgid "Setting ACL for %1"
+msgstr " %1 क' लेल एसीएल सेट कएनाइ"
 
 #: ../kioslave/file/file.cpp:918
 msgid "No Media inserted or Media not recognized."
@@ -5410,26 +5430,6 @@ msgstr " %1 पर लिखल जएनाइ समर्थित नहि 
 #, kde-format
 msgid "Could not read %1"
 msgstr " %1 पढ़ि नहि सकल"
-
-#: ../kioslave/file/file_unix.cpp:231
-#, kde-format
-msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr "फाइल केँ %1 सँ %2 पर नकल नहि कए सकल. (त्रुटि क्र.: %3)"
-
-#: ../kioslave/file/file_unix.cpp:344
-#, kde-format
-msgid "No media in device for %1"
-msgstr "%1 क' लेल अओजार मे कोनो मीडिया नहि "
-
-#: ../kioslave/file/file_unix.cpp:613
-#, kde-format
-msgid "Could not get user id for given user name %1"
-msgstr "देल गेल प्रयोक्ता नाम %1 क' लेल प्रयोक्ता आईडी प्राप्त नहि कए सकल"
-
-#: ../kioslave/file/file_unix.cpp:626
-#, kde-format
-msgid "Could not get group id for given group name %1"
-msgstr "देल गेल समूह नाम %1 क' लेल समूह आईडी प्राप्त नहि कए सकल"
 
 #: ../kioslave/ftp/ftp.cpp:341
 #, kde-format
