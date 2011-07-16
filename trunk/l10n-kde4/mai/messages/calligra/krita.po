@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-15 03:46+0200\n"
+"POT-Creation-Date: 2011-07-16 03:38+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4204,7 +4204,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:1421 rc.cpp:3115
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:136
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:971
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:972
 msgid "Radius"
 msgstr "त्रिज्या"
 
@@ -11547,7 +11547,7 @@ msgid "Darken"
 msgstr "गहिर करू"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:931
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:932
 #, fuzzy
 #| msgid "Crop Image"
 msgid "Mirror"
@@ -11566,14 +11566,14 @@ msgid "Mirrored"
 msgstr "चित्र काटू"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:951
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:952
 #, fuzzy
 #| msgid "Horizontal:"
 msgid "Horizontally"
 msgstr "क्षैतिजः"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:953
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:954
 #, fuzzy
 #| msgid "Vertical:"
 msgid "Vertically"
@@ -12454,7 +12454,7 @@ msgid "Draw a path."
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:135
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:895
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:896
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
@@ -12463,17 +12463,17 @@ msgid "Smoothness:"
 msgstr "चिकना"
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:150
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:910
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:911
 msgid "Assistant:"
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:151
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:911
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:912
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:154
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:914
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:915
 msgid "Assistant Magnetism"
 msgstr ""
 
@@ -12508,40 +12508,6 @@ msgstr ""
 msgid "Draw a straight line with the current brush"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:109
-#: ui/tool/kis_tool_freehand.cc:90
-#, fuzzy
-#| msgid "Brushes"
-msgid "Increase Brush Size"
-msgstr "ब्रश"
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:114
-#: ui/tool/kis_tool_freehand.cc:95
-#, fuzzy
-#| msgid "Brushes"
-msgid "Decrease Brush Size"
-msgstr "ब्रश"
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:923
-msgid "Axis point"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:930
-msgid "Symmetry"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:932
-#, fuzzy
-#| msgid "Triangle"
-msgid "Translate"
-msgstr "त्रिभुज"
-
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:936
-#, fuzzy
-#| msgid "Brush"
-msgid "Brush count"
-msgstr "ब्रश"
-
 #: plugins/tools/defaulttools/kis_tool_multihand.h:221
 #, fuzzy
 #| msgid "Partial"
@@ -12553,6 +12519,12 @@ msgstr "आँशिक"
 #| msgid "Brush"
 msgid "MultiBrush"
 msgstr "ब्रश"
+
+#: plugins/tools/defaulttools/kis_tool_move.h:91
+#, fuzzy
+#| msgid "Move Layer"
+msgid "Move a layer"
+msgstr "परत घसकाबू"
 
 #: plugins/tools/defaulttools/kis_tool_fill.cc:207
 msgid "Threshold: "
@@ -12583,11 +12555,39 @@ msgid ""
 "the selected area"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:91
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:109
+#: ui/tool/kis_tool_freehand.cc:90
 #, fuzzy
-#| msgid "Move Layer"
-msgid "Move a layer"
-msgstr "परत घसकाबू"
+#| msgid "Brushes"
+msgid "Increase Brush Size"
+msgstr "ब्रश"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:114
+#: ui/tool/kis_tool_freehand.cc:95
+#, fuzzy
+#| msgid "Brushes"
+msgid "Decrease Brush Size"
+msgstr "ब्रश"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:924
+msgid "Axis point"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:931
+msgid "Symmetry"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:933
+#, fuzzy
+#| msgid "Triangle"
+msgid "Translate"
+msgstr "त्रिभुज"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:937
+#, fuzzy
+#| msgid "Brush"
+msgid "Brush count"
+msgstr "ब्रश"
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.h:74
 #, fuzzy
@@ -13885,11 +13885,11 @@ msgstr "खाली"
 msgid "No options"
 msgstr "विकल्प"
 
-#: ui/tool/kis_tool_paint.cc:89
+#: ui/tool/kis_tool_paint.cc:88
 msgid "Make Brush color lighter"
 msgstr ""
 
-#: ui/tool/kis_tool_paint.cc:94
+#: ui/tool/kis_tool_paint.cc:93
 msgid "Make Brush color darker"
 msgstr ""
 
