@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-16 04:24+0200\n"
+"POT-Creation-Date: 2011-07-17 04:25+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -330,14 +330,6 @@ msgstr ""
 msgid "Zoom"
 msgstr "जूम"
 
-#: flake/tools/KCreatePathTool.cpp:374
-msgid "Angle snapping delta"
-msgstr ""
-
-#: flake/tools/KCreatePathTool.cpp:379
-msgid "Angle Constraints"
-msgstr ""
-
 #: flake/tools/KCreatePathToolFactory.cpp:33
 msgid "Create Path"
 msgstr ""
@@ -347,6 +339,14 @@ msgstr ""
 #| msgid "Change"
 msgid "Change Segment"
 msgstr "बदलू"
+
+#: flake/tools/KCreatePathTool.cpp:374
+msgid "Angle snapping delta"
+msgstr ""
+
+#: flake/tools/KCreatePathTool.cpp:379
+msgid "Angle Constraints"
+msgstr ""
 
 #: kokross/KoScriptManagerAdd.cpp:52
 msgid ""
@@ -904,17 +904,17 @@ msgstr "खण्डन जोडू"
 msgid "Insert Row Above"
 msgstr "पृष्ठ जोडू"
 
-#: kotext/KoText.cpp:47
+#: kotext/KoText.cpp:45
 msgctxt "Underline Style"
 msgid "None"
 msgstr "किछु नहि"
 
-#: kotext/KoText.cpp:48
+#: kotext/KoText.cpp:46
 msgctxt "Underline Style"
 msgid "Single"
 msgstr "असगर"
 
-#: kotext/KoText.cpp:49
+#: kotext/KoText.cpp:47
 msgctxt "Underline Style"
 msgid "Double"
 msgstr "दुगुना"
@@ -1976,30 +1976,6 @@ msgstr ""
 msgid "&New View"
 msgstr ""
 
-#: main/rdf/KoRdfCalendarEvent.cpp:201
-msgid "Area"
-msgstr ""
-
-#: main/rdf/KoRdfCalendarEvent.cpp:202
-#, fuzzy
-#| msgid "Version"
-msgid "Region"
-msgstr "संस्करण"
-
-#: main/rdf/KoRdfCalendarEvent.cpp:453
-#, kde-format
-msgid ""
-"Could not add entry\n"
-"%1"
-msgstr ""
-
-#: main/rdf/KoRdfCalendarEvent.cpp:477
-#, kde-format
-msgid ""
-"Could not save iCal file\n"
-"%1"
-msgstr ""
-
 #: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:43
 msgid "Calendar Event"
 msgstr ""
@@ -2173,6 +2149,30 @@ msgstr ""
 
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:56
 msgid "Select the object you want to reference"
+msgstr ""
+
+#: main/rdf/KoRdfCalendarEvent.cpp:200
+msgid "Area"
+msgstr ""
+
+#: main/rdf/KoRdfCalendarEvent.cpp:201
+#, fuzzy
+#| msgid "Version"
+msgid "Region"
+msgstr "संस्करण"
+
+#: main/rdf/KoRdfCalendarEvent.cpp:452
+#, kde-format
+msgid ""
+"Could not add entry\n"
+"%1"
+msgstr ""
+
+#: main/rdf/KoRdfCalendarEvent.cpp:476
+#, kde-format
+msgid ""
+"Could not save iCal file\n"
+"%1"
 msgstr ""
 
 #: main/config/KoConfigDocumentPage.cpp:75
@@ -2624,16 +2624,6 @@ msgstr "गुणा"
 msgid "Alpha mask"
 msgstr ""
 
-#: pigment/colorspaces/KoAlphaColorSpace.h:138
-#: pigment/colorspaces/KoAlphaColorSpace.h:142
-#: pigment/colorspaces/KoAlphaColorSpace.h:146
-#: pigment/colorspaces/KoAlphaColorSpace.h:150
-#: pigment/colorspaces/KoAlphaColorSpace.h:154
-#: pigment/colorspaces/KoAlphaColorSpace.h:157
-#: pigment/colorspaces/KoAlphaColorSpace.h:160
-msgid "Undefined operation in the alpha color space"
-msgstr ""
-
 #: pigment/colorspaces/KoLabColorSpace.cpp:37
 #: pigment/colorspaces/KoLabColorSpace.h:72
 msgid "L*a*b* (16-bit integer/channel, unmanaged)"
@@ -2689,6 +2679,20 @@ msgstr ""
 msgid "Simple Color Conversion Engine"
 msgstr ""
 
+#: pigment/colorspaces/KoAlphaColorSpace.h:138
+#: pigment/colorspaces/KoAlphaColorSpace.h:142
+#: pigment/colorspaces/KoAlphaColorSpace.h:146
+#: pigment/colorspaces/KoAlphaColorSpace.h:150
+#: pigment/colorspaces/KoAlphaColorSpace.h:154
+#: pigment/colorspaces/KoAlphaColorSpace.h:157
+#: pigment/colorspaces/KoAlphaColorSpace.h:160
+msgid "Undefined operation in the alpha color space"
+msgstr ""
+
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
+msgid "Alpha darken"
+msgstr ""
+
 #: pigment/compositeops/KoCompositeOpBurn.h:36
 msgid "Burn"
 msgstr "लिखू"
@@ -2735,10 +2739,6 @@ msgstr "स्क्रीन"
 msgid "Soft light"
 msgstr "सीधा"
 
-#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
-msgid "Alpha darken"
-msgstr ""
-
 #: pigment/resources/KoStopGradient.cpp:421
 msgid "SVG Gradient"
 msgstr ""
@@ -2747,7 +2747,7 @@ msgstr ""
 msgid "Generic L*a*b* Histogram"
 msgstr ""
 
-#: widgets/KoColorPopupAction.cpp:85 widgets/KoUniColorChooser.cpp:418
+#: widgets/KoColorPopupAction.cpp:84 widgets/KoUniColorChooser.cpp:418
 msgid "Opacity"
 msgstr "अपारदर्शिता"
 
@@ -2937,7 +2937,7 @@ msgstr ""
 msgid "Opacity:"
 msgstr "अपारदर्शिताः"
 
-#: widgets/KoUniColorDialog.cpp:39
+#: widgets/KoUniColorDialog.cpp:40
 msgid "Color Selector"
 msgstr ""
 
