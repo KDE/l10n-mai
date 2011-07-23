@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-14 04:22+0200\n"
+"POT-Creation-Date: 2011-07-23 04:22+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -238,7 +238,7 @@ msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:136
 #. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
-#: part/SCView.cpp:75 rc.cpp:47
+#: part/SCView.cpp:75 rc.cpp:26
 msgid "Delete Slide"
 msgstr ""
 
@@ -370,14 +370,6 @@ msgstr ""
 msgid "Set Layout"
 msgstr ""
 
-#: part/tools/SCPageEffectDocker.cpp:56
-msgid "No Effect"
-msgstr "कोनो प्रभाव नहि"
-
-#: part/tools/SCPageEffectDocker.cpp:79
-msgid " sec"
-msgstr " sec"
-
 #: part/tools/SCAnimationTool.cpp:85
 msgid "Transitions"
 msgstr "संक्रमण"
@@ -405,6 +397,14 @@ msgstr ""
 #: part/tools/SCPlaceholderToolFactory.cpp:28
 msgid "Layout Tool"
 msgstr ""
+
+#: part/tools/SCPageEffectDocker.cpp:57
+msgid "No Effect"
+msgstr "कोनो प्रभाव नहि"
+
+#: part/tools/SCPageEffectDocker.cpp:80
+msgid " sec"
+msgstr " sec"
 
 #: part/ui/SCConfigurePresenterViewDialog.cpp:42
 #, kde-format
@@ -460,7 +460,7 @@ msgstr ""
 
 #. i18n: file: part/ui/SCConfigureSlideShow.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, SCConfigureSlideShow)
-#: part/ui/SCConfigureSlideShowDialog.cpp:46 rc.cpp:14
+#: part/ui/SCConfigureSlideShowDialog.cpp:46 rc.cpp:47
 msgid "Configure Slide Show"
 msgstr ""
 
@@ -1492,101 +1492,101 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: file: part/ui/SCConfigurePresenterView.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:5
-msgid "Multiple monitors"
-msgstr "बहुल मानिटर"
-
-#. i18n: file: part/ui/SCConfigurePresenterView.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:8
-msgid "Presentation monitor:"
-msgstr ""
-
-#. i18n: file: part/ui/SCConfigurePresenterView.ui:39
-#. i18n: ectx: property (text), widget (QCheckBox, presenterViewCheckBox)
-#: rc.cpp:11
-msgid "Enable presenter view"
-msgstr ""
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:17
-msgid "Slides"
-msgstr "स्लाइड"
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:27
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:20
-msgid "Presentation Slides:"
-msgstr ""
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:54
-#. i18n: ectx: property (text), widget (QPushButton, editSlidesButton)
-#: rc.cpp:23
-msgid "Edit Custom Slide Shows ..."
-msgstr ""
-
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:22
 #. i18n: ectx: property (windowTitle), widget (QWidget, CustomSlideShowsWidget)
-#: rc.cpp:26
+#: rc.cpp:5
 msgid "Custom Slideshows editor"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:29
+#: rc.cpp:8
 msgid "Customs Slideshows"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:59
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:32
+#: rc.cpp:11
 msgid "Add new slideshow"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:66
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:35
+#: rc.cpp:14
 msgid "Delete slideshow"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:75
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:38
+#: rc.cpp:17
 msgid "Available Slides"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:106
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:41
+#: rc.cpp:20
 msgid "Current Slideshow:"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:129
 #. i18n: ectx: property (text), widget (QPushButton, addSlideButton)
-#: rc.cpp:44
+#: rc.cpp:23
 msgid "Add Slide"
 msgstr ""
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:182
 #. i18n: ectx: property (text), widget (QPushButton, undoButton)
-#: rc.cpp:50
+#: rc.cpp:29
 msgid "Undo"
 msgstr "अनावृत्ति"
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:189
 #. i18n: ectx: property (text), widget (QPushButton, okButton)
-#: rc.cpp:53
+#: rc.cpp:32
 msgid "Ok"
 msgstr "ठीक"
 
 #. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:196
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: rc.cpp:56
+#: rc.cpp:35
 msgid "Close"
 msgstr "बन्न करू"
+
+#. i18n: file: part/ui/SCConfigurePresenterView.ui:16
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:38
+msgid "Multiple monitors"
+msgstr "बहुल मानिटर"
+
+#. i18n: file: part/ui/SCConfigurePresenterView.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:41
+msgid "Presentation monitor:"
+msgstr ""
+
+#. i18n: file: part/ui/SCConfigurePresenterView.ui:39
+#. i18n: ectx: property (text), widget (QCheckBox, presenterViewCheckBox)
+#: rc.cpp:44
+msgid "Enable presenter view"
+msgstr ""
+
+#. i18n: file: part/ui/SCConfigureSlideShow.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:50
+msgid "Slides"
+msgstr "स्लाइड"
+
+#. i18n: file: part/ui/SCConfigureSlideShow.ui:27
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:53
+msgid "Presentation Slides:"
+msgstr ""
+
+#. i18n: file: part/ui/SCConfigureSlideShow.ui:54
+#. i18n: ectx: property (text), widget (QPushButton, editSlidesButton)
+#: rc.cpp:56
+msgid "Edit Custom Slide Shows ..."
+msgstr ""
 
 #. i18n: file: part/ui/SCHtmlExport.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, SCHtmlExport)
