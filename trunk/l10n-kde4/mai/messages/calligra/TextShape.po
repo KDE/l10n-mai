@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-19 03:55+0200\n"
+"POT-Creation-Date: 2011-07-28 03:42+0200\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -53,6 +53,13 @@ msgctxt "(qtundo-format)"
 msgid "Paste"
 msgstr "मेटाबू"
 
+#: commands/ChangeListCommand.cpp:83 commands/ChangeListCommand.cpp:96
+#, fuzzy
+#| msgid "Record"
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "लेखा"
+
 #: commands/AcceptChangeCommand.cpp:45
 #, fuzzy
 #| msgid "Record"
@@ -89,13 +96,6 @@ msgstr ""
 msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
 msgid "%1 Shrink To Fit"
 msgstr ""
-
-#: commands/ChangeListCommand.cpp:79 commands/ChangeListCommand.cpp:92
-#, fuzzy
-#| msgid "Record"
-msgctxt "(qtundo-format)"
-msgid "Change List"
-msgstr "लेखा"
 
 #: commands/ChangeListLevelCommand.cpp:42
 msgctxt "(qtundo-format)"
@@ -139,21 +139,6 @@ msgstr "लेखा"
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "पसंदीदा"
-
-#: dialogs/SimpleParagraphWidget.cpp:149
-msgctxt "Short for LeftToRight"
-msgid "LTR"
-msgstr "LTR"
-
-#: dialogs/SimpleParagraphWidget.cpp:152
-msgctxt "Short for RightToLeft"
-msgid "RTL"
-msgstr "RTL"
-
-#: dialogs/SimpleParagraphWidget.cpp:156
-msgctxt "Automatic direction detection"
-msgid "Auto"
-msgstr "स्वचालित"
 
 #: dialogs/CharacterGeneral.cpp:57 dialogs/FormattingPreview.cpp:49
 #: dialogs/FontDia.cpp:103
@@ -243,32 +228,6 @@ msgstr "अनुच्छेद स्टाइल"
 msgid "Insert a table"
 msgstr "जोडू"
 
-#: dialogs/FontDia.cpp:80
-msgid "Select Font"
-msgstr "फोन्ट चुनू"
-
-#: dialogs/StyleManagerDialog.cpp:29
-msgid "Style Manager"
-msgstr ""
-
-#: dialogs/TableDialog.cpp:27
-#, fuzzy
-#| msgid "Insert"
-msgid "Insert Table"
-msgstr "जोडू"
-
-#: dialogs/ChangeConfigureDialog.cpp:148
-msgid "This is a line of inserted text."
-msgstr ""
-
-#: dialogs/ChangeConfigureDialog.cpp:154
-msgid "This is a line of deleted text."
-msgstr ""
-
-#: dialogs/ChangeConfigureDialog.cpp:160
-msgid "This is a line of text whose format has been changed."
-msgstr ""
-
 #: dialogs/ParagraphBulletsNumbers.cpp:38
 msgid "Custom Bullet"
 msgstr ""
@@ -311,6 +270,47 @@ msgstr ""
 msgctxt "None"
 msgid "Nothing"
 msgstr ""
+
+#: dialogs/FontDia.cpp:80
+msgid "Select Font"
+msgstr "फोन्ट चुनू"
+
+#: dialogs/StyleManagerDialog.cpp:29
+msgid "Style Manager"
+msgstr ""
+
+#: dialogs/TableDialog.cpp:27
+#, fuzzy
+#| msgid "Insert"
+msgid "Insert Table"
+msgstr "जोडू"
+
+#: dialogs/ChangeConfigureDialog.cpp:148
+msgid "This is a line of inserted text."
+msgstr ""
+
+#: dialogs/ChangeConfigureDialog.cpp:154
+msgid "This is a line of deleted text."
+msgstr ""
+
+#: dialogs/ChangeConfigureDialog.cpp:160
+msgid "This is a line of text whose format has been changed."
+msgstr ""
+
+#: dialogs/SimpleParagraphWidget.cpp:149
+msgctxt "Short for LeftToRight"
+msgid "LTR"
+msgstr "LTR"
+
+#: dialogs/SimpleParagraphWidget.cpp:152
+msgctxt "Short for RightToLeft"
+msgid "RTL"
+msgstr "RTL"
+
+#: dialogs/SimpleParagraphWidget.cpp:156
+msgctxt "Automatic direction detection"
+msgid "Auto"
+msgstr "स्वचालित"
 
 #: ReferencesToolFactory.cpp:31
 msgid "References tool"
