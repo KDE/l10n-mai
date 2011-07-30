@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 03:41+0200\n"
+"POT-Creation-Date: 2011-07-30 03:40+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -64,7 +64,7 @@ msgctxt "(qtundo-format)"
 msgid "Paste Shapes"
 msgstr ""
 
-#: flake/KoToolBase.cpp:197 main/KoToolDocker.cpp:198
+#: flake/KoToolBase.cpp:198 main/KoToolDocker.cpp:198
 msgid "Tool Options"
 msgstr "अओजार विकल्प"
 
@@ -1483,6 +1483,52 @@ msgstr[1] ""
 msgid "Replace %1 with %2?"
 msgstr ""
 
+#: kotext/commands/DeleteTableColumnCommand.cpp:40
+#, fuzzy
+#| msgid "Delete"
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr "मेटाबू"
+
+#: kotext/commands/DeleteTableRowCommand.cpp:40
+#, fuzzy
+#| msgid "Delete"
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr "मेटाबू"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Index"
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr "अनुक्रमणिका जोडू"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:44
+#, fuzzy
+#| msgid "Insert Index"
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr "अनुक्रमणिका जोडू"
+
+#: kotext/commands/InsertTableRowCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Break"
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr "खण्डन जोडू"
+
+#: kotext/commands/InsertTableRowCommand.cpp:44
+#, fuzzy
+#| msgid "Insert page"
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
+msgstr "पृष्ठ जोडू"
+
+#: kotext/styles/KoStyleManager.cpp:88
+msgid "Default"
+msgstr "मूलभूत"
+
 #: kotext/KoTextEditor.cpp:113
 #, fuzzy
 #| msgid "Text"
@@ -1636,52 +1682,6 @@ msgstr "पृष्ठ जोडू"
 #| msgid "Insert Break"
 msgid "Line Break"
 msgstr "खण्डन जोडू"
-
-#: kotext/commands/DeleteTableColumnCommand.cpp:40
-#, fuzzy
-#| msgid "Delete"
-msgctxt "(qtundo-format)"
-msgid "Delete Column"
-msgstr "मेटाबू"
-
-#: kotext/commands/DeleteTableRowCommand.cpp:40
-#, fuzzy
-#| msgid "Delete"
-msgctxt "(qtundo-format)"
-msgid "Delete Row"
-msgstr "मेटाबू"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:42
-#, fuzzy
-#| msgid "Insert Index"
-msgctxt "(qtundo-format)"
-msgid "Insert Column Right"
-msgstr "अनुक्रमणिका जोडू"
-
-#: kotext/commands/InsertTableColumnCommand.cpp:44
-#, fuzzy
-#| msgid "Insert Index"
-msgctxt "(qtundo-format)"
-msgid "Insert Column Left"
-msgstr "अनुक्रमणिका जोडू"
-
-#: kotext/commands/InsertTableRowCommand.cpp:42
-#, fuzzy
-#| msgid "Insert Break"
-msgctxt "(qtundo-format)"
-msgid "Insert Row Below"
-msgstr "खण्डन जोडू"
-
-#: kotext/commands/InsertTableRowCommand.cpp:44
-#, fuzzy
-#| msgid "Insert page"
-msgctxt "(qtundo-format)"
-msgid "Insert Row Above"
-msgstr "पृष्ठ जोडू"
-
-#: kotext/styles/KoStyleManager.cpp:88
-msgid "Default"
-msgstr "मूलभूत"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:147
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
