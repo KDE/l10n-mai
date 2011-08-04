@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:20+0200\n"
+"POT-Creation-Date: 2011-08-04 03:00+0200\n"
 "PO-Revision-Date: 2010-09-24 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -5647,27 +5647,6 @@ msgctxt "@title:window"
 msgid "Print"
 msgstr "छपाइ"
 
-#: kdeui/dialogs/kdialog.cpp:250
-msgid "&Try"
-msgstr "कोसिस करू (&T)"
-
-#: kdeui/dialogs/kdialog.cpp:452
-msgid "modified"
-msgstr "परिवर्धित"
-
-#: kdeui/dialogs/kdialog.cpp:462
-msgctxt "Document/application separator in titlebar"
-msgid " – "
-msgstr " – "
-
-#: kdeui/dialogs/kdialog.cpp:833
-msgid "&Details"
-msgstr "विवरण (&D)"
-
-#: kdeui/dialogs/kdialog.cpp:985
-msgid "Get help..."
-msgstr "मद्दति लिअ'..."
-
 #: kdeui/dialogs/kedittoolbar.cpp:58
 msgid "--- separator ---"
 msgstr "--- सेपरेटर ---"
@@ -6384,6 +6363,27 @@ msgstr ""
 msgctxt "@item Contributor name in about dialog."
 msgid "%1"
 msgstr "%1"
+
+#: kdeui/dialogs/kdialog.cpp:250
+msgid "&Try"
+msgstr "कोसिस करू (&T)"
+
+#: kdeui/dialogs/kdialog.cpp:452
+msgid "modified"
+msgstr "परिवर्धित"
+
+#: kdeui/dialogs/kdialog.cpp:462
+msgctxt "Document/application separator in titlebar"
+msgid " – "
+msgstr " – "
+
+#: kdeui/dialogs/kdialog.cpp:833
+msgid "&Details"
+msgstr "विवरण (&D)"
+
+#: kdeui/dialogs/kdialog.cpp:986
+msgid "Get help..."
+msgstr "मद्दति लिअ'..."
 
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
@@ -7114,31 +7114,31 @@ msgstr "जँ फ़ाइंडर केर द्वारा चालू �
 msgid "Unknown Application"
 msgstr "केडीइ अनुप्रयोग"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:419
-#: kdeui/notifications/kstatusnotifieritem.cpp:857
+#: kdeui/notifications/ksystemtrayicon.cpp:156
+msgid "Minimize"
+msgstr "छोट करू"
+
 #: kdeui/notifications/ksystemtrayicon.cpp:215
+#: kdeui/notifications/kstatusnotifieritem.cpp:487
+#: kdeui/notifications/kstatusnotifieritem.cpp:925
 msgid "&Minimize"
 msgstr "न्यूनतम (&M)"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:855
 #: kdeui/notifications/ksystemtrayicon.cpp:219
+#: kdeui/notifications/kstatusnotifieritem.cpp:923
 msgid "&Restore"
 msgstr "घुराबू (&R)"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:865
 #: kdeui/notifications/ksystemtrayicon.cpp:239
+#: kdeui/notifications/kstatusnotifieritem.cpp:933
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>की अहाँ सुनिश्चित छी जे अहाँ <b>%1</b> सँ बाहर जएनाइ चाहैत छी?</qt>"
 
-#: kdeui/notifications/kstatusnotifieritem.cpp:868
 #: kdeui/notifications/ksystemtrayicon.cpp:242
+#: kdeui/notifications/kstatusnotifieritem.cpp:936
 msgid "Confirm Quit From System Tray"
 msgstr "तंत्र तश्तरी सँ बाहर जाए कए पुष्टि करू"
-
-#: kdeui/notifications/ksystemtrayicon.cpp:156
-msgid "Minimize"
-msgstr "छोट करू"
 
 #: kdeui/shortcuts/kcheckaccelerators.cpp:209
 msgctxt "@title:window"
@@ -8798,11 +8798,11 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr "विशेष"
 
-#: kdeui/widgets/kcharselect.cpp:336 kdeui/widgets/kcharselect.cpp:338
+#: kdeui/widgets/kcharselect.cpp:339 kdeui/widgets/kcharselect.cpp:341
 msgid "Enter a search term or character here"
 msgstr "ढूँढल जाए बला वाक्यांश एतए भरू"
 
-#: kdeui/widgets/kcharselect.cpp:356
+#: kdeui/widgets/kcharselect.cpp:359
 #, fuzzy
 #| msgctxt "@action"
 #| msgid "Previous Item in List"
@@ -8810,136 +8810,136 @@ msgctxt "Goes to previous character"
 msgid "Previous in History"
 msgstr "सूची मे पछिला वस्तु"
 
-#: kdeui/widgets/kcharselect.cpp:358
+#: kdeui/widgets/kcharselect.cpp:361
 msgid "Previous Character in History"
 msgstr "इतिहास मे पछिला अध्याय"
 
-#: kdeui/widgets/kcharselect.cpp:363
+#: kdeui/widgets/kcharselect.cpp:366
 msgctxt "Goes to next character"
 msgid "Next in History"
 msgstr "इतिहास मे अगिला"
 
-#: kdeui/widgets/kcharselect.cpp:365
+#: kdeui/widgets/kcharselect.cpp:368
 msgid "Next Character in History"
 msgstr "इतिहास मे अगिला वर्ण"
 
-#: kdeui/widgets/kcharselect.cpp:373
+#: kdeui/widgets/kcharselect.cpp:376
 msgid "Select a category"
 msgstr "एकटा वर्ग चुनू"
 
-#: kdeui/widgets/kcharselect.cpp:376
+#: kdeui/widgets/kcharselect.cpp:379
 msgid "Select a block to be displayed"
 msgstr "देखाबै क' लेल ब्लाक चुनू"
 
-#: kdeui/widgets/kcharselect.cpp:389
+#: kdeui/widgets/kcharselect.cpp:392
 msgid "Set font"
 msgstr "फौन्ट सेट करु"
 
-#: kdeui/widgets/kcharselect.cpp:396
+#: kdeui/widgets/kcharselect.cpp:399
 msgid "Set font size"
 msgstr "फौन्ट आकार सेट करु"
 
-#: kdeui/widgets/kcharselect.cpp:627
+#: kdeui/widgets/kcharselect.cpp:630
 msgid "Character:"
 msgstr "अक्षर:"
 
-#: kdeui/widgets/kcharselect.cpp:633
+#: kdeui/widgets/kcharselect.cpp:636
 msgid "Name: "
 msgstr "नामः"
 
-#: kdeui/widgets/kcharselect.cpp:641
+#: kdeui/widgets/kcharselect.cpp:644
 msgid "Annotations and Cross References"
 msgstr "एनोटेशन्स आओर प्रति संदर्भ"
 
-#: kdeui/widgets/kcharselect.cpp:645
+#: kdeui/widgets/kcharselect.cpp:648
 msgid "Alias names:"
 msgstr "अलियास नामः"
 
-#: kdeui/widgets/kcharselect.cpp:653
+#: kdeui/widgets/kcharselect.cpp:656
 msgid "Notes:"
 msgstr "टिप्पणीसभ:"
 
-#: kdeui/widgets/kcharselect.cpp:661
+#: kdeui/widgets/kcharselect.cpp:664
 msgid "See also:"
 msgstr "एकरो देखू:"
 
-#: kdeui/widgets/kcharselect.cpp:673
+#: kdeui/widgets/kcharselect.cpp:676
 msgid "Equivalents:"
 msgstr "समतुल्य:"
 
-#: kdeui/widgets/kcharselect.cpp:681
+#: kdeui/widgets/kcharselect.cpp:684
 msgid "Approximate equivalents:"
 msgstr "सन्निकट समतुल्यता:"
 
-#: kdeui/widgets/kcharselect.cpp:690
+#: kdeui/widgets/kcharselect.cpp:693
 msgid "CJK Ideograph Information"
 msgstr "सीजेके आइडियोग्राफ जानकारी"
 
-#: kdeui/widgets/kcharselect.cpp:693
+#: kdeui/widgets/kcharselect.cpp:696
 msgid "Definition in English: "
 msgstr "अंग्रेजी मे परिभाषा:"
 
-#: kdeui/widgets/kcharselect.cpp:698
+#: kdeui/widgets/kcharselect.cpp:701
 msgid "Mandarin Pronunciation: "
 msgstr "केंटोनियाई उच्चारण:"
 
-#: kdeui/widgets/kcharselect.cpp:703
+#: kdeui/widgets/kcharselect.cpp:706
 msgid "Cantonese Pronunciation: "
 msgstr "कैंटोनी उच्चारण:"
 
-#: kdeui/widgets/kcharselect.cpp:708
+#: kdeui/widgets/kcharselect.cpp:711
 msgid "Japanese On Pronunciation: "
 msgstr "जापानी ऑन उच्चारण:"
 
-#: kdeui/widgets/kcharselect.cpp:713
+#: kdeui/widgets/kcharselect.cpp:716
 msgid "Japanese Kun Pronunciation: "
 msgstr "जापानी कुन उच्चारण:"
 
-#: kdeui/widgets/kcharselect.cpp:718
+#: kdeui/widgets/kcharselect.cpp:721
 msgid "Tang Pronunciation: "
 msgstr "टैंग उच्चारण:"
 
-#: kdeui/widgets/kcharselect.cpp:723
+#: kdeui/widgets/kcharselect.cpp:726
 msgid "Korean Pronunciation: "
 msgstr "कोरियाई उच्चारण:"
 
-#: kdeui/widgets/kcharselect.cpp:729
+#: kdeui/widgets/kcharselect.cpp:732
 msgid "General Character Properties"
 msgstr "सामान्य अक्षर गुण"
 
-#: kdeui/widgets/kcharselect.cpp:730
+#: kdeui/widgets/kcharselect.cpp:733
 msgid "Block: "
 msgstr "ब्लॉक:"
 
-#: kdeui/widgets/kcharselect.cpp:731
+#: kdeui/widgets/kcharselect.cpp:734
 msgid "Unicode category: "
 msgstr "यूनिकोड वर्गः"
 
-#: kdeui/widgets/kcharselect.cpp:735
+#: kdeui/widgets/kcharselect.cpp:738
 msgid "Various Useful Representations"
 msgstr "विविध उपयोगी प्रतिनिधित्व"
 
-#: kdeui/widgets/kcharselect.cpp:736
+#: kdeui/widgets/kcharselect.cpp:739
 msgid "UTF-8:"
 msgstr "यूटीएफ़-8:"
 
-#: kdeui/widgets/kcharselect.cpp:739
+#: kdeui/widgets/kcharselect.cpp:742
 msgid "UTF-16: "
 msgstr "यूटीएफ़-16"
 
-#: kdeui/widgets/kcharselect.cpp:740
+#: kdeui/widgets/kcharselect.cpp:743
 msgid "C octal escaped UTF-8: "
 msgstr "सी ऑक्टल एस्केप्ड यूटीएफ-8:"
 
-#: kdeui/widgets/kcharselect.cpp:743
+#: kdeui/widgets/kcharselect.cpp:746
 msgid "XML decimal entity:"
 msgstr "XML दशमलव एंटिटी:"
 
-#: kdeui/widgets/kcharselect.cpp:872
+#: kdeui/widgets/kcharselect.cpp:875
 msgid "Unicode code point:"
 msgstr "यूनिकोड वर्ग बिंदु:"
 
-#: kdeui/widgets/kcharselect.cpp:873
+#: kdeui/widgets/kcharselect.cpp:876
 msgctxt "Character"
 msgid "In decimal:"
 msgstr "दशमलव मे:"

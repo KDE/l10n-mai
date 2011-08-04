@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:15+0200\n"
+"POT-Creation-Date: 2011-08-04 02:41+0200\n"
 "PO-Revision-Date: 2010-09-24 20:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1464,6 +1464,23 @@ msgstr ""
 msgid "Session Renaming"
 msgstr ""
 
+#: app/kateviewspace.cpp:256 app/kateviewspace.cpp:361
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr "पंक्ति: %1 स्तम्भ: %2 "
+
+#: app/kateviewspace.cpp:270
+msgid " INS "
+msgstr "प्रविष्ट "
+
+#: app/kateviewspace.cpp:275 app/kateviewspace.cpp:370
+msgid " LINE "
+msgstr " लाइन"
+
+#: app/kateviewspace.cpp:370
+msgid " BLOCK "
+msgstr " ब्लाक"
+
 #: app/kateviewmanager.cpp:120
 msgid "Split Ve&rtical"
 msgstr ""
@@ -1485,8 +1502,10 @@ msgid "Cl&ose Current View"
 msgstr ""
 
 #: app/kateviewmanager.cpp:140
-msgid "Close the currently active splitted view"
-msgstr ""
+#, fuzzy
+#| msgid "Close the current document."
+msgid "Close the currently active split view"
+msgstr "मोजुदा विंडो बन्न करू"
 
 #: app/kateviewmanager.cpp:143
 msgid "Next Split View"
@@ -1539,23 +1558,6 @@ msgstr ""
 #: app/kateviewmanager.cpp:207
 msgid "Open File"
 msgstr "फाइल खोलू"
-
-#: app/kateviewspace.cpp:256 app/kateviewspace.cpp:361
-#, kde-format
-msgid " Line: %1 Col: %2 "
-msgstr "पंक्ति: %1 स्तम्भ: %2 "
-
-#: app/kateviewspace.cpp:270
-msgid " INS "
-msgstr "प्रविष्ट "
-
-#: app/kateviewspace.cpp:275 app/kateviewspace.cpp:370
-msgid " LINE "
-msgstr " लाइन"
-
-#: app/kateviewspace.cpp:370
-msgid " BLOCK "
-msgstr " ब्लाक"
 
 #: plugins/filetree/katefiletree.cpp:50
 msgid "Close"

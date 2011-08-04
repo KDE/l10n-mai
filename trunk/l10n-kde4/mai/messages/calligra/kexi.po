@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 17:50+0200\n"
+"POT-Creation-Date: 2011-08-04 02:20+0200\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -48,54 +48,6 @@ msgid ""
 "column is used for sorting."
 msgstr ""
 
-#: core/KexiView.cpp:66
-msgid "Switch to data view"
-msgstr ""
-
-#: core/KexiView.cpp:67
-msgid "Switches to data view."
-msgstr ""
-
-#: core/KexiView.cpp:70
-msgid "Switch to design view"
-msgstr ""
-
-#: core/KexiView.cpp:71
-msgid "Switches to design view."
-msgstr ""
-
-#: core/KexiView.cpp:74
-msgid "Switch to text view"
-msgstr ""
-
-#: core/KexiView.cpp:75
-msgid "Switches to text view."
-msgstr ""
-
-#: core/KexiView.cpp:232
-msgid "Save"
-msgstr "सहेजू"
-
-#: core/KexiView.cpp:233
-msgid "Save current design"
-msgstr ""
-
-#: core/KexiView.cpp:234
-msgid "Saves changes made to the current design."
-msgstr ""
-
-#: core/KexiView.cpp:580
-msgid "Show:"
-msgstr "देखाबू:"
-
-#: core/KexiView.cpp:591 main/KexiMainWindow_p.h:198
-msgid "Data"
-msgstr "आँकड़ा"
-
-#: core/KexiView.cpp:602
-msgid "Design"
-msgstr "डिजायन"
-
 #: core/kexicontexthelp.cpp:34 core/KoContextHelp.cpp:518
 #: core/KoContextHelp.cpp:550 core/KoContextHelp.cpp:560
 #: core/KoContextHelp.cpp:579 core/KoContextHelp.cpp:591
@@ -131,21 +83,45 @@ msgctxt "database connection"
 msgid "(connection %1)"
 msgstr ""
 
-#: core/KexiWindow.cpp:612
+#: core/KexiWindow.cpp:608 widget/kexidbconnectionwidget.cpp:89
+msgid "Save Changes"
+msgstr "बदलाव सहेजू"
+
+#: core/KexiWindow.cpp:611
+#, fuzzy
+#| msgctxt "Do Not Add Database Primary Key to a Table"
+#| msgid "Do Not Add"
+msgid "Do Not Switch"
+msgstr "जोडू नहि"
+
+#: core/KexiWindow.cpp:614
+#, kde-format
+msgid ""
+"There are unsaved changes in object \"%1\". Do you want to save these "
+"changes before switching to other view?"
+msgstr ""
+
+#: core/KexiWindow.cpp:617
+#, fuzzy
+#| msgid "Save Changes"
+msgid "Confirm Saving Changes"
+msgstr "बदलाव सहेजू"
+
+#: core/KexiWindow.cpp:638
 msgid ""
 "Design has been changed. You must save it before switching to other view."
 msgstr ""
 
-#: core/KexiWindow.cpp:677 main/KexiMainWindow.cpp:3582
+#: core/KexiWindow.cpp:703 main/KexiMainWindow.cpp:3582
 #, kde-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: core/KexiWindow.cpp:859
+#: core/KexiWindow.cpp:885
 msgid "Saving object's definition failed."
 msgstr ""
 
-#: core/KexiWindow.cpp:943
+#: core/KexiWindow.cpp:969
 msgid "Saving object's data failed."
 msgstr ""
 
@@ -771,6 +747,54 @@ msgstr ""
 #, kde-format
 msgid "\"%1\" function is not available for version %2 of %3 application."
 msgstr ""
+
+#: core/KexiView.cpp:66
+msgid "Switch to data view"
+msgstr ""
+
+#: core/KexiView.cpp:67
+msgid "Switches to data view."
+msgstr ""
+
+#: core/KexiView.cpp:70
+msgid "Switch to design view"
+msgstr ""
+
+#: core/KexiView.cpp:71
+msgid "Switches to design view."
+msgstr ""
+
+#: core/KexiView.cpp:74
+msgid "Switch to text view"
+msgstr ""
+
+#: core/KexiView.cpp:75
+msgid "Switches to text view."
+msgstr ""
+
+#: core/KexiView.cpp:232
+msgid "Save"
+msgstr "सहेजू"
+
+#: core/KexiView.cpp:233
+msgid "Save current design"
+msgstr ""
+
+#: core/KexiView.cpp:234
+msgid "Saves changes made to the current design."
+msgstr ""
+
+#: core/KexiView.cpp:595
+msgid "Show:"
+msgstr "देखाबू:"
+
+#: core/KexiView.cpp:606 main/KexiMainWindow_p.h:198
+msgid "Data"
+msgstr "आँकड़ा"
+
+#: core/KexiView.cpp:617
+msgid "Design"
+msgstr "डिजायन"
 
 #: formeditor/WidgetTreeWidget.cpp:96 formeditor/commands.cpp:2217
 #: main/printing/kexisimpleprintingengine.cpp:326
@@ -7011,10 +7035,6 @@ msgid ""
 "\" combo box."
 msgstr ""
 
-#: widget/kexidbconnectionwidget.cpp:89
-msgid "Save Changes"
-msgstr "बदलाव सहेजू"
-
 #: widget/kexidbconnectionwidget.cpp:90
 msgid "Save all changes made to this connection information"
 msgstr ""
@@ -7210,22 +7230,60 @@ msgstr ""
 msgid "Click to show available actions for this cell"
 msgstr ""
 
+#: widget/tableview/kexitableviewdata.cpp:596
+#: widget/tableview/kexitableviewdata.cpp:607
+#, kde-format
+msgid "\"%1\" column requires a value to be entered."
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:598
+#: widget/tableview/kexidataawareobjectiface.cpp:949
+msgid "The column's constraint is declared as NOT NULL."
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:609
+#: widget/tableview/kexidataawareobjectiface.cpp:968
+msgid "The column's constraint is declared as NOT EMPTY."
+msgstr ""
+
+#: widget/tableview/kexitableviewdata.cpp:620
+#, fuzzy
+#| msgid "Open Database"
+msgid "Record inserting failed."
+msgstr "डाटाबेस खोलू"
+
+#: widget/tableview/kexitableviewdata.cpp:638
+#, fuzzy
+#| msgid "Open Database"
+msgid "Record changing failed."
+msgstr "डाटाबेस खोलू"
+
+#: widget/tableview/kexitableviewdata.cpp:706
+msgid "Record deleting failed."
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:120
+msgid "Contains a pointer to the currently selected record"
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:122
+msgid "Record navigator"
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:242
+msgid "Add Record"
+msgstr ""
+
+#: widget/tableview/kexitableview.cpp:245
+msgid "Remove Record"
+msgstr ""
+
 #: widget/tableview/kexidataawareobjectiface.cpp:933
 #, fuzzy, kde-format
 #| msgid "Error: %1"
 msgctxt "Question"
 msgid "Error: %1?"
 msgstr "त्रुटि: %1"
-
-#: widget/tableview/kexidataawareobjectiface.cpp:949
-#: widget/tableview/kexitableviewdata.cpp:598
-msgid "The column's constraint is declared as NOT NULL."
-msgstr ""
-
-#: widget/tableview/kexidataawareobjectiface.cpp:968
-#: widget/tableview/kexitableviewdata.cpp:609
-msgid "The column's constraint is declared as NOT EMPTY."
-msgstr ""
 
 #: widget/tableview/kexidataawareobjectiface.cpp:983
 msgid "The column's constraint is declared as NOT EMPTY and NOT NULL."
@@ -7267,44 +7325,6 @@ msgstr ""
 
 #: widget/tableview/kexidataawareobjectiface.cpp:1851
 msgid "Discard Changes"
-msgstr ""
-
-#: widget/tableview/kexitableviewdata.cpp:596
-#: widget/tableview/kexitableviewdata.cpp:607
-#, kde-format
-msgid "\"%1\" column requires a value to be entered."
-msgstr ""
-
-#: widget/tableview/kexitableviewdata.cpp:620
-#, fuzzy
-#| msgid "Open Database"
-msgid "Record inserting failed."
-msgstr "डाटाबेस खोलू"
-
-#: widget/tableview/kexitableviewdata.cpp:638
-#, fuzzy
-#| msgid "Open Database"
-msgid "Record changing failed."
-msgstr "डाटाबेस खोलू"
-
-#: widget/tableview/kexitableviewdata.cpp:706
-msgid "Record deleting failed."
-msgstr ""
-
-#: widget/tableview/kexitableview.cpp:120
-msgid "Contains a pointer to the currently selected record"
-msgstr ""
-
-#: widget/tableview/kexitableview.cpp:122
-msgid "Record navigator"
-msgstr ""
-
-#: widget/tableview/kexitableview.cpp:242
-msgid "Add Record"
-msgstr ""
-
-#: widget/tableview/kexitableview.cpp:245
-msgid "Remove Record"
 msgstr ""
 
 #: widget/utils/kexidatetimeformatter.cpp:303
