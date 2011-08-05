@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2011-08-05 03:42+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -47,6 +47,17 @@ msgctxt ""
 msgid "Customizing Index Folders"
 msgstr "स्ट्रिगी निर्देशिका फोल्डर"
 
+#: statuswidget.cpp:100
+msgid "Calculation failed"
+msgstr "गिनती विफल"
+
+#: statuswidget.cpp:111
+#, kde-format
+msgid "1 file in index"
+msgid_plural "%1 files in index"
+msgstr[0] "1 फाइल सूचीमे"
+msgstr[1] "%1 फाइल सूचीमे"
+
 #: nepomukserverkcm.cpp:95
 msgctxt "'Home' as in 'Home path', i.e. /home/username"
 msgid "Home"
@@ -61,49 +72,44 @@ msgstr ""
 msgid "some subfolders excluded"
 msgstr ""
 
-#: nepomukserverkcm.cpp:142
+#: nepomukserverkcm.cpp:139
 #, fuzzy
 #| msgid "Nepomuk Configuration Module"
 msgid "Desktop Search Configuration Module"
 msgstr "नेपोमक कान्फिगरेशन मोड्यूल"
 
-#: nepomukserverkcm.cpp:144
+#: nepomukserverkcm.cpp:141
 #, fuzzy
 #| msgid "Copyright 2007 Sebastian Trüg"
 msgid "Copyright 2007-2010 Sebastian Trüg"
 msgstr "सर्वाधिकार 2007 सेबेस्तिएन त्रुग"
 
-#: nepomukserverkcm.cpp:145
+#: nepomukserverkcm.cpp:142
 msgid "Sebastian Trüg"
 msgstr "सेबेस्तियन त्रुग"
 
-#: nepomukserverkcm.cpp:197
+#: nepomukserverkcm.cpp:194
 msgctxt "@item:inlistbox"
 msgid "Disable Automatic Backups"
 msgstr ""
 
-#: nepomukserverkcm.cpp:198
+#: nepomukserverkcm.cpp:195
 msgctxt "@item:inlistbox"
 msgid "Daily Backup"
 msgstr ""
 
-#: nepomukserverkcm.cpp:199
+#: nepomukserverkcm.cpp:196
 msgctxt "@item:inlistbox"
 msgid "Weekly Backup"
 msgstr ""
 
-#: nepomukserverkcm.cpp:200
-msgctxt "@item:inlistbox"
-msgid "Monthly Backup"
-msgstr ""
-
-#: nepomukserverkcm.cpp:231
+#: nepomukserverkcm.cpp:227
 msgid ""
 "The Nepomuk installation is not complete. No desktop search settings can be "
 "provided."
 msgstr ""
 
-#: nepomukserverkcm.cpp:368
+#: nepomukserverkcm.cpp:364
 #, fuzzy
 #| msgid ""
 #| "The Nepomuk Server is not running. The settings have been saved and will "
@@ -115,29 +121,29 @@ msgstr ""
 "नेपोमक सर्वर चलि नहि रहल अछि. बिन्याससभ केँ सहेज लेल गेल अछि आओर जखन अगिला बेर सर्वर "
 "प्रारंभ होगा तँ ई बिन्याससभ क' प्रयोग कएल जाएत."
 
-#: nepomukserverkcm.cpp:370
+#: nepomukserverkcm.cpp:366
 #, fuzzy
 #| msgid "Nepomuk server not running"
 msgid "Desktop search service not running"
 msgstr "नहि चलि रहल अछि."
 
-#: nepomukserverkcm.cpp:407
+#: nepomukserverkcm.cpp:403
 msgctxt "@info:status"
 msgid "Desktop search services are active"
 msgstr ""
 
-#: nepomukserverkcm.cpp:410
+#: nepomukserverkcm.cpp:406
 msgctxt "@info:status"
 msgid "Desktop search services are disabled"
 msgstr ""
 
-#: nepomukserverkcm.cpp:422
+#: nepomukserverkcm.cpp:418
 #, fuzzy, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact Strigi indexer (%1)"
 msgstr "असफल मे"
 
-#: nepomukserverkcm.cpp:432
+#: nepomukserverkcm.cpp:428
 #, fuzzy
 msgctxt "@info:status"
 msgid ""
@@ -145,21 +151,21 @@ msgid ""
 "installation problem."
 msgstr "मे मे."
 
-#: nepomukserverkcm.cpp:436
+#: nepomukserverkcm.cpp:432
 #, fuzzy
 #| msgid "Nepomuk server not running"
 msgctxt "@info:status"
 msgid "File indexing service not running."
 msgstr "नहि चलि रहल अछि."
 
-#: nepomukserverkcm.cpp:447
+#: nepomukserverkcm.cpp:443
 #, kde-format
 msgid "1 existing backup"
 msgid_plural "%1 existing backups"
 msgstr[0] ""
 msgstr[1] ""
 
-#: nepomukserverkcm.cpp:451
+#: nepomukserverkcm.cpp:447
 #, kde-format
 msgctxt ""
 "@info %1 is the creation date of a backup formatted vi KLocale::"
@@ -167,24 +173,13 @@ msgctxt ""
 msgid "Oldest: %1"
 msgstr ""
 
-#: nepomukserverkcm.cpp:477
+#: nepomukserverkcm.cpp:473
 msgid "Custom root folder query"
 msgstr ""
 
-#: nepomukserverkcm.cpp:478
+#: nepomukserverkcm.cpp:474
 msgid "Please enter a query to be listed in the root folder"
 msgstr ""
-
-#: statuswidget.cpp:100
-msgid "Calculation failed"
-msgstr "गिनती विफल"
-
-#: statuswidget.cpp:111
-#, kde-format
-msgid "1 file in index"
-msgid_plural "%1 files in index"
-msgstr[0] "1 फाइल सूचीमे"
-msgstr[1] "%1 फाइल सूचीमे"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
