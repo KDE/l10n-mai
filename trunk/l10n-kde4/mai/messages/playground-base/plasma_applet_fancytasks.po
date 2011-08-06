@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_fancytasks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:43+0200\n"
+"POT-Creation-Date: 2011-08-06 04:14+0200\n"
 "PO-Revision-Date: 2010-09-24 13:53+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -44,7 +44,7 @@ msgid "Modifier Key"
 msgstr ""
 
 #: FancyTasksActionDelegate.cpp:130 FancyTasksConfiguration.cpp:101
-#: FancyTasksConfiguration.cpp:112
+#: FancyTasksConfiguration.cpp:112 FancyTasksConfiguration.cpp:129
 msgid "None"
 msgstr "किछु नहि"
 
@@ -72,7 +72,7 @@ msgstr "शिफ्ट परिवर्धक"
 msgid "Alt modifier"
 msgstr "ऑल्ट परिवर्धक"
 
-#: FancyTasksApplet.cpp:1850
+#: FancyTasksApplet.cpp:1852
 msgid "Entries"
 msgstr "प्रविष्टि"
 
@@ -177,10 +177,6 @@ msgstr ""
 msgid "Always"
 msgstr "हरदम"
 
-#: FancyTasksConfiguration.cpp:129
-msgid "No indication"
-msgstr ""
-
 #: FancyTasksConfiguration.cpp:147 FancyTasksConfiguration.cpp:175
 #: FancyTasksConfiguration.cpp:330 FancyTasksConfiguration.cpp:350
 msgid "--- separator ---"
@@ -258,12 +254,12 @@ msgstr ""
 msgid "Add This Menu"
 msgstr ""
 
-#: FancyTasksIcon.cpp:1547 FancyTasksLauncher.cpp:303
+#: FancyTasksIcon.cpp:1539 FancyTasksLauncher.cpp:311
 msgctxt "@action:inmenu"
 msgid "Cancel"
 msgstr "रद करू"
 
-#: FancyTasksIcon.cpp:1669
+#: FancyTasksIcon.cpp:1661
 #, kde-format
 msgid "1 job"
 msgid_plural "%1 jobs"
@@ -305,100 +301,100 @@ msgstr ""
 msgid "Close on Finish"
 msgstr ""
 
-#: FancyTasksLauncher.cpp:194 FancyTasksLauncher.cpp:472
+#: FancyTasksLauncher.cpp:207 FancyTasksLauncher.cpp:492
 msgid "Open"
 msgstr "खोलू"
 
-#: FancyTasksLauncher.cpp:298
+#: FancyTasksLauncher.cpp:306
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Move Here\t<shortcut>%1</shortcut>"
 msgstr ""
 
-#: FancyTasksLauncher.cpp:299
+#: FancyTasksLauncher.cpp:307
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Copy Here\t<shortcut>%1</shortcut>"
 msgstr ""
 
-#: FancyTasksLauncher.cpp:300
+#: FancyTasksLauncher.cpp:308
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Link Here\t<shortcut>%1</shortcut>"
 msgstr ""
 
-#: FancyTasksLauncher.cpp:390
+#: FancyTasksLauncher.cpp:398
 msgctxt "@info"
 msgid "Do you really want to empty the trash? All items will be deleted."
 msgstr ""
 "की अहाँ सचमुच रद्दी केर टोकरीकेँ खाली कएनाइ चाहैत छी? सबहि वस्तुसभकेँ मेटाए देल जएताह."
 
-#: FancyTasksLauncher.cpp:390
+#: FancyTasksLauncher.cpp:398
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "रद्दी खाली करू"
 
-#: FancyTasksLauncher.cpp:402
+#: FancyTasksLauncher.cpp:416
 msgid "Trash"
 msgstr "रद्दी"
 
-#: FancyTasksLauncher.cpp:403
+#: FancyTasksLauncher.cpp:417
 #, kde-format
 msgid "One item"
 msgid_plural "%1 items"
 msgstr[0] "एकटा मद"
 msgstr[1] "%1 एकटा मद"
 
-#: FancyTasksLauncher.cpp:403
+#: FancyTasksLauncher.cpp:417
 msgid "Empty"
 msgstr "खाली"
 
-#: FancyTasksLauncher.cpp:416 FancyTasksTask.cpp:172
+#: FancyTasksLauncher.cpp:436 FancyTasksTask.cpp:170
 #, kde-format
 msgid "%1 Settings"
 msgstr "%1 बिन्यास"
 
-#: FancyTasksLauncher.cpp:460
+#: FancyTasksLauncher.cpp:480
 msgid "Menu Editor"
 msgstr "मेनू संपादक"
 
-#: FancyTasksLauncher.cpp:461
+#: FancyTasksLauncher.cpp:481
 msgid "Menu"
 msgstr "मेनू "
 
-#: FancyTasksLauncher.cpp:466
+#: FancyTasksLauncher.cpp:486
 msgid "Run"
 msgstr "चलाबू"
 
-#: FancyTasksLauncher.cpp:477
+#: FancyTasksLauncher.cpp:497
 msgid "Browse"
 msgstr "ब्रॉउज करू"
 
-#: FancyTasksLauncher.cpp:486
+#: FancyTasksLauncher.cpp:506
 msgid "&Empty Trashcan"
 msgstr "रद्दी क' टोकरी खाली करू (&E)"
 
-#: FancyTasksLauncher.cpp:490
+#: FancyTasksLauncher.cpp:510
 msgid "Edit"
 msgstr "संपादन"
 
-#: FancyTasksLauncher.cpp:491
+#: FancyTasksLauncher.cpp:511
 msgid "Launcher"
 msgstr "लांचर"
 
-#: FancyTasksTask.cpp:325
+#: FancyTasksTask.cpp:323
 msgid "Application"
 msgstr "अनुप्रयोग"
 
-#: FancyTasksTask.cpp:334
+#: FancyTasksTask.cpp:332
 msgid "Starting application..."
 msgstr ""
 
-#: FancyTasksTask.cpp:334
+#: FancyTasksTask.cpp:332
 msgid "On all desktops"
 msgstr "सभटा डेस्कटाप पर"
 
-#: FancyTasksTask.cpp:334
+#: FancyTasksTask.cpp:332
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "On %1"
