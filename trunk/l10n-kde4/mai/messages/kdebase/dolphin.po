@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-09 03:44+0200\n"
+"POT-Creation-Date: 2011-08-10 03:22+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -198,61 +198,6 @@ msgctxt "@label:textbox"
 msgid "Find:"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:56
-msgctxt "@title:group"
-msgid "View Properties"
-msgstr "गुण देखू"
-
-#: settings/general/behaviorsettingspage.cpp:59
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "प्रत्येक फोल्डर क' लेल दृश्य गुणसभकेँ याद राखू"
-
-#: settings/general/behaviorsettingspage.cpp:61
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "सभटा फोल्डरसभ क' लेल सामान्य दृश्य गुणसभ क' इस्तेमाल करू"
-
-#: settings/general/behaviorsettingspage.cpp:68
-msgctxt "@title:group"
-msgid "Ask For Confirmation When"
-msgstr "पुष्टिकरण क' लेल पूछू जखन"
-
-#: settings/general/behaviorsettingspage.cpp:71
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Moving files or folders to trash"
-msgstr "फाइलसभ आओर फोल्डरसभ केँ रद्दी पर घसकाएल जाए रहल अछि"
-
-#: settings/general/behaviorsettingspage.cpp:73
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Deleting files or folders"
-msgstr "फाइलसभ आओर फोल्डरसभ केँ मेटाएल जाए रहल अछि"
-
-#: settings/general/behaviorsettingspage.cpp:75
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Closing windows with multiple tabs"
-msgstr ""
-
-#: settings/general/behaviorsettingspage.cpp:83
-msgctxt "@option:check"
-msgid "Rename inline"
-msgstr "इनलाइन नाम बदलू"
-
-#: settings/general/behaviorsettingspage.cpp:86
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "टूलटिप देखाबू"
-
-#: settings/general/behaviorsettingspage.cpp:89
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "चयन मार्कर देखाबू"
-
-#: settings/general/behaviorsettingspage.cpp:92
-msgctxt "option:check"
-msgid "Natural sorting of items"
-msgstr ""
-
 #: settings/general/contextmenusettingspage.cpp:43
 msgctxt "@option:check"
 msgid "Show 'Delete' command"
@@ -330,6 +275,61 @@ msgstr ""
 msgctxt "@label Don't create previews for: <Remote files above:> XX MByte"
 msgid "Remote files above:"
 msgstr "फाइल केँ एहिना छाँटू"
+
+#: settings/general/behaviorsettingspage.cpp:56
+msgctxt "@title:group"
+msgid "View Properties"
+msgstr "गुण देखू"
+
+#: settings/general/behaviorsettingspage.cpp:59
+msgctxt "@option:radio"
+msgid "Remember view properties for each folder"
+msgstr "प्रत्येक फोल्डर क' लेल दृश्य गुणसभकेँ याद राखू"
+
+#: settings/general/behaviorsettingspage.cpp:61
+msgctxt "@option:radio"
+msgid "Use common view properties for all folders"
+msgstr "सभटा फोल्डरसभ क' लेल सामान्य दृश्य गुणसभ क' इस्तेमाल करू"
+
+#: settings/general/behaviorsettingspage.cpp:68
+msgctxt "@title:group"
+msgid "Ask For Confirmation When"
+msgstr "पुष्टिकरण क' लेल पूछू जखन"
+
+#: settings/general/behaviorsettingspage.cpp:71
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Moving files or folders to trash"
+msgstr "फाइलसभ आओर फोल्डरसभ केँ रद्दी पर घसकाएल जाए रहल अछि"
+
+#: settings/general/behaviorsettingspage.cpp:73
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Deleting files or folders"
+msgstr "फाइलसभ आओर फोल्डरसभ केँ मेटाएल जाए रहल अछि"
+
+#: settings/general/behaviorsettingspage.cpp:75
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Closing windows with multiple tabs"
+msgstr ""
+
+#: settings/general/behaviorsettingspage.cpp:83
+msgctxt "@option:check"
+msgid "Rename inline"
+msgstr "इनलाइन नाम बदलू"
+
+#: settings/general/behaviorsettingspage.cpp:86
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "टूलटिप देखाबू"
+
+#: settings/general/behaviorsettingspage.cpp:89
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "चयन मार्कर देखाबू"
+
+#: settings/general/behaviorsettingspage.cpp:92
+msgctxt "option:check"
+msgid "Natural sorting of items"
+msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:58
 #: settings/viewmodes/viewsettingspage.cpp:45
@@ -1019,6 +1019,62 @@ msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "अनचिन्ह त्रुटि."
 
+#: views/dolphinview.cpp:466
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr ""
+
+#: views/dolphinview.cpp:467
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr ""
+
+#: views/dolphinview.cpp:471
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
+msgstr[0] "1 फोल्डर चयनित"
+msgstr[1] "%1 फोल्डर चयनित है"
+
+#: views/dolphinview.cpp:472
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:474
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:477
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:959
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "मेटाबैक क्रिया सम्पन्न भेल"
+
+#: views/dolphinview.cpp:1011
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "स्थान रिक्त अछि"
+
+#: views/dolphinview.cpp:1013
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "स्थान '%1' अवैध अछि."
+
 #: views/renamedialog.cpp:54
 msgctxt "@title:window"
 msgid "Rename Item"
@@ -1057,62 +1113,6 @@ msgstr[1] "चयनित %1 वस्तुसभ क' नाम एहिन�
 msgctxt "@info"
 msgid "(# will be replaced by ascending numbers)"
 msgstr "(# आरोहित संख्यासभ सँ बदलल जएताह)"
-
-#: views/dolphinview.cpp:472
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr ""
-
-#: views/dolphinview.cpp:473
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr ""
-
-#: views/dolphinview.cpp:477
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] "1 फोल्डर चयनित"
-msgstr[1] "%1 फोल्डर चयनित है"
-
-#: views/dolphinview.cpp:478
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] ""
-msgstr[1] ""
-
-#: views/dolphinview.cpp:480
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: views/dolphinview.cpp:483
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: views/dolphinview.cpp:941
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "मेटाबैक क्रिया सम्पन्न भेल"
-
-#: views/dolphinview.cpp:1059
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "स्थान रिक्त अछि"
-
-#: views/dolphinview.cpp:1061
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "स्थान '%1' अवैध अछि."
 
 #: dolphinpart.cpp:147
 msgctxt "@action:inmenu Edit"
@@ -1205,15 +1205,7 @@ msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:619
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Description:"
-msgctxt "@item:intable"
-msgid "No destination"
-msgstr "विवरण:"
-
-#: kitemviews/kfileitemlistwidget.cpp:634
+#: kitemviews/kfileitemlistwidget.cpp:640
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1223,6 +1215,14 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 वस्तु चयनित"
 msgstr[1] "%1 वस्तुसभ चयनित"
+
+#: kitemviews/kfileitemmodel.cpp:622
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Description:"
+msgctxt "@item:intable"
+msgid "No destination"
+msgstr "विवरण:"
 
 #: dolphinmainwindow.cpp:339
 msgctxt "@info:status"
