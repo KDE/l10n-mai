@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-11 11:37+0200\n"
+"POT-Creation-Date: 2011-08-12 11:46+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -394,7 +394,7 @@ msgstr "अहाँक एकटा स्थान चुनू आओर फ�
 msgid "File Changed on Disk"
 msgstr "डिस्क मे फाइल केँ बदएल देने गेल अछि"
 
-#: dialogs/katedialogs.cpp:1456 document/katedocument.cpp:3860
+#: dialogs/katedialogs.cpp:1456 document/katedocument.cpp:3862
 msgid "&Reload File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
@@ -417,7 +417,7 @@ msgid ""
 "will be prompted again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1477 document/katedocument.cpp:3859
+#: dialogs/katedialogs.cpp:1477 document/katedocument.cpp:3861
 msgid "What do you want to do?"
 msgstr "अहाँ की कएनाइ चाहैत छी?"
 
@@ -580,54 +580,54 @@ msgstr "की अहाँ वास्तव मे एहि फाइल क
 msgid "Close Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: document/katedocument.cpp:3745
+#: document/katedocument.cpp:3747
 msgid "Untitled"
 msgstr "अनाम"
 
-#: document/katedocument.cpp:3781 document/katedocument.cpp:3951
-#: document/katedocument.cpp:4569
+#: document/katedocument.cpp:3783 document/katedocument.cpp:3953
+#: document/katedocument.cpp:4571
 msgid "Save File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:3790
+#: document/katedocument.cpp:3792
 msgid "Save failed"
 msgstr "सहेजनाइ विफल"
 
-#: document/katedocument.cpp:3860
+#: document/katedocument.cpp:3862
 msgid "File Was Changed on Disk"
 msgstr "फाइल केँ डिस्क मे बदएल देने गेल छल"
 
-#: document/katedocument.cpp:3860
+#: document/katedocument.cpp:3862
 msgid "&Ignore Changes"
 msgstr "परिवर्तन केँ नजरअंदाज करू (&I)"
 
-#: document/katedocument.cpp:4464
+#: document/katedocument.cpp:4466
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा परिवर्धित कएल गेल अछि."
 
-#: document/katedocument.cpp:4467
+#: document/katedocument.cpp:4469
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा बनाएल गेल अछि."
 
-#: document/katedocument.cpp:4470
+#: document/katedocument.cpp:4472
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा मेटाएल गेल अछि."
 
-#: document/katedocument.cpp:4597
+#: document/katedocument.cpp:4599
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: document/katedocument.cpp:4599
+#: document/katedocument.cpp:4601
 msgid "Overwrite File?"
 msgstr "फाइल केर उप्पर लिखू?"
 
-#: document/katedocument.cpp:4837
+#: document/katedocument.cpp:4839
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -636,7 +636,7 @@ msgstr ""
 "दस्ताबेज \"%1\" परिवर्तित कएल गेल अछि.\n"
 "की अहाँ एकरा सहेजना चाहब अथवा परिवर्तनसभ केँ फेंक दिअ'?"
 
-#: document/katedocument.cpp:4839
+#: document/katedocument.cpp:4841
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
 
@@ -1221,16 +1221,6 @@ msgstr "क्षेत्र चिन्हक"
 msgctxt "@item:intable Text context"
 msgid "Error"
 msgstr "त्रुटि"
-
-#: utils/kateautoindent.cpp:75
-msgctxt "Autoindent mode"
-msgid "None"
-msgstr "किछु नहि"
-
-#: utils/kateautoindent.cpp:78
-msgctxt "Autoindent mode"
-msgid "Normal"
-msgstr "सामान्य"
 
 #: utils/katebookmarks.cpp:85
 msgid "Set &Bookmark"
@@ -1837,7 +1827,7 @@ msgstr ""
 msgid "Exporting colors for single highlighting: %1"
 msgstr ""
 
-#: utils/kateschema.cpp:863 utils/kateprinter.cpp:1033
+#: utils/kateschema.cpp:863 utils/kateprinter.cpp:1035
 msgid "&Schema:"
 msgstr "योजना: (&S)"
 
@@ -2028,100 +2018,110 @@ msgstr "\"मूलभूत शैली इस्तेमाल करू\" �
 msgid "Kate Styles"
 msgstr "के-एटीई शैलीसभ"
 
-#: utils/kateprinter.cpp:202
+#: utils/kateautoindent.cpp:75
+msgctxt "Autoindent mode"
+msgid "None"
+msgstr "किछु नहि"
+
+#: utils/kateautoindent.cpp:78
+msgctxt "Autoindent mode"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: utils/kateprinter.cpp:204
 msgid "(Selection of) "
 msgstr "(क' चयन)"
 
-#: utils/kateprinter.cpp:484
+#: utils/kateprinter.cpp:486
 #, kde-format
 msgid "Typographical Conventions for %1"
 msgstr "%1 क' लेल टाइपोग्राफिकल कन्वर्सन"
 
-#: utils/kateprinter.cpp:514
+#: utils/kateprinter.cpp:516
 msgid "text"
 msgstr "पाठ"
 
-#: utils/kateprinter.cpp:638
+#: utils/kateprinter.cpp:640
 msgid "Te&xt Settings"
 msgstr "पाठ बिन्यास (&x)"
 
-#: utils/kateprinter.cpp:645
+#: utils/kateprinter.cpp:647
 msgid "Print line &numbers"
 msgstr "प्रिंट लाइन संख्या (&n)"
 
-#: utils/kateprinter.cpp:648
+#: utils/kateprinter.cpp:650
 msgid "Print &legend"
 msgstr "लिजेंड छापू (&l)"
 
-#: utils/kateprinter.cpp:660
+#: utils/kateprinter.cpp:662
 msgid ""
 "<p>If enabled, line numbers will be printed on the left side of the page(s)."
 "</p>"
 msgstr "<p>जँ सक्षम कएल जाइत अछि. पंक्ति क्रमांक पृष्ठ केर बम्माँ बाजूमे मुद्रित हाएत.</p>"
 
-#: utils/kateprinter.cpp:662
+#: utils/kateprinter.cpp:664
 msgid ""
 "<p>Print a box displaying typographical conventions for the document type, "
 "as defined by the syntax highlighting being used.</p>"
 msgstr ""
 
-#: utils/kateprinter.cpp:724
+#: utils/kateprinter.cpp:726
 msgid "Hea&der && Footer"
 msgstr "शीर्षिका आ पादिका (&d) "
 
-#: utils/kateprinter.cpp:731
+#: utils/kateprinter.cpp:733
 msgid "Pr&int header"
 msgstr "शीर्षिका छापू (&i)"
 
-#: utils/kateprinter.cpp:733
+#: utils/kateprinter.cpp:735
 msgid "Pri&nt footer"
 msgstr "पादिका छापू (&n)"
 
-#: utils/kateprinter.cpp:739
+#: utils/kateprinter.cpp:741
 msgid "Header/footer font:"
 msgstr "शीर्षिका/पादिका फौन्ट:"
 
-#: utils/kateprinter.cpp:744
+#: utils/kateprinter.cpp:746
 msgid "Choo&se Font..."
 msgstr "फौन्ट चुनू... (&s)"
 
-#: utils/kateprinter.cpp:750
+#: utils/kateprinter.cpp:752
 msgid "Header Properties"
 msgstr "शीर्षिका गुण"
 
-#: utils/kateprinter.cpp:754
+#: utils/kateprinter.cpp:756
 msgid "&Format:"
 msgstr "फॉर्मेट: (&F)"
 
-#: utils/kateprinter.cpp:765 utils/kateprinter.cpp:795
+#: utils/kateprinter.cpp:767 utils/kateprinter.cpp:797
 msgid "Colors:"
 msgstr "रंगः"
 
-#: utils/kateprinter.cpp:771 utils/kateprinter.cpp:801
+#: utils/kateprinter.cpp:773 utils/kateprinter.cpp:803
 msgid "Foreground:"
 msgstr "अग्रभूमि:"
 
-#: utils/kateprinter.cpp:774
+#: utils/kateprinter.cpp:776
 msgid "Bac&kground"
 msgstr "पृष्ठभूमि (&k)"
 
-#: utils/kateprinter.cpp:778
+#: utils/kateprinter.cpp:780
 msgid "Footer Properties"
 msgstr "पादिका गुण"
 
-#: utils/kateprinter.cpp:783
+#: utils/kateprinter.cpp:785
 msgid "For&mat:"
 msgstr "फॉर्मेट: (&m)"
 
-#: utils/kateprinter.cpp:804
+#: utils/kateprinter.cpp:806
 msgid "&Background"
 msgstr "पृष्ठभूमि (&B)"
 
-#: utils/kateprinter.cpp:831
+#: utils/kateprinter.cpp:833
 msgid "<p>Format of the page header. The following tags are supported:</p>"
 msgstr "<p>पृष्ठ शीर्षिका क' फार्मेट. निम्न टैग्स समर्थित छी:</p>"
 
-#: utils/kateprinter.cpp:833
+#: utils/kateprinter.cpp:835
 msgid ""
 "<ul><li><tt>%u</tt>: current user name</li><li><tt>%d</tt>: complete date/"
 "time in short format</li><li><tt>%D</tt>: complete date/time in long format</"
@@ -2131,43 +2131,43 @@ msgid ""
 "page number</li></ul><br />"
 msgstr ""
 
-#: utils/kateprinter.cpp:846
+#: utils/kateprinter.cpp:848
 msgid "<p>Format of the page footer. The following tags are supported:</p>"
 msgstr "<p>पृष्ठ पादिका क' फार्मेट. निम्न टैग्स समर्थित छी:</p>"
 
-#: utils/kateprinter.cpp:1027
+#: utils/kateprinter.cpp:1029
 msgid "L&ayout"
 msgstr "बिन्यास (&a)"
 
-#: utils/kateprinter.cpp:1038
+#: utils/kateprinter.cpp:1040
 msgid "Draw bac&kground color"
 msgstr "पृष्ठभूमि रंग बनाबू (&k)"
 
-#: utils/kateprinter.cpp:1041
+#: utils/kateprinter.cpp:1043
 msgid "Draw &boxes"
 msgstr "पेटी बनाबू (&b)"
 
-#: utils/kateprinter.cpp:1045
+#: utils/kateprinter.cpp:1047
 msgid "Box Properties"
 msgstr "बक्सा गुण"
 
-#: utils/kateprinter.cpp:1049
+#: utils/kateprinter.cpp:1051
 msgid "W&idth:"
 msgstr "चओड़ाइ: (&i)"
 
-#: utils/kateprinter.cpp:1057
+#: utils/kateprinter.cpp:1059
 msgid "&Margin:"
 msgstr "हाशिया: (&M)"
 
-#: utils/kateprinter.cpp:1065
+#: utils/kateprinter.cpp:1067
 msgid "Co&lor:"
 msgstr "रंग: (&l)"
 
-#: utils/kateprinter.cpp:1082
+#: utils/kateprinter.cpp:1084
 msgid "Select the color scheme to use for the print."
 msgstr "प्रिंटक प्रयोगक लेल रंग योजना चुनू"
 
-#: utils/kateprinter.cpp:1084
+#: utils/kateprinter.cpp:1086
 msgid ""
 "<p>If enabled, the background color of the editor will be used.</p><p>This "
 "may be useful if your color scheme is designed for a dark background.</p>"
@@ -2175,7 +2175,7 @@ msgstr ""
 "<p>जँ सक्षम कएल जाइत अछि. संपादक क' पृष्ठ भूमि रंग उपयोग कएल जएताह.</p><p>जँ अहाँक रंग "
 "योजना गहर पृष्ठभूमि क' लेल डिजाइन कएल अछि. तँ ई उपयोगी हाएत.</p>"
 
-#: utils/kateprinter.cpp:1087
+#: utils/kateprinter.cpp:1089
 msgid ""
 "<p>If enabled, a box as defined in the properties below will be drawn around "
 "the contents of each page. The Header and Footer will be separated from the "
@@ -2185,15 +2185,15 @@ msgstr ""
 "विषयवस्तु मे बनाए देल जएताह. शीर्षिका आओर पादिका विषयवस्तु सँ एकटा पंक्ति सँ अलग कएल गेल "
 "हाएत</p>"
 
-#: utils/kateprinter.cpp:1091
+#: utils/kateprinter.cpp:1093
 msgid "The width of the box outline"
 msgstr "आउटलाइन पेटी क' चओड़ाइ"
 
-#: utils/kateprinter.cpp:1093
+#: utils/kateprinter.cpp:1095
 msgid "The margin inside boxes, in pixels"
 msgstr "पेटी केर भीतर हाशिया, पिक्सेल्स मे"
 
-#: utils/kateprinter.cpp:1095
+#: utils/kateprinter.cpp:1097
 msgid "The line color to use for boxes"
 msgstr "पेटी क' लेल उपयोग मे पंक्ति रंग"
 
