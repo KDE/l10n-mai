@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-10 04:11+0200\n"
+"POT-Creation-Date: 2011-08-13 03:45+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "A simple path shape"
 msgstr ""
 
-#: flake/KToolBase.cpp:173 flake/KToolManager.cpp:353
+#: flake/KToolBase.cpp:191 flake/KToolManager.cpp:353
 msgid "Tool Options"
 msgstr "अओजार विकल्प"
 
@@ -238,90 +238,6 @@ msgstr ""
 msgid "Pan"
 msgstr "पीएएन"
 
-#: flake/tools/KPathTool.cpp:87
-msgid "Corner point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:92
-msgid "Smooth point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:97
-msgid "Symmetric Point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:102
-msgid "Make curve point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:106
-msgid "Make line point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:110
-msgid "Segment to Line"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:115
-msgid "Segment to Curve"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:120
-msgid "Insert point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:125
-msgid "Remove point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:130
-msgid "Break at point"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:134
-msgid "Break at segment"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:138
-msgid "Join with segment"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:143
-msgid "Merge points"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:147
-msgid "To Path"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:179
-msgid "Line/Curve"
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:180 flake/tools/KCreatePathTool.cpp:369
-msgid "Snapping"
-msgstr "स्नैपिंग"
-
-#: flake/tools/KPathTool.cpp:514
-msgid "Drag to move handle."
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:571
-msgid "Drag to move point. Shift click to change point type."
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:573
-msgid "Drag to move control point."
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:598
-msgid "Press B to break path at selected point."
-msgstr ""
-
-#: flake/tools/KPathTool.cpp:600
-msgid "Press B to break path at selected segments."
-msgstr ""
-
 #: flake/tools/KPathToolFactory.cpp:29
 msgid "Path editing tool"
 msgstr ""
@@ -335,18 +251,102 @@ msgstr "जूम"
 msgid "Create Path"
 msgstr ""
 
+#: flake/tools/KCreatePathTool.cpp:370 flake/tools/KPathTool.cpp:181
+msgid "Snapping"
+msgstr "स्नैपिंग"
+
+#: flake/tools/KCreatePathTool.cpp:375
+msgid "Angle snapping delta"
+msgstr ""
+
+#: flake/tools/KCreatePathTool.cpp:380
+msgid "Angle Constraints"
+msgstr ""
+
 #: flake/tools/KPathSegmentChangeStrategy.cpp:140
 #, fuzzy
 #| msgid "Change"
 msgid "Change Segment"
 msgstr "बदलू"
 
-#: flake/tools/KCreatePathTool.cpp:374
-msgid "Angle snapping delta"
+#: flake/tools/KPathTool.cpp:88
+msgid "Corner point"
 msgstr ""
 
-#: flake/tools/KCreatePathTool.cpp:379
-msgid "Angle Constraints"
+#: flake/tools/KPathTool.cpp:93
+msgid "Smooth point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:98
+msgid "Symmetric Point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:103
+msgid "Make curve point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:107
+msgid "Make line point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:111
+msgid "Segment to Line"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:116
+msgid "Segment to Curve"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:121
+msgid "Insert point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:126
+msgid "Remove point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:131
+msgid "Break at point"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:135
+msgid "Break at segment"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:139
+msgid "Join with segment"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:144
+msgid "Merge points"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:148
+msgid "To Path"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:180
+msgid "Line/Curve"
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:515
+msgid "Drag to move handle."
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:572
+msgid "Drag to move point. Shift click to change point type."
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:574
+msgid "Drag to move control point."
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:599
+msgid "Press B to break path at selected point."
+msgstr ""
+
+#: flake/tools/KPathTool.cpp:601
+msgid "Press B to break path at selected segments."
 msgstr ""
 
 #: kokross/KoScriptingPart.cpp:81
@@ -724,7 +724,7 @@ msgid "Select a master page design:"
 msgstr ""
 
 #: kopageapp/dialogs/KoPAMasterPageDialog.cpp:45
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:110
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:96
 msgid "Master Page"
 msgstr ""
 
@@ -732,16 +732,16 @@ msgstr ""
 msgid "Change background image"
 msgstr ""
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:105
+#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:30
+msgid "Background editing tool"
+msgstr ""
+
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:91
 msgid "Background Tool"
 msgstr ""
 
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:106
+#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:92
 msgid "Use the styles docker to manipulate the background."
-msgstr ""
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:30
-msgid "Background editing tool"
 msgstr ""
 
 #: kopageapp/KoPAView.cpp:241 main/KoToolBoxFactory.cpp:40
