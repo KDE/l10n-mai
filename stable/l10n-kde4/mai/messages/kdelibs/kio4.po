@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-14 12:21+0200\n"
+"POT-Creation-Date: 2011-08-15 12:09+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -62,8 +62,8 @@ msgctxt "@title:window"
 msgid "Select Folder"
 msgstr ""
 
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:135
-#: ../kfile/knewfilemenu.cpp:1015
+#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1015
+#: ../kfile/kdirselectdialog.cpp:135
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "नवीन फोल्डर"
@@ -6003,6 +6003,110 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
+#, fuzzy
+#| msgid "Store"
+msgid "Sorry"
+msgstr "जमा करू"
+
+#: ../kfile/knewfilemenu.cpp:377
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
+#| "does not exist.</qt>"
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr ""
+"<qt>उल्लेखित कमांड चलाबै मे अक्षम. फाइल अथवा फोल्डर<b>%1</b> अस्तित्व मे नहि अछि.</qt>"
+
+#: ../kfile/knewfilemenu.cpp:396
+#, fuzzy
+#| msgid "Creating directory"
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "निर्देशिका बनाएल जाए रहल अछि"
+
+#: ../kfile/knewfilemenu.cpp:398
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "भिन्न प्रयोक्ता जहिना चलाबू (&n)"
+
+#: ../kfile/knewfilemenu.cpp:401
+#, fuzzy
+#| msgid "Creating directory"
+msgid "Create hidden directory?"
+msgstr "निर्देशिका बनाएल जाए रहल अछि"
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
+#, fuzzy
+#| msgid "Device name"
+msgid "File name:"
+msgstr "डिवाइस नाम"
+
+#: ../kfile/knewfilemenu.cpp:503
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "सिंबालिक लिंक तैआर नहि कए सकल."
+
+#: ../kfile/knewfilemenu.cpp:562
+#, fuzzy
+#| msgid "Created:"
+msgid "Create link to URL"
+msgstr "बनएलक:"
+
+#: ../kfile/knewfilemenu.cpp:608 ../kfile/knewfilemenu.cpp:656
+#, kde-format
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:882
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:947
+#, fuzzy
+#| msgid "Created:"
+msgid "Create New"
+msgstr "बनएलक:"
+
+#: ../kfile/knewfilemenu.cpp:960
+#, fuzzy
+#| msgid "Device"
+msgid "Link to Device"
+msgstr "डिवाइस"
+
+#: ../kfile/knewfilemenu.cpp:1005
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "नवीन फोल्डर"
+
+#: ../kfile/knewfilemenu.cpp:1019
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"नवीन फोल्डर:\n"
+"%1 मे बनाबू"
+
 #: ../kfile/kfiletreeview.cpp:187
 msgid "Show Hidden Folders"
 msgstr ""
@@ -6603,104 +6707,6 @@ msgid ""
 "bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
-#, fuzzy
-#| msgid "Store"
-msgid "Sorry"
-msgstr "जमा करू"
-
-#: ../kfile/knewfilemenu.cpp:377
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
-#| "does not exist.</qt>"
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
-"<qt>उल्लेखित कमांड चलाबै मे अक्षम. फाइल अथवा फोल्डर<b>%1</b> अस्तित्व मे नहि अछि.</qt>"
-
-#: ../kfile/knewfilemenu.cpp:396
-#, fuzzy
-#| msgid "Creating directory"
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "निर्देशिका बनाएल जाए रहल अछि"
-
-#: ../kfile/knewfilemenu.cpp:398
-#, fuzzy
-#| msgid "Ru&n as a different user"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "भिन्न प्रयोक्ता जहिना चलाबू (&n)"
-
-#: ../kfile/knewfilemenu.cpp:401
-#, fuzzy
-#| msgid "Creating directory"
-msgid "Create hidden directory?"
-msgstr "निर्देशिका बनाएल जाए रहल अछि"
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
-#, fuzzy
-#| msgid "Device name"
-msgid "File name:"
-msgstr "डिवाइस नाम"
-
-#: ../kfile/knewfilemenu.cpp:503
-#, fuzzy
-#| msgid "Could Not Create Symbolic Link"
-msgid "Create Symlink"
-msgstr "सिंबालिक लिंक तैआर नहि कए सकल."
-
-#: ../kfile/knewfilemenu.cpp:562
-#, fuzzy
-#| msgid "Created:"
-msgid "Create link to URL"
-msgstr "बनएलक:"
-
-#: ../kfile/knewfilemenu.cpp:882
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:947
-#, fuzzy
-#| msgid "Created:"
-msgid "Create New"
-msgstr "बनएलक:"
-
-#: ../kfile/knewfilemenu.cpp:960
-#, fuzzy
-#| msgid "Device"
-msgid "Link to Device"
-msgstr "डिवाइस"
-
-#: ../kfile/knewfilemenu.cpp:1005
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "नवीन फोल्डर"
-
-#: ../kfile/knewfilemenu.cpp:1019
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"नवीन फोल्डर:\n"
-"%1 मे बनाबू"
 
 #: ../kfile/kurlnavigator.cpp:429
 msgid "Copy"
