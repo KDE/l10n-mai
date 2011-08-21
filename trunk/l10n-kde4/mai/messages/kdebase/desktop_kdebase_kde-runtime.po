@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-10 02:33+0000\n"
+"POT-Creation-Date: 2011-08-21 02:26+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -5280,6 +5280,72 @@ msgctxt "Comment"
 msgid "Nepomuk Service which handles backup and sync."
 msgstr ""
 
+#: nepomuk/services/fileindexer/nepomukfileindexer.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Internal Services"
+msgctxt "Name"
+msgid "File Indexer Service"
+msgstr "आंतरिक सेवासभ"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.desktop:8
+msgctxt "Comment"
+msgid "Nepomuk Service which indexes files on the desktop"
+msgstr ""
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Search"
+msgctxt "Comment"
+msgid "Desktop Search"
+msgstr "डेस्कटाप खोज"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:68
+msgctxt "Name"
+msgid "Initial Indexing started"
+msgstr "आरंभिक सूची बनैनाइ प्रारंभ भए गेल"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:145
+msgctxt "Comment"
+msgid "Indexing of local files for fast searches has started."
+msgstr ""
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:210
+msgctxt "Name"
+msgid "Initial Indexing finished"
+msgstr "आरंभिक सूची बनैनाइ संपन्न"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:286
+msgctxt "Comment"
+msgid ""
+"The initial indexing of local files for fast desktop searches has completed."
+msgstr ""
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:352
+msgctxt "Name"
+msgid "Indexing suspended"
+msgstr "सूची बनैनाइ निलंबित"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:429
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Strigi file indexing has been suspended"
+msgctxt "Comment"
+msgid "File indexing has been suspended by the search service."
+msgstr "स्ट्रिगी फ़ाइल सूची बनैनाइ निलंबित कएल गेल अछि"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:494
+msgctxt "Name"
+msgid "Indexing resumed"
+msgstr "सूचीकरण फेर बहाल"
+
+#: nepomuk/services/fileindexer/nepomukfileindexer.notifyrc:570
+#, fuzzy
+msgctxt "Comment"
+msgid "File indexing has been resumed by the search service."
+msgstr "स्ट्रिगी फ़ाइल सूची बनाना पुनरारंभ"
+
 #: nepomuk/services/filewatch/nepomukfilewatch.desktop:7
 msgctxt "Name"
 msgid "NepomukFileWatch"
@@ -5387,71 +5453,6 @@ msgstr "नेपोमक डाटा परिवर्तित भए ग�
 msgctxt "Comment"
 msgid "Successfully converted Nepomuk data to new backend"
 msgstr "नेपोमक डाटा केँ नव बैकएण्डमे सफलतापूर्वक परिवर्तित कएल गेल"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.desktop:7
-msgctxt "Name"
-msgid "Nepomuk Strigi Service"
-msgstr "Nepomuk स्ट्रिगी सेवा"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.desktop:87
-msgctxt "Comment"
-msgid ""
-"Nepomuk Service which controls the strigidaemon, i.e. indexes files on the "
-"desktop"
-msgstr ""
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Search"
-msgctxt "Comment"
-msgid "Desktop Search"
-msgstr "डेस्कटाप खोज"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:68
-msgctxt "Name"
-msgid "Initial Indexing started"
-msgstr "आरंभिक सूची बनैनाइ प्रारंभ भए गेल"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:145
-msgctxt "Comment"
-msgid "Indexing of local files for fast searches has started."
-msgstr ""
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:210
-msgctxt "Name"
-msgid "Initial Indexing finished"
-msgstr "आरंभिक सूची बनैनाइ संपन्न"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:286
-msgctxt "Comment"
-msgid ""
-"The initial indexing of local files for fast desktop searches has completed."
-msgstr ""
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:352
-msgctxt "Name"
-msgid "Indexing suspended"
-msgstr "सूची बनैनाइ निलंबित"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:429
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Strigi file indexing has been suspended"
-msgctxt "Comment"
-msgid "File indexing has been suspended by the search service."
-msgstr "स्ट्रिगी फ़ाइल सूची बनैनाइ निलंबित कएल गेल अछि"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:494
-msgctxt "Name"
-msgid "Indexing resumed"
-msgstr "सूचीकरण फेर बहाल"
-
-#: nepomuk/services/strigi/nepomukstrigiservice.notifyrc:570
-#, fuzzy
-msgctxt "Comment"
-msgid "File indexing has been resumed by the search service."
-msgstr "स्ट्रिगी फ़ाइल सूची बनाना पुनरारंभ"
 
 #: phonon/kcm/kcm_phonon.desktop:13
 #, fuzzy
@@ -5716,6 +5717,10 @@ msgstr "हार्डवेयर"
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk Strigi Service"
+#~ msgstr "Nepomuk स्ट्रिगी सेवा"
 
 #, fuzzy
 #~| msgctxt "Comment"
