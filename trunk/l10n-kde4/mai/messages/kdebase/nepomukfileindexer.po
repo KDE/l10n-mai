@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 17:59+0200\n"
+"POT-Creation-Date: 2011-08-21 03:37+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,6 +23,80 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: eventmonitor.cpp:69
+#, fuzzy
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr "सूचीकरण क'लेल a."
+
+#: eventmonitor.cpp:98 eventmonitor.cpp:127
+#, fuzzy
+msgid "Resuming indexing of files for fast searching."
+msgstr "क' क'लेल."
+
+#: eventmonitor.cpp:105
+#, fuzzy
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "क' मे."
+
+#: eventmonitor.cpp:119
+#, fuzzy, kde-format
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr "डिस्क स्थान अछि चलि रहल अछि निम्न बायाँ क'."
+
+#: eventmonitor.cpp:147
+#, fuzzy, kde-format
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
+msgstr "क' क'लेल in 1"
+
+#: fileindexer.cpp:158
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "File indexer is suspended"
+msgctxt "@info:status"
+msgid "File indexer is suspended."
+msgstr "फाइल सूचीकरण करैबला स्थगित अछि"
+
+#: fileindexer.cpp:166
+#, fuzzy
+msgctxt "@info:status"
+msgid "Scanning for recent changes in files for desktop search"
+msgstr "क' क'लेल."
+
+#: fileindexer.cpp:169
+#, fuzzy
+msgctxt "@info:status"
+msgid "Indexing files for desktop search."
+msgstr "क' क'लेल."
+
+#: fileindexer.cpp:176
+#, kde-format
+msgctxt "@info:status"
+msgid "Scanning for recent changes in %1"
+msgstr ""
+
+#: fileindexer.cpp:180
+#, fuzzy, kde-format
+#| msgid "Indexed files:"
+msgctxt "@info:status"
+msgid "Indexing files in %1"
+msgstr "सूचीबद्ध फाइल:"
+
+#: fileindexer.cpp:182
+#, fuzzy, kde-format
+#| msgid "Indexed files:"
+msgctxt "@info:status"
+msgid "Indexing %1"
+msgstr "सूचीबद्ध फाइल:"
+
+#: fileindexer.cpp:187
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "File indexer is idle"
+msgctxt "@info:status"
+msgid "File indexer is idle."
+msgstr "फाइल सूचीकएनिहार निष्क्रिय अछि"
 
 #: indexer/main.cpp:44
 #, fuzzy
@@ -73,80 +147,6 @@ msgstr ""
 #: indexer/main.cpp:58
 msgid "Remove all indexed data of the URL provided"
 msgstr ""
-
-#: eventmonitor.cpp:69
-#, fuzzy
-msgid "Indexing files for fast searching. This process may take a while."
-msgstr "सूचीकरण क'लेल a."
-
-#: eventmonitor.cpp:98 eventmonitor.cpp:127
-#, fuzzy
-msgid "Resuming indexing of files for fast searching."
-msgstr "क' क'लेल."
-
-#: eventmonitor.cpp:105
-#, fuzzy
-msgid "Suspending the indexing of files to preserve resources."
-msgstr "क' मे."
-
-#: eventmonitor.cpp:119
-#, fuzzy, kde-format
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr "डिस्क स्थान अछि चलि रहल अछि निम्न बायाँ क'."
-
-#: eventmonitor.cpp:147
-#, fuzzy, kde-format
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
-msgstr "क' क'लेल in 1"
-
-#: strigiservice.cpp:158
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "File indexer is suspended"
-msgctxt "@info:status"
-msgid "File indexer is suspended."
-msgstr "फाइल सूचीकरण करैबला स्थगित अछि"
-
-#: strigiservice.cpp:166
-#, fuzzy
-msgctxt "@info:status"
-msgid "Scanning for recent changes in files for desktop search"
-msgstr "क' क'लेल."
-
-#: strigiservice.cpp:169
-#, fuzzy
-msgctxt "@info:status"
-msgid "Indexing files for desktop search."
-msgstr "क' क'लेल."
-
-#: strigiservice.cpp:176
-#, kde-format
-msgctxt "@info:status"
-msgid "Scanning for recent changes in %1"
-msgstr ""
-
-#: strigiservice.cpp:180
-#, fuzzy, kde-format
-#| msgid "Indexed files:"
-msgctxt "@info:status"
-msgid "Indexing files in %1"
-msgstr "सूचीबद्ध फाइल:"
-
-#: strigiservice.cpp:182
-#, fuzzy, kde-format
-#| msgid "Indexed files:"
-msgctxt "@info:status"
-msgid "Indexing %1"
-msgstr "सूचीबद्ध फाइल:"
-
-#: strigiservice.cpp:187
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "File indexer is idle"
-msgctxt "@info:status"
-msgid "File indexer is idle."
-msgstr "फाइल सूचीकएनिहार निष्क्रिय अछि"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
