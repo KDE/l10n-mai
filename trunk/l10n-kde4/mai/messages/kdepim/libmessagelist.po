@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 06:24+0200\n"
+"POT-Creation-Date: 2011-08-23 04:59+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1224,42 +1224,6 @@ msgid_plural " pixels"
 msgstr[0] "पिक्सेल"
 msgstr[1] "पिक्सेल"
 
-#: pane.cpp:112
-msgctxt "@info:tooltip"
-msgid "Open a new tab"
-msgstr "नवीन टैब खोलू"
-
-#: pane.cpp:120
-msgctxt "@info:tooltip"
-msgid "Close the current tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: pane.cpp:164
-msgid "Message List"
-msgstr ""
-
-#: pane.cpp:169
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Open a new tab"
-msgid "Create new tab"
-msgstr "नवीन टैब खोलू"
-
-#: pane.cpp:346 pane.cpp:478
-msgctxt "@title:tab Empty messagelist"
-msgid "Empty"
-msgstr "खाली"
-
-#: pane.cpp:424
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "टैब बन्न करू"
-
-#: pane.cpp:430
-msgctxt "@action:inmenu"
-msgid "Close All Other Tabs"
-msgstr ""
-
 #: storagemodel.cpp:239
 msgctxt "displayed as subject when the subject of a mail is empty"
 msgid "No Subject"
@@ -1301,6 +1265,53 @@ msgstr "एतए नकल करू (&C)"
 #: widget.cpp:397
 msgid "C&ancel"
 msgstr "रद करू (&a)"
+
+#: pane.cpp:112
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "नवीन टैब खोलू"
+
+#: pane.cpp:114
+msgid "New tab"
+msgstr ""
+
+#: pane.cpp:123
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: pane.cpp:125
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Close tab"
+msgstr "टैब बन्न करू"
+
+#: pane.cpp:170
+msgid "Message List"
+msgstr ""
+
+#: pane.cpp:175
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Open a new tab"
+msgid "Create new tab"
+msgstr "नवीन टैब खोलू"
+
+#: pane.cpp:352 pane.cpp:484
+msgctxt "@title:tab Empty messagelist"
+msgid "Empty"
+msgstr "खाली"
+
+#: pane.cpp:430
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "टैब बन्न करू"
+
+#: pane.cpp:436
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr ""
 
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
