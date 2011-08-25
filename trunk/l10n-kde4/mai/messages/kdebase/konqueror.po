@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:24+0200\n"
+"POT-Creation-Date: 2011-08-25 03:46+0200\n"
 "PO-Revision-Date: 2010-09-24 21:45+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -41,8 +41,8 @@ msgstr "स्थानीय"
 msgid "Miscellaneous"
 msgstr "विविध"
 
-#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5037
-#: src/konqmainwindow.cpp:5097
+#: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5041
+#: src/konqmainwindow.cpp:5101
 msgid "no name"
 msgstr "कोनो नाम नहि"
 
@@ -520,6 +520,158 @@ msgctxt "@title:window"
 msgid "Clear History?"
 msgstr "इतिहास मेटाबू ?"
 
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "प्रोफाइल प्रबंधन"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "प्रोफाइल नाम बदलू (&R)"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "प्रोफाइल मेटाबू (&D)"
+
+#: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "सत्रसभ केँ प्रबंधित करू"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr "खोलू (&O)"
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "सत्र फिनु नाम दिअ'"
+
+#: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "सहेजू सत्र"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr ""
+
+#: src/konqsessiondlg.cpp:248
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "सत्र फिनु बहाल करू?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "सत्र फिनु बहाल करू"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "सत्र फिनु नहि बहाल करू"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "हमरासँ बाद मे पूछू"
+
+#: src/konqframestatusbar.cpp:109
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:156
+msgid "Close View"
+msgstr "नजदीकी दृश्य"
+
+#: src/konqframestatusbar.cpp:236
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:238
+msgid "Stalled"
+msgstr "रुकल भेल"
+
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr ""
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 देखाबू"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"ई विंडो मे बहुत सन टैब खुलल अछि.\n"
+" दृश्य प्रोफाइल लोड करबा सँ ई बन्न भए जाएत."
+
+#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4968
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "पुष्टिकरण"
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "दृश्य प्रोफाइल लोड करू"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"ई टैब मे वे परिवर्तन हैं जे जमा नहि कएल गेल अछि.\n"
+"प्रोफाइल केँ लोड करबा सँ ई परिवर्तन मेट जाएत."
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
+#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
+#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
+#: src/konqmainwindow.cpp:2526 src/konqmainwindow.cpp:5003
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1625
+#: src/konqmainwindow.cpp:2352 src/konqmainwindow.cpp:2432
+#: src/konqmainwindow.cpp:2462 src/konqmainwindow.cpp:2504
+#: src/konqmainwindow.cpp:2527 src/konqmainwindow.cpp:5003
+msgid "&Discard Changes"
+msgstr "परिवर्तनसभ केँ फेंक दिअ'(&D)"
+
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
 msgid "Loading..."
@@ -536,23 +688,6 @@ msgid ""
 msgstr ""
 "ई पृष्ठ मे ओ परिवर्तन अछि जे जमा नहि कएल गेल अछि.\n"
 "पृष्ठ केँ फिनु सँ लोड करब सँ ई परिवर्तन मेट जएताह."
-
-#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
-#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
-#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2526
-#: src/konqmainwindow.cpp:4999 src/konqviewmanager.cpp:1423
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
-
-#: src/konqmainwindow.cpp:1625 src/konqmainwindow.cpp:2352
-#: src/konqmainwindow.cpp:2432 src/konqmainwindow.cpp:2462
-#: src/konqmainwindow.cpp:2504 src/konqmainwindow.cpp:2527
-#: src/konqmainwindow.cpp:4999 src/konqviewmanager.cpp:1423
-msgid "&Discard Changes"
-msgstr "परिवर्तनसभ केँ फेंक दिअ'(&D)"
 
 #: src/konqmainwindow.cpp:1735
 msgid "File Management"
@@ -1068,23 +1203,16 @@ msgctxt "@action:inmenu View"
 msgid "&View Mode"
 msgstr ""
 
-#: src/konqmainwindow.cpp:4962
+#: src/konqmainwindow.cpp:4966
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत सारे टैब खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: src/konqmainwindow.cpp:4964 src/konqviewmanager.cpp:1409
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "पुष्टिकरण"
-
-#: src/konqmainwindow.cpp:4966
+#: src/konqmainwindow.cpp:4970
 msgid "C&lose Current Tab"
 msgstr "मोजुदा टैब बन्न करू (&l)"
 
-#: src/konqmainwindow.cpp:4995
+#: src/konqmainwindow.cpp:4999
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1092,40 +1220,40 @@ msgstr ""
 "ई टैब मे ओ परिवर्तन अछि जे जमा नहि कएल गेल अछि.\n"
 "विंडो केँ बन्न करबा सँ ई परिवर्तन मेट जाएत."
 
-#: src/konqmainwindow.cpp:4996
+#: src/konqmainwindow.cpp:5000
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
 msgstr ""
 
-#: src/konqmainwindow.cpp:5164
+#: src/konqmainwindow.cpp:5168
 msgid ""
 "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "अहाँक साइडबार फंक्शनल नहि अछि अथवा उपलब्ध नहि अछि. एकटा नवीन प्रविष्टि जोडी नहि "
 "जाए सकैत अछि."
 
-#: src/konqmainwindow.cpp:5164 src/konqmainwindow.cpp:5171
+#: src/konqmainwindow.cpp:5168 src/konqmainwindow.cpp:5175
 #, fuzzy
 #| msgid "Web Sidebar"
 msgctxt "@title:window"
 msgid "Web Sidebar"
 msgstr "वेब पार्श्व पट्टी"
 
-#: src/konqmainwindow.cpp:5169
+#: src/konqmainwindow.cpp:5173
 #, kde-format
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr "नवीन वेब एक्सटेंशन \"%1\" अहाँक पार्श्व पट्टी मे जोडू?"
 
-#: src/konqmainwindow.cpp:5171
+#: src/konqmainwindow.cpp:5175
 msgid "Add"
 msgstr "जोडू"
 
-#: src/konqmainwindow.cpp:5171
+#: src/konqmainwindow.cpp:5175
 msgid "Do Not Add"
 msgstr "जोडू नहि"
 
-#: src/konqmainwindow.cpp:5484
+#: src/konqmainwindow.cpp:5488
 #, kde-format
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
@@ -1133,134 +1261,6 @@ msgid ""
 msgstr ""
 "प्रतीत होइछ जे ओतए कान्फिगरेशन त्रुटि अछि. अहाँ कान्करर केँ %1 केर सँग सम्बद्ध कएने छी. पर "
 "ई एहि प्रकारक फाइलसभ केँ संभाल नहि सकैत अछि."
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "प्रोफाइल प्रबंधन"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "प्रोफाइल नाम बदलू (&R)"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "प्रोफाइल मेटाबू (&D)"
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "सत्रसभ केँ प्रबंधित करू"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "खोलू (&O)"
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "सत्र फिनु नाम दिअ'"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "सहेजू सत्र"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr ""
-
-#: src/konqsessiondlg.cpp:248
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "सत्र फिनु बहाल करू?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "सत्र फिनु बहाल करू"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "सत्र फिनु नहि बहाल करू"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "हमरासँ बाद मे पूछू"
-
-#: src/konqframestatusbar.cpp:109
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:156
-msgid "Close View"
-msgstr "नजदीकी दृश्य"
-
-#: src/konqframestatusbar.cpp:236
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:238
-msgid "Stalled"
-msgstr "रुकल भेल"
-
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr ""
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 देखाबू"
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"ई विंडो मे बहुत सन टैब खुलल अछि.\n"
-" दृश्य प्रोफाइल लोड करबा सँ ई बन्न भए जाएत."
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "दृश्य प्रोफाइल लोड करू"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"ई टैब मे वे परिवर्तन हैं जे जमा नहि कएल गेल अछि.\n"
-"प्रोफाइल केँ लोड करबा सँ ई परिवर्तन मेट जाएत."
 
 #: src/konqextensionmanager.cpp:54
 #, fuzzy
