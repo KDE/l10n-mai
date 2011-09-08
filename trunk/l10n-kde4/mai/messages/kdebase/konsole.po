@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-06 04:07+0200\n"
+"POT-Creation-Date: 2011-09-08 03:57+0200\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -620,22 +620,22 @@ msgctxt "@title:window"
 msgid "Manage Profiles"
 msgstr "प्रोफाइल प्रबंधित करू"
 
-#: ManageProfilesDialog.cpp:236
+#: ManageProfilesDialog.cpp:237
 msgctxt "@title:column Profile label"
 msgid "Name"
 msgstr "नाम"
 
-#: ManageProfilesDialog.cpp:237
+#: ManageProfilesDialog.cpp:238
 msgctxt "@title:column Display profile in file menu"
 msgid "Show in Menu"
 msgstr "मेनू मे देखाबू"
 
-#: ManageProfilesDialog.cpp:238
+#: ManageProfilesDialog.cpp:239
 msgctxt "@title:column Profile shortcut text"
 msgid "Shortcut"
 msgstr "शार्टकट"
 
-#: ManageProfilesDialog.cpp:368
+#: ManageProfilesDialog.cpp:367
 msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "नवीन प्रोफाइल"
@@ -1510,9 +1510,45 @@ msgstr "नवीन टर्मिनल सत्र क' लेल चयन
 msgid "&Set as Default"
 msgstr "मूलभूत जहिना सेट करू"
 
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:440
+msgid "File"
+msgstr "फाइल"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:443
+msgid "Edit"
+msgstr "संपादन"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:446
+msgid "View"
+msgstr "दृश्य"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:449
+msgid "Split View"
+msgstr "विभाजित दृश्य"
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:452
+msgid "Settings"
+msgstr "जमावट"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:455
+msgid "Help"
+msgstr "मद्दति "
+
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:440
+#: rc.cpp:458
 msgid "S&crollback"
 msgstr "स्क्रालबैक (&c)"
 
@@ -1520,45 +1556,9 @@ msgstr "स्क्रालबैक (&c)"
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:443 rc.cpp:470
+#: rc.cpp:461 rc.cpp:470
 msgid "&Change Profile"
 msgstr "प्रोफाइल बदलू (&C)"
-
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:446
-msgid "File"
-msgstr "फाइल"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:449
-msgid "Edit"
-msgstr "संपादन"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:452
-msgid "View"
-msgstr "दृश्य"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:455
-msgid "Split View"
-msgstr "विभाजित दृश्य"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:458
-msgid "Settings"
-msgstr "जमावट"
-
-#. i18n: file: ../desktop/konsoleui.rc:44
-#. i18n: ectx: Menu (help)
-#: rc.cpp:461
-msgid "Help"
-msgstr "मद्दति "
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
@@ -1936,21 +1936,21 @@ msgstr ""
 "<qt>आउटपुट को<a href=\"http://en.wikipedia.org/wiki/XON\">सस्पैंड कएल गेल अछि</a> "
 "कंट्रोल+S केँ दबाकए.  बहाल करब क' लेल <b>कंट्रोल+Q</b> केँ दबाबू.</qt>"
 
-#: ViewContainer.cpp:495
+#: ViewContainer.cpp:494
 #, fuzzy
 #| msgid "&Detach View"
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "दृश्य अलग करू (&D)"
 
-#: ViewContainer.cpp:499
+#: ViewContainer.cpp:498
 #, fuzzy
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Rename Tab..."
 msgstr "टैब क' नाम बदलू... (&R)"
 
-#: ViewContainer.cpp:503
+#: ViewContainer.cpp:502
 #, fuzzy
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
