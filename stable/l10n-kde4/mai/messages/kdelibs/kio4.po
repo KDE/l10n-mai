@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-02 10:41+0200\n"
+"POT-Creation-Date: 2011-09-13 17:23+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -393,7 +393,7 @@ msgctxt "@title:tab"
 msgid "Information"
 msgstr "सूचना"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:399
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:422
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -807,6 +807,75 @@ msgstr "*.png *.xpm *.svg *.svgz|प्रतीक फाइलसभ (*.png *.
 msgid "Open file dialog"
 msgstr "फाइल खोलबा क' संवाद"
 
+#: kfile/kfilemetadataprovider.cpp:223
+#, fuzzy, kde-format
+#| msgctxt "Items in a folder"
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "१ वस्तु"
+msgstr[1] "%1 वस्तु"
+
+#: kfile/kfilemetadataprovider.cpp:423
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "परिवर्धितः"
+
+#: kfile/kfilemetadataprovider.cpp:424
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "मालिक"
+
+#: kfile/kfilemetadataprovider.cpp:425
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "अनुमतिसभ"
+
+#: kfile/kfilemetadataprovider.cpp:426
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "छाँटनाइ"
+
+#: kfile/kfilemetadataprovider.cpp:427
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "आकार"
+
+#: kfile/kfilemetadataprovider.cpp:428
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "रद्दी"
+
+#: kfile/kfilemetadataprovider.cpp:429
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "आकार:"
+
+#: kfile/kfilemetadataprovider.cpp:430
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "प्रकार"
+
 #: kfile/kcommentwidget.cpp:65
 #, fuzzy
 #| msgid "Add Entry..."
@@ -838,64 +907,6 @@ msgstr "टिप्पणी"
 #: kfile/kencodingfiledialog.cpp:49
 msgid "Encoding:"
 msgstr "एनकोडिंग:"
-
-#: kfile/kfilemetadataprovider.cpp:400
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified"
-msgstr "परिवर्धितः"
-
-#: kfile/kfilemetadataprovider.cpp:401
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "मालिक"
-
-#: kfile/kfilemetadataprovider.cpp:402
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "अनुमतिसभ"
-
-#: kfile/kfilemetadataprovider.cpp:403
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@label"
-msgid "Rating"
-msgstr "छाँटनाइ"
-
-#: kfile/kfilemetadataprovider.cpp:404
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "आकार"
-
-#: kfile/kfilemetadataprovider.cpp:405
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "रद्दी"
-
-#: kfile/kfilemetadataprovider.cpp:406
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "आकार:"
-
-#: kfile/kfilemetadataprovider.cpp:407
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "प्रकार"
 
 #: kfile/kfilemetadatareaderprocess.cpp:169
 msgid "KFileMetaDataReader"
