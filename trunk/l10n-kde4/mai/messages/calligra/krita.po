@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-02 02:35+0200\n"
+"POT-Creation-Date: 2011-10-04 03:18+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -480,7 +480,7 @@ msgid "A - 2 Dirty Brush"
 msgstr ""
 
 #: i18ndata:115
-msgid "A -17 Knife eroded anim"
+msgid "A-17 Knife eroded anim"
 msgstr ""
 
 #: i18ndata:116
@@ -1630,8 +1630,8 @@ msgstr "चयन बढाउ"
 
 #. i18n: file: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:351 ui/dialogs/kis_dlg_preferences.cc:558
-#: ui/dialogs/kis_dlg_preferences.cc:559
+#: rc.cpp:351 ui/dialogs/kis_dlg_preferences.cc:559
+#: ui/dialogs/kis_dlg_preferences.cc:560
 msgid "General"
 msgstr "सामान्य"
 
@@ -4889,7 +4889,7 @@ msgstr ""
 #: rc.cpp:1722 rc.cpp:1755 rc.cpp:1788 rc.cpp:1821 rc.cpp:3930
 #: plugins/generators/solid/colorgenerator.h:53
 #: plugins/paintops/libpaintop/kis_paintop_option.cpp:31
-#: ui/dialogs/kis_dlg_preferences.cc:575
+#: ui/dialogs/kis_dlg_preferences.cc:576
 msgid "Color"
 msgstr "रंग"
 
@@ -8584,8 +8584,8 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
 #. i18n: file: ui/forms/wdgdisplaysettings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
-#: rc.cpp:3747 rc.cpp:4071 ui/dialogs/kis_dlg_preferences.cc:566
-#: ui/dialogs/kis_dlg_preferences.cc:567
+#: rc.cpp:3747 rc.cpp:4071 ui/dialogs/kis_dlg_preferences.cc:567
+#: ui/dialogs/kis_dlg_preferences.cc:568
 msgid "Display"
 msgstr "देखाबू"
 
@@ -13201,8 +13201,8 @@ msgstr ""
 msgid "Clear Perspective Grid"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:592
-#: ui/dialogs/kis_dlg_preferences.cc:593
+#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:593
+#: ui/dialogs/kis_dlg_preferences.cc:594
 msgid "Grid"
 msgstr "जाल"
 
@@ -13246,49 +13246,55 @@ msgstr "चित्र विशेषता"
 msgid "Layer Properties"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:236
+#: ui/dialogs/kis_dlg_preferences.cc:91
+#, fuzzy
+#| msgid "Circle"
+msgid "Small Circle"
+msgstr "वृत्त"
+
+#: ui/dialogs/kis_dlg_preferences.cc:237
 msgid "Monitor profile: "
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:239
+#: ui/dialogs/kis_dlg_preferences.cc:240
 msgid "&Monitor profile: "
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:550
+#: ui/dialogs/kis_dlg_preferences.cc:551
 msgid "Preferences"
 msgstr "वरीयतासभ"
 
-#: ui/dialogs/kis_dlg_preferences.cc:574
+#: ui/dialogs/kis_dlg_preferences.cc:575
 msgid "Color Management"
 msgstr "रंग प्रबंधन"
 
-#: ui/dialogs/kis_dlg_preferences.cc:583 ui/dialogs/kis_dlg_preferences.cc:584
+#: ui/dialogs/kis_dlg_preferences.cc:584 ui/dialogs/kis_dlg_preferences.cc:585
 msgid "Performance"
 msgstr "प्रदर्शन"
 
-#: ui/dialogs/kis_dlg_preferences.cc:600
+#: ui/dialogs/kis_dlg_preferences.cc:601
 #, fuzzy
 #| msgid "Settings"
 msgid "Tablet settings"
 msgstr "जमावट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:601
+#: ui/dialogs/kis_dlg_preferences.cc:602
 #, fuzzy
 #| msgid "Palette"
 msgid "Tablet"
 msgstr "रंग-पट्टिका"
 
-#: ui/dialogs/kis_dlg_preferences.cc:609
+#: ui/dialogs/kis_dlg_preferences.cc:610
 #, fuzzy
 #| msgid "Settings"
 msgid "Canvas-only settings"
 msgstr "जमावट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:610
+#: ui/dialogs/kis_dlg_preferences.cc:611
 msgid "Canvas-only"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:701
+#: ui/dialogs/kis_dlg_preferences.cc:702
 msgid ""
 "You are trying to enable OpenGL\n"
 "\n"
@@ -13298,7 +13304,7 @@ msgid ""
 "Are you sure you want to enable OpenGL?\n"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:704 ui/kis_aboutdata.h:31
+#: ui/dialogs/kis_dlg_preferences.cc:705 ui/kis_aboutdata.h:31
 #: ui/kis_clipboard.cc:154
 msgid "Krita"
 msgstr ""
@@ -14168,14 +14174,6 @@ msgstr ""
 msgid "Selection"
 msgstr "चुनाव"
 
-#: ui/tool/kis_tool_paint.cc:88
-msgid "Make Brush color lighter"
-msgstr ""
-
-#: ui/tool/kis_tool_paint.cc:93
-msgid "Make Brush color darker"
-msgstr ""
-
 #: ui/tool/kis_tool.cc:114
 #, fuzzy
 #| msgid "Foreground Color"
@@ -14197,6 +14195,14 @@ msgstr "खाली"
 #| msgid "Options"
 msgid "No options"
 msgstr "विकल्प"
+
+#: ui/tool/kis_tool_paint.cc:88
+msgid "Make Brush color lighter"
+msgstr ""
+
+#: ui/tool/kis_tool_paint.cc:93
+msgid "Make Brush color darker"
+msgstr ""
 
 #: ui/tool/kis_tool_freehand.cc:85
 #, fuzzy
