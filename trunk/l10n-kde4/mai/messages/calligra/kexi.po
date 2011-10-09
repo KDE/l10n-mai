@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-08 02:21+0200\n"
+"POT-Creation-Date: 2011-10-09 02:54+0200\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6795,6 +6795,44 @@ msgctxt "what's this"
 msgid "Creates new report."
 msgstr "नवीन प्रोजेक्ट बनाबू"
 
+#: plugins/reports/kexisourceselector.cpp:52
+#, fuzzy
+#| msgid "Data"
+msgid "Set Data"
+msgstr "आँकड़ा"
+
+#: plugins/reports/kexisourceselector.cpp:56
+#, fuzzy
+#| msgctxt "General properties"
+#| msgid "General"
+msgid "Internal"
+msgstr "सामान्य"
+
+#: plugins/reports/kexisourceselector.cpp:57
+#, fuzzy
+#| msgid "External Data"
+msgid "External"
+msgstr "बाहरी आंकड़ा"
+
+#: plugins/reports/kexisourceselector.cpp:63
+#, fuzzy
+#| msgid "Field Type"
+msgid "Source Type:"
+msgstr "क्षेत्र वर्ग"
+
+#: plugins/reports/kexisourceselector.cpp:71
+#, fuzzy
+#| msgctxt "General properties"
+#| msgid "General"
+msgid "Internal Source:"
+msgstr "सामान्य"
+
+#: plugins/reports/kexisourceselector.cpp:76
+#, fuzzy
+#| msgid "External Data"
+msgid "External Source:"
+msgstr "बाहरी आंकड़ा"
+
 #: plugins/reports/kexireportview.cpp:67
 msgid "Page"
 msgstr "पृष्ठ"
@@ -6942,53 +6980,15 @@ msgstr ""
 msgid "Exporting Succeeded"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:316
+#: plugins/reports/kexireportview.cpp:319
 msgid "Report schema appears to be invalid or corrupt"
 msgstr ""
 
-#: plugins/reports/kexireportview.cpp:316
+#: plugins/reports/kexireportview.cpp:319
 #, fuzzy
 #| msgid "Open Database"
 msgid "Opening failed"
 msgstr "डाटाबेस खोलू"
-
-#: plugins/reports/kexisourceselector.cpp:52
-#, fuzzy
-#| msgid "Data"
-msgid "Set Data"
-msgstr "आँकड़ा"
-
-#: plugins/reports/kexisourceselector.cpp:56
-#, fuzzy
-#| msgctxt "General properties"
-#| msgid "General"
-msgid "Internal"
-msgstr "सामान्य"
-
-#: plugins/reports/kexisourceselector.cpp:57
-#, fuzzy
-#| msgid "External Data"
-msgid "External"
-msgstr "बाहरी आंकड़ा"
-
-#: plugins/reports/kexisourceselector.cpp:63
-#, fuzzy
-#| msgid "Field Type"
-msgid "Source Type:"
-msgstr "क्षेत्र वर्ग"
-
-#: plugins/reports/kexisourceselector.cpp:71
-#, fuzzy
-#| msgctxt "General properties"
-#| msgid "General"
-msgid "Internal Source:"
-msgstr "सामान्य"
-
-#: plugins/reports/kexisourceselector.cpp:76
-#, fuzzy
-#| msgid "External Data"
-msgid "External Source:"
-msgstr "बाहरी आंकड़ा"
 
 #: plugins/scripting/kexiscripting/kexiscripteditor.cpp:73
 msgid ""
@@ -7495,6 +7495,11 @@ msgstr "रिपोट"
 msgid "Relation design tool"
 msgstr ""
 
+#: shapes/relationdesign/kexirelationdesigntool.cpp:100
+#: widget/kexidbconnectionwidget.cpp:373
+msgid "Open Database"
+msgstr "डाटाबेस खोलू"
+
 #: shapes/relationdesign/kexirelationdesignfactory.cpp:27
 #, fuzzy
 #| msgid "Form Design"
@@ -7504,11 +7509,6 @@ msgstr "प्रपत्र डिजायन"
 #: shapes/relationdesign/kexirelationdesignfactory.cpp:28
 msgid "A kexi relation design shape"
 msgstr ""
-
-#: shapes/relationdesign/kexirelationdesigntool.cpp:100
-#: widget/kexidbconnectionwidget.cpp:373
-msgid "Open Database"
-msgstr "डाटाबेस खोलू"
 
 #: widget/KexiObjectInfoLabel.cpp:106
 #, kde-format
