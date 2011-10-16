@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-14 02:29+0200\n"
+"POT-Creation-Date: 2011-10-16 02:18+0200\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -725,43 +725,51 @@ msgid "Bugfixes, original Table Widget"
 msgstr ""
 
 #: core/kexiaboutdata.cpp:90
+msgid "Dimitrios T. Tanis"
+msgstr ""
+
+#: core/kexiaboutdata.cpp:90
+msgid "Documentation for Kexi 2"
+msgstr ""
+
+#: core/kexiaboutdata.cpp:92
 msgid "Daniel Molkentin"
 msgstr "डेनियल माल्केनटिन"
 
-#: core/kexiaboutdata.cpp:90
+#: core/kexiaboutdata.cpp:92
 msgid "Initial design improvements"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:92
+#: core/kexiaboutdata.cpp:94
 msgid "Kristof Borrey"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:92
+#: core/kexiaboutdata.cpp:94
 msgid "Icons and user interface research"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:94
+#: core/kexiaboutdata.cpp:96
 msgid "Tomas Krassnig"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:94
+#: core/kexiaboutdata.cpp:96
 msgid "Coffee sponsoring"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:96
+#: core/kexiaboutdata.cpp:98
 msgid "Paweł Wirecki / OpenOffice Polska"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:96
+#: core/kexiaboutdata.cpp:98
 msgid "Numerous bug reports, usability tests, technical support"
 msgstr ""
 
-#: core/kexiaboutdata.cpp:99 rc.cpp:1
+#: core/kexiaboutdata.cpp:101 rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "संगीता कुमारी"
 
-#: core/kexiaboutdata.cpp:99 rc.cpp:2
+#: core/kexiaboutdata.cpp:101 rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
@@ -806,7 +814,7 @@ msgstr ""
 msgid "Show:"
 msgstr "देखाबू:"
 
-#: core/KexiView.cpp:606 main/KexiMainWindow_p.h:956
+#: core/KexiView.cpp:606 main/KexiMainWindow_p.h:865
 msgid "Data"
 msgstr "आँकड़ा"
 
@@ -4056,7 +4064,7 @@ msgid ""
 "based on the title. You can change the database name too."
 msgstr ""
 
-#: main/startup/KexiNewProjectAssistant.cpp:359 main/KexiMainWindow_p.h:953
+#: main/startup/KexiNewProjectAssistant.cpp:359 main/KexiMainWindow_p.h:862
 msgid "Create"
 msgstr "बनाबू"
 
@@ -4419,72 +4427,6 @@ msgstr ""
 #: plugins/reports/kexireportview.cpp:222 widget/KexiFileWidget.cpp:433
 msgid "Overwrite"
 msgstr "एकरासँ उप्पर लिखू"
-
-#: main/KexiMainWindow_p.h:876
-msgid "Task-based tabbed toolbar groups commands for application using tabs."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:913
-msgid "Shows bug reporting tool for Kexi application."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:915
-msgid "Activates \"What's This\" tool."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:917 migration/importwizard.cpp:967
-#: migration/importwizard.cpp:974 migration/importwizard.cpp:976
-#: migration/importwizard.cpp:978 migration/importwizard.cpp:980
-#: migration/importwizard.cpp:982
-msgid "Help"
-msgstr "मद्दति "
-
-#: main/KexiMainWindow_p.h:918
-msgid "Shows Kexi Handbook."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:920
-msgid "Shows information about Kexi application."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:922
-msgid "Shows information about K Desktop Environment."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:949
-#, fuzzy
-#| msgid "File"
-msgctxt "File menu"
-msgid "&File"
-msgstr "फाइल"
-
-#: main/KexiMainWindow_p.h:971
-msgid "External Data"
-msgstr "बाहरी आंकड़ा"
-
-#: main/KexiMainWindow_p.h:999
-msgid "Tools"
-msgstr "अओजार"
-
-#: main/KexiMainWindow_p.h:1004
-msgid "Form Design"
-msgstr "प्रपत्र डिजायन"
-
-#: main/KexiMainWindow_p.h:1007
-#, fuzzy
-#| msgid "Form Design"
-msgid "Report Design"
-msgstr "प्रपत्र डिजायन"
-
-#: main/KexiMainWindow_p.h:1669
-#, kde-format
-msgid "Could not start %1 application."
-msgstr ""
-
-#: main/KexiMainWindow_p.h:1670
-#, kde-format
-msgid "Command \"%1\" failed."
-msgstr "कमांड \"%1\" असफल."
 
 #: main/KexiSearchLineEdit.cpp:56
 #, fuzzy
@@ -5296,6 +5238,72 @@ msgstr ""
 #: main/KexiMainWindow.cpp:5173
 msgid "Do you want to save changes before showing page setup?"
 msgstr ""
+
+#: main/KexiMainWindow_p.h:785
+msgid "Task-based tabbed toolbar groups commands for application using tabs."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:822
+msgid "Shows bug reporting tool for Kexi application."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:824
+msgid "Activates \"What's This\" tool."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:826 migration/importwizard.cpp:967
+#: migration/importwizard.cpp:974 migration/importwizard.cpp:976
+#: migration/importwizard.cpp:978 migration/importwizard.cpp:980
+#: migration/importwizard.cpp:982
+msgid "Help"
+msgstr "मद्दति "
+
+#: main/KexiMainWindow_p.h:827
+msgid "Shows Kexi Handbook."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:829
+msgid "Shows information about Kexi application."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:831
+msgid "Shows information about K Desktop Environment."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:858
+#, fuzzy
+#| msgid "File"
+msgctxt "File menu"
+msgid "&File"
+msgstr "फाइल"
+
+#: main/KexiMainWindow_p.h:880
+msgid "External Data"
+msgstr "बाहरी आंकड़ा"
+
+#: main/KexiMainWindow_p.h:908
+msgid "Tools"
+msgstr "अओजार"
+
+#: main/KexiMainWindow_p.h:913
+msgid "Form Design"
+msgstr "प्रपत्र डिजायन"
+
+#: main/KexiMainWindow_p.h:916
+#, fuzzy
+#| msgid "Form Design"
+msgid "Report Design"
+msgstr "प्रपत्र डिजायन"
+
+#: main/KexiMainWindow_p.h:1578
+#, kde-format
+msgid "Could not start %1 application."
+msgstr ""
+
+#: main/KexiMainWindow_p.h:1579
+#, kde-format
+msgid "Command \"%1\" failed."
+msgstr "कमांड \"%1\" असफल."
 
 #: migration/importoptionsdlg.cpp:45
 msgid "Advanced Import Options"
