@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-23 04:03+0200\n"
+"POT-Creation-Date: 2011-10-25 04:01+0200\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -701,7 +701,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: MainWindow.cpp:422 SessionController.cpp:644 SessionController.cpp:670
+#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
 msgid "Confirm Close"
 msgstr "बन्न करबाक पुष्टि करू"
 
@@ -1774,14 +1774,14 @@ msgid "Open File Manager"
 msgstr ""
 
 #: SessionController.cpp:448
+msgid "Paste Selection"
+msgstr "चयन साटू"
+
+#: SessionController.cpp:452
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "सभ चुनू"
-
-#: SessionController.cpp:454
-msgid "Paste Selection"
-msgstr "चयन साटू"
 
 #: SessionController.cpp:459
 msgid "&Rename Tab..."
@@ -1869,7 +1869,7 @@ msgstr "प्रोफाइल प्रबंधित करू..."
 msgid "Switch Profile"
 msgstr "प्रोफाइल संपादित करू"
 
-#: SessionController.cpp:638
+#: SessionController.cpp:632
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
@@ -1877,7 +1877,7 @@ msgstr ""
 "एकटा प्रोग्राम अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्द "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:641
+#: SessionController.cpp:635
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
@@ -1886,7 +1886,7 @@ msgstr ""
 "प्रोग्राम '%1' अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्न "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:664
+#: SessionController.cpp:658
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1898,7 +1898,7 @@ msgstr ""
 "एकटा प्रोग्राम अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्द "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:667
+#: SessionController.cpp:661
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1910,43 +1910,43 @@ msgstr ""
 "प्रोग्राम '%1' अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्न "
 "कएनाइ चाहैत छी?"
 
-#: SessionController.cpp:1264
+#: SessionController.cpp:1258
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1273
+#: SessionController.cpp:1267
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1285
+#: SessionController.cpp:1279
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1288
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1300
+#: SessionController.cpp:1294
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1372
+#: SessionController.cpp:1366
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 सँ आउटपुट सहेजू"
 
-#: SessionController.cpp:1383
+#: SessionController.cpp:1377
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 एकटा अवैध यूआरएल अछि. आउटपुट सहेजल नहि जाए सकैत अछि."
 
-#: SessionController.cpp:1461
+#: SessionController.cpp:1455
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
