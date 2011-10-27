@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-19 04:01+0200\n"
+"POT-Creation-Date: 2011-10-27 04:10+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -185,12 +185,12 @@ msgctxt "Sort order for mail groups"
 msgid "Descending"
 msgstr "अवरोहण क्रम"
 
-#: core/item.cpp:229 core/messageitem.cpp:614
+#: core/item.cpp:229 core/messageitem.cpp:618
 msgctxt "Status of an item"
 msgid "Read"
 msgstr "पढ़ू"
 
-#: core/item.cpp:231 core/messageitem.cpp:614
+#: core/item.cpp:231 core/messageitem.cpp:618
 msgctxt "Status of an item"
 msgid "Unread"
 msgstr "अपठित"
@@ -200,7 +200,7 @@ msgctxt "Status of an item"
 msgid "Has Attachment"
 msgstr ""
 
-#: core/item.cpp:237 core/messageitem.cpp:612
+#: core/item.cpp:237 core/messageitem.cpp:616
 msgctxt "Status of an item"
 msgid "Replied"
 msgstr "जवाब"
@@ -245,10 +245,336 @@ msgctxt "Status of an item"
 msgid "Ignored"
 msgstr "अनदेखा कएल गेल"
 
-#: core/manager.cpp:98 core/model.cpp:293
+#: core/model.cpp:290
+msgid "Today"
+msgstr "आइ"
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr "कालि"
+
+#: core/model.cpp:293 core/manager.cpp:98
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "अज्ञात"
+
+#: core/model.cpp:294
+msgid "Last Week"
+msgstr "अंतिम सप्ताह"
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr "दुइ सप्ताह पहिने"
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr "तीन सप्ताह पहिने"
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:525 utils/themeeditor.cpp:204
+msgid "Receiver"
+msgstr "पएनिहार"
+
+#: core/model.cpp:526 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: core/model.cpp:1354
+#, kde-format
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3788
+#, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3794 core/model.cpp:3800
+#, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3806
+#, kde-format
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3812
+#, kde-format
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3909
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "तैआर"
+
+#: core/theme.cpp:81
+msgctxt "Description of Type Subject"
+msgid "Subject"
+msgstr "विषय"
+
+#: core/theme.cpp:84
+msgctxt "Description of Type Date"
+msgid "Date"
+msgstr "दिनांक"
+
+#: core/theme.cpp:87 core/manager.cpp:736
+msgid "Sender/Receiver"
+msgstr ""
+
+#: core/theme.cpp:90
+msgctxt "Description of Type Sender"
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: core/theme.cpp:93
+msgctxt "Description of Type Receiver"
+msgid "Receiver"
+msgstr "पएनिहार"
+
+#: core/theme.cpp:96
+msgctxt "Description of Type Size"
+msgid "Size"
+msgstr "आकार"
+
+#: core/theme.cpp:99
+msgid "Unread/Read Icon"
+msgstr ""
+
+#: core/theme.cpp:102
+msgid "Attachment Icon"
+msgstr ""
+
+#: core/theme.cpp:105
+msgid "Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:108
+msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
+msgstr ""
+
+#: core/theme.cpp:111
+msgid "Action Item Icon"
+msgstr ""
+
+#: core/theme.cpp:114
+msgid "Important Icon"
+msgstr ""
+
+#: core/theme.cpp:117
+msgid "Group Header Label"
+msgstr ""
+
+#: core/theme.cpp:120
+msgid "Spam/Ham Icon"
+msgstr ""
+
+#: core/theme.cpp:123
+msgid "Watched/Ignored Icon"
+msgstr ""
+
+#: core/theme.cpp:126
+msgid "Group Header Expand/Collapse Icon"
+msgstr ""
+
+#: core/theme.cpp:129
+msgid "Encryption State Icon"
+msgstr ""
+
+#: core/theme.cpp:132
+msgid "Signature State Icon"
+msgstr ""
+
+#: core/theme.cpp:135
+msgid "Vertical Separation Line"
+msgstr ""
+
+#: core/theme.cpp:138
+msgid "Horizontal Spacer"
+msgstr ""
+
+#: core/theme.cpp:141
+msgid "Max Date"
+msgstr ""
+
+#: core/theme.cpp:144
+msgid "Message Tags"
+msgstr ""
+
+#: core/theme.cpp:147
+msgid "Note Icon"
+msgstr ""
+
+#: core/theme.cpp:149
+msgid "Invitation Icon"
+msgstr ""
+
+#: core/theme.cpp:151
+msgctxt "Description for an Unknown Type"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: core/theme.cpp:617
+msgid "Unread"
+msgstr "अपठित"
+
+#: core/theme.cpp:770
+msgid "Never Show"
+msgstr ""
+
+#: core/theme.cpp:771
+msgid "Always Show"
+msgstr ""
+
+#: core/theme.cpp:778
+msgid "Plain Rectangles"
+msgstr ""
+
+#: core/theme.cpp:779
+msgid "Plain Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:780
+msgid "Rounded Rectangles"
+msgstr "गोलाकार आयत"
+
+#: core/theme.cpp:781
+msgid "Rounded Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:782
+msgid "Gradient Rectangles"
+msgstr ""
+
+#: core/theme.cpp:783
+msgid "Gradient Joined Rectangle"
+msgstr ""
+
+#: core/theme.cpp:784
+msgid "Styled Rectangles"
+msgstr ""
+
+#: core/theme.cpp:785
+msgid "Styled Joined Rectangles"
+msgstr ""
+
+#: core/widgetbase.cpp:139
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "खोजू"
+
+#: core/widgetbase.cpp:160
+msgid "Open Full Search"
+msgstr ""
+
+#: core/widgetbase.cpp:234
+msgid "Any Status"
+msgstr ""
+
+#: core/widgetbase.cpp:237
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "अपठित"
+
+#: core/widgetbase.cpp:241
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "जवाब"
+
+#: core/widgetbase.cpp:245
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "अग्रसारित"
+
+#: core/widgetbase.cpp:249
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "महत्वपूर्ण"
+
+#: core/widgetbase.cpp:253
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr ""
+
+#: core/widgetbase.cpp:257
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr ""
+
+#: core/widgetbase.cpp:261
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "अनदेखा कएल गेल"
+
+#: core/widgetbase.cpp:265
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr ""
+
+#: core/widgetbase.cpp:269
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr ""
+
+#: core/widgetbase.cpp:273
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr ""
+
+#: core/widgetbase.cpp:277
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr ""
+
+#: core/widgetbase.cpp:442 core/view.cpp:1584
+msgid "Theme"
+msgstr "प्रसंग"
+
+#: core/widgetbase.cpp:485 core/widgetbase.cpp:591
+#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
+msgid "Configure..."
+msgstr "कान्फिगर..."
+
+#: core/widgetbase.cpp:548 core/view.cpp:1578
+msgid "Aggregation"
+msgstr ""
+
+#: core/widgetbase.cpp:647
+msgid "Message Sort Order"
+msgstr ""
+
+#: core/widgetbase.cpp:674
+msgid "Message Sort Direction"
+msgstr ""
+
+#: core/widgetbase.cpp:695
+msgid "Group Sort Order"
+msgstr ""
+
+#: core/widgetbase.cpp:718
+msgid "Group Sort Direction"
+msgstr ""
+
+#: core/widgetbase.cpp:736
+msgid "Folder Always Uses This Sort Order"
+msgstr ""
 
 #: core/manager.cpp:319
 msgid "Current Activity, Threaded"
@@ -345,10 +671,6 @@ msgctxt "@title:column Subject of messages"
 msgid "Subject"
 msgstr "विषय"
 
-#: core/manager.cpp:736 core/theme.cpp:87
-msgid "Sender/Receiver"
-msgstr ""
-
 #: core/manager.cpp:738
 msgctxt "Sender of a message"
 msgid "Sender"
@@ -378,8 +700,10 @@ msgctxt "Attachement indication"
 msgid "Attachment"
 msgstr "संलग्नक"
 
-#: core/manager.cpp:744 core/theme.cpp:617
-msgid "Unread"
+#: core/manager.cpp:744
+#, fuzzy
+#| msgid "Unread"
+msgid "Read/Unread"
 msgstr "अपठित"
 
 #: core/manager.cpp:745
@@ -435,226 +759,9 @@ msgstr ""
 msgid "A fancy multiline and multi item theme with a clickable status column"
 msgstr ""
 
-#: core/manager.cpp:862 core/view.cpp:2354 core/view.cpp:2357
+#: core/manager.cpp:862 core/view.cpp:2377 core/view.cpp:2380
 msgid "Status"
 msgstr "स्थिति"
-
-#: core/model.cpp:290
-msgid "Today"
-msgstr "आइ"
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr "कालि"
-
-#: core/model.cpp:294
-msgid "Last Week"
-msgstr "अंतिम सप्ताह"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr "दुइ सप्ताह पहिने"
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr "तीन सप्ताह पहिने"
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:525 utils/themeeditor.cpp:204
-msgid "Receiver"
-msgstr "पएनिहार"
-
-#: core/model.cpp:526 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "प्रेषक"
-
-#: core/model.cpp:1354
-#, kde-format
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: core/model.cpp:3788
-#, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3794 core/model.cpp:3800
-#, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3806
-#, kde-format
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3812
-#, kde-format
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3909
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "तैआर"
-
-#: core/theme.cpp:81
-msgctxt "Description of Type Subject"
-msgid "Subject"
-msgstr "विषय"
-
-#: core/theme.cpp:84
-msgctxt "Description of Type Date"
-msgid "Date"
-msgstr "दिनांक"
-
-#: core/theme.cpp:90
-msgctxt "Description of Type Sender"
-msgid "Sender"
-msgstr "प्रेषक"
-
-#: core/theme.cpp:93
-msgctxt "Description of Type Receiver"
-msgid "Receiver"
-msgstr "पएनिहार"
-
-#: core/theme.cpp:96
-msgctxt "Description of Type Size"
-msgid "Size"
-msgstr "आकार"
-
-#: core/theme.cpp:99
-msgid "Unread/Read Icon"
-msgstr ""
-
-#: core/theme.cpp:102
-msgid "Attachment Icon"
-msgstr ""
-
-#: core/theme.cpp:105
-msgid "Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:108
-msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
-msgstr ""
-
-#: core/theme.cpp:111
-msgid "Action Item Icon"
-msgstr ""
-
-#: core/theme.cpp:114
-msgid "Important Icon"
-msgstr ""
-
-#: core/theme.cpp:117
-msgid "Group Header Label"
-msgstr ""
-
-#: core/theme.cpp:120
-msgid "Spam/Ham Icon"
-msgstr ""
-
-#: core/theme.cpp:123
-msgid "Watched/Ignored Icon"
-msgstr ""
-
-#: core/theme.cpp:126
-msgid "Group Header Expand/Collapse Icon"
-msgstr ""
-
-#: core/theme.cpp:129
-msgid "Encryption State Icon"
-msgstr ""
-
-#: core/theme.cpp:132
-msgid "Signature State Icon"
-msgstr ""
-
-#: core/theme.cpp:135
-msgid "Vertical Separation Line"
-msgstr ""
-
-#: core/theme.cpp:138
-msgid "Horizontal Spacer"
-msgstr ""
-
-#: core/theme.cpp:141
-msgid "Max Date"
-msgstr ""
-
-#: core/theme.cpp:144
-msgid "Message Tags"
-msgstr ""
-
-#: core/theme.cpp:147
-msgid "Note Icon"
-msgstr ""
-
-#: core/theme.cpp:149
-msgid "Invitation Icon"
-msgstr ""
-
-#: core/theme.cpp:151
-msgctxt "Description for an Unknown Type"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: core/theme.cpp:770
-msgid "Never Show"
-msgstr ""
-
-#: core/theme.cpp:771
-msgid "Always Show"
-msgstr ""
-
-#: core/theme.cpp:778
-msgid "Plain Rectangles"
-msgstr ""
-
-#: core/theme.cpp:779
-msgid "Plain Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:780
-msgid "Rounded Rectangles"
-msgstr "गोलाकार आयत"
-
-#: core/theme.cpp:781
-msgid "Rounded Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:782
-msgid "Gradient Rectangles"
-msgstr ""
-
-#: core/theme.cpp:783
-msgid "Gradient Joined Rectangle"
-msgstr ""
-
-#: core/theme.cpp:784
-msgid "Styled Rectangles"
-msgstr ""
-
-#: core/theme.cpp:785
-msgid "Styled Joined Rectangles"
-msgstr ""
 
 #: core/view.cpp:725
 msgid "Adjust Column Sizes"
@@ -672,262 +779,161 @@ msgstr ""
 msgid "Sorting"
 msgstr "छाँटनाइ"
 
-#: core/view.cpp:1578 core/widgetbase.cpp:548
-msgid "Aggregation"
-msgstr ""
-
-#: core/view.cpp:1584 core/widgetbase.cpp:442
-msgid "Theme"
-msgstr "प्रसंग"
-
-#: core/view.cpp:2335 core/view.cpp:2339
+#: core/view.cpp:2358 core/view.cpp:2362
 msgid "From"
 msgstr "सँ"
 
-#: core/view.cpp:2336 core/view.cpp:2340
+#: core/view.cpp:2359 core/view.cpp:2363
 msgctxt "Receiver of the emial"
 msgid "To"
 msgstr "केँ"
 
-#: core/view.cpp:2337 core/view.cpp:2341
+#: core/view.cpp:2360 core/view.cpp:2364
 msgid "Date"
 msgstr "दिनांक"
 
-#: core/view.cpp:2355 core/view.cpp:2358
+#: core/view.cpp:2378 core/view.cpp:2381
 msgid "Size"
 msgstr "आकार"
 
-#: core/view.cpp:2363 core/view.cpp:2365
+#: core/view.cpp:2386 core/view.cpp:2388
 msgid "Note"
 msgstr "नोट"
 
-#: core/view.cpp:2372 core/view.cpp:2374
+#: core/view.cpp:2395 core/view.cpp:2397
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
-#: core/view.cpp:2393
+#: core/view.cpp:2416
 #, kde-format
 msgid "<b>%1</b> reply"
 msgid_plural "<b>%1</b> replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/view.cpp:2397
+#: core/view.cpp:2420
 #, kde-format
 msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
 msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/view.cpp:2442
+#: core/view.cpp:2465
 #, kde-format
 msgctxt ""
 "@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
 msgid "Threads started on %1"
 msgstr ""
 
-#: core/view.cpp:2448
+#: core/view.cpp:2471
 #, kde-format
 msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
 msgid "Threads started %1"
 msgstr ""
 
-#: core/view.cpp:2453
+#: core/view.cpp:2476
 #, kde-format
 msgid "Threads with messages dated %1"
 msgstr ""
 
-#: core/view.cpp:2465
+#: core/view.cpp:2488
 #, kde-format
 msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
 msgid "Messages sent on %1"
 msgstr ""
 
-#: core/view.cpp:2471
+#: core/view.cpp:2494
 #, kde-format
 msgctxt ""
 "@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
 msgid "Messages received on %1"
 msgstr ""
 
-#: core/view.cpp:2478
+#: core/view.cpp:2501
 #, kde-format
 msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
 msgid "Messages sent %1"
 msgstr ""
 
-#: core/view.cpp:2484
+#: core/view.cpp:2507
 #, kde-format
 msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
 msgid "Messages received %1"
 msgstr ""
 
-#: core/view.cpp:2496
+#: core/view.cpp:2519
 #, kde-format
 msgid "Threads started within %1"
 msgstr ""
 
-#: core/view.cpp:2499
+#: core/view.cpp:2522
 #, kde-format
 msgid "Threads containing messages with dates within %1"
 msgstr ""
 
-#: core/view.cpp:2507
+#: core/view.cpp:2530
 #, kde-format
 msgid "Messages sent within %1"
 msgstr ""
 
-#: core/view.cpp:2509
+#: core/view.cpp:2532
 #, kde-format
 msgid "Messages received within %1"
 msgstr ""
 
-#: core/view.cpp:2519
+#: core/view.cpp:2542
 #, kde-format
 msgid "Threads started by %1"
 msgstr ""
 
-#: core/view.cpp:2522
+#: core/view.cpp:2545
 #, kde-format
 msgid "Threads with most recent message by %1"
 msgstr ""
 
-#: core/view.cpp:2532 core/view.cpp:2558
+#: core/view.cpp:2555 core/view.cpp:2581
 #, kde-format
 msgid "Messages sent to %1"
 msgstr ""
 
-#: core/view.cpp:2534
+#: core/view.cpp:2557
 #, kde-format
 msgid "Messages sent by %1"
 msgstr ""
 
-#: core/view.cpp:2536
+#: core/view.cpp:2559
 #, kde-format
 msgid "Messages received from %1"
 msgstr ""
 
-#: core/view.cpp:2546
+#: core/view.cpp:2569
 #, kde-format
 msgid "Threads directed to %1"
 msgstr ""
 
-#: core/view.cpp:2549
+#: core/view.cpp:2572
 #, kde-format
 msgid "Threads with most recent message directed to %1"
 msgstr ""
 
-#: core/view.cpp:2560
+#: core/view.cpp:2583
 #, kde-format
 msgid "Messages received by %1"
 msgstr ""
 
-#: core/view.cpp:2589
+#: core/view.cpp:2612
 #, kde-format
 msgid "<b>%1</b> thread"
 msgid_plural "<b>%1</b> threads"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/view.cpp:2594
+#: core/view.cpp:2617
 #, kde-format
 msgid "<b>%1</b> message (<b>%2</b> unread)"
 msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
-
-#: core/widgetbase.cpp:139
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "खोजू"
-
-#: core/widgetbase.cpp:160
-msgid "Open Full Search"
-msgstr ""
-
-#: core/widgetbase.cpp:234
-msgid "Any Status"
-msgstr ""
-
-#: core/widgetbase.cpp:237
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "अपठित"
-
-#: core/widgetbase.cpp:241
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "जवाब"
-
-#: core/widgetbase.cpp:245
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "अग्रसारित"
-
-#: core/widgetbase.cpp:249
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "महत्वपूर्ण"
-
-#: core/widgetbase.cpp:253
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr ""
-
-#: core/widgetbase.cpp:257
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr ""
-
-#: core/widgetbase.cpp:261
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "अनदेखा कएल गेल"
-
-#: core/widgetbase.cpp:265
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr ""
-
-#: core/widgetbase.cpp:269
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr ""
-
-#: core/widgetbase.cpp:273
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr ""
-
-#: core/widgetbase.cpp:277
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr ""
-
-#: core/widgetbase.cpp:485 core/widgetbase.cpp:591
-#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
-msgid "Configure..."
-msgstr "कान्फिगर..."
-
-#: core/widgetbase.cpp:647
-msgid "Message Sort Order"
-msgstr ""
-
-#: core/widgetbase.cpp:674
-msgid "Message Sort Direction"
-msgstr ""
-
-#: core/widgetbase.cpp:695
-msgid "Group Sort Order"
-msgstr ""
-
-#: core/widgetbase.cpp:718
-msgid "Group Sort Direction"
-msgstr ""
-
-#: core/widgetbase.cpp:736
-msgid "Folder Always Uses This Sort Order"
-msgstr ""
 
 #: utils/aggregationeditor.cpp:47
 msgid "Groups && Threading"
