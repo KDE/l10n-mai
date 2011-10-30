@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 03:57+0200\n"
+"POT-Creation-Date: 2011-10-30 02:59+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -46,12 +46,12 @@ msgid_plural "%1 items"
 msgstr[0] "%1 वस्तु चयनित"
 msgstr[1] "%1 वस्तुसभ चयनित"
 
-#: kitemviews/kfileitemlistview.cpp:480
+#: kitemviews/kfileitemlistview.cpp:472
 msgctxt "@item:intable"
 msgid "items"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:208
+#: kitemviews/kfileitemmodel.cpp:209
 #, fuzzy
 #| msgctxt "@action:inmenu Sort By"
 #| msgid "Name"
@@ -59,7 +59,7 @@ msgctxt "@item:intable"
 msgid "Name"
 msgstr "नाम"
 
-#: kitemviews/kfileitemmodel.cpp:209
+#: kitemviews/kfileitemmodel.cpp:210
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Size"
@@ -67,7 +67,7 @@ msgctxt "@item:intable"
 msgid "Size"
 msgstr "आकार"
 
-#: kitemviews/kfileitemmodel.cpp:210
+#: kitemviews/kfileitemmodel.cpp:211
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -75,7 +75,7 @@ msgctxt "@item:intable"
 msgid "Date"
 msgstr "दिनांक"
 
-#: kitemviews/kfileitemmodel.cpp:211
+#: kitemviews/kfileitemmodel.cpp:212
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Permissions"
@@ -83,7 +83,7 @@ msgctxt "@item:intable"
 msgid "Permissions"
 msgstr "अनुमतिसभ"
 
-#: kitemviews/kfileitemmodel.cpp:212
+#: kitemviews/kfileitemmodel.cpp:213
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Owner"
@@ -91,7 +91,7 @@ msgctxt "@item:intable"
 msgid "Owner"
 msgstr "मालिक"
 
-#: kitemviews/kfileitemmodel.cpp:213
+#: kitemviews/kfileitemmodel.cpp:214
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -99,7 +99,7 @@ msgctxt "@item:intable"
 msgid "Group"
 msgstr "समूह"
 
-#: kitemviews/kfileitemmodel.cpp:214
+#: kitemviews/kfileitemmodel.cpp:215
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Type"
@@ -107,7 +107,7 @@ msgctxt "@item:intable"
 msgid "Type"
 msgstr "प्रकार"
 
-#: kitemviews/kfileitemmodel.cpp:215
+#: kitemviews/kfileitemmodel.cpp:216
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Description:"
@@ -115,7 +115,7 @@ msgctxt "@item:intable"
 msgid "Destination"
 msgstr "विवरण:"
 
-#: kitemviews/kfileitemmodel.cpp:216
+#: kitemviews/kfileitemmodel.cpp:217
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
@@ -123,7 +123,7 @@ msgctxt "@item:intable"
 msgid "Path"
 msgstr "साटू"
 
-#: kitemviews/kfileitemmodel.cpp:897
+#: kitemviews/kfileitemmodel.cpp:886
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Description:"
@@ -131,18 +131,155 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "विवरण:"
 
-#: kitemviews/kfileitemmodel.cpp:1194
-msgctxt "@title:group"
-msgid "Numerics"
+#: kitemviews/kfileitemmodel.cpp:1180
+msgctxt "@title:group Groups that start with a digit"
+msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1209
+#: kitemviews/kfileitemmodel.cpp:1197
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
 msgctxt "@title:group"
 msgid "Others"
 msgstr "आन "
+
+#: kitemviews/kfileitemmodel.cpp:1229
+msgctxt "@title:group Size"
+msgid "Folders"
+msgstr "फोल्डरसभ"
+
+#: kitemviews/kfileitemmodel.cpp:1231
+msgctxt "@title:group Size"
+msgid "Small"
+msgstr "छोट"
+
+#: kitemviews/kfileitemmodel.cpp:1233
+msgctxt "@title:group Size"
+msgid "Medium"
+msgstr "मध्यम"
+
+#: kitemviews/kfileitemmodel.cpp:1235
+msgctxt "@title:group Size"
+msgid "Big"
+msgstr "पैघ"
+
+#: kitemviews/kfileitemmodel.cpp:1295
+msgctxt "@title:group Date"
+msgid "Today"
+msgstr "आइ"
+
+#: kitemviews/kfileitemmodel.cpp:1296
+msgctxt "@title:group Date"
+msgid "Yesterday"
+msgstr "कालि"
+
+#: kitemviews/kfileitemmodel.cpp:1297
+#, c-format
+msgctxt "@title:group The week day name: %A"
+msgid "%A"
+msgstr "%A"
+
+#: kitemviews/kfileitemmodel.cpp:1301
+msgctxt "@title:group Date"
+msgid "Last Week"
+msgstr "पछिला सप्ताह"
+
+#: kitemviews/kfileitemmodel.cpp:1304
+msgctxt "@title:group Date"
+msgid "Two Weeks Ago"
+msgstr "दुइ सप्ताह पहिने"
+
+#: kitemviews/kfileitemmodel.cpp:1307
+msgctxt "@title:group Date"
+msgid "Three Weeks Ago"
+msgstr "तीन सप्ताह पहिने"
+
+#: kitemviews/kfileitemmodel.cpp:1311
+msgctxt "@title:group Date"
+msgid "Earlier this Month"
+msgstr "ई महीना केर शुरू में"
+
+#: kitemviews/kfileitemmodel.cpp:1320
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Yesterday (%B, %Y)"
+msgstr "काल्हि (%B, %Y)"
+
+#: kitemviews/kfileitemmodel.cpp:1322
+msgctxt ""
+"@title:group The week day name: %A, %B is full month name in current locale, "
+"and %Y is full year number"
+msgid "%A (%B, %Y)"
+msgstr "%B, %Y"
+
+#: kitemviews/kfileitemmodel.cpp:1324
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Last Week (%B, %Y)"
+msgstr "पछिला सप्ताह (%B, %Y)"
+
+#: kitemviews/kfileitemmodel.cpp:1326
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Two Weeks Ago (%B, %Y)"
+msgstr "दुइ सप्ताह पहिने (%B, %Y)"
+
+#: kitemviews/kfileitemmodel.cpp:1328
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Three Weeks Ago (%B, %Y)"
+msgstr "तीन सप्ताह पहिने (%B, %Y)"
+
+#: kitemviews/kfileitemmodel.cpp:1330
+msgctxt ""
+"@title:group Date: %B is full month name in current locale, and %Y is full "
+"year number"
+msgid "Earlier on %B, %Y"
+msgstr "%B, %Y पर पहिने"
+
+#: kitemviews/kfileitemmodel.cpp:1333
+msgctxt ""
+"@title:group The month and year: %B is full month name in current locale, "
+"and %Y is full year number"
+msgid "%B, %Y"
+msgstr "%B, %Y"
+
+#: kitemviews/kfileitemmodel.cpp:1371 kitemviews/kfileitemmodel.cpp:1384
+#: kitemviews/kfileitemmodel.cpp:1397
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Read, "
+msgstr "पढ़ब, "
+
+#: kitemviews/kfileitemmodel.cpp:1374 kitemviews/kfileitemmodel.cpp:1387
+#: kitemviews/kfileitemmodel.cpp:1400
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Write, "
+msgstr "लिखब, "
+
+#: kitemviews/kfileitemmodel.cpp:1377 kitemviews/kfileitemmodel.cpp:1390
+#: kitemviews/kfileitemmodel.cpp:1403
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Execute, "
+msgstr "चलाएब,"
+
+#: kitemviews/kfileitemmodel.cpp:1379 kitemviews/kfileitemmodel.cpp:1392
+#: kitemviews/kfileitemmodel.cpp:1405
+msgctxt "@item:intext Access permission, concatenated"
+msgid "Forbidden"
+msgstr "वर्जित"
+
+#: kitemviews/kfileitemmodel.cpp:1407
+#, fuzzy, kde-format
+#| msgctxt "@title:group Files and folders by permissions"
+#| msgid "(User: %1) (Group: %2) (Others: %3)"
+msgctxt "@title:group Files and folders by permissions"
+msgid "User: %1 | Group: %2 | Others: %3"
+msgstr "(प्रयोक्ता: %1) (समूह: %2) (आनलोकनि: %3)"
 
 #: main.cpp:35
 msgctxt "@title"
@@ -2355,112 +2492,6 @@ msgstr "प्रयोक्ता द्वारा अंतिम बेर
 #~ msgctxt "@title::column"
 #~ msgid "Path"
 #~ msgstr "साटू"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Folders"
-#~ msgstr "फोल्डरसभ"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Small"
-#~ msgstr "छोट"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Medium"
-#~ msgstr "मध्यम"
-
-#~ msgctxt "@title:group Size"
-#~ msgid "Big"
-#~ msgstr "पैघ"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Today"
-#~ msgstr "आइ"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Yesterday"
-#~ msgstr "कालि"
-
-#~ msgctxt "@title:group The week day name: %A"
-#~ msgid "%A"
-#~ msgstr "%A"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Last Week"
-#~ msgstr "पछिला सप्ताह"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Two Weeks Ago"
-#~ msgstr "दुइ सप्ताह पहिने"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Three Weeks Ago"
-#~ msgstr "तीन सप्ताह पहिने"
-
-#~ msgctxt "@title:group Date"
-#~ msgid "Earlier this Month"
-#~ msgstr "ई महीना केर शुरू में"
-
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Yesterday (%B, %Y)"
-#~ msgstr "काल्हि (%B, %Y)"
-
-#~ msgctxt ""
-#~ "@title:group The week day name: %A, %B is full month name in current "
-#~ "locale, and %Y is full year number"
-#~ msgid "%A (%B, %Y)"
-#~ msgstr "%B, %Y"
-
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Last Week (%B, %Y)"
-#~ msgstr "पछिला सप्ताह (%B, %Y)"
-
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Two Weeks Ago (%B, %Y)"
-#~ msgstr "दुइ सप्ताह पहिने (%B, %Y)"
-
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Three Weeks Ago (%B, %Y)"
-#~ msgstr "तीन सप्ताह पहिने (%B, %Y)"
-
-#~ msgctxt ""
-#~ "@title:group Date: %B is full month name in current locale, and %Y is "
-#~ "full year number"
-#~ msgid "Earlier on %B, %Y"
-#~ msgstr "%B, %Y पर पहिने"
-
-#~ msgctxt ""
-#~ "@title:group The month and year: %B is full month name in current locale, "
-#~ "and %Y is full year number"
-#~ msgid "%B, %Y"
-#~ msgstr "%B, %Y"
-
-#~ msgctxt "@item:intext Access permission, concatenated"
-#~ msgid "Read, "
-#~ msgstr "पढ़ब, "
-
-#~ msgctxt "@item:intext Access permission, concatenated"
-#~ msgid "Write, "
-#~ msgstr "लिखब, "
-
-#~ msgctxt "@item:intext Access permission, concatenated"
-#~ msgid "Execute, "
-#~ msgstr "चलाएब,"
-
-#~ msgctxt "@item:intext Access permission, concatenated"
-#~ msgid "Forbidden"
-#~ msgstr "वर्जित"
-
-#~ msgctxt "@title:group Files and folders by permissions"
-#~ msgid "(User: %1) (Group: %2) (Others: %3)"
-#~ msgstr "(प्रयोक्ता: %1) (समूह: %2) (आनलोकनि: %3)"
 
 #~ msgctxt "@info:tooltip"
 #~ msgid "Deselect Item"
