@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_kwintabbox\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-31 04:19+0100\n"
+"POT-Creation-Date: 2011-11-01 05:52+0100\n"
 "PO-Revision-Date: 2010-01-05 10:43+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <www.bhasharghar.in>\n"
@@ -20,25 +20,43 @@ msgstr ""
 "\n"
 "\n"
 
-#: layoutconfig.cpp:58
+#: layoutconfig.cpp:167
+#, fuzzy
+#| msgid "All Desktops"
+msgctxt "An example Desktop Name"
+msgid "Desktop 1"
+msgstr "सभ डेस्कटॉप"
+
+#: layoutconfig.cpp:199
+msgctxt "Name for a window switcher layout showing icon, name and desktop"
 msgid "Informative"
 msgstr ""
 
-#: layoutconfig.cpp:59
+#: layoutconfig.cpp:200
+msgctxt "Name for a window switcher layout showing only icon and name"
 msgid "Compact"
 msgstr ""
 
-#: layoutconfig.cpp:60
-msgid "Small Icons"
+#: layoutconfig.cpp:201
+#, fuzzy
+#| msgid "Text Only"
+msgctxt "Name for a window switcher layout showing only the name"
+msgid "Text"
+msgstr "सिर्फ पाठ"
+
+#: layoutconfig.cpp:202
+#, fuzzy
+#| msgid "Small Icons"
+msgctxt "Name for a window switcher layout showing large icons"
+msgid "Large Icons"
 msgstr "छोट प्रतीक"
 
-#: layoutconfig.cpp:61
-msgid "Large Icons"
-msgstr ""
-
-#: layoutconfig.cpp:62
-msgid "Text Only"
-msgstr "सिर्फ पाठ"
+#: layoutconfig.cpp:203
+#, fuzzy
+#| msgid "Small Icons"
+msgctxt "Name for a window switcher layout showing small icons"
+msgid "Small Icons"
+msgstr "छोट प्रतीक"
 
 #: main.cpp:64
 msgid ""
@@ -96,87 +114,75 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: file: layoutconfig.ui:17
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:5
-msgid "Item Layout"
-msgstr ""
-
-#. i18n: file: layoutconfig.ui:23
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:8
-msgid "Item layout:"
-msgstr ""
-
 #. i18n: file: main.ui:17
 #. i18n: ectx: property (text), widget (KTitleWidget, description)
-#: rc.cpp:11
+#: rc.cpp:5
 msgid "These settings are used by the \"Walk Through Windows\" actions."
 msgstr ""
 
 #. i18n: file: main.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:14
+#: rc.cpp:8
 msgid "List windows:"
 msgstr ""
 
 #. i18n: file: main.ui:43
 #. i18n: ectx: property (text), item, widget (KComboBox, listModeCombo)
-#: rc.cpp:17
+#: rc.cpp:11
 msgid "Current Desktop"
 msgstr ""
 
 #. i18n: file: main.ui:48
 #. i18n: ectx: property (text), item, widget (KComboBox, listModeCombo)
-#: rc.cpp:20
+#: rc.cpp:14
 msgid "All Desktops"
 msgstr "सभ डेस्कटॉप"
 
 #. i18n: file: main.ui:53
 #. i18n: ectx: property (text), item, widget (KComboBox, listModeCombo)
-#: rc.cpp:23
+#: rc.cpp:17
 msgid "Current Desktop Grouped by Applications"
 msgstr ""
 
 #. i18n: file: main.ui:58
 #. i18n: ectx: property (text), item, widget (KComboBox, listModeCombo)
-#: rc.cpp:26
+#: rc.cpp:20
 msgid "All Desktops Grouped by Applications"
 msgstr ""
 
 #. i18n: file: main.ui:66
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:29
+#: rc.cpp:23
 msgid "Sort order:"
 msgstr ""
 
 #. i18n: file: main.ui:83
 #. i18n: ectx: property (text), item, widget (KComboBox, switchingModeCombo)
-#: rc.cpp:32
+#: rc.cpp:26
 msgid "Recently used"
 msgstr "हालमे प्रयुक्त"
 
 #. i18n: file: main.ui:88
 #. i18n: ectx: property (text), item, widget (KComboBox, switchingModeCombo)
-#: rc.cpp:35
+#: rc.cpp:29
 msgid "Stacking order"
 msgstr ""
 
 #. i18n: file: main.ui:98
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showDesktopBox)
-#: rc.cpp:38
+#: rc.cpp:32
 msgid "Adds an entry to minimize all windows."
 msgstr ""
 
 #. i18n: file: main.ui:101
 #. i18n: ectx: property (text), widget (QCheckBox, showDesktopBox)
-#: rc.cpp:41
+#: rc.cpp:35
 msgid "Include desktop"
 msgstr ""
 
 #. i18n: file: main.ui:115
 #. i18n: ectx: property (toolTip), widget (QCheckBox, highlightWindowCheck)
-#: rc.cpp:44
+#: rc.cpp:38
 msgid ""
 "The currently selected window will be highlighted by fading out all other "
 "windows. This option requires desktop effects to be active."
@@ -184,37 +190,37 @@ msgstr ""
 
 #. i18n: file: main.ui:118
 #. i18n: ectx: property (text), widget (QCheckBox, highlightWindowCheck)
-#: rc.cpp:47
+#: rc.cpp:41
 msgid "Highlight selected window"
 msgstr ""
 
 #. i18n: file: main.ui:125
 #. i18n: ectx: property (text), widget (QCheckBox, showOutlineCheck)
-#: rc.cpp:50
+#: rc.cpp:44
 msgid "Show outline of selected window"
 msgstr ""
 
 #. i18n: file: main.ui:134
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:53
+#: rc.cpp:47
 msgid "Effect:"
 msgstr ""
 
 #. i18n: file: main.ui:152
 #. i18n: ectx: property (toolTip), widget (KComboBox, effectCombo)
-#: rc.cpp:56
+#: rc.cpp:50
 msgid "The effect to replace the list window when desktop effects are active."
 msgstr ""
 
 #. i18n: file: main.ui:185
 #. i18n: ectx: property (text), widget (QCheckBox, showTabBox)
-#: rc.cpp:59
+#: rc.cpp:53
 msgid "Display list while switching"
 msgstr ""
 
 #. i18n: file: main.ui:208
 #. i18n: ectx: property (text), widget (KPushButton, layoutConfigButton)
-#: rc.cpp:62
+#: rc.cpp:56
 msgid "Configure Layout..."
 msgstr ""
 
