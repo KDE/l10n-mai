@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_gluonplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-30 03:30+0100\n"
+"POT-Creation-Date: 2011-11-02 04:20+0100\n"
 "PO-Revision-Date: 2010-09-24 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -23,15 +23,15 @@ msgstr ""
 msgid "KDE Player"
 msgstr ""
 
-#: kde/main.cpp:41 kdeext/main.cpp:35
+#: kde/main.cpp:41
 msgid "Copyright 2010 Laszlo Papp"
 msgstr ""
 
-#: kde/main.cpp:47 kdeext/main.cpp:41
+#: kde/main.cpp:47
 msgid "Laszlo Papp"
 msgstr ""
 
-#: kde/main.cpp:53 kdeext/main.cpp:47
+#: kde/main.cpp:53
 msgid "File to open"
 msgstr ""
 
@@ -47,150 +47,84 @@ msgstr ""
 msgid "Select a Project"
 msgstr ""
 
-#: kdeext/views/newcommentform.cpp:33 plasmoid/views/newcommentform.cpp:46
-msgid "OK"
-msgstr "बेस"
-
-#: kdeext/views/newcommentform.cpp:36 plasmoid/views/newcommentform.cpp:50
-msgid "Cancel"
-msgstr "रद करू"
-
-#: kdeext/delegates/itemsviewdelegate.cpp:171
-msgid "Loading Preview"
-msgstr ""
-
-#: kdeext/main.cpp:32 kdeext/main.cpp:41
-msgid "KDE Extended Player"
-msgstr ""
-
-#: kdeext/main.cpp:33
-msgid "KDE Frontend Player for Gluon games."
-msgstr ""
-
-#: kdeext/main.cpp:54
-#, kde-format
-msgid "File does not exist: %1! Do you want to continue?"
-msgstr ""
-
-#: kdeext/main.cpp:54
-msgid "Continue?"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:102 kdeext/gamesoverlay.cpp:41
-#: kdeext/loginform.cpp:44 kdeext/loginform.cpp:56 kdeext/loginform.cpp:145
-#: plasmoid/gamesoverlay.cpp:44 plasmoid/loginform.cpp:45
-msgid "Login"
-msgstr "लॉगिन"
-
-#: kdeext/mainwindow.cpp:106 kdeext/loginform.cpp:134
-msgid "Logout"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:110
-msgid "Details"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:114
-msgid "Registration"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:118
-msgid "Forgotten password"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:122
-msgid "Play Game"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:126
-msgid "Pause Game"
-msgstr ""
-
-#: kdeext/mainwindow.cpp:130
-msgid "Stop Game"
-msgstr ""
-
-#: kdeext/gamedetailsoverlay.cpp:46 plasmoid/gamedetailsoverlay.cpp:39
+#: plasmoid/gamedetailsoverlay.cpp:39
 #, fuzzy
 #| msgid "Back"
 msgctxt "Back to the previous view"
 msgid "Back"
 msgstr "पाछाँ"
 
-#: kdeext/gamedetailsoverlay.cpp:62 plasmoid/gamedetailsoverlay.cpp:54
+#: plasmoid/gamedetailsoverlay.cpp:54
 msgid "High Scores"
 msgstr "बेसी अंक"
 
-#: kdeext/gamedetailsoverlay.cpp:63 plasmoid/gamedetailsoverlay.cpp:55
+#: plasmoid/gamedetailsoverlay.cpp:55
 msgid "Achievements"
 msgstr ""
 
-#: kdeext/gamedetailsoverlay.cpp:64 plasmoid/gamedetailsoverlay.cpp:56
+#: plasmoid/gamedetailsoverlay.cpp:56
 msgid "Comments"
 msgstr "टिप्पणी"
 
-#: kdeext/gamesoverlay.cpp:36
-msgid "Coming soon!"
-msgstr ""
-
-#: kdeext/gamesoverlay.cpp:37
-msgid "Community. Under development!"
-msgstr ""
-
-#: kdeext/gamesoverlay.cpp:44 plasmoid/gamesoverlay.cpp:38
+#: plasmoid/gamesoverlay.cpp:38
 msgid "Installed"
 msgstr "संस्थापित"
 
-#: kdeext/gamesoverlay.cpp:51
+#: plasmoid/gamesoverlay.cpp:41
+msgid "Coming Soon!"
+msgstr ""
+
+#: plasmoid/gamesoverlay.cpp:42
 #, fuzzy
 #| msgid "Available"
-msgctxt "The list of the games that can be downloaded"
+msgctxt "The games that can be downloaded"
 msgid "Available"
 msgstr "उपलब्ध"
 
-#: kdeext/gamesoverlay.cpp:54
-#, fuzzy
-#| msgid "Comments"
-msgid "Community"
-msgstr "टिप्पणी"
+#: plasmoid/gamesoverlay.cpp:44 plasmoid/loginform.cpp:45
+msgid "Login"
+msgstr "लॉगिन"
 
-#: kdeext/loginform.cpp:50 kdeext/loginform.cpp:143 plasmoid/loginform.cpp:49
-msgid "Not Logged In"
-msgstr "नहि लोगिन अछि"
+#: plasmoid/glfboapplet.cpp:113 plasmoid/glfboapplet.cpp:121
+#: plasmoid/glfboapplet.cpp:134 plasmoid/glfboapplet.cpp:142
+msgid "This system does not support Gluon's OpenGL widget."
+msgstr ""
 
-#: kdeext/loginform.cpp:54 plasmoid/loginform.cpp:41
+#: plasmoid/glfboapplet.cpp:268
+msgid "Your machine does not support Gluon's OpenGL widget."
+msgstr ""
+
+#: plasmoid/loginform.cpp:41
 #, fuzzy
 #| msgid "Username"
 msgctxt "The name of the user"
 msgid "Username"
 msgstr "प्रयोक्ता नाम"
 
-#: kdeext/loginform.cpp:55 plasmoid/loginform.cpp:42
+#: plasmoid/loginform.cpp:42
 msgid "Password"
 msgstr "कूटशब्द"
 
-#: kdeext/loginform.cpp:57
-msgid "Remember"
-msgstr ""
+#: plasmoid/loginform.cpp:49
+msgid "Not Logged In"
+msgstr "नहि लोगिन अछि"
 
-#: kdeext/loginform.cpp:112 plasmoid/loginform.cpp:98
+#: plasmoid/loginform.cpp:98
 msgid "Logging in"
 msgstr "लौगिंग इन"
 
-#: kdeext/loginform.cpp:123
-#, fuzzy
-#| msgid "Logging in"
-msgid "Logging out"
-msgstr "लौगिंग इन"
-
-#: kdeext/loginform.cpp:132 plasmoid/loginform.cpp:105
+#: plasmoid/loginform.cpp:105
 #, kde-format
 msgctxt "Logged in as <user name>"
 msgid "Logged in as %1"
 msgstr ""
 
-#: kdeext/loginform.cpp:156 plasmoid/loginform.cpp:112
+#: plasmoid/loginform.cpp:112
 msgid "Login Failed"
+msgstr ""
+
+#: plasmoid/views/gamesviewitem.cpp:88
+msgid "Click here to Start the game"
 msgstr ""
 
 #: plasmoid/views/newcommentform.cpp:40
@@ -204,26 +138,26 @@ msgstr "विषय"
 msgid "Message"
 msgstr "संदेश"
 
-#: plasmoid/views/gamesviewitem.cpp:88
-msgid "Click here to Start the game"
-msgstr ""
+#: plasmoid/views/newcommentform.cpp:46
+msgid "OK"
+msgstr "बेस"
 
-#: plasmoid/glfboapplet.cpp:113 plasmoid/glfboapplet.cpp:121
-#: plasmoid/glfboapplet.cpp:134 plasmoid/glfboapplet.cpp:142
-msgid "This system does not support Gluon's OpenGL widget."
-msgstr ""
+#: plasmoid/views/newcommentform.cpp:50
+msgid "Cancel"
+msgstr "रद करू"
 
-#: plasmoid/glfboapplet.cpp:268
-msgid "Your machine does not support Gluon's OpenGL widget."
-msgstr ""
-
-#: plasmoid/gamesoverlay.cpp:41
-msgid "Coming Soon!"
-msgstr ""
-
-#: plasmoid/gamesoverlay.cpp:42
 #, fuzzy
-#| msgid "Available"
-msgctxt "The games that can be downloaded"
-msgid "Available"
-msgstr "उपलब्ध"
+#~| msgid "Available"
+#~ msgctxt "The list of the games that can be downloaded"
+#~ msgid "Available"
+#~ msgstr "उपलब्ध"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Community"
+#~ msgstr "टिप्पणी"
+
+#, fuzzy
+#~| msgid "Logging in"
+#~ msgid "Logging out"
+#~ msgstr "लौगिंग इन"
