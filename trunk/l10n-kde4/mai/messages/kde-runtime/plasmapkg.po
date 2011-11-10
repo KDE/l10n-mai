@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2011-11-10 04:04+0100\n"
 "PO-Revision-Date: 2009-01-17 22:26+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -120,10 +120,18 @@ msgid "Original author"
 msgstr "मूल लेखक"
 
 #: main.cpp:184
+#, fuzzy
+#| msgctxt "Do not translate <path>"
+#| msgid "Install the package at <path>"
+msgctxt "Do not translate <path>"
+msgid "Generate a SHA1 hash for the package at <path>"
+msgstr "पैकेज केँ एतय सँस्थापित करू <path>"
+
+#: main.cpp:186
 msgid "For install or remove, operates on packages installed for all users."
 msgstr "सँस्थापना अथवा हटाबै क' लेल ई सबहि प्रयोक्ता क' लेल पैकेजमे काम करैत अछि."
 
-#: main.cpp:190
+#: main.cpp:192
 #, fuzzy
 #| msgctxt ""
 #| "theme, wallpaper, etc. are keywords, but they may be translated, as both "
@@ -141,30 +149,30 @@ msgid ""
 "layout-template, etc."
 msgstr "संकुल प्रकार, उदा. प्रसंग, वालपेपर, प्लाज्माइड, डाटा-इंजिन, रनर आदि."
 
-#: main.cpp:194
+#: main.cpp:196
 msgctxt "Do not translate <path>"
 msgid "Install the package at <path>"
 msgstr "पैकेज केँ एतय सँस्थापित करू <path>"
 
-#: main.cpp:196
+#: main.cpp:198
 msgctxt "Do not translate <path>"
 msgid "Upgrade the package at <path>"
 msgstr "पैकेज एतय उन्नत बनाबू <path>"
 
-#: main.cpp:198
+#: main.cpp:200
 msgid "List installed packages"
 msgstr "सँस्थापित पैकेज केर सूची दिअ'"
 
-#: main.cpp:199
+#: main.cpp:201
 msgid "lists all known Package types that can be installed"
 msgstr ""
 
-#: main.cpp:201
+#: main.cpp:203
 msgctxt "Do not translate <name>"
 msgid "Remove the package named <name>"
 msgstr "एहि नाम क' पैकेज हटाबू <name>"
 
-#: main.cpp:203
+#: main.cpp:205
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
@@ -172,32 +180,42 @@ msgstr ""
 "संकुल रूट क' निरपेक्ष पथ. जँ नहि देल जाएत अछि, तब मानक आँकडा निर्देशिका एहि KDE सत्र क' "
 "लेल बदलामे खोजल जएताह."
 
-#: main.cpp:236 main.cpp:273
+#: main.cpp:218
+#, kde-format
+msgid "Failed to generate a Package hash for %1"
+msgstr ""
+
+#: main.cpp:222
+#, kde-format
+msgid "SHA1 hash for Package at %1: '%2'"
+msgstr ""
+
+#: main.cpp:253 main.cpp:290
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "वालपेपर"
 
-#: main.cpp:263
+#: main.cpp:280
 msgctxt "package type"
 msgid "plasmoid"
 msgstr "प्लाज्माइड"
 
-#: main.cpp:270
+#: main.cpp:287
 msgctxt "package type"
 msgid "theme"
 msgstr "प्रसंग"
 
-#: main.cpp:276
+#: main.cpp:293
 msgctxt "package type"
 msgid "dataengine"
 msgstr "डाटा-इंजिन"
 
-#: main.cpp:281
+#: main.cpp:298
 msgctxt "package type"
 msgid "runner"
 msgstr "रनर"
 
-#: main.cpp:286
+#: main.cpp:303
 #, fuzzy
 #| msgctxt "package type"
 #| msgid "wallpaper"
@@ -205,22 +223,22 @@ msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "वालपेपर"
 
-#: main.cpp:291
+#: main.cpp:308
 msgctxt "package type"
 msgid "layout-template"
 msgstr ""
 
-#: main.cpp:300
+#: main.cpp:317
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "संकुल प्रकार %1 क' लेल उपयुक्त सँस्थापक नहि पाबि सकल"
 
-#: main.cpp:309
+#: main.cpp:326
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "संकुल प्रकार %1 क' लेल सँस्थापक लोड नहि कए सकल. रिपोर्ट कएल गेल त्रुटि छल: %2"
 
-#: main.cpp:329
+#: main.cpp:346
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
@@ -229,32 +247,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: main.cpp:354
+#: main.cpp:371
 #, kde-format
 msgid "Successfully removed %1"
 msgstr "सफलतापूर्वक हटओलक %1"
 
-#: main.cpp:356
+#: main.cpp:373
 #, kde-format
 msgid "Removal of %1 failed."
 msgstr "%1 क' हटाएल जएनाइ विफल."
 
-#: main.cpp:361
+#: main.cpp:378
 #, kde-format
 msgid "Plugin %1 is not installed."
 msgstr "प्लगिन %1 सँस्थापित नहि अछि."
 
-#: main.cpp:366
+#: main.cpp:383
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "सफलतापूर्वक सँस्थापित %1"
 
-#: main.cpp:368
+#: main.cpp:385
 #, kde-format
 msgid "Installation of %1 failed."
 msgstr "%1 क' सँस्थापन विफल."
 
-#: main.cpp:374
+#: main.cpp:391
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
 "least one, do not translate install, remove, upgrade nor list"
