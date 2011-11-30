@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-29 04:14+0100\n"
+"POT-Creation-Date: 2011-11-30 03:08+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4719,7 +4719,7 @@ msgstr "वृत्त"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #: rc.cpp:1542 rc.cpp:2480 rc.cpp:2525 rc.cpp:2810 rc.cpp:3094
 #: image/recorder/kis_recorded_shape_paint_action.cpp:56
-#: plugins/tools/defaulttools/kis_tool_rectangle.cc:81
+#: plugins/tools/defaulttools/kis_tool_rectangle.cc:82
 msgid "Rectangle"
 msgstr "आयत"
 
@@ -6133,7 +6133,7 @@ msgstr "बेस (&O)"
 
 #. i18n: file: plugins/paintops/complexop/wdgbrushcurves.ui:177
 #. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: rc.cpp:2342 ui/tool/kis_tool_polyline_base.cpp:40
+#: rc.cpp:2342 ui/tool/kis_tool_polyline_base.cpp:41
 msgid "&Cancel"
 msgstr "रद्द करू (&C)"
 
@@ -6471,7 +6471,7 @@ msgstr "देखाबू"
 #: rc.cpp:2477 rc.cpp:2522 rc.cpp:2807 rc.cpp:3091
 #: image/recorder/kis_recorded_shape_paint_action.cpp:54
 #: plugins/assistants/RulerAssistant/EllipseAssistant.cc:101
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:68
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:69
 msgid "Ellipse"
 msgstr "दीर्घवृत्त"
 
@@ -7224,7 +7224,7 @@ msgstr "दिनांक:"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: plugins/tools/tool_curves/wdg_tool_example.ui:73
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:2835 rc.cpp:3299 plugins/tools/tool_star/kis_tool_star.cc:239
+#: rc.cpp:2835 rc.cpp:3299 plugins/tools/tool_star/kis_tool_star.cc:240
 msgid "Ratio:"
 msgstr ""
 
@@ -7978,7 +7978,7 @@ msgstr "उदाहरण"
 
 #. i18n: file: plugins/tools/tool_curves/wdg_tool_example.ui:38
 #. i18n: ectx: property (text), widget (QLabel)
-#: rc.cpp:3296 plugins/tools/tool_star/kis_tool_star.cc:233
+#: rc.cpp:3296 plugins/tools/tool_star/kis_tool_star.cc:234
 msgid "Vertices:"
 msgstr ""
 
@@ -8242,8 +8242,8 @@ msgstr "पृष्ठभूमि रँग"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #: rc.cpp:3436 plugins/paintops/libpaintop/kis_color_source_option.cpp:58
 #: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:26
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:267
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:273
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:268
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:274
 msgid "Gradient"
 msgstr "झुकाव"
 
@@ -10085,8 +10085,8 @@ msgid "YCbCr (8-bit integer/channel)"
 msgstr ""
 
 #: benchmarks/kis_floodfill_benchmark.cpp:87
-#: plugins/tools/defaulttools/kis_tool_fill.cc:100
-#: plugins/tools/defaulttools/kis_tool_fill.cc:141
+#: plugins/tools/defaulttools/kis_tool_fill.cc:101
+#: plugins/tools/defaulttools/kis_tool_fill.cc:142
 msgid "Flood Fill"
 msgstr ""
 
@@ -10472,12 +10472,12 @@ msgid ""
 msgstr ""
 
 #: image/recorder/kis_recorded_fill_paint_action.cpp:42
-#: plugins/tools/defaulttools/kis_tool_fill.cc:126
+#: plugins/tools/defaulttools/kis_tool_fill.cc:127
 msgid "Fill"
 msgstr "भरू"
 
 #: image/recorder/kis_recorded_path_paint_action.cpp:62
-#: plugins/tools/defaulttools/kis_tool_path.cc:188
+#: plugins/tools/defaulttools/kis_tool_path.cc:189
 msgid "Path"
 msgstr "पथ"
 
@@ -12859,68 +12859,6 @@ msgstr ""
 msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:327
-msgid "Repeat:"
-msgstr "दोहराबू:"
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:329
-msgctxt "the gradient will be drawn with the color order reversed"
-msgid "Reverse"
-msgstr "विपरीत"
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:336
-msgctxt "the gradient will be drawn linearly"
-msgid "Linear"
-msgstr "रैखिक"
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:337
-msgctxt "the gradient will be drawn bilinearly"
-msgid "Bi-Linear"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:338
-msgctxt "the gradient will be drawn radially"
-msgid "Radial"
-msgstr "अरीय"
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:339
-msgctxt "the gradient will be drawn in a square around a centre"
-msgid "Square"
-msgstr "वर्ग"
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:340
-msgctxt "the gradient will be drawn as an assymmetric cone"
-msgid "Conical"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:341
-msgctxt "the gradient will be drawn as a symmetric cone"
-msgid "Conical Symmetric"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:346
-msgctxt "The gradient will not repeat"
-msgid "None"
-msgstr "किछु नहि"
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:347
-msgctxt "The gradient will repeat forwards"
-msgid "Forwards"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
-msgctxt "The gradient will repeat alternatingly"
-msgid "Alternating"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:356
-msgid "Anti-alias threshold:"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:367
-msgid "Preview opacity:"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_gradient.h:123
 #, fuzzy
 #| msgid "Gradient"
@@ -12980,10 +12918,6 @@ msgstr "ब्रश"
 msgid "Draw a path."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.h:85
-msgid "Draw a straight line with the current brush"
-msgstr ""
-
 #: plugins/tools/defaulttools/kis_tool_fill.cc:207
 msgid "Threshold: "
 msgstr ""
@@ -13011,6 +12945,10 @@ msgstr ""
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_line.h:85
+msgid "Draw a straight line with the current brush"
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_line.cc:85
@@ -13097,6 +13035,68 @@ msgstr ""
 #: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
 msgid "Palette"
 msgstr "रंग-पट्टिका"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:327
+msgid "Repeat:"
+msgstr "दोहराबू:"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:329
+msgctxt "the gradient will be drawn with the color order reversed"
+msgid "Reverse"
+msgstr "विपरीत"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:336
+msgctxt "the gradient will be drawn linearly"
+msgid "Linear"
+msgstr "रैखिक"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:337
+msgctxt "the gradient will be drawn bilinearly"
+msgid "Bi-Linear"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:338
+msgctxt "the gradient will be drawn radially"
+msgid "Radial"
+msgstr "अरीय"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:339
+msgctxt "the gradient will be drawn in a square around a centre"
+msgid "Square"
+msgstr "वर्ग"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:340
+msgctxt "the gradient will be drawn as an assymmetric cone"
+msgid "Conical"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:341
+msgctxt "the gradient will be drawn as a symmetric cone"
+msgid "Conical Symmetric"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:346
+msgctxt "The gradient will not repeat"
+msgid "None"
+msgstr "किछु नहि"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:347
+msgctxt "The gradient will repeat forwards"
+msgid "Forwards"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
+msgctxt "The gradient will repeat alternatingly"
+msgid "Alternating"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:356
+msgid "Anti-alias threshold:"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:367
+msgid "Preview opacity:"
+msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.h:74
 #, fuzzy
@@ -13194,14 +13194,14 @@ msgstr ""
 msgid "Select similar colors"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:68
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:84
-msgid "Rectangular Selection"
-msgstr ""
-
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:93
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:117
 msgid "Contiguous Area Selection"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:69
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:85
+msgid "Rectangular Selection"
 msgstr ""
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:148
@@ -13347,7 +13347,7 @@ msgstr "पोलीलैन"
 msgid "Draw a star with the current brush"
 msgstr ""
 
-#: plugins/tools/tool_star/kis_tool_star.cc:138
+#: plugins/tools/tool_star/kis_tool_star.cc:140
 msgid "Star"
 msgstr "तारा"
 
@@ -13355,7 +13355,18 @@ msgstr "तारा"
 msgid "Transform a layer or a selection"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2098
+#: plugins/tools/tool_transform2/tool_transform_commands.cc:26
+msgid "Apply transformation"
+msgstr ""
+
+#: plugins/tools/tool_transform2/tool_transform_commands.cc:57
+#, fuzzy
+#| msgid "Transform"
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "रूपांतरित करू"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2099
 #, fuzzy
 #| msgid "Transform"
 msgid "Apply Transformation"
@@ -13381,17 +13392,6 @@ msgstr "दायाँ:"
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:2888
 msgid "Unlock Points"
 msgstr ""
-
-#: plugins/tools/tool_transform2/tool_transform_commands.cc:26
-msgid "Apply transformation"
-msgstr ""
-
-#: plugins/tools/tool_transform2/tool_transform_commands.cc:57
-#, fuzzy
-#| msgid "Transform"
-msgctxt "(qtundo-format)"
-msgid "Transform"
-msgstr "रूपांतरित करू"
 
 #: plugins/tools/tool_text/kis_tool_text.h:52
 #, fuzzy
@@ -14399,10 +14399,6 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
-#: ui/tool/kis_tool_polyline_base.cpp:37
-msgid "&Finish"
-msgstr ""
-
 #: ui/tool/kis_tool_select_base.cpp:45
 msgid "Selection"
 msgstr "चुनाव"
@@ -14435,6 +14431,10 @@ msgstr ""
 
 #: ui/tool/kis_tool_paint.cc:94
 msgid "Make Brush color darker"
+msgstr ""
+
+#: ui/tool/kis_tool_polyline_base.cpp:38
+msgid "&Finish"
 msgstr ""
 
 #: ui/tool/kis_tool_freehand.cc:85
