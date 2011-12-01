@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-30 04:31+0100\n"
+"POT-Creation-Date: 2011-12-01 04:09+0100\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -168,86 +168,6 @@ msgstr ""
 msgctxt "Status of an item"
 msgid "Ignored"
 msgstr "अनदेखा कएल गेल"
-
-#: core/model.cpp:290
-msgid "Today"
-msgstr "आइ"
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr "कालि"
-
-#: core/model.cpp:293 core/manager.cpp:100
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: core/model.cpp:294
-msgid "Last Week"
-msgstr "अंतिम सप्ताह"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr "दुइ सप्ताह पहिने"
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr "तीन सप्ताह पहिने"
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:525 utils/themeeditor.cpp:204
-msgid "Receiver"
-msgstr "पएनिहार"
-
-#: core/model.cpp:526 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "प्रेषक"
-
-#: core/model.cpp:1354
-#, kde-format
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: core/model.cpp:3788
-#, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3794 core/model.cpp:3800
-#, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3806
-#, kde-format
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3812
-#, kde-format
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3909
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "तैआर"
 
 #: core/sortorder.cpp:41 core/sortorder.cpp:85
 msgid "None (Storage Order)"
@@ -752,6 +672,11 @@ msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
 
+#: core/manager.cpp:100 core/model.cpp:293
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "अज्ञात"
+
 #: core/manager.cpp:321
 msgid "Current Activity, Threaded"
 msgstr ""
@@ -934,6 +859,81 @@ msgstr ""
 #: core/manager.cpp:861
 msgid "A fancy multiline and multi item theme with a clickable status column"
 msgstr ""
+
+#: core/model.cpp:290
+msgid "Today"
+msgstr "आइ"
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr "कालि"
+
+#: core/model.cpp:294
+msgid "Last Week"
+msgstr "अंतिम सप्ताह"
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr "दुइ सप्ताह पहिने"
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr "तीन सप्ताह पहिने"
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:525 utils/themeeditor.cpp:204
+msgid "Receiver"
+msgstr "पएनिहार"
+
+#: core/model.cpp:526 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: core/model.cpp:1354
+#, kde-format
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3785
+#, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3791 core/model.cpp:3797
+#, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3803
+#, kde-format
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3809
+#, kde-format
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3906
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "तैआर"
 
 #: utils/aggregationeditor.cpp:47
 msgid "Groups && Threading"
