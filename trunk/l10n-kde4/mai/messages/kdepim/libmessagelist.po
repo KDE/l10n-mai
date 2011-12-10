@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-06 06:04+0100\n"
+"POT-Creation-Date: 2011-12-10 03:48+0100\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -245,6 +245,190 @@ msgctxt "Sort order for mail groups"
 msgid "Descending"
 msgstr "अवरोहण क्रम"
 
+#: core/view.cpp:725
+msgid "Adjust Column Sizes"
+msgstr ""
+
+#: core/view.cpp:728
+msgid "Show Default Columns"
+msgstr ""
+
+#: core/view.cpp:732
+msgid "Display Tooltips"
+msgstr ""
+
+#: core/view.cpp:1572
+msgid "Sorting"
+msgstr "छाँटनाइ"
+
+#: core/view.cpp:1578 core/widgetbase.cpp:548
+msgid "Aggregation"
+msgstr ""
+
+#: core/view.cpp:1584 core/widgetbase.cpp:442
+msgid "Theme"
+msgstr "प्रसंग"
+
+#: core/view.cpp:2358 core/view.cpp:2362
+msgid "From"
+msgstr "सँ"
+
+#: core/view.cpp:2359 core/view.cpp:2363
+msgctxt "Receiver of the emial"
+msgid "To"
+msgstr "केँ"
+
+#: core/view.cpp:2360 core/view.cpp:2364
+msgid "Date"
+msgstr "दिनांक"
+
+#: core/view.cpp:2377 core/view.cpp:2380 core/manager.cpp:864
+msgid "Status"
+msgstr "स्थिति"
+
+#: core/view.cpp:2378 core/view.cpp:2381
+msgid "Size"
+msgstr "आकार"
+
+#: core/view.cpp:2386 core/view.cpp:2388
+msgid "Note"
+msgstr "नोट"
+
+#: core/view.cpp:2395 core/view.cpp:2397
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: core/view.cpp:2416
+#, kde-format
+msgid "<b>%1</b> reply"
+msgid_plural "<b>%1</b> replies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/view.cpp:2420
+#, kde-format
+msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/view.cpp:2465
+#, kde-format
+msgctxt ""
+"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
+msgid "Threads started on %1"
+msgstr ""
+
+#: core/view.cpp:2471
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
+msgid "Threads started %1"
+msgstr ""
+
+#: core/view.cpp:2476
+#, kde-format
+msgid "Threads with messages dated %1"
+msgstr ""
+
+#: core/view.cpp:2488
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
+msgid "Messages sent on %1"
+msgstr ""
+
+#: core/view.cpp:2494
+#, kde-format
+msgctxt ""
+"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
+msgid "Messages received on %1"
+msgstr ""
+
+#: core/view.cpp:2501
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
+msgid "Messages sent %1"
+msgstr ""
+
+#: core/view.cpp:2507
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
+msgid "Messages received %1"
+msgstr ""
+
+#: core/view.cpp:2519
+#, kde-format
+msgid "Threads started within %1"
+msgstr ""
+
+#: core/view.cpp:2522
+#, kde-format
+msgid "Threads containing messages with dates within %1"
+msgstr ""
+
+#: core/view.cpp:2530
+#, kde-format
+msgid "Messages sent within %1"
+msgstr ""
+
+#: core/view.cpp:2532
+#, kde-format
+msgid "Messages received within %1"
+msgstr ""
+
+#: core/view.cpp:2542
+#, kde-format
+msgid "Threads started by %1"
+msgstr ""
+
+#: core/view.cpp:2545
+#, kde-format
+msgid "Threads with most recent message by %1"
+msgstr ""
+
+#: core/view.cpp:2555 core/view.cpp:2581
+#, kde-format
+msgid "Messages sent to %1"
+msgstr ""
+
+#: core/view.cpp:2557
+#, kde-format
+msgid "Messages sent by %1"
+msgstr ""
+
+#: core/view.cpp:2559
+#, kde-format
+msgid "Messages received from %1"
+msgstr ""
+
+#: core/view.cpp:2569
+#, kde-format
+msgid "Threads directed to %1"
+msgstr ""
+
+#: core/view.cpp:2572
+#, kde-format
+msgid "Threads with most recent message directed to %1"
+msgstr ""
+
+#: core/view.cpp:2583
+#, kde-format
+msgid "Messages received by %1"
+msgstr ""
+
+#: core/view.cpp:2612
+#, kde-format
+msgid "<b>%1</b> thread"
+msgid_plural "<b>%1</b> threads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/view.cpp:2617
+#, kde-format
+msgid "<b>%1</b> message (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
+msgstr[0] ""
+msgstr[1] ""
+
 #: core/theme.cpp:81
 msgctxt "Description of Type Subject"
 msgid "Subject"
@@ -463,18 +647,10 @@ msgctxt "@action:inmenu Status of a message"
 msgid "Ham"
 msgstr ""
 
-#: core/widgetbase.cpp:442 core/view.cpp:1584
-msgid "Theme"
-msgstr "प्रसंग"
-
 #: core/widgetbase.cpp:485 core/widgetbase.cpp:591
 #: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
 msgid "Configure..."
 msgstr "कान्फिगर..."
-
-#: core/widgetbase.cpp:548 core/view.cpp:1578
-msgid "Aggregation"
-msgstr ""
 
 #: core/widgetbase.cpp:647
 msgid "Message Sort Order"
@@ -495,182 +671,6 @@ msgstr ""
 #: core/widgetbase.cpp:736
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
-
-#: core/view.cpp:725
-msgid "Adjust Column Sizes"
-msgstr ""
-
-#: core/view.cpp:728
-msgid "Show Default Columns"
-msgstr ""
-
-#: core/view.cpp:732
-msgid "Display Tooltips"
-msgstr ""
-
-#: core/view.cpp:1572
-msgid "Sorting"
-msgstr "छाँटनाइ"
-
-#: core/view.cpp:2358 core/view.cpp:2362
-msgid "From"
-msgstr "सँ"
-
-#: core/view.cpp:2359 core/view.cpp:2363
-msgctxt "Receiver of the emial"
-msgid "To"
-msgstr "केँ"
-
-#: core/view.cpp:2360 core/view.cpp:2364
-msgid "Date"
-msgstr "दिनांक"
-
-#: core/view.cpp:2377 core/view.cpp:2380 core/manager.cpp:864
-msgid "Status"
-msgstr "स्थिति"
-
-#: core/view.cpp:2378 core/view.cpp:2381
-msgid "Size"
-msgstr "आकार"
-
-#: core/view.cpp:2386 core/view.cpp:2388
-msgid "Note"
-msgstr "नोट"
-
-#: core/view.cpp:2395 core/view.cpp:2397
-msgid "Preview"
-msgstr "पूर्वावलोकन"
-
-#: core/view.cpp:2416
-#, kde-format
-msgid "<b>%1</b> reply"
-msgid_plural "<b>%1</b> replies"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/view.cpp:2420
-#, kde-format
-msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
-msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/view.cpp:2465
-#, kde-format
-msgctxt ""
-"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
-msgid "Threads started on %1"
-msgstr ""
-
-#: core/view.cpp:2471
-#, kde-format
-msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
-msgid "Threads started %1"
-msgstr ""
-
-#: core/view.cpp:2476
-#, kde-format
-msgid "Threads with messages dated %1"
-msgstr ""
-
-#: core/view.cpp:2488
-#, kde-format
-msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
-msgid "Messages sent on %1"
-msgstr ""
-
-#: core/view.cpp:2494
-#, kde-format
-msgctxt ""
-"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
-msgid "Messages received on %1"
-msgstr ""
-
-#: core/view.cpp:2501
-#, kde-format
-msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
-msgid "Messages sent %1"
-msgstr ""
-
-#: core/view.cpp:2507
-#, kde-format
-msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
-msgid "Messages received %1"
-msgstr ""
-
-#: core/view.cpp:2519
-#, kde-format
-msgid "Threads started within %1"
-msgstr ""
-
-#: core/view.cpp:2522
-#, kde-format
-msgid "Threads containing messages with dates within %1"
-msgstr ""
-
-#: core/view.cpp:2530
-#, kde-format
-msgid "Messages sent within %1"
-msgstr ""
-
-#: core/view.cpp:2532
-#, kde-format
-msgid "Messages received within %1"
-msgstr ""
-
-#: core/view.cpp:2542
-#, kde-format
-msgid "Threads started by %1"
-msgstr ""
-
-#: core/view.cpp:2545
-#, kde-format
-msgid "Threads with most recent message by %1"
-msgstr ""
-
-#: core/view.cpp:2555 core/view.cpp:2581
-#, kde-format
-msgid "Messages sent to %1"
-msgstr ""
-
-#: core/view.cpp:2557
-#, kde-format
-msgid "Messages sent by %1"
-msgstr ""
-
-#: core/view.cpp:2559
-#, kde-format
-msgid "Messages received from %1"
-msgstr ""
-
-#: core/view.cpp:2569
-#, kde-format
-msgid "Threads directed to %1"
-msgstr ""
-
-#: core/view.cpp:2572
-#, kde-format
-msgid "Threads with most recent message directed to %1"
-msgstr ""
-
-#: core/view.cpp:2583
-#, kde-format
-msgid "Messages received by %1"
-msgstr ""
-
-#: core/view.cpp:2612
-#, kde-format
-msgid "<b>%1</b> thread"
-msgid_plural "<b>%1</b> threads"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/view.cpp:2617
-#, kde-format
-msgid "<b>%1</b> message (<b>%2</b> unread)"
-msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
-msgstr[0] ""
-msgstr[1] ""
 
 #: core/manager.cpp:100 core/model.cpp:293
 msgctxt "Unknown date"
