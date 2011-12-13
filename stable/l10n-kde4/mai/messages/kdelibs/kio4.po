@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-11 10:29+0100\n"
+"POT-Creation-Date: 2011-12-13 17:24+0100\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -264,7 +264,7 @@ msgstr "खोलू"
 msgid "Save As"
 msgstr "एहिना सहेजू"
 
-#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:984
+#: kfile/kurlrequesterdialog.cpp:58 kfile/kpropertiesdialog.cpp:983
 msgid "Location:"
 msgstr "स्थानः"
 
@@ -281,7 +281,7 @@ msgid "Owning Group"
 msgstr "मालिक समूह"
 
 #: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
-#: kfile/kpropertiesdialog.cpp:2001
+#: kfile/kpropertiesdialog.cpp:2000
 msgid "Others"
 msgstr "आन "
 
@@ -908,6 +908,486 @@ msgstr "स्थिति"
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm *.svg *.svgz|प्रतीक फाइलसभ (*.png *.xpm *.svg *.svgz)"
 
+#: kfile/kpropertiesdialog.cpp:212 kfile/kpropertiesdialog.cpp:227
+#: kfile/kpropertiesdialog.cpp:239 kfile/kpropertiesdialog.cpp:254
+#: kfile/kpropertiesdialog.cpp:270
+#, kde-format
+msgid "Properties for %1"
+msgstr " %1 क' लेल गुण"
+
+#: kfile/kpropertiesdialog.cpp:237
+#, kde-format
+msgid "Properties for 1 item"
+msgid_plural "Properties for %1 Selected Items"
+msgstr[0] "१ वस्तु क' लेल गुण"
+msgstr[1] "%1 वस्तु क' लेल गुण"
+
+#: kfile/kpropertiesdialog.cpp:761
+#, fuzzy
+#| msgid "&General"
+msgctxt "@title:tab File properties"
+msgid "&General"
+msgstr "सामान्य (&G)"
+
+#: kfile/kpropertiesdialog.cpp:946 kio/kfileitem.cpp:1130
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: kfile/kpropertiesdialog.cpp:960
+msgid "Create new file type"
+msgstr "नवीन फाइल प्रकार बनाबू"
+
+#: kfile/kpropertiesdialog.cpp:962
+msgid "Edit file type"
+msgstr "फाइल प्रकार संपादन करू"
+
+#: kfile/kpropertiesdialog.cpp:974
+msgid "Contents:"
+msgstr "विषय:"
+
+#: kfile/kpropertiesdialog.cpp:997 kio/kfileitem.cpp:1139
+msgid "Size:"
+msgstr "आकार:"
+
+#: kfile/kpropertiesdialog.cpp:1016
+msgid "Calculate"
+msgstr "गणना"
+
+#: kfile/kpropertiesdialog.cpp:1017
+msgid "Stop"
+msgstr "रोकू"
+
+#: kfile/kpropertiesdialog.cpp:1027 kfile/kpropertiesdialog.cpp:1233
+msgid "Refresh"
+msgstr "ताजा करू"
+
+#: kfile/kpropertiesdialog.cpp:1035
+msgid "Points to:"
+msgstr "की ओर इशाराः"
+
+#: kfile/kpropertiesdialog.cpp:1048
+msgid "Created:"
+msgstr "बनएलक:"
+
+#: kfile/kpropertiesdialog.cpp:1058 kio/kfileitem.cpp:1143
+msgid "Modified:"
+msgstr "परिवर्धितः"
+
+#: kfile/kpropertiesdialog.cpp:1068
+msgid "Accessed:"
+msgstr "पहुंचल:"
+
+#: kfile/kpropertiesdialog.cpp:1089
+msgid "Mounted on:"
+msgstr "पर माउन्टेड:"
+
+#: kfile/kpropertiesdialog.cpp:1097 kfile/kpropertiesdialog.cpp:2788
+msgid "Device usage:"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1195 kfile/kpropertiesdialog.cpp:2916
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 free of %2 (%3% used)"
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1212 kfile/kpropertiesdialog.cpp:1228
+#, kde-format
+msgid "1 file"
+msgid_plural "%1 files"
+msgstr[0] "१ फाइल"
+msgstr[1] "%1 फाइल"
+
+#: kfile/kpropertiesdialog.cpp:1213 kfile/kpropertiesdialog.cpp:1229
+#, kde-format
+msgid "1 sub-folder"
+msgid_plural "%1 sub-folders"
+msgstr[0] "१ उप फोल्डर"
+msgstr[1] "%1 उप फोल्डर"
+
+#: kfile/kpropertiesdialog.cpp:1209
+#, kde-format
+msgid ""
+"Calculating... %1 (%2)\n"
+"%3, %4"
+msgstr ""
+"गणना मे... %1 (%2)\n"
+"%3, %4"
+
+#: kfile/kpropertiesdialog.cpp:1242
+msgid "Calculating..."
+msgstr "गणनामे... "
+
+#: kfile/kpropertiesdialog.cpp:1275
+#, kde-format
+msgid "At least %1"
+msgstr "कम सँ कम %1"
+
+#: kfile/kpropertiesdialog.cpp:1312
+msgid "The new file name is empty."
+msgstr "नवीन फाइल नाम खाली अछि."
+
+#: kfile/kpropertiesdialog.cpp:1489 kfile/kpropertiesdialog.cpp:2662
+#: kfile/kpropertiesdialog.cpp:2956 kfile/kpropertiesdialog.cpp:3205
+#, kde-format
+msgid ""
+"<qt>Could not save properties. You do not have sufficient access to write to "
+"<b>%1</b>.</qt>"
+msgstr ""
+"<qt>गुण सहेज नहि सकत. अहाँक पास उचित पहुँच <b>%1</b> </qt> पर लिखबाक लेल नहि अछि."
+
+#: kfile/kpropertiesdialog.cpp:1564 kfile/kpropertiesdialog.cpp:1568
+#: kfile/kpropertiesdialog.cpp:1573
+msgid "Forbidden"
+msgstr "वर्जित"
+
+#: kfile/kpropertiesdialog.cpp:1565
+msgid "Can Read"
+msgstr "पढ़ि सकैत अछि"
+
+#: kfile/kpropertiesdialog.cpp:1566
+msgid "Can Read & Write"
+msgstr "पढ़ि आ लिखि सकैत अछि"
+
+#: kfile/kpropertiesdialog.cpp:1569
+msgid "Can View Content"
+msgstr "विषयवस्तु देख सकैछ"
+
+#: kfile/kpropertiesdialog.cpp:1570
+msgid "Can View & Modify Content"
+msgstr "विषयवस्तु देख आ बदएल सकैछ"
+
+#: kfile/kpropertiesdialog.cpp:1574
+msgid "Can View Content & Read"
+msgstr "विषयवस्तु देख आ पढ़ि सकैछ"
+
+#: kfile/kpropertiesdialog.cpp:1575
+msgid "Can View/Read & Modify/Write"
+msgstr "देखि/पढ़ि आ बदलि/लिख सकैछ"
+
+#: kfile/kpropertiesdialog.cpp:1671
+msgid "&Permissions"
+msgstr "अनुमतिसभ (&P)"
+
+#: kfile/kpropertiesdialog.cpp:1683 kfile/kpropertiesdialog.cpp:1925
+msgid "Access Permissions"
+msgstr "पहुँच अनुमतिसभ"
+
+#: kfile/kpropertiesdialog.cpp:1691
+msgid "This file is a link and does not have permissions."
+msgid_plural "All files are links and do not have permissions."
+msgstr[0] "ई फाइल एकटा लिंक अछि आओर एहिमे अनुमतिसभ नहि अछि."
+msgstr[1] "ई फाइल एकटा लिंक अछि आओर एहिमे अनुमतिसभ नहि अछि."
+
+#: kfile/kpropertiesdialog.cpp:1695
+msgid "Only the owner can change permissions."
+msgstr "सिर्फ स्वामी अनुमतिसभ बदएल सकैत अछि."
+
+#: kfile/kpropertiesdialog.cpp:1698
+msgid "O&wner:"
+msgstr "स्वामीः (&w)"
+
+#: kfile/kpropertiesdialog.cpp:1704
+msgid "Specifies the actions that the owner is allowed to do."
+msgstr "उल्लेखित करैत अछि जे स्वामी क' लेल कओन सँ क्रियासभ स्वीकार्य अछि."
+
+#: kfile/kpropertiesdialog.cpp:1706
+msgid "Gro&up:"
+msgstr "समूह (&u)"
+
+#: kfile/kpropertiesdialog.cpp:1712
+msgid "Specifies the actions that the members of the group are allowed to do."
+msgstr "उल्लेखित करैत अछि जे समूह केर सदस्यसभ क' लेल कओन सी क्रिया स्वीकार्य अछि."
+
+#: kfile/kpropertiesdialog.cpp:1714
+msgid "O&thers:"
+msgstr "आन (&t)"
+
+#: kfile/kpropertiesdialog.cpp:1720
+msgid ""
+"Specifies the actions that all users, who are neither owner nor in the "
+"group, are allowed to do."
+msgstr ""
+"निर्धारित करैत अछि जे क्रिया जे सबहि प्रयोक्ता  जे नहि तँ मालिक अछि आओर नहि समूह मे "
+"अछि, कार्य लेल स्वीकृत अछि"
+
+#: kfile/kpropertiesdialog.cpp:1725
+msgid "Only own&er can rename and delete folder content"
+msgstr "सिर्फ स्वामी फोल्डर की वस्तुसभ केँ मेटाए सकैत अछि अथवा नाम बदएल सकैत अछि (&e)"
+
+#: kfile/kpropertiesdialog.cpp:1726
+msgid "Is &executable"
+msgstr "चलाबै योग्य अछि (&e)"
+
+#: kfile/kpropertiesdialog.cpp:1730
+msgid ""
+"Enable this option to allow only the folder's owner to delete or rename the "
+"contained files and folders. Other users can only add new files, which "
+"requires the 'Modify Content' permission."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1734
+msgid ""
+"Enable this option to mark the file as executable. This only makes sense for "
+"programs and scripts. It is required when you want to execute them."
+msgstr ""
+
+#: kfile/kpropertiesdialog.cpp:1741
+msgid "A&dvanced Permissions"
+msgstr "विस्तृत अनुमतिसभ (&d)"
+
+#: kfile/kpropertiesdialog.cpp:1750
+msgid "Ownership"
+msgstr "स्वामित्व"
+
+#: kfile/kpropertiesdialog.cpp:1757
+msgid "User:"
+msgstr "प्रयोक्ता:"
+
+#: kfile/kpropertiesdialog.cpp:1832
+msgid "Group:"
+msgstr "समूह:"
+
+#: kfile/kpropertiesdialog.cpp:1875
+msgid "Apply changes to all subfolders and their contents"
+msgstr "परिवर्तनसभ केँ सबहि सब-फोल्डर आओर ओकर वस्तुसभ मे लागू करू"
+
+#: kfile/kpropertiesdialog.cpp:1915
+msgid "Advanced Permissions"
+msgstr "विस्तृत अनुमतिसभ"
+
+#: kfile/kpropertiesdialog.cpp:1933
+msgid "Class"
+msgstr "वर्ग"
+
+#: kfile/kpropertiesdialog.cpp:1938
+msgid ""
+"Show\n"
+"Entries"
+msgstr ""
+"देखाबू\n"
+"प्रविष्टिसभ"
+
+#: kfile/kpropertiesdialog.cpp:1940
+msgid "Read"
+msgstr "पढ़ू"
+
+#: kfile/kpropertiesdialog.cpp:1945
+msgid "This flag allows viewing the content of the folder."
+msgstr "ई फ्लेग फोल्डर केर वस्तुसभ केँ देखबाक स्वीकृति देत अछि."
+
+#: kfile/kpropertiesdialog.cpp:1947
+msgid "The Read flag allows viewing the content of the file."
+msgstr "रीड फ्लेग फाइलक वस्तुसभ केँ देखबाक स्वीकृति देत अछि."
+
+#: kfile/kpropertiesdialog.cpp:1951
+msgid ""
+"Write\n"
+"Entries"
+msgstr ""
+"लिखू\n"
+"प्रविष्टिसभ"
+
+#: kfile/kpropertiesdialog.cpp:1953
+msgid "Write"
+msgstr "लिखू"
+
+#: kfile/kpropertiesdialog.cpp:1958
+msgid ""
+"This flag allows adding, renaming and deleting of files. Note that deleting "
+"and renaming can be limited using the Sticky flag."
+msgstr ""
+"ई फ्लैग फाइलसभ केँ जोड़ब, नाम बदलब आओर मेटाबै देत अछि. टीप लिअ' जे स्टिकी फ्लैग केर प्रयोग "
+"सँ मेटाबै आ नाम बदलबाक प्रक्रिया सीमित भए सकैत अछि."
+
+#: kfile/kpropertiesdialog.cpp:1961
+msgid "The Write flag allows modifying the content of the file."
+msgstr "राइट फ्लेग फाइलक वस्तुसभकेँ परिवर्धित करबाक अनुमति देत अछि."
+
+#: kfile/kpropertiesdialog.cpp:1966
+msgctxt "Enter folder"
+msgid "Enter"
+msgstr "एंटर कुँजी"
+
+#: kfile/kpropertiesdialog.cpp:1967
+msgid "Enable this flag to allow entering the folder."
+msgstr "फोल्डर मे जएबाक स्वीकृति क' लेल एहि फ्लेग केँ सक्षम करू."
+
+#: kfile/kpropertiesdialog.cpp:1970
+msgid "Exec"
+msgstr "चलैनाइ"
+
+#: kfile/kpropertiesdialog.cpp:1971
+msgid "Enable this flag to allow executing the file as a program."
+msgstr "फाइल केँ प्रोग्रामक तरह चलाबैक स्वीकृति क' लेल एहि फ्लेग केँ सक्षम करू."
+
+#: kfile/kpropertiesdialog.cpp:1981
+msgid "Special"
+msgstr "विशेष"
+
+#: kfile/kpropertiesdialog.cpp:1985
+msgid ""
+"Special flag. Valid for the whole folder, the exact meaning of the flag can "
+"be seen in the right hand column."
+msgstr ""
+"विशेष फ्लेग. समस्त फोल्डर क' लेल वैध, फ्लेग क' सटीक अर्थ दाएँ हाथ केर स्तम्भ मे देखा जाए सकैत "
+"अछि."
+
+#: kfile/kpropertiesdialog.cpp:1988
+msgid ""
+"Special flag. The exact meaning of the flag can be seen in the right hand "
+"column."
+msgstr ""
+"विशेष फ्लेग. समस्त फोल्डर क' लेल वैध, फ्लेग क' सटीक अर्थ दाएँ हाथ केर स्तम्भ मे देखल जाए सकैत "
+"अछि."
+
+#: kfile/kpropertiesdialog.cpp:1992
+msgid "User"
+msgstr "प्रयोक्ता"
+
+#: kfile/kpropertiesdialog.cpp:1996
+msgid "Group"
+msgstr "समूह"
+
+#: kfile/kpropertiesdialog.cpp:2004
+msgid "Set UID"
+msgstr "यूआईडी सेट करू"
+
+#: kfile/kpropertiesdialog.cpp:2008
+msgid ""
+"If this flag is set, the owner of this folder will be the owner of all new "
+"files."
+msgstr ""
+"जँ ई फ्लेग नियत कएल जाइछ अछि. एहि फोल्डर क' स्वामी सबहि नवीन फाइलसभ क' स्वामी "
+"हएताह."
+
+#: kfile/kpropertiesdialog.cpp:2011
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the owner."
+msgstr ""
+"जँ ई फाइल एक्जीक्यूटेबल अछि आओर फ्लेग नियत कएल जाइछ. ई स्वामीक अनुमति सँ एक्जीक्यूट हाएत."
+
+#: kfile/kpropertiesdialog.cpp:2015
+msgid "Set GID"
+msgstr "जीआईडी सेट करू"
+
+#: kfile/kpropertiesdialog.cpp:2019
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
+msgstr ""
+"जँ ई फ्लेग नियत कएल जाइछ. एहि फोल्डर केर समूह केँ सबहि नवीन फाइलसभ क' लेल नियत कएल "
+"जएताह."
+
+#: kfile/kpropertiesdialog.cpp:2022
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the group."
+msgstr ""
+"जँ ई फाइल एक्जीक्यूटेबल अछि आओर फ्लेग नियत कएल जाइछ. ई समूहक अनुमति सँ एक्जीक्यूट हएताह."
+
+#: kfile/kpropertiesdialog.cpp:2026
+msgctxt "File permission"
+msgid "Sticky"
+msgstr "स्टिकी"
+
+#: kfile/kpropertiesdialog.cpp:2030
+msgid ""
+"If the Sticky flag is set on a folder, only the owner and root can delete or "
+"rename files. Otherwise everybody with write permissions can do this."
+msgstr ""
+"जँ फोल्डरमे स्टिकी फ्लैग सेट कए देल जएताह तँ सिर्फ मालिक अथवा रूट एकरा मेटाए अथवा एकर "
+"नाम बदएल सकताह. आन रूपेँ प्रत्येक, जकरा पास लिखबाक अनुमति अछि. ओ ई कए सकत."
+
+#: kfile/kpropertiesdialog.cpp:2034
+msgid ""
+"The Sticky flag on a file is ignored on Linux, but may be used on some "
+"systems"
+msgstr ""
+"लिनक्स मे फाइल पर स्टिकी फ्लेग नजरअंदाज कएल जाइछ. पर केओ तंत्र मे उपयोग कएल जाएत हाएत"
+
+#: kfile/kpropertiesdialog.cpp:2211
+msgid "Link"
+msgstr "लिंक"
+
+#: kfile/kpropertiesdialog.cpp:2228
+msgid "Varying (No Change)"
+msgstr "परिवर्तनीय (कोनो परिवर्तन नहि)"
+
+#: kfile/kpropertiesdialog.cpp:2327
+msgid "This file uses advanced permissions"
+msgid_plural "These files use advanced permissions."
+msgstr[0] "ई फाइल उन्नत अनुमतिसभ प्रयोग मे लैछ"
+msgstr[1] "ई फाइल उन्नत अनुमतिसभ प्रयोग मे लैछ"
+
+#: kfile/kpropertiesdialog.cpp:2348
+msgid "This folder uses advanced permissions."
+msgid_plural "These folders use advanced permissions."
+msgstr[0] "ई फोल्डर उन्नत अनुमतिसभ प्रयोग करैत अछि."
+msgstr[1] "ई फोल्डर उन्नत अनुमतिसभ प्रयोग करैत अछि."
+
+#: kfile/kpropertiesdialog.cpp:2364
+msgid "These files use advanced permissions."
+msgstr "ई फाइलसभ विस्तृत अनुमतिसभ उपयोग करैत अछि."
+
+#: kfile/kpropertiesdialog.cpp:2582
+msgid "U&RL"
+msgstr "यूआरएल (&R)"
+
+#: kfile/kpropertiesdialog.cpp:2589
+msgid "URL:"
+msgstr "URL:"
+
+#: kfile/kpropertiesdialog.cpp:2721
+msgid "De&vice"
+msgstr "उपकरण (&v)"
+
+#: kfile/kpropertiesdialog.cpp:2752
+msgid "Device (/dev/fd0):"
+msgstr "उपकरण (/dev/fd0):"
+
+#: kfile/kpropertiesdialog.cpp:2753
+msgid "Device:"
+msgstr "डिवाइस:"
+
+#: kfile/kpropertiesdialog.cpp:2766
+msgid "Read only"
+msgstr "सिर्फ पढ़बाक लेल"
+
+#: kfile/kpropertiesdialog.cpp:2770
+msgid "File system:"
+msgstr "फाइल सिस्टमः"
+
+#: kfile/kpropertiesdialog.cpp:2778
+msgid "Mount point (/mnt/floppy):"
+msgstr "माउन्ट पाइंट (/mnt/floppy):"
+
+#: kfile/kpropertiesdialog.cpp:2779
+msgid "Mount point:"
+msgstr "माउन्ट पाइंटः"
+
+#: kfile/kpropertiesdialog.cpp:3012
+msgid "&Application"
+msgstr "अनुप्रयोग (&A)"
+
+#: kfile/kpropertiesdialog.cpp:3136
+#, kde-format
+msgid "Add File Type for %1"
+msgstr " %1 क' लेल फाइल प्रकार चुनू"
+
+#: kfile/kpropertiesdialog.cpp:3137
+msgid "Select one or more file types to add:"
+msgstr "एकटा अथवा बेसी फाइल प्रकार जोड़बा क' लेल चुनू:"
+
+#: kfile/kpropertiesdialog.cpp:3279
+msgid "Only executables on local file systems are supported."
+msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
+
+#: kfile/kpropertiesdialog.cpp:3293
+#, kde-format
+msgid "Advanced Options for %1"
+msgstr "%1 क' लेल विस्तृत विकल्प "
+
 #: kfile/kurlrequester.cpp:246
 msgid "Open file dialog"
 msgstr "फाइल खोलबा क' संवाद"
@@ -1173,486 +1653,6 @@ msgstr ""
 #, kde-format
 msgid "'%1' not found, please type a valid program name."
 msgstr ""
-
-#: kfile/kpropertiesdialog.cpp:213 kfile/kpropertiesdialog.cpp:228
-#: kfile/kpropertiesdialog.cpp:240 kfile/kpropertiesdialog.cpp:255
-#: kfile/kpropertiesdialog.cpp:271
-#, kde-format
-msgid "Properties for %1"
-msgstr " %1 क' लेल गुण"
-
-#: kfile/kpropertiesdialog.cpp:238
-#, kde-format
-msgid "Properties for 1 item"
-msgid_plural "Properties for %1 Selected Items"
-msgstr[0] "१ वस्तु क' लेल गुण"
-msgstr[1] "%1 वस्तु क' लेल गुण"
-
-#: kfile/kpropertiesdialog.cpp:762
-#, fuzzy
-#| msgid "&General"
-msgctxt "@title:tab File properties"
-msgid "&General"
-msgstr "सामान्य (&G)"
-
-#: kfile/kpropertiesdialog.cpp:947 kio/kfileitem.cpp:1130
-msgid "Type:"
-msgstr "प्रकार:"
-
-#: kfile/kpropertiesdialog.cpp:961
-msgid "Create new file type"
-msgstr "नवीन फाइल प्रकार बनाबू"
-
-#: kfile/kpropertiesdialog.cpp:963
-msgid "Edit file type"
-msgstr "फाइल प्रकार संपादन करू"
-
-#: kfile/kpropertiesdialog.cpp:975
-msgid "Contents:"
-msgstr "विषय:"
-
-#: kfile/kpropertiesdialog.cpp:998 kio/kfileitem.cpp:1139
-msgid "Size:"
-msgstr "आकार:"
-
-#: kfile/kpropertiesdialog.cpp:1017
-msgid "Calculate"
-msgstr "गणना"
-
-#: kfile/kpropertiesdialog.cpp:1018
-msgid "Stop"
-msgstr "रोकू"
-
-#: kfile/kpropertiesdialog.cpp:1028 kfile/kpropertiesdialog.cpp:1234
-msgid "Refresh"
-msgstr "ताजा करू"
-
-#: kfile/kpropertiesdialog.cpp:1036
-msgid "Points to:"
-msgstr "की ओर इशाराः"
-
-#: kfile/kpropertiesdialog.cpp:1049
-msgid "Created:"
-msgstr "बनएलक:"
-
-#: kfile/kpropertiesdialog.cpp:1059 kio/kfileitem.cpp:1143
-msgid "Modified:"
-msgstr "परिवर्धितः"
-
-#: kfile/kpropertiesdialog.cpp:1069
-msgid "Accessed:"
-msgstr "पहुंचल:"
-
-#: kfile/kpropertiesdialog.cpp:1090
-msgid "Mounted on:"
-msgstr "पर माउन्टेड:"
-
-#: kfile/kpropertiesdialog.cpp:1098 kfile/kpropertiesdialog.cpp:2789
-msgid "Device usage:"
-msgstr ""
-
-#: kfile/kpropertiesdialog.cpp:1196 kfile/kpropertiesdialog.cpp:2917
-#, kde-format
-msgctxt "Available space out of total partition size (percent used)"
-msgid "%1 free of %2 (%3% used)"
-msgstr ""
-
-#: kfile/kpropertiesdialog.cpp:1213 kfile/kpropertiesdialog.cpp:1229
-#, kde-format
-msgid "1 file"
-msgid_plural "%1 files"
-msgstr[0] "१ फाइल"
-msgstr[1] "%1 फाइल"
-
-#: kfile/kpropertiesdialog.cpp:1214 kfile/kpropertiesdialog.cpp:1230
-#, kde-format
-msgid "1 sub-folder"
-msgid_plural "%1 sub-folders"
-msgstr[0] "१ उप फोल्डर"
-msgstr[1] "%1 उप फोल्डर"
-
-#: kfile/kpropertiesdialog.cpp:1210
-#, kde-format
-msgid ""
-"Calculating... %1 (%2)\n"
-"%3, %4"
-msgstr ""
-"गणना मे... %1 (%2)\n"
-"%3, %4"
-
-#: kfile/kpropertiesdialog.cpp:1243
-msgid "Calculating..."
-msgstr "गणनामे... "
-
-#: kfile/kpropertiesdialog.cpp:1276
-#, kde-format
-msgid "At least %1"
-msgstr "कम सँ कम %1"
-
-#: kfile/kpropertiesdialog.cpp:1313
-msgid "The new file name is empty."
-msgstr "नवीन फाइल नाम खाली अछि."
-
-#: kfile/kpropertiesdialog.cpp:1490 kfile/kpropertiesdialog.cpp:2663
-#: kfile/kpropertiesdialog.cpp:2957 kfile/kpropertiesdialog.cpp:3206
-#, kde-format
-msgid ""
-"<qt>Could not save properties. You do not have sufficient access to write to "
-"<b>%1</b>.</qt>"
-msgstr ""
-"<qt>गुण सहेज नहि सकत. अहाँक पास उचित पहुँच <b>%1</b> </qt> पर लिखबाक लेल नहि अछि."
-
-#: kfile/kpropertiesdialog.cpp:1565 kfile/kpropertiesdialog.cpp:1569
-#: kfile/kpropertiesdialog.cpp:1574
-msgid "Forbidden"
-msgstr "वर्जित"
-
-#: kfile/kpropertiesdialog.cpp:1566
-msgid "Can Read"
-msgstr "पढ़ि सकैत अछि"
-
-#: kfile/kpropertiesdialog.cpp:1567
-msgid "Can Read & Write"
-msgstr "पढ़ि आ लिखि सकैत अछि"
-
-#: kfile/kpropertiesdialog.cpp:1570
-msgid "Can View Content"
-msgstr "विषयवस्तु देख सकैछ"
-
-#: kfile/kpropertiesdialog.cpp:1571
-msgid "Can View & Modify Content"
-msgstr "विषयवस्तु देख आ बदएल सकैछ"
-
-#: kfile/kpropertiesdialog.cpp:1575
-msgid "Can View Content & Read"
-msgstr "विषयवस्तु देख आ पढ़ि सकैछ"
-
-#: kfile/kpropertiesdialog.cpp:1576
-msgid "Can View/Read & Modify/Write"
-msgstr "देखि/पढ़ि आ बदलि/लिख सकैछ"
-
-#: kfile/kpropertiesdialog.cpp:1672
-msgid "&Permissions"
-msgstr "अनुमतिसभ (&P)"
-
-#: kfile/kpropertiesdialog.cpp:1684 kfile/kpropertiesdialog.cpp:1926
-msgid "Access Permissions"
-msgstr "पहुँच अनुमतिसभ"
-
-#: kfile/kpropertiesdialog.cpp:1692
-msgid "This file is a link and does not have permissions."
-msgid_plural "All files are links and do not have permissions."
-msgstr[0] "ई फाइल एकटा लिंक अछि आओर एहिमे अनुमतिसभ नहि अछि."
-msgstr[1] "ई फाइल एकटा लिंक अछि आओर एहिमे अनुमतिसभ नहि अछि."
-
-#: kfile/kpropertiesdialog.cpp:1696
-msgid "Only the owner can change permissions."
-msgstr "सिर्फ स्वामी अनुमतिसभ बदएल सकैत अछि."
-
-#: kfile/kpropertiesdialog.cpp:1699
-msgid "O&wner:"
-msgstr "स्वामीः (&w)"
-
-#: kfile/kpropertiesdialog.cpp:1705
-msgid "Specifies the actions that the owner is allowed to do."
-msgstr "उल्लेखित करैत अछि जे स्वामी क' लेल कओन सँ क्रियासभ स्वीकार्य अछि."
-
-#: kfile/kpropertiesdialog.cpp:1707
-msgid "Gro&up:"
-msgstr "समूह (&u)"
-
-#: kfile/kpropertiesdialog.cpp:1713
-msgid "Specifies the actions that the members of the group are allowed to do."
-msgstr "उल्लेखित करैत अछि जे समूह केर सदस्यसभ क' लेल कओन सी क्रिया स्वीकार्य अछि."
-
-#: kfile/kpropertiesdialog.cpp:1715
-msgid "O&thers:"
-msgstr "आन (&t)"
-
-#: kfile/kpropertiesdialog.cpp:1721
-msgid ""
-"Specifies the actions that all users, who are neither owner nor in the "
-"group, are allowed to do."
-msgstr ""
-"निर्धारित करैत अछि जे क्रिया जे सबहि प्रयोक्ता  जे नहि तँ मालिक अछि आओर नहि समूह मे "
-"अछि, कार्य लेल स्वीकृत अछि"
-
-#: kfile/kpropertiesdialog.cpp:1726
-msgid "Only own&er can rename and delete folder content"
-msgstr "सिर्फ स्वामी फोल्डर की वस्तुसभ केँ मेटाए सकैत अछि अथवा नाम बदएल सकैत अछि (&e)"
-
-#: kfile/kpropertiesdialog.cpp:1727
-msgid "Is &executable"
-msgstr "चलाबै योग्य अछि (&e)"
-
-#: kfile/kpropertiesdialog.cpp:1731
-msgid ""
-"Enable this option to allow only the folder's owner to delete or rename the "
-"contained files and folders. Other users can only add new files, which "
-"requires the 'Modify Content' permission."
-msgstr ""
-
-#: kfile/kpropertiesdialog.cpp:1735
-msgid ""
-"Enable this option to mark the file as executable. This only makes sense for "
-"programs and scripts. It is required when you want to execute them."
-msgstr ""
-
-#: kfile/kpropertiesdialog.cpp:1742
-msgid "A&dvanced Permissions"
-msgstr "विस्तृत अनुमतिसभ (&d)"
-
-#: kfile/kpropertiesdialog.cpp:1751
-msgid "Ownership"
-msgstr "स्वामित्व"
-
-#: kfile/kpropertiesdialog.cpp:1758
-msgid "User:"
-msgstr "प्रयोक्ता:"
-
-#: kfile/kpropertiesdialog.cpp:1833
-msgid "Group:"
-msgstr "समूह:"
-
-#: kfile/kpropertiesdialog.cpp:1876
-msgid "Apply changes to all subfolders and their contents"
-msgstr "परिवर्तनसभ केँ सबहि सब-फोल्डर आओर ओकर वस्तुसभ मे लागू करू"
-
-#: kfile/kpropertiesdialog.cpp:1916
-msgid "Advanced Permissions"
-msgstr "विस्तृत अनुमतिसभ"
-
-#: kfile/kpropertiesdialog.cpp:1934
-msgid "Class"
-msgstr "वर्ग"
-
-#: kfile/kpropertiesdialog.cpp:1939
-msgid ""
-"Show\n"
-"Entries"
-msgstr ""
-"देखाबू\n"
-"प्रविष्टिसभ"
-
-#: kfile/kpropertiesdialog.cpp:1941
-msgid "Read"
-msgstr "पढ़ू"
-
-#: kfile/kpropertiesdialog.cpp:1946
-msgid "This flag allows viewing the content of the folder."
-msgstr "ई फ्लेग फोल्डर केर वस्तुसभ केँ देखबाक स्वीकृति देत अछि."
-
-#: kfile/kpropertiesdialog.cpp:1948
-msgid "The Read flag allows viewing the content of the file."
-msgstr "रीड फ्लेग फाइलक वस्तुसभ केँ देखबाक स्वीकृति देत अछि."
-
-#: kfile/kpropertiesdialog.cpp:1952
-msgid ""
-"Write\n"
-"Entries"
-msgstr ""
-"लिखू\n"
-"प्रविष्टिसभ"
-
-#: kfile/kpropertiesdialog.cpp:1954
-msgid "Write"
-msgstr "लिखू"
-
-#: kfile/kpropertiesdialog.cpp:1959
-msgid ""
-"This flag allows adding, renaming and deleting of files. Note that deleting "
-"and renaming can be limited using the Sticky flag."
-msgstr ""
-"ई फ्लैग फाइलसभ केँ जोड़ब, नाम बदलब आओर मेटाबै देत अछि. टीप लिअ' जे स्टिकी फ्लैग केर प्रयोग "
-"सँ मेटाबै आ नाम बदलबाक प्रक्रिया सीमित भए सकैत अछि."
-
-#: kfile/kpropertiesdialog.cpp:1962
-msgid "The Write flag allows modifying the content of the file."
-msgstr "राइट फ्लेग फाइलक वस्तुसभकेँ परिवर्धित करबाक अनुमति देत अछि."
-
-#: kfile/kpropertiesdialog.cpp:1967
-msgctxt "Enter folder"
-msgid "Enter"
-msgstr "एंटर कुँजी"
-
-#: kfile/kpropertiesdialog.cpp:1968
-msgid "Enable this flag to allow entering the folder."
-msgstr "फोल्डर मे जएबाक स्वीकृति क' लेल एहि फ्लेग केँ सक्षम करू."
-
-#: kfile/kpropertiesdialog.cpp:1971
-msgid "Exec"
-msgstr "चलैनाइ"
-
-#: kfile/kpropertiesdialog.cpp:1972
-msgid "Enable this flag to allow executing the file as a program."
-msgstr "फाइल केँ प्रोग्रामक तरह चलाबैक स्वीकृति क' लेल एहि फ्लेग केँ सक्षम करू."
-
-#: kfile/kpropertiesdialog.cpp:1982
-msgid "Special"
-msgstr "विशेष"
-
-#: kfile/kpropertiesdialog.cpp:1986
-msgid ""
-"Special flag. Valid for the whole folder, the exact meaning of the flag can "
-"be seen in the right hand column."
-msgstr ""
-"विशेष फ्लेग. समस्त फोल्डर क' लेल वैध, फ्लेग क' सटीक अर्थ दाएँ हाथ केर स्तम्भ मे देखा जाए सकैत "
-"अछि."
-
-#: kfile/kpropertiesdialog.cpp:1989
-msgid ""
-"Special flag. The exact meaning of the flag can be seen in the right hand "
-"column."
-msgstr ""
-"विशेष फ्लेग. समस्त फोल्डर क' लेल वैध, फ्लेग क' सटीक अर्थ दाएँ हाथ केर स्तम्भ मे देखल जाए सकैत "
-"अछि."
-
-#: kfile/kpropertiesdialog.cpp:1993
-msgid "User"
-msgstr "प्रयोक्ता"
-
-#: kfile/kpropertiesdialog.cpp:1997
-msgid "Group"
-msgstr "समूह"
-
-#: kfile/kpropertiesdialog.cpp:2005
-msgid "Set UID"
-msgstr "यूआईडी सेट करू"
-
-#: kfile/kpropertiesdialog.cpp:2009
-msgid ""
-"If this flag is set, the owner of this folder will be the owner of all new "
-"files."
-msgstr ""
-"जँ ई फ्लेग नियत कएल जाइछ अछि. एहि फोल्डर क' स्वामी सबहि नवीन फाइलसभ क' स्वामी "
-"हएताह."
-
-#: kfile/kpropertiesdialog.cpp:2012
-msgid ""
-"If this file is an executable and the flag is set, it will be executed with "
-"the permissions of the owner."
-msgstr ""
-"जँ ई फाइल एक्जीक्यूटेबल अछि आओर फ्लेग नियत कएल जाइछ. ई स्वामीक अनुमति सँ एक्जीक्यूट हाएत."
-
-#: kfile/kpropertiesdialog.cpp:2016
-msgid "Set GID"
-msgstr "जीआईडी सेट करू"
-
-#: kfile/kpropertiesdialog.cpp:2020
-msgid ""
-"If this flag is set, the group of this folder will be set for all new files."
-msgstr ""
-"जँ ई फ्लेग नियत कएल जाइछ. एहि फोल्डर केर समूह केँ सबहि नवीन फाइलसभ क' लेल नियत कएल "
-"जएताह."
-
-#: kfile/kpropertiesdialog.cpp:2023
-msgid ""
-"If this file is an executable and the flag is set, it will be executed with "
-"the permissions of the group."
-msgstr ""
-"जँ ई फाइल एक्जीक्यूटेबल अछि आओर फ्लेग नियत कएल जाइछ. ई समूहक अनुमति सँ एक्जीक्यूट हएताह."
-
-#: kfile/kpropertiesdialog.cpp:2027
-msgctxt "File permission"
-msgid "Sticky"
-msgstr "स्टिकी"
-
-#: kfile/kpropertiesdialog.cpp:2031
-msgid ""
-"If the Sticky flag is set on a folder, only the owner and root can delete or "
-"rename files. Otherwise everybody with write permissions can do this."
-msgstr ""
-"जँ फोल्डरमे स्टिकी फ्लैग सेट कए देल जएताह तँ सिर्फ मालिक अथवा रूट एकरा मेटाए अथवा एकर "
-"नाम बदएल सकताह. आन रूपेँ प्रत्येक, जकरा पास लिखबाक अनुमति अछि. ओ ई कए सकत."
-
-#: kfile/kpropertiesdialog.cpp:2035
-msgid ""
-"The Sticky flag on a file is ignored on Linux, but may be used on some "
-"systems"
-msgstr ""
-"लिनक्स मे फाइल पर स्टिकी फ्लेग नजरअंदाज कएल जाइछ. पर केओ तंत्र मे उपयोग कएल जाएत हाएत"
-
-#: kfile/kpropertiesdialog.cpp:2212
-msgid "Link"
-msgstr "लिंक"
-
-#: kfile/kpropertiesdialog.cpp:2229
-msgid "Varying (No Change)"
-msgstr "परिवर्तनीय (कोनो परिवर्तन नहि)"
-
-#: kfile/kpropertiesdialog.cpp:2328
-msgid "This file uses advanced permissions"
-msgid_plural "These files use advanced permissions."
-msgstr[0] "ई फाइल उन्नत अनुमतिसभ प्रयोग मे लैछ"
-msgstr[1] "ई फाइल उन्नत अनुमतिसभ प्रयोग मे लैछ"
-
-#: kfile/kpropertiesdialog.cpp:2349
-msgid "This folder uses advanced permissions."
-msgid_plural "These folders use advanced permissions."
-msgstr[0] "ई फोल्डर उन्नत अनुमतिसभ प्रयोग करैत अछि."
-msgstr[1] "ई फोल्डर उन्नत अनुमतिसभ प्रयोग करैत अछि."
-
-#: kfile/kpropertiesdialog.cpp:2365
-msgid "These files use advanced permissions."
-msgstr "ई फाइलसभ विस्तृत अनुमतिसभ उपयोग करैत अछि."
-
-#: kfile/kpropertiesdialog.cpp:2583
-msgid "U&RL"
-msgstr "यूआरएल (&R)"
-
-#: kfile/kpropertiesdialog.cpp:2590
-msgid "URL:"
-msgstr "URL:"
-
-#: kfile/kpropertiesdialog.cpp:2722
-msgid "De&vice"
-msgstr "उपकरण (&v)"
-
-#: kfile/kpropertiesdialog.cpp:2753
-msgid "Device (/dev/fd0):"
-msgstr "उपकरण (/dev/fd0):"
-
-#: kfile/kpropertiesdialog.cpp:2754
-msgid "Device:"
-msgstr "डिवाइस:"
-
-#: kfile/kpropertiesdialog.cpp:2767
-msgid "Read only"
-msgstr "सिर्फ पढ़बाक लेल"
-
-#: kfile/kpropertiesdialog.cpp:2771
-msgid "File system:"
-msgstr "फाइल सिस्टमः"
-
-#: kfile/kpropertiesdialog.cpp:2779
-msgid "Mount point (/mnt/floppy):"
-msgstr "माउन्ट पाइंट (/mnt/floppy):"
-
-#: kfile/kpropertiesdialog.cpp:2780
-msgid "Mount point:"
-msgstr "माउन्ट पाइंटः"
-
-#: kfile/kpropertiesdialog.cpp:3013
-msgid "&Application"
-msgstr "अनुप्रयोग (&A)"
-
-#: kfile/kpropertiesdialog.cpp:3137
-#, kde-format
-msgid "Add File Type for %1"
-msgstr " %1 क' लेल फाइल प्रकार चुनू"
-
-#: kfile/kpropertiesdialog.cpp:3138
-msgid "Select one or more file types to add:"
-msgstr "एकटा अथवा बेसी फाइल प्रकार जोड़बा क' लेल चुनू:"
-
-#: kfile/kpropertiesdialog.cpp:3280
-msgid "Only executables on local file systems are supported."
-msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
-
-#: kfile/kpropertiesdialog.cpp:3294
-#, kde-format
-msgid "Advanced Options for %1"
-msgstr "%1 क' लेल विस्तृत विकल्प "
 
 #: kfile/kfilemetadatareaderprocess.cpp:217
 msgid "KFileMetaDataReader"
