@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-13 03:30+0100\n"
+"POT-Creation-Date: 2011-12-14 03:15+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -14113,17 +14113,43 @@ msgstr ""
 msgid "Snippet taken from the Amazon MP3 store"
 msgstr ""
 
-#: services/amazon/AmazonShoppingCartDialog.cpp:34
-#: services/amazon/AmazonShoppingCartDialog.cpp:58
-#, kde-format
-msgid "Shopping cart value: %1"
-msgstr ""
-
 #: services/amazon/AmazonUrlRunner.cpp:41
 msgctxt ""
 "A type of command that triggers an action in the integrated MP3 Music Store "
 "service"
 msgid "Amazon"
+msgstr ""
+
+#: services/amazon/AmazonItemTreeView.cpp:272
+msgid "Add to Cart"
+msgstr ""
+
+#: services/amazon/AmazonItemTreeView.cpp:281
+#, fuzzy
+#| msgid "Edit Smart Playlist"
+msgid "Add Preview to Playlist"
+msgstr "स्मार्ट प्लेसूची संपादित करू"
+
+#: services/amazon/AmazonItemTreeView.cpp:290
+msgid "Load Details..."
+msgstr ""
+
+#: services/amazon/AmazonItemTreeView.cpp:299
+#, fuzzy
+#| msgid "Search"
+msgid "Search for Album..."
+msgstr "खोजू"
+
+#: services/amazon/AmazonShoppingCartView.cpp:65
+#, fuzzy
+#| msgid "Remove"
+msgid "Remove from Cart"
+msgstr "हटाबू"
+
+#: services/amazon/AmazonShoppingCartDialog.cpp:34
+#: services/amazon/AmazonShoppingCartDialog.cpp:59
+#, kde-format
+msgid "Shopping cart value: %1"
 msgstr ""
 
 #: services/amazon/AmazonStore.cpp:100
@@ -14204,32 +14230,6 @@ msgstr ""
 #: services/amazon/AmazonStore.cpp:545
 msgid "Error: Unable to parse temporary file. :-("
 msgstr ""
-
-#: services/amazon/AmazonShoppingCartView.cpp:64
-#, fuzzy
-#| msgid "Remove"
-msgid "Remove from Cart"
-msgstr "हटाबू"
-
-#: services/amazon/AmazonItemTreeView.cpp:271
-msgid "Add to Cart"
-msgstr ""
-
-#: services/amazon/AmazonItemTreeView.cpp:280
-#, fuzzy
-#| msgid "Edit Smart Playlist"
-msgid "Add Preview to Playlist"
-msgstr "स्मार्ट प्लेसूची संपादित करू"
-
-#: services/amazon/AmazonItemTreeView.cpp:290
-msgid "Load Details..."
-msgstr ""
-
-#: services/amazon/AmazonItemTreeView.cpp:299
-#, fuzzy
-#| msgid "Search"
-msgid "Search for Album..."
-msgstr "खोजू"
 
 #: services/amazon/AmazonItemTreeModel.cpp:108
 #: services/amazon/AmazonItemTreeModel.cpp:129
