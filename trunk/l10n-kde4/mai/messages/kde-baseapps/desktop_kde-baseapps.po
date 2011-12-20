@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-19 09:44+0000\n"
+"POT-Creation-Date: 2011-12-20 08:27+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -167,7 +167,7 @@ msgctxt "X-KDE-Keywords"
 msgid "password;email;name;organization;realname;login image;face; echo mode;"
 msgstr ""
 
-#: kdepasswd/kcm/kcm_useraccount.desktop:121
+#: kdepasswd/kcm/kcm_useraccount.desktop:122
 msgctxt "Comment"
 msgid "User information such as password, name and email"
 msgstr "प्रयोक्ता सूचना जहिना जे पासवर्ड, नाम आओर ई-मेल"
@@ -383,10 +383,10 @@ msgid "Enables the use of bookmarklets"
 msgstr ""
 
 #: konq-plugins/quickprint/text-ada-print.desktop:7
-#: konq-plugins/quickprint/text-c++-print.desktop:7
 #: konq-plugins/quickprint/text-c++h-print.desktop:7
-#: konq-plugins/quickprint/text-c-print.desktop:7
 #: konq-plugins/quickprint/text-ch-print.desktop:7
+#: konq-plugins/quickprint/text-c-print.desktop:7
+#: konq-plugins/quickprint/text-c++-print.desktop:7
 #: konq-plugins/quickprint/text-css-print.desktop:7
 #: konq-plugins/quickprint/text-diff-print.desktop:7
 #: konq-plugins/quickprint/text-html-print.desktop:7
@@ -470,6 +470,11 @@ msgctxt "Name"
 msgid "Web Archives"
 msgstr ""
 
+#: konqueror/about/konq_aboutpage.desktop:3
+msgctxt "Name"
+msgid "About-Page for Konqueror"
+msgstr "कान्करर क' लेल 'परिचय' पृष्ठ"
+
 #: konqueror/Home.desktop:7
 msgctxt "Name"
 msgid "Home"
@@ -479,11 +484,6 @@ msgstr "घर"
 msgctxt "GenericName"
 msgid "Personal Files"
 msgstr "निज फाइलसभ"
-
-#: konqueror/about/konq_aboutpage.desktop:3
-msgctxt "Name"
-msgid "About-Page for Konqueror"
-msgstr "कान्करर क' लेल 'परिचय' पृष्ठ"
 
 #: konqueror/kfmclient.desktop:10 konqueror/kfmclient_dir.desktop:10
 #: konqueror/kfmclient_html.desktop:9 konqueror/kfmclient_war.desktop:9
@@ -835,8 +835,8 @@ msgid "User Agent,Browser,Internet,WWW,Network,agent,bindings,server,login"
 msgstr ""
 
 #: konqueror/settings/konq/fileappearance.desktop:11
-#: konqueror/settings/konq/webappearance.desktop:12
 #: konqueror/settings/konqhtml/khtml_appearance.desktop:13
+#: konqueror/settings/konq/webappearance.desktop:12
 msgctxt "Name"
 msgid "Appearance"
 msgstr "प्रकटन"
@@ -873,13 +873,6 @@ msgid ""
 "konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
 "behavior,behaviour,memory usage,Home URL,network operations,progress dialog,"
 "trash can,delete,confirmation"
-msgstr ""
-
-#: konqueror/settings/konq/webbehavior.desktop:199
-msgctxt "X-KDE-Keywords"
-msgid ""
-"konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
-"behavior,behaviour,memory usage,Home URL,"
 msgstr ""
 
 #: konqueror/settings/konqhtml/css/kcmcss.desktop:12
@@ -967,6 +960,13 @@ msgstr "जावा आओर जावा-स्क्रिप्ट बर�
 #: konqueror/settings/konqhtml/khtml_java_js.desktop:197
 msgctxt "X-KDE-Keywords"
 msgid "konqueror,kfm,browser,html,web,www,java,javascript"
+msgstr ""
+
+#: konqueror/settings/konq/webbehavior.desktop:199
+msgctxt "X-KDE-Keywords"
+msgid ""
+"konqueror,filemanager,kfm,tips,file tips,separate window,spawn windows,"
+"behavior,behaviour,memory usage,Home URL,"
 msgstr ""
 
 #: konqueror/settings/performance/kcmkonqyperformance.desktop:12
@@ -1105,15 +1105,15 @@ msgctxt "Name"
 msgid "KDE Official FTP"
 msgstr "केडीई आधिकारिक एफटीपी"
 
-#: konqueror/sidebar/trees/init/remote/web/.directory:2
-msgctxt "Name"
-msgid "Web Sites"
-msgstr "वेब साइट"
-
 #: konqueror/sidebar/trees/init/remote/web/apps_web.desktop:4
 msgctxt "Name"
 msgid "KDE Applications"
 msgstr "केडीई अनुप्रयोग"
+
+#: konqueror/sidebar/trees/init/remote/web/.directory:2
+msgctxt "Name"
+msgid "Web Sites"
+msgstr "वेब साइट"
 
 #: konqueror/sidebar/trees/init/remote/web/dot_web.desktop:4
 msgctxt "Name"
@@ -1150,6 +1150,34 @@ msgctxt "Name"
 msgid "Web SideBar Module"
 msgstr "वेब बाजूपट्टी मोड्यूल"
 
+#: lib/konq/directory_bookmarkbar.desktop:3
+msgctxt "Name"
+msgid "Bookmark Toolbar"
+msgstr "पसंदीदा अओजार पट्टी"
+
+#: lib/konq/favicons/favicons.desktop:3
+msgctxt "Name"
+msgid "Favicons"
+msgstr "फेविकान"
+
+#: lib/konq/favicons/favicons.desktop:79
+msgctxt "Comment"
+msgid "Stores website icons"
+msgstr ""
+
+#: lib/konq/konqdndpopupmenuplugin.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Plugin for the Konqueror Popup Menu"
+msgctxt "Comment"
+msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
+msgstr "कान्करर पापअप मेनू क' लेल प्लगइन"
+
+#: lib/konq/konqpopupmenuplugin.desktop:4
+msgctxt "Comment"
+msgid "Plugin for the Konqueror Popup Menu"
+msgstr "कान्करर पापअप मेनू क' लेल प्लगइन"
+
 #: lib/konq/Templates/CDROM-Device.desktop:10
 #: lib/konq/Templates/CDWRITER-Device.desktop:10
 #: lib/konq/Templates/DVDROM-Device.desktop:10
@@ -1182,16 +1210,6 @@ msgstr "HTML फाइल..."
 msgctxt "Comment"
 msgid "Enter HTML filename:"
 msgstr "HTML फाइलनाम दिअ':"
-
-#: lib/konq/Templates/TextFile.desktop:2
-msgctxt "Name"
-msgid "Text File..."
-msgstr "पाठ फाइल..."
-
-#: lib/konq/Templates/TextFile.desktop:92
-msgctxt "Comment"
-msgid "Enter text filename:"
-msgstr "पाठ फाइल नाम भरू:"
 
 #: lib/konq/Templates/linkCAMERA.desktop:2
 msgctxt "Name"
@@ -1313,33 +1331,15 @@ msgctxt "Comment"
 msgid "New ZIP Device"
 msgstr "नव जिप युक्ति"
 
-#: lib/konq/directory_bookmarkbar.desktop:3
+#: lib/konq/Templates/TextFile.desktop:2
 msgctxt "Name"
-msgid "Bookmark Toolbar"
-msgstr "पसंदीदा अओजार पट्टी"
+msgid "Text File..."
+msgstr "पाठ फाइल..."
 
-#: lib/konq/favicons/favicons.desktop:3
-msgctxt "Name"
-msgid "Favicons"
-msgstr "फेविकान"
-
-#: lib/konq/favicons/favicons.desktop:79
+#: lib/konq/Templates/TextFile.desktop:92
 msgctxt "Comment"
-msgid "Stores website icons"
-msgstr ""
-
-#: lib/konq/konqdndpopupmenuplugin.desktop:4
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Plugin for the Konqueror Popup Menu"
-msgctxt "Comment"
-msgid "Drag-and-drop plugin for the Konqueror Popup Menu."
-msgstr "कान्करर पापअप मेनू क' लेल प्लगइन"
-
-#: lib/konq/konqpopupmenuplugin.desktop:4
-msgctxt "Comment"
-msgid "Plugin for the Konqueror Popup Menu"
-msgstr "कान्करर पापअप मेनू क' लेल प्लगइन"
+msgid "Enter text filename:"
+msgstr "पाठ फाइल नाम भरू:"
 
 #: nsplugins/khtml_plugins.desktop:14
 msgctxt "Name"
