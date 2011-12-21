@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 17:26+0200\n"
+"POT-Creation-Date: 2011-12-21 11:32+0100\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -333,6 +333,472 @@ msgstr "कुंजी संयोजन"
 msgid "Output"
 msgstr "आउटपुट"
 
+#: MainWindow.cpp:252
+msgid "&New Tab"
+msgstr "नवीन टैब (&N)"
+
+#: MainWindow.cpp:261
+msgid "New &Window"
+msgstr "नया विंडो (&W)"
+
+#: MainWindow.cpp:272
+msgid "&Bookmarks"
+msgstr "पुस्तचिह्न (&B)"
+
+#: MainWindow.cpp:299 Part.cpp:101
+msgid "Configure Profiles..."
+msgstr "प्रोफाइल प्रबंधित करू..."
+
+#: MainWindow.cpp:305
+msgid "Activate Menu"
+msgstr ""
+
+#: MainWindow.cpp:402
+msgid "You have multiple tabs in this window, are you sure you want to quit?"
+msgstr "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
+
+#: MainWindow.cpp:404 SessionController.cpp:612
+msgid "Confirm Close"
+msgstr "बन्न करबाक पुष्टि करू"
+
+#: MainWindow.cpp:406
+msgid "Close Current Tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: ManageProfilesDialog.cpp:48
+msgctxt "@title:window"
+msgid "Manage Profiles"
+msgstr "प्रोफाइल प्रबंधित करू"
+
+#: ManageProfilesDialog.cpp:217
+msgctxt "@title:column Profile label"
+msgid "Name"
+msgstr "नाम"
+
+#: ManageProfilesDialog.cpp:218
+msgctxt "@title:column Display profile in file menu"
+msgid "Show in Menu"
+msgstr "मेनू मे देखाबू"
+
+#: ManageProfilesDialog.cpp:219
+msgctxt "@title:column Profile shortcut text"
+msgid "Shortcut"
+msgstr "शार्टकट"
+
+#: ManageProfilesDialog.cpp:346
+msgctxt "@item This will be used as part of the file name"
+msgid "New Profile"
+msgstr "नवीन प्रोफाइल"
+
+#: Profile.cpp:148
+msgid "Shell"
+msgstr "शेल"
+
+#: ProfileList.cpp:49
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "Default profile"
+msgstr "प्रोफाइल मेटाबू"
+
+#: RenameTabsDialog.cpp:31
+msgid "Rename Tab"
+msgstr "टैब केँ नवीन नाम दिअ'"
+
+#: Session.cpp:367
+msgid "Could not find binary: "
+msgstr "द्विचर ढूंढि नहि सकल:"
+
+#: Session.cpp:376
+#, fuzzy
+#| msgid "Warning: "
+msgctxt "@info:shell Alert the user with red color text"
+msgid "Warning: "
+msgstr "चेतावनी: "
+
+#: Session.cpp:430
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+"'%1' केँ ढूंढ नहि सकल, बदला मे '%2' केँ प्रारंभ कएल जाए रहल अछि. कृप्या अपन प्रोफाइल "
+"सेटिंग जाँचू."
+
+#: Session.cpp:435
+msgid "Could not find an interactive shell to start."
+msgstr "प्रारंभ करब क' लेल कोनो इंटरेक्टिव शैल ढूँढि नहि सकल."
+
+#: Session.cpp:471
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr "प्रोग्राम '%1' केँ आर्गुमेंट '%2'.के सँग प्रारंभ नहि कएल जाए सकल."
+
+#: Session.cpp:581
+#, kde-format
+msgid "Silence in session '%1'"
+msgstr "'%1' सत्र मे शांति"
+
+#: Session.cpp:616
+#, kde-format
+msgid "Bell in session '%1'"
+msgstr "'%1' सत्र मे घंटी"
+
+#: Session.cpp:627
+#, kde-format
+msgid "Activity in session '%1'"
+msgstr "'%1' सत्र मे क्रिया"
+
+#: Session.cpp:769
+#, fuzzy
+#| msgid "Finished"
+msgctxt "@info:shell This session is done"
+msgid "Finished"
+msgstr "समाप्त"
+
+#: Session.cpp:778
+#, kde-format
+msgid "Program '%1' exited with status %2."
+msgstr "प्रोग्राम '%1'  स्थिति %2 केर सँग बाहर भेल."
+
+#: Session.cpp:780
+#, kde-format
+msgid "Program '%1' crashed."
+msgstr "प्रोग्राम '%1' क्रैश भए गेल."
+
+#: Session.cpp:1107
+msgid "ZModem Progress"
+msgstr "जेड-माडम प्रगति"
+
+#: SessionController.cpp:286
+msgid "Konsole does not know how to open the bookmark: "
+msgstr ""
+
+#: SessionController.cpp:404
+msgid "&Close Tab"
+msgstr "टैब बन्न करू (&C)"
+
+#: SessionController.cpp:409
+msgid "Open File Manager"
+msgstr ""
+
+#: SessionController.cpp:423
+msgid "Paste Selection"
+msgstr "चयन साटू"
+
+#: SessionController.cpp:428
+msgid "&Rename Tab..."
+msgstr "टैब क' नाम बदलू... (&R)"
+
+#: SessionController.cpp:433
+msgid "&All Tabs in Current Window"
+msgstr ""
+
+#: SessionController.cpp:439
+#, fuzzy
+#| msgid "&Rename Tab..."
+msgid "&Select Tabs..."
+msgstr "टैब क' नाम बदलू... (&R)"
+
+#: SessionController.cpp:444
+#, fuzzy
+#| msgid "&None"
+msgctxt "@action:inmenu Do not select any tabs"
+msgid "&None"
+msgstr "किछु नहि (&N)"
+
+#: SessionController.cpp:450
+msgid "&ZModem Upload..."
+msgstr ""
+
+#: SessionController.cpp:455
+msgid "Monitor for &Activity"
+msgstr "क्रिया क' लेल मानीटर करू (&A)"
+
+#: SessionController.cpp:460
+msgid "Monitor for &Silence"
+msgstr "शान्ति क' लेल मानीटर करू (&S)"
+
+#: SessionController.cpp:466
+#, fuzzy
+#| msgid "Encoding"
+msgid "Set &Encoding"
+msgstr "एनकोडिंग नियत करू (&E)"
+
+#: SessionController.cpp:474
+msgid "Enlarge Font"
+msgstr "फौन्ट पैघ करू"
+
+#: SessionController.cpp:479
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Shrink View"
+msgid "Shrink Font"
+msgstr "फौन्ट छोट करू"
+
+#: SessionController.cpp:497
+#, fuzzy
+#| msgid "Save Output..."
+msgid "Save Output &As..."
+msgstr "आउटपुट सहेजू..."
+
+#: SessionController.cpp:500
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Scrollback..."
+msgstr "प्रोफाइल प्रबंधित करू..."
+
+#: SessionController.cpp:504
+#, fuzzy
+#| msgid "Scrollback"
+msgid "Clear Scrollback"
+msgstr "स्क्रालबैक साफ करू"
+
+#: SessionController.cpp:508
+#, fuzzy
+#| msgid "Clear Scrollback && Reset"
+msgid "Clear Scrollback and Reset"
+msgstr "स्क्रालबैक साफ करू आ रीसेट करू"
+
+#: SessionController.cpp:514
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Current Profile..."
+msgstr "प्रोफाइल प्रबंधित करू..."
+
+#: SessionController.cpp:517
+msgid "Change Profile"
+msgstr "प्रोफाइल बदलू"
+
+#: SessionController.cpp:606
+msgid ""
+"A program is currently running in this session.  Are you sure you want to "
+"close it?"
+msgstr ""
+"एकटा प्रोग्राम अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्द "
+"कएनाइ चाहैत छी?"
+
+#: SessionController.cpp:609
+#, kde-format
+msgid ""
+"The program '%1' is currently running in this session.  Are you sure you "
+"want to close it?"
+msgstr ""
+"प्रोग्राम '%1' अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्न "
+"कएनाइ चाहैत छी?"
+
+#: SessionController.cpp:1188
+msgid "Save ZModem Download to..."
+msgstr ""
+
+#: SessionController.cpp:1197
+msgid ""
+"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
+"software was found on this system.</p><p>You may wish to install the 'rzsz' "
+"or 'lrzsz' package.</p>"
+msgstr ""
+
+#: SessionController.cpp:1209
+msgid ""
+"<p>The current session already has a ZModem file transfer in progress.</p>"
+msgstr ""
+
+#: SessionController.cpp:1218
+msgid ""
+"<p>No suitable ZModem software was found on this system.</p><p>You may wish "
+"to install the 'rzsz' or 'lrzsz' package.</p>"
+msgstr ""
+
+#: SessionController.cpp:1224
+msgid "Select Files for ZModem Upload"
+msgstr ""
+
+#: SessionController.cpp:1296
+#, kde-format
+msgid "Save Output From %1"
+msgstr "%1 सँ आउटपुट सहेजू"
+
+#: SessionController.cpp:1307
+#, kde-format
+msgid "%1 is an invalid URL, the output could not be saved."
+msgstr "%1 एकटा अवैध यूआरएल अछि. आउटपुट सहेजल नहि जाए सकैत अछि."
+
+#: SessionController.cpp:1396
+#, kde-format
+msgid ""
+"A problem occurred when saving the output.\n"
+"%1"
+msgstr ""
+"आउटपुट सहेजबाक दौरान एकटा त्रुटि भेल.\n"
+"%1"
+
+#: SessionManager.cpp:939
+#, fuzzy
+#| msgid "Number"
+msgctxt "@item:intable The session index"
+msgid "Number"
+msgstr "संख्या"
+
+#: SessionManager.cpp:941
+#, fuzzy
+#| msgid "Title"
+msgctxt "@item:intable The session title"
+msgid "Title"
+msgstr "शीर्षक"
+
+#: TabTitleFormatAction.cpp:34
+msgid "Program Name"
+msgstr "प्रोग्राम नाम"
+
+#: TabTitleFormatAction.cpp:35
+msgid "Current Directory (Short)"
+msgstr "वर्तमान डिरेक्ट्री (छोट)"
+
+#: TabTitleFormatAction.cpp:36
+msgid "Current Directory (Long)"
+msgstr "वर्तमान डिरेक्ट्री (नमहर)"
+
+#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:47
+msgid "Window Title Set by Shell"
+msgstr "शैल द्वारा सेट कएल गेल विंडो शीर्षक"
+
+#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:48
+#, fuzzy
+#| msgid "Session number"
+msgid "Session Number"
+msgstr "सत्र संख्या"
+
+#: TabTitleFormatAction.cpp:39 TabTitleFormatAction.cpp:44
+msgid "User Name"
+msgstr "प्रयोक्तानाम"
+
+#: TabTitleFormatAction.cpp:45
+msgid "Remote Host (Short)"
+msgstr "रिमोट होस्ट (छोट)"
+
+#: TabTitleFormatAction.cpp:46
+msgid "Remote Host (Long)"
+msgstr "रिमोट होस्ट (नमहर)"
+
+#: TerminalDisplay.cpp:1127 TerminalDisplay.cpp:1128
+msgid "Size: XXX x XXX"
+msgstr "आकार: XXX x XXX"
+
+#: TerminalDisplay.cpp:1138
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "आकार: %1 x %2"
+
+#: TerminalDisplay.cpp:2871
+msgid ""
+"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgstr ""
+"<qt>आउटपुट को<a href=\"http://en.wikipedia.org/wiki/XON\">सस्पैंड कएल गेल अछि</a> "
+"कंट्रोल+S केँ दबाकए.  बहाल करब क' लेल <b>कंट्रोल+Q</b> केँ दबाबू.</qt>"
+
+#: ViewContainer.cpp:496
+#, fuzzy
+#| msgid "&Detach View"
+msgctxt "@action:inmenu"
+msgid "&Detach Tab"
+msgstr "दृश्य अलग करू (&D)"
+
+#: ViewContainer.cpp:500
+#, fuzzy
+#| msgid "&Rename Tab..."
+msgctxt "@action:inmenu"
+msgid "&Rename Tab..."
+msgstr "टैब क' नाम बदलू... (&R)"
+
+#: ViewContainer.cpp:504
+#, fuzzy
+#| msgid "&Close Tab"
+msgctxt "@action:inmenu"
+msgid "&Close Tab"
+msgstr "टैब बन्न करू (&C)"
+
+#: ViewManager.cpp:138
+#, fuzzy
+#| msgid "&New Tab"
+msgid "Next Tab"
+msgstr "नवीन टैब (&N)"
+
+#: ViewManager.cpp:139
+#, fuzzy
+#| msgctxt "@action:button Go to the previous phrase"
+#| msgid "Previous"
+msgid "Previous Tab"
+msgstr "पछिला"
+
+#: ViewManager.cpp:140
+msgid "Next View Container"
+msgstr "अगिला दृश्य कंटेनर"
+
+#: ViewManager.cpp:142
+#, fuzzy
+#| msgid "Move View Left"
+msgid "Move Tab Left"
+msgstr "दृश्य बम्माँ घसकाबू"
+
+#: ViewManager.cpp:143
+#, fuzzy
+#| msgid "Move View Right"
+msgid "Move Tab Right"
+msgstr "दृश्य दहिन्ना घसकाबू"
+
+#: ViewManager.cpp:153
+msgctxt "@action:inmenu"
+msgid "Split View Left/Right"
+msgstr "विभाजित दृश्य बम्माँ/दहिन्ना"
+
+#: ViewManager.cpp:160
+msgctxt "@action:inmenu"
+msgid "Split View Top/Bottom"
+msgstr "विभाजित दृश्य शीर्ष/तल"
+
+#: ViewManager.cpp:165
+msgctxt "@action:inmenu Close Active View"
+msgid "Close Active"
+msgstr "सक्रिय केँ बन्न करू"
+
+#: ViewManager.cpp:174
+msgctxt "@action:inmenu Close Other Views"
+msgid "Close Others"
+msgstr "आनसभ केँ बन्न करू"
+
+#: ViewManager.cpp:184
+#, fuzzy
+#| msgid "Close Current Tab"
+msgid "D&etach Current Tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: ViewManager.cpp:193
+msgctxt "@action:inmenu"
+msgid "Expand View"
+msgstr "विस्तारित दृश्य"
+
+#: ViewManager.cpp:200
+msgctxt "@action:inmenu"
+msgid "Shrink View"
+msgstr "छोट दृश्य"
+
+#: ViewManager.cpp:220
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr ""
+
+#: Vt102Emulation.cpp:979
+msgid ""
+"No keyboard translator available.  The information needed to convert key "
+"presses into characters to send to the terminal is missing."
+msgstr ""
+"कोनो कुंजीपट ट्रांसलेटर उपलब्ध नहि अछि. टर्मिनल पर भेजने क' लेल कुंजीपट केँ दबाने पर "
+"परिवर्तित करने केर बाद जे अक्षर अएबाक चाही ओ जानकारी मोजुद नहि अछि."
+
+#: ZModemDialog.cpp:35
+msgid "&Stop"
+msgstr "रोकू (&S)"
+
 #: main.cpp:51
 msgid "Konsole"
 msgstr "कंसोल"
@@ -556,73 +1022,6 @@ msgstr "लार्स क्नोल"
 #: main.cpp:176
 msgid "Thanks to many others.\n"
 msgstr "आओरो बेबीलोकनिसभ केँ धन्यवाद.\n"
-
-#: MainWindow.cpp:252
-msgid "&New Tab"
-msgstr "नवीन टैब (&N)"
-
-#: MainWindow.cpp:261
-msgid "New &Window"
-msgstr "नया विंडो (&W)"
-
-#: MainWindow.cpp:272
-msgid "&Bookmarks"
-msgstr "पुस्तचिह्न (&B)"
-
-#: MainWindow.cpp:299 Part.cpp:101
-msgid "Configure Profiles..."
-msgstr "प्रोफाइल प्रबंधित करू..."
-
-#: MainWindow.cpp:305
-msgid "Activate Menu"
-msgstr ""
-
-#: MainWindow.cpp:402
-msgid "You have multiple tabs in this window, are you sure you want to quit?"
-msgstr "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
-
-#: MainWindow.cpp:404 SessionController.cpp:612
-msgid "Confirm Close"
-msgstr "बन्न करबाक पुष्टि करू"
-
-#: MainWindow.cpp:406
-msgid "Close Current Tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: ManageProfilesDialog.cpp:48
-msgctxt "@title:window"
-msgid "Manage Profiles"
-msgstr "प्रोफाइल प्रबंधित करू"
-
-#: ManageProfilesDialog.cpp:217
-msgctxt "@title:column Profile label"
-msgid "Name"
-msgstr "नाम"
-
-#: ManageProfilesDialog.cpp:218
-msgctxt "@title:column Display profile in file menu"
-msgid "Show in Menu"
-msgstr "मेनू मे देखाबू"
-
-#: ManageProfilesDialog.cpp:219
-msgctxt "@title:column Profile shortcut text"
-msgid "Shortcut"
-msgstr "शार्टकट"
-
-#: ManageProfilesDialog.cpp:346
-msgctxt "@item This will be used as part of the file name"
-msgid "New Profile"
-msgstr "नवीन प्रोफाइल"
-
-#: Profile.cpp:148
-msgid "Shell"
-msgstr "शेल"
-
-#: ProfileList.cpp:49
-#, fuzzy
-#| msgid "Delete Profile"
-msgid "Default profile"
-msgstr "प्रोफाइल मेटाबू"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1514,10 +1913,6 @@ msgstr "इनपुट एतय नकल करू..."
 msgid "Debug"
 msgstr "डिबग"
 
-#: RenameTabsDialog.cpp:31
-msgid "Rename Tab"
-msgstr "टैब केँ नवीन नाम दिअ'"
-
 #: schemas.cpp:1
 msgid "Black on Light Yellow"
 msgstr "हलुक पीयर पर कारि"
@@ -1561,401 +1956,6 @@ msgstr "सोलारिस कंसोल"
 #: schemas.cpp:11
 msgid "DEC VT420 Terminal"
 msgstr "डीईसी वीटी420 टर्मिनल"
-
-#: SessionController.cpp:286
-msgid "Konsole does not know how to open the bookmark: "
-msgstr ""
-
-#: SessionController.cpp:404
-msgid "&Close Tab"
-msgstr "टैब बन्न करू (&C)"
-
-#: SessionController.cpp:409
-msgid "Open File Manager"
-msgstr ""
-
-#: SessionController.cpp:423
-msgid "Paste Selection"
-msgstr "चयन साटू"
-
-#: SessionController.cpp:428
-msgid "&Rename Tab..."
-msgstr "टैब क' नाम बदलू... (&R)"
-
-#: SessionController.cpp:433
-msgid "&All Tabs in Current Window"
-msgstr ""
-
-#: SessionController.cpp:439
-#, fuzzy
-#| msgid "&Rename Tab..."
-msgid "&Select Tabs..."
-msgstr "टैब क' नाम बदलू... (&R)"
-
-#: SessionController.cpp:444
-#, fuzzy
-#| msgid "&None"
-msgctxt "@action:inmenu Do not select any tabs"
-msgid "&None"
-msgstr "किछु नहि (&N)"
-
-#: SessionController.cpp:450
-msgid "&ZModem Upload..."
-msgstr ""
-
-#: SessionController.cpp:455
-msgid "Monitor for &Activity"
-msgstr "क्रिया क' लेल मानीटर करू (&A)"
-
-#: SessionController.cpp:460
-msgid "Monitor for &Silence"
-msgstr "शान्ति क' लेल मानीटर करू (&S)"
-
-#: SessionController.cpp:466
-#, fuzzy
-#| msgid "Encoding"
-msgid "Set &Encoding"
-msgstr "एनकोडिंग नियत करू (&E)"
-
-#: SessionController.cpp:474
-msgid "Enlarge Font"
-msgstr "फौन्ट पैघ करू"
-
-#: SessionController.cpp:479
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Shrink View"
-msgid "Shrink Font"
-msgstr "फौन्ट छोट करू"
-
-#: SessionController.cpp:497
-#, fuzzy
-#| msgid "Save Output..."
-msgid "Save Output &As..."
-msgstr "आउटपुट सहेजू..."
-
-#: SessionController.cpp:500
-#, fuzzy
-#| msgid "Manage Profiles..."
-msgid "Configure Scrollback..."
-msgstr "प्रोफाइल प्रबंधित करू..."
-
-#: SessionController.cpp:504
-#, fuzzy
-#| msgid "Scrollback"
-msgid "Clear Scrollback"
-msgstr "स्क्रालबैक साफ करू"
-
-#: SessionController.cpp:508
-#, fuzzy
-#| msgid "Clear Scrollback && Reset"
-msgid "Clear Scrollback and Reset"
-msgstr "स्क्रालबैक साफ करू आ रीसेट करू"
-
-#: SessionController.cpp:514
-#, fuzzy
-#| msgid "Manage Profiles..."
-msgid "Configure Current Profile..."
-msgstr "प्रोफाइल प्रबंधित करू..."
-
-#: SessionController.cpp:517
-msgid "Change Profile"
-msgstr "प्रोफाइल बदलू"
-
-#: SessionController.cpp:606
-msgid ""
-"A program is currently running in this session.  Are you sure you want to "
-"close it?"
-msgstr ""
-"एकटा प्रोग्राम अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्द "
-"कएनाइ चाहैत छी?"
-
-#: SessionController.cpp:609
-#, kde-format
-msgid ""
-"The program '%1' is currently running in this session.  Are you sure you "
-"want to close it?"
-msgstr ""
-"प्रोग्राम '%1' अखन एहि सत्र मे चलि रहल अछि. की अहाँ सुनिश्चित छी जे अहाँ एकरा बन्न "
-"कएनाइ चाहैत छी?"
-
-#: SessionController.cpp:1188
-msgid "Save ZModem Download to..."
-msgstr ""
-
-#: SessionController.cpp:1197
-msgid ""
-"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
-"software was found on this system.</p><p>You may wish to install the 'rzsz' "
-"or 'lrzsz' package.</p>"
-msgstr ""
-
-#: SessionController.cpp:1209
-msgid ""
-"<p>The current session already has a ZModem file transfer in progress.</p>"
-msgstr ""
-
-#: SessionController.cpp:1218
-msgid ""
-"<p>No suitable ZModem software was found on this system.</p><p>You may wish "
-"to install the 'rzsz' or 'lrzsz' package.</p>"
-msgstr ""
-
-#: SessionController.cpp:1224
-msgid "Select Files for ZModem Upload"
-msgstr ""
-
-#: SessionController.cpp:1296
-#, kde-format
-msgid "Save Output From %1"
-msgstr "%1 सँ आउटपुट सहेजू"
-
-#: SessionController.cpp:1307
-#, kde-format
-msgid "%1 is an invalid URL, the output could not be saved."
-msgstr "%1 एकटा अवैध यूआरएल अछि. आउटपुट सहेजल नहि जाए सकैत अछि."
-
-#: SessionController.cpp:1396
-#, kde-format
-msgid ""
-"A problem occurred when saving the output.\n"
-"%1"
-msgstr ""
-"आउटपुट सहेजबाक दौरान एकटा त्रुटि भेल.\n"
-"%1"
-
-#: Session.cpp:367
-msgid "Could not find binary: "
-msgstr "द्विचर ढूंढि नहि सकल:"
-
-#: Session.cpp:376
-#, fuzzy
-#| msgid "Warning: "
-msgctxt "@info:shell Alert the user with red color text"
-msgid "Warning: "
-msgstr "चेतावनी: "
-
-#: Session.cpp:430
-#, kde-format
-msgid ""
-"Could not find '%1', starting '%2' instead.  Please check your profile "
-"settings."
-msgstr ""
-"'%1' केँ ढूंढ नहि सकल, बदला मे '%2' केँ प्रारंभ कएल जाए रहल अछि. कृप्या अपन प्रोफाइल "
-"सेटिंग जाँचू."
-
-#: Session.cpp:435
-msgid "Could not find an interactive shell to start."
-msgstr "प्रारंभ करब क' लेल कोनो इंटरेक्टिव शैल ढूँढि नहि सकल."
-
-#: Session.cpp:471
-#, kde-format
-msgid "Could not start program '%1' with arguments '%2'."
-msgstr "प्रोग्राम '%1' केँ आर्गुमेंट '%2'.के सँग प्रारंभ नहि कएल जाए सकल."
-
-#: Session.cpp:581
-#, kde-format
-msgid "Silence in session '%1'"
-msgstr "'%1' सत्र मे शांति"
-
-#: Session.cpp:616
-#, kde-format
-msgid "Bell in session '%1'"
-msgstr "'%1' सत्र मे घंटी"
-
-#: Session.cpp:627
-#, kde-format
-msgid "Activity in session '%1'"
-msgstr "'%1' सत्र मे क्रिया"
-
-#: Session.cpp:769
-#, fuzzy
-#| msgid "Finished"
-msgctxt "@info:shell This session is done"
-msgid "Finished"
-msgstr "समाप्त"
-
-#: Session.cpp:778
-#, kde-format
-msgid "Program '%1' exited with status %2."
-msgstr "प्रोग्राम '%1'  स्थिति %2 केर सँग बाहर भेल."
-
-#: Session.cpp:780
-#, kde-format
-msgid "Program '%1' crashed."
-msgstr "प्रोग्राम '%1' क्रैश भए गेल."
-
-#: Session.cpp:1107
-msgid "ZModem Progress"
-msgstr "जेड-माडम प्रगति"
-
-#: SessionManager.cpp:939
-#, fuzzy
-#| msgid "Number"
-msgctxt "@item:intable The session index"
-msgid "Number"
-msgstr "संख्या"
-
-#: SessionManager.cpp:941
-#, fuzzy
-#| msgid "Title"
-msgctxt "@item:intable The session title"
-msgid "Title"
-msgstr "शीर्षक"
-
-#: TabTitleFormatAction.cpp:34
-msgid "Program Name"
-msgstr "प्रोग्राम नाम"
-
-#: TabTitleFormatAction.cpp:35
-msgid "Current Directory (Short)"
-msgstr "वर्तमान डिरेक्ट्री (छोट)"
-
-#: TabTitleFormatAction.cpp:36
-msgid "Current Directory (Long)"
-msgstr "वर्तमान डिरेक्ट्री (नमहर)"
-
-#: TabTitleFormatAction.cpp:37 TabTitleFormatAction.cpp:47
-msgid "Window Title Set by Shell"
-msgstr "शैल द्वारा सेट कएल गेल विंडो शीर्षक"
-
-#: TabTitleFormatAction.cpp:38 TabTitleFormatAction.cpp:48
-#, fuzzy
-#| msgid "Session number"
-msgid "Session Number"
-msgstr "सत्र संख्या"
-
-#: TabTitleFormatAction.cpp:39 TabTitleFormatAction.cpp:44
-msgid "User Name"
-msgstr "प्रयोक्तानाम"
-
-#: TabTitleFormatAction.cpp:45
-msgid "Remote Host (Short)"
-msgstr "रिमोट होस्ट (छोट)"
-
-#: TabTitleFormatAction.cpp:46
-msgid "Remote Host (Long)"
-msgstr "रिमोट होस्ट (नमहर)"
-
-#: TerminalDisplay.cpp:1127 TerminalDisplay.cpp:1128
-msgid "Size: XXX x XXX"
-msgstr "आकार: XXX x XXX"
-
-#: TerminalDisplay.cpp:1138
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "आकार: %1 x %2"
-
-#: TerminalDisplay.cpp:2871
-msgid ""
-"<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-"\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgstr ""
-"<qt>आउटपुट को<a href=\"http://en.wikipedia.org/wiki/XON\">सस्पैंड कएल गेल अछि</a> "
-"कंट्रोल+S केँ दबाकए.  बहाल करब क' लेल <b>कंट्रोल+Q</b> केँ दबाबू.</qt>"
-
-#: ViewContainer.cpp:496
-#, fuzzy
-#| msgid "&Detach View"
-msgctxt "@action:inmenu"
-msgid "&Detach Tab"
-msgstr "दृश्य अलग करू (&D)"
-
-#: ViewContainer.cpp:500
-#, fuzzy
-#| msgid "&Rename Tab..."
-msgctxt "@action:inmenu"
-msgid "&Rename Tab..."
-msgstr "टैब क' नाम बदलू... (&R)"
-
-#: ViewContainer.cpp:504
-#, fuzzy
-#| msgid "&Close Tab"
-msgctxt "@action:inmenu"
-msgid "&Close Tab"
-msgstr "टैब बन्न करू (&C)"
-
-#: ViewManager.cpp:138
-#, fuzzy
-#| msgid "&New Tab"
-msgid "Next Tab"
-msgstr "नवीन टैब (&N)"
-
-#: ViewManager.cpp:139
-#, fuzzy
-#| msgctxt "@action:button Go to the previous phrase"
-#| msgid "Previous"
-msgid "Previous Tab"
-msgstr "पछिला"
-
-#: ViewManager.cpp:140
-msgid "Next View Container"
-msgstr "अगिला दृश्य कंटेनर"
-
-#: ViewManager.cpp:142
-#, fuzzy
-#| msgid "Move View Left"
-msgid "Move Tab Left"
-msgstr "दृश्य बम्माँ घसकाबू"
-
-#: ViewManager.cpp:143
-#, fuzzy
-#| msgid "Move View Right"
-msgid "Move Tab Right"
-msgstr "दृश्य दहिन्ना घसकाबू"
-
-#: ViewManager.cpp:153
-msgctxt "@action:inmenu"
-msgid "Split View Left/Right"
-msgstr "विभाजित दृश्य बम्माँ/दहिन्ना"
-
-#: ViewManager.cpp:160
-msgctxt "@action:inmenu"
-msgid "Split View Top/Bottom"
-msgstr "विभाजित दृश्य शीर्ष/तल"
-
-#: ViewManager.cpp:165
-msgctxt "@action:inmenu Close Active View"
-msgid "Close Active"
-msgstr "सक्रिय केँ बन्न करू"
-
-#: ViewManager.cpp:174
-msgctxt "@action:inmenu Close Other Views"
-msgid "Close Others"
-msgstr "आनसभ केँ बन्न करू"
-
-#: ViewManager.cpp:184
-#, fuzzy
-#| msgid "Close Current Tab"
-msgid "D&etach Current Tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: ViewManager.cpp:193
-msgctxt "@action:inmenu"
-msgid "Expand View"
-msgstr "विस्तारित दृश्य"
-
-#: ViewManager.cpp:200
-msgctxt "@action:inmenu"
-msgid "Shrink View"
-msgstr "छोट दृश्य"
-
-#: ViewManager.cpp:220
-#, kde-format
-msgid "Switch to Tab %1"
-msgstr ""
-
-#: Vt102Emulation.cpp:979
-msgid ""
-"No keyboard translator available.  The information needed to convert key "
-"presses into characters to send to the terminal is missing."
-msgstr ""
-"कोनो कुंजीपट ट्रांसलेटर उपलब्ध नहि अछि. टर्मिनल पर भेजने क' लेल कुंजीपट केँ दबाने पर "
-"परिवर्तित करने केर बाद जे अक्षर अएबाक चाही ओ जानकारी मोजुद नहि अछि."
-
-#: ZModemDialog.cpp:35
-msgid "&Stop"
-msgstr "रोकू (&S)"
 
 #~ msgid "Remote Connection..."
 #~ msgstr "रिमोट कनेक्शन..."
