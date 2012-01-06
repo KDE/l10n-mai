@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-05 02:59+0100\n"
+"POT-Creation-Date: 2012-01-06 02:39+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -216,22 +216,6 @@ msgctxt "(qtundo-format)"
 msgid "Create shape"
 msgstr "बनएलक:"
 
-#: flake/commands/KoShapeDeleteCommand.cpp:56
-#, fuzzy
-#| msgid "Delete page"
-#| msgid_plural "Delete pages"
-msgctxt "(qtundo-format)"
-msgid "Delete shape"
-msgstr "पृष्ठ मेटाबू"
-
-#: flake/commands/KoShapeDeleteCommand.cpp:69
-#, fuzzy
-#| msgid "Delete page"
-#| msgid_plural "Delete pages"
-msgctxt "(qtundo-format)"
-msgid "Delete shapes"
-msgstr "पृष्ठ मेटाबू"
-
 #: flake/commands/KoShapeDistributeCommand.cpp:128
 msgctxt "(qtundo-format)"
 msgid "Distribute shapes"
@@ -336,6 +320,23 @@ msgstr ""
 msgctxt "(qtundo-format)"
 msgid "Remove subpath"
 msgstr "समूह मेटाबू"
+
+#: flake/commands/KoShapeDeleteCommand.cpp:56
+#: flake/commands/KoShapeDeleteCommand.cpp:71
+#, fuzzy
+#| msgid "Delete page"
+#| msgid_plural "Delete pages"
+msgctxt "(qtundo-format)"
+msgid "Delete shape"
+msgstr "पृष्ठ मेटाबू"
+
+#: flake/commands/KoShapeDeleteCommand.cpp:74
+#, fuzzy
+#| msgid "Delete page"
+#| msgid_plural "Delete pages"
+msgctxt "(qtundo-format)"
+msgid "Delete shapes"
+msgstr "पृष्ठ मेटाबू"
 
 #: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:185
 msgid "Snapping"
@@ -1554,7 +1555,7 @@ msgstr "दुगुना"
 
 #: kotext/KoTextEditor.cpp:135
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:372
-#: kotext/commands/DeleteCommand.cpp:192
+#: kotext/commands/DeleteCommand.cpp:190
 #, fuzzy
 #| msgid "Text"
 msgctxt "(qtundo-format)"
