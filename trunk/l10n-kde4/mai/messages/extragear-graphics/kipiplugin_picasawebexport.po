@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_picasawebexport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-04 03:32+0100\n"
+"POT-Creation-Date: 2012-01-11 03:27+0100\n"
 "PO-Revision-Date: 2009-04-21 23:37+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -20,40 +20,15 @@ msgstr ""
 "\n"
 "\n"
 
-#: picasawebimglist.cpp:101
-#, kde-format
-msgid "%1|All supported files"
-msgstr ""
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
 
-#: picasawebimglist.cpp:113
-#, kde-format
-msgid "%1|Camera RAW files"
-msgstr ""
-
-#: picasawebimglist.cpp:115
-#, kde-format
-msgid "%1|Video files"
-msgstr ""
-
-#: picasawebimglist.cpp:127
-msgid "Select Images"
-msgstr ""
-
-#: picasaweblogin.cpp:68
-msgid "Google Login:"
-msgstr ""
-
-#: picasaweblogin.cpp:72
-msgid "Password:"
-msgstr "कूटशब्द: "
-
-#: picasaweblogin.cpp:83
-msgid "&OK"
-msgstr "बेस (&O)"
-
-#: picasaweblogin.cpp:86
-msgid "&Cancel"
-msgstr "रद्द करू (&C)"
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #: picasawebalbum.cpp:51
 msgid "Picasaweb New Album"
@@ -150,13 +125,40 @@ msgstr ""
 msgid "Privacy:"
 msgstr ""
 
-#: plugin_picasawebexport.cpp:78
-msgid "Export to &PicasaWeb..."
+#: picasawebimglist.cpp:101
+#, kde-format
+msgid "%1|All supported files"
 msgstr ""
 
-#: plugin_picasawebexport.cpp:88
-msgid "Import from &PicasaWeb..."
+#: picasawebimglist.cpp:113
+#, kde-format
+msgid "%1|Camera RAW files"
 msgstr ""
+
+#: picasawebimglist.cpp:115
+#, kde-format
+msgid "%1|Video files"
+msgstr ""
+
+#: picasawebimglist.cpp:127
+msgid "Select Images"
+msgstr ""
+
+#: picasaweblogin.cpp:68
+msgid "Google Login:"
+msgstr ""
+
+#: picasaweblogin.cpp:72
+msgid "Password:"
+msgstr "कूटशब्द: "
+
+#: picasaweblogin.cpp:83
+msgid "&OK"
+msgstr "बेस (&O)"
+
+#: picasaweblogin.cpp:86
+msgid "&Cancel"
+msgstr "रद्द करू (&C)"
 
 #: picasawebreplacedialog.cpp:95
 msgid "&Add As New"
@@ -205,6 +207,97 @@ msgstr "विवरण"
 
 #: picasawebreplacedialog.cpp:142
 msgid "Source"
+msgstr ""
+
+#: picasawebtalker.cpp:109
+msgid "Login"
+msgstr "लॉगिन"
+
+#: picasawebtalker.cpp:581
+msgid "No photo specified"
+msgstr ""
+
+#: picasawebtalker.cpp:583
+msgid "General upload failure"
+msgstr ""
+
+#: picasawebtalker.cpp:585
+msgid "File-size was zero"
+msgstr ""
+
+#: picasawebtalker.cpp:587
+msgid "File-type was not recognized"
+msgstr ""
+
+#: picasawebtalker.cpp:589
+msgid "User exceeded upload limit"
+msgstr ""
+
+#: picasawebtalker.cpp:591
+msgid "Invalid signature"
+msgstr ""
+
+#: picasawebtalker.cpp:593
+msgid "Missing signature"
+msgstr ""
+
+#: picasawebtalker.cpp:595
+msgid "Login failed / Invalid auth token"
+msgstr ""
+
+#: picasawebtalker.cpp:597
+msgid "Invalid API Key"
+msgstr ""
+
+#: picasawebtalker.cpp:599
+msgid "Service currently unavailable"
+msgstr ""
+
+#: picasawebtalker.cpp:601
+msgid "Invalid Frob"
+msgstr ""
+
+#: picasawebtalker.cpp:603
+msgid "Format \"xxx\" not found"
+msgstr ""
+
+#: picasawebtalker.cpp:605
+msgid "Method \"xxx\" not found"
+msgstr ""
+
+#: picasawebtalker.cpp:607
+msgid "Invalid SOAP envelope"
+msgstr ""
+
+#: picasawebtalker.cpp:609
+msgid "Invalid XML-RPC Method Call"
+msgstr ""
+
+#: picasawebtalker.cpp:611
+msgid "The POST method is now required for all setters."
+msgstr ""
+
+#: picasawebtalker.cpp:613
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: picasawebtalker.cpp:616
+#, kde-format
+msgid ""
+"Error occurred: %1\n"
+"Unable to proceed further."
+msgstr ""
+
+#: picasawebtalker.cpp:722 picasawebtalker.cpp:780
+msgid "Failed to fetch photo-set list"
+msgstr ""
+
+#: picasawebtalker.cpp:893 picasawebtalker.cpp:923
+msgid "Failed to create album"
+msgstr ""
+
+#: picasawebtalker.cpp:932
+msgid "Failed to upload photo"
 msgstr ""
 
 #: picasawebwidget.cpp:68
@@ -343,97 +436,6 @@ msgstr ""
 msgid "Build a combined tag string."
 msgstr ""
 
-#: picasawebtalker.cpp:109
-msgid "Login"
-msgstr "लॉगिन"
-
-#: picasawebtalker.cpp:581
-msgid "No photo specified"
-msgstr ""
-
-#: picasawebtalker.cpp:583
-msgid "General upload failure"
-msgstr ""
-
-#: picasawebtalker.cpp:585
-msgid "File-size was zero"
-msgstr ""
-
-#: picasawebtalker.cpp:587
-msgid "File-type was not recognized"
-msgstr ""
-
-#: picasawebtalker.cpp:589
-msgid "User exceeded upload limit"
-msgstr ""
-
-#: picasawebtalker.cpp:591
-msgid "Invalid signature"
-msgstr ""
-
-#: picasawebtalker.cpp:593
-msgid "Missing signature"
-msgstr ""
-
-#: picasawebtalker.cpp:595
-msgid "Login failed / Invalid auth token"
-msgstr ""
-
-#: picasawebtalker.cpp:597
-msgid "Invalid API Key"
-msgstr ""
-
-#: picasawebtalker.cpp:599
-msgid "Service currently unavailable"
-msgstr ""
-
-#: picasawebtalker.cpp:601
-msgid "Invalid Frob"
-msgstr ""
-
-#: picasawebtalker.cpp:603
-msgid "Format \"xxx\" not found"
-msgstr ""
-
-#: picasawebtalker.cpp:605
-msgid "Method \"xxx\" not found"
-msgstr ""
-
-#: picasawebtalker.cpp:607
-msgid "Invalid SOAP envelope"
-msgstr ""
-
-#: picasawebtalker.cpp:609
-msgid "Invalid XML-RPC Method Call"
-msgstr ""
-
-#: picasawebtalker.cpp:611
-msgid "The POST method is now required for all setters."
-msgstr ""
-
-#: picasawebtalker.cpp:613
-msgid "Unknown error"
-msgstr "अज्ञात त्रुटि"
-
-#: picasawebtalker.cpp:616
-#, kde-format
-msgid ""
-"Error occurred: %1\n"
-"Unable to proceed further."
-msgstr ""
-
-#: picasawebtalker.cpp:722 picasawebtalker.cpp:780
-msgid "Failed to fetch photo-set list"
-msgstr ""
-
-#: picasawebtalker.cpp:893 picasawebtalker.cpp:923
-msgid "Failed to create album"
-msgstr ""
-
-#: picasawebtalker.cpp:932
-msgid "Failed to upload photo"
-msgstr ""
-
 #: picasawebwindow.cpp:103
 msgid "Import from Picasa Web Service"
 msgstr ""
@@ -548,15 +550,13 @@ msgstr ""
 msgid "Failed to save image to %1"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
+#: plugin_picasawebexport.cpp:78
+msgid "Export to &PicasaWeb..."
+msgstr ""
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
+#: plugin_picasawebexport.cpp:88
+msgid "Import from &PicasaWeb..."
+msgstr ""
 
 #, fuzzy
 #~| msgid "Password:"
