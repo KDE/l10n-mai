@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-16 02:32+0100\n"
+"POT-Creation-Date: 2012-01-17 04:07+0100\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Insert with label:"
 msgstr "जोडू"
 
-#: ReferencesTool.cpp:89 dialogs/InsertCharacter.cpp:39 TextTool.cpp:1634
+#: ReferencesTool.cpp:89 dialogs/InsertCharacter.cpp:39 TextTool.cpp:1646
 msgid "Insert"
 msgstr "जोडू"
 
@@ -376,6 +376,14 @@ msgstr "जोडू"
 msgid "Style Manager"
 msgstr ""
 
+#: dialogs/StylesModel.cpp:50 dialogs/StylesModel.cpp:113
+#: dialogs/StylesModel.cpp:202
+#, fuzzy
+#| msgctxt "Text list-style"
+#| msgid "None"
+msgid "None"
+msgstr "किछु नहि"
+
 #: dialogs/TableDialog.cpp:27
 #, fuzzy
 #| msgid "Insert"
@@ -449,6 +457,20 @@ msgstr ""
 #| msgid "Distance:"
 msgid "Disabled"
 msgstr "दूरी:"
+
+#: dialogs/StylesComboPreview.cpp:184
+#, fuzzy
+#| msgid "Styles"
+msgid "New style"
+msgstr "शैलीसभ"
+
+#: ReferencesToolFactory.cpp:31
+msgid "References"
+msgstr ""
+
+#: ReviewToolFactory.cpp:33
+msgid "Review"
+msgstr ""
 
 #: TextTool.cpp:199
 msgid "Paste As Text"
@@ -765,39 +787,39 @@ msgstr "मेटाबू"
 msgid "Formatting"
 msgstr ""
 
-#: TextTool.cpp:1628
+#: TextTool.cpp:1640
 #, fuzzy
 #| msgid "Character style"
 msgid "Character"
 msgstr "संप्रतीक शैली"
 
-#: TextTool.cpp:1630
+#: TextTool.cpp:1642
 #, fuzzy
 #| msgid "Paragraph style"
 msgid "Paragraph"
 msgstr "अनुच्छेद स्टाइल"
 
-#: TextTool.cpp:1632
+#: TextTool.cpp:1644
 #, fuzzy
 #| msgid "Tamil"
 msgid "Table"
 msgstr "तमिल"
 
-#: TextTool.cpp:1939
+#: TextTool.cpp:1957
 msgid "Key Press"
 msgstr ""
 
-#: TextTool.cpp:1939 TextTool.cpp:1944
+#: TextTool.cpp:1957 TextTool.cpp:1962
 msgid "Autocorrection"
 msgstr ""
 
 #. i18n: file: dialogs/StyleManager.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, bDelete)
-#: TextTool.cpp:1944 rc.cpp:878
+#: TextTool.cpp:1962 rc.cpp:878
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: TextTool.cpp:2222
+#: TextTool.cpp:2272
 #, kde-format
 msgid ""
 "This link points to the program or script '%1'.\n"
@@ -805,16 +827,8 @@ msgid ""
 "this program?"
 msgstr ""
 
-#: TextTool.cpp:2227
+#: TextTool.cpp:2277
 msgid "Open Link?"
-msgstr ""
-
-#: ReferencesToolFactory.cpp:31
-msgid "References"
-msgstr ""
-
-#: ReviewToolFactory.cpp:33
-msgid "Review"
 msgstr ""
 
 #. i18n: file: dialogs/AcceptRejectChangeDialog.ui:26
@@ -2594,10 +2608,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Paste"
 #~ msgstr "मेटाबू"
-
-#~ msgctxt "Text list-style"
-#~ msgid "None"
-#~ msgstr "किछु नहि"
 
 #~ msgid "Arabic"
 #~ msgstr "अरबी"
