@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-10 04:05+0100\n"
+"POT-Creation-Date: 2012-01-28 04:12+0100\n"
 "PO-Revision-Date: 2010-09-24 21:45+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -614,56 +614,6 @@ msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
 msgid "&Discard Changes"
 msgstr "परिवर्तनसभ केँ फेंक दिअ'(&D)"
 
-#: src/konqtabs.cpp:66
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "नवीन टैब खोलू"
-
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: src/konqtabs.cpp:326 src/konqmainwindow.cpp:3683
-msgid "&Reload All Tabs"
-msgstr "सभटा टैब फिनु सँ लोड करू (&R)"
-
-#: src/konqtabs.cpp:349 src/konqmainwindow.cpp:2496
-#: src/konqmainwindow.cpp:3621
-msgid "Close &Other Tabs"
-msgstr "आन टैब बन्न करू (&O)"
-
-#: src/konqtabs.cpp:460 src/konqmainwindow.cpp:3594
-msgid "&New Tab"
-msgstr "नवीन टैब (&N)"
-
-#: src/konqtabs.cpp:465
-msgid "&Duplicate Tab"
-msgstr "टैबक नकल (&D)"
-
-#: src/konqtabs.cpp:470
-msgid "&Reload Tab"
-msgstr "टैब फिनु लोड करू (&R)"
-
-#: src/konqtabs.cpp:477
-msgid "Other Tabs"
-msgstr "आन टैब"
-
-#: src/konqtabs.cpp:482
-msgid "D&etach Tab"
-msgstr "टैब केँ अलग करू (&e)"
-
-#: src/konqtabs.cpp:488
-msgid "&Close Tab"
-msgstr "टैब बन्न करू (&C)"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -777,6 +727,11 @@ msgstr "की अहाँ सच्चे आन सबहि टैब बन
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "आन टैब बन्न करब लेल पुष्टि"
+
+#: src/konqmainwindow.cpp:2496 src/konqmainwindow.cpp:3621
+#: src/konqtabs.cpp:352
+msgid "Close &Other Tabs"
+msgstr "आन टैब बन्न करू (&O)"
 
 #: src/konqmainwindow.cpp:2511
 msgid ""
@@ -919,6 +874,10 @@ msgstr "विभाजित दृश्य बम्माँ / दहिन�
 msgid "Split View &Top/Bottom"
 msgstr "विभाजित दृश्य उप्पर / नीच्चाँ (&T)"
 
+#: src/konqmainwindow.cpp:3594 src/konqtabs.cpp:463
+msgid "&New Tab"
+msgstr "नवीन टैब (&N)"
+
 #: src/konqmainwindow.cpp:3600
 msgid "&Duplicate Current Tab"
 msgstr "मोजुदा टैबक नकल बनाबू (&D)"
@@ -971,6 +930,10 @@ msgstr "दृश्य प्रोफाइल लोड करू (&V)"
 #: src/konqmainwindow.cpp:3678 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "फिनु लोड करू (&R)"
+
+#: src/konqmainwindow.cpp:3683 src/konqtabs.cpp:329
+msgid "&Reload All Tabs"
+msgstr "सभटा टैब फिनु सँ लोड करू (&R)"
 
 #: src/konqmainwindow.cpp:3691
 msgid "&Force Reload"
@@ -1273,6 +1236,43 @@ msgid ""
 msgstr ""
 "प्रतीत होइछ जे ओतए कान्फिगरेशन त्रुटि अछि. अहाँ कान्करर केँ %1 केर सँग सम्बद्ध कएने छी. पर "
 "ई एहि प्रकारक फाइलसभ केँ संभाल नहि सकैत अछि."
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "नवीन टैब खोलू"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: src/konqtabs.cpp:468
+msgid "&Duplicate Tab"
+msgstr "टैबक नकल (&D)"
+
+#: src/konqtabs.cpp:473
+msgid "&Reload Tab"
+msgstr "टैब फिनु लोड करू (&R)"
+
+#: src/konqtabs.cpp:480
+msgid "Other Tabs"
+msgstr "आन टैब"
+
+#: src/konqtabs.cpp:485
+msgid "D&etach Tab"
+msgstr "टैब केँ अलग करू (&e)"
+
+#: src/konqtabs.cpp:491
+msgid "&Close Tab"
+msgstr "टैब बन्न करू (&C)"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
