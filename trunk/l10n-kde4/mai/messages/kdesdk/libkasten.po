@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkasten\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-21 04:46+0100\n"
+"POT-Creation-Date: 2012-01-29 03:16+0100\n"
 "PO-Revision-Date: 2010-09-24 20:23+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,28 +18,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
-
-#: gui/system/createdialog.cpp:42
-msgctxt "@title:window"
-msgid "Create"
-msgstr "बनाबू"
-
-#: gui/system/createdialog.cpp:44
-msgctxt "@action:button create the new document"
-msgid "&Create"
-msgstr ""
-
-#: gui/system/createdialog.cpp:46
-msgctxt "@info:tooltip"
-msgid "Create a new document with the generated data."
-msgstr ""
-
-#: gui/system/createdialog.cpp:48
-msgctxt "@info:whatsthis"
-msgid ""
-"If you press the <interface>Create</interface> button, the data will be "
-"generated with the settings you entered above and inserted in a new document."
-msgstr ""
 
 #: gui/system/dialoghandler.cpp:45
 #, kde-format
@@ -71,17 +49,39 @@ msgid ""
 "changes?"
 msgstr ""
 
-#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:60
+#: gui/system/createdialog.cpp:42
+msgctxt "@title:window"
+msgid "Create"
+msgstr "बनाबू"
+
+#: gui/system/createdialog.cpp:44
+msgctxt "@action:button create the new document"
+msgid "&Create"
+msgstr ""
+
+#: gui/system/createdialog.cpp:46
+msgctxt "@info:tooltip"
+msgid "Create a new document with the generated data."
+msgstr ""
+
+#: gui/system/createdialog.cpp:48
+msgctxt "@info:whatsthis"
+msgid ""
+"If you press the <interface>Create</interface> button, the data will be "
+"generated with the settings you entered above and inserted in a new document."
+msgstr ""
+
+#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:61
 msgctxt "@title:menu"
 msgid "Split Vertically"
 msgstr ""
 
-#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:67
+#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:68
 msgctxt "@title:menu"
 msgid "Split Horizontal"
 msgstr ""
 
-#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:74
+#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:75
 msgctxt "@title:menu"
 msgid "Close View Area"
 msgstr ""
@@ -106,12 +106,12 @@ msgctxt "@title:menu create a new document from data in the clipboard"
 msgid "From Clipboard"
 msgstr "क्लिपबोर्ड सँ"
 
-#: controllers/documentsystem/close/closecontroller.cpp:55
+#: controllers/documentsystem/close/closecontroller.cpp:56
 msgctxt "@title:menu"
 msgid "Close All"
 msgstr ""
 
-#: controllers/documentsystem/close/closecontroller.cpp:61
+#: controllers/documentsystem/close/closecontroller.cpp:62
 msgctxt "@title:menu"
 msgid "Close All Other"
 msgstr ""
@@ -121,17 +121,17 @@ msgctxt "@title:window"
 msgid "Documents"
 msgstr "दस्तावेज"
 
-#: controllers/documentsystem/documentsbrowser/documentlistmodel.cpp:126
+#: controllers/documentsystem/documentsbrowser/documentlistmodel.cpp:130
 msgctxt "@title:column description of the change"
 msgid "Title"
 msgstr "शीर्षक"
 
-#: controllers/documentsystem/documentsbrowser/documentlistmodel.cpp:134
+#: controllers/documentsystem/documentsbrowser/documentlistmodel.cpp:138
 msgctxt "@info:tooltip"
 msgid "Title of the document"
 msgstr ""
 
-#: controllers/documentsystem/filesystembrowser/filesystembrowserview.cpp:93
+#: controllers/documentsystem/filesystembrowser/filesystembrowserview.cpp:94
 msgctxt "@action:intoolbar"
 msgid "Folder of Current Document"
 msgstr ""
@@ -213,7 +213,7 @@ msgctxt "@item There are no generators."
 msgid "Not available."
 msgstr "उपलब्ध नहि"
 
-#: controllers/io/synchronize/synchronizecontroller.cpp:50
+#: controllers/io/synchronize/synchronizecontroller.cpp:51
 msgctxt "@title:menu"
 msgid "Reloa&d"
 msgstr "फिनु सँ लोड करू (&d)"
@@ -301,12 +301,12 @@ msgctxt "@action Redo: [change]"
 msgid "Redo: %1"
 msgstr "दोहराबू: %1"
 
-#: controllers/document/modified/modifiedbarcontroller.cpp:99
+#: controllers/document/modified/modifiedbarcontroller.cpp:104
 msgctxt "@tooltip the document is modified"
 msgid "Modified."
 msgstr ""
 
-#: controllers/document/modified/modifiedbarcontroller.cpp:100
+#: controllers/document/modified/modifiedbarcontroller.cpp:105
 msgctxt "@tooltip the document is not modified"
 msgid "Not modified."
 msgstr ""
@@ -371,7 +371,7 @@ msgctxt "@title:window"
 msgid "Close"
 msgstr "बन्न करू"
 
-#: core/system/documentsyncmanager.cpp:270
+#: core/system/documentsyncmanager.cpp:271
 msgctxt "@title:window"
 msgid "Reload"
 msgstr "पुनः लोड करू"
