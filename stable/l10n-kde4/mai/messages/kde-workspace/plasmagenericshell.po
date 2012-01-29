@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmagenericshell\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-23 04:59+0100\n"
+"POT-Creation-Date: 2012-01-29 13:35+0100\n"
 "PO-Revision-Date: 2010-01-29 16:20+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -129,6 +129,14 @@ msgstr ""
 msgid "Main Script File"
 msgstr ""
 
+#: scripting/containment.cpp:171
+msgid "widgetById requires an id"
+msgstr ""
+
+#: scripting/containment.cpp:196
+msgid "widgetById requires a name of a widget or a widget object"
+msgstr ""
+
 #: scripting/scriptengine.cpp:79 scripting/scriptengine.cpp:200
 msgid "activityById requires an id"
 msgstr ""
@@ -156,13 +164,9 @@ msgid ""
 "%3"
 msgstr ""
 
-#: scripting/containment.cpp:171
-msgid "widgetById requires an id"
-msgstr ""
-
-#: scripting/containment.cpp:196
-msgid "widgetById requires a name of a widget or a widget object"
-msgstr ""
+#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
+msgid "Filters"
+msgstr "फिल्टरसभ"
 
 #: widgetsexplorer/appletsfiltering.cpp:55
 #, fuzzy
@@ -199,9 +203,35 @@ msgstr "नवीन %1 डाउनलोड करू"
 msgid "Install Widget From Local File..."
 msgstr "स्थानीय फाइल सँ विजेट सँस्थापित करू"
 
-#: widgetsexplorer/kcategorizeditemsviewmodels.cpp:72
-msgid "Filters"
-msgstr "फिल्टरसभ"
+#: widgetsexplorer/applettooltip.cpp:123
+#, fuzzy
+#| msgid "Install New Widgets"
+msgid "Uninstall Widget"
+msgstr "नवीन विजेटसभ सँस्थापित करू"
+
+#: widgetsexplorer/applettooltip.cpp:180
+#, kde-format
+msgid "Version %1"
+msgstr "संस्करण %1"
+
+#: widgetsexplorer/applettooltip.cpp:188
+#, kde-format
+msgid "<font color=\"%1\">Author:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:197
+#, kde-format
+msgid "<font color=\"%1\">Website:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:201
+#, kde-format
+msgid "<font color=\"%1\">License:</font>"
+msgstr ""
+
+#: widgetsexplorer/applettooltip.cpp:211
+msgid "Unknown Applet"
+msgstr ""
 
 #: widgetsexplorer/openwidgetassistant.cpp:46
 msgid "Select the type of widget to install from the list below."
@@ -237,36 +267,6 @@ msgstr "पैकेज %1 क' सँस्थापन विफल."
 #: widgetsexplorer/plasmaappletitemmodel.cpp:194
 msgid "Containments"
 msgstr "कंटेनमेंट"
-
-#: widgetsexplorer/applettooltip.cpp:123
-#, fuzzy
-#| msgid "Install New Widgets"
-msgid "Uninstall Widget"
-msgstr "नवीन विजेटसभ सँस्थापित करू"
-
-#: widgetsexplorer/applettooltip.cpp:180
-#, kde-format
-msgid "Version %1"
-msgstr "संस्करण %1"
-
-#: widgetsexplorer/applettooltip.cpp:188
-#, kde-format
-msgid "<font color=\"%1\">Author:</font>"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:197
-#, kde-format
-msgid "<font color=\"%1\">Website:</font>"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:201
-#, kde-format
-msgid "<font color=\"%1\">License:</font>"
-msgstr ""
-
-#: widgetsexplorer/applettooltip.cpp:211
-msgid "Unknown Applet"
-msgstr ""
 
 #: widgetsexplorer/widgetexplorer.cpp:115
 msgid "All Widgets"

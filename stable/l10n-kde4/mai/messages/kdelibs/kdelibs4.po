@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:18+0100\n"
+"POT-Creation-Date: 2012-01-29 13:30+0100\n"
 "PO-Revision-Date: 2010-09-24 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -3122,6 +3122,41 @@ msgstr ""
 "हार्दिक  धन्यवाद.</p><p>केडीइ केर अंतर्राष्ट्रीयकरण केर संबंध मे आओर बेसी जानकारी क' लेल "
 "एतय जाउ: <a href=\"http://l10n.kde.org\">http://l10n.kde.org</a></p>"
 
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr "फंक्शन केँ मुख्य थ्रेड सँ बजाएल जएनाइ चाही."
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr ""
+"के लांचर डी_बस केर जरिआ पहुँच नहि पाएल. %1 केँ काल करब केर दौरान त्रुटि:\n"
+"%2\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"केडीइ मद्दति केंद्र चालू नहि कए सकल:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "मद्दति केंद्र चालू नहि कए सकल"
+
 #: kdecore/kernel/kcmdlineargs.cpp:273
 msgid "Use the X-server display 'displayname'"
 msgstr "एक्स-सर्वर डिस्पले 'displayname' इस्तेमाल करू. "
@@ -3419,41 +3454,6 @@ msgstr ""
 msgid "KDE-tempfile"
 msgstr "केडीइ-टेम्पफाइल"
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr "फंक्शन केँ मुख्य थ्रेड सँ बजाएल जएनाइ चाही."
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr ""
-"के लांचर डी_बस केर जरिआ पहुँच नहि पाएल. %1 केँ काल करब केर दौरान त्रुटि:\n"
-"%2\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"केडीइ मद्दति केंद्र चालू नहि कए सकल:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "मद्दति केंद्र चालू नहि कए सकल"
-
 #: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
@@ -3505,159 +3505,125 @@ msgstr ""
 msgid "Could not launch Terminal Client"
 msgstr "टर्मिनल क्लाएंट केँ चालू नहि कए सकल"
 
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:303
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "पश्चिमी यूरोपीय"
-
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:285
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "बिचला यूरोपीय"
-
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:282
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "बाल्टिक"
-
-#: kdecore/localization/kcharsets.cpp:167
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "दक्षिण-पूर्वी यूरोप"
-
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:300
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "तुर्की"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:288
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "साइरिलिक"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingdetector.cpp:1235
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:306
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "चीनी पारम्परिक"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingdetector.cpp:1238
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:309
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "चीनी (सरल)"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingdetector.cpp:1241
-#: kdecore/localization/kencodingprober.cpp:312
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "कोरियाइ"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:297
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "जापानी"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:291
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "ग्रीक"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-#: kdecore/localization/kencodingprober.cpp:262
-#: kdecore/localization/kencodingprober.cpp:279
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "अरबी"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:294
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "हिब्रू"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingdetector.cpp:1244
-#: kdecore/localization/kencodingprober.cpp:315
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "थाइ"
-
-#: kdecore/localization/kcharsets.cpp:206
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
 #: kdecore/localization/kencodingprober.cpp:240
 #: kdecore/localization/kencodingprober.cpp:318
+#: kdecore/localization/kcharsets.cpp:206
 msgctxt "@item Text character set"
 msgid "Unicode"
 msgstr "यूनिकोड"
 
-#: kdecore/localization/kcharsets.cpp:212
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:288
+#: kdecore/localization/kcharsets.cpp:173
 msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "उत्तरी सामी"
+msgid "Cyrillic"
+msgstr "साइरिलिक"
 
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:619
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:303
+#: kdecore/localization/kcharsets.cpp:155
 msgctxt "@item Text character set"
-msgid "Other"
-msgstr "आन"
+msgid "Western European"
+msgstr "पश्चिमी यूरोपीय"
 
-#: kdecore/localization/kcharsets.cpp:629
-#, kde-format
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:285
+#: kdecore/localization/kcharsets.cpp:161
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "बिचला यूरोपीय"
 
-#: kdecore/localization/kcharsets.cpp:632
-#, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "आन एनकोडिंग (%1)"
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:291
+#: kdecore/localization/kcharsets.cpp:192
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "ग्रीक"
 
-#: kdecore/localization/kcharsets.cpp:658
-#, kde-format
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:294
+#: kdecore/localization/kcharsets.cpp:198
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "हिब्रू"
+
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:300
+#: kdecore/localization/kcharsets.cpp:170
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "तुर्की"
+
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:297
+#: kdecore/localization/kcharsets.cpp:188
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "जापानी"
+
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:282
+#: kdecore/localization/kcharsets.cpp:164
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "बाल्टिक"
+
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+#: kdecore/localization/kencodingprober.cpp:262
+#: kdecore/localization/kencodingprober.cpp:279
+#: kdecore/localization/kcharsets.cpp:195
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "अरबी"
+
+#: kdecore/localization/kencodingdetector.cpp:1235
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:306
+#: kdecore/localization/kcharsets.cpp:179
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "चीनी पारम्परिक"
+
+#: kdecore/localization/kencodingdetector.cpp:1238
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:309
+#: kdecore/localization/kcharsets.cpp:182
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "चीनी (सरल)"
+
+#: kdecore/localization/kencodingdetector.cpp:1241
+#: kdecore/localization/kencodingprober.cpp:312
+#: kdecore/localization/kcharsets.cpp:186
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "कोरियाइ"
+
+#: kdecore/localization/kencodingdetector.cpp:1244
+#: kdecore/localization/kencodingprober.cpp:315
+#: kdecore/localization/kcharsets.cpp:203
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "थाइ"
 
 #: kdecore/localization/kencodingprober.cpp:236
 #: kdecore/localization/kencodingprober.cpp:273
@@ -4246,6 +4212,40 @@ msgstr "जीत"
 msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
+
+#: kdecore/localization/kcharsets.cpp:167
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "दक्षिण-पूर्वी यूरोप"
+
+#: kdecore/localization/kcharsets.cpp:212
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "उत्तरी सामी"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:619
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "आन"
+
+#: kdecore/localization/kcharsets.cpp:629
+#, kde-format
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:632
+#, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "आन एनकोडिंग (%1)"
+
+#: kdecore/localization/kcharsets.cpp:658
+#, kde-format
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
 
 #: kdecore/localization/klocale_kde.cpp:1093
 msgctxt "digit set"
@@ -5253,47 +5253,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "अपने जाँचू"
 
-#: kdeui/actions/ktogglefullscreenaction.cpp:48
-#: kdeui/actions/ktogglefullscreenaction.cpp:55
-#: kdeui/actions/ktogglefullscreenaction.cpp:85
-#: kdeui/actions/kstandardaction_p.h:101
-msgid "F&ull Screen Mode"
-msgstr "पूर्ण स्क्रीन मोड (&u)"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:51
-#: kdeui/actions/ktogglefullscreenaction.cpp:58
-#: kdeui/actions/ktogglefullscreenaction.cpp:86
-msgid "Full Screen"
-msgstr "पूर्ण स्क्रीन"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:81
-msgid "Exit F&ull Screen Mode"
-msgstr "पूर्ण स्क्रीन मोड सँ बाहर होउ (&u)"
-
-#: kdeui/actions/ktogglefullscreenaction.cpp:82
-msgid "Exit Full Screen"
-msgstr "पूर्ण स्क्रीन मोड सँ बाहर होउ"
-
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-msgid "Ambiguous shortcut detected"
-msgstr ""
-
-#: kdeui/actions/krecentfilesaction.cpp:81
-msgid "No Entries"
-msgstr "कोनो प्रविष्टि नहि"
-
-#: kdeui/actions/krecentfilesaction.cpp:85
-msgid "Clear List"
-msgstr "सूची साफ करू"
-
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
 msgid "&Back"
@@ -5337,6 +5296,47 @@ msgid ""
 msgstr ""
 "स्थिति पट्टी देखाबू<br /><br />स्थिति पट्टी प्रदर्शित करैत अछि जे विंडो केर तल पर एकटा "
 "पट्टी होइछ आओर जे स्थिति जानकारी देखाबैत अछि."
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:48
+#: kdeui/actions/ktogglefullscreenaction.cpp:55
+#: kdeui/actions/ktogglefullscreenaction.cpp:85
+#: kdeui/actions/kstandardaction_p.h:101
+msgid "F&ull Screen Mode"
+msgstr "पूर्ण स्क्रीन मोड (&u)"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:51
+#: kdeui/actions/ktogglefullscreenaction.cpp:58
+#: kdeui/actions/ktogglefullscreenaction.cpp:86
+msgid "Full Screen"
+msgstr "पूर्ण स्क्रीन"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:81
+msgid "Exit F&ull Screen Mode"
+msgstr "पूर्ण स्क्रीन मोड सँ बाहर होउ (&u)"
+
+#: kdeui/actions/ktogglefullscreenaction.cpp:82
+msgid "Exit Full Screen"
+msgstr "पूर्ण स्क्रीन मोड सँ बाहर होउ"
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+msgid "Ambiguous shortcut detected"
+msgstr ""
+
+#: kdeui/actions/krecentfilesaction.cpp:81
+msgid "No Entries"
+msgstr "कोनो प्रविष्टि नहि"
+
+#: kdeui/actions/krecentfilesaction.cpp:85
+msgid "Clear List"
+msgstr "सूची साफ करू"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 msgid ""
@@ -5487,6 +5487,112 @@ msgstr "केडीइ केँ सहयोग दिअ'(&S)"
 #: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:208
 msgid "Configure"
 msgstr "बिन्यस्त करू"
+
+#: kdeui/dialogs/kedittoolbar.cpp:58
+msgid "--- separator ---"
+msgstr "--- सेपरेटर ---"
+
+#: kdeui/dialogs/kedittoolbar.cpp:287
+msgid "Change Text"
+msgstr "पाठ बदलू"
+
+#: kdeui/dialogs/kedittoolbar.cpp:298
+#, fuzzy
+#| msgid "Icon Te&xt:"
+msgid "Icon te&xt:"
+msgstr "प्रतीक पाठ (&xt):"
+
+#: kdeui/dialogs/kedittoolbar.cpp:303
+msgid "&Hide text when toolbar shows text alongside icons"
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:553
+msgid "Configure Toolbars"
+msgstr "अओजार पट्टीसभ बिन्यस्त करू"
+
+#: kdeui/dialogs/kedittoolbar.cpp:602
+msgid ""
+"Do you really want to reset all toolbars of this application to their "
+"default? The changes will be applied immediately."
+msgstr ""
+"की अहाँ सचमुच एहि अनुप्रयोग केर सबहि अओजारपट्टीसभ केँ ओकर मूलभूत पर रीसेट कएनाइ चाहैत "
+"छी? परिवर्तनसभ केँ तत्काल लागू कएल जएताह."
+
+#: kdeui/dialogs/kedittoolbar.cpp:602
+msgid "Reset Toolbars"
+msgstr "अओजार-पट्टी रीसेट करू"
+
+#: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2814
+#: khtml/khtmlview.cpp:2847 khtml/html/html_formimpl.cpp:1845
+msgid "Reset"
+msgstr "रिसेट करू"
+
+#: kdeui/dialogs/kedittoolbar.cpp:896
+msgid "&Toolbar:"
+msgstr "अओजार पट्टी (&T): "
+
+#: kdeui/dialogs/kedittoolbar.cpp:911
+msgid "A&vailable actions:"
+msgstr "मोजुद काजसभ: (&v)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:926 kdeui/dialogs/kedittoolbar.cpp:945
+msgid "Filter"
+msgstr "फिल्टर"
+
+#: kdeui/dialogs/kedittoolbar.cpp:929
+msgid "Curr&ent actions:"
+msgstr "मोजुदा काज: (&e)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:948
+msgid "Change &Icon..."
+msgstr "प्रतीक बदलू... (&I)"
+
+#: kdeui/dialogs/kedittoolbar.cpp:958
+msgid "Change Te&xt..."
+msgstr "पाठ बदलू (&xt)..."
+
+#: kdeui/dialogs/kedittoolbar.cpp:1109
+#, kde-format
+msgctxt "@item:intable Action name in toolbar editor"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1130
+msgid ""
+"This element will be replaced with all the elements of an embedded component."
+msgstr "ई अवयव एकटा एम्बेडेड अवयव केर सबहि अवयव केर सँग बदएल जएताह."
+
+#: kdeui/dialogs/kedittoolbar.cpp:1132
+msgid "<Merge>"
+msgstr "<मिलाबू>"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1134
+#, kde-format
+msgid "<Merge %1>"
+msgstr "<मिलाबू %1>"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1140
+msgid ""
+"This is a dynamic list of actions. You can move it, but if you remove it you "
+"will not be able to re-add it."
+msgstr ""
+"ई काजसभक गतिशील सूची अछि. अहाँ एकरा खिसका सकैत छी, पर जँ अहाँ एकरा मेटाए देल तँ अहाँ "
+"एकरा फिनु सँ जोड़ नहि सकत."
+
+#: kdeui/dialogs/kedittoolbar.cpp:1141
+#, kde-format
+msgid "ActionList: %1"
+msgstr "काज सूची: %1"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1242 kdeui/dialogs/kedittoolbar.cpp:1272
+#, kde-format
+msgctxt "@label Action tooltip in toolbar editor, below the action list"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1525
+msgid "Change Icon"
+msgstr "प्रतीक बदलू"
 
 #: kdeui/dialogs/kcupsoptionsjobwidget_p.cpp:90
 msgid "Print Immediately"
@@ -6278,112 +6384,6 @@ msgstr "अगिला"
 #: knewstuff/knewstuff3/uploaddialog.cpp:370
 msgid "Finish"
 msgstr "समाप्त"
-
-#: kdeui/dialogs/kedittoolbar.cpp:58
-msgid "--- separator ---"
-msgstr "--- सेपरेटर ---"
-
-#: kdeui/dialogs/kedittoolbar.cpp:287
-msgid "Change Text"
-msgstr "पाठ बदलू"
-
-#: kdeui/dialogs/kedittoolbar.cpp:298
-#, fuzzy
-#| msgid "Icon Te&xt:"
-msgid "Icon te&xt:"
-msgstr "प्रतीक पाठ (&xt):"
-
-#: kdeui/dialogs/kedittoolbar.cpp:303
-msgid "&Hide text when toolbar shows text alongside icons"
-msgstr ""
-
-#: kdeui/dialogs/kedittoolbar.cpp:553
-msgid "Configure Toolbars"
-msgstr "अओजार पट्टीसभ बिन्यस्त करू"
-
-#: kdeui/dialogs/kedittoolbar.cpp:602
-msgid ""
-"Do you really want to reset all toolbars of this application to their "
-"default? The changes will be applied immediately."
-msgstr ""
-"की अहाँ सचमुच एहि अनुप्रयोग केर सबहि अओजारपट्टीसभ केँ ओकर मूलभूत पर रीसेट कएनाइ चाहैत "
-"छी? परिवर्तनसभ केँ तत्काल लागू कएल जएताह."
-
-#: kdeui/dialogs/kedittoolbar.cpp:602
-msgid "Reset Toolbars"
-msgstr "अओजार-पट्टी रीसेट करू"
-
-#: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2814
-#: khtml/khtmlview.cpp:2847 khtml/html/html_formimpl.cpp:1845
-msgid "Reset"
-msgstr "रिसेट करू"
-
-#: kdeui/dialogs/kedittoolbar.cpp:896
-msgid "&Toolbar:"
-msgstr "अओजार पट्टी (&T): "
-
-#: kdeui/dialogs/kedittoolbar.cpp:911
-msgid "A&vailable actions:"
-msgstr "मोजुद काजसभ: (&v)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:926 kdeui/dialogs/kedittoolbar.cpp:945
-msgid "Filter"
-msgstr "फिल्टर"
-
-#: kdeui/dialogs/kedittoolbar.cpp:929
-msgid "Curr&ent actions:"
-msgstr "मोजुदा काज: (&e)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:948
-msgid "Change &Icon..."
-msgstr "प्रतीक बदलू... (&I)"
-
-#: kdeui/dialogs/kedittoolbar.cpp:958
-msgid "Change Te&xt..."
-msgstr "पाठ बदलू (&xt)..."
-
-#: kdeui/dialogs/kedittoolbar.cpp:1109
-#, kde-format
-msgctxt "@item:intable Action name in toolbar editor"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1130
-msgid ""
-"This element will be replaced with all the elements of an embedded component."
-msgstr "ई अवयव एकटा एम्बेडेड अवयव केर सबहि अवयव केर सँग बदएल जएताह."
-
-#: kdeui/dialogs/kedittoolbar.cpp:1132
-msgid "<Merge>"
-msgstr "<मिलाबू>"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1134
-#, kde-format
-msgid "<Merge %1>"
-msgstr "<मिलाबू %1>"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1140
-msgid ""
-"This is a dynamic list of actions. You can move it, but if you remove it you "
-"will not be able to re-add it."
-msgstr ""
-"ई काजसभक गतिशील सूची अछि. अहाँ एकरा खिसका सकैत छी, पर जँ अहाँ एकरा मेटाए देल तँ अहाँ "
-"एकरा फिनु सँ जोड़ नहि सकत."
-
-#: kdeui/dialogs/kedittoolbar.cpp:1141
-#, kde-format
-msgid "ActionList: %1"
-msgstr "काज सूची: %1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1242 kdeui/dialogs/kedittoolbar.cpp:1272
-#, kde-format
-msgctxt "@label Action tooltip in toolbar editor, below the action list"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1525
-msgid "Change Icon"
-msgstr "प्रतीक बदलू"
 
 #: kdeui/findreplace/kfind.cpp:50
 msgid "Find Next"
@@ -7627,6 +7627,12 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "केडीइ केर संबंध में"
 
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Send Confirmation"
+msgid "Spell Checking Configuration"
+msgstr "पुष्टिकरण भेजू"
+
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 msgctxt "@title:window"
@@ -7654,12 +7660,6 @@ msgstr "वर्तनी जाँच रद."
 #: kdeui/sonnet/dialog.cpp:441 kdeui/sonnet/dialog.cpp:445
 msgid "Spell check complete."
 msgstr "वर्तनी जाँचि सम्पन्न."
-
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Send Confirmation"
-msgid "Spell Checking Configuration"
-msgstr "पुष्टिकरण भेजू"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -9162,22 +9162,6 @@ msgstr "वर्ष चुनू"
 msgid "Select the current day"
 msgstr "मोजुदा दिन चयन करू"
 
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "जोड़ू (&A)"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "हटाबू (&R)"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "उप्पर जाउ (&U)"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "नीच्चाँ जाउ (&D)"
-
 #. i18n: Placeholder text in line edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter search pattern").
@@ -9237,6 +9221,22 @@ msgstr "ड्रापडाउन सूची स्वचलित (&&)"
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "मूलभूत"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "जोड़ू (&A)"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "हटाबू (&R)"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "उप्पर जाउ (&U)"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "नीच्चाँ जाउ (&D)"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
@@ -9597,6 +9597,23 @@ msgstr "अधिस्क्रिप्ट"
 msgid "&Copy Full Text"
 msgstr "पूरे पाठक नकल बनाबू (&C)"
 
+#: kdeui/widgets/ktimecombobox.cpp:259
+msgctxt "@info"
+msgid "The time you entered is invalid"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:262
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be earlier than %1"
+msgstr ""
+
+#: kdeui/widgets/ktimecombobox.cpp:269
+#, kde-format
+msgctxt "@info"
+msgid "Time cannot be later than %1"
+msgstr ""
+
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
 msgid "Area"
@@ -9823,27 +9840,10 @@ msgctxt "@info"
 msgid "The entered date and time is after the maximum allowed date and time."
 msgstr ""
 
-#: kdeui/widgets/ktimecombobox.cpp:259
-msgctxt "@info"
-msgid "The time you entered is invalid"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:262
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be earlier than %1"
-msgstr ""
-
-#: kdeui/widgets/ktimecombobox.cpp:269
-#, kde-format
-msgctxt "@info"
-msgid "Time cannot be later than %1"
-msgstr ""
-
 #: kdeui/windowmanagement/kwindowsystem_mac.cpp:563
 #: kdeui/windowmanagement/kwindowsystem_qws.cpp:176
-#: kdeui/windowmanagement/kwindowsystem_win.cpp:598
 #: kdeui/windowmanagement/kwindowsystem_x11.cpp:896
+#: kdeui/windowmanagement/kwindowsystem_win.cpp:598
 #, kde-format
 msgid "Desktop %1"
 msgstr "डेस्कटाप %1"
@@ -10151,6 +10151,50 @@ msgstr "एहिना सहेजू"
 #: khtml/khtmladaptorpart.cpp:29
 msgid "Inactive"
 msgstr "निष्क्रिय"
+
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 पिक्सल्स)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 पिक्सल्स"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 पिक्सल्स)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "छवि - %1x%2 पिक्सल्स"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "सम्पन्न"
+
+#: khtml/test_regression_gui_main.cpp:34
+msgid "TestRegressionGui"
+msgstr "टेस्ट-रीग्रेसन-जीयूआई"
+
+#: khtml/test_regression_gui_main.cpp:35
+msgid "GUI for the khtml regression tester"
+msgstr "केएचटीएमएल रीग्रेसन जाँचि क' लेल जीयूआई"
+
+#: khtml/testkhtml.cpp:39
+msgid "URL to open"
+msgstr "यूआरएल जकरा खोलना अछि"
+
+#: khtml/testkhtml.cpp:41
+msgid "Testkhtml"
+msgstr "टेस्टकेएचटीएमएल"
+
+#: khtml/testkhtml.cpp:42
+msgid "a basic web browser using the KHTML library"
+msgstr "केएचटीएमएल लाइब्रेरी क' प्रयोग करैत भेलहुँ एकटा मूल प्रकार क' वेब ब्राउज़र"
 
 #: khtml/khtml_part.cpp:251
 msgid "View Do&cument Source"
@@ -10605,26 +10649,6 @@ msgstr "रोके गेल विंडो पैसिव पॉपअप �
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "जावा स्क्रिप्ट नवीन विंडो पॉलिसी बिन्यस्त करू करू... (&C)"
 
-#: khtml/test_regression_gui_main.cpp:34
-msgid "TestRegressionGui"
-msgstr "टेस्ट-रीग्रेसन-जीयूआई"
-
-#: khtml/test_regression_gui_main.cpp:35
-msgid "GUI for the khtml regression tester"
-msgstr "केएचटीएमएल रीग्रेसन जाँचि क' लेल जीयूआई"
-
-#: khtml/testkhtml.cpp:39
-msgid "URL to open"
-msgstr "यूआरएल जकरा खोलना अछि"
-
-#: khtml/testkhtml.cpp:41
-msgid "Testkhtml"
-msgstr "टेस्टकेएचटीएमएल"
-
-#: khtml/testkhtml.cpp:42
-msgid "a basic web browser using the KHTML library"
-msgstr "केएचटीएमएल लाइब्रेरी क' प्रयोग करैत भेलहुँ एकटा मूल प्रकार क' वेब ब्राउज़र"
-
 #: khtml/khtml_settings.cpp:235
 msgid "Accept"
 msgstr "स्वीकारू"
@@ -10741,30 +10765,6 @@ msgstr "इग्नोर्स सँ हटाबू..."
 #: khtml/khtmlview.cpp:1842
 msgid "Access Keys activated"
 msgstr "पहुँच कुँजी सक्रिय कएल गेल"
-
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 पिक्सल्स)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 पिक्सल्स"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 पिक्सल्स)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "छवि - %1x%2 पिक्सल्स"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "सम्पन्न"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
