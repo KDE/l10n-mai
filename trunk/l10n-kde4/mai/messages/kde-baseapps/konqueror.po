@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:12+0100\n"
+"POT-Creation-Date: 2012-01-30 05:14+0100\n"
 "PO-Revision-Date: 2010-09-24 21:45+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -570,50 +570,6 @@ msgstr ""
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"ई विंडो मे बहुत सन टैब खुलल अछि.\n"
-" दृश्य प्रोफाइल लोड करबा सँ ई बन्न भए जाएत."
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4985
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "पुष्टिकरण"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "दृश्य प्रोफाइल लोड करू"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"ई टैब मे वे परिवर्तन हैं जे जमा नहि कएल गेल अछि.\n"
-"प्रोफाइल केँ लोड करबा सँ ई परिवर्तन मेट जाएत."
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2534 src/konqmainwindow.cpp:5020
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5020
-msgid "&Discard Changes"
-msgstr "परिवर्तनसभ केँ फेंक दिअ'(&D)"
-
 #: src/konqview.cpp:1203
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
@@ -650,6 +606,23 @@ msgid ""
 msgstr ""
 "ई पृष्ठ मे ओ परिवर्तन अछि जे जमा नहि कएल गेल अछि.\n"
 "पृष्ठ केँ फिनु सँ लोड करब सँ ई परिवर्तन मेट जएताह."
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2534
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "परिवर्तनसभ केँ फेंक दिअ'?"
+
+#: src/konqmainwindow.cpp:1633 src/konqmainwindow.cpp:2360
+#: src/konqmainwindow.cpp:2440 src/konqmainwindow.cpp:2470
+#: src/konqmainwindow.cpp:2512 src/konqmainwindow.cpp:2535
+#: src/konqmainwindow.cpp:5020 src/konqviewmanager.cpp:1423
+msgid "&Discard Changes"
+msgstr "परिवर्तनसभ केँ फेंक दिअ'(&D)"
 
 #: src/konqmainwindow.cpp:1743
 msgid "File Management"
@@ -1183,6 +1156,13 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "ई विंडो मे बहुत सारे टैब खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
+#: src/konqmainwindow.cpp:4985 src/konqviewmanager.cpp:1409
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "पुष्टिकरण"
+
 #: src/konqmainwindow.cpp:4987
 msgid "C&lose Current Tab"
 msgstr "मोजुदा टैब बन्न करू (&l)"
@@ -1273,6 +1253,26 @@ msgstr "टैब केँ अलग करू (&e)"
 #: src/konqtabs.cpp:491
 msgid "&Close Tab"
 msgstr "टैब बन्न करू (&C)"
+
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"ई विंडो मे बहुत सन टैब खुलल अछि.\n"
+" दृश्य प्रोफाइल लोड करबा सँ ई बन्न भए जाएत."
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "दृश्य प्रोफाइल लोड करू"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"ई टैब मे वे परिवर्तन हैं जे जमा नहि कएल गेल अछि.\n"
+"प्रोफाइल केँ लोड करबा सँ ई परिवर्तन मेट जाएत."
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
