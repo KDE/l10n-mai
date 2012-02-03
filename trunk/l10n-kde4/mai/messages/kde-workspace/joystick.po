@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2012-02-03 04:37+0100\n"
 "PO-Revision-Date: 2010-01-05 10:43+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <www.bhasharghar.in>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "\n"
 "\n"
 
-#: caldialog.cpp:41 joywidget.cpp:390
+#: caldialog.cpp:41 joywidget.cpp:380
 msgid "Calibration"
 msgstr "केलिब्रेशन"
 
@@ -68,7 +68,7 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 
-#: caldialog.cpp:154 joywidget.cpp:381 joywidget.cpp:416
+#: caldialog.cpp:154 joywidget.cpp:371 joywidget.cpp:406
 msgid "Communication Error"
 msgstr "संचारक त्रुटि"
 
@@ -76,7 +76,7 @@ msgstr "संचारक त्रुटि"
 msgid "You have successfully calibrated your device"
 msgstr "अहाँ अपन युक्ति केँ सफलता पूर्वक कैलिब्रेट कएलहुँ"
 
-#: caldialog.cpp:158 joywidget.cpp:422
+#: caldialog.cpp:158 joywidget.cpp:412
 msgid "Calibration Success"
 msgstr "कैलिब्रेशन सफल"
 
@@ -144,21 +144,21 @@ msgstr "जायस्टिक अओजार %1 क' लेल कैलि�
 msgid "internal error - code %1 unknown"
 msgstr "आंतरिक त्रुटि - कोड %1 अज्ञात"
 
-#: joystick.cpp:80
+#: joystick.cpp:48
 msgid "KDE Joystick Control Module"
 msgstr "केडीई जायस्टिक नियंत्रण मोड्यूल"
 
-#: joystick.cpp:81
+#: joystick.cpp:49
 #, fuzzy
 #| msgid "KDE Control Center Module to test Joysticks"
 msgid "KDE System Settings Module to test Joysticks"
 msgstr "जायस्टिक केँ जाँचबा क' एकटा केडीई नियंत्रण केंद्र मोड्यूल "
 
-#: joystick.cpp:82
+#: joystick.cpp:50
 msgid "(c) 2004, Martin Koller"
 msgstr "(c) 2004, मार्टिन कोलर"
 
-#: joystick.cpp:85
+#: joystick.cpp:53
 msgid ""
 "<h1>Joystick</h1>This module helps to check if your joystick is working "
 "correctly.<br />If it delivers wrong values for the axes, you can try to "
@@ -173,51 +173,51 @@ msgid ""
 "can check your Linux source/Documentation/input/joystick.txt)"
 msgstr ""
 
-#: joywidget.cpp:47
+#: joywidget.cpp:49
 msgid "PRESSED"
 msgstr "दबाएल"
 
-#: joywidget.cpp:93
+#: joywidget.cpp:84
 msgid "Device:"
 msgstr "डिवाइस:"
 
-#: joywidget.cpp:112
+#: joywidget.cpp:103
 msgctxt "Cue for deflection of the stick"
 msgid "Position:"
 msgstr "स्थिति: "
 
-#: joywidget.cpp:115
+#: joywidget.cpp:106
 msgid "Show trace"
 msgstr "ट्रेस देखाबू"
 
-#: joywidget.cpp:128
+#: joywidget.cpp:119
 msgid "Buttons:"
 msgstr "बटनसभ:"
 
-#: joywidget.cpp:132
+#: joywidget.cpp:123
 msgid "State"
 msgstr "स्थिति"
 
-#: joywidget.cpp:140
+#: joywidget.cpp:131
 msgid "Axes:"
 msgstr "अक्षः"
 
-#: joywidget.cpp:144
+#: joywidget.cpp:135
 msgid "Value"
 msgstr "मान"
 
-#: joywidget.cpp:157
+#: joywidget.cpp:148
 msgid "Calibrate"
 msgstr "कैलिब्रेट"
 
-#: joywidget.cpp:230
+#: joywidget.cpp:220
 msgid ""
 "No joystick device automatically found on this computer.<br />Checks were "
 "done in /dev/js[0-4] and /dev/input/js[0-4]<br />If you know that there is "
 "one attached, please enter the correct device file."
 msgstr ""
 
-#: joywidget.cpp:275
+#: joywidget.cpp:265
 msgid ""
 "The given device name is invalid (does not contain /dev).\n"
 "Please select a device from the list or\n"
@@ -227,30 +227,30 @@ msgstr ""
 "कृप्या सूची मे सँ युक्ति चुनू अथवा फिनु\n"
 "भरू उपकरण, जहिना-  /dev/js0."
 
-#: joywidget.cpp:277
+#: joywidget.cpp:267
 msgid "Unknown Device"
 msgstr "अनचिन्ह युक्ति"
 
-#: joywidget.cpp:295
+#: joywidget.cpp:285
 msgid "Device Error"
 msgstr "डिवाइस त्रुटि"
 
-#: joywidget.cpp:316
+#: joywidget.cpp:306
 msgid "1(x)"
 msgstr "1(x)"
 
-#: joywidget.cpp:317
+#: joywidget.cpp:307
 msgid "2(y)"
 msgstr "2(y)"
 
-#: joywidget.cpp:386
+#: joywidget.cpp:376
 msgid ""
 "<qt>Calibration is about to check the precision.<br /><br /><b>Please move "
 "all axes to their center position and then do not touch the joystick anymore."
 "</b><br /><br />Click OK to start the calibration.</qt>"
 msgstr ""
 
-#: joywidget.cpp:421
+#: joywidget.cpp:411
 #, kde-format
 msgid "Restored all calibration values for joystick device %1."
 msgstr "जायस्टिक अओजार %1 क' लेल सबहि कैलिब्रेशन मूल्यसभ केँ पुनर्स्थापित कएलक."
