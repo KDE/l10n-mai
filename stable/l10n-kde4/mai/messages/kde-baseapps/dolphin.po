@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-03 11:38+0100\n"
+"POT-Creation-Date: 2012-02-04 12:31+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -1231,7 +1231,12 @@ msgctxt "@action:inmenu"
 msgid "&Delete"
 msgstr "मेटाबू"
 
-#: kitemviews/kfileitemlistwidget.cpp:235
+#: kitemviews/kfileitemlistview.cpp:565
+msgctxt "@item:intable"
+msgid "items"
+msgstr ""
+
+#: kitemviews/kfileitemlistwidget.cpp:237
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Unknown size"
@@ -1239,7 +1244,7 @@ msgctxt "@item:intable"
 msgid "Unknown"
 msgstr "अज्ञात आकार"
 
-#: kitemviews/kfileitemlistwidget.cpp:238
+#: kitemviews/kfileitemlistwidget.cpp:239
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1249,11 +1254,6 @@ msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 वस्तु चयनित"
 msgstr[1] "%1 वस्तुसभ चयनित"
-
-#: kitemviews/kfileitemlistview.cpp:565
-msgctxt "@item:intable"
-msgid "items"
-msgstr ""
 
 #: kitemviews/kfileitemmodel.cpp:268
 #, fuzzy
@@ -1359,12 +1359,12 @@ msgctxt "@item:intable"
 msgid "No destination"
 msgstr "विवरण:"
 
-#: kitemviews/kfileitemmodel.cpp:1645
+#: kitemviews/kfileitemmodel.cpp:1653
 msgctxt "@title:group Groups that start with a digit"
 msgid "0 - 9"
 msgstr ""
 
-#: kitemviews/kfileitemmodel.cpp:1662
+#: kitemviews/kfileitemmodel.cpp:1670
 #, fuzzy
 #| msgctxt "@title:group Name"
 #| msgid "Others"
@@ -1372,136 +1372,136 @@ msgctxt "@title:group"
 msgid "Others"
 msgstr "आन "
 
-#: kitemviews/kfileitemmodel.cpp:1694
+#: kitemviews/kfileitemmodel.cpp:1702
 msgctxt "@title:group Size"
 msgid "Folders"
 msgstr "फोल्डरसभ"
 
-#: kitemviews/kfileitemmodel.cpp:1696
+#: kitemviews/kfileitemmodel.cpp:1704
 msgctxt "@title:group Size"
 msgid "Small"
 msgstr "छोट"
 
-#: kitemviews/kfileitemmodel.cpp:1698
+#: kitemviews/kfileitemmodel.cpp:1706
 msgctxt "@title:group Size"
 msgid "Medium"
 msgstr "मध्यम"
 
-#: kitemviews/kfileitemmodel.cpp:1700
+#: kitemviews/kfileitemmodel.cpp:1708
 msgctxt "@title:group Size"
 msgid "Big"
 msgstr "पैघ"
 
-#: kitemviews/kfileitemmodel.cpp:1760
+#: kitemviews/kfileitemmodel.cpp:1768
 msgctxt "@title:group Date"
 msgid "Today"
 msgstr "आइ"
 
-#: kitemviews/kfileitemmodel.cpp:1761
+#: kitemviews/kfileitemmodel.cpp:1769
 msgctxt "@title:group Date"
 msgid "Yesterday"
 msgstr "कालि"
 
-#: kitemviews/kfileitemmodel.cpp:1762
+#: kitemviews/kfileitemmodel.cpp:1770
 #, c-format
 msgctxt "@title:group The week day name: %A"
 msgid "%A"
 msgstr "%A"
 
-#: kitemviews/kfileitemmodel.cpp:1766
+#: kitemviews/kfileitemmodel.cpp:1774
 msgctxt "@title:group Date"
 msgid "Last Week"
 msgstr "पछिला सप्ताह"
 
-#: kitemviews/kfileitemmodel.cpp:1769
+#: kitemviews/kfileitemmodel.cpp:1777
 msgctxt "@title:group Date"
 msgid "Two Weeks Ago"
 msgstr "दुइ सप्ताह पहिने"
 
-#: kitemviews/kfileitemmodel.cpp:1772
+#: kitemviews/kfileitemmodel.cpp:1780
 msgctxt "@title:group Date"
 msgid "Three Weeks Ago"
 msgstr "तीन सप्ताह पहिने"
 
-#: kitemviews/kfileitemmodel.cpp:1776
+#: kitemviews/kfileitemmodel.cpp:1784
 msgctxt "@title:group Date"
 msgid "Earlier this Month"
 msgstr "ई महीना केर शुरू में"
 
-#: kitemviews/kfileitemmodel.cpp:1785
+#: kitemviews/kfileitemmodel.cpp:1793
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Yesterday (%B, %Y)"
 msgstr "काल्हि (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1787
+#: kitemviews/kfileitemmodel.cpp:1795
 msgctxt ""
 "@title:group The week day name: %A, %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%A (%B, %Y)"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1789
+#: kitemviews/kfileitemmodel.cpp:1797
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Last Week (%B, %Y)"
 msgstr "पछिला सप्ताह (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1791
+#: kitemviews/kfileitemmodel.cpp:1799
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Two Weeks Ago (%B, %Y)"
 msgstr "दुइ सप्ताह पहिने (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1793
+#: kitemviews/kfileitemmodel.cpp:1801
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Three Weeks Ago (%B, %Y)"
 msgstr "तीन सप्ताह पहिने (%B, %Y)"
 
-#: kitemviews/kfileitemmodel.cpp:1795
+#: kitemviews/kfileitemmodel.cpp:1803
 msgctxt ""
 "@title:group Date: %B is full month name in current locale, and %Y is full "
 "year number"
 msgid "Earlier on %B, %Y"
 msgstr "%B, %Y पर पहिने"
 
-#: kitemviews/kfileitemmodel.cpp:1798
+#: kitemviews/kfileitemmodel.cpp:1806
 msgctxt ""
 "@title:group The month and year: %B is full month name in current locale, "
 "and %Y is full year number"
 msgid "%B, %Y"
 msgstr "%B, %Y"
 
-#: kitemviews/kfileitemmodel.cpp:1837 kitemviews/kfileitemmodel.cpp:1850
-#: kitemviews/kfileitemmodel.cpp:1863
+#: kitemviews/kfileitemmodel.cpp:1845 kitemviews/kfileitemmodel.cpp:1858
+#: kitemviews/kfileitemmodel.cpp:1871
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Read, "
 msgstr "पढ़ब, "
 
-#: kitemviews/kfileitemmodel.cpp:1840 kitemviews/kfileitemmodel.cpp:1853
-#: kitemviews/kfileitemmodel.cpp:1866
+#: kitemviews/kfileitemmodel.cpp:1848 kitemviews/kfileitemmodel.cpp:1861
+#: kitemviews/kfileitemmodel.cpp:1874
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Write, "
 msgstr "लिखब, "
 
-#: kitemviews/kfileitemmodel.cpp:1843 kitemviews/kfileitemmodel.cpp:1856
-#: kitemviews/kfileitemmodel.cpp:1869
+#: kitemviews/kfileitemmodel.cpp:1851 kitemviews/kfileitemmodel.cpp:1864
+#: kitemviews/kfileitemmodel.cpp:1877
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Execute, "
 msgstr "चलाएब,"
 
-#: kitemviews/kfileitemmodel.cpp:1845 kitemviews/kfileitemmodel.cpp:1858
-#: kitemviews/kfileitemmodel.cpp:1871
+#: kitemviews/kfileitemmodel.cpp:1853 kitemviews/kfileitemmodel.cpp:1866
+#: kitemviews/kfileitemmodel.cpp:1879
 msgctxt "@item:intext Access permission, concatenated"
 msgid "Forbidden"
 msgstr "वर्जित"
 
-#: kitemviews/kfileitemmodel.cpp:1873
+#: kitemviews/kfileitemmodel.cpp:1881
 #, fuzzy, kde-format
 #| msgctxt "@title:group Files and folders by permissions"
 #| msgid "(User: %1) (Group: %2) (Others: %3)"
@@ -2003,25 +2003,17 @@ msgctxt "@info:status"
 msgid "No items found."
 msgstr ""
 
-#: dolphinviewcontainer.cpp:437
-#, fuzzy, kde-format
-#| msgctxt "@info:status files (size)"
-#| msgid "%1 (%2)"
-msgctxt "@info:status filename (type)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: dolphinviewcontainer.cpp:517
+#: dolphinviewcontainer.cpp:512
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:529
+#: dolphinviewcontainer.cpp:524
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr ""
 
-#: dolphinviewcontainer.cpp:536
+#: dolphinviewcontainer.cpp:531
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr ""
@@ -2483,6 +2475,13 @@ msgstr "स्थान पट्टी"
 msgctxt "@title:menu"
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
+
+#, fuzzy
+#~| msgctxt "@info:status files (size)"
+#~| msgid "%1 (%2)"
+#~ msgctxt "@info:status filename (type)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
 
 #~ msgctxt "@option:check"
 #~ msgid "Rename inline"
