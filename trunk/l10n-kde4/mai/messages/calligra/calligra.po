@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-07 03:38+0100\n"
+"POT-Creation-Date: 2012-02-08 03:10+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -345,18 +345,6 @@ msgctxt "(qtundo-format)"
 msgid "Change Shape RunAround"
 msgstr "बदलू"
 
-#: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:185
-msgid "Snapping"
-msgstr "स्नैपिंग"
-
-#: flake/tools/KoCreatePathTool.cpp:380
-msgid "Angle snapping delta"
-msgstr ""
-
-#: flake/tools/KoCreatePathTool.cpp:388
-msgid "Angle Constraints"
-msgstr ""
-
 #: flake/tools/KoCreatePathToolFactory.cpp:33
 msgid "Create Path"
 msgstr ""
@@ -375,6 +363,27 @@ msgstr "पीएएन"
 msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr "बदलू"
+
+#: flake/tools/KoPathToolFactory.cpp:29
+msgid "Path editing tool"
+msgstr ""
+
+#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
+#: widgets/KoZoomController.cpp:39
+msgid "Zoom"
+msgstr "जूम"
+
+#: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:185
+msgid "Snapping"
+msgstr "स्नैपिंग"
+
+#: flake/tools/KoCreatePathTool.cpp:380
+msgid "Angle snapping delta"
+msgstr ""
+
+#: flake/tools/KoCreatePathTool.cpp:388
+msgid "Angle Constraints"
+msgstr ""
 
 #: flake/tools/KoPathTool.cpp:90
 msgid "Corner point"
@@ -456,14 +465,25 @@ msgstr ""
 msgid "Press B to break path at selected segments."
 msgstr ""
 
-#: flake/tools/KoPathToolFactory.cpp:29
-msgid "Path editing tool"
+#: kokross/KoScriptingDocker.cpp:76 kokross/KoScriptingPart.cpp:85
+msgid "Scripts"
+msgstr "स्क्रिप्ट"
+
+#: kokross/KoScriptingDocker.cpp:111 kokross/KoScriptManager.cpp:297
+msgid "Script Manager"
 msgstr ""
 
-#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
-#: widgets/KoZoomController.cpp:39
-msgid "Zoom"
-msgstr "जूम"
+#: kokross/KoScriptingPart.cpp:81
+msgid "Execute Script File..."
+msgstr ""
+
+#: kokross/KoScriptingPart.cpp:89
+msgid "Script Manager..."
+msgstr ""
+
+#: kokross/KoScriptingPart.cpp:158
+msgid "Execute Script File"
+msgstr ""
 
 #: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
@@ -522,10 +542,6 @@ msgid ""
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:297 kokross/KoScriptingDocker.cpp:111
-msgid "Script Manager"
-msgstr ""
-
 #: kokross/KoScriptManager.cpp:299 main/KoMainWindow.cpp:579
 msgid "Save"
 msgstr "सहेजू"
@@ -570,214 +586,6 @@ msgstr "स्क्रिप्ट"
 #: kokross/KoScriptManagerAdd.cpp:285
 msgid "Collection"
 msgstr ""
-
-#: kokross/KoScriptingDocker.cpp:76 kokross/KoScriptingPart.cpp:85
-msgid "Scripts"
-msgstr "स्क्रिप्ट"
-
-#: kokross/KoScriptingPart.cpp:81
-msgid "Execute Script File..."
-msgstr ""
-
-#: kokross/KoScriptingPart.cpp:89
-msgid "Script Manager..."
-msgstr ""
-
-#: kokross/KoScriptingPart.cpp:158
-msgid "Execute Script File"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:172 kopageapp/KoPAPageThumbnailModel.cpp:67
-#, kde-format
-msgid "Slide %1"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:174
-#, kde-format
-msgid "Page  %1"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:178
-#: kopageapp/KoPADocumentStructureDocker.cpp:121
-msgid "Layer"
-msgstr "स्तर"
-
-#: kopageapp/KoPADocumentModel.cpp:181
-msgid "Group"
-msgstr "समूह"
-
-#: kopageapp/KoPADocumentModel.cpp:184
-msgid "Shape"
-msgstr "आकार"
-
-#: kopageapp/KoPADocumentModel.cpp:270
-#, fuzzy
-#| msgid "Page Size"
-msgid "Rename Slide"
-msgstr "पृष्ठ आकार"
-
-#: kopageapp/KoPADocumentModel.cpp:273
-#, fuzzy
-#| msgid "Copy Page"
-msgid "Rename Page"
-msgstr "कोपी करू पृष्ठ"
-
-#: kopageapp/KoPADocumentModel.cpp:277
-#, fuzzy
-#| msgid "Delete Layer"
-msgid "Rename Layer"
-msgstr "परत मेटाबू"
-
-#: kopageapp/KoPADocumentModel.cpp:313
-#: kopageapp/KoPADocumentStructureDocker.cpp:116
-msgid "Slide"
-msgstr "स्लाइड"
-
-#: kopageapp/KoPADocumentModel.cpp:316
-msgid "Visible"
-msgstr "दृष्टिगोचर"
-
-#: kopageapp/KoPADocumentModel.cpp:317
-msgid "Locked"
-msgstr "तालाबन्न"
-
-#: kopageapp/KoPADocumentModel.cpp:525 kopageapp/KoPADocumentModel.cpp:546
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr ""
-
-#: kopageapp/KoPADocumentModel.cpp:667
-#, fuzzy
-#| msgid "Copy Page"
-msgid "&Move Here"
-msgstr "कोपी करू पृष्ठ"
-
-#: kopageapp/KoPADocumentModel.cpp:671
-#, fuzzy
-#| msgid "Green"
-msgid "&Copy Here"
-msgstr "हरिअर"
-
-#: kopageapp/KoPADocumentModel.cpp:675
-#, fuzzy
-#| msgid "Change"
-msgid "C&ancel"
-msgstr "बदलू"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1645
-msgid "Document"
-msgstr "दस्तावेज"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:105
-msgid "Add a new slide or layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:108
-msgid "Add a new page or layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:119
-#: widgets/KoPageLayoutDialog.cpp:50
-msgid "Page"
-msgstr "पृष्ठ"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:128
-#: kopageapp/KoPADocumentStructureDocker.cpp:644
-msgid "Delete selected objects"
-msgstr "चयनित वस्तु मेटाबू"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:134
-msgid "Raise selected objects"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:140
-msgid "Lower selected objects"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:149
-msgid "Minimal View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:151
-msgid "Detailed View"
-msgstr "विस्तृत दृश्य "
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:153
-msgid "Thumbnail View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:163
-msgid "View mode"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:332
-msgid "New Layer"
-msgstr "नइ परत"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:332
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:333
-msgid "New layer"
-msgstr "नवीन स्तर"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:346
-#, fuzzy
-#| msgid "Delete Layer"
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "परत मेटाबू"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:372
-#, fuzzy
-#| msgid "Delete Layer"
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "परत मेटाबू"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Error deleting layers"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:639
-msgid "Add a new slide"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:642
-msgid "Add a new page"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:646
-#: koreport/wrtembed/KoReportDesigner.cpp:832
-#, fuzzy
-#| msgid "Custom"
-msgid "Cut"
-msgstr "पसंदीदा"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:647
-#: koreport/wrtembed/KoReportDesigner.cpp:833
-#: pigment/KoCompositeOpRegistry.cpp:86
-#: pigment/compositeops/KoCompositeOpCopy.h:37
-#: pigment/compositeops/KoCompositeOpCopy2.h:45
-msgid "Copy"
-msgstr "कापी करू"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:648
-#: koreport/wrtembed/KoReportDesigner.cpp:836
-#, fuzzy
-#| msgid "Date"
-msgid "Paste"
-msgstr "दिनांक"
-
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
-#, kde-format
-msgid "Page %1"
-msgstr "पृष्ठ %1"
 
 #: kopageapp/KoPAPastePage.cpp:131
 #, fuzzy
@@ -1056,6 +864,198 @@ msgctxt "(qtundo-format)"
 msgid "Change background image"
 msgstr ""
 
+#: kopageapp/KoPADocumentModel.cpp:172 kopageapp/KoPAPageThumbnailModel.cpp:67
+#, kde-format
+msgid "Slide %1"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:174
+#, kde-format
+msgid "Page  %1"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:178
+#: kopageapp/KoPADocumentStructureDocker.cpp:121
+msgid "Layer"
+msgstr "स्तर"
+
+#: kopageapp/KoPADocumentModel.cpp:181
+msgid "Group"
+msgstr "समूह"
+
+#: kopageapp/KoPADocumentModel.cpp:184
+msgid "Shape"
+msgstr "आकार"
+
+#: kopageapp/KoPADocumentModel.cpp:270
+#, fuzzy
+#| msgid "Page Size"
+msgid "Rename Slide"
+msgstr "पृष्ठ आकार"
+
+#: kopageapp/KoPADocumentModel.cpp:273
+#, fuzzy
+#| msgid "Copy Page"
+msgid "Rename Page"
+msgstr "कोपी करू पृष्ठ"
+
+#: kopageapp/KoPADocumentModel.cpp:277
+#, fuzzy
+#| msgid "Delete Layer"
+msgid "Rename Layer"
+msgstr "परत मेटाबू"
+
+#: kopageapp/KoPADocumentModel.cpp:313
+#: kopageapp/KoPADocumentStructureDocker.cpp:116
+msgid "Slide"
+msgstr "स्लाइड"
+
+#: kopageapp/KoPADocumentModel.cpp:316
+msgid "Visible"
+msgstr "दृष्टिगोचर"
+
+#: kopageapp/KoPADocumentModel.cpp:317
+msgid "Locked"
+msgstr "तालाबन्न"
+
+#: kopageapp/KoPADocumentModel.cpp:525 kopageapp/KoPADocumentModel.cpp:546
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr ""
+
+#: kopageapp/KoPADocumentModel.cpp:667
+#, fuzzy
+#| msgid "Copy Page"
+msgid "&Move Here"
+msgstr "कोपी करू पृष्ठ"
+
+#: kopageapp/KoPADocumentModel.cpp:671
+#, fuzzy
+#| msgid "Green"
+msgid "&Copy Here"
+msgstr "हरिअर"
+
+#: kopageapp/KoPADocumentModel.cpp:675
+#, fuzzy
+#| msgid "Change"
+msgid "C&ancel"
+msgstr "बदलू"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1645
+msgid "Document"
+msgstr "दस्तावेज"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:105
+msgid "Add a new slide or layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:108
+msgid "Add a new page or layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:119
+#: widgets/KoPageLayoutDialog.cpp:50
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:128
+#: kopageapp/KoPADocumentStructureDocker.cpp:644
+msgid "Delete selected objects"
+msgstr "चयनित वस्तु मेटाबू"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:134
+msgid "Raise selected objects"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:140
+msgid "Lower selected objects"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:149
+msgid "Minimal View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:151
+msgid "Detailed View"
+msgstr "विस्तृत दृश्य "
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:153
+msgid "Thumbnail View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:163
+msgid "View mode"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:332
+msgid "New Layer"
+msgstr "नइ परत"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:332
+msgid "Enter the name of the new layer:"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:333
+msgid "New layer"
+msgstr "नवीन स्तर"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:346
+#, fuzzy
+#| msgid "Delete Layer"
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "परत मेटाबू"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:372
+#, fuzzy
+#| msgid "Delete Layer"
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "परत मेटाबू"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:375
+msgid "Could not delete all layers. At least one layer is required."
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:375
+msgid "Error deleting layers"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:639
+msgid "Add a new slide"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:642
+msgid "Add a new page"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:646
+#: koreport/wrtembed/KoReportDesigner.cpp:832
+#, fuzzy
+#| msgid "Custom"
+msgid "Cut"
+msgstr "पसंदीदा"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:647
+#: koreport/wrtembed/KoReportDesigner.cpp:833
+#: pigment/KoCompositeOpRegistry.cpp:86
+#: pigment/compositeops/KoCompositeOpCopy.h:37
+#: pigment/compositeops/KoCompositeOpCopy2.h:45
+msgid "Copy"
+msgstr "कापी करू"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:648
+#: koreport/wrtembed/KoReportDesigner.cpp:836
+#, fuzzy
+#| msgid "Date"
+msgid "Paste"
+msgstr "दिनांक"
+
+#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#, kde-format
+msgid "Page %1"
+msgstr "पृष्ठ %1"
+
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
@@ -1311,6 +1311,30 @@ msgstr "स्तर"
 msgid "Text"
 msgstr "पाठ"
 
+#: koreport/wrtembed/reportpropertiesbutton.cpp:27
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:279
+msgid "Ascending"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:280
+msgid "Descending"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:302
+#: koreport/wrtembed/sectioneditor.cpp:343
+msgid "Error Encountered"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:303
+#: koreport/wrtembed/sectioneditor.cpp:344
+msgid "Unable to add a new group because its name would not be unique"
+msgstr ""
+
 #: koreport/wrtembed/KoReportDesigner.cpp:495
 msgid "Page Header (Any)"
 msgstr ""
@@ -1468,35 +1492,11 @@ msgctxt "<data-source>: <object>"
 msgid "%1: %2"
 msgstr "%1%"
 
-#: koreport/wrtembed/reportpropertiesbutton.cpp:27
-msgid ""
-"A button that allows a report's surface to be selected, allowing its "
-"properties to be seen."
-msgstr ""
-
 #: koreport/wrtembed/reportsection.cpp:95
 #, fuzzy
 #| msgid "Detailed View"
 msgid "Detail"
 msgstr "विस्तृत दृश्य "
-
-#: koreport/wrtembed/sectioneditor.cpp:279
-msgid "Ascending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:280
-msgid "Descending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:302
-#: koreport/wrtembed/sectioneditor.cpp:343
-msgid "Error Encountered"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:303
-#: koreport/wrtembed/sectioneditor.cpp:344
-msgid "Unable to add a new group because its name would not be unique"
-msgstr ""
 
 #: kotext/KoTextEditor.cpp:115 kotext/commands/DeleteCommand.cpp:190
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:375
@@ -2832,26 +2832,6 @@ msgstr ""
 msgid "Date: %1"
 msgstr ""
 
-#: main/KoView.cpp:504
-msgid "&New View"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:75
-msgid "Auto save (min):"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:76
-msgid "No auto save"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:77
-msgid "min"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:80
-msgid "Create backup file"
-msgstr ""
-
 #: main/config/KoConfigGridPage.cpp:67
 #, fuzzy
 #| msgid "Show Guides"
@@ -2887,6 +2867,22 @@ msgstr "क्षैतिज"
 msgctxt "Vertical grid spacing"
 msgid "&Vertical:"
 msgstr "लम्बवत"
+
+#: main/config/KoConfigDocumentPage.cpp:75
+msgid "Auto save (min):"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:76
+msgid "No auto save"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:77
+msgid "min"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:80
+msgid "Create backup file"
+msgstr ""
 
 #: main/config/KoConfigMiscPage.cpp:89
 #, fuzzy
@@ -3107,6 +3103,10 @@ msgstr "रूकल"
 
 #: main/rdf/KoDocumentRdf.cpp:902
 msgid "Reference"
+msgstr ""
+
+#: main/KoView.cpp:504
+msgid "&New View"
 msgstr ""
 
 #: odf/KoEncryptedStore.cpp:164
@@ -3396,10 +3396,6 @@ msgstr ""
 #: pigment/KoBasicHistogramProducers.cpp:428
 #: pigment/colorspaces/KoLabColorSpace.cpp:44
 msgid "b*"
-msgstr ""
-
-#: pigment/KoBasicHistogramProducers.h:231
-msgid "Generic L*a*b* Histogram"
 msgstr ""
 
 #: pigment/KoColorModelStandardIds.cpp:25
@@ -4048,6 +4044,10 @@ msgstr ""
 msgid "SVG Gradient"
 msgstr ""
 
+#: pigment/KoBasicHistogramProducers.h:231
+msgid "Generic L*a*b* Histogram"
+msgstr ""
+
 #: textlayout/ListItemsHelper.cpp:179
 #, fuzzy
 #| msgid "None"
@@ -4165,6 +4165,18 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
+#: widgets/KoColorSetWidget.cpp:189
+msgid "Recent:"
+msgstr ""
+
+#: widgets/KoColorSetWidget.cpp:196
+msgid "Hide colors with bad contrast"
+msgstr ""
+
+#: widgets/KoColorSetWidget.cpp:207
+msgid "Add / Remove Colors..."
+msgstr ""
+
 #: widgets/KoCsvImportDialog.cpp:93
 msgid "Import Data"
 msgstr "आंकड़ाकेँ आयात करू"
@@ -4252,16 +4264,6 @@ msgstr ""
 msgid "Choose File to Add"
 msgstr ""
 
-#: widgets/KoSelectionToggle.cpp:133
-msgctxt "@info:tooltip"
-msgid "Deselect Item"
-msgstr ""
-
-#: widgets/KoSelectionToggle.cpp:134
-msgctxt "@info:tooltip"
-msgid "Select Item"
-msgstr ""
-
 #: widgets/KoStrokeConfigWidget.cpp:92
 #, fuzzy
 #| msgid "Slide"
@@ -4316,6 +4318,16 @@ msgstr ""
 
 #: widgets/KoStrokeConfigWidget.cpp:174
 msgid "Set miter limit"
+msgstr ""
+
+#: widgets/KoSelectionToggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr ""
+
+#: widgets/KoSelectionToggle.cpp:134
+msgctxt "@info:tooltip"
+msgid "Select Item"
 msgstr ""
 
 #: widgets/KoUniColorChooser.cpp:134
@@ -4417,18 +4429,6 @@ msgstr ""
 
 #: widgets/KoPageLayoutWidget.cpp:290
 msgid "Page spread"
-msgstr ""
-
-#: widgets/KoColorSetWidget.cpp:188
-msgid "Recent:"
-msgstr ""
-
-#: widgets/KoColorSetWidget.cpp:195
-msgid "Hide colors with bad contrast"
-msgstr ""
-
-#: widgets/KoColorSetWidget.cpp:206
-msgid "Add / Remove Colors..."
 msgstr ""
 
 #: widgets/KoEditColorSetDialog.cpp:159

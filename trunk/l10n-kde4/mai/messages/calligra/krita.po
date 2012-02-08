@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 02:51+0100\n"
+"POT-Creation-Date: 2012-02-08 03:09+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -10399,10 +10399,6 @@ msgstr ""
 msgid "Active"
 msgstr "सक्रिय"
 
-#: image/kis_transform_visitor.h:158
-msgid "Rotate Node"
-msgstr ""
-
 #: image/metadata/kis_meta_data_filter_p.cc:53
 msgid "Anonymizer"
 msgstr ""
@@ -10484,6 +10480,10 @@ msgstr "भरू"
 msgid "Path"
 msgstr "पथ"
 
+#: image/kis_transform_visitor.h:158
+msgid "Rotate Node"
+msgstr ""
+
 #: main.cc:50
 msgid "File(s) or URL(s) to open"
 msgstr ""
@@ -10525,12 +10525,12 @@ msgstr ""
 msgid "Spline"
 msgstr "साइन"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:429
-msgid "Errors were encountered. Not all assistants were successfully loaded."
-msgstr ""
-
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:82
 msgid "Ruler assistant editor tool"
+msgstr ""
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:430
+msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr ""
 
 #: plugins/colorspaces/ctlcs/KoCtlParser.cpp:41
@@ -11069,12 +11069,6 @@ msgstr "चित्र आकार"
 msgid "Save Image on Split"
 msgstr "चित्र मापू"
 
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:141
-#, fuzzy
-#| msgid "Lines"
-msgid "List"
-msgstr "रेखासभ"
-
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:59
 msgid "Invalid"
 msgstr ""
@@ -11135,6 +11129,12 @@ msgstr ""
 #: plugins/extensions/metadataeditor/metadataeditor.cc:63
 msgid "&Edit metadata..."
 msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:141
+#, fuzzy
+#| msgid "Lines"
+msgid "List"
+msgstr "रेखासभ"
 
 #: plugins/extensions/modify_selection/dlg_border_selection.cc:31
 #: plugins/extensions/modify_selection/modify_selection.cc:176
@@ -11406,10 +11406,6 @@ msgstr "बंपमैप"
 msgid "&Bumpmap..."
 msgstr ""
 
-#: plugins/filters/colors/kis_color_to_alpha.cpp:40
-msgid "&Color to Alpha..."
-msgstr ""
-
 #: plugins/filters/colors/kis_color_to_alpha.h:42
 msgid "Color to Alpha"
 msgstr "अल्फामे रंग"
@@ -11430,6 +11426,10 @@ msgstr ""
 msgid "Minimize Channel"
 msgstr ""
 
+#: plugins/filters/colors/kis_color_to_alpha.cpp:40
+msgid "&Color to Alpha..."
+msgstr ""
+
 #: plugins/filters/colorsfilters/colorsfilters.cpp:89
 msgid "&Auto Contrast"
 msgstr ""
@@ -11446,10 +11446,6 @@ msgstr ""
 msgid "Desaturate"
 msgstr "विसंतृप्त"
 
-#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cpp:143
-msgid "&Brightness/Contrast curve..."
-msgstr ""
-
 #: plugins/filters/colorsfilters/kis_brightness_contrast_filter.h:87
 msgid "Brightness / Contrast"
 msgstr ""
@@ -11458,12 +11454,16 @@ msgstr ""
 msgid "&HSV Adjustment..."
 msgstr ""
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:381
-msgid "&Color Adjustment curves..."
-msgstr ""
-
 #: plugins/filters/colorsfilters/kis_perchannel_filter.h:85
 msgid "Color Adjustment"
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cpp:143
+msgid "&Brightness/Contrast curve..."
+msgstr ""
+
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:381
+msgid "&Color Adjustment curves..."
 msgstr ""
 
 #: plugins/filters/convolutionfilters/convolutionfilters.cpp:68
@@ -11615,13 +11615,13 @@ msgstr ""
 msgid "&Levels..."
 msgstr "स्तर"
 
-#: plugins/filters/noisefilter/noisefilter.cpp:69
-msgid "&Random Noise..."
-msgstr ""
-
 #: plugins/filters/noisefilter/noisefilter.h:52
 msgid "Noise"
 msgstr "ध्वनि"
+
+#: plugins/filters/noisefilter/noisefilter.cpp:69
+msgid "&Random Noise..."
+msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:59
 msgid "&Oilpaint..."
@@ -11690,12 +11690,12 @@ msgstr ""
 msgid "Raindrops"
 msgstr ""
 
-#: plugins/filters/randompickfilter/randompickfilter.cpp:71
-msgid "&Random Pick..."
-msgstr ""
-
 #: plugins/filters/randompickfilter/randompickfilter.h:50
 msgid "Random Pick"
+msgstr ""
+
+#: plugins/filters/randompickfilter/randompickfilter.cpp:71
+msgid "&Random Pick..."
 msgstr ""
 
 #: plugins/filters/roundcorners/kis_round_corners_filter.h:41
@@ -11750,13 +11750,13 @@ msgstr ""
 msgid "Unsharp Mask"
 msgstr "मुखौटा भोथड़ करू"
 
-#: plugins/filters/wavefilter/wavefilter.cpp:105
-msgid "&Wave..."
-msgstr ""
-
 #: plugins/filters/wavefilter/wavefilter.h:53
 msgid "Wave"
 msgstr "लहर"
+
+#: plugins/filters/wavefilter/wavefilter.cpp:105
+msgid "&Wave..."
+msgstr ""
 
 #: plugins/formats/exr/exr_export.cc:64
 #: plugins/formats/tiff/kis_dlg_options_tiff.cpp:36
@@ -13195,12 +13195,12 @@ msgstr ""
 msgid "Similar Selection"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:62
-msgid "Select similar colors"
-msgstr ""
-
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
 msgid "Select a rectangular area"
+msgstr ""
+
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:62
+msgid "Select similar colors"
 msgstr ""
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:148
@@ -13456,10 +13456,6 @@ msgstr ""
 msgid "Image Properties"
 msgstr "चित्र विशेषता"
 
-#: ui/dialogs/kis_dlg_layer_properties.cc:78
-msgid "Layer Properties"
-msgstr ""
-
 #: ui/dialogs/kis_dlg_preferences.cc:91
 #, fuzzy
 #| msgid "Circle"
@@ -13521,6 +13517,10 @@ msgstr ""
 #: ui/dialogs/kis_dlg_preferences.cc:707 ui/kis_aboutdata.h:31
 #: ui/kis_clipboard.cc:155
 msgid "Krita"
+msgstr ""
+
+#: ui/dialogs/kis_dlg_layer_properties.cc:78
+msgid "Layer Properties"
 msgstr ""
 
 #: ui/flake/kis_shape_controller.cpp:170
