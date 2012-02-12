@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-10 04:32+0100\n"
+"POT-Creation-Date: 2012-02-12 04:18+0100\n"
 "PO-Revision-Date: 2010-09-24 21:47+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -534,7 +534,7 @@ msgid "Sh&ade"
 msgstr "छायांकित (&a)"
 
 #: useractions.cpp:164
-msgid "Remove &From Group"
+msgid "&Untab"
 msgstr ""
 
 #: useractions.cpp:170
@@ -560,45 +560,43 @@ msgstr "विंडो बर्ताव कान्फिगर करू...
 msgid "&Close"
 msgstr "बन्न करु (&C)"
 
-#: useractions.cpp:326
-#, fuzzy
-#| msgid "Switch to Screen 0"
-msgid "Switch to Window Tab"
-msgstr "स्क्रीन 0 मे स्विच करू"
-
-#: useractions.cpp:360
-msgid "To the Left"
+#: useractions.cpp:338
+msgctxt "Switch to tab -> Previous"
+msgid "Previous"
 msgstr ""
 
-#: useractions.cpp:362
-#, fuzzy
-#| msgid "Pack Window to the Right"
-msgid "To the Right"
-msgstr "विंडो दहिन्ना कए तरफ पैक करू"
+#: useractions.cpp:339
+msgctxt "Switch to tab -> Next"
+msgid "Next"
+msgstr ""
 
-#: useractions.cpp:389
+#: useractions.cpp:383
 #, fuzzy
-#| msgid "Move Window"
-msgid "Move Window to Group"
-msgstr "विंडो हटाबू"
+#| msgid "Switch to Screen 0"
+msgid "Switch to Tab"
+msgstr "स्क्रीन 0 मे स्विच करू"
 
-#: useractions.cpp:430
+#: useractions.cpp:395
+msgid "Tab behind..."
+msgstr ""
+
+#: useractions.cpp:421
 msgid "To &Desktop"
 msgstr "डेस्कटाप पर (&D)"
 
-#: useractions.cpp:453
+#: useractions.cpp:444
 msgid "Ac&tivities"
 msgstr ""
 
-#: useractions.cpp:466
+#: useractions.cpp:457
 msgid "&All Desktops"
 msgstr "सभटा डेस्कटाप (&A)"
 
-#: useractions.cpp:500
+#: useractions.cpp:491
 msgid "&All Activities"
 msgstr ""
 
-#: useractions.cpp:604
+#: useractions.cpp:595
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr ""
@@ -615,12 +613,12 @@ msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: workspace.cpp:1076 workspace.cpp:1108
+#: workspace.cpp:1075 workspace.cpp:1107
 #, kde-format
 msgid "Desktop %1"
 msgstr "डेस्कटाप %1"
 
-#: workspace.cpp:1882
+#: workspace.cpp:1881
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -632,7 +630,7 @@ msgstr ""
 "बिनु किनार, अहाँ फिनु सँ माउसक मद्दति सँ बार्डर नहि बनाए सकम. एकर बदला विंडो संचालन "
 "मेनू प्रयोग करू, जे %1 कुँजी शार्टकट सँ सक्रिय हाइछ."
 
-#: workspace.cpp:1894
+#: workspace.cpp:1893
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -741,6 +739,16 @@ msgstr "डेस्कटाप सूची केर आरपार चल�
 #: tabbox/tabbox.cpp:378
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "डेस्कटाप सूची केर आरपार चलू (उनटू)"
+
+#, fuzzy
+#~| msgid "Pack Window to the Right"
+#~ msgid "To the Right"
+#~ msgstr "विंडो दहिन्ना कए तरफ पैक करू"
+
+#, fuzzy
+#~| msgid "Move Window"
+#~ msgid "Move Window to Group"
+#~ msgstr "विंडो हटाबू"
 
 #~ msgid "&Opacity"
 #~ msgstr "अपार्दरशिता (&O)"

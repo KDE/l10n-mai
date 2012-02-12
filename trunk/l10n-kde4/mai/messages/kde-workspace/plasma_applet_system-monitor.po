@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-09 04:24+0100\n"
+"POT-Creation-Date: 2012-02-12 04:18+0100\n"
 "PO-Revision-Date: 2010-01-29 16:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -37,7 +37,7 @@ msgstr "CPU"
 msgid "total"
 msgstr "कुल"
 
-#: cpu.cpp:149 hdd_activity.cpp:201 net.cpp:156 ram.cpp:233
+#: cpu.cpp:149 hdd_activity.cpp:201 net.cpp:165 ram.cpp:233
 #: temperature.cpp:119
 #, fuzzy
 #| msgid "s"
@@ -124,11 +124,17 @@ msgstr "आडियो"
 msgid "Network"
 msgstr "नेटवर्क"
 
-#: net.cpp:139
+#: net.cpp:134
+#, kde-format
+msgid ""
+"<tr><td>Interface:%1</td><td>Upstream:%2</td><td>Downstream:%3</td></tr>"
+msgstr ""
+
+#: net.cpp:148
 msgid "Network Interface"
 msgstr "सँजाल अंतरफलक"
 
-#: net.cpp:157
+#: net.cpp:166
 msgid "Interfaces"
 msgstr "इंटरफेससभ"
 
