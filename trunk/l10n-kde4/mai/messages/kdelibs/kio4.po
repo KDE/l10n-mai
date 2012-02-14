@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-29 03:04+0100\n"
+"POT-Creation-Date: 2012-02-14 05:34+0100\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3547,6 +3547,10 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "अनमाउंटिंग"
 
+#: kio/job.cpp:2322
+msgid "'Put' job did not send canResume or 'Get' job did not send data!"
+msgstr ""
+
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:812
 #, kde-format
 msgid "Do you really want to delete this item?"
@@ -5592,11 +5596,11 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3492
+#: ../kioslave/ftp/ftp.cpp:576 ../kioslave/http/http.cpp:3491
 msgid "You need to supply a username and a password to access this site."
 msgstr "ई साइट पर पहुँचबा क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द दिअ' पड़त."
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3494
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3493
 msgid "Site:"
 msgstr "साइट:"
 
@@ -5614,8 +5618,8 @@ msgstr "लागइन बेस"
 msgid "Could not login to %1."
 msgstr " %1 पर लागइन नहि भए सकल."
 
-#: ../kioslave/ftp/ftp.cpp:2561 ../kioslave/http/http.cpp:3504
-#: ../kioslave/http/http.cpp:5409
+#: ../kioslave/ftp/ftp.cpp:2561 ../kioslave/http/http.cpp:3503
+#: ../kioslave/http/http.cpp:5408
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5623,19 +5627,19 @@ msgstr ""
 "एकरासँ पहिने जे अहाँक केओ साइट पर पहुँचक अनुमति देल जाए, नीच्चाँ सूची-बद्ध कएल प्राक्सी "
 "सर्वर क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द देनाइ हाएत."
 
-#: ../kioslave/ftp/ftp.cpp:2565 ../kioslave/http/http.cpp:3507
-#: ../kioslave/http/http.cpp:5413
+#: ../kioslave/ftp/ftp.cpp:2565 ../kioslave/http/http.cpp:3506
+#: ../kioslave/http/http.cpp:5412
 msgid "Proxy:"
 msgstr "प्राक्सीः"
 
-#: ../kioslave/ftp/ftp.cpp:2566 ../kioslave/http/http.cpp:3581
-#: ../kioslave/http/http.cpp:5414
+#: ../kioslave/ftp/ftp.cpp:2566 ../kioslave/http/http.cpp:3580
+#: ../kioslave/http/http.cpp:5413
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> पर <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2567 ../kioslave/http/http.cpp:3571
-#: ../kioslave/http/http.cpp:5415
+#: ../kioslave/ftp/ftp.cpp:2567 ../kioslave/http/http.cpp:3570
+#: ../kioslave/http/http.cpp:5414
 msgid "Proxy Authentication Failed."
 msgstr "प्राक्सी प्रमाणीकरण असफल."
 
@@ -5997,7 +6001,7 @@ msgstr " एकटा त्रुटि %1   भेल, %2  कए कोसि
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 सम्पर्क मे. जवाबक प्रतीक्षा मे..."
 
-#: ../kioslave/http/http.cpp:3036
+#: ../kioslave/http/http.cpp:3035
 #, kde-format
 msgctxt "@warning: Security check on url being accessed"
 msgid ""
@@ -6006,37 +6010,37 @@ msgid ""
 "<p>Is \"%1\" the site you want to visit?"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3043
+#: ../kioslave/http/http.cpp:3042
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3120
+#: ../kioslave/http/http.cpp:3119
 msgid "Server processing request, please wait..."
 msgstr "सर्वर प्रक्रिया क' लेल निवेदन, कृप्या इंतजार करू..."
 
-#: ../kioslave/http/http.cpp:3568
+#: ../kioslave/http/http.cpp:3567
 msgid "Authentication Failed."
 msgstr "प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:3614
+#: ../kioslave/http/http.cpp:3613
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "अनुमोदन समाद "
 
-#: ../kioslave/http/http.cpp:3631
+#: ../kioslave/http/http.cpp:3630
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "अनुमोदन समाद "
 
-#: ../kioslave/http/http.cpp:4013 ../kioslave/http/http.cpp:4067
+#: ../kioslave/http/http.cpp:4012 ../kioslave/http/http.cpp:4066
 #, kde-format
 msgid "Sending data to %1"
 msgstr " %1 केँ डाटा भेज रहल अछि"
 
-#: ../kioslave/http/http.cpp:4533
+#: ../kioslave/http/http.cpp:4532
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
