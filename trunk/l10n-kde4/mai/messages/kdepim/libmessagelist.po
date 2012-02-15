@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-09 04:19+0100\n"
+"POT-Creation-Date: 2012-02-15 04:13+0100\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1262,74 +1262,6 @@ msgctxt "displayed when a mail has unknown sender, receiver or date"
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: pane.cpp:131
-msgctxt "@info:tooltip"
-msgid "Open a new tab"
-msgstr "नवीन टैब खोलू"
-
-#: pane.cpp:133
-msgid "New tab"
-msgstr ""
-
-#: pane.cpp:142
-msgctxt "@info:tooltip"
-msgid "Close the current tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: pane.cpp:144 pane.cpp:200
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "Close tab"
-msgstr "टैब बन्न करू"
-
-#: pane.cpp:189
-msgid "Message List"
-msgstr ""
-
-#: pane.cpp:194
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Open a new tab"
-msgid "Create new tab"
-msgstr "नवीन टैब खोलू"
-
-#: pane.cpp:210
-#, kde-format
-msgid "Activate Tab %1"
-msgstr ""
-
-#: pane.cpp:216
-msgid "Activate Next Tab"
-msgstr ""
-
-#: pane.cpp:221
-msgid "Activate Previous Tab"
-msgstr ""
-
-#: pane.cpp:227
-msgid "Move Tab Left"
-msgstr ""
-
-#: pane.cpp:232
-msgid "Move Tab Right"
-msgstr ""
-
-#: pane.cpp:411 pane.cpp:629
-msgctxt "@title:tab Empty messagelist"
-msgid "Empty"
-msgstr "खाली"
-
-#: pane.cpp:562
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "टैब बन्न करू"
-
-#: pane.cpp:568
-msgctxt "@action:inmenu"
-msgid "Close All Other Tabs"
-msgstr ""
-
 #: widget.cpp:98
 msgid "Show Quick Search Bar"
 msgstr ""
@@ -1362,6 +1294,74 @@ msgstr "एतए नकल करू (&C)"
 msgid "C&ancel"
 msgstr "रद करू (&a)"
 
+#: pane.cpp:131
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "नवीन टैब खोलू"
+
+#: pane.cpp:133
+msgid "New tab"
+msgstr ""
+
+#: pane.cpp:142
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: pane.cpp:144 pane.cpp:206
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Close tab"
+msgstr "टैब बन्न करू"
+
+#: pane.cpp:195
+msgid "Message List"
+msgstr ""
+
+#: pane.cpp:200
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Open a new tab"
+msgid "Create new tab"
+msgstr "नवीन टैब खोलू"
+
+#: pane.cpp:216
+#, kde-format
+msgid "Activate Tab %1"
+msgstr ""
+
+#: pane.cpp:222
+msgid "Activate Next Tab"
+msgstr ""
+
+#: pane.cpp:227
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: pane.cpp:233
+msgid "Move Tab Left"
+msgstr ""
+
+#: pane.cpp:238
+msgid "Move Tab Right"
+msgstr ""
+
+#: pane.cpp:417 pane.cpp:636
+msgctxt "@title:tab Empty messagelist"
+msgid "Empty"
+msgstr "खाली"
+
+#: pane.cpp:569
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "टैब बन्न करू"
+
+#: pane.cpp:575
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr ""
+
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
 #: rc.cpp:3
@@ -1390,4 +1390,16 @@ msgid ""
 "two or more tabs. With this option disabled the tab bar will be always "
 "shown. When the tab bar is hidden you can always open a folder in a new tab "
 "by middle-clicking it."
+msgstr ""
+
+#. i18n: file: core/settings.kcfg:20
+#. i18n: ectx: label, entry (TabsHaveCloseButton), group (MessageListView)
+#: rc.cpp:15
+msgid "Show close button on each tab"
+msgstr ""
+
+#. i18n: file: core/settings.kcfg:21
+#. i18n: ectx: whatsthis, entry (TabsHaveCloseButton), group (MessageListView)
+#: rc.cpp:18
+msgid "Enable this option if you want to have a close button on each tab."
 msgstr ""
