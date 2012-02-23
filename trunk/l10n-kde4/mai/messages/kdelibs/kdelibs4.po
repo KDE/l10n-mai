@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-21 05:33+0100\n"
+"POT-Creation-Date: 2012-02-23 04:49+0100\n"
 "PO-Revision-Date: 2010-09-24 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -5496,10 +5496,6 @@ msgstr "केडीइ टोली मे शामिल हों (&J)"
 msgid "&Support KDE"
 msgstr "केडीइ केँ सहयोग दिअ'(&S)"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:208
-msgid "Configure"
-msgstr "बिन्यस्त करू"
-
 #: kdeui/dialogs/kaboutapplicationpersonlistdelegate_p.cpp:60
 #, fuzzy
 #| msgid "Other Contributors:"
@@ -5837,6 +5833,10 @@ msgstr "प्रारंभ मे नुस्खा देखाबू (&S)"
 msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "अगिला (&N)"
+
+#: kdeui/dialogs/kconfigdialog.cpp:43 kutils/kcmultidialog.cpp:208
+msgid "Configure"
+msgstr "बिन्यस्त करू"
 
 #: kdeui/dialogs/kshortcutseditoritem.cpp:45
 #, kde-format
@@ -9390,111 +9390,6 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "मूलभूत"
 
-#: kdeui/widgets/ktoolbar.cpp:291
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "मद्दति देखाबू"
-
-#: kdeui/widgets/ktoolbar.cpp:294
-#, fuzzy
-#| msgid "Toolbar Menu"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "अओजार पट्टी मेनू"
-
-#: kdeui/widgets/ktoolbar.cpp:296
-msgid "Orientation"
-msgstr "दिशा"
-
-#: kdeui/widgets/ktoolbar.cpp:298
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "उप्पर"
-
-#: kdeui/widgets/ktoolbar.cpp:300
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "बामाँ"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "दहिन्ना"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "नीच्चाँ"
-
-#: kdeui/widgets/ktoolbar.cpp:310
-msgid "Text Position"
-msgstr "पाठ स्थिति"
-
-#: kdeui/widgets/ktoolbar.cpp:312
-msgid "Icons Only"
-msgstr "केवल चिन्ह"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Text Only"
-msgstr "केवल पाठ"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Alongside Icons"
-msgstr "प्रतीकसभ केर बाज़ू मे पाठ"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Under Icons"
-msgstr "प्रतीकसभ केर नीच्चाँ पाठ"
-
-#: kdeui/widgets/ktoolbar.cpp:323
-msgid "Icon Size"
-msgstr "आइकन आकार"
-
-#: kdeui/widgets/ktoolbar.cpp:325
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "मूलभूत"
-
-#: kdeui/widgets/ktoolbar.cpp:342 kdeui/widgets/ktoolbar.cpp:362
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "छोट (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:344 kdeui/widgets/ktoolbar.cpp:364
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "मध्यम (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:346 kdeui/widgets/ktoolbar.cpp:366
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "पैघ (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:348 kdeui/widgets/ktoolbar.cpp:368
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "पैघ (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:388
-#, fuzzy
-#| msgid "Lock Toolbars"
-msgid "Lock Toolbar Positions"
-msgstr "अओजार-पट्टीसभ तालाबंद करू"
-
-#: kdeui/widgets/ktoolbar.cpp:1291
-#, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/widgets/ktoolbar.cpp:1292
-#, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1"
-
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:195
 msgid "Image Operations"
 msgstr "छवि आपरेशन्स"
@@ -9696,6 +9591,111 @@ msgstr "अधिस्क्रिप्ट"
 msgid "&Copy Full Text"
 msgstr "पूरे पाठक नकल बनाबू (&C)"
 
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "मद्दति देखाबू"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Menu"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "अओजार पट्टी मेनू"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+msgid "Orientation"
+msgstr "दिशा"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "उप्पर"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "बामाँ"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "दहिन्ना"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "नीच्चाँ"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "पाठ स्थिति"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "केवल चिन्ह"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "केवल पाठ"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "प्रतीकसभ केर बाज़ू मे पाठ"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "प्रतीकसभ केर नीच्चाँ पाठ"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "आइकन आकार"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "मूलभूत"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "छोट (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "मध्यम (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "पैघ (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "पैघ (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+#, fuzzy
+#| msgid "Lock Toolbars"
+msgid "Lock Toolbar Positions"
+msgstr "अओजार-पट्टीसभ तालाबंद करू"
+
+#: kdeui/widgets/ktoolbar.cpp:1319
+#, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/widgets/ktoolbar.cpp:1320
+#, kde-format
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1"
+
 #: kdeui/widgets/ktimezonewidget.cpp:66
 msgctxt "Define an area in the time zone, like a town area"
 msgid "Area"
@@ -9842,10 +9842,6 @@ msgstr ""
 msgid "Desktop %1"
 msgstr "डेस्कटाप %1"
 
-#: kdeui/xmlgui/kxmlguibuilder.cpp:182 kdeui/xmlgui/kxmlguibuilder.cpp:349
-msgid "No text"
-msgstr "कोनो पाठ नहि"
-
 #: kdeui/xmlgui/kmenumenuhandler_p.cpp:48
 msgid "Add to Toolbar"
 msgstr "अओजार-पट्टी मे जोड़ू"
@@ -9857,6 +9853,10 @@ msgstr "शॉर्ट कट बिन्यस्त करू..."
 #: kdeui/xmlgui/ktoolbarhandler.cpp:98
 msgid "Toolbars Shown"
 msgstr "टूलबार दिखाएल"
+
+#: kdeui/xmlgui/kxmlguibuilder.cpp:182 kdeui/xmlgui/kxmlguibuilder.cpp:349
+msgid "No text"
+msgstr "कोनो पाठ नहि"
 
 #: kdewidgets/makekdewidgets.cpp:84
 msgid "Builds Qt widget plugins from an ini style description file."
