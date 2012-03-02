@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-29 04:01+0200\n"
+"POT-Creation-Date: 2012-03-02 05:07+0100\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -173,32 +173,6 @@ msgstr ""
 msgid "Blend"
 msgstr "टाइल्ड"
 
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
-msgid "Blend mode"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
-msgid "Normal"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
-msgid "Multiply"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
-msgid "Screen"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
-msgid "Darken"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
-#, fuzzy
-#| msgid "Right"
-msgid "Lighten"
-msgstr "दहिन्ना"
-
 #: plugins/filtereffects/BlurEffect.cpp:276
 #: plugins/filtereffects/BlurEffectFactory.cpp:27
 msgid "Gaussian blur"
@@ -249,68 +223,6 @@ msgstr ""
 msgid "Component transfer"
 msgstr ""
 
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
-msgid "Function"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
-msgid "Identity"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
-#, fuzzy
-#| msgid "Tiled"
-msgid "Table"
-msgstr "टाइल्ड"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
-msgid "Discrete"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
-#, fuzzy
-#| msgctxt "Linear gradient type"
-#| msgid "Linear"
-msgid "Linear"
-msgstr "रैखिक"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
-msgid "Gamma"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
-msgid "Values"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
-#, fuzzy
-#| msgid "Shape"
-msgid "Slope"
-msgstr "आकार"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
-#, fuzzy
-#| msgid "Interface"
-msgid "Intercept"
-msgstr "अंतरफलक"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
-msgid "Amplitude"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
-msgid "Exponent"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
-#: plugins/filtereffects/OffsetEffect.cpp:31
-#: plugins/filtereffects/OffsetEffectFactory.cpp:26
-#, fuzzy
-#| msgid "Effects"
-msgid "Offset"
-msgstr "प्रभाव"
-
 #: plugins/filtereffects/CompositeEffect.cpp:32
 #: plugins/filtereffects/CompositeEffectFactory.cpp:27
 msgid "Composite"
@@ -323,52 +235,6 @@ msgstr ""
 #: plugins/filtereffects/ConvolveMatrixEffect.cpp:33
 #: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
 msgid "Convolve Matrix"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
-#, fuzzy
-#| msgid "D&elete"
-msgid "Duplicate"
-msgstr "मेटाबू (&e)"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
-msgid "Wrap"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
-#, fuzzy
-#| msgid "None"
-msgid "None"
-msgstr "किछु नहि"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
-msgid "Edge mode:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
-msgid "Kernel size:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
-#, fuzzy
-#| msgid "Target:"
-msgid "Target point:"
-msgstr "लक्ष्यः"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
-msgid "Divisor:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
-msgid "Bias:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
-msgid "Preserve alpha"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
-msgid "Edit kernel"
 msgstr ""
 
 #: plugins/filtereffects/FloodEffect.cpp:30
@@ -433,12 +299,144 @@ msgstr "त्रिज्या:"
 msgid "Radius y:"
 msgstr "त्रिज्या:"
 
+#: plugins/filtereffects/OffsetEffect.cpp:31
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+#, fuzzy
+#| msgid "Effects"
+msgid "Offset"
+msgstr "प्रभाव"
+
 #: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
 msgid "dx"
 msgstr ""
 
 #: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
 msgid "dy"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
+msgid "Blend mode"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
+msgctxt "Normal"
+msgid "No blend effect"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
+msgid "Multiply"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
+msgid "Screen"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
+msgid "Darken"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
+#, fuzzy
+#| msgid "Right"
+msgid "Lighten"
+msgstr "दहिन्ना"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
+msgid "Function"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
+msgid "Identity"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
+#, fuzzy
+#| msgid "Tiled"
+msgid "Table"
+msgstr "टाइल्ड"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
+msgctxt "Discrete"
+msgid "Discrete Function"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
+msgctxt "Linear"
+msgid "Linear Function"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
+msgid "Gamma"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
+msgid "Values"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
+#, fuzzy
+#| msgid "Shape"
+msgid "Slope"
+msgstr "आकार"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
+#, fuzzy
+#| msgid "Interface"
+msgid "Intercept"
+msgstr "अंतरफलक"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
+msgid "Amplitude"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
+msgid "Exponent"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
+msgctxt "Duplicate"
+msgid "Copy edge"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
+msgid "Wrap"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
+msgctxt "None"
+msgid "No edge effect"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
+msgid "Edge mode:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
+msgid "Kernel size:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
+#, fuzzy
+#| msgid "Target:"
+msgid "Target point:"
+msgstr "लक्ष्यः"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
+msgid "Divisor:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
+msgid "Bias:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
+msgid "Preserve alpha"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
+msgid "Edit kernel"
 msgstr ""
 
 #: plugins/flattenpath/ArtworkPathFlattenCommand.cpp:165
@@ -639,54 +637,6 @@ msgstr ""
 #: ui/ArtworkConfigureDialog.cpp:151
 msgid "Canvas color:"
 msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr "मौलिक"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:34
-msgid "Tiled"
-msgstr "टाइल्ड"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr "घीँचल"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:37
-msgid "Top Left"
-msgstr "उप्पर बामाँ"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr "उप्पर"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:39
-msgid "Top Right"
-msgstr "उप्पर दहिन्ना "
-
-#: ui/ArtworkPatternOptionsWidget.cpp:40
-msgid "Left"
-msgstr "बामाँ"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:41
-msgid "Center"
-msgstr "केंद्र"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:42
-msgid "Right"
-msgstr "दहिन्ना"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr "नीच्चाँ बम्माँ तरफ"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:44
-msgid "Bottom"
-msgstr "नीच्चाँ"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr "नीच्चाँ दहिन्ना"
 
 #: ui/ArtworkLayerModel.cpp:172
 msgid "Layer"
@@ -994,6 +944,115 @@ msgstr ""
 #: ui/ArtworkView.cpp:980
 msgid "Zoom to Drawing"
 msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:33
+#, fuzzy
+#| msgid "Original"
+msgctxt "Original"
+msgid "Original Image"
+msgstr "मौलिक"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:34
+#, fuzzy
+#| msgid "Tiled"
+msgctxt "Tiled"
+msgid "Tiled Image"
+msgstr "टाइल्ड"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:35
+#, fuzzy
+#| msgid "Stretched"
+msgctxt "Stretched"
+msgid "Stretched Image"
+msgstr "घीँचल"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:37
+msgctxt "Top Left"
+msgid "Align to top-left corner"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:38
+msgctxt "Top"
+msgid "Align to top side"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:39
+msgctxt "Top Right"
+msgid "Align to top-right corner"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:40
+msgctxt "Left"
+msgid "Align to left side"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:41
+msgctxt "Center"
+msgid "Align in the center"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:42
+msgctxt "Right"
+msgid "Align to right side"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:43
+msgctxt "Bottom Left"
+msgid "Align to bottom-left corner"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:44
+msgctxt "Bottom"
+msgid "Align to bottom side"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:45
+msgctxt "Bottom Right"
+msgid "Align to bottom-right corner"
+msgstr ""
+
+#, fuzzy
+#~| msgctxt "Linear gradient type"
+#~| msgid "Linear"
+#~ msgid "Linear"
+#~ msgstr "रैखिक"
+
+#, fuzzy
+#~| msgid "D&elete"
+#~ msgid "Duplicate"
+#~ msgstr "मेटाबू (&e)"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "None"
+#~ msgstr "किछु नहि"
+
+#~ msgid "Top Left"
+#~ msgstr "उप्पर बामाँ"
+
+#~ msgid "Top"
+#~ msgstr "उप्पर"
+
+#~ msgid "Top Right"
+#~ msgstr "उप्पर दहिन्ना "
+
+#~ msgid "Left"
+#~ msgstr "बामाँ"
+
+#~ msgid "Center"
+#~ msgstr "केंद्र"
+
+#~ msgid "Right"
+#~ msgstr "दहिन्ना"
+
+#~ msgid "Bottom Left"
+#~ msgstr "नीच्चाँ बम्माँ तरफ"
+
+#~ msgid "Bottom"
+#~ msgstr "नीच्चाँ"
+
+#~ msgid "Bottom Right"
+#~ msgstr "नीच्चाँ दहिन्ना"
 
 #~ msgid "Type:"
 #~ msgstr "प्रकार:"
