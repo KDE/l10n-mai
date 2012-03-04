@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-02 03:03+0100\n"
+"POT-Creation-Date: 2012-03-04 11:30+0100\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -144,6 +144,15 @@ msgstr "प्रभाव"
 msgid "View"
 msgstr "दृश्य"
 
+#: common/KarbonDocument.cpp:281
+msgid "Master Page"
+msgstr ""
+
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:880
+msgctxt "(qtundo-format)"
+msgid "Boolean Operation"
+msgstr ""
+
 #: common/commands/KarbonLayerReorderCommand.cpp:37
 #: common/commands/KarbonLayerReorderCommand.cpp:46
 #, fuzzy
@@ -160,127 +169,16 @@ msgctxt "(qtundo-format)"
 msgid "Lower Layer"
 msgstr "निचला परत"
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:880
-msgctxt "(qtundo-format)"
-msgid "Boolean Operation"
-msgstr ""
-
-#: common/KarbonDocument.cpp:281
-msgid "Master Page"
-msgstr ""
-
 #: main.cpp:43
 msgid "File to open"
 msgstr ""
 
-#: plugins/filtereffects/BlendEffectFactory.cpp:27
 #: plugins/filtereffects/BlendEffect.cpp:30
+#: plugins/filtereffects/BlendEffectFactory.cpp:27
 #, fuzzy
 #| msgid "Tiled"
 msgid "Blend"
 msgstr "टाइल्ड"
-
-#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
-#, fuzzy
-#| msgid "Grid color:"
-msgid "Flood color"
-msgstr "जाल रंग:"
-
-#: plugins/filtereffects/BlurEffectFactory.cpp:27
-#: plugins/filtereffects/BlurEffect.cpp:276
-msgid "Gaussian blur"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
-msgid "Color matrix"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
-#: plugins/filtereffects/ComponentTransferEffect.cpp:30
-msgid "Component transfer"
-msgstr ""
-
-#: plugins/filtereffects/CompositeEffectFactory.cpp:27
-#: plugins/filtereffects/CompositeEffect.cpp:32
-msgid "Composite"
-msgstr ""
-
-#: plugins/filtereffects/FloodEffect.cpp:30
-#: plugins/filtereffects/FloodEffectFactory.cpp:27
-msgid "Flood fill"
-msgstr ""
-
-#: plugins/filtereffects/ImageEffect.cpp:35
-#: plugins/filtereffects/ImageEffectFactory.cpp:26
-msgid "Image"
-msgstr ""
-
-#: plugins/filtereffects/MorphologyEffect.cpp:32
-#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
-msgid "Morphology"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
-#: plugins/filtereffects/ConvolveMatrixEffect.cpp:33
-msgid "Convolve Matrix"
-msgstr ""
-
-#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
-msgid "Select image..."
-msgstr ""
-
-#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
-msgid "Select image"
-msgstr ""
-
-#: plugins/filtereffects/MergeEffectFactory.cpp:27
-#: plugins/filtereffects/MergeEffect.cpp:30
-msgid "Merge"
-msgstr ""
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
-msgid "Erode"
-msgstr ""
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
-#, fuzzy
-#| msgid "D&elete"
-msgid "Dilate"
-msgstr "मेटाबू (&e)"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
-#, fuzzy
-#| msgid "Repeat:"
-msgid "Operator:"
-msgstr "दोहराबू:"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius x:"
-msgstr "त्रिज्या:"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius y:"
-msgstr "त्रिज्या:"
-
-#: plugins/filtereffects/OffsetEffect.cpp:31
-#: plugins/filtereffects/OffsetEffectFactory.cpp:26
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
-#, fuzzy
-#| msgid "Effects"
-msgid "Offset"
-msgstr "प्रभाव"
-
-#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
-msgid "dx"
-msgstr ""
-
-#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
-msgid "dy"
-msgstr ""
 
 #: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
 msgid "Blend mode"
@@ -307,6 +205,11 @@ msgstr ""
 #| msgid "Right"
 msgid "Lighten"
 msgstr "दहिन्ना"
+
+#: plugins/filtereffects/BlurEffect.cpp:276
+#: plugins/filtereffects/BlurEffectFactory.cpp:27
+msgid "Gaussian blur"
+msgstr ""
 
 #: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
 #, fuzzy
@@ -343,6 +246,15 @@ msgstr ""
 #| msgid "Angle:"
 msgid "Angle"
 msgstr "कोण:"
+
+#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
+msgid "Color matrix"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffect.cpp:30
+#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
+msgid "Component transfer"
+msgstr ""
 
 #: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
 msgid "Function"
@@ -398,8 +310,26 @@ msgstr ""
 msgid "Exponent"
 msgstr ""
 
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+#: plugins/filtereffects/OffsetEffect.cpp:31
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#, fuzzy
+#| msgid "Effects"
+msgid "Offset"
+msgstr "प्रभाव"
+
+#: plugins/filtereffects/CompositeEffect.cpp:32
+#: plugins/filtereffects/CompositeEffectFactory.cpp:27
+msgid "Composite"
+msgstr ""
+
 #: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
 msgid "Operation"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffect.cpp:33
+#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
+msgid "Convolve Matrix"
 msgstr ""
 
 #: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
@@ -448,9 +378,74 @@ msgstr ""
 msgid "Edit kernel"
 msgstr ""
 
-#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
-msgctxt "(qtundo-format)"
-msgid "Flatten path"
+#: plugins/filtereffects/FloodEffect.cpp:30
+#: plugins/filtereffects/FloodEffectFactory.cpp:27
+msgid "Flood fill"
+msgstr ""
+
+#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
+#, fuzzy
+#| msgid "Grid color:"
+msgid "Flood color"
+msgstr "जाल रंग:"
+
+#: plugins/filtereffects/ImageEffect.cpp:35
+#: plugins/filtereffects/ImageEffectFactory.cpp:26
+msgid "Image"
+msgstr ""
+
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
+msgid "Select image..."
+msgstr ""
+
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
+msgid "Select image"
+msgstr ""
+
+#: plugins/filtereffects/MergeEffect.cpp:30
+#: plugins/filtereffects/MergeEffectFactory.cpp:27
+msgid "Merge"
+msgstr ""
+
+#: plugins/filtereffects/MorphologyEffect.cpp:32
+#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
+msgid "Morphology"
+msgstr ""
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
+msgid "Erode"
+msgstr ""
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
+#, fuzzy
+#| msgid "D&elete"
+msgid "Dilate"
+msgstr "मेटाबू (&e)"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
+#, fuzzy
+#| msgid "Repeat:"
+msgid "Operator:"
+msgstr "दोहराबू:"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius x:"
+msgstr "त्रिज्या:"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius y:"
+msgstr "त्रिज्या:"
+
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
+msgid "dx"
+msgstr ""
+
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
+msgid "dy"
 msgstr ""
 
 #: plugins/flattenpath/FlattenPathPlugin.cpp:57
@@ -470,6 +465,11 @@ msgstr "गुण"
 
 #: plugins/flattenpath/FlattenPathPlugin.cpp:103
 msgid "Flatness:"
+msgstr ""
+
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
+msgctxt "(qtundo-format)"
+msgid "Flatten path"
 msgstr ""
 
 #: plugins/refinepath/KarbonPathRefineCommand.cpp:41
@@ -539,330 +539,78 @@ msgstr "कोण:"
 msgid "Pinch:"
 msgstr ""
 
+#: ui/KarbonAboutData.h:26
+msgid "A Vector Graphics Drawing Application."
+msgstr ""
+
+#: ui/KarbonAboutData.h:35
+msgid "Karbon"
+msgstr ""
+
+#: ui/KarbonAboutData.h:39
+msgid "(c) 2001-2011, The Karbon Developers"
+msgstr ""
+
+#: ui/KarbonAboutData.h:40
+msgid "You are invited to participate in any way."
+msgstr ""
+
+#: ui/KarbonAboutData.h:44
+msgid "Rob Buis"
+msgstr ""
+
+#: ui/KarbonAboutData.h:48
+msgid "Tomislav Lukman"
+msgstr ""
+
+#: ui/KarbonAboutData.h:52
+msgid "Benoît Vautrin"
+msgstr ""
+
+#: ui/KarbonAboutData.h:56
+msgid "Jan Hambrecht"
+msgstr ""
+
+#: ui/KarbonAboutData.h:57 ui/KarbonAboutData.h:61 ui/KarbonAboutData.h:65
+#: ui/KarbonAboutData.h:69 ui/KarbonAboutData.h:73
+msgid "Bug fixes and improvements"
+msgstr ""
+
+#: ui/KarbonAboutData.h:60
+msgid "Peter Simonsson"
+msgstr ""
+
+#: ui/KarbonAboutData.h:64
+msgid "Tim Beaulen"
+msgstr ""
+
+#: ui/KarbonAboutData.h:68
+msgid "Boudewijn Rempt"
+msgstr ""
+
+#: ui/KarbonAboutData.h:72
+msgid "Pierre Stirnweiss"
+msgstr ""
+
+#: ui/KarbonAboutData.h:76
+msgid "Inge Wallin"
+msgstr ""
+
+#: ui/KarbonAboutData.h:77
+msgid "Bug fixes"
+msgstr "बग फिक्सेस"
+
+#: ui/KarbonAboutData.h:80
+msgid "Alan Horkan"
+msgstr ""
+
+#: ui/KarbonAboutData.h:81
+msgid "Helpful patches and advice"
+msgstr ""
+
 #: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:550
 msgctxt "(qtundo-format)"
 msgid "Insert graphics"
-msgstr ""
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:38
-msgid "Configure"
-msgstr "बिन्यस्त करू"
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:43
-#: ui/dialogs/KarbonConfigureDialog.cpp:44
-#: ui/widgets/KarbonConfigInterfacePage.cpp:56
-msgid "Interface"
-msgstr "अंतरफलक"
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:48
-#: ui/dialogs/KarbonConfigureDialog.cpp:49
-msgid "Misc"
-msgstr "विविध"
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:53
-#: ui/dialogs/KarbonConfigureDialog.cpp:54
-msgid "Grid"
-msgstr "जाल"
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:60
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr "दस्तावेज"
-
-#: ui/dialogs/KarbonConfigureDialog.cpp:61
-msgid "Document Settings"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:84
-msgid "Layer view"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:95
-msgid "Add a new layer"
-msgstr "नवीन परत जोड़ू"
-
-#: ui/dockers/KarbonLayerDocker.cpp:101
-msgid "Delete selected objects"
-msgstr "चयनित वस्तु मेटाबू"
-
-#: ui/dockers/KarbonLayerDocker.cpp:107
-msgid "Raise selected objects"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:113
-msgid "Lower selected objects"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:122
-msgid "Minimal View"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:124
-msgid "Detailed View"
-msgstr "विस्तृत दृश्य "
-
-#: ui/dockers/KarbonLayerDocker.cpp:126
-msgid "Thumbnail View"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:136
-msgid "View mode"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:276
-msgid "New Layer"
-msgstr "नइ परत"
-
-#: ui/dockers/KarbonLayerDocker.cpp:277
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:278
-msgid "New layer"
-msgstr "नवीन स्तर"
-
-#: ui/dockers/KarbonLayerDocker.cpp:284
-#, fuzzy
-#| msgid "Delete Layer"
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "परत मेटाबू"
-
-#: ui/dockers/KarbonLayerDocker.cpp:308
-#, fuzzy
-#| msgid "Delete Layer"
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "परत मेटाबू"
-
-#: ui/dockers/KarbonLayerDocker.cpp:310
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: ui/dockers/KarbonLayerDocker.cpp:310
-msgid "Error deleting layers"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:161
-msgid "Layer"
-msgstr "स्तर"
-
-#: ui/dockers/KarbonLayerModel.cpp:163
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr "समूह"
-
-#: ui/dockers/KarbonLayerModel.cpp:165
-msgid "Shape"
-msgstr "आकार"
-
-#: ui/dockers/KarbonLayerModel.cpp:260
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr "दृष्टिगोचर"
-
-#: ui/dockers/KarbonLayerModel.cpp:261
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr "तालाबन्न"
-
-#: ui/dockers/KarbonLayerModel.cpp:262
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:263
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-msgctxt "Clipped state of the shape"
-msgid "Clipped"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-msgid "yes"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-#, fuzzy
-#| msgid "Info"
-msgid "no"
-msgstr "सूचना"
-
-#: ui/dockers/KarbonLayerModel.cpp:465
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr "मौलिक"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
-msgid "Tiled"
-msgstr "टाइल्ड"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr "घीँचल"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
-msgid "Top Left"
-msgstr "उप्पर बामाँ"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr "उप्पर"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
-msgid "Top Right"
-msgstr "उप्पर दहिन्ना "
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
-msgid "Left"
-msgstr "बामाँ"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
-msgid "Center"
-msgstr "केंद्र"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
-msgid "Right"
-msgstr "दहिन्ना"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr "नीच्चाँ बम्माँ तरफ"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
-msgid "Bottom"
-msgstr "नीच्चाँ"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr "नीच्चाँ दहिन्ना"
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:71
-msgid "Show status bar:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:76
-msgid "Number of recent files:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:82
-msgid "Palette font size:"
-msgstr ""
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:88
-msgid "Canvas color:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:167
-msgid "Target:"
-msgstr "लक्ष्यः"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:169
-msgid "Stroke"
-msgstr "स्ट्रोक"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:170
-msgid "Fill"
-msgstr "भरू"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:174
-msgid "Type:"
-msgstr "प्रकार:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:176
-msgctxt "Linear gradient type"
-msgid "Linear"
-msgstr "रैखिक"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:177
-msgctxt "Radial gradient type"
-msgid "Radial"
-msgstr "अरीय"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:178
-msgctxt "Conical gradient type"
-msgid "Conical"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:181
-msgid "Repeat:"
-msgstr "दोहराबू:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:183
-msgctxt "No gradient spread"
-msgid "None"
-msgstr "किछु नहि"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:184
-msgid "Reflect"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:185
-msgid "Repeat"
-msgstr "दोहराबू"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:188
-msgid "Overall opacity:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:193
-msgid "Color stop:"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:200
-msgid "Stop color."
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:203
-msgid "&Add to Predefined Gradients"
-msgstr ""
-
-#: ui/widgets/KarbonPaletteBarWidget.cpp:58
-msgid "Select palette"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:56
-msgid "Press to apply fill to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:103
-#, fuzzy
-#| msgid "None"
-msgctxt "The style has no fill"
-msgid "None"
-msgstr "किछु नहि"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:121
-msgid "Press to apply stroke to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:166
-#, fuzzy
-#| msgid "Custom"
-msgctxt "The style has a custom stroking"
-msgid "Custom"
-msgstr "पसंदीदा"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:172
-#, fuzzy
-#| msgid "None"
-msgctxt "The style has no stroking"
-msgid "None"
-msgstr "किछु नहि"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:192
-msgid "Stroke:"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:197
-msgid "Fill:"
 msgstr ""
 
 #: ui/KarbonPart.cpp:208
@@ -1067,73 +815,325 @@ msgstr ""
 msgid "Zoom"
 msgstr "जूम"
 
-#: ui/KarbonAboutData.h:26
-msgid "A Vector Graphics Drawing Application."
+#: ui/dialogs/KarbonConfigureDialog.cpp:38
+msgid "Configure"
+msgstr "बिन्यस्त करू"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:43
+#: ui/dialogs/KarbonConfigureDialog.cpp:44
+#: ui/widgets/KarbonConfigInterfacePage.cpp:56
+msgid "Interface"
+msgstr "अंतरफलक"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:48
+#: ui/dialogs/KarbonConfigureDialog.cpp:49
+msgid "Misc"
+msgstr "विविध"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:53
+#: ui/dialogs/KarbonConfigureDialog.cpp:54
+msgid "Grid"
+msgstr "जाल"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:60
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "दस्तावेज"
+
+#: ui/dialogs/KarbonConfigureDialog.cpp:61
+msgid "Document Settings"
 msgstr ""
 
-#: ui/KarbonAboutData.h:35
-msgid "Karbon"
+#: ui/dockers/KarbonLayerDocker.cpp:84
+msgid "Layer view"
 msgstr ""
 
-#: ui/KarbonAboutData.h:39
-msgid "(c) 2001-2011, The Karbon Developers"
+#: ui/dockers/KarbonLayerDocker.cpp:95
+msgid "Add a new layer"
+msgstr "नवीन परत जोड़ू"
+
+#: ui/dockers/KarbonLayerDocker.cpp:101
+msgid "Delete selected objects"
+msgstr "चयनित वस्तु मेटाबू"
+
+#: ui/dockers/KarbonLayerDocker.cpp:107
+msgid "Raise selected objects"
 msgstr ""
 
-#: ui/KarbonAboutData.h:40
-msgid "You are invited to participate in any way."
+#: ui/dockers/KarbonLayerDocker.cpp:113
+msgid "Lower selected objects"
 msgstr ""
 
-#: ui/KarbonAboutData.h:44
-msgid "Rob Buis"
+#: ui/dockers/KarbonLayerDocker.cpp:122
+msgid "Minimal View"
 msgstr ""
 
-#: ui/KarbonAboutData.h:48
-msgid "Tomislav Lukman"
+#: ui/dockers/KarbonLayerDocker.cpp:124
+msgid "Detailed View"
+msgstr "विस्तृत दृश्य "
+
+#: ui/dockers/KarbonLayerDocker.cpp:126
+msgid "Thumbnail View"
 msgstr ""
 
-#: ui/KarbonAboutData.h:52
-msgid "Benoît Vautrin"
+#: ui/dockers/KarbonLayerDocker.cpp:136
+msgid "View mode"
 msgstr ""
 
-#: ui/KarbonAboutData.h:56
-msgid "Jan Hambrecht"
+#: ui/dockers/KarbonLayerDocker.cpp:276
+msgid "New Layer"
+msgstr "नइ परत"
+
+#: ui/dockers/KarbonLayerDocker.cpp:277
+msgid "Enter the name of the new layer:"
 msgstr ""
 
-#: ui/KarbonAboutData.h:57 ui/KarbonAboutData.h:61 ui/KarbonAboutData.h:65
-#: ui/KarbonAboutData.h:69 ui/KarbonAboutData.h:73
-msgid "Bug fixes and improvements"
+#: ui/dockers/KarbonLayerDocker.cpp:278
+msgid "New layer"
+msgstr "नवीन स्तर"
+
+#: ui/dockers/KarbonLayerDocker.cpp:284
+#, fuzzy
+#| msgid "Delete Layer"
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "परत मेटाबू"
+
+#: ui/dockers/KarbonLayerDocker.cpp:308
+#, fuzzy
+#| msgid "Delete Layer"
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "परत मेटाबू"
+
+#: ui/dockers/KarbonLayerDocker.cpp:310
+msgid "Could not delete all layers. At least one layer is required."
 msgstr ""
 
-#: ui/KarbonAboutData.h:60
-msgid "Peter Simonsson"
+#: ui/dockers/KarbonLayerDocker.cpp:310
+msgid "Error deleting layers"
 msgstr ""
 
-#: ui/KarbonAboutData.h:64
-msgid "Tim Beaulen"
+#: ui/dockers/KarbonLayerModel.cpp:161
+msgid "Layer"
+msgstr "स्तर"
+
+#: ui/dockers/KarbonLayerModel.cpp:163
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr "समूह"
+
+#: ui/dockers/KarbonLayerModel.cpp:165
+msgid "Shape"
+msgstr "आकार"
+
+#: ui/dockers/KarbonLayerModel.cpp:260
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr "दृष्टिगोचर"
+
+#: ui/dockers/KarbonLayerModel.cpp:261
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr "तालाबन्न"
+
+#: ui/dockers/KarbonLayerModel.cpp:262
+msgctxt "The z-index of the shape"
+msgid "zIndex"
 msgstr ""
 
-#: ui/KarbonAboutData.h:68
-msgid "Boudewijn Rempt"
+#: ui/dockers/KarbonLayerModel.cpp:263
+msgctxt "The opacity of the shape"
+msgid "Opacity"
 msgstr ""
 
-#: ui/KarbonAboutData.h:72
-msgid "Pierre Stirnweiss"
+#: ui/dockers/KarbonLayerModel.cpp:264
+msgctxt "Clipped state of the shape"
+msgid "Clipped"
 msgstr ""
 
-#: ui/KarbonAboutData.h:76
-msgid "Inge Wallin"
+#: ui/dockers/KarbonLayerModel.cpp:264
+msgid "yes"
 msgstr ""
 
-#: ui/KarbonAboutData.h:77
-msgid "Bug fixes"
-msgstr "बग फिक्सेस"
+#: ui/dockers/KarbonLayerModel.cpp:264
+#, fuzzy
+#| msgid "Info"
+msgid "no"
+msgstr "सूचना"
 
-#: ui/KarbonAboutData.h:80
-msgid "Alan Horkan"
+#: ui/dockers/KarbonLayerModel.cpp:465
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
 msgstr ""
 
-#: ui/KarbonAboutData.h:81
-msgid "Helpful patches and advice"
+#: ui/widgets/KarbonConfigInterfacePage.cpp:71
+msgid "Show status bar:"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:76
+msgid "Number of recent files:"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:82
+msgid "Palette font size:"
+msgstr ""
+
+#: ui/widgets/KarbonConfigInterfacePage.cpp:88
+msgid "Canvas color:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:167
+msgid "Target:"
+msgstr "लक्ष्यः"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:169
+msgid "Stroke"
+msgstr "स्ट्रोक"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:170
+msgid "Fill"
+msgstr "भरू"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:174
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:176
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "रैखिक"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:177
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr "अरीय"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:178
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:181
+msgid "Repeat:"
+msgstr "दोहराबू:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:183
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "किछु नहि"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:184
+msgid "Reflect"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:185
+msgid "Repeat"
+msgstr "दोहराबू"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:188
+msgid "Overall opacity:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:193
+msgid "Color stop:"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:200
+msgid "Stop color."
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:203
+msgid "&Add to Predefined Gradients"
+msgstr ""
+
+#: ui/widgets/KarbonPaletteBarWidget.cpp:58
+msgid "Select palette"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
+msgid "Original"
+msgstr "मौलिक"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
+msgid "Tiled"
+msgstr "टाइल्ड"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
+msgid "Stretched"
+msgstr "घीँचल"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
+msgid "Top Left"
+msgstr "उप्पर बामाँ"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
+msgid "Top"
+msgstr "उप्पर"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
+msgid "Top Right"
+msgstr "उप्पर दहिन्ना "
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
+msgid "Left"
+msgstr "बामाँ"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
+msgid "Center"
+msgstr "केंद्र"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
+msgid "Right"
+msgstr "दहिन्ना"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
+msgstr "नीच्चाँ बम्माँ तरफ"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
+msgid "Bottom"
+msgstr "नीच्चाँ"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
+msgstr "नीच्चाँ दहिन्ना"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:56
+msgid "Press to apply fill to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:103
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "किछु नहि"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:121
+msgid "Press to apply stroke to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:166
+#, fuzzy
+#| msgid "Custom"
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr "पसंदीदा"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:172
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "किछु नहि"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:192
+msgid "Stroke:"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:197
+msgid "Fill:"
 msgstr ""
 
 #~ msgid "Tools"
