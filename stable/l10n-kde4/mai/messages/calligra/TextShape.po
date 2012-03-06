@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-04 11:31+0100\n"
+"POT-Creation-Date: 2012-03-06 18:37+0100\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -896,7 +896,9 @@ msgstr "प्रकार:"
 
 #. i18n: file: dialogs/BibliographyConfigureDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, BibliographyConfigureDialog)
-#: rc.cpp:27
+#. i18n: file: dialogs/SimpleCitationBibliographyWidget.ui:55
+#. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
+#: rc.cpp:27 rc.cpp:842
 #, fuzzy
 #| msgid "Paragraph style"
 msgid "Configure bibliography"
@@ -2410,14 +2412,6 @@ msgstr ""
 msgid "Insert bibliography at current position"
 msgstr ""
 
-#. i18n: file: dialogs/SimpleCitationBibliographyWidget.ui:55
-#. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
-#: rc.cpp:842
-#, fuzzy
-#| msgid "Paragraph style"
-msgid "Configure bibiliography"
-msgstr "अनुच्छेद स्टाइल"
-
 #. i18n: file: dialogs/SimpleCitationBibliographyWidget.ui:58
 #. i18n: ectx: property (text), widget (QToolButton, configureBibliography)
 #: rc.cpp:845
@@ -2554,6 +2548,11 @@ msgstr ""
 #| msgid "Text"
 msgid "TextLabel"
 msgstr "पाठ"
+
+#, fuzzy
+#~| msgid "Paragraph style"
+#~ msgid "Configure bibiliography"
+#~ msgstr "अनुच्छेद स्टाइल"
 
 #~ msgid "Offset:"
 #~ msgstr "ऑफसेट:"
