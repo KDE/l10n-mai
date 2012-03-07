@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-05 04:18+0100\n"
+"POT-Creation-Date: 2012-03-07 04:36+0100\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1558,7 +1558,7 @@ msgstr ""
 msgid "L&ayout"
 msgstr "बिन्यास (&a)"
 
-#: utils/kateprinter.cpp:1122 schema/kateschemaconfig.cpp:824
+#: utils/kateprinter.cpp:1122 schema/kateschemaconfig.cpp:858
 msgid "&Schema:"
 msgstr "योजना: (&S)"
 
@@ -3049,6 +3049,97 @@ msgstr "मार्क टाइप %1"
 msgid "Use default color from the KDE color scheme"
 msgstr ""
 
+#: schema/katestyletreewidget.cpp:132
+msgctxt "@title:column Meaning of text in editor"
+msgid "Context"
+msgstr "संदर्भ"
+
+#: schema/katestyletreewidget.cpp:132
+msgctxt "@title:column Text style"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: schema/katestyletreewidget.cpp:132
+msgctxt "@title:column Text style"
+msgid "Selected"
+msgstr "चुनल"
+
+#: schema/katestyletreewidget.cpp:132
+msgctxt "@title:column Text style"
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: schema/katestyletreewidget.cpp:132
+msgctxt "@title:column Text style"
+msgid "Background Selected"
+msgstr "चुनल पृष्ठभूमि"
+
+#: schema/katestyletreewidget.cpp:134
+msgid "Use Default Style"
+msgstr "मूलभूत शैली इस्तेमाल करू"
+
+#: schema/katestyletreewidget.cpp:222
+msgid "&Bold"
+msgstr "गाढ़ा (&B)"
+
+#: schema/katestyletreewidget.cpp:227
+msgid "&Italic"
+msgstr "तिरछा (&I)"
+
+#: schema/katestyletreewidget.cpp:232
+msgid "&Underline"
+msgstr "रेखांकित करु (&U)"
+
+#: schema/katestyletreewidget.cpp:237
+msgid "S&trikeout"
+msgstr "लिखकए-काटू (&t)"
+
+#: schema/katestyletreewidget.cpp:244
+msgid "Normal &Color..."
+msgstr "सामान्य रंग (&C)"
+
+#: schema/katestyletreewidget.cpp:247
+msgid "&Selected Color..."
+msgstr "चुनल गेल रंग (&S)"
+
+#: schema/katestyletreewidget.cpp:250
+msgid "&Background Color..."
+msgstr "पृष्ठभूमि रंग... (&B)"
+
+#: schema/katestyletreewidget.cpp:253
+msgid "S&elected Background Color..."
+msgstr "चयनित पृष्ठभूमि क' रंग... (&e)"
+
+#: schema/katestyletreewidget.cpp:265
+msgid "Unset Background Color"
+msgstr "पृष्ठभूमि क' रंग अनसेट करू"
+
+#: schema/katestyletreewidget.cpp:269
+msgid "Unset Selected Background Color"
+msgstr "चयनित पृष्ठभूमि रंग अनसेट करू"
+
+#: schema/katestyletreewidget.cpp:276
+msgid "Use &Default Style"
+msgstr "मूलभूत शैली इस्तेमाल करू (&D)"
+
+#: schema/katestyletreewidget.cpp:388
+#, fuzzy
+#| msgctxt "No text or background colour set"
+#| msgid "None set"
+msgctxt "No text or background color set"
+msgid "None set"
+msgstr "कोनो सेट नहि"
+
+#: schema/katestyletreewidget.cpp:602
+msgid ""
+"\"Use Default Style\" will be automatically unset when you change any style "
+"properties."
+msgstr "\"मूलभूत शैली इस्तेमाल करू\" स्वचलित अनसेट हाएत जखन अहाँ कोनो शैली गुण बदलब"
+
+#: schema/katestyletreewidget.cpp:603
+msgid "Kate Styles"
+msgstr "के-एटीई शैलीसभ"
+
 #: schema/kateschemaconfig.cpp:87
 #, fuzzy
 #| msgid "Text Area Background"
@@ -3328,7 +3419,7 @@ msgstr "टेम्पलेट संपादनयोग्य प्ले�
 msgid "Not Editable Placeholder"
 msgstr "टेम्पलेट संपादनयोग्य प्लेसहोल्डर"
 
-#: schema/kateschemaconfig.cpp:420
+#: schema/kateschemaconfig.cpp:457
 msgid ""
 "<p>This list displays the default styles for the current schema and offers "
 "the means to edit them. The style name reflects the current style settings.</"
@@ -3337,23 +3428,23 @@ msgid ""
 "Background colors from the popup menu when appropriate.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:524
+#: schema/kateschemaconfig.cpp:561
 msgid "H&ighlight:"
 msgstr "आलोकित करू: (&i)"
 
-#: schema/kateschemaconfig.cpp:531 schema/kateschemaconfig.cpp:837
+#: schema/kateschemaconfig.cpp:568 schema/kateschemaconfig.cpp:871
 #, fuzzy
 #| msgid "E&xport as HTML..."
 msgid "Export..."
 msgstr "एचटीएमएल रूपेँ निर्यात करू... (&x)"
 
-#: schema/kateschemaconfig.cpp:534 schema/kateschemaconfig.cpp:839
+#: schema/kateschemaconfig.cpp:571 schema/kateschemaconfig.cpp:873
 #, fuzzy
 #| msgid "Normal &Color..."
 msgid "Import..."
 msgstr "सामान्य रंग (&C)"
 
-#: schema/kateschemaconfig.cpp:565
+#: schema/kateschemaconfig.cpp:602
 msgid ""
 "<p>This list displays the contexts of the current syntax highlight mode and "
 "offers the means to edit them. The context name reflects the current style "
@@ -3364,245 +3455,145 @@ msgid ""
 "context menu when appropriate.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:586
+#: schema/kateschemaconfig.cpp:624
 #, fuzzy
 #| msgid "Highlighting for Scheme"
 msgid "Loading all highlightings for schema"
 msgstr "योजना क' लेल आलोकित करू"
 
-#: schema/kateschemaconfig.cpp:586
-msgid "Cancel"
-msgstr ""
-
-#: schema/kateschemaconfig.cpp:714 schema/kateschemaconfig.cpp:779
-#: schema/kateschemaconfig.cpp:888
+#: schema/kateschemaconfig.cpp:748 schema/kateschemaconfig.cpp:813
+#: schema/kateschemaconfig.cpp:926
 #, fuzzy
 #| msgid "Font & Color Schemas"
 msgid "Kate color schema"
 msgstr "फौन्ट आ रंग प्रसंग"
 
-#: schema/kateschemaconfig.cpp:716
+#: schema/kateschemaconfig.cpp:750
 msgid "Importing colors for single highlighting"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:727
+#: schema/kateschemaconfig.cpp:761
 msgid "File is not a single highlighting color file"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:728 schema/kateschemaconfig.cpp:935
+#: schema/kateschemaconfig.cpp:762 schema/kateschemaconfig.cpp:1039
 #, fuzzy
 #| msgid "File Format"
 msgid "Fileformat error"
 msgstr "फाइल फार्मेट"
 
-#: schema/kateschemaconfig.cpp:738
+#: schema/kateschemaconfig.cpp:772
 #, kde-format
 msgid "The selected file contains colors for a non existing highlighting:%1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:739
+#: schema/kateschemaconfig.cpp:773
 msgid "Import failure"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:762
+#: schema/kateschemaconfig.cpp:796
 #, kde-format
 msgid "Colors have been imported for highlighting: %1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:763
+#: schema/kateschemaconfig.cpp:797
 msgid "Import has finished"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:781
+#: schema/kateschemaconfig.cpp:815
 #, kde-format
 msgid "Exporting colors for single highlighting: %1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:831
+#: schema/kateschemaconfig.cpp:865
 msgid "&New..."
 msgstr "नवीन... (&N)"
 
 #. i18n: file: dialogs/filetypeconfigwidget.ui:44
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
-#: schema/kateschemaconfig.cpp:834 rc.cpp:305
+#: schema/kateschemaconfig.cpp:868 rc.cpp:305
 msgid "&Delete"
 msgstr "मेटाबू (&D)"
 
-#: schema/kateschemaconfig.cpp:848
+#: schema/kateschemaconfig.cpp:882
 msgid "Colors"
 msgstr "रँग"
 
-#: schema/kateschemaconfig.cpp:852
+#: schema/kateschemaconfig.cpp:886
 msgid "Font"
 msgstr "फौन्ट"
 
-#: schema/kateschemaconfig.cpp:856
+#: schema/kateschemaconfig.cpp:890
 #, fuzzy
 #| msgid "Normal Text Styles"
 msgid "Default Text Styles"
 msgstr "सामान्य पाठ शैली"
 
-#: schema/kateschemaconfig.cpp:860
+#: schema/kateschemaconfig.cpp:894
 msgid "Highlighting Text Styles"
 msgstr "पाठ शैलियाँ आलोकित कए रहल अछि"
 
-#: schema/kateschemaconfig.cpp:866
+#: schema/kateschemaconfig.cpp:900
 #, kde-format
 msgid "&Default schema for %1:"
 msgstr " %1हेतु मूलभूत योजना: (&D)"
 
-#: schema/kateschemaconfig.cpp:890
-#, kde-format
-msgid "Exporting color schema:%1"
-msgstr ""
+#: schema/kateschemaconfig.cpp:928
+#, fuzzy, kde-format
+#| msgid "Font & Color Schemas"
+msgid "Exporting color schema: %1"
+msgstr "फौन्ट आ रंग प्रसंग"
 
-#: schema/kateschemaconfig.cpp:903
+#: schema/kateschemaconfig.cpp:957
 msgid "Exporting schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:903 schema/kateschemaconfig.cpp:992
-#, fuzzy
-#| msgid "Scope"
-msgid "Stop"
-msgstr "स्कोप"
-
-#: schema/kateschemaconfig.cpp:925
-#, fuzzy
-#| msgid "Font & Color Schemas"
-msgid "Importing color schema"
-msgstr "फौन्ट आ रंग प्रसंग"
-
-#: schema/kateschemaconfig.cpp:934
-msgid "File is not a full schema file"
-msgstr ""
-
-#: schema/kateschemaconfig.cpp:939
-#, fuzzy
-#| msgid "Namespace"
-msgid "Name unspecified"
-msgstr "नेमस्पेस"
-
-#. i18n: file: utils/howtoimportschema.ui:34
+#. i18n: file: schema/howtoimportschema.ui:34
 #. i18n: ectx: property (text), widget (QRadioButton, radioReplaceExisting)
-#: schema/kateschemaconfig.cpp:948 rc.cpp:921
+#: schema/kateschemaconfig.cpp:988 rc.cpp:921
 #, fuzzy, no-c-format, kde-format
 #| msgid "Replace next match"
 msgid "Replace existing schema %1"
 msgstr "अगिला मिलान बदलू"
 
-#: schema/kateschemaconfig.cpp:992
+#: schema/kateschemaconfig.cpp:1030
+#, fuzzy
+#| msgid "Font & Color Schemas"
+msgid "Importing Color Schema"
+msgstr "फौन्ट आ रंग प्रसंग"
+
+#: schema/kateschemaconfig.cpp:1038
+msgid "The file does not contain a full color schema."
+msgstr ""
+
+#: schema/kateschemaconfig.cpp:1045
+#, fuzzy
+#| msgid "Namespace"
+msgid "Name unspecified"
+msgstr "नेमस्पेस"
+
+#: schema/kateschemaconfig.cpp:1111
 msgid "Importing schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1148
+#: schema/kateschemaconfig.cpp:1262
 msgid "Name for New Schema"
 msgstr "नवीन योजना क' नाम"
 
-#: schema/kateschemaconfig.cpp:1148
+#: schema/kateschemaconfig.cpp:1262
 msgid "Name:"
 msgstr "नाम:"
 
-#: schema/kateschemaconfig.cpp:1148 schema/kateschemaconfig.cpp:1155
+#: schema/kateschemaconfig.cpp:1262 schema/kateschemaconfig.cpp:1269
 msgid "New Schema"
 msgstr "नवीन योजना"
 
-#: schema/kateschemaconfig.cpp:1155
+#: schema/kateschemaconfig.cpp:1269
 #, kde-format
 msgid ""
 "<p>The schema %1 already exists, or was just deleted.</p><p>Please choose a "
 "different schema name.</p>"
 msgstr ""
-
-#: schema/katestyletreewidget.cpp:132
-msgctxt "@title:column Meaning of text in editor"
-msgid "Context"
-msgstr "संदर्भ"
-
-#: schema/katestyletreewidget.cpp:132
-msgctxt "@title:column Text style"
-msgid "Normal"
-msgstr "सामान्य"
-
-#: schema/katestyletreewidget.cpp:132
-msgctxt "@title:column Text style"
-msgid "Selected"
-msgstr "चुनल"
-
-#: schema/katestyletreewidget.cpp:132
-msgctxt "@title:column Text style"
-msgid "Background"
-msgstr "पृष्ठभूमि"
-
-#: schema/katestyletreewidget.cpp:132
-msgctxt "@title:column Text style"
-msgid "Background Selected"
-msgstr "चुनल पृष्ठभूमि"
-
-#: schema/katestyletreewidget.cpp:134
-msgid "Use Default Style"
-msgstr "मूलभूत शैली इस्तेमाल करू"
-
-#: schema/katestyletreewidget.cpp:222
-msgid "&Bold"
-msgstr "गाढ़ा (&B)"
-
-#: schema/katestyletreewidget.cpp:227
-msgid "&Italic"
-msgstr "तिरछा (&I)"
-
-#: schema/katestyletreewidget.cpp:232
-msgid "&Underline"
-msgstr "रेखांकित करु (&U)"
-
-#: schema/katestyletreewidget.cpp:237
-msgid "S&trikeout"
-msgstr "लिखकए-काटू (&t)"
-
-#: schema/katestyletreewidget.cpp:244
-msgid "Normal &Color..."
-msgstr "सामान्य रंग (&C)"
-
-#: schema/katestyletreewidget.cpp:247
-msgid "&Selected Color..."
-msgstr "चुनल गेल रंग (&S)"
-
-#: schema/katestyletreewidget.cpp:250
-msgid "&Background Color..."
-msgstr "पृष्ठभूमि रंग... (&B)"
-
-#: schema/katestyletreewidget.cpp:253
-msgid "S&elected Background Color..."
-msgstr "चयनित पृष्ठभूमि क' रंग... (&e)"
-
-#: schema/katestyletreewidget.cpp:265
-msgid "Unset Background Color"
-msgstr "पृष्ठभूमि क' रंग अनसेट करू"
-
-#: schema/katestyletreewidget.cpp:269
-msgid "Unset Selected Background Color"
-msgstr "चयनित पृष्ठभूमि रंग अनसेट करू"
-
-#: schema/katestyletreewidget.cpp:276
-msgid "Use &Default Style"
-msgstr "मूलभूत शैली इस्तेमाल करू (&D)"
-
-#: schema/katestyletreewidget.cpp:388
-#, fuzzy
-#| msgctxt "No text or background colour set"
-#| msgid "None set"
-msgctxt "No text or background color set"
-msgid "None set"
-msgstr "कोनो सेट नहि"
-
-#: schema/katestyletreewidget.cpp:602
-msgid ""
-"\"Use Default Style\" will be automatically unset when you change any style "
-"properties."
-msgstr "\"मूलभूत शैली इस्तेमाल करू\" स्वचलित अनसेट हाएत जखन अहाँ कोनो शैली गुण बदलब"
-
-#: schema/katestyletreewidget.cpp:603
-msgid "Kate Styles"
-msgstr "के-एटीई शैलीसभ"
 
 #. i18n: file: data/katepartsimpleui.rc:4
 #. i18n: ectx: Menu (file)
@@ -5463,7 +5454,7 @@ msgstr "विपरीत"
 msgid "Discard"
 msgstr "अक्षम"
 
-#. i18n: file: utils/howtoimportschema.ui:17
+#. i18n: file: schema/howtoimportschema.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:914
 #, fuzzy
@@ -5471,7 +5462,7 @@ msgstr "अक्षम"
 msgid "How do you want to import the schema?"
 msgstr "अहाँ की कएनाइ चाहैत छी?"
 
-#. i18n: file: utils/howtoimportschema.ui:24
+#. i18n: file: schema/howtoimportschema.ui:24
 #. i18n: ectx: property (text), widget (QRadioButton, radioReplaceCurrent)
 #: rc.cpp:917
 #, fuzzy
@@ -5479,7 +5470,7 @@ msgstr "अहाँ की कएनाइ चाहैत छी?"
 msgid "Replace current schema?"
 msgstr "अगिला मिलान बदलू"
 
-#. i18n: file: utils/howtoimportschema.ui:43
+#. i18n: file: schema/howtoimportschema.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, radioAsNew)
 #: rc.cpp:924
 #, fuzzy
@@ -7308,6 +7299,11 @@ msgstr "Zonnon"
 msgctxt "Language"
 msgid "Zsh"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Scope"
+#~ msgid "Stop"
+#~ msgstr "स्कोप"
 
 #, fuzzy
 #~| msgid "Colors"
