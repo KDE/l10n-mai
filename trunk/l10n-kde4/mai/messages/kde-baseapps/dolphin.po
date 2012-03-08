@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 04:14+0100\n"
+"POT-Creation-Date: 2012-03-08 03:49+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -1094,7 +1094,12 @@ msgid_plural "Size: %1 pixels"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/additionalinfoaccessor.cpp:99
+#: views/dolphindirlister.cpp:41
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "अनचिन्ह त्रुटि."
+
+#: views/additionalinfoaccessor.cpp:90
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Size"
@@ -1102,7 +1107,7 @@ msgctxt "@label"
 msgid "Size"
 msgstr "आकार"
 
-#: views/additionalinfoaccessor.cpp:100
+#: views/additionalinfoaccessor.cpp:91
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Date"
@@ -1110,7 +1115,7 @@ msgctxt "@label"
 msgid "Date"
 msgstr "दिनांक"
 
-#: views/additionalinfoaccessor.cpp:101
+#: views/additionalinfoaccessor.cpp:92
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Permissions"
@@ -1118,7 +1123,7 @@ msgctxt "@label"
 msgid "Permissions"
 msgstr "अनुमतिसभ"
 
-#: views/additionalinfoaccessor.cpp:102
+#: views/additionalinfoaccessor.cpp:93
 #, fuzzy
 #| msgctxt "@item::inlistbox"
 #| msgid "Owner"
@@ -1126,7 +1131,7 @@ msgctxt "@label"
 msgid "Owner"
 msgstr "मालिक"
 
-#: views/additionalinfoaccessor.cpp:103
+#: views/additionalinfoaccessor.cpp:94
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Group"
@@ -1134,7 +1139,7 @@ msgctxt "@label"
 msgid "Group"
 msgstr "समूह"
 
-#: views/additionalinfoaccessor.cpp:104
+#: views/additionalinfoaccessor.cpp:95
 #, fuzzy
 #| msgctxt "@option:check Additional Information"
 #| msgid "Type"
@@ -1142,7 +1147,7 @@ msgctxt "@label"
 msgid "Type"
 msgstr "प्रकार"
 
-#: views/additionalinfoaccessor.cpp:105
+#: views/additionalinfoaccessor.cpp:96
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Description:"
@@ -1150,18 +1155,13 @@ msgctxt "@label"
 msgid "Link Destination"
 msgstr "विवरण:"
 
-#: views/additionalinfoaccessor.cpp:106
+#: views/additionalinfoaccessor.cpp:97
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Paste"
 msgctxt "@label"
 msgid "Path"
 msgstr "साटू"
-
-#: views/dolphindirlister.cpp:41
-msgctxt "@info:status"
-msgid "Unknown error."
-msgstr "अनचिन्ह त्रुटि."
 
 #: views/versioncontrol/versioncontrolobserver.cpp:204
 msgctxt "@info:status"
@@ -1374,13 +1374,13 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(# आरोहित संख्यासभ सँ बदलल जएताह)"
 
-#: views/dolphinview.cpp:519
+#: views/dolphinview.cpp:521
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr ""
 
-#: views/dolphinview.cpp:522
+#: views/dolphinview.cpp:524
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -1388,7 +1388,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "1 फोल्डर चयनित"
 msgstr[1] "%1 फोल्डर चयनित है"
 
-#: views/dolphinview.cpp:523
+#: views/dolphinview.cpp:525
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -1396,7 +1396,7 @@ msgid_plural "%1 Files selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:527
+#: views/dolphinview.cpp:529
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Folder"
@@ -1406,7 +1406,7 @@ msgid_plural "%1 Folders"
 msgstr[0] "फोल्डर"
 msgstr[1] "फोल्डर"
 
-#: views/dolphinview.cpp:528
+#: views/dolphinview.cpp:530
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File"
@@ -1414,29 +1414,29 @@ msgid_plural "%1 Files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/dolphinview.cpp:532
+#: views/dolphinview.cpp:534
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: views/dolphinview.cpp:535
+#: views/dolphinview.cpp:537
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: views/dolphinview.cpp:1095
+#: views/dolphinview.cpp:1097
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "मेटाबैक क्रिया सम्पन्न भेल"
 
-#: views/dolphinview.cpp:1170
+#: views/dolphinview.cpp:1195
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "स्थान रिक्त अछि"
 
-#: views/dolphinview.cpp:1172
+#: views/dolphinview.cpp:1197
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
