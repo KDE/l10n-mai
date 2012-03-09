@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-10 03:41+0100\n"
+"POT-Creation-Date: 2012-03-09 04:13+0100\n"
 "PO-Revision-Date: 2010-01-29 16:36+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -32,19 +32,31 @@ msgctxt "@title:window"
 msgid "Change your Face"
 msgstr "अपन मुख बदलू"
 
-#: chfacedlg.cpp:75
+#: chfacedlg.cpp:60
+#, fuzzy
+#| msgid "&Acquire Image..."
+msgid "Custom Image..."
+msgstr "छवि प्राप्त करू... (&A)"
+
+#: chfacedlg.cpp:61
+#, fuzzy
+#| msgid "Choose Image"
+msgid "Remove Image"
+msgstr "छवि चुनू"
+
+#: chfacedlg.cpp:78
 msgid "&Acquire Image..."
 msgstr "छवि प्राप्त करू... (&A)"
 
-#: chfacedlg.cpp:95
+#: chfacedlg.cpp:98
 msgid "(Custom)"
 msgstr "(पसंदीदा)"
 
-#: chfacedlg.cpp:114 main.cpp:228
+#: chfacedlg.cpp:117
 msgid "There was an error loading the image."
 msgstr "छवि लोड करबामे त्रुटि भेल."
 
-#: chfacedlg.cpp:132 chfacedlg.cpp:168
+#: chfacedlg.cpp:135 chfacedlg.cpp:177
 #, kde-format
 msgid ""
 "There was an error saving the image:\n"
@@ -53,11 +65,11 @@ msgstr ""
 "छवि %1 \n"
 "सहेजएमे त्रुटि भेल"
 
-#: chfacedlg.cpp:143
+#: chfacedlg.cpp:146
 msgid "&Save copy in custom faces folder for future use"
 msgstr "भविष्यमे उपयोगक लेल अनुकूलित मुख फोल्डरमे प्रतिलिपि करू (&S)"
 
-#: chfacedlg.cpp:149
+#: chfacedlg.cpp:152
 #, fuzzy
 #| msgid "Choose Image"
 msgctxt "@title:window"
@@ -172,7 +184,13 @@ msgstr ""
 msgid "There was an error saving the image: %1"
 msgstr "छवि: %1 सहेजबामे त्रुटि भेल"
 
-#: main.cpp:296
+#: main.cpp:218
+#, fuzzy, kde-format
+#| msgid "There was an error saving the image: %1"
+msgid "There was an error deleting the image: %1"
+msgstr "छवि: %1 सहेजबामे त्रुटि भेल"
+
+#: main.cpp:297
 #, kde-format
 msgid ""
 "%1 does not appear to be an image file.\n"

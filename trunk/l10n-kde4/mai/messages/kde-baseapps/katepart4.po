@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-08 03:52+0100\n"
+"POT-Creation-Date: 2012-03-09 04:14+0100\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3049,6 +3049,97 @@ msgstr "मार्क टाइप %1"
 msgid "Use default color from the KDE color scheme"
 msgstr ""
 
+#: schema/katestyletreewidget.cpp:133
+msgctxt "@title:column Meaning of text in editor"
+msgid "Context"
+msgstr "संदर्भ"
+
+#: schema/katestyletreewidget.cpp:133
+msgctxt "@title:column Text style"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: schema/katestyletreewidget.cpp:133
+msgctxt "@title:column Text style"
+msgid "Selected"
+msgstr "चुनल"
+
+#: schema/katestyletreewidget.cpp:133
+msgctxt "@title:column Text style"
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: schema/katestyletreewidget.cpp:133
+msgctxt "@title:column Text style"
+msgid "Background Selected"
+msgstr "चुनल पृष्ठभूमि"
+
+#: schema/katestyletreewidget.cpp:135
+msgid "Use Default Style"
+msgstr "मूलभूत शैली इस्तेमाल करू"
+
+#: schema/katestyletreewidget.cpp:223
+msgid "&Bold"
+msgstr "गाढ़ा (&B)"
+
+#: schema/katestyletreewidget.cpp:228
+msgid "&Italic"
+msgstr "तिरछा (&I)"
+
+#: schema/katestyletreewidget.cpp:233
+msgid "&Underline"
+msgstr "रेखांकित करु (&U)"
+
+#: schema/katestyletreewidget.cpp:238
+msgid "S&trikeout"
+msgstr "लिखकए-काटू (&t)"
+
+#: schema/katestyletreewidget.cpp:245
+msgid "Normal &Color..."
+msgstr "सामान्य रंग (&C)"
+
+#: schema/katestyletreewidget.cpp:248
+msgid "&Selected Color..."
+msgstr "चुनल गेल रंग (&S)"
+
+#: schema/katestyletreewidget.cpp:251
+msgid "&Background Color..."
+msgstr "पृष्ठभूमि रंग... (&B)"
+
+#: schema/katestyletreewidget.cpp:254
+msgid "S&elected Background Color..."
+msgstr "चयनित पृष्ठभूमि क' रंग... (&e)"
+
+#: schema/katestyletreewidget.cpp:266
+msgid "Unset Background Color"
+msgstr "पृष्ठभूमि क' रंग अनसेट करू"
+
+#: schema/katestyletreewidget.cpp:270
+msgid "Unset Selected Background Color"
+msgstr "चयनित पृष्ठभूमि रंग अनसेट करू"
+
+#: schema/katestyletreewidget.cpp:277
+msgid "Use &Default Style"
+msgstr "मूलभूत शैली इस्तेमाल करू (&D)"
+
+#: schema/katestyletreewidget.cpp:389
+#, fuzzy
+#| msgctxt "No text or background colour set"
+#| msgid "None set"
+msgctxt "No text or background color set"
+msgid "None set"
+msgstr "कोनो सेट नहि"
+
+#: schema/katestyletreewidget.cpp:603
+msgid ""
+"\"Use Default Style\" will be automatically unset when you change any style "
+"properties."
+msgstr "\"मूलभूत शैली इस्तेमाल करू\" स्वचलित अनसेट हाएत जखन अहाँ कोनो शैली गुण बदलब"
+
+#: schema/katestyletreewidget.cpp:604
+msgid "Kate Styles"
+msgstr "के-एटीई शैलीसभ"
+
 #: schema/kateschemaconfig.cpp:87
 #, fuzzy
 #| msgid "Text Area Background"
@@ -3485,115 +3576,24 @@ msgstr "नेमस्पेस"
 msgid "Importing schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1402
+#: schema/kateschemaconfig.cpp:1401
 msgid "Name for New Schema"
 msgstr "नवीन योजना क' नाम"
 
-#: schema/kateschemaconfig.cpp:1402
+#: schema/kateschemaconfig.cpp:1401
 msgid "Name:"
 msgstr "नाम:"
 
-#: schema/kateschemaconfig.cpp:1402 schema/kateschemaconfig.cpp:1409
+#: schema/kateschemaconfig.cpp:1401 schema/kateschemaconfig.cpp:1408
 msgid "New Schema"
 msgstr "नवीन योजना"
 
-#: schema/kateschemaconfig.cpp:1409
+#: schema/kateschemaconfig.cpp:1408
 #, kde-format
 msgid ""
 "<p>The schema %1 already exists, or was just deleted.</p><p>Please choose a "
 "different schema name.</p>"
 msgstr ""
-
-#: schema/katestyletreewidget.cpp:133
-msgctxt "@title:column Meaning of text in editor"
-msgid "Context"
-msgstr "संदर्भ"
-
-#: schema/katestyletreewidget.cpp:133
-msgctxt "@title:column Text style"
-msgid "Normal"
-msgstr "सामान्य"
-
-#: schema/katestyletreewidget.cpp:133
-msgctxt "@title:column Text style"
-msgid "Selected"
-msgstr "चुनल"
-
-#: schema/katestyletreewidget.cpp:133
-msgctxt "@title:column Text style"
-msgid "Background"
-msgstr "पृष्ठभूमि"
-
-#: schema/katestyletreewidget.cpp:133
-msgctxt "@title:column Text style"
-msgid "Background Selected"
-msgstr "चुनल पृष्ठभूमि"
-
-#: schema/katestyletreewidget.cpp:135
-msgid "Use Default Style"
-msgstr "मूलभूत शैली इस्तेमाल करू"
-
-#: schema/katestyletreewidget.cpp:223
-msgid "&Bold"
-msgstr "गाढ़ा (&B)"
-
-#: schema/katestyletreewidget.cpp:228
-msgid "&Italic"
-msgstr "तिरछा (&I)"
-
-#: schema/katestyletreewidget.cpp:233
-msgid "&Underline"
-msgstr "रेखांकित करु (&U)"
-
-#: schema/katestyletreewidget.cpp:238
-msgid "S&trikeout"
-msgstr "लिखकए-काटू (&t)"
-
-#: schema/katestyletreewidget.cpp:245
-msgid "Normal &Color..."
-msgstr "सामान्य रंग (&C)"
-
-#: schema/katestyletreewidget.cpp:248
-msgid "&Selected Color..."
-msgstr "चुनल गेल रंग (&S)"
-
-#: schema/katestyletreewidget.cpp:251
-msgid "&Background Color..."
-msgstr "पृष्ठभूमि रंग... (&B)"
-
-#: schema/katestyletreewidget.cpp:254
-msgid "S&elected Background Color..."
-msgstr "चयनित पृष्ठभूमि क' रंग... (&e)"
-
-#: schema/katestyletreewidget.cpp:266
-msgid "Unset Background Color"
-msgstr "पृष्ठभूमि क' रंग अनसेट करू"
-
-#: schema/katestyletreewidget.cpp:270
-msgid "Unset Selected Background Color"
-msgstr "चयनित पृष्ठभूमि रंग अनसेट करू"
-
-#: schema/katestyletreewidget.cpp:277
-msgid "Use &Default Style"
-msgstr "मूलभूत शैली इस्तेमाल करू (&D)"
-
-#: schema/katestyletreewidget.cpp:389
-#, fuzzy
-#| msgctxt "No text or background colour set"
-#| msgid "None set"
-msgctxt "No text or background color set"
-msgid "None set"
-msgstr "कोनो सेट नहि"
-
-#: schema/katestyletreewidget.cpp:603
-msgid ""
-"\"Use Default Style\" will be automatically unset when you change any style "
-"properties."
-msgstr "\"मूलभूत शैली इस्तेमाल करू\" स्वचलित अनसेट हाएत जखन अहाँ कोनो शैली गुण बदलब"
-
-#: schema/katestyletreewidget.cpp:604
-msgid "Kate Styles"
-msgstr "के-एटीई शैलीसभ"
 
 #. i18n: file: data/katepartsimpleui.rc:4
 #. i18n: ectx: Menu (file)

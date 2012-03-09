@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_magnet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-27 03:40+0100\n"
+"POT-Creation-Date: 2012-03-09 03:48+0100\n"
 "PO-Revision-Date: 2010-09-24 13:07+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: dbushandler.cpp:98
+#: dbushandler.cpp:96
 msgid ""
-"The Web share for magnet-links is disabled.         You can set it up at "
-"settings:/network-and-connectivity/sharing"
+"The Web share for magnet-links is disabled. You can set it up at settings:/"
+"network-and-connectivity/sharing"
 msgstr ""
 
-#: dbushandler.cpp:122
+#: dbushandler.cpp:120
 msgid ""
 "Cannot start process for KTorrent.                           This should not "
 "happen, even if KTorrent is not installed.                           Check "
 "your machines resources and limits."
 msgstr ""
 
-#: dbushandler.cpp:160
+#: dbushandler.cpp:158
 #, kde-format
 msgid ""
 "Could not connect to KTorrent via DBus                                     "
 "after %1 seconds. Is it broken?"
 msgstr ""
 
-#: dbushandler.cpp:182
+#: dbushandler.cpp:180
 msgid ""
 "Could not get the group list, do you have a compatible KTorrent version "
 "running?"
@@ -49,29 +49,43 @@ msgstr ""
 msgid "The link for %1 does not contain the required btih hash-parameter."
 msgstr ""
 
-#: dbushandler.cpp:344
+#: dbushandler.cpp:345
 #, kde-format
 msgid "The found value (%1) for the hash is neither 32 nor 40 chars long."
 msgstr ""
 
-#: dbushandler.cpp:630
+#: dbushandler.cpp:624
 msgid "Torrent has been removed from KTorrent."
 msgstr ""
 
-#: kio_magnet.cpp:276 kio_magnet.cpp:375 kio_magnet.cpp:409
+#: kio_magnet.cpp:294
+#, kde-format
+msgid ""
+"File exists in KTorrent, but cannot open it on disk at path\"%1\". Have you "
+"removed thefile manually?"
+msgstr ""
+
+#: kio_magnet.cpp:375
+msgid "You cannot write to magnet resources."
+msgstr ""
+
+#: kio_magnet.cpp:395
+#, kde-format
+msgid ""
+"File exists in KTorrent, but cannot open it on disk at path\"%1\". Have you "
+"removed the file manually?"
+msgstr ""
+
+#: kio_magnet.cpp:403
+#, kde-format
+msgid "File \"%1\" is a directory. This should not happen. Please file a bug."
+msgstr ""
+
+#: kio_magnet.cpp:429
 #, kde-format
 msgid ""
 "File exists in KTorrent, but cannot open it on disk at path \"%1\". Have you "
 "removed the file manually?"
-msgstr ""
-
-#: kio_magnet.cpp:355
-msgid "You cannot write to magnet resources."
-msgstr ""
-
-#: kio_magnet.cpp:383
-#, kde-format
-msgid "File \"%1\" is a directory. This should not happen. Please file a bug."
 msgstr ""
 
 #. i18n: file: magnetsettings.kcfg:10
