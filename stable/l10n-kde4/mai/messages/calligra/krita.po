@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-06 11:17+0200\n"
+"POT-Creation-Date: 2012-04-13 11:33+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1285,7 +1285,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/bracketing2hdr/wdgbracketing2hdr.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:80 ui/kis_view2.cpp:500
+#: rc.cpp:80 ui/kis_view2.cpp:502
 msgid "Cancel"
 msgstr "रद करू"
 
@@ -10928,8 +10928,12 @@ msgstr "चयन बढाउ"
 msgid "Image Docker"
 msgstr "रंग-पट्टिका"
 
-#: plugins/extensions/dockers/smallcolorselector/smallcolorselector_dock.cc:38
+#: plugins/extensions/dockers/smallcolorselector/smallcolorselector_dock.cc:45
 msgid "Small Color Selector"
+msgstr ""
+
+#: plugins/extensions/dockers/specificcolorselector/specificcolorselector_dock.cc:31
+msgid "Specific Color Selector"
 msgstr ""
 
 #: plugins/extensions/dockers/specificcolorselector/kis_color_input.cc:47
@@ -10942,10 +10946,6 @@ msgstr ""
 #| msgid "Color Picker"
 msgid "Color name:"
 msgstr "रंग चयनक"
-
-#: plugins/extensions/dockers/specificcolorselector/specificcolorselector_dock.cc:31
-msgid "Specific Color Selector"
-msgstr ""
 
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:81
 msgid "Task Sets"
@@ -13804,7 +13804,7 @@ msgid "&Patterns"
 msgstr "प्रारूप (&P)"
 
 #: ui/kis_control_frame.cpp:87 ui/kis_control_frame.cpp:88
-#: ui/kis_control_frame.cpp:192
+#: ui/kis_control_frame.cpp:193
 msgid "Gradients"
 msgstr "ढाल"
 
@@ -13812,19 +13812,19 @@ msgstr "ढाल"
 msgid "&Gradients"
 msgstr ""
 
-#: ui/kis_control_frame.cpp:100
+#: ui/kis_control_frame.cpp:101
 msgid "&Color"
 msgstr "रंग (&C)"
 
-#: ui/kis_control_frame.cpp:118
+#: ui/kis_control_frame.cpp:119
 msgid "&Painter's Tools"
 msgstr ""
 
-#: ui/kis_control_frame.cpp:152
+#: ui/kis_control_frame.cpp:153
 msgid "Patterns"
 msgstr "नमूना"
 
-#: ui/kis_control_frame.cpp:155 ui/kis_control_frame.cpp:157
+#: ui/kis_control_frame.cpp:156 ui/kis_control_frame.cpp:158
 msgid "Custom Pattern"
 msgstr ""
 
@@ -14293,23 +14293,6 @@ msgstr ""
 msgid "No profile"
 msgstr ""
 
-#: ui/kis_zoom_manager.cc:89
-msgid "Show Rulers"
-msgstr ""
-
-#: ui/kis_zoom_manager.cc:91
-msgid ""
-"The rulers show the horizontal and vertical positions of the mouse on the "
-"image and can be used to position your mouse at the right place on the "
-"canvas. <p>Uncheck this to hide the rulers."
-msgstr ""
-
-#: ui/kis_zoom_manager.cc:95
-#, fuzzy
-#| msgid "Deselect"
-msgid "Reset zoom"
-msgstr "अचयनित"
-
 #: ui/kisexiv2/kis_iptc_io.h:36
 msgid "Iptc"
 msgstr ""
@@ -14526,35 +14509,52 @@ msgstr ""
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:453
+#: ui/kis_view2.cpp:455
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Pasted Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_view2.cpp:491
+#: ui/kis_view2.cpp:493
 msgid "Insert as New Layer"
 msgstr ""
 
-#: ui/kis_view2.cpp:492
+#: ui/kis_view2.cpp:494
 msgid "Insert as New Layers"
 msgstr ""
 
-#: ui/kis_view2.cpp:494
+#: ui/kis_view2.cpp:496
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:495
+#: ui/kis_view2.cpp:497
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view2.cpp:711
+#: ui/kis_view2.cpp:713
 msgid "Edit Palette..."
 msgstr ""
 
-#: ui/kis_view2.cpp:839 ui/kis_view2.cpp:842
+#: ui/kis_view2.cpp:841 ui/kis_view2.cpp:844
 msgid "Edit Palette"
 msgstr "पैलेट संपादित करू"
+
+#: ui/kis_zoom_manager.cc:89
+msgid "Show Rulers"
+msgstr ""
+
+#: ui/kis_zoom_manager.cc:91
+msgid ""
+"The rulers show the horizontal and vertical positions of the mouse on the "
+"image and can be used to position your mouse at the right place on the "
+"canvas. <p>Uncheck this to hide the rulers."
+msgstr ""
+
+#: ui/kis_zoom_manager.cc:95
+#, fuzzy
+#| msgid "Deselect"
+msgid "Reset zoom"
+msgstr "अचयनित"
 
 #, fuzzy
 #~| msgid "TIFF Options"
