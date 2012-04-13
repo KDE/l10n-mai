@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_htmlexport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 03:44+0200\n"
+"POT-Creation-Date: 2012-04-13 02:43+0200\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -20,285 +20,281 @@ msgstr ""
 "\n"
 "\n"
 
-#: wizard.cpp:170
+#: generator.cpp:152
+#, kde-format
+msgid "Could not find theme in '%1'"
+msgstr ""
+
+#: generator.cpp:160
+msgid "Copying theme"
+msgstr ""
+
+#: generator.cpp:174
+msgid "Could not copy theme"
+msgstr ""
+
+#: generator.cpp:200
+#, kde-format
+msgid "Downloading remote files for \"%1\""
+msgstr ""
+
+#: generator.cpp:218
+msgid "Could not open temporary file"
+msgstr ""
+
+#: generator.cpp:229
+#, kde-format
+msgid "Could not download %1"
+msgstr ""
+
+#: generator.cpp:249
+msgid "Could not create gallery.xml"
+msgstr ""
+
+#: generator.cpp:293
+#, kde-format
+msgid "Generating files for \"%1\""
+msgstr ""
+
+#: generator.cpp:328
+msgid "Previous"
+msgstr "पछिला"
+
+#: generator.cpp:329
+msgid "Next"
+msgstr "अगिला"
+
+#: generator.cpp:330
+msgid "Collection List"
+msgstr ""
+
+#: generator.cpp:331
+msgid "Original Image"
+msgstr ""
+
+#: generator.cpp:332
+msgid "Go Up"
+msgstr ""
+
+#: generator.cpp:334
+msgid "Make"
+msgstr ""
+
+#: generator.cpp:335
+msgid "Model"
+msgstr ""
+
+#: generator.cpp:336
+msgid "Image Orientation"
+msgstr ""
+
+#: generator.cpp:337
+msgid "Image X Resolution"
+msgstr ""
+
+#: generator.cpp:338
+msgid "Image Y Resolution"
+msgstr ""
+
+#: generator.cpp:339
+msgid "Image Resolution Unit"
+msgstr ""
+
+#: generator.cpp:340
+msgid "Image Date Time"
+msgstr ""
+
+#: generator.cpp:341
+msgid "YCBCR Positioning"
+msgstr ""
+
+#: generator.cpp:342
+msgid "Exposure Time"
+msgstr ""
+
+#: generator.cpp:343
+msgid "F Number"
+msgstr ""
+
+#: generator.cpp:344
+msgid "Exposure Index"
+msgstr ""
+
+#: generator.cpp:345
+msgid "ISO Speed Ratings"
+msgstr ""
+
+#: generator.cpp:346
+msgid "Shutter Speed Value"
+msgstr ""
+
+#: generator.cpp:347
+msgid "Aperture Value"
+msgstr ""
+
+#: generator.cpp:348
+msgid "Focal Length"
+msgstr ""
+
+#: generator.cpp:349
+msgid "GPS Altitude"
+msgstr ""
+
+#: generator.cpp:350
+msgid "GPS Latitude"
+msgstr ""
+
+#: generator.cpp:351
+msgid "GPS Longitude"
+msgstr ""
+
+#: generator.cpp:380
+msgid "Generating HTML files"
+msgstr ""
+
+#: generator.cpp:387
+#, kde-format
+msgid "Could not load XSL file '%1'"
+msgstr ""
+
+#: generator.cpp:394
+#, kde-format
+msgid "Could not load XML file '%1'"
+msgstr ""
+
+#: generator.cpp:428
+msgid "Error processing XML file"
+msgstr ""
+
+#: generator.cpp:436 generator.cpp:443
+#, kde-format
+msgid "Could not open '%1' for writing"
+msgstr ""
+
+#: generator.cpp:463
+#, kde-format
+msgid "Could not create folder '%1' in '%2'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:98
+#, kde-format
+msgid "Could not read image '%1'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:114
+#, kde-format
+msgid "Error loading RAW image '%1'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:123
+#, kde-format
+msgid "Format of image '%1' is unknown"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:133
+#, kde-format
+msgid "Error loading image '%1'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:178
+#, kde-format
+msgid "Could not save image '%1' to '%2'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:202
+#, kde-format
+msgid "Could not save thumbnail for image '%1' to '%2'"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:211
+msgid "unavailable"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:400
+#, kde-format
+msgid "Could not open file '%1' for writing"
+msgstr ""
+
+#: imagegenerationfunctor.cpp:405
+#, kde-format
+msgid "Could not save image to file '%1'"
+msgstr ""
+
+#: plugin_htmlexport.cpp:81
+msgid "Export to &HTML..."
+msgstr ""
+
+#: plugin_htmlexport.cpp:107
+msgid "Generating gallery..."
+msgstr ""
+
+#: plugin_htmlexport.cpp:119
+msgid "Finished, but some warnings occurred."
+msgstr ""
+
+#: wizard.cpp:194
 #, kde-format
 msgctxt "'%1' is a label for a theme parameter"
 msgid "%1:"
 msgstr ""
 
-#: wizard.cpp:206
+#: wizard.cpp:233
 msgid "Export image collections to HTML pages"
 msgstr ""
 
-#: wizard.cpp:212
+#: wizard.cpp:239
 msgid "HTML Export"
 msgstr "एचटीएमएल निर्यात"
 
-#: wizard.cpp:215
+#: wizard.cpp:242
 msgid "A KIPI plugin to export image collections to HTML pages"
 msgstr ""
 
-#: wizard.cpp:216
+#: wizard.cpp:243
 msgid ""
 "(c) 2006-2009, Aurelien Gateau\n"
 "(c) 2010, Gianluca Urgese"
 msgstr ""
 
-#: wizard.cpp:220
+#: wizard.cpp:247
 msgid "Gianluca Urgese"
 msgstr ""
 
-#: wizard.cpp:221
+#: wizard.cpp:248
 msgid "Maintainer"
 msgstr ""
 
-#: wizard.cpp:225
+#: wizard.cpp:252
 msgid "Aurelien Gateau"
 msgstr ""
 
-#: wizard.cpp:226
+#: wizard.cpp:253
 msgid "Former Author and Maintainer"
 msgstr ""
 
-#: wizard.cpp:234
-msgid "Handbook"
-msgstr ""
-
-#: wizard.cpp:243
+#: wizard.cpp:262
 msgid "Collection Selection"
 msgstr ""
 
-#: wizard.cpp:248
+#: wizard.cpp:267
 msgid "Theme"
 msgstr "प्रसंग"
 
-#: wizard.cpp:253
+#: wizard.cpp:272
 msgid "Theme Parameters"
 msgstr ""
 
-#: wizard.cpp:255
+#: wizard.cpp:274
 msgid "Image Settings"
 msgstr ""
 
-#: wizard.cpp:257
+#: wizard.cpp:276
 msgid "Output"
 msgstr "आउटपुट"
 
-#: wizard.cpp:314
+#: wizard.cpp:335
 #, kde-format
 msgid "Author: %1"
-msgstr ""
-
-#: generator.cpp:148
-#, kde-format
-msgid "Could not find theme in '%1'"
-msgstr ""
-
-#: generator.cpp:156
-msgid "Copying theme"
-msgstr ""
-
-#: generator.cpp:170
-msgid "Could not copy theme"
-msgstr ""
-
-#: generator.cpp:196
-#, kde-format
-msgid "Downloading remote files for \"%1\""
-msgstr ""
-
-#: generator.cpp:214
-msgid "Could not open temporary file"
-msgstr ""
-
-#: generator.cpp:225
-#, kde-format
-msgid "Could not download %1"
-msgstr ""
-
-#: generator.cpp:245
-msgid "Could not create gallery.xml"
-msgstr ""
-
-#: generator.cpp:289
-#, kde-format
-msgid "Generating files for \"%1\""
-msgstr ""
-
-#: generator.cpp:324
-msgid "Previous"
-msgstr "पछिला"
-
-#: generator.cpp:325
-msgid "Next"
-msgstr "अगिला"
-
-#: generator.cpp:326
-msgid "Collection List"
-msgstr ""
-
-#: generator.cpp:327
-msgid "Original Image"
-msgstr ""
-
-#: generator.cpp:328
-msgid "Go Up"
-msgstr ""
-
-#: generator.cpp:330
-msgid "Make"
-msgstr ""
-
-#: generator.cpp:331
-msgid "Model"
-msgstr ""
-
-#: generator.cpp:332
-msgid "Image Orientation"
-msgstr ""
-
-#: generator.cpp:333
-msgid "Image X Resolution"
-msgstr ""
-
-#: generator.cpp:334
-msgid "Image Y Resolution"
-msgstr ""
-
-#: generator.cpp:335
-msgid "Image Resolution Unit"
-msgstr ""
-
-#: generator.cpp:336
-msgid "Image Date Time"
-msgstr ""
-
-#: generator.cpp:337
-msgid "YCBCR Positioning"
-msgstr ""
-
-#: generator.cpp:338
-msgid "Exposure Time"
-msgstr ""
-
-#: generator.cpp:339
-msgid "F Number"
-msgstr ""
-
-#: generator.cpp:340
-msgid "Exposure Index"
-msgstr ""
-
-#: generator.cpp:341
-msgid "ISO Speed Ratings"
-msgstr ""
-
-#: generator.cpp:342
-msgid "Shutter Speed Value"
-msgstr ""
-
-#: generator.cpp:343
-msgid "Aperture Value"
-msgstr ""
-
-#: generator.cpp:344
-msgid "Focal Length"
-msgstr ""
-
-#: generator.cpp:345
-msgid "GPS Altitude"
-msgstr ""
-
-#: generator.cpp:346
-msgid "GPS Latitude"
-msgstr ""
-
-#: generator.cpp:347
-msgid "GPS Longitude"
-msgstr ""
-
-#: generator.cpp:376
-msgid "Generating HTML files"
-msgstr ""
-
-#: generator.cpp:383
-#, kde-format
-msgid "Could not load XSL file '%1'"
-msgstr ""
-
-#: generator.cpp:390
-#, kde-format
-msgid "Could not load XML file '%1'"
-msgstr ""
-
-#: generator.cpp:424
-msgid "Error processing XML file"
-msgstr ""
-
-#: generator.cpp:432 generator.cpp:439
-#, kde-format
-msgid "Could not open '%1' for writing"
-msgstr ""
-
-#: generator.cpp:459
-#, kde-format
-msgid "Could not create folder '%1' in '%2'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:95
-#, kde-format
-msgid "Could not read image '%1'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:111
-#, kde-format
-msgid "Error loading RAW image '%1'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:120
-#, kde-format
-msgid "Format of image '%1' is unknown"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:130
-#, kde-format
-msgid "Error loading image '%1'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:175
-#, kde-format
-msgid "Could not save image '%1' to '%2'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:199
-#, kde-format
-msgid "Could not save thumbnail for image '%1' to '%2'"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:208
-msgid "unavailable"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:397
-#, kde-format
-msgid "Could not open file '%1' for writing"
-msgstr ""
-
-#: imagegenerationfunctor.cpp:402
-#, kde-format
-msgid "Could not save image to file '%1'"
-msgstr ""
-
-#: plugin_htmlexport.cpp:78
-msgid "Export to &HTML..."
-msgstr ""
-
-#: plugin_htmlexport.cpp:104
-msgid "Generating gallery..."
-msgstr ""
-
-#: plugin_htmlexport.cpp:116
-msgid "Finished, but some warnings occurred."
 msgstr ""
 
 #: rc.cpp:1
