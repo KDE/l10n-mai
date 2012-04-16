@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-13 11:33+0200\n"
+"POT-Creation-Date: 2012-04-16 10:47+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1285,7 +1285,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/bracketing2hdr/wdgbracketing2hdr.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:80 ui/kis_view2.cpp:502
+#: rc.cpp:80 ui/kis_view2.cpp:498
 msgid "Cancel"
 msgstr "रद करू"
 
@@ -14449,6 +14449,23 @@ msgstr ""
 msgid "Share Color Profile"
 msgstr ""
 
+#: ui/kis_zoom_manager.cc:89
+msgid "Show Rulers"
+msgstr ""
+
+#: ui/kis_zoom_manager.cc:91
+msgid ""
+"The rulers show the horizontal and vertical positions of the mouse on the "
+"image and can be used to position your mouse at the right place on the "
+"canvas. <p>Uncheck this to hide the rulers."
+msgstr ""
+
+#: ui/kis_zoom_manager.cc:95
+#, fuzzy
+#| msgid "Deselect"
+msgid "Reset zoom"
+msgstr "अचयनित"
+
 #: ui/kis_view2.cpp:265
 #, fuzzy
 #| msgid "Incremental"
@@ -14471,90 +14488,72 @@ msgstr ""
 
 #: ui/kis_view2.cpp:291
 #, fuzzy
-#| msgid "Tutorials"
-msgid "Load Tutorial"
-msgstr "शिक्षण पाठ"
-
-#: ui/kis_view2.cpp:295
-#, fuzzy
 #| msgid "Crop Image"
 msgid "Mirror Image"
 msgstr "चित्र काटू"
 
-#: ui/kis_view2.cpp:301
+#: ui/kis_view2.cpp:297
 msgid "Rotate Canvas Right"
 msgstr ""
 
-#: ui/kis_view2.cpp:306
+#: ui/kis_view2.cpp:302
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rotate Canvas Left"
 msgstr "परत घुमाबू"
 
-#: ui/kis_view2.cpp:311
+#: ui/kis_view2.cpp:307
 #, fuzzy
 #| msgid "Transform"
 msgid "Reset Canvas Transformations"
 msgstr "रूपांतरित करू"
 
-#: ui/kis_view2.cpp:316
+#: ui/kis_view2.cpp:312
 msgid "Show Status Bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:317
+#: ui/kis_view2.cpp:313
 msgid "Hide Status Bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:319
+#: ui/kis_view2.cpp:315
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:455
+#: ui/kis_view2.cpp:451
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Pasted Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_view2.cpp:493
+#: ui/kis_view2.cpp:489
 msgid "Insert as New Layer"
 msgstr ""
 
-#: ui/kis_view2.cpp:494
+#: ui/kis_view2.cpp:490
 msgid "Insert as New Layers"
 msgstr ""
 
-#: ui/kis_view2.cpp:496
+#: ui/kis_view2.cpp:492
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:497
+#: ui/kis_view2.cpp:493
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view2.cpp:713
+#: ui/kis_view2.cpp:709
 msgid "Edit Palette..."
 msgstr ""
 
-#: ui/kis_view2.cpp:841 ui/kis_view2.cpp:844
+#: ui/kis_view2.cpp:837 ui/kis_view2.cpp:840
 msgid "Edit Palette"
 msgstr "पैलेट संपादित करू"
 
-#: ui/kis_zoom_manager.cc:89
-msgid "Show Rulers"
-msgstr ""
-
-#: ui/kis_zoom_manager.cc:91
-msgid ""
-"The rulers show the horizontal and vertical positions of the mouse on the "
-"image and can be used to position your mouse at the right place on the "
-"canvas. <p>Uncheck this to hide the rulers."
-msgstr ""
-
-#: ui/kis_zoom_manager.cc:95
 #, fuzzy
-#| msgid "Deselect"
-msgid "Reset zoom"
-msgstr "अचयनित"
+#~| msgid "Tutorials"
+#~ msgid "Load Tutorial"
+#~ msgstr "शिक्षण पाठ"
 
 #, fuzzy
 #~| msgid "TIFF Options"
