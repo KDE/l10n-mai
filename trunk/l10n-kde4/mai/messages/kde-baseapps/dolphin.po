@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-14 04:18+0200\n"
+"POT-Creation-Date: 2012-04-16 03:42+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -600,39 +600,6 @@ msgctxt "@title:window"
 msgid "Configure Preview for %1"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:49
-#, fuzzy
-#| msgctxt "@title:group"
-#| msgid "View Properties"
-msgctxt "@label"
-msgid "View properties:"
-msgstr "गुण देखू"
-
-#: settings/general/behaviorsettingspage.cpp:53
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "प्रत्येक फोल्डर क' लेल दृश्य गुणसभकेँ याद राखू"
-
-#: settings/general/behaviorsettingspage.cpp:54
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "सभटा फोल्डरसभ क' लेल सामान्य दृश्य गुणसभ क' इस्तेमाल करू"
-
-#: settings/general/behaviorsettingspage.cpp:61
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "टूलटिप देखाबू"
-
-#: settings/general/behaviorsettingspage.cpp:64
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "चयन मार्कर देखाबू"
-
-#: settings/general/behaviorsettingspage.cpp:67
-msgctxt "option:check"
-msgid "Natural sorting of items"
-msgstr ""
-
 #: settings/general/confirmationssettingspage.cpp:44
 #, fuzzy
 #| msgctxt "@title:group"
@@ -712,6 +679,44 @@ msgstr ""
 #: settings/general/statusbarsettingspage.cpp:36
 msgctxt "@option:check"
 msgid "Show space information"
+msgstr ""
+
+#: settings/general/behaviorsettingspage.cpp:50
+#, fuzzy
+#| msgid "&View"
+msgctxt "@title:group"
+msgid "View"
+msgstr "दृश्य (&V)"
+
+#: settings/general/behaviorsettingspage.cpp:53
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Remember view properties for each folder"
+msgctxt "@option:radio"
+msgid "Remember properties for each folder"
+msgstr "प्रत्येक फोल्डर क' लेल दृश्य गुणसभकेँ याद राखू"
+
+#: settings/general/behaviorsettingspage.cpp:54
+#, fuzzy
+#| msgctxt "@option:radio"
+#| msgid "Use common view properties for all folders"
+msgctxt "@option:radio"
+msgid "Use common properties for all folders"
+msgstr "सभटा फोल्डरसभ क' लेल सामान्य दृश्य गुणसभ क' इस्तेमाल करू"
+
+#: settings/general/behaviorsettingspage.cpp:61
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "टूलटिप देखाबू"
+
+#: settings/general/behaviorsettingspage.cpp:64
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "चयन मार्कर देखाबू"
+
+#: settings/general/behaviorsettingspage.cpp:67
+msgctxt "option:check"
+msgid "Natural sorting of items"
 msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:58
@@ -1184,58 +1189,6 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
-#: statusbar/dolphinstatusbar.cpp:63
-#, fuzzy
-#| msgid "Show tooltips"
-msgid "Zoom slider"
-msgstr "टूलटिप देखाबू"
-
-#: statusbar/dolphinstatusbar.cpp:76
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "Stop"
-msgstr "रोकू"
-
-#: statusbar/dolphinstatusbar.cpp:78
-#, fuzzy
-#| msgctxt "@label:listbox"
-#| msgid "Sorting:"
-msgctxt "@tooltip"
-msgid "Stop loading"
-msgstr "छाँटल जाए रहल अछि:"
-
-#: statusbar/dolphinstatusbar.cpp:226
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Copy"
-msgctxt "@action:inmenu"
-msgid "Copy Text"
-msgstr "कापी करू"
-
-#: statusbar/dolphinstatusbar.cpp:227
-#, fuzzy
-#| msgid "Show tooltips"
-msgctxt "@action:inmenu"
-msgid "Show Zoom Slider"
-msgstr "टूलटिप देखाबू"
-
-#: statusbar/dolphinstatusbar.cpp:231
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Information"
-msgctxt "@action:inmenu"
-msgid "Show Space Information"
-msgstr "सूचना"
-
-#: statusbar/dolphinstatusbar.cpp:308
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] ""
-msgstr[1] ""
-
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1246,6 +1199,58 @@ msgstr "अज्ञात आकार"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 मुक्त"
+
+#: statusbar/dolphinstatusbar.cpp:69
+#, fuzzy
+#| msgid "Show tooltips"
+msgid "Zoom slider"
+msgstr "टूलटिप देखाबू"
+
+#: statusbar/dolphinstatusbar.cpp:82
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "Stop"
+msgstr "रोकू"
+
+#: statusbar/dolphinstatusbar.cpp:84
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Sorting:"
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "छाँटल जाए रहल अछि:"
+
+#: statusbar/dolphinstatusbar.cpp:257
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr "कापी करू"
+
+#: statusbar/dolphinstatusbar.cpp:258
+#, fuzzy
+#| msgid "Show tooltips"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "टूलटिप देखाबू"
+
+#: statusbar/dolphinstatusbar.cpp:262
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "सूचना"
+
+#: statusbar/dolphinstatusbar.cpp:345
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] ""
+msgstr[1] ""
 
 #: views/dolphinview.cpp:517
 #, kde-format
@@ -2626,6 +2631,13 @@ msgstr "विचयनित करू"
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title:group"
+#~| msgid "View Properties"
+#~ msgctxt "@label"
+#~ msgid "View properties:"
+#~ msgstr "गुण देखू"
 
 #, fuzzy
 #~| msgctxt "@title:window"
