@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-16 03:15+0200\n"
+"POT-Creation-Date: 2012-04-17 03:38+0200\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -8667,48 +8667,6 @@ msgid ""
 "during the scan."
 msgstr ""
 
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:86
-msgid ""
-"Cannot conntect to iPhone or iPad. More information is available in the "
-"Amarok debug log."
-msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:103
-#: core-impl/collections/umscollection/UmsCollection.cpp:235
-#, fuzzy
-#| msgctxt "change options"
-#| msgid "Configure %1"
-msgid "&Configure Device"
-msgstr "कान्फिगर करू %1"
-
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:107
-#: core-impl/collections/umscollection/UmsCollection.cpp:243
-msgid "&Eject Device"
-msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:424
-msgctxt "iPod was successfully initialized"
-msgid "Initialization successful."
-msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:624
-#, kde-format
-msgctxt "%1: iPod collection name"
-msgid "iTunes database successfully written to %1"
-msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:632
-#, kde-format
-msgctxt "%1: iPod collection name"
-msgid "Writing iTunes database to %1 failed without an indication of error"
-msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:636
-#, kde-format
-msgctxt "%1: iPod collection name, %2: technical error from libgpod"
-msgid "Writing iTunes database to %1 failed: %2"
-msgstr ""
-
 #: core-impl/collections/ipodcollection/IpodCollectionLocation.cpp:48
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:351
 msgid "Disconnected iPod/iPad/iPhone"
@@ -8721,51 +8679,20 @@ msgstr ""
 msgid "Unknown Collection"
 msgstr "कनेक्शन"
 
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:36
-msgid "Re-add orphaned and forget stale tracks"
-msgstr ""
+#: core-impl/collections/ipodcollection/jobs/IpodDeleteTracksJob.cpp:40
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgid "Removing one track from iPod"
+msgid_plural "Removing %1 tracks from iPod"
+msgstr[0] "हटाबू"
+msgstr[1] "हटाबू"
 
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:232
+#: core-impl/collections/ipodcollection/jobs/IpodParseTracksJob.cpp:42
 #, fuzzy
 #| msgid "Remove"
-msgctxt "iPod playlist name"
-msgid "Stale tracks"
+msgctxt "operation when iPod is connected"
+msgid "Reading iPod tracks"
 msgstr "हटाबू"
-
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:241
-#, fuzzy
-#| msgid "&Thanks To"
-msgctxt "iPod playlist name"
-msgid "Orphaned tracks"
-msgstr "हिनका धन्यवाद (&T)"
-
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:264
-#, kde-format
-msgid ""
-"Stale and/or orphaned tracks detected on %1. You can go to Saved Playlists "
-"to add orphaned tracks back to iTunes database and to remove stale entries."
-msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:381
-msgid ""
-"Failed to process one track. (more info about it is in the Amarok debugging "
-"log)"
-msgid_plural ""
-"Failed to process %4 tracks. (more info about these is in the Amarok "
-"debugging log)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:386
-#, kde-format
-msgctxt ""
-"Infrequently displayed message, don't bother with singlar forms. %1 to %3 "
-"are numbers, %4 is the 'Failed to process ...' sentence or an empty string."
-msgid ""
-"Done consolidating iPod files. %1 orphaned tracks matched with stale iTunes "
-"database entries, %2 stale database entries removed, %3 orphaned tracks "
-"added back to the iTunes database. %4"
-msgstr ""
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:66
 #, fuzzy, kde-format
@@ -8832,8 +8759,10 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:360
-msgid "Trasfer of tracks failed."
-msgstr ""
+#, fuzzy
+#| msgid "Remove"
+msgid "Transfer of tracks failed."
+msgstr "हटाबू"
 
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:365
 #, kde-format
@@ -8883,21 +8812,6 @@ msgstr ""
 #: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:401
 msgid "The rest was not transferred because iPod collection disappeared.<br>"
 msgstr ""
-
-#: core-impl/collections/ipodcollection/jobs/IpodDeleteTracksJob.cpp:40
-#, fuzzy, kde-format
-#| msgid "Remove"
-msgid "Removing one track from iPod"
-msgid_plural "Removing %1 tracks from iPod"
-msgstr[0] "हटाबू"
-msgstr[1] "हटाबू"
-
-#: core-impl/collections/ipodcollection/jobs/IpodParseTracksJob.cpp:42
-#, fuzzy
-#| msgid "Remove"
-msgctxt "operation when iPod is connected"
-msgid "Reading iPod tracks"
-msgstr "हटाबू"
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:45
 msgid "Cannot parse iTunes database due to an unreported error."
@@ -9026,6 +8940,94 @@ msgstr ""
 
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:445
 msgid "Cannot initialize iPod due to an unreported error."
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:86
+msgid ""
+"Cannot connect to iPhone or iPad. More information is available in the "
+"Amarok debug log."
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:103
+#: core-impl/collections/umscollection/UmsCollection.cpp:235
+#, fuzzy
+#| msgctxt "change options"
+#| msgid "Configure %1"
+msgid "&Configure Device"
+msgstr "कान्फिगर करू %1"
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:107
+#: core-impl/collections/umscollection/UmsCollection.cpp:243
+msgid "&Eject Device"
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:424
+msgctxt "iPod was successfully initialized"
+msgid "Initialization successful."
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:624
+#, kde-format
+msgctxt "%1: iPod collection name"
+msgid "iTunes database successfully written to %1"
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:632
+#, kde-format
+msgctxt "%1: iPod collection name"
+msgid "Writing iTunes database to %1 failed without an indication of error"
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:636
+#, kde-format
+msgctxt "%1: iPod collection name, %2: technical error from libgpod"
+msgid "Writing iTunes database to %1 failed: %2"
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:36
+msgid "Re-add orphaned and forget stale tracks"
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:232
+#, fuzzy
+#| msgid "Remove"
+msgctxt "iPod playlist name"
+msgid "Stale tracks"
+msgstr "हटाबू"
+
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:241
+#, fuzzy
+#| msgid "&Thanks To"
+msgctxt "iPod playlist name"
+msgid "Orphaned tracks"
+msgstr "हिनका धन्यवाद (&T)"
+
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:264
+#, kde-format
+msgid ""
+"Stale and/or orphaned tracks detected on %1. You can go to Saved Playlists "
+"to add orphaned tracks back to iTunes database and to remove stale entries."
+msgstr ""
+
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:381
+msgid ""
+"Failed to process one track. (more info about it is in the Amarok debugging "
+"log)"
+msgid_plural ""
+"Failed to process %4 tracks. (more info about these is in the Amarok "
+"debugging log)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:386
+#, kde-format
+msgctxt ""
+"Infrequently displayed message, don't bother with singlar forms. %1 to %3 "
+"are numbers, %4 is the 'Failed to process ...' sentence or an empty string."
+msgid ""
+"Done consolidating iPod files. %1 orphaned tracks matched with stale iTunes "
+"database entries, %2 stale database entries removed, %3 orphaned tracks "
+"added back to the iTunes database. %4"
 msgstr ""
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:315
