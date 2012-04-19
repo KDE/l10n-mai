@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-13 05:41+0100\n"
+"POT-Creation-Date: 2012-04-19 04:43+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -236,82 +236,6 @@ msgstr "ई मेनू मे एकटा नवीन  पसंदीदा
 msgid "Receiving corrupt data."
 msgstr "खराब डाटा प्राप्त कएल जाए रहल अछि."
 
-#: kfile/kfilemetadataprovider.cpp:223
-#, fuzzy, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "१ वस्तु"
-msgstr[1] "%1 वस्तु"
-
-#: kfile/kfilemetadataprovider.cpp:422 kfile/knfotranslator.cpp:40
-#, fuzzy
-#| msgid "Comment"
-msgctxt "@label"
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: kfile/kfilemetadataprovider.cpp:423
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified"
-msgstr "परिवर्धितः"
-
-#: kfile/kfilemetadataprovider.cpp:424
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "मालिक"
-
-#: kfile/kfilemetadataprovider.cpp:425
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "अनुमतिसभ"
-
-#: kfile/kfilemetadataprovider.cpp:426
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@label"
-msgid "Rating"
-msgstr "छाँटनाइ"
-
-#: kfile/kfilemetadataprovider.cpp:427
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "आकार"
-
-#: kfile/kfilemetadataprovider.cpp:428
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "रद्दी"
-
-#: kfile/kfilemetadataprovider.cpp:429
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "आकार:"
-
-#: kfile/kfilemetadataprovider.cpp:430
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "प्रकार"
-
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
 msgstr "<त्रुटि>"
@@ -389,6 +313,13 @@ msgid ""
 msgstr ""
 "फोल्डर '%1' क' साझा समाप्त करबाक कोसिस मे एकटा त्रुटि भेल. कृप्या सुनिश्चित करू जे "
 "'fileshareset' रूट मे सेट अछि."
+
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:423
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@label"
+msgid "Comment"
+msgstr "टिप्पणी"
 
 #: kfile/knfotranslator.cpp:41
 #, fuzzy
@@ -816,31 +747,31 @@ msgstr ""
 msgid "P&review"
 msgstr "पूर्वावलोकन (&r)"
 
-#: kfile/kfilemetadatareaderprocess.cpp:217
+#: kfile/kfilemetadatareaderprocess.cpp:237
 msgid "KFileMetaDataReader"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:219
+#: kfile/kfilemetadatareaderprocess.cpp:239
 msgid "KFileMetaDataReader can be used to read metadata from a file"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:221
+#: kfile/kfilemetadatareaderprocess.cpp:241
 msgid "(C) 2011, Peter Penz"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:222
+#: kfile/kfilemetadatareaderprocess.cpp:242
 msgid "Peter Penz"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:222
+#: kfile/kfilemetadatareaderprocess.cpp:242
 msgid "Current maintainer"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:228
+#: kfile/kfilemetadatareaderprocess.cpp:248
 msgid "Only the meta data that is part of the file is read"
 msgstr ""
 
-#: kfile/kfilemetadatareaderprocess.cpp:229
+#: kfile/kfilemetadatareaderprocess.cpp:249
 msgid "List of URLs where the meta-data should be read from"
 msgstr ""
 
@@ -1338,6 +1269,75 @@ msgstr "सिर्फ स्थानीय फाइल सिस्टम �
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "%1 क' लेल विस्तृत विकल्प "
+
+#: kfile/kfilemetadataprovider.cpp:223
+#, fuzzy, kde-format
+#| msgctxt "Items in a folder"
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "१ वस्तु"
+msgstr[1] "%1 वस्तु"
+
+#: kfile/kfilemetadataprovider.cpp:424
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "परिवर्धितः"
+
+#: kfile/kfilemetadataprovider.cpp:425
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "मालिक"
+
+#: kfile/kfilemetadataprovider.cpp:426
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "अनुमतिसभ"
+
+#: kfile/kfilemetadataprovider.cpp:427
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "छाँटनाइ"
+
+#: kfile/kfilemetadataprovider.cpp:428
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "आकार"
+
+#: kfile/kfilemetadataprovider.cpp:429
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "रद्दी"
+
+#: kfile/kfilemetadataprovider.cpp:430
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "आकार:"
+
+#: kfile/kfilemetadataprovider.cpp:431
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "प्रकार"
 
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
@@ -4768,29 +4768,11 @@ msgstr ""
 msgid "Got an invalid reply when calling %1"
 msgstr ""
 
-#: misc/kpac/proxyscout.cpp:224
-#, kde-format
-msgid ""
-"The proxy configuration script is invalid:\n"
-"%1"
-msgstr ""
-"प्राक्सी बिन्यास स्क्रिप्ट अवैध अछि:\n"
-"%1"
-
-#: misc/kpac/proxyscout.cpp:337
-#, kde-format
-msgid ""
-"The proxy configuration script returned an error:\n"
-"%1"
-msgstr ""
-"प्राक्सी बिन्यास स्क्रिप्ट एकटा त्रुटि घुरैलक:\n"
-"%1"
-
 #: misc/kpac/discovery.cpp:111
 msgid "Could not find a usable proxy configuration script"
 msgstr "उपयोग लायक प्राक्सी बिन्यास स्क्रिप्ट ढूँढि नहि सकल."
 
-#: misc/kpac/downloader.cpp:87
+#: misc/kpac/downloader.cpp:93
 #, kde-format
 msgid ""
 "Could not download the proxy configuration script:\n"
@@ -4799,9 +4781,27 @@ msgstr ""
 "प्राक्सी बिन्यास स्क्रिप्ट डाउनलोड नहि कए पएलक:\n"
 "%1"
 
-#: misc/kpac/downloader.cpp:89
+#: misc/kpac/downloader.cpp:95
 msgid "Could not download the proxy configuration script"
 msgstr "प्राक्सी बिन्यास स्क्रिप्ट डाउनलोड नहि कए सकल"
+
+#: misc/kpac/proxyscout.cpp:239
+#, kde-format
+msgid ""
+"The proxy configuration script is invalid:\n"
+"%1"
+msgstr ""
+"प्राक्सी बिन्यास स्क्रिप्ट अवैध अछि:\n"
+"%1"
+
+#: misc/kpac/proxyscout.cpp:351
+#, kde-format
+msgid ""
+"The proxy configuration script returned an error:\n"
+"%1"
+msgstr ""
+"प्राक्सी बिन्यास स्क्रिप्ट एकटा त्रुटि घुरैलक:\n"
+"%1"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -5596,11 +5596,11 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:3493
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5327
 msgid "You need to supply a username and a password to access this site."
 msgstr "ई साइट पर पहुँचबा क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द दिअ' पड़त."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:3495
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5329
 msgid "Site:"
 msgstr "साइट:"
 
@@ -5618,8 +5618,8 @@ msgstr "लागइन बेस"
 msgid "Could not login to %1."
 msgstr " %1 पर लागइन नहि भए सकल."
 
-#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:3505
-#: ../kioslave/http/http.cpp:5410
+#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5221
+#: ../kioslave/http/http.cpp:5339
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5627,19 +5627,19 @@ msgstr ""
 "एकरासँ पहिने जे अहाँक केओ साइट पर पहुँचक अनुमति देल जाए, नीच्चाँ सूची-बद्ध कएल प्राक्सी "
 "सर्वर क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द देनाइ हाएत."
 
-#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:3508
-#: ../kioslave/http/http.cpp:5414
+#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5225
+#: ../kioslave/http/http.cpp:5342
 msgid "Proxy:"
 msgstr "प्राक्सीः"
 
-#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:3582
-#: ../kioslave/http/http.cpp:5415
+#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5226
+#: ../kioslave/http/http.cpp:5422
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> पर <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:3572
-#: ../kioslave/http/http.cpp:5416
+#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5227
+#: ../kioslave/http/http.cpp:5359
 msgid "Proxy Authentication Failed."
 msgstr "प्राक्सी प्रमाणीकरण असफल."
 
@@ -6019,31 +6019,31 @@ msgstr ""
 msgid "Server processing request, please wait..."
 msgstr "सर्वर प्रक्रिया क' लेल निवेदन, कृप्या इंतजार करू..."
 
-#: ../kioslave/http/http.cpp:3569
+#: ../kioslave/http/http.cpp:3825 ../kioslave/http/http.cpp:3879
+#, kde-format
+msgid "Sending data to %1"
+msgstr " %1 केँ डाटा भेज रहल अछि"
+
+#: ../kioslave/http/http.cpp:4345
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
+
+#: ../kioslave/http/http.cpp:5358
 msgid "Authentication Failed."
 msgstr "प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:3615
+#: ../kioslave/http/http.cpp:5452
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "अनुमोदन समाद "
 
-#: ../kioslave/http/http.cpp:3632
+#: ../kioslave/http/http.cpp:5468
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
 msgstr "अनुमोदन समाद "
-
-#: ../kioslave/http/http.cpp:4014 ../kioslave/http/http.cpp:4068
-#, kde-format
-msgid "Sending data to %1"
-msgstr " %1 केँ डाटा भेज रहल अछि"
-
-#: ../kioslave/http/http.cpp:4534
-#, kde-format
-msgid "Retrieving %1 from %2..."
-msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
 
 #: ../kioslave/metainfo/metainfo.cpp:39
 msgid "kio_metainfo"

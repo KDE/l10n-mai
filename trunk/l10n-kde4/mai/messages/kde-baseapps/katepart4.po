@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 04:21+0200\n"
+"POT-Creation-Date: 2012-04-19 04:23+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2242,70 +2242,6 @@ msgstr "पंक्ति उप्पर स्क्रोल करू"
 msgid "Move Down"
 msgstr "पंक्ति नीच्चाँ स्क्रोल करू"
 
-#: view/kateviewhelpers.cpp:363
-msgid "Available Commands"
-msgstr "मोजुद कमांडसभ"
-
-#: view/kateviewhelpers.cpp:365
-msgid ""
-"<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
-"p>"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:376
-#, kde-format
-msgid "No help for '%1'"
-msgstr "'%1' क' लेल कोनो मद्दति नहि"
-
-#: view/kateviewhelpers.cpp:379
-#, kde-format
-msgid "No such command <b>%1</b>"
-msgstr "एहन कोनो कमांड नहि: <b>%1</b>"
-
-#: view/kateviewhelpers.cpp:384
-msgid ""
-"<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
-"[ arguments ]</b></code><br />For a list of available commands, enter "
-"<code><b>help list</b></code><br />For help for individual commands, enter "
-"<code><b>help &lt;command&gt;</b></code></p>"
-msgstr ""
-
-#: view/kateviewhelpers.cpp:513
-#, kde-format
-msgid "Error: No range allowed for command \"%1\"."
-msgstr ""
-
-#: view/kateviewhelpers.cpp:529
-msgid "Success: "
-msgstr "सफलता:"
-
-#: view/kateviewhelpers.cpp:544
-#, kde-format
-msgid "Command \"%1\" failed."
-msgstr "कमांड \"%1\" असफल."
-
-#: view/kateviewhelpers.cpp:550
-#, kde-format
-msgid "No such command: \"%1\""
-msgstr "एहन कोनो कमांड नहि: \"%1\""
-
-#: view/kateviewhelpers.cpp:768 schema/kateschemaconfig.cpp:198
-msgid "Bookmark"
-msgstr "पुस्तचिन्ह"
-
-#: view/kateviewhelpers.cpp:1568 view/kateviewhelpers.cpp:1569
-#, kde-format
-msgid "Mark Type %1"
-msgstr "मार्क टाइप %1"
-
-#: view/kateviewhelpers.cpp:1588
-msgid "Set Default Mark Type"
-msgstr "मूलभूत मार्क टाइप नियत करू"
-
-#: view/kateviewhelpers.cpp:1654
-msgid "Disable Annotation Bar"
-msgstr ""
-
 #: view/kateview.cpp:330
 msgid "Cut the selected text and move it to the clipboard"
 msgstr "चुनल गेल पाठ काटू आओर एकरा क्लिपबोर्ड मे लाए जाउ"
@@ -3006,10 +2942,68 @@ msgstr "मेटाकए लिखू"
 msgid "INS"
 msgstr "प्रविष्ट"
 
-#: vimode/kateviinsertmode.cpp:195 vimode/katevimodebase.cpp:860
-#: vimode/katevinormalmode.cpp:1117
+#: view/kateviewhelpers.cpp:363
+msgid "Available Commands"
+msgstr "मोजुद कमांडसभ"
+
+#: view/kateviewhelpers.cpp:365
+msgid ""
+"<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
+"p>"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:376
 #, kde-format
-msgid "Nothing in register %1"
+msgid "No help for '%1'"
+msgstr "'%1' क' लेल कोनो मद्दति नहि"
+
+#: view/kateviewhelpers.cpp:379
+#, kde-format
+msgid "No such command <b>%1</b>"
+msgstr "एहन कोनो कमांड नहि: <b>%1</b>"
+
+#: view/kateviewhelpers.cpp:384
+msgid ""
+"<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
+"[ arguments ]</b></code><br />For a list of available commands, enter "
+"<code><b>help list</b></code><br />For help for individual commands, enter "
+"<code><b>help &lt;command&gt;</b></code></p>"
+msgstr ""
+
+#: view/kateviewhelpers.cpp:513
+#, kde-format
+msgid "Error: No range allowed for command \"%1\"."
+msgstr ""
+
+#: view/kateviewhelpers.cpp:529
+msgid "Success: "
+msgstr "सफलता:"
+
+#: view/kateviewhelpers.cpp:544
+#, kde-format
+msgid "Command \"%1\" failed."
+msgstr "कमांड \"%1\" असफल."
+
+#: view/kateviewhelpers.cpp:550
+#, kde-format
+msgid "No such command: \"%1\""
+msgstr "एहन कोनो कमांड नहि: \"%1\""
+
+#: view/kateviewhelpers.cpp:775 schema/kateschemaconfig.cpp:198
+msgid "Bookmark"
+msgstr "पुस्तचिन्ह"
+
+#: view/kateviewhelpers.cpp:1575 view/kateviewhelpers.cpp:1576
+#, kde-format
+msgid "Mark Type %1"
+msgstr "मार्क टाइप %1"
+
+#: view/kateviewhelpers.cpp:1595
+msgid "Set Default Mark Type"
+msgstr "मूलभूत मार्क टाइप नियत करू"
+
+#: view/kateviewhelpers.cpp:1661
+msgid "Disable Annotation Bar"
 msgstr ""
 
 #: vimode/katevimodebar.cpp:125
@@ -3038,12 +3032,18 @@ msgstr "VI: दृश्य लाइन"
 msgid "VI: REPLACE"
 msgstr ""
 
-#: vimode/katevinormalmode.cpp:1434
+#: vimode/katevimodebase.cpp:860 vimode/kateviinsertmode.cpp:220
+#: vimode/katevinormalmode.cpp:1119
+#, kde-format
+msgid "Nothing in register %1"
+msgstr ""
+
+#: vimode/katevinormalmode.cpp:1438
 #, kde-format
 msgid "'%1' %2,  Hex %3,  Octal %4"
 msgstr ""
 
-#: vimode/katevinormalmode.cpp:2171
+#: vimode/katevinormalmode.cpp:2175
 #, fuzzy, kde-format
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
