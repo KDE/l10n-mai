@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-25 02:54+0200\n"
+"POT-Creation-Date: 2012-04-26 02:58+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3544,9 +3544,10 @@ msgid "Addition"
 msgstr "स्थिति: "
 
 #: pigment/KoCompositeOpRegistry.cpp:43
-#, fuzzy
-#| msgid "Subtract"
-msgid "Substract"
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:121
+#: pigment/compositeops/KoCompositeOpSubtract.h:37
+#: pigment/compositeops/KoCompositeOps.h:101
+msgid "Subtract"
 msgstr "घटओनाइ"
 
 #: pigment/KoCompositeOpRegistry.cpp:44
@@ -3563,9 +3564,10 @@ msgid "Divide"
 msgstr "भाग"
 
 #: pigment/KoCompositeOpRegistry.cpp:46
+#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
 #, fuzzy
 #| msgid "Subtract"
-msgid "Inverse Substract"
+msgid "Inverse Subtract"
 msgstr "घटओनाइ"
 
 #: pigment/KoCompositeOpRegistry.cpp:48
@@ -3658,8 +3660,10 @@ msgid "Equivalence"
 msgstr ""
 
 #: pigment/KoCompositeOpRegistry.cpp:66
-msgid "Additive Substractive"
-msgstr ""
+#, fuzzy
+#| msgid "Subtract"
+msgid "Additive Subtractive"
+msgstr "घटओनाइ"
 
 #: pigment/KoCompositeOpRegistry.cpp:67
 #: pigment/compositeops/KoCompositeOps.h:108
@@ -3967,12 +3971,6 @@ msgstr "हाशिया बढ़ाबू"
 msgid "Clear"
 msgstr "खाली"
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:121
-#: pigment/compositeops/KoCompositeOpSubtract.h:37
-#: pigment/compositeops/KoCompositeOps.h:101
-msgid "Subtract"
-msgstr "घटओनाइ"
-
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:259
 #: pigment/colorspaces/KoAlphaColorSpace.h:189
 msgid "Alpha mask"
@@ -4052,12 +4050,6 @@ msgstr "पैंतराबाजी"
 msgid "Hard light"
 msgstr "उँचाइ:"
 
-#: pigment/compositeops/KoCompositeOpInversedSubtract.h:37
-#, fuzzy
-#| msgid "Subtract"
-msgid "Inverse Subtract"
-msgstr "घटओनाइ"
-
 #: pigment/compositeops/KoCompositeOpSoftlight.h:39
 #, fuzzy
 #| msgid "Straight"
@@ -4077,7 +4069,7 @@ msgid "Inversed-Subtract"
 msgstr "घटओनाइ"
 
 #: pigment/compositeops/KoCompositeOps.h:110
-msgid "Additive-Substractive"
+msgid "Additive-Subtractive"
 msgstr ""
 
 #: pigment/resources/KoStopGradient.cpp:420
@@ -5575,6 +5567,16 @@ msgstr ""
 #: rc.cpp:622
 msgid "Bottom:"
 msgstr "नीच्चाँ:"
+
+#, fuzzy
+#~| msgid "Subtract"
+#~ msgid "Substract"
+#~ msgstr "घटओनाइ"
+
+#, fuzzy
+#~| msgid "Subtract"
+#~ msgid "Inverse Substract"
+#~ msgstr "घटओनाइ"
 
 #, fuzzy
 #~| msgid "Insert Break"
