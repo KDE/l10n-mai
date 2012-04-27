@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 04:48+0200\n"
+"POT-Creation-Date: 2012-04-27 04:16+0200\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -762,22 +762,36 @@ msgctxt "@title:window"
 msgid "Manage Profiles"
 msgstr "प्रोफाइल प्रबंधित करू"
 
-#: ManageProfilesDialog.cpp:210
+#: ManageProfilesDialog.cpp:176
+#, fuzzy
+#| msgid "Edit Current Profile..."
+msgid "Click to rename profile"
+msgstr "वर्तमान प्रोफाइल संपादित करू..."
+
+#: ManageProfilesDialog.cpp:185
+msgid "Click to toggle status"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:191
+msgid "Click to change shortcut"
+msgstr ""
+
+#: ManageProfilesDialog.cpp:213
 msgctxt "@title:column Profile label"
 msgid "Name"
 msgstr "नाम"
 
-#: ManageProfilesDialog.cpp:211
+#: ManageProfilesDialog.cpp:214
 msgctxt "@title:column Display profile in file menu"
 msgid "Show in Menu"
 msgstr "मेनू मे देखाबू"
 
-#: ManageProfilesDialog.cpp:212
+#: ManageProfilesDialog.cpp:215
 msgctxt "@title:column Profile shortcut text"
 msgid "Shortcut"
 msgstr "शार्टकट"
 
-#: ManageProfilesDialog.cpp:327
+#: ManageProfilesDialog.cpp:330
 msgctxt "@item This will be used as part of the file name"
 msgid "New Profile"
 msgstr "नवीन प्रोफाइल"
@@ -2487,11 +2501,6 @@ msgstr "रोकू (&S)"
 
 #~ msgid "Scrollback Options"
 #~ msgstr "स्क्रालबैक विकल्प"
-
-#, fuzzy
-#~| msgid "Edit Current Profile..."
-#~ msgid "Save to current profile"
-#~ msgstr "वर्तमान प्रोफाइल संपादित करू..."
 
 #~ msgid "&Change Profile"
 #~ msgstr "प्रोफाइल बदलू (&C)"
