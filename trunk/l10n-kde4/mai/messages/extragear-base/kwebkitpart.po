@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwebkitpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-20 02:50+0200\n"
+"POT-Creation-Date: 2012-05-05 02:45+0200\n"
 "PO-Revision-Date: 2010-09-08 12:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -103,15 +103,7 @@ msgstr ""
 msgid "KDELauncher"
 msgstr ""
 
-#: src/settings/webkitsettings.cpp:222
-msgid "Accept"
-msgstr "स्वीकारू"
-
-#: src/settings/webkitsettings.cpp:223
-msgid "Reject"
-msgstr "अस्वीकृत करू"
-
-#: src/settings/webkitsettings.cpp:937
+#: src/settings/webkitsettings.cpp:877
 msgid "Filter error"
 msgstr "फ़िल्टर त्रुटि"
 
@@ -505,104 +497,104 @@ msgstr "'%1' केँ ढूँढू एकरा सँग"
 msgid "Blocked by ad filter"
 msgstr ""
 
-#: src/webpage.cpp:142
+#: src/webpage.cpp:143
 #, kde-format
 msgid "The download manager (%1) could not be found in your installation."
 msgstr ""
 
-#: src/webpage.cpp:143
+#: src/webpage.cpp:144
 msgid ""
 "Try to reinstall it and make sure that it is available in $PATH. \n"
 "\n"
 "The integration will be disabled."
 msgstr ""
 
-#: src/webpage.cpp:182
+#: src/webpage.cpp:183
 msgid ""
 "<html><body><h3>Unable to display error message</h3><p>The error template "
 "file <em>error.html</em> could not be found.</p></body></html>"
 msgstr ""
 
-#: src/webpage.cpp:188
+#: src/webpage.cpp:189
 #, kde-format
 msgid "Error: %1"
 msgstr "त्रुटि: %1"
 
-#: src/webpage.cpp:193
+#: src/webpage.cpp:194
 msgid "The requested operation could not be completed"
 msgstr "वांछित आपरेशन पूरा नहि भए सकल"
 
-#: src/webpage.cpp:200
+#: src/webpage.cpp:201
 #, kde-format
 msgid "Technical Reason: %1"
 msgstr ""
 
-#: src/webpage.cpp:205
+#: src/webpage.cpp:206
 msgid "Details of the Request:"
 msgstr "निवेदन क' विवरणः"
 
-#: src/webpage.cpp:207
+#: src/webpage.cpp:208
 #, kde-format
 msgid "URL: %1"
 msgstr "यूआरएल: %1"
 
-#: src/webpage.cpp:212
+#: src/webpage.cpp:213
 #, kde-format
 msgid "Protocol: %1"
 msgstr "प्रोटोकॉल: %1"
 
-#: src/webpage.cpp:216
+#: src/webpage.cpp:217
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "दिनांक आओर समय: %1"
 
-#: src/webpage.cpp:219
+#: src/webpage.cpp:220
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "बाइली जानकारीः %1"
 
-#: src/webpage.cpp:221
+#: src/webpage.cpp:222
 msgid "Description:"
 msgstr "विवरण:"
 
-#: src/webpage.cpp:228
+#: src/webpage.cpp:229
 msgid "Possible Causes:"
 msgstr "संभावित कारण:"
 
-#: src/webpage.cpp:236
+#: src/webpage.cpp:237
 msgid "Possible Solutions:"
 msgstr "संभावित समाधानः"
 
-#: src/webpage.cpp:268 src/webpage.cpp:271
+#: src/webpage.cpp:269 src/webpage.cpp:272
 msgid "Choose files to upload"
 msgstr ""
 
-#: src/webpage.cpp:639
+#: src/webpage.cpp:640
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br/><b>%1</b>.<br/>Do you want to follow "
 "the link?</qt>"
 msgstr ""
 
-#: src/webpage.cpp:641
+#: src/webpage.cpp:642
 msgid "Security Warning"
 msgstr "सुरक्षा चेतावनी"
 
-#: src/webpage.cpp:642
+#: src/webpage.cpp:643
 msgctxt "follow link despite of security warning"
 msgid "Follow"
 msgstr "अनुसरण करू"
 
-#: src/webpage.cpp:644
+#: src/webpage.cpp:645
 msgid "Security Alert"
 msgstr "सुरक्षा चेतावनी"
 
-#: src/webpage.cpp:645
+#: src/webpage.cpp:646
 #, kde-format
 msgid "<qt>Access by untrusted page to<br/><b>%1</b><br/> denied.</qt>"
 msgstr ""
 
-#: src/webpage.cpp:673
+#: src/webpage.cpp:674
 msgid ""
 "Warning: This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -610,15 +602,15 @@ msgid ""
 "Are you sure you want to send the data unencrypted?"
 msgstr ""
 
-#: src/webpage.cpp:680 src/webpage.cpp:691
+#: src/webpage.cpp:681 src/webpage.cpp:692
 msgid "Network Transmission"
 msgstr "नेटवर्क ट्रांसमिशन"
 
-#: src/webpage.cpp:681
+#: src/webpage.cpp:682
 msgid "&Send Unencrypted"
 msgstr "अनएनक्रिप्टेड भेजू (&S)"
 
-#: src/webpage.cpp:688
+#: src/webpage.cpp:689
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -626,39 +618,39 @@ msgstr ""
 "ई साइट, इमेल केर द्वारा फ़ॉर्म डाटा पेश करबाक कोसिसमे अछि.\n"
 "की अहाँ एकरा जारी रखनाइ चाहैत छी?"
 
-#: src/webpage.cpp:692
+#: src/webpage.cpp:693
 msgid "&Send Email"
 msgstr "इमेल भेजू (&S)"
 
-#: src/webpage.cpp:740
+#: src/webpage.cpp:741
 msgid ""
 "<qt>Do you want to allow this site to attach the following files to the "
 "email message?</qt>"
 msgstr ""
 
-#: src/webpage.cpp:742
+#: src/webpage.cpp:743
 msgid "Email Attachment Confirmation"
 msgstr ""
 
-#: src/webpage.cpp:743
+#: src/webpage.cpp:744
 msgid "&Allow attachments"
 msgstr ""
 
-#: src/webpage.cpp:744
+#: src/webpage.cpp:745
 msgid "&Ignore attachments"
 msgstr ""
 
-#: src/webpage.cpp:756
+#: src/webpage.cpp:757
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: src/webpage.cpp:759
+#: src/webpage.cpp:760
 msgid "Attachment Removed"
 msgstr ""
 
-#: src/webpage.cpp:827
+#: src/webpage.cpp:828
 #, fuzzy
 #| msgid ""
 #| "This site is attempting to submit form data via email.\n"
@@ -670,25 +662,25 @@ msgstr ""
 "ई साइट, इमेल केर द्वारा फ़ॉर्म डाटा पेश करबाक कोसिसमे अछि.\n"
 "की अहाँ एकरा जारी रखनाइ चाहैत छी?"
 
-#: src/webpage.cpp:829
+#: src/webpage.cpp:830
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open a popup window to<p>%1</p><br/>Do you "
 "want to allow this?</qt>"
 msgstr ""
 
-#: src/webpage.cpp:834
+#: src/webpage.cpp:835
 msgid "Javascript Popup Confirmation"
 msgstr ""
 
-#: src/webpage.cpp:835
+#: src/webpage.cpp:836
 #, fuzzy
 #| msgctxt "follow link despite of security warning"
 #| msgid "Follow"
 msgid "Allow"
 msgstr "अनुसरण करू"
 
-#: src/webpage.cpp:836
+#: src/webpage.cpp:837
 msgid "Do Not Allow"
 msgstr ""
 
@@ -775,6 +767,12 @@ msgstr ""
 #: rc.cpp:41
 msgid "HTML Toolbar"
 msgstr "एचटीएमएल अओजार-पट्टी"
+
+#~ msgid "Accept"
+#~ msgstr "स्वीकारू"
+
+#~ msgid "Reject"
+#~ msgstr "अस्वीकृत करू"
 
 #~ msgid "Esc"
 #~ msgstr "Esc"
