@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kexi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-02 03:03+0200\n"
+"POT-Creation-Date: 2012-05-07 02:37+0200\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2305,7 +2305,7 @@ msgid "Name"
 msgstr "नाम"
 
 #: formeditor/form.cpp:440 formeditor/editlistviewdialog.cpp:120
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1759
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1764
 #: plugins/tables/kexitabledesignerview.cpp:390
 msgid "Caption"
 msgstr "अनुशीर्षक"
@@ -2995,7 +2995,7 @@ msgstr ""
 
 #: kexidb/driver_p.cpp:63 plugins/importexport/csv/kexicsvwidgets.cpp:167
 #: plugins/importexport/csv/kexicsvwidgets.cpp:182
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1776
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1781
 #: plugins/tables/kexitabledesignerview.cpp:426
 msgid "None"
 msgstr "किछु नहि"
@@ -3036,6 +3036,20 @@ msgstr "अनचिन्ह त्रुटि."
 msgid "Could not compact database \"%1\"."
 msgstr ""
 
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:129
+msgid "Compacting database"
+msgstr ""
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:130
+#, kde-format
+msgid "Compacting database \"%1\"..."
+msgstr ""
+
+#: kexidb/drivers/sqlite/sqlitevacuum.cpp:203
+#, kde-format
+msgid "The database has been compacted. Current size decreased by %1% to %2."
+msgstr ""
+
 #: kexidb/drivers/sqlite/sqliteconnection.cpp:242
 #, kde-format
 msgid "Do you want to open file \"%1\" as read-only?"
@@ -3067,20 +3081,6 @@ msgstr ""
 msgid ""
 "Check the file's permissions and whether it is already opened and locked by "
 "another application."
-msgstr ""
-
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:129
-msgid "Compacting database"
-msgstr ""
-
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:130
-#, kde-format
-msgid "Compacting database \"%1\"..."
-msgstr ""
-
-#: kexidb/drivers/sqlite/sqlitevacuum.cpp:203
-#, kde-format
-msgid "The database has been compacted. Current size decreased by %1% to %2."
 msgstr ""
 
 #: kexidb/drivers/xbase/xbaseexport.cpp:263
@@ -3198,7 +3198,7 @@ msgstr ""
 msgid "Invalid identifier"
 msgstr ""
 
-#: sqlscanner.l:287 plugins/queries/kexiquerydesignerguieditor.cpp:1451
+#: sqlscanner.l:287 plugins/queries/kexiquerydesignerguieditor.cpp:1456
 msgid "Identifiers should start with a letter or '_' character"
 msgstr ""
 
@@ -3421,11 +3421,6 @@ msgstr ""
 #: kexidb/field.cpp:744
 msgid "Date/Time"
 msgstr "तिथि/समय"
-
-#: kexidb/queryschema.cpp:266
-msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
-msgid "expr"
-msgstr ""
 
 #: kexidb/connection.cpp:114
 msgid "Invalid database contents. "
@@ -3736,6 +3731,11 @@ msgstr ""
 
 #: kexidb/connection.cpp:3543 kexidb/connection.cpp:3566
 msgid "Record deletion on the server failed."
+msgstr ""
+
+#: kexidb/queryschema.cpp:266
+msgctxt "short for 'expression' word, e.g. 'expr' (only latin letters, please)"
+msgid "expr"
 msgstr ""
 
 #: kexiutils/identifier.cpp:92
@@ -6431,7 +6431,7 @@ msgid "Start at line:"
 msgstr ""
 
 #: plugins/importexport/csv/kexicsvimportdialog.cpp:1220
-#: plugins/queries/kexiquerydesignerguieditor.cpp:225
+#: plugins/queries/kexiquerydesignerguieditor.cpp:226
 msgid "Column"
 msgstr "कालम"
 
@@ -6553,154 +6553,6 @@ msgstr ""
 msgid "Query executing failed."
 msgstr ""
 
-#: plugins/queries/kexiquerydesignerguieditor.cpp:168
-msgid "Query Columns"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:226
-msgid "Describes field name or expression for the designed query."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:233
-#: widget/relations/KexiRelationsView.cpp:384
-msgid "Table"
-msgstr "सारणी"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:234
-msgid "Describes table for a given field. Can be empty."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:239
-msgid "Visible"
-msgstr "दृष्टिगोचर"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:240
-msgid "Describes visibility for a given field or expression."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:246
-msgid "Totals"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:247
-msgid "Describes a way of computing totals for a given field or expression."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:249
-msgid "Group by"
-msgstr "एकरा द्वारा समूहीकृत"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:250
-msgid "Sum"
-msgstr "जोड़"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:251
-msgid "Average"
-msgstr "औसत"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:252
-msgid "Min"
-msgstr "न्यूनतम"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:253
-msgid "Max"
-msgstr "अधिकतम"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:259
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1778
-msgid "Sorting"
-msgstr "छाँटनाइ"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:260
-msgid "Describes a way of sorting for a given field."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:263
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1776
-msgid "Ascending"
-msgstr "आरोहण क्रम"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:264
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1776
-msgid "Descending"
-msgstr "अवरोहण क्रम"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:268
-msgid "Criteria"
-msgstr "मापदंड"
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:269
-msgid "Describes the criteria for a given field or expression."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:373
-msgid ""
-"Cannot switch to data view, because query design is empty.\n"
-"First, please create your design."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:408
-#, kde-format
-msgid "Select column for table \"%1\""
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:430
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1679
-#, kde-format
-msgid "Invalid criteria \"%1\""
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:451
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1470
-#, kde-format
-msgid "Invalid expression \"%1\""
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:636
-#: plugins/queries/kexiquerydesignerguieditor.cpp:650
-#: plugins/queries/kexiquerydesignerguieditor.cpp:672
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1081
-msgid "Query definition loading failed."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:637
-msgid ""
-"Query design may be corrupted so it could not be opened even in text view.\n"
-"You can delete the query and create it again."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1264
-msgctxt "short for 'expression' word (only latin letters, please)"
-msgid "expr"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1450
-#, kde-format
-msgid "Entered column alias \"%1\" is not a valid identifier."
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1623
-#, kde-format
-msgid "Could not set sorting for multiple columns (%1)"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1648
-#, kde-format
-msgid "Could not set criteria for \"%1\""
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1651
-msgid "Could not set criteria for empty record"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1748
-msgid "Query column"
-msgstr ""
-
-#: plugins/queries/kexiquerydesignerguieditor.cpp:1764
-msgid "Alias"
-msgstr "उपनाम"
-
 #: plugins/queries/kexiquerydesignersqlhistory.cpp:50
 msgid "Copy to Clipboard"
 msgstr "क्लिपबोर्डमे कॉपी करू"
@@ -6771,6 +6623,154 @@ msgstr ""
 #: plugins/queries/kexiquerydesignersql.cpp:569
 msgid "Do you want to save invalid query?"
 msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:169
+msgid "Query Columns"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:227
+msgid "Describes field name or expression for the designed query."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:234
+#: widget/relations/KexiRelationsView.cpp:384
+msgid "Table"
+msgstr "सारणी"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:235
+msgid "Describes table for a given field. Can be empty."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:240
+msgid "Visible"
+msgstr "दृष्टिगोचर"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:241
+msgid "Describes visibility for a given field or expression."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:247
+msgid "Totals"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:248
+msgid "Describes a way of computing totals for a given field or expression."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:250
+msgid "Group by"
+msgstr "एकरा द्वारा समूहीकृत"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:251
+msgid "Sum"
+msgstr "जोड़"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:252
+msgid "Average"
+msgstr "औसत"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:253
+msgid "Min"
+msgstr "न्यूनतम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:254
+msgid "Max"
+msgstr "अधिकतम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:260
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1783
+msgid "Sorting"
+msgstr "छाँटनाइ"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:261
+msgid "Describes a way of sorting for a given field."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:264
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1781
+msgid "Ascending"
+msgstr "आरोहण क्रम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:265
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1781
+msgid "Descending"
+msgstr "अवरोहण क्रम"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:269
+msgid "Criteria"
+msgstr "मापदंड"
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:270
+msgid "Describes the criteria for a given field or expression."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:374
+msgid ""
+"Cannot switch to data view, because query design is empty.\n"
+"First, please create your design."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:413
+#, kde-format
+msgid "Select column for table \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:435
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1684
+#, kde-format
+msgid "Invalid criteria \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:456
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1475
+#, kde-format
+msgid "Invalid expression \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:641
+#: plugins/queries/kexiquerydesignerguieditor.cpp:655
+#: plugins/queries/kexiquerydesignerguieditor.cpp:677
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1086
+msgid "Query definition loading failed."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:642
+msgid ""
+"Query design may be corrupted so it could not be opened even in text view.\n"
+"You can delete the query and create it again."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1269
+msgctxt "short for 'expression' word (only latin letters, please)"
+msgid "expr"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1455
+#, kde-format
+msgid "Entered column alias \"%1\" is not a valid identifier."
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1628
+#, kde-format
+msgid "Could not set sorting for multiple columns (%1)"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1653
+#, kde-format
+msgid "Could not set criteria for \"%1\""
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1656
+msgid "Could not set criteria for empty record"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1753
+msgid "Query column"
+msgstr ""
+
+#: plugins/queries/kexiquerydesignerguieditor.cpp:1769
+msgid "Alias"
+msgstr "उपनाम"
 
 #: plugins/reports/kexireportdesignview.cpp:51
 #, fuzzy
