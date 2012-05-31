@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-30 04:08+0200\n"
+"POT-Creation-Date: 2012-05-31 03:46+0200\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -8996,6 +8996,15 @@ msgstr ""
 msgid "three months ago"
 msgstr ""
 
+#: core-impl/collections/support/TrashCollectionLocation.cpp:47
+msgid "Trash"
+msgstr "रद्दी"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:101
+#, kde-format
+msgid "Moving to trash: %1"
+msgstr ""
+
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:36
 #, kde-format
 msgctxt "@info"
@@ -9013,10 +9022,10 @@ msgstr[1] ""
 msgctxt "@info"
 msgid ""
 "Do you really want to move this track to the trash? It will be removed from "
-"%1."
+"%2."
 msgid_plural ""
-"Do you really want to move these %2 tracks to the trash? They will be "
-"removed from %1."
+"Do you really want to move these %1 tracks to the trash? They will be "
+"removed from %2."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -9093,15 +9102,6 @@ msgstr ""
 #, kde-format
 msgctxt "%1 is track url, %2 artist name"
 msgid "%1 (by %2)"
-msgstr ""
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:47
-msgid "Trash"
-msgstr "रद्दी"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:101
-#, kde-format
-msgid "Moving to trash: %1"
 msgstr ""
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
@@ -11189,6 +11189,7 @@ msgstr ""
 
 #: dialogs/DiagnosticDialog.cpp:42
 #, kde-format
+msgctxt "%1 is the program name"
 msgid "%1 Diagnostics"
 msgstr ""
 
@@ -11209,7 +11210,7 @@ msgstr "रोकू"
 #: dialogs/DiagnosticDialog.cpp:92
 #, fuzzy
 #| msgid "Enabled"
-msgid "  (enabled)"
+msgid " (enabled)"
 msgstr "सक्षम"
 
 #: dialogs/DiagnosticDialog.cpp:92
@@ -11236,7 +11237,7 @@ msgstr "किछु नहि"
 #: dialogs/DiagnosticDialog.cpp:103
 #, kde-format
 msgid ""
-"%1-Diagnostics\n"
+"%1 Diagnostics\n"
 "\n"
 "%1 Version: %2\n"
 "KDE Version: %3\n"
