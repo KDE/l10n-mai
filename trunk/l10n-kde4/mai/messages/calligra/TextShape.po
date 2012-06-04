@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-03 02:34+0200\n"
+"POT-Creation-Date: 2012-06-04 02:40+0200\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -115,8 +115,8 @@ msgstr ""
 msgid "Select"
 msgstr "फोन्ट चुनू"
 
-#: dialogs/CitationInsertionDialog.cpp:53 dialogs/StyleManager.cpp:398
-#: dialogs/StyleManager.cpp:415
+#: dialogs/CitationInsertionDialog.cpp:53 dialogs/StyleManager.cpp:401
+#: dialogs/StyleManager.cpp:418
 msgid "Warning"
 msgstr ""
 
@@ -142,7 +142,7 @@ msgid "Select Font"
 msgstr "फोन्ट चुनू"
 
 #: dialogs/FontDia.cpp:83 dialogs/FormattingPreview.cpp:51
-#: dialogs/CharacterGeneral.cpp:62
+#: dialogs/CharacterGeneral.cpp:72
 msgid "Font"
 msgstr "फोन्ट"
 
@@ -191,34 +191,34 @@ msgstr "बन्न करू"
 msgid "Create a new style inheriting the current style"
 msgstr ""
 
-#: dialogs/StyleManager.cpp:333 dialogs/StyleManager.cpp:341
+#: dialogs/StyleManager.cpp:336 dialogs/StyleManager.cpp:344
 #, fuzzy
 #| msgid "Styles"
 msgid "New Style"
 msgstr "शैलीसभ"
 
-#: dialogs/StyleManager.cpp:398 dialogs/StyleManager.cpp:415
+#: dialogs/StyleManager.cpp:401 dialogs/StyleManager.cpp:418
 #, kde-format
 msgid "Another style named '%1' already exist. Please choose another name."
 msgstr ""
 
-#: dialogs/ParagraphGeneral.cpp:50
+#: dialogs/ParagraphGeneral.cpp:53
 msgid "Indent/Spacing"
 msgstr ""
 
-#: dialogs/ParagraphGeneral.cpp:55
+#: dialogs/ParagraphGeneral.cpp:58
 msgid "General Layout"
 msgstr ""
 
-#: dialogs/ParagraphGeneral.cpp:60
+#: dialogs/ParagraphGeneral.cpp:63
 msgid "Bullets/Numbers"
 msgstr ""
 
-#: dialogs/ParagraphGeneral.cpp:65
+#: dialogs/ParagraphGeneral.cpp:68
 msgid "Decorations"
 msgstr ""
 
-#: dialogs/ParagraphGeneral.cpp:70
+#: dialogs/ParagraphGeneral.cpp:73
 msgid "Drop Caps"
 msgstr ""
 
@@ -487,18 +487,6 @@ msgstr ""
 
 #: ReviewToolFactory.cpp:33
 msgid "Review"
-msgstr ""
-
-#: TextShapeFactory.cpp:42 TextShapeFactory.cpp:52
-msgid "Text"
-msgstr "पाठ"
-
-#: TextShapeFactory.cpp:44
-msgid "A shape that shows text"
-msgstr ""
-
-#: TextShapeFactory.cpp:54
-msgid "Text Shape"
 msgstr ""
 
 #: ReviewTool.cpp:73
@@ -1040,6 +1028,18 @@ msgstr ""
 msgid "Open Link?"
 msgstr ""
 
+#: TextShapeFactory.cpp:42 TextShapeFactory.cpp:52
+msgid "Text"
+msgstr "पाठ"
+
+#: TextShapeFactory.cpp:44
+msgid "A shape that shows text"
+msgstr ""
+
+#: TextShapeFactory.cpp:54
+msgid "Text Shape"
+msgstr ""
+
 #. i18n: file: dialogs/AcceptRejectChangeDialog.ui:26
 #. i18n: ectx: property (windowTitle), widget (QDialog, AcceptRejectChangeDialog)
 #. i18n: file: dialogs/TableOfContentsConfigure.ui:14
@@ -1399,8 +1399,10 @@ msgstr ""
 #. i18n: file: dialogs/CharacterGeneral.ui:62
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:145
-msgid "Inherit style:"
-msgstr ""
+#, fuzzy
+#| msgid "Paragraph style"
+msgid "Parent style:"
+msgstr "अनुच्छेद स्टाइल"
 
 #. i18n: file: dialogs/CharacterGeneral.ui:78
 #. i18n: ectx: property (text), widget (QCheckBox, inToc)
@@ -2583,9 +2585,6 @@ msgstr ""
 
 #~ msgid "Type:"
 #~ msgstr "प्रकार:"
-
-#~ msgid "Paragraph style"
-#~ msgstr "अनुच्छेद स्टाइल"
 
 #~ msgid "Character style"
 #~ msgstr "संप्रतीक शैली"
