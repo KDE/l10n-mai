@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-10 04:26+0200\n"
+"POT-Creation-Date: 2012-06-11 04:48+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1270,75 +1270,6 @@ msgstr "सिर्फ स्थानीय फाइल सिस्टम �
 msgid "Advanced Options for %1"
 msgstr "%1 क' लेल विस्तृत विकल्प "
 
-#: kfile/kfilemetadataprovider.cpp:223
-#, fuzzy, kde-format
-#| msgctxt "Items in a folder"
-#| msgid "1 item"
-#| msgid_plural "%1 items"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "१ वस्तु"
-msgstr[1] "%1 वस्तु"
-
-#: kfile/kfilemetadataprovider.cpp:424
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified"
-msgstr "परिवर्धितः"
-
-#: kfile/kfilemetadataprovider.cpp:425
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "मालिक"
-
-#: kfile/kfilemetadataprovider.cpp:426
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "अनुमतिसभ"
-
-#: kfile/kfilemetadataprovider.cpp:427
-#, fuzzy
-#| msgid "Sorting"
-msgctxt "@label"
-msgid "Rating"
-msgstr "छाँटनाइ"
-
-#: kfile/kfilemetadataprovider.cpp:428
-#, fuzzy
-#| msgctxt "@title:column"
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "आकार"
-
-#: kfile/kfilemetadataprovider.cpp:429
-#, fuzzy
-#| msgid "Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "रद्दी"
-
-#: kfile/kfilemetadataprovider.cpp:430
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "आकार:"
-
-#: kfile/kfilemetadataprovider.cpp:431
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "प्रकार"
-
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
 msgstr "मालिक"
@@ -1684,11 +1615,80 @@ msgstr "एहिना सहेजू"
 msgid "Encoding:"
 msgstr "एनकोडिंग:"
 
-#: kio/accessmanager.cpp:234
+#: kfile/kfilemetadataprovider.cpp:223
+#, fuzzy, kde-format
+#| msgctxt "Items in a folder"
+#| msgid "1 item"
+#| msgid_plural "%1 items"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "१ वस्तु"
+msgstr[1] "%1 वस्तु"
+
+#: kfile/kfilemetadataprovider.cpp:424
+#, fuzzy
+#| msgid "Modified:"
+msgctxt "@label"
+msgid "Modified"
+msgstr "परिवर्धितः"
+
+#: kfile/kfilemetadataprovider.cpp:425
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "मालिक"
+
+#: kfile/kfilemetadataprovider.cpp:426
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "अनुमतिसभ"
+
+#: kfile/kfilemetadataprovider.cpp:427
+#, fuzzy
+#| msgid "Sorting"
+msgctxt "@label"
+msgid "Rating"
+msgstr "छाँटनाइ"
+
+#: kfile/kfilemetadataprovider.cpp:428
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "आकार"
+
+#: kfile/kfilemetadataprovider.cpp:429
+#, fuzzy
+#| msgid "Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "रद्दी"
+
+#: kfile/kfilemetadataprovider.cpp:430
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "आकार:"
+
+#: kfile/kfilemetadataprovider.cpp:431
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "प्रकार"
+
+#: kio/accessmanager.cpp:221
 msgid "Blocked request."
 msgstr ""
 
-#: kio/accessmanager.cpp:296
+#: kio/accessmanager.cpp:283
 #, fuzzy
 #| msgid "Unknown Error"
 msgid "Unknown HTTP verb."
@@ -3939,6 +3939,123 @@ msgstr "त्रुटि: अनचिन्ह प्रोटोकाल '%
 msgid "Data format:"
 msgstr "डाटा फ़ार्मेट:"
 
+#: kio/tcpslavebase.cpp:334
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+"अहाँ सुरक्षित प्रणालीकेँ छोड़ैबला छी संचरण आब एनक्रिप्टेड नहि रहत.\n"
+"एकर अर्थ अछि जे कोनो तेसर पक्ष संचार केर दौरान अहाँक डाटा देखि सकैत अछि."
+
+#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:700
+msgid "Security Information"
+msgstr "सुरक्षा जानकारी"
+
+#: kio/tcpslavebase.cpp:341
+msgid "C&ontinue Loading"
+msgstr "लोड कएनाइ जारी राखू (&o)"
+
+#: kio/tcpslavebase.cpp:453
+#, kde-format
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:694
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+"अहाँ सुरक्षित विधि मे जाएबला छी. सबहि संचारण एनक्रिप्टेड हाएत, जखन तकि जे संकेत नहि देल "
+"जएताह.\n"
+" एकर अर्थ अछि जे कोनो तेसर पक्ष अहाँक डाटा केँ पारगमन केर दोरान आसानी सँ देख नहि सकत."
+
+#: kio/tcpslavebase.cpp:701
+msgid "Display SSL &Information"
+msgstr "एसएसएल जानकारी देखाबू (&I)"
+
+#: kio/tcpslavebase.cpp:702
+msgid "C&onnect"
+msgstr "कनेक्ट (&o)"
+
+#: kio/tcpslavebase.cpp:838
+msgid "Enter the certificate password:"
+msgstr "प्रमाणपत्र पासवर्ड भरू:"
+
+#: kio/tcpslavebase.cpp:839
+msgid "SSL Certificate Password"
+msgstr "एसएसएल प्रमाणपत्र कूटशब्द"
+
+#: kio/tcpslavebase.cpp:852
+msgid "Unable to open the certificate. Try a new password?"
+msgstr "प्रमाणपत्र खोलबा मे अक्षम. एकटा नवीन कूटशब्द आजमाबू?"
+
+#: kio/tcpslavebase.cpp:865
+msgid "The procedure to set the client certificate for the session failed."
+msgstr "सत्र क' लेल क्लाएँट प्रमाणपत्र नियत करबाक प्रक्रिया असफल."
+
+#: kio/tcpslavebase.cpp:867 kio/slaveinterface.cpp:498
+msgid "SSL"
+msgstr "SSL"
+
+#: kio/tcpslavebase.cpp:911 kssl/sslui.cpp:71
+#, kde-format
+msgid ""
+"The server failed the authenticity check (%1).\n"
+"\n"
+msgstr ""
+
+#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1040
+#: kio/tcpslavebase.cpp:1052 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+msgid "Server Authentication"
+msgstr "सर्वर प्रमाणीकरण"
+
+#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "विवरण (&D)"
+
+#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "जारी राखू (&n)"
+
+#: kio/tcpslavebase.cpp:935 kssl/sslui.cpp:116
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr "की अहाँ एहि प्रमाणपत्र केँ हरदम क' लेल स्वीकृत कएनाइ चाहब बिनु पूछल?"
+
+#: kio/tcpslavebase.cpp:939 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "हरदम (&F)"
+
+#: kio/tcpslavebase.cpp:940 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "सिर्फ मोजुदा सत्र (&C)"
+
+#: kio/tcpslavebase.cpp:1039
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+"अहाँ सूचित कएने छी जे अहाँ एहि प्रमाणपत्र केँ स्वीकारैत छी, परंच एकरा सर्वर केँ जारी नहि "
+"कएल गेल अछि जे एकरा पेश कएने अछि. की अहाँ एकरा लोड कएनाइ जारी रखबाक लेल चाहैत छी?"
+
+#: kio/tcpslavebase.cpp:1051
+#, fuzzy
+#| msgid ""
+#| "SSL certificate is being rejected as requested. You can disable this in "
+#| "the KDE Control Center."
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE System Settings."
+msgstr ""
+"एसएसएल प्रमाणपत्र अस्वीकृत कएल गेल अछि जहिना जे निवेदित कएल गेल. अहाँ एकरा केडीई "
+"नियंत्रण केंद्र मे अक्षम कए सकैत छी."
+
 #: kio/paste.cpp:98 kio/paste.cpp:191
 msgid "Filename for clipboard content:"
 msgstr "क्लिपबोर्ड विषयवस्तु क' लेल फाइल नामः"
@@ -3984,31 +4101,9 @@ msgstr "हँ (&Y)"
 msgid "&No"
 msgstr "नहि (&N)"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "विवरण (&D)"
-
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "हरदम (&F)"
-
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "जारी राखू (&n)"
-
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "सिर्फ मोजुदा सत्र (&C)"
-
 #: kio/slaveinterface.cpp:496
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "पीअर एसएसएल प्रमाणपत्र चैन खराब प्रतीत हाएत अछि."
-
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/skipdialog.cpp:37
 msgid "Information"
@@ -4171,101 +4266,6 @@ msgstr "एकटा पुरान एकाइ '%1' नाम सँ पह�
 #| msgid "&Rename"
 msgid "Rename:"
 msgstr "नाम बदलू (&R)"
-
-#: kio/tcpslavebase.cpp:328
-msgid ""
-"You are about to leave secure mode. Transmissions will no longer be "
-"encrypted.\n"
-"This means that a third party could observe your data in transit."
-msgstr ""
-"अहाँ सुरक्षित प्रणालीकेँ छोड़ैबला छी संचरण आब एनक्रिप्टेड नहि रहत.\n"
-"एकर अर्थ अछि जे कोनो तेसर पक्ष संचार केर दौरान अहाँक डाटा देखि सकैत अछि."
-
-#: kio/tcpslavebase.cpp:334 kio/tcpslavebase.cpp:609
-msgid "Security Information"
-msgstr "सुरक्षा जानकारी"
-
-#: kio/tcpslavebase.cpp:335
-msgid "C&ontinue Loading"
-msgstr "लोड कएनाइ जारी राखू (&o)"
-
-#: kio/tcpslavebase.cpp:391
-#, kde-format
-msgctxt "%1 is a host name"
-msgid "%1: SSL negotiation failed"
-msgstr ""
-
-#: kio/tcpslavebase.cpp:603
-msgid ""
-"You are about to enter secure mode. All transmissions will be encrypted "
-"unless otherwise noted.\n"
-"This means that no third party will be able to easily observe your data in "
-"transit."
-msgstr ""
-"अहाँ सुरक्षित विधि मे जाएबला छी. सबहि संचारण एनक्रिप्टेड हाएत, जखन तकि जे संकेत नहि देल "
-"जएताह.\n"
-" एकर अर्थ अछि जे कोनो तेसर पक्ष अहाँक डाटा केँ पारगमन केर दोरान आसानी सँ देख नहि सकत."
-
-#: kio/tcpslavebase.cpp:610
-msgid "Display SSL &Information"
-msgstr "एसएसएल जानकारी देखाबू (&I)"
-
-#: kio/tcpslavebase.cpp:611
-msgid "C&onnect"
-msgstr "कनेक्ट (&o)"
-
-#: kio/tcpslavebase.cpp:747
-msgid "Enter the certificate password:"
-msgstr "प्रमाणपत्र पासवर्ड भरू:"
-
-#: kio/tcpslavebase.cpp:748
-msgid "SSL Certificate Password"
-msgstr "एसएसएल प्रमाणपत्र कूटशब्द"
-
-#: kio/tcpslavebase.cpp:761
-msgid "Unable to open the certificate. Try a new password?"
-msgstr "प्रमाणपत्र खोलबा मे अक्षम. एकटा नवीन कूटशब्द आजमाबू?"
-
-#: kio/tcpslavebase.cpp:774
-msgid "The procedure to set the client certificate for the session failed."
-msgstr "सत्र क' लेल क्लाएँट प्रमाणपत्र नियत करबाक प्रक्रिया असफल."
-
-#: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
-#, kde-format
-msgid ""
-"The server failed the authenticity check (%1).\n"
-"\n"
-msgstr ""
-
-#: kio/tcpslavebase.cpp:830 kio/tcpslavebase.cpp:847 kio/tcpslavebase.cpp:949
-#: kio/tcpslavebase.cpp:961 kssl/sslui.cpp:80 kssl/sslui.cpp:119
-msgid "Server Authentication"
-msgstr "सर्वर प्रमाणीकरण"
-
-#: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
-msgid ""
-"Would you like to accept this certificate forever without being prompted?"
-msgstr "की अहाँ एहि प्रमाणपत्र केँ हरदम क' लेल स्वीकृत कएनाइ चाहब बिनु पूछल?"
-
-#: kio/tcpslavebase.cpp:948
-msgid ""
-"You have indicated that you wish to accept this certificate, but it is not "
-"issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr ""
-"अहाँ सूचित कएने छी जे अहाँ एहि प्रमाणपत्र केँ स्वीकारैत छी, परंच एकरा सर्वर केँ जारी नहि "
-"कएल गेल अछि जे एकरा पेश कएने अछि. की अहाँ एकरा लोड कएनाइ जारी रखबाक लेल चाहैत छी?"
-
-#: kio/tcpslavebase.cpp:960
-#, fuzzy
-#| msgid ""
-#| "SSL certificate is being rejected as requested. You can disable this in "
-#| "the KDE Control Center."
-msgid ""
-"SSL certificate is being rejected as requested. You can disable this in the "
-"KDE System Settings."
-msgstr ""
-"एसएसएल प्रमाणपत्र अस्वीकृत कएल गेल अछि जहिना जे निवेदित कएल गेल. अहाँ एकरा केडीई "
-"नियंत्रण केंद्र मे अक्षम कए सकैत छी."
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
@@ -5596,11 +5596,11 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5333
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5353
 msgid "You need to supply a username and a password to access this site."
 msgstr "ई साइट पर पहुँचबा क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द दिअ' पड़त."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5335
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5355
 msgid "Site:"
 msgstr "साइट:"
 
@@ -5618,8 +5618,8 @@ msgstr "लागइन बेस"
 msgid "Could not login to %1."
 msgstr " %1 पर लागइन नहि भए सकल."
 
-#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5222
-#: ../kioslave/http/http.cpp:5345
+#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5243
+#: ../kioslave/http/http.cpp:5365
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -5627,19 +5627,19 @@ msgstr ""
 "एकरासँ पहिने जे अहाँक केओ साइट पर पहुँचक अनुमति देल जाए, नीच्चाँ सूची-बद्ध कएल प्राक्सी "
 "सर्वर क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द देनाइ हाएत."
 
-#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5226
-#: ../kioslave/http/http.cpp:5348
+#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5247
+#: ../kioslave/http/http.cpp:5368
 msgid "Proxy:"
 msgstr "प्राक्सीः"
 
-#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5227
-#: ../kioslave/http/http.cpp:5428
+#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5248
+#: ../kioslave/http/http.cpp:5448
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> पर <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5229
-#: ../kioslave/http/http.cpp:5365
+#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5250
+#: ../kioslave/http/http.cpp:5385
 msgid "Proxy Authentication Failed."
 msgstr "प्राक्सी प्रमाणीकरण असफल."
 
@@ -6029,17 +6029,17 @@ msgstr " %1 केँ डाटा भेज रहल अछि"
 msgid "Retrieving %1 from %2..."
 msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
 
-#: ../kioslave/http/http.cpp:5364
+#: ../kioslave/http/http.cpp:5384
 msgid "Authentication Failed."
 msgstr "प्रमाणीकरण असफल."
 
-#: ../kioslave/http/http.cpp:5461
+#: ../kioslave/http/http.cpp:5481
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "अनुमोदन समाद "
 
-#: ../kioslave/http/http.cpp:5477
+#: ../kioslave/http/http.cpp:5497
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
