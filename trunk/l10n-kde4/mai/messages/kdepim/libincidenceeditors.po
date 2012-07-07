@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libincidenceeditors\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-06 04:48+0200\n"
+"POT-Creation-Date: 2012-07-07 04:38+0200\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -67,7 +67,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, CategoryDialog_base)
 #. i18n: file: categoryselectdialog_base.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, CategoryDialog_base)
-#: categorydialog.cpp:234 categoryselectdialog.cpp:169 rc.cpp:134 rc.cpp:290
+#: categorydialog.cpp:234 rc.cpp:134 rc.cpp:290 categoryselectdialog.cpp:169
 msgid "Select Categories"
 msgstr ""
 
@@ -145,96 +145,6 @@ msgstr ""
 msgctxt "@label invalid email address marker"
 msgid "invalid@email.address"
 msgstr ""
-
-#. i18n: file: categoryeditdialog_base.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
-#: categoryeditdialog.cpp:42 rc.cpp:245
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Categories:"
-msgid "Edit Categories"
-msgstr "श्रेणिसभ:"
-
-#: categoryeditdialog.cpp:60
-msgid "Apply changes and close"
-msgstr ""
-
-#: categoryeditdialog.cpp:61
-msgid ""
-"When clicking <b>Ok</b>, the settings will be handed over to the program and "
-"the dialog will be closed."
-msgstr ""
-
-#: categoryeditdialog.cpp:64
-msgid "Cancel changes and close"
-msgstr ""
-
-#: categoryeditdialog.cpp:65
-msgid ""
-"When clicking <b>Cancel</b>, the settings will be discarded and the dialog "
-"will be closed."
-msgstr ""
-
-#: categoryeditdialog.cpp:69
-msgid ""
-"When clicking <b>Help</b>, a separate KHelpCenter window will open providing "
-"more information about the settings."
-msgstr ""
-
-#: categoryeditdialog.cpp:131
-#, fuzzy
-#| msgid "Category"
-msgid "New category"
-msgstr "श्रेणी"
-
-#: categoryeditdialog.cpp:149
-#, fuzzy
-#| msgid "Category"
-msgid "New subcategory"
-msgstr "श्रेणी"
-
-#: freeperiodmodel.cpp:143
-#, kde-format
-msgctxt "@label Day of the week name, example: Monday,"
-msgid "%1,"
-msgstr ""
-
-#: freeperiodmodel.cpp:159
-#, kde-format
-msgctxt ""
-"@label A time period duration. It is preceded/followed (based on the "
-"orientation) by the name of the week, see the message above. example: 12 "
-"June, 8:00am to 9:30am"
-msgid "%1 %2, %3 to %4"
-msgstr ""
-
-#: freeperiodmodel.cpp:181
-#, kde-format
-msgctxt ""
-"@label A time period duration. KLocale is used to format the components. "
-"example: Monday, 12 June, 8:00am to 9:30am"
-msgid "%1, %2 %3, %4 to %5"
-msgstr ""
-
-#: freeperiodmodel.cpp:195
-msgctxt "@info:tooltip"
-msgid "Free Period"
-msgstr ""
-
-#: freeperiodmodel.cpp:197 freebusyganttproxymodel.cpp:98
-msgctxt "@info:tooltip period start time"
-msgid "Start:"
-msgstr "प्रारंभ:"
-
-#: freeperiodmodel.cpp:200 freebusyganttproxymodel.cpp:101
-msgctxt "@info:tooltip period end time"
-msgid "End:"
-msgstr "अंत:"
-
-#: freeperiodmodel.cpp:203
-msgctxt "@info:tooltip period duration"
-msgid "Duration:"
-msgstr "अवधिः"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -827,6 +737,15 @@ msgstr ""
 msgctxt "@option:check"
 msgid "Blocks me for other events"
 msgstr ""
+
+#. i18n: file: categoryeditdialog_base.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
+#: rc.cpp:245 categoryeditdialog.cpp:42
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Categories:"
+msgid "Edit Categories"
+msgstr "श्रेणिसभ:"
 
 #. i18n: file: categoryeditdialog_base.ui:28
 #. i18n: ectx: property (toolTip), widget (KLineEdit, mEdit)
@@ -2316,6 +2235,87 @@ msgstr "ऑफसेट"
 #: rc.cpp:1150
 msgid "Repeat"
 msgstr "दोहराबू"
+
+#: categoryeditdialog.cpp:60
+msgid "Apply changes and close"
+msgstr ""
+
+#: categoryeditdialog.cpp:61
+msgid ""
+"When clicking <b>Ok</b>, the settings will be handed over to the program and "
+"the dialog will be closed."
+msgstr ""
+
+#: categoryeditdialog.cpp:64
+msgid "Cancel changes and close"
+msgstr ""
+
+#: categoryeditdialog.cpp:65
+msgid ""
+"When clicking <b>Cancel</b>, the settings will be discarded and the dialog "
+"will be closed."
+msgstr ""
+
+#: categoryeditdialog.cpp:69
+msgid ""
+"When clicking <b>Help</b>, a separate KHelpCenter window will open providing "
+"more information about the settings."
+msgstr ""
+
+#: categoryeditdialog.cpp:131
+#, fuzzy
+#| msgid "Category"
+msgid "New category"
+msgstr "श्रेणी"
+
+#: categoryeditdialog.cpp:149
+#, fuzzy
+#| msgid "Category"
+msgid "New subcategory"
+msgstr "श्रेणी"
+
+#: freeperiodmodel.cpp:143
+#, kde-format
+msgctxt "@label Day of the week name, example: Monday,"
+msgid "%1,"
+msgstr ""
+
+#: freeperiodmodel.cpp:159
+#, kde-format
+msgctxt ""
+"@label A time period duration. It is preceded/followed (based on the "
+"orientation) by the name of the week, see the message above. example: 12 "
+"June, 8:00am to 9:30am"
+msgid "%1 %2, %3 to %4"
+msgstr ""
+
+#: freeperiodmodel.cpp:181
+#, kde-format
+msgctxt ""
+"@label A time period duration. KLocale is used to format the components. "
+"example: Monday, 12 June, 8:00am to 9:30am"
+msgid "%1, %2 %3, %4 to %5"
+msgstr ""
+
+#: freeperiodmodel.cpp:195
+msgctxt "@info:tooltip"
+msgid "Free Period"
+msgstr ""
+
+#: freeperiodmodel.cpp:197 freebusyganttproxymodel.cpp:98
+msgctxt "@info:tooltip period start time"
+msgid "Start:"
+msgstr "प्रारंभ:"
+
+#: freeperiodmodel.cpp:200 freebusyganttproxymodel.cpp:101
+msgctxt "@info:tooltip period end time"
+msgid "End:"
+msgstr "अंत:"
+
+#: freeperiodmodel.cpp:203
+msgctxt "@info:tooltip period duration"
+msgid "Duration:"
+msgstr "अवधिः"
 
 #: freebusyitemmodel.cpp:229
 msgid "Attendee"
