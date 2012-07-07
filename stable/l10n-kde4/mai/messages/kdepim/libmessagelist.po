@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-20 13:50+0200\n"
+"POT-Creation-Date: 2012-07-07 12:49+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -107,107 +107,6 @@ msgstr ""
 
 #: core/aggregation.cpp:268
 msgid "Batch Job (No Interactivity)"
-msgstr ""
-
-#: core/widgetbase.cpp:139
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "खोजू"
-
-#: core/widgetbase.cpp:160
-msgid "Open Full Search"
-msgstr ""
-
-#: core/widgetbase.cpp:234
-msgid "Any Status"
-msgstr ""
-
-#: core/widgetbase.cpp:237
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "अपठित"
-
-#: core/widgetbase.cpp:241
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "जवाब"
-
-#: core/widgetbase.cpp:245
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "अग्रसारित"
-
-#: core/widgetbase.cpp:249
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "महत्वपूर्ण"
-
-#: core/widgetbase.cpp:253
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr ""
-
-#: core/widgetbase.cpp:257
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr ""
-
-#: core/widgetbase.cpp:261
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "अनदेखा कएल गेल"
-
-#: core/widgetbase.cpp:265
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr ""
-
-#: core/widgetbase.cpp:269
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr ""
-
-#: core/widgetbase.cpp:273
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr ""
-
-#: core/widgetbase.cpp:277
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr ""
-
-#: core/widgetbase.cpp:446 core/view.cpp:1637
-msgid "Theme"
-msgstr "प्रसंग"
-
-#: core/widgetbase.cpp:470 core/widgetbase.cpp:558
-#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:46
-msgid "Configure..."
-msgstr "कान्फिगर..."
-
-#: core/widgetbase.cpp:533 core/view.cpp:1631
-msgid "Aggregation"
-msgstr ""
-
-#: core/widgetbase.cpp:614
-msgid "Message Sort Order"
-msgstr ""
-
-#: core/widgetbase.cpp:641
-msgid "Message Sort Direction"
-msgstr ""
-
-#: core/widgetbase.cpp:662
-msgid "Group Sort Order"
-msgstr ""
-
-#: core/widgetbase.cpp:685
-msgid "Group Sort Direction"
-msgstr ""
-
-#: core/widgetbase.cpp:703
-msgid "Folder Always Uses This Sort Order"
 msgstr ""
 
 #: core/item.cpp:229 core/messageitem.cpp:619
@@ -704,6 +603,14 @@ msgstr ""
 msgid "Sorting"
 msgstr "छाँटनाइ"
 
+#: core/view.cpp:1631 core/widgetbase.cpp:534
+msgid "Aggregation"
+msgstr ""
+
+#: core/view.cpp:1637 core/widgetbase.cpp:447
+msgid "Theme"
+msgstr "प्रसंग"
+
 #: core/view.cpp:2411 core/view.cpp:2415
 msgid "From"
 msgstr "सँ"
@@ -934,6 +841,99 @@ msgstr[1] ""
 msgctxt "@info:status Finished view fill"
 msgid "Ready"
 msgstr "तैआर"
+
+#: core/widgetbase.cpp:139
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "खोजू"
+
+#: core/widgetbase.cpp:161
+msgid "Open Full Search"
+msgstr ""
+
+#: core/widgetbase.cpp:235
+msgid "Any Status"
+msgstr ""
+
+#: core/widgetbase.cpp:238
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "अपठित"
+
+#: core/widgetbase.cpp:242
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "जवाब"
+
+#: core/widgetbase.cpp:246
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "अग्रसारित"
+
+#: core/widgetbase.cpp:250
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "महत्वपूर्ण"
+
+#: core/widgetbase.cpp:254
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr ""
+
+#: core/widgetbase.cpp:258
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr ""
+
+#: core/widgetbase.cpp:262
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "अनदेखा कएल गेल"
+
+#: core/widgetbase.cpp:266
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr ""
+
+#: core/widgetbase.cpp:270
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr ""
+
+#: core/widgetbase.cpp:274
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr ""
+
+#: core/widgetbase.cpp:278
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr ""
+
+#: core/widgetbase.cpp:471 core/widgetbase.cpp:559
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:46
+msgid "Configure..."
+msgstr "कान्फिगर..."
+
+#: core/widgetbase.cpp:615
+msgid "Message Sort Order"
+msgstr ""
+
+#: core/widgetbase.cpp:642
+msgid "Message Sort Direction"
+msgstr ""
+
+#: core/widgetbase.cpp:663
+msgid "Group Sort Order"
+msgstr ""
+
+#: core/widgetbase.cpp:686
+msgid "Group Sort Direction"
+msgstr ""
+
+#: core/widgetbase.cpp:704
+msgid "Folder Always Uses This Sort Order"
+msgstr ""
 
 #: utils/aggregationeditor.cpp:47
 msgid "Groups && Threading"
