@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 08:46+0200\n"
+"POT-Creation-Date: 2012-07-10 09:00+0200\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -24,6 +24,11 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:63
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr ""
 
 #: actions/bundled/dimdisplayconfig.cpp:63
 #: actions/bundled/runscriptconfig.cpp:80
@@ -41,53 +46,31 @@ msgstr "मि."
 msgid "After"
 msgstr ""
 
-#: actions/bundled/runscriptconfig.cpp:70
-msgid "Script"
-msgstr ""
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
+msgid "Do nothing"
+msgstr "किछु नहि करू"
 
-#: actions/bundled/runscriptconfig.cpp:81
-#, fuzzy
-#| msgid "New Profile"
-msgid "On Profile Load"
-msgstr "नवीन प्रोफाइल"
-
-#: actions/bundled/runscriptconfig.cpp:82
-msgid "On Profile Unload"
-msgstr ""
-
-#: actions/bundled/runscriptconfig.cpp:93
-msgid "Run script"
-msgstr ""
-
-#: actions/bundled/suspendsession.cpp:114
-msgid "The screen is being locked"
-msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
-
-#: actions/bundled/suspendsessionconfig.cpp:80
 #: actions/bundled/handlebuttoneventsconfig.cpp:79
+#: actions/bundled/suspendsessionconfig.cpp:80
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:83
 #: actions/bundled/handlebuttoneventsconfig.cpp:82
+#: actions/bundled/suspendsessionconfig.cpp:83
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/suspendsessionconfig.cpp:85
 #: actions/bundled/handlebuttoneventsconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:85
 msgid "Shutdown"
 msgstr "बन्न करू"
 
-#: actions/bundled/suspendsessionconfig.cpp:86
 #: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:86
 #, fuzzy
 #| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "स्क्रीन पर ताला लगाबू"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
-msgid "Do nothing"
-msgstr "किछु नहि करू"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:87
 #, fuzzy
@@ -111,10 +94,27 @@ msgstr "जखन लैपटापक ढक्कन बन्न अछि �
 msgid "When power button pressed"
 msgstr "जखन पावर बटन दबाएल जाए"
 
-#: actions/bundled/brightnesscontrolconfig.cpp:63
-msgctxt "Brightness level, label for the slider"
-msgid "Level"
+#: actions/bundled/runscriptconfig.cpp:70
+msgid "Script"
 msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:81
+#, fuzzy
+#| msgid "New Profile"
+msgid "On Profile Load"
+msgstr "नवीन प्रोफाइल"
+
+#: actions/bundled/runscriptconfig.cpp:82
+msgid "On Profile Unload"
+msgstr ""
+
+#: actions/bundled/runscriptconfig.cpp:93
+msgid "Run script"
+msgstr ""
+
+#: actions/bundled/suspendsession.cpp:114
+msgid "The screen is being locked"
+msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
@@ -127,6 +127,30 @@ msgstr "एतबा समयक बाद बिजली बन्न कर�
 #| msgid "Supported suspend methods"
 msgid "Unsupported suspend method"
 msgstr "समर्थित निलंबन विधिसभ"
+
+#: kdedpowerdevil.cpp:58
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "KDE Power Management System"
+msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
+
+#: kdedpowerdevil.cpp:59
+msgid ""
+"KDE Power Management System is PowerDevil, an advanced, modular and "
+"lightweight Power Management daemon"
+msgstr ""
+
+#: kdedpowerdevil.cpp:62
+msgid "(c) 2010 MetalWorkers Co."
+msgstr ""
+
+#: kdedpowerdevil.cpp:65
+msgid "Dario Freddi"
+msgstr "डेरियो फ्रेदी"
+
+#: kdedpowerdevil.cpp:65
+msgid "Maintainer"
+msgstr "अनुरक्षक"
 
 #: powerdevilcore.cpp:73
 msgid ""
@@ -208,19 +232,19 @@ msgid ""
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:404 powerdevilcore.cpp:416
+#: powerdevilcore.cpp:405 powerdevilcore.cpp:417
 msgid "Activity Manager"
 msgstr ""
 
-#: powerdevilcore.cpp:405
+#: powerdevilcore.cpp:406
 msgid "This activity's policies prevent the system from suspending"
 msgstr ""
 
-#: powerdevilcore.cpp:417
+#: powerdevilcore.cpp:418
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:453
+#: powerdevilcore.cpp:454
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -228,7 +252,7 @@ msgstr ""
 "बैटरी इंटरफेस सँ कनेक्ट नहि भए सकल!\n"
 "कृप्या अपन सिस्टम कान्फिगरेशन जाँचू"
 
-#: powerdevilcore.cpp:501
+#: powerdevilcore.cpp:502
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -236,15 +260,15 @@ msgid ""
 "been canceled."
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:503
+#: powerdevilcore.cpp:504
 msgid "The power adaptor has been plugged in."
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:506
+#: powerdevilcore.cpp:507
 msgid "The power adaptor has been unplugged."
 msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
 
-#: powerdevilcore.cpp:512
+#: powerdevilcore.cpp:513
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -252,7 +276,7 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:539
+#: powerdevilcore.cpp:540
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -262,7 +286,7 @@ msgid ""
 "Your battery level is critical, the computer will be halted in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:545
+#: powerdevilcore.cpp:546
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -273,7 +297,7 @@ msgid ""
 "seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:551
+#: powerdevilcore.cpp:552
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be suspended to RAM in "
@@ -285,37 +309,13 @@ msgid ""
 "Your battery level is critical, the computer will be suspended in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
 
-#: powerdevilcore.cpp:557
+#: powerdevilcore.cpp:558
 msgid "Your battery level is critical: save your work as soon as possible."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
-#: powerdevilcore.cpp:563
+#: powerdevilcore.cpp:564
 msgid "Your battery has reached a low level."
 msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
-
-#: kdedpowerdevil.cpp:58
-#, fuzzy
-#| msgid "A Power Management tool for KDE4"
-msgid "KDE Power Management System"
-msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
-
-#: kdedpowerdevil.cpp:59
-msgid ""
-"KDE Power Management System is PowerDevil, an advanced, modular and "
-"lightweight Power Management daemon"
-msgstr ""
-
-#: kdedpowerdevil.cpp:62
-msgid "(c) 2010 MetalWorkers Co."
-msgstr ""
-
-#: kdedpowerdevil.cpp:65
-msgid "Dario Freddi"
-msgstr "डेरियो फ्रेदी"
-
-#: kdedpowerdevil.cpp:65
-msgid "Maintainer"
-msgstr "अनुरक्षक"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

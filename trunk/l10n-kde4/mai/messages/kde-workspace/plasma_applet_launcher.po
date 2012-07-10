@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_launcher\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-22 05:19+0200\n"
+"POT-Creation-Date: 2012-07-10 08:59+0200\n"
 "PO-Revision-Date: 2010-01-28 13:51+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -46,68 +46,6 @@ msgctxt "General configuration page"
 msgid "General"
 msgstr "सामान्य"
 
-#: core/models.cpp:121
-msgid "Home Folder"
-msgstr "घर फोल्डर"
-
-#: core/models.cpp:124
-msgid "Network Folders"
-msgstr "नेटवर्क फोल्डरसभ"
-
-#: core/recentlyusedmodel.cpp:109
-msgid "Documents"
-msgstr "दस्तावेज"
-
-#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
-#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
-msgid "Applications"
-msgstr "अनुप्रयोग"
-
-#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
-#: ui/launcher.cpp:124 ui/launcher.cpp:249
-msgid "Recently Used"
-msgstr "हालमे प्रयुक्त"
-
-#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
-#, fuzzy
-#| msgid "Recently Used"
-msgid "Recently Used Documents"
-msgstr "हालमे प्रयुक्त"
-
-#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
-msgid "Recently Used Applications"
-msgstr "हालक अनुप्रयोग साफ करू"
-
-#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
-#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
-msgid "Favorites"
-msgstr "प्रिय"
-
-#: core/systemmodel.cpp:75
-msgid "Places"
-msgstr "स्थान"
-
-#: core/systemmodel.cpp:76
-msgid "Removable Storage"
-msgstr "हटाएल जाए सकैबला भंडार"
-
-#: core/systemmodel.cpp:77
-msgid "Storage"
-msgstr "भंडारण"
-
-#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
-msgid "Run Command..."
-msgstr "कमांड चलाबू..."
-
-#: core/systemmodel.cpp:211
-msgid "Run a command or a search query"
-msgstr ""
-
-#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
-#: ui/launcher.cpp:123 ui/launcher.cpp:270
-msgid "Computer"
-msgstr "कम्प्यूटर"
-
 #: core/applicationmodel.cpp:334
 msgid "Games"
 msgstr "खेल"
@@ -115,6 +53,11 @@ msgstr "खेल"
 #: core/applicationmodel.cpp:428 ui/launcher.cpp:976
 msgid "All Applications"
 msgstr "सभटा अनुप्रयोग"
+
+#: core/favoritesmodel.cpp:49 core/favoritesmodel.cpp:322
+#: simpleapplet/simpleapplet.cpp:193 ui/launcher.cpp:121 ui/launcher.cpp:191
+msgid "Favorites"
+msgstr "प्रिय"
 
 #: core/leavemodel.cpp:50 simpleapplet/simpleapplet.cpp:210
 #, fuzzy
@@ -213,6 +156,63 @@ msgstr "सत्र"
 msgid "System"
 msgstr "सिस्टम"
 
+#: core/models.cpp:121
+msgid "Home Folder"
+msgstr "घर फोल्डर"
+
+#: core/models.cpp:124
+msgid "Network Folders"
+msgstr "नेटवर्क फोल्डरसभ"
+
+#: core/recentlyusedmodel.cpp:109
+msgid "Documents"
+msgstr "दस्तावेज"
+
+#: core/recentlyusedmodel.cpp:120 core/systemmodel.cpp:74
+#: simpleapplet/simpleapplet.cpp:195 ui/launcher.cpp:123 ui/launcher.cpp:236
+msgid "Applications"
+msgstr "अनुप्रयोग"
+
+#: core/recentlyusedmodel.cpp:186 simpleapplet/simpleapplet.cpp:197
+#: ui/launcher.cpp:124 ui/launcher.cpp:249
+msgid "Recently Used"
+msgstr "हालमे प्रयुक्त"
+
+#: core/recentlyusedmodel.cpp:188 simpleapplet/simpleapplet.cpp:199
+#, fuzzy
+#| msgid "Recently Used"
+msgid "Recently Used Documents"
+msgstr "हालमे प्रयुक्त"
+
+#: core/recentlyusedmodel.cpp:190 simpleapplet/simpleapplet.cpp:198
+msgid "Recently Used Applications"
+msgstr "हालक अनुप्रयोग साफ करू"
+
+#: core/systemmodel.cpp:75
+msgid "Places"
+msgstr "स्थान"
+
+#: core/systemmodel.cpp:76
+msgid "Removable Storage"
+msgstr "हटाएल जाए सकैबला भंडार"
+
+#: core/systemmodel.cpp:77
+msgid "Storage"
+msgstr "भंडारण"
+
+#: core/systemmodel.cpp:207 simpleapplet/simpleapplet.cpp:201
+msgid "Run Command..."
+msgstr "कमांड चलाबू..."
+
+#: core/systemmodel.cpp:211
+msgid "Run a command or a search query"
+msgstr ""
+
+#: core/systemmodel.cpp:319 simpleapplet/simpleapplet.cpp:196
+#: ui/launcher.cpp:123 ui/launcher.cpp:270
+msgid "Computer"
+msgstr "कम्प्यूटर"
+
 #: main.cpp:32
 msgid "Kickoff"
 msgstr "किकआफ"
@@ -309,39 +309,6 @@ msgstr "विकल्प"
 msgid "Actions"
 msgstr "क्रियासभ"
 
-#: ui/searchbar.cpp:70
-msgctxt "Label of the search bar textedit"
-msgid "Search:"
-msgstr "खोजू:"
-
-#: ui/launcher.cpp:194
-msgid "Sort Alphabetically (A to Z)"
-msgstr "सोर्ट वर्णक्रम मे A केँ Z"
-
-#: ui/launcher.cpp:197
-msgid "Sort Alphabetically (Z to A)"
-msgstr "सोर्ट वर्णक्रम मे Z केँ A"
-
-#: ui/launcher.cpp:251
-msgid "Clear Recent Applications"
-msgstr "हालक अनुप्रयोग साफ करू"
-
-#: ui/launcher.cpp:252
-msgid "Clear Recent Documents"
-msgstr "हालमे प्रयुक्त दस्ताबेज साफ करू"
-
-#: ui/launcher.cpp:560
-#, kde-format
-msgctxt "login name, hostname"
-msgid "User <b>%1</b> on <b>%2</b>"
-msgstr "प्रयोक्ता<b>%1</b> पर<b>%2</b>"
-
-#: ui/launcher.cpp:562
-#, kde-format
-msgctxt "full name, login name, hostname"
-msgid "<b>%1 (%2)</b> on <b>%3</b>"
-msgstr "<b>%1 (%2)</b> पर<b>%3</b>"
-
 #: ui/contextmenufactory.cpp:85
 msgid "Advanced"
 msgstr "उन्नत"
@@ -373,6 +340,39 @@ msgstr "बाहर निकालू"
 #: ui/contextmenufactory.cpp:263
 msgid "Safely Remove"
 msgstr "हटाबू"
+
+#: ui/launcher.cpp:194
+msgid "Sort Alphabetically (A to Z)"
+msgstr "सोर्ट वर्णक्रम मे A केँ Z"
+
+#: ui/launcher.cpp:197
+msgid "Sort Alphabetically (Z to A)"
+msgstr "सोर्ट वर्णक्रम मे Z केँ A"
+
+#: ui/launcher.cpp:251
+msgid "Clear Recent Applications"
+msgstr "हालक अनुप्रयोग साफ करू"
+
+#: ui/launcher.cpp:252
+msgid "Clear Recent Documents"
+msgstr "हालमे प्रयुक्त दस्ताबेज साफ करू"
+
+#: ui/launcher.cpp:560
+#, kde-format
+msgctxt "login name, hostname"
+msgid "User <b>%1</b> on <b>%2</b>"
+msgstr "प्रयोक्ता<b>%1</b> पर<b>%2</b>"
+
+#: ui/launcher.cpp:562
+#, kde-format
+msgctxt "full name, login name, hostname"
+msgid "<b>%1 (%2)</b> on <b>%3</b>"
+msgstr "<b>%1 (%2)</b> पर<b>%3</b>"
+
+#: ui/searchbar.cpp:70
+msgctxt "Label of the search bar textedit"
+msgid "Search:"
+msgstr "खोजू:"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
