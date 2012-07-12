@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-25 04:52+0200\n"
+"POT-Creation-Date: 2012-07-12 04:27+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -544,80 +544,36 @@ msgstr ""
 msgid "&Only show when using this application (%1)"
 msgstr ""
 
-#: panels/places/placespanel.cpp:157 dolphincontextmenu.cpp:174
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "रद्दी खाली करू"
-
-#: panels/places/placespanel.cpp:161 panels/places/placespanel.cpp:167
-#: panels/places/placespanel.cpp:228
+#: panels/places/placesitem.cpp:150
 #, fuzzy
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Add Entry..."
-msgstr "टिप्पणी जोड़ू..."
+#| msgctxt "@title:window"
+#| msgid "Places"
+msgctxt "@item"
+msgid "Places"
+msgstr "स्थान"
 
-#: panels/places/placespanel.cpp:163
-#, fuzzy, kde-format
-#| msgctxt "@label"
-#| msgid "Add Comment..."
-msgctxt "@item:inmenu"
-msgid "Edit '%1'..."
-msgstr "टिप्पणी जोड़ू..."
-
-#: panels/places/placespanel.cpp:170
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@item:inmenu"
-msgid "Open '%1' in New Tab"
-msgstr "नवीन टैब मे खोलू"
-
-#: panels/places/placespanel.cpp:175
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu View"
-#| msgid "Reload"
-msgctxt "@item:inmenu"
-msgid "Remove '%1'"
-msgstr "पुनः लोड करू"
-
-#: panels/places/placespanel.cpp:178
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Hide '%1'"
-msgstr ""
-
-#: panels/places/placespanel.cpp:187 panels/places/placespanel.cpp:232
+#: panels/places/placesitem.cpp:151
 #, fuzzy
-#| msgid "Show tooltips"
-msgctxt "@item:inmenu"
-msgid "Show All Entries"
-msgstr "टूलटिप देखाबू"
+#| msgid "Recently Closed Tabs"
+msgctxt "@item"
+msgid "Recently Accessed"
+msgstr "हालमे बन्न टैब (&R)"
 
-#: panels/places/placespanel.cpp:298
-msgctxt "@info"
-msgid "Do you really want to empty the Trash? All items will be deleted."
-msgstr ""
-"की अहाँ सचमुच रद्दी कए टोकरी केँ खाली कएनाइ चाहैत छी? सबहि वस्तुसभ केँ मेटाए देल जएताह."
-
-#: panels/places/placespanel.cpp:302
-msgctxt "@action:button"
-msgid "Empty Trash"
-msgstr "रद्दी खाली करू"
-
-#: panels/places/placespanel.cpp:322
+#: panels/places/placesitem.cpp:152
 #, fuzzy
-#| msgctxt "@action:inmenu Add current folder to places"
-#| msgid "Add to Places"
-msgctxt "@title:window"
-msgid "Add Places Entry"
-msgstr "स्थान मे जोडू"
+#| msgctxt "@title:menu"
+#| msgid "Search Toolbar"
+msgctxt "@item"
+msgid "Search For"
+msgstr "मुख्य अओजार पट्टी"
 
-#: panels/places/placespanel.cpp:338
-msgctxt "@title:window"
-msgid "Edit Places Entry"
-msgstr ""
+#: panels/places/placesitem.cpp:153
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Services"
+msgctxt "@item"
+msgid "Devices"
+msgstr "सेवासभ"
 
 #: panels/places/placesitemmodel.cpp:264
 #, fuzzy, kde-format
@@ -657,14 +613,14 @@ msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:892
+#: panels/places/placesitemmodel.cpp:897
 #, fuzzy
 #| msgid "Home URL"
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr "मुख्य यूआरएल"
 
-#: panels/places/placesitemmodel.cpp:895
+#: panels/places/placesitemmodel.cpp:900
 #, fuzzy
 #| msgctxt "@action:inmenu Go"
 #| msgid "&Network Folders"
@@ -672,12 +628,12 @@ msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "नेटवर्क फोल्डर्स (&N)"
 
-#: panels/places/placesitemmodel.cpp:898
+#: panels/places/placesitemmodel.cpp:903
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:901
+#: panels/places/placesitemmodel.cpp:906
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Trash"
@@ -685,7 +641,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "रद्दी"
 
-#: panels/places/placesitemmodel.cpp:906
+#: panels/places/placesitemmodel.cpp:911
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Today"
@@ -693,7 +649,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr "आइ"
 
-#: panels/places/placesitemmodel.cpp:909
+#: panels/places/placesitemmodel.cpp:914
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Yesterday"
@@ -701,7 +657,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr "कालि"
 
-#: panels/places/placesitemmodel.cpp:912
+#: panels/places/placesitemmodel.cpp:917
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -709,7 +665,7 @@ msgctxt "KFile System Bookmarks"
 msgid "This Month"
 msgstr "ई महीना केर शुरू में"
 
-#: panels/places/placesitemmodel.cpp:915
+#: panels/places/placesitemmodel.cpp:920
 #, fuzzy
 #| msgctxt "@title:group Date"
 #| msgid "Earlier this Month"
@@ -717,7 +673,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Last Month"
 msgstr "ई महीना केर शुरू में"
 
-#: panels/places/placesitemmodel.cpp:918
+#: panels/places/placesitemmodel.cpp:923
 #, fuzzy
 #| msgctxt "@info:credit"
 #| msgid "Documentation"
@@ -725,7 +681,7 @@ msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "दस्ताबेजीकरण"
 
-#: panels/places/placesitemmodel.cpp:921
+#: panels/places/placesitemmodel.cpp:926
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Images"
@@ -733,46 +689,90 @@ msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr "बिंब"
 
-#: panels/places/placesitemmodel.cpp:924
+#: panels/places/placesitemmodel.cpp:929
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:927
+#: panels/places/placesitemmodel.cpp:932
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: panels/places/placesitem.cpp:150
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Places"
-msgctxt "@item"
-msgid "Places"
-msgstr "स्थान"
+#: panels/places/placespanel.cpp:158 dolphincontextmenu.cpp:174
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "रद्दी खाली करू"
 
-#: panels/places/placesitem.cpp:151
+#: panels/places/placespanel.cpp:162 panels/places/placespanel.cpp:168
+#: panels/places/placespanel.cpp:229
 #, fuzzy
-#| msgid "Recently Closed Tabs"
-msgctxt "@item"
-msgid "Recently Accessed"
-msgstr "हालमे बन्न टैब (&R)"
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Add Entry..."
+msgstr "टिप्पणी जोड़ू..."
 
-#: panels/places/placesitem.cpp:152
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Search Toolbar"
-msgctxt "@item"
-msgid "Search For"
-msgstr "मुख्य अओजार पट्टी"
+#: panels/places/placespanel.cpp:164
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Comment..."
+msgctxt "@item:inmenu"
+msgid "Edit '%1'..."
+msgstr "टिप्पणी जोड़ू..."
 
-#: panels/places/placesitem.cpp:153
+#: panels/places/placespanel.cpp:171
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@item:inmenu"
+msgid "Open '%1' in New Tab"
+msgstr "नवीन टैब मे खोलू"
+
+#: panels/places/placespanel.cpp:176
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Reload"
+msgctxt "@item:inmenu"
+msgid "Remove '%1'"
+msgstr "पुनः लोड करू"
+
+#: panels/places/placespanel.cpp:179
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Hide '%1'"
+msgstr ""
+
+#: panels/places/placespanel.cpp:188 panels/places/placespanel.cpp:233
 #, fuzzy
-#| msgctxt "@title:group"
-#| msgid "Services"
-msgctxt "@item"
-msgid "Devices"
-msgstr "सेवासभ"
+#| msgid "Show tooltips"
+msgctxt "@item:inmenu"
+msgid "Show All Entries"
+msgstr "टूलटिप देखाबू"
+
+#: panels/places/placespanel.cpp:315
+msgctxt "@info"
+msgid "Do you really want to empty the Trash? All items will be deleted."
+msgstr ""
+"की अहाँ सचमुच रद्दी कए टोकरी केँ खाली कएनाइ चाहैत छी? सबहि वस्तुसभ केँ मेटाए देल जएताह."
+
+#: panels/places/placespanel.cpp:319
+msgctxt "@action:button"
+msgid "Empty Trash"
+msgstr "रद्दी खाली करू"
+
+#: panels/places/placespanel.cpp:339
+#, fuzzy
+#| msgctxt "@action:inmenu Add current folder to places"
+#| msgid "Add to Places"
+msgctxt "@title:window"
+msgid "Add Places Entry"
+msgstr "स्थान मे जोडू"
+
+#: panels/places/placespanel.cpp:355
+msgctxt "@title:window"
+msgid "Edit Places Entry"
+msgstr ""
 
 #: search/dolphinsearchbox.cpp:110
 #, kde-format
@@ -1884,63 +1884,6 @@ msgctxt "@info"
 msgid "Details view mode"
 msgstr "विभाजित दृश्य मोड"
 
-#: dolphincontextmenu.cpp:196
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "पूर्व अवस्थामे पहुँचाबू"
-
-#: dolphincontextmenu.cpp:235 dolphinmainwindow.cpp:1485
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "नवीन बनाबू"
-
-#: dolphincontextmenu.cpp:248
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "स्थान मे जोडू"
-
-#: dolphincontextmenu.cpp:255
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "नवीन विंडोमे खोलू."
-
-#: dolphincontextmenu.cpp:261
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "नवीन टैब मे खोलू"
-
-#: dolphincontextmenu.cpp:330
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "स्थान मे जोडू"
-
-#: dolphincontextmenu.cpp:423
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "फोल्डर मे साटू"
-
-#: dolphincontextmenu.cpp:534
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "रद्दीमे भेजू"
-
-#: dolphincontextmenu.cpp:537
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "मेटाबू"
-
 #: dolphinmainwindow.cpp:318
 msgctxt "@info:status"
 msgid "Successfully copied."
@@ -2046,6 +1989,11 @@ msgstr "अओजार"
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
+
+#: dolphinmainwindow.cpp:1485 dolphincontextmenu.cpp:235
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "नवीन बनाबू"
 
 #: dolphinmainwindow.cpp:1492
 msgctxt "@action:inmenu File"
@@ -2266,6 +2214,241 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr ""
+
+#: dolphincontextmenu.cpp:196
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "पूर्व अवस्थामे पहुँचाबू"
+
+#: dolphincontextmenu.cpp:248
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "स्थान मे जोडू"
+
+#: dolphincontextmenu.cpp:255
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "नवीन विंडोमे खोलू."
+
+#: dolphincontextmenu.cpp:261
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "नवीन टैब मे खोलू"
+
+#: dolphincontextmenu.cpp:330
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "स्थान मे जोडू"
+
+#: dolphincontextmenu.cpp:423
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "फोल्डर मे साटू"
+
+#: dolphincontextmenu.cpp:534
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "रद्दीमे भेजू"
+
+#: dolphincontextmenu.cpp:537
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "मेटाबू"
+
+#: dolphinpart.cpp:145
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "फाइलक प्रकार संपादित करू...(&E)"
+
+#: dolphinpart.cpp:149
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Select Item"
+msgctxt "@action:inmenu Edit"
+msgid "Select Items Matching..."
+msgstr "मद चुनू"
+
+#: dolphinpart.cpp:154
+msgctxt "@action:inmenu Edit"
+msgid "Unselect Items Matching..."
+msgstr ""
+
+#: dolphinpart.cpp:160
+msgctxt "@action:inmenu Edit"
+msgid "Unselect All"
+msgstr "सभ विचयनित करू"
+
+#: dolphinpart.cpp:177
+msgctxt "@action:inmenu Go"
+msgid "App&lications"
+msgstr "अनुप्रयोग (&l)"
+
+#: dolphinpart.cpp:180
+msgctxt "@action:inmenu Go"
+msgid "&Network Folders"
+msgstr "नेटवर्क फोल्डर्स (&N)"
+
+#: dolphinpart.cpp:183
+msgctxt "@action:inmenu Go"
+msgid "Sett&ings"
+msgstr "बिन्यास (&i)"
+
+#: dolphinpart.cpp:186
+msgctxt "@action:inmenu Go"
+msgid "Trash"
+msgstr "रद्दी"
+
+#: dolphinpart.cpp:189
+msgctxt "@action:inmenu Go"
+msgid "Autostart"
+msgstr "स्वतः चालू"
+
+#: dolphinpart.cpp:194
+msgctxt "@action:inmenu Tools"
+msgid "Find File..."
+msgstr "फाइल ढूँढू..."
+
+#: dolphinpart.cpp:202
+msgctxt "@action:inmenu Tools"
+msgid "Open &Terminal"
+msgstr "टर्मिनल खोलू (&T)"
+
+#: dolphinpart.cpp:271
+msgctxt "@title"
+msgid "Dolphin Part"
+msgstr "डाल्फिन पार्ट"
+
+#: dolphinpart.cpp:455
+msgctxt "@title:window"
+msgid "Select"
+msgstr "चुनू"
+
+#: dolphinpart.cpp:456
+msgid "Select all items matching this pattern:"
+msgstr ""
+
+#: dolphinpart.cpp:462
+msgctxt "@title:window"
+msgid "Unselect"
+msgstr "विचयनित करू"
+
+#: dolphinpart.cpp:463
+msgid "Unselect all items matching this pattern:"
+msgstr ""
+
+#: main.cpp:35
+msgctxt "@title"
+msgid "Dolphin"
+msgstr "डाल्फिन"
+
+#: main.cpp:37
+msgctxt "@title"
+msgid "File Manager"
+msgstr "फाइल प्रबंधक"
+
+#: main.cpp:39
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2009 Peter Penz"
+msgctxt "@info:credit"
+msgid "(C) 2006-2012 Peter Penz"
+msgstr "(C) 2006-2009 Peter Penz"
+
+#: main.cpp:41
+msgctxt "@info:credit"
+msgid "Peter Penz"
+msgstr "पीटर पेन्ज"
+
+#: main.cpp:42
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "Maintainer and developer"
+msgctxt "@info:credit"
+msgid "Maintainer and developer"
+msgstr "मेंटेनर आओर डेवलपर"
+
+#: main.cpp:44
+msgctxt "@info:credit"
+msgid "Frank Reininghaus"
+msgstr ""
+
+#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
+#: main.cpp:63 main.cpp:66
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "डेवलपर"
+
+#: main.cpp:47
+msgctxt "@info:credit"
+msgid "Sebastian Trüg"
+msgstr ""
+
+#: main.cpp:50
+msgctxt "@info:credit"
+msgid "David Faure"
+msgstr "डेविड फाउरे"
+
+#: main.cpp:53
+msgctxt "@info:credit"
+msgid "Aaron J. Seigo"
+msgstr "एरान जे. सीगो"
+
+#: main.cpp:56
+msgctxt "@info:credit"
+msgid "Rafael Fernández López"
+msgstr "राफेल फर्नांडीज लोपेज"
+
+#: main.cpp:59
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "केविन आटेन्स"
+
+#: main.cpp:62
+msgctxt "@info:credit"
+msgid "Holger Freyther"
+msgstr "होल्जर फ्रेदर"
+
+#: main.cpp:65
+msgctxt "@info:credit"
+msgid "Max Blazejak"
+msgstr "मैक्स ब्लेजेजाक"
+
+#: main.cpp:68
+msgctxt "@info:credit"
+msgid "Michael Austin"
+msgstr "माइकल आस्टिन"
+
+#: main.cpp:69
+msgctxt "@info:credit"
+msgid "Documentation"
+msgstr "दस्ताबेजीकरण"
+
+#: main.cpp:79
+msgctxt "@info:shell"
+msgid "The files and directories passed as arguments will be selected."
+msgstr ""
+
+#: main.cpp:81
+msgctxt "@info:shell"
+msgid "Dolphin will get started with a split view."
+msgstr ""
+
+#: main.cpp:82
+msgctxt "@info:shell"
+msgid "Document to open"
+msgstr "दस्ताबेज जकरा खोलनाइ अछि"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2781,189 +2964,6 @@ msgstr "अओजार"
 msgctxt "@title:menu"
 msgid "Dolphin Toolbar"
 msgstr "डाल्फिन अओजार पट्टी"
-
-#: dolphinpart.cpp:145
-msgctxt "@action:inmenu Edit"
-msgid "&Edit File Type..."
-msgstr "फाइलक प्रकार संपादित करू...(&E)"
-
-#: dolphinpart.cpp:149
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Select Item"
-msgctxt "@action:inmenu Edit"
-msgid "Select Items Matching..."
-msgstr "मद चुनू"
-
-#: dolphinpart.cpp:154
-msgctxt "@action:inmenu Edit"
-msgid "Unselect Items Matching..."
-msgstr ""
-
-#: dolphinpart.cpp:160
-msgctxt "@action:inmenu Edit"
-msgid "Unselect All"
-msgstr "सभ विचयनित करू"
-
-#: dolphinpart.cpp:177
-msgctxt "@action:inmenu Go"
-msgid "App&lications"
-msgstr "अनुप्रयोग (&l)"
-
-#: dolphinpart.cpp:180
-msgctxt "@action:inmenu Go"
-msgid "&Network Folders"
-msgstr "नेटवर्क फोल्डर्स (&N)"
-
-#: dolphinpart.cpp:183
-msgctxt "@action:inmenu Go"
-msgid "Sett&ings"
-msgstr "बिन्यास (&i)"
-
-#: dolphinpart.cpp:186
-msgctxt "@action:inmenu Go"
-msgid "Trash"
-msgstr "रद्दी"
-
-#: dolphinpart.cpp:189
-msgctxt "@action:inmenu Go"
-msgid "Autostart"
-msgstr "स्वतः चालू"
-
-#: dolphinpart.cpp:194
-msgctxt "@action:inmenu Tools"
-msgid "Find File..."
-msgstr "फाइल ढूँढू..."
-
-#: dolphinpart.cpp:202
-msgctxt "@action:inmenu Tools"
-msgid "Open &Terminal"
-msgstr "टर्मिनल खोलू (&T)"
-
-#: dolphinpart.cpp:271
-msgctxt "@title"
-msgid "Dolphin Part"
-msgstr "डाल्फिन पार्ट"
-
-#: dolphinpart.cpp:455
-msgctxt "@title:window"
-msgid "Select"
-msgstr "चुनू"
-
-#: dolphinpart.cpp:456
-msgid "Select all items matching this pattern:"
-msgstr ""
-
-#: dolphinpart.cpp:462
-msgctxt "@title:window"
-msgid "Unselect"
-msgstr "विचयनित करू"
-
-#: dolphinpart.cpp:463
-msgid "Unselect all items matching this pattern:"
-msgstr ""
-
-#: main.cpp:35
-msgctxt "@title"
-msgid "Dolphin"
-msgstr "डाल्फिन"
-
-#: main.cpp:37
-msgctxt "@title"
-msgid "File Manager"
-msgstr "फाइल प्रबंधक"
-
-#: main.cpp:39
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "(C) 2006-2009 Peter Penz"
-msgctxt "@info:credit"
-msgid "(C) 2006-2012 Peter Penz"
-msgstr "(C) 2006-2009 Peter Penz"
-
-#: main.cpp:41
-msgctxt "@info:credit"
-msgid "Peter Penz"
-msgstr "पीटर पेन्ज"
-
-#: main.cpp:42
-#, fuzzy
-#| msgctxt "@info:credit"
-#| msgid "Maintainer and developer"
-msgctxt "@info:credit"
-msgid "Maintainer and developer"
-msgstr "मेंटेनर आओर डेवलपर"
-
-#: main.cpp:44
-msgctxt "@info:credit"
-msgid "Frank Reininghaus"
-msgstr ""
-
-#: main.cpp:45 main.cpp:48 main.cpp:51 main.cpp:54 main.cpp:57 main.cpp:60
-#: main.cpp:63 main.cpp:66
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "डेवलपर"
-
-#: main.cpp:47
-msgctxt "@info:credit"
-msgid "Sebastian Trüg"
-msgstr ""
-
-#: main.cpp:50
-msgctxt "@info:credit"
-msgid "David Faure"
-msgstr "डेविड फाउरे"
-
-#: main.cpp:53
-msgctxt "@info:credit"
-msgid "Aaron J. Seigo"
-msgstr "एरान जे. सीगो"
-
-#: main.cpp:56
-msgctxt "@info:credit"
-msgid "Rafael Fernández López"
-msgstr "राफेल फर्नांडीज लोपेज"
-
-#: main.cpp:59
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr "केविन आटेन्स"
-
-#: main.cpp:62
-msgctxt "@info:credit"
-msgid "Holger Freyther"
-msgstr "होल्जर फ्रेदर"
-
-#: main.cpp:65
-msgctxt "@info:credit"
-msgid "Max Blazejak"
-msgstr "मैक्स ब्लेजेजाक"
-
-#: main.cpp:68
-msgctxt "@info:credit"
-msgid "Michael Austin"
-msgstr "माइकल आस्टिन"
-
-#: main.cpp:69
-msgctxt "@info:credit"
-msgid "Documentation"
-msgstr "दस्ताबेजीकरण"
-
-#: main.cpp:79
-msgctxt "@info:shell"
-msgid "The files and directories passed as arguments will be selected."
-msgstr ""
-
-#: main.cpp:81
-msgctxt "@info:shell"
-msgid "Dolphin will get started with a split view."
-msgstr ""
-
-#: main.cpp:82
-msgctxt "@info:shell"
-msgid "Document to open"
-msgstr "दस्ताबेज जकरा खोलनाइ अछि"
 
 #, fuzzy
 #~| msgctxt "@title:group Date"
