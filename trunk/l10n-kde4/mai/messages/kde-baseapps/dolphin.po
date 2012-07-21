@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-19 04:48+0200\n"
+"POT-Creation-Date: 2012-07-21 04:40+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -34,6 +34,25 @@ msgstr "फिल्टर पट्टी नुकाबू"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "फिल्टर:"
+
+#: kitemviews/kfileitemlistwidget.cpp:54
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "अज्ञात आकार"
+
+#: kitemviews/kfileitemlistwidget.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 वस्तु चयनित"
+msgstr[1] "%1 वस्तुसभ चयनित"
 
 #: kitemviews/kfileitemmodel.cpp:1559
 msgctxt "@title:group Groups that start with a digit"
@@ -411,25 +430,6 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "अनचिन्ह त्रुटि."
-
-#: kitemviews/kfileitemlistwidget.cpp:53
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "अज्ञात आकार"
-
-#: kitemviews/kfileitemlistwidget.cpp:55
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 वस्तु चयनित"
-msgstr[1] "%1 वस्तुसभ चयनित"
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1714,48 +1714,6 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr ""
 
-#: views/renamedialog.cpp:58
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "वस्तु क' नाम बदलू"
-
-#: views/renamedialog.cpp:59
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "वस्तुशब क' नाम बदलू"
-
-#: views/renamedialog.cpp:63
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "नाम बदलू (&R)"
-
-#: views/renamedialog.cpp:73
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "वस्तुसभ <filename>%1</filename>क' नाम एकरासँ बदलू:"
-
-#: views/renamedialog.cpp:76
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "नवीन नाम #"
-
-#: views/renamedialog.cpp:78
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "चयनित %1 वस्तु क' नाम एहिना बदलू:"
-msgstr[1] "चयनित %1 वस्तुसभ क' नाम एहिना बदलू:"
-
-#: views/renamedialog.cpp:107
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(# आरोहित संख्यासभ सँ बदलल जएताह)"
-
 #: views/dolphinviewactionhandler.cpp:99
 msgctxt "@action"
 msgid "Create Folder..."
@@ -1883,6 +1841,48 @@ msgstr "विवरण"
 msgctxt "@info"
 msgid "Details view mode"
 msgstr "विभाजित दृश्य मोड"
+
+#: views/renamedialog.cpp:58
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "वस्तु क' नाम बदलू"
+
+#: views/renamedialog.cpp:59
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "वस्तुशब क' नाम बदलू"
+
+#: views/renamedialog.cpp:63
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "नाम बदलू (&R)"
+
+#: views/renamedialog.cpp:73
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "वस्तुसभ <filename>%1</filename>क' नाम एकरासँ बदलू:"
+
+#: views/renamedialog.cpp:76
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "नवीन नाम #"
+
+#: views/renamedialog.cpp:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "चयनित %1 वस्तु क' नाम एहिना बदलू:"
+msgstr[1] "चयनित %1 वस्तुसभ क' नाम एहिना बदलू:"
+
+#: views/renamedialog.cpp:109
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "(# will be replaced by ascending numbers)"
+msgctxt "@info"
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "(# आरोहित संख्यासभ सँ बदलल जएताह)"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
