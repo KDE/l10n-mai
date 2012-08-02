@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeqt\n"
 "Report-Msgid-Bugs-To: qt-bugs@trolltech.com\n"
-"POT-Creation-Date: 2012-07-31 18:54+0200\n"
+"POT-Creation-Date: 2012-08-02 12:56+0200\n"
 "PO-Revision-Date: 2010-09-24 12:31+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1677,8 +1677,8 @@ msgctxt "QIODevice"
 msgid "No space left on device"
 msgstr "उपकरण पर कोनो स्थान शेष नहि अछि"
 
-#: corelib/io/qiodevice.cpp:1630 corelib/plugin/qpluginloader.cpp:367
-#: corelib/plugin/qlibrary.cpp:1236
+#: corelib/io/qiodevice.cpp:1630 corelib/plugin/qlibrary.cpp:1236
+#: corelib/plugin/qpluginloader.cpp:367
 #: corelib/statemachine/qstatemachine.cpp:1046
 #: network/kernel/qhostinfo_unix.cpp:301
 #: network/socket/qnativesocketengine.cpp:276
@@ -1939,15 +1939,6 @@ msgctxt "QSystemSemaphore"
 msgid "%1: ftok failed"
 msgstr ""
 
-#: corelib/plugin/qpluginloader.cpp:254
-msgid "The plugin was not loaded."
-msgstr ""
-
-#: corelib/plugin/qpluginloader.cpp:343 corelib/plugin/qlibrary.cpp:682
-#: corelib/plugin/qlibrary.cpp:828
-msgid "The shared library was not found."
-msgstr ""
-
 #: corelib/plugin/qelfparser_p.cpp:77
 #, qt-format
 msgid "'%1' is not an ELF object (%2)"
@@ -1968,24 +1959,14 @@ msgstr ""
 msgid "'%1' is an invalid ELF object (%2)"
 msgstr ""
 
-#: corelib/plugin/qlibrary_unix.cpp:261 corelib/plugin/qlibrary_win.cpp:136
-#, qt-format
-msgid "Cannot load library %1: %2"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:278 corelib/plugin/qlibrary_win.cpp:158
-#, qt-format
-msgid "Cannot unload library %1: %2"
-msgstr ""
-
-#: corelib/plugin/qlibrary_unix.cpp:312 corelib/plugin/qlibrary_win.cpp:173
-#, qt-format
-msgid "Cannot resolve symbol \"%1\" in %2: %3"
-msgstr ""
-
 #: corelib/plugin/qlibrary.cpp:405
 #, qt-format
 msgid "Plugin verification data mismatch in '%1'"
+msgstr ""
+
+#: corelib/plugin/qlibrary.cpp:682 corelib/plugin/qlibrary.cpp:828
+#: corelib/plugin/qpluginloader.cpp:343
+msgid "The shared library was not found."
 msgstr ""
 
 #: corelib/plugin/qlibrary.cpp:830
@@ -2010,6 +1991,25 @@ msgstr ""
 msgid ""
 "The plugin '%1' uses incompatible Qt library. (Cannot mix debug and release "
 "libraries.)"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:261 corelib/plugin/qlibrary_win.cpp:136
+#, qt-format
+msgid "Cannot load library %1: %2"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:278 corelib/plugin/qlibrary_win.cpp:158
+#, qt-format
+msgid "Cannot unload library %1: %2"
+msgstr ""
+
+#: corelib/plugin/qlibrary_unix.cpp:312 corelib/plugin/qlibrary_win.cpp:173
+#, qt-format
+msgid "Cannot resolve symbol \"%1\" in %2: %3"
+msgstr ""
+
+#: corelib/plugin/qpluginloader.cpp:254
+msgid "The plugin was not loaded."
 msgstr ""
 
 #: corelib/statemachine/qstatemachine.cpp:1028
@@ -2213,6 +2213,34 @@ msgstr ""
 msgid "Could not instantiate cursor delegate"
 msgstr ""
 
+#: declarative/graphicsitems/qdeclarativevisualitemmodel.cpp:1101
+msgid "Delegate component must be Item type."
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitem.cpp:814
+msgid "LayoutDirection attached property only works with Items"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:103
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:206
+msgctxt "QDeclarativeAnimatedImage"
+msgid "Qt was built without support for QMovie"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:175
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:258
+msgid "KeyNavigation is only available via attached properties"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:176
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:259
+msgid "Keys is only available via attached properties"
+msgstr ""
+
+#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:201
+msgid "LayoutMirroring is only available via attached properties"
+msgstr ""
+
 #: declarative/graphicsitems/qdeclarativeanchors.cpp:198
 msgid "Possible anchor loop detected on fill."
 msgstr ""
@@ -2266,34 +2294,6 @@ msgstr ""
 
 #: declarative/graphicsitems/qdeclarativeanchors.cpp:1149
 msgid "Cannot anchor a vertical edge to a horizontal edge."
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:103
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:206
-msgctxt "QDeclarativeAnimatedImage"
-msgid "Qt was built without support for QMovie"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:175
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:258
-msgid "KeyNavigation is only available via attached properties"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:176
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:259
-msgid "Keys is only available via attached properties"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitemsmodule.cpp:201
-msgid "LayoutMirroring is only available via attached properties"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativeitem.cpp:814
-msgid "LayoutDirection attached property only works with Items"
-msgstr ""
-
-#: declarative/graphicsitems/qdeclarativevisualitemmodel.cpp:1101
-msgid "Delegate component must be Item type."
 msgstr ""
 
 #: declarative/qml/parser/qdeclarativejslexer.cpp:545
@@ -3024,6 +3024,26 @@ msgstr ""
 msgid "Cannot assign to read-only property \"%1\""
 msgstr ""
 
+#: declarative/util/qdeclarativestateoperations.cpp:110
+#: declarative/util/qdeclarativeanimation.cpp:2699
+msgid "Unable to preserve appearance under complex transform"
+msgstr ""
+
+#: declarative/util/qdeclarativestateoperations.cpp:121
+#: declarative/util/qdeclarativestateoperations.cpp:128
+#: declarative/util/qdeclarativeanimation.cpp:2710
+#: declarative/util/qdeclarativeanimation.cpp:2717
+msgid "Unable to preserve appearance under non-uniform scale"
+msgstr ""
+
+#: declarative/util/qdeclarativestateoperations.cpp:135
+#: declarative/util/qdeclarativeanimation.cpp:2724
+#, fuzzy
+#| msgctxt "QNativeSocketEngine"
+#| msgid "Unable to write"
+msgid "Unable to preserve appearance under scale of 0"
+msgstr "लिखैमे असमर्थ"
+
 #: declarative/util/qdeclarativeutilmodule.cpp:79
 msgid "Application is an abstract class"
 msgstr ""
@@ -3057,25 +3077,41 @@ msgstr ""
 msgid "invalid query: \"%1\""
 msgstr ""
 
-#: declarative/util/qdeclarativestateoperations.cpp:110
-#: declarative/util/qdeclarativeanimation.cpp:2699
-msgid "Unable to preserve appearance under complex transform"
+#: declarative/util/qdeclarativeanimation.cpp:172
+#, qt-format
+msgid "Cannot animate non-existent property \"%1\""
 msgstr ""
 
-#: declarative/util/qdeclarativestateoperations.cpp:121
-#: declarative/util/qdeclarativestateoperations.cpp:128
-#: declarative/util/qdeclarativeanimation.cpp:2710
-#: declarative/util/qdeclarativeanimation.cpp:2717
-msgid "Unable to preserve appearance under non-uniform scale"
+#: declarative/util/qdeclarativeanimation.cpp:175
+#, qt-format
+msgid "Cannot animate read-only property \"%1\""
 msgstr ""
 
-#: declarative/util/qdeclarativestateoperations.cpp:135
-#: declarative/util/qdeclarativeanimation.cpp:2724
+#: declarative/util/qdeclarativeanimation.cpp:609
+#: declarative/util/qdeclarativeanimation.cpp:1847
+#: declarative/util/qdeclarativeanimation.cpp:2867
+msgid "Cannot set a duration of < 0"
+msgstr ""
+
+#: declarative/util/qdeclarativebehavior.cpp:127
+msgid "Cannot change the animation assigned to a Behavior."
+msgstr ""
+
+#: declarative/util/qdeclarativeconnections.cpp:217
+msgid "Connections: nested objects not allowed"
+msgstr ""
+
+#: declarative/util/qdeclarativeconnections.cpp:220
 #, fuzzy
-#| msgctxt "QNativeSocketEngine"
-#| msgid "Unable to write"
-msgid "Unable to preserve appearance under scale of 0"
-msgstr "लिखैमे असमर्थ"
+#| msgid "Connection timed out"
+msgid "Connections: syntax error"
+msgstr "कनेक्शन मियाद खतम भ' गेल"
+
+#: declarative/util/qdeclarativeconnections.cpp:228
+#, fuzzy
+#| msgid "Connection refused"
+msgid "Connections: script expected"
+msgstr "कनेक्शन अस्वीकृत"
 
 #: declarative/util/qdeclarativelistmodel.cpp:392
 #, qt-format
@@ -3126,42 +3162,6 @@ msgstr ""
 #, qt-format
 msgid "ListModel: undefined property '%1'"
 msgstr ""
-
-#: declarative/util/qdeclarativeanimation.cpp:172
-#, qt-format
-msgid "Cannot animate non-existent property \"%1\""
-msgstr ""
-
-#: declarative/util/qdeclarativeanimation.cpp:175
-#, qt-format
-msgid "Cannot animate read-only property \"%1\""
-msgstr ""
-
-#: declarative/util/qdeclarativeanimation.cpp:609
-#: declarative/util/qdeclarativeanimation.cpp:1847
-#: declarative/util/qdeclarativeanimation.cpp:2867
-msgid "Cannot set a duration of < 0"
-msgstr ""
-
-#: declarative/util/qdeclarativebehavior.cpp:127
-msgid "Cannot change the animation assigned to a Behavior."
-msgstr ""
-
-#: declarative/util/qdeclarativeconnections.cpp:217
-msgid "Connections: nested objects not allowed"
-msgstr ""
-
-#: declarative/util/qdeclarativeconnections.cpp:220
-#, fuzzy
-#| msgid "Connection timed out"
-msgid "Connections: syntax error"
-msgstr "कनेक्शन मियाद खतम भ' गेल"
-
-#: declarative/util/qdeclarativeconnections.cpp:228
-#, fuzzy
-#| msgid "Connection refused"
-msgid "Connections: script expected"
-msgstr "कनेक्शन अस्वीकृत"
 
 #: gui/accessible/qaccessibleobject.cpp:374
 #: plugins/accessible/widgets/complexwidgets.cpp:1617
@@ -3270,6 +3270,65 @@ msgstr ""
 #: gui/dialogs/qinputdialog.cpp:223
 msgid "Enter a value:"
 msgstr ""
+
+#: gui/dialogs/qmessagebox.cpp:139
+msgid "Show Details..."
+msgstr ""
+
+#: gui/dialogs/qmessagebox.cpp:139
+msgid "Hide Details..."
+msgstr ""
+
+#: gui/dialogs/qmessagebox.cpp:427 gui/dialogs/qmessagebox.cpp:1272
+msgctxt "QMessageBox"
+msgid "OK"
+msgstr "बेस"
+
+#: gui/dialogs/qmessagebox.cpp:1273
+msgctxt "QMessageBox"
+msgid "Help"
+msgstr "मद्दति "
+
+#: gui/dialogs/qmessagebox.cpp:1762
+#, qt-format
+msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
+msgstr ""
+
+#: gui/dialogs/qmessagebox.cpp:1767
+msgid ""
+"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
+"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
+"X, Linux, and all major commercial Unix variants. Qt is also available for "
+"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
+"available under three different licensing options designed to accommodate "
+"the needs of our various users.</p><p>Qt licensed under our commercial "
+"license agreement is appropriate for development of proprietary/commercial "
+"software where you do not want to share any source code with third parties "
+"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
+"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
+"appropriate for the development of Qt applications (proprietary or open "
+"source) provided you can comply with the terms and conditions of the GNU "
+"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
+"version 3.0 is appropriate for the development of Qt applications where you "
+"wish to use such applications in combination with software subject to the "
+"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
+"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
+"\"http://qt.nokia.com/products/licensing\">qt.nokia.com/products/licensing</"
+"a> for an overview of Qt licensing.</p><p>Copyright (C) 2012 Nokia "
+"Corporation and/or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a "
+"href=\"http://qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
+msgstr ""
+
+#: gui/dialogs/qmessagebox.cpp:1797
+msgid "About Qt"
+msgstr "Qt क' संबंधमे"
+
+#: gui/dialogs/qmessagebox.cpp:1937 gui/dialogs/qmessagebox.cpp:2383
+#: gui/dialogs/qprintdialog_win.cpp:272 gui/kernel/qsoftkeymanager.cpp:64
+#: qt3support/dialogs/q3tabdialog.cpp:190
+#: qt3support/dialogs/q3tabdialog.cpp:1014
+msgid "OK"
+msgstr "बेस"
 
 #: gui/dialogs/qprintdialog_unix.cpp:396 gui/dialogs/qprintdialog_unix.cpp:464
 msgid "&Options >>"
@@ -3460,6 +3519,12 @@ msgctxt "QPrintDialog"
 msgid "Print"
 msgstr "छपाइ"
 
+#: gui/dialogs/qabstractpagesetupdialog.cpp:68
+#: gui/dialogs/qabstractpagesetupdialog.cpp:80
+msgctxt "QPrintPreviewDialog"
+msgid "Page Setup"
+msgstr "पृष्ठ सेटअप"
+
 #: gui/dialogs/qdialog.cpp:526 gui/dialogs/qwizard.cpp:698
 #: gui/kernel/qsoftkeymanager.cpp:70
 msgid "Done"
@@ -3468,49 +3533,6 @@ msgstr "सम्पन्न"
 #: gui/dialogs/qdialog.cpp:653 gui/kernel/qwhatsthis.cpp:527
 msgid "What's This?"
 msgstr ""
-
-#: gui/dialogs/qwizard.cpp:688
-msgid "Go Back"
-msgstr ""
-
-#: gui/dialogs/qwizard.cpp:688 qt3support/dialogs/q3wizard.cpp:178
-msgid "< &Back"
-msgstr "<पछिला (&B)"
-
-#: gui/dialogs/qwizard.cpp:691 scripttools/debugging/qscriptdebugger.cpp:1694
-msgid "Continue"
-msgstr "जारी राखू"
-
-#: gui/dialogs/qwizard.cpp:694
-msgid "&Next"
-msgstr "आगाँ (&N)"
-
-#: gui/dialogs/qwizard.cpp:694 qt3support/dialogs/q3wizard.cpp:179
-msgid "&Next >"
-msgstr "अगिला (&N) >"
-
-#: gui/dialogs/qwizard.cpp:696
-msgid "Commit"
-msgstr ""
-
-#: gui/dialogs/qwizard.cpp:698 qt3support/dialogs/q3wizard.cpp:180
-msgid "&Finish"
-msgstr "समाप्त (&F)"
-
-#: gui/dialogs/qwizard.cpp:702 gui/widgets/qmdisubwindow.cpp:355
-#: qt3support/dialogs/q3tabdialog.cpp:691
-msgid "Help"
-msgstr "मद्दति "
-
-#: gui/dialogs/qwizard.cpp:702 qt3support/dialogs/q3wizard.cpp:181
-msgid "&Help"
-msgstr "मद्दति (&H)"
-
-#: gui/dialogs/qabstractpagesetupdialog.cpp:68
-#: gui/dialogs/qabstractpagesetupdialog.cpp:80
-msgctxt "QPrintPreviewDialog"
-msgid "Page Setup"
-msgstr "पृष्ठ सेटअप"
 
 #: gui/dialogs/qpagesetupdialog_unix.cpp:72
 msgid "A0"
@@ -3804,64 +3826,42 @@ msgstr "छपाइ"
 msgid "The 'From' value cannot be greater than the 'To' value."
 msgstr ""
 
-#: gui/dialogs/qprintdialog_win.cpp:272 gui/dialogs/qmessagebox.cpp:1937
-#: gui/dialogs/qmessagebox.cpp:2383 gui/kernel/qsoftkeymanager.cpp:64
-#: qt3support/dialogs/q3tabdialog.cpp:190
-#: qt3support/dialogs/q3tabdialog.cpp:1014
-msgid "OK"
-msgstr "बेस"
-
-#: gui/dialogs/qmessagebox.cpp:139
-msgid "Show Details..."
+#: gui/dialogs/qwizard.cpp:688
+msgid "Go Back"
 msgstr ""
 
-#: gui/dialogs/qmessagebox.cpp:139
-msgid "Hide Details..."
+#: gui/dialogs/qwizard.cpp:688 qt3support/dialogs/q3wizard.cpp:178
+msgid "< &Back"
+msgstr "<पछिला (&B)"
+
+#: gui/dialogs/qwizard.cpp:691 scripttools/debugging/qscriptdebugger.cpp:1694
+msgid "Continue"
+msgstr "जारी राखू"
+
+#: gui/dialogs/qwizard.cpp:694
+msgid "&Next"
+msgstr "आगाँ (&N)"
+
+#: gui/dialogs/qwizard.cpp:694 qt3support/dialogs/q3wizard.cpp:179
+msgid "&Next >"
+msgstr "अगिला (&N) >"
+
+#: gui/dialogs/qwizard.cpp:696
+msgid "Commit"
 msgstr ""
 
-#: gui/dialogs/qmessagebox.cpp:427 gui/dialogs/qmessagebox.cpp:1272
-msgctxt "QMessageBox"
-msgid "OK"
-msgstr "बेस"
+#: gui/dialogs/qwizard.cpp:698 qt3support/dialogs/q3wizard.cpp:180
+msgid "&Finish"
+msgstr "समाप्त (&F)"
 
-#: gui/dialogs/qmessagebox.cpp:1273
-msgctxt "QMessageBox"
+#: gui/dialogs/qwizard.cpp:702 gui/widgets/qmdisubwindow.cpp:355
+#: qt3support/dialogs/q3tabdialog.cpp:691
 msgid "Help"
 msgstr "मद्दति "
 
-#: gui/dialogs/qmessagebox.cpp:1762
-#, qt-format
-msgid "<h3>About Qt</h3><p>This program uses Qt version %1.</p>"
-msgstr ""
-
-#: gui/dialogs/qmessagebox.cpp:1767
-msgid ""
-"<p>Qt is a C++ toolkit for cross-platform application development.</p><p>Qt "
-"provides single-source portability across MS&nbsp;Windows, Mac&nbsp;OS&nbsp;"
-"X, Linux, and all major commercial Unix variants. Qt is also available for "
-"embedded devices as Qt for Embedded Linux and Qt for Windows CE.</p><p>Qt is "
-"available under three different licensing options designed to accommodate "
-"the needs of our various users.</p><p>Qt licensed under our commercial "
-"license agreement is appropriate for development of proprietary/commercial "
-"software where you do not want to share any source code with third parties "
-"or otherwise cannot comply with the terms of the GNU LGPL version 2.1 or GNU "
-"GPL version 3.0.</p><p>Qt licensed under the GNU LGPL version 2.1 is "
-"appropriate for the development of Qt applications (proprietary or open "
-"source) provided you can comply with the terms and conditions of the GNU "
-"LGPL version 2.1.</p><p>Qt licensed under the GNU General Public License "
-"version 3.0 is appropriate for the development of Qt applications where you "
-"wish to use such applications in combination with software subject to the "
-"terms of the GNU GPL version 3.0 or where you are otherwise willing to "
-"comply with the terms of the GNU GPL version 3.0.</p><p>Please see <a href="
-"\"http://qt.nokia.com/products/licensing\">qt.nokia.com/products/licensing</"
-"a> for an overview of Qt licensing.</p><p>Copyright (C) 2012 Nokia "
-"Corporation and/or its subsidiary(-ies).</p><p>Qt is a Nokia product. See <a "
-"href=\"http://qt.nokia.com/\">qt.nokia.com</a> for more information.</p>"
-msgstr ""
-
-#: gui/dialogs/qmessagebox.cpp:1797
-msgid "About Qt"
-msgstr "Qt क' संबंधमे"
+#: gui/dialogs/qwizard.cpp:702 qt3support/dialogs/q3wizard.cpp:181
+msgid "&Help"
+msgstr "मद्दति (&H)"
 
 #: gui/inputmethod/qinputcontextfactory.cpp:301
 msgid "XIM"
@@ -3886,14 +3886,6 @@ msgstr ""
 #: gui/inputmethod/qinputcontextfactory.cpp:340
 msgid "S60 FEP input method"
 msgstr ""
-
-#: gui/itemviews/qitemeditorfactory.cpp:556 qt3support/sql/q3datatable.cpp:286
-msgid "False"
-msgstr "गलत"
-
-#: gui/itemviews/qitemeditorfactory.cpp:557 qt3support/sql/q3datatable.cpp:285
-msgid "True"
-msgstr "सही"
 
 #: gui/itemviews/qdirmodel.cpp:852
 msgctxt "QFileDialog"
@@ -3940,6 +3932,14 @@ msgstr "शार्टकट"
 msgctxt "QFileDialog"
 msgid "Unknown"
 msgstr "अज्ञात"
+
+#: gui/itemviews/qitemeditorfactory.cpp:556 qt3support/sql/q3datatable.cpp:286
+msgid "False"
+msgstr "गलत"
+
+#: gui/itemviews/qitemeditorfactory.cpp:557 qt3support/sql/q3datatable.cpp:285
+msgid "True"
+msgstr "सही"
 
 #: gui/kernel/qapplication.cpp:2425
 msgctxt ""
@@ -5548,10 +5548,6 @@ msgstr ""
 msgid "Insert Unicode control character"
 msgstr ""
 
-#: gui/util/qdesktopservices_mac.cpp:171
-msgid "Home"
-msgstr "घर"
-
 #: gui/util/qundogroup.cpp:388 gui/util/qundostack.cpp:877
 #, fuzzy, qt-format
 #| msgid "Undo"
@@ -5581,6 +5577,10 @@ msgstr "फिनु सँ करू"
 #: gui/util/qundoview.cpp:101
 msgid "<empty>"
 msgstr "<खाली>"
+
+#: gui/util/qdesktopservices_mac.cpp:171
+msgid "Home"
+msgstr "घर"
 
 #: gui/widgets/qabstractspinbox.cpp:1257
 msgid "&Select All"
@@ -5959,6 +5959,11 @@ msgctxt "QNetworkAccessFileBackend"
 msgid "Read error reading from %1: %2"
 msgstr ""
 
+#: network/access/qnetworkaccesshttpbackend.cpp:429
+#: network/access/qnetworkaccessftpbackend.cpp:134
+msgid "No suitable proxy found"
+msgstr ""
+
 #: network/access/qnetworkreplydataimpl.cpp:95
 #, qt-format
 msgctxt "QNetworkAccessDataBackend"
@@ -5998,11 +6003,6 @@ msgctxt "QNetworkAccessManager"
 msgid "Network access is disabled."
 msgstr ""
 
-#: network/access/qnetworkaccesshttpbackend.cpp:429
-#: network/access/qnetworkaccessftpbackend.cpp:134
-msgid "No suitable proxy found"
-msgstr ""
-
 #: network/access/qnetworkaccessftpbackend.cpp:148
 #, qt-format
 msgid "Cannot open %1: is a directory"
@@ -6027,9 +6027,14 @@ msgstr ""
 msgid "Invalid configuration."
 msgstr ""
 
+#: network/kernel/qhostinfo.cpp:173
+msgctxt "QHostInfo"
+msgid "No host name given"
+msgstr ""
+
 #: network/kernel/qhostinfo_symbian.cpp:73
-#: network/kernel/qhostinfo_win.cpp:115 network/kernel/qhostinfo_unix.cpp:265
-#: network/kernel/qhostinfo_unix.cpp:297
+#: network/kernel/qhostinfo_unix.cpp:265 network/kernel/qhostinfo_unix.cpp:297
+#: network/kernel/qhostinfo_win.cpp:115
 #: network/socket/qsocks5socketengine.cpp:668
 #: network/socket/qsocks5socketengine.cpp:694
 #: network/socket/qabstractsocket.cpp:928
@@ -6052,9 +6057,9 @@ msgctxt "QHostInfoAgent"
 msgid "Invalid hostname"
 msgstr "अवैध होस्ट-नाम"
 
-#: network/kernel/qhostinfo.cpp:173
-msgctxt "QHostInfo"
-msgid "No host name given"
+#: network/kernel/qhostinfo_unix.cpp:252 network/kernel/qhostinfo_unix.cpp:291
+#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
+msgid "Unknown address type"
 msgstr ""
 
 #: network/kernel/qhostinfo_win.cpp:185
@@ -6066,11 +6071,6 @@ msgstr ""
 #| msgid "Invalid filename"
 msgid "Invalid hostname"
 msgstr "अवैध होस्ट-नाम"
-
-#: network/kernel/qhostinfo_win.cpp:215 network/kernel/qhostinfo_win.cpp:240
-#: network/kernel/qhostinfo_unix.cpp:252 network/kernel/qhostinfo_unix.cpp:291
-msgid "Unknown address type"
-msgstr ""
 
 #: network/socket/qnativesocketengine.cpp:201
 #: network/socket/qsymbiansocketengine.cpp:1354
@@ -6518,14 +6518,28 @@ msgstr "सक्रिय करू"
 
 #: plugins/accessible/widgets/complexwidgets.cpp:1844
 #: plugins/accessible/widgets/complexwidgets.cpp:1910
-#: plugins/accessible/widgets/simplewidgets.cpp:117
-#: plugins/accessible/widgets/simplewidgets.cpp:452
-#: plugins/accessible/widgets/simplewidgets.cpp:460
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:158
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:383
 #: plugins/accessible/widgets/qaccessiblemenu.cpp:437
+#: plugins/accessible/widgets/simplewidgets.cpp:117
+#: plugins/accessible/widgets/simplewidgets.cpp:452
+#: plugins/accessible/widgets/simplewidgets.cpp:460
 msgid "Open"
 msgstr "खोलू"
+
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:160
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:385
+#: plugins/accessible/widgets/qaccessiblemenu.cpp:438
+msgid "Execute"
+msgstr "चलाउ"
+
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1331
+msgid "Dock"
+msgstr "डॉक"
+
+#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1332
+msgid "Float"
+msgstr "फ्लोट"
 
 #: plugins/accessible/widgets/rangecontrols.cpp:149
 #: plugins/accessible/widgets/rangecontrols.cpp:412
@@ -6578,20 +6592,6 @@ msgstr "जाँचू"
 #: plugins/accessible/widgets/simplewidgets.cpp:748
 msgid "Toggle"
 msgstr "टागल"
-
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:160
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:385
-#: plugins/accessible/widgets/qaccessiblemenu.cpp:438
-msgid "Execute"
-msgstr "चलाउ"
-
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1331
-msgid "Dock"
-msgstr "डॉक"
-
-#: plugins/accessible/widgets/qaccessiblewidgets.cpp:1332
-msgid "Float"
-msgstr "फ्लोट"
 
 #: plugins/bearer/icd/qnetworksession_impl.cpp:1030
 #, fuzzy
@@ -6876,13 +6876,13 @@ msgstr ""
 msgid "Clear"
 msgstr "खाली"
 
-#: qt3support/widgets/q3mainwindow.cpp:2053
-msgid "Customize..."
-msgstr "व्यवस्था करू.."
-
 #: qt3support/widgets/q3toolbar.cpp:692
 msgid "More..."
 msgstr "बेसी..."
+
+#: qt3support/widgets/q3mainwindow.cpp:2053
+msgid "Customize..."
+msgstr "व्यवस्था करू.."
 
 #: scripttools/debugging/qscriptbreakpointsmodel.cpp:455
 #, fuzzy
@@ -7072,27 +7072,6 @@ msgctxt "QScriptDebuggerLocalsModel"
 msgid "Value"
 msgstr "मान"
 
-#: scripttools/debugging/qscriptdebuggerstackmodel.cpp:161
-#, fuzzy
-#| msgid "Level"
-msgctxt "QScriptDebuggerStackModel"
-msgid "Level"
-msgstr "स्तर"
-
-#: scripttools/debugging/qscriptdebuggerstackmodel.cpp:163
-#, fuzzy
-#| msgid "Name"
-msgctxt "QScriptDebuggerStackModel"
-msgid "Name"
-msgstr "नाम"
-
-#: scripttools/debugging/qscriptdebuggerstackmodel.cpp:165
-#, fuzzy
-#| msgid "Location"
-msgctxt "QScriptDebuggerStackModel"
-msgid "Location"
-msgstr "स्थान"
-
 #: scripttools/debugging/qscriptedit.cpp:413
 msgid "Disable Breakpoint"
 msgstr ""
@@ -7144,6 +7123,27 @@ msgstr "दृश्य"
 #: scripttools/debugging/qscriptenginedebugger.cpp:596
 msgid "Qt Script Debugger"
 msgstr ""
+
+#: scripttools/debugging/qscriptdebuggerstackmodel.cpp:161
+#, fuzzy
+#| msgid "Level"
+msgctxt "QScriptDebuggerStackModel"
+msgid "Level"
+msgstr "स्तर"
+
+#: scripttools/debugging/qscriptdebuggerstackmodel.cpp:163
+#, fuzzy
+#| msgid "Name"
+msgctxt "QScriptDebuggerStackModel"
+msgid "Name"
+msgstr "नाम"
+
+#: scripttools/debugging/qscriptdebuggerstackmodel.cpp:165
+#, fuzzy
+#| msgid "Location"
+msgctxt "QScriptDebuggerStackModel"
+msgid "Location"
+msgstr "स्थान"
 
 #: sql/drivers/db2/qsql_db2.cpp:554 sql/drivers/db2/qsql_db2.cpp:794
 msgctxt "QDB2Result"
@@ -7805,10 +7805,6 @@ msgid ""
 "character."
 msgstr ""
 
-#: xmlpatterns/api/qiodevicedelegate.cpp:84
-msgid "Network timeout."
-msgstr ""
-
 #: xmlpatterns/api/qxmlserializer.cpp:321
 #, qt-format
 msgid ""
@@ -7847,19 +7843,8 @@ msgstr ""
 msgid "Error %1 in %2: %3"
 msgstr ""
 
-#: xmlpatterns/data/qabstractfloatmathematician.cpp:64
-#, qt-format
-msgid "No operand in an integer division, %1, can be %2."
-msgstr ""
-
-#: xmlpatterns/data/qabstractfloatmathematician.cpp:71
-#, qt-format
-msgid "The first operand in an integer division, %1, cannot be infinity (%2)."
-msgstr ""
-
-#: xmlpatterns/data/qabstractfloatmathematician.cpp:77
-#, qt-format
-msgid "The second operand in a division, %1, cannot be zero (%2)."
+#: xmlpatterns/api/qiodevicedelegate.cpp:84
+msgid "Network timeout."
 msgstr ""
 
 #: xmlpatterns/data/qatomicmathematicians.cpp:65
@@ -7968,6 +7953,21 @@ msgstr ""
 #: xmlpatterns/data/qabstractduration.cpp:107
 #, qt-format
 msgid "At least one time component must appear after the %1-delimiter."
+msgstr ""
+
+#: xmlpatterns/data/qabstractfloatmathematician.cpp:64
+#, qt-format
+msgid "No operand in an integer division, %1, can be %2."
+msgstr ""
+
+#: xmlpatterns/data/qabstractfloatmathematician.cpp:71
+#, qt-format
+msgid "The first operand in an integer division, %1, cannot be infinity (%2)."
+msgstr ""
+
+#: xmlpatterns/data/qabstractfloatmathematician.cpp:77
+#, qt-format
+msgid "The second operand in a division, %1, cannot be zero (%2)."
 msgstr ""
 
 #: xmlpatterns/expr/qapplytemplate.cpp:119
@@ -8135,11 +8135,6 @@ msgstr ""
 msgid "The parameter %1 is required, but no corresponding %2 is supplied."
 msgstr ""
 
-#: xmlpatterns/functions/qcomparingaggregator.cpp:197
-#, qt-format
-msgid "The first argument to %1 cannot be of type %2."
-msgstr ""
-
 #: xmlpatterns/functions/qcontextnodechecker.cpp:54
 #, qt-format
 msgid ""
@@ -8280,6 +8275,11 @@ msgstr ""
 #: xmlpatterns/functions/qassemblestringfns.cpp:88
 #, qt-format
 msgid "%1 is not a valid XML 1.0 character."
+msgstr ""
+
+#: xmlpatterns/functions/qcomparingaggregator.cpp:197
+#, qt-format
+msgid "The first argument to %1 cannot be of type %2."
 msgstr ""
 
 #: xmlpatterns/janitors/qcardinalityverifier.cpp:58
