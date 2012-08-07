@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-01 04:55+0000\n"
+"POT-Creation-Date: 2012-08-07 11:00+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2612,11 +2612,13 @@ msgid "Sensor exceeded critical limit"
 msgstr "सेंसर क्रिटिकल सीमा सँ बाहर भए गेल"
 
 #: ksysguard/gui/ksysguard.desktop:2
-#: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:2
-#: plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
+#: libs/ksysguard/processcore/actions.actions:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KDE System Guard"
 msgctxt "Name"
-msgid "System Monitor"
-msgstr "सिस्टम मानीटर"
+msgid "KSysGuard"
+msgstr "केडीई तंत्र रक्षक"
 
 #: ksysguard/gui/ksysguard.desktop:86
 msgctxt "GenericName"
@@ -3872,56 +3874,24 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr "किछु प्रभाव केँ बैकेंड या हार्डवेयरक द्वारा समर्थित नहि कएल गेल अछि."
 
 #: kwin/kwin.notifyrc:7126
-msgctxt "Name"
-msgid "Tiling Enabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7182
-#, fuzzy
-msgctxt "Comment"
-msgid "Tiling mode has been enabled"
-msgstr "कोनो मॉडिफ़ायर कुंजी तालाबंद भए गेल अछि"
-
-#: kwin/kwin.notifyrc:7240
-msgctxt "Name"
-msgid "Tiling Disabled"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7296
-#, fuzzy
-msgctxt "Comment"
-msgid "Tiling mode has been disabled"
-msgstr "धीमी कुंजि केँ सक्षम या अक्षम कएल गेल अछि"
-
-#: kwin/kwin.notifyrc:7354
-msgctxt "Name"
-msgid "Tiling Layout Changed"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7410
-msgctxt "Comment"
-msgid "Tiling Layout has been changed"
-msgstr ""
-
-#: kwin/kwin.notifyrc:7469
 #, fuzzy
 msgctxt "Name"
 msgid "Window Fullscreen Set"
 msgstr "विंडो नियम"
 
-#: kwin/kwin.notifyrc:7499
+#: kwin/kwin.notifyrc:7156
 #, fuzzy
 msgctxt "Comment"
 msgid "A window has been set to fullscreen"
 msgstr "एकटा विंडो में नव-आकार बनैनाइ चालू भेल"
 
-#: kwin/kwin.notifyrc:7533
+#: kwin/kwin.notifyrc:7190
 #, fuzzy
 msgctxt "Name"
 msgid "Window Fullscreen Restored"
 msgstr "एकचा विंडो पुनर्स्थापित भेल"
 
-#: kwin/kwin.notifyrc:7563
+#: kwin/kwin.notifyrc:7220
 #, fuzzy
 msgctxt "Comment"
 msgid "A window has been restored from fullscreen"
@@ -4127,14 +4097,6 @@ msgstr "फाइल प्रबंधन"
 msgctxt "Comment"
 msgid "Manages displays and video outputs"
 msgstr ""
-
-#: libs/ksysguard/processcore/actions.actions:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KDE System Guard"
-msgctxt "Name"
-msgid "KSysGuard"
-msgstr "केडीई तंत्र रक्षक"
 
 #: libs/ksysguard/processcore/actions.actions:79
 msgctxt "Name"
@@ -4486,7 +4448,7 @@ msgstr "बैटरीक पावर देखू"
 #| msgctxt "Name"
 #| msgid "Power Management"
 msgctxt "Keywords"
-msgid "Power Management, Battery, System, Energy"
+msgid "Power Management;Battery;System;Energy;"
 msgstr "पावर मैनेजमेंट"
 
 #: plasma/generic/applets/calendar/plasma-applet-calendar.desktop:2
@@ -4557,7 +4519,7 @@ msgstr "स्क्रीन तालाबन्न करू या ला�
 
 #: plasma/generic/applets/lock_logout/metadata.desktop:161
 msgctxt "Keywords"
-msgid "Lock, Logout, Sleep, Hibernate, Switch User"
+msgid "Lock;Logout;Sleep;Hibernate;Switch User;"
 msgstr ""
 
 #: plasma/generic/applets/notifications/plasma-applet-notifications.desktop:2
@@ -4682,6 +4644,12 @@ msgstr ""
 msgctxt "Comment"
 msgid "A system temperature monitor"
 msgstr "तंत्र तापक्रम मानीटर"
+
+#: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:2
+#: plasma/generic/dataengines/systemmonitor/plasma-dataengine-systemmonitor.desktop:3
+msgctxt "Name"
+msgid "System Monitor"
+msgstr "सिस्टम मानीटर"
 
 #: plasma/generic/applets/system-monitor/plasma-applet-system-monitor.desktop:86
 #, fuzzy
@@ -7014,6 +6982,16 @@ msgstr "चिह्न दृश्य"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr "KDE 4 प्रतीक दृश्य शैली"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Tiling mode has been enabled"
+#~ msgstr "कोनो मॉडिफ़ायर कुंजी तालाबंद भए गेल अछि"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Tiling mode has been disabled"
+#~ msgstr "धीमी कुंजि केँ सक्षम या अक्षम कएल गेल अछि"
 
 #, fuzzy
 #~| msgctxt "Comment"
