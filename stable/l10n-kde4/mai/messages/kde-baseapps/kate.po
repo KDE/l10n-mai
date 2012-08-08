@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-14 06:04+0200\n"
+"POT-Creation-Date: 2012-08-07 21:36+0200\n"
 "PO-Revision-Date: 2010-09-24 20:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -817,28 +817,6 @@ msgstr ""
 msgid "Document to open"
 msgstr "दस्ताबेज जकरा खोलनाइ अछि"
 
-#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:389
-#, kde-format
-msgid " Line: %1 Col: %2 "
-msgstr "पंक्ति: %1 स्तम्भ: %2 "
-
-#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:395
-#, kde-format
-msgid " Characters: %1 "
-msgstr ""
-
-#: app/kateviewspace.cpp:298
-msgid " INS "
-msgstr "प्रविष्ट "
-
-#: app/kateviewspace.cpp:303 app/kateviewspace.cpp:404
-msgid " LINE "
-msgstr " लाइन"
-
-#: app/kateviewspace.cpp:404
-msgid " BLOCK "
-msgstr " ब्लाक"
-
 #: app/katemdi.cpp:122
 msgid "Tool &Views"
 msgstr ""
@@ -898,6 +876,34 @@ msgid ""
 "Sidebars</b> in the menu. It is still possible to show/hide the tool views "
 "with the assigned shortcuts.</qt>"
 msgstr ""
+
+#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:389
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr "पंक्ति: %1 स्तम्भ: %2 "
+
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:395
+#, kde-format
+msgid " Characters: %1 "
+msgstr ""
+
+#: app/kateviewspace.cpp:298
+msgid " INS "
+msgstr "प्रविष्ट "
+
+#: app/kateviewspace.cpp:303 app/kateviewspace.cpp:404
+msgid " LINE "
+msgstr " लाइन"
+
+#: app/kateviewspace.cpp:404
+msgid " BLOCK "
+msgstr " ब्लाक"
+
+#: app/kateapp.cpp:226 app/kateapp.cpp:352
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "फाइल '%1' खोललक नहि जाए सकत: ई सामान्य फाइल नहि अछि. ई एकटा फोल्डर अछि."
 
 #: app/kateappcommands.cpp:89
 msgid "All documents written to disk"
@@ -1014,6 +1020,58 @@ msgid ""
 "b></tt></p><p>Starts <b>e</b>diting the current document again. This is "
 "useful to re-edit the current file, when it has been changed by another "
 "program.</p>"
+msgstr ""
+
+#: app/katedocmanager.cpp:68
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+
+#: app/katedocmanager.cpp:308
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:310
+msgid "Delete File?"
+msgstr ""
+
+#: app/katedocmanager.cpp:450
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+
+#: app/katedocmanager.cpp:452
+msgid "Close Document"
+msgstr "दस्तावेज बन्न करू"
+
+#: app/katedocmanager.cpp:459
+msgid "Save As"
+msgstr "एहिना सहेजू"
+
+#: app/katedocmanager.cpp:485 app/katemainwindow.cpp:432
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#: app/katedocmanager.cpp:486 app/katemainwindow.cpp:433
+msgid "Closing Aborted"
+msgstr ""
+
+#: app/katedocmanager.cpp:558
+msgid "Starting Up"
+msgstr ""
+
+#: app/katedocmanager.cpp:559
+msgid "Reopening files from the last session..."
+msgstr ""
+
+#: app/katedocmanager.cpp:738
+msgid "Errors/Warnings while opening documents"
 msgstr ""
 
 #: app/katemainwindow.cpp:229
@@ -1174,14 +1232,6 @@ msgstr ""
 msgid "Close all documents"
 msgstr ""
 
-#: app/katemainwindow.cpp:432 app/katedocmanager.cpp:485
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-
-#: app/katemainwindow.cpp:433 app/katedocmanager.cpp:486
-msgid "Closing Aborted"
-msgstr ""
-
 #: app/katemainwindow.cpp:725
 msgid "&Other..."
 msgstr "दोसर (&O)..."
@@ -1194,56 +1244,6 @@ msgstr ""
 #: app/katemainwindow.cpp:751
 msgid "Application not found"
 msgstr "अनुप्रयोग नहि भेटल"
-
-#: app/katedocmanager.cpp:68
-msgid ""
-"A KDE text-editor component could not be found.\n"
-"Please check your KDE installation."
-msgstr ""
-
-#: app/katedocmanager.cpp:308
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-
-#: app/katedocmanager.cpp:310
-msgid "Delete File?"
-msgstr ""
-
-#: app/katedocmanager.cpp:450
-#, kde-format
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr ""
-
-#: app/katedocmanager.cpp:452
-msgid "Close Document"
-msgstr "दस्तावेज बन्न करू"
-
-#: app/katedocmanager.cpp:459
-msgid "Save As"
-msgstr "एहिना सहेजू"
-
-#: app/katedocmanager.cpp:558
-msgid "Starting Up"
-msgstr ""
-
-#: app/katedocmanager.cpp:559
-msgid "Reopening files from the last session..."
-msgstr ""
-
-#: app/katedocmanager.cpp:738
-msgid "Errors/Warnings while opening documents"
-msgstr ""
-
-#: app/kateapp.cpp:226 app/kateapp.cpp:352
-#, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
-msgstr "फाइल '%1' खोललक नहि जाए सकत: ई सामान्य फाइल नहि अछि. ई एकटा फोल्डर अछि."
 
 #: app/katemwmodonhddialog.cpp:65
 msgid "Documents Modified on Disk"
