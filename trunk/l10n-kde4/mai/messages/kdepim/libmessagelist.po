@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 08:29+0200\n"
+"POT-Creation-Date: 2012-08-14 07:31+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -168,86 +168,6 @@ msgstr ""
 msgctxt "Status of an item"
 msgid "Ignored"
 msgstr "अनदेखा कएल गेल"
-
-#: core/model.cpp:290
-msgid "Today"
-msgstr "आइ"
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr "कालि"
-
-#: core/model.cpp:293 core/manager.cpp:100
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: core/model.cpp:294
-msgid "Last Week"
-msgstr "अंतिम सप्ताह"
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr "दुइ सप्ताह पहिने"
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr "तीन सप्ताह पहिने"
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:505 utils/themeeditor.cpp:204
-msgid "Receiver"
-msgstr "पएनिहार"
-
-#: core/model.cpp:506 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "प्रेषक"
-
-#: core/model.cpp:1331
-#, kde-format
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: core/model.cpp:3774
-#, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3780 core/model.cpp:3786
-#, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3792
-#, kde-format
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3798
-#, kde-format
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: core/model.cpp:3895
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "तैआर"
 
 #: core/view.cpp:775
 msgid "Adjust Column Sizes"
@@ -435,6 +355,11 @@ msgid "<b>%1</b> message (<b>%2</b> unread)"
 msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
+
+#: core/manager.cpp:100 core/model.cpp:293
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: core/manager.cpp:321
 msgid "Current Activity, Threaded"
@@ -850,7 +775,7 @@ msgid "Ham"
 msgstr ""
 
 #: core/widgetbase.cpp:490 core/widgetbase.cpp:578
-#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
 msgid "Configure..."
 msgstr "कान्फिगर..."
 
@@ -883,6 +808,81 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid "Lock search"
 msgstr ""
+
+#: core/model.cpp:290
+msgid "Today"
+msgstr "आइ"
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr "कालि"
+
+#: core/model.cpp:294
+msgid "Last Week"
+msgstr "अंतिम सप्ताह"
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr "दुइ सप्ताह पहिने"
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr "तीन सप्ताह पहिने"
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:505 utils/themeeditor.cpp:204
+msgid "Receiver"
+msgstr "पएनिहार"
+
+#: core/model.cpp:506 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "प्रेषक"
+
+#: core/model.cpp:1331
+#, kde-format
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3774
+#, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3780 core/model.cpp:3786
+#, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3792
+#, kde-format
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3798
+#, kde-format
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/model.cpp:3895
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "तैआर"
 
 #: core/sortorder.cpp:41 core/sortorder.cpp:85
 msgid "None (Storage Order)"
@@ -993,6 +993,21 @@ msgstr "उन्नत"
 msgid "Fill view strategy:"
 msgstr ""
 
+#: utils/optionseteditor.cpp:40
+msgctxt "@title:tab General options of a view mode"
+msgid "General"
+msgstr "सामान्य"
+
+#: utils/optionseteditor.cpp:44
+msgctxt "@label:textbox Name of the option"
+msgid "Name:"
+msgstr "नाम:"
+
+#: utils/optionseteditor.cpp:54
+msgctxt "@label:textbox Description of the option"
+msgid "Description:"
+msgstr "विवरण:"
+
 #: utils/configureaggregationsdialog.cpp:98
 msgid "Customize Message Aggregation Modes"
 msgstr ""
@@ -1034,24 +1049,9 @@ msgstr ""
 msgid "Unnamed Theme"
 msgstr ""
 
-#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1289
+#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1288
 msgid "New Column"
 msgstr ""
-
-#: utils/optionseteditor.cpp:40
-msgctxt "@title:tab General options of a view mode"
-msgid "General"
-msgstr "सामान्य"
-
-#: utils/optionseteditor.cpp:44
-msgctxt "@label:textbox Name of the option"
-msgid "Name:"
-msgstr "नाम:"
-
-#: utils/optionseteditor.cpp:54
-msgctxt "@label:textbox Description of the option"
-msgid "Description:"
-msgstr "विवरण:"
 
 #: utils/themeeditor.cpp:84
 msgctxt "@label:textbox Property name"
@@ -1114,222 +1114,154 @@ msgstr ""
 msgid "Sample Tag 3"
 msgstr ""
 
-#: utils/themeeditor.cpp:426
+#: utils/themeeditor.cpp:425
 msgctxt "Indicates whether or not a header label is visible"
 msgid "Visible"
 msgstr "दृष्टिगोचर"
 
-#: utils/themeeditor.cpp:882
+#: utils/themeeditor.cpp:881
 msgctxt "@action:inmenu soften the text color"
 msgid "Soften"
 msgstr ""
 
-#: utils/themeeditor.cpp:892
+#: utils/themeeditor.cpp:891
 msgctxt "@action:inmenu Font setting"
 msgid "Default"
 msgstr "मूलभूत"
 
-#: utils/themeeditor.cpp:897
+#: utils/themeeditor.cpp:896
 msgctxt "@action:inmenu Font setting"
 msgid "Custom..."
 msgstr "मनपसिन्न..."
 
-#: utils/themeeditor.cpp:910
+#: utils/themeeditor.cpp:909
 msgid "Font"
 msgstr "फोन्ट"
 
-#: utils/themeeditor.cpp:920
+#: utils/themeeditor.cpp:919
 msgctxt "@action:inmenu Foreground color setting"
 msgid "Default"
 msgstr "मूलभूत"
 
-#: utils/themeeditor.cpp:925
+#: utils/themeeditor.cpp:924
 msgctxt "@action:inmenu Foreground color setting"
 msgid "Custom..."
 msgstr "मनपसिन्न..."
 
-#: utils/themeeditor.cpp:938
+#: utils/themeeditor.cpp:937
 msgid "Foreground Color"
 msgstr "अग्रभूमि रँग"
 
-#: utils/themeeditor.cpp:949
+#: utils/themeeditor.cpp:948
 msgctxt ""
 "Hide a mark if the mail does not have the attribute, e.g. Important mark on "
 "a non important mail"
 msgid "Hide"
 msgstr "नुकाबू"
 
-#: utils/themeeditor.cpp:954
+#: utils/themeeditor.cpp:953
 msgctxt ""
 "Keep a empty space in the list if the mail does not have the attribute, e.g. "
 "Important mark on a non important mail"
 msgid "Keep Empty Space"
 msgstr ""
 
-#: utils/themeeditor.cpp:959
+#: utils/themeeditor.cpp:958
 msgctxt ""
 "Show the icon softened in the list if the mail does not have the attribute, "
 "e.g. Important mark on a non important mail"
 msgid "Keep Softened Icon"
 msgstr ""
 
-#: utils/themeeditor.cpp:968
+#: utils/themeeditor.cpp:967
 msgid "When Disabled"
 msgstr ""
 
-#: utils/themeeditor.cpp:977
+#: utils/themeeditor.cpp:976
 msgid "Group Header"
 msgstr "समूह शीर्षिका"
 
-#: utils/themeeditor.cpp:985
+#: utils/themeeditor.cpp:984
 msgctxt "@action:inmenu Group header background color setting"
 msgid "None"
 msgstr "किछु नहि"
 
-#: utils/themeeditor.cpp:990
+#: utils/themeeditor.cpp:989
 msgctxt "@action:inmenu Group header background color setting"
 msgid "Automatic"
 msgstr "स्वचालित"
 
-#: utils/themeeditor.cpp:995
+#: utils/themeeditor.cpp:994
 msgctxt "@action:inmenu Group header background color setting"
 msgid "Custom..."
 msgstr "मनपसिन्न..."
 
-#: utils/themeeditor.cpp:1008
+#: utils/themeeditor.cpp:1007
 msgid "Background Color"
 msgstr "पृष्ठभूमि रँग"
 
-#: utils/themeeditor.cpp:1031
+#: utils/themeeditor.cpp:1030
 msgid "Background Style"
 msgstr ""
 
-#: utils/themeeditor.cpp:1224 utils/themeeditor.cpp:1323
+#: utils/themeeditor.cpp:1223 utils/themeeditor.cpp:1322
 msgid "Column Properties"
 msgstr ""
 
-#: utils/themeeditor.cpp:1228
+#: utils/themeeditor.cpp:1227
 msgid "Add Column..."
 msgstr ""
 
-#: utils/themeeditor.cpp:1232
+#: utils/themeeditor.cpp:1231
 msgid "Delete Column"
 msgstr "कालम मेटाउ"
 
-#: utils/themeeditor.cpp:1239
+#: utils/themeeditor.cpp:1238
 msgid "Move Column to Left"
 msgstr ""
 
-#: utils/themeeditor.cpp:1245
+#: utils/themeeditor.cpp:1244
 msgid "Move Column to Right"
 msgstr ""
 
-#: utils/themeeditor.cpp:1296
+#: utils/themeeditor.cpp:1295
 msgid "Add New Column"
 msgstr ""
 
-#: utils/themeeditor.cpp:1368
+#: utils/themeeditor.cpp:1367
 msgid "Appearance"
 msgstr "प्रकटन"
 
-#: utils/themeeditor.cpp:1372
+#: utils/themeeditor.cpp:1371
 msgid "Content Items"
 msgstr ""
 
-#: utils/themeeditor.cpp:1513
+#: utils/themeeditor.cpp:1512
 msgid ""
 "Right click on the header to add or modify columns. Drag the content items "
 "and drop them on the columns in order to compose your theme. Right click on "
 "the items inside the view for more options."
 msgstr ""
 
-#: utils/themeeditor.cpp:1522
+#: utils/themeeditor.cpp:1521
 msgctxt "@title:tab Advanced theme settings"
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: utils/themeeditor.cpp:1526
+#: utils/themeeditor.cpp:1525
 msgid "Header:"
 msgstr ""
 
-#: utils/themeeditor.cpp:1532
+#: utils/themeeditor.cpp:1531
 msgid "Icon size:"
 msgstr "चिह्न आकार:"
 
-#: utils/themeeditor.cpp:1538
+#: utils/themeeditor.cpp:1537
 msgctxt "suffix in a spinbox"
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] "पिक्सेल"
 msgstr[1] "पिक्सेल"
-
-#: pane.cpp:132
-msgctxt "@info:tooltip"
-msgid "Open a new tab"
-msgstr "नवीन टैब खोलू"
-
-#: pane.cpp:134
-msgid "New tab"
-msgstr ""
-
-#: pane.cpp:143
-msgctxt "@info:tooltip"
-msgid "Close the current tab"
-msgstr "मोजुदा टैब बन्न करू"
-
-#: pane.cpp:145 pane.cpp:208
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Close Tab"
-msgid "Close tab"
-msgstr "टैब बन्न करू"
-
-#: pane.cpp:197
-msgid "Message List"
-msgstr ""
-
-#: pane.cpp:202
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Open a new tab"
-msgid "Create new tab"
-msgstr "नवीन टैब खोलू"
-
-#: pane.cpp:218
-#, kde-format
-msgid "Activate Tab %1"
-msgstr ""
-
-#: pane.cpp:224
-msgid "Activate Next Tab"
-msgstr ""
-
-#: pane.cpp:229
-msgid "Activate Previous Tab"
-msgstr ""
-
-#: pane.cpp:235
-msgid "Move Tab Left"
-msgstr ""
-
-#: pane.cpp:240
-msgid "Move Tab Right"
-msgstr ""
-
-#: pane.cpp:419 pane.cpp:650
-msgctxt "@title:tab Empty messagelist"
-msgid "Empty"
-msgstr "खाली"
-
-#: pane.cpp:582
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "टैब बन्न करू"
-
-#: pane.cpp:588
-msgctxt "@action:inmenu"
-msgid "Close All Other Tabs"
-msgstr ""
 
 #: storagemodel.cpp:261
 msgctxt "displayed as subject when the subject of a mail is empty"
@@ -1372,6 +1304,74 @@ msgstr "एतए नकल करू (&C)"
 #: widget.cpp:406
 msgid "C&ancel"
 msgstr "रद करू (&a)"
+
+#: pane.cpp:134
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "नवीन टैब खोलू"
+
+#: pane.cpp:136
+msgid "New tab"
+msgstr ""
+
+#: pane.cpp:145
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "मोजुदा टैब बन्न करू"
+
+#: pane.cpp:147 pane.cpp:210
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Close tab"
+msgstr "टैब बन्न करू"
+
+#: pane.cpp:199
+msgid "Message List"
+msgstr ""
+
+#: pane.cpp:204
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Open a new tab"
+msgid "Create new tab"
+msgstr "नवीन टैब खोलू"
+
+#: pane.cpp:220
+#, kde-format
+msgid "Activate Tab %1"
+msgstr ""
+
+#: pane.cpp:226
+msgid "Activate Next Tab"
+msgstr ""
+
+#: pane.cpp:231
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: pane.cpp:237
+msgid "Move Tab Left"
+msgstr ""
+
+#: pane.cpp:242
+msgid "Move Tab Right"
+msgstr ""
+
+#: pane.cpp:419 pane.cpp:652
+msgctxt "@title:tab Empty messagelist"
+msgid "Empty"
+msgstr "खाली"
+
+#: pane.cpp:584
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "टैब बन्न करू"
+
+#: pane.cpp:590
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr ""
 
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
