@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-10 08:58+0200\n"
+"POT-Creation-Date: 2012-08-18 04:26+0200\n"
 "PO-Revision-Date: 2010-01-29 15:41+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -22,6 +22,288 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#: kcm_hotkeys/action_group_widget.cpp:30
+msgid "Conditions"
+msgstr "परिस्थिति"
+
+#: kcm_hotkeys/actions/dbus_action_widget.cpp:122
+#, fuzzy
+msgid "Failed to run qdbusviewer"
+msgstr "असफल मे"
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:27
+msgctxt "Condition type"
+msgid "Active Window ..."
+msgstr "सक्रिय विंडो."
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:29
+msgctxt "Condition type"
+msgid "Existing Window ..."
+msgstr "मोजुदा विंडो..."
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:31
+msgctxt "Condition type"
+msgid "And"
+msgstr "आओर"
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:33
+msgctxt "Condition type"
+msgid "Or"
+msgstr "अथवा"
+
+#: kcm_hotkeys/conditions/condition_type_menu.cpp:35
+msgctxt "Condition type"
+msgid "Not"
+msgstr "Not"
+
+#: kcm_hotkeys/conditions/conditions_widget.cpp:80
+msgctxt "Add a new condition"
+msgid "And"
+msgstr "आओर"
+
+#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:32
+#, fuzzy
+msgid "Edit Gesture"
+msgstr "संपादन"
+
+#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:36
+#, fuzzy
+msgid ""
+"Draw the gesture you would like to record below. Press and hold the left "
+"mouse button while drawing, and release when you have finished."
+msgstr "घीचू समान मे नीच्चाँ दाबू आओर बायाँ माउस बटन आओर."
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:44
+#: kcm_hotkeys/hotkeys_context_menu.cpp:56
+msgid "Test"
+msgstr "जाँच"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:130
+#: kcm_hotkeys/hotkeys_context_menu.cpp:143 kcm_hotkeys/hotkeys_model.cpp:92
+msgid "New Group"
+msgstr "नवीन समूह"
+
+#. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:44
+#. i18n: ectx: property (text), widget (QPushButton, delete_button)
+#: kcm_hotkeys/hotkeys_context_menu.cpp:137 rc.cpp:53
+msgid "Delete"
+msgstr "मेटाबू"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:147
+msgid "Export Group..."
+msgstr "निर्यात समूह..."
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:148
+msgid "Import..."
+msgstr "आयात..."
+
+#. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:30
+#. i18n: ectx: property (text), widget (QPushButton, new_button)
+#: kcm_hotkeys/hotkeys_context_menu.cpp:156 rc.cpp:47
+msgid "New"
+msgstr "नवीन"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:162
+msgid "Global Shortcut"
+msgstr "वैश्विक शार्टकट"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:175
+msgid "Window Action"
+msgstr "विंडो क्रिया"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:188
+msgid "Mouse Gesture Action"
+msgstr "माउस मुद्रा क्रिया"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:269
+msgid "Command/URL"
+msgstr "कमांड URL"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:276
+msgid "D-Bus Command"
+msgstr "D बस कमांड"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:283
+msgid "K-Menu Entry"
+msgstr "K मेनू  प्रविष्टि"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:290
+msgid "Send Keyboard Input"
+msgstr "पठाबू कुँजीपटल इनपुट"
+
+#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
+#. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
+#: kcm_hotkeys/hotkeys_context_menu.cpp:312
+#: kcm_hotkeys/hotkeys_context_menu.cpp:341
+#: kcm_hotkeys/hotkeys_context_menu.cpp:370 kcm_hotkeys/hotkeys_model.cpp:92
+#: rc.cpp:240
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:312
+#: kcm_hotkeys/hotkeys_context_menu.cpp:341
+#: kcm_hotkeys/hotkeys_context_menu.cpp:370
+msgid "New Action"
+msgstr "नया क्रिया"
+
+#: kcm_hotkeys/hotkeys_export_widget.cpp:37
+msgid "Export Group"
+msgstr "निर्यात समूह"
+
+#: kcm_hotkeys/hotkeys_model.cpp:403
+msgctxt "action name"
+msgid "Name"
+msgstr "नाम"
+
+#: kcm_hotkeys/hotkeys_model.cpp:407
+msgctxt "action enabled"
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: kcm_hotkeys/hotkeys_model.cpp:410
+msgid "Type"
+msgstr "प्रकार"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:109
+msgid "KDE Hotkeys Configuration Module"
+msgstr "केडीई हॉटकी बिन्यास मोड्यूल"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:113
+msgid "Copyright 2008 (c) Michael Jansen"
+msgstr "Copyright 2008 (c) Michael Jansen"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:116
+msgid "Michael Jansen"
+msgstr "Michael Jansen"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:117
+msgid "Maintainer"
+msgstr "अनुरक्षक"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:345
+#, fuzzy
+msgid ""
+"The current action has unsaved changes. If you continue these changes will "
+"be lost."
+msgstr "द."
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:346
+msgid "Save changes"
+msgstr "बदलाव सहेजू"
+
+#: kcm_hotkeys/kcm_hotkeys.cpp:379 kcm_hotkeys/kcm_hotkeys.cpp:403
+#, fuzzy
+msgid ""
+"Unable to contact khotkeys. Your changes are saved, but they could not be "
+"activated."
+msgstr "मे नहि."
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:124
+msgid "Trigger"
+msgstr "ट्रिगर"
+
+#: kcm_hotkeys/simple_action_data_widget.cpp:160
+msgid "Action"
+msgstr "क्रिया"
+
+#: libkhotkeysprivate/actions/activate_window_action.cpp:91
+msgid "Activate window: "
+msgstr "सक्रिय करू विंडो "
+
+#: libkhotkeysprivate/actions/command_url_action.cpp:79
+msgid "Command/URL : "
+msgstr "कमांड URL "
+
+#: libkhotkeysprivate/actions/dbus_action.cpp:143
+msgid "D-Bus: "
+msgstr "D बस "
+
+#: libkhotkeysprivate/actions/keyboard_input_action.cpp:191
+msgid "Keyboard input: "
+msgstr "कुँजीपटल इनपुट"
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:91
+#, fuzzy
+msgid "No service configured."
+msgstr "नहि."
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:92
+#: libkhotkeysprivate/actions/menuentry_action.cpp:101
+#, kde-format
+msgid "Input Action: %1"
+msgstr "इनपुट क्रिया %1"
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:100
+#, fuzzy, kde-format
+msgid "Failed to start service '%1'."
+msgstr "असफल मे प्रारंभ."
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:115
+msgid "Menu entry: "
+msgstr "मेनू  प्रविष्टि "
+
+#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
+msgid "Active window: "
+msgstr "सक्रिय विंडो "
+
+#: libkhotkeysprivate/conditions/and_condition.cpp:61
+msgctxt "And_condition"
+msgid "And"
+msgstr "आओर"
+
+#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
+msgid "Existing window: "
+msgstr "मोजुदा विंडो "
+
+#: libkhotkeysprivate/conditions/not_condition.cpp:63
+msgctxt "Not_condition"
+msgid "Not"
+msgstr "Not"
+
+#: libkhotkeysprivate/conditions/or_condition.cpp:69
+msgctxt "Or_condition"
+msgid "Or"
+msgstr "अथवा"
+
+#: libkhotkeysprivate/khotkeysglobal.h:40
+msgid "Menu Editor entries"
+msgstr "मेनू संपादक प्रविष्टि"
+
+#: libkhotkeysprivate/settings.cpp:318
+#, fuzzy
+msgid ""
+"This \"actions\" file has already been imported before. Are you sure you "
+"want to import it again?"
+msgstr "फाइल पहिने मे?"
+
+#: libkhotkeysprivate/settings.cpp:346
+#, fuzzy
+msgid ""
+"This \"actions\" file has no ImportId field and therefore it cannot be "
+"determined whether or not it has been imported already. Are you sure you "
+"want to import it?"
+msgstr "फाइल नहि क्षेत्र आओर अथवा नहि मे?"
+
+#: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
+msgid "Gesture trigger"
+msgstr ""
+
+#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:137
+msgid "Shortcut trigger: "
+msgstr "शार्टकट ट्रिगर"
+
+#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
+msgid "Voice trigger: "
+msgstr "आवाज ट्रिगर"
+
+#: libkhotkeysprivate/triggers/window_trigger.cpp:150
+msgid "Window trigger: "
+msgstr "विंडो ट्र्गिर "
+
+#: libkhotkeysprivate/windows_helper/window_selection_rules.cpp:82
+msgid "Window simple: "
+msgstr "विंडो सरल "
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -123,23 +405,11 @@ msgstr "चुनू अनुप्रयोग."
 msgid "1"
 msgstr "1"
 
-#. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:30
-#. i18n: ectx: property (text), widget (QPushButton, new_button)
-#: rc.cpp:47 kcm_hotkeys/hotkeys_context_menu.cpp:156
-msgid "New"
-msgstr "नवीन"
-
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:37
 #. i18n: ectx: property (text), widget (QPushButton, edit_button)
 #: rc.cpp:50
 msgid "Edit..."
 msgstr "संपादन..."
-
-#. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:44
-#. i18n: ectx: property (text), widget (QPushButton, delete_button)
-#: rc.cpp:53 kcm_hotkeys/hotkeys_context_menu.cpp:137
-msgid "Delete"
-msgstr "मेटाबू"
 
 #. i18n: file: kcm_hotkeys/global_settings_widget.ui:32
 #. i18n: ectx: property (title), widget (QGroupBox, global_group)
@@ -553,14 +823,6 @@ msgid ""
 "same name."
 msgstr "स्वीकारू क' a निर्देशिका क' सँग पर अछि नहि दुइ क' सँग."
 
-#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
-#. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: rc.cpp:240 kcm_hotkeys/hotkeys_context_menu.cpp:312
-#: kcm_hotkeys/hotkeys_context_menu.cpp:341
-#: kcm_hotkeys/hotkeys_context_menu.cpp:370 kcm_hotkeys/hotkeys_model.cpp:92
-msgid "Comment"
-msgstr "टिप्पणी"
-
 #. i18n: file: kcm_hotkeys/kcm_hotkeys.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, settings_button)
 #: rc.cpp:246
@@ -602,264 +864,3 @@ msgstr "विंडो फोकस पाबैछ"
 #: rc.cpp:264
 msgid "Window loses focus"
 msgstr "विंडो फोकस नहि अछि"
-
-#: kcm_hotkeys/action_group_widget.cpp:30
-msgid "Conditions"
-msgstr "परिस्थिति"
-
-#: kcm_hotkeys/actions/dbus_action_widget.cpp:122
-#, fuzzy
-msgid "Failed to run qdbusviewer"
-msgstr "असफल मे"
-
-#: kcm_hotkeys/conditions/condition_type_menu.cpp:27
-msgctxt "Condition type"
-msgid "Active Window ..."
-msgstr "सक्रिय विंडो."
-
-#: kcm_hotkeys/conditions/condition_type_menu.cpp:29
-msgctxt "Condition type"
-msgid "Existing Window ..."
-msgstr "मोजुदा विंडो..."
-
-#: kcm_hotkeys/conditions/condition_type_menu.cpp:31
-msgctxt "Condition type"
-msgid "And"
-msgstr "आओर"
-
-#: kcm_hotkeys/conditions/condition_type_menu.cpp:33
-msgctxt "Condition type"
-msgid "Or"
-msgstr "अथवा"
-
-#: kcm_hotkeys/conditions/condition_type_menu.cpp:35
-msgctxt "Condition type"
-msgid "Not"
-msgstr "Not"
-
-#: kcm_hotkeys/conditions/conditions_widget.cpp:80
-msgctxt "Add a new condition"
-msgid "And"
-msgstr "आओर"
-
-#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:32
-#, fuzzy
-msgid "Edit Gesture"
-msgstr "संपादन"
-
-#: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:36
-#, fuzzy
-msgid ""
-"Draw the gesture you would like to record below. Press and hold the left "
-"mouse button while drawing, and release when you have finished."
-msgstr "घीचू समान मे नीच्चाँ दाबू आओर बायाँ माउस बटन आओर."
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:44
-#: kcm_hotkeys/hotkeys_context_menu.cpp:56
-msgid "Test"
-msgstr "जाँच"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:130
-#: kcm_hotkeys/hotkeys_context_menu.cpp:143 kcm_hotkeys/hotkeys_model.cpp:92
-msgid "New Group"
-msgstr "नवीन समूह"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:147
-msgid "Export Group..."
-msgstr "निर्यात समूह..."
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:148
-msgid "Import..."
-msgstr "आयात..."
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:162
-msgid "Global Shortcut"
-msgstr "वैश्विक शार्टकट"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:175
-msgid "Window Action"
-msgstr "विंडो क्रिया"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:188
-msgid "Mouse Gesture Action"
-msgstr "माउस मुद्रा क्रिया"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:269
-msgid "Command/URL"
-msgstr "कमांड URL"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:276
-msgid "D-Bus Command"
-msgstr "D बस कमांड"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:283
-msgid "K-Menu Entry"
-msgstr "K मेनू  प्रविष्टि"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:290
-msgid "Send Keyboard Input"
-msgstr "पठाबू कुँजीपटल इनपुट"
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:312
-#: kcm_hotkeys/hotkeys_context_menu.cpp:341
-#: kcm_hotkeys/hotkeys_context_menu.cpp:370
-msgid "New Action"
-msgstr "नया क्रिया"
-
-#: kcm_hotkeys/hotkeys_export_widget.cpp:37
-msgid "Export Group"
-msgstr "निर्यात समूह"
-
-#: kcm_hotkeys/hotkeys_model.cpp:403
-msgctxt "action name"
-msgid "Name"
-msgstr "नाम"
-
-#: kcm_hotkeys/hotkeys_model.cpp:407
-msgctxt "action enabled"
-msgid "Enabled"
-msgstr "सक्षम"
-
-#: kcm_hotkeys/hotkeys_model.cpp:410
-msgid "Type"
-msgstr "प्रकार"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:109
-msgid "KDE Hotkeys Configuration Module"
-msgstr "केडीई हॉटकी बिन्यास मोड्यूल"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:113
-msgid "Copyright 2008 (c) Michael Jansen"
-msgstr "Copyright 2008 (c) Michael Jansen"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:116
-msgid "Michael Jansen"
-msgstr "Michael Jansen"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:117
-msgid "Maintainer"
-msgstr "अनुरक्षक"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:345
-#, fuzzy
-msgid ""
-"The current action has unsaved changes. If you continue these changes will "
-"be lost."
-msgstr "द."
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:346
-msgid "Save changes"
-msgstr "बदलाव सहेजू"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:379 kcm_hotkeys/kcm_hotkeys.cpp:403
-#, fuzzy
-msgid ""
-"Unable to contact khotkeys. Your changes are saved, but they could not be "
-"activated."
-msgstr "मे नहि."
-
-#: kcm_hotkeys/simple_action_data_widget.cpp:124
-msgid "Trigger"
-msgstr "ट्रिगर"
-
-#: kcm_hotkeys/simple_action_data_widget.cpp:160
-msgid "Action"
-msgstr "क्रिया"
-
-#: libkhotkeysprivate/actions/activate_window_action.cpp:91
-msgid "Activate window: "
-msgstr "सक्रिय करू विंडो "
-
-#: libkhotkeysprivate/actions/command_url_action.cpp:79
-msgid "Command/URL : "
-msgstr "कमांड URL "
-
-#: libkhotkeysprivate/actions/dbus_action.cpp:143
-msgid "D-Bus: "
-msgstr "D बस "
-
-#: libkhotkeysprivate/actions/keyboard_input_action.cpp:191
-msgid "Keyboard input: "
-msgstr "कुँजीपटल इनपुट"
-
-#: libkhotkeysprivate/actions/menuentry_action.cpp:91
-#, fuzzy
-msgid "No service configured."
-msgstr "नहि."
-
-#: libkhotkeysprivate/actions/menuentry_action.cpp:92
-#: libkhotkeysprivate/actions/menuentry_action.cpp:101
-#, kde-format
-msgid "Input Action: %1"
-msgstr "इनपुट क्रिया %1"
-
-#: libkhotkeysprivate/actions/menuentry_action.cpp:100
-#, fuzzy, kde-format
-msgid "Failed to start service '%1'."
-msgstr "असफल मे प्रारंभ."
-
-#: libkhotkeysprivate/actions/menuentry_action.cpp:115
-msgid "Menu entry: "
-msgstr "मेनू  प्रविष्टि "
-
-#: libkhotkeysprivate/conditions/active_window_condition.cpp:82
-msgid "Active window: "
-msgstr "सक्रिय विंडो "
-
-#: libkhotkeysprivate/conditions/and_condition.cpp:61
-msgctxt "And_condition"
-msgid "And"
-msgstr "आओर"
-
-#: libkhotkeysprivate/conditions/existing_window_condition.cpp:72
-msgid "Existing window: "
-msgstr "मोजुदा विंडो "
-
-#: libkhotkeysprivate/conditions/not_condition.cpp:63
-msgctxt "Not_condition"
-msgid "Not"
-msgstr "Not"
-
-#: libkhotkeysprivate/conditions/or_condition.cpp:69
-msgctxt "Or_condition"
-msgid "Or"
-msgstr "अथवा"
-
-#: libkhotkeysprivate/khotkeysglobal.h:40
-msgid "Menu Editor entries"
-msgstr "मेनू संपादक प्रविष्टि"
-
-#: libkhotkeysprivate/settings.cpp:318
-#, fuzzy
-msgid ""
-"This \"actions\" file has already been imported before. Are you sure you "
-"want to import it again?"
-msgstr "फाइल पहिने मे?"
-
-#: libkhotkeysprivate/settings.cpp:346
-#, fuzzy
-msgid ""
-"This \"actions\" file has no ImportId field and therefore it cannot be "
-"determined whether or not it has been imported already. Are you sure you "
-"want to import it?"
-msgstr "फाइल नहि क्षेत्र आओर अथवा नहि मे?"
-
-#: libkhotkeysprivate/triggers/gesture_trigger.cpp:126
-msgid "Gesture trigger"
-msgstr ""
-
-#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:137
-msgid "Shortcut trigger: "
-msgstr "शार्टकट ट्रिगर"
-
-#: libkhotkeysprivate/triggers/voice_trigger.cpp:67
-msgid "Voice trigger: "
-msgstr "आवाज ट्रिगर"
-
-#: libkhotkeysprivate/triggers/window_trigger.cpp:150
-msgid "Window trigger: "
-msgstr "विंडो ट्र्गिर "
-
-#: libkhotkeysprivate/windows_helper/window_selection_rules.cpp:82
-msgid "Window simple: "
-msgstr "विंडो सरल "

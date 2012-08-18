@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kolf-ng\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 07:18+0200\n"
+"POT-Creation-Date: 2012-08-18 04:35+0200\n"
 "PO-Revision-Date: 2010-09-24 13:12+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,20 +18,49 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
+#: editor/blender-itemeditor.cpp:31
+msgid "OK"
+msgstr "बेस"
+
+#: editor/blender-manager.cpp:68 engine/game-editor.cpp:78
+msgid "Add texture"
+msgstr ""
+
+#: editor/blender-widget.cpp:31
+msgid "Texture blender"
+msgstr ""
+
+#: editor/blender-widget.cpp:45
+msgid "Regenerate texture"
+msgstr ""
+
+#: editor/hmcreator-allselectbutton.cpp:28
+msgid "Clear selection"
+msgstr ""
+
+#: editor/hmcreator-allselectbutton.cpp:29
+msgid "Clears any previous selection."
+msgstr ""
+
+#: editor/hmcreator-drawingboard.cpp:34
+msgid "Terrain heightmap"
+msgstr ""
+
+#: editor/hmcreator-ellipseselectbutton.cpp:29
+msgid "Select ellipsoidal area"
+msgstr ""
+
+#: editor/hmcreator-ellipseselectbutton.cpp:30
+msgid ""
+"Restrict further operations to a certain ellipsoidal area of the heightmap."
+msgstr ""
+
 #: editor/hmcreator-eraserbutton.cpp:30
 msgid "Eraser"
 msgstr "इरेजर"
 
 #: editor/hmcreator-eraserbutton.cpp:31
 msgid "Paint on areas of the heightmap to reset those to the lowest height."
-msgstr ""
-
-#: editor/hmcreator-penbutton.cpp:31
-msgid "Pen"
-msgstr "कलम"
-
-#: editor/hmcreator-penbutton.cpp:32
-msgid "Paint on areas of the heightmap to set those to some fixed height."
 msgstr ""
 
 #: editor/hmcreator-fillbutton.cpp:32
@@ -44,37 +73,12 @@ msgid ""
 "smooth gradient."
 msgstr ""
 
-#: editor/hmcreator-ellipseselectbutton.cpp:29
-msgid "Select ellipsoidal area"
-msgstr ""
+#: editor/hmcreator-penbutton.cpp:31
+msgid "Pen"
+msgstr "कलम"
 
-#: editor/hmcreator-ellipseselectbutton.cpp:30
-msgid ""
-"Restrict further operations to a certain ellipsoidal area of the heightmap."
-msgstr ""
-
-#: editor/hmcreator-drawingboard.cpp:34
-msgid "Terrain heightmap"
-msgstr ""
-
-#: editor/hmcreator-allselectbutton.cpp:28
-msgid "Clear selection"
-msgstr ""
-
-#: editor/hmcreator-allselectbutton.cpp:29
-msgid "Clears any previous selection."
-msgstr ""
-
-#: editor/blender-widget.cpp:31
-msgid "Texture blender"
-msgstr ""
-
-#: editor/blender-widget.cpp:45
-msgid "Regenerate texture"
-msgstr ""
-
-#: editor/hmcreator-toolbox.cpp:35
-msgid "Heightmap toolbox"
+#: editor/hmcreator-penbutton.cpp:32
+msgid "Paint on areas of the heightmap to set those to some fixed height."
 msgstr ""
 
 #: editor/hmcreator-rectselectbutton.cpp:29
@@ -86,50 +90,61 @@ msgid ""
 "Restrict further operations to a certain rectangular area of the heightmap."
 msgstr ""
 
-#: editor/blender-itemeditor.cpp:31
-msgid "OK"
-msgstr "बेस"
-
-#: editor/blender-manager.cpp:68 engine/game-editor.cpp:78
-msgid "Add texture"
+#: editor/hmcreator-toolbox.cpp:35
+msgid "Heightmap toolbox"
 msgstr ""
 
-#: interface/newgamewidget.cpp:38
-msgid "Select a course"
+#: elements/ball.cpp:32
+msgid "Ball (start position for all players)"
 msgstr ""
 
-#: interface/newgamewidget.cpp:39
-msgid "Select players"
+#: elements/object-blackhole.cpp:32
+msgid "Black hole"
 msgstr ""
 
-#: interface/newgamewidget.cpp:40
-msgid "Open course for &editing"
+#: elements/object-circleblock.cpp:28
+msgid "Circular block"
 msgstr ""
 
-#: interface/newgamewidget.cpp:43
-msgid "&Start game"
+#: elements/object-coursemeta.cpp:25
+msgid "Internal course representation"
 msgstr ""
 
-#: interface/newgamewidget.cpp:45
-msgid "Add player"
+#: elements/object-environment.cpp:27
+msgid "Terrain"
 msgstr ""
 
-#: interface/newgame-playerlist.cpp:66
-#, kde-format
-msgid "Player %1"
+#: elements/object-hole.cpp:29
+msgid "Hole (target)"
 msgstr ""
 
-#: interface/newgame-playerlist.cpp:69
-msgid "Remove this player"
+#: elements/object-light.cpp:23
+msgid "Light source"
+msgstr "हलुक श्रोत"
+
+#: elements/object-puddle.cpp:24
+msgid "Puddle"
 msgstr ""
 
-#: interface/mainwindow.cpp:63
-msgid "&New game"
+#: elements/object-rectblock.cpp:28
+msgid "Rectangular block"
 msgstr ""
 
-#: engine/game.cpp:31
-msgid "Par"
-msgstr "सममूल्य"
+#: elements/object-wall.cpp:26
+msgid "Wall"
+msgstr "दीवाल"
+
+#: engine/component-basicviews.cpp:28
+msgid "&2D view"
+msgstr ""
+
+#: engine/component-basicviews.cpp:45
+msgid "&3D view"
+msgstr ""
+
+#: engine/component-scorecard.cpp:28
+msgid "Score card"
+msgstr ""
 
 #: engine/game-editor.cpp:52
 msgid "Previous hole"
@@ -159,14 +174,6 @@ msgstr ""
 msgid "Delete a texture in the list"
 msgstr ""
 
-#: engine/component-basicviews.cpp:28
-msgid "&2D view"
-msgstr ""
-
-#: engine/component-basicviews.cpp:45
-msgid "&3D view"
-msgstr ""
-
 #: engine/game-normal.cpp:43
 msgctxt "Title of toolbar action"
 msgid "Skip hole"
@@ -176,9 +183,9 @@ msgstr ""
 msgid "Clear score for this hole and proceed to the next hole"
 msgstr ""
 
-#: engine/component-scorecard.cpp:28
-msgid "Score card"
-msgstr ""
+#: engine/game.cpp:31
+msgid "Par"
+msgstr "सममूल्य"
 
 #: engine/scoremodel.cpp:110
 #, kde-format
@@ -196,49 +203,41 @@ msgstr "योग"
 msgid "Hole %1"
 msgstr ""
 
-#: elements/object-environment.cpp:27
-msgid "Terrain"
+#: interface/mainwindow.cpp:63
+msgid "&New game"
 msgstr ""
 
-#: elements/ball.cpp:32
-msgid "Ball (start position for all players)"
+#: interface/newgame-playerlist.cpp:66
+#, kde-format
+msgid "Player %1"
 msgstr ""
 
-#: elements/object-light.cpp:23
-msgid "Light source"
-msgstr "हलुक श्रोत"
-
-#: elements/object-hole.cpp:29
-msgid "Hole (target)"
+#: interface/newgame-playerlist.cpp:69
+msgid "Remove this player"
 msgstr ""
 
-#: elements/object-coursemeta.cpp:25
-msgid "Internal course representation"
+#: interface/newgamewidget.cpp:38
+msgid "Select a course"
 msgstr ""
 
-#: elements/object-rectblock.cpp:28
-msgid "Rectangular block"
+#: interface/newgamewidget.cpp:39
+msgid "Select players"
 msgstr ""
 
-#: elements/object-puddle.cpp:24
-msgid "Puddle"
+#: interface/newgamewidget.cpp:40
+msgid "Open course for &editing"
 msgstr ""
 
-#: elements/object-blackhole.cpp:32
-msgid "Black hole"
+#: interface/newgamewidget.cpp:43
+msgid "&Start game"
 msgstr ""
 
-#: elements/object-wall.cpp:26
-msgid "Wall"
-msgstr "दीवाल"
-
-#: elements/object-circleblock.cpp:28
-msgid "Circular block"
+#: interface/newgamewidget.cpp:45
+msgid "Add player"
 msgstr ""
 
 #: main.cpp:31
-msgctxt "The application's name"
-msgid "Kolf"
+msgid "Copyright 2008-2009, the Kolf team"
 msgstr ""
 
 #: main.cpp:31
@@ -246,23 +245,24 @@ msgid "KDE Minigolf Game"
 msgstr ""
 
 #: main.cpp:31
-msgid "Copyright 2008-2009, the Kolf team"
-msgstr ""
-
-#: main.cpp:32
-msgid "Stefan Majewsky"
+msgctxt "The application's name"
+msgid "Kolf"
 msgstr ""
 
 #: main.cpp:32
 msgid "Lead developer"
 msgstr ""
 
-#: main.cpp:33
-msgid "Casper van Donderen"
+#: main.cpp:32
+msgid "Stefan Majewsky"
 msgstr ""
 
 #: main.cpp:33
 msgid "3D guy"
+msgstr ""
+
+#: main.cpp:33
+msgid "Casper van Donderen"
 msgstr ""
 
 #: rc.cpp:1

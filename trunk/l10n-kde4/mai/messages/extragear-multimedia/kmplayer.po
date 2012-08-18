@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplayer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-11 04:26+0200\n"
+"POT-Creation-Date: 2012-08-18 03:42+0200\n"
 "PO-Revision-Date: 2010-09-24 12:27+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -20,6 +20,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#: kmplayer_lists.cpp:94
+msgid "Most Recent"
+msgstr ""
+
+#: kmplayer_lists.cpp:189
+msgid "Persistent Playlists"
+msgstr ""
+
+#: kmplayer_part.cpp:142
+msgid "plugin"
+msgstr "प्लगइन"
+
+#: kmplayer_part.cpp:815
+#, no-c-format
+msgid "% Cache fill"
+msgstr ""
+
+#: kmplayer_part.cpp:845
+msgid "KMPlayer: Playing"
+msgstr ""
+
+#: kmplayer_part.cpp:859
+msgid "KMPlayer: Stop Playing"
+msgstr ""
 
 #: kmplayerapp.cpp:152
 msgid "New window"
@@ -169,19 +194,19 @@ msgstr "फाइल खोलू"
 msgid "Save File"
 msgstr "फाइल सहेजू"
 
-#: kmplayerapp.cpp:1096
-#, kde-format
-msgid ""
-"Error opening file %1.\n"
-"%2."
-msgstr ""
-
 #: kmplayerapp.cpp:1096 kmplayerbroadcast.cpp:535 kmplayerbroadcast.cpp:552
 #: kmplayerbroadcast.cpp:565 kmplayerconfig.cpp:635 kmplayerconfig.cpp:646
 #: kmplayerprocess.cpp:158 kmplayertvsource.cpp:615 kmplayertvsource.cpp:626
 #: kmplayervdr.cpp:444 kmplayervdr.cpp:446
 msgid "Error"
 msgstr "त्रुटि"
+
+#: kmplayerapp.cpp:1096
+#, kde-format
+msgid ""
+"Error opening file %1.\n"
+"%2."
+msgstr ""
 
 #: kmplayerapp.cpp:1179
 msgid "Closing file..."
@@ -625,14 +650,6 @@ msgstr "मापक:"
 msgid "&Configure KMPlayer..."
 msgstr ""
 
-#: kmplayer_lists.cpp:94
-msgid "Most Recent"
-msgstr ""
-
-#: kmplayer_lists.cpp:189
-msgid "Persistent Playlists"
-msgstr ""
-
 #: kmplayerpartbase.cpp:1442
 msgid "Unknown"
 msgstr "अज्ञात"
@@ -643,23 +660,6 @@ msgstr "URL"
 
 #: kmplayerpartbase.cpp:1543 kmplayerpartbase.cpp:1545
 msgid "Url - "
-msgstr ""
-
-#: kmplayer_part.cpp:142
-msgid "plugin"
-msgstr "प्लगइन"
-
-#: kmplayer_part.cpp:815
-#, no-c-format
-msgid "% Cache fill"
-msgstr ""
-
-#: kmplayer_part.cpp:845
-msgid "KMPlayer: Playing"
-msgstr ""
-
-#: kmplayer_part.cpp:859
-msgid "KMPlayer: Stop Playing"
 msgstr ""
 
 #: kmplayerprocess.cpp:158
@@ -799,14 +799,14 @@ msgid "Frequency (MHz)"
 msgstr ""
 
 #: kmplayertvsource.cpp:141
+msgid "Confirm"
+msgstr "संपुष्ट करू"
+
+#: kmplayertvsource.cpp:141
 msgid ""
 "You are about to remove this device from the Source menu.\n"
 "Continue?"
 msgstr ""
-
-#: kmplayertvsource.cpp:141
-msgid "Confirm"
-msgstr "संपुष्ट करू"
 
 #: kmplayertvsource.cpp:156
 msgid "Driver:"
@@ -1058,22 +1058,22 @@ msgid "file to open"
 msgstr ""
 
 #: mediaobject.cpp:169
-msgid "Not Running"
-msgstr ""
-
-#: mediaobject.cpp:169
 msgid "Buffering"
 msgstr "बफरिंग"
 
-#: mediaobject.cpp:169 pref.cpp:230
-msgid "Playing"
-msgstr "खेलि रहल अछि"
+#: mediaobject.cpp:169
+msgid "Not Running"
+msgstr ""
 
 #: mediaobject.cpp:169
 #, fuzzy
 #| msgid "&Pause"
 msgid "Paused"
 msgstr "ठहरू (P)"
+
+#: mediaobject.cpp:169 pref.cpp:230
+msgid "Playing"
+msgstr "खेलि रहल अछि"
 
 #: mediaobject.cpp:191
 #, kde-format
@@ -1097,12 +1097,12 @@ msgid "&Show all"
 msgstr ""
 
 #: playmodel.cpp:360
-msgid "unnamed"
-msgstr "अनामित"
-
-#: playmodel.cpp:360
 msgid "none"
 msgstr "किछु नहि"
+
+#: playmodel.cpp:360
+msgid "unnamed"
+msgstr "अनामित"
 
 #: playmodel.cpp:378
 msgid "[attributes]"
@@ -1542,12 +1542,12 @@ msgid ""
 msgstr ""
 
 #: pref.cpp:830
-msgid "&OK"
-msgstr "बेस (&O)"
-
-#: pref.cpp:830
 msgid "&Cancel"
 msgstr "रद्द करू (&C)"
+
+#: pref.cpp:830
+msgid "&OK"
+msgstr "बेस (&O)"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
