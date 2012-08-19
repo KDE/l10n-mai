@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-07 04:46+0200\n"
+"POT-Creation-Date: 2012-08-19 15:42+0200\n"
 "PO-Revision-Date: 2010-01-29 15:21+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -24,6 +24,14 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #: application.cpp:59 navigator.cpp:439
 msgid "KDE Help Center"
@@ -374,6 +382,41 @@ msgstr "दस्तावेज़ जे तालिकाबद्ध कए
 msgid "Index directory"
 msgstr "निर्देशिका डिरेक्ट्री"
 
+#. i18n: ectx: label, entry, group (Search)
+#: khelpcenter.kcfg:11
+msgid "Path to index directory."
+msgstr "अनुक्रमणिका डिरेक्ट्री क' पथ."
+
+#. i18n: ectx: whatsthis, entry, group (Search)
+#: khelpcenter.kcfg:12
+msgid "Path to directory containing search indices."
+msgstr "खोज सूचीबला डिरेक्ट्री क' पथ."
+
+#. i18n: ectx: label, entry, group (Layout)
+#: khelpcenter.kcfg:26
+msgid "Currently visible navigator tab"
+msgstr "वर्तमान मे देखाएल दए रहल नेविगेटर टैब"
+
+#. i18n: ectx: Menu (edit)
+#: khelpcenterui.rc:5
+msgid "&Edit"
+msgstr "सँपादित करू (&E)"
+
+#. i18n: ectx: Menu (view)
+#: khelpcenterui.rc:13
+msgid "&View"
+msgstr "दृश्य (&V)"
+
+#. i18n: ectx: Menu (go)
+#: khelpcenterui.rc:18
+msgid "&Go"
+msgstr "जाउ (&G)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: khelpcenterui.rc:34
+msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
+
 #: mainwindow.cpp:72
 msgid "Search Error Log"
 msgstr "खोज त्रुटि लाग"
@@ -466,58 +509,6 @@ msgstr "बनाबू"
 #: navigator.cpp:575
 msgid "Do Not Create"
 msgstr "बनाउ नहि"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#. i18n: file: khelpcenter.kcfg:11
-#. i18n: ectx: label, entry, group (Search)
-#: rc.cpp:5
-msgid "Path to index directory."
-msgstr "अनुक्रमणिका डिरेक्ट्री क' पथ."
-
-#. i18n: file: khelpcenter.kcfg:12
-#. i18n: ectx: whatsthis, entry, group (Search)
-#: rc.cpp:8
-msgid "Path to directory containing search indices."
-msgstr "खोज सूचीबला डिरेक्ट्री क' पथ."
-
-#. i18n: file: khelpcenter.kcfg:26
-#. i18n: ectx: label, entry, group (Layout)
-#: rc.cpp:11
-msgid "Currently visible navigator tab"
-msgstr "वर्तमान मे देखाएल दए रहल नेविगेटर टैब"
-
-#. i18n: file: khelpcenterui.rc:5
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:15
-msgid "&Edit"
-msgstr "सँपादित करू (&E)"
-
-#. i18n: file: khelpcenterui.rc:13
-#. i18n: ectx: Menu (view)
-#: rc.cpp:18
-msgid "&View"
-msgstr "दृश्य (&V)"
-
-#. i18n: file: khelpcenterui.rc:18
-#. i18n: ectx: Menu (go)
-#: rc.cpp:21
-msgid "&Go"
-msgstr "जाउ (&G)"
-
-#. i18n: file: khelpcenterui.rc:34
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:24
-msgid "Main Toolbar"
-msgstr "मुख्य अओजार पट्टी"
 
 #: searchengine.cpp:78
 msgid "Error: No document type specified."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 21:49+0200\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2010-01-29 15:10+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -222,6 +222,19 @@ msgctxt "timeout of shutdown:"
 msgid "infinite"
 msgstr "अनंत"
 
+#: kdmshutdown.cpp:707
+#, kde-format
+msgid ""
+"Owner: %1\n"
+"Type: %2%5\n"
+"Start: %3\n"
+"Timeout: %4"
+msgstr ""
+"मालिक: %1\n"
+"किस्म: %2%5\n"
+"प्रारंभ: %3\n"
+"टाइमआउट: %4"
+
 #: kdmshutdown.cpp:712
 msgctxt "owner of shutdown:"
 msgid "console user"
@@ -249,18 +262,14 @@ msgstr ""
 "\n"
 "अगिला बूट: %1"
 
-#: kdmshutdown.cpp:707
+#: kdmshutdown.cpp:724
 #, kde-format
 msgid ""
-"Owner: %1\n"
-"Type: %2%5\n"
-"Start: %3\n"
-"Timeout: %4"
+"\n"
+"After timeout: %1"
 msgstr ""
-"मालिक: %1\n"
-"किस्म: %2%5\n"
-"प्रारंभ: %3\n"
-"टाइमआउट: %4"
+"\n"
+"टाइमआउट केर बाद: %1"
 
 #: kdmshutdown.cpp:726
 msgctxt "after timeout:"
@@ -276,15 +285,6 @@ msgstr "अपन सत्र छोडू"
 msgctxt "after timeout:"
 msgid "cancel shutdown"
 msgstr "बन्न कएनाइ रद्द करू"
-
-#: kdmshutdown.cpp:724
-#, kde-format
-msgid ""
-"\n"
-"After timeout: %1"
-msgstr ""
-"\n"
-"टाइमआउट केर बाद: %1"
 
 #: kgdialog.cpp:57
 msgid "Sw&itch User"
@@ -500,6 +500,18 @@ msgctxt "@title:window"
 msgid "<qt><b>Changing authentication token</b></qt>"
 msgstr ""
 
+#: krootimage.cpp:330
+msgid "KRootImage"
+msgstr "के_रूट_इमेज"
+
+#: krootimage.cpp:331
+msgid "Fancy desktop background for kdm"
+msgstr "केडीएम क' लेल सुंदर डेस्कटाप बैकग्राउण्ड"
+
+#: krootimage.cpp:334
+msgid "Name of the configuration file"
+msgstr "कान्फिगरेशन फाइल क' नाम"
+
 #: themer/kdmlabel.cpp:247
 msgctxt "@action:button"
 msgid "Lan_guage"
@@ -623,15 +635,3 @@ msgstr "%1: %2"
 msgctxt "... host"
 msgid "X login on %1"
 msgstr "एक्स %1 पर लागइन भए रहल अछि"
-
-#: krootimage.cpp:330
-msgid "KRootImage"
-msgstr "के_रूट_इमेज"
-
-#: krootimage.cpp:331
-msgid "Fancy desktop background for kdm"
-msgstr "केडीएम क' लेल सुंदर डेस्कटाप बैकग्राउण्ड"
-
-#: krootimage.cpp:334
-msgid "Name of the configuration file"
-msgstr "कान्फिगरेशन फाइल क' नाम"
