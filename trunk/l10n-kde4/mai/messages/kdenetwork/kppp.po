@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kppp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:21+0200\n"
+"POT-Creation-Date: 2012-08-19 05:39+0200\n"
 "PO-Revision-Date: 2009-04-22 00:08+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -114,11 +114,11 @@ msgid "Create New Account"
 msgstr ""
 
 #: accounts.cpp:278
-msgid "&Manual Setup"
+msgid "&Wizard"
 msgstr ""
 
 #: accounts.cpp:278
-msgid "&Wizard"
+msgid "&Manual Setup"
 msgstr ""
 
 #: accounts.cpp:316
@@ -219,11 +219,11 @@ msgid "KiB"
 msgstr ""
 
 #: accounts.cpp:448 conwindow.cpp:107 modems.cpp:277
-msgid "GiB"
+msgid "MiB"
 msgstr ""
 
 #: accounts.cpp:448 conwindow.cpp:107 modems.cpp:277
-msgid "MiB"
+msgid "GiB"
 msgstr ""
 
 #: accounts.cpp:473
@@ -1435,13 +1435,13 @@ msgid ""
 "at the kppp FAQ on   <a href=\"%1\">%1</a></p>"
 msgstr ""
 
-#: kpppwidget.cpp:664
-msgid "&Details"
-msgstr "विवरण (&D)"
-
 #: kpppwidget.cpp:664 main.cpp:284
 msgid "Error"
 msgstr "त्रुटि"
+
+#: kpppwidget.cpp:664
+msgid "&Details"
+msgstr "विवरण (&D)"
 
 #: kpppwidget.cpp:697
 msgid ""
@@ -1561,12 +1561,12 @@ msgid "(c) 1999-2002, The KPPP Developers"
 msgstr ""
 
 #: main.cpp:196
-msgid "Current maintainer"
-msgstr "वर्तमान मेंटेनर"
-
-#: main.cpp:196
 msgid "Harri Porten"
 msgstr "हैरी पोर्तेन"
+
+#: main.cpp:196
+msgid "Current maintainer"
+msgstr "वर्तमान मेंटेनर"
 
 #: main.cpp:197
 msgid "Bernd Wuebben"
@@ -1686,38 +1686,6 @@ msgstr ""
 msgid "Resetting Modem"
 msgstr ""
 
-#: modem.cpp:126
-msgid "Unable to open modem."
-msgstr ""
-
-#: modem.cpp:133
-msgid "Unable to detect state of CD line."
-msgstr ""
-
-#: modem.cpp:139
-msgid "The modem is not ready."
-msgstr ""
-
-#: modem.cpp:155 modem.cpp:203
-msgid "The modem is busy."
-msgstr ""
-
-#: modem.cpp:209
-msgid "Modem Ready."
-msgstr ""
-
-#: modem.cpp:221
-msgid "Can not restore tty settings: tcsetattr()\n"
-msgstr ""
-
-#: modem.cpp:373
-msgid "The modem does not respond."
-msgstr ""
-
-#: modem.cpp:511
-msgid "Unknown speed"
-msgstr ""
-
 #: modemcmds.cpp:56
 msgid "Edit Modem Commands"
 msgstr ""
@@ -1805,6 +1773,38 @@ msgstr ""
 
 #: modemcmds.cpp:267
 msgid "Volume off/low/high:"
+msgstr ""
+
+#: modem.cpp:126
+msgid "Unable to open modem."
+msgstr ""
+
+#: modem.cpp:133
+msgid "Unable to detect state of CD line."
+msgstr ""
+
+#: modem.cpp:139
+msgid "The modem is not ready."
+msgstr ""
+
+#: modem.cpp:155 modem.cpp:203
+msgid "The modem is busy."
+msgstr ""
+
+#: modem.cpp:209
+msgid "Modem Ready."
+msgstr ""
+
+#: modem.cpp:221
+msgid "Can not restore tty settings: tcsetattr()\n"
+msgstr ""
+
+#: modem.cpp:373
+msgid "The modem does not respond."
+msgstr ""
+
+#: modem.cpp:511
+msgid "Unknown speed"
 msgstr ""
 
 #: modemdb.cpp:51
@@ -1960,11 +1960,11 @@ msgid ""
 msgstr ""
 
 #: ppplog.cpp:221
-msgid "Do Not Restart"
+msgid "Restart pppd"
 msgstr ""
 
 #: ppplog.cpp:221
-msgid "Restart pppd"
+msgid "Do Not Restart"
 msgstr ""
 
 #: ppplog.cpp:226

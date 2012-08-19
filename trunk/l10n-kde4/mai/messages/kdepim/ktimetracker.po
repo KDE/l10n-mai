@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktimetracker\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:21+0200\n"
+"POT-Creation-Date: 2012-08-19 05:41+0200\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,6 +18,16 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
+
+#: csvexportdialog.h:37
+msgctxt "@action:button"
+msgid "&Export"
+msgstr "निर्यात(&E)"
+
+#: csvexportdialog.h:38
+msgctxt "@action:button"
+msgid "E&xport to Clipboard"
+msgstr ""
 
 #. i18n: file: csvexportdialog_base.ui:176
 #. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
@@ -38,27 +48,17 @@ msgstr ""
 msgid "All Tasks"
 msgstr ""
 
-#: csvexportdialog.h:37
-msgctxt "@action:button"
-msgid "&Export"
-msgstr "निर्यात(&E)"
-
-#: csvexportdialog.h:38
-msgctxt "@action:button"
-msgid "E&xport to Clipboard"
-msgstr ""
-
-#: historydialog.cpp:81
-msgid "EndTime"
-msgstr "समाप्तसमय"
+#: historydialog.cpp:81 timekard.cpp:65
+msgid "Task"
+msgstr "काज"
 
 #: historydialog.cpp:81
 msgid "StartTime"
 msgstr ""
 
-#: historydialog.cpp:81 timekard.cpp:65
-msgid "Task"
-msgstr "काज"
+#: historydialog.cpp:81
+msgid "EndTime"
+msgstr "समाप्तसमय"
 
 #: historydialog.cpp:82
 msgid "Comment"
@@ -125,10 +125,6 @@ msgid ""
 msgstr ""
 
 #: karm.cpp:55
-msgid "KArm is now ktimetracker"
-msgstr ""
-
-#: karm.cpp:55
 msgid ""
 "Someone, probably you, has called karm. KArm has been renamed to "
 "KTimeTracker. This makes it easier to recognize. Compatibility advice: Do "
@@ -137,15 +133,19 @@ msgid ""
 "may be removed in the future."
 msgstr ""
 
+#: karm.cpp:55
+msgid "KArm is now ktimetracker"
+msgstr ""
+
 #: ktimetrackerpart.cpp:74
 msgid "ktimetracker"
 msgstr ""
 
-#: ktimetrackerpart.cpp:87 mainwindow.cpp:172
+#: ktimetrackerpart.cpp:87 mainwindow.cpp:173
 msgid "Configure key bindings"
 msgstr ""
 
-#: ktimetrackerpart.cpp:88 mainwindow.cpp:173
+#: ktimetrackerpart.cpp:88 mainwindow.cpp:174
 msgid ""
 "This will let you configure keybindings which are specific to ktimetracker"
 msgstr ""
@@ -167,20 +167,20 @@ msgid "Copyright © 1997-2012 KDE PIM authors"
 msgstr ""
 
 #: main.cpp:90
+msgid "Thorsten Stärk"
+msgstr ""
+
+#: main.cpp:90
 msgid "Current Maintainer"
 msgstr "वर्तमान मेंटेनर"
 
-#: main.cpp:90
-msgid "Thorsten Stärk"
+#: main.cpp:92
+msgid "Sirtaj Singh Kang"
 msgstr ""
 
 #: main.cpp:92
 msgid "Original Author"
 msgstr "मूल लेखक"
-
-#: main.cpp:92
-msgid "Sirtaj Singh Kang"
-msgstr ""
 
 #: main.cpp:94
 msgid "Allen Winter"
@@ -242,19 +242,19 @@ msgstr ""
 msgid "Outputs the version"
 msgstr ""
 
-#: mainwindow.cpp:89
+#: mainwindow.cpp:90
 msgid "Could not create the KTimeTracker part."
 msgstr ""
 
-#: mainwindow.cpp:98
+#: mainwindow.cpp:99
 msgid "Could not find the KTimeTracker part."
 msgstr ""
 
-#: mainwindow.cpp:130
+#: mainwindow.cpp:131
 msgid "Configure KTimeTracker..."
 msgstr ""
 
-#: mainwindow.cpp:212
+#: mainwindow.cpp:213
 msgid "task_popup"
 msgstr ""
 
@@ -711,11 +711,11 @@ msgid "Tasks"
 msgstr "काज"
 
 #: taskview.cpp:181
-msgid "Session Time"
+msgid "Task Name"
 msgstr ""
 
 #: taskview.cpp:181
-msgid "Task Name"
+msgid "Session Time"
 msgstr ""
 
 #: taskview.cpp:181 timekard.cpp:64
@@ -891,13 +891,13 @@ msgid "Edit History..."
 msgstr ""
 
 #: timetrackerwidget.cpp:214
-msgid ""
-"A window will be opened where you can change start and stop times of tasks "
-"or add a comment to them."
+msgid "Edits history of all tasks of the current document"
 msgstr ""
 
 #: timetrackerwidget.cpp:214
-msgid "Edits history of all tasks of the current document"
+msgid ""
+"A window will be opened where you can change start and stop times of tasks "
+"or add a comment to them."
 msgstr ""
 
 #: timetrackerwidget.cpp:218
@@ -1132,12 +1132,12 @@ msgid "Columns"
 msgstr "कालम"
 
 #: treeviewheadercontextmenu.cpp:141
-msgid "Hide"
-msgstr "नुकाबू"
-
-#: treeviewheadercontextmenu.cpp:141
 msgid "Show"
 msgstr "देखाबू"
+
+#: treeviewheadercontextmenu.cpp:141
+msgid "Hide"
+msgstr "नुकाबू"
 
 #~ msgid "Dialog"
 #~ msgstr "समाद"

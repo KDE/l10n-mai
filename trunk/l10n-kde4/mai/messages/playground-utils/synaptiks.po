@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: synaptiks\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:39+0200\n"
+"POT-Creation-Date: 2012-08-19 06:03+0200\n"
 "PO-Revision-Date: 2010-09-24 12:38+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,55 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: applet/synaptiksapplet.cpp:127
-msgctxt "@info connectivity error"
-msgid ""
-"<warning>The <application>synaptiks</application> daemon is not running.</"
-"warning>"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:168
-msgctxt "@info:tooltip applet main text"
-msgid "Touchpad on"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:169
-msgctxt "@info:tooltip applet applet main text"
-msgid "Touchpad off"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:172
-msgctxt "@info:tooltip applet sub text"
-msgid "Keyboard inactive"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:173
-msgctxt "@info:tooltip applet sub text"
-msgid "Keyboard active"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:178
-#, kde-format
-msgctxt "@info:tooltip applet sub text"
-msgid "<resource>%1</resource> unplugged"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:180
-#, kde-format
-msgctxt "@info:tooltip applet sub text"
-msgid "<resource>%1</resource> plugged"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:203
-msgctxt "@title:window applet touchpad configuration"
-msgid "Touchpad configuration"
-msgstr ""
-
-#: applet/synaptiksapplet.cpp:213
-msgctxt "@info:tooltip applet main text"
-msgid "Touchpad error"
-msgstr ""
 
 #: daemon/qxdevice.cpp:64
 #, kde-format
@@ -108,12 +59,6 @@ msgstr ""
 #, kde-format
 msgctxt "device error message"
 msgid "unexpected property format %1"
-msgstr ""
-
-#: daemon/qxdevice.h:361 daemon/qxdevice.h:404
-#, kde-format
-msgctxt "device error message"
-msgid "no item at index %1"
 msgstr ""
 
 #: daemon/synaptiksdaemon.cpp:62
@@ -173,11 +118,11 @@ msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
 #: daemon/synaptiksdaemon.cpp:106 kcmodule/synaptikskcm.cpp:59
-msgid "Programmer"
+msgid "Sebastian Wiesner"
 msgstr ""
 
 #: daemon/synaptiksdaemon.cpp:106 kcmodule/synaptikskcm.cpp:59
-msgid "Sebastian Wiesner"
+msgid "Programmer"
 msgstr ""
 
 #: daemon/synaptiksdaemon.cpp:128
@@ -222,6 +167,12 @@ msgctxt "@title daemon error notification"
 msgid "Touchpad error"
 msgstr ""
 
+#: daemon/qxdevice.h:361 daemon/qxdevice.h:404
+#, kde-format
+msgctxt "device error message"
+msgid "no item at index %1"
+msgstr ""
+
 #: daemon/touchpadadaptor.cpp:131
 #, kde-format
 msgctxt "touchpad dbus error"
@@ -242,26 +193,6 @@ msgid "The argument must have at least one element"
 msgid_plural "The argument must have at least %1 elements"
 msgstr[0] ""
 msgstr[1] ""
-
-#: kcmodule/mousebuttoncombobox.cpp:40
-msgctxt "@item:inlistbox mouse button triggered by tapping"
-msgid "Disabled"
-msgstr "अक्षम"
-
-#: kcmodule/mousebuttoncombobox.cpp:42
-msgctxt "@item:inlistbox mouse button triggered by tapping"
-msgid "Left mouse button"
-msgstr ""
-
-#: kcmodule/mousebuttoncombobox.cpp:44
-msgctxt "@item:inlistbox mouse button triggered by tapping"
-msgid "Middle mouse button"
-msgstr "माउसक मध्य बटन"
-
-#: kcmodule/mousebuttoncombobox.cpp:46
-msgctxt "@item:inlistbox mouse button triggered by tapping"
-msgid "Right mouse button"
-msgstr "माउसक दहिन्ना बटन"
 
 #: kcmodule/synaptikskcm.cpp:56
 msgid "synaptiks – touchpad management"
@@ -312,6 +243,75 @@ msgstr ""
 #, kde-format
 msgctxt "@info touchpad name"
 msgid "<title><resource>%1</resource></title>"
+msgstr ""
+
+#: kcmodule/mousebuttoncombobox.cpp:40
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Disabled"
+msgstr "अक्षम"
+
+#: kcmodule/mousebuttoncombobox.cpp:42
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Left mouse button"
+msgstr ""
+
+#: kcmodule/mousebuttoncombobox.cpp:44
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Middle mouse button"
+msgstr "माउसक मध्य बटन"
+
+#: kcmodule/mousebuttoncombobox.cpp:46
+msgctxt "@item:inlistbox mouse button triggered by tapping"
+msgid "Right mouse button"
+msgstr "माउसक दहिन्ना बटन"
+
+#: applet/synaptiksapplet.cpp:127
+msgctxt "@info connectivity error"
+msgid ""
+"<warning>The <application>synaptiks</application> daemon is not running.</"
+"warning>"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:168
+msgctxt "@info:tooltip applet main text"
+msgid "Touchpad on"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:169
+msgctxt "@info:tooltip applet applet main text"
+msgid "Touchpad off"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:172
+msgctxt "@info:tooltip applet sub text"
+msgid "Keyboard inactive"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:173
+msgctxt "@info:tooltip applet sub text"
+msgid "Keyboard active"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:178
+#, kde-format
+msgctxt "@info:tooltip applet sub text"
+msgid "<resource>%1</resource> unplugged"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:180
+#, kde-format
+msgctxt "@info:tooltip applet sub text"
+msgid "<resource>%1</resource> plugged"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:203
+msgctxt "@title:window applet touchpad configuration"
+msgid "Touchpad configuration"
+msgstr ""
+
+#: applet/synaptiksapplet.cpp:213
+msgctxt "@info:tooltip applet main text"
+msgid "Touchpad error"
 msgstr ""
 
 #. i18n: file: kcmodule/ui/notificationspage.ui:15

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2010-01-29 15:19+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -21,6 +21,22 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
+#. i18n: file: viewpart/kfontviewpart.rc:4
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:5
+msgid "&Main Toolbar"
+msgstr "मुख्य अओजारपट्टी"
 
 #: apps/Installer.cpp:54 kcmfontinst/KCmFontInst.cpp:1023
 msgid ""
@@ -313,29 +329,17 @@ msgid ""
 "the group, and not the actual fonts.</i></p>"
 msgstr ""
 
-#: kcmfontinst/GroupList.cpp:579 kcmfontinst/GroupList.cpp:830
-msgid "Remove"
-msgstr "हटाबू"
-
 #: kcmfontinst/GroupList.cpp:579
 msgid "Remove Group"
 msgstr "समूह मेटाबू"
 
+#: kcmfontinst/GroupList.cpp:579 kcmfontinst/GroupList.cpp:830
+msgid "Remove"
+msgstr "हटाबू"
+
 #: kcmfontinst/GroupList.cpp:580 kcmfontinst/KCmFontInst.cpp:250
 msgid "Remove group"
 msgstr "समूह हटाबू"
-
-#: kcmfontinst/GroupList.cpp:625
-#, kde-format
-msgid ""
-"<h3>Font Groups</h3><p>This list displays the font groups available on your "
-"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
-"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
-"are groups created by you. To add a font family to one of these groups "
-"simply drag it from the list of fonts, and drop onto the desired group. To "
-"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
-"li></ul></p>"
-msgstr ""
 
 #: kcmfontinst/GroupList.cpp:634
 msgid ""
@@ -352,6 +356,18 @@ msgid ""
 "li><li><i>Personal</i> contains your personal fonts.</"
 "li><li><i>Unclassified</i> contains all fonts that have not yet been placed "
 "within a \"Custom\" group.</li>"
+msgstr ""
+
+#: kcmfontinst/GroupList.cpp:625
+#, kde-format
+msgid ""
+"<h3>Font Groups</h3><p>This list displays the font groups available on your "
+"system. There are 2 main types of font groups:<ul><li><b>Standard</b> are "
+"special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
+"are groups created by you. To add a font family to one of these groups "
+"simply drag it from the list of fonts, and drop onto the desired group. To "
+"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
+"li></ul></p>"
 msgstr ""
 
 #: kcmfontinst/GroupList.cpp:744
@@ -674,13 +690,13 @@ msgid ""
 "%3</i>?</p>"
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:727 kcmfontinst/KCmFontInst.cpp:736
-msgid "Move"
-msgstr "घसकाबू"
-
 #: kcmfontinst/KCmFontInst.cpp:727
 msgid "Move Font"
 msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:727 kcmfontinst/KCmFontInst.cpp:736
+msgid "Move"
+msgstr "घसकाबू"
 
 #: kcmfontinst/KCmFontInst.cpp:731
 #, kde-format
@@ -794,11 +810,11 @@ msgid "You did not select anything to disable."
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1174
-msgid "Nothing to Disable"
+msgid "Nothing to Enable"
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1174
-msgid "Nothing to Enable"
+msgid "Nothing to Disable"
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1191
@@ -825,12 +841,12 @@ msgid ""
 "'<b>%2</b>'?</p>"
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1205
-msgid "Disable Font"
-msgstr ""
-
 #: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1204
 msgid "Enable Font"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1203 kcmfontinst/KCmFontInst.cpp:1205
+msgid "Disable Font"
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1210
@@ -869,12 +885,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1229
-msgid "Disable Fonts"
-msgstr ""
-
 #: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1228
 msgid "Enable Fonts"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:1227 kcmfontinst/KCmFontInst.cpp:1229
+msgid "Disable Fonts"
 msgstr ""
 
 #: kcmfontinst/KCmFontInst.cpp:1235
@@ -1037,150 +1053,6 @@ msgid "%2 [1 pixel]"
 msgid_plural "%2 [%1 pixels]"
 msgstr[0] ""
 msgstr[1] ""
-
-#: lib/KfiConstants.h:40
-msgid "Personal"
-msgstr "व्यक्तिगत"
-
-#: lib/KfiConstants.h:41
-msgid "System"
-msgstr "सिस्टम"
-
-#: lib/KfiConstants.h:42
-msgid "All"
-msgstr "सभ"
-
-#: lib/KfiConstants.h:56
-msgid "Administrator"
-msgstr "प्रशासक"
-
-#: lib/KfiConstants.h:95
-msgid "Thin"
-msgstr "पातड"
-
-#: lib/KfiConstants.h:96
-msgid "Extra Light"
-msgstr ""
-
-#: lib/KfiConstants.h:97
-msgid "Ultra Light"
-msgstr ""
-
-#: lib/KfiConstants.h:98
-msgid "Light"
-msgstr "हलुक"
-
-#: lib/KfiConstants.h:99
-msgid "Regular"
-msgstr "नियमित"
-
-#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
-msgid "Normal"
-msgstr "सामान्य"
-
-#: lib/KfiConstants.h:101
-msgid "Medium"
-msgstr "मध्यम"
-
-#: lib/KfiConstants.h:102
-msgid "Demi Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:103
-msgid "Semi Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:104
-msgid "Bold"
-msgstr "मोट"
-
-#: lib/KfiConstants.h:105
-msgid "Extra Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:106
-msgid "Ultra Bold"
-msgstr ""
-
-#: lib/KfiConstants.h:107
-msgid "Black"
-msgstr "करिया"
-
-#: lib/KfiConstants.h:108
-msgid "Heavy"
-msgstr ""
-
-#: lib/KfiConstants.h:110
-msgid "Roman"
-msgstr ""
-
-#: lib/KfiConstants.h:111
-msgid "Italic"
-msgstr "तिरछा"
-
-#: lib/KfiConstants.h:112
-msgid "Oblique"
-msgstr "तिर्यक"
-
-#: lib/KfiConstants.h:114
-msgid "Ultra Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:115
-msgid "Extra Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:116
-msgid "Condensed"
-msgstr "सघन"
-
-#: lib/KfiConstants.h:117
-msgid "Semi Condensed"
-msgstr ""
-
-#: lib/KfiConstants.h:119
-msgid "Semi Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:120
-msgid "Expanded"
-msgstr "फैलल"
-
-#: lib/KfiConstants.h:121
-msgid "Extra Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:122
-msgid "Ultra Expanded"
-msgstr ""
-
-#: lib/KfiConstants.h:124
-msgid "Monospaced"
-msgstr ""
-
-#: lib/KfiConstants.h:125
-msgid "Charcell"
-msgstr ""
-
-#: lib/KfiConstants.h:126
-msgid "Proportional"
-msgstr "आनुपातिक"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#. i18n: file: viewpart/kfontviewpart.rc:4
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "&Main Toolbar"
-msgstr "मुख्य अओजारपट्टी"
 
 #: viewpart/CharTip.cpp:65
 msgid "Other, Control"
@@ -1371,6 +1243,134 @@ msgstr ""
 #, kde-format
 msgid "Unicode Script: %1"
 msgstr ""
+
+#: lib/KfiConstants.h:40
+msgid "Personal"
+msgstr "व्यक्तिगत"
+
+#: lib/KfiConstants.h:41
+msgid "System"
+msgstr "सिस्टम"
+
+#: lib/KfiConstants.h:42
+msgid "All"
+msgstr "सभ"
+
+#: lib/KfiConstants.h:56
+msgid "Administrator"
+msgstr "प्रशासक"
+
+#: lib/KfiConstants.h:95
+msgid "Thin"
+msgstr "पातड"
+
+#: lib/KfiConstants.h:96
+msgid "Extra Light"
+msgstr ""
+
+#: lib/KfiConstants.h:97
+msgid "Ultra Light"
+msgstr ""
+
+#: lib/KfiConstants.h:98
+msgid "Light"
+msgstr "हलुक"
+
+#: lib/KfiConstants.h:99
+msgid "Regular"
+msgstr "नियमित"
+
+#: lib/KfiConstants.h:100 lib/KfiConstants.h:118
+msgid "Normal"
+msgstr "सामान्य"
+
+#: lib/KfiConstants.h:101
+msgid "Medium"
+msgstr "मध्यम"
+
+#: lib/KfiConstants.h:102
+msgid "Demi Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:103
+msgid "Semi Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:104
+msgid "Bold"
+msgstr "मोट"
+
+#: lib/KfiConstants.h:105
+msgid "Extra Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:106
+msgid "Ultra Bold"
+msgstr ""
+
+#: lib/KfiConstants.h:107
+msgid "Black"
+msgstr "करिया"
+
+#: lib/KfiConstants.h:108
+msgid "Heavy"
+msgstr ""
+
+#: lib/KfiConstants.h:110
+msgid "Roman"
+msgstr ""
+
+#: lib/KfiConstants.h:111
+msgid "Italic"
+msgstr "तिरछा"
+
+#: lib/KfiConstants.h:112
+msgid "Oblique"
+msgstr "तिर्यक"
+
+#: lib/KfiConstants.h:114
+msgid "Ultra Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:115
+msgid "Extra Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:116
+msgid "Condensed"
+msgstr "सघन"
+
+#: lib/KfiConstants.h:117
+msgid "Semi Condensed"
+msgstr ""
+
+#: lib/KfiConstants.h:119
+msgid "Semi Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:120
+msgid "Expanded"
+msgstr "फैलल"
+
+#: lib/KfiConstants.h:121
+msgid "Extra Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:122
+msgid "Ultra Expanded"
+msgstr ""
+
+#: lib/KfiConstants.h:124
+msgid "Monospaced"
+msgstr ""
+
+#: lib/KfiConstants.h:125
+msgid "Charcell"
+msgstr ""
+
+#: lib/KfiConstants.h:126
+msgid "Proportional"
+msgstr "आनुपातिक"
 
 #: viewpart/UnicodeBlocks.h:21
 msgid "Basic Latin"

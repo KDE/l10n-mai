@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_pci\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:26+0200\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
 "PO-Revision-Date: 2010-01-29 15:03+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -271,16 +271,16 @@ msgid "Mapping %1"
 msgstr "मैपिंग %1"
 
 #: kpci.cpp:286
+msgid "Space"
+msgstr "अंतरिक्ष"
+
+#: kpci.cpp:286
 msgid "I/O"
 msgstr "आई/ओ"
 
 #: kpci.cpp:286
 msgid "Memory"
 msgstr "स्मृति"
-
-#: kpci.cpp:286
-msgid "Space"
-msgstr "अंतरिक्ष"
 
 #: kpci.cpp:289 kpci.cpp:458
 msgid "Prefetchable"
@@ -390,6 +390,10 @@ msgstr "द्वितीयक बस रीसेट"
 msgid "Secondary back-to-back writes"
 msgstr "द्वितीयक बैक-टू-बैक लिखलक"
 
+#: kpci.cpp:422
+msgid "Primary discard timer counts"
+msgstr "प्राथमिक डिस्कार्ड टाइमर गिनती"
+
 #: kpci.cpp:422 kpci.cpp:423
 msgid "2e10 PCI clocks"
 msgstr "2e10 पीसीआई घडी"
@@ -397,10 +401,6 @@ msgstr "2e10 पीसीआई घडी"
 #: kpci.cpp:422 kpci.cpp:423
 msgid "2e15 PCI clocks"
 msgstr "2e15 पीसीआई घडी"
-
-#: kpci.cpp:422
-msgid "Primary discard timer counts"
-msgstr "प्राथमिक डिस्कार्ड टाइमर गिनती"
 
 #: kpci.cpp:423
 msgid "Secondary discard timer counts"
@@ -540,16 +540,16 @@ msgid "Bridge status"
 msgstr "ब्रिज स्थिति"
 
 #: kpci.cpp:546
+msgid "Secondary bus state in D3 hot"
+msgstr "द्वितीयक बसक स्थिति डी३ गर्म अछि"
+
+#: kpci.cpp:546
 msgid "B2"
 msgstr "बी2"
 
 #: kpci.cpp:546
 msgid "B3"
 msgstr "बी3"
-
-#: kpci.cpp:546
-msgid "Secondary bus state in D3 hot"
-msgstr "द्वितीयक बसक स्थिति डी३ गर्म अछि"
 
 #: kpci.cpp:547
 msgid "Secondary bus power & clock control"
@@ -669,13 +669,13 @@ msgctxt "no data"
 msgid "None"
 msgstr "किछु नहि"
 
-#: kpci.cpp:689 kpci.cpp:716
-msgid "0x00 (None)"
-msgstr "0x00 (कोनो नहि)"
-
 #: kpci.cpp:689
 msgid "Next"
 msgstr "अगिला"
+
+#: kpci.cpp:689 kpci.cpp:716
+msgid "0x00 (None)"
+msgstr "0x00 (कोनो नहि)"
 
 #: kpci.cpp:712
 msgid "Root only"
@@ -692,6 +692,16 @@ msgstr "मान"
 #: kpci.cpp:773
 msgid "Cache line size"
 msgstr "कैश लाइन आकार"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #: kpci_private.h:26
 msgctxt "state of PCI item"
@@ -1670,13 +1680,3 @@ msgstr "16 सदिश"
 #: kpci_private.h:776
 msgid "32 vectors"
 msgstr "32 सदिश"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"

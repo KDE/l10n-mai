@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmldonkey\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 03:47+0200\n"
+"POT-Creation-Date: 2012-08-19 03:36+0200\n"
 "PO-Revision-Date: 2009-04-21 23:51+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19,6 +19,276 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#: tools/fontselector.cpp:56
+msgid "Choose..."
+msgstr "चयन करू..."
+
+#: prefs/prefs.cpp:84
+msgid "&Enable automatic renaming of downloading files"
+msgstr ""
+
+#: prefs/prefs.cpp:85
+msgid ""
+"Should downloading files be automatically renamed according to the search "
+"and replace list?"
+msgstr ""
+
+#: prefs/prefs.cpp:109
+msgid "&Colored list"
+msgstr ""
+
+#: prefs/prefs.cpp:110
+msgid "Colorize items in the lists according to their status"
+msgstr ""
+
+#: prefs/prefs.cpp:126
+msgid "Server"
+msgstr "सर्वर"
+
+#: prefs/prefs.cpp:130 prefs/prefs.cpp:213
+msgid "&Not connected:"
+msgstr ""
+
+#: prefs/prefs.cpp:130
+msgid "Color for disconnected servers"
+msgstr ""
+
+#: prefs/prefs.cpp:131 prefs/prefs.cpp:214
+msgid "&Blacklisted:"
+msgstr ""
+
+#: prefs/prefs.cpp:131
+msgid "Color for blacklisted servers"
+msgstr ""
+
+#: prefs/prefs.cpp:132 prefs/prefs.cpp:215
+msgid "Connectin&g:"
+msgstr ""
+
+#: prefs/prefs.cpp:132
+msgid "Color for connecting or initiating servers"
+msgstr ""
+
+#: prefs/prefs.cpp:133
+msgid "C&onnected:"
+msgstr ""
+
+#: prefs/prefs.cpp:133
+msgid "Color for connected servers"
+msgstr ""
+
+#. i18n: file: kmldonkeyui.rc:120
+#. i18n: ectx: Menu (search_actions)
+#: prefs/prefs.cpp:136 prefs/prefs.cpp:286 search.cpp:144 kmldonkey.cpp:324
+#: rc.cpp:187
+msgid "Search"
+msgstr "खोजू"
+
+#: prefs/prefs.cpp:141 prefs/prefs.cpp:174
+msgid "&Few sources:"
+msgstr ""
+
+#: prefs/prefs.cpp:141 prefs/prefs.cpp:174
+msgid "The color indicating few sources"
+msgstr ""
+
+#: prefs/prefs.cpp:142 prefs/prefs.cpp:175
+msgid "&Many sources:"
+msgstr ""
+
+#: prefs/prefs.cpp:142 prefs/prefs.cpp:175
+msgid "The color indicating many sources"
+msgstr ""
+
+#: prefs/prefs.cpp:143
+msgid "&Already done:"
+msgstr ""
+
+#: prefs/prefs.cpp:143
+msgid "Color for already downloaded sources"
+msgstr ""
+
+#: prefs/prefs.cpp:149 prefs/prefs.cpp:183
+msgid "Threshold:"
+msgstr "दहलीज:"
+
+#: prefs/prefs.cpp:155 prefs/prefs.cpp:188
+msgid "The number of sources that will produce the full 'many sources' color"
+msgstr ""
+
+#: prefs/prefs.cpp:158 uploadersmodel.cpp:138
+msgid "Downloaded"
+msgstr "डाउनलोडेड"
+
+#: prefs/prefs.cpp:162 prefs/prefs.cpp:217
+msgid "&Downloading:"
+msgstr ""
+
+#: prefs/prefs.cpp:162
+msgid "Color for active downloads (receiving data)"
+msgstr ""
+
+#: prefs/prefs.cpp:163
+msgid "&Looking:"
+msgstr ""
+
+#: prefs/prefs.cpp:163
+msgid "Color for inactive downloads (looking for sources)"
+msgstr ""
+
+#: prefs/prefs.cpp:164
+msgid "Not &available:"
+msgstr ""
+
+#: prefs/prefs.cpp:164
+msgid "Color for downloads that are not available"
+msgstr ""
+
+#: prefs/prefs.cpp:165 prefs/prefs.cpp:216
+msgid "&Queued:"
+msgstr ""
+
+#: prefs/prefs.cpp:165
+msgid "Color for queued downloads"
+msgstr ""
+
+#: prefs/prefs.cpp:166
+msgid "&Paused:"
+msgstr ""
+
+#: prefs/prefs.cpp:166
+msgid "Color for paused downloads"
+msgstr ""
+
+#: prefs/prefs.cpp:169 downloadpage.cpp:105 clientlist.cpp:213
+#: searchtabresult.cpp:172
+msgid "Availability"
+msgstr ""
+
+#: prefs/prefs.cpp:176
+msgid "&Complete:"
+msgstr ""
+
+#: prefs/prefs.cpp:176
+msgid "The color indicating a complete chunk"
+msgstr ""
+
+#: prefs/prefs.cpp:177
+msgid "&No sources:"
+msgstr ""
+
+#: prefs/prefs.cpp:177
+msgid "The color indicating no sources found"
+msgstr ""
+
+#: prefs/prefs.cpp:192
+msgid "Shaded availability display"
+msgstr ""
+
+#: prefs/prefs.cpp:193
+msgid "Draw a fancier looking shaded availability display bar."
+msgstr ""
+
+#: prefs/prefs.cpp:199
+msgid "Shading depth:"
+msgstr ""
+
+#: prefs/prefs.cpp:204
+msgid "The depth of the availability bar shading - more is darker."
+msgstr ""
+
+#: prefs/prefs.cpp:208 clientlist.cpp:238 infodialog.cpp:164
+msgid "Sources"
+msgstr "स्रोत"
+
+#: prefs/prefs.cpp:213
+msgid "Color for disconnected sources"
+msgstr ""
+
+#: prefs/prefs.cpp:214
+msgid "Color for blacklisted sources"
+msgstr ""
+
+#: prefs/prefs.cpp:215
+msgid "Color for connecting or initiating sources"
+msgstr ""
+
+#: prefs/prefs.cpp:216
+msgid "Color for queued sources"
+msgstr ""
+
+#: prefs/prefs.cpp:217
+msgid "Color for sources being downloaded from"
+msgstr ""
+
+#: prefs/prefs.cpp:239
+msgid "Console font:"
+msgstr ""
+
+#: prefs/prefs.cpp:241
+msgid "Font used for the console"
+msgstr ""
+
+#: prefs/prefs.cpp:244
+msgid "List font:"
+msgstr ""
+
+#: prefs/prefs.cpp:246
+msgid "Font used for the lists"
+msgstr ""
+
+#: prefs/prefs.cpp:256
+msgid "KMLDonkey Preferences"
+msgstr ""
+
+#: prefs/prefs.cpp:264
+msgid "General"
+msgstr "सामान्य"
+
+#: prefs/prefs.cpp:266
+msgid "General Configuration"
+msgstr ""
+
+#: prefs/prefs.cpp:277
+msgid "Lists"
+msgstr "सूची"
+
+#. i18n: file: prefs/listspage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefListsPage)
+#: prefs/prefs.cpp:279 rc.cpp:70
+msgid "List Configuration"
+msgstr ""
+
+#. i18n: file: prefs/searchpage.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefSearchPage)
+#: prefs/prefs.cpp:288 rc.cpp:139
+msgid "Search Configuration"
+msgstr ""
+
+#: prefs/prefs.cpp:295
+msgid "Autorename"
+msgstr ""
+
+#: prefs/prefs.cpp:297
+msgid "Autorename Configuration"
+msgstr ""
+
+#: prefs/prefs.cpp:302
+msgid "Colors"
+msgstr "रँग"
+
+#: prefs/prefs.cpp:304
+msgid "Color Configuration"
+msgstr ""
+
+#: prefs/prefs.cpp:309
+msgid "Fonts"
+msgstr "फान्ट"
+
+#: prefs/prefs.cpp:311
+msgid "Font Configuration"
+msgstr ""
 
 #: addserver.cpp:47
 msgid "Add Server"
@@ -36,192 +306,132 @@ msgstr "पोर्ट (&P):"
 msgid "&Network:"
 msgstr ""
 
-#: availability.cpp:214
+#: statspageovernet.cpp:99
+msgid "Search filehash"
+msgstr ""
+
+#: statspageovernet.cpp:108
+msgid "Search keyword"
+msgstr ""
+
+#: statspageovernet.cpp:142
 #, kde-format
-msgctxt "percentage"
-msgid "%1%"
-msgstr "%1%"
-
-#: availability.cpp:216
-msgid "Unknown file."
+msgid "Search hits: %1"
 msgstr ""
 
-#: clientlist.cpp:60 clientlist.cpp:69 clientlist.cpp:81 clientlist.cpp:112
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: clientlist.cpp:75
-msgid "Normal"
-msgstr "सामान्य"
-
-#: clientlist.cpp:77
-msgid "Friend"
-msgstr "मित्र"
-
-#: clientlist.cpp:79
-msgid "Contact"
-msgstr "संपर्क"
-
-#: clientlist.cpp:89
-msgid "Not connected"
-msgstr "कनेक्टेड नहि अछि"
-
-#: clientlist.cpp:91
-msgid "Connecting"
-msgstr "संबंधित कए रहल अछि"
-
-#: clientlist.cpp:93
-msgid "Initiating"
-msgstr ""
-
-#: clientlist.cpp:95
-msgid "Downloading"
-msgstr "डाउनलोड कए रहल अछि"
-
-#: clientlist.cpp:98
-msgid "Connected"
-msgstr "संबंधित"
-
-#: clientlist.cpp:100
+#: statspageovernet.cpp:144
 #, kde-format
-msgid "Queued: %1"
+msgid "Source hits: %1"
 msgstr ""
 
-#: clientlist.cpp:102
-msgid "New host"
-msgstr ""
-
-#: clientlist.cpp:104
-msgid "Removed"
-msgstr ""
-
-#: clientlist.cpp:106
-msgid "Blacklisted"
-msgstr ""
-
-#: clientlist.cpp:108
+#: statspageovernet.cpp:166
 #, kde-format
-msgid "Unknown: %1"
+msgid "Size: %1"
 msgstr ""
 
-#: clientlist.cpp:116
+#: statspageovernet.cpp:167
 #, kde-format
-msgctxt "eMule mod appended to client software tag"
-msgid " (%1)"
+msgid "Max size: %1"
 msgstr ""
 
-#: clientlist.cpp:118
-#, kde-format
-msgctxt "Client software release appended to client software tag"
-msgid " %1"
-msgstr ""
+#: serverpage.cpp:60
+msgid "Server name"
+msgstr "सर्वर नाम"
 
-#: clientlist.cpp:208 friendpage.cpp:67 uploadersmodel.cpp:137
-msgid "Name"
-msgstr "नाम"
-
-#: clientlist.cpp:209 downloadpage.cpp:104 downloadpage.cpp:116
-#: friendpage.cpp:68 friendpage.cpp:300 searchtabresult.cpp:173
-#: serverpage.cpp:61 sharedfilemodel.cpp:120 uploadersmodel.cpp:141
+#: serverpage.cpp:61 downloadpage.cpp:104 downloadpage.cpp:116
+#: clientlist.cpp:209 sharedfilemodel.cpp:120 searchtabresult.cpp:173
+#: friendpage.cpp:68 friendpage.cpp:300 uploadersmodel.cpp:141
 msgid "Network"
 msgstr "नेटवर्क"
 
-#: clientlist.cpp:210 friendpage.cpp:69
-msgid "Type"
-msgstr "प्रकार"
-
-#: clientlist.cpp:211 friendpage.cpp:70
-msgid "Location"
-msgstr "स्थान"
-
-#: clientlist.cpp:212 friendpage.cpp:71
-msgid "State"
+#: serverpage.cpp:62 downloadpage.cpp:103 uploadersmodel.cpp:140
+msgid "Status"
 msgstr "स्थिति"
 
-#: clientlist.cpp:213 downloadpage.cpp:105 prefs/prefs.cpp:169
-#: searchtabresult.cpp:172
-msgid "Availability"
+#: serverpage.cpp:63
+msgid "Users"
+msgstr "प्रयोक्ता"
+
+#: serverpage.cpp:64
+msgid "Files"
+msgstr "फाइल"
+
+#: serverpage.cpp:65
+msgid "Description"
+msgstr "विवरण"
+
+#: serverpage.cpp:66
+msgid "Address"
+msgstr "पता"
+
+#: serverpage.cpp:67
+msgid "Port"
+msgstr "पोर्ट"
+
+#: serverpage.cpp:68
+msgid "Score"
+msgstr "अंक"
+
+#: serverpage.cpp:69
+msgid "ID"
+msgstr "ID"
+
+#: serverpage.cpp:70
+msgid "Preferred"
+msgstr "पसंदीदा"
+
+#: serverpage.cpp:125
+msgid "&Connect to Server"
 msgstr ""
 
-#: clientlist.cpp:214 uploadersmodel.cpp:144
-msgid "Software"
-msgstr "सॉफ्टवेयर"
-
-#: clientlist.cpp:215
-msgid "Currently downloading"
+#: serverpage.cpp:131
+msgid "&Disconnect From Server"
 msgstr ""
 
-#: clientlist.cpp:238 infodialog.cpp:164 prefs/prefs.cpp:208
-msgid "Sources"
-msgstr "स्रोत"
-
-#: clientlist.cpp:240
-msgid "&Add to Friends"
+#: serverpage.cpp:137
+msgid "&Add Server..."
 msgstr ""
 
-#: consolepage.cpp:42
-msgid ""
-"<h2>WARNING</h2>\n"
-"<p>Peer-to-peer networks, particularly those accessible via KMLDonkey, may "
-"contain material which you may be legally prohibited from downloading or "
-"redistributing. It is your responsibility to verify that any material you "
-"download from any peer-to-peer network is being made available to you "
-"lawfully. It is also your responsibility to verify that you have the legal "
-"right to redistribute any material which you make available to others via "
-"any peer-to-peer networks. In short, it is your responsibility to use this "
-"software in accordance with applicable laws where you live, including "
-"copyright law.</p>\n"
-"<h3>RESTRICTIONS</h3>\n"
-"<p>The authors of this software intend it to be used for the lawful exchange "
-"of data, art, software and other documents or works which may be lawfully "
-"distributed to third parties. The authors will not support, and strongly "
-"discourage, any use of this software to violate copyright or other "
-"intellectual property laws. In particular, the authors discourage any "
-"transmission of any material in violation of any applicable intellectual "
-"property law or regulation. Each user is assumed to comply with such rules "
-"and restrictions as well as the rules and restrictions applicable to the P2P "
-"networks or services connected directly or indirectly to this software.</p>\n"
-"<h3>DISCLAIMER OF LIABILITY</h3>\n"
-"<p>The authors of this software do not and cannot exercise any control "
-"whatsoever over the content of the information exchanged using this "
-"software. The authors make no warranties of any kind, whether expressed or "
-"implied, for the service this software is providing or for the data "
-"exchanged with the assistance of this software. The authors cannot be held "
-"responsible for any claims resulting from the user's conduct and/or use of "
-"the software which is in any manner unlawful or which damages such user or "
-"any other party.</p>"
+#: serverpage.cpp:144
+msgid "&Remove Server"
 msgstr ""
 
-#: consolepage.cpp:85
-msgid ""
-"<p><b>KMLDonkey</b>, Copyright 2003-2009 Petter Stokke, Sebastian Sauer, "
-"Gioacchino Mazzurco and Christian Muehlhaeuser</p>"
+#: serverpage.cpp:150
+msgid "Remove &Old Servers"
 msgstr ""
 
-#: consolepage.cpp:86
-msgid ""
-"<p>This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version.</p><p>This program is distributed in the hope that it "
-"will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty "
-"of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-"Public License for more details.</p><p>You should have received a copy of "
-"the GNU General Public License along with this program; if not, write to the "
-"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
-"02110-1301  USA</p>"
+#: serverpage.cpp:155
+msgid "&Blacklist Server"
 msgstr ""
 
-#: consolepage.cpp:125
-msgid "Activate Console Page"
+#: serverpage.cpp:160
+msgid "Re&name Server"
 msgstr ""
 
-#: consolepage.cpp:126 kmldonkey.cpp:329
-msgid "Console"
-msgstr "कंसोल"
+#: serverpage.cpp:165
+msgid "Toggle &Preferred"
+msgstr ""
 
-#: downloadpage.cpp:96 downloadpage.cpp:113 searchtabresult.cpp:170
-#: sharedfilemodel.cpp:119 uploadersmodel.cpp:136
+#: serverpage.cpp:170
+msgid "&Hide Disconnected Servers"
+msgstr ""
+
+#: serverpage.cpp:174
+msgid "Hide B&lacklisted Servers"
+msgstr ""
+
+#: serverpage.cpp:178
+msgid "Activate Servers Page"
+msgstr ""
+
+#. i18n: file: kmldonkeyui.rc:101
+#. i18n: ectx: Menu (server_actions)
+#: serverpage.cpp:179 kmldonkey.cpp:323 rc.cpp:184
+msgid "Servers"
+msgstr "सर्वर"
+
+#: downloadpage.cpp:96 downloadpage.cpp:113 sharedfilemodel.cpp:119
+#: searchtabresult.cpp:170 uploadersmodel.cpp:136
 msgid "File name"
 msgstr "फाइलक नाम"
 
@@ -237,8 +447,8 @@ msgstr ""
 msgid "Received"
 msgstr "हस्तगत"
 
-#: downloadpage.cpp:100 downloadpage.cpp:114 friendpage.cpp:301
-#: searchtabresult.cpp:171
+#: downloadpage.cpp:100 downloadpage.cpp:114 searchtabresult.cpp:171
+#: friendpage.cpp:301
 msgid "Size"
 msgstr "आकार"
 
@@ -250,12 +460,8 @@ msgstr "ETA"
 msgid "Priority"
 msgstr "प्राथमिकता"
 
-#: downloadpage.cpp:103 serverpage.cpp:62 uploadersmodel.cpp:140
-msgid "Status"
-msgstr "स्थिति"
-
-#: downloadpage.cpp:106 downloadpage.cpp:117 friendpage.cpp:304
-#: searchtabresult.cpp:177
+#: downloadpage.cpp:106 downloadpage.cpp:117 searchtabresult.cpp:177
+#: friendpage.cpp:304
 msgid "Hash"
 msgstr "हैश"
 
@@ -267,12 +473,12 @@ msgstr ""
 msgid "Age"
 msgstr "आयु"
 
-#: downloadpage.cpp:109 downloadpage.cpp:118 searchtabresult.cpp:174
-#: sharedfilemodel.cpp:123 uploadersmodel.cpp:145
+#: downloadpage.cpp:109 downloadpage.cpp:118 sharedfilemodel.cpp:123
+#: searchtabresult.cpp:174 uploadersmodel.cpp:145
 msgid "File type"
 msgstr "फाइल वर्ग"
 
-#: downloadpage.cpp:115 friendpage.cpp:302 searchtabresult.cpp:175
+#: downloadpage.cpp:115 searchtabresult.cpp:175 friendpage.cpp:302
 msgid "Format"
 msgstr "प्रारूप"
 
@@ -392,148 +598,174 @@ msgstr ""
 msgid "Download added: %1"
 msgstr ""
 
-#: friendpage.cpp:192
-msgid "&Search for Friend..."
+#: search.cpp:77
+msgid "Submit URL:"
 msgstr ""
 
-#: friendpage.cpp:197
-msgid "C&onnect to Friend"
+#: search.cpp:143
+msgid "Activate Search Page"
 msgstr ""
 
-#: friendpage.cpp:203
-msgid "Open Friend &Chat"
+#: search.cpp:148
+msgid "Close Current Search"
 msgstr ""
 
-#: friendpage.cpp:208
-msgid "&Remove Friend"
+#: search.cpp:149
+msgid "Close"
+msgstr "बन्न करू"
+
+#: search.cpp:153
+msgid "Close All Searches"
 msgstr ""
 
-#: friendpage.cpp:213
-msgid "Remove All Friends"
+#: search.cpp:154
+msgid "Close All"
 msgstr ""
 
-#: friendpage.cpp:218
-msgid "Activate Friends Page"
-msgstr ""
+#: clientlist.cpp:60 clientlist.cpp:69 clientlist.cpp:81 clientlist.cpp:112
+msgid "Unknown"
+msgstr "अज्ञात"
 
-#. i18n: file: kmldonkeyui.rc:212
-#. i18n: ectx: Menu (friend_actions)
-#: friendpage.cpp:219 kmldonkey.cpp:327 rc.cpp:202
-msgid "Friends"
+#: clientlist.cpp:75
+msgid "Normal"
+msgstr "सामान्य"
+
+#: clientlist.cpp:77
+msgid "Friend"
 msgstr "मित्र"
 
-#: friendpage.cpp:299
-msgid "Filename"
-msgstr "फाइलनाम"
+#: clientlist.cpp:79
+msgid "Contact"
+msgstr "संपर्क"
 
-#: friendpage.cpp:303 searchtabresult.cpp:176
-msgid "Comment"
-msgstr "टिप्पणी"
+#: clientlist.cpp:89
+msgid "Not connected"
+msgstr "कनेक्टेड नहि अछि"
 
-#: friendpage.cpp:379
-msgid "Search for Friend"
+#: clientlist.cpp:91
+msgid "Connecting"
+msgstr "संबंधित कए रहल अछि"
+
+#: clientlist.cpp:93
+msgid "Initiating"
 msgstr ""
 
-#: friendpage.cpp:380
-msgid "Enter the name of the friend you are searching for:"
+#: clientlist.cpp:95
+msgid "Downloading"
+msgstr "डाउनलोड कए रहल अछि"
+
+#: clientlist.cpp:98
+msgid "Connected"
+msgstr "संबंधित"
+
+#: clientlist.cpp:100
+#, kde-format
+msgid "Queued: %1"
 msgstr ""
 
-#: friendpage.cpp:398
-msgid "Should all friends be removed?"
+#: clientlist.cpp:102
+msgid "New host"
 msgstr ""
 
-#: friendpage.cpp:399
-msgid "Remove all Friends"
+#: clientlist.cpp:104
+msgid "Removed"
 msgstr ""
 
-#: friendpage.cpp:532 searchtabresult.cpp:258
-msgid "Download As"
+#: clientlist.cpp:106
+msgid "Blacklisted"
 msgstr ""
 
-#: friendpage.cpp:533 searchtabresult.cpp:259
-msgid "Choose a filename for the new download:"
+#: clientlist.cpp:108
+#, kde-format
+msgid "Unknown: %1"
 msgstr ""
 
-#: infodialog.cpp:64
-msgid "File Information"
-msgstr "फाइल जानकारी"
+#: clientlist.cpp:116
+#, kde-format
+msgctxt "eMule mod appended to client software tag"
+msgid " (%1)"
+msgstr ""
 
-#: infodialog.cpp:73
-#, fuzzy
-#| msgid "&File"
-msgid "File"
-msgstr "फाइल (&F)"
+#: clientlist.cpp:118
+#, kde-format
+msgctxt "Client software release appended to client software tag"
+msgid " %1"
+msgstr ""
 
-#: infodialog.cpp:76 renamedialog.cpp:61
+#: clientlist.cpp:208 friendpage.cpp:67 uploadersmodel.cpp:137
+msgid "Name"
+msgstr "नाम"
+
+#: clientlist.cpp:210 friendpage.cpp:69
+msgid "Type"
+msgstr "प्रकार"
+
+#: clientlist.cpp:211 friendpage.cpp:70
+msgid "Location"
+msgstr "स्थान"
+
+#: clientlist.cpp:212 friendpage.cpp:71
+msgid "State"
+msgstr "स्थिति"
+
+#: clientlist.cpp:214 uploadersmodel.cpp:144
+msgid "Software"
+msgstr "सॉफ्टवेयर"
+
+#: clientlist.cpp:215
+msgid "Currently downloading"
+msgstr ""
+
+#: clientlist.cpp:240
+msgid "&Add to Friends"
+msgstr ""
+
+#: webbrowser.cpp:70
+msgid "Move backward through the page history"
+msgstr ""
+
+#: webbrowser.cpp:73
+msgid "Move forward through the page history"
+msgstr ""
+
+#: webbrowser.cpp:76
+msgid "Go to the original page"
+msgstr ""
+
+#: renamedialog.cpp:42
+msgid "Select File Name"
+msgstr ""
+
+#: renamedialog.cpp:55
+msgid "&Preview"
+msgstr "पूर्वावलोकन (&P)"
+
+#: renamedialog.cpp:61 infodialog.cpp:76
 msgid "Name:"
 msgstr "नाम:"
 
-#: infodialog.cpp:77
-msgid "Complete:"
-msgstr ""
-
-#: infodialog.cpp:78
-msgid "Downloaded:"
-msgstr ""
-
-#: infodialog.cpp:79
-msgid "Speed:"
-msgstr "गति:"
-
-#: infodialog.cpp:80 renamedialog.cpp:63
-msgid "Hash:"
-msgstr ""
-
-#: infodialog.cpp:81 renamedialog.cpp:64 searchcorewidgets.cpp:474
-msgid "Format:"
-msgstr "प्रारूप:"
-
-#: infodialog.cpp:82
-msgid "Comment:"
-msgstr "टिप्पणीः"
-
-#: infodialog.cpp:83
-msgid "Alt. names:"
-msgstr ""
-
-#: infodialog.cpp:102 renamedialog.cpp:62
+#: renamedialog.cpp:62 infodialog.cpp:102
 msgid "Size:"
 msgstr "आकार:"
 
-#: infodialog.cpp:109 searchcore.cpp:142
-msgid "Network:"
-msgstr "नेटवर्क:"
-
-#: infodialog.cpp:126
-msgid "ETA:"
+#: renamedialog.cpp:63 infodialog.cpp:80
+msgid "Hash:"
 msgstr ""
 
-#: infodialog.cpp:187
-msgid "Preview"
-msgstr "पूर्वावलोकन"
+#: renamedialog.cpp:64 searchcorewidgets.cpp:474 infodialog.cpp:81
+msgid "Format:"
+msgstr "प्रारूप:"
 
-#: infodialog.cpp:203
-msgid "eMugle"
+#: renamedialog.cpp:65
+msgid "New name:"
+msgstr "नवीन नाम:"
+
+#: sharedfilemodel.cpp:121
+msgid "Requests"
 msgstr ""
 
-#: infodialog.cpp:221
-#, kde-format
-msgctxt "Dialog window caption: (percent complete) filename"
-msgid "%1"
-msgstr "%1"
-
-#: infodialog.cpp:250
-#, kde-format
-msgctxt "download speed in bytes per second"
-msgid "%1b/s"
-msgstr ""
-
-#: infodialog.cpp:261
-msgid "Alternative Names"
-msgstr ""
-
-#: infodialog.cpp:262
-msgid "Use This &Name"
+#: sharedfilemodel.cpp:122 uploadersmodel.cpp:139
+msgid "Uploaded"
 msgstr ""
 
 #: infolist.cpp:93 kmldview.cpp:125
@@ -702,6 +934,234 @@ msgctxt "we're at this position in client's queue"
 msgid "Queued: %1"
 msgstr ""
 
+#: statspage.cpp:60
+msgid "Rates"
+msgstr ""
+
+#: statspage.cpp:177
+msgid "Clients"
+msgstr ""
+
+#: shareddirs.cpp:54
+msgid "Messages from core about applied changes."
+msgstr ""
+
+#: shareddirs.cpp:54 shareddirs.cpp:81
+msgid "Shared Folders"
+msgstr "साझेदारी फोल्डर"
+
+#: shareddirs.cpp:107
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: shareddirs.cpp:119 listeditor.cpp:100
+msgid "&Add"
+msgstr "जोड़ू (&A)"
+
+#: shareddirs.cpp:121
+msgid "Add shared folder"
+msgstr ""
+
+#: shareddirs.cpp:125 listeditor.cpp:104
+msgid "&Remove"
+msgstr "हटाबू (&R)"
+
+#: shareddirs.cpp:127
+msgid "Remove shared folder"
+msgstr ""
+
+#: shareddirs.cpp:146
+msgid "Folder:"
+msgstr "फोल्डर:"
+
+#: shareddirs.cpp:152
+msgid "Browse folders"
+msgstr ""
+
+#: shareddirs.cpp:161
+msgid "Priority:"
+msgstr "प्राथमिकता:"
+
+#: shareddirs.cpp:243
+msgid "Select Folder"
+msgstr "फोल्डर चुनू"
+
+#: searchtabresult.cpp:176 friendpage.cpp:303
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: searchtabresult.cpp:190
+msgid "Filter"
+msgstr "फिल्टर"
+
+#: searchtabresult.cpp:196
+msgctxt "zero of zero search results"
+msgid "0/0"
+msgstr ""
+
+#: searchtabresult.cpp:258 friendpage.cpp:532
+msgid "Download As"
+msgstr ""
+
+#: searchtabresult.cpp:259 friendpage.cpp:533
+msgid "Choose a filename for the new download:"
+msgstr ""
+
+#: consolepage.cpp:42
+msgid ""
+"<h2>WARNING</h2>\n"
+"<p>Peer-to-peer networks, particularly those accessible via KMLDonkey, may "
+"contain material which you may be legally prohibited from downloading or "
+"redistributing. It is your responsibility to verify that any material you "
+"download from any peer-to-peer network is being made available to you "
+"lawfully. It is also your responsibility to verify that you have the legal "
+"right to redistribute any material which you make available to others via "
+"any peer-to-peer networks. In short, it is your responsibility to use this "
+"software in accordance with applicable laws where you live, including "
+"copyright law.</p>\n"
+"<h3>RESTRICTIONS</h3>\n"
+"<p>The authors of this software intend it to be used for the lawful exchange "
+"of data, art, software and other documents or works which may be lawfully "
+"distributed to third parties. The authors will not support, and strongly "
+"discourage, any use of this software to violate copyright or other "
+"intellectual property laws. In particular, the authors discourage any "
+"transmission of any material in violation of any applicable intellectual "
+"property law or regulation. Each user is assumed to comply with such rules "
+"and restrictions as well as the rules and restrictions applicable to the P2P "
+"networks or services connected directly or indirectly to this software.</p>\n"
+"<h3>DISCLAIMER OF LIABILITY</h3>\n"
+"<p>The authors of this software do not and cannot exercise any control "
+"whatsoever over the content of the information exchanged using this "
+"software. The authors make no warranties of any kind, whether expressed or "
+"implied, for the service this software is providing or for the data "
+"exchanged with the assistance of this software. The authors cannot be held "
+"responsible for any claims resulting from the user's conduct and/or use of "
+"the software which is in any manner unlawful or which damages such user or "
+"any other party.</p>"
+msgstr ""
+
+#: consolepage.cpp:85
+msgid ""
+"<p><b>KMLDonkey</b>, Copyright 2003-2009 Petter Stokke, Sebastian Sauer, "
+"Gioacchino Mazzurco and Christian Muehlhaeuser</p>"
+msgstr ""
+
+#: consolepage.cpp:86
+msgid ""
+"<p>This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.</p><p>This program is distributed in the hope that it "
+"will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty "
+"of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public License for more details.</p><p>You should have received a copy of "
+"the GNU General Public License along with this program; if not, write to the "
+"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301  USA</p>"
+msgstr ""
+
+#: consolepage.cpp:125
+msgid "Activate Console Page"
+msgstr ""
+
+#: consolepage.cpp:126 kmldonkey.cpp:329
+msgid "Console"
+msgstr "कंसोल"
+
+#: searchcorewidgets.cpp:401
+msgid "Keywords:"
+msgstr "बीजशब्द:"
+
+#: searchcorewidgets.cpp:427
+msgid "Min size:"
+msgstr ""
+
+#: searchcorewidgets.cpp:450
+msgid "Max size:"
+msgstr ""
+
+#: searchcorewidgets.cpp:499
+msgid "Media:"
+msgstr ""
+
+#: searchcorewidgets.cpp:523
+msgid "Artist:"
+msgstr "कलाकारः"
+
+#: searchcorewidgets.cpp:547
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: searchcorewidgets.cpp:571
+msgid "Album:"
+msgstr "एल्बमः"
+
+#: searchcorewidgets.cpp:595
+msgid "Bitrate:"
+msgstr "बिटरेटः"
+
+#: availability.cpp:214
+#, kde-format
+msgctxt "percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: availability.cpp:216
+msgid "Unknown file."
+msgstr ""
+
+#: optioneditor.cpp:91
+msgid "Option"
+msgstr "विकल्प"
+
+#: optioneditor.cpp:91
+msgid "Value"
+msgstr "मान"
+
+#: listeditor.cpp:101
+msgid "Add a new item to the list"
+msgstr ""
+
+#: listeditor.cpp:105
+msgid "Remove selected item from list"
+msgstr ""
+
+#: listeditor.cpp:108
+msgid "&Up"
+msgstr "उप्पर (&U)"
+
+#: listeditor.cpp:109
+msgid "Move selected item up"
+msgstr ""
+
+#: listeditor.cpp:112
+msgid "&Down"
+msgstr "नीच्चाँ (&D)"
+
+#: listeditor.cpp:113
+msgid "Move selected item down"
+msgstr ""
+
+#: listeditor.cpp:263
+msgid "Search for"
+msgstr "क' लेल खोज"
+
+#: listeditor.cpp:263
+msgid "Search for regular expression..."
+msgstr ""
+
+#: listeditor.cpp:264
+msgid "Replace with"
+msgstr "एकरासँ बदलू"
+
+#: listeditor.cpp:264
+msgid "Replace searched regular expression with..."
+msgstr ""
+
+#: submitdialog.cpp:37
+msgid "Submit URLs"
+msgstr ""
+
 #: kmldonkey.cpp:127
 msgctxt "Core version string not (yet) available"
 msgid "Not Available"
@@ -731,22 +1191,15 @@ msgstr ""
 msgid "Bandwidth limit down/up"
 msgstr ""
 
-#. i18n: file: kmldonkeyui.rc:101
-#. i18n: ectx: Menu (server_actions)
-#: kmldonkey.cpp:323 rc.cpp:184 serverpage.cpp:179
-msgid "Servers"
-msgstr "सर्वर"
-
-#. i18n: file: kmldonkeyui.rc:120
-#. i18n: ectx: Menu (search_actions)
-#: kmldonkey.cpp:324 prefs/prefs.cpp:136 prefs/prefs.cpp:286 rc.cpp:187
-#: search.cpp:144
-msgid "Search"
-msgstr "खोजू"
-
 #: kmldonkey.cpp:326 sharepage.cpp:194
 msgid "Uploads"
 msgstr "अपलोड"
+
+#. i18n: file: kmldonkeyui.rc:212
+#. i18n: ectx: Menu (friend_actions)
+#: kmldonkey.cpp:327 friendpage.cpp:219 rc.cpp:202
+msgid "Friends"
+msgstr "मित्र"
 
 #: kmldonkey.cpp:328
 msgid "Statistics"
@@ -866,12 +1319,12 @@ msgid "Download"
 msgstr "डाउनलोड"
 
 #: kmldonkey.cpp:442
-msgid "Force"
-msgstr "बाधित करू"
-
-#: kmldonkey.cpp:442
 msgid "Force Download"
 msgstr ""
+
+#: kmldonkey.cpp:442
+msgid "Force"
+msgstr "बाधित करू"
 
 #: kmldonkey.cpp:443
 msgid "Download As..."
@@ -1013,53 +1466,119 @@ msgstr ""
 msgid "Bandwidth %1"
 msgstr ""
 
-#: listeditor.cpp:100 shareddirs.cpp:119
-msgid "&Add"
-msgstr "जोड़ू (&A)"
-
-#: listeditor.cpp:101
-msgid "Add a new item to the list"
+#: sharepage.cpp:180
+msgid "&Refresh Shared File List"
 msgstr ""
 
-#: listeditor.cpp:104 shareddirs.cpp:125
-msgid "&Remove"
-msgstr "हटाबू (&R)"
-
-#: listeditor.cpp:105
-msgid "Remove selected item from list"
+#: sharepage.cpp:184
+msgid "Refresh U&ploaders List"
 msgstr ""
 
-#: listeditor.cpp:108
-msgid "&Up"
-msgstr "उप्पर (&U)"
-
-#: listeditor.cpp:109
-msgid "Move selected item up"
+#: sharepage.cpp:188
+msgid "&Shared Folders..."
 msgstr ""
 
-#: listeditor.cpp:112
-msgid "&Down"
-msgstr "नीच्चाँ (&D)"
-
-#: listeditor.cpp:113
-msgid "Move selected item down"
+#: sharepage.cpp:193
+msgid "Activate Uploads Page"
 msgstr ""
 
-#: listeditor.cpp:263
-msgid "Search for"
-msgstr "क' लेल खोज"
-
-#: listeditor.cpp:263
-msgid "Search for regular expression..."
+#: friendpage.cpp:192
+msgid "&Search for Friend..."
 msgstr ""
 
-#: listeditor.cpp:264
-msgid "Replace searched regular expression with..."
+#: friendpage.cpp:197
+msgid "C&onnect to Friend"
 msgstr ""
 
-#: listeditor.cpp:264
-msgid "Replace with"
-msgstr "एकरासँ बदलू"
+#: friendpage.cpp:203
+msgid "Open Friend &Chat"
+msgstr ""
+
+#: friendpage.cpp:208
+msgid "&Remove Friend"
+msgstr ""
+
+#: friendpage.cpp:213
+msgid "Remove All Friends"
+msgstr ""
+
+#: friendpage.cpp:218
+msgid "Activate Friends Page"
+msgstr ""
+
+#: friendpage.cpp:299
+msgid "Filename"
+msgstr "फाइलनाम"
+
+#: friendpage.cpp:379
+msgid "Search for Friend"
+msgstr ""
+
+#: friendpage.cpp:380
+msgid "Enter the name of the friend you are searching for:"
+msgstr ""
+
+#: friendpage.cpp:398
+msgid "Should all friends be removed?"
+msgstr ""
+
+#: friendpage.cpp:399
+msgid "Remove all Friends"
+msgstr ""
+
+#: searchcore.cpp:119
+msgid "Max hits:"
+msgstr ""
+
+#: searchcore.cpp:130
+msgctxt "search type"
+msgid "Type:"
+msgstr "प्रकार:"
+
+#: searchcore.cpp:133
+msgctxt "remote search"
+msgid "Remote"
+msgstr "रिमोट"
+
+#: searchcore.cpp:134
+msgctxt "local search"
+msgid "Local"
+msgstr "स्थानीय"
+
+#: searchcore.cpp:135
+msgctxt "subscription search"
+msgid "Subscribe"
+msgstr "सदस्यता लिअ'."
+
+#: searchcore.cpp:142 infodialog.cpp:109
+msgid "Network:"
+msgstr "नेटवर्क:"
+
+#: searchcore.cpp:145
+msgid "All Networks"
+msgstr ""
+
+#: searchcore.cpp:150
+msgctxt "start a search"
+msgid "Search"
+msgstr "खोजू"
+
+#: uploadersmodel.cpp:142
+msgid "Rating"
+msgstr "रेटिंग"
+
+#: uploadersmodel.cpp:143
+msgid "Time"
+msgstr "समय"
+
+#: webservices.cpp:48
+#, kde-format
+msgid "Do you want to rename \"%1\" to \"%2\"?"
+msgstr ""
+
+#: webservices.cpp:49
+msgid "Rename download"
+msgstr ""
 
 #: main.cpp:40
 msgid "KMLDonkey"
@@ -1074,20 +1593,20 @@ msgid "Copyright (C) 2003 - 2011 The KMLDonkey Authors"
 msgstr ""
 
 #: main.cpp:44
-msgid "Maintainer & Developer"
-msgstr ""
-
-#: main.cpp:44
 msgid "Sebastian Sauer"
 msgstr "सेबेस्टियन साए"
 
-#: main.cpp:45 main.cpp:46 main.cpp:47
-msgid "Developer"
-msgstr "डेवलपर"
+#: main.cpp:44
+msgid "Maintainer & Developer"
+msgstr ""
 
 #: main.cpp:45
 msgid "Gioacchino Mazzurco"
 msgstr ""
+
+#: main.cpp:45 main.cpp:46 main.cpp:47
+msgid "Developer"
+msgstr "डेवलपर"
 
 #: main.cpp:46
 msgid "Christian Muehlhaeuser"
@@ -1098,11 +1617,11 @@ msgid "Eduard Huguet"
 msgstr ""
 
 #: main.cpp:48
-msgid "Developer & Project Founder"
+msgid "Petter Stokke"
 msgstr ""
 
 #: main.cpp:48
-msgid "Petter Stokke"
+msgid "Developer & Project Founder"
 msgstr ""
 
 #: mlconfig.cpp:71
@@ -1114,262 +1633,66 @@ msgctxt "mldonkey config: network options page"
 msgid "Networks"
 msgstr "नेटवर्क"
 
-#: optioneditor.cpp:91
-msgid "Option"
-msgstr "विकल्प"
+#: infodialog.cpp:64
+msgid "File Information"
+msgstr "फाइल जानकारी"
 
-#: optioneditor.cpp:91
-msgid "Value"
-msgstr "मान"
+#: infodialog.cpp:73
+#, fuzzy
+#| msgid "&File"
+msgid "File"
+msgstr "फाइल (&F)"
 
-#: prefs/prefs.cpp:84
-msgid "&Enable automatic renaming of downloading files"
+#: infodialog.cpp:77
+msgid "Complete:"
 msgstr ""
 
-#: prefs/prefs.cpp:85
-msgid ""
-"Should downloading files be automatically renamed according to the search "
-"and replace list?"
+#: infodialog.cpp:78
+msgid "Downloaded:"
 msgstr ""
 
-#: prefs/prefs.cpp:109
-msgid "&Colored list"
+#: infodialog.cpp:79
+msgid "Speed:"
+msgstr "गति:"
+
+#: infodialog.cpp:82
+msgid "Comment:"
+msgstr "टिप्पणीः"
+
+#: infodialog.cpp:83
+msgid "Alt. names:"
 msgstr ""
 
-#: prefs/prefs.cpp:110
-msgid "Colorize items in the lists according to their status"
+#: infodialog.cpp:126
+msgid "ETA:"
 msgstr ""
 
-#: prefs/prefs.cpp:126
-msgid "Server"
-msgstr "सर्वर"
+#: infodialog.cpp:187
+msgid "Preview"
+msgstr "पूर्वावलोकन"
 
-#: prefs/prefs.cpp:130 prefs/prefs.cpp:213
-msgid "&Not connected:"
+#: infodialog.cpp:203
+msgid "eMugle"
 msgstr ""
 
-#: prefs/prefs.cpp:130
-msgid "Color for disconnected servers"
+#: infodialog.cpp:221
+#, kde-format
+msgctxt "Dialog window caption: (percent complete) filename"
+msgid "%1"
+msgstr "%1"
+
+#: infodialog.cpp:250
+#, kde-format
+msgctxt "download speed in bytes per second"
+msgid "%1b/s"
 msgstr ""
 
-#: prefs/prefs.cpp:131 prefs/prefs.cpp:214
-msgid "&Blacklisted:"
+#: infodialog.cpp:261
+msgid "Alternative Names"
 msgstr ""
 
-#: prefs/prefs.cpp:131
-msgid "Color for blacklisted servers"
-msgstr ""
-
-#: prefs/prefs.cpp:132
-msgid "Color for connecting or initiating servers"
-msgstr ""
-
-#: prefs/prefs.cpp:132 prefs/prefs.cpp:215
-msgid "Connectin&g:"
-msgstr ""
-
-#: prefs/prefs.cpp:133
-msgid "C&onnected:"
-msgstr ""
-
-#: prefs/prefs.cpp:133
-msgid "Color for connected servers"
-msgstr ""
-
-#: prefs/prefs.cpp:141 prefs/prefs.cpp:174
-msgid "&Few sources:"
-msgstr ""
-
-#: prefs/prefs.cpp:141 prefs/prefs.cpp:174
-msgid "The color indicating few sources"
-msgstr ""
-
-#: prefs/prefs.cpp:142 prefs/prefs.cpp:175
-msgid "&Many sources:"
-msgstr ""
-
-#: prefs/prefs.cpp:142 prefs/prefs.cpp:175
-msgid "The color indicating many sources"
-msgstr ""
-
-#: prefs/prefs.cpp:143
-msgid "&Already done:"
-msgstr ""
-
-#: prefs/prefs.cpp:143
-msgid "Color for already downloaded sources"
-msgstr ""
-
-#: prefs/prefs.cpp:149 prefs/prefs.cpp:183
-msgid "Threshold:"
-msgstr "दहलीज:"
-
-#: prefs/prefs.cpp:155 prefs/prefs.cpp:188
-msgid "The number of sources that will produce the full 'many sources' color"
-msgstr ""
-
-#: prefs/prefs.cpp:158 uploadersmodel.cpp:138
-msgid "Downloaded"
-msgstr "डाउनलोडेड"
-
-#: prefs/prefs.cpp:162 prefs/prefs.cpp:217
-msgid "&Downloading:"
-msgstr ""
-
-#: prefs/prefs.cpp:162
-msgid "Color for active downloads (receiving data)"
-msgstr ""
-
-#: prefs/prefs.cpp:163
-msgid "&Looking:"
-msgstr ""
-
-#: prefs/prefs.cpp:163
-msgid "Color for inactive downloads (looking for sources)"
-msgstr ""
-
-#: prefs/prefs.cpp:164
-msgid "Color for downloads that are not available"
-msgstr ""
-
-#: prefs/prefs.cpp:164
-msgid "Not &available:"
-msgstr ""
-
-#: prefs/prefs.cpp:165 prefs/prefs.cpp:216
-msgid "&Queued:"
-msgstr ""
-
-#: prefs/prefs.cpp:165
-msgid "Color for queued downloads"
-msgstr ""
-
-#: prefs/prefs.cpp:166
-msgid "&Paused:"
-msgstr ""
-
-#: prefs/prefs.cpp:166
-msgid "Color for paused downloads"
-msgstr ""
-
-#: prefs/prefs.cpp:176
-msgid "&Complete:"
-msgstr ""
-
-#: prefs/prefs.cpp:176
-msgid "The color indicating a complete chunk"
-msgstr ""
-
-#: prefs/prefs.cpp:177
-msgid "&No sources:"
-msgstr ""
-
-#: prefs/prefs.cpp:177
-msgid "The color indicating no sources found"
-msgstr ""
-
-#: prefs/prefs.cpp:192
-msgid "Shaded availability display"
-msgstr ""
-
-#: prefs/prefs.cpp:193
-msgid "Draw a fancier looking shaded availability display bar."
-msgstr ""
-
-#: prefs/prefs.cpp:199
-msgid "Shading depth:"
-msgstr ""
-
-#: prefs/prefs.cpp:204
-msgid "The depth of the availability bar shading - more is darker."
-msgstr ""
-
-#: prefs/prefs.cpp:213
-msgid "Color for disconnected sources"
-msgstr ""
-
-#: prefs/prefs.cpp:214
-msgid "Color for blacklisted sources"
-msgstr ""
-
-#: prefs/prefs.cpp:215
-msgid "Color for connecting or initiating sources"
-msgstr ""
-
-#: prefs/prefs.cpp:216
-msgid "Color for queued sources"
-msgstr ""
-
-#: prefs/prefs.cpp:217
-msgid "Color for sources being downloaded from"
-msgstr ""
-
-#: prefs/prefs.cpp:239
-msgid "Console font:"
-msgstr ""
-
-#: prefs/prefs.cpp:241
-msgid "Font used for the console"
-msgstr ""
-
-#: prefs/prefs.cpp:244
-msgid "List font:"
-msgstr ""
-
-#: prefs/prefs.cpp:246
-msgid "Font used for the lists"
-msgstr ""
-
-#: prefs/prefs.cpp:256
-msgid "KMLDonkey Preferences"
-msgstr ""
-
-#: prefs/prefs.cpp:264
-msgid "General"
-msgstr "सामान्य"
-
-#: prefs/prefs.cpp:266
-msgid "General Configuration"
-msgstr ""
-
-#: prefs/prefs.cpp:277
-msgid "Lists"
-msgstr "सूची"
-
-#. i18n: file: prefs/listspage.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefListsPage)
-#: prefs/prefs.cpp:279 rc.cpp:70
-msgid "List Configuration"
-msgstr ""
-
-#. i18n: file: prefs/searchpage.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefSearchPage)
-#: prefs/prefs.cpp:288 rc.cpp:139
-msgid "Search Configuration"
-msgstr ""
-
-#: prefs/prefs.cpp:295
-msgid "Autorename"
-msgstr ""
-
-#: prefs/prefs.cpp:297
-msgid "Autorename Configuration"
-msgstr ""
-
-#: prefs/prefs.cpp:302
-msgid "Colors"
-msgstr "रँग"
-
-#: prefs/prefs.cpp:304
-msgid "Color Configuration"
-msgstr ""
-
-#: prefs/prefs.cpp:309
-msgid "Fonts"
-msgstr "फान्ट"
-
-#: prefs/prefs.cpp:311
-msgid "Font Configuration"
+#: infodialog.cpp:262
+msgid "Use This &Name"
 msgstr ""
 
 #: rc.cpp:1
@@ -1761,329 +2084,6 @@ msgstr ""
 #. i18n: ectx: Menu (friend_share_actions)
 #: rc.cpp:205
 msgid "Friend Shares"
-msgstr ""
-
-#: renamedialog.cpp:42
-msgid "Select File Name"
-msgstr ""
-
-#: renamedialog.cpp:55
-msgid "&Preview"
-msgstr "पूर्वावलोकन (&P)"
-
-#: renamedialog.cpp:65
-msgid "New name:"
-msgstr "नवीन नाम:"
-
-#: search.cpp:77
-msgid "Submit URL:"
-msgstr ""
-
-#: search.cpp:143
-msgid "Activate Search Page"
-msgstr ""
-
-#: search.cpp:148
-msgid "Close Current Search"
-msgstr ""
-
-#: search.cpp:149
-msgid "Close"
-msgstr "बन्न करू"
-
-#: search.cpp:153
-msgid "Close All Searches"
-msgstr ""
-
-#: search.cpp:154
-msgid "Close All"
-msgstr ""
-
-#: searchcore.cpp:119
-msgid "Max hits:"
-msgstr ""
-
-#: searchcore.cpp:130
-msgctxt "search type"
-msgid "Type:"
-msgstr "प्रकार:"
-
-#: searchcore.cpp:133
-msgctxt "remote search"
-msgid "Remote"
-msgstr "रिमोट"
-
-#: searchcore.cpp:134
-msgctxt "local search"
-msgid "Local"
-msgstr "स्थानीय"
-
-#: searchcore.cpp:135
-msgctxt "subscription search"
-msgid "Subscribe"
-msgstr "सदस्यता लिअ'."
-
-#: searchcore.cpp:145
-msgid "All Networks"
-msgstr ""
-
-#: searchcore.cpp:150
-msgctxt "start a search"
-msgid "Search"
-msgstr "खोजू"
-
-#: searchcorewidgets.cpp:401
-msgid "Keywords:"
-msgstr "बीजशब्द:"
-
-#: searchcorewidgets.cpp:427
-msgid "Min size:"
-msgstr ""
-
-#: searchcorewidgets.cpp:450
-msgid "Max size:"
-msgstr ""
-
-#: searchcorewidgets.cpp:499
-msgid "Media:"
-msgstr ""
-
-#: searchcorewidgets.cpp:523
-msgid "Artist:"
-msgstr "कलाकारः"
-
-#: searchcorewidgets.cpp:547
-msgid "Title:"
-msgstr "शीर्षक:"
-
-#: searchcorewidgets.cpp:571
-msgid "Album:"
-msgstr "एल्बमः"
-
-#: searchcorewidgets.cpp:595
-msgid "Bitrate:"
-msgstr "बिटरेटः"
-
-#: searchtabresult.cpp:190
-msgid "Filter"
-msgstr "फिल्टर"
-
-#: searchtabresult.cpp:196
-msgctxt "zero of zero search results"
-msgid "0/0"
-msgstr ""
-
-#: serverpage.cpp:60
-msgid "Server name"
-msgstr "सर्वर नाम"
-
-#: serverpage.cpp:63
-msgid "Users"
-msgstr "प्रयोक्ता"
-
-#: serverpage.cpp:64
-msgid "Files"
-msgstr "फाइल"
-
-#: serverpage.cpp:65
-msgid "Description"
-msgstr "विवरण"
-
-#: serverpage.cpp:66
-msgid "Address"
-msgstr "पता"
-
-#: serverpage.cpp:67
-msgid "Port"
-msgstr "पोर्ट"
-
-#: serverpage.cpp:68
-msgid "Score"
-msgstr "अंक"
-
-#: serverpage.cpp:69
-msgid "ID"
-msgstr "ID"
-
-#: serverpage.cpp:70
-msgid "Preferred"
-msgstr "पसंदीदा"
-
-#: serverpage.cpp:125
-msgid "&Connect to Server"
-msgstr ""
-
-#: serverpage.cpp:131
-msgid "&Disconnect From Server"
-msgstr ""
-
-#: serverpage.cpp:137
-msgid "&Add Server..."
-msgstr ""
-
-#: serverpage.cpp:144
-msgid "&Remove Server"
-msgstr ""
-
-#: serverpage.cpp:150
-msgid "Remove &Old Servers"
-msgstr ""
-
-#: serverpage.cpp:155
-msgid "&Blacklist Server"
-msgstr ""
-
-#: serverpage.cpp:160
-msgid "Re&name Server"
-msgstr ""
-
-#: serverpage.cpp:165
-msgid "Toggle &Preferred"
-msgstr ""
-
-#: serverpage.cpp:170
-msgid "&Hide Disconnected Servers"
-msgstr ""
-
-#: serverpage.cpp:174
-msgid "Hide B&lacklisted Servers"
-msgstr ""
-
-#: serverpage.cpp:178
-msgid "Activate Servers Page"
-msgstr ""
-
-#: shareddirs.cpp:54
-msgid "Messages from core about applied changes."
-msgstr ""
-
-#: shareddirs.cpp:54 shareddirs.cpp:81
-msgid "Shared Folders"
-msgstr "साझेदारी फोल्डर"
-
-#: shareddirs.cpp:107
-msgid "Folder"
-msgstr "फोल्डर"
-
-#: shareddirs.cpp:121
-msgid "Add shared folder"
-msgstr ""
-
-#: shareddirs.cpp:127
-msgid "Remove shared folder"
-msgstr ""
-
-#: shareddirs.cpp:146
-msgid "Folder:"
-msgstr "फोल्डर:"
-
-#: shareddirs.cpp:152
-msgid "Browse folders"
-msgstr ""
-
-#: shareddirs.cpp:161
-msgid "Priority:"
-msgstr "प्राथमिकता:"
-
-#: shareddirs.cpp:243
-msgid "Select Folder"
-msgstr "फोल्डर चुनू"
-
-#: sharedfilemodel.cpp:121
-msgid "Requests"
-msgstr ""
-
-#: sharedfilemodel.cpp:122 uploadersmodel.cpp:139
-msgid "Uploaded"
-msgstr ""
-
-#: sharepage.cpp:180
-msgid "&Refresh Shared File List"
-msgstr ""
-
-#: sharepage.cpp:184
-msgid "Refresh U&ploaders List"
-msgstr ""
-
-#: sharepage.cpp:188
-msgid "&Shared Folders..."
-msgstr ""
-
-#: sharepage.cpp:193
-msgid "Activate Uploads Page"
-msgstr ""
-
-#: statspage.cpp:60
-msgid "Rates"
-msgstr ""
-
-#: statspage.cpp:177
-msgid "Clients"
-msgstr ""
-
-#: statspageovernet.cpp:99
-msgid "Search filehash"
-msgstr ""
-
-#: statspageovernet.cpp:108
-msgid "Search keyword"
-msgstr ""
-
-#: statspageovernet.cpp:142
-#, kde-format
-msgid "Search hits: %1"
-msgstr ""
-
-#: statspageovernet.cpp:144
-#, kde-format
-msgid "Source hits: %1"
-msgstr ""
-
-#: statspageovernet.cpp:166
-#, kde-format
-msgid "Size: %1"
-msgstr ""
-
-#: statspageovernet.cpp:167
-#, kde-format
-msgid "Max size: %1"
-msgstr ""
-
-#: submitdialog.cpp:37
-msgid "Submit URLs"
-msgstr ""
-
-#: tools/fontselector.cpp:56
-msgid "Choose..."
-msgstr "चयन करू..."
-
-#: uploadersmodel.cpp:142
-msgid "Rating"
-msgstr "रेटिंग"
-
-#: uploadersmodel.cpp:143
-msgid "Time"
-msgstr "समय"
-
-#: webbrowser.cpp:70
-msgid "Move backward through the page history"
-msgstr ""
-
-#: webbrowser.cpp:73
-msgid "Move forward through the page history"
-msgstr ""
-
-#: webbrowser.cpp:76
-msgid "Go to the original page"
-msgstr ""
-
-#: webservices.cpp:48
-#, kde-format
-msgid "Do you want to rename \"%1\" to \"%2\"?"
-msgstr ""
-
-#: webservices.cpp:49
-msgid "Rename download"
 msgstr ""
 
 #~ msgid "%"
