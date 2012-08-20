@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbounce\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:13+0200\n"
+"POT-Creation-Date: 2012-08-20 03:43+0200\n"
 "PO-Revision-Date: 2010-09-24 16:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -19,9 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
 #: backgroundselector.cpp:111
 msgid "No background pictures found."
 msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KBounceBackgroundSelector)
+#: backgroundselector.ui:14
+msgid "kbouncebackgroundselector"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseRandomBackgroundPictures)
+#: backgroundselector.ui:24
+msgid "Enable random pictures as background"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, backgoundPicturePathLabel)
+#: backgroundselector.ui:54
+msgid "Choose picture path:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: backgroundselector.ui:75
+msgid "Preview"
+msgstr "पूर्वावलोकन"
 
 #: gamewidget.cpp:400
 msgid ""
@@ -63,6 +91,16 @@ msgid ""
 "Game over.\n"
 " Click to start a game"
 msgstr ""
+
+#. i18n: ectx: label, entry (PlaySounds), group (Sound)
+#: kbounce.kcfg:16
+msgid "Whether game sounds are played."
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kbounceui.rc:17
+msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
 
 #: main.cpp:30
 msgid "KDE Bounce Ball Game"
@@ -170,49 +208,3 @@ msgstr "प्रसंग"
 #: mainwindow.cpp:180
 msgid "Background"
 msgstr "पृष्ठभूमि"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#. i18n: file: kbounceui.rc:17
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:5
-msgid "Main Toolbar"
-msgstr "मुख्य अओजार पट्टी"
-
-#. i18n: file: backgroundselector.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, KBounceBackgroundSelector)
-#: rc.cpp:8
-msgid "kbouncebackgroundselector"
-msgstr ""
-
-#. i18n: file: backgroundselector.ui:24
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseRandomBackgroundPictures)
-#: rc.cpp:11
-msgid "Enable random pictures as background"
-msgstr ""
-
-#. i18n: file: backgroundselector.ui:54
-#. i18n: ectx: property (text), widget (QLabel, backgoundPicturePathLabel)
-#: rc.cpp:14
-msgid "Choose picture path:"
-msgstr ""
-
-#. i18n: file: backgroundselector.ui:75
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:17
-msgid "Preview"
-msgstr "पूर्वावलोकन"
-
-#. i18n: file: kbounce.kcfg:16
-#. i18n: ectx: label, entry (PlaySounds), group (Sound)
-#: rc.cpp:20
-msgid "Whether game sounds are played."
-msgstr ""

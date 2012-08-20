@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: darkroom\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:59+0200\n"
+"POT-Creation-Date: 2012-08-20 06:59+0200\n"
 "PO-Revision-Date: 2010-09-24 13:08+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,13 +18,13 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: codecs/PngExportCodec.cpp:41
-msgid "Png"
-msgstr "Png"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
 
-#: codecs/PngExportCodec.cpp:148
-msgid "PNG codec"
-msgstr ""
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #: codecs/JpegExportCodec.cpp:43
 msgid "Jpeg"
@@ -34,51 +34,188 @@ msgstr "Jpeg"
 msgid "Jpeg codec"
 msgstr ""
 
-#: LibRawInterface.cpp:127
-#, kde-format
-msgid "Unable to open file %1."
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: codecs/JpegOptions.ui:18
+msgid "File size:"
+msgstr "फाइल आकारः"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: codecs/JpegOptions.ui:33
+msgctxt "the file will be much compressed, thus small, but quality will be bad"
+msgid "Small"
+msgstr "छोट"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: codecs/JpegOptions.ui:56
+msgctxt "the file will be good quality, but big"
+msgid "Big"
+msgstr "पैघ"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
+#: codecs/JpegOptions.ui:67
+msgid ""
+"These settings determine how much information is lost during compression."
 msgstr ""
 
-#: LibRawInterface.cpp:135
-#, kde-format
-msgid "Decoding of %1 failed."
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: codecs/JpegOptions.ui:100 QualityOptions.ui:16
+msgid "Quality:"
+msgstr "गुणवत्ता:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: codecs/JpegOptions.ui:115
+msgctxt "the file will be much compressed, so the quality will be bad"
+msgid "Bad"
 msgstr ""
 
-#: LibRawInterface.cpp:143
-#, kde-format
-msgid "Processing of %1 failed."
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: codecs/JpegOptions.ui:141
+msgctxt "the quality will be good but the file will not be much compressed"
+msgid "Good"
+msgstr "अच्छा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, progressive)
+#: codecs/JpegOptions.ui:158
+msgctxt "A progressive jpeg file can be displayed while loading."
+msgid "Progressive"
+msgstr "प्रगतिशील"
+
+#. i18n: ectx: property (text), widget (QCheckBox, optimize)
+#: codecs/JpegOptions.ui:165
+msgid "Optimize"
+msgstr "अनुकूलतम करू"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: codecs/JpegOptions.ui:177
+msgctxt "the result will be artificially smoothed to hide jpeg artefacts"
+msgid "Smooth:"
 msgstr ""
 
-#: DarkroomView.cpp:97
-#, kde-format
-msgid "File %1 already exists, overwrite?"
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: codecs/JpegOptions.ui:202
+msgid "Subsampling:"
+msgstr "उपनमूना:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
+#: codecs/JpegOptions.ui:210
+msgid "2x2, 1x1, 1x1 (smallest file)"
 msgstr ""
 
-#: DarkroomView.cpp:97
-msgid "Overwrite?"
+#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
+#: codecs/JpegOptions.ui:215
+msgid "2x1, 1x1, 1x1"
 msgstr ""
 
-#: JobPreview.cpp:85 JobPreview.cpp:95
-msgid "Preview"
-msgstr "पूर्वावलोकन"
-
-#: JobPreview.cpp:95
-#, kde-format
-msgid "Finished preview of %1."
+#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
+#: codecs/JpegOptions.ui:220
+msgid "1x2, 1x1, 1x1"
 msgstr ""
 
-#: JobExport.cpp:79 JobExport.cpp:90 JobExport.cpp:93 Darkroom.cpp:363
-msgid "Export"
-msgstr "निर्यात"
-
-#: JobExport.cpp:90
-#, kde-format
-msgid "Finished exporting %1 to %2."
+#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
+#: codecs/JpegOptions.ui:225
+msgid "1x1, 1x1, 1x1 (best quality)"
 msgstr ""
 
-#: JobExport.cpp:93
-#, kde-format
-msgid "An error has occurred while writing %1 to disk."
+#: codecs/PngExportCodec.cpp:41
+msgid "Png"
+msgstr "Png"
+
+#: codecs/PngExportCodec.cpp:148
+msgid "PNG codec"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, sixteenBitsDepth)
+#: codecs/PngOptions.ui:16
+msgid "16 Bits Depth"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSlider, compressionLevel)
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
+#: codecs/PngOptions.ui:34 codecs/PngOptions.ui:63
+msgid "Note: the compression level does not change the quality of the result."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, compressionLevel)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4_2)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3_2)
+#: codecs/PngOptions.ui:38 codecs/PngOptions.ui:67 codecs/PngOptions.ui:81
+#: codecs/PngOptions.ui:95 codecs/PngOptions.ui:106 codecs/PngOptions.ui:120
+msgid ""
+"<p>Adjust the compression time. Better compression takes longer.\n"
+"<br>Note: the compression level does not change the quality of the result.</"
+"p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: codecs/PngOptions.ui:70
+msgid "Compress:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: codecs/PngOptions.ui:84
+msgctxt "The compression will take a long time; saving the file will be slow."
+msgid "Slow"
+msgstr "धीमा"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: codecs/PngOptions.ui:98
+msgctxt "The file will save fast but will not be compressed a lot"
+msgid "Fast"
+msgstr "तेज"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: codecs/PngOptions.ui:109
+msgctxt "the file will be small"
+msgid "Small"
+msgstr "छोट"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: codecs/PngOptions.ui:123
+msgctxt "the file will be big"
+msgid "Big"
+msgstr "पैघ"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, interlacing)
+#: codecs/PngOptions.ui:132
+msgid "Use interlacing when publishing on the Internet."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, interlacing)
+#: codecs/PngOptions.ui:136
+msgid ""
+"<p>Interlacing is useful if you intend to publish your image on the Internet."
+"<br>\n"
+"Enabling interlacing will cause the image to be displayed by the browser "
+"even while downloading.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, interlacing)
+#: codecs/PngOptions.ui:139
+msgid "Interlacing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, convertToSRGB)
+#: ColorOptions.ui:16
+msgid "Convert to sRGB"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableChromaticAberrationCorrection)
+#: ColorOptions.ui:23
+msgid "Enable Chromatic Aberration Correction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelRedMultiplier)
+#: ColorOptions.ui:30
+msgid "Red multiplier"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelGreenMultiplier)
+#: ColorOptions.ui:40
+msgid "Blue multiplier"
 msgstr ""
 
 #: Darkroom.cpp:211
@@ -133,6 +270,10 @@ msgstr ""
 msgid "Levels"
 msgstr "स्तर"
 
+#: Darkroom.cpp:363 JobExport.cpp:79 JobExport.cpp:90 JobExport.cpp:93
+msgid "Export"
+msgstr "निर्यात"
+
 #: Darkroom.cpp:390
 msgid "Options Bookmark"
 msgstr ""
@@ -164,25 +305,64 @@ msgstr ""
 msgid "Apply current settings."
 msgstr ""
 
-#: main.cpp:25
-msgid "A raw decoder."
+#: DarkroomView.cpp:97
+#, kde-format
+msgid "File %1 already exists, overwrite?"
 msgstr ""
 
-#: main.cpp:31
-msgid "Darkroom"
+#: DarkroomView.cpp:97
+msgid "Overwrite?"
 msgstr ""
 
-#: main.cpp:32
-msgid "(c) 2008 Cyrille Berger"
+#. i18n: ectx: property (windowTitle), widget (QDialog, ExistingFilesDialog)
+#: ExistingFilesDialog.ui:13
+msgid "Dialog"
+msgstr "समाद"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ExistingFilesDialog.ui:19
+msgid "The following files already exist on your hard drive:"
 msgstr ""
 
-#: main.cpp:33
-msgid "Cyrille Berger"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ExistingFilesDialog.ui:29
+msgid "Overwrite them?"
 msgstr ""
 
-#: main.cpp:37
-msgid "Document to open"
-msgstr "दस्ताबेज जकरा खोलनाइ अछि"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ExportOptions.ui:16
+msgid "File format:"
+msgstr "फाइल प्रारूप:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: HistogramDockerWidget.ui:16
+msgid "Type:"
+msgstr "प्रकार:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
+#: HistogramDockerWidget.ui:24
+msgid "Luminance"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
+#: HistogramDockerWidget.ui:29
+msgid "Red"
+msgstr "लाल"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
+#: HistogramDockerWidget.ui:34
+msgid "Green"
+msgstr "हरिअर"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
+#: HistogramDockerWidget.ui:39
+msgid "Blue"
+msgstr "नीला"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
+#: HistogramDockerWidget.ui:44
+msgid "RGB"
+msgstr "RGB"
 
 #: HistogramWidget.cpp:500
 msgid "Loading image..."
@@ -231,9 +411,23 @@ msgstr "माध्य:"
 msgid "Percent:"
 msgstr ""
 
-#: ListOptionsModel.cpp:114
+#: JobExport.cpp:90
 #, kde-format
-msgid "Unnamed %1"
+msgid "Finished exporting %1 to %2."
+msgstr ""
+
+#: JobExport.cpp:93
+#, kde-format
+msgid "An error has occurred while writing %1 to disk."
+msgstr ""
+
+#: JobPreview.cpp:85 JobPreview.cpp:95
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: JobPreview.cpp:95
+#, kde-format
+msgid "Finished preview of %1."
 msgstr ""
 
 #: JobThumbnail.cpp:75 JobThumbnail.cpp:115
@@ -250,436 +444,168 @@ msgstr ""
 msgid "Failed to extract thumbnail from %1."
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#. i18n: file: codecs/PngOptions.ui:16
-#. i18n: ectx: property (text), widget (QCheckBox, sixteenBitsDepth)
-#: rc.cpp:5
-msgid "16 Bits Depth"
-msgstr ""
-
-#. i18n: file: codecs/PngOptions.ui:34
-#. i18n: ectx: property (toolTip), widget (QSlider, compressionLevel)
-#. i18n: file: codecs/PngOptions.ui:63
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1)
-#: rc.cpp:8 rc.cpp:15
-msgid "Note: the compression level does not change the quality of the result."
-msgstr ""
-
-#. i18n: file: codecs/PngOptions.ui:38
-#. i18n: ectx: property (whatsThis), widget (QSlider, compressionLevel)
-#. i18n: file: codecs/PngOptions.ui:67
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
-#. i18n: file: codecs/PngOptions.ui:81
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4_2)
-#. i18n: file: codecs/PngOptions.ui:95
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
-#. i18n: file: codecs/PngOptions.ui:106
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
-#. i18n: file: codecs/PngOptions.ui:120
-#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3_2)
-#: rc.cpp:11 rc.cpp:18 rc.cpp:25 rc.cpp:32 rc.cpp:39 rc.cpp:46
-msgid ""
-"<p>Adjust the compression time. Better compression takes longer.\n"
-"<br>Note: the compression level does not change the quality of the result.</"
-"p>"
-msgstr ""
-
-#. i18n: file: codecs/PngOptions.ui:70
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:22
-msgid "Compress:"
-msgstr ""
-
-#. i18n: file: codecs/PngOptions.ui:84
-#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
-#: rc.cpp:29
-msgctxt "The compression will take a long time; saving the file will be slow."
-msgid "Slow"
-msgstr "धीमा"
-
-#. i18n: file: codecs/PngOptions.ui:98
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:36
-msgctxt "The file will save fast but will not be compressed a lot"
-msgid "Fast"
-msgstr "तेज"
-
-#. i18n: file: codecs/PngOptions.ui:109
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:43
-msgctxt "the file will be small"
-msgid "Small"
-msgstr "छोट"
-
-#. i18n: file: codecs/PngOptions.ui:123
-#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
-#: rc.cpp:50
-msgctxt "the file will be big"
-msgid "Big"
-msgstr "पैघ"
-
-#. i18n: file: codecs/PngOptions.ui:132
-#. i18n: ectx: property (toolTip), widget (QCheckBox, interlacing)
-#: rc.cpp:53
-msgid "Use interlacing when publishing on the Internet."
-msgstr ""
-
-#. i18n: file: codecs/PngOptions.ui:136
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, interlacing)
-#: rc.cpp:56
-msgid ""
-"<p>Interlacing is useful if you intend to publish your image on the Internet."
-"<br>\n"
-"Enabling interlacing will cause the image to be displayed by the browser "
-"even while downloading.</p>"
-msgstr ""
-
-#. i18n: file: codecs/PngOptions.ui:139
-#. i18n: ectx: property (text), widget (QCheckBox, interlacing)
-#: rc.cpp:60
-msgid "Interlacing"
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:18
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:63
-msgid "File size:"
-msgstr "फाइल आकारः"
-
-#. i18n: file: codecs/JpegOptions.ui:33
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:66
-msgctxt "the file will be much compressed, thus small, but quality will be bad"
-msgid "Small"
-msgstr "छोट"
-
-#. i18n: file: codecs/JpegOptions.ui:56
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:69
-msgctxt "the file will be good quality, but big"
-msgid "Big"
-msgstr "पैघ"
-
-#. i18n: file: codecs/JpegOptions.ui:67
-#. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
-#: rc.cpp:72
-msgid ""
-"These settings determine how much information is lost during compression."
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:100
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#. i18n: file: QualityOptions.ui:16
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:75 rc.cpp:108
-msgid "Quality:"
-msgstr "गुणवत्ता:"
-
-#. i18n: file: codecs/JpegOptions.ui:115
-#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
-#: rc.cpp:78
-msgctxt "the file will be much compressed, so the quality will be bad"
-msgid "Bad"
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:141
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:81
-msgctxt "the quality will be good but the file will not be much compressed"
-msgid "Good"
-msgstr "अच्छा"
-
-#. i18n: file: codecs/JpegOptions.ui:158
-#. i18n: ectx: property (text), widget (QCheckBox, progressive)
-#: rc.cpp:84
-msgctxt "A progressive jpeg file can be displayed while loading."
-msgid "Progressive"
-msgstr "प्रगतिशील"
-
-#. i18n: file: codecs/JpegOptions.ui:165
-#. i18n: ectx: property (text), widget (QCheckBox, optimize)
-#: rc.cpp:87
-msgid "Optimize"
-msgstr "अनुकूलतम करू"
-
-#. i18n: file: codecs/JpegOptions.ui:177
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:90
-msgctxt "the result will be artificially smoothed to hide jpeg artefacts"
-msgid "Smooth:"
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:202
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:93
-msgid "Subsampling:"
-msgstr "उपनमूना:"
-
-#. i18n: file: codecs/JpegOptions.ui:210
-#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
-#: rc.cpp:96
-msgid "2x2, 1x1, 1x1 (smallest file)"
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:215
-#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
-#: rc.cpp:99
-msgid "2x1, 1x1, 1x1"
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:220
-#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
-#: rc.cpp:102
-msgid "1x2, 1x1, 1x1"
-msgstr ""
-
-#. i18n: file: codecs/JpegOptions.ui:225
-#. i18n: ectx: property (text), item, widget (QComboBox, subsampling)
-#: rc.cpp:105
-msgid "1x1, 1x1, 1x1 (best quality)"
-msgstr ""
-
-#. i18n: file: QualityOptions.ui:24
-#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
-#: rc.cpp:111
-msgid "Bilinear"
-msgstr "द्विरैखिक"
-
-#. i18n: file: QualityOptions.ui:29
-#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
-#: rc.cpp:114
-msgid "VNG"
-msgstr ""
-
-#. i18n: file: QualityOptions.ui:34
-#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
-#: rc.cpp:117
-msgid "PPG"
-msgstr ""
-
-#. i18n: file: QualityOptions.ui:39
-#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
-#: rc.cpp:120
-msgid "AHD"
-msgstr ""
-
-#. i18n: file: HistogramDockerWidget.ui:16
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:123
-msgid "Type:"
-msgstr "प्रकार:"
-
-#. i18n: file: HistogramDockerWidget.ui:24
-#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
-#: rc.cpp:126
-msgid "Luminance"
-msgstr ""
-
-#. i18n: file: HistogramDockerWidget.ui:29
-#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
-#: rc.cpp:129
-msgid "Red"
-msgstr "लाल"
-
-#. i18n: file: HistogramDockerWidget.ui:34
-#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
-#: rc.cpp:132
-msgid "Green"
-msgstr "हरिअर"
-
-#. i18n: file: HistogramDockerWidget.ui:39
-#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
-#: rc.cpp:135
-msgid "Blue"
-msgstr "नीला"
-
-#. i18n: file: HistogramDockerWidget.ui:44
-#. i18n: ectx: property (text), item, widget (QComboBox, histogramType)
-#: rc.cpp:138
-msgid "RGB"
-msgstr "RGB"
-
-#. i18n: file: NoiseReductionOptions.ui:16
-#. i18n: ectx: property (text), widget (QCheckBox, enableNoiseReduction)
-#: rc.cpp:141
-msgid "Enable Noise Reduction"
-msgstr ""
-
-#. i18n: file: NoiseReductionOptions.ui:23
-#. i18n: ectx: property (text), widget (QLabel, thresholdNoiseReductionLabel)
-#: rc.cpp:144
-msgid "Threshold:"
-msgstr "दहलीज:"
-
-#. i18n: file: LightOptions.ui:16
-#. i18n: ectx: property (text), widget (QLabel, LightOptions_2)
-#: rc.cpp:147
-msgid "Highlights:"
-msgstr "हाइलाइट:"
-
-#. i18n: file: LightOptions.ui:24
-#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
-#: rc.cpp:150
-msgid "Solid White"
-msgstr ""
-
-#. i18n: file: LightOptions.ui:29
-#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
-#: rc.cpp:153
-msgid "Unclip"
-msgstr ""
-
-#. i18n: file: LightOptions.ui:34
-#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
-#: rc.cpp:156
-msgid "Blend"
-msgstr "मिलाबू"
-
-#. i18n: file: LightOptions.ui:39
-#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
-#: rc.cpp:159
-msgid "Rebuild"
-msgstr "फिनु निर्माण"
-
-#. i18n: file: LightOptions.ui:47
-#. i18n: ectx: property (text), widget (QLabel, highlightsLevelLabel)
-#: rc.cpp:162
-msgid "Level:"
-msgstr "स्तर:"
-
-#. i18n: file: LightOptions.ui:70
-#. i18n: ectx: property (text), widget (QLabel, RAWOptions)
-#: rc.cpp:165
-msgid "Exposure:"
-msgstr "उद्भासन:"
-
-#. i18n: file: ExistingFilesDialog.ui:13
-#. i18n: ectx: property (windowTitle), widget (QDialog, ExistingFilesDialog)
-#: rc.cpp:168
-msgid "Dialog"
-msgstr "समाद"
-
-#. i18n: file: ExistingFilesDialog.ui:19
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:171
-msgid "The following files already exist on your hard drive:"
-msgstr ""
-
-#. i18n: file: ExistingFilesDialog.ui:29
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:174
-msgid "Overwrite them?"
-msgstr ""
-
-#. i18n: file: ExportOptions.ui:16
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:177
-msgid "File format:"
-msgstr "फाइल प्रारूप:"
-
-#. i18n: file: WhiteBalanceOptions.ui:16
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:180
-msgid "White balance:"
-msgstr ""
-
-#. i18n: file: WhiteBalanceOptions.ui:27
-#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
-#: rc.cpp:183
-msgid "Default D65"
-msgstr ""
-
-#. i18n: file: WhiteBalanceOptions.ui:32
-#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
-#: rc.cpp:186
-msgid "Camera"
-msgstr "कैमरा"
-
-#. i18n: file: WhiteBalanceOptions.ui:37
-#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
-#: rc.cpp:189
-msgid "Automatic"
-msgstr "स्वचालित"
-
-#. i18n: file: WhiteBalanceOptions.ui:42
-#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
-#: rc.cpp:192
-msgid "Custom"
-msgstr "पसंदीदा"
-
-#. i18n: file: WhiteBalanceOptions.ui:50
-#. i18n: ectx: property (text), widget (QLabel, labelTemperature)
-#: rc.cpp:195
-msgid "Temperature:"
-msgstr "तापमानः"
-
-#. i18n: file: WhiteBalanceOptions.ui:60
-#. i18n: ectx: property (suffix), widget (KIntNumInput, temperatureValue)
-#: rc.cpp:198
-msgid " K"
-msgstr ""
-
-#. i18n: file: WhiteBalanceOptions.ui:67
-#. i18n: ectx: property (text), widget (QLabel, labelTint)
-#: rc.cpp:201
-msgid "Tint:"
-msgstr ""
-
-#. i18n: file: LevelsOptions.ui:16
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:204
+#: LevelsOptions.ui:16
 msgid "<b>Input levels</b>"
 msgstr ""
 
-#. i18n: file: LevelsOptions.ui:72
 #. i18n: ectx: property (text), widget (QLabel, gammaspin)
-#: rc.cpp:207
+#: LevelsOptions.ui:72
 msgid "1.0"
 msgstr ""
 
-#. i18n: file: LevelsOptions.ui:121
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:210
+#: LevelsOptions.ui:121
 msgid "<b>Output levels</b>"
 msgstr ""
 
-#. i18n: file: OptionsBookmarksWidget.ui:16
+#: LibRawInterface.cpp:127
+#, kde-format
+msgid "Unable to open file %1."
+msgstr ""
+
+#: LibRawInterface.cpp:135
+#, kde-format
+msgid "Decoding of %1 failed."
+msgstr ""
+
+#: LibRawInterface.cpp:143
+#, kde-format
+msgid "Processing of %1 failed."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LightOptions_2)
+#: LightOptions.ui:16
+msgid "Highlights:"
+msgstr "हाइलाइट:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
+#: LightOptions.ui:24
+msgid "Solid White"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
+#: LightOptions.ui:29
+msgid "Unclip"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
+#: LightOptions.ui:34
+msgid "Blend"
+msgstr "मिलाबू"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, highlightsType)
+#: LightOptions.ui:39
+msgid "Rebuild"
+msgstr "फिनु निर्माण"
+
+#. i18n: ectx: property (text), widget (QLabel, highlightsLevelLabel)
+#: LightOptions.ui:47
+msgid "Level:"
+msgstr "स्तर:"
+
+#. i18n: ectx: property (text), widget (QLabel, RAWOptions)
+#: LightOptions.ui:70
+msgid "Exposure:"
+msgstr "उद्भासन:"
+
+#: ListOptionsModel.cpp:114
+#, kde-format
+msgid "Unnamed %1"
+msgstr ""
+
+#: main.cpp:25
+msgid "A raw decoder."
+msgstr ""
+
+#: main.cpp:31
+msgid "Darkroom"
+msgstr ""
+
+#: main.cpp:32
+msgid "(c) 2008 Cyrille Berger"
+msgstr ""
+
+#: main.cpp:33
+msgid "Cyrille Berger"
+msgstr ""
+
+#: main.cpp:37
+msgid "Document to open"
+msgstr "दस्ताबेज जकरा खोलनाइ अछि"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableNoiseReduction)
+#: NoiseReductionOptions.ui:16
+msgid "Enable Noise Reduction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, thresholdNoiseReductionLabel)
+#: NoiseReductionOptions.ui:23
+msgid "Threshold:"
+msgstr "दहलीज:"
+
 #. i18n: ectx: property (text), widget (QToolButton, saveOptions)
-#. i18n: file: OptionsBookmarksWidget.ui:27
 #. i18n: ectx: property (text), widget (QToolButton, deleteOptions)
-#: rc.cpp:213 rc.cpp:216
+#: OptionsBookmarksWidget.ui:16 OptionsBookmarksWidget.ui:27
 msgid "..."
 msgstr "..."
 
-#. i18n: file: ColorOptions.ui:16
-#. i18n: ectx: property (text), widget (QCheckBox, convertToSRGB)
-#: rc.cpp:219
-msgid "Convert to sRGB"
+#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
+#: QualityOptions.ui:24
+msgid "Bilinear"
+msgstr "द्विरैखिक"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
+#: QualityOptions.ui:29
+msgid "VNG"
 msgstr ""
 
-#. i18n: file: ColorOptions.ui:23
-#. i18n: ectx: property (text), widget (QCheckBox, enableChromaticAberrationCorrection)
-#: rc.cpp:222
-msgid "Enable Chromatic Aberration Correction"
+#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
+#: QualityOptions.ui:34
+msgid "PPG"
 msgstr ""
 
-#. i18n: file: ColorOptions.ui:30
-#. i18n: ectx: property (text), widget (QLabel, labelRedMultiplier)
-#: rc.cpp:225
-msgid "Red multiplier"
+#. i18n: ectx: property (text), item, widget (QComboBox, demosaicQualityType)
+#: QualityOptions.ui:39
+msgid "AHD"
 msgstr ""
 
-#. i18n: file: ColorOptions.ui:40
-#. i18n: ectx: property (text), widget (QLabel, labelGreenMultiplier)
-#: rc.cpp:228
-msgid "Blue multiplier"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: WhiteBalanceOptions.ui:16
+msgid "White balance:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
+#: WhiteBalanceOptions.ui:27
+msgid "Default D65"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
+#: WhiteBalanceOptions.ui:32
+msgid "Camera"
+msgstr "कैमरा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
+#: WhiteBalanceOptions.ui:37
+msgid "Automatic"
+msgstr "स्वचालित"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, whiteBalanceType)
+#: WhiteBalanceOptions.ui:42
+msgid "Custom"
+msgstr "पसंदीदा"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTemperature)
+#: WhiteBalanceOptions.ui:50
+msgid "Temperature:"
+msgstr "तापमानः"
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, temperatureValue)
+#: WhiteBalanceOptions.ui:60
+msgid " K"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelTint)
+#: WhiteBalanceOptions.ui:67
+msgid "Tint:"
 msgstr ""
