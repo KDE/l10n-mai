@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevvalgrind\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:58+0200\n"
+"POT-Creation-Date: 2012-08-23 10:47+0200\n"
 "PO-Revision-Date: 2010-09-24 13:23+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -76,7 +76,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: config/ui/cachegrindconfig.ui:47
-msgid "cg_annotate executable :"
+msgid "cg_annotate Executable:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, branchSimulation)
@@ -96,7 +96,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: config/ui/callgrindconfig.ui:47
-msgid "callgrind_annotate executable :"
+msgid "callgrind_annotate Executable:"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, valgrind::CallgrindView)
@@ -116,7 +116,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, percentInformationEnabled)
 #: config/ui/callgrindview.ui:63
-msgid "Show value as percent"
+msgid "Show value as percentage"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, Caller)
@@ -225,12 +225,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: config/ui/massifconfig.ui:119
-msgid "Max. snapshots:"
+msgid "Maximum snapshots:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: config/ui/massifconfig.ui:133
-msgid "Detailed snapshot freq. :"
+msgid "Detailed snapshot frequency:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, launchMassifVisualizer)
@@ -636,6 +636,16 @@ msgstr ""
 
 #: plugin.cpp:111
 msgid "Valgrind launch"
+msgstr ""
+
+#: views/callgrindview.cpp:125 views/callgrindview.cpp:142
+#, fuzzy
+#| msgid "Function"
+msgid "Function Name"
+msgstr "फंक्शन"
+
+#: views/callgrindview.cpp:126 views/callgrindview.cpp:143
+msgid "Ir"
 msgstr ""
 
 #: widget.cpp:73
