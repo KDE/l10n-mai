@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-25 05:32+0200\n"
+"POT-Creation-Date: 2012-08-26 04:41+0200\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1453,7 +1453,7 @@ msgstr ""
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:447
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:448
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:449
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1177
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1172
 msgid "Unknown"
 msgstr "अज्ञात"
 
@@ -3830,7 +3830,6 @@ msgstr ""
 
 #. i18n: ectx: property (shortcut), widget (QCheckBox, cutCheckBox)
 #: context/applets/spectrumanalyzer/spectrumAnalyzerSettings.ui:137
-#: services/lastfm/meta/LastFmMeta.cpp:96
 msgid "Ctrl+S"
 msgstr ""
 
@@ -4837,7 +4836,7 @@ msgid "Removing: %1"
 msgstr ""
 
 #: core-impl/collections/db/sql/SqlMeta.cpp:274
-#: covermanager/CoverManager.cpp:842 services/lastfm/meta/LastFmMeta.cpp:121
+#: covermanager/CoverManager.cpp:842 services/lastfm/meta/LastFmMeta.cpp:113
 #, kde-format
 msgid "%1 - %2"
 msgstr ""
@@ -10686,72 +10685,68 @@ msgstr ""
 msgid "Last.fm: Ban Current Track"
 msgstr ""
 
-#: MainWindow.cpp:889
-msgid "Last.fm: Skip Current Track"
-msgstr ""
-
-#: MainWindow.cpp:894 playlist/view/PlaylistViewCommon.cpp:115
+#: MainWindow.cpp:889 playlist/view/PlaylistViewCommon.cpp:115
 msgid "Queue Track"
 msgstr ""
 
-#: MainWindow.cpp:899
+#: MainWindow.cpp:894
 msgid "Rate Current Track: 1"
 msgstr ""
 
-#: MainWindow.cpp:904
+#: MainWindow.cpp:899
 msgid "Rate Current Track: 2"
 msgstr ""
 
-#: MainWindow.cpp:909
+#: MainWindow.cpp:904
 msgid "Rate Current Track: 3"
 msgstr ""
 
-#: MainWindow.cpp:914
+#: MainWindow.cpp:909
 msgid "Rate Current Track: 4"
 msgstr ""
 
-#: MainWindow.cpp:919
+#: MainWindow.cpp:914
 msgid "Rate Current Track: 5"
 msgstr ""
 
-#: MainWindow.cpp:925
+#: MainWindow.cpp:920
 msgid "Network Request Viewer"
 msgstr ""
 
-#: MainWindow.cpp:943
+#: MainWindow.cpp:938
 msgid "&About Amarok"
 msgstr ""
 
-#: MainWindow.cpp:947
+#: MainWindow.cpp:942
 msgid "&Diagnostics"
 msgstr ""
 
-#: MainWindow.cpp:951
+#: MainWindow.cpp:946
 msgid "&Report Bug..."
 msgstr "बग रिपोट करू... (&R)"
 
-#: MainWindow.cpp:1011
+#: MainWindow.cpp:1006
 msgid "&Music"
 msgstr ""
 
-#: MainWindow.cpp:1013
+#: MainWindow.cpp:1008
 msgid "&Amarok"
 msgstr ""
 
-#: MainWindow.cpp:1037 playlist/PlaylistDock.cpp:60
+#: MainWindow.cpp:1032 playlist/PlaylistDock.cpp:60
 #: playlist/PlaylistToolBar.cpp:39
 msgid "&Playlist"
 msgstr ""
 
-#: MainWindow.cpp:1054
+#: MainWindow.cpp:1049
 msgid "&Tools"
 msgstr "अओजार (&T)"
 
-#: MainWindow.cpp:1071
+#: MainWindow.cpp:1066
 msgid "&Settings"
 msgstr "जमावट (&S)"
 
-#: MainWindow.cpp:1120
+#: MainWindow.cpp:1115
 #, kde-format
 msgid ""
 "You have chosen to hide the menu bar.\n"
@@ -10759,16 +10754,16 @@ msgid ""
 "Please remember that you can always use the shortcut \"%1\" to bring it back."
 msgstr ""
 
-#: MainWindow.cpp:1122
+#: MainWindow.cpp:1117
 msgid "Hide Menu"
 msgstr ""
 
-#: MainWindow.cpp:1164
+#: MainWindow.cpp:1159
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr ""
 
-#: MainWindow.cpp:1177
+#: MainWindow.cpp:1172
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr ""
@@ -12817,7 +12812,7 @@ msgstr "श्रोत चुनू"
 #: services/amazon/AmazonWantCountryWidget.ui:126
 msgid ""
 "Press this button to save your preferred settings, and log on to Amazon "
-"Store using the provded data:"
+"Store using the provided data:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, saveSettings)
@@ -12935,7 +12930,7 @@ msgstr ""
 #: services/gpodder/GpodderServiceSettings.cpp:224
 #: services/gpodder/GpodderServiceSettings.cpp:253
 #: services/lastfm/LastFmConfigWidget.ui:99
-#: services/lastfm/LastFmServiceSettings.cpp:216
+#: services/lastfm/LastFmServiceSettings.cpp:215
 msgid "&Test Login"
 msgstr ""
 
@@ -12984,7 +12979,7 @@ msgid ""
 msgstr ""
 
 #: services/gpodder/GpodderServiceSettings.cpp:100
-#: services/lastfm/LastFmServiceSettings.cpp:95
+#: services/lastfm/LastFmServiceSettings.cpp:94
 msgid "Testing..."
 msgstr ""
 
@@ -12997,19 +12992,19 @@ msgstr ""
 #: services/gpodder/GpodderServiceSettings.cpp:185
 #: services/gpodder/GpodderServiceSettings.cpp:194
 #: services/gpodder/GpodderServiceSettings.cpp:209
-#: services/lastfm/LastFmServiceSettings.cpp:147
-#: services/lastfm/LastFmServiceSettings.cpp:172
+#: services/lastfm/LastFmServiceSettings.cpp:146
+#: services/lastfm/LastFmServiceSettings.cpp:171
 msgid "Failed"
 msgstr "असफल"
 
 #: services/gpodder/GpodderServiceSettings.cpp:128
-#: services/lastfm/LastFmServiceSettings.cpp:139
+#: services/lastfm/LastFmServiceSettings.cpp:138
 msgctxt "The operation completed as expected"
 msgid "Success"
 msgstr "सफलता"
 
 #: services/gpodder/GpodderServiceSettings.cpp:184
-#: services/lastfm/LastFmServiceSettings.cpp:147
+#: services/lastfm/LastFmServiceSettings.cpp:146
 msgid ""
 "Either the username or the password is incorrect, please correct and try "
 "again"
@@ -13283,7 +13278,7 @@ msgid "User"
 msgstr "प्रयोक्ता"
 
 #: services/lastfm/LastFmService.cpp:526
-#: services/lastfm/ScrobblerAdapter.cpp:213
+#: services/lastfm/ScrobblerAdapter.cpp:202
 #, kde-format
 msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
@@ -13324,17 +13319,17 @@ msgid ""
 "credentials in plaintext?"
 msgstr ""
 
-#: services/lastfm/LastFmServiceSettings.cpp:134
+#: services/lastfm/LastFmServiceSettings.cpp:133
 msgctxt "The operation was rejected by the server"
 msgid "Failed"
 msgstr "असफल"
 
-#: services/lastfm/LastFmServiceSettings.cpp:148
-#: services/lastfm/LastFmServiceSettings.cpp:173
+#: services/lastfm/LastFmServiceSettings.cpp:147
+#: services/lastfm/LastFmServiceSettings.cpp:172
 msgid "Test Login"
 msgstr ""
 
-#: services/lastfm/LastFmServiceSettings.cpp:172
+#: services/lastfm/LastFmServiceSettings.cpp:171
 msgid "Unable to connect to Last.fm service."
 msgstr ""
 
@@ -13378,96 +13373,88 @@ msgstr "मित्र"
 msgid "Neighbors"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:89
+#: services/lastfm/meta/LastFmMeta.cpp:87
 msgid "Last.fm: &Ban"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:90
+#: services/lastfm/meta/LastFmMeta.cpp:88
 msgid "Ctrl+B"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:91
+#: services/lastfm/meta/LastFmMeta.cpp:89
 msgid "Ban this track"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:95
-msgid "Last.fm: &Skip"
-msgstr ""
-
-#: services/lastfm/meta/LastFmMeta.cpp:97
-msgid "Skip this track"
-msgstr ""
-
-#: services/lastfm/meta/LastFmMeta.cpp:135
-#: services/lastfm/meta/LastFmMeta.cpp:423
+#: services/lastfm/meta/LastFmMeta.cpp:127
+#: services/lastfm/meta/LastFmMeta.cpp:415
 msgid "Track Radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:365
+#: services/lastfm/meta/LastFmMeta.cpp:357
 #, kde-format
 msgid "Global Tag Radio: \"%1\""
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:371
+#: services/lastfm/meta/LastFmMeta.cpp:363
 #, kde-format
 msgid "User Tag Radio: \"%1\""
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:379
+#: services/lastfm/meta/LastFmMeta.cpp:371
 #, kde-format
 msgid "Similar Artists to \"%1\""
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:383
+#: services/lastfm/meta/LastFmMeta.cpp:375
 #, kde-format
 msgid "Artist Fan Radio: \"%1\""
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:392
+#: services/lastfm/meta/LastFmMeta.cpp:384
 #, kde-format
 msgid "%1's Neighbor Radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:396
+#: services/lastfm/meta/LastFmMeta.cpp:388
 #, kde-format
 msgid "%1's Personal Radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:400
+#: services/lastfm/meta/LastFmMeta.cpp:392
 #, kde-format
 msgid "%1's Mix Radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:404
+#: services/lastfm/meta/LastFmMeta.cpp:396
 #, kde-format
 msgid "%1's Recommended Radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:408
+#: services/lastfm/meta/LastFmMeta.cpp:400
 #, kde-format
 msgid "%1's Recommended Radio (Popularity %2)"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:415
+#: services/lastfm/meta/LastFmMeta.cpp:407
 #, kde-format
 msgid "Group Radio: %1"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:427
+#: services/lastfm/meta/LastFmMeta.cpp:419
 msgid "Artist Radio"
 msgstr ""
 
-#: services/lastfm/meta/LastFmMeta.cpp:540
+#: services/lastfm/meta/LastFmMeta.cpp:519
 msgid "Last.fm is cool..."
 msgstr ""
 
-#: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:111
+#: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:100
 msgid ""
 "To listen to this stream you need to be a paying Last.fm subscriber. All the "
 "other Last.fm features are unaffected."
 msgstr ""
 
-#: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:117
+#: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:106
 msgid "Error starting track from Last.fm radio"
 msgstr ""
 
