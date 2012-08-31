@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 08:20+0200\n"
+"POT-Creation-Date: 2012-08-31 07:33+0200\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -60,7 +60,7 @@ msgctxt "@item Undefined import field type"
 msgid "Undefined"
 msgstr "अपरिभाषित"
 
-#: contactfields.cpp:56
+#: contactfields.cpp:56 grantleecontactformatter.cpp:210
 msgid "Anniversary"
 msgstr "वर्षगांठ"
 
@@ -84,15 +84,15 @@ msgctxt "Fourth email address"
 msgid "EMail (4)"
 msgstr ""
 
-#: contactfields.cpp:155
+#: contactfields.cpp:155 grantleecontactformatter.cpp:253
 msgid "Blog Feed"
 msgstr ""
 
-#: contactfields.cpp:158
+#: contactfields.cpp:158 grantleecontactformatter.cpp:296
 msgid "Profession"
 msgstr "व्यवसाय"
 
-#: contactfields.cpp:161
+#: contactfields.cpp:161 grantleecontactformatter.cpp:300
 msgid "Office"
 msgstr "कार्यालय"
 
@@ -225,17 +225,62 @@ msgctxt "@info:status"
 msgid "%1 out of %2"
 msgstr ""
 
-#: grantleecontactformatter.cpp:214
-msgctxt "a contact's email address"
-msgid "Email"
+#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
+#: grantleecontactformatter.cpp:199 printing/rbs_appearance.ui:99
+msgid "Birthday"
+msgstr "जन्मदिन"
+
+#: grantleecontactformatter.cpp:222
+#, fuzzy
+#| msgid "Email address:"
+msgid "Emails"
+msgstr "ईमेल पता:"
+
+#: grantleecontactformatter.cpp:245
+msgid "Website"
 msgstr ""
 
-#: grantleecontactformatter.cpp:351
+#: grantleecontactformatter.cpp:261 mainwidget.cpp:564
+msgid "Address Book"
+msgstr "पता पुस्तिका"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
+#: grantleecontactformatter.cpp:275 printing/rbs_appearance.ui:112
+msgid "Note"
+msgstr "नोट"
+
+#: grantleecontactformatter.cpp:289
+msgid "Department"
+msgstr ""
+
+#: grantleecontactformatter.cpp:305
+#, fuzzy
+#| msgid "Manager"
+msgid "Manager's Name"
+msgstr "प्रबंधक"
+
+#: grantleecontactformatter.cpp:310
+#, fuzzy
+#| msgid "Assistant"
+msgid "Assistant's Name"
+msgstr "सहायक"
+
+#: grantleecontactformatter.cpp:315
+msgid "Partner's Name"
+msgstr ""
+
+#: grantleecontactformatter.cpp:320
+#, fuzzy
+#| msgid "Home Address"
+msgid "IM Address"
+msgstr "घरक पता"
+
+#: grantleecontactformatter.cpp:367
 msgctxt "Boolean value"
 msgid "yes"
 msgstr "हँ"
 
-#: grantleecontactformatter.cpp:353
+#: grantleecontactformatter.cpp:369
 msgctxt "Boolean value"
 msgid "no"
 msgstr "नहि"
@@ -407,10 +452,6 @@ msgstr ""
 #: mainwidget.cpp:557
 msgid "Export contacts to a GMX address book file."
 msgstr ""
-
-#: mainwidget.cpp:564
-msgid "Address Book"
-msgstr "पता पुस्तिका"
 
 #: mainwidget.cpp:570 printing/printingwizard.cpp:56
 msgid "Print Contacts"
@@ -789,11 +830,6 @@ msgstr "फोन नंबर"
 msgid "Check this box if you want contact birthdays to be printed."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: printing/rbs_appearance.ui:99
-msgid "Birthday"
-msgstr "जन्मदिन"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
 #: printing/rbs_appearance.ui:106
 msgid "Print contact notes"
@@ -803,11 +839,6 @@ msgstr ""
 #: printing/rbs_appearance.ui:109
 msgid "Check this box if you want contact notes to be printed."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
-#: printing/rbs_appearance.ui:112
-msgid "Note"
-msgstr "नोट"
 
 #: printing/ringbinderstyle.cpp:150
 msgid "Ring Binder Printing Style - Appearance"
