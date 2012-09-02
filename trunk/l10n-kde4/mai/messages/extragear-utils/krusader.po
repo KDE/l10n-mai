@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-01 04:40+0200\n"
+"POT-Creation-Date: 2012-09-02 04:28+0200\n"
 "PO-Revision-Date: 2010-09-24 20:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1236,7 +1236,6 @@ msgid "Please select a directory"
 msgstr "कृप्या एकटा निर्देशिका चुनू"
 
 #: krusader/Dialogs/packguibase.cpp:74 krusader/Dialogs/packguibase.cpp:128
-#: krusader/VFS/kiojobwrapper.cpp:254
 msgid "Pack"
 msgstr "पैक"
 
@@ -2101,11 +2100,11 @@ msgstr "टर्मिनल"
 msgid "Edit"
 msgstr "सँपादित करू (&E)"
 
-#: krusader/GUI/kfnkeys.cpp:105 krusader/VFS/kiojobwrapper.cpp:249
+#: krusader/GUI/kfnkeys.cpp:105
 msgid "Copy"
 msgstr "कापी करू"
 
-#: krusader/GUI/kfnkeys.cpp:106 krusader/VFS/kiojobwrapper.cpp:252
+#: krusader/GUI/kfnkeys.cpp:106
 msgid "Move"
 msgstr "घसकाबू"
 
@@ -4051,7 +4050,6 @@ msgid "Tool"
 msgstr ""
 
 #: krusader/Konfigurator/krresulttable.cpp:300
-#: krusader/VFS/kiojobwrapper.cpp:244
 msgid "Status"
 msgstr "स्थिति"
 
@@ -7645,15 +7643,52 @@ msgid ""
 "%1"
 msgstr ""
 
+#: krusader/VFS/kiojobwrapper.cpp:244
+#, fuzzy
+#| msgid "Status"
+msgctxt "Job type"
+msgid "Status"
+msgstr "स्थिति"
+
 #: krusader/VFS/kiojobwrapper.cpp:246
+#, fuzzy
+#| msgid "Directories"
+msgctxt "Job type"
 msgid "Directory Size"
-msgstr ""
+msgstr "निर्देशिका"
+
+#: krusader/VFS/kiojobwrapper.cpp:249
+#, fuzzy
+#| msgid "Copy"
+msgctxt "Job type"
+msgid "Copy"
+msgstr "कापी करू"
+
+#: krusader/VFS/kiojobwrapper.cpp:252
+#, fuzzy
+#| msgid "Move"
+msgctxt "Job type"
+msgid "Move"
+msgstr "घसकाबू"
+
+#: krusader/VFS/kiojobwrapper.cpp:254
+#, fuzzy
+#| msgid "Pack"
+msgctxt "Job type"
+msgid "Pack"
+msgstr "पैक"
 
 #: krusader/VFS/kiojobwrapper.cpp:256
+#, fuzzy
+#| msgid "Unpacking"
+msgctxt "Job type"
 msgid "Unpack"
-msgstr ""
+msgstr "खोलल जाए रहल अछि"
 
 #: krusader/VFS/kiojobwrapper.cpp:258
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "Job type"
 msgid "Unknown"
 msgstr "अज्ञात"
 
@@ -7711,14 +7746,9 @@ msgstr ""
 msgid "Packing File(s)"
 msgstr ""
 
-#: krusader/VFS/krarchandler.cpp:585
+#: krusader/VFS/krarchandler.cpp:585 krusader/VFS/krarchandler.cpp:593
 #, kde-format
 msgid "Failed to pack %1!"
-msgstr ""
-
-#: krusader/VFS/krarchandler.cpp:593
-#, kde-format
-msgid "Failed to pack: %1!"
 msgstr ""
 
 #: krusader/VFS/krarchandler.cpp:636
