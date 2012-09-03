@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-26 03:16+0200\n"
+"POT-Creation-Date: 2012-09-03 02:36+0200\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1844,10 +1844,10 @@ msgstr "जोडू"
 msgid "Insert a Table of Contents into the document."
 msgstr ""
 
-#: ReferencesTool.cpp:99
+#: ReferencesTool.cpp:99 TextTool.cpp:395
 #, fuzzy
 #| msgid "Insert"
-msgid "Insert Custom ..."
+msgid "Insert Custom..."
 msgstr "जोडू"
 
 #: ReferencesTool.cpp:101
@@ -1864,14 +1864,22 @@ msgstr "अनुच्छेद स्टाइल"
 msgid "Configure the Table of Contents"
 msgstr ""
 
-#: ReferencesTool.cpp:108 ReferencesTool.cpp:118
-msgid "Insert with auto number"
-msgstr ""
+#: ReferencesTool.cpp:108
+#, fuzzy
+#| msgid "Insert"
+msgid "Insert footnote with auto number"
+msgstr "जोडू"
 
 #: ReferencesTool.cpp:112
 #, fuzzy
 #| msgid "Insert"
 msgid "Insert Labeled Footnote"
+msgstr "जोडू"
+
+#: ReferencesTool.cpp:118
+#, fuzzy
+#| msgid "Insert"
+msgid "Insert endnote with auto number"
 msgstr "जोडू"
 
 #: ReferencesTool.cpp:122
@@ -2115,12 +2123,6 @@ msgstr ""
 msgid "Shrink To Fit"
 msgstr ""
 
-#: TextTool.cpp:395
-#, fuzzy
-#| msgid "Insert"
-msgid "Insert Custom..."
-msgstr "जोडू"
-
 #: TextTool.cpp:397
 msgid "Insert a table into the document."
 msgstr ""
@@ -2328,6 +2330,11 @@ msgstr ""
 #| msgid "Position"
 msgid "Text editing"
 msgstr "स्थिति"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgid "Insert Custom ..."
+#~ msgstr "जोडू"
 
 #, fuzzy
 #~| msgid "Normal"
