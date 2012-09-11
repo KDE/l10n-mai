@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-03 02:36+0200\n"
+"POT-Creation-Date: 2012-09-11 03:24+0200\n"
 "PO-Revision-Date: 2009-04-22 00:19+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -16226,8 +16226,9 @@ msgstr "नेविगेशन"
 msgid "Activate"
 msgstr ""
 
+#. i18n: tag optionWidget attribute name
 #. i18n: ectx: ToolBar (fontPropertyToolBar)
-#: sheets.rc:227 ui/CellToolBase.cpp:236
+#: sheets.rc:227 ui/CellToolBase.cpp:236 ui/CellToolOptionWidgets.xml:3
 msgid "Font"
 msgstr "फोन्ट"
 
@@ -17309,18 +17310,9 @@ msgid "Clear Comment"
 msgstr "टिप्पणी"
 
 #. i18n: tag optionWidget attribute name
-#: ui/CellToolOptionWidgets.xml:3
-#, fuzzy
-#| msgid "Font"
-msgctxt "Option widget title"
-msgid "Font"
-msgstr "फोन्ट"
-
-#. i18n: tag optionWidget attribute name
 #: ui/CellToolOptionWidgets.xml:18
 #, fuzzy
 #| msgid "Align Center"
-msgctxt "Option widget title"
 msgid "Alignment"
 msgstr "केँद्रक' सँरेखण"
 
@@ -17328,7 +17320,6 @@ msgstr "केँद्रक' सँरेखण"
 #: ui/CellToolOptionWidgets.xml:39
 #, fuzzy
 #| msgid "Border"
-msgctxt "Option widget title"
 msgid "Borders"
 msgstr "किनार"
 
@@ -17336,7 +17327,6 @@ msgstr "किनार"
 #: ui/CellToolOptionWidgets.xml:55
 #, fuzzy
 #| msgid "Number Format"
-msgctxt "Option widget title"
 msgid "Number format"
 msgstr "सँख्या प्रारूप"
 
@@ -17344,7 +17334,6 @@ msgstr "सँख्या प्रारूप"
 #: ui/CellToolOptionWidgets.xml:65
 #, fuzzy
 #| msgid "Merge Cells"
-msgctxt "Option widget title"
 msgid "Merge"
 msgstr "कोष्ठसभकेँ मिलाबू"
 
@@ -17489,6 +17478,12 @@ msgstr "अपराह्न"
 #: ValueParser.cpp:348 ValueParser.cpp:435
 msgid "am"
 msgstr "पूर्वाह्न"
+
+#, fuzzy
+#~| msgid "Font"
+#~ msgctxt "Option widget title"
+#~ msgid "Font"
+#~ msgstr "फोन्ट"
 
 #~ msgid "Mail"
 #~ msgstr "डाक"
