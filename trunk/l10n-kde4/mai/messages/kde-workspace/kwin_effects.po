@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-15 04:54+0200\n"
+"POT-Creation-Date: 2012-09-16 04:33+0200\n"
 "PO-Revision-Date: 2010-09-24 21:46+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -44,7 +44,7 @@ msgstr "हलुक"
 msgid "Strong"
 msgstr "मजबूत"
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CacheTexture)
 #: blur/blur_config.ui:83
 msgid "Safe intermediate rendering results."
 msgstr ""
@@ -64,15 +64,14 @@ msgstr ""
 msgid "&Animate walk through windows"
 msgstr ""
 
-#: coverswitch/coverswitch.cpp:1016 flipswitch/flipswitch.cpp:992
+#: coverswitch/coverswitch.cpp:1016 flipswitch/flipswitch.cpp:987
 #, fuzzy
 #| msgid "Show Desktop Grid"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "डेस्कटॉप देखाबू"
 
-#: coverswitch/coverswitch_config.cpp:72
-#: desktopgrid/desktopgrid_config.cpp:109 magiclamp/magiclamp_config.cpp:58
+#: coverswitch/coverswitch_config.cpp:72 magiclamp/magiclamp_config.cpp:58
 #, fuzzy
 #| msgid " msec"
 msgid " millisecond"
@@ -81,7 +80,7 @@ msgstr[0] "मि.से."
 msgstr[1] "मि.से."
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkWindowTitle)
-#. i18n: ectx: property (text), widget (QCheckBox, windowTitleBox)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WindowTitle)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DrawWindowCaptions)
 #: coverswitch/coverswitch_config.ui:17 flipswitch/flipswitch_config.ui:191
 #: presentwindows/presentwindows_config.ui:408
@@ -470,11 +469,11 @@ msgstr ""
 msgid "Apply blur effect to background"
 msgstr "प्रभाव केँ समूहसभ मे लागू करू (&g)"
 
-#: desktopgrid/desktopgrid.cpp:73 desktopgrid/desktopgrid_config.cpp:57
+#: desktopgrid/desktopgrid.cpp:74 desktopgrid/desktopgrid_config.cpp:60
 msgid "Show Desktop Grid"
 msgstr "डेस्कटाप ग्रिड देखाबू"
 
-#: desktopgrid/desktopgrid_config.cpp:64
+#: desktopgrid/desktopgrid_config.cpp:66
 #, fuzzy
 #| msgid "Disabled"
 msgctxt "Desktop name alignment:"
@@ -482,7 +481,7 @@ msgid "Disabled"
 msgstr "अक्षम"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: desktopgrid/desktopgrid_config.cpp:66 flipswitch/flipswitch_config.ui:160
+#: desktopgrid/desktopgrid_config.cpp:67 flipswitch/flipswitch_config.ui:160
 msgid "Top"
 msgstr "उप्पर"
 
@@ -491,58 +490,42 @@ msgid "Top-Right"
 msgstr "शीर्ष दहिन्ना"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: desktopgrid/desktopgrid_config.cpp:70 flipswitch/flipswitch_config.ui:125
+#: desktopgrid/desktopgrid_config.cpp:69 flipswitch/flipswitch_config.ui:125
 msgid "Right"
 msgstr "दहिन्ना"
 
-#: desktopgrid/desktopgrid_config.cpp:72
+#: desktopgrid/desktopgrid_config.cpp:70
 msgid "Bottom-Right"
 msgstr "तल दहिन्ना"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: desktopgrid/desktopgrid_config.cpp:74 flipswitch/flipswitch_config.ui:180
+#: desktopgrid/desktopgrid_config.cpp:71 flipswitch/flipswitch_config.ui:180
 msgid "Bottom"
 msgstr "नीच्चाँ"
 
-#: desktopgrid/desktopgrid_config.cpp:76
+#: desktopgrid/desktopgrid_config.cpp:72
 msgid "Bottom-Left"
 msgstr "तल बम्माँ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: desktopgrid/desktopgrid_config.cpp:78 flipswitch/flipswitch_config.ui:105
+#: desktopgrid/desktopgrid_config.cpp:73 flipswitch/flipswitch_config.ui:105
 msgid "Left"
 msgstr "बामाँ"
 
-#: desktopgrid/desktopgrid_config.cpp:80
+#: desktopgrid/desktopgrid_config.cpp:74
 msgid "Top-Left"
 msgstr "शीर्ष बम्माँ"
 
-#: desktopgrid/desktopgrid_config.cpp:82
+#: desktopgrid/desktopgrid_config.cpp:75
 msgid "Center"
 msgstr "केंद्र"
-
-#: desktopgrid/desktopgrid_config.cpp:111 mousemark/mousemark_config.cpp:51
-#: thumbnailaside/thumbnailaside_config.cpp:90
-#: thumbnailaside/thumbnailaside_config.cpp:92
-#, fuzzy
-#| msgid " px"
-msgid " pixel"
-msgid_plural " pixels"
-msgstr[0] "पिक्सेल"
-msgstr[1] "पिक्सेल"
-
-#: desktopgrid/desktopgrid_config.cpp:121
-msgid " row"
-msgid_plural " rows"
-msgstr[0] ""
-msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: desktopgrid/desktopgrid_config.ui:23
 msgid "Zoom &duration:"
 msgstr ""
 
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, zoomDurationSpin)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_ZoomDuration)
 #: desktopgrid/desktopgrid_config.ui:42
 msgctxt "Duration of zoom"
 msgid "Default"
@@ -563,17 +546,17 @@ msgstr ""
 msgid "&Layout mode:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, layoutCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:127
 msgid "Pager"
 msgstr "पेजर"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, layoutCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:132
 msgid "Automatic"
 msgstr "स्वचालित"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, layoutCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:137
 msgid "Custom"
 msgstr "पसंदीदा"
@@ -583,7 +566,7 @@ msgstr "पसंदीदा"
 msgid "Number of &rows:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, presentWindowsCheckBox)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PresentWindows)
 #: desktopgrid/desktopgrid_config.ui:190
 msgid "Use Present Windows effect to layout the windows"
 msgstr ""
@@ -615,13 +598,13 @@ msgstr "प्रभाव केँ समूहसभ मे लागू क�
 msgid "&Strength:"
 msgstr "सामर्थ्य (&S):"
 
-#: flipswitch/flipswitch.cpp:60 flipswitch/flipswitch_config.cpp:51
+#: flipswitch/flipswitch.cpp:61 flipswitch/flipswitch_config.cpp:54
 #, fuzzy
 #| msgid "Toggle Snow on Desktop"
 msgid "Toggle Flip Switch (Current desktop)"
 msgstr "एक्सपोज प्रभाव टागल करू (आन डेस्कटाप सम्मिलित)"
 
-#: flipswitch/flipswitch.cpp:66 flipswitch/flipswitch_config.cpp:54
+#: flipswitch/flipswitch.cpp:67 flipswitch/flipswitch_config.cpp:57
 #, fuzzy
 #| msgid "Toggle Snow on Desktop"
 msgid "Toggle Flip Switch (All desktops)"
@@ -634,7 +617,7 @@ msgstr "एक्सपोज प्रभाव टागल करू (आन 
 msgid "Flip animation duration:"
 msgstr "एनीमेशन अवधि:"
 
-#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, durationSpin)
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_Duration)
 #: flipswitch/flipswitch_config.ui:42
 msgctxt "Duration of flip animation"
 msgid "Default"
@@ -645,7 +628,7 @@ msgstr "मूलभूत"
 msgid "Angle:"
 msgstr "कोण:"
 
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, angleSpin)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_Angle)
 #: flipswitch/flipswitch_config.ui:71
 msgid " °"
 msgstr ""
@@ -706,7 +689,7 @@ msgid "Fade to black (fullscreen splash screens only)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: lookingglass/lookingglass_config.ui:19
+#: lookingglass/lookingglass_config.ui:20
 msgid "&Radius:"
 msgstr "त्रिज्या: (&R)"
 
@@ -738,6 +721,16 @@ msgstr "सभटा माउस चिह्न साफ करू"
 #: mousemark/mousemark.cpp:53 mousemark/mousemark_config.cpp:68
 msgid "Clear Last Mouse Mark"
 msgstr "अंतिम माउस चिह्न साफ करू"
+
+#: mousemark/mousemark_config.cpp:51
+#: thumbnailaside/thumbnailaside_config.cpp:90
+#: thumbnailaside/thumbnailaside_config.cpp:92
+#, fuzzy
+#| msgid " px"
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] "पिक्सेल"
+msgstr[1] "पिक्सेल"
 
 #: mousemark/mousemark_config.cpp:63
 msgid "Clear Mouse Marks"
