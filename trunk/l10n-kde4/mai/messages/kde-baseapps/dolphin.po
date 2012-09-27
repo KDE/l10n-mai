@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-23 04:25+0200\n"
+"POT-Creation-Date: 2012-09-27 04:43+0200\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -2434,7 +2434,7 @@ msgid "Expandable folders"
 msgstr "पसारल जाए सकैबला फोल्डर"
 
 #: settings/viewmodes/viewsettingstab.cpp:283
-#: statusbar/dolphinstatusbar.cpp:348
+#: statusbar/dolphinstatusbar.cpp:349
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -2583,19 +2583,22 @@ msgid "Folders: %1"
 msgstr "फोल्डरः %1"
 
 #: statusbar/dolphinstatusbar.cpp:69
-#, fuzzy
-#| msgid "Show tooltips"
-msgid "Zoom slider"
-msgstr "टूलटिप देखाबू"
+msgid "Zoom"
+msgstr ""
 
-#: statusbar/dolphinstatusbar.cpp:82
+#: statusbar/dolphinstatusbar.cpp:70
+msgctxt "Description for zoom-slider (accessibility)"
+msgid "Sets the size of the file icons."
+msgstr ""
+
+#: statusbar/dolphinstatusbar.cpp:83
 #, fuzzy
 #| msgctxt "@action:inmenu View"
 #| msgid "Stop"
 msgid "Stop"
 msgstr "रोकू"
 
-#: statusbar/dolphinstatusbar.cpp:84
+#: statusbar/dolphinstatusbar.cpp:85
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -2603,7 +2606,7 @@ msgctxt "@tooltip"
 msgid "Stop loading"
 msgstr "छाँटल जाए रहल अछि:"
 
-#: statusbar/dolphinstatusbar.cpp:257
+#: statusbar/dolphinstatusbar.cpp:258
 #, fuzzy
 #| msgctxt "@action:inmenu"
 #| msgid "Copy"
@@ -2611,14 +2614,14 @@ msgctxt "@action:inmenu"
 msgid "Copy Text"
 msgstr "कापी करू"
 
-#: statusbar/dolphinstatusbar.cpp:258
+#: statusbar/dolphinstatusbar.cpp:259
 #, fuzzy
 #| msgid "Show tooltips"
 msgctxt "@action:inmenu"
 msgid "Show Zoom Slider"
 msgstr "टूलटिप देखाबू"
 
-#: statusbar/dolphinstatusbar.cpp:262
+#: statusbar/dolphinstatusbar.cpp:263
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Information"
@@ -2931,6 +2934,11 @@ msgstr "बाइली सूचना"
 msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "बाइली सूचना"
+
+#, fuzzy
+#~| msgid "Show tooltips"
+#~ msgid "Zoom slider"
+#~ msgstr "टूलटिप देखाबू"
 
 #, fuzzy
 #~| msgctxt "@title:group Date"

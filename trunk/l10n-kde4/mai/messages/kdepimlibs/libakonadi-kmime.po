@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi-kmime\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:32+0200\n"
+"POT-Creation-Date: 2012-09-27 04:57+0200\n"
 "PO-Revision-Date: 2010-09-24 20:38+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -215,165 +215,57 @@ msgctxt "local mail folder"
 msgid "Local Folders"
 msgstr "स्थानीय फोल्डर"
 
-#: standardmailactionmanager.cpp:72
+#: standardmailactionmanager.cpp:124
 msgid "Add Folder..."
 msgstr ""
 
-#: standardmailactionmanager.cpp:74
+#: standardmailactionmanager.cpp:126
 msgid "Add a new folder to the currently selected account."
 msgstr ""
 
-#: standardmailactionmanager.cpp:77
+#: standardmailactionmanager.cpp:129
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "नवीन फोल्डर"
+
+#: standardmailactionmanager.cpp:133
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr ""
+
+#: standardmailactionmanager.cpp:137
+msgid "Folder creation failed"
+msgstr ""
+
+#: standardmailactionmanager.cpp:142
 #, kde-format
 msgid "Copy Folder"
 msgid_plural "Copy %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:79
+#: standardmailactionmanager.cpp:144
 msgid "Copy the selected folders to the clipboard."
 msgstr ""
 
-#: standardmailactionmanager.cpp:82
+#: standardmailactionmanager.cpp:147
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Folder %1"
+msgstr ""
+
+#: standardmailactionmanager.cpp:152
 #, kde-format
 msgid "Delete Folder"
 msgid_plural "Delete %1 Folders"
 msgstr[0] "फोल्डर मेटाबू"
 msgstr[1] "%1 फोल्डर मेटाबू"
 
-#: standardmailactionmanager.cpp:84
+#: standardmailactionmanager.cpp:154
 msgid "Delete the selected folders from the account."
 msgstr ""
 
-#: standardmailactionmanager.cpp:87
-msgid "Update Folder"
-msgid_plural "Update Folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:90
-msgid "Update the content of the selected folders."
-msgstr ""
-
-#: standardmailactionmanager.cpp:93
-#, kde-format
-msgid "Cut Folder"
-msgid_plural "Cut %1 Folders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:95
-msgid "Cut the selected folders from the account."
-msgstr ""
-
-#: standardmailactionmanager.cpp:98
-msgid "Folder Properties..."
-msgstr ""
-
-#: standardmailactionmanager.cpp:100
-msgid "Open a dialog to edit the properties of the selected folder."
-msgstr ""
-
-#: standardmailactionmanager.cpp:103
-#, kde-format
-msgid "Copy Email"
-msgid_plural "Copy %1 Emails"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:105
-msgid "Copy the selected emails to the clipboard."
-msgstr ""
-
-#: standardmailactionmanager.cpp:108
-#, kde-format
-msgid "Delete Email"
-msgid_plural "Delete %1 Emails"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:110
-msgid "Delete the selected emails from the folder."
-msgstr ""
-
-#: standardmailactionmanager.cpp:113
-#, kde-format
-msgid "Cut Email"
-msgid_plural "Cut %1 Emails"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:115
-msgid "Cut the selected emails from the folder."
-msgstr ""
-
-#: standardmailactionmanager.cpp:118
-msgid "Add &Account..."
-msgstr ""
-
-#: standardmailactionmanager.cpp:120
-msgid ""
-"Add a new account<p>You will be presented with a dialog where you can select "
-"the type of the account that shall be added.</p>"
-msgstr ""
-
-#: standardmailactionmanager.cpp:125
-#, kde-format
-msgid "&Delete Account"
-msgid_plural "&Delete %1 Accounts"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:127
-msgid ""
-"Delete the selected accounts<p>The currently selected accounts will be "
-"deleted, along with all the emails they contain.</p>"
-msgstr ""
-
-#: standardmailactionmanager.cpp:132
-msgid "Account Properties..."
-msgstr ""
-
-#: standardmailactionmanager.cpp:134
-msgid "Open a dialog to edit properties of the selected account."
-msgstr ""
-
-#: standardmailactionmanager.cpp:137
-#, kde-format
-msgid "Update Account"
-msgid_plural "Update %1 Accounts"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:139
-msgid "Updates the content of all folders of the selected accounts."
-msgstr ""
-
-#: standardmailactionmanager.cpp:142
-msgid "Update folder and its subfolders"
-msgid_plural "Update folders and their subfolders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: standardmailactionmanager.cpp:145
-msgid "Update the content of the selected folders and their subfolders."
-msgstr ""
-
-#: standardmailactionmanager.cpp:149
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "नवीन फोल्डर"
-
-#: standardmailactionmanager.cpp:153
-#, kde-format
-msgid "Could not create folder: %1"
-msgstr ""
-
 #: standardmailactionmanager.cpp:157
-msgid "Folder creation failed"
-msgstr ""
-
-#: standardmailactionmanager.cpp:161
 #, kde-format
 msgid "Do you really want to delete this folder and all its sub-folders?"
 msgid_plural ""
@@ -381,185 +273,293 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:166
+#: standardmailactionmanager.cpp:162
 msgctxt "@title:window"
 msgid "Delete folder?"
 msgid_plural "Delete folders?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:170
+#: standardmailactionmanager.cpp:166
 #, kde-format
 msgid "Could not delete folder: %1"
 msgstr ""
 
-#: standardmailactionmanager.cpp:174
+#: standardmailactionmanager.cpp:170
 msgid "Folder deletion failed"
 msgstr ""
 
+#: standardmailactionmanager.cpp:175
+msgid "Update Folder"
+msgid_plural "Update Folders"
+msgstr[0] ""
+msgstr[1] ""
+
 #: standardmailactionmanager.cpp:178
-#, kde-format
-msgctxt "@title:window"
-msgid "Properties of Folder %1"
+msgid "Update the content of the selected folders."
 msgstr ""
 
 #: standardmailactionmanager.cpp:182
+#, kde-format
+msgid "Cut Folder"
+msgid_plural "Cut %1 Folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:184
+msgid "Cut the selected folders from the account."
+msgstr ""
+
+#: standardmailactionmanager.cpp:188
+msgid "Folder Properties..."
+msgstr ""
+
+#: standardmailactionmanager.cpp:190
+msgid "Open a dialog to edit the properties of the selected folder."
+msgstr ""
+
+#: standardmailactionmanager.cpp:194
+#, kde-format
+msgid "Copy Email"
+msgid_plural "Copy %1 Emails"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:196
+msgid "Copy the selected emails to the clipboard."
+msgstr ""
+
+#: standardmailactionmanager.cpp:200
+#, kde-format
+msgid "Delete Email"
+msgid_plural "Delete %1 Emails"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:202
+msgid "Delete the selected emails from the folder."
+msgstr ""
+
+#: standardmailactionmanager.cpp:205
 #, kde-format
 msgid "Do you really want to delete the selected email?"
 msgid_plural "Do you really want to delete %1 emails?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:187
+#: standardmailactionmanager.cpp:210
 msgctxt "@title:window"
 msgid "Delete Email?"
 msgid_plural "Delete Emails?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:191
+#: standardmailactionmanager.cpp:214
 #, kde-format
 msgid "Could not delete email: %1"
 msgstr ""
 
-#: standardmailactionmanager.cpp:195
+#: standardmailactionmanager.cpp:218
 msgid "Email deletion failed"
 msgstr ""
 
-#: standardmailactionmanager.cpp:199
+#: standardmailactionmanager.cpp:222
+#, kde-format
+msgid "Cut Email"
+msgid_plural "Cut %1 Emails"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:224
+msgid "Cut the selected emails from the folder."
+msgstr ""
+
+#: standardmailactionmanager.cpp:228
+msgid "Add &Account..."
+msgstr ""
+
+#: standardmailactionmanager.cpp:230
+msgid ""
+"Add a new account<p>You will be presented with a dialog where you can select "
+"the type of the account that shall be added.</p>"
+msgstr ""
+
+#: standardmailactionmanager.cpp:235
 msgctxt "@title:window"
 msgid "Add Account"
 msgstr "खाता जोड़ू"
 
-#: standardmailactionmanager.cpp:203
+#: standardmailactionmanager.cpp:239
 #, kde-format
 msgid "Could not create account: %1"
 msgstr ""
 
-#: standardmailactionmanager.cpp:207
+#: standardmailactionmanager.cpp:243
 msgid "Account creation failed"
 msgstr ""
 
-#: standardmailactionmanager.cpp:211
+#: standardmailactionmanager.cpp:247
+#, kde-format
+msgid "&Delete Account"
+msgid_plural "&Delete %1 Accounts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:249
+msgid ""
+"Delete the selected accounts<p>The currently selected accounts will be "
+"deleted, along with all the emails they contain.</p>"
+msgstr ""
+
+#: standardmailactionmanager.cpp:254
 #, kde-format
 msgid "Do you really want to delete this account?"
 msgid_plural "Do you really want to delete %1 accounts?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:216
+#: standardmailactionmanager.cpp:259
 msgctxt "@title:window"
 msgid "Delete Account?"
 msgid_plural "Delete Accounts?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardmailactionmanager.cpp:220
+#: standardmailactionmanager.cpp:263
+msgid "Account Properties..."
+msgstr ""
+
+#: standardmailactionmanager.cpp:265
+msgid "Open a dialog to edit properties of the selected account."
+msgstr ""
+
+#: standardmailactionmanager.cpp:269
+#, kde-format
+msgid "Update Account"
+msgid_plural "Update %1 Accounts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:271
+msgid "Updates the content of all folders of the selected accounts."
+msgstr ""
+
+#: standardmailactionmanager.cpp:277
+msgid "Update folder and its subfolders"
+msgid_plural "Update folders and their subfolders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: standardmailactionmanager.cpp:280
+msgid "Update the content of the selected folders and their subfolders."
+msgstr ""
+
+#: standardmailactionmanager.cpp:285
 #, kde-format
 msgid "Could not paste email: %1"
 msgstr ""
 
-#: standardmailactionmanager.cpp:224
+#: standardmailactionmanager.cpp:289
 msgid "Paste failed"
 msgstr ""
 
-#: standardmailactionmanager.cpp:289
+#: standardmailactionmanager.cpp:351
 msgid "Remove Important Mark"
 msgstr ""
 
-#: standardmailactionmanager.cpp:291 standardmailactionmanager.cpp:645
+#: standardmailactionmanager.cpp:353 standardmailactionmanager.cpp:707
 msgid "&Mark Mail as Important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:300
+#: standardmailactionmanager.cpp:362
 msgid "Remove Action Item Mark"
 msgstr ""
 
-#: standardmailactionmanager.cpp:302 standardmailactionmanager.cpp:654
+#: standardmailactionmanager.cpp:364 standardmailactionmanager.cpp:716
 msgid "&Mark Mail as Action Item"
 msgstr ""
 
-#: standardmailactionmanager.cpp:623
+#: standardmailactionmanager.cpp:685
 msgid "&Mark Mail as Read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:624
+#: standardmailactionmanager.cpp:686
 msgid "Mark as Read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:625
+#: standardmailactionmanager.cpp:687
 msgid "Mark selected messages as read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:633
+#: standardmailactionmanager.cpp:695
 msgid "&Mark Mail as Unread"
 msgstr ""
 
-#: standardmailactionmanager.cpp:634
+#: standardmailactionmanager.cpp:696
 msgid "Mark as Unread"
 msgstr ""
 
-#: standardmailactionmanager.cpp:646
+#: standardmailactionmanager.cpp:708
 msgid "Mark as Important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:655
+#: standardmailactionmanager.cpp:717
 msgid "Mark as Action Item"
 msgstr ""
 
-#: standardmailactionmanager.cpp:665
+#: standardmailactionmanager.cpp:727
 msgid "Mark &All Mails as Read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:666
+#: standardmailactionmanager.cpp:728
 msgid "Mark All as Read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:674
+#: standardmailactionmanager.cpp:736
 msgid "Mark &All Mails as Unread"
 msgstr ""
 
-#: standardmailactionmanager.cpp:675
+#: standardmailactionmanager.cpp:737
 msgid "Mark All as Unread"
 msgstr ""
 
-#: standardmailactionmanager.cpp:684
+#: standardmailactionmanager.cpp:746
 msgid "Mark &All Mails as Important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:685
+#: standardmailactionmanager.cpp:747
 msgid "Mark All as Important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:694
+#: standardmailactionmanager.cpp:756
 msgid "Mark &All Mails as Action Item"
 msgstr ""
 
-#: standardmailactionmanager.cpp:695
+#: standardmailactionmanager.cpp:757
 msgid "Mark All as Action Item"
 msgstr ""
 
-#: standardmailactionmanager.cpp:705
+#: standardmailactionmanager.cpp:767
 msgid "Move to &Trash"
 msgstr ""
 
-#: standardmailactionmanager.cpp:707
+#: standardmailactionmanager.cpp:769
 msgid "Move message to trashcan"
 msgstr ""
 
-#: standardmailactionmanager.cpp:715
+#: standardmailactionmanager.cpp:777
 msgid "Move All to &Trash"
 msgstr ""
 
-#: standardmailactionmanager.cpp:722
+#: standardmailactionmanager.cpp:784
 msgid "Remove &Duplicate Mails"
 msgstr ""
 
-#: standardmailactionmanager.cpp:730
+#: standardmailactionmanager.cpp:792
 msgid "Empty All &Trash Folders"
 msgstr ""
 
-#: standardmailactionmanager.cpp:737
+#: standardmailactionmanager.cpp:799
 #, fuzzy
 #| msgid "Empty Trash"
 msgid "E&mpty Trash"
