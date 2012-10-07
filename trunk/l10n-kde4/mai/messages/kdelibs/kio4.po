@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-01 04:30+0200\n"
+"POT-Creation-Date: 2012-10-07 04:35+0200\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1265,60 +1265,39 @@ msgstr "एसएसएल जानकारी देखाबू (&I)"
 msgid "Cookie Alert"
 msgstr "कुकी चेतावनी"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:96
-msgid "<html><body style=\"p {line-height: 150%}; text-align: center;\"><p>"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:99
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:98
 #, fuzzy, kde-format
-#| msgid "You received a cookie from"
-#| msgid_plural "You received %1 cookies from"
-msgctxt "@label: multiple cookies"
-msgid "You received %1 cookies from"
-msgstr "अहाँकेँ एतय सँ एकटा कुकी भेटल"
+#| msgid "Do you want to accept or reject?"
+msgctxt "%2 hostname, %3 optional cross domain suffix (translated below)"
+msgid ""
+"<p>You received a cookie from<br/><b>%2%3</b><br/>Do you want to accept or "
+"reject this cookie?</p>"
+msgid_plural ""
+"<p>You received %1 cookies from<br/><b>%2%3</b><br/>Do you want to accept or "
+"reject these cookies?</p>"
+msgstr[0] "की अहाँ स्वीकृत अथवा अस्वीकृत कएनाइ चाहैत छी?"
+msgstr[1] "की अहाँ स्वीकृत अथवा अस्वीकृत कएनाइ चाहैत छी?"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:101
-#, fuzzy
-#| msgid "You received a cookie from"
-#| msgid_plural "You received %1 cookies from"
-msgctxt "@label: single cookie"
-msgid "You received a cookie from"
-msgstr "अहाँकेँ एतय सँ एकटा कुकी भेटल"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:107
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:106
 #, fuzzy
 #| msgid " <b>[Cross Domain]</b>"
-msgctxt "@label: cross domain cookie"
+msgctxt "@item:intext cross domain cookie"
 msgid " [Cross Domain]"
 msgstr " <b>[क्रास डोमेन]</b>"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:111
-msgctxt "@label: multiple cookies"
-msgid ""
-"</b></p><p>Do you want to accept or reject these cookies?</p></body></html>"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:113
-#, fuzzy
-#| msgid "Do you want to accept or reject?"
-msgctxt "@label: single cookie"
-msgid ""
-"</b></p><p>Do you want to accept or reject this cookie?</p></body></html>"
-msgstr "की अहाँ स्वीकृत अथवा अस्वीकृत कएनाइ चाहैत छी?"
-
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:135
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:128
 msgid "Apply Choice To"
 msgstr "चयन लागू करू एतए..."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:137
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:130
 msgid "&Only this cookie"
 msgstr "सिर्फ इएह कुकी (&O)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:137
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:130
 msgid "&Only these cookies"
 msgstr "सिर्फ इएह कुकीज़ (&O)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:141
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:134
 #, fuzzy
 #| msgid ""
 #| "Select this option to accept/reject only this cookie. You will be "
@@ -1331,11 +1310,11 @@ msgstr ""
 "ई विकल्प केँ सिर्फ एहि कुकी केर स्वीकार / अस्वीकार करब क' लेल चुनू. जखन अहाँक आन कुकी "
 "मिलेगा तँ सूचित कएल जएताह. <em>(देखें वेब-ब्राउज़िंग/कुकीज़ नियंत्रण केंद्र मे)</em>."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:144
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:137
 msgid "All cookies from this do&main"
 msgstr "ई डोमेन सँ सबहि कुकीज़ (&m)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:147
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:140
 #, fuzzy
 #| msgid ""
 #| "Select this option to accept/reject all cookies from this site. Choosing "
@@ -1353,11 +1332,11 @@ msgstr ""
 "अहाँ नियंत्रण केंद्रमे हाथसँ बदएल नहि दए छी. <em>(देखू वेब-ब्राउज़िंग/कुकीज़ नियंत्रण केंद्र मे)</"
 "em>."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:152
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:145
 msgid "All &cookies"
 msgstr "सभटा कुकीज़ (&c)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:155
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:148
 #, fuzzy
 #| msgid ""
 #| "Select this option to accept/reject all cookies from anywhere. Choosing "
@@ -1373,84 +1352,84 @@ msgstr ""
 "ग्लोबल कुकी नीति, नियंत्रण केंद्र मे सबहि कुकी क' लेल नियत कए देल जएताह. <em>(देखू वेब-"
 "ब्राउजिंग/कुकीज नियंत्रण केंद्र मे)</em>."
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:177
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:170
 msgid "&Accept"
 msgstr "स्वीकारू (&A)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:178
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:171
 msgid "Accept for this &session"
 msgstr ""
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:180
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:173
 msgid "Accept cookie(s) until the end of the current session"
 msgstr ""
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:181
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:174
 msgid "&Reject"
 msgstr "अस्वीकारू (&R)"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:183
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:176
 msgid "See or modify the cookie information"
 msgstr "कुकी जानकारी देखू अथवा बदलू "
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:230
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:223
 msgid "Cookie Details"
 msgstr "कुकी विवरण"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:235 kio/kfileitem.cpp:1129
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:228 kio/kfileitem.cpp:1129
 msgid "Name:"
 msgstr "नाम:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:243
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:236
 msgid "Value:"
 msgstr "मान:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:243
 msgid "Expires:"
 msgstr "अवधि पूर्ण अछि:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:257
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:250
 msgid "Path:"
 msgstr "पथः"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:264
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:257
 msgid "Domain:"
 msgstr "डोमेन:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:271
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:264
 msgid "Exposure:"
 msgstr "उद्भासन:"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:280
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:273
 msgctxt "Next cookie"
 msgid "&Next >>"
 msgstr "अगिला (&N) >>"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:285
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:278
 msgid "Show details of the next cookie"
 msgstr "अगिला कुकी क' विवरण देखाबू"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:312
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:305
 msgid "Not specified"
 msgstr "निर्दिष्ट नहि"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:321
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:314
 msgid "End of Session"
 msgstr "सत्र क' अंत"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:326
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:319
 msgid "Secure servers only"
 msgstr "सिर्फ सुरक्षित सर्वर"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:328
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:321
 msgid "Secure servers, page scripts"
 msgstr "सुरक्षित सर्वर्स, पेज स्क्रिप्ट"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:333
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:326
 msgid "Servers"
 msgstr "सर्वर"
 
-#: ../kioslave/http/kcookiejar/kcookiewin.cpp:335
+#: ../kioslave/http/kcookiejar/kcookiewin.cpp:328
 msgid "Servers, page scripts"
 msgstr "सर्वर्स, पेज स्क्रिप्ट"
 
@@ -5361,7 +5340,7 @@ msgstr "बाहर निकालू"
 msgid "Unmount"
 msgstr "अनारोहित करू"
 
-#: kio/kdirlister.cpp:389 kio/krun.cpp:1135 kio/paste.cpp:335
+#: kio/kdirlister.cpp:389 kio/krun.cpp:1130 kio/paste.cpp:335
 #: kio/renamedialog.cpp:411
 #, kde-format
 msgid ""
@@ -5531,7 +5510,7 @@ msgstr "संपादित करु (&E)..."
 msgid "Click this button to display the familiar KDE mime type editor."
 msgstr "भिज्ञ केडीई माइम प्रकार संपादक प्रदर्शित करब क' लेल एहि बटन केँ क्लिक करू."
 
-#: kio/krun.cpp:127
+#: kio/krun.cpp:126
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -5540,7 +5519,7 @@ msgstr ""
 "<qt><b>%1</b> मे जएबामे अक्षम.\n"
 "अहाँक पास एहि स्थान क' लेल पहुँच अधिकार नहि अछि.</qt>"
 
-#: kio/krun.cpp:161
+#: kio/krun.cpp:160
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -5549,57 +5528,57 @@ msgstr ""
 "<qt>फाइल <b>%1</b> एकटा चलाबै लायक प्रोग्राम अछि. सुरक्षा क' लेल एकरा चलाएल नहि "
 "जएताह.</qt>"
 
-#: kio/krun.cpp:167
+#: kio/krun.cpp:166
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>एकरा चलाबै क' लेल अहाँक अनुमति नहि अछि. <b>%1</b>.</qt> "
 
-#: kio/krun.cpp:191
+#: kio/krun.cpp:190
 msgid "You are not authorized to select an application to open this file."
 msgstr "ई फाइल केँ खोलबा क' लेल अहाँ केओ अनुप्रयोग केँ चुनबाक लेल अधिकृत नहि छी."
 
-#: kio/krun.cpp:202
+#: kio/krun.cpp:201
 msgid "Open with:"
 msgstr "के सँग खोलू:"
 
-#: kio/krun.cpp:583
+#: kio/krun.cpp:582
 msgid "You are not authorized to execute this file."
 msgstr "ई फाइल केँ चलाबै क' लेल अहाँ अधिकृत नहि अछि."
 
-#: kio/krun.cpp:606
+#: kio/krun.cpp:605
 #, kde-format
 msgid "Launching %1"
 msgstr "चालू कएल जाए रहल अछि %1"
 
-#: kio/krun.cpp:714
+#: kio/krun.cpp:713
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: kio/krun.cpp:888
+#: kio/krun.cpp:887
 msgid "You are not authorized to execute this service."
 msgstr "ई सेवा केँ चलाने क' लेल अहाँ अधिकृत नहि अछि."
 
-#: kio/krun.cpp:900
+#: kio/krun.cpp:899
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr ""
 
-#: kio/krun.cpp:914
+#: kio/krun.cpp:913
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: kio/krun.cpp:928
+#: kio/krun.cpp:927
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: kio/krun.cpp:961
+#: kio/krun.cpp:960
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: kio/krun.cpp:1167
+#: kio/krun.cpp:1162
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -5607,7 +5586,7 @@ msgid ""
 msgstr ""
 "<qt>उल्लेखित कमांड चलाबै मे अक्षम. फाइल अथवा फोल्डर<b>%1</b> अस्तित्व मे नहि अछि.</qt>"
 
-#: kio/krun.cpp:1789
+#: kio/krun.cpp:1784
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "प्रोग्राम '%1' ढूँढि नहि सकल"
@@ -6783,6 +6762,20 @@ msgstr "टेलनेट प्रोटोकाल हैंडलर"
 #, kde-format
 msgid "You do not have permission to access the %1 protocol."
 msgstr "प्रोटोकाल %1 पर पहुँच क' लेल अहाँक अनुमति नहि अछि."
+
+#, fuzzy
+#~| msgid "You received a cookie from"
+#~| msgid_plural "You received %1 cookies from"
+#~ msgctxt "@label: multiple cookies"
+#~ msgid "You received %1 cookies from"
+#~ msgstr "अहाँकेँ एतय सँ एकटा कुकी भेटल"
+
+#, fuzzy
+#~| msgid "You received a cookie from"
+#~| msgid_plural "You received %1 cookies from"
+#~ msgctxt "@label: single cookie"
+#~ msgid "You received a cookie from"
+#~ msgstr "अहाँकेँ एतय सँ एकटा कुकी भेटल"
 
 #~ msgid "The specified folder already exists."
 #~ msgstr "उल्लेखित फोल्डर पहिने सँ मोजुद अछि. "
