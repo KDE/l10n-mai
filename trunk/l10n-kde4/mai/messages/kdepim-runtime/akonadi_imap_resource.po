@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_imap_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-30 04:32+0200\n"
+"POT-Creation-Date: 2012-10-08 04:53+0200\n"
 "PO-Revision-Date: 2010-09-24 16:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -78,80 +78,79 @@ msgstr ""
 msgid "IMAP Account"
 msgstr "IMAP खाता"
 
-#: imapresource.cpp:208
+#: imapresource.cpp:209
 msgid "No server configured yet."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, subscriptionButton)
-#: imapresource.cpp:231 setupserver.cpp:566 setupserverview_desktop.ui:245
-#: setupserverview_mobile.ui:328
-msgid "Serverside Subscription..."
+#: imapresource.cpp:232
+msgctxt "@title:window"
+msgid "Serverside Subscription"
 msgstr ""
 
-#: imapresource.cpp:251
+#: imapresource.cpp:253
 msgid "Connection established."
 msgstr ""
 
-#: imapresource.cpp:306
+#: imapresource.cpp:308
 #, kde-format
 msgctxt "@info:status"
 msgid "Adding item in '%1'"
 msgstr ""
 
-#: imapresource.cpp:316
+#: imapresource.cpp:318
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating item in '%1'"
 msgstr ""
 
-#: imapresource.cpp:335
+#: imapresource.cpp:337
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing item from '%1'"
 msgstr ""
 
-#: imapresource.cpp:347
+#: imapresource.cpp:349
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving item from '%1' to '%2'"
 msgstr ""
 
-#: imapresource.cpp:361
+#: imapresource.cpp:363
 msgctxt "@info:status"
 msgid "Retrieving folders"
 msgstr ""
 
-#: imapresource.cpp:371
+#: imapresource.cpp:373
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving folder attributes for '%1'"
 msgstr ""
 
-#: imapresource.cpp:384
+#: imapresource.cpp:386
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving extra folder information for '%1'"
 msgstr ""
 
-#: imapresource.cpp:416
+#: imapresource.cpp:418
 #, kde-format
 msgctxt "@info:status"
 msgid "Creating folder '%1'"
 msgstr ""
 
-#: imapresource.cpp:425
+#: imapresource.cpp:427
 #, kde-format
 msgctxt "@info:status"
 msgid "Updating folder '%1'"
 msgstr ""
 
-#: imapresource.cpp:442
+#: imapresource.cpp:444
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing folder '%1'"
 msgstr ""
 
-#: imapresource.cpp:453
+#: imapresource.cpp:455
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving folder '%1' from '%2' to '%3'"
@@ -508,8 +507,13 @@ msgstr ""
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:579
-msgctxt "Dialog title for dialog showing information about a server"
+#: setupserver.cpp:566
+msgid "Serverside Subscription"
+msgstr ""
+
+#: setupserver.cpp:582
+msgctxt ""
+"@title:window Dialog title for dialog showing information about a server"
 msgid "Server Info"
 msgstr ""
 
@@ -618,8 +622,13 @@ msgid "IMAP Settings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
-#: setupserverview_desktop.ui:235 subscriptiondialog.cpp:91
+#: setupserverview_desktop.ui:235
 msgid "Enable server-side subscriptions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, subscriptionButton)
+#: setupserverview_desktop.ui:245 setupserverview_mobile.ui:328
+msgid "Serverside Subscription..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
@@ -854,14 +863,24 @@ msgid "Automaticall&y expunge deleted messages"
 msgstr ""
 
 #: subscriptiondialog.cpp:81
+msgctxt "@action:button"
 msgid "Reload &List"
 msgstr ""
 
-#: subscriptiondialog.cpp:98
+#: subscriptiondialog.cpp:92
+msgctxt "@option:check"
+msgid "Enable server-side subscriptions"
+msgstr ""
+
+#: subscriptiondialog.cpp:100
+#, fuzzy
+#| msgid "Search:"
+msgctxt "@label search for a subscription"
 msgid "Search:"
 msgstr "खोजू:"
 
-#: subscriptiondialog.cpp:109
+#: subscriptiondialog.cpp:111
+msgctxt "@option:check"
 msgid "Subscribed only"
 msgstr ""
 
