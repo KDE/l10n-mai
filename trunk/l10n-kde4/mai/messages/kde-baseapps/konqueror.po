@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-29 04:54+0200\n"
+"POT-Creation-Date: 2012-10-10 10:09+0200\n"
 "PO-Revision-Date: 2010-09-24 21:45+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2090,30 +2090,55 @@ msgstr "मेटाबू"
 msgid "Open tabs inside current window"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:332
+#: src/konqsessionmanager.cpp:98
 #, fuzzy
 #| msgid "Restore Session?"
 msgctxt "@title:window"
 msgid "Restore Session?"
 msgstr "सत्र फिनु बहाल करू?"
 
-#: src/konqsessionmanager.cpp:333
+#: src/konqsessionmanager.cpp:101
+#, fuzzy
+#| msgid "Restore Session"
+msgctxt "@action:button yes"
 msgid "Restore Session"
 msgstr "सत्र फिनु बहाल करू"
 
-#: src/konqsessionmanager.cpp:334
+#: src/konqsessionmanager.cpp:102
+#, fuzzy
+#| msgid "Do Not Restore"
+msgctxt "@action:button no"
 msgid "Do Not Restore"
 msgstr "सत्र फिनु नहि बहाल करू"
 
-#: src/konqsessionmanager.cpp:335
+#: src/konqsessionmanager.cpp:103
+#, fuzzy
+#| msgid "Ask Me Later"
+msgctxt "@action:button ask later"
 msgid "Ask Me Later"
 msgstr "हमरासँ बाद मे पूछू"
+
+#: src/konqsessionmanager.cpp:131
+msgid ""
+"Konqueror did not close correctly. Would you like to restore these previous "
+"sessions?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:145
+msgctxt "@tooltip:session list"
+msgid "Uncheck the sessions you do not want to be restored"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:177
+#, fuzzy, kde-format
+#| msgid "&Window"
+msgctxt "@item:treewidget"
+msgid "Window %1"
+msgstr "विंडो (&W)"
+
+#: src/konqsessionmanager.cpp:218
+msgid "Do not ask again"
+msgstr ""
 
 #: src/konqtabs.cpp:67
 msgid ""
