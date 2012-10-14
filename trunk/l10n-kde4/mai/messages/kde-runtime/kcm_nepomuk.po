@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 04:52+0200\n"
+"POT-Creation-Date: 2012-10-14 04:46+0200\n"
 "PO-Revision-Date: 2010-01-29 16:11+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -516,27 +516,27 @@ msgstr ""
 msgid "Please enter a query to be listed in the root folder"
 msgstr ""
 
-#: statuswidget.cpp:119
+#: statuswidget.cpp:124
 #, kde-format
 msgid "1 file in index"
 msgid_plural "%1 files in index"
 msgstr[0] "1 फाइल सूचीमे"
 msgstr[1] "%1 फाइल सूचीमे"
 
-#: statuswidget.cpp:146
+#: statuswidget.cpp:151
 #, fuzzy
 #| msgid "Nepomuk server not running"
 msgid "File indexing service not running"
 msgstr "नहि चलि रहल अछि."
 
-#: statuswidget.cpp:171
+#: statuswidget.cpp:183
 #, fuzzy
 #| msgid "Suspend File Indexing"
 msgctxt "Suspends the Nepomuk file indexing service."
 msgid "Suspend File Indexing"
 msgstr "सस्पेंड करू फाइल सूचीकरण"
 
-#: statuswidget.cpp:174
+#: statuswidget.cpp:187
 #, fuzzy
 #| msgid "File Indexing"
 msgctxt "Resumes the Nepomuk file indexing service."
@@ -556,17 +556,22 @@ msgid "Status of the KDE metadata store"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_suspendResumeButton)
-#: statuswidget.ui:92
+#: statuswidget.ui:94
 msgid "Suspend"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, m_configureButton)
+#: statuswidget.ui:104
+msgid "Configure"
+msgstr "बिन्यस्त करू"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: statuswidget.ui:106
+#: statuswidget.ui:117
 msgid "Indexed files:"
 msgstr "सूचीबद्ध फाइल:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_labelFileCount)
-#: statuswidget.ui:125
+#: statuswidget.ui:136
 msgid "Calculating..."
 msgstr "गणनामे... "
 
@@ -806,9 +811,6 @@ msgstr "गणनामे... "
 
 #~ msgid "Configure File Indexer"
 #~ msgstr "बिन्यस्त करू फाइल"
-
-#~ msgid "Configure"
-#~ msgstr "बिन्यस्त करू"
 
 #, fuzzy
 #~ msgid ""
