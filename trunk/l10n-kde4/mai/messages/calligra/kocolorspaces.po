@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kocolorspaces\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-07 02:52+0200\n"
+"POT-Creation-Date: 2012-10-29 02:46+0100\n"
 "PO-Revision-Date: 2009-04-22 00:15+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -57,6 +57,7 @@ msgstr "करिया"
 #: lcms2/colorspaces/rgb_f32/RgbF32ColorSpace.cpp:36
 #: lcms2/colorspaces/rgb_u16/RgbU16ColorSpace.cpp:36
 #: lcms2/colorspaces/rgb_u8/RgbU8ColorSpace.cpp:71
+#: lcms2/colorspaces/xyz_f16/XyzF16ColorSpace.cpp:34
 #: lcms2/colorspaces/xyz_f32/XyzF32ColorSpace.cpp:34
 #: lcms2/colorspaces/xyz_u16/XyzU16ColorSpace.cpp:34
 #: lcms2/colorspaces/xyz_u8/XyzU8ColorSpace.cpp:34
@@ -163,12 +164,14 @@ msgstr ""
 msgid "RGB (8-bit integer/channel)"
 msgstr ""
 
+#: lcms2/colorspaces/xyz_f16/XyzF16ColorSpace.cpp:31
 #: lcms2/colorspaces/xyz_f32/XyzF32ColorSpace.cpp:31
 #: lcms2/colorspaces/xyz_u16/XyzU16ColorSpace.cpp:31
 #: lcms2/colorspaces/xyz_u8/XyzU8ColorSpace.cpp:31
 msgid "X"
 msgstr ""
 
+#: lcms2/colorspaces/xyz_f16/XyzF16ColorSpace.cpp:32
 #: lcms2/colorspaces/xyz_f32/XyzF32ColorSpace.cpp:32
 #: lcms2/colorspaces/xyz_u16/XyzU16ColorSpace.cpp:32
 #: lcms2/colorspaces/xyz_u8/XyzU8ColorSpace.cpp:32
@@ -178,12 +181,14 @@ msgstr ""
 msgid "Y"
 msgstr ""
 
+#: lcms2/colorspaces/xyz_f16/XyzF16ColorSpace.cpp:33
 #: lcms2/colorspaces/xyz_f32/XyzF32ColorSpace.cpp:33
 #: lcms2/colorspaces/xyz_u16/XyzU16ColorSpace.cpp:33
 #: lcms2/colorspaces/xyz_u8/XyzU8ColorSpace.cpp:33
 msgid "Z"
 msgstr ""
 
+#: lcms2/colorspaces/xyz_f16/XyzF16ColorSpace.h:77
 #: lcms2/colorspaces/xyz_f32/XyzF32ColorSpace.h:77
 msgid "XYZ (32-bit float/channel)"
 msgstr ""
@@ -272,71 +277,75 @@ msgstr ""
 msgid "ICC Engine"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:134 lcms2/LcmsEnginePlugin.cpp:138
-#: lcms2/LcmsEnginePlugin.cpp:142
+#: lcms2/LcmsEnginePlugin.cpp:137 lcms2/LcmsEnginePlugin.cpp:141
+#: lcms2/LcmsEnginePlugin.cpp:145
 msgid "L*a*b* Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:160
+#: lcms2/LcmsEnginePlugin.cpp:163
 msgid "RGB8 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:164
+#: lcms2/LcmsEnginePlugin.cpp:167
 msgid "RGB16 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:169
+#: lcms2/LcmsEnginePlugin.cpp:172
 msgid "RGBF16 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:174
+#: lcms2/LcmsEnginePlugin.cpp:177
 msgid "RGBF32 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:191
+#: lcms2/LcmsEnginePlugin.cpp:194
 msgid "GRAY/Alpha8 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:195
+#: lcms2/LcmsEnginePlugin.cpp:198
 msgid "GRAY/Alpha16 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:199
+#: lcms2/LcmsEnginePlugin.cpp:202
 msgid "GRAY/Alpha 32 float Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:209
+#: lcms2/LcmsEnginePlugin.cpp:212
 msgid "CMYK8 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:213
+#: lcms2/LcmsEnginePlugin.cpp:216
 msgid "CMYK16 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:217
+#: lcms2/LcmsEnginePlugin.cpp:220
 msgid "CMYK F32 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:231
+#: lcms2/LcmsEnginePlugin.cpp:237
 msgid "XYZ8 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:235
+#: lcms2/LcmsEnginePlugin.cpp:241
 msgid "XYZ16 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:239
+#: lcms2/LcmsEnginePlugin.cpp:246
+msgid "XYZF16 Histogram"
+msgstr ""
+
+#: lcms2/LcmsEnginePlugin.cpp:251
 msgid "XYZF32 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:252
+#: lcms2/LcmsEnginePlugin.cpp:264
 msgid "YCBCR8 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:256
+#: lcms2/LcmsEnginePlugin.cpp:268
 msgid "YCBCR16 Histogram"
 msgstr ""
 
-#: lcms2/LcmsEnginePlugin.cpp:260
+#: lcms2/LcmsEnginePlugin.cpp:272
 msgid "YCBCRF32 Histogram"
 msgstr ""
