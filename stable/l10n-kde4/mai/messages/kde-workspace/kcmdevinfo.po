@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmdevinfo\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 15:44+0200\n"
+"POT-Creation-Date: 2012-11-11 07:57+0100\n"
 "PO-Revision-Date: 2010-09-24 15:51+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -52,14 +52,17 @@ msgstr ""
 msgid "Show Relevant Devices"
 msgstr ""
 
-#: devicelisting.cpp:113 infopanel.h:59 soldevice.cpp:69
-#: soldevicetypes.cpp:172 soldevicetypes.cpp:307 soldevicetypes.cpp:452
-#: soldevicetypes.cpp:469 soldevicetypes.cpp:672 soldevicetypes.cpp:787
-#: soldevicetypes.cpp:836 soldevicetypes.cpp:839 soldevicetypes.cpp:890
+#: devicelisting.cpp:113 soldevicetypes.cpp:787
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown device type"
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: devicelisting.cpp:163 devinfo.cpp:86 soldevicetypes.cpp:76
+#: devicelisting.cpp:163 devinfo.cpp:86
+#, fuzzy
+#| msgid "None"
+msgctxt "no device UDI"
 msgid "None"
 msgstr "किछु नहि"
 
@@ -115,6 +118,20 @@ msgstr "हँ"
 msgid "No"
 msgstr "नहि"
 
+#: infopanel.h:59
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "name of something is not known"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: soldevice.cpp:69
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown device"
+msgid "Unknown"
+msgstr "अज्ञात"
+
 #: soldevice.cpp:85
 msgctxt "Default device tooltip"
 msgid "A Device"
@@ -160,6 +177,13 @@ msgstr ""
 #: soldevicetypes.cpp:75
 msgid "ATI IVEC"
 msgstr ""
+
+#: soldevicetypes.cpp:76
+#, fuzzy
+#| msgid "None"
+msgctxt "no instruction set extensions"
+msgid "None"
+msgstr "किछु नहि"
 
 #: soldevicetypes.cpp:78
 msgid "Processor Number: "
@@ -229,9 +253,19 @@ msgstr "एससीएसआई"
 msgid "SATA"
 msgstr ""
 
-#: soldevicetypes.cpp:170 soldevicetypes.cpp:832
+#: soldevicetypes.cpp:170
+#, fuzzy
+#| msgid "Platform"
+msgctxt "platform storage bus"
 msgid "Platform"
 msgstr "प्लेटफार्म"
+
+#: soldevicetypes.cpp:172
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown storage bus"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: soldevicetypes.cpp:175
 msgid "Bus: "
@@ -288,6 +322,13 @@ msgstr "Raid"
 #: soldevicetypes.cpp:305
 msgid "Encrypted"
 msgstr "गोपित"
+
+#: soldevicetypes.cpp:307
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown volume usage"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: soldevicetypes.cpp:310
 msgid "File System Type: "
@@ -351,6 +392,13 @@ msgstr "इनपुट"
 msgid "Output"
 msgstr "आउटपुट"
 
+#: soldevicetypes.cpp:452
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown audio interface type"
+msgid "Unknown"
+msgstr "अज्ञात"
+
 #: soldevicetypes.cpp:459
 msgid "Internal Soundcard"
 msgstr "भीतरी साउंडकार्ड"
@@ -370,6 +418,13 @@ msgstr "हेडसेट"
 #: soldevicetypes.cpp:467
 msgid "Modem"
 msgstr "माडेम"
+
+#: soldevicetypes.cpp:469
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown sound card type"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: soldevicetypes.cpp:472
 msgid "Audio Interface Type: "
@@ -459,6 +514,13 @@ msgstr ""
 msgid "Camera"
 msgstr "कैमरा"
 
+#: soldevicetypes.cpp:672
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown battery type"
+msgid "Unknown"
+msgstr "अज्ञात"
+
 #: soldevicetypes.cpp:679
 msgid "Charging"
 msgstr "चार्ज कए रहल अछि"
@@ -535,6 +597,27 @@ msgstr ""
 msgid "Serial Devices"
 msgstr ""
 
+#: soldevicetypes.cpp:832
+#, fuzzy
+#| msgid "Platform"
+msgctxt "platform serial interface type"
+msgid "Platform"
+msgstr "प्लेटफार्म"
+
+#: soldevicetypes.cpp:836
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown serial interface type"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: soldevicetypes.cpp:839
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown port"
+msgid "Unknown"
+msgstr "अज्ञात"
+
 #: soldevicetypes.cpp:842
 msgid "Serial Type: "
 msgstr ""
@@ -554,6 +637,13 @@ msgstr ""
 #: soldevicetypes.cpp:888
 msgid "Crypto Token"
 msgstr ""
+
+#: soldevicetypes.cpp:890
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "unknown smart card type"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: soldevicetypes.cpp:893
 msgid "Smart Card Type: "

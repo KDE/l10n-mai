@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-30 17:40+0100\n"
+"POT-Creation-Date: 2012-11-11 07:58+0100\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -120,10 +120,6 @@ msgstr ""
 msgid "Run script"
 msgstr ""
 
-#: actions/bundled/suspendsession.cpp:114
-msgid "The screen is being locked"
-msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
-
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
 #| msgid "&Power off after"
@@ -208,6 +204,10 @@ msgid ""
 "details."
 msgstr ""
 
+#: powerdevilcore.cpp:204
+msgid "Broken Battery"
+msgstr ""
+
 #: powerdevilcore.cpp:213
 #, kde-format
 msgid ""
@@ -224,6 +224,10 @@ msgid ""
 "vendors recall the hardware, it is because of factory defects which are "
 "usually eligible for a free repair or substitution. Please check <a href="
 "\"%2\">%1's website</a> to verify if your battery is faulted."
+msgstr ""
+
+#: powerdevilcore.cpp:225
+msgid "Check Your Battery"
 msgstr ""
 
 #: powerdevilcore.cpp:345
@@ -252,7 +256,7 @@ msgstr ""
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:457
+#: powerdevilcore.cpp:459
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -260,31 +264,13 @@ msgstr ""
 "बैटरी इंटरफेस सँ कनेक्ट नहि भए सकल!\n"
 "कृप्या अपन सिस्टम कान्फिगरेशन जाँचू"
 
-#: powerdevilcore.cpp:505
-#, fuzzy
-#| msgid "The power adaptor has been plugged in"
-msgid ""
-"The power adaptor has been plugged in – all pending suspend actions have "
-"been canceled."
-msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
-
-#: powerdevilcore.cpp:507
-msgid "The power adaptor has been plugged in."
-msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
-
-#: powerdevilcore.cpp:510
-msgid "The power adaptor has been unplugged."
-msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
-
-#: powerdevilcore.cpp:516
+#: powerdevilcore.cpp:527 powerdevilcore.cpp:532 powerdevilcore.cpp:537
+#: powerdevilcore.cpp:542
 #, kde-format
-msgid ""
-"KDE Power Management System could not be initialized. The backend reported "
-"the following error: %1\n"
-"Please check your system configuration"
+msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:543
+#: powerdevilcore.cpp:528
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -294,7 +280,7 @@ msgid ""
 "Your battery level is critical, the computer will be halted in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:549
+#: powerdevilcore.cpp:533
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be halted in 1 second."
@@ -305,7 +291,7 @@ msgid ""
 "seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:555
+#: powerdevilcore.cpp:538
 #, fuzzy
 #| msgid ""
 #| "Your battery level is critical, the computer will be suspended to RAM in "
@@ -317,13 +303,81 @@ msgid ""
 "Your battery level is critical, the computer will be suspended in 30 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
 
-#: powerdevilcore.cpp:561
-msgid "Your battery level is critical: save your work as soon as possible."
+#: powerdevilcore.cpp:543
+#, fuzzy
+#| msgid "Your battery level is critical: save your work as soon as possible."
+msgid "Your battery level is critical, save your work as soon as possible."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
-#: powerdevilcore.cpp:567
-msgid "Your battery has reached a low level."
-msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
+#: powerdevilcore.cpp:549
+#, kde-format
+msgid "Battery Low (%1% Remaining)"
+msgstr ""
+
+#: powerdevilcore.cpp:550
+msgid ""
+"Your battery is low. If you need to continue using your computer, either "
+"plug in your computer, or shut it down and then change the battery."
+msgstr ""
+
+#: powerdevilcore.cpp:569
+#, fuzzy
+#| msgid "When AC Adaptor is plugged in"
+msgid "AC Adapter Plugged In"
+msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
+
+#: powerdevilcore.cpp:570
+#, fuzzy
+#| msgid "The power adaptor has been plugged in"
+msgid "All pending suspend actions have been canceled."
+msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
+
+#: powerdevilcore.cpp:572
+msgid "Running on AC power"
+msgstr ""
+
+#: powerdevilcore.cpp:572
+msgid "The power adaptor has been plugged in."
+msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
+
+#: powerdevilcore.cpp:575
+#, fuzzy
+#| msgid "When on battery Power"
+msgid "Running on Battery Power"
+msgstr "जखन बैटरी पावर पर अछि"
+
+#: powerdevilcore.cpp:575
+msgid "The power adaptor has been unplugged."
+msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
+
+#: powerdevilcore.cpp:581
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+
+#: powerdevilcore.cpp:629
+msgid "Charge Complete"
+msgstr ""
+
+#: powerdevilcore.cpp:629
+msgid "Your battery is now fully charged."
+msgstr ""
+
+#~ msgid "The screen is being locked"
+#~ msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
+
+#, fuzzy
+#~| msgid "The power adaptor has been plugged in"
+#~ msgid ""
+#~ "The power adaptor has been plugged in – all pending suspend actions have "
+#~ "been canceled."
+#~ msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
+
+#~ msgid "Your battery has reached a low level."
+#~ msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
 
 #, fuzzy
 #~| msgid "Performance"
@@ -362,13 +416,6 @@ msgstr "अहाँक बैटरीक स्तर कम भ' गेल �
 #~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c) 2008 Dario Freddi"
 #~ msgstr "(c) 2008 डेरियो फ्रेदी"
-
-#, fuzzy
-#~| msgid "The power adaptor has been plugged in"
-#~ msgid ""
-#~ "The power adaptor has been plugged in. Any pending suspend actions have "
-#~ "been canceled."
-#~ msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
 #~ msgid ""
 #~ "Your battery level is critical, the computer will be halted in 1 second."
@@ -557,9 +604,6 @@ msgstr "अहाँक बैटरीक स्तर कम भ' गेल �
 #~ msgid "Configure Notifications..."
 #~ msgstr "सूचनासभ बिन्यस्त करू"
 
-#~ msgid "When AC Adaptor is plugged in"
-#~ msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
-
 #, fuzzy
 #~| msgid "When AC Adaptor is plugged in"
 #~ msgid "When AC Adaptor is unplugged"
@@ -657,11 +701,6 @@ msgstr "अहाँक बैटरीक स्तर कम भ' गेल �
 #~| msgid "Do nothing"
 #~ msgid "Do not wait"
 #~ msgstr "किछु नहि करू"
-
-#, fuzzy
-#~| msgid "When on battery Power"
-#~ msgid "When on battery power"
-#~ msgstr "जखन बैटरी पावर पर अछि"
 
 #, fuzzy
 #~| msgid "Do nothing"
