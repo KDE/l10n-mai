@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-11 01:50+0100\n"
+"POT-Creation-Date: 2012-11-16 02:04+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1060,19 +1060,12 @@ msgstr "मापक"
 msgid "default"
 msgstr "मूलभूत"
 
-#: image/commands/kis_change_filter_command.h:40
+#: image/commands/kis_change_filter_command.h:48
 #, fuzzy
 #| msgid "Filter"
 msgctxt "(qtundo-format)"
 msgid "Change Filter"
 msgstr "फिल्टर"
-
-#: image/commands/kis_change_generator_command.h:40
-#, fuzzy
-#| msgid "Shrink Selection"
-msgctxt "(qtundo-format)"
-msgid "Change Generator"
-msgstr "चयन घोकचाबू"
 
 #: image/commands/kis_deselect_global_selection_command.cpp:30
 #, fuzzy
@@ -1220,12 +1213,12 @@ msgstr ""
 msgid "Other"
 msgstr "आन"
 
-#: image/generator/kis_generator_layer.cpp:119
+#: image/generator/kis_generator_layer.cpp:104
 msgid "Generator"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: image/kis_adjustment_layer.cc:139
+#: image/kis_adjustment_layer.cc:123
 #: plugins/paintops/libpaintop/kis_filter_option.cpp:51
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:844
 #: ui/recorder/kis_recorded_filter_action_creator.cpp:59
@@ -1347,7 +1340,7 @@ msgstr "रँग स्पेस"
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:910 ui/kis_layer_manager.cc:767
+#: image/kis_image.cc:910 ui/kis_layer_manager.cc:778
 msgid "Flatten Image"
 msgstr "चित्र चपटा करू"
 
@@ -3081,7 +3074,7 @@ msgid "LUT file:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
-#: plugins/extensions/dockers/lut/wdglut.ui:179 ui/tool/kis_tool.cc:522
+#: plugins/extensions/dockers/lut/wdglut.ui:179 ui/tool/kis_tool.cc:523
 msgid "Clear"
 msgstr "खाली"
 
@@ -4482,7 +4475,7 @@ msgid "Separate Image"
 msgstr ""
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:236
-#: ui/kis_layer_manager.cc:864
+#: ui/kis_layer_manager.cc:875
 msgid "Export Layer"
 msgstr ""
 
@@ -9233,6 +9226,49 @@ msgstr "विकल्प"
 msgid "Show Decorations"
 msgstr "संतृप्ति"
 
+#: ui/actions/kis_selection_action_factories.cpp:141
+msgid "Select All"
+msgstr "सभ चुनू"
+
+#: ui/actions/kis_selection_action_factories.cpp:204
+#: ui/kis_selection_manager.cc:187
+msgid "Fill with Pattern"
+msgstr "प्रारूप सँ भरू"
+
+#: ui/actions/kis_selection_action_factories.cpp:207
+#: ui/kis_selection_manager.cc:182
+msgid "Fill with Background Color"
+msgstr ""
+
+#: ui/actions/kis_selection_action_factories.cpp:210
+#: ui/kis_selection_manager.cc:177
+msgid "Fill with Foreground Color"
+msgstr ""
+
+#: ui/actions/kis_selection_action_factories.cpp:371
+msgid "Cut"
+msgstr "काटू"
+
+#: ui/actions/kis_selection_action_factories.cpp:371
+msgid "Copy"
+msgstr ""
+
+#: ui/actions/kis_selection_action_factories.cpp:395
+#, fuzzy
+#| msgid "Crop Image"
+msgid "Copy Merged"
+msgstr "चित्र काटू"
+
+#: ui/actions/kis_selection_action_factories.cpp:429
+msgid "(pasted)"
+msgstr ""
+
+#: ui/actions/kis_selection_action_factories.cpp:470
+#, fuzzy
+#| msgid "Pattern"
+msgid "Pasted"
+msgstr "प्रारूप"
+
 #: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:650
 #: ui/dialogs/kis_dlg_preferences.cc:651
 msgid "Grid"
@@ -10967,7 +11003,7 @@ msgstr ""
 msgid "&Flatten Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:295 ui/kis_layer_manager.cc:836
+#: ui/kis_layer_manager.cc:295 ui/kis_layer_manager.cc:847
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
@@ -10997,43 +11033,43 @@ msgstr "नइ परत"
 msgid "Filter Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:419
+#: ui/kis_layer_manager.cc:423
 msgid "Generator Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:470 ui/kis_layer_manager.cc:484
-#: ui/kis_layer_manager.cc:525 ui/kis_layer_manager.cc:556
-#: ui/kis_layer_manager.cc:657
+#: ui/kis_layer_manager.cc:481 ui/kis_layer_manager.cc:495
+#: ui/kis_layer_manager.cc:536 ui/kis_layer_manager.cc:567
+#: ui/kis_layer_manager.cc:668
 msgid "Could not add layer to image."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:470 ui/kis_layer_manager.cc:484
-#: ui/kis_layer_manager.cc:525 ui/kis_layer_manager.cc:556
-#: ui/kis_layer_manager.cc:657
+#: ui/kis_layer_manager.cc:481 ui/kis_layer_manager.cc:495
+#: ui/kis_layer_manager.cc:536 ui/kis_layer_manager.cc:567
+#: ui/kis_layer_manager.cc:668
 msgid "Layer Error"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:580
+#: ui/kis_layer_manager.cc:591
 msgid "New Filter Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:724
+#: ui/kis_layer_manager.cc:735
 msgid "Scale Layer"
 msgstr "परत मापू"
 
-#: ui/kis_layer_manager.cc:766
+#: ui/kis_layer_manager.cc:777
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:768
+#: ui/kis_layer_manager.cc:779
 msgid "&Flatten Image"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:924
+#: ui/kis_layer_manager.cc:935
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:927
+#: ui/kis_layer_manager.cc:938
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
@@ -11300,81 +11336,51 @@ msgstr ""
 msgid "Selection decoration"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:135
+#: ui/kis_selection_manager.cc:137
 msgid "Paste into &New Image"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:139
+#: ui/kis_selection_manager.cc:141
 msgid "Paste at cursor"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:143
+#: ui/kis_selection_manager.cc:145
 #, fuzzy
 #| msgid "Crop Image"
 msgid "Copy merged"
 msgstr "चित्र काटू"
 
-#: ui/kis_selection_manager.cc:155
+#: ui/kis_selection_manager.cc:157
 msgid "&Reselect"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:160
+#: ui/kis_selection_manager.cc:162
 #, fuzzy
 #| msgid "Grow Selection"
 msgid "&Invert Selection"
 msgstr "चयन बढाउ"
 
-#: ui/kis_selection_manager.cc:165
+#: ui/kis_selection_manager.cc:167
 msgid "Copy Selection to New Layer"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:170
+#: ui/kis_selection_manager.cc:172
 msgid "Cut Selection to New Layer"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:175 ui/kis_selection_manager.cc:598
-msgid "Fill with Foreground Color"
-msgstr ""
-
-#: ui/kis_selection_manager.cc:180 ui/kis_selection_manager.cc:603
-msgid "Fill with Background Color"
-msgstr ""
-
-#: ui/kis_selection_manager.cc:185 ui/kis_selection_manager.cc:608
-msgid "Fill with Pattern"
-msgstr "प्रारूप सँ भरू"
-
-#: ui/kis_selection_manager.cc:189
+#: ui/kis_selection_manager.cc:191
 msgid "Display Selection"
 msgstr ""
 
-#: ui/kis_selection_manager.cc:196
+#: ui/kis_selection_manager.cc:198
 msgid "Smooth..."
 msgstr ""
 
-#: ui/kis_selection_manager.cc:200
+#: ui/kis_selection_manager.cc:202
 #, fuzzy
 #| msgid "Grow Selection"
 msgid "Size Canvas to Size of Selection"
 msgstr "चयन बढाउ"
-
-#: ui/kis_selection_manager.cc:367
-msgid "Cut"
-msgstr "काटू"
-
-#: ui/kis_selection_manager.cc:441
-msgid "(pasted)"
-msgstr ""
-
-#: ui/kis_selection_manager.cc:480
-#, fuzzy
-#| msgid "Pattern"
-msgid "Pasted"
-msgstr "प्रारूप"
-
-#: ui/kis_selection_manager.cc:504
-msgid "Select All"
-msgstr "सभ चुनू"
 
 #: ui/kis_statusbar.cc:133
 #, kde-format
@@ -11541,31 +11547,31 @@ msgstr "अग्रभूमि रँग"
 msgid "Reset Foreground and Background Color"
 msgstr "अग्रभूमि रँग"
 
-#: ui/tool/kis_tool.cc:550
+#: ui/tool/kis_tool.cc:552
 #, fuzzy
 #| msgid "Options"
 msgid "No options"
 msgstr "विकल्प"
 
-#: ui/tool/kis_tool.cc:706
+#: ui/tool/kis_tool.cc:708
 msgid "Layer is locked and invisible."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:708
+#: ui/tool/kis_tool.cc:710
 #, fuzzy
 #| msgid "Layer Size"
 msgid "Layer is locked."
 msgstr "परत आकार"
 
-#: ui/tool/kis_tool.cc:710
+#: ui/tool/kis_tool.cc:712
 msgid "Layer is invisible."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:712
+#: ui/tool/kis_tool.cc:714
 msgid "Group not editable."
 msgstr ""
 
-#: ui/tool/kis_tool.cc:727
+#: ui/tool/kis_tool.cc:729
 #, fuzzy
 #| msgid "Grow Selection"
 msgid "Local selection is locked."
@@ -11710,6 +11716,12 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgid "Shrink Selection"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change Generator"
+#~ msgstr "चयन घोकचाबू"
 
 #, fuzzy
 #~| msgid "Default"
