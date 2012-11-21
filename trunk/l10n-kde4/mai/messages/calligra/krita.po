@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-16 02:04+0100\n"
+"POT-Creation-Date: 2012-11-21 01:54+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2278,6 +2278,7 @@ msgstr ""
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:481
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:670
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:683
+#: plugins/paintops/experiment/kis_experimentop_option.cpp:36
 #: plugins/paintops/libpaintop/sensors/SensorDistanceConfiguration.ui:73
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:57
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:83
@@ -6476,7 +6477,7 @@ msgstr ""
 msgid "Particle type"
 msgstr ""
 
-#: plugins/paintops/experiment/kis_experimentop_option.cpp:43
+#: plugins/paintops/experiment/kis_experimentop_option.cpp:53
 #, fuzzy
 #| msgid "Incremental"
 msgid "Experiment option"
@@ -6486,30 +6487,30 @@ msgstr "संवर्द्धन"
 #: plugins/paintops/experiment/wdgexperimentoptions.ui:29
 #, fuzzy
 #| msgid "Saturation"
-msgid "Shape creation"
+msgid "Shape creation:"
 msgstr "संतृप्ति"
 
 #. i18n: ectx: property (text), widget (QCheckBox, speedCHBox)
-#: plugins/paintops/experiment/wdgexperimentoptions.ui:57
+#: plugins/paintops/experiment/wdgexperimentoptions.ui:53
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:39
 msgid "Speed"
 msgstr "गति"
 
 #. i18n: ectx: property (text), widget (QCheckBox, smoothCHBox)
-#: plugins/paintops/experiment/wdgexperimentoptions.ui:69
+#: plugins/paintops/experiment/wdgexperimentoptions.ui:70
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
-msgid "Smooth shapes"
+msgid "Smooth"
 msgstr "चिकना"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/paintops/experiment/wdgexperimentoptions.ui:76
+#. i18n: ectx: property (text), widget (QLabel, lblPostprocessing)
+#: plugins/paintops/experiment/wdgexperimentoptions.ui:89
 msgid "Post-processing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, displaceCHBox)
-#: plugins/paintops/experiment/wdgexperimentoptions.ui:85
+#: plugins/paintops/experiment/wdgexperimentoptions.ui:98
 #, fuzzy
 #| msgid "Display"
 msgid "Displace"
@@ -9447,12 +9448,12 @@ msgid "Show original layer"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOut)
-#: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:47
+#: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:88
 msgid "Zoom Out"
 msgstr "ज़ूम आउट"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomIn)
-#: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:46
+#: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:87
 msgid "Zoom In"
 msgstr "ज़ूम इन"
 
@@ -10528,7 +10529,7 @@ msgstr ""
 msgid "Input pressure global curve"
 msgstr ""
 
-#: ui/input/kis_abstract_input_action.cpp:39
+#: ui/input/kis_abstract_input_action.cpp:40
 #, fuzzy
 #| msgid "Active"
 msgid "Activate"
@@ -10554,48 +10555,52 @@ msgid ""
 "brush tool."
 msgstr ""
 
-#: ui/input/kis_input_manager.cpp:302
+#: ui/input/kis_input_manager.cpp:309
 msgid "Set Mirror Axis"
 msgstr ""
 
-#: ui/input/kis_pan_action.cpp:45
+#: ui/input/kis_pan_action.cpp:44
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Pan Canvas"
 msgstr "परत घुमाबू"
 
-#: ui/input/kis_pan_action.cpp:48
+#: ui/input/kis_pan_action.cpp:47
 msgid "Toggle Pan Mode"
 msgstr ""
 
-#: ui/input/kis_pan_action.cpp:49
+#: ui/input/kis_pan_action.cpp:48
 #, fuzzy
 #| msgid "Left:"
 msgid "Pan Left"
 msgstr "बम्माँ:"
 
-#: ui/input/kis_pan_action.cpp:50
+#: ui/input/kis_pan_action.cpp:49
 #, fuzzy
 #| msgid "Right:"
 msgid "Pan Right"
 msgstr "दायाँ:"
 
-#: ui/input/kis_pan_action.cpp:51
+#: ui/input/kis_pan_action.cpp:50
 msgid "Pan Up"
 msgstr ""
 
-#: ui/input/kis_pan_action.cpp:52
+#: ui/input/kis_pan_action.cpp:51
 msgid "Pan Down"
 msgstr ""
 
-#: ui/input/kis_rotate_canvas_action.cpp:43
+#: ui/input/kis_rotate_canvas_action.cpp:42
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rotate Canvas"
 msgstr "परत घुमाबू"
 
-#: ui/input/kis_rotate_canvas_action.cpp:45
+#: ui/input/kis_rotate_canvas_action.cpp:44
 msgid "Toggle Rotate Mode"
+msgstr ""
+
+#: ui/input/kis_rotate_canvas_action.cpp:45
+msgid "Toggle Discrete Rotate Mode"
 msgstr ""
 
 #: ui/input/kis_rotate_canvas_action.cpp:46
@@ -10622,39 +10627,43 @@ msgstr "घुमाव"
 msgid "Show Popup Palette"
 msgstr "रंग-पट्टिका"
 
-#: ui/input/kis_tool_invocation_action.cpp:51
+#: ui/input/kis_tool_invocation_action.cpp:44
 #, fuzzy
 #| msgid "TIFF Options"
 msgid "Tool Invocation"
 msgstr "TIFF विकल्प"
 
-#: ui/input/kis_tool_invocation_action.cpp:52
+#: ui/input/kis_tool_invocation_action.cpp:45
 msgid ""
 "Tool Invocation invokes the current tool, for example, using the brush tool, "
 "it will start painting."
 msgstr ""
 
-#: ui/input/kis_zoom_action.cpp:42
+#: ui/input/kis_zoom_action.cpp:82
 #, fuzzy
 #| msgid "Zoom In"
 msgid "Zoom Canvas"
 msgstr "ज़ूम इन"
 
-#: ui/input/kis_zoom_action.cpp:45
+#: ui/input/kis_zoom_action.cpp:85
 msgid "Toggle Zoom Mode"
 msgstr ""
 
-#: ui/input/kis_zoom_action.cpp:48
+#: ui/input/kis_zoom_action.cpp:86
+msgid "Toggle Discrete Zoom Mode"
+msgstr ""
+
+#: ui/input/kis_zoom_action.cpp:89
 #, fuzzy
 #| msgid "Deselect"
 msgid "Reset Zoom to 100%"
 msgstr "अचयनित"
 
-#: ui/input/kis_zoom_action.cpp:49
+#: ui/input/kis_zoom_action.cpp:90
 msgid "Fit to Page"
 msgstr ""
 
-#: ui/input/kis_zoom_action.cpp:50
+#: ui/input/kis_zoom_action.cpp:91
 msgid "Fit to Width"
 msgstr ""
 
@@ -11500,18 +11509,18 @@ msgid ""
 "Press %1 to go back."
 msgstr ""
 
-#: ui/kis_zoom_manager.cc:115
+#: ui/kis_zoom_manager.cc:120
 msgid "Show Rulers"
 msgstr ""
 
-#: ui/kis_zoom_manager.cc:117
+#: ui/kis_zoom_manager.cc:122
 msgid ""
 "The rulers show the horizontal and vertical positions of the mouse on the "
 "image and can be used to position your mouse at the right place on the "
 "canvas. <p>Uncheck this to hide the rulers."
 msgstr ""
 
-#: ui/kis_zoom_manager.cc:121
+#: ui/kis_zoom_manager.cc:126
 #, fuzzy
 #| msgid "Deselect"
 msgid "Reset zoom"
@@ -11716,6 +11725,12 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgctxt "smooth out the painting strokes the filter creates"
+#~| msgid "Smooth"
+#~ msgid "Smooth shapes"
+#~ msgstr "चिकना"
 
 #, fuzzy
 #~| msgid "Shrink Selection"
