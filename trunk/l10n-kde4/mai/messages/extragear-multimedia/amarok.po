@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-25 02:07+0100\n"
+"POT-Creation-Date: 2012-11-27 02:35+0100\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -304,16 +304,21 @@ msgstr ""
 msgid "Stop"
 msgstr "रोकू"
 
-#: ActionClasses.cpp:520
+#: ActionClasses.cpp:514
 msgid "Stop after current Track"
 msgstr ""
 
+#: ActionClasses.cpp:527 context/engines/current/CurrentEngine.cpp:136
+#: EngineController.cpp:1420 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
+msgid "No track playing"
+msgstr ""
+
 #: ActionClasses.cpp:535
-msgid "Stop after current track: On"
+msgid "Stop after current track: Off"
 msgstr ""
 
 #: ActionClasses.cpp:541
-msgid "Stop after current track: Off"
+msgid "Stop after current track: On"
 msgstr ""
 
 #. i18n: ectx: label, entry, group (General Options)
@@ -4454,11 +4459,6 @@ msgstr ""
 #| msgid "Context"
 msgid "&Context"
 msgstr "संदर्भ"
-
-#: context/engines/current/CurrentEngine.cpp:136 EngineController.cpp:1420
-#: mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
-msgid "No track playing"
-msgstr ""
 
 #: context/engines/current/CurrentEngine.cpp:227
 #, kde-format
