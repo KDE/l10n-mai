@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-02 02:15+0100\n"
+"POT-Creation-Date: 2013-01-08 12:24+0100\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -65,12 +65,6 @@ msgstr "मद्दति "
 #: ../desktop/partui.rc:11
 msgid "S&crollback"
 msgstr "स्क्रालबैक (&c)"
-
-#: AccessibleColorScheme.cpp:65
-#, fuzzy
-#| msgid "Accessible Color Scheme"
-msgid "Accessible Color Scheme"
-msgstr "आसान-पहुँच रंग योजना"
 
 #: Application.cpp:437
 msgid "Toggle Background Window"
@@ -355,6 +349,7 @@ msgid "Profile name is empty."
 msgstr "प्रोफाइल नाम"
 
 #: EditProfileDialog.cpp:315
+msgctxt "@info:tooltip"
 msgid "One environment variable per line"
 msgstr ""
 
@@ -373,46 +368,46 @@ msgstr[1] ""
 msgid "Select Initial Directory"
 msgstr "आरंभिक डिरेक्ट्री चुनू"
 
-#: EditProfileDialog.cpp:586
+#: EditProfileDialog.cpp:593
 #, fuzzy, kde-format
 #| msgctxt "@item:inmenu The host the user is connected to via ssh"
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:695 EditProfileDialog.cpp:704
+#: EditProfileDialog.cpp:702 EditProfileDialog.cpp:711
 msgid "New Color Scheme"
 msgstr "नवीन रंग योजना"
 
-#: EditProfileDialog.cpp:697
+#: EditProfileDialog.cpp:704
 msgid "Edit Color Scheme"
 msgstr "रंग योजना संपादित करू"
 
-#: EditProfileDialog.cpp:768
+#: EditProfileDialog.cpp:775
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "ई रंग योजना मे पारदर्शी पृष्ठभूमि अछि जे अहाँक डेस्कटाप मे समर्थित नहि अछि."
 
-#: EditProfileDialog.cpp:773
+#: EditProfileDialog.cpp:780
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:876 EditProfileDialog.cpp:887
+#: EditProfileDialog.cpp:883 EditProfileDialog.cpp:894
 msgid "New Key Binding List"
 msgstr "नवीन कुँजी बाइंडिंग सूची"
 
-#: EditProfileDialog.cpp:878
+#: EditProfileDialog.cpp:885
 msgid "Edit Key Binding List"
 msgstr "कुंजी बाइंडिंग सूची संपादित करू"
 
-#: EditProfileDialog.cpp:1190
+#: EditProfileDialog.cpp:1201
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: EditProfileDialog.cpp:1194
+#: EditProfileDialog.cpp:1205
 msgid "Select Fixed Width Font"
 msgstr ""
 
@@ -862,139 +857,149 @@ msgstr ""
 msgid "Require Ctrl key for drag and drop"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
+#: EditProfileDialog.ui:899
+msgid "Pressing Ctrl+scrollwheel will increase/decrease the text size."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableMouseWheelZoomButton)
+#: EditProfileDialog.ui:902
+msgid "Allow Ctrl+scrollwheel to zoom text size"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: EditProfileDialog.ui:916
+#: EditProfileDialog.ui:926
 msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "उन्नत"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: EditProfileDialog.ui:922
+#: EditProfileDialog.ui:932
 msgid "Terminal Features"
 msgstr "टर्मिनल विशेषतासभ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:937
+#: EditProfileDialog.ui:947
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr "टर्मिनल प्रोग्राम केँ पाठ केर किछु हिस्सा केँ टिमटिमाबैत बनाबै क' लेल स्वीकारू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:940
+#: EditProfileDialog.ui:950
 msgid "Allow blinking text"
 msgstr "टिमटिमाबैत पाठ स्वीकारू"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:953
+#: EditProfileDialog.ui:963
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr "आउटपुट केँ कंट्रोल+S द्वारा निलंबित कएनाइ स्वीकारू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:956
+#: EditProfileDialog.ui:966
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:969
+#: EditProfileDialog.ui:979
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
 "Hebrew only)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:972
+#: EditProfileDialog.ui:982
 msgid "Enable Bi-Directional text rendering"
 msgstr "दुनू तरफ पाठ रेंडरिंग सक्षम करू"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:981
+#: EditProfileDialog.ui:991
 msgid "Line Spacing:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:988
+#: EditProfileDialog.ui:998
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1019
+#: EditProfileDialog.ui:1029
 msgid "Cursor"
 msgstr "कर्सर"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1034
+#: EditProfileDialog.ui:1044
 msgid "Make the cursor blink regularly"
 msgstr "संकेतक केँ नियमति टिमटिमाता बनाबू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1037
+#: EditProfileDialog.ui:1047
 msgid "Blinking cursor"
 msgstr "टिमटिमाबैत संकेतक"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1046
+#: EditProfileDialog.ui:1056
 msgid "Cursor shape:"
 msgstr "संकेतक रूप:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1053
+#: EditProfileDialog.ui:1063
 msgid "Change the shape of the cursor"
 msgstr "संकेतक केर आकार केँ बदलू"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1057
+#: EditProfileDialog.ui:1067
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr "रोकू"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1062
+#: EditProfileDialog.ui:1072
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr "I-बीम"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1067
+#: EditProfileDialog.ui:1077
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr "रेखांकित"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1096
+#: EditProfileDialog.ui:1106
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "संकेतक केँ ओकर अंदर केर अक्षर केर रंग सँ मिलैत सेट करू."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1099
+#: EditProfileDialog.ui:1109
 msgid "Set cursor color to match current character"
 msgstr "संकेतक रंग केँ वर्तमान अक्षर केर रंग सँ मिलैत सेट करू"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1114
+#: EditProfileDialog.ui:1124
 msgid "Use a custom, fixed color for the cursor"
 msgstr "संकेतक क' लेल मनपसिन्न, स्थिर रंग प्रयोग करू"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1117
+#: EditProfileDialog.ui:1127
 msgid "Custom cursor color:"
 msgstr "मनपसिन्न संकेतक रंग"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1130
+#: EditProfileDialog.ui:1140
 msgid "Select the color used to draw the cursor"
 msgstr "संकेतक बनाबै क' लेल प्रयोग मे लेल जाएबला रंग केँ चुनू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1158
+#: EditProfileDialog.ui:1168
 msgid "Encoding"
 msgstr "एनकोडिंग"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1167
+#: EditProfileDialog.ui:1177
 msgid "Default character encoding:"
 msgstr "डिफाल्ट अक्षर एनकोडिंग:"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1187
+#: EditProfileDialog.ui:1197
 msgctxt "@action:button Pick an encoding"
 msgid "Select"
 msgstr "चुनू"
@@ -1084,14 +1089,23 @@ msgid "Unlimited scrollback"
 msgstr "असीमित स्क्रालबैक"
 
 #: IncrementalSearchBar.cpp:51
+#, fuzzy
+#| msgid "Close the search bar"
+msgctxt "@info:tooltip"
 msgid "Close the search bar"
 msgstr "खोज पट्टी बन्न करू"
 
 #: IncrementalSearchBar.cpp:56
+#, fuzzy
+#| msgid "Find:"
+msgctxt "@label:textbox"
 msgid "Find:"
 msgstr "खोजू:"
 
 #: IncrementalSearchBar.cpp:61
+#, fuzzy
+#| msgid "Enter the text to search for here"
+msgctxt "@info:tooltip"
 msgid "Enter the text to search for here"
 msgstr "ढूंढल जाए बला पाठ एतय भरू"
 
@@ -1101,6 +1115,9 @@ msgid "Next"
 msgstr "अगिला"
 
 #: IncrementalSearchBar.cpp:83
+#, fuzzy
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Find the next match for the current search phrase"
 msgstr "वर्तमान मे ढूंढल जाए रहल वाक्यांश केर अगिला मिलान केँ ढूँढू"
 
@@ -1110,6 +1127,9 @@ msgid "Previous"
 msgstr "पछिला"
 
 #: IncrementalSearchBar.cpp:91
+#, fuzzy
+#| msgid "Find the previous match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Find the previous match for the current search phrase"
 msgstr "वर्तमान मे ढूंढल जाएल रहल वाक्यांश केर पछिला मिलान केँ ढूंढू"
 
@@ -1119,6 +1139,7 @@ msgid "Options"
 msgstr ""
 
 #: IncrementalSearchBar.cpp:101
+msgctxt "@info:tooltip"
 msgid "Display the options menu"
 msgstr ""
 
@@ -1126,24 +1147,35 @@ msgstr ""
 #, fuzzy
 #| msgctxt "@action:inmenu Close Active View"
 #| msgid "Close Active"
+msgctxt "@item:inmenu"
 msgid "Case sensitive"
 msgstr "सक्रिय केँ बन्न करू"
 
 #: IncrementalSearchBar.cpp:116
+#, fuzzy
+#| msgid "Sets whether the search is case sensitive"
+msgctxt "@info:tooltip"
 msgid "Sets whether the search is case sensitive"
 msgstr "सेट करैत अछि जे की ढूंढल जएनाइ केस-सेंसिटिव हाएत"
 
 #: IncrementalSearchBar.cpp:120
+#, fuzzy
+#| msgid "Match regular expression"
+msgctxt "@item:inmenu"
 msgid "Match regular expression"
 msgstr "रेगुलर एक्सप्रेशन मिलान करू"
 
 #: IncrementalSearchBar.cpp:125
 #, fuzzy
 #| msgid "Highlight all"
+msgctxt "@item:inmenu"
 msgid "Highlight all matches"
 msgstr "सभटा केँ उभारू"
 
 #: IncrementalSearchBar.cpp:127
+#, fuzzy
+#| msgid "Sets whether matching text should be highlighted"
+msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "सेट करैत अछि जे की मिलान करब बला पाठसभ केँ उभारल जएनाइ अछि"
 
@@ -1189,23 +1221,37 @@ msgid "Terminal emulator"
 msgstr "टर्मिनल एमुलेटर"
 
 #: main.cpp:157
+#, fuzzy
+#| msgid "Name of profile to use for new Konsole instance"
+msgctxt "@info:shell"
 msgid "Name of profile to use for new Konsole instance"
 msgstr "नवीन कँसोल इंस्टैस क' लेल प्रयोग मे लेल जाएबला प्रोफाइल क' नाम"
 
 #: main.cpp:159
+#, fuzzy
+#| msgid "Set the initial working directory of the new tab or window to 'dir'"
+msgctxt "@info:shell"
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr "नवीन टैब अथवा विंडो सँ 'dir' क' नवीन आरंभिक कार्यशील डिरेक्ट्री सेट करू"
 
 #: main.cpp:163
+#, fuzzy
+#| msgid "Do not close the initial session automatically when it ends."
+msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "जखन आरंभिक सत्र समाप्त भए जाइछ अछि तँ सत्र केँ स्वचालित बन्न नहि करू."
 
 #: main.cpp:166
+#, fuzzy
+#| msgid ""
+#| "Create a new tab in an existing window rather than creating a new window"
+msgctxt "@info:shell"
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr "नवीन विंडो बनाबै केर बदला वर्तमान विंडो मे नवीन टैब बनाबू."
 
 #: main.cpp:169
+msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
@@ -1214,54 +1260,74 @@ msgstr ""
 #| msgid ""
 #| "Start Konsole in the background and bring to the front when the F12 key "
 #| "is pressed"
+msgctxt "@info:shell"
 msgid ""
 "Start Konsole in the background and bring to the front when Ctrl+Shift+F12 "
 "(by default) is pressed"
 msgstr "कंसोल केँ पृष्ठभूमि मे प्रारंभ करू तथा जखन F12 कुँजी दबाएल गेल तखन उसे सामना लाबू."
 
 #: main.cpp:174
+msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:175
+msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:176
+msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:177
+msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
 #: main.cpp:179
+#, fuzzy
+#| msgid "Disable transparent backgrounds, even if the system supports them."
+msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "पारदर्शी पृष्ठभूमि बन्न करू, तखन जँ तंत्र मे ओकर समर्थन अछि."
 
 #: main.cpp:181
+#, fuzzy
+#| msgid "List the available profiles"
+msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "उपलब्ध प्रोफाइलसभ केर नाम बताबू"
 
 #: main.cpp:183
+msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
 #: main.cpp:186
+#, fuzzy
+#| msgid "Change the value of a profile property."
+msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "प्रोफाइल गुण क' मूल्य बदलू."
 
 #: main.cpp:188
+msgctxt "@info:shell"
 msgid ""
 "Command to execute. This option will catch all following arguments, so use "
 "it as the last option."
 msgstr ""
 
 #: main.cpp:190
+#, fuzzy
+#| msgid "Arguments passed to command"
+msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "कमांड केँ भेजल गेल आर्गुमेंट"
 
 #: main.cpp:191
+msgctxt "@info:shell"
 msgid "Use --nofork to run in the foreground (helpful with the -e option)."
 msgstr ""
 
@@ -1622,11 +1688,18 @@ msgctxt "@title"
 msgid "Confirm Close"
 msgstr "बन्न करबाक पुष्टि करू"
 
+#: MainWindow.cpp:551
+#, fuzzy
+#| msgid "Konsole"
+msgctxt "@action:button"
+msgid "Close &Window"
+msgstr "कंसोल"
+
 #: MainWindow.cpp:552
 #, fuzzy
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
-msgid "Close Current Tab"
+msgid "Close Current &Tab"
 msgstr "मोजुदा टैब बन्न करू"
 
 #: MainWindow.cpp:649
@@ -1650,14 +1723,17 @@ msgstr "प्रोफाइल प्रबंधित करू"
 #: ManageProfilesDialog.cpp:177
 #, fuzzy
 #| msgid "Edit Current Profile..."
+msgctxt "@info:tooltip"
 msgid "Click to rename profile"
 msgstr "वर्तमान प्रोफाइल संपादित करू..."
 
 #: ManageProfilesDialog.cpp:186
+msgctxt "@info:tooltip"
 msgid "Click to toggle status"
 msgstr ""
 
 #: ManageProfilesDialog.cpp:192
+msgctxt "@info:tooltip"
 msgid "Double click to change shortcut"
 msgstr ""
 
@@ -1756,7 +1832,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: Profile.cpp:144
+#: Profile.cpp:145
 msgid "Shell"
 msgstr "शेल"
 
@@ -1896,24 +1972,24 @@ msgstr "'%1' सत्र मे घंटी"
 msgid "Activity in session '%1'"
 msgstr "'%1' सत्र मे क्रिया"
 
-#: Session.cpp:829
+#: Session.cpp:830
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "समाप्त"
 
-#: Session.cpp:843 Session.cpp:855
+#: Session.cpp:844 Session.cpp:856
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "प्रोग्राम '%1' क्रैश भए गेल."
 
-#: Session.cpp:845
+#: Session.cpp:846
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "प्रोग्राम '%1'  स्थिति %2 केर सँग बाहर भेल."
 
-#: Session.cpp:1196
+#: Session.cpp:1197
 msgid "ZModem Progress"
 msgstr "जेड-माडम प्रगति"
 
@@ -2402,25 +2478,38 @@ msgstr "जोडू"
 #: TabTitleFormatButton.cpp:83
 #, fuzzy
 #| msgid "Tab title format:"
+msgctxt "@info:tooltip"
 msgid "Insert title format"
 msgstr "टैब शीर्षक फार्मेट"
 
 #: TabTitleFormatButton.cpp:87
 #, fuzzy
 #| msgid "Remote tab title format:"
+msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "रिमोट टैब शीर्षक फार्मेट:"
 
-#: TerminalDisplay.cpp:1131 TerminalDisplay.cpp:1132
+#: TerminalDisplay.cpp:1133 TerminalDisplay.cpp:1134
 msgid "Size: XXX x XXX"
 msgstr "आकार: XXX x XXX"
 
-#: TerminalDisplay.cpp:1143
+#: TerminalDisplay.cpp:1145
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "आकार: %1 x %2"
 
-#: TerminalDisplay.cpp:2739
+#: TerminalDisplay.cpp:2581
+#, kde-format
+msgid "Are you sure you want to paste %1 characters?"
+msgstr ""
+
+#: TerminalDisplay.cpp:2583
+#, fuzzy
+#| msgid "Confirm Close"
+msgid "Confirm Paste"
+msgstr "बन्न करबाक पुष्टि करू"
+
+#: TerminalDisplay.cpp:2758
 msgid ""
 "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
@@ -2428,13 +2517,13 @@ msgstr ""
 "<qt>आउटपुट को<a href=\"http://en.wikipedia.org/wiki/XON\">सस्पैंड कएल गेल अछि</a> "
 "कंट्रोल+S केँ दबाकए.  बहाल करब क' लेल <b>कंट्रोल+Q</b> केँ दबाबू.</qt>"
 
-#: TerminalDisplay.cpp:2992
+#: TerminalDisplay.cpp:3011
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "चयन साटू"
 
-#: TerminalDisplay.cpp:3006
+#: TerminalDisplay.cpp:3025
 msgid "Change &Directory To"
 msgstr ""
 
@@ -2587,6 +2676,11 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "रोकू (&S)"
+
+#, fuzzy
+#~| msgid "Accessible Color Scheme"
+#~ msgid "Accessible Color Scheme"
+#~ msgstr "आसान-पहुँच रंग योजना"
 
 #~ msgid "%1, size %2"
 #~ msgstr "%1, आकार %2"
