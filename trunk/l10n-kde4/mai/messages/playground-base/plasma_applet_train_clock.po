@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_train_clock\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:53+0100\n"
+"POT-Creation-Date: 2012-08-20 06:02+0200\n"
 "PO-Revision-Date: 2010-09-24 13:38+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -18,7 +18,8 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: clock.cpp:203
+#. i18n: ectx: attribute (title), widget (QWidget, AppearanceTab)
+#: clock.cpp:203 clockConfig.ui:46
 msgid "Appearance"
 msgstr "प्रकटन"
 
@@ -30,8 +31,39 @@ msgstr ""
 msgid "The train-clock SVG file has no element e0-p1"
 msgstr ""
 
-#~ msgid "Show day of the &week"
-#~ msgstr "सप्ताह क' दिन देखाबू (&w)"
+#. i18n: ectx: property (text), widget (QCheckBox, showDate)
+#: clockConfig.ui:52
+#, fuzzy
+#| msgid "Show &year"
+msgid "Show &date"
+msgstr "वर्ष देखाबू (&y)"
 
-#~ msgid "Show &year"
-#~ msgstr "वर्ष देखाबू (&y)"
+#. i18n: ectx: property (text), widget (QCheckBox, showDay)
+#: clockConfig.ui:75
+msgid "Show day of the &week"
+msgstr "सप्ताह क' दिन देखाबू (&w)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showYear)
+#: clockConfig.ui:85
+msgid "Show &year"
+msgstr "वर्ष देखाबू (&y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showTimezone)
+#: clockConfig.ui:92
+msgid "Show &timezone"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, twentyFour)
+#: clockConfig.ui:99
+msgid "24-hour format"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, TimezonesTab)
+#: clockConfig.ui:128
+msgid "Timezones"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, localTimeZone)
+#: clockConfig.ui:134
+msgid "Use &local timezone"
+msgstr ""

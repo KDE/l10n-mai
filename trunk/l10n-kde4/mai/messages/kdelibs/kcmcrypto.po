@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcrypto\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:45+0100\n"
+"POT-Creation-Date: 2012-08-20 04:01+0200\n"
 "PO-Revision-Date: 2008-12-03 15:06+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -85,6 +85,91 @@ msgstr "प्रमाणपत्र केँ निवेदित फॉर
 #: certexport.cpp:126
 msgid "Error opening file for output."
 msgstr "फाइल केँ आउटपुट क' लेल खोलबा मे त्रुटि."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, D_GenCert)
+#: certgen.ui:14
+msgid "Certificate Creation Wizard"
+msgstr "प्रमाणपत्र बनाबै क' विजार्ड"
+
+#. i18n: ectx: property (text), widget (QLabel, T_CertType)
+#: certgen.ui:22
+msgid "Certificate type:"
+msgstr "प्रमाणपत्र प्रकार:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: certgen.ui:32
+msgid "Passphrase:"
+msgstr "पासफ्रेज़:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: certgen.ui:49
+msgid "Passphrase (verify):"
+msgstr "कूटशब्द (जाँचू):"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: certgen.ui:69
+msgid "Country code:"
+msgstr "देश कोड:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: certgen.ui:83
+msgid "State or province (in full):"
+msgstr "प्रदेश अथवा प्रांत (पूरा)"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: certgen.ui:97
+msgid "City:"
+msgstr "शहर:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: certgen.ui:111
+msgid "Organization name:"
+msgstr "संगठन नाम:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: certgen.ui:125
+msgid "Organizational unit/group:"
+msgstr "संगठनात्मक एकाइ/समूह:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel8)
+#: certgen.ui:139
+msgid "Full hostname of the server:"
+msgstr "सर्वर क' लेल पूरा होस्टनाम:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#: certgen.ui:153
+msgid "Email address:"
+msgstr "ईमेल पता:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel10)
+#: certgen.ui:167
+msgid "Days valid:"
+msgstr "दिन तक मान्य:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: certgen.ui:191
+msgid "Self sign"
+msgstr "स्व-हस्ताक्षरित"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel11)
+#: certgen.ui:201
+msgid "Digest:"
+msgstr "डाइजेस्ट:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12)
+#: certgen.ui:211
+msgid "Alias:"
+msgstr "उपनाम:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox2)
+#: certgen.ui:221
+msgid "Use DSA instead of RSA"
+msgstr "डीएसए केर बदला आरएसए इस्तेमाल करू"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel13)
+#: certgen.ui:228
+msgid "Bit strength:"
+msgstr "बिट सामर्थ्य:"
 
 #: crypto.cpp:109
 #, kde-format
@@ -784,57 +869,6 @@ msgstr "मिनट:"
 msgctxt "Set Seconds of Time"
 msgid "Second:"
 msgstr "सकेण्ड:"
-
-#~ msgid "Certificate Creation Wizard"
-#~ msgstr "प्रमाणपत्र बनाबै क' विजार्ड"
-
-#~ msgid "Certificate type:"
-#~ msgstr "प्रमाणपत्र प्रकार:"
-
-#~ msgid "Passphrase:"
-#~ msgstr "पासफ्रेज़:"
-
-#~ msgid "Passphrase (verify):"
-#~ msgstr "कूटशब्द (जाँचू):"
-
-#~ msgid "Country code:"
-#~ msgstr "देश कोड:"
-
-#~ msgid "State or province (in full):"
-#~ msgstr "प्रदेश अथवा प्रांत (पूरा)"
-
-#~ msgid "City:"
-#~ msgstr "शहर:"
-
-#~ msgid "Organization name:"
-#~ msgstr "संगठन नाम:"
-
-#~ msgid "Organizational unit/group:"
-#~ msgstr "संगठनात्मक एकाइ/समूह:"
-
-#~ msgid "Full hostname of the server:"
-#~ msgstr "सर्वर क' लेल पूरा होस्टनाम:"
-
-#~ msgid "Email address:"
-#~ msgstr "ईमेल पता:"
-
-#~ msgid "Days valid:"
-#~ msgstr "दिन तक मान्य:"
-
-#~ msgid "Self sign"
-#~ msgstr "स्व-हस्ताक्षरित"
-
-#~ msgid "Digest:"
-#~ msgstr "डाइजेस्ट:"
-
-#~ msgid "Alias:"
-#~ msgstr "उपनाम:"
-
-#~ msgid "Use DSA instead of RSA"
-#~ msgstr "डीएसए केर बदला आरएसए इस्तेमाल करू"
-
-#~ msgid "Bit strength:"
-#~ msgstr "बिट सामर्थ्य:"
 
 #~ msgid "Default Authentication Certificate"
 #~ msgstr "मूलभूत प्रमाणीकरण प्रमाणपत्र"

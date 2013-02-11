@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-08-20 05:29+0200\n"
 "PO-Revision-Date: 2010-01-29 16:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -149,6 +149,89 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] "%1 सेकण्ड बाकी:"
 msgstr[1] "%1 सेकण्ड बाकी:"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, LegacyRandRConfigBase)
+#: legacyrandrconfigbase.ui:14
+msgid "Screen Resize and Rotate Settings"
+msgstr "स्क्रीन आकार बदलनाइ आ सेटिंग घुमानाइ"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, LegacyRandRConfigBase)
+#: legacyrandrconfigbase.ui:17
+msgid ""
+"If this option is enabled, options set by the system tray applet will be "
+"saved and loaded when KDE starts instead of being temporary."
+msgstr ""
+" जँ ई विकल्प सक्षम कएल जाएत अछि, तंत्र तश्तरी मे सेट कएल गेल विकल्प केँ सहेज जएताह आ केडीई "
+"प्रारंभ हाएत तखन लोड हाएत बजाए जे ओ अस्थाइ रहए."
+
+#. i18n: ectx: property (text), widget (QLabel, screenLabel)
+#: legacyrandrconfigbase.ui:25
+msgid "Settings for screen:"
+msgstr "स्क्रीन क' लेल विन्यासः"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, screenCombo)
+#: legacyrandrconfigbase.ui:38
+msgid ""
+"The screen whose settings you would like to change can be selected using "
+"this drop-down list."
+msgstr ""
+"जे स्क्रीन क' विन्यास अहाँ बदलब चाहैत छी, ड्राप-डाउन सूची क' उपयोग सँ अहाँ ओकरा चुनि "
+"सकैत छी."
+
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: legacyrandrconfigbase.ui:49
+msgid "Screen size:"
+msgstr "स्क्रीन आकारः"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, sizeCombo)
+#: legacyrandrconfigbase.ui:62
+msgid ""
+"The size, otherwise known as the resolution, of your screen can be selected "
+"from this drop-down list."
+msgstr ""
+"आकार, जे आन प्रकार सँ अहाँक स्क्रीन रेज़ोल्यूशन क' नाम सँ जानल जाएत अछि,  एहि ड्राप-डाउन "
+"सूची सँ चयनित कएल जाए सकैत अछि."
+
+#. i18n: ectx: property (text), widget (QLabel, rateLabel)
+#: legacyrandrconfigbase.ui:73
+msgid "Refresh rate:"
+msgstr "ताजा करबाक दर:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, rateCombo)
+#: legacyrandrconfigbase.ui:83
+msgid ""
+"The refresh rate of your screen can be selected from this drop-down list."
+msgstr "अहाँक स्क्रीन क' रिफ्रेश दर एहि ड्राप-डाउन सूची सँ चयनित कएल जाए सकैत अछि."
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, rotationGroup)
+#: legacyrandrconfigbase.ui:98
+msgid ""
+"The options in this section allow you to change the rotation of your screen."
+msgstr "ई वर्ग क' विकल्प अहाँकेँ अहाँक स्क्रीन केँ घुमाबैक अनुमति देत अछि."
+
+#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
+#: legacyrandrconfigbase.ui:101
+msgid "Orientation (degrees counterclockwise)"
+msgstr "दिशा-निर्धारण (अंश घड़ीक विपरीत दिशा मे)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, applyOnStartup)
+#: legacyrandrconfigbase.ui:108
+msgid ""
+"If this option is enabled the size and orientation settings will be used "
+"when KDE starts."
+msgstr ""
+" जँ ई विकल्प सक्षम कएल जाइत अछि तँ जखन केडीई प्रारंभ हाएत तँ आकार तथा दिशा विन्यास "
+"इस्तेमाल कएल जएताह."
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyOnStartup)
+#: legacyrandrconfigbase.ui:111
+msgid "Apply settings on KDE startup"
+msgstr "केडीई प्रारंभ होएबाक समय विन्यास लोड करू"
+
+#. i18n: ectx: property (text), widget (QCheckBox, syncTrayApp)
+#: legacyrandrconfigbase.ui:118
+msgid "Allow tray application to change startup settings"
+msgstr "ट्रे अनुप्रयोग केँ शुरुआती विन्यासकेँ परिवर्तित करबाकक अनुमति दिअ'"
+
 #: legacyrandrscreen.cpp:140
 #, kde-format
 msgid ""
@@ -279,6 +362,32 @@ msgctxt "Automatic refresh rate configuration"
 msgid "Auto"
 msgstr "स्वचालित"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, OutputConfigBase)
+#: outputconfigbase.ui:26
+msgid "Output Config"
+msgstr "आउटपुट कान्फिग"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: outputconfigbase.ui:32
+msgid "Size:"
+msgstr "आकार:"
+
+#. i18n: ectx: property (text), widget (QLabel, rateLabel)
+#: outputconfigbase.ui:48
+msgid "Refresh:"
+msgstr "ताजा करू:"
+
+#. i18n: ectx: property (text), widget (QLabel, orientationLabel)
+#: outputconfigbase.ui:64
+msgid "Orientation:"
+msgstr "अभिमुखन:"
+
+#. i18n: ectx: property (text), widget (QLabel, positionLabel)
+#: outputconfigbase.ui:80
+msgctxt "Position of the screen"
+msgid "Position:"
+msgstr "स्थिति: "
+
 #: outputgraphicsitem.cpp:72
 #, kde-format
 msgctxt "Configuration options. Output name, width x height (refresh rate Hz)"
@@ -378,7 +487,8 @@ msgid ""
 "display will revert to your previous settings."
 msgstr ""
 
-#: randrconfig.cpp:61
+#. i18n: ectx: property (text), widget (QPushButton, saveAsDefaultButton)
+#: randrconfig.cpp:61 randrconfigbase.ui:81
 msgid "Save as Default"
 msgstr ""
 
@@ -422,92 +532,31 @@ msgstr ""
 msgid "Changing configuration failed. Please adjust your xorg.conf manually."
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, RandRConfigBase)
+#: randrconfigbase.ui:14
+msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
+msgstr "प्रदर्शक कान्फ़िगुरेशऩ (X11 नव आकार, घूर्णन, आओर प्रतिबिम्ब)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, unifyOutputs)
+#: randrconfigbase.ui:27
+#, fuzzy
+#| msgid "Unify Outputs"
+msgid "Unify outputs"
+msgstr "संयुक्त आउटपुट"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: randrconfigbase.ui:52
+#, fuzzy
+#| msgid "Unify Outputs"
+msgid "Primary output:"
+msgstr "संयुक्त आउटपुट"
+
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
+#: randrconfigbase.ui:74
+msgid "Identify Outputs"
+msgstr "आउटपुट पहिचानू"
+
 #: randrdisplay.cpp:49
 #, kde-format
 msgid "X Resize and Rotate extension version %1.%2"
 msgstr "एक्स नव आकार आ घुमैनाइ संस्करण %1.%2"
-
-#~ msgid "Screen Resize and Rotate Settings"
-#~ msgstr "स्क्रीन आकार बदलनाइ आ सेटिंग घुमानाइ"
-
-#~ msgid ""
-#~ "If this option is enabled, options set by the system tray applet will be "
-#~ "saved and loaded when KDE starts instead of being temporary."
-#~ msgstr ""
-#~ " जँ ई विकल्प सक्षम कएल जाएत अछि, तंत्र तश्तरी मे सेट कएल गेल विकल्प केँ सहेज जएताह आ "
-#~ "केडीई प्रारंभ हाएत तखन लोड हाएत बजाए जे ओ अस्थाइ रहए."
-
-#~ msgid "Settings for screen:"
-#~ msgstr "स्क्रीन क' लेल विन्यासः"
-
-#~ msgid ""
-#~ "The screen whose settings you would like to change can be selected using "
-#~ "this drop-down list."
-#~ msgstr ""
-#~ "जे स्क्रीन क' विन्यास अहाँ बदलब चाहैत छी, ड्राप-डाउन सूची क' उपयोग सँ अहाँ ओकरा चुनि "
-#~ "सकैत छी."
-
-#~ msgid "Screen size:"
-#~ msgstr "स्क्रीन आकारः"
-
-#~ msgid ""
-#~ "The size, otherwise known as the resolution, of your screen can be "
-#~ "selected from this drop-down list."
-#~ msgstr ""
-#~ "आकार, जे आन प्रकार सँ अहाँक स्क्रीन रेज़ोल्यूशन क' नाम सँ जानल जाएत अछि,  एहि ड्राप-"
-#~ "डाउन सूची सँ चयनित कएल जाए सकैत अछि."
-
-#~ msgid "Refresh rate:"
-#~ msgstr "ताजा करबाक दर:"
-
-#~ msgid ""
-#~ "The refresh rate of your screen can be selected from this drop-down list."
-#~ msgstr "अहाँक स्क्रीन क' रिफ्रेश दर एहि ड्राप-डाउन सूची सँ चयनित कएल जाए सकैत अछि."
-
-#~ msgid ""
-#~ "The options in this section allow you to change the rotation of your "
-#~ "screen."
-#~ msgstr "ई वर्ग क' विकल्प अहाँकेँ अहाँक स्क्रीन केँ घुमाबैक अनुमति देत अछि."
-
-#~ msgid "Orientation (degrees counterclockwise)"
-#~ msgstr "दिशा-निर्धारण (अंश घड़ीक विपरीत दिशा मे)"
-
-#~ msgid ""
-#~ "If this option is enabled the size and orientation settings will be used "
-#~ "when KDE starts."
-#~ msgstr ""
-#~ " जँ ई विकल्प सक्षम कएल जाइत अछि तँ जखन केडीई प्रारंभ हाएत तँ आकार तथा दिशा विन्यास "
-#~ "इस्तेमाल कएल जएताह."
-
-#~ msgid "Apply settings on KDE startup"
-#~ msgstr "केडीई प्रारंभ होएबाक समय विन्यास लोड करू"
-
-#~ msgid "Allow tray application to change startup settings"
-#~ msgstr "ट्रे अनुप्रयोग केँ शुरुआती विन्यासकेँ परिवर्तित करबाकक अनुमति दिअ'"
-
-#~ msgid "Output Config"
-#~ msgstr "आउटपुट कान्फिग"
-
-#~ msgid "Size:"
-#~ msgstr "आकार:"
-
-#~ msgid "Refresh:"
-#~ msgstr "ताजा करू:"
-
-#~ msgid "Orientation:"
-#~ msgstr "अभिमुखन:"
-
-#~ msgctxt "Position of the screen"
-#~ msgid "Position:"
-#~ msgstr "स्थिति: "
-
-#~ msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
-#~ msgstr "प्रदर्शक कान्फ़िगुरेशऩ (X11 नव आकार, घूर्णन, आओर प्रतिबिम्ब)"
-
-#, fuzzy
-#~| msgid "Unify Outputs"
-#~ msgid "Unify outputs"
-#~ msgstr "संयुक्त आउटपुट"
-
-#~ msgid "Identify Outputs"
-#~ msgstr "आउटपुट पहिचानू"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice-defaulttools\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:52+0100\n"
+"POT-Creation-Date: 2012-08-20 05:48+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -114,16 +114,22 @@ msgstr "स्नैपिंग"
 msgid "Default tool"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, rotateButton)
 #: defaulttool/DefaultToolTransformWidget.cpp:107
+#: defaulttool/DefaultToolTransformWidget.ui:38
 #: defaulttool/ShapeRotateStrategy.cpp:134
 msgid "Rotate"
 msgstr "घुमाबू"
 
+#. i18n: ectx: property (text), widget (QPushButton, shearXButton)
 #: defaulttool/DefaultToolTransformWidget.cpp:140
+#: defaulttool/DefaultToolTransformWidget.ui:64
 msgid "Shear X"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, shearYButton)
 #: defaulttool/DefaultToolTransformWidget.cpp:173
+#: defaulttool/DefaultToolTransformWidget.ui:90
 msgid "Shear Y"
 msgstr ""
 
@@ -132,14 +138,58 @@ msgstr ""
 msgid "Scale"
 msgstr "मापक"
 
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #: defaulttool/DefaultToolTransformWidget.cpp:269
+#: defaulttool/DefaultToolTransformWidget.ui:174
 msgid "Reset Transformations"
 msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
+#: defaulttool/DefaultToolTransformWidget.ui:25
+msgid "°"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleXSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleYSpinBox)
+#: defaulttool/DefaultToolTransformWidget.ui:106
+#: defaulttool/DefaultToolTransformWidget.ui:138
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:122
+#, fuzzy
+#| msgid "Scale"
+msgid "Scale X"
+msgstr "मापक"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:154
+#, fuzzy
+#| msgid "Scale"
+msgid "Scale Y"
+msgstr "मापक"
+
+#. i18n: ectx: property (text), widget (QCheckBox, scaleAspectCheckBox)
+#: defaulttool/DefaultToolTransformWidget.ui:161
+msgid "Keep aspect ratio"
+msgstr "पहलू अनुपात बनाए राखू"
 
 #: defaulttool/DefaultToolWidget.cpp:227
 #: defaulttool/ShapeResizeStrategy.cpp:231
 msgid "Resize"
 msgstr "आकार बदलू"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: defaulttool/DefaultToolWidget.ui:29
+msgid "X:"
+msgstr "X:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: defaulttool/DefaultToolWidget.ui:91
+msgid "Y:"
+msgstr "Y:"
 
 #: defaulttool/ShapeMoveStrategy.cpp:59
 msgid "Press ALT to hold x- or y-position."
@@ -161,37 +211,67 @@ msgstr "कतरू"
 msgid "Edit guidelines"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_horizontalCheckBox)
 #: guidestool/GuidesToolOptionWidget.cpp:30
+#: guidestool/InsertGuidesToolOptionWidget.ui:67
 msgid "Horizontal"
 msgstr "क्षैतिज"
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_verticalCheckBox)
 #: guidestool/GuidesToolOptionWidget.cpp:31
+#: guidestool/InsertGuidesToolOptionWidget.ui:31
 msgid "Vertical"
 msgstr "लम्बवत"
 
-#~ msgid "%"
-#~ msgstr "%"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: guidestool/GuidesToolOptionWidget.ui:16
+msgid "Orientation:"
+msgstr "अभिमुखन:"
 
-#~ msgid "Keep aspect ratio"
-#~ msgstr "पहलू अनुपात बनाए राखू"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: guidestool/GuidesToolOptionWidget.ui:29
+msgid "Position:"
+msgstr "स्थिति: "
 
-#~ msgid "X:"
-#~ msgstr "X:"
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: guidestool/GuidesToolOptionWidget.ui:39
+msgid "Add"
+msgstr "जोड़ू"
 
-#~ msgid "Y:"
-#~ msgstr "Y:"
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: guidestool/GuidesToolOptionWidget.ui:46
+msgid "Remove"
+msgstr "हटाबू"
 
-#~ msgid "Orientation:"
-#~ msgstr "अभिमुखन:"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_verticalCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:25
+msgid "Insert this number of vertical equally spaced guides."
+msgstr ""
 
-#~ msgid "Position:"
-#~ msgstr "स्थिति: "
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_horizontalCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:61
+msgid "Insert this number of horizontal equally spaced guides."
+msgstr ""
 
-#~ msgid "Add"
-#~ msgstr "जोड़ू"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_erasePreviousCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:97
+msgid "Erase previous guides."
+msgstr ""
 
-#~ msgid "Remove"
-#~ msgstr "हटाबू"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_verticalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:110
+msgid "Insert guides at the vertical edges."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_horizontalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:123
+msgid "Insert guides at the horizontal edges."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, m_createButton)
+#: guidestool/InsertGuidesToolOptionWidget.ui:149
+msgid "Create"
+msgstr ""
 
 #~ msgid "Type:"
 #~ msgstr "प्रकार:"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:39+0100\n"
+"POT-Creation-Date: 2013-02-11 17:33+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -463,6 +463,51 @@ msgstr "विचयनित करू"
 #: dolphinpart.cpp:502
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#: dolphinpart.rc:4
+msgid "&Edit"
+msgstr "सँपादित करू (&E)"
+
+#. i18n: ectx: Menu (selection)
+#: dolphinpart.rc:14
+msgctxt "@title:menu"
+msgid "Selection"
+msgstr "चुनाव"
+
+#. i18n: ectx: Menu (view)
+#: dolphinpart.rc:23
+msgid "&View"
+msgstr "दृश्य (&V)"
+
+#. i18n: ectx: Menu (go)
+#: dolphinpart.rc:32
+msgid "&Go"
+msgstr "जाउ (&G)"
+
+#. i18n: ectx: Menu (tools)
+#: dolphinpart.rc:40
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "अओजार"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinpart.rc:48
+msgctxt "@title:menu"
+msgid "Dolphin Toolbar"
+msgstr "डाल्फिन अओजार पट्टी"
+
+#. i18n: ectx: Menu (location_bar)
+#: dolphinui.rc:34
+msgctxt "@title:menu"
+msgid "Location Bar"
+msgstr "स्थान पट्टी"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: dolphinui.rc:88
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
 
 #: dolphinviewcontainer.cpp:414
 msgctxt "@info:progress"
@@ -1023,6 +1068,20 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "दस्ताबेज जकरा खोलनाइ अछि"
 
+#. i18n: ectx: label, entry (HiddenFilesShown), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:10
+#, fuzzy
+#| msgid "Show hidden files"
+msgid "Hidden files shown"
+msgstr "नुकल फाइलसभ देखाबू"
+
+#. i18n: ectx: label, entry (AutoScrolling), group (FoldersPanel)
+#: panels/folders/dolphin_folderspanelsettings.kcfg:14
+#, fuzzy
+#| msgid "Column width"
+msgid "Automatic scrolling"
+msgstr "कालम चओड़ाइ "
+
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
 msgid "Cut"
@@ -1068,6 +1127,14 @@ msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "गुण"
 
+#. i18n: ectx: label, entry (previewsShown), group (InformationPanel)
+#: panels/information/dolphin_informationpanelsettings.kcfg:10
+#, fuzzy
+#| msgctxt "@title:tab Previews settings"
+#| msgid "Previews"
+msgid "Previews shown"
+msgstr "पूर्वावलोकन"
+
 #: panels/information/filemetadataconfigurationdialog.cpp:33
 msgctxt "@title:window"
 msgid "Configure Shown Data"
@@ -1108,6 +1175,12 @@ msgstr "बजाउ"
 #: panels/information/phononwidget.cpp:135
 msgid "stop"
 msgstr "रोकू"
+
+#. i18n: ectx: label, entry (IconSize), group (PlacesPanel)
+#: panels/places/dolphin_placespanelsettings.kcfg:10
+msgid ""
+"Size of icons in the Places Panel (-1 means \"use the style's small size\")"
+msgstr ""
 
 #: panels/places/placesitem.cpp:152
 #, fuzzy
@@ -1393,6 +1466,24 @@ msgctxt "@title:window"
 msgid "Edit Places Entry"
 msgstr ""
 
+#. i18n: ectx: label, entry (Location), group (Search)
+#: search/dolphin_searchsettings.kcfg:10
+msgid "Location"
+msgstr "स्थान"
+
+#. i18n: ectx: label, entry (What), group (Search)
+#: search/dolphin_searchsettings.kcfg:14
+msgid "What"
+msgstr "की"
+
+#. i18n: ectx: label, entry (ShowFacetsWidget), group (Search)
+#: search/dolphin_searchsettings.kcfg:18
+#, fuzzy
+#| msgctxt "@option:check Startup Settings"
+#| msgid "Show filter bar"
+msgid "Show facets widget"
+msgstr "फिल्टर पट्टी देखाबू"
+
 #: search/dolphinfacetswidget.cpp:61
 #, fuzzy
 #| msgctxt "@info:credit"
@@ -1571,6 +1662,375 @@ msgstr "अतिरिक्त सूचना"
 #: settings/additionalinfodialog.cpp:49
 msgctxt "@label"
 msgid "Select which additional information should be shown:"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (CompactMode)
+#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:12
+#: settings/dolphin_detailsmodesettings.kcfg:16
+#: settings/dolphin_iconsmodesettings.kcfg:12
+msgid "Use system font"
+msgstr "तंत्र फोन्ट इस्तेमाल करू"
+
+#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
+#. i18n: ectx: label, entry (FontFamily), group (CompactMode)
+#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:16
+#: settings/dolphin_detailsmodesettings.kcfg:12
+#: settings/dolphin_iconsmodesettings.kcfg:16
+msgid "Font family"
+msgstr "फाँट परिवार"
+
+#. i18n: ectx: label, entry (FontSize), group (IconsMode)
+#. i18n: ectx: label, entry (FontSize), group (CompactMode)
+#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:20
+#: settings/dolphin_detailsmodesettings.kcfg:20
+#: settings/dolphin_iconsmodesettings.kcfg:20
+msgid "Font size"
+msgstr "फान्ट आकार"
+
+#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
+#. i18n: ectx: label, entry (ItalicFont), group (CompactMode)
+#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:24
+#: settings/dolphin_detailsmodesettings.kcfg:24
+#: settings/dolphin_iconsmodesettings.kcfg:24
+msgid "Italic"
+msgstr "तिरछा"
+
+#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
+#. i18n: ectx: label, entry (FontWeight), group (CompactMode)
+#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:28
+#: settings/dolphin_detailsmodesettings.kcfg:28
+#: settings/dolphin_iconsmodesettings.kcfg:28
+msgid "Font weight"
+msgstr "फान्ट दबाव"
+
+#. i18n: ectx: label, entry (IconSize), group (IconsMode)
+#. i18n: ectx: label, entry (IconSize), group (CompactMode)
+#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:32
+#: settings/dolphin_detailsmodesettings.kcfg:32
+#: settings/dolphin_iconsmodesettings.kcfg:32
+msgid "Icon size"
+msgstr "प्रतीक आकार"
+
+#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
+#. i18n: ectx: label, entry (PreviewSize), group (CompactMode)
+#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
+#: settings/dolphin_compactmodesettings.kcfg:36
+#: settings/dolphin_detailsmodesettings.kcfg:36
+#: settings/dolphin_iconsmodesettings.kcfg:36
+msgid "Preview size"
+msgstr "पूर्वावलोकन आकार"
+
+#. i18n: ectx: label, entry (MaximumTextWidthIndex), group (CompactMode)
+#: settings/dolphin_compactmodesettings.kcfg:40
+msgid "Maximum text width index (0 means unlimited)"
+msgstr ""
+
+#. i18n: ectx: label, entry (ColumnPositions), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:40
+msgid "Position of columns"
+msgstr ""
+
+#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
+#: settings/dolphin_detailsmodesettings.kcfg:44
+msgid "Expandable folders"
+msgstr "पसराल जाए सकैबला फोल्डर"
+
+#. i18n: ectx: label, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:11
+#, fuzzy
+#| msgid "Show hidden files"
+msgctxt "@label"
+msgid "Hidden files shown"
+msgstr "नुकल फाइलसभ देखाबू"
+
+#. i18n: ectx: whatsthis, entry (HiddenFilesShown), group (Settings)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:12
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled hidden files, such as those starting with a '.', "
+"will be shown in the file view."
+msgstr ""
+"जखन ई विकल्प सक्षम हएताह, तखन नुकाएल फाइलसभ जहिना जे '.' सँ प्रारंभ हएबला फाइलो केँ "
+"फाइल दृश्य मे देखाओल जएताह."
+
+#. i18n: ectx: label, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:19
+#, fuzzy
+#| msgctxt "@title::column"
+#| msgid "Version"
+msgctxt "@label"
+msgid "Version"
+msgstr "संस्करण"
+
+#. i18n: ectx: whatsthis, entry (Version), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:20
+msgctxt "@info:whatsthis"
+msgid "This option defines the used version of the view properties."
+msgstr ""
+
+#. i18n: ectx: label, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:25
+msgctxt "@label"
+msgid "View Mode"
+msgstr "दृश्य मोड"
+
+#. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:26
+msgctxt "@info:whatsthis"
+msgid ""
+"This option controls the style of the view. Currently supported values "
+"include icons (0), details (1) and column (2) views."
+msgstr ""
+"ई विकल्प दृश्य की शैली केँ नियंत्रित करैत अछि. वर्तमान मे समर्थित मूल्यसभ मे शामिल अछि - "
+"प्रतीक (०), विवरण (१) आओर स्तम्भ (२) दृश्य."
+
+#. i18n: ectx: label, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:31
+#, fuzzy
+#| msgctxt "@title:tab Previews settings"
+#| msgid "Previews"
+msgctxt "@label"
+msgid "Previews shown"
+msgstr "पूर्वावलोकन"
+
+#. i18n: ectx: whatsthis, entry (PreviewsShown), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:32
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, a preview of the file content is shown as an "
+"icon."
+msgstr "जखन ई विकल्प सक्षम कएल जाइछ तँ फाइलक सामग्री केँ प्रतीक केर रूपेँ देखाओल जाइछ."
+
+#. i18n: ectx: label, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:37
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Categorized Sorting"
+msgctxt "@label"
+msgid "Grouped Sorting"
+msgstr "श्रेणी केर अनुसार क्रमबद्ध"
+
+#. i18n: ectx: whatsthis, entry (GroupedSorting), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:38
+#, fuzzy
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "When this option is enabled, the sorted items are summarized by their "
+#| "category."
+msgctxt "@info:whatsthis"
+msgid ""
+"When this option is enabled, the sorted items are categorized into groups."
+msgstr ""
+"जखन ई विकल्प सक्षम कएल जाइछ तँ छांटल गेल वस्तुसभ केँ हुनकर श्रेणी केर अनुसार जमाएल जाइछ."
+
+#. i18n: ectx: label, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:43
+msgctxt "@label"
+msgid "Sort files by"
+msgstr "फाइल केँ एहिना छाँटू"
+
+#. i18n: ectx: whatsthis, entry (SortRole), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:44
+#, fuzzy
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "This option defines which attribute (name, size, date, etc.) sorting is "
+#| "performed on."
+msgctxt "@info:whatsthis"
+msgid ""
+"This option defines which attribute (text, size, date, etc.) sorting is "
+"performed on."
+msgstr "ई विकल्प निर्धारित करैत अछि जे कओन सँ गुण (नाम, आकार, तिथि आदि) पर छाँटल जाए."
+
+#. i18n: ectx: label, entry (SortOrder), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:49
+msgctxt "@label"
+msgid "Order in which to sort files"
+msgstr "फाइलसभ केँ छाँटबाक अनुक्रम"
+
+#. i18n: ectx: label, entry (SortFoldersFirst), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:56
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Show preview"
+msgctxt "@label"
+msgid "Show folders first when sorting files and folders"
+msgstr "पूर्वावलोकन देखाबू"
+
+#. i18n: ectx: label, entry (VisibleRoles), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:61
+msgctxt "@label"
+msgid "Visible roles"
+msgstr ""
+
+#. i18n: ectx: label, entry (HeaderColumnWidths), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:66
+#, fuzzy
+#| msgid "Column width"
+msgctxt "@label"
+msgid "Header column widths"
+msgstr "कालम चओड़ाइ "
+
+#. i18n: ectx: label, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:71
+msgctxt "@label"
+msgid "Properties last changed"
+msgstr "अंतिम बार बदलल गेल गुण"
+
+#. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:72
+msgctxt "@info:whatsthis"
+msgid "The last time these properties were changed by the user."
+msgstr "प्रयोक्ता द्वारा अंतिम बेर ई गुणसभ मे परिवर्तन कएल गेल छल."
+
+#. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
+#: settings/dolphin_directoryviewpropertysettings.kcfg:77
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Additional Information"
+msgctxt "@label"
+msgid "Additional Information"
+msgstr "अतिरिक्त सूचना"
+
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:13
+msgid "Should the URL be editable for the user"
+msgstr "की यूआरएल प्रयोक्ता द्वारा संपादित कएल जाए योग्य अछि"
+
+#. i18n: ectx: label, entry (UrlCompletionMode), group (General)
+#: settings/dolphin_generalsettings.kcfg:17
+msgid "Text completion mode of the URL Navigator"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: settings/dolphin_generalsettings.kcfg:21
+msgid "Should the full path be shown inside the location bar"
+msgstr "की स्थान पट्टीकेँ भीतर पूरा पथ देखाएल जएनाइ चाही"
+
+#. i18n: ectx: label, entry (Version), group (General)
+#: settings/dolphin_generalsettings.kcfg:25
+msgid ""
+"Internal version of Dolphin, containing 3 digits for major, minor, bugfix"
+msgstr ""
+
+#. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
+#: settings/dolphin_generalsettings.kcfg:29
+#, fuzzy
+#| msgid "Is the application started the first time"
+msgid ""
+"Have the startup settings been modified (internal setting not shown in the "
+"UI)"
+msgstr "की अनुप्रयोग केँ पहिल बेर चालू कएल गेल अछि"
+
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: settings/dolphin_generalsettings.kcfg:33
+msgid "Home URL"
+msgstr "मुख्य यूआरएल"
+
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: settings/dolphin_generalsettings.kcfg:37
+msgid "Split the view into two panes"
+msgstr "दृश्य केँ दुइ फलक मे विभाजित करू"
+
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: settings/dolphin_generalsettings.kcfg:41
+msgid "Should the filter bar be shown"
+msgstr "की फिल्टर पट्टी देखाएल जएनाइ चाही"
+
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: settings/dolphin_generalsettings.kcfg:45
+msgid "Should the view properties be used for all directories"
+msgstr "की सबहि डिरेक्ट्रीज क' लेल दृश्य गुणसभ क' इस्तेमाल कएल जाएनाइ चाही"
+
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: settings/dolphin_generalsettings.kcfg:49
+msgid "Browse through archives"
+msgstr "अभिलेखसभ मे ब्राउज करू"
+
+#. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
+#: settings/dolphin_generalsettings.kcfg:53
+msgid "Ask for confirmation when closing windows with multiple tabs."
+msgstr ""
+
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: settings/dolphin_generalsettings.kcfg:57
+msgid "Rename inline"
+msgstr "इनलाइन नाम बदलू"
+
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: settings/dolphin_generalsettings.kcfg:61
+msgid "Show selection toggle"
+msgstr "चयन टागल देखाबू"
+
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: settings/dolphin_generalsettings.kcfg:65
+msgid "Show tooltips"
+msgstr "टूलटिप देखाबू"
+
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
+#: settings/dolphin_generalsettings.kcfg:69
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "संदर्भित मेनू मे 'एतए नकल करू' आओर  'एतए घसकाबू' प्रविष्टिसभ देखाबू"
+
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: settings/dolphin_generalsettings.kcfg:73
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Timestamp since when the view properties are valid"
+msgid "Timestamp since when the view properties are valid"
+msgstr "समय चिह्न जखन सँ दृश्य गुण वैध रहताह"
+
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: settings/dolphin_generalsettings.kcfg:76
+msgid "Use auto-expanding folders for all view types"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: settings/dolphin_generalsettings.kcfg:80
+msgid "Show zoom slider in the statusbar"
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: settings/dolphin_generalsettings.kcfg:84
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgid "Show the space information in the statusbar"
+msgstr "सूचना"
+
+#. i18n: ectx: label, entry (LockPanels), group (General)
+#: settings/dolphin_generalsettings.kcfg:88
+msgid "Lock the layout of the panels"
+msgstr ""
+
+#. i18n: ectx: label, entry (EnlargeSmallPreviews), group (General)
+#: settings/dolphin_generalsettings.kcfg:92
+msgid "Enlarge Small Previews"
+msgstr ""
+
+#. i18n: ectx: label, entry (TextWidthIndex), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:40
+#, fuzzy
+#| msgctxt "@label:listbox"
+#| msgid "Text width:"
+msgid "Text width index"
+msgstr "पाठ चओड़ाइ:"
+
+#. i18n: ectx: label, entry (MaximumTextLines), group (IconsMode)
+#: settings/dolphin_iconsmodesettings.kcfg:44
+msgid "Maximum textlines (0 means unlimited)"
+msgstr ""
+
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: settings/dolphin_versioncontrolsettings.kcfg:10
+msgid "Enabled plugins"
 msgstr ""
 
 #: settings/dolphinsettingsdialog.cpp:46
@@ -2542,232 +3002,6 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "बाइली सूचना"
 
-#~ msgid "&Edit"
-#~ msgstr "सँपादित करू (&E)"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Selection"
-#~ msgstr "चुनाव"
-
-#~ msgid "&View"
-#~ msgstr "दृश्य (&V)"
-
-#~ msgid "&Go"
-#~ msgstr "जाउ (&G)"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Tools"
-#~ msgstr "अओजार"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Dolphin Toolbar"
-#~ msgstr "डाल्फिन अओजार पट्टी"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Location Bar"
-#~ msgstr "स्थान पट्टी"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Main Toolbar"
-#~ msgstr "मुख्य अओजार पट्टी"
-
-#, fuzzy
-#~| msgid "Show hidden files"
-#~ msgid "Hidden files shown"
-#~ msgstr "नुकल फाइलसभ देखाबू"
-
-#, fuzzy
-#~| msgctxt "@title:tab Previews settings"
-#~| msgid "Previews"
-#~ msgid "Previews shown"
-#~ msgstr "पूर्वावलोकन"
-
-#~ msgid "Location"
-#~ msgstr "स्थान"
-
-#~ msgid "What"
-#~ msgstr "की"
-
-#, fuzzy
-#~| msgctxt "@option:check Startup Settings"
-#~| msgid "Show filter bar"
-#~ msgid "Show facets widget"
-#~ msgstr "फिल्टर पट्टी देखाबू"
-
-#~ msgid "Use system font"
-#~ msgstr "तंत्र फोन्ट इस्तेमाल करू"
-
-#~ msgid "Font family"
-#~ msgstr "फाँट परिवार"
-
-#~ msgid "Font size"
-#~ msgstr "फान्ट आकार"
-
-#~ msgid "Italic"
-#~ msgstr "तिरछा"
-
-#~ msgid "Font weight"
-#~ msgstr "फान्ट दबाव"
-
-#~ msgid "Icon size"
-#~ msgstr "प्रतीक आकार"
-
-#~ msgid "Preview size"
-#~ msgstr "पूर्वावलोकन आकार"
-
-#~ msgid "Expandable folders"
-#~ msgstr "पसराल जाए सकैबला फोल्डर"
-
-#, fuzzy
-#~| msgid "Show hidden files"
-#~ msgctxt "@label"
-#~ msgid "Hidden files shown"
-#~ msgstr "नुकल फाइलसभ देखाबू"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "When this option is enabled hidden files, such as those starting with a "
-#~ "'.', will be shown in the file view."
-#~ msgstr ""
-#~ "जखन ई विकल्प सक्षम हएताह, तखन नुकाएल फाइलसभ जहिना जे '.' सँ प्रारंभ हएबला फाइलो "
-#~ "केँ फाइल दृश्य मे देखाओल जएताह."
-
-#, fuzzy
-#~| msgctxt "@title::column"
-#~| msgid "Version"
-#~ msgctxt "@label"
-#~ msgid "Version"
-#~ msgstr "संस्करण"
-
-#~ msgctxt "@label"
-#~ msgid "View Mode"
-#~ msgstr "दृश्य मोड"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "This option controls the style of the view. Currently supported values "
-#~ "include icons (0), details (1) and column (2) views."
-#~ msgstr ""
-#~ "ई विकल्प दृश्य की शैली केँ नियंत्रित करैत अछि. वर्तमान मे समर्थित मूल्यसभ मे शामिल अछि - "
-#~ "प्रतीक (०), विवरण (१) आओर स्तम्भ (२) दृश्य."
-
-#, fuzzy
-#~| msgctxt "@title:tab Previews settings"
-#~| msgid "Previews"
-#~ msgctxt "@label"
-#~ msgid "Previews shown"
-#~ msgstr "पूर्वावलोकन"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "When this option is enabled, a preview of the file content is shown as an "
-#~ "icon."
-#~ msgstr "जखन ई विकल्प सक्षम कएल जाइछ तँ फाइलक सामग्री केँ प्रतीक केर रूपेँ देखाओल जाइछ."
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Categorized Sorting"
-#~ msgctxt "@label"
-#~ msgid "Grouped Sorting"
-#~ msgstr "श्रेणी केर अनुसार क्रमबद्ध"
-
-#, fuzzy
-#~| msgctxt "@info:whatsthis"
-#~| msgid ""
-#~| "When this option is enabled, the sorted items are summarized by their "
-#~| "category."
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "When this option is enabled, the sorted items are categorized into groups."
-#~ msgstr ""
-#~ "जखन ई विकल्प सक्षम कएल जाइछ तँ छांटल गेल वस्तुसभ केँ हुनकर श्रेणी केर अनुसार जमाएल जाइछ."
-
-#~ msgctxt "@label"
-#~ msgid "Sort files by"
-#~ msgstr "फाइल केँ एहिना छाँटू"
-
-#, fuzzy
-#~| msgctxt "@info:whatsthis"
-#~| msgid ""
-#~| "This option defines which attribute (name, size, date, etc.) sorting is "
-#~| "performed on."
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "This option defines which attribute (text, size, date, etc.) sorting is "
-#~ "performed on."
-#~ msgstr ""
-#~ "ई विकल्प निर्धारित करैत अछि जे कओन सँ गुण (नाम, आकार, तिथि आदि) पर छाँटल जाए."
-
-#~ msgctxt "@label"
-#~ msgid "Order in which to sort files"
-#~ msgstr "फाइलसभ केँ छाँटबाक अनुक्रम"
-
-#, fuzzy
-#~| msgid "Column width"
-#~ msgctxt "@label"
-#~ msgid "Header column widths"
-#~ msgstr "कालम चओड़ाइ "
-
-#~ msgctxt "@label"
-#~ msgid "Properties last changed"
-#~ msgstr "अंतिम बार बदलल गेल गुण"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid "The last time these properties were changed by the user."
-#~ msgstr "प्रयोक्ता द्वारा अंतिम बेर ई गुणसभ मे परिवर्तन कएल गेल छल."
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "Additional Information"
-#~ msgctxt "@label"
-#~ msgid "Additional Information"
-#~ msgstr "अतिरिक्त सूचना"
-
-#~ msgid "Should the URL be editable for the user"
-#~ msgstr "की यूआरएल प्रयोक्ता द्वारा संपादित कएल जाए योग्य अछि"
-
-#~ msgid "Should the full path be shown inside the location bar"
-#~ msgstr "की स्थान पट्टीकेँ भीतर पूरा पथ देखाएल जएनाइ चाही"
-
-#~ msgid "Home URL"
-#~ msgstr "मुख्य यूआरएल"
-
-#~ msgid "Split the view into two panes"
-#~ msgstr "दृश्य केँ दुइ फलक मे विभाजित करू"
-
-#~ msgid "Should the filter bar be shown"
-#~ msgstr "की फिल्टर पट्टी देखाएल जएनाइ चाही"
-
-#~ msgid "Should the view properties be used for all directories"
-#~ msgstr "की सबहि डिरेक्ट्रीज क' लेल दृश्य गुणसभ क' इस्तेमाल कएल जाएनाइ चाही"
-
-#~ msgid "Browse through archives"
-#~ msgstr "अभिलेखसभ मे ब्राउज करू"
-
-#~ msgid "Rename inline"
-#~ msgstr "इनलाइन नाम बदलू"
-
-#~ msgid "Show selection toggle"
-#~ msgstr "चयन टागल देखाबू"
-
-#~ msgid "Show tooltips"
-#~ msgstr "टूलटिप देखाबू"
-
-#~ msgid "Show 'Copy To' and 'Move To' commands in context menu"
-#~ msgstr "संदर्भित मेनू मे 'एतए नकल करू' आओर  'एतए घसकाबू' प्रविष्टिसभ देखाबू"
-
-#, fuzzy
-#~| msgctxt "@label"
-#~| msgid "Timestamp since when the view properties are valid"
-#~ msgid "Timestamp since when the view properties are valid"
-#~ msgstr "समय चिह्न जखन सँ दृश्य गुण वैध रहताह"
-
-#, fuzzy
-#~| msgctxt "@label:listbox"
-#~| msgid "Text width:"
-#~ msgid "Text width index"
-#~ msgstr "पाठ चओड़ाइ:"
-
 #, fuzzy
 #~| msgid "Show tooltips"
 #~ msgid "Zoom slider"
@@ -2985,13 +3219,6 @@ msgstr "बाइली सूचना"
 #~ msgctxt "@option:check"
 #~ msgid "Rename inline"
 #~ msgstr "इनलाइन नाम बदलू"
-
-#, fuzzy
-#~| msgid "Is the application started the first time"
-#~ msgid ""
-#~ "Is the application started the first time (internal setting not shown in "
-#~ "the UI)"
-#~ msgstr "की अनुप्रयोग केँ पहिल बेर चालू कएल गेल अछि"
 
 #~ msgctxt "@title:tab"
 #~ msgid "Column"

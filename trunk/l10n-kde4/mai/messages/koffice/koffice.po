@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:52+0100\n"
+"POT-Creation-Date: 2012-10-30 05:29+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -489,6 +489,48 @@ msgstr ""
 msgid "Error!"
 msgstr "त्रुटि!"
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, nodeSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:33
+msgid "Nodes"
+msgstr "नोड"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, extensionSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:53
+msgid "Extension of lines"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, boundingBoxSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:73
+msgid "Bounding box of shape"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, snapDistance)
+#: flake/SnapGuideConfigWidget.ui:93
+msgid "Proximity distance where snapping happens"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, snapDistance)
+#: flake/SnapGuideConfigWidget.ui:96
+msgid " px"
+msgstr " px"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, orthogonalSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:109
+msgid "Orthogonal"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, intersectionSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:129
+msgid "Intersection of lines"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, lineGuideSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:149
+#, fuzzy
+#| msgid "Underline"
+msgid "Guide lines"
+msgstr "रेखांकित"
+
 #: flake/tools/KCreatePathTool.cpp:370 flake/tools/KPathTool.cpp:181
 msgid "Snapping"
 msgstr "स्नैपिंग"
@@ -608,6 +650,61 @@ msgstr ""
 msgid "Zoom"
 msgstr "जूम"
 
+#. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
+#: flake/tools/KZoomToolWidget.ui:20
+msgid "Zoom In"
+msgstr "ज़ूम इन"
+
+#. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
+#: flake/tools/KZoomToolWidget.ui:30
+msgid "Zoom Out"
+msgstr "ज़ूम आउट"
+
+#. i18n: ectx: property (text), widget (QToolButton, corner)
+#. i18n: ectx: property (text), widget (QToolButton, smooth)
+#. i18n: ectx: property (text), widget (QToolButton, symmetric)
+#. i18n: ectx: property (text), widget (QToolButton, lineSegment)
+#. i18n: ectx: property (text), widget (QToolButton, curveSegment)
+#. i18n: ectx: property (text), widget (QToolButton, linePoint)
+#. i18n: ectx: property (text), widget (QToolButton, curvePoint)
+#. i18n: ectx: property (text), widget (QToolButton, addPoint)
+#. i18n: ectx: property (text), widget (QToolButton, removePoint)
+#. i18n: ectx: property (text), widget (QToolButton, breakPoint)
+#. i18n: ectx: property (text), widget (QToolButton, breakSegment)
+#. i18n: ectx: property (text), widget (QToolButton, joinSegment)
+#. i18n: ectx: property (text), widget (QToolButton, mergePoints)
+#. i18n: ectx: property (text), widget (QToolButton, add)
+#. i18n: ectx: property (text), widget (QToolButton, remove)
+#. i18n: ectx: property (text), widget (QToolButton, open)
+#. i18n: ectx: property (text), widget (QToolButton, save)
+#: flake/tools/PathToolOptionWidget.ui:39
+#: flake/tools/PathToolOptionWidget.ui:46
+#: flake/tools/PathToolOptionWidget.ui:53
+#: flake/tools/PathToolOptionWidget.ui:73
+#: flake/tools/PathToolOptionWidget.ui:80
+#: flake/tools/PathToolOptionWidget.ui:87
+#: flake/tools/PathToolOptionWidget.ui:94
+#: flake/tools/PathToolOptionWidget.ui:101
+#: flake/tools/PathToolOptionWidget.ui:108
+#: flake/tools/PathToolOptionWidget.ui:115
+#: flake/tools/PathToolOptionWidget.ui:122
+#: flake/tools/PathToolOptionWidget.ui:129
+#: flake/tools/PathToolOptionWidget.ui:136 widgets/KoEditColorSet.ui:48
+#: widgets/KoEditColorSet.ui:58 widgets/KoEditColorSet.ui:68
+#: widgets/KoEditColorSet.ui:78
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, propertiesBox)
+#: flake/tools/PathToolOptionWidget.ui:183
+msgid "Properties"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, convertToPath)
+#: flake/tools/PathToolOptionWidget.ui:190
+msgid "Convert To Path"
+msgstr ""
+
 #: kokross/KoScriptingDocker.cpp:67 kokross/KoScriptingPart.cpp:85
 msgid "Scripts"
 msgstr "स्क्रिप्ट"
@@ -711,8 +808,9 @@ msgstr ""
 msgid "Install online script package"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, add)
 #: kokross/KoScriptManagerAdd.cpp:271 kokross/KoScriptManagerAdd.cpp:274
-#: pigment/compositeops/KoCompositeOpAdd.h:36
+#: pigment/compositeops/KoCompositeOpAdd.h:36 widgets/KoEditColorSet.ui:45
 msgid "Add"
 msgstr "जोड़ू"
 
@@ -1060,7 +1158,8 @@ msgstr ""
 msgid "Page Layout..."
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:311
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: kopageapp/KoPAView.cpp:311 main/rdf/KoSemanticStylesheetsEditor.ui:63
 msgid "Variable"
 msgstr "परिवर्तनीय"
 
@@ -1094,6 +1193,21 @@ msgstr ""
 #| msgid "Change"
 msgid "Change page layout"
 msgstr "बदलू"
+
+#. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
+#: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:18
+msgid "Set background image ..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, useMasterBackground)
+#: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:25
+msgid "Use master background"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, displayMasterShapes)
+#: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:32
+msgid "Display shapes of master"
+msgstr ""
 
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:91
 msgid "Background Tool"
@@ -1326,7 +1440,9 @@ msgstr ""
 msgid "Line Break"
 msgstr "खण्डन जोडू"
 
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
 #: kotext/KoTextEditor_p.h:93 kotext/KoTextEditor_p.h:130
+#: widgets/KoCsvImportDialog.ui:147
 msgid "Format"
 msgstr "प्रारूप"
 
@@ -1477,6 +1593,21 @@ msgstr ""
 #: main/KoApplicationAdaptor.cpp:50
 #, kde-format
 msgid "Unknown KOffice MimeType %1. Check your installation."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KoDetailsPaneBase)
+#: main/KoDetailsPaneBase.ui:14
+msgid "DetailsPaneBase"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_alwaysUseCheckBox)
+#: main/KoDetailsPaneBase.ui:94
+msgid "Always use this template at application start up"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_alwaysUseCheckBox)
+#: main/KoDetailsPaneBase.ui:97
+msgid "Always use this template"
 msgstr ""
 
 #: main/KoDocument.cpp:503
@@ -1729,6 +1860,151 @@ msgstr ""
 msgid "Unknown"
 msgstr "अज्ञात"
 
+#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
+#: main/koDocumentInfoAboutWidget.ui:16
+msgid "Path:"
+msgstr "पथः"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: main/koDocumentInfoAboutWidget.ui:37 main/koDocumentInfoAuthorWidget.ui:60
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
+#: main/koDocumentInfoAboutWidget.ui:50
+msgid "Subject:"
+msgstr "विषय:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
+#: main/koDocumentInfoAboutWidget.ui:63
+msgid "Keywords:"
+msgstr "बीजशब्द:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
+#: main/koDocumentInfoAboutWidget.ui:80
+msgid "Comments:"
+msgstr "टिप्पणीसभ:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
+#: main/koDocumentInfoAboutWidget.ui:109
+msgid "Type:"
+msgstr "प्रकार:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
+#: main/koDocumentInfoAboutWidget.ui:129
+msgid "Created:"
+msgstr "बनएलक:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
+#: main/koDocumentInfoAboutWidget.ui:149
+msgid "Modified:"
+msgstr "परिवर्धितः"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
+#: main/koDocumentInfoAboutWidget.ui:169
+msgid "Last printed:"
+msgstr "छपाइ कएल:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
+#: main/koDocumentInfoAboutWidget.ui:189
+msgid "Total editing time:"
+msgstr "कुल संपादनक समय:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbReset)
+#: main/koDocumentInfoAboutWidget.ui:215
+msgid "&Reset"
+msgstr "फिनु सेट करू (&R)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
+#: main/koDocumentInfoAboutWidget.ui:228
+msgid "Revision number:"
+msgstr "संशोधन संख्या:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
+#: main/koDocumentInfoAboutWidget.ui:242
+#, fuzzy
+#| msgid "Position"
+msgid "Encryption:"
+msgstr "स्थिति"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#: main/koDocumentInfoAboutWidget.ui:301 main/KoDocumentInfoDlg.cpp:237
+#: main/KoDocumentInfoDlg.cpp:379
+msgid "&Encrypt"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
+#: main/koDocumentInfoAuthorWidget.ui:16 main/KoTemplateCreateDia.cpp:127
+msgid "Name:"
+msgstr "नाम:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
+#: main/koDocumentInfoAuthorWidget.ui:40
+#, fuzzy
+#| msgid "Untitled"
+msgid "Initials:"
+msgstr "अनाम"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#: main/koDocumentInfoAuthorWidget.ui:73
+msgid "Position:"
+msgstr "स्थिति: "
+
+#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
+#: main/koDocumentInfoAuthorWidget.ui:86
+msgid "Company:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
+#: main/koDocumentInfoAuthorWidget.ui:99
+msgid "Email:"
+msgstr "इमेलः"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
+#: main/koDocumentInfoAuthorWidget.ui:112
+msgid "Telephone (home):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
+#: main/koDocumentInfoAuthorWidget.ui:125
+msgid "Telephone (work):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
+#: main/koDocumentInfoAuthorWidget.ui:138
+msgid "Fax:"
+msgstr "फैक्सः"
+
+#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
+#: main/koDocumentInfoAuthorWidget.ui:151
+msgid "Street:"
+msgstr "सड़कः"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#: main/koDocumentInfoAuthorWidget.ui:164
+msgid "Postal code:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
+#: main/koDocumentInfoAuthorWidget.ui:177
+msgid "City:"
+msgstr "शहर:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
+#: main/koDocumentInfoAuthorWidget.ui:190
+msgid "Country:"
+msgstr "देश:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbLoadKABC)
+#: main/koDocumentInfoAuthorWidget.ui:222
+msgid "&Load From Address Book"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#: main/koDocumentInfoAuthorWidget.ui:235
+msgid "&Delete Personal Data"
+msgstr ""
+
 #: main/KoDocumentInfoDlg.cpp:89 main/KoMainWindow.cpp:283
 msgid "Document Information"
 msgstr "दस्ताबेज जानकारी"
@@ -1777,10 +2053,6 @@ msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:235 main/KoDocumentInfoDlg.cpp:377
 msgid "This document is not encrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:237 main/KoDocumentInfoDlg.cpp:379
-msgid "&Encrypt"
 msgstr ""
 
 #: main/KoDocumentInfoDlg.cpp:241
@@ -1877,6 +2149,21 @@ msgstr "नहि"
 #: main/KoOpenPane.cpp:358 main/KoOpenPane.cpp:362
 msgid "Open Document"
 msgstr "दस्तावेज खोलू"
+
+#. i18n: ectx: Menu (file)
+#: main/koffice_shell.rc:4
+msgid "&File"
+msgstr "फाइल (&F)"
+
+#. i18n: ectx: Menu (settings)
+#: main/koffice_shell.rc:31
+msgid "&Settings"
+msgstr "जमावट (&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: main/koffice_shell.rc:44
+msgid "File"
+msgstr "फाइल"
 
 #: main/KoFileDialog.cpp:98
 #, kde-format
@@ -2156,10 +2443,6 @@ msgstr ""
 msgid "Create Template"
 msgstr ""
 
-#: main/KoTemplateCreateDia.cpp:127
-msgid "Name:"
-msgstr "नाम:"
-
 #: main/KoTemplateCreateDia.cpp:138
 msgid "Group:"
 msgstr "समूह:"
@@ -2313,6 +2596,169 @@ msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
 msgstr ""
 
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: main/rdf/KoDocumentRdfEditWidget.ui:21
+#, fuzzy
+#| msgid "Title:"
+msgid "Triples"
+msgstr "शीर्षक:"
+
+#. i18n: ectx: property (text), widget (QPushButton, newTripleButton)
+#. i18n: ectx: property (text), widget (QPushButton, newNamespaceButton)
+#. i18n: ectx: property (text), widget (QPushButton, newStylesheet)
+#: main/rdf/KoDocumentRdfEditWidget.ui:39
+#: main/rdf/KoDocumentRdfEditWidget.ui:84
+#: main/rdf/KoSemanticStylesheetsEditor.ui:83
+msgid "new"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, copyTripleButton)
+#: main/rdf/KoDocumentRdfEditWidget.ui:46
+#, fuzzy
+#| msgid "Copy"
+msgid "copy"
+msgstr "कापी करू"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteTripleButton)
+#. i18n: ectx: property (text), widget (QPushButton, deleteNamespaceButton)
+#. i18n: ectx: property (text), widget (QPushButton, deleteStylesheet)
+#: main/rdf/KoDocumentRdfEditWidget.ui:53
+#: main/rdf/KoDocumentRdfEditWidget.ui:91
+#: main/rdf/KoSemanticStylesheetsEditor.ui:90
+#, fuzzy
+#| msgid "Delete"
+msgid "delete"
+msgstr "मेटाबू"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: main/rdf/KoDocumentRdfEditWidget.ui:76
+#, fuzzy
+#| msgid "Replace"
+msgid "Namespaces"
+msgstr "बदलू"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
+#: main/rdf/KoDocumentRdfEditWidget.ui:123
+msgid "Prefix"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
+#: main/rdf/KoDocumentRdfEditWidget.ui:128
+#, fuzzy
+#| msgid "Replace"
+msgid "Namespace"
+msgstr "बदलू"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: main/rdf/KoDocumentRdfEditWidget.ui:137
+msgid "Semantic"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: main/rdf/KoDocumentRdfEditWidget.ui:156
+msgid "SPARQL"
+msgstr ""
+
+#. i18n: ectx: property (html), widget (KTextEdit, m_sparqlQuery)
+#: main/rdf/KoDocumentRdfEditWidget.ui:182
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Verdana'; font-size:13pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"># Insert your SPARQL query "
+"here<br /># Results are shown below.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">prefix rdf:  &lt;http://"
+"www.w3.org/1999/02/22-rdf-syntax-ns#&gt; </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">prefix foaf: &lt;http://"
+"xmlns.com/foaf/0.1/&gt; </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">prefix pkg:  &lt;http://"
+"docs.oasis-open.org/opendocument/meta/package/common#&gt; </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">prefix geo84: &lt;http://"
+"www.w3.org/2003/01/geo/wgs84_pos#&gt;</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">select ?s ?p ?o </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">where { </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> ?s ?p ?o </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">}</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
+#: main/rdf/KoDocumentRdfEditWidget.ui:191
+#, fuzzy
+#| msgctxt "Page size"
+#| msgid "US Executive"
+msgid "Execute"
+msgstr "यूएस एक्जीक्यूटिव़"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: main/rdf/KoDocumentRdfEditWidget.ui:221
+#, fuzzy
+#| msgid "Slide"
+msgid "Stylesheets"
+msgstr "स्लाइड"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: main/rdf/KoDocumentRdfEditWidget.ui:227
+msgid "Contacts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main/rdf/KoDocumentRdfEditWidget.ui:240 main/rdf/KoRdfSemanticTree.cpp:52
+msgid "Events"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: main/rdf/KoDocumentRdfEditWidget.ui:256 main/rdf/KoRdfSemanticTree.cpp:55
+msgid "Locations"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: main/rdf/KoDocumentRdfEditWidget.ui:279
+msgid ""
+"Set the default stylesheet for Semantic objects in this document. New RDF "
+"objects will use this stylesheet automatically. The buttons allow you to set "
+"the stylesheet for all existing semantic objects to the new default "
+"stylesheet as well."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_defaultContactsSheetButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_defaultEventsSheetButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_defaultLocationsSheetButton)
+#. i18n: ectx: property (text), widget (QPushButton, m_setAllStylesheetsButton)
+#: main/rdf/KoDocumentRdfEditWidget.ui:289
+#: main/rdf/KoDocumentRdfEditWidget.ui:296
+#: main/rdf/KoDocumentRdfEditWidget.ui:303
+#: main/rdf/KoDocumentRdfEditWidget.ui:310
+msgid "Set For All Existing"
+msgstr ""
+
 #: main/rdf/KoRdfCalendarEvent.cpp:200
 msgid "Area"
 msgstr ""
@@ -2337,6 +2783,42 @@ msgid ""
 "%1"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: main/rdf/KoRdfCalendarEventEditWidget.ui:20
+msgid "Summary"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main/rdf/KoRdfCalendarEventEditWidget.ui:27
+#, fuzzy
+#| msgid "Position"
+msgid "Location"
+msgstr "स्थिति"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: main/rdf/KoRdfCalendarEventEditWidget.ui:37
+#, fuzzy
+#| msgid "Street:"
+msgid "Start"
+msgstr "सड़कः"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: main/rdf/KoRdfCalendarEventEditWidget.ui:44
+msgid "End"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tadtab)
+#: main/rdf/KoRdfCalendarEventEditWidget.ui:65
+msgid "Time and Date"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tztab)
+#: main/rdf/KoRdfCalendarEventEditWidget.ui:78
+#, fuzzy
+#| msgid "Time:"
+msgid "Timezone"
+msgstr "समय:"
+
 #: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:43
 msgid "Calendar Event"
 msgstr ""
@@ -2355,6 +2837,32 @@ msgstr ""
 #: main/rdf/KoRdfCalendarEventTreeWidgetItem.cpp:56
 msgid "Export event to iCal file..."
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main/rdf/KoRdfFoaFEditWidget.ui:26 main/rdf/KoRdfLocationEditWidget.ui:17
+#: main/rdf/KoRdfLocationViewWidget.ui:24
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "नाम:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main/rdf/KoRdfFoaFEditWidget.ui:33
+msgid "Nick"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: main/rdf/KoRdfFoaFEditWidget.ui:40
+msgid "Phone Number"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: main/rdf/KoRdfFoaFEditWidget.ui:50
+#, fuzzy
+#| msgid "Copy Page"
+msgid "Home Page"
+msgstr "कोपी करू पृष्ठ"
 
 #: main/rdf/KoRdfFoaFTreeWidgetItem.cpp:53
 #, fuzzy
@@ -2386,14 +2894,6 @@ msgstr "दस्ताबेज जानकारी"
 msgid "People"
 msgstr "बदलू"
 
-#: main/rdf/KoRdfSemanticTree.cpp:52
-msgid "Events"
-msgstr ""
-
-#: main/rdf/KoRdfSemanticTree.cpp:55
-msgid "Locations"
-msgstr ""
-
 #: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:111
 msgid "Apply Stylesheet"
 msgstr ""
@@ -2421,6 +2921,28 @@ msgstr ""
 #: main/rdf/KoRdfSemanticTreeWidgetItem.cpp:161
 #, kde-format
 msgid "Edit %1"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: main/rdf/KoSemanticStylesheetsEditor.ui:17
+msgid "Stylesheet Definition"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: main/rdf/KoSemanticStylesheetsEditor.ui:29
+msgid "Variables Available"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: main/rdf/KoSemanticStylesheetsEditor.ui:68
+#, fuzzy
+#| msgid "Position"
+msgid "Description"
+msgstr "स्थिति"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
+#: main/rdf/KoSemanticStylesheetsEditor.ui:113
+msgid "Stylesheet Name"
 msgstr ""
 
 #: main/rdf/KoSopranoTableModel.cpp:80
@@ -2781,8 +3303,9 @@ msgstr "दिनांक"
 msgid "Currency"
 msgstr "मुद्रा"
 
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboQuote)
 #: widgets/KoCsvImportDialog.cpp:222 widgets/KoCsvImportDialog.cpp:575
-#: widgets/KoCsvImportDialog.cpp:682
+#: widgets/KoCsvImportDialog.cpp:682 widgets/KoCsvImportDialog.ui:268
 msgid "None"
 msgstr "किछु नहि"
 
@@ -2796,6 +3319,140 @@ msgstr ""
 #, kde-format
 msgid "Cannot find encoding: %1"
 msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
+#: widgets/KoCsvImportDialog.ui:52
+msgid "Data"
+msgstr "आँकड़ा"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: widgets/KoCsvImportDialog.ui:66
+msgid "E&ncoding:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_firstRowHeader)
+#: widgets/KoCsvImportDialog.ui:110
+msgid "First row contains headers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
+#: widgets/KoCsvImportDialog.ui:123
+msgid "First column contains headers"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_delimiterBox)
+#: widgets/KoCsvImportDialog.ui:159
+msgid "Delimiter"
+msgstr "परिसीमक"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
+#: widgets/KoCsvImportDialog.ui:165
+msgid "Comma"
+msgstr "विराम चिह्न"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
+#: widgets/KoCsvImportDialog.ui:175
+msgid "Semicolon"
+msgstr "अर्द्ध विराम"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
+#: widgets/KoCsvImportDialog.ui:182
+msgid "Other"
+msgstr "आन"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
+#: widgets/KoCsvImportDialog.ui:189
+msgid "Tabulator"
+msgstr "सारणीयक"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
+#: widgets/KoCsvImportDialog.ui:196
+msgid "Space"
+msgstr "अंतरिक्ष"
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: widgets/KoCsvImportDialog.ui:241
+msgid "Text&quote:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.ui:258
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.ui:263
+msgid "'"
+msgstr "'"
+
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#: widgets/KoCsvImportDialog.ui:292
+msgid "Decimal symbol:"
+msgstr "दशमलवक संकेत:"
+
+#. i18n: ectx: property (text), widget (QLabel, label4)
+#: widgets/KoCsvImportDialog.ui:321
+msgid "Thousands separator:"
+msgstr "हजारक अलगकएनिहार:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
+#: widgets/KoCsvImportDialog.ui:366
+msgid "Ignore duplicate delimiters"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: widgets/KoCsvImportDialog.ui:373
+msgid "&Format:"
+msgstr "फॉर्मेट: (&F)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_rangesTab)
+#: widgets/KoCsvImportDialog.ui:387
+msgid "Ranges"
+msgstr "परिसर"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
+#: widgets/KoCsvImportDialog.ui:393
+msgid "Update"
+msgstr "अद्यतन"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#: widgets/KoCsvImportDialog.ui:460
+#, fuzzy
+#| msgid "Import Data"
+msgid "Import columns:"
+msgstr "आंकड़ाकेँ आयात करू"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: widgets/KoCsvImportDialog.ui:479
+#, fuzzy
+#| msgid "Import"
+msgid "Import lines:"
+msgstr "आयात"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: widgets/KoCsvImportDialog.ui:489 widgets/KoCsvImportDialog.ui:512
+msgid "to"
+msgstr "मे"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, remove)
+#: widgets/KoEditColorSet.ui:55
+msgid "Remove"
+msgstr "हटाबू"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, open)
+#: widgets/KoEditColorSet.ui:65
+#, fuzzy
+#| msgid "Palette"
+msgid "Open palette"
+msgstr "रंग-पट्टिका"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, save)
+#: widgets/KoEditColorSet.ui:75
+#, fuzzy
+#| msgid "Palette"
+msgid "Save palette"
+msgstr "रंग-पट्टिका"
 
 #: widgets/KoEditColorSetDialog.cpp:159
 msgid "Add Color To Palette"
@@ -2846,7 +3503,8 @@ msgstr ""
 msgid "Facing Pages:"
 msgstr ""
 
-#: widgets/KoPageLayoutWidget.cpp:280
+#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
+#: widgets/KoPageLayoutWidget.cpp:280 widgets/KoPageLayoutWidget.ui:143
 msgid "Facing pages"
 msgstr ""
 
@@ -2856,6 +3514,108 @@ msgstr ""
 
 #: widgets/KoPageLayoutWidget.cpp:283
 msgid "Page spread"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, unitsLabel)
+#: widgets/KoPageLayoutWidget.ui:17
+msgid "Unit:"
+msgstr "एकाइः"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: widgets/KoPageLayoutWidget.ui:53
+msgid "Size:"
+msgstr "आकार:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/KoPageLayoutWidget.ui:66
+msgid "Width:"
+msgstr "चओड़ाइ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: widgets/KoPageLayoutWidget.ui:93
+msgid "Height:"
+msgstr "उँचाइ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: widgets/KoPageLayoutWidget.ui:108
+msgid "Orientation:"
+msgstr "अभिमुखन:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, portrait)
+#: widgets/KoPageLayoutWidget.ui:115
+msgid "Portrait"
+msgstr "व्यक्तिचित्र"
+
+#. i18n: ectx: property (text), widget (QRadioButton, landscape)
+#: widgets/KoPageLayoutWidget.ui:122
+msgid "Landscape"
+msgstr "लैंडस्केप"
+
+#. i18n: ectx: property (text), widget (QLabel, facingPageLabel)
+#: widgets/KoPageLayoutWidget.ui:129
+msgid "Facing pages:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, singleSided)
+#: widgets/KoPageLayoutWidget.ui:136
+#, fuzzy
+#| msgctxt "Underline Style"
+#| msgid "Single"
+msgid "Single sided"
+msgstr "असगर"
+
+#. i18n: ectx: property (text), widget (QLabel, directionLabel)
+#: widgets/KoPageLayoutWidget.ui:150
+msgid "Text direction:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, textDirection)
+#: widgets/KoPageLayoutWidget.ui:158
+msgid "Automatic"
+msgstr "स्वचालित"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, textDirection)
+#: widgets/KoPageLayoutWidget.ui:163
+#, fuzzy
+#| msgid "Straight"
+msgid "Left to right"
+msgstr "सीधा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, textDirection)
+#: widgets/KoPageLayoutWidget.ui:168
+msgid "Right to left"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, margins)
+#: widgets/KoPageLayoutWidget.ui:176
+msgid "Margins"
+msgstr "हाशिया"
+
+#. i18n: ectx: property (text), widget (QLabel, rightLabel)
+#: widgets/KoPageLayoutWidget.ui:204
+#, fuzzy
+#| msgid "Page Size"
+msgid "Page edge:"
+msgstr "पृष्ठ आकार"
+
+#. i18n: ectx: property (text), widget (QLabel, leftLabel)
+#: widgets/KoPageLayoutWidget.ui:214
+msgid "Binding edge:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: widgets/KoPageLayoutWidget.ui:224
+msgid "Bottom:"
+msgstr "नीच्चाँ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: widgets/KoPageLayoutWidget.ui:241
+msgid "Top:"
+msgstr "शीर्ष:"
+
+#. i18n: ectx: property (text), widget (QLabel, stylesLabel)
+#: widgets/KoPageLayoutWidget.ui:288
+msgid "Follow style:"
 msgstr ""
 
 #: widgets/KoResourceItemChooser.cpp:75
@@ -2875,6 +3635,28 @@ msgstr "आकार"
 #: widgets/KoResourceItemChooser.cpp:125
 msgid "Choose File to Add"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, shadowVisible)
+#: widgets/KoShadowConfigWidget.ui:17
+msgid "Show Shadow"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/KoShadowConfigWidget.ui:27
+msgid "Shadow Angle:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: widgets/KoShadowConfigWidget.ui:37
+msgid "Shadow Offset:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/KoShadowConfigWidget.ui:47
+#, fuzzy
+#| msgid "&Color:"
+msgid "Shadow Color:"
+msgstr "रँग: (&C)"
 
 #: widgets/KoZoomAction.cpp:165 widgets/KoZoomAction.cpp:167
 #: widgets/KoZoomAction.cpp:179 widgets/KoZoomAction.cpp:181
@@ -2906,221 +3688,6 @@ msgstr ""
 #: widgets/KoZoomMode.cpp:29
 msgid "Actual Pixels"
 msgstr ""
-
-#~ msgid "Nodes"
-#~ msgstr "नोड"
-
-#~ msgid " px"
-#~ msgstr " px"
-
-#~ msgid "Zoom In"
-#~ msgstr "ज़ूम इन"
-
-#~ msgid "Zoom Out"
-#~ msgstr "ज़ूम आउट"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "Path:"
-#~ msgstr "पथः"
-
-#~ msgid "Title:"
-#~ msgstr "शीर्षक:"
-
-#~ msgid "Subject:"
-#~ msgstr "विषय:"
-
-#~ msgid "Keywords:"
-#~ msgstr "बीजशब्द:"
-
-#~ msgid "Comments:"
-#~ msgstr "टिप्पणीसभ:"
-
-#~ msgid "Type:"
-#~ msgstr "प्रकार:"
-
-#~ msgid "Created:"
-#~ msgstr "बनएलक:"
-
-#~ msgid "Modified:"
-#~ msgstr "परिवर्धितः"
-
-#~ msgid "Last printed:"
-#~ msgstr "छपाइ कएल:"
-
-#~ msgid "Total editing time:"
-#~ msgstr "कुल संपादनक समय:"
-
-#~ msgid "&Reset"
-#~ msgstr "फिनु सेट करू (&R)"
-
-#~ msgid "Revision number:"
-#~ msgstr "संशोधन संख्या:"
-
-#~ msgid "Position:"
-#~ msgstr "स्थिति: "
-
-#~ msgid "Email:"
-#~ msgstr "इमेलः"
-
-#~ msgid "Fax:"
-#~ msgstr "फैक्सः"
-
-#~ msgid "Street:"
-#~ msgstr "सड़कः"
-
-#~ msgid "City:"
-#~ msgstr "शहर:"
-
-#~ msgid "Country:"
-#~ msgstr "देश:"
-
-#~ msgid "&File"
-#~ msgstr "फाइल (&F)"
-
-#~ msgid "&Settings"
-#~ msgstr "जमावट (&S)"
-
-#~ msgid "File"
-#~ msgstr "फाइल"
-
-#, fuzzy
-#~| msgid "Title:"
-#~ msgid "Triples"
-#~ msgstr "शीर्षक:"
-
-#, fuzzy
-#~| msgid "Copy"
-#~ msgid "copy"
-#~ msgstr "कापी करू"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgid "delete"
-#~ msgstr "मेटाबू"
-
-#, fuzzy
-#~| msgid "Replace"
-#~ msgid "Namespace"
-#~ msgstr "बदलू"
-
-#, fuzzy
-#~| msgctxt "Page size"
-#~| msgid "US Executive"
-#~ msgid "Execute"
-#~ msgstr "यूएस एक्जीक्यूटिव़"
-
-#, fuzzy
-#~| msgid "Position"
-#~ msgid "Location"
-#~ msgstr "स्थिति"
-
-#, fuzzy
-#~| msgid "Street:"
-#~ msgid "Start"
-#~ msgstr "सड़कः"
-
-#, fuzzy
-#~| msgid "Time:"
-#~ msgid "Timezone"
-#~ msgstr "समय:"
-
-#, fuzzy
-#~| msgid "Name:"
-#~ msgid "Name"
-#~ msgstr "नाम:"
-
-#, fuzzy
-#~| msgid "Copy Page"
-#~ msgid "Home Page"
-#~ msgstr "कोपी करू पृष्ठ"
-
-#, fuzzy
-#~| msgid "Position"
-#~ msgid "Description"
-#~ msgstr "स्थिति"
-
-#~ msgid "Data"
-#~ msgstr "आँकड़ा"
-
-#~ msgid "Delimiter"
-#~ msgstr "परिसीमक"
-
-#~ msgid "Comma"
-#~ msgstr "विराम चिह्न"
-
-#~ msgid "Semicolon"
-#~ msgstr "अर्द्ध विराम"
-
-#~ msgid "Other"
-#~ msgstr "आन"
-
-#~ msgid "Tabulator"
-#~ msgstr "सारणीयक"
-
-#~ msgid "Space"
-#~ msgstr "अंतरिक्ष"
-
-#~ msgid "\""
-#~ msgstr "\""
-
-#~ msgid "'"
-#~ msgstr "'"
-
-#~ msgid "Decimal symbol:"
-#~ msgstr "दशमलवक संकेत:"
-
-#~ msgid "Thousands separator:"
-#~ msgstr "हजारक अलगकएनिहार:"
-
-#~ msgid "&Format:"
-#~ msgstr "फॉर्मेट: (&F)"
-
-#~ msgid "Ranges"
-#~ msgstr "परिसर"
-
-#~ msgid "Update"
-#~ msgstr "अद्यतन"
-
-#~ msgid "to"
-#~ msgstr "मे"
-
-#~ msgid "Remove"
-#~ msgstr "हटाबू"
-
-#~ msgid "Unit:"
-#~ msgstr "एकाइः"
-
-#~ msgid "Size:"
-#~ msgstr "आकार:"
-
-#~ msgid "Width:"
-#~ msgstr "चओड़ाइ:"
-
-#~ msgid "Height:"
-#~ msgstr "उँचाइ:"
-
-#~ msgid "Orientation:"
-#~ msgstr "अभिमुखन:"
-
-#~ msgid "Portrait"
-#~ msgstr "व्यक्तिचित्र"
-
-#~ msgid "Landscape"
-#~ msgstr "लैंडस्केप"
-
-#~ msgid "Automatic"
-#~ msgstr "स्वचालित"
-
-#~ msgid "Margins"
-#~ msgstr "हाशिया"
-
-#~ msgid "Bottom:"
-#~ msgstr "नीच्चाँ:"
-
-#~ msgid "Top:"
-#~ msgstr "शीर्ष:"
 
 #~ msgid "Hue"
 #~ msgstr "वर्ण"
@@ -3319,11 +3886,6 @@ msgstr ""
 #~ msgid "Cross"
 #~ msgstr "बन्न करू"
 
-#, fuzzy
-#~| msgid "Slide"
-#~ msgid "Style"
-#~ msgstr "स्लाइड"
-
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"
 #~ msgstr "संगीता कुमारी"
@@ -3351,11 +3913,6 @@ msgstr ""
 #~| msgid "Copy Page"
 #~ msgid "Any Page(s)"
 #~ msgstr "कोपी करू पृष्ठ"
-
-#, fuzzy
-#~| msgid "Page Size"
-#~ msgid "Page Header"
-#~ msgstr "पृष्ठ आकार"
 
 #, fuzzy
 #~| msgid "Add..."
@@ -3431,11 +3988,6 @@ msgstr ""
 #~ msgstr "अंतरिक्ष"
 
 #, fuzzy
-#~| msgid "Untitled"
-#~ msgid "Antialiased"
-#~ msgstr "अनाम"
-
-#, fuzzy
 #~| msgid "Format"
 #~ msgid "Form"
 #~ msgstr "प्रारूप"
@@ -3465,9 +4017,6 @@ msgstr ""
 
 #~ msgid "&Width:"
 #~ msgstr "चओड़ाइ (&W):"
-
-#~ msgid "&Color:"
-#~ msgstr "रँग: (&C)"
 
 #~ msgid "String:"
 #~ msgstr "स्ट्रिंग :"

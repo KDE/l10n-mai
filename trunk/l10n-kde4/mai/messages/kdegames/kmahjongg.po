@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:43+0100\n"
+"POT-Creation-Date: 2012-08-20 03:44+0200\n"
 "PO-Revision-Date: 2010-09-24 16:40+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -174,6 +174,44 @@ msgstr ""
 msgid "Save failed. Aborting operation."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RandomLayout)
+#: gametype.ui:25
+msgid "Random Layout"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: gametype.ui:51
+msgid "&Get New Layouts"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: gametype.ui:60
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: gametype.ui:93
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Layout Details"
+msgstr "sangeeta09@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: gametype.ui:113
+msgid "Author:"
+msgstr "लेखक:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: gametype.ui:123
+msgid "Contact:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: gametype.ui:133
+msgid "Description:"
+msgstr "विवरण:"
+
 #: kmahjongg.cpp:136
 msgid "New Numbered Game..."
 msgstr ""
@@ -264,6 +302,56 @@ msgstr ""
 msgid "Could not write saved game."
 msgstr ""
 
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: kmahjongg.kcfg:9
+msgid "The tile-set to use."
+msgstr ""
+
+#. i18n: ectx: label, entry (Background), group (General)
+#: kmahjongg.kcfg:12
+msgid "The background to use."
+msgstr ""
+
+#. i18n: ectx: label, entry (Layout), group (General)
+#: kmahjongg.kcfg:15
+msgid "The layout of the tiles."
+msgstr ""
+
+#. i18n: ectx: label, entry (RandomLayout), group (General)
+#: kmahjongg.kcfg:21
+msgid "Whether a random layout is chosen on startup."
+msgstr ""
+
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: kmahjongg.kcfg:25
+msgid "Whether all games should be solvable."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: kmahjongg.kcfg:29
+msgid "Whether matching tiles are shown."
+msgstr ""
+
+#. i18n: ectx: Menu (game)
+#: kmahjonggui.rc:10
+msgid "&Game"
+msgstr "खेल (&G)"
+
+#. i18n: ectx: Menu (move)
+#: kmahjonggui.rc:14
+msgid "&Move"
+msgstr "घसकाबू (&M)"
+
+#. i18n: ectx: Menu (view)
+#: kmahjonggui.rc:17
+msgid "&View"
+msgstr "दृश्य (&V)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kmahjonggui.rc:23
+msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
+
 #: main.cpp:26
 msgid "Mahjongg Solitaire for KDE"
 msgstr ""
@@ -353,23 +441,12 @@ msgstr "बेंजामिन मेयर"
 msgid "Code cleanup"
 msgstr ""
 
-#~ msgid "Preview"
-#~ msgstr "पूर्वावलोकन"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
+#: settings.ui:22
+msgid "Blink matching tiles when first one is selected"
+msgstr ""
 
-#~ msgid "Author:"
-#~ msgstr "लेखक:"
-
-#~ msgid "Description:"
-#~ msgstr "विवरण:"
-
-#~ msgid "&Game"
-#~ msgstr "खेल (&G)"
-
-#~ msgid "&Move"
-#~ msgstr "घसकाबू (&M)"
-
-#~ msgid "&View"
-#~ msgstr "दृश्य (&V)"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "मुख्य अओजार पट्टी"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
+#: settings.ui:29
+msgid "Generate solvable games"
+msgstr ""
