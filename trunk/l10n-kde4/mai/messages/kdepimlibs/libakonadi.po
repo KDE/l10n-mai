@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-31 06:09+0100\n"
+"POT-Creation-Date: 2013-02-11 03:47+0100\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -133,68 +133,6 @@ msgstr[1] "मिनट"
 msgid "Retrieval"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, inherit)
-#: cachepolicypage.ui:20
-msgid "Use options from parent folder or account"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, syncOnDemand)
-#: cachepolicypage.ui:33
-msgid "Synchronize when selecting this folder"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: cachepolicypage.ui:42
-msgid "Automatically synchronize after:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (KIntNumInput, checkInterval)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, localCacheTimeout)
-#: cachepolicypage.ui:55 cachepolicypage.ui:144
-msgid "minutes"
-msgstr "मिनट"
-
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, checkInterval)
-#: cachepolicypage.ui:58
-msgctxt "never check the cache"
-msgid "Never"
-msgstr "कहियो नहि"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: ectx: property (title), widget (KEditListWidget, localParts)
-#: cachepolicypage.ui:77 cachepolicypage.ui:89
-msgid "Locally Cached Parts"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, retrievalOptionsGroupBox)
-#: cachepolicypage.ui:106
-msgid "Retrieval Options"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, retrieveFullMessages)
-#: cachepolicypage.ui:112
-msgid "Always retrieve full messages"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, retrieveOnlyHeaders)
-#: cachepolicypage.ui:122
-msgid "Retrieve message bodies on demand"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: cachepolicypage.ui:131
-msgid "Keep message bodies locally for:"
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, localCacheTimeout)
-#: cachepolicypage.ui:147
-#, fuzzy
-#| msgctxt "no cache timeout"
-#| msgid "Never"
-msgctxt "no cache timeout"
-msgid "Forever"
-msgstr "कहियो नहि"
-
 #: collectionattributessynchronizationjob.cpp:90
 msgid "Invalid collection instance."
 msgstr ""
@@ -273,54 +211,6 @@ msgid "One object"
 msgid_plural "%1 objects"
 msgstr[0] ""
 msgstr[1] ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: collectiongeneralpropertiespage.ui:16
-#: collectiongeneralpropertiespage_mobile.ui:16
-msgid "&Name:"
-msgstr "नाम (&N):"
-
-#. i18n: ectx: property (text), widget (QCheckBox, customIconCheckbox)
-#: collectiongeneralpropertiespage.ui:29
-#: collectiongeneralpropertiespage_mobile.ui:29
-msgid "&Use custom icon:"
-msgstr ""
-
-#. i18n: ectx: property (icon), widget (KIconButton, customIcon)
-#: collectiongeneralpropertiespage.ui:39
-msgid "folder"
-msgstr "फोल्डर"
-
-#. i18n: ectx: property (title), widget (QGroupBox, statsBox)
-#: collectiongeneralpropertiespage.ui:62
-#: collectiongeneralpropertiespage_mobile.ui:49
-msgid "Statistics"
-msgstr "सांख्यिकी"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: collectiongeneralpropertiespage.ui:68
-#: collectiongeneralpropertiespage_mobile.ui:55
-msgctxt "object names"
-msgid "Content:"
-msgstr "सामग्रीः"
-
-#. i18n: ectx: property (text), widget (QLabel, countLabel)
-#: collectiongeneralpropertiespage.ui:75
-#: collectiongeneralpropertiespage_mobile.ui:62
-msgid "0 objects"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: collectiongeneralpropertiespage.ui:82
-#: collectiongeneralpropertiespage_mobile.ui:69
-msgid "Size:"
-msgstr "आकार:"
-
-#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
-#: collectiongeneralpropertiespage.ui:89
-#: collectiongeneralpropertiespage_mobile.ui:76
-msgid "0 Byte"
-msgstr ""
 
 #: collectionpathresolver.cpp:91 collectionpathresolver.cpp:108
 msgid "No such collection."
@@ -511,37 +401,6 @@ msgid ""
 "take a few minutes."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QWidget, notRunningPage)
-#. i18n: ectx: property (text), widget (QLabel, notRunningDescription)
-#: erroroverlay.ui:21 erroroverlay.ui:50
-msgid ""
-"The Akonadi personal information management service is not running. This "
-"application cannot be used without it."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (KPushButton, startButton)
-#: erroroverlay.ui:80
-msgctxt "@action:button Start the Akonadi server"
-msgid "Start"
-msgstr "प्रारंभ"
-
-#. i18n: ectx: property (toolTip), widget (QWidget, brokenPage)
-#: erroroverlay.ui:122
-msgid ""
-"The Akonadi personal information management framework is not operational.\n"
-"Click on \"Details...\" to obtain detailed information on this problem."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, brokenDescription)
-#: erroroverlay.ui:151
-msgid "The Akonadi personal information management service is not operational."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (KPushButton, selfTestButton)
-#: erroroverlay.ui:187
-msgid "Details..."
-msgstr "विवरण..."
-
 #: favoritecollectionsmodel.cpp:257
 msgid "Favorite Folders"
 msgstr "प्रिय फोल्डर"
@@ -550,7 +409,7 @@ msgstr "प्रिय फोल्डर"
 msgid "Invalid collection."
 msgstr ""
 
-#: itemfetchjob.cpp:168
+#: itemfetchjob.cpp:169
 msgid "Cannot list root collection."
 msgstr ""
 
@@ -1220,26 +1079,6 @@ msgstr ""
 msgid "Could not open file '%1'"
 msgstr "फाइल '%1' खोलि नहि सकल"
 
-#. i18n: ectx: property (text), widget (QLabel, introductionLabel)
-#: selftestdialog.ui:16
-msgid ""
-"An error occurred during the startup of the Akonadi server. The following "
-"self-tests are supposed to help with tracking down and solving this problem. "
-"When requesting support or reporting bugs, please always include this report."
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, detailsGroup)
-#: selftestdialog.ui:39
-msgid "Details"
-msgstr "विवरण"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: selftestdialog.ui:61
-msgid ""
-"<p>For more troubleshooting tips please refer to <a href=\"http://userbase."
-"kde.org/Akonadi\">userbase.kde.org/Akonadi</a>.</p>"
-msgstr ""
-
 #: session.cpp:269
 #, kde-format
 msgid "Protocol version %1 found, expected at least %2"
@@ -1790,6 +1629,46 @@ msgstr ""
 #: trashrestorejob.cpp:102
 msgid "Could not find restore collection and restore resource is not available"
 msgstr ""
+
+#~ msgid "minutes"
+#~ msgstr "मिनट"
+
+#~ msgctxt "never check the cache"
+#~ msgid "Never"
+#~ msgstr "कहियो नहि"
+
+#, fuzzy
+#~| msgctxt "no cache timeout"
+#~| msgid "Never"
+#~ msgctxt "no cache timeout"
+#~ msgid "Forever"
+#~ msgstr "कहियो नहि"
+
+#~ msgid "&Name:"
+#~ msgstr "नाम (&N):"
+
+#~ msgid "folder"
+#~ msgstr "फोल्डर"
+
+#~ msgid "Statistics"
+#~ msgstr "सांख्यिकी"
+
+#~ msgctxt "object names"
+#~ msgid "Content:"
+#~ msgstr "सामग्रीः"
+
+#~ msgid "Size:"
+#~ msgstr "आकार:"
+
+#~ msgctxt "@action:button Start the Akonadi server"
+#~ msgid "Start"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "Details..."
+#~ msgstr "विवरण..."
+
+#~ msgid "Details"
+#~ msgstr "विवरण"
 
 #, fuzzy
 #~| msgid "&New Folder..."
