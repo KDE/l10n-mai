@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadicontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-15 03:51+0100\n"
+"POT-Creation-Date: 2013-02-26 04:34+0100\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -112,7 +112,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SendSmsAction), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:68
+#: actions/contactactionssettings.kcfg.cmake:69
 msgid ""
 "Defines which application shall be used to send an SMS to the phone number "
 "of a contact. If 'Skype' is selected the Skype application will be started "
@@ -121,19 +121,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:72
+#: actions/contactactionssettings.kcfg.cmake:73
 msgid "SMS Command"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:73
+#: actions/contactactionssettings.kcfg.cmake:74
 msgid ""
 "This command defines the application that shall be executed to send an SMS "
 "to a contact's phone number."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:77
+#: actions/contactactionssettings.kcfg.cmake:78
 #, no-c-format
 msgid ""
 "The following placeholders can be used in the command:\n"
@@ -174,10 +174,6 @@ msgstr ""
 msgid ""
 "Unable to start sflphone-client-kde process, check that sflphone-client-kde "
 "executable is in your PATH variable."
-msgstr ""
-
-#: actions/qsflphonedialer.cpp:105
-msgid "Sending an SMS is currently not supported on SflPhone"
 msgstr ""
 
 #: actions/qskypedialer.cpp:88
@@ -709,16 +705,20 @@ msgstr "समय"
 msgid "DateTime"
 msgstr ""
 
-#: editor/customfieldseditwidget.cpp:68 editor/emaileditwidget.cpp:199
+#: editor/customfieldeditordialog.cpp:65
+msgid "Url"
+msgstr ""
+
+#: editor/customfieldseditwidget.cpp:68 editor/emaileditwidget.cpp:198
 msgid "Add..."
 msgstr "जोडू..."
 
-#: editor/customfieldseditwidget.cpp:69 editor/emaileditwidget.cpp:203
+#: editor/customfieldseditwidget.cpp:69 editor/emaileditwidget.cpp:202
 msgid "Edit..."
 msgstr "संपादन..."
 
 #: editor/customfieldseditwidget.cpp:70 editor/dateeditwidget.cpp:51
-#: editor/emaileditwidget.cpp:208 editor/phoneeditwidget.cpp:295
+#: editor/emaileditwidget.cpp:207 editor/phoneeditwidget.cpp:295
 #: editor/soundeditwidget.cpp:167
 msgid "Remove"
 msgstr "हटाबू"
@@ -732,12 +732,12 @@ msgstr ""
 msgid "Confirm Delete"
 msgstr "मेटओनाइ निश्चित करू"
 
-#: editor/customfieldsmodel.cpp:217
+#: editor/customfieldsmodel.cpp:218
 msgctxt "custom field title"
 msgid "Title"
 msgstr "शीर्षक"
 
-#: editor/customfieldsmodel.cpp:219
+#: editor/customfieldsmodel.cpp:220
 msgctxt "custom field value"
 msgid "Value"
 msgstr "मान"
@@ -767,42 +767,42 @@ msgctxt "@item:inlistbox A custom name format"
 msgid "Custom"
 msgstr "पसंदीदा"
 
-#: editor/emaileditwidget.cpp:177
+#: editor/emaileditwidget.cpp:176
 msgid "Edit Email Addresses"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:213
+#: editor/emaileditwidget.cpp:212
 msgid "Set as Standard"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:264
+#: editor/emaileditwidget.cpp:263
 msgid "Add Email"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:264
+#: editor/emaileditwidget.cpp:263
 msgid "New Email:"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:291
+#: editor/emaileditwidget.cpp:290
 msgid "Edit Email"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:292
+#: editor/emaileditwidget.cpp:291
 msgctxt "@label:textbox Inputfield for an email address"
 msgid "Email:"
 msgstr "इमेलः"
 
-#: editor/emaileditwidget.cpp:318
+#: editor/emaileditwidget.cpp:317
 #, kde-format
 msgid ""
 "<qt>Are you sure that you want to remove the email address <b>%1</b>?</qt>"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:319
+#: editor/emaileditwidget.cpp:318
 msgid "Confirm Remove"
 msgstr "हटाएब सुनिश्चित करू"
 
-#: editor/emaileditwidget.cpp:321
+#: editor/emaileditwidget.cpp:320
 msgid "&Delete"
 msgstr "मेटाबू (&D)"
 
@@ -882,38 +882,38 @@ msgctxt "@item:inlistbox Undefined location"
 msgid "Undefined"
 msgstr "अपरिभाषित"
 
-#: editor/im/imeditordialog.cpp:40
+#: editor/im/imeditordialog.cpp:39
 msgctxt "@title:window"
 msgid "Edit Instant Messaging Addresses"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:49
+#: editor/im/imeditordialog.cpp:48
 #, fuzzy
 #| msgid "Add..."
 msgctxt "@action:button"
 msgid "Add..."
 msgstr "जोडू..."
 
-#: editor/im/imeditordialog.cpp:50
+#: editor/im/imeditordialog.cpp:49
 #, fuzzy
 #| msgid "Edit..."
 msgctxt "@action:button"
 msgid "Edit..."
 msgstr "संपादन..."
 
-#: editor/im/imeditordialog.cpp:51
+#: editor/im/imeditordialog.cpp:50
 #, fuzzy
 #| msgid "Remove"
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "हटाबू"
 
-#: editor/im/imeditordialog.cpp:52
+#: editor/im/imeditordialog.cpp:51
 msgctxt "@action:button"
 msgid "Set as Standard"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:94
+#: editor/im/imeditordialog.cpp:93
 #, fuzzy
 #| msgctxt "instant messaging address"
 #| msgid "Address"
@@ -921,7 +921,7 @@ msgctxt "@title:window"
 msgid "Add IM Address"
 msgstr "पता"
 
-#: editor/im/imeditordialog.cpp:114
+#: editor/im/imeditordialog.cpp:113
 #, fuzzy
 #| msgctxt "instant messaging address"
 #| msgid "Address"
@@ -929,14 +929,14 @@ msgctxt "@title:window"
 msgid "Edit IM Address"
 msgstr "पता"
 
-#: editor/im/imeditordialog.cpp:137
+#: editor/im/imeditordialog.cpp:136
 #, kde-format
 msgctxt "@info Instant messaging"
 msgid ""
 "Do you really want to delete the selected <resource>%1</resource> address?"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:139
+#: editor/im/imeditordialog.cpp:138
 #, fuzzy
 #| msgid "Confirm Delete"
 msgctxt "@title:window"
@@ -1011,6 +1011,7 @@ msgid "Remove logo"
 msgstr ""
 
 #: editor/imeditwidget.cpp:47 editor/nameeditwidget.cpp:46
+#: editor/tagwidget.cpp:43
 msgid "..."
 msgstr "..."
 
@@ -1614,12 +1615,12 @@ msgstr ""
 msgid "Anniversary"
 msgstr "वर्षगांठ"
 
-#: standardcontactformatter.cpp:261
+#: standardcontactformatter.cpp:263
 msgctxt "Boolean value"
 msgid "yes"
 msgstr "हँ"
 
-#: standardcontactformatter.cpp:263
+#: standardcontactformatter.cpp:265
 msgctxt "Boolean value"
 msgid "no"
 msgstr "नहि"
