@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-25 02:04+0100\n"
+"POT-Creation-Date: 2013-02-28 02:09+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2330,55 +2330,42 @@ msgstr "स्थिति"
 msgid "Label"
 msgstr "स्तर"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, DetailGroupSectionDialog)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:30
+#: koreport/wrtembed/detailgroupsectiondialog.cpp:38
 msgid "Group Section Editor"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblColumn)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:38
+#: koreport/wrtembed/detailgroupsectiondialog.ui:29
 #, fuzzy
 #| msgid "Country:"
 msgid "Column:"
 msgstr "देश:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSort)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:55
+#: koreport/wrtembed/detailgroupsectiondialog.ui:46
 #, fuzzy
 #| msgid "Street:"
-msgid "Sort"
+msgid "Sort:"
 msgstr "सड़कः"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbHead)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:74
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: koreport/wrtembed/detailgroupsectiondialog.ui:63
 #, fuzzy
 #| msgid "Show Guides"
-msgid "Show Group Header"
+msgid "Show group header:"
 msgstr "गाइड देखाबू"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbFoot)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:81
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: koreport/wrtembed/detailgroupsectiondialog.ui:77
 #, fuzzy
 #| msgid "Show Guides"
-msgid "Show Group Footer"
+msgid "Show group footer:"
 msgstr "गाइड देखाबू"
 
-#. i18n: ectx: property (text), widget (QCheckBox, breakAfterFooter)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:88
-msgid "Insert Page Break After this Footer"
+#. i18n: ectx: property (text), widget (QLabel, breakAfterFooterLabel)
+#: koreport/wrtembed/detailgroupsectiondialog.ui:94
+msgid "Insert page break after group footer:"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnOk)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:135
-msgid "&OK"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, bntCancel)
-#: koreport/wrtembed/detailgroupsectiondialog.ui:148
-#, fuzzy
-#| msgid "Change"
-msgid "&Cancel"
-msgstr "बदलू"
 
 #: koreport/wrtembed/KoReportDesigner.cpp:497
 msgid "Page Header (Any)"
@@ -2420,15 +2407,11 @@ msgstr ""
 msgid "Page Footer (Last)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbReportHeader)
 #: koreport/wrtembed/KoReportDesigner.cpp:537
-#: koreport/wrtembed/sectioneditor.ui:47
 msgid "Report Header"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbReportFooter)
 #: koreport/wrtembed/KoReportDesigner.cpp:541
-#: koreport/wrtembed/sectioneditor.ui:104
 msgid "Report Footer"
 msgstr ""
 
@@ -2535,139 +2518,122 @@ msgstr ""
 msgid "Detail"
 msgstr "विस्तृत दृश्य "
 
-#: koreport/wrtembed/sectioneditor.cpp:279
-msgid "Ascending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:280
-msgid "Descending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:302
-#: koreport/wrtembed/sectioneditor.cpp:343
-msgid "Error Encountered"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:303
-#: koreport/wrtembed/sectioneditor.cpp:344
-msgid "Unable to add a new group because its name would not be unique"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, SectionEditor)
-#: koreport/wrtembed/sectioneditor.ui:30
+#: koreport/wrtembed/sectioneditor.cpp:59
 msgid "Section Editor"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbPageFooter)
-#: koreport/wrtembed/sectioneditor.ui:54
-#, fuzzy
-#| msgid "Page Size"
-msgid "Page Footer"
-msgstr "पृष्ठ आकार"
+#: koreport/wrtembed/sectioneditor.cpp:63
+msgid "Add..."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbFootEven)
-#: koreport/wrtembed/sectioneditor.ui:66
+#: koreport/wrtembed/sectioneditor.cpp:65
+#: rdf/KoRdfCalendarEventTreeWidgetItem.cpp:50
+#: rdf/KoRdfFoaFTreeWidgetItem.cpp:70
+#, fuzzy
+#| msgid "Add..."
+msgid "Edit..."
+msgstr "जोडू..."
+
+#: koreport/wrtembed/sectioneditor.cpp:67
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:282
+msgid "Delete"
+msgstr "मेटाबू"
+
+#: koreport/wrtembed/sectioneditor.cpp:69
 #, fuzzy
 #| msgid "Copy Page"
-msgid "Even Page(s)"
+msgid "Move Up"
 msgstr "कोपी करू पृष्ठ"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbFootFirst)
-#. i18n: ectx: property (text), widget (QCheckBox, cbHeadFirst)
-#: koreport/wrtembed/sectioneditor.ui:73
-#: koreport/wrtembed/sectioneditor.ui:137
-#, fuzzy
-#| msgid "Fit Page Width"
-msgid "First Page"
-msgstr "पृष्ठ चओड़ाइसँ फिट करू"
+#: koreport/wrtembed/sectioneditor.cpp:71
+msgid "Move Down"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbFootLast)
-#. i18n: ectx: property (text), widget (QCheckBox, cbHeadLast)
-#: koreport/wrtembed/sectioneditor.ui:80
-#: koreport/wrtembed/sectioneditor.ui:123
-#, fuzzy
-#| msgid "Insert Page"
-msgid "Last Page"
-msgstr "पृष्ठ जोड़ू"
+#: koreport/wrtembed/sectioneditor.cpp:306
+msgid "Ascending"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbFootOdd)
-#. i18n: ectx: property (text), widget (QCheckBox, cbHeadOdd)
-#: koreport/wrtembed/sectioneditor.ui:87
-#: koreport/wrtembed/sectioneditor.ui:130
-#, fuzzy
-#| msgid "Copy Page"
-msgid "Odd Page(s)"
-msgstr "कोपी करू पृष्ठ"
+#: koreport/wrtembed/sectioneditor.cpp:307
+msgid "Descending"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbFootAny)
-#: koreport/wrtembed/sectioneditor.ui:94
+#. i18n: ectx: property (text), widget (QCheckBox, cbReportHeader)
+#: koreport/wrtembed/sectioneditor.ui:29
 #, fuzzy
-#| msgid "Copy Page"
-msgid "Any Page(s)"
-msgstr "कोपी करू पृष्ठ"
+#| msgid "Show Guides"
+msgid "Show report header"
+msgstr "गाइड देखाबू"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbReportFooter)
+#: koreport/wrtembed/sectioneditor.ui:36
+#, fuzzy
+#| msgid "Show Guides"
+msgid "Show report footer"
+msgstr "गाइड देखाबू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbPageHeader)
-#: koreport/wrtembed/sectioneditor.ui:111
+#: koreport/wrtembed/sectioneditor.ui:43
 #, fuzzy
 #| msgid "Page Size"
 msgid "Page Header"
 msgstr "पृष्ठ आकार"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbHeadEven)
-#: koreport/wrtembed/sectioneditor.ui:144
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: koreport/wrtembed/sectioneditor.ui:51
+#: koreport/wrtembed/sectioneditor.ui:138
+#, fuzzy
+#| msgid "Fit Page Width"
+msgid "First page:"
+msgstr "पृष्ठ चओड़ाइसँ फिट करू"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: koreport/wrtembed/sectioneditor.ui:65
+#: koreport/wrtembed/sectioneditor.ui:152
 #, fuzzy
 #| msgid "Copy Page"
-msgid "Even Pages(s)"
+msgid "Even pages:"
 msgstr "कोपी करू पृष्ठ"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbHeadAny)
-#: koreport/wrtembed/sectioneditor.ui:151
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: koreport/wrtembed/sectioneditor.ui:79
+#: koreport/wrtembed/sectioneditor.ui:166
 #, fuzzy
 #| msgid "Copy Page"
-msgid "Any Pages(s)"
+msgid "Any pages:"
 msgstr "कोपी करू पृष्ठ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: koreport/wrtembed/sectioneditor.ui:97
+#: koreport/wrtembed/sectioneditor.ui:184
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Last page:"
+msgstr "पृष्ठ जोड़ू"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: koreport/wrtembed/sectioneditor.ui:111
+#: koreport/wrtembed/sectioneditor.ui:198
+#, fuzzy
+#| msgid "Copy Page"
+msgid "Odd pages:"
+msgstr "कोपी करू पृष्ठ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbPageHeader_2)
+#: koreport/wrtembed/sectioneditor.ui:130
+#, fuzzy
+#| msgid "Page Size"
+msgid "Page Footer"
+msgstr "पृष्ठ आकार"
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: koreport/wrtembed/sectioneditor.ui:163
+#: koreport/wrtembed/sectioneditor.ui:217
 msgid "Group Sections"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: koreport/wrtembed/sectioneditor.ui:186 main/KoVersionDialog.cpp:72
-msgid "&Add"
-msgstr "जोड़ू (&A)"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
-#: koreport/wrtembed/sectioneditor.ui:193
-#, fuzzy
-#| msgid "Add..."
-msgid "&Edit"
-msgstr "जोडू..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: koreport/wrtembed/sectioneditor.ui:200
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:282
-msgid "Delete"
-msgstr "मेटाबू"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnMoveUp)
-#: koreport/wrtembed/sectioneditor.ui:207
-#, fuzzy
-#| msgid "Copy Page"
-msgid "Move &Up"
-msgstr "कोपी करू पृष्ठ"
-
-#. i18n: ectx: property (text), widget (QPushButton, brnMoveDown)
-#: koreport/wrtembed/sectioneditor.ui:214
-msgid "Move &Down"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: koreport/wrtembed/sectioneditor.ui:266
-#, fuzzy
-#| msgid "Close"
-msgid "&Close"
-msgstr "बन्न करू"
 
 #: kotext/commands/ChangeListCommand.cpp:41
 #: kotext/commands/ChangeListCommand.cpp:88
@@ -4349,6 +4315,10 @@ msgstr ""
 msgid "Comment"
 msgstr "टिप्पणी"
 
+#: main/KoVersionDialog.cpp:72
+msgid "&Add"
+msgstr "जोड़ू (&A)"
+
 #: main/KoVersionDialog.cpp:78
 msgid "&Modify"
 msgstr "बदलू (&M)"
@@ -5589,13 +5559,6 @@ msgstr "समय:"
 msgid "Calendar Event"
 msgstr ""
 
-#: rdf/KoRdfCalendarEventTreeWidgetItem.cpp:50
-#: rdf/KoRdfFoaFTreeWidgetItem.cpp:70
-#, fuzzy
-#| msgid "Add..."
-msgid "Edit..."
-msgstr "जोडू..."
-
 #: rdf/KoRdfCalendarEventTreeWidgetItem.cpp:53
 msgid "Import event to Calendar"
 msgstr ""
@@ -6470,6 +6433,31 @@ msgstr "पृष्ठ चओड़ाइसँ फिट करू"
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1%"
+
+#, fuzzy
+#~| msgid "Change"
+#~ msgid "&Cancel"
+#~ msgstr "बदलू"
+
+#, fuzzy
+#~| msgid "Copy Page"
+#~ msgid "Even Pages(s)"
+#~ msgstr "कोपी करू पृष्ठ"
+
+#, fuzzy
+#~| msgid "Copy Page"
+#~ msgid "Any Pages(s)"
+#~ msgstr "कोपी करू पृष्ठ"
+
+#, fuzzy
+#~| msgid "Add..."
+#~ msgid "&Edit"
+#~ msgstr "जोडू..."
+
+#, fuzzy
+#~| msgid "Close"
+#~ msgid "&Close"
+#~ msgstr "बन्न करू"
 
 #~ msgid "Snapping"
 #~ msgstr "स्नैपिंग"
