@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-25 02:04+0100\n"
+"POT-Creation-Date: 2013-03-05 02:24+0100\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -95,12 +95,12 @@ msgid "Dialog"
 msgstr "दूरी:"
 
 #. i18n: ectx: property (text), widget (QPushButton, acceptButton)
-#: dialogs/AcceptRejectChangeDialog.ui:44 ReviewTool.cpp:342
+#: dialogs/AcceptRejectChangeDialog.ui:44
 msgid "Accept"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, rejectButton)
-#: dialogs/AcceptRejectChangeDialog.ui:57 ReviewTool.cpp:343
+#: dialogs/AcceptRejectChangeDialog.ui:57
 msgid "Reject"
 msgstr ""
 
@@ -315,6 +315,7 @@ msgstr "पृष्ठभूमि रंग"
 #. i18n: ectx: property (text), widget (FormattingButton, border)
 #. i18n: ectx: property (text), widget (QToolButton, moreOptions)
 #. i18n: ectx: property (text), widget (FormattingButton, bulletListButton)
+#. i18n: ectx: property (text), widget (QToolButton, toolAutoSpellCheck)
 #: dialogs/ChangeConfigureDialog.ui:127 dialogs/ChangeConfigureDialog.ui:207
 #: dialogs/ChangeConfigureDialog.ui:266 dialogs/CharacterHighlighting.ui:40
 #: dialogs/CharacterHighlighting.ui:84 dialogs/FontDecorations.ui:36
@@ -327,8 +328,8 @@ msgstr "पृष्ठभूमि रंग"
 #: dialogs/SimpleInsertWidget.ui:40 dialogs/SimpleInsertWidget.ui:72
 #: dialogs/SimpleInsertWidget.ui:91 dialogs/SimpleInsertWidget.ui:107
 #: dialogs/SimpleParagraphWidget.ui:65 dialogs/SimpleParagraphWidget.ui:189
-#: dialogs/SimpleTableWidget.ui:128 dialogs/SimpleTableWidget.ui:144
-#: dialogs/SimpleTableWidget.ui:176
+#: dialogs/SimpleSpellCheckingWidget.ui:26 dialogs/SimpleTableWidget.ui:128
+#: dialogs/SimpleTableWidget.ui:144 dialogs/SimpleTableWidget.ui:176
 msgid "..."
 msgstr "..."
 
@@ -409,16 +410,14 @@ msgid "Configure Settings"
 msgstr "अनुच्छेद स्टाइल"
 
 #. i18n: ectx: property (text), widget (QCheckBox, recordChangesCheckBox)
-#: dialogs/ChangeTrackingOptionsWidget.ui:175 ReviewTool.cpp:83
-#: ReviewTool.cpp:349
+#: dialogs/ChangeTrackingOptionsWidget.ui:175
 #, fuzzy
 #| msgid "Record"
 msgid "Record Changes"
 msgstr "लेखा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, showChangesCheckBox)
-#: dialogs/ChangeTrackingOptionsWidget.ui:182 ReviewTool.cpp:78
-#: ReviewTool.cpp:347
+#: dialogs/ChangeTrackingOptionsWidget.ui:182
 msgid "Show Changes"
 msgstr ""
 
@@ -1573,6 +1572,13 @@ msgstr "लेखा"
 msgid "Change the level the list is at"
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, SimpleSpellCheckingWidget)
+#: dialogs/SimpleSpellCheckingWidget.ui:14
+#, fuzzy
+#| msgid "Normal"
+msgid "Form"
+msgstr "सामान्य"
+
 #: dialogs/SimpleTableWidget.cpp:51
 msgid "Select a border style and paint that style onto a table"
 msgstr ""
@@ -1934,29 +1940,7 @@ msgstr ""
 msgid "Citations and Bibliography"
 msgstr ""
 
-#: ReviewTool.cpp:73
-msgid "Tracked change manager"
-msgstr ""
-
-#: ReviewTool.cpp:88
-msgid "Configure Change Tracking..."
-msgstr ""
-
-#: ReviewTool.cpp:362
-#, fuzzy
-#| msgid "Record"
-msgid "Changes"
-msgstr "लेखा"
-
-#: ReviewTool.cpp:366
-msgid "Spell checking"
-msgstr ""
-
-#: ReviewTool.cpp:370
-msgid "Comments"
-msgstr ""
-
-#: ReviewToolFactory.cpp:34
+#: ReviewToolFactory.cpp:36
 msgid "Review"
 msgstr ""
 
@@ -2338,6 +2322,11 @@ msgid "Text editing"
 msgstr "स्थिति"
 
 #, fuzzy
+#~| msgid "Record"
+#~ msgid "Changes"
+#~ msgstr "लेखा"
+
+#, fuzzy
 #~| msgid "Paragraph style"
 #~ msgid "Paragraph Settings"
 #~ msgstr "अनुच्छेद स्टाइल"
@@ -2346,11 +2335,6 @@ msgstr "स्थिति"
 #~| msgid "Insert"
 #~ msgid "Insert Custom ..."
 #~ msgstr "जोडू"
-
-#, fuzzy
-#~| msgid "Normal"
-#~ msgid "Form"
-#~ msgstr "सामान्य"
 
 #, fuzzy
 #~| msgid "Record"
