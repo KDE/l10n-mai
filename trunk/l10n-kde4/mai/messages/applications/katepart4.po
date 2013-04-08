@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-07 02:11+0200\n"
+"POT-Creation-Date: 2013-04-08 02:16+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1220,7 +1220,7 @@ msgstr "अहाँक एकटा स्थान चुनू आओर फ�
 msgid "File Changed on Disk"
 msgstr "डिस्क मे फाइल केँ बदएल देने गेल अछि"
 
-#: dialogs/katedialogs.cpp:1442 document/katedocument.cpp:3768
+#: dialogs/katedialogs.cpp:1442 document/katedocument.cpp:3731
 msgid "&Reload File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
@@ -1229,7 +1229,7 @@ msgid ""
 "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1450 document/katedocument.cpp:3769
+#: dialogs/katedialogs.cpp:1450 document/katedocument.cpp:3732
 msgid "&Ignore Changes"
 msgstr "परिवर्तन केँ नजरअंदाज करू (&I)"
 
@@ -1243,7 +1243,7 @@ msgid ""
 "will be prompted again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1466 document/katedocument.cpp:3766
+#: dialogs/katedialogs.cpp:1466 document/katedocument.cpp:3729
 msgid "What do you want to do?"
 msgstr "अहाँ की कएनाइ चाहैत छी?"
 
@@ -1777,14 +1777,14 @@ msgid ""
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:17 view/kateview.cpp:546
+#: dialogs/textareaappearanceconfigwidget.ui:17 view/kateview.cpp:550
 msgid ""
 "If this option is checked, the text lines will be wrapped at the view border "
 "on the screen."
 msgstr "जँ ई विकल्प चुनल जाइत अछि. पाठ पंक्तिसभ स्क्रीन केर दृश्य किनार पर रैप हाएत."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:20 view/kateview.cpp:543
+#: dialogs/textareaappearanceconfigwidget.ui:20 view/kateview.cpp:547
 msgid "&Dynamic Word Wrap"
 msgstr "गतिशील वर्ड रैप (&D)"
 
@@ -1967,7 +1967,7 @@ msgstr ""
 msgid "Import from vimrc file"
 msgstr ""
 
-#: document/katedocument.cpp:2014
+#: document/katedocument.cpp:1999
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -1981,7 +1981,7 @@ msgstr ""
 "\n"
 "जाँच करू जे अहाँक पास एहि फाइल केँ पढ़बा क' अनुमति अछि."
 
-#: document/katedocument.cpp:2020
+#: document/katedocument.cpp:2005
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -1992,7 +1992,7 @@ msgstr ""
 "\n"
 "जाँच करू जे अहाँक पास एहि फाइल केँ पढ़बा क' अनुमति अछि."
 
-#: document/katedocument.cpp:2030
+#: document/katedocument.cpp:2015
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters."
@@ -2001,7 +2001,7 @@ msgid ""
 "write mode again in the menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2039
+#: document/katedocument.cpp:2024
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters. It "
@@ -2010,7 +2010,7 @@ msgid ""
 "again in the menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2051
+#: document/katedocument.cpp:2036
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2018,7 +2018,7 @@ msgid ""
 "is set to read-only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2058
+#: document/katedocument.cpp:2043
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2026,7 +2026,7 @@ msgid ""
 "set to read-only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2082
+#: document/katedocument.cpp:2067
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
 "data in the file on disk."
@@ -2034,16 +2034,16 @@ msgstr ""
 "की अहाँ सच्चे एहि अपरिवर्धित फाइल केँ सहेजबाक लेल चाहब? डिस्क मे फाइल केर बदलल गेल डाटा "
 "केँ मेटाकए अहाँ लिखि देब"
 
-#: document/katedocument.cpp:2082
+#: document/katedocument.cpp:2067
 msgid "Trying to Save Unmodified File"
 msgstr "अपरिवर्धित फाइल केँ सहेजने क' कोसिस कएल जाए रहल अछि"
 
-#: document/katedocument.cpp:2082 document/katedocument.cpp:2088
-#: document/katedocument.cpp:2099
+#: document/katedocument.cpp:2067 document/katedocument.cpp:2073
+#: document/katedocument.cpp:2084
 msgid "Save Nevertheless"
 msgstr "कहिनो सहेजू"
 
-#: document/katedocument.cpp:2088
+#: document/katedocument.cpp:2073
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
 "disk were changed. There could be some data lost."
@@ -2051,12 +2051,12 @@ msgstr ""
 "की अहाँ वास्तव मे एहि फाइल केँ सहेजबाक लेल चाहैत छी? अहाँक खुलल फाइल आओर डिस्क क' फाइल "
 "दुनू बदलत. ओतए किछु डाटा नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2088 document/katedocument.cpp:2099
-#: document/katedocument.cpp:2336
+#: document/katedocument.cpp:2073 document/katedocument.cpp:2084
+#: document/katedocument.cpp:2321
 msgid "Possible Data Loss"
 msgstr "संभावित डाटा नुकसान"
 
-#: document/katedocument.cpp:2099
+#: document/katedocument.cpp:2084
 msgid ""
 "The selected encoding cannot encode every unicode character in this "
 "document. Do you really want to save it? There could be some data lost."
@@ -2064,7 +2064,7 @@ msgstr ""
 "चयनित एनकोडिंग एहि दस्ताबेज केर सभटा यूनिकोड अक्षरकेँ एनकोड नहि कए सकैत अछि. की अहाँ "
 "सच्चे एकरा सहेजना चाहैत छी? एतय किछु डाटाक नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2158
+#: document/katedocument.cpp:2143
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -2073,15 +2073,15 @@ msgid ""
 "only for you."
 msgstr ""
 
-#: document/katedocument.cpp:2161
+#: document/katedocument.cpp:2146
 msgid "Failed to create backup copy."
 msgstr "बैकअप प्रतिलिपि बनाबै मे असफल."
 
-#: document/katedocument.cpp:2162
+#: document/katedocument.cpp:2147
 msgid "Try to Save Nevertheless"
 msgstr "कहिनो सहेजबाक कोसिस करू"
 
-#: document/katedocument.cpp:2203
+#: document/katedocument.cpp:2188
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2094,72 +2094,72 @@ msgstr ""
 " जाँचू जे एहि फाइल पर अहाँक पास लिखबा क' अनुमति अछि आओर डिस्क मे पर्याप्त जगह मोजुद "
 "अछि."
 
-#: document/katedocument.cpp:2335
+#: document/katedocument.cpp:2320
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr "की अहाँ वास्तव मे एहि फाइल केँ बन्न कएनाइ चाहब?  डाटा नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2336
+#: document/katedocument.cpp:2321
 msgid "Close Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: document/katedocument.cpp:3652
+#: document/katedocument.cpp:3615
 msgid "Untitled"
 msgstr "अनाम"
 
-#: document/katedocument.cpp:3688 document/katedocument.cpp:3864
-#: document/katedocument.cpp:4510
+#: document/katedocument.cpp:3651 document/katedocument.cpp:3827
+#: document/katedocument.cpp:4473
 msgid "Save File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:3697
+#: document/katedocument.cpp:3660
 msgid "Save failed"
 msgstr "सहेजनाइ विफल"
 
-#: document/katedocument.cpp:3767
+#: document/katedocument.cpp:3730
 msgid "File Was Changed on Disk"
 msgstr "फाइल केँ डिस्क मे बदएल देने गेल छल"
 
-#: document/katedocument.cpp:4084
+#: document/katedocument.cpp:4047
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
 "'remove-trailing-spaces modified;', see http://docs.kde.org/stable/en/kde-"
 "baseapps/kate/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4090
+#: document/katedocument.cpp:4053
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
 "'remove-trailing-spaces all;', see http://docs.kde.org/stable/en/kde-"
 "baseapps/kate/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4394
+#: document/katedocument.cpp:4357
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा परिवर्धित कएल गेल अछि."
 
-#: document/katedocument.cpp:4397
+#: document/katedocument.cpp:4360
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा बनाएल गेल अछि."
 
-#: document/katedocument.cpp:4400
+#: document/katedocument.cpp:4363
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा मेटाएल गेल अछि."
 
-#: document/katedocument.cpp:4538
+#: document/katedocument.cpp:4501
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: document/katedocument.cpp:4540
+#: document/katedocument.cpp:4503
 msgid "Overwrite File?"
 msgstr "फाइल केर उप्पर लिखू?"
 
-#: document/katedocument.cpp:4744
+#: document/katedocument.cpp:4707
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2168,20 +2168,20 @@ msgstr ""
 "दस्ताबेज \"%1\" परिवर्तित कएल गेल अछि.\n"
 "की अहाँ एकरा सहेजना चाहब अथवा परिवर्तनसभ केँ फेंक दिअ'?"
 
-#: document/katedocument.cpp:4746
+#: document/katedocument.cpp:4709
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
 
-#: document/katedocument.cpp:4871
+#: document/katedocument.cpp:4834
 #, kde-format
 msgid "The file %1 is still loading."
 msgstr ""
 
-#: document/katedocument.cpp:5416
+#: document/katedocument.cpp:5395
 msgid "&Close"
 msgstr ""
 
-#: document/katedocument.cpp:5417
+#: document/katedocument.cpp:5396
 msgid "Close message"
 msgstr ""
 
@@ -6817,117 +6817,117 @@ msgctxt "short translation please"
 msgid "Enable word wrap while typing text."
 msgstr ""
 
-#: view/kateview.cpp:353
+#: view/kateview.cpp:357
 msgid "Cut the selected text and move it to the clipboard"
 msgstr "चुनल गेल पाठ काटू आओर एकरा क्लिपबोर्ड मे लाए जाउ"
 
-#: view/kateview.cpp:356
+#: view/kateview.cpp:360
 msgid "Paste previously copied or cut clipboard contents"
 msgstr "पछिलका नकल अथवा काटल क्लिपबोर्ड वस्तु साटू"
 
-#: view/kateview.cpp:359
+#: view/kateview.cpp:363
 msgid ""
 "Use this command to copy the currently selected text to the system clipboard."
 msgstr "ई कमांड क' उपयोग मोजुदा चुनल गेल पाठ केँ तंत्र क्लिपबोर्ड मे नकल करब क' लेल करू."
 
-#: view/kateview.cpp:361
+#: view/kateview.cpp:365
 msgid "Clipboard &History"
 msgstr ""
 
-#: view/kateview.cpp:367
+#: view/kateview.cpp:371
 msgid "Save the current document"
 msgstr "मोजुदा दस्ताबेज सहेजू"
 
-#: view/kateview.cpp:370
+#: view/kateview.cpp:374
 msgid "Revert the most recent editing actions"
 msgstr "सबसँ हालक काजक वापिस करू"
 
-#: view/kateview.cpp:373
+#: view/kateview.cpp:377
 msgid "Revert the most recent undo operation"
 msgstr "सबसँ हालक पहिनुक जहिना कएल काजकेँ वापिस करू"
 
-#: view/kateview.cpp:376
+#: view/kateview.cpp:380
 #, fuzzy
 #| msgid "Scripts"
 msgid "&Scripts"
 msgstr "स्क्रिप्ट"
 
-#: view/kateview.cpp:380
+#: view/kateview.cpp:384
 #, fuzzy
 #| msgid "&Dynamic Word Wrap"
 msgid "Apply &Word Wrap"
 msgstr "गतिशील वर्ड रैप (&D)"
 
-#: view/kateview.cpp:381
+#: view/kateview.cpp:385
 msgid ""
 "Use this command to wrap all lines of the current document which are longer "
 "than the width of the current view, to fit into this view.<br /><br /> This "
 "is a static word wrap, meaning it is not updated when the view is resized."
 msgstr ""
 
-#: view/kateview.cpp:387
+#: view/kateview.cpp:391
 msgid "&Clean Indentation"
 msgstr "हाशिए साफ करू (&C)"
 
-#: view/kateview.cpp:388
+#: view/kateview.cpp:392
 msgid ""
 "Use this to clean the indentation of a selected block of text (only tabs/"
 "only spaces).<br /><br />You can configure whether tabs should be honored "
 "and used or replaced with spaces, in the configuration dialog."
 msgstr ""
 
-#: view/kateview.cpp:393
+#: view/kateview.cpp:397
 msgid "&Align"
 msgstr "पंक्तिबद्ध (&A)"
 
-#: view/kateview.cpp:394
+#: view/kateview.cpp:398
 msgid ""
 "Use this to align the current line or block of text to its proper indent "
 "level."
 msgstr ""
 
-#: view/kateview.cpp:398
+#: view/kateview.cpp:402
 msgid "C&omment"
 msgstr "कमेंट (&o)"
 
-#: view/kateview.cpp:400
+#: view/kateview.cpp:404
 msgid ""
 "This command comments out the current line or a selected block of text.<br /"
 "><br />The characters for single/multiple line comments are defined within "
 "the language's highlighting."
 msgstr ""
 
-#: view/kateview.cpp:405
+#: view/kateview.cpp:409
 msgid "Unco&mment"
 msgstr "अनकमेंट (&m)"
 
-#: view/kateview.cpp:407
+#: view/kateview.cpp:411
 msgid ""
 "This command removes comments from the current line or a selected block of "
 "text.<br /><br />The characters for single/multiple line comments are "
 "defined within the language's highlighting."
 msgstr ""
 
-#: view/kateview.cpp:412
+#: view/kateview.cpp:416
 #, fuzzy
 #| msgctxt "@item:intable Text context"
 #| msgid "Comment"
 msgid "Toggle Comment"
 msgstr "टिप्पणी"
 
-#: view/kateview.cpp:415
+#: view/kateview.cpp:419
 msgid "&Read Only Mode"
 msgstr "केवल पढ़बा लेल मोड (&R)"
 
-#: view/kateview.cpp:416
+#: view/kateview.cpp:420
 msgid "Lock/unlock the document for writing"
 msgstr "दस्ताबेज केँ लिखबा क' लेल ताला लगाबू/खोलू"
 
-#: view/kateview.cpp:422
+#: view/kateview.cpp:426
 msgid "Uppercase"
 msgstr "पैघ अक्षर"
 
-#: view/kateview.cpp:424
+#: view/kateview.cpp:428
 msgid ""
 "Convert the selection to uppercase, or the character to the right of the "
 "cursor if no text is selected."
@@ -6935,11 +6935,11 @@ msgstr ""
 "चयन केँ, अथवा जँ कोनो पाठ चुनल नहि गेल अछि तँ संकेतक केर दहिन्ना तरफ केर अक्षर केँ अपरकेस मे "
 "बदलू."
 
-#: view/kateview.cpp:429
+#: view/kateview.cpp:433
 msgid "Lowercase"
 msgstr "लोअरकेस"
 
-#: view/kateview.cpp:431
+#: view/kateview.cpp:435
 msgid ""
 "Convert the selection to lowercase, or the character to the right of the "
 "cursor if no text is selected."
@@ -6947,57 +6947,57 @@ msgstr ""
 "चयन केँ, अथवा जँ कोनो पाठ चुनल नहि गेल अछि तँ संकेतक केर दाँए तरफ केर अक्षर केँ लोअरकेस मे "
 "बदलू."
 
-#: view/kateview.cpp:436
+#: view/kateview.cpp:440
 msgid "Capitalize"
 msgstr "केपिटलाइज़"
 
-#: view/kateview.cpp:438
+#: view/kateview.cpp:442
 msgid ""
 "Capitalize the selection, or the word under the cursor if no text is "
 "selected."
 msgstr "चयन केँ, अथवा जँ कोनो पाठ चुनल नहि गेल अछि तँ संकेतक अंदर केर शब्द केँ केपिटल मे बदलू."
 
-#: view/kateview.cpp:443
+#: view/kateview.cpp:447
 msgid "Join Lines"
 msgstr "पंक्तिसभमे सामिल होउ"
 
-#: view/kateview.cpp:448
+#: view/kateview.cpp:452
 msgid "Invoke Code Completion"
 msgstr "कोड पूर्णता आनू"
 
-#: view/kateview.cpp:449
+#: view/kateview.cpp:453
 msgid ""
 "Manually invoke command completion, usually by using a shortcut bound to "
 "this action."
 msgstr ""
 
-#: view/kateview.cpp:455
+#: view/kateview.cpp:459
 #, fuzzy
 #| msgid "Remove entry"
 msgid "Create Snippet"
 msgstr "प्रविष्टि मेटाबू"
 
-#: view/kateview.cpp:459
+#: view/kateview.cpp:463
 msgid "Snippets..."
 msgstr ""
 
-#: view/kateview.cpp:472
+#: view/kateview.cpp:476
 msgid "Print the current document."
 msgstr "मोजुदा दस्ताबेज छापू"
 
-#: view/kateview.cpp:476
+#: view/kateview.cpp:480
 msgid "Reloa&d"
 msgstr "फिनु सँ लोड करू (&d)"
 
-#: view/kateview.cpp:478
+#: view/kateview.cpp:482
 msgid "Reload the current document from disk."
 msgstr "मोजुदा दस्ताबेज डिस्क सँ फिनु सँ लोड करू"
 
-#: view/kateview.cpp:482
+#: view/kateview.cpp:486
 msgid "Save the current document to disk, with a name of your choice."
 msgstr "मोजुदा दस्ताबेज डिस्क मे सहेजू, अपन पसन्दीदा नाम केर सँग"
 
-#: view/kateview.cpp:485
+#: view/kateview.cpp:489
 msgid ""
 "This command opens a dialog and lets you choose a line that you want the "
 "cursor to move to."
@@ -7005,71 +7005,71 @@ msgstr ""
 "ई कमांड एकटा समाद खोलैत अछि जो अहाँक चुनै देत अछि जे कओन पंक्ति पर अहाँ संकेतक केँ ले जएनाइ "
 "चाहैत छी."
 
-#: view/kateview.cpp:488
+#: view/kateview.cpp:492
 msgid "&Configure Editor..."
 msgstr "संपादक बिन्यस्त करू... (&C)"
 
-#: view/kateview.cpp:489
+#: view/kateview.cpp:493
 msgid "Configure various aspects of this editor."
 msgstr "ई संपादक केर विविध पहलू बिन्यस्त करू"
 
-#: view/kateview.cpp:492
+#: view/kateview.cpp:496
 msgid "&Mode"
 msgstr "मोड (&M)"
 
-#: view/kateview.cpp:494
+#: view/kateview.cpp:498
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
 "will influence the highlighting and folding being used, for example."
 msgstr ""
 
-#: view/kateview.cpp:497
+#: view/kateview.cpp:501
 msgid "&Highlighting"
 msgstr "आलोकित करू (&H)"
 
-#: view/kateview.cpp:499
+#: view/kateview.cpp:503
 msgid "Here you can choose how the current document should be highlighted."
 msgstr "एतए अहाँ चुनि सकैत छी जे मोजुदा दस्ताबेज कओन प्रकारे आलोकित कएल जाए"
 
-#: view/kateview.cpp:502
+#: view/kateview.cpp:506
 msgid "&Schema"
 msgstr "योजना (&S)"
 
-#: view/kateview.cpp:507
+#: view/kateview.cpp:511
 msgid "&Indentation"
 msgstr "हाशिया (&I)"
 
-#: view/kateview.cpp:511
+#: view/kateview.cpp:515
 msgid "Select the entire text of the current document."
 msgstr "मोजुदा दस्ताबेज क' संपूर्ण पाठ चुनू"
 
-#: view/kateview.cpp:514
+#: view/kateview.cpp:518
 msgid ""
 "If you have selected something within the current document, this will no "
 "longer be selected."
 msgstr "जँ अहाँ मोजुदा दस्ताबेज केर भीतर किछु चुनैनि अछि. ई आगाँ चुनल नहि जाएत."
 
-#: view/kateview.cpp:518
+#: view/kateview.cpp:522
 msgid "Enlarge Font"
 msgstr "फौन्ट पैघ करू"
 
-#: view/kateview.cpp:520
+#: view/kateview.cpp:524
 msgid "This increases the display font size."
 msgstr "ई प्रदर्शित फोन्ट आकार केँ बढ़ाबै अछि"
 
-#: view/kateview.cpp:525
+#: view/kateview.cpp:529
 msgid "Shrink Font"
 msgstr "फौन्ट छोट करू"
 
-#: view/kateview.cpp:527
+#: view/kateview.cpp:531
 msgid "This decreases the display font size."
 msgstr "ई प्रदर्शित फोन्ट आकार केँ घटाबैछ"
 
-#: view/kateview.cpp:530
+#: view/kateview.cpp:534
 msgid "Bl&ock Selection Mode"
 msgstr "ब्लाक चयन मोड (&o)"
 
-#: view/kateview.cpp:533
+#: view/kateview.cpp:537
 msgid ""
 "This command allows switching between the normal (line based) selection mode "
 "and the block selection mode."
@@ -7077,11 +7077,11 @@ msgstr ""
 "ई कमांड सामान्य (पंक्ति आधारित) चयन मोड आओर ब्लाक चयन मोड केर बीच अदला बदली "
 "स्वीकारैत अछि."
 
-#: view/kateview.cpp:536
+#: view/kateview.cpp:540
 msgid "Overwr&ite Mode"
 msgstr "मेटाकए लिखल मोड (&i)"
 
-#: view/kateview.cpp:539
+#: view/kateview.cpp:543
 msgid ""
 "Choose whether you want the text you type to be inserted or to overwrite "
 "existing text."
@@ -7089,42 +7089,42 @@ msgstr ""
 "चुनू जे अहाँ जे पाठ टाइप कएने अछि ओ शामिल कएल जाए अथवा मोजुदा पाठ केर उप्पर मेटाकए "
 "लिखल जाए."
 
-#: view/kateview.cpp:549
+#: view/kateview.cpp:553
 msgid "Dynamic Word Wrap Indicators"
 msgstr "गतिशील वर्ड रैप सूचकसभ (जँ लागू अछि)"
 
-#: view/kateview.cpp:551
+#: view/kateview.cpp:555
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed"
 msgstr "चुनू जे कखन गतिशील वर्ड व्रेब सूचक दिखैछ"
 
-#: view/kateview.cpp:555
+#: view/kateview.cpp:559
 msgid "&Off"
 msgstr "बन्न  (&O)"
 
-#: view/kateview.cpp:556
+#: view/kateview.cpp:560
 msgid "Follow &Line Numbers"
 msgstr "पंक्ति क्रमांक केँ अनुसरण करू (&L)"
 
-#: view/kateview.cpp:557
+#: view/kateview.cpp:561
 msgid "&Always On"
 msgstr "हमेशा चालू (&A)"
 
-#: view/kateview.cpp:561
+#: view/kateview.cpp:565
 msgid "Show Folding &Markers"
 msgstr "फोल्डिंग निशान देखाबू (जँ लागू अछि) (&M)"
 
-#: view/kateview.cpp:564
+#: view/kateview.cpp:568
 msgid ""
 "You can choose if the codefolding marks should be shown, if codefolding is "
 "possible."
 msgstr ""
 "अहाँ चुन सकैत छी जे कोडफोल्डिंग मार्क्स देखाओल जाए अथवा नहि, जँ कोड फोल्डिंग संभव अछि."
 
-#: view/kateview.cpp:567
+#: view/kateview.cpp:571
 msgid "Show &Icon Border"
 msgstr "प्रतीक किनार देखाबू (&I)"
 
-#: view/kateview.cpp:570
+#: view/kateview.cpp:574
 msgid ""
 "Show/hide the icon border.<br /><br />The icon border shows bookmark "
 "symbols, for instance."
@@ -7132,19 +7132,19 @@ msgstr ""
 "प्रतीक किनार नुकाबू/देखाबू.<br /><br /> उदाहरण केर लेल, प्रतीक किनार मनपसिन्न  निशान "
 "देखाबै अछि."
 
-#: view/kateview.cpp:573
+#: view/kateview.cpp:577
 msgid "Show &Line Numbers"
 msgstr "पंक्ति क्रमांक देखाबू (&L)"
 
-#: view/kateview.cpp:576
+#: view/kateview.cpp:580
 msgid "Show/hide the line numbers on the left hand side of the view."
 msgstr "बम्माँ हाथ तरफ केर दृश्य पर पंक्ति क्रमांक नुकाबू/देखाबू."
 
-#: view/kateview.cpp:579
+#: view/kateview.cpp:583
 msgid "Show Scroll&bar Marks"
 msgstr "स्क्राल पट्टी चिह्न देखाबू (&b)"
 
-#: view/kateview.cpp:581
+#: view/kateview.cpp:585
 msgid ""
 "Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
 "bookmarks, for instance."
@@ -7152,13 +7152,13 @@ msgstr ""
 "खड़ा स्क्रोल पट्टी पर चिह्न नुकाबू/देखाबू.<br /><br />चिह्न उदाहरण केर लेल, पुस्तचिन्ह केँ "
 "देखाबैत अछि."
 
-#: view/kateview.cpp:584
+#: view/kateview.cpp:588
 #, fuzzy
 #| msgid "Show Scroll&bar Marks"
 msgid "Show Scrollbar Mini-Map"
 msgstr "स्क्राल पट्टी चिह्न देखाबू (&b)"
 
-#: view/kateview.cpp:586
+#: view/kateview.cpp:590
 #, fuzzy
 #| msgid ""
 #| "Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
@@ -7170,11 +7170,11 @@ msgstr ""
 "खड़ा स्क्रोल पट्टी पर चिह्न नुकाबू/देखाबू.<br /><br />चिह्न उदाहरण केर लेल, पुस्तचिन्ह केँ "
 "देखाबैत अछि."
 
-#: view/kateview.cpp:595
+#: view/kateview.cpp:599
 msgid "Show Static &Word Wrap Marker"
 msgstr "स्थिर वर्ड रैप मार्कर देखाबू (&W)"
 
-#: view/kateview.cpp:598
+#: view/kateview.cpp:602
 msgid ""
 "Show/hide the Word Wrap Marker, a vertical line drawn at the word wrap "
 "column as defined in the editing properties"
@@ -7182,326 +7182,326 @@ msgstr ""
 "वर्ड रैप निशान नुकाबू/देखाबू, वर्ड रैप स्तम्भ पर खड़ी पंक्ति बनत जहिना जे संपादन गुणसभ मे "
 "पारिभाषित अछि"
 
-#: view/kateview.cpp:603
+#: view/kateview.cpp:607
 msgid "Switch to Command Line"
 msgstr "कमांड लाइन मे बदलू"
 
-#: view/kateview.cpp:605
+#: view/kateview.cpp:609
 msgid "Show/hide the command line on the bottom of the view."
 msgstr "दृश्य केर तल पर कमांड पंक्ति देखाबू/नुकाबू."
 
-#: view/kateview.cpp:609
+#: view/kateview.cpp:613
 msgid "Show the JavaScript Console"
 msgstr ""
 
-#: view/kateview.cpp:610
+#: view/kateview.cpp:614
 #, fuzzy
 #| msgid "Show/hide the command line on the bottom of the view."
 msgid "Show/hide the JavaScript Console on the bottom of the view."
 msgstr "दृश्य केर तल पर कमांड पंक्ति देखाबू/नुकाबू."
 
-#: view/kateview.cpp:613
+#: view/kateview.cpp:617
 #, fuzzy
 #| msgid "Vi Input Mode"
 msgid "&VI Input Mode"
 msgstr "Vi इनमुट मोड"
 
-#: view/kateview.cpp:616
+#: view/kateview.cpp:620
 msgid "Activate/deactivate VI input mode"
 msgstr "VI इनपुट विधिकेँ सक्रिय/निष्क्रिय करू"
 
-#: view/kateview.cpp:619
+#: view/kateview.cpp:623
 msgid "&End of Line"
 msgstr "पंक्ति क' अंत (&E)"
 
-#: view/kateview.cpp:621
+#: view/kateview.cpp:625
 msgid "Choose which line endings should be used, when you save the document"
 msgstr "जखन अहाँ दस्ताबेज सहेजब, चुनू जे कओन सी आखिर पंक्ति उपयोग कएल जाएत"
 
-#: view/kateview.cpp:630
+#: view/kateview.cpp:634
 msgid "Add &Byte Order Mark (BOM)"
 msgstr ""
 
-#: view/kateview.cpp:633
+#: view/kateview.cpp:637
 msgid ""
 "Enable/disable adding of byte order markers for UTF-8/UTF-16 encoded files "
 "while saving"
 msgstr ""
 
-#: view/kateview.cpp:636
+#: view/kateview.cpp:640
 msgid "E&ncoding"
 msgstr "एनकोडिंग (&n)"
 
-#: view/kateview.cpp:640
+#: view/kateview.cpp:644
 msgid "Look up the first occurrence of a piece of text or regular expression."
 msgstr "पाठ केर एकटा खण्ड अथवा रेगुलर एक्सप्रेशन कुंजीक प्रथम उपस्थिति देखू"
 
-#: view/kateview.cpp:644
+#: view/kateview.cpp:648
 msgid "Find Selected"
 msgstr "चुनल गेल खोजू"
 
-#: view/kateview.cpp:646
+#: view/kateview.cpp:650
 msgid "Finds next occurrence of selected text."
 msgstr "चुनलका पाठक अगिला उपस्थिति केँ खोजू"
 
-#: view/kateview.cpp:650
+#: view/kateview.cpp:654
 msgid "Find Selected Backwards"
 msgstr "चुनल गेल केँ पाछाँसँ खोजू"
 
-#: view/kateview.cpp:652
+#: view/kateview.cpp:656
 msgid "Finds previous occurrence of selected text."
 msgstr "खोज वाक्यांशक पछिलका उपस्थिति देखू"
 
-#: view/kateview.cpp:656
+#: view/kateview.cpp:660
 msgid "Look up the next occurrence of the search phrase."
 msgstr "खोज वाक्यांशक अगिलका उपस्थिति देखू"
 
-#: view/kateview.cpp:660
+#: view/kateview.cpp:664
 msgid "Look up the previous occurrence of the search phrase."
 msgstr "खोज वाक्यांशक पछिलका उपस्थिति देखू"
 
-#: view/kateview.cpp:664
+#: view/kateview.cpp:668
 msgid ""
 "Look up a piece of text or regular expression and replace the result with "
 "some given text."
 msgstr ""
 "पाठ केर एकटा खण्ड अथवा रेगुलर एक्सप्रेशन क' उपस्थिति देखू आओर परिणाम केँ देल गेल पाठ सँ बदलू."
 
-#: view/kateview.cpp:667
+#: view/kateview.cpp:671
 msgid "Automatic Spell Checking"
 msgstr ""
 
-#: view/kateview.cpp:668
+#: view/kateview.cpp:672
 msgid "Enable/disable automatic spell checking"
 msgstr ""
 
-#: view/kateview.cpp:674
+#: view/kateview.cpp:678
 #, fuzzy
 #| msgid "Choose Editor..."
 msgid "Change Dictionary..."
 msgstr "संपादक चुनू..."
 
-#: view/kateview.cpp:675
+#: view/kateview.cpp:679
 msgid "Change the dictionary that is used for spell checking."
 msgstr ""
 
-#: view/kateview.cpp:679
+#: view/kateview.cpp:683
 msgid "Clear Dictionary Ranges"
 msgstr ""
 
-#: view/kateview.cpp:681
+#: view/kateview.cpp:685
 msgid ""
 "Remove all the separate dictionary ranges that were set for spell checking."
 msgstr ""
 
-#: view/kateview.cpp:733
+#: view/kateview.cpp:737
 msgid "Move Word Left"
 msgstr "शब्द बम्माँ घसकाबू"
 
-#: view/kateview.cpp:739
+#: view/kateview.cpp:743
 msgid "Select Character Left"
 msgstr "बम्माँ संप्रतीक चुनू"
 
-#: view/kateview.cpp:745
+#: view/kateview.cpp:749
 msgid "Select Word Left"
 msgstr "बम्माँ शब्द चुनू"
 
-#: view/kateview.cpp:751
+#: view/kateview.cpp:755
 msgid "Move Word Right"
 msgstr "शब्द दहिन्ना घसकाबू"
 
-#: view/kateview.cpp:757
+#: view/kateview.cpp:761
 msgid "Select Character Right"
 msgstr "दहिन्ना संप्रतीक चुनू"
 
-#: view/kateview.cpp:763
+#: view/kateview.cpp:767
 msgid "Select Word Right"
 msgstr "दहिन्ना शब्द चुनू"
 
-#: view/kateview.cpp:769
+#: view/kateview.cpp:773
 msgid "Move to Beginning of Line"
 msgstr "पंक्ति केर प्रारंभ मे जाउ"
 
-#: view/kateview.cpp:775
+#: view/kateview.cpp:779
 msgid "Move to Beginning of Document"
 msgstr "दस्ताबेज केर प्रारंभ मे जाउ"
 
-#: view/kateview.cpp:781
+#: view/kateview.cpp:785
 msgid "Select to Beginning of Line"
 msgstr "पंक्ति क' प्रारंभ चुनू"
 
-#: view/kateview.cpp:787
+#: view/kateview.cpp:791
 msgid "Select to Beginning of Document"
 msgstr "दस्ताबेज क' प्रारंभ चुनू"
 
-#: view/kateview.cpp:794
+#: view/kateview.cpp:798
 msgid "Move to End of Line"
 msgstr "पंक्ति केर अंत मे जाउ"
 
-#: view/kateview.cpp:800
+#: view/kateview.cpp:804
 msgid "Move to End of Document"
 msgstr "दस्ताबेज केर अंत मे जाउ"
 
-#: view/kateview.cpp:806
+#: view/kateview.cpp:810
 msgid "Select to End of Line"
 msgstr "पंक्तिक अंत चुनू"
 
-#: view/kateview.cpp:812
+#: view/kateview.cpp:816
 msgid "Select to End of Document"
 msgstr "दस्ताबेज केर अंत चुनू"
 
-#: view/kateview.cpp:819
+#: view/kateview.cpp:823
 msgid "Select to Previous Line"
 msgstr "पछिलका पंक्ति चुनू"
 
-#: view/kateview.cpp:825
+#: view/kateview.cpp:829
 msgid "Scroll Line Up"
 msgstr "पंक्ति उप्पर स्क्रोल करू"
 
-#: view/kateview.cpp:832
+#: view/kateview.cpp:836
 msgid "Move to Next Line"
 msgstr "अगिला पंक्ति पर जाएं"
 
-#: view/kateview.cpp:839
+#: view/kateview.cpp:843
 msgid "Move to Previous Line"
 msgstr "पछिलका पंक्ति पर जाउ"
 
-#: view/kateview.cpp:846
+#: view/kateview.cpp:850
 #, fuzzy
 #| msgid "Move Word Right"
 msgid "Move Cursor Right"
 msgstr "शब्द दहिन्ना घसकाबू"
 
-#: view/kateview.cpp:853
+#: view/kateview.cpp:857
 #, fuzzy
 #| msgid "Move Word Left"
 msgid "Move Cursor Left"
 msgstr "शब्द बम्माँ घसकाबू"
 
-#: view/kateview.cpp:860
+#: view/kateview.cpp:864
 msgid "Select to Next Line"
 msgstr "अगिला पंक्ति चुनू"
 
-#: view/kateview.cpp:866
+#: view/kateview.cpp:870
 msgid "Scroll Line Down"
 msgstr "पंक्ति नीच्चाँ स्क्रोल करू"
 
-#: view/kateview.cpp:873
+#: view/kateview.cpp:877
 msgid "Scroll Page Up"
 msgstr "पृष्ठ उप्पर स्क्रोल करू"
 
-#: view/kateview.cpp:879
+#: view/kateview.cpp:883
 msgid "Select Page Up"
 msgstr "उप्परक पृष्ठ चुनू"
 
-#: view/kateview.cpp:885
+#: view/kateview.cpp:889
 msgid "Move to Top of View"
 msgstr "दृश्य केर शीर्ष मे जाउ"
 
-#: view/kateview.cpp:891
+#: view/kateview.cpp:895
 msgid "Select to Top of View"
 msgstr "दृश्य केर शीर्ष केँ चुनू"
 
-#: view/kateview.cpp:898
+#: view/kateview.cpp:902
 msgid "Scroll Page Down"
 msgstr "पृष्ठ नीच्चाँ स्क्रोल करू"
 
-#: view/kateview.cpp:904
+#: view/kateview.cpp:908
 msgid "Select Page Down"
 msgstr "नीच्चाँक पृष्ठ चयन करू"
 
-#: view/kateview.cpp:910
+#: view/kateview.cpp:914
 msgid "Move to Bottom of View"
 msgstr "दृश्य केर तल मे जाउ"
 
-#: view/kateview.cpp:916
+#: view/kateview.cpp:920
 msgid "Select to Bottom of View"
 msgstr "दृश्य केर तल केँ चुनू"
 
-#: view/kateview.cpp:922
+#: view/kateview.cpp:926
 msgid "Move to Matching Bracket"
 msgstr "मैचिंग कोष्ठक मे जाउ"
 
-#: view/kateview.cpp:928
+#: view/kateview.cpp:932
 msgid "Select to Matching Bracket"
 msgstr "मैचिंग कोष्ठक चुनू"
 
-#: view/kateview.cpp:938
+#: view/kateview.cpp:942
 msgid "Transpose Characters"
 msgstr "अक्षरसभ केँ ट्रांसपोज़ करू"
 
-#: view/kateview.cpp:944
+#: view/kateview.cpp:948
 msgid "Delete Line"
 msgstr "पंक्ति मेटाबू"
 
-#: view/kateview.cpp:950
+#: view/kateview.cpp:954
 msgid "Delete Word Left"
 msgstr "बम्माँ शब्द मेटाबू"
 
-#: view/kateview.cpp:956
+#: view/kateview.cpp:960
 msgid "Delete Word Right"
 msgstr "दहिन्ना शब्द मेटाबू"
 
-#: view/kateview.cpp:962
+#: view/kateview.cpp:966
 msgid "Delete Next Character"
 msgstr "अगिला अक्षर मेटाबू"
 
-#: view/kateview.cpp:968
+#: view/kateview.cpp:972
 msgid "Backspace"
 msgstr "बैकस्पेस"
 
-#: view/kateview.cpp:977
+#: view/kateview.cpp:981
 msgid "Insert Tab"
 msgstr ""
 
-#: view/kateview.cpp:982
+#: view/kateview.cpp:986
 msgid "Insert Smart Newline"
 msgstr "नीक न्यूलाइन घुसाबू"
 
-#: view/kateview.cpp:983
+#: view/kateview.cpp:987
 msgid ""
 "Insert newline including leading characters of the current line which are "
 "not letters or numbers."
 msgstr ""
 
-#: view/kateview.cpp:993
+#: view/kateview.cpp:997
 msgid "&Indent"
 msgstr "हाशिया (&I)"
 
-#: view/kateview.cpp:994
+#: view/kateview.cpp:998
 msgid ""
 "Use this to indent a selected block of text.<br /><br />You can configure "
 "whether tabs should be honored and used or replaced with spaces, in the "
 "configuration dialog."
 msgstr ""
 
-#: view/kateview.cpp:1001
+#: view/kateview.cpp:1005
 msgid "&Unindent"
 msgstr "हाशिया हटाबू (&U)"
 
-#: view/kateview.cpp:1002
+#: view/kateview.cpp:1006
 msgid "Use this to unindent a selected block of text."
 msgstr "चुनल गेल पाठ केर खण्ड केँ हाशिया हटाने क' लेल एकर इस्तेमाल करू"
 
-#: view/kateview.cpp:1039
+#: view/kateview.cpp:1043
 #, fuzzy
 #| msgid "Current line:"
 msgid "Fold Current Node"
 msgstr "मोजुदा पंक्ति:"
 
-#: view/kateview.cpp:1043
+#: view/kateview.cpp:1047
 msgid "Unfold Current Node"
 msgstr ""
 
-#: view/kateview.cpp:1125
+#: view/kateview.cpp:1129
 msgid "OVR"
 msgstr "मेटाकए लिखू"
 
-#: view/kateview.cpp:1125
+#: view/kateview.cpp:1129
 msgid "INS"
 msgstr "प्रविष्ट"
 
-#: view/kateview.cpp:1150
+#: view/kateview.cpp:1154
 #, kde-format
 msgid "%1 (R/O)"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-05 02:09+0200\n"
+"POT-Creation-Date: 2013-04-08 02:27+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1166,10 +1166,8 @@ msgid "Flatten Layer"
 msgstr "चित्र चपटा करू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
 #: image/kis_layer.cc:176 plugins/paintops/hairy/wdghairyeoptions.ui:278
 #: plugins/paintops/hairy/wdgInkOptions.ui:55
-#: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:26
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:32
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:27
 msgid "Opacity"
@@ -1851,12 +1849,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioSaturation)
 #. i18n: ectx: property (text), widget (QCheckBox, saturationCBox)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:87
 #: plugins/paintops/hairy/wdghairyeoptions.ui:291
 #: plugins/paintops/hairy/wdgInkOptions.ui:68
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:175
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:30
 #: ui/forms/wdgapplyprofile.ui:128 ui/forms/wdgcolorsettings.ui:146
 msgid "Saturation"
@@ -3135,8 +3131,10 @@ msgstr ""
 msgid "Taskset Name"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:185
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:25
 #: ui/forms/wdgfilternodecreation.ui:16 ui/forms/wdgflipbookselector.ui:28
 #: ui/forms/wdgpaintopsettings.ui:160
 msgid "Name:"
@@ -3207,10 +3205,12 @@ msgstr "रँग:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, opacityLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:45
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:22
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:48
+#: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:26
 #: ui/forms/wdgautogradient.ui:238 ui/forms/wdgpaintactioneditor.ui:89
 #: ui/kis_paintop_box.cc:139
 msgid "Opacity:"
@@ -4435,11 +4435,9 @@ msgstr "घुमाव"
 msgid "Key"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:119
-#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:185
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:35
 #: plugins/tools/defaulttools/wdgcolorpicker.ui:35
 msgid "Value"
@@ -4651,13 +4649,8 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
 #. i18n: ectx: property (label), widget (KIntNumInput, blurAngleSlider)
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, rotationLbl)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:129
 #: plugins/filters/blur/wdg_motion_blur.ui:55
-#: plugins/paintops/dynadraw/wdgdynaoptions.ui:267
-#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:261
-#: plugins/paintops/spray/wdgsprayoptions.ui:140
 msgid "Angle"
 msgstr "कोण"
 
@@ -4893,11 +4886,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #. i18n: ectx: property (text), widget (QLabel, widthInfoLbl_2)
+#. i18n: ectx: property (text), widget (QLabel, shapeLbl)
 #: plugins/filters/blur/wdg_lens_blur.ui:29
 #: plugins/filters/blur/wdgblur.ui:111
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:119
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:197
 #: plugins/paintops/experiment/wdgshapeoptions.ui:37
+#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:323
 #: plugins/paintops/spray/wdgshapeoptions.ui:37
 #: plugins/tools/defaulttools/kis_tool_gradient.cc:341
 msgid "Shape:"
@@ -4992,11 +4987,16 @@ msgid "Strength:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, rotationLbl)
 #: plugins/filters/blur/wdgblur.ui:91
+#: plugins/paintops/dynadraw/wdgdynaoptions.ui:267
 #: plugins/paintops/hatching/wdghatchingoptions.ui:85
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:207
+#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:261
+#: plugins/paintops/spray/wdgsprayoptions.ui:140
 msgid "Angle:"
 msgstr "कोण:"
 
@@ -5035,8 +5035,11 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/colors/wdgcolortoalphabase.ui:61
 #: plugins/filters/unsharp/wdgunsharp.ui:68
+#: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:37
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:57
 msgid "Threshold:"
 msgstr "दहलीज:"
 
@@ -5126,6 +5129,7 @@ msgstr "पाठ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:138
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:185
 msgid "Value:"
 msgstr "मान:"
 
@@ -5302,12 +5306,9 @@ msgid "&Gaussian Noise Reduction..."
 msgstr "गॉसियन धुंधला"
 
 #. i18n: ectx: property (text), widget (QCheckBox, thresholdCBox)
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:54
 #: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:52
-#: plugins/paintops/hairy/wdgbristleoptions.ui:116
-#: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:37
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:57
+#: plugins/paintops/hairy/wdgbristleoptions.ui:119
 msgid "Threshold"
 msgstr "दहलीज"
 
@@ -6448,12 +6449,13 @@ msgid "Chalk brush"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel)
+#. i18n: ectx: property (text), widget (QLabel, lbl_diameter)
 #: plugins/paintops/chalk/wdgchalkoptions.ui:40
-#: plugins/paintops/hairy/wdghairyeoptions.ui:139
-#: plugins/paintops/hairy/wdgshapeoptions.ui:38
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:157
-msgid "radius"
-msgstr ""
+#: plugins/paintops/mypaint/wdgmypaintoptions.ui:29
+#, fuzzy
+#| msgid "Radius"
+msgid "Radius:"
+msgstr "त्रिज्या"
 
 #. i18n: ectx: property (text), widget (QCheckBox, inkDepletionCHBox)
 #. i18n: ectx: attribute (title), widget (QWidget, inkTab)
@@ -6524,8 +6526,10 @@ msgid "Dulling"
 msgstr ""
 
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:41
-msgid "Smudge Mode"
-msgstr ""
+#, fuzzy
+#| msgid "Sample merged"
+msgid "Smudge mode:"
+msgstr "नमूना मिलाएब देल गेल"
 
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:43
 msgid "Curve brush"
@@ -6540,9 +6544,7 @@ msgstr ""
 msgid "Lines"
 msgstr "रेखासभ"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/paintops/curvebrush/kis_curves_opacity_option.cpp:23
-#: plugins/paintops/curvebrush/wdgcurveoptions.ui:62
 #, fuzzy
 #| msgid "Opacity"
 msgid "Curves opacity"
@@ -6562,21 +6564,35 @@ msgstr "अपारदर्शिता"
 msgid "0%"
 msgstr "%"
 
-#. i18n: ectx: property (text), widget (QLabel, lineWidthLbl)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/paintops/curvebrush/kis_linewidth_option.cpp:23
-#: plugins/paintops/curvebrush/wdgcurveoptions.ui:31
 #: plugins/paintops/sketch/kis_linewidth_option.cpp:23
-#: plugins/paintops/sketch/wdgsketchoptions.ui:46
 #, fuzzy
 #| msgid "Line count"
 msgid "Line width"
 msgstr "पंक्ति गिननाइ"
 
+#. i18n: ectx: property (text), widget (QLabel, lineWidthLbl)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/paintops/curvebrush/wdgcurveoptions.ui:31
+#: plugins/paintops/sketch/wdgsketchoptions.ui:46
+#, fuzzy
+#| msgid "Line count"
+msgid "Line width:"
+msgstr "पंक्ति गिननाइ"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/curvebrush/wdgcurveoptions.ui:45
-msgid "History size"
-msgstr ""
+#, fuzzy
+#| msgid "File size:"
+msgid "History size:"
+msgstr "फाइल आकारः"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/paintops/curvebrush/wdgcurveoptions.ui:62
+#, fuzzy
+#| msgid "Opacity"
+msgid "Curves opacity:"
+msgstr "अपारदर्शिता"
 
 #. i18n: ectx: property (text), widget (QCheckBox, connectionCHBox)
 #: plugins/paintops/curvebrush/wdgcurveoptions.ui:76
@@ -6686,7 +6702,7 @@ msgstr "अचयनित"
 #: plugins/paintops/deform/wdgdeformoptions.ui:131
 #, fuzzy
 #| msgid "TIFF Options"
-msgid "Deform Amount"
+msgid "Deform amount:"
 msgstr "TIFF विकल्प"
 
 #. i18n: ectx: property (text), widget (QCheckBox, interpolationChBox)
@@ -6721,39 +6737,39 @@ msgstr "जमावट"
 
 #. i18n: ectx: property (text), widget (QLabel, initWidthLbl)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:66
-#, fuzzy
-#| msgid "Line count"
-msgid "Initial width"
-msgstr "पंक्ति गिननाइ"
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:308
+msgid "Initial width:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:86
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:278
 #, fuzzy
 #| msgid "Main:"
-msgid "Mass"
+msgid "Mass:"
 msgstr "मुख्य:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:106
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:285
 #, fuzzy
 #| msgid "Date:"
-msgid "Drag"
+msgid "Drag:"
 msgstr "दिनांक:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:139
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:314
 #, fuzzy
 #| msgid "Width:"
-msgid "Width range"
+msgid "Width range:"
 msgstr "चओड़ाइ:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, ShapeTab)
 #. i18n: ectx: property (title), widget (QGroupBox, shapeGroup)
-#. i18n: ectx: property (text), widget (QLabel, shapeLbl)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:148
 #: plugins/paintops/hairy/wdghairyeoptions.ui:42
 #: plugins/paintops/hairy/wdgshapeoptions.ui:78
-#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:323
 msgid "Shape"
 msgstr "आकार"
 
@@ -6792,11 +6808,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, DiameterLbl)
 #. i18n: ectx: property (text), widget (QLabel, diameterLabel)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:251
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:87
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:43
 #: plugins/paintops/spray/wdgsprayoptions.ui:46
 #, fuzzy
 #| msgid "Date:"
-msgid "Diameter"
+msgid "Diameter:"
 msgstr "दिनांक:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, fixedAngleChBox)
@@ -6903,11 +6920,10 @@ msgstr "कर्सर"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/experiment/wdgshapeoptions.ui:384
-#: plugins/paintops/libpaintop/kis_paintop_option.cpp:36
 #: plugins/paintops/spray/wdgshapeoptions.ui:221
 #, fuzzy
 #| msgid "Text"
-msgid "Texture"
+msgid "Texture:"
 msgstr "पाठ"
 
 #: plugins/paintops/filterop/filterop.cpp:45
@@ -6922,19 +6938,19 @@ msgstr ""
 #: plugins/paintops/gridbrush/wdggridoptions.ui:38
 #, fuzzy
 #| msgid "Line count"
-msgid "Grid width"
+msgid "Grid width:"
 msgstr "पंक्ति गिननाइ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:58
 #, fuzzy
 #| msgid "Height"
-msgid "Grid height"
+msgid "Grid height:"
 msgstr "उँचाइ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:78
-msgid "Division level"
+msgid "Division level:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, divisionPressureCHBox)
@@ -6949,24 +6965,26 @@ msgstr ""
 #: plugins/paintops/gridbrush/wdggridoptions.ui:105
 #: plugins/paintops/hairy/wdgbristleoptions.ui:37
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:96
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:95
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:72
 #: plugins/paintops/spray/wdgsprayoptions.ui:190
 #, fuzzy
 #| msgid "Scales"
-msgid "Scale"
+msgid "Scale:"
 msgstr "मापक"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:128
 #, fuzzy
 #| msgid "Vertical:"
-msgid "Vertical border"
+msgid "Vertical border:"
 msgstr "उर्ध्वाधर"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/paintops/gridbrush/wdggridoptions.ui:142
 #, fuzzy
 #| msgid "Horizontal:"
-msgid "Horizontal border"
+msgid "Horizontal border:"
 msgstr "क्षैतिजः"
 
 #. i18n: ectx: property (text), widget (QCheckBox, jitterBorderCHBox)
@@ -7004,34 +7022,33 @@ msgstr "ब्रश"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/hairy/wdgbristleoptions.ui:53
-#: plugins/paintops/hairy/wdghairyeoptions.ui:217
 #, fuzzy
 #| msgid "Random"
-msgid "Random offset"
+msgid "Random offset:"
 msgstr "क्रमहीन"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/paintops/hairy/wdgbristleoptions.ui:66
+#: plugins/paintops/hairy/wdgbristleoptions.ui:69
 #, fuzzy
 #| msgid "Star"
-msgid "Shear"
+msgid "Shear:"
 msgstr "तारा"
 
 #. i18n: ectx: property (text), widget (QLabel, density)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QLabel, densityLbl)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
-#: plugins/paintops/hairy/wdgbristleoptions.ui:82
+#: plugins/paintops/hairy/wdgbristleoptions.ui:85
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:253
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:399
-#: plugins/paintops/sketch/kis_density_option.cpp:23
 #: plugins/paintops/sketch/wdgsketchoptions.ui:116
-#: plugins/paintops/spray/wdgsprayoptions.ui:322
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:984
-msgid "Density"
-msgstr ""
+#, fuzzy
+#| msgid "Description:"
+msgid "Density:"
+msgstr "विवरण:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mousePressureCBox)
-#: plugins/paintops/hairy/wdgbristleoptions.ui:106
+#: plugins/paintops/hairy/wdgbristleoptions.ui:109
 #: plugins/paintops/hairy/wdghairyeoptions.ui:129
 #, fuzzy
 #| msgid "Pressure"
@@ -7039,19 +7056,19 @@ msgid "Mouse pressure"
 msgstr "दबाव"
 
 #. i18n: ectx: property (text), widget (QCheckBox, connectedCBox)
-#: plugins/paintops/hairy/wdgbristleoptions.ui:126
+#: plugins/paintops/hairy/wdgbristleoptions.ui:129
 msgid "Connect hairs"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, antialiasCBox)
 #. i18n: ectx: property (text), widget (QCheckBox, chkAntiAliasing)
-#: plugins/paintops/hairy/wdgbristleoptions.ui:133
+#: plugins/paintops/hairy/wdgbristleoptions.ui:136
 #: ui/forms/wdgselectionoptions.ui:165
 msgid "Anti-aliasing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, compositingCBox)
-#: plugins/paintops/hairy/wdgbristleoptions.ui:140
+#: plugins/paintops/hairy/wdgbristleoptions.ui:143
 #, fuzzy
 #| msgid "Options"
 msgid "Composite bristles"
@@ -7085,6 +7102,13 @@ msgstr "2"
 msgid "Brush Settings"
 msgstr "सीमा चयन"
 
+#. i18n: ectx: property (text), widget (QLabel, radiusLabel)
+#: plugins/paintops/hairy/wdghairyeoptions.ui:139
+#: plugins/paintops/hairy/wdgshapeoptions.ui:38
+#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:157
+msgid "radius"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, sigmaLabel)
 #: plugins/paintops/hairy/wdghairyeoptions.ui:146
 #: plugins/paintops/hairy/wdgshapeoptions.ui:52
@@ -7109,6 +7133,13 @@ msgstr "कारक मापू"
 #| msgid "Scale factor"
 msgid "Shear factor"
 msgstr "कारक मापू"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/paintops/hairy/wdghairyeoptions.ui:217
+#, fuzzy
+#| msgid "Random"
+msgid "Random offset"
+msgstr "क्रमहीन"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/paintops/hairy/wdghairyeoptions.ui:249
@@ -7316,21 +7347,13 @@ msgstr "पृष्ठभूमि रँग"
 
 #. i18n: ectx: property (text), widget (QLabel, rateLbl)
 #: plugins/paintops/libpaintop/forms/wdgairbrush.ui:26
-#: plugins/paintops/libpaintop/kis_pressure_rate_option.cpp:32
-msgid "Rate"
-msgstr "दर"
+msgid "Rate:"
+msgstr "दर:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShape)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:59
 msgid "Square"
 msgstr "वर्ग"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:87
-#, fuzzy
-#| msgid "Date:"
-msgid "Diameter:"
-msgstr "दिनांक:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:107
@@ -7369,16 +7392,15 @@ msgstr "स्पाइक:"
 msgid "Randomness:"
 msgstr "क्रमहीन"
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:253
-#, fuzzy
-#| msgid "Description:"
-msgid "Density:"
-msgstr "विवरण:"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, spacingLbl)
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:266
+#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:149
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:180
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:77
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:110
+#: plugins/paintops/spray/wdgsprayoptions.ui:234
 msgid "Spacing:"
 msgstr "अंतरण:"
 
@@ -7389,22 +7411,13 @@ msgstr "अंतरण:"
 msgid "Precision:"
 msgstr "संतृप्ति:"
 
-#. i18n: ectx: property (text), widget (QLabel, spacingLbl)
-#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
-#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:149
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:180
-#: plugins/paintops/libpaintop/kis_pressure_spacing_option.cpp:25
-#: plugins/paintops/spray/wdgsprayoptions.ui:234
-msgid "Spacing"
-msgstr "अंतरण"
-
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:205
 #: plugins/paintops/spray/wdgsprayoptions.ui:93
 #, fuzzy
 #| msgid "Rotation"
-msgid "Aspect ratio"
+msgid "Aspect ratio:"
 msgstr "घुमाव"
 
 #. i18n: ectx: property (text), widget (QCheckBox, jitterMoveBox)
@@ -7458,9 +7471,17 @@ msgstr "क्रमहीन"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:165
-#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:25
-msgid "Hue"
-msgstr "वर्ण"
+#, fuzzy
+#| msgid "Hue:"
+msgid "Hue:"
+msgstr "वर्ण:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:175
+#, fuzzy
+#| msgid "Saturation:"
+msgid "Saturation:"
+msgstr "संतृप्ति:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, randomOpacityCHBox)
 #. i18n: ectx: property (text), widget (QCheckBox, randomOpacityCHbox)
@@ -7487,11 +7508,6 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:159
 msgid "Use Curve"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:25
-msgid "Name"
-msgstr "नाम"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, labelStyle)
@@ -7554,8 +7570,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxIgnoreAlpha)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:40
-msgid "ignore alpha"
-msgstr ""
+#, fuzzy
+#| msgid "Color to Alpha"
+msgid "Ignore Alpha"
+msgstr "अल्फामे रंग"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpFilterOptions)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:55
@@ -7566,11 +7584,12 @@ msgstr "जमावट"
 
 #. i18n: ectx: property (text), widget (QLabel, flowLabel)
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:43
+#: ui/kis_paintop_box.cc:140
 #, fuzzy
 #| msgctxt ""
 #| "The compression will take a long time; saving the file will be slow."
 #| msgid "Slow"
-msgid "Flow"
+msgid "Flow:"
 msgstr "धीमा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
@@ -7670,21 +7689,11 @@ msgstr ""
 msgid "The mixing option mixes the paint on the brush with that on the canvas."
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:95
-#, fuzzy
-#| msgid "Scales"
-msgid "Scale: "
-msgstr "मापक"
-
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:104
 #, fuzzy
 #| msgid "Rotation"
-msgid "Rotation: "
+msgid "Rotation:"
 msgstr "घुमाव"
-
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:110
-msgid "Spacing: "
-msgstr ""
 
 #: plugins/paintops/libpaintop/kis_brush_option_widget.cpp:29
 msgid "Brush Tip"
@@ -7852,6 +7861,12 @@ msgstr ""
 msgid "Brush"
 msgstr "ब्रश"
 
+#: plugins/paintops/libpaintop/kis_paintop_option.cpp:36
+#, fuzzy
+#| msgid "Text"
+msgid "Texture"
+msgstr "पाठ"
+
 #: plugins/paintops/libpaintop/kis_pressure_darken_option.cpp:28
 msgid "Darken"
 msgstr "गहिर करू"
@@ -7869,6 +7884,10 @@ msgstr "पारदर्शी"
 #: ui/forms/wdgnewimage.ui:403
 msgid "Opaque"
 msgstr "अपारदर्शक"
+
+#: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:25
+msgid "Hue"
+msgstr "वर्ण"
 
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:54
 #, no-c-format
@@ -7951,6 +7970,10 @@ msgstr "मुख्य"
 msgid "Foreground"
 msgstr "अग्रभूमि रँग"
 
+#: plugins/paintops/libpaintop/kis_pressure_rate_option.cpp:32
+msgid "Rate"
+msgstr "दर"
+
 #: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:30
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:44
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensors.cc:50
@@ -7997,6 +8020,10 @@ msgstr "छायांकित"
 msgid "Softness"
 msgstr "चिकना"
 
+#: plugins/paintops/libpaintop/kis_pressure_spacing_option.cpp:25
+msgid "Spacing"
+msgstr "अंतरण"
+
 #: plugins/paintops/libpaintop/kis_pressure_texture_strength_option.cpp:24
 #, fuzzy
 #| msgid "Length:"
@@ -8012,12 +8039,6 @@ msgstr ""
 #| msgid "Stroke"
 msgid "Strong"
 msgstr "स्ट्रोक"
-
-#: plugins/paintops/libpaintop/kis_texture_option.cpp:72
-#, fuzzy
-#| msgid "Scales"
-msgid "Scale:"
-msgstr "मापक"
 
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:76
 #, fuzzy
@@ -8066,7 +8087,7 @@ msgstr "प्रारूप (&P)"
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:95
 #, fuzzy
 #| msgid "Custom"
-msgid "Cutoff Policy"
+msgid "Cutoff Policy:"
 msgstr "पसंदीदा"
 
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:101
@@ -8078,7 +8099,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:103
 #, fuzzy
 #| msgid "Custom"
-msgid "Cutoff"
+msgid "Cutoff:"
 msgstr "पसंदीदा"
 
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:107
@@ -8701,13 +8722,6 @@ msgstr ""
 msgid "MyPaint brush"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lbl_diameter)
-#: plugins/paintops/mypaint/wdgmypaintoptions.ui:29
-#, fuzzy
-#| msgid "Radius"
-msgid "Radius:"
-msgstr "त्रिज्या"
-
 #: plugins/paintops/particle/particle_paintop_plugin.cpp:42
 #, fuzzy
 #| msgid "Partial"
@@ -8718,47 +8732,53 @@ msgstr "आँशिक"
 #: plugins/paintops/particle/wdgparticleoptions.ui:50
 #, fuzzy
 #| msgid "Partial"
-msgid "particles"
+msgid "Particles:"
 msgstr "आँशिक"
 
 #. i18n: ectx: property (text), widget (QLabel, opacity)
 #: plugins/paintops/particle/wdgparticleoptions.ui:100
 #, fuzzy
 #| msgid "Right:"
-msgid "opacity weight"
+msgid "Opacity weight:"
 msgstr "दायाँ:"
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel_3)
 #: plugins/paintops/particle/wdgparticleoptions.ui:144
 #, fuzzy
 #| msgid "Scales"
-msgid "dx scale"
+msgid "dx scale:"
 msgstr "मापक"
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel_4)
 #: plugins/paintops/particle/wdgparticleoptions.ui:170
 #, fuzzy
 #| msgid "Scales"
-msgid "dy scale"
+msgid "dy scale:"
 msgstr "मापक"
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel_5)
 #: plugins/paintops/particle/wdgparticleoptions.ui:196
 #, fuzzy
 #| msgid "Saturation"
-msgid "iterations"
+msgid "Iterations:"
 msgstr "संतृप्ति"
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel_2)
 #: plugins/paintops/particle/wdgparticleoptions.ui:213
 #, fuzzy
 #| msgid "Gravity"
-msgid "gravity"
+msgid "Gravity:"
 msgstr "गुरूत्व"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/paintops/sketch/kis_density_option.cpp:23
+#: plugins/paintops/spray/wdgsprayoptions.ui:322
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:984
+msgid "Density"
+msgstr ""
+
 #: plugins/paintops/sketch/kis_offset_scale_option.cpp:23
-#: plugins/paintops/sketch/wdgsketchoptions.ui:87
 #, fuzzy
 #| msgid "Offset"
 msgid "Offset scale"
@@ -8782,6 +8802,13 @@ msgstr "आँशिक"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:703
 msgid " px"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/paintops/sketch/wdgsketchoptions.ui:87
+#, fuzzy
+#| msgid "Offset"
+msgid "Offset scale:"
+msgstr "ऑफसेट"
 
 #. i18n: ectx: property (text), widget (QCheckBox, distanceDensityCHBox)
 #: plugins/paintops/sketch/wdgsketchoptions.ui:168
@@ -9454,33 +9481,11 @@ msgctxt "(qtundo-format)"
 msgid "Dyna"
 msgstr ""
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:278
-#, fuzzy
-#| msgid "Main:"
-msgid "Mass:"
-msgstr "मुख्य:"
-
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:285
-#, fuzzy
-#| msgid "Date:"
-msgid "Drag:"
-msgstr "दिनांक:"
-
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:294
 #, fuzzy
 #| msgid "Triangle"
 msgid "Fixed angle:"
 msgstr "त्रिभुज"
-
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:308
-msgid "Initial width:"
-msgstr ""
-
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:314
-#, fuzzy
-#| msgid "Width:"
-msgid "Width range:"
-msgstr "चओड़ाइ:"
 
 #: plugins/tools/tool_dyna/kis_tool_dyna.h:156
 msgid "Paint with brushes using dynamic movements"
@@ -11928,14 +11933,6 @@ msgstr "क्षैतिजः"
 msgid "Set vertical mirror mode"
 msgstr "उर्ध्वाधर"
 
-#: ui/kis_paintop_box.cc:140
-#, fuzzy
-#| msgctxt ""
-#| "The compression will take a long time; saving the file will be slow."
-#| msgid "Slow"
-msgid "Flow:"
-msgstr "धीमा"
-
 #: ui/kis_paintop_box.cc:163
 msgid "Mode: "
 msgstr ""
@@ -12396,7 +12393,7 @@ msgstr ""
 msgid "Choose meta data merge strategy"
 msgstr ""
 
-#: ui/widgets/kis_multipliers_double_slider_spinbox.cpp:64
+#: ui/widgets/kis_multipliers_double_slider_spinbox.cpp:55
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgid "x%1"
@@ -12447,6 +12444,56 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgid "Line count"
+#~ msgid "Initial width"
+#~ msgstr "पंक्ति गिननाइ"
+
+#, fuzzy
+#~| msgid "Main:"
+#~ msgid "Mass"
+#~ msgstr "मुख्य:"
+
+#, fuzzy
+#~| msgid "Date:"
+#~ msgid "Drag"
+#~ msgstr "दिनांक:"
+
+#, fuzzy
+#~| msgid "Width:"
+#~ msgid "Width range"
+#~ msgstr "चओड़ाइ:"
+
+#, fuzzy
+#~| msgid "Date:"
+#~ msgid "Diameter"
+#~ msgstr "दिनांक:"
+
+#, fuzzy
+#~| msgid "Scales"
+#~ msgid "Scale"
+#~ msgstr "मापक"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "The compression will take a long time; saving the file will be slow."
+#~| msgid "Slow"
+#~ msgid "Flow"
+#~ msgstr "धीमा"
+
+#, fuzzy
+#~| msgid "Scales"
+#~ msgid "Scale: "
+#~ msgstr "मापक"
+
+#, fuzzy
+#~| msgid "Partial"
+#~ msgid "particles"
+#~ msgstr "आँशिक"
 
 #, fuzzy
 #~| msgid "Edit Palette"
@@ -13021,9 +13068,6 @@ msgstr "रँग स्पेस"
 
 #~ msgid "ms"
 #~ msgstr "ms"
-
-#~ msgid "Rate:"
-#~ msgstr "दर:"
 
 #, fuzzy
 #~| msgid "Delete"
