@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-12 02:22+0000\n"
+"POT-Creation-Date: 2013-05-14 06:32+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1077,20 +1077,12 @@ msgid "Acronym Database"
 msgstr "एक्रोनिम डाटाबेस"
 
 #: kurifilter-plugins/ikws/searchproviders/acronym.desktop:94
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.baidu.com/s?wd=\\\\{@}"
 msgctxt "Query"
-msgid "http://www.chemie.de/tools/acronym.php3?language=e&acronym=\\\\{@}"
-msgstr "http://www.chemie.de/tools/acronym.php3?language=e&acronym=\\\\{@}"
-
-#: kurifilter-plugins/ikws/searchproviders/altavista.desktop:3
-msgctxt "Name"
-msgid "AltaVista"
-msgstr "अल्टाविस्टा"
-
-#: kurifilter-plugins/ikws/searchproviders/altavista.desktop:97
-msgctxt "Query"
-msgid "http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
-msgstr ""
-"http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
+msgid "http://www.abbreviations.com/\\\\{@}"
+msgstr "http://www.baidu.com/s?wd=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/amazon.desktop:5
 msgctxt "Name"
@@ -1126,19 +1118,12 @@ msgid "All Music Guide"
 msgstr "सम्पूर्ण संगीत मार्गदर्शिका"
 
 #: kurifilter-plugins/ikws/searchproviders/amg.desktop:92
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.jamendo.com/en/search/all/\\\\{@}"
 msgctxt "Query"
-msgid "http://www.allmusic.com/cg/amg.dll?p=amg&opt1=1&sql=\\\\{@}"
-msgstr "http://www.allmusic.com/cg/amg.dll?p=amg&opt1=1&sql=\\\\{@}"
-
-#: kurifilter-plugins/ikws/searchproviders/austronaut.desktop:3
-msgctxt "Name"
-msgid "AustroNaut"
-msgstr "आस्ट्रोनाट"
-
-#: kurifilter-plugins/ikws/searchproviders/austronaut.desktop:97
-msgctxt "Query"
-msgid "http://austronaut.at/page.php?begriff=\\\\{@}&wo=at"
-msgstr "http://austronaut.at/page.php?begriff=\\\\{@}&wo=at"
+msgid "http://www.allmusic.com/search/all/\\\\{@}"
+msgstr "http://www.jamendo.com/en/search/all/\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/backports.desktop:3
 msgctxt "Name"
@@ -1147,8 +1132,10 @@ msgstr "डेबियन बैकपोर्ट्स खोज"
 
 #: kurifilter-plugins/ikws/searchproviders/backports.desktop:90
 msgctxt "Query"
-msgid "http://www.backports.org/package.php?search=\\\\{@}"
-msgstr "http://www.backports.org/package.php?search=\\\\{@}"
+msgid ""
+"http://packages.debian.org/search?suite=squeeze-"
+"backports&section=all&arch=any&searchon=names&keywords=\\\\{@}"
+msgstr ""
 
 #: kurifilter-plugins/ikws/searchproviders/baidu.desktop:3
 msgctxt "Name"
@@ -1243,11 +1230,10 @@ msgstr "सीआईए वर्ल्ड फैक्ट बुक"
 #: kurifilter-plugins/ikws/searchproviders/cia.desktop:89
 msgctxt "Query"
 msgid ""
-"http://www.google.com/search?q=allintitle%3A\\\\{@}+world+fact+book+site"
-"%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
+"https://www.cia.gov/search?q=\\\\{@}"
+"&site=WORLD_FACTBOOK&btnG=Search&client=CIA&myAction=/"
+"search&proxystylesheet=CIA&submitMethod=get&oe=UTF-8&ie=UTF-8&ud=1"
 msgstr ""
-"http://www.google.com/search?q=allintitle%3A\\\\{@}+world+fact+book+site"
-"%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
 
 #: kurifilter-plugins/ikws/searchproviders/citeseer.desktop:5
 msgctxt "Name"
@@ -1255,8 +1241,13 @@ msgid "CiteSeer: Scientific Literature Digital Library"
 msgstr "CiteSeer: वैज्ञानिक साहित्य डिजिटल पुस्तकालय"
 
 #: kurifilter-plugins/ikws/searchproviders/citeseer.desktop:94
+#, fuzzy
+#| msgctxt "Query"
+#| msgid ""
+#| "http://citeseer.ist.psu.edu/cs?q=\\\\{@}&submit=Search+Documents&cs=1"
 msgctxt "Query"
-msgid "http://citeseer.ist.psu.edu/cs?q=\\\\{@}&submit=Search+Documents&cs=1"
+msgid ""
+"http://citeseer.ist.psu.edu/search?q=\\\\{@}&submit=Search&sort=rlv&t=doc"
 msgstr "http://citeseer.ist.psu.edu/cs?q=\\\\{@}&submit=Search+Documents&cs=1"
 
 #: kurifilter-plugins/ikws/searchproviders/cpan.desktop:3
@@ -1297,11 +1288,12 @@ msgid "CTAN - Comprehensive TeX Archive Network"
 msgstr "CTAN - काम्प्रेहेंसिव टीईएक्स आर्काइव नेटवर्क"
 
 #: kurifilter-plugins/ikws/searchproviders/ctan.desktop:94
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://dict.leo.org/?search=\\\\{@}"
 msgctxt "Query"
-msgid ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
-msgstr ""
-"http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+msgid "http://ctan.org/search?phrase=\\\\{@}"
+msgstr "http://dict.leo.org/?search=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/dbug.desktop:3
 msgctxt "Name"
@@ -1508,9 +1500,15 @@ msgid "Feedster"
 msgstr "फीडस्टर"
 
 #: kurifilter-plugins/ikws/searchproviders/feedster.desktop:96
+#, fuzzy
+#| msgctxt "Query"
+#| msgid ""
+#| "http://www.opendesktop.org/content/search.php?search=Search&name=\\\\{@}"
 msgctxt "Query"
-msgid "http://www.feedster.com/search.php?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
-msgstr "http://www.feedster.com/search.php?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
+msgid ""
+"http://www.feedster.com/index.php?page=search/web&type=Web&search=\\\\{@}"
+msgstr ""
+"http://www.opendesktop.org/content/search.php?search=Search&name=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/flickrcc.desktop:5
 msgctxt "Name"
@@ -1541,9 +1539,12 @@ msgid "Free On-Line Dictionary of Computing"
 msgstr "कम्प्यूटर कार्य लेल मुफ्त आन-लाइन शब्दकोश"
 
 #: kurifilter-plugins/ikws/searchproviders/foldoc.desktop:95
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://dx.doi.org/\\\\{@}"
 msgctxt "Query"
-msgid "http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=\\\\{@}"
-msgstr "http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=\\\\{@}"
+msgid "http://foldoc.org/\\\\{@}"
+msgstr "http://dx.doi.org/\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/fr2de.desktop:3
 msgctxt "Name"
@@ -1560,6 +1561,22 @@ msgctxt "Query"
 msgid "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
 msgstr "http://www.wordreference.com/fr/en/translation.asp?fren=\\\\{@}"
 
+#: kurifilter-plugins/ikws/searchproviders/freecode.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Greece"
+msgctxt "Name"
+msgid "Freecode"
+msgstr "ग्रीस"
+
+#: kurifilter-plugins/ikws/searchproviders/freecode.desktop:6
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.flickr.com/search/?q=\\\\{@}"
+msgctxt "Query"
+msgid "http://freecode.com/search?q=\\\\{@}"
+msgstr "http://www.flickr.com/search/?q=\\\\{@}"
+
 #: kurifilter-plugins/ikws/searchproviders/freedb.desktop:3
 msgctxt "Name"
 msgid "FreeDB"
@@ -1569,26 +1586,6 @@ msgstr "फ्री-डीबी"
 msgctxt "Query"
 msgid "http://www.freedb.org/freedb_search.php?words=\\\\{@}"
 msgstr "http://www.freedb.org/freedb_search.php?words=\\\\{@}"
-
-#: kurifilter-plugins/ikws/searchproviders/freshmeat.desktop:3
-msgctxt "Name"
-msgid "Freshmeat"
-msgstr "फ्रेशमीट"
-
-#: kurifilter-plugins/ikws/searchproviders/freshmeat.desktop:97
-msgctxt "Query"
-msgid "http://freshmeat.net/search/?q=\\\\{@}"
-msgstr "http://freshmeat.net/search/?q=\\\\{@}"
-
-#: kurifilter-plugins/ikws/searchproviders/froogle.desktop:3
-msgctxt "Name"
-msgid "Froogle"
-msgstr "फ्रूगल"
-
-#: kurifilter-plugins/ikws/searchproviders/froogle.desktop:96
-msgctxt "Query"
-msgid "http://froogle.google.com/froogle?q=\\\\{@}"
-msgstr "http://froogle.google.com/froogle?q=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/fsd.desktop:3
 msgctxt "Name"
@@ -1702,9 +1699,12 @@ msgid "Google Image Search"
 msgstr "गूगल छवि खोज"
 
 #: kurifilter-plugins/ikws/searchproviders/google_images.desktop:98
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 msgctxt "Query"
-msgid "http://images.google.com/images?q=\\\\{@}"
-msgstr "http://images.google.com/images?q=\\\\{@}"
+msgid "https://www.google.com/search?site=imghp&tbm=isch&q=\\\\{@}"
+msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #: kurifilter-plugins/ikws/searchproviders/google_lucky.desktop:3
 msgctxt "Name"
@@ -1744,8 +1744,11 @@ msgid "Google Movies"
 msgstr "गूगल सिनेमा"
 
 #: kurifilter-plugins/ikws/searchproviders/google_movie.desktop:96
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
 msgctxt "Query"
-msgid "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
+msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 msgstr "http://www.google.com/search?q=movie:\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #: kurifilter-plugins/ikws/searchproviders/google_news.desktop:3
@@ -1761,15 +1764,21 @@ msgctxt "Query"
 msgid "https://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 msgstr "http://news.google.com/news?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
-#: kurifilter-plugins/ikws/searchproviders/gracenote.desktop:3
+#: kurifilter-plugins/ikws/searchproviders/google_shopping.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Google Groups"
 msgctxt "Name"
-msgid "Gracenote"
-msgstr "ग्रेसनोट"
+msgid "Google Shopping"
+msgstr "गूगल समूह"
 
-#: kurifilter-plugins/ikws/searchproviders/gracenote.desktop:96
+#: kurifilter-plugins/ikws/searchproviders/google_shopping.desktop:6
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 msgctxt "Query"
-msgid "http://www.gracenote.com/music/search-adv.html?q=\\\\{@}"
-msgstr "http://www.gracenote.com/music/search-adv.html?q=\\\\{@}"
+msgid "https://www.google.com/search?hl=en&tbm=shop&q=\\\\{@}"
+msgstr "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
 
 #: kurifilter-plugins/ikws/searchproviders/grec.desktop:5
 msgctxt "Name"
@@ -1876,8 +1885,11 @@ msgid "Jamendo"
 msgstr "जामिनडो"
 
 #: kurifilter-plugins/ikws/searchproviders/jamendo.desktop:75
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.jamendo.com/en/search/all/\\\\{@}"
 msgctxt "Query"
-msgid "http://www.jamendo.com/en/search/all/\\\\{@}"
+msgid "http://www.jamendo.com/en/search?qs=q=\\\\{@}"
 msgstr "http://www.jamendo.com/en/search/all/\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/jeeves.desktop:3
@@ -1893,17 +1905,6 @@ msgid ""
 msgstr ""
 "http://www.ask.com/main/askJeeves.asp?"
 "origin=0&qSource=4&site_name=Jeeves&metasearch=yes&ask=\\\\{@}"
-
-#: kurifilter-plugins/ikws/searchproviders/katatudo.desktop:3
-msgctxt "Name"
-msgid "KataTudo"
-msgstr "केएटीए ट्यूडो"
-
-#: kurifilter-plugins/ikws/searchproviders/katatudo.desktop:96
-msgctxt "Query"
-msgid "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
-msgstr ""
-"http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
 
 #: kurifilter-plugins/ikws/searchproviders/kde_apps.desktop:3
 msgctxt "Name"
@@ -1954,6 +1955,22 @@ msgctxt "Query"
 msgid "http://www.kde-look.org/content/search.php?search=Search&name=\\\\{@}"
 msgstr "http://www.kde-look.org/content/search.php?search=Search&name=\\\\{@}"
 
+#: kurifilter-plugins/ikws/searchproviders/kde_projects.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE News"
+msgctxt "Name"
+msgid "KDE Projects"
+msgstr "केडीई समाचार"
+
+#: kurifilter-plugins/ikws/searchproviders/kde_projects.desktop:6
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://dict.leo.org/?search=\\\\{@}"
+msgctxt "Query"
+msgid "https://projects.kde.org/search?projects=1&q=\\\\{@}"
+msgstr "http://dict.leo.org/?search=\\\\{@}"
+
 #: kurifilter-plugins/ikws/searchproviders/kde_techbase.desktop:5
 msgctxt "Name"
 msgid "KDE TechBase"
@@ -1973,16 +1990,6 @@ msgstr "केडीई प्रयोक्ता बेस"
 msgctxt "Query"
 msgid "http://userbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
 msgstr "http://userbase.kde.org/Special:Search?search=\\\\{@}&fulltext=Search"
-
-#: kurifilter-plugins/ikws/searchproviders/kde_websvn.desktop:3
-msgctxt "Name"
-msgid "KDE WebSVN"
-msgstr "केडीई वेब-एसवीएन"
-
-#: kurifilter-plugins/ikws/searchproviders/kde_websvn.desktop:96
-msgctxt "Query"
-msgid "http://websvn.kde.org/\\\\{@}"
-msgstr "http://webcvs.kde.org/\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/leo.desktop:3
 msgctxt "Name"
@@ -2010,15 +2017,12 @@ msgid "MetaCrawler"
 msgstr "मेटा-क्राउलर"
 
 #: kurifilter-plugins/ikws/searchproviders/metacrawler.desktop:97
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://www.ethicle.com/search.php?q=\\\\{@}"
 msgctxt "Query"
-msgid ""
-"http://search.metacrawler.com/crawler?general=\\\\{@}"
-"&method=0&cat=Web&target=metaworld&redirect=web&rpp=20&hpe=10&region=0&timeout=0&sort=0&format=beta99&theme=classic&refer=mc-"
-"search&refer=mc-search"
-msgstr ""
-"http://search.metacrawler.com/crawler?general=\\\\{@}"
-"&method=0&cat=Web&target=metaworld&redirect=web&rpp=20&hpe=10&region=0&timeout=0&sort=0&format=beta99&theme=classic&refer=mc-"
-"search&refer=mc-search"
+msgid "http://www.metacrawler.com/info.metac.cloud.other/search/web?q=\\\\{@}"
+msgstr "http://www.ethicle.com/search.php?q=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/msdn.desktop:3
 msgctxt "Name"
@@ -2026,15 +2030,12 @@ msgid "Microsoft Developer Network Search"
 msgstr "माइक्रोसाफ्ट डेवलपर नेटवर्क खोज"
 
 #: kurifilter-plugins/ikws/searchproviders/msdn.desktop:95
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://directory.fsf.org/search/?query=\\\\{@}"
 msgctxt "Query"
-msgid ""
-"http://msdn.microsoft.com/library/shared/searchtab/searchHandoff.asp?"
-"handoffurl=%2Fisapi%2Fgosearch.asp%3FTARGET%3D%2Fus%2Fdev%2Fdefault."
-"asp&stcfg=d%3A%2Fhttp%2Fcnfg.xml&qu=\\\\{@}&btnSearch=GO"
-msgstr ""
-"http://msdn.microsoft.com/library/shared/searchtab/searchHandoff.asp?"
-"handoffurl=%2Fisapi%2Fgosearch.asp%3FTARGET%3D%2Fus%2Fdev%2Fdefault."
-"asp&stcfg=d%3A%2Fhttp%2Fcnfg.xml&qu=\\\\{@}&btnSearch=GO"
+msgid "https://social.msdn.microsoft.com/Search/en-US?query=\\\\{@}"
+msgstr "http://directory.fsf.org/search/?query=\\\\{@}"
 
 #: kurifilter-plugins/ikws/searchproviders/multitran-deru.desktop:4
 msgctxt "Name"
@@ -2114,11 +2115,9 @@ msgstr "टेलिफोनबुक खोज प्रदायक"
 #: kurifilter-plugins/ikws/searchproviders/nl-telephone.desktop:93
 msgctxt "Query"
 msgid ""
-"http://www.detelefoongids.nl/tginl.dll?action=white&type=search&name=\\\\{1}"
-"&city=\\\\{2}"
+"http://www.detelefoongids.nl/\\\\{1}/\\\\{2}/10-1/?oWhat=\\\\{1}&oWhere=\\"
+"\\{2}"
 msgstr ""
-"http://www.detelefoongids.nl/tginl.dll?action=white&type=search&name=\\\\{1}"
-"&city=\\\\{2}"
 
 #: kurifilter-plugins/ikws/searchproviders/nl-teletekst.desktop:2
 msgctxt "Name"
@@ -2148,8 +2147,11 @@ msgid "OpenPGP Key Search"
 msgstr "ओपनपीजीपी कुँजी खोज"
 
 #: kurifilter-plugins/ikws/searchproviders/pgpkeys.desktop:94
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
 msgctxt "Query"
-msgid "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
+msgid "http://pgp.mit.edu:11371/pks/lookup?search=\\\\{@}&op=vindex"
 msgstr "http://pgp.dtype.org:11371/pks/lookup?search=\\\\{@}&op=vindex"
 
 #: kurifilter-plugins/ikws/searchproviders/php.desktop:3
@@ -2173,22 +2175,33 @@ msgid "Python Reference Manual"
 msgstr "पायथन रेफरेंस मेनुअल"
 
 #: kurifilter-plugins/ikws/searchproviders/python.desktop:95
+#, fuzzy
+#| msgctxt "Query"
+#| msgid ""
+#| "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
+#| "&submit=Search&q=site%3Apython.org"
 msgctxt "Query"
 msgid ""
-"http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
+"https://www.google.com/search?sourceid=python-search&q=\\\\{@}"
 "&submit=Search&q=site%3Apython.org"
 msgstr ""
 "http://www.google.com/search?sourceid=python-search&q=\\\\{@}"
 "&submit=Search&q=site%3Apython.org"
 
-#: kurifilter-plugins/ikws/searchproviders/qt3.desktop:5
+#: kurifilter-plugins/ikws/searchproviders/qt4.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Qt3 Online Documentation"
 msgctxt "Name"
-msgid "Qt3 Online Documentation"
+msgid "Qt4 Documentation"
 msgstr "Qt3 आनलाइन प्रलेखन"
 
-#: kurifilter-plugins/ikws/searchproviders/qt3.desktop:92
+#: kurifilter-plugins/ikws/searchproviders/qt4.desktop:6
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 msgctxt "Query"
-msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
+msgid "http://qt-project.org/doc/search/qt-4.8?search=\\\\{@}"
 msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
 
 #: kurifilter-plugins/ikws/searchproviders/qt.desktop:5
@@ -2201,7 +2214,7 @@ msgstr "नवीनतम क्यूटी आनलाइन दस्ता
 #| msgctxt "Query"
 #| msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
 msgctxt "Query"
-msgid "http://qt-project.org/doc/\\\\{@}.html"
+msgid "http://qt-project.org/doc/search/qt-5.0?search=\\\\{@}"
 msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
 
 #: kurifilter-plugins/ikws/searchproviders/rae.desktop:5
@@ -2228,7 +2241,7 @@ msgstr "IETF निवेदन, टिप्पणी कए लेल"
 #| msgctxt "Query"
 #| msgid "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
 msgctxt "Query"
-msgid "http://tools.ietf.org/html/rfc\\\\{@}"
+msgid "http://tools.ietf.org/id/\\\\{@}"
 msgstr "http://www.ietf.org/rfc/rfc\\\\{@}.txt"
 
 #: kurifilter-plugins/ikws/searchproviders/rpmfind.desktop:3
@@ -2271,9 +2284,12 @@ msgid "Technorati"
 msgstr "टेक्नोराती"
 
 #: kurifilter-plugins/ikws/searchproviders/technorati.desktop:95
+#, fuzzy
+#| msgctxt "Query"
+#| msgid ""
+#| "http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
 msgctxt "Query"
-msgid ""
-"http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
+msgid "http://technorati.com/search?return=sites&authority=high&q=\\\\{@}"
 msgstr ""
 "http://technorati.com/cosmos/search.html?sourceid=kde-search&url=\\\\{@}"
 
@@ -2340,23 +2356,12 @@ msgid "Vimeo"
 msgstr "Vimeo"
 
 #: kurifilter-plugins/ikws/searchproviders/vimeo.desktop:74
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "http://vimeo.com/videos/search:\\\\{@}"
 msgctxt "Query"
-msgid "http://vimeo.com/videos/search:\\\\{@}"
+msgid "http://vimeo.com/search?q=\\\\{@}"
 msgstr "http://vimeo.com/videos/search:\\\\{@}"
-
-#: kurifilter-plugins/ikws/searchproviders/vivisimo.desktop:3
-msgctxt "Name"
-msgid "Vivisimo"
-msgstr "विविसिमो"
-
-#: kurifilter-plugins/ikws/searchproviders/vivisimo.desktop:97
-msgctxt "Query"
-msgid ""
-"http://vivisimo.com/search?query=\\\\{@}&se=Yahoo%2CAltaVista%2CMSN%2CFast"
-"%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
-msgstr ""
-"http://vivisimo.com/search?query=\\\\{@}&se=Yahoo%2CAltaVista%2CMSN%2CFast"
-"%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
 
 #: kurifilter-plugins/ikws/searchproviders/voila.desktop:3
 msgctxt "Name"
@@ -5692,6 +5697,148 @@ msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
 
+#~ msgctxt "Query"
+#~ msgid "http://www.chemie.de/tools/acronym.php3?language=e&acronym=\\\\{@}"
+#~ msgstr "http://www.chemie.de/tools/acronym.php3?language=e&acronym=\\\\{@}"
+
+#~ msgctxt "Name"
+#~ msgid "AltaVista"
+#~ msgstr "अल्टाविस्टा"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
+#~ msgstr ""
+#~ "http://www.altavista.com/cgi-bin/query?pg=q&kl=XX&stype=stext&q=\\\\{@}"
+
+#~ msgctxt "Query"
+#~ msgid "http://www.allmusic.com/cg/amg.dll?p=amg&opt1=1&sql=\\\\{@}"
+#~ msgstr "http://www.allmusic.com/cg/amg.dll?p=amg&opt1=1&sql=\\\\{@}"
+
+#~ msgctxt "Name"
+#~ msgid "AustroNaut"
+#~ msgstr "आस्ट्रोनाट"
+
+#~ msgctxt "Query"
+#~ msgid "http://austronaut.at/page.php?begriff=\\\\{@}&wo=at"
+#~ msgstr "http://austronaut.at/page.php?begriff=\\\\{@}&wo=at"
+
+#~ msgctxt "Query"
+#~ msgid "http://www.backports.org/package.php?search=\\\\{@}"
+#~ msgstr "http://www.backports.org/package.php?search=\\\\{@}"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://www.google.com/search?q=allintitle%3A\\\\{@}+world+fact+book+site"
+#~ "%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
+#~ msgstr ""
+#~ "http://www.google.com/search?q=allintitle%3A\\\\{@}+world+fact+book+site"
+#~ "%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+#~ msgstr ""
+#~ "http://ctan.org/cgi-bin/filenameSearch.py?filename=\\\\{@}&Search=Search"
+
+#~ msgctxt "Query"
+#~ msgid "http://www.feedster.com/search.php?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
+#~ msgstr "http://www.feedster.com/search.php?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
+
+#~ msgctxt "Query"
+#~ msgid "http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=\\\\{@}"
+#~ msgstr "http://foldoc.doc.ic.ac.uk/foldoc/foldoc.cgi?query=\\\\{@}"
+
+#~ msgctxt "Name"
+#~ msgid "Freshmeat"
+#~ msgstr "फ्रेशमीट"
+
+#~ msgctxt "Query"
+#~ msgid "http://freshmeat.net/search/?q=\\\\{@}"
+#~ msgstr "http://freshmeat.net/search/?q=\\\\{@}"
+
+#~ msgctxt "Name"
+#~ msgid "Froogle"
+#~ msgstr "फ्रूगल"
+
+#~ msgctxt "Query"
+#~ msgid "http://froogle.google.com/froogle?q=\\\\{@}"
+#~ msgstr "http://froogle.google.com/froogle?q=\\\\{@}"
+
+#~ msgctxt "Query"
+#~ msgid "http://images.google.com/images?q=\\\\{@}"
+#~ msgstr "http://images.google.com/images?q=\\\\{@}"
+
+#~ msgctxt "Name"
+#~ msgid "Gracenote"
+#~ msgstr "ग्रेसनोट"
+
+#~ msgctxt "Query"
+#~ msgid "http://www.gracenote.com/music/search-adv.html?q=\\\\{@}"
+#~ msgstr "http://www.gracenote.com/music/search-adv.html?q=\\\\{@}"
+
+#~ msgctxt "Name"
+#~ msgid "KataTudo"
+#~ msgstr "केएटीए ट्यूडो"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
+#~ msgstr ""
+#~ "http://www.katatudo.com.br/busca/resultado.php?q=\\\\{@}&onde=&b=Buscar"
+
+#~ msgctxt "Name"
+#~ msgid "KDE WebSVN"
+#~ msgstr "केडीई वेब-एसवीएन"
+
+#~ msgctxt "Query"
+#~ msgid "http://websvn.kde.org/\\\\{@}"
+#~ msgstr "http://webcvs.kde.org/\\\\{@}"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://search.metacrawler.com/crawler?general=\\\\{@}"
+#~ "&method=0&cat=Web&target=metaworld&redirect=web&rpp=20&hpe=10&region=0&timeout=0&sort=0&format=beta99&theme=classic&refer=mc-"
+#~ "search&refer=mc-search"
+#~ msgstr ""
+#~ "http://search.metacrawler.com/crawler?general=\\\\{@}"
+#~ "&method=0&cat=Web&target=metaworld&redirect=web&rpp=20&hpe=10&region=0&timeout=0&sort=0&format=beta99&theme=classic&refer=mc-"
+#~ "search&refer=mc-search"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://msdn.microsoft.com/library/shared/searchtab/searchHandoff.asp?"
+#~ "handoffurl=%2Fisapi%2Fgosearch.asp%3FTARGET%3D%2Fus%2Fdev%2Fdefault."
+#~ "asp&stcfg=d%3A%2Fhttp%2Fcnfg.xml&qu=\\\\{@}&btnSearch=GO"
+#~ msgstr ""
+#~ "http://msdn.microsoft.com/library/shared/searchtab/searchHandoff.asp?"
+#~ "handoffurl=%2Fisapi%2Fgosearch.asp%3FTARGET%3D%2Fus%2Fdev%2Fdefault."
+#~ "asp&stcfg=d%3A%2Fhttp%2Fcnfg.xml&qu=\\\\{@}&btnSearch=GO"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://www.detelefoongids.nl/tginl.dll?action=white&type=search&name=\\"
+#~ "\\{1}&city=\\\\{2}"
+#~ msgstr ""
+#~ "http://www.detelefoongids.nl/tginl.dll?action=white&type=search&name=\\"
+#~ "\\{1}&city=\\\\{2}"
+
+#~ msgctxt "Query"
+#~ msgid "http://doc.trolltech.com/3.3/\\\\{@}.html"
+#~ msgstr "http://doc.trolltech.com/3.3/\\\\{@}.html"
+
+#~ msgctxt "Name"
+#~ msgid "Vivisimo"
+#~ msgstr "विविसिमो"
+
+#~ msgctxt "Query"
+#~ msgid ""
+#~ "http://vivisimo.com/search?query=\\\\{@}&se=Yahoo%2CAltaVista%2CMSN%2CFast"
+#~ "%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
+#~ msgstr ""
+#~ "http://vivisimo.com/search?query=\\\\{@}&se=Yahoo%2CAltaVista%2CMSN%2CFast"
+#~ "%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
+
 #~ msgctxt "Name"
 #~ msgid "Directories"
 #~ msgstr "निर्देशिका"
@@ -6450,10 +6597,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Web Sites"
 #~ msgstr "वेब साइट"
-
-#~ msgctxt "Name"
-#~ msgid "KDE News"
-#~ msgstr "केडीई समाचार"
 
 #~ msgctxt "Name"
 #~ msgid "KDE Home Page"
