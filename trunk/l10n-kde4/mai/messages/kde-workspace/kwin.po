@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-16 04:18+0200\n"
+"POT-Creation-Date: 2013-05-17 04:15+0200\n"
 "PO-Revision-Date: 2010-09-24 21:47+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -64,9 +64,11 @@ msgstr ""
 msgid "KWin: "
 msgstr "के-विनः"
 
-#: killer/killer.cpp:43 main.cpp:533
-msgid "KWin"
-msgstr "के-विन"
+#: killer/killer.cpp:43
+#, fuzzy
+#| msgid "KDE window manager"
+msgid "Window Manager"
+msgstr "केडीई विंडो प्रबंधक"
 
 #: killer/killer.cpp:44
 msgid "KWin helper utility"
@@ -100,26 +102,43 @@ msgstr ""
 msgid "This helper utility is not supposed to be called directly."
 msgstr "ई मद्दति यूटिलिटी सीधे बुलाएल नहि जाए सकैत अछि."
 
-#: killer/killer.cpp:76
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
-#| "to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to "
-#| "terminate this application? (All unsaved data in this application will be "
-#| "lost.)</p>"
-msgid ""
-"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
-"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
-"the application process <em>including <b>all</b> of its child windows</em>?"
-"<br /><b>Any unsaved data will be lost.</b></p>"
+#: killer/killer.cpp:79
+#, kde-format
+msgctxt "@info"
+msgid "<b>Application \"%1\" is not responding</b>"
 msgstr ""
-"<p>विंडो शीर्षक \"<b>%2</b>\" प्रतिक्रिया नहि दए रहल अछि. ई विंडो अनुप्रयोग <b>%1</"
-"b> (पीआईडी=%3, होस्टनाम=%4) सँ संबद्ध अछि.</p><p>की अहाँ एहि अनुप्रयोग केँ बन्न कएनाइ "
-"चाहैत छी? (ई अनुप्रयोग केर सबहि सहेजल नहि गेल डाटा गुम भए जएताह.)</p>"
 
-#: killer/killer.cpp:82
+#: killer/killer.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3) but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:83
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3), running on host \"%4\", but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:86
+msgctxt "@info"
+msgid ""
+"<para>Do you want to terminate this application?</"
+"para><para><warning>Terminating the application will close all of its child "
+"windows. Any unsaved data will be lost.</warning></para>"
+msgstr ""
+
+#: killer/killer.cpp:90
 #, kde-format
 msgid "&Terminate Application %1"
+msgstr ""
+
+#: killer/killer.cpp:91
+msgid "Wait Longer"
 msgstr ""
 
 #. i18n: ectx: label, entry (DesktopMode), group (TabBox)
@@ -480,6 +499,10 @@ msgstr ""
 #: main.cpp:452
 msgid "KDE window manager"
 msgstr "केडीई विंडो प्रबंधक"
+
+#: main.cpp:533
+msgid "KWin"
+msgstr "के-विन"
 
 #: main.cpp:537
 msgid "(c) 1999-2008, The KDE Developers"
@@ -863,6 +886,22 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>Window with title \"<b>%2</b>\" is not responding. This window "
+#~| "belongs to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you "
+#~| "wish to terminate this application? (All unsaved data in this "
+#~| "application will be lost.)</p>"
+#~ msgid ""
+#~ "<p>The window \"<b>%2</b>\" is not responding. It belongs to the "
+#~ "application <b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish "
+#~ "to terminate the application process <em>including <b>all</b> of its "
+#~ "child windows</em>?<br /><b>Any unsaved data will be lost.</b></p>"
+#~ msgstr ""
+#~ "<p>विंडो शीर्षक \"<b>%2</b>\" प्रतिक्रिया नहि दए रहल अछि. ई विंडो अनुप्रयोग <b>"
+#~ "%1</b> (पीआईडी=%3, होस्टनाम=%4) सँ संबद्ध अछि.</p><p>की अहाँ एहि अनुप्रयोग केँ बन्न "
+#~ "कएनाइ चाहैत छी? (ई अनुप्रयोग केर सबहि सहेजल नहि गेल डाटा गुम भए जएताह.)</p>"
 
 #~ msgid "Window '%1' demands attention."
 #~ msgstr "विंडो '%1' ध्यान चाहैत अछि."
