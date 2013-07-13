@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-09 21:09+0000\n"
+"POT-Creation-Date: 2013-07-13 01:30+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -5686,7 +5686,6 @@ msgstr ""
 #: plugins/formats/jp2/kis_wdg_options_jp2.ui:101
 #: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:131
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:242
-#: plugins/tools/defaulttools/kis_tool_brush.cc:101
 msgid "Quality:"
 msgstr "गुणवत्ता:"
 
@@ -8745,53 +8744,65 @@ msgstr "गिनती"
 msgid "Gaussian distribution"
 msgstr "गॉसियन धुंधला"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:39
+#: plugins/tools/defaulttools/kis_tool_brush.cc:38
 #, fuzzy
 #| msgid "Brush"
 msgctxt "(qtundo-format)"
 msgid "Brush"
 msgstr "ब्रश"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:91
+#: plugins/tools/defaulttools/kis_tool_brush.cc:98
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "No Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:91
+#: plugins/tools/defaulttools/kis_tool_brush.cc:98
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "Basic Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:91
+#: plugins/tools/defaulttools/kis_tool_brush.cc:98
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "Weighted Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:109
+#: plugins/tools/defaulttools/kis_tool_brush.cc:108
 #, fuzzy
-#| msgid "Height:"
-msgid "Weight:"
-msgstr "उँचाइ:"
+#| msgid "Width:"
+msgid "Distance:"
+msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:114
+#: plugins/tools/defaulttools/kis_tool_brush.cc:115
+#, fuzzy
+#| msgid "Saturation"
+msgid "Stroke Ending:"
+msgstr "संतृप्ति"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:120
+#, fuzzy
+#| msgid "Pressure"
+msgid "Smooth Pressure"
+msgstr "दबाव"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:125
 msgid "Assistant:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:115
+#: plugins/tools/defaulttools/kis_tool_brush.cc:126
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:118
+#: plugins/tools/defaulttools/kis_tool_brush.cc:129
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:71
+#: plugins/tools/defaulttools/kis_tool_brush.h:73
 #, fuzzy
 #| msgid "Partial"
 msgid "Paint with brushes"
@@ -12247,7 +12258,7 @@ msgstr "ब्रश"
 msgid "Can't paint on vector layer."
 msgstr ""
 
-#: ui/tool/kis_tool_freehand_helper.cpp:128
+#: ui/tool/kis_tool_freehand_helper.cpp:131
 msgid "Freehand Stroke"
 msgstr ""
 
@@ -12370,6 +12381,11 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgid "Height:"
+#~ msgid "Weight:"
+#~ msgstr "उँचाइ:"
 
 #, fuzzy
 #~| msgid "Image Properties"
