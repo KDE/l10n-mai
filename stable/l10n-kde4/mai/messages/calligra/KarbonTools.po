@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KarbonTools\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-25 02:03+0100\n"
+"POT-Creation-Date: 2013-08-10 05:22+0000\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -25,14 +25,10 @@ msgid "Target:"
 msgstr "लक्ष्यः"
 
 #: ../../ui/widgets/KarbonGradientEditWidget.cpp:169
-#, fuzzy
-#| msgctxt "Linear gradient type"
-#| msgid "Linear"
-msgid "Line"
-msgstr "रैखिक"
+msgid "Stroke"
+msgstr "स्ट्रोक"
 
 #: ../../ui/widgets/KarbonGradientEditWidget.cpp:170
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:351
 msgid "Fill"
 msgstr "भरू"
 
@@ -282,25 +278,20 @@ msgstr "माउस"
 msgid "Graphics Pen"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:390
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:382
 msgid "Calligraphy: increase width"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:395
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:387
 msgid "Calligraphy: decrease width"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:400
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:392
 msgid "Calligraphy: increase angle"
 msgstr ""
 
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:405
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:397
 msgid "Calligraphy: decrease angle"
-msgstr ""
-
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:412
-#: CalligraphyTool/KarbonCalligraphyTool.cpp:413
-msgid "Calligraphy"
 msgstr ""
 
 #: CalligraphyTool/KarbonCalligraphyToolFactory.cpp:32
@@ -443,21 +434,44 @@ msgstr "नमूना"
 msgid "Pattern Editing Tool"
 msgstr ""
 
-#~ msgid "Stroke"
-#~ msgstr "स्ट्रोक"
+#: KarbonPencilTool.cpp:322
+msgid "Precision:"
+msgstr ""
 
-#~ msgctxt "The raw line data"
-#~ msgid "Raw"
-#~ msgstr "कच्चा"
+#: KarbonPencilTool.cpp:324
+msgctxt "The raw line data"
+msgid "Raw"
+msgstr "कच्चा"
 
-#~ msgid "Curve"
-#~ msgstr "वक्र"
+#: KarbonPencilTool.cpp:325
+msgid "Curve"
+msgstr "वक्र"
 
-#~ msgid "Straight"
-#~ msgstr "सीधा"
+#: KarbonPencilTool.cpp:326
+msgid "Straight"
+msgstr "सीधा"
 
-#~ msgid "Optimize"
-#~ msgstr "अनुकूलतम करू"
+#: KarbonPencilTool.cpp:335 KarbonPencilTool.cpp:341
+msgid "Optimize"
+msgstr "अनुकूलतम करू"
+
+#: KarbonPencilTool.cpp:343
+msgid "Exactness:"
+msgstr ""
+
+#: KarbonPencilTool.cpp:352
+msgid "Combine angle:"
+msgstr ""
+
+#: KarbonPencilToolFactory.cpp:32
+msgid "Freehand Path Drawing Tool"
+msgstr ""
+
+#, fuzzy
+#~| msgctxt "Linear gradient type"
+#~| msgid "Linear"
+#~ msgid "Line"
+#~ msgstr "रैखिक"
 
 #~ msgctxt "No stroke or fill"
 #~ msgid "None"
