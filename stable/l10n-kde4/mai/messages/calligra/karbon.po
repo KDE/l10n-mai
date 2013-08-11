@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-10 05:22+0000\n"
+"POT-Creation-Date: 2013-08-11 05:27+0000\n"
 "PO-Revision-Date: 2009-04-22 00:14+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -28,29 +28,9 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:906
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:905
 msgctxt "(qtundo-format)"
 msgid "Boolean Operation"
-msgstr ""
-
-#: common/commands/KarbonLayerReorderCommand.cpp:37
-#: common/commands/KarbonLayerReorderCommand.cpp:46
-#, fuzzy
-#| msgid "Raise Layer"
-msgctxt "(qtundo-format)"
-msgid "Raise Layer"
-msgstr "परत उठाबू"
-
-#: common/commands/KarbonLayerReorderCommand.cpp:39
-#: common/commands/KarbonLayerReorderCommand.cpp:48
-#, fuzzy
-#| msgid "Lower Layer"
-msgctxt "(qtundo-format)"
-msgid "Lower Layer"
-msgstr "निचला परत"
-
-#: common/KarbonDocument.cpp:279
-msgid "Master Page"
 msgstr ""
 
 #. i18n: ectx: Menu (object_order)
@@ -132,7 +112,7 @@ msgstr "प्रभाव"
 msgid "View"
 msgstr "दृश्य"
 
-#: main.cpp:43
+#: main.cpp:59
 msgid "File to open"
 msgstr ""
 
@@ -502,6 +482,22 @@ msgstr "कोण:"
 msgid "Pinch:"
 msgstr ""
 
+#: ui/commands/KarbonLayerReorderCommand.cpp:37
+#: ui/commands/KarbonLayerReorderCommand.cpp:46
+#, fuzzy
+#| msgid "Raise Layer"
+msgctxt "(qtundo-format)"
+msgid "Raise Layer"
+msgstr "परत उठाबू"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:39
+#: ui/commands/KarbonLayerReorderCommand.cpp:48
+#, fuzzy
+#| msgid "Lower Layer"
+msgctxt "(qtundo-format)"
+msgid "Lower Layer"
+msgstr "निचला परत"
+
 #: ui/dialogs/KarbonConfigureDialog.cpp:41
 msgid "Configure"
 msgstr "बिन्यस्त करू"
@@ -540,73 +536,73 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:85
+#: ui/dockers/KarbonLayerDocker.cpp:84
 msgid "Layer view"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:96
+#: ui/dockers/KarbonLayerDocker.cpp:95
 msgid "Add a new layer"
 msgstr "नवीन परत जोड़ू"
 
-#: ui/dockers/KarbonLayerDocker.cpp:102
+#: ui/dockers/KarbonLayerDocker.cpp:101
 msgid "Delete selected objects"
 msgstr "चयनित वस्तु मेटाबू"
 
-#: ui/dockers/KarbonLayerDocker.cpp:108
+#: ui/dockers/KarbonLayerDocker.cpp:107
 msgid "Raise selected objects"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:114
+#: ui/dockers/KarbonLayerDocker.cpp:113
 msgid "Lower selected objects"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:123
+#: ui/dockers/KarbonLayerDocker.cpp:122
 msgid "Minimal View"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:125
+#: ui/dockers/KarbonLayerDocker.cpp:124
 msgid "Detailed View"
 msgstr "विस्तृत दृश्य "
 
-#: ui/dockers/KarbonLayerDocker.cpp:127
+#: ui/dockers/KarbonLayerDocker.cpp:126
 msgid "Thumbnail View"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:137
+#: ui/dockers/KarbonLayerDocker.cpp:136
 msgid "View mode"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:283
+#: ui/dockers/KarbonLayerDocker.cpp:282
 msgid "New Layer"
 msgstr "नइ परत"
 
-#: ui/dockers/KarbonLayerDocker.cpp:284
+#: ui/dockers/KarbonLayerDocker.cpp:283
 msgid "Enter the name of the new layer:"
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:285
+#: ui/dockers/KarbonLayerDocker.cpp:284
 msgid "New layer"
 msgstr "नवीन स्तर"
 
-#: ui/dockers/KarbonLayerDocker.cpp:291
+#: ui/dockers/KarbonLayerDocker.cpp:290
 #, fuzzy
 #| msgid "Delete Layer"
 msgctxt "(qtundo-format)"
 msgid "Create Layer"
 msgstr "परत मेटाबू"
 
-#: ui/dockers/KarbonLayerDocker.cpp:315
+#: ui/dockers/KarbonLayerDocker.cpp:314
 #, fuzzy
 #| msgid "Delete Layer"
 msgctxt "(qtundo-format)"
 msgid "Delete Layer"
 msgstr "परत मेटाबू"
 
-#: ui/dockers/KarbonLayerDocker.cpp:317
+#: ui/dockers/KarbonLayerDocker.cpp:316
 msgid "Could not delete all layers. At least one layer is required."
 msgstr ""
 
-#: ui/dockers/KarbonLayerDocker.cpp:317
+#: ui/dockers/KarbonLayerDocker.cpp:316
 msgid "Error deleting layers"
 msgstr ""
 
@@ -732,211 +728,215 @@ msgstr ""
 msgid "Helpful patches and advice"
 msgstr ""
 
-#: ui/KarbonDocumentMergeCommand.cpp:60 ui/KarbonView.cpp:553
+#: ui/KarbonDocument.cpp:199
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr ""
+
+#: ui/KarbonDocument.cpp:206
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr ""
+
+#: ui/KarbonDocument.cpp:213
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr ""
+
+#: ui/KarbonDocument.cpp:692
+msgid "Master Page"
+msgstr ""
+
+#: ui/KarbonDocumentMergeCommand.cpp:60 ui/KarbonView.cpp:552
 msgctxt "(qtundo-format)"
 msgid "Insert graphics"
 msgstr ""
 
-#: ui/KarbonKoDocument.cpp:167
-msgid "Invalid OASIS document. No office:body tag found."
-msgstr ""
-
-#: ui/KarbonKoDocument.cpp:174
-msgid "Invalid OASIS document. No office:drawing tag found."
-msgstr ""
-
-#: ui/KarbonKoDocument.cpp:181
-msgid "Invalid OASIS document. No draw:page tag found."
-msgstr ""
-
-#: ui/KarbonView.cpp:479
+#: ui/KarbonView.cpp:478
 msgid "Choose Graphic to Add"
 msgstr ""
 
-#: ui/KarbonView.cpp:524
+#: ui/KarbonView.cpp:523
 msgid "Could not load image."
 msgstr ""
 
-#: ui/KarbonView.cpp:524 ui/KarbonView.cpp:529 ui/KarbonView.cpp:536
+#: ui/KarbonView.cpp:523 ui/KarbonView.cpp:528 ui/KarbonView.cpp:535
 msgid "Import graphic"
 msgstr ""
 
-#: ui/KarbonView.cpp:529 ui/KarbonView.cpp:536
+#: ui/KarbonView.cpp:528 ui/KarbonView.cpp:535
 msgid "Could not create image shape."
 msgstr ""
 
-#: ui/KarbonView.cpp:780
+#: ui/KarbonView.cpp:779
 msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally"
 msgstr ""
 
-#: ui/KarbonView.cpp:782
+#: ui/KarbonView.cpp:781
 msgctxt "(qtundo-format)"
 msgid "Mirror Vertically"
 msgstr ""
 
-#: ui/KarbonView.cpp:784
+#: ui/KarbonView.cpp:783
 msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally and Vertically"
 msgstr ""
 
-#: ui/KarbonView.cpp:839
+#: ui/KarbonView.cpp:838
 msgctxt "(qtundo-format)"
 msgid "Separate paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:1017
+#: ui/KarbonView.cpp:1016
 msgid "Outline &Mode"
 msgstr ""
 
-#: ui/KarbonView.cpp:1021
+#: ui/KarbonView.cpp:1020
 msgid "Show Page Margins"
 msgstr ""
 
-#: ui/KarbonView.cpp:1039
+#: ui/KarbonView.cpp:1038
 msgid "&Import Graphic..."
 msgstr ""
 
-#: ui/KarbonView.cpp:1043
+#: ui/KarbonView.cpp:1042
 msgid "D&elete"
 msgstr "मेटाबू (&e)"
 
-#: ui/KarbonView.cpp:1049
+#: ui/KarbonView.cpp:1048
 #, fuzzy
 #| msgid "Show Guides"
 msgid "Edit Guides"
 msgstr "गाइड देखाबू"
 
-#: ui/KarbonView.cpp:1055
+#: ui/KarbonView.cpp:1054
 msgctxt "Duplicate selection"
 msgid "&Duplicate"
 msgstr ""
 
-#: ui/KarbonView.cpp:1060
+#: ui/KarbonView.cpp:1059
 msgid "Distribute Center (Horizontal)"
 msgstr ""
 
-#: ui/KarbonView.cpp:1064
+#: ui/KarbonView.cpp:1063
 msgid "Distribute Gaps (Horizontal)"
 msgstr ""
 
-#: ui/KarbonView.cpp:1068
+#: ui/KarbonView.cpp:1067
 msgid "Distribute Left Borders"
 msgstr ""
 
-#: ui/KarbonView.cpp:1072
+#: ui/KarbonView.cpp:1071
 msgid "Distribute Right Borders"
 msgstr ""
 
-#: ui/KarbonView.cpp:1076
+#: ui/KarbonView.cpp:1075
 msgid "Distribute Center (Vertical)"
 msgstr ""
 
-#: ui/KarbonView.cpp:1080
+#: ui/KarbonView.cpp:1079
 msgid "Distribute Gaps (Vertical)"
 msgstr ""
 
-#: ui/KarbonView.cpp:1084
+#: ui/KarbonView.cpp:1083
 msgid "Distribute Bottom Borders"
 msgstr ""
 
-#: ui/KarbonView.cpp:1088
+#: ui/KarbonView.cpp:1087
 msgid "Distribute Top Borders"
 msgstr ""
 
-#: ui/KarbonView.cpp:1092
+#: ui/KarbonView.cpp:1091
 msgid "Show Rulers"
 msgstr ""
 
-#: ui/KarbonView.cpp:1094
+#: ui/KarbonView.cpp:1093
 msgid "Shows or hides rulers"
 msgstr ""
 
-#: ui/KarbonView.cpp:1105
+#: ui/KarbonView.cpp:1104
 msgid "Show Color Palette"
 msgstr ""
 
-#: ui/KarbonView.cpp:1107
+#: ui/KarbonView.cpp:1106
 msgid "Show or hide color palette"
 msgstr ""
 
-#: ui/KarbonView.cpp:1111
+#: ui/KarbonView.cpp:1110
 msgid "Snap to Grid"
 msgstr "ग्रिडमे स्नेप करू"
 
-#: ui/KarbonView.cpp:1113
+#: ui/KarbonView.cpp:1112
 msgid "Snaps to grid"
 msgstr ""
 
-#: ui/KarbonView.cpp:1125
+#: ui/KarbonView.cpp:1124
 #, fuzzy
 #| msgid "Object"
 msgid "&Clip Object"
 msgstr "वस्तु"
 
-#: ui/KarbonView.cpp:1129
+#: ui/KarbonView.cpp:1128
 msgid "&Unclip Objects"
 msgstr ""
 
-#: ui/KarbonView.cpp:1133
+#: ui/KarbonView.cpp:1132
 msgid "Mirror Vertically"
 msgstr ""
 
-#: ui/KarbonView.cpp:1137
+#: ui/KarbonView.cpp:1136
 msgid "Mirror Horizontally"
 msgstr ""
 
-#: ui/KarbonView.cpp:1144
+#: ui/KarbonView.cpp:1143
 msgid "&Close Path"
 msgstr ""
 
-#: ui/KarbonView.cpp:1150
+#: ui/KarbonView.cpp:1149
 msgid "Com&bine Path"
 msgstr ""
 
-#: ui/KarbonView.cpp:1156
+#: ui/KarbonView.cpp:1155
 msgid "Se&parate Path"
 msgstr ""
 
-#: ui/KarbonView.cpp:1162
+#: ui/KarbonView.cpp:1161
 msgid "Re&verse Path"
 msgstr ""
 
-#: ui/KarbonView.cpp:1168
+#: ui/KarbonView.cpp:1167
 msgid "Intersect Paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:1174
+#: ui/KarbonView.cpp:1173
 msgid "Subtract Paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:1180
+#: ui/KarbonView.cpp:1179
 msgid "Unite Paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:1186
+#: ui/KarbonView.cpp:1185
 msgid "Exclude Paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:1192
+#: ui/KarbonView.cpp:1191
 #, fuzzy
 #| msgid "Snap to Grid"
 msgid "Snap Path to Grid"
 msgstr "ग्रिडमे स्नेप करू"
 
-#: ui/KarbonView.cpp:1199
+#: ui/KarbonView.cpp:1198
 msgid "Configure Karbon..."
 msgstr ""
 
-#: ui/KarbonView.cpp:1203
+#: ui/KarbonView.cpp:1202
 msgid "Page &Layout..."
 msgstr ""
 
-#: ui/KarbonView.cpp:1208
+#: ui/KarbonView.cpp:1207
 msgid "Zoom to Selection"
 msgstr ""
 
-#: ui/KarbonView.cpp:1212
+#: ui/KarbonView.cpp:1211
 msgid "Zoom to Drawing"
 msgstr ""
 
@@ -965,8 +965,11 @@ msgid "Target:"
 msgstr "लक्ष्यः"
 
 #: ui/widgets/KarbonGradientEditWidget.cpp:169
-msgid "Stroke"
-msgstr "स्ट्रोक"
+#, fuzzy
+#| msgctxt "Linear gradient type"
+#| msgid "Linear"
+msgid "Line"
+msgstr "रैखिक"
 
 #: ui/widgets/KarbonGradientEditWidget.cpp:170
 msgid "Fill"
@@ -1113,11 +1116,8 @@ msgstr ""
 msgid "Fill:"
 msgstr ""
 
-#, fuzzy
-#~| msgctxt "Linear gradient type"
-#~| msgid "Linear"
-#~ msgid "Line"
-#~ msgstr "रैखिक"
+#~ msgid "Stroke"
+#~ msgstr "स्ट्रोक"
 
 #~ msgid "Tools"
 #~ msgstr "अओजार"
