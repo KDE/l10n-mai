@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-16 01:27+0000\n"
+"POT-Creation-Date: 2013-08-20 01:29+0000\n"
 "PO-Revision-Date: 2010-09-24 20:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1186,17 +1186,17 @@ msgstr "दस्तावेज बन्न करू"
 msgid "Open File"
 msgstr "फाइल खोलू"
 
-#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:390
+#: app/kateviewspace.cpp:277
 #, kde-format
 msgid " Line: %1 Col: %2 "
 msgstr "पंक्ति: %1 स्तम्भ: %2 "
 
-#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:396
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:401
 #, kde-format
 msgid " Characters: %1 "
 msgstr ""
 
-#: app/kateviewspace.cpp:298 app/kateviewspace.cpp:405
+#: app/kateviewspace.cpp:298 app/kateviewspace.cpp:410
 msgid " LINE "
 msgstr " लाइन"
 
@@ -1204,7 +1204,13 @@ msgstr " लाइन"
 msgid " INS "
 msgstr "प्रविष्ट "
 
-#: app/kateviewspace.cpp:405
+#: app/kateviewspace.cpp:391
+#, fuzzy, kde-format
+#| msgid " Line: %1 Col: %2 "
+msgid " Line: %1 of %2 Col: %3 "
+msgstr "पंक्ति: %1 स्तम्भ: %2 "
+
+#: app/kateviewspace.cpp:410
 msgid " BLOCK "
 msgstr " ब्लाक"
 
