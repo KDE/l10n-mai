@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-15 01:33+0000\n"
+"POT-Creation-Date: 2013-09-19 01:29+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -868,8 +868,8 @@ msgctxt "(qtundo-format)"
 msgid "Deselect"
 msgstr "अचयनित"
 
-#: image/commands/kis_image_layer_add_command.cpp:27
-#: image/commands/kis_image_layer_add_command.cpp:35
+#: image/commands/kis_image_layer_add_command.cpp:32
+#: image/commands/kis_image_layer_add_command.cpp:48
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "(qtundo-format)"
@@ -1050,7 +1050,7 @@ msgstr "तालाबन्न"
 msgid "Last used"
 msgstr ""
 
-#: image/kis_clone_layer.cpp:252
+#: image/kis_clone_layer.cpp:264
 msgid "Copy From"
 msgstr ""
 
@@ -1649,6 +1649,143 @@ msgstr "रिकॉर्ड कए रहल अछि"
 msgid "Macros"
 msgstr "मेक्रोज़"
 
+#: plugins/extensions/clonesarray/clonesarray.cpp:38
+msgid "Clones &Array..."
+msgstr ""
+
+#. i18n: ectx: Menu (Layer)
+#: plugins/extensions/clonesarray/clonesarray.rc:5
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.rc:7
+#: plugins/extensions/dropshadow/dropshadow.rc:4
+#: plugins/extensions/gmic/gmic.rc:5
+#: plugins/extensions/metadataeditor/metadataeditor.rc:4
+#: plugins/extensions/offsetimage/offsetimage.rc:10
+#: plugins/extensions/rotateimage/rotateimage.rc:17
+#: plugins/extensions/shearimage/shearimage.rc:7
+msgid "La&yer"
+msgstr ""
+
+#: plugins/extensions/clonesarray/dlg_clonesarray.cpp:43
+msgid "Create Clones Array"
+msgstr ""
+
+#: plugins/extensions/clonesarray/dlg_clonesarray.cpp:224
+#, kde-format
+msgid "+ Array of %1"
+msgstr ""
+
+#: plugins/extensions/clonesarray/dlg_clonesarray.cpp:231
+#, kde-format
+msgid "- Array of %1"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgClonesArray)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgOffsetImage)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:14
+#: plugins/extensions/offsetimage/wdg_offsetimage.ui:14
+#: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
+#: plugins/extensions/rotateimage/rotateimage.cc:108
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
+msgid "Rotate Image"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:28
+#, fuzzy
+#| msgid "Percentile:"
+msgid "- Elements"
+msgstr "प्रतिशतता:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:44
+#, fuzzy
+#| msgid "Percentile:"
+msgid "+ Elements"
+msgstr "प्रतिशतता:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:60
+#, fuzzy
+#| msgid "Offset"
+msgid "X offset"
+msgstr "ऑफसेट"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:76
+#, fuzzy
+#| msgid "Offset"
+msgid "Y offset"
+msgstr "ऑफसेट"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:92
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:41
+msgid "Distance"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (label), widget (KIntNumInput, blurAngleSlider)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:108
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:129
+#: plugins/filters/blur/wdg_motion_blur.ui:55
+msgid "Angle"
+msgstr "कोण"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:118
+msgid "Columns:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, popupSize)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lastUsedColorsWidth)
+#. i18n: ectx: property (suffix), widget (QSpinBox, lastUsedColorsHeight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, commonColorsWidth)
+#. i18n: ectx: property (suffix), widget (QSpinBox, commonColorsHeight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, columnXOffset)
+#. i18n: ectx: property (suffix), widget (QSpinBox, columnYOffset)
+#. i18n: ectx: property (suffix), widget (QSpinBox, rowXOffset)
+#. i18n: ectx: property (suffix), widget (QSpinBox, rowYOffset)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, columnDistance)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rowDistance)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, intX)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, intY)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, intWidth)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, intHeight)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:170
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:183
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:232
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:245
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:284
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:294
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:107
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:468
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:481
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:670
+#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:683
+#: plugins/paintops/experiment/kis_experimentop_option.cpp:36
+#: plugins/paintops/libpaintop/sensors/SensorDistanceConfiguration.ui:73
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:57
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:83
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:141
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:164
+msgid "px"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:212
+msgid "Rows:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, columnPreference)
+#: plugins/extensions/clonesarray/wdg_clonesarray.ui:308
+#, fuzzy
+#| msgid "Preferences"
+msgid "Column Preference"
+msgstr "वरीयतासभ"
+
 #: plugins/extensions/colorrange/colorrange.cc:49
 msgid "Select from Color Range..."
 msgstr ""
@@ -1787,17 +1924,6 @@ msgstr ""
 
 #: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:123
 msgid "Convert Layer Type"
-msgstr ""
-
-#. i18n: ectx: Menu (Layer)
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.rc:7
-#: plugins/extensions/dropshadow/dropshadow.rc:4
-#: plugins/extensions/gmic/gmic.rc:5
-#: plugins/extensions/metadataeditor/metadataeditor.rc:4
-#: plugins/extensions/offsetimage/offsetimage.rc:10
-#: plugins/extensions/rotateimage/rotateimage.rc:17
-#: plugins/extensions/shearimage/shearimage.rc:7
-msgid "La&yer"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpImage)
@@ -2016,30 +2142,6 @@ msgstr "उनटू"
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:100
 msgid "zoom to size"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, popupSize)
-#. i18n: ectx: property (suffix), widget (QSpinBox, lastUsedColorsWidth)
-#. i18n: ectx: property (suffix), widget (QSpinBox, lastUsedColorsHeight)
-#. i18n: ectx: property (suffix), widget (QSpinBox, commonColorsWidth)
-#. i18n: ectx: property (suffix), widget (QSpinBox, commonColorsHeight)
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, intX)
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, intY)
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, intWidth)
-#. i18n: ectx: property (suffix), widget (KIntSpinBox, intHeight)
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:107
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:468
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:481
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:670
-#: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:683
-#: plugins/paintops/experiment/kis_experimentop_option.cpp:36
-#: plugins/paintops/libpaintop/sensors/SensorDistanceConfiguration.ui:73
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:57
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:83
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:141
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:164
-msgid "px"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
@@ -4483,15 +4585,6 @@ msgstr "चित्र चपटा करू"
 msgid "Offset Layer"
 msgstr "ऑफसेट"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgOffsetImage)
-#: plugins/extensions/offsetimage/wdg_offsetimage.ui:14
-#: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
-#: plugins/extensions/rotateimage/rotateimage.cc:108
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
-msgid "Rotate Image"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, xLabel)
 #: plugins/extensions/offsetimage/wdg_offsetimage.ui:31
 msgid "X:"
@@ -4589,13 +4682,6 @@ msgstr ""
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:119
 msgid "Cou&nter-clockwise"
 msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
-#. i18n: ectx: property (label), widget (KIntNumInput, blurAngleSlider)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:129
-#: plugins/filters/blur/wdg_motion_blur.ui:55
-msgid "Angle"
-msgstr "कोण"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radio90)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:135
@@ -7912,10 +7998,6 @@ msgstr ""
 
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:38
 msgid "Fuzzy"
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:41
-msgid "Distance"
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:42
@@ -11687,6 +11769,20 @@ msgstr "दायाँ:"
 msgid "Reset Rotation"
 msgstr "घुमाव"
 
+#: ui/input/kis_select_layer_action.cpp:44
+#, fuzzy
+#| msgid "Scale Layer"
+msgid "Select Layer"
+msgstr "परत मापू"
+
+#: ui/input/kis_select_layer_action.cpp:45
+msgid "Selects a layer under cursor position"
+msgstr ""
+
+#: ui/input/kis_select_layer_action.cpp:48
+msgid "Toggle Select Layer Mode"
+msgstr ""
+
 #: ui/input/kis_shortcut_configuration.cpp:238
 #, fuzzy
 #| msgid "Left:"
@@ -13608,16 +13704,6 @@ msgstr "रँग स्पेस"
 
 #~ msgid "W&idth:"
 #~ msgstr "चओड़ाइ: (&i)"
-
-#, fuzzy
-#~| msgid "Offset"
-#~ msgid "X offset"
-#~ msgstr "ऑफसेट"
-
-#, fuzzy
-#~| msgid "Offset"
-#~ msgid "Y offset"
-#~ msgstr "ऑफसेट"
 
 #, fuzzy
 #~| msgid "Star"
