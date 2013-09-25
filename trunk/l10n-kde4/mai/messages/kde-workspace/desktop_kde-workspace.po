@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-24 01:59+0000\n"
+"POT-Creation-Date: 2013-09-25 02:00+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -3834,29 +3834,17 @@ msgctxt "Name"
 msgid "Widget explorer for the desktop"
 msgstr ""
 
-#: plasma/desktop/applets/kickoff/applet/plasma-applet-launcher.desktop:2
+#: plasma/desktop/applets/kickoff/package/metadata.desktop:2
 #: plasma/generic/containmentactions/applauncher/plasma-containmentactions-applauncher.desktop:2
 msgctxt "Name"
 msgid "Application Launcher"
 msgstr "अनुप्रयोग चालक"
 
-#: plasma/desktop/applets/kickoff/applet/plasma-applet-launcher.desktop:88
+#: plasma/desktop/applets/kickoff/package/metadata.desktop:88
 #, fuzzy
 msgctxt "Comment"
 msgid "Launcher to start applications"
 msgstr "अनुप्रयोग प्रारंभ करबाक लेल लान्चर"
-
-#: plasma/desktop/applets/kickoff/simpleapplet/plasma-applet-simplelauncher.desktop:2
-#, fuzzy
-msgctxt "Name"
-msgid "Application Launcher Menu"
-msgstr "अनुप्रयोग चलाबैबला मेनू"
-
-#: plasma/desktop/applets/kickoff/simpleapplet/plasma-applet-simplelauncher.desktop:79
-#, fuzzy
-msgctxt "Comment"
-msgid "Traditional menu based application launcher"
-msgstr "पारंपरिक मेनू आधारित अनुप्रयोग चलाबैबला"
 
 #: plasma/desktop/applets/pager/package/metadata.desktop:2
 #, fuzzy
@@ -3894,80 +3882,64 @@ msgctxt "Comment"
 msgid "Shows the activity manager"
 msgstr "काजक प्रबंधक"
 
-#: plasma/desktop/applets/tasks/package/metadata.desktop:2
-#: plasma/desktop/applets/tasks/plasma-tasks-default.desktop:2
+#: plasma/desktop/applets/taskmanager/package/metadata.desktop:2
 #, fuzzy
 msgctxt "Name"
 msgid "Task Manager"
 msgstr "कार्य प्रबंधक"
 
-#: plasma/desktop/applets/tasks/package/metadata.desktop:83
-#: plasma/desktop/applets/tasks/plasma-tasks-default.desktop:83
+#: plasma/desktop/applets/taskmanager/package/metadata.desktop:83
 #, fuzzy
 msgctxt "Comment"
 msgid "Switch between running applications"
 msgstr "चलि रहल अनुप्रयोगक बीच स्विच करू"
 
-#: plasma/desktop/applets/trash/plasma-applet-trash.desktop:2
-#, fuzzy
+#: plasma/desktop/applets/trash/metadata.desktop:2
 msgctxt "Name"
-msgid "Trashcan"
-msgstr "रद्दीक टोकरी"
+msgid "trash(qml)"
+msgstr ""
 
-#: plasma/desktop/applets/trash/plasma-applet-trash.desktop:81
-#, fuzzy
-msgctxt "Comment"
-msgid "Access to deleted items"
-msgstr "मेटाएल जाए चुकल वस्तु पर जाउ"
-
-#: plasma/desktop/applets/windowlist/plasma-applet-windowlist.desktop:2
+#: plasma/desktop/applets/window-list/metadata.desktop:3
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Windows"
 msgctxt "Name"
-msgid "Window List"
+msgid "Window list"
 msgstr "विंडो सूची"
 
-#: plasma/desktop/applets/windowlist/plasma-applet-windowlist.desktop:71
+#: plasma/desktop/applets/window-list/metadata.desktop:4
 msgctxt "Comment"
 msgid "Plasmoid to show list of opened windows."
 msgstr ""
 
-#: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:3
+#: plasma/desktop/containments/desktop/package/metadata.desktop:2
 #, fuzzy
-msgctxt "Name|plasma containment"
-msgid "Desktop Dashboard"
-msgstr "डैशबोर्ड"
-
-#: plasma/desktop/containments/desktop/plasma-containment-desktopdashboard.desktop:66
-#, fuzzy
-msgctxt "Comment"
-msgid "Widget Dashboard"
-msgstr "विजेट डैशबोर्ड"
-
-#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:3
-#, fuzzy
-msgctxt "Name|plasma containment"
+msgctxt "Name"
 msgid "Default Desktop"
 msgstr "पूर्वनिर्धारित डेस्कटाप कंटेनमेंट"
 
-#: plasma/desktop/containments/desktop/plasma-containment-desktop.desktop:47
+#: plasma/desktop/containments/desktop/package/metadata.desktop:3
 msgctxt "Comment"
 msgid "A clean and simple layout"
 msgstr ""
 
-#: plasma/desktop/containments/panel/plasma-containment-panel.desktop:2
+#: plasma/desktop/containments/desktop/tests/org.kde.tests.background/metadata.desktop:2
+msgctxt "Comment"
+msgid "Testing background settings in Plasma Quick Containments"
+msgstr ""
+
+#: plasma/desktop/containments/desktop/tests/org.kde.tests.background/metadata.desktop:6
+msgctxt "Name"
+msgid "Background Test"
+msgstr ""
+
+#: plasma/desktop/containments/panel/metadata.desktop:4
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Panel"
 msgctxt "Name"
-msgid "Empty Panel"
+msgid "Panel"
 msgstr "पटल"
-
-#: plasma/desktop/containments/panel/plasma-containment-panel.desktop:65
-msgctxt "Comment"
-msgid "A simple linear panel"
-msgstr ""
 
 #: plasma/desktop/runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:2
 #, fuzzy
@@ -4049,31 +4021,34 @@ msgctxt "Comment"
 msgid "A new widget has become available on the network."
 msgstr ""
 
-#: plasma/desktop/toolboxes/plasma-toolbox-desktoptoolbox.desktop:2
-msgctxt "Comment"
-msgid "Default desktop toolbox for the Plasma desktop shell"
-msgstr ""
-
-#: plasma/desktop/toolboxes/plasma-toolbox-desktoptoolbox.desktop:59
+#: plasma/desktop/toolboxes/desktoptoolbox/metadata.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
 msgctxt "Name"
-msgid "Desktop toolbox"
+msgid "Declarative Toolbox"
 msgstr "नेटवर्क अओजार"
 
-#: plasma/desktop/toolboxes/plasma-toolbox-paneltoolbox.desktop:2
+#: plasma/desktop/toolboxes/desktoptoolbox/metadata.desktop:3
 msgctxt "Comment"
-msgid "Default panel toolbox for the Plasma desktop shell"
+msgid "Manage Plasma"
 msgstr ""
 
-#: plasma/desktop/toolboxes/plasma-toolbox-paneltoolbox.desktop:59
+#: plasma/desktop/toolboxes/paneltoolbox/metadata.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Network Tool"
 msgctxt "Name"
-msgid "Panel toolbox"
+msgid "Panel Toolbox"
 msgstr "नेटवर्क अओजार"
+
+#: plasma/desktop/toolboxes/paneltoolbox/metadata.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma Manual"
+msgctxt "Comment"
+msgid "Manage Plasma panel"
+msgstr "प्लाज़्मा मैनुअल"
 
 #: plasma/generic/animators/default/plasma-animator-default.desktop:2
 msgctxt "Name"
@@ -4091,12 +4066,12 @@ msgctxt "Comment"
 msgid "Tab bar to switch activities"
 msgstr "क्रियाकलाप स्विच करबाक लेल टैबपट्टी"
 
-#: plasma/generic/applets/analog-clock/plasma-applet-analogclock.desktop:2
+#: plasma/generic/applets/analog-clock/metadata.desktop:2
 msgctxt "Name"
 msgid "Analog Clock"
 msgstr "एनालाग घडी"
 
-#: plasma/generic/applets/analog-clock/plasma-applet-analogclock.desktop:87
+#: plasma/generic/applets/analog-clock/metadata.desktop:87
 msgctxt "Comment"
 msgid "A clock with hands"
 msgstr ""
@@ -4152,23 +4127,17 @@ msgctxt "Name"
 msgid "Open with File Manager"
 msgstr "फाइल प्रबंधक कए सङ्ग खोलू"
 
-#: plasma/generic/applets/digital-clock/plasma-applet-digitalclock.desktop:2
+#: plasma/generic/applets/digital_clock/metadata.desktop:3
 msgctxt "Name"
 msgid "Digital Clock"
 msgstr "डिजिटल घडी"
 
-#: plasma/generic/applets/digital-clock/plasma-applet-digitalclock.desktop:89
-#, fuzzy
-msgctxt "Comment"
-msgid "Time displayed in a digital format"
-msgstr "समय डिजिटल प्रारूपमे प्रदर्शित होइछ"
-
-#: plasma/generic/applets/icon/plasma-applet-icon.desktop:2
+#: plasma/generic/applets/icon/package/metadata.desktop:2
 msgctxt "Name"
 msgid "Icon"
 msgstr "चिह्न"
 
-#: plasma/generic/applets/icon/plasma-applet-icon.desktop:88
+#: plasma/generic/applets/icon/package/metadata.desktop:88
 #, fuzzy
 msgctxt "Comment"
 msgid "A generic icon"
@@ -4655,6 +4624,17 @@ msgctxt "Comment"
 msgid "Lists currently playing music"
 msgstr "मोजुदा बज रहल संगीतक सूची"
 
+#: plasma/generic/dataengines/packagekit/plasma-dataengine-packagekit.desktop:3
+msgctxt "Name"
+msgid "PackageKit"
+msgstr ""
+
+#: plasma/generic/dataengines/packagekit/plasma-dataengine-packagekit.desktop:4
+#, fuzzy
+msgctxt "Comment"
+msgid "PackageKit Data Engine"
+msgstr "जावास्क्रिप्ट चलाने वाला"
+
 #: plasma/generic/dataengines/places/plasma-dataengine-places.desktop:2
 #: plasma/generic/runners/places/plasma-runner-places.desktop:2
 msgctxt "Name"
@@ -4834,7 +4814,7 @@ msgctxt "Comment"
 msgid "Device data via Solid"
 msgstr "सालिड सँ युक्ति आंकड़ा"
 
-#: plasma/generic/dataengines/statusnotifieritem/plasma_engine_statusnotifieritem.desktop:2
+#: plasma/generic/dataengines/statusnotifieritem/plasma-engine-statusnotifieritem.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "System Process Information"
@@ -4842,7 +4822,7 @@ msgctxt "Name"
 msgid "Status Notifier Information"
 msgstr "तंत्र प्रोसेस सूचना"
 
-#: plasma/generic/dataengines/statusnotifieritem/plasma_engine_statusnotifieritem.desktop:60
+#: plasma/generic/dataengines/statusnotifieritem/plasma-engine-statusnotifieritem.desktop:60
 msgctxt "Comment"
 msgid ""
 "Engine for applications' status information, based on the Status Notifier "
@@ -5235,36 +5215,18 @@ msgctxt "Comment"
 msgid "Webpage widget using HTML and JavaScript"
 msgstr "एचटीएमएल आओर जावा-स्क्रिप्टक प्रयोगसँ जालपृष्ठ विजेट"
 
-#: plasma/generic/wallpapers/color/plasma-wallpaper-color.desktop:2
+#: plasma/generic/wallpapers/color/metadata.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Color"
 msgctxt "Name"
-msgid "Color"
+msgid "Plain Color"
 msgstr "रंग"
 
-#: plasma/generic/wallpapers/color/plasma-wallpaper-color.desktop:82
-msgctxt "Comment"
-msgid "A plain color or gradient"
-msgstr ""
-
-#: plasma/generic/wallpapers/image/plasma-wallpaper-image.desktop:3
-#: plasma/generic/wallpapers/image/plasma-wallpaper-image.desktop:100
+#: plasma/generic/wallpapers/image/package/metadata.desktop:5
 msgctxt "Name"
 msgid "Image"
 msgstr "चित्र"
-
-#: plasma/generic/wallpapers/image/plasma-wallpaper-image.desktop:180
-msgctxt "Comment"
-msgid "A single image"
-msgstr ""
-
-#: plasma/generic/wallpapers/image/plasma-wallpaper-image.desktop:218
-msgctxt "Name"
-msgid "Slideshow"
-msgstr "स्लाइडशो"
-
-#: plasma/generic/wallpapers/image/plasma-wallpaper-image.desktop:294
-msgctxt "Comment"
-msgid "Cycles through a set of images"
-msgstr ""
 
 #: plasma/netbook/applets/currentappcontrol/plasma-applet-currentappcontrol.desktop:2
 #, fuzzy
@@ -6588,6 +6550,52 @@ msgstr "चिह्न दृश्य"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr "KDE 4 प्रतीक दृश्य शैली"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Application Launcher Menu"
+#~ msgstr "अनुप्रयोग चलाबैबला मेनू"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Traditional menu based application launcher"
+#~ msgstr "पारंपरिक मेनू आधारित अनुप्रयोग चलाबैबला"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Trashcan"
+#~ msgstr "रद्दीक टोकरी"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Access to deleted items"
+#~ msgstr "मेटाएल जाए चुकल वस्तु पर जाउ"
+
+#, fuzzy
+#~ msgctxt "Name|plasma containment"
+#~ msgid "Desktop Dashboard"
+#~ msgstr "डैशबोर्ड"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Widget Dashboard"
+#~ msgstr "विजेट डैशबोर्ड"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Network Tool"
+#~ msgctxt "Name"
+#~ msgid "Desktop toolbox"
+#~ msgstr "नेटवर्क अओजार"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Time displayed in a digital format"
+#~ msgstr "समय डिजिटल प्रारूपमे प्रदर्शित होइछ"
+
+#~ msgctxt "Name"
+#~ msgid "Slideshow"
+#~ msgstr "स्लाइडशो"
 
 #~ msgctxt "Name"
 #~ msgid "Explosion"
@@ -8462,10 +8470,6 @@ msgstr "KDE 4 प्रतीक दृश्य शैली"
 #~ msgctxt "Name"
 #~ msgid "Online Help"
 #~ msgstr "आनलाइन मदति"
-
-#~ msgctxt "Name"
-#~ msgid "Plasma Manual"
-#~ msgstr "प्लाज़्मा मैनुअल"
 
 #~ msgctxt "Name"
 #~ msgid "Quickstart Guide"
@@ -12092,11 +12096,6 @@ msgstr "KDE 4 प्रतीक दृश्य शैली"
 #~ msgctxt "Comment"
 #~ msgid "Native Plasma widget written in JavaScript"
 #~ msgstr "जावास्क्रिप्ट मे लिखल नेटिव प्लाज्मा विजेट"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "JavaScript DataEngine"
-#~ msgstr "जावास्क्रिप्ट चलाने वाला"
 
 #, fuzzy
 #~ msgctxt "Name"
