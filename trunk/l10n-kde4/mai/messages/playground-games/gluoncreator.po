@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gluoncreator\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-23 01:47+0000\n"
+"POT-Creation-Date: 2013-09-29 01:58+0000\n"
 "PO-Revision-Date: 2010-09-24 13:12+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -132,7 +132,7 @@ msgstr ""
 msgid "Start Tour"
 msgstr ""
 
-#: dialogs/newprojectdialogpage.cpp:67 mainwindow.cpp:399 mainwindow.cpp:407
+#: dialogs/newprojectdialogpage.cpp:67 mainwindow.cpp:395 mainwindow.cpp:403
 #, fuzzy
 #| msgid "Project"
 msgid "New Project"
@@ -162,7 +162,7 @@ msgstr "प्रोजेक्ट"
 msgid "You need to enter a name and location to continue"
 msgstr ""
 
-#: dialogs/newprojectdialogpage.cpp:128 mainwindow.cpp:302
+#: dialogs/newprojectdialogpage.cpp:128 mainwindow.cpp:298
 #: plugins/docks/projectdock/projectdock.cpp:208
 msgid "New Scene"
 msgstr ""
@@ -211,7 +211,7 @@ msgstr "प्रोजेक्ट"
 msgid "Project"
 msgstr "प्रोजेक्ट"
 
-#: dialogs/recentprojectsdialogpage.cpp:57 mainwindow.cpp:290
+#: dialogs/recentprojectsdialogpage.cpp:57 mainwindow.cpp:286
 #, fuzzy
 #| msgid "Project"
 msgid "Recent Projects"
@@ -236,7 +236,7 @@ msgstr "श्रेणी"
 msgid "Component"
 msgstr "घटक"
 
-#: lib/objectmanager.cpp:261 plugins/docks/projectdock/projectdock.cpp:377
+#: lib/objectmanager.cpp:264 plugins/docks/projectdock/projectdock.cpp:371
 msgid "NewScene"
 msgstr ""
 
@@ -281,33 +281,22 @@ msgstr ""
 msgid "Unknown Type"
 msgstr "अज्ञात किस्म"
 
-#: lib/widgets/propertywidgetcontainer.cpp:220
+#: lib/widgets/propertywidgetcontainer.cpp:223
 msgid "Add Custom Property..."
 msgstr ""
 
-#: lib/widgets/propertywidgetcontainer.cpp:228
+#: lib/widgets/propertywidgetcontainer.cpp:231
 msgid "Move Up"
 msgstr "उप्पर जाउ"
 
-#: lib/widgets/propertywidgetcontainer.cpp:232
+#: lib/widgets/propertywidgetcontainer.cpp:235
 msgid "Move Down"
 msgstr "नीच्चाँ जाउ"
 
-#: lib/widgets/propertywidgetcontainer.cpp:240
+#: lib/widgets/propertywidgetcontainer.cpp:243
 #: nodeeditor/actions/DeleteAction.cpp:34
 #: plugins/docks/scenedock/scenedock.cpp:101
 msgid "Delete"
-msgstr "मेटाबू"
-
-#: lib/widgets/propertywidgetcontainer.cpp:289
-#, kde-format
-msgid "Are you sure you wish to delete the item %1?"
-msgstr ""
-
-#: lib/widgets/propertywidgetcontainer.cpp:289
-#, fuzzy
-#| msgid "Delete"
-msgid "Delete Item?"
 msgstr "मेटाबू"
 
 #: lib/widgets/propertywidgetitemnewcustomproperty.cpp:49
@@ -465,79 +454,67 @@ msgstr "प्रोजेक्ट"
 msgid "Save Project As..."
 msgstr "प्रोजेक्ट"
 
-#: mainwindow.cpp:279
-#, fuzzy
-#| msgid "Project"
-msgid "Undo Project Action"
-msgstr "प्रोजेक्ट"
-
-#: mainwindow.cpp:284
-#, fuzzy
-#| msgid "Project"
-msgid "Redo Project Action"
-msgstr "प्रोजेक्ट"
-
-#: mainwindow.cpp:292
+#: mainwindow.cpp:288
 #, fuzzy
 #| msgid "Project"
 msgid "Open Recent Project"
 msgstr "प्रोजेक्ट"
 
-#: mainwindow.cpp:293
+#: mainwindow.cpp:289
 #, fuzzy
 #| msgid "Project"
 msgid "Open recent project"
 msgstr "प्रोजेक्ट"
 
-#: mainwindow.cpp:294
+#: mainwindow.cpp:290
 msgid "<b>Open recent project</b><p>Opens recently opened project.</p>"
 msgstr ""
 
-#: mainwindow.cpp:298 plugins/docks/scenedock/scenedock.cpp:94
+#: mainwindow.cpp:294 plugins/docks/scenedock/scenedock.cpp:94
 #, fuzzy
 #| msgid "Project"
 msgid "New Game Object"
 msgstr "प्रोजेक्ट"
 
-#: mainwindow.cpp:306
+#: mainwindow.cpp:302
 #, fuzzy
 #| msgid "Camera"
 msgid "Play Game"
 msgstr "कैमरा"
 
-#: mainwindow.cpp:310
+#: mainwindow.cpp:306
 msgid "Pause Game"
 msgstr ""
 
-#: mainwindow.cpp:314
+#: mainwindow.cpp:310
 #, fuzzy
 #| msgid "Camera"
 msgid "Stop Game"
 msgstr "कैमरा"
 
-#: mainwindow.cpp:318 plugins/docks/projectdock/projectdock.cpp:238
+#: mainwindow.cpp:314 plugins/docks/projectdock/projectdock.cpp:238
 msgid "Import Assets..."
 msgstr ""
 
-#: mainwindow.cpp:322
+#: mainwindow.cpp:318
 msgid "Lock layout"
 msgstr ""
 
-#: mainwindow.cpp:399
+#: mainwindow.cpp:395
 #, kde-format
 msgid "%1 [modified]"
 msgstr ""
 
-#: mainwindow.cpp:407
+#: mainwindow.cpp:403
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: mainwindow.cpp:415
+#: mainwindow.cpp:411
 msgid "The project has been changed. Do you want to save before closing?"
 msgstr ""
 
-#: mainwindow.cpp:415
+#: mainwindow.cpp:411
 msgid "Save Before Closing?"
 msgstr ""
 
@@ -1189,7 +1166,7 @@ msgid "Add"
 msgstr ""
 
 #: plugins/docks/projectdock/projectdock.cpp:207
-#: plugins/docks/projectdock/projectdock.cpp:363
+#: plugins/docks/projectdock/projectdock.cpp:357
 msgid "New Folder"
 msgstr "नवीन फोल्डर"
 
@@ -1222,17 +1199,6 @@ msgstr ""
 #: plugins/docks/projectdock/projectdock.cpp:340
 msgid "Object in use"
 msgstr ""
-
-#: plugins/docks/projectdock/projectdock.cpp:345
-#, kde-format
-msgid ""
-"Are you sure you wish to delete %1?\n"
-"This will delete the item and all its children!"
-msgstr ""
-
-#: plugins/docks/projectdock/projectdock.cpp:345
-msgid "Really Delete?"
-msgstr "सच्चे मेटाबू?"
 
 #: plugins/docks/propertiesdock/propertiesdockplugin.cpp:42
 msgid "Properties"
@@ -1540,6 +1506,24 @@ msgstr "प्रोजेक्ट"
 #: ui/gluoncreatorui.rc:78
 msgid "Game Actions"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete Item?"
+#~ msgstr "मेटाबू"
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "Undo Project Action"
+#~ msgstr "प्रोजेक्ट"
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgid "Redo Project Action"
+#~ msgstr "प्रोजेक्ट"
+
+#~ msgid "Really Delete?"
+#~ msgstr "सच्चे मेटाबू?"
 
 #~ msgid "Rivo Laks"
 #~ msgstr "रिवो लेक्स"
