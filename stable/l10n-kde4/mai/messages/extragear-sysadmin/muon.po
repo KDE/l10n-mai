@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: muon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-05 06:09+0000\n"
+"POT-Creation-Date: 2013-10-01 05:53+0000\n"
 "PO-Revision-Date: 2010-09-24 20:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -385,12 +385,12 @@ msgctxt "@action Applys the changes a user has made"
 msgid "Apply Changes"
 msgstr ""
 
-#: muon/MainWindow.cpp:206
-msgctxt "@action::inmenu"
-msgid "History..."
-msgstr ""
+#: muon/MainWindow.cpp:204
+msgctxt "@action Checks the Internet for updates"
+msgid "Check for Updates"
+msgstr "अद्यतन लेल जाँचू"
 
-#: muon/MainWindow.cpp:221
+#: muon/MainWindow.cpp:225
 msgctxt "@label"
 msgid ""
 "Unable to mark upgrades. The available upgrades may require new packages to "
@@ -398,33 +398,27 @@ msgid ""
 "<interface>Full  Upgrade</interface> button."
 msgstr ""
 
-#: muon/MainWindow.cpp:226 muon/MainWindow.cpp:241
+#: muon/MainWindow.cpp:230 muon/MainWindow.cpp:245
 msgctxt "@title:window"
 msgid "Unable to Mark Upgrades"
 msgstr ""
 
-#: muon/MainWindow.cpp:238
+#: muon/MainWindow.cpp:242
 msgctxt "@label"
 msgid ""
 "Unable to mark upgrades. Some upgrades may have unsatisfiable dependencies "
 "at the moment, or may have been manually held back."
 msgstr ""
 
-#: muon/MainWindow.cpp:314
+#: muon/MainWindow.cpp:318
 msgctxt "@action:intoolbar Return from the preview page"
 msgid "Back"
 msgstr "पाछाँ"
 
-#: muon/MainWindow.cpp:328
+#: muon/MainWindow.cpp:332
 msgctxt "@action"
 msgid "Preview Changes"
 msgstr ""
-
-#: muon/MainWindow.cpp:442
-#, fuzzy
-msgctxt "@title:window"
-msgid "Package History"
-msgstr "संकुल"
 
 #: muon/PackageModel/PackageModel.cpp:79
 #, fuzzy
@@ -747,6 +741,11 @@ msgid "Keep Old Version"
 msgstr "संस्करण:"
 
 #, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "Package History"
+#~ msgstr "संकुल"
+
+#, fuzzy
 #~ msgctxt "@info:status Progress text when a download is ignored"
 #~ msgid "Ignored"
 #~ msgstr "अनदेखा कएल गेल"
@@ -769,10 +768,6 @@ msgstr "संस्करण:"
 
 #~ msgid "Upgrade"
 #~ msgstr "उन्नत बनाबू"
-
-#~ msgctxt "@action Checks the Internet for updates"
-#~ msgid "Check for Updates"
-#~ msgstr "अद्यतन लेल जाँचू"
 
 #~ msgctxt "@label Shows the error"
 #~ msgid "Error: %1"
