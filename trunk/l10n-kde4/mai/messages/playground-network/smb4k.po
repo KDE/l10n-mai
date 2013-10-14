@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-10 01:50+0000\n"
+"POT-Creation-Date: 2013-10-14 01:55+0000\n"
 "PO-Revision-Date: 2010-09-24 13:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2763,11 +2763,14 @@ msgstr ""
 msgid "Reload"
 msgstr "पुनः लोड करू"
 
-#: core/smb4kpreviewer_p.cpp:609 smb4k/search/smb4knetworksearch_part.cpp:153
+#: core/smb4kpreviewer_p.cpp:609
+#: plasmoid/package/contents/ui/browserpage.qml:66
+#: smb4k/search/smb4knetworksearch_part.cpp:153
 msgid "Abort"
 msgstr "छोड़ू"
 
 #: core/smb4kpreviewer_p.cpp:612
+#: plasmoid/package/contents/ui/bookmarkspage.qml:53
 msgid "Back"
 msgstr "पाछाँ"
 
@@ -2776,6 +2779,7 @@ msgid "Forward"
 msgstr "आगाँक तरफ"
 
 #: core/smb4kpreviewer_p.cpp:618
+#: plasmoid/package/contents/ui/browserpage.qml:75
 msgid "Up"
 msgstr "उप्पर"
 
@@ -2927,6 +2931,51 @@ msgstr ""
 #: helpers/smb4kmounthelper.cpp:260
 msgid "The unmount process could not be started."
 msgstr ""
+
+#: plasmoid/package/contents/ui/bookmarkspage.qml:62
+#: smb4k/configdlg/smb4kauthoptionspage.cpp:169
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:63
+msgid "Edit"
+msgstr "संपादन"
+
+#: plasmoid/package/contents/ui/browserpage.qml:57
+msgid "Rescan"
+msgstr ""
+
+#: plasmoid/package/contents/ui/browserpage.qml:98
+#, fuzzy
+#| msgid "Mounting"
+msgid "Mount Dialog"
+msgstr "माउंट कएल जाए रहल अछि"
+
+#: plasmoid/package/contents/ui/main.qml:64
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:178
+#: smb4k/smb4kmainwindow.cpp:274
+msgid "Network Neighborhood"
+msgstr ""
+
+#: plasmoid/package/contents/ui/main.qml:71
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:264
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:299
+#: smb4k/smb4kmainwindow.cpp:368 smb4k/smb4ksharesmenu.cpp:55
+msgid "Mounted Shares"
+msgstr ""
+
+#: plasmoid/package/contents/ui/main.qml:78
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:73
+#: smb4k/smb4kbookmarkmenu.cpp:52
+msgid "Bookmarks"
+msgstr "पुस्तकचिह्न"
+
+#: plasmoid/package/contents/ui/sharesviewitemdelegate.qml:68
+msgid "<font size=\"-1\">on %1</font>"
+msgstr ""
+
+#: plasmoid/package/contents/ui/sharesviewpage.qml:53
+#, fuzzy
+#| msgid "Mount"
+msgid "Unmount All"
+msgstr "माउन्ट"
 
 #: smb4k/browser/smb4knetworkbrowser.cpp:67
 #: smb4k/browser/smb4knetworkbrowser_part.cpp:284
@@ -3122,11 +3171,6 @@ msgid ""
 "Marking this check box will show the details of the selected login "
 "information below."
 msgstr ""
-
-#: smb4k/configdlg/smb4kauthoptionspage.cpp:169
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:63
-msgid "Edit"
-msgstr "संपादन"
 
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:170
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:171
@@ -3431,11 +3475,6 @@ msgstr ""
 msgid "Notifications"
 msgstr "सूचनासभ"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:73
-#: smb4k/smb4kbookmarkmenu.cpp:52
-msgid "Bookmarks"
-msgstr "पुस्तकचिह्न"
-
 #: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:100
 msgid "Behavior"
 msgstr ""
@@ -3453,23 +3492,12 @@ msgstr "कालम"
 msgid "Tooltips"
 msgstr "अओजार-टिप"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:178
-#: smb4k/smb4kmainwindow.cpp:274
-msgid "Network Neighborhood"
-msgstr ""
-
 #: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:190
 msgid "View"
 msgstr "दृश्य"
 
 #: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:210
 msgid "Settings for the list view:"
-msgstr ""
-
-#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:264
-#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:299
-#: smb4k/smb4kmainwindow.cpp:368 smb4k/smb4ksharesmenu.cpp:55
-msgid "Mounted Shares"
 msgstr ""
 
 #: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:311
