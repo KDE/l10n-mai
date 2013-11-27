@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-26 01:23+0000\n"
+"POT-Creation-Date: 2013-11-27 01:26+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1274,24 +1274,24 @@ msgid "Dilate Selection"
 msgstr "चयन घोकचाबू"
 
 #: image/kis_selection_filters.cpp:254
-#: plugins/extensions/modify_selection/dlg_border_selection.cc:26
+#: plugins/extensions/modify_selection/dlg_border_selection.cc:31
 msgid "Border Selection"
 msgstr "सीमा चयन"
 
 #: image/kis_selection_filters.cpp:473
-#: plugins/extensions/modify_selection/dlg_feather_selection.cc:27
+#: plugins/extensions/modify_selection/dlg_feather_selection.cc:31
 #, fuzzy
 #| msgid "Shrink Selection"
 msgid "Feather Selection"
 msgstr "चयन घोकचाबू"
 
 #: image/kis_selection_filters.cpp:521
-#: plugins/extensions/modify_selection/dlg_grow_selection.cc:27
+#: plugins/extensions/modify_selection/dlg_grow_selection.cc:31
 msgid "Grow Selection"
 msgstr "चयन बढाउ"
 
 #: image/kis_selection_filters.cpp:648
-#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:26
+#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:31
 msgid "Shrink Selection"
 msgstr "चयन घोकचाबू"
 
@@ -4470,38 +4470,36 @@ msgstr "चयन घोकचाबू"
 msgid "Smooth"
 msgstr "चिकना"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_border_selection.ui:19
-msgid "Border selection by"
-msgstr "एकरा द्वारा सीमा चयन"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
-#: plugins/extensions/modify_selection/wdg_border_selection.ui:40
-#: plugins/extensions/modify_selection/wdg_feather_selection.ui:31
-#: plugins/extensions/modify_selection/wdg_grow_selection.ui:31
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:40
-msgid "pixels"
-msgstr "पिक्सेल्स"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_feather_selection.ui:39
+#. i18n: ectx: property (text), widget (QLabel, lblWidth)
+#: plugins/extensions/modify_selection/wdg_border_selection.ui:110
 #, fuzzy
-#| msgid "Border selection by"
-msgid "Feather selection by"
-msgstr "एकरा द्वारा सीमा चयन"
+#| msgid "Line count"
+msgid "Border width:"
+msgstr "पंक्ति गिननाइ"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_grow_selection.ui:39
-msgid "Grow selection by"
-msgstr "एकरा द्वारा चयन बढाउ"
+#: plugins/extensions/modify_selection/wdg_feather_selection.ui:17
+#, fuzzy
+#| msgid "Partial"
+msgid "Feather radius:"
+msgstr "आँशिक"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:19
-msgid "Shrink selection by"
-msgstr "एकरा द्वारा चयन घोकचाबू"
+#: plugins/extensions/modify_selection/wdg_grow_selection.ui:20
+#, fuzzy
+#| msgid "Grow"
+msgid "Grow by"
+msgstr "बढ़ू"
 
-#. i18n: ectx: property (text), widget (QCheckBox, shrinkFromImageBorderCheckBox)
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:48
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:65
+#, fuzzy
+#| msgid "Shrink"
+msgid "Shrink by"
+msgstr "घोकचाबू"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ckbShrinkFromImageBorder)
+#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:123
 msgid "Shrink from image border"
 msgstr "चित्र सीमासँ घोकचाबू"
 
@@ -13176,6 +13174,23 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#~ msgid "Border selection by"
+#~ msgstr "एकरा द्वारा सीमा चयन"
+
+#~ msgid "pixels"
+#~ msgstr "पिक्सेल्स"
+
+#, fuzzy
+#~| msgid "Border selection by"
+#~ msgid "Feather selection by"
+#~ msgstr "एकरा द्वारा सीमा चयन"
+
+#~ msgid "Grow selection by"
+#~ msgstr "एकरा द्वारा चयन बढाउ"
+
+#~ msgid "Shrink selection by"
+#~ msgstr "एकरा द्वारा चयन घोकचाबू"
 
 #, fuzzy
 #~| msgid "Percentile:"
