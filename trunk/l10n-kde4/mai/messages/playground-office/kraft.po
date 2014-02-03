@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kraft\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-01-03 02:15+0000\n"
+"POT-Creation-Date: 2014-02-03 01:46+0000\n"
 "PO-Revision-Date: 2010-09-24 12:57+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -231,7 +231,7 @@ msgid "round"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: calctemplate.ui:203 kraftview_ro.cpp:214 kraftview_ro.cpp:251
+#: calctemplate.ui:203 kraftview_ro.cpp:209 kraftview_ro.cpp:246
 #: reportgenerator.cpp:325
 msgid "VAT"
 msgstr ""
@@ -869,42 +869,48 @@ msgid ""
 "Date (short): %3"
 msgstr ""
 
-#: docpostcard.cpp:34
+#: docpostcard.cpp:36
 msgid "Document Overview"
 msgstr ""
 
-#: docpostcard.cpp:120
+#: docpostcard.cpp:122
 msgid "Netto:"
 msgstr ""
 
-#: docpostcard.cpp:131 docpostcard.cpp:138
+#: docpostcard.cpp:133 docpostcard.cpp:140
 #, kde-format
 msgid "+ %1% Tax:"
 msgstr ""
 
-#: docpostcard.cpp:144
+#: docpostcard.cpp:146
 msgid "Sum Tax:"
 msgstr ""
 
-#: docpostcard.cpp:149
+#: docpostcard.cpp:151
 msgid "Total:"
 msgstr "कुलः"
 
-#: docpostcard.cpp:190 docpostcard.cpp:240 kraftdoc.cpp:388
+#: docpostcard.cpp:192 docpostcard.cpp:242 kraftdoc.cpp:388
 msgid "Header"
 msgstr "शीर्ष टीका"
 
-#: docpostcard.cpp:219 docpostcard.cpp:256 kraftdoc.cpp:390
+#: docpostcard.cpp:221 docpostcard.cpp:262 kraftdoc.cpp:390
 msgid "Footer"
 msgstr "पाद टिप्पणी"
 
-#: docpostcard.cpp:248 doctext.cpp:87
-msgid "Positions"
+#: docpostcard.cpp:250
+#, fuzzy, kde-format
+#| msgid "Items"
+msgid "%1 Items"
+msgstr "मद"
+
+#: docpostcard.cpp:252
+#, kde-format
+msgid "%1 Items, netto %s"
 msgstr ""
 
-#: docpostcard.cpp:249
-#, kde-format
-msgid " %1 Positions, netto %2"
+#: docpostcard.cpp:254 doctext.cpp:87
+msgid "Positions"
 msgstr ""
 
 #: doctext.cpp:61
@@ -1197,7 +1203,7 @@ msgstr ""
 msgid "The template was modified. Do you really want to discard all changes?"
 msgstr ""
 
-#: flostempldialog.cpp:400 kraftview.cpp:1407
+#: flostempldialog.cpp:400 kraftview.cpp:1412
 msgid "Discard"
 msgstr ""
 
@@ -1824,7 +1830,7 @@ msgstr "दस्तावेज"
 msgid "Settings"
 msgstr "जमावट"
 
-#: kraftview.cpp:95 kraftview_ro.cpp:88
+#: kraftview.cpp:95 kraftview_ro.cpp:85
 msgid "Document"
 msgstr "दस्तावेज"
 
@@ -1876,23 +1882,23 @@ msgstr ""
 msgid "Address Overwrite"
 msgstr ""
 
-#: kraftview.cpp:1071
+#: kraftview.cpp:1076
 msgid "Discount"
 msgstr "छूट"
 
-#: kraftview.cpp:1405
+#: kraftview.cpp:1410
 msgid "The document was modified. Do you really want to discard all changes?"
 msgstr ""
 
-#: kraftview.cpp:1407
+#: kraftview.cpp:1412
 msgid "Document Modified"
 msgstr "दस्तावेज सुधारल"
 
-#: kraftview_ro.cpp:215
+#: kraftview_ro.cpp:210
 msgid "Reduced TAX"
 msgstr ""
 
-#: kraftview_ro.cpp:242 reportgenerator.cpp:317
+#: kraftview_ro.cpp:237 reportgenerator.cpp:317
 msgid "reduced VAT"
 msgstr ""
 
@@ -2189,40 +2195,40 @@ msgid ""
 "with leading zero.</li><li>%m or %M - the month number of the documents date."
 "</li><li>%MM - the month number with leading zero.</li><li>%c - the customer "
 "id from kaddressbook</li><li>%i - the unique counter</li><li>%type - the "
-"localised doc type (offer, invoice etc.)</li></ul>%i needs to be part of the "
-"template."
+"localised doc type (offer, invoice etc.)</li><li>%uid - the contact id of "
+"the client.</li></ul>%i needs to be part of the template."
 msgstr ""
 
-#: numbercycledialog.cpp:130
+#: numbercycledialog.cpp:131
 msgid "Doc-Type"
 msgstr "Doc-Type"
 
-#: numbercycledialog.cpp:202
+#: numbercycledialog.cpp:203
 msgid "Add Number Cycle"
 msgstr ""
 
-#: numbercycledialog.cpp:203
+#: numbercycledialog.cpp:204
 msgid "Enter the name of a new number cycle."
 msgstr ""
 
-#: numbercycledialog.cpp:260
+#: numbercycledialog.cpp:261
 #, kde-format
 msgid ""
 "The numbercycle %1 is still assigned to a document type.The number cycle can "
 "not be deleted as long as it is assigned to a document type."
 msgstr ""
 
-#: numbercycledialog.cpp:263
+#: numbercycledialog.cpp:264
 msgid "Numbercycle Deletion"
 msgstr ""
 
-#: numbercycledialog.cpp:320
+#: numbercycledialog.cpp:321
 msgid ""
 "The new counter is lower than the old one. That has potential to create "
 "duplicate document numbers. Do you really want to decrease it?"
 msgstr ""
 
-#: numbercycledialog.cpp:322
+#: numbercycledialog.cpp:323
 msgid "Dangerous Counter Change"
 msgstr ""
 
