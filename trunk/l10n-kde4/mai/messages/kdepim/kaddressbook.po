@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-21 01:54+0000\n"
+"POT-Creation-Date: 2014-02-22 01:40+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -418,11 +418,15 @@ msgstr ""
 msgid "Search Duplicate Contacts..."
 msgstr ""
 
-#: mainwidget.cpp:663 mainwidget.cpp:680
+#: mainwidget.cpp:658
+msgid "Set Focus to Quick Search"
+msgstr ""
+
+#: mainwidget.cpp:668 mainwidget.cpp:685
 msgid "Address Book"
 msgstr "पता पुस्तिका"
 
-#: mainwidget.cpp:687 printing/printingwizard.cpp:59
+#: mainwidget.cpp:692 printing/printingwizard.cpp:59
 msgid "Print Contacts"
 msgstr ""
 
@@ -967,20 +971,17 @@ msgid ""
 "Choose your desired printing style. See the preview image to help you decide."
 msgstr ""
 
-#: quicksearchwidget.cpp:38
-#, fuzzy
-#| msgctxt "Search contacts in list"
-#| msgid "Search"
+#: quicksearchwidget.cpp:39
 msgctxt "@label Search contacts in list"
-msgid "Search"
-msgstr "खोजू"
+msgid "Search...<ALT+Q>"
+msgstr ""
 
-#: quicksearchwidget.cpp:41
+#: quicksearchwidget.cpp:42
 msgctxt "@info:tooltip"
 msgid "Search contacts in list"
 msgstr ""
 
-#: quicksearchwidget.cpp:44
+#: quicksearchwidget.cpp:45
 msgctxt "@info:whatsthis"
 msgid ""
 "Start typing a search string in this box and the list of contacts matching "
@@ -1543,6 +1544,13 @@ msgstr ""
 #: xxportmanager.cpp:197
 msgid "You have not selected any contacts to export."
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Search contacts in list"
+#~| msgid "Search"
+#~ msgctxt "@label Search contacts in list"
+#~ msgid "Search"
+#~ msgstr "खोजू"
 
 #, fuzzy
 #~| msgid "Email address:"
