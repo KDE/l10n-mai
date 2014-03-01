@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-27 01:33+0000\n"
+"POT-Creation-Date: 2014-03-01 01:31+0000\n"
 "PO-Revision-Date: 2010-09-24 12:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -327,7 +327,7 @@ msgid "Stop after current track: On"
 msgstr ""
 
 #: ActionClasses.cpp:493 context/engines/current/CurrentEngine.cpp:143
-#: EngineController.cpp:1327 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:668
+#: EngineController.cpp:1327 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:669
 msgid "No track playing"
 msgstr ""
 
@@ -9628,7 +9628,7 @@ msgstr ""
 msgid "Now playing"
 msgstr ""
 
-#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:692
+#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:693
 msgid "No information available for this track"
 msgstr ""
 
@@ -14881,15 +14881,16 @@ msgstr ""
 msgid "Slim Toolbar"
 msgstr ""
 
-#: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:118
-#: widgets/Osd.cpp:201
-msgid "(muted)"
-msgstr ""
-
-#: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:118
+#: toolbar/VolumePopupButton.cpp:107 toolbar/VolumePopupButton.cpp:119
 #: widgets/Osd.cpp:201
 #, kde-format
-msgid "Volume: %1% %2"
+msgid "Volume: %1% (muted)"
+msgstr ""
+
+#: toolbar/VolumePopupButton.cpp:107 widgets/Osd.cpp:201
+#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
+#, kde-format
+msgid "Volume: %1%"
 msgstr ""
 
 #: transcoding/TranscodingAssistantDialog.cpp:44
@@ -15290,23 +15291,23 @@ msgstr "बीचमे अछि"
 msgid "Rating changed"
 msgstr ""
 
-#: widgets/Osd.cpp:262
+#: widgets/Osd.cpp:263
 msgid "Volume: 100% (muted)"
 msgstr ""
 
-#: widgets/Osd.cpp:510
+#: widgets/Osd.cpp:511
 msgid ""
 "On-Screen-Display preview\n"
 "Drag to reposition"
 msgstr ""
 
-#: widgets/Osd.cpp:758
+#: widgets/Osd.cpp:759
 #, fuzzy
 #| msgid "Stop"
 msgid "Stopped"
 msgstr "रोकू"
 
-#: widgets/Osd.cpp:767
+#: widgets/Osd.cpp:768
 msgid "Paused"
 msgstr "ठहरू"
 
@@ -15416,11 +15417,6 @@ msgstr "कलाकार: %1"
 #: widgets/TrackSelectWidget.cpp:98
 msgid "empty"
 msgstr "खाली"
-
-#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
-#, kde-format
-msgid "Volume: %1%"
-msgstr ""
 
 #, fuzzy
 #~| msgid "Configure Notifications"
