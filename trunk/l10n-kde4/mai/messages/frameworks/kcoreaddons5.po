@@ -224,6 +224,24 @@ msgstr ""
 "%1 केँ \n"
 "%2 केर द्वारा लिखल गेल"
 
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:51
+#, fuzzy, qt-format
+#| msgid ""
+#| "Could not find 'kdemain' in '%1'.\n"
+#| "%2"
+msgctxt "KPluginLoader|"
+msgid "Could not find plugin '%1' for application '%2'"
+msgstr ""
+" 'केडीइ-मेन'  '%1' पर नहि भेटल.\n"
+"%2"
+
+#: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/plugin/kpluginloader.cpp:222
+#, fuzzy, qt-format
+#| msgid "The library %1 does not offer a KDE 4 compatible factory."
+msgctxt "KPluginLoader|"
+msgid "The library %1 does not offer a KPluginFactory."
+msgstr "लाइब्रेरी %1 केडीइ ४ योग्य फैक्टरी प्रदान नहि करता."
+
 #. MetricBinaryDialect size in bytes
 #: ../../home/scripty/prod/git-unstable/frameworks_kcoreaddons/src/lib/util/kformatprivate.cpp:88
 #, fuzzy, qt-format
@@ -2687,23 +2705,11 @@ msgstr "%1, %2."
 
 #, fuzzy
 #~| msgid ""
-#~| "Could not find 'kdemain' in '%1'.\n"
-#~| "%2"
-#~ msgid "Could not find plugin '%1' for application '%2'"
-#~ msgstr ""
-#~ " 'केडीइ-मेन'  '%1' पर नहि भेटल.\n"
-#~ "%2"
-
-#, fuzzy
-#~| msgid ""
 #~| "The service '%1' provides no library or the Library key is missing in "
 #~| "the .desktop file."
 #~ msgid "The service '%1' provides no library or the Library key is missing"
 #~ msgstr ""
 #~ "सेवा '%1' कोनो लाइब्रेरी नहि देत अथवा .desktop फाइल मे लाइब्रेरी कुँजी नहि अछि"
-
-#~ msgid "The library %1 does not offer a KDE 4 compatible factory."
-#~ msgstr "लाइब्रेरी %1 केडीइ ४ योग्य फैक्टरी प्रदान नहि करता."
 
 #~ msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 #~ msgstr "प्लगइन '%1' इस्तेमाल करैत अछि अयोग्य केडीइ लाइब्रेरी. (%2)"

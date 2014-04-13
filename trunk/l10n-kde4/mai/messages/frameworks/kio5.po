@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-08 01:40+0000\n"
+"POT-Creation-Date: 2014-04-13 01:45+0000\n"
 "PO-Revision-Date: 2008-12-03 15:07+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3180,7 +3180,7 @@ msgstr "स्थान संपादन क' लेल क्लिक कर
 msgid "Setting ACL for %1"
 msgstr " %1 क' लेल एसीएल सेट कएनाइ"
 
-#: src/ioslaves/file/file.cpp:682 src/ioslaves/file/file_unix.cpp:261
+#: src/ioslaves/file/file.cpp:685 src/ioslaves/file/file_unix.cpp:261
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -3189,29 +3189,29 @@ msgstr ""
 " %1 क' लेल \n"
 "अनुमतिसभ बदएल नहि सकल."
 
-#: src/ioslaves/file/file.cpp:888
+#: src/ioslaves/file/file.cpp:891
 msgid "No Media inserted or Media not recognized."
 msgstr "कोनो मीडिया प्रविष्ट नहि कएल गेल अछि अथवा मीडिया केँ पहचानल नहि जाए सकल."
 
-#: src/ioslaves/file/file.cpp:897 src/ioslaves/file/file.cpp:1093
+#: src/ioslaves/file/file.cpp:900 src/ioslaves/file/file.cpp:1096
 msgid "\"vold\" is not running."
 msgstr "\"vold\" चलि नहि रहल अछि."
 
-#: src/ioslaves/file/file.cpp:930
+#: src/ioslaves/file/file.cpp:933
 msgid "Could not find program \"mount\""
 msgstr "प्रोग्राम \"mount\" नहि भेटल"
 
-#: src/ioslaves/file/file.cpp:999
+#: src/ioslaves/file/file.cpp:1002
 #, fuzzy
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by wince."
 msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
 
-#: src/ioslaves/file/file.cpp:1104
+#: src/ioslaves/file/file.cpp:1107
 msgid "Could not find program \"umount\""
 msgstr "प्रोग्राम \"umount\" नहि भेटल"
 
-#: src/ioslaves/file/file.cpp:1119
+#: src/ioslaves/file/file.cpp:1122
 #, fuzzy
 #| msgid "Writing to %1 is not supported."
 msgid "unmounting is not supported by wince."
@@ -3279,11 +3279,11 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: src/ioslaves/ftp/ftp.cpp:569 src/ioslaves/http/http.cpp:5313
+#: src/ioslaves/ftp/ftp.cpp:569 src/ioslaves/http/http.cpp:5319
 msgid "You need to supply a username and a password to access this site."
 msgstr "ई साइट पर पहुँचबा क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द दिअ' पड़त."
 
-#: src/ioslaves/ftp/ftp.cpp:571 src/ioslaves/http/http.cpp:5315
+#: src/ioslaves/ftp/ftp.cpp:571 src/ioslaves/http/http.cpp:5321
 msgid "Site:"
 msgstr "साइट:"
 
@@ -3301,8 +3301,8 @@ msgstr "लागइन बेस"
 msgid "Could not login to %1."
 msgstr " %1 पर लागइन नहि भए सकल."
 
-#: src/ioslaves/ftp/ftp.cpp:2580 src/ioslaves/http/http.cpp:5199
-#: src/ioslaves/http/http.cpp:5325
+#: src/ioslaves/ftp/ftp.cpp:2583 src/ioslaves/http/http.cpp:5205
+#: src/ioslaves/http/http.cpp:5331
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -3310,19 +3310,19 @@ msgstr ""
 "एकरासँ पहिने जे अहाँक केओ साइट पर पहुँचक अनुमति देल जाए, नीच्चाँ सूची-बद्ध कएल प्राक्सी "
 "सर्वर क' लेल अहाँक प्रयोक्ता नाम आओर कूटशब्द देनाइ हाएत."
 
-#: src/ioslaves/ftp/ftp.cpp:2584 src/ioslaves/http/http.cpp:5203
-#: src/ioslaves/http/http.cpp:5328
+#: src/ioslaves/ftp/ftp.cpp:2587 src/ioslaves/http/http.cpp:5209
+#: src/ioslaves/http/http.cpp:5334
 msgid "Proxy:"
 msgstr "प्राक्सीः"
 
-#: src/ioslaves/ftp/ftp.cpp:2585 src/ioslaves/http/http.cpp:5204
-#: src/ioslaves/http/http.cpp:5409
+#: src/ioslaves/ftp/ftp.cpp:2588 src/ioslaves/http/http.cpp:5210
+#: src/ioslaves/http/http.cpp:5415
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> पर <b>%2</b>"
 
-#: src/ioslaves/ftp/ftp.cpp:2586 src/ioslaves/http/http.cpp:5206
-#: src/ioslaves/http/http.cpp:5345
+#: src/ioslaves/ftp/ftp.cpp:2589 src/ioslaves/http/http.cpp:5212
+#: src/ioslaves/http/http.cpp:5351
 msgid "Proxy Authentication Failed."
 msgstr "प्राक्सी प्रमाणीकरण असफल."
 
@@ -3364,70 +3364,70 @@ msgstr ""
 msgid "Could not find filename %1 in %2."
 msgstr "फाइल %1 केँ पढ़ि नहि सकल."
 
-#: src/ioslaves/http/http.cpp:592
+#: src/ioslaves/http/http.cpp:598
 msgid "No host specified."
 msgstr "कोनो होस्ट उल्लेखित नहि अछि."
 
-#: src/ioslaves/http/http.cpp:1555
+#: src/ioslaves/http/http.cpp:1561
 msgid "Otherwise, the request would have succeeded."
 msgstr "आन रूपेँ, निवेदन पूरा भ' गेल हाएत."
 
-#: src/ioslaves/http/http.cpp:1559
+#: src/ioslaves/http/http.cpp:1565
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "गुण मान निकालू"
 
-#: src/ioslaves/http/http.cpp:1562
+#: src/ioslaves/http/http.cpp:1568
 msgctxt "request type"
 msgid "set property values"
 msgstr "गुण मान नियत करू. "
 
-#: src/ioslaves/http/http.cpp:1565
+#: src/ioslaves/http/http.cpp:1571
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "निवेदित फोल्डर बनाबू"
 
-#: src/ioslaves/http/http.cpp:1568
+#: src/ioslaves/http/http.cpp:1574
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डरक नकल करू"
 
-#: src/ioslaves/http/http.cpp:1571
+#: src/ioslaves/http/http.cpp:1577
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर घसकाबू"
 
-#: src/ioslaves/http/http.cpp:1574
+#: src/ioslaves/http/http.cpp:1580
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "उल्लेखित फोल्डर मे ढूँढू"
 
-#: src/ioslaves/http/http.cpp:1577
+#: src/ioslaves/http/http.cpp:1583
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर केँ तालाबंद करू"
 
-#: src/ioslaves/http/http.cpp:1580
+#: src/ioslaves/http/http.cpp:1586
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर क' ताला खोलू"
 
-#: src/ioslaves/http/http.cpp:1583
+#: src/ioslaves/http/http.cpp:1589
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर केँ मेटाबू"
 
-#: src/ioslaves/http/http.cpp:1586
+#: src/ioslaves/http/http.cpp:1592
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "सर्वर केपेबिलिटी क्वेरी करू"
 
-#: src/ioslaves/http/http.cpp:1589
+#: src/ioslaves/http/http.cpp:1595
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "उल्लेखित फाइल अथवा फोल्डर केर विषयवस्तुओं केँ निकालू"
 
-#: src/ioslaves/http/http.cpp:1592
+#: src/ioslaves/http/http.cpp:1598
 #, fuzzy
 #| msgctxt "request type"
 #| msgid "search in the specified folder"
@@ -3435,17 +3435,17 @@ msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "उल्लेखित फोल्डर मे ढूँढू"
 
-#: src/ioslaves/http/http.cpp:1603
+#: src/ioslaves/http/http.cpp:1609
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr " एकटा त्रुटि %1   भेल, %2  कए कोसिस मे"
 
-#: src/ioslaves/http/http.cpp:1610
+#: src/ioslaves/http/http.cpp:1616
 msgid "The server does not support the WebDAV protocol."
 msgstr "सर्वर वेब-डीएवी  प्रोटोकाल  समर्थित नहि करैत अछि."
 
-#: src/ioslaves/http/http.cpp:1652
+#: src/ioslaves/http/http.cpp:1658
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -3453,19 +3453,19 @@ msgid ""
 "below."
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:1667 src/ioslaves/http/http.cpp:1800
+#: src/ioslaves/http/http.cpp:1673 src/ioslaves/http/http.cpp:1806
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "%1 कए कोसिस मे पहुँच नकार देल गेल."
 
-#: src/ioslaves/http/http.cpp:1680 src/ioslaves/http/http.cpp:1806
+#: src/ioslaves/http/http.cpp:1686 src/ioslaves/http/http.cpp:1812
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:1688
+#: src/ioslaves/http/http.cpp:1694
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -3473,26 +3473,26 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:1696
+#: src/ioslaves/http/http.cpp:1702
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "निवेदित तालाबंद देल नहि जाए सकत. %1"
 
-#: src/ioslaves/http/http.cpp:1702
+#: src/ioslaves/http/http.cpp:1708
 msgid "The server does not support the request type of the body."
 msgstr "सर्वर निवेदित प्रकार केर बाडी समर्थित नहि करैत अछि."
 
-#: src/ioslaves/http/http.cpp:1707 src/ioslaves/http/http.cpp:1814
+#: src/ioslaves/http/http.cpp:1713 src/ioslaves/http/http.cpp:1820
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr " %1 पर अक्षम किएक संसाधन ताला बन्न अछि."
 
-#: src/ioslaves/http/http.cpp:1711
+#: src/ioslaves/http/http.cpp:1717
 msgid "This action was prevented by another error."
 msgstr "आन त्रुटि केर द्वारा ई क्रिया रोकल गेल."
 
-#: src/ioslaves/http/http.cpp:1717 src/ioslaves/http/http.cpp:1820
+#: src/ioslaves/http/http.cpp:1723 src/ioslaves/http/http.cpp:1826
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -3500,34 +3500,34 @@ msgid ""
 "folder."
 msgstr " %1 केँ असमर्थ किएक गंतव्य सर्वर फाइल अथवा फोल्डर केँ स्वीकार करब सँ मना करैत अछि."
 
-#: src/ioslaves/http/http.cpp:1724 src/ioslaves/http/http.cpp:1827
+#: src/ioslaves/http/http.cpp:1730 src/ioslaves/http/http.cpp:1833
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:1778
+#: src/ioslaves/http/http.cpp:1784
 msgid "The resource cannot be deleted."
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:1791
+#: src/ioslaves/http/http.cpp:1797
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
 msgstr "अपलोड %1"
 
-#: src/ioslaves/http/http.cpp:1841
+#: src/ioslaves/http/http.cpp:1847
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr " एकटा त्रुटि %1   भेल, %2  कए कोसिस मे"
 
-#: src/ioslaves/http/http.cpp:2669
+#: src/ioslaves/http/http.cpp:2675
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 सम्पर्क मे. जवाबक प्रतीक्षा मे..."
 
-#: src/ioslaves/http/http.cpp:3008
+#: src/ioslaves/http/http.cpp:3014
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -3536,36 +3536,36 @@ msgid ""
 "you.</p><p>Is \"%1\" the site you want to visit?</p>"
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:3014
+#: src/ioslaves/http/http.cpp:3020
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: src/ioslaves/http/http.cpp:3105
+#: src/ioslaves/http/http.cpp:3111
 msgid "Server processing request, please wait..."
 msgstr "सर्वर प्रक्रिया क' लेल निवेदन, कृप्या इंतजार करू..."
 
-#: src/ioslaves/http/http.cpp:3810 src/ioslaves/http/http.cpp:3864
+#: src/ioslaves/http/http.cpp:3816 src/ioslaves/http/http.cpp:3870
 #, kde-format
 msgid "Sending data to %1"
 msgstr " %1 केँ डाटा भेज रहल अछि"
 
-#: src/ioslaves/http/http.cpp:4321
+#: src/ioslaves/http/http.cpp:4327
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr " %1 कए फिनु सँ प्राप्ति %2 सँ कएल जाए रहल अछि..."
 
-#: src/ioslaves/http/http.cpp:5344
+#: src/ioslaves/http/http.cpp:5350
 msgid "Authentication Failed."
 msgstr "प्रमाणीकरण असफल."
 
-#: src/ioslaves/http/http.cpp:5442
+#: src/ioslaves/http/http.cpp:5448
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "अनुमोदन समाद "
 
-#: src/ioslaves/http/http.cpp:5458
+#: src/ioslaves/http/http.cpp:5464
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
