@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_engine_soliddevice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-25 01:46+0000\n"
+"POT-Creation-Date: 2014-04-15 02:03+0000\n"
 "PO-Revision-Date: 2010-01-28 14:03+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -41,20 +41,20 @@ msgstr ""
 msgid "Icon"
 msgstr "चिह्न"
 
-#: soliddeviceengine.cpp:133 soliddeviceengine.cpp:711
+#: soliddeviceengine.cpp:133 soliddeviceengine.cpp:593
 msgid "Emblems"
 msgstr "प्रतीक"
 
-#: soliddeviceengine.cpp:134 soliddeviceengine.cpp:607
-#: soliddeviceengine.cpp:613 soliddeviceengine.cpp:626
+#: soliddeviceengine.cpp:134 soliddeviceengine.cpp:489
+#: soliddeviceengine.cpp:495 soliddeviceengine.cpp:508
 #, fuzzy
 #| msgid "Has State"
 msgid "State"
 msgstr "स्थिति राखैत अछि"
 
-#: soliddeviceengine.cpp:135 soliddeviceengine.cpp:608
-#: soliddeviceengine.cpp:614 soliddeviceengine.cpp:622
-#: soliddeviceengine.cpp:624
+#: soliddeviceengine.cpp:135 soliddeviceengine.cpp:490
+#: soliddeviceengine.cpp:496 soliddeviceengine.cpp:504
+#: soliddeviceengine.cpp:506
 msgid "Operation result"
 msgstr ""
 
@@ -90,7 +90,7 @@ msgstr "मेजर"
 msgid "Minor"
 msgstr "गौण"
 
-#: soliddeviceengine.cpp:158 soliddeviceengine.cpp:514
+#: soliddeviceengine.cpp:158
 msgid "Device"
 msgstr "डिवाइस"
 
@@ -98,22 +98,22 @@ msgstr "डिवाइस"
 msgid "Storage Access"
 msgstr "भंडार पहुंच"
 
-#: soliddeviceengine.cpp:167 soliddeviceengine.cpp:638
-#: soliddeviceengine.cpp:725
+#: soliddeviceengine.cpp:167 soliddeviceengine.cpp:520
+#: soliddeviceengine.cpp:607
 msgid "Accessible"
 msgstr "पहुँच योग्य"
 
-#: soliddeviceengine.cpp:168 soliddeviceengine.cpp:639
+#: soliddeviceengine.cpp:168 soliddeviceengine.cpp:521
 msgid "File Path"
 msgstr "फाइल पथ"
 
-#: soliddeviceengine.cpp:177 soliddeviceengine.cpp:667
-#: soliddeviceengine.cpp:681
+#: soliddeviceengine.cpp:177 soliddeviceengine.cpp:549
+#: soliddeviceengine.cpp:563
 msgid "Free Space"
 msgstr "खाली जगह"
 
-#: soliddeviceengine.cpp:178 soliddeviceengine.cpp:668
-#: soliddeviceengine.cpp:682
+#: soliddeviceengine.cpp:178 soliddeviceengine.cpp:550
+#: soliddeviceengine.cpp:564
 #, fuzzy
 #| msgid "Free Space"
 msgid "Free Space Text"
@@ -337,7 +337,7 @@ msgstr "लेबल"
 msgid "UUID"
 msgstr "UUID"
 
-#: soliddeviceengine.cpp:313 soliddeviceengine.cpp:582
+#: soliddeviceengine.cpp:313 soliddeviceengine.cpp:464
 msgid "Size"
 msgstr "आकार"
 
@@ -470,12 +470,10 @@ msgid "Camera"
 msgstr "कैमरा"
 
 #: soliddeviceengine.cpp:379 soliddeviceengine.cpp:394
-#: soliddeviceengine.cpp:534
 msgid "Supported Protocols"
 msgstr "समर्थित प्रोटोकाल"
 
 #: soliddeviceengine.cpp:380 soliddeviceengine.cpp:395
-#: soliddeviceengine.cpp:535
 msgid "Supported Drivers"
 msgstr "समर्थित ड्राइवर"
 
@@ -484,281 +482,233 @@ msgid "Portable Media Player"
 msgstr "पोर्टेबल मीडिया प्लेयर"
 
 #: soliddeviceengine.cpp:407
-msgid "Network Interface"
-msgstr "सँजाल अंतरफलक"
-
-#: soliddeviceengine.cpp:409
-msgid "Interface Name"
-msgstr "अंतरफलक नाम"
-
-#: soliddeviceengine.cpp:410
-msgid "Wireless"
-msgstr "बेतार"
-
-#: soliddeviceengine.cpp:411
-msgid "Hardware Address"
-msgstr "हार्डवेयर पता"
-
-#: soliddeviceengine.cpp:412
-msgid "MAC Address"
-msgstr "मैक पता"
-
-#: soliddeviceengine.cpp:420
-msgid "AC Adapter"
-msgstr "AC एडाप्टर"
-
-#: soliddeviceengine.cpp:422 soliddeviceengine.cpp:441
-msgid "Plugged In"
-msgstr "प्लग्गड अन्दर"
-
-#: soliddeviceengine.cpp:431
 msgid "Battery"
 msgstr "बैटरी"
 
-#: soliddeviceengine.cpp:434
+#: soliddeviceengine.cpp:410
 msgid "Unknown Battery"
 msgstr "अज्ञात बैटरी"
 
-#: soliddeviceengine.cpp:434
+#: soliddeviceengine.cpp:410
 msgid "PDA Battery"
 msgstr "PDA बैटरी"
 
-#: soliddeviceengine.cpp:434
+#: soliddeviceengine.cpp:410
 msgid "UPS Battery"
 msgstr "UPS बैटरी"
 
-#: soliddeviceengine.cpp:435
+#: soliddeviceengine.cpp:411
 msgid "Primary Battery"
 msgstr "प्राथमिक बैटरी"
 
-#: soliddeviceengine.cpp:435
+#: soliddeviceengine.cpp:411
 msgid "Mouse Battery"
 msgstr "माउस बैटरी"
 
-#: soliddeviceengine.cpp:435
+#: soliddeviceengine.cpp:411
 msgid "Keyboard Battery"
 msgstr "कुँजीपटल बैटरी"
 
-#: soliddeviceengine.cpp:436
+#: soliddeviceengine.cpp:412
 msgid "Keyboard Mouse Battery"
 msgstr "कुँजीपटल माउस बैटरी"
 
-#: soliddeviceengine.cpp:436
+#: soliddeviceengine.cpp:412
 msgid "Camera Battery"
 msgstr "कैमरा बैटरी"
 
-#: soliddeviceengine.cpp:439
+#: soliddeviceengine.cpp:415
 msgid "Fully Charged"
 msgstr "पूरे चार्ज्ड"
 
-#: soliddeviceengine.cpp:439
+#: soliddeviceengine.cpp:415
 msgid "Charging"
 msgstr "चार्ज कए रहल अछि"
 
-#: soliddeviceengine.cpp:439
+#: soliddeviceengine.cpp:415
 msgid "Discharging"
 msgstr "डिस्चार्ज कए रहल अछि"
 
-#: soliddeviceengine.cpp:442 soliddeviceengine.cpp:461
+#: soliddeviceengine.cpp:417
+msgid "Plugged In"
+msgstr "प्लग्गड अन्दर"
+
+#: soliddeviceengine.cpp:418
 msgid "Type"
 msgstr "प्रकार"
 
-#: soliddeviceengine.cpp:443
+#: soliddeviceengine.cpp:419
 msgid "Charge Percent"
 msgstr "चार्ज प्रतिशत"
 
-#: soliddeviceengine.cpp:444
+#: soliddeviceengine.cpp:420
 msgid "Rechargeable"
 msgstr "फेर चार्ज करैयोग्य"
 
-#: soliddeviceengine.cpp:445
+#: soliddeviceengine.cpp:421
 msgid "Charge State"
 msgstr "चार्ज स्थिति"
 
-#: soliddeviceengine.cpp:455
-msgid "Button"
-msgstr "बटन"
-
-#: soliddeviceengine.cpp:458
-msgid "Lid Button"
-msgstr "लिड बटन"
-
-#: soliddeviceengine.cpp:458
-msgid "Power Button"
-msgstr "घात बटन"
-
-#: soliddeviceengine.cpp:458
-msgid "Sleep Button"
-msgstr "स्लीप बटन"
-
-#: soliddeviceengine.cpp:459
-msgid "Unknown Button Type"
-msgstr "अज्ञात बटन प्रकार"
-
-#: soliddeviceengine.cpp:462
-msgid "Has State"
-msgstr "स्थिति राखैत अछि"
-
-#: soliddeviceengine.cpp:463
-msgid "State Value"
-msgstr "स्थिति मान"
-
-#: soliddeviceengine.cpp:464
-msgid "Pressed"
-msgstr "दबाएल"
-
-#: soliddeviceengine.cpp:474
-msgid "Audio Interface"
-msgstr "ध्वनि अंतरफलक"
-
-#: soliddeviceengine.cpp:477
-msgid "ALSA"
-msgstr "आल्सा"
-
-#: soliddeviceengine.cpp:477
-msgid "Open Sound System"
-msgstr "खोलू ध्वनि सिस्टम"
-
-#: soliddeviceengine.cpp:477
-msgid "Unknown Audio Driver"
-msgstr "अज्ञात ऑडियो ड्राइवर"
-
-#: soliddeviceengine.cpp:479
-msgid "Driver"
-msgstr "ड्राइवर"
-
-#: soliddeviceengine.cpp:480
-msgid "Driver Handle"
-msgstr "ड्राइवर हैंडल"
-
-#: soliddeviceengine.cpp:481
-msgid "Name"
-msgstr "नाम"
-
-#: soliddeviceengine.cpp:487
-msgid "Unknown Audio Interface Type"
-msgstr "अज्ञात ऑडियो अंतरफलक प्रकार"
-
-#: soliddeviceengine.cpp:490
-msgid "Audio Control"
-msgstr "ऑडियो नियंत्रण"
-
-#: soliddeviceengine.cpp:493
-msgid "Audio Input"
-msgstr "ऑडियो इनपुट"
-
-#: soliddeviceengine.cpp:496
-msgid "Audio Output"
-msgstr "आडियो आउटपुट"
-
-#: soliddeviceengine.cpp:498
-msgid "Audio Device Type"
-msgstr "ऑडियो डिवाइस प्रकार"
-
-#: soliddeviceengine.cpp:502
-msgid "Internal Soundcard"
-msgstr "भीतरी साउंडकार्ड"
-
-#: soliddeviceengine.cpp:502
-msgid "USB Soundcard"
-msgstr "यूएसबी साउंडकार्ड"
-
-#: soliddeviceengine.cpp:502
-msgid "Firewire Soundcard"
-msgstr "फायरबायर साउंडकार्ड"
-
-#: soliddeviceengine.cpp:503
-msgid "Headset"
-msgstr "हेडसेट"
-
-#: soliddeviceengine.cpp:503
-msgid "Modem"
-msgstr "माडेम"
-
-#: soliddeviceengine.cpp:504
-msgid "Soundcard Type"
-msgstr "साउंडकार्ड प्रकार"
-
-#: soliddeviceengine.cpp:512
-msgid "DVB Interface"
-msgstr "DVB अंतरफलक"
-
-#: soliddeviceengine.cpp:515
-msgid "Device Adapter"
-msgstr "युक्ति एडाप्टर"
-
-#: soliddeviceengine.cpp:519
-msgid "DVB Unknown"
-msgstr "DVB अज्ञात"
-
-#: soliddeviceengine.cpp:519
-msgid "DVB Audio"
-msgstr "DVB ऑडियो"
-
-#: soliddeviceengine.cpp:519
-msgid "DVB Ca"
-msgstr "DVB Ca"
-
-#: soliddeviceengine.cpp:520
-msgid "DVB Demux"
-msgstr "DVB Demux"
-
-#: soliddeviceengine.cpp:520
-msgid "DVB DVR"
-msgstr "DVB DVR"
-
-#: soliddeviceengine.cpp:520
-msgid "DVB Frontend"
-msgstr "DVB फ्रंटएंड"
-
-#: soliddeviceengine.cpp:521
-msgid "DVB Net"
-msgstr "DVB नेट"
-
-#: soliddeviceengine.cpp:521
-msgid "DVB OSD"
-msgstr "DVB OSD"
-
-#: soliddeviceengine.cpp:521
-msgid "DVB Sec"
-msgstr "DVB Sec"
-
-#: soliddeviceengine.cpp:521
-msgid "DVB Video"
-msgstr "DVB वीडियो"
-
-#: soliddeviceengine.cpp:523
-msgid "DVB Device Type"
-msgstr "DVB डिवाइस प्रकार"
-
-#: soliddeviceengine.cpp:524
-msgid "Device Index"
-msgstr "युक्ति सूची"
-
-#: soliddeviceengine.cpp:532
-msgid "Video"
-msgstr "वीडियो"
-
-#: soliddeviceengine.cpp:541
-msgid "Driver Handles"
-msgstr "ड्राइवर नियंत्रण"
-
-#: soliddeviceengine.cpp:550
+#: soliddeviceengine.cpp:432
 msgid "Type Description"
 msgstr ""
 
-#: soliddeviceengine.cpp:555
+#: soliddeviceengine.cpp:437
 msgid "Device Types"
 msgstr "डिवाइस प्रकार"
 
-#: soliddeviceengine.cpp:699
+#: soliddeviceengine.cpp:581
 msgid "Temperature"
 msgstr "तापक्रम"
 
-#: soliddeviceengine.cpp:700
+#: soliddeviceengine.cpp:582
 msgid "Temperature Unit"
 msgstr "तापक्रम एकाइ"
 
-#: soliddeviceengine.cpp:744 soliddeviceengine.cpp:748
+#: soliddeviceengine.cpp:626 soliddeviceengine.cpp:630
 msgid "In Use"
 msgstr ""
+
+#~ msgid "Network Interface"
+#~ msgstr "सँजाल अंतरफलक"
+
+#~ msgid "Interface Name"
+#~ msgstr "अंतरफलक नाम"
+
+#~ msgid "Wireless"
+#~ msgstr "बेतार"
+
+#~ msgid "Hardware Address"
+#~ msgstr "हार्डवेयर पता"
+
+#~ msgid "MAC Address"
+#~ msgstr "मैक पता"
+
+#~ msgid "AC Adapter"
+#~ msgstr "AC एडाप्टर"
+
+#~ msgid "Button"
+#~ msgstr "बटन"
+
+#~ msgid "Lid Button"
+#~ msgstr "लिड बटन"
+
+#~ msgid "Power Button"
+#~ msgstr "घात बटन"
+
+#~ msgid "Sleep Button"
+#~ msgstr "स्लीप बटन"
+
+#~ msgid "Unknown Button Type"
+#~ msgstr "अज्ञात बटन प्रकार"
+
+#~ msgid "Has State"
+#~ msgstr "स्थिति राखैत अछि"
+
+#~ msgid "State Value"
+#~ msgstr "स्थिति मान"
+
+#~ msgid "Pressed"
+#~ msgstr "दबाएल"
+
+#~ msgid "Audio Interface"
+#~ msgstr "ध्वनि अंतरफलक"
+
+#~ msgid "ALSA"
+#~ msgstr "आल्सा"
+
+#~ msgid "Open Sound System"
+#~ msgstr "खोलू ध्वनि सिस्टम"
+
+#~ msgid "Unknown Audio Driver"
+#~ msgstr "अज्ञात ऑडियो ड्राइवर"
+
+#~ msgid "Driver"
+#~ msgstr "ड्राइवर"
+
+#~ msgid "Driver Handle"
+#~ msgstr "ड्राइवर हैंडल"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#~ msgid "Unknown Audio Interface Type"
+#~ msgstr "अज्ञात ऑडियो अंतरफलक प्रकार"
+
+#~ msgid "Audio Control"
+#~ msgstr "ऑडियो नियंत्रण"
+
+#~ msgid "Audio Input"
+#~ msgstr "ऑडियो इनपुट"
+
+#~ msgid "Audio Output"
+#~ msgstr "आडियो आउटपुट"
+
+#~ msgid "Audio Device Type"
+#~ msgstr "ऑडियो डिवाइस प्रकार"
+
+#~ msgid "Internal Soundcard"
+#~ msgstr "भीतरी साउंडकार्ड"
+
+#~ msgid "USB Soundcard"
+#~ msgstr "यूएसबी साउंडकार्ड"
+
+#~ msgid "Firewire Soundcard"
+#~ msgstr "फायरबायर साउंडकार्ड"
+
+#~ msgid "Headset"
+#~ msgstr "हेडसेट"
+
+#~ msgid "Modem"
+#~ msgstr "माडेम"
+
+#~ msgid "Soundcard Type"
+#~ msgstr "साउंडकार्ड प्रकार"
+
+#~ msgid "DVB Interface"
+#~ msgstr "DVB अंतरफलक"
+
+#~ msgid "Device Adapter"
+#~ msgstr "युक्ति एडाप्टर"
+
+#~ msgid "DVB Unknown"
+#~ msgstr "DVB अज्ञात"
+
+#~ msgid "DVB Audio"
+#~ msgstr "DVB ऑडियो"
+
+#~ msgid "DVB Ca"
+#~ msgstr "DVB Ca"
+
+#~ msgid "DVB Demux"
+#~ msgstr "DVB Demux"
+
+#~ msgid "DVB DVR"
+#~ msgstr "DVB DVR"
+
+#~ msgid "DVB Frontend"
+#~ msgstr "DVB फ्रंटएंड"
+
+#~ msgid "DVB Net"
+#~ msgstr "DVB नेट"
+
+#~ msgid "DVB OSD"
+#~ msgstr "DVB OSD"
+
+#~ msgid "DVB Sec"
+#~ msgstr "DVB Sec"
+
+#~ msgid "DVB Video"
+#~ msgstr "DVB वीडियो"
+
+#~ msgid "DVB Device Type"
+#~ msgstr "DVB डिवाइस प्रकार"
+
+#~ msgid "Device Index"
+#~ msgstr "युक्ति सूची"
+
+#~ msgid "Video"
+#~ msgstr "वीडियो"
+
+#~ msgid "Driver Handles"
+#~ msgstr "ड्राइवर नियंत्रण"
