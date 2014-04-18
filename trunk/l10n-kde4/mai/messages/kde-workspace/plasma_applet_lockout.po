@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_lockout\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-08 01:38+0000\n"
+"POT-Creation-Date: 2014-04-18 02:11+0000\n"
 "PO-Revision-Date: 2010-01-29 16:13+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -22,84 +22,78 @@ msgstr ""
 "\n"
 "\n"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, lockoutConfig)
-#: contents/ui/config.ui:14
-msgid "Configure Lock/Logout"
+#: contents/code/data.js:4 contents/ui/ConfigGeneral.qml:60
+msgid "Lock"
+msgstr "लाक करू"
+
+#: contents/code/data.js:5
+msgid "Lock the screen"
+msgstr "स्क्रीन लाक करू"
+
+#: contents/code/data.js:9
+msgid "Switch user"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: contents/ui/config.ui:20
-msgid "Please select one or more items on the list below."
+#: contents/code/data.js:10
+msgid "Start a parallel session as a different user"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: contents/ui/config.ui:27
+#: contents/code/data.js:14
+msgid "Leave..."
+msgstr "छोड़ू..."
+
+#: contents/code/data.js:15
+msgid "Logout, turn off or restart the computer"
+msgstr ""
+
+#: contents/code/data.js:19 contents/ui/lockout.qml:151
+msgid "Suspend"
+msgstr "सस्पेंड करू"
+
+#: contents/code/data.js:20
+msgid "Sleep (suspend to RAM)"
+msgstr ""
+
+#: contents/code/data.js:24 contents/ui/ConfigGeneral.qml:68
+#: contents/ui/lockout.qml:136
+msgid "Hibernate"
+msgstr "हाइबरनेट करू"
+
+#: contents/code/data.js:25
+msgid "Hibernate (suspend to disk)"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:50
+msgid "SystemTray Settings"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:56
 #, fuzzy
 #| msgid "Leave..."
 msgid "Leave"
 msgstr "छोड़ू..."
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: contents/ui/config.ui:40 contents/ui/data.js:4
-msgid "Lock"
-msgstr "लाक करू"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: contents/ui/config.ui:53 contents/ui/data.js:9
-msgid "Switch user"
+#: contents/ui/ConfigGeneral.qml:64
+msgid "Switch User"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: contents/ui/config.ui:66 contents/ui/data.js:24 contents/ui/lockout.qml:164
-msgid "Hibernate"
-msgstr "हाइबरनेट करू"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: contents/ui/config.ui:79
+#: contents/ui/ConfigGeneral.qml:72
 msgid "Sleep"
 msgstr ""
 
-#: contents/ui/data.js:5
-msgid "Lock the screen"
-msgstr "स्क्रीन लाक करू"
-
-#: contents/ui/data.js:10
-msgid "Start a parallel session as a different user"
-msgstr ""
-
-#: contents/ui/data.js:14
-msgid "Leave..."
-msgstr "छोड़ू..."
-
-#: contents/ui/data.js:15
-msgid "Logout, turn off or restart the computer"
-msgstr ""
-
-#: contents/ui/data.js:19 contents/ui/lockout.qml:179
-msgid "Suspend"
-msgstr "सस्पेंड करू"
-
-#: contents/ui/data.js:20
-msgid "Sleep (suspend to RAM)"
-msgstr ""
-
-#: contents/ui/data.js:25
-msgid "Hibernate (suspend to disk)"
-msgstr ""
-
-#: contents/ui/lockout.qml:165
+#: contents/ui/lockout.qml:137
 msgid "Do you want to suspend to disk (hibernate)?"
 msgstr ""
 
-#: contents/ui/lockout.qml:167 contents/ui/lockout.qml:182
+#: contents/ui/lockout.qml:139 contents/ui/lockout.qml:154
 msgid "Yes"
 msgstr ""
 
-#: contents/ui/lockout.qml:168 contents/ui/lockout.qml:183
+#: contents/ui/lockout.qml:140 contents/ui/lockout.qml:155
 msgid "No"
 msgstr ""
 
-#: contents/ui/lockout.qml:180
+#: contents/ui/lockout.qml:152
 msgid "Do you want to suspend to RAM (sleep)?"
 msgstr ""
 
