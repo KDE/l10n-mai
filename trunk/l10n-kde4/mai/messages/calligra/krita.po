@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-18 01:41+0000\n"
+"POT-Creation-Date: 2014-04-23 01:32+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -7151,7 +7151,9 @@ msgid "Deform Mode"
 msgstr "मोड विरूपित करू"
 
 #. i18n: ectx: property (text), widget (QRadioButton, growBtn)
+#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
 #: plugins/paintops/deform/wdgdeformoptions.ui:44
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:108
 msgid "Grow"
 msgstr "बढ़ू"
 
@@ -10409,24 +10411,19 @@ msgstr "उर्ध्वाधर"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:95
-msgid "resize keeping center fixed"
+msgid "Resize keeping center fixed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:98
 #, fuzzy
 #| msgid "Center:"
-msgid "center"
+msgid "Center"
 msgstr "केँद्र:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolGrow)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:105
-msgid "allow growing the image by dragging outside bounds of the image"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:108
-msgid "grow"
+msgid "Allow growing the image by dragging outside bounds of the image"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolWidth)
@@ -13583,25 +13580,25 @@ msgstr "चयन बढाउ"
 msgid "Remove Last Layer"
 msgstr "परत हटाबू"
 
-#: ui/kis_node_manager.cpp:666
+#: ui/kis_node_manager.cpp:669
 msgid "Mirror Layer X"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:668
+#: ui/kis_node_manager.cpp:671
 msgid "Mirror Mask X"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:679
+#: ui/kis_node_manager.cpp:682
 msgid "Mirror Layer Y"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:681
+#: ui/kis_node_manager.cpp:684
 #, fuzzy
 #| msgid "Crop Image"
 msgid "Mirror Mask Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:802
+#: ui/kis_node_manager.cpp:805
 #, fuzzy
 #| msgid "Exposure time"
 msgid "Export Node"
