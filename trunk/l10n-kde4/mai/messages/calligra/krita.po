@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-03 01:30+0000\n"
+"POT-Creation-Date: 2014-06-04 01:31+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4029,11 +4029,11 @@ msgid "Offset"
 msgstr "ऑफसेट"
 
 #. i18n: ectx: property (text), widget (QLabel, lblXOff)
+#. i18n: ectx: property (text), widget (QLabel, xLabel)
 #: plugins/extensions/imagesize/wdg_canvassize.ui:199
-#, fuzzy
-#| msgid "Offset"
-msgid "X Offset:"
-msgstr "ऑफसेट"
+#: plugins/extensions/offsetimage/wdg_offsetimage.ui:31
+msgid "X:"
+msgstr "X:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAnchor)
 #: plugins/extensions/imagesize/wdg_canvassize.ui:251
@@ -4041,11 +4041,11 @@ msgid "Anchor:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblYOff)
+#. i18n: ectx: property (text), widget (QLabel, yLabel)
 #: plugins/extensions/imagesize/wdg_canvassize.ui:261
-#, fuzzy
-#| msgid "Offset"
-msgid "Y Offset:"
-msgstr "ऑफसेट"
+#: plugins/extensions/offsetimage/wdg_offsetimage.ui:52
+msgid "Y:"
+msgstr "Y:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupImageSize)
 #: plugins/extensions/imagesize/wdg_imagesize.ui:20
@@ -4977,16 +4977,6 @@ msgstr "चित्र चपटा करू"
 #| msgid "Offset"
 msgid "Offset Layer"
 msgstr "ऑफसेट"
-
-#. i18n: ectx: property (text), widget (QLabel, xLabel)
-#: plugins/extensions/offsetimage/wdg_offsetimage.ui:31
-msgid "X:"
-msgstr "X:"
-
-#. i18n: ectx: property (text), widget (QLabel, yLabel)
-#: plugins/extensions/offsetimage/wdg_offsetimage.ui:52
-msgid "Y:"
-msgstr "Y:"
 
 #. i18n: ectx: property (text), widget (QPushButton, middleOffsetBtn)
 #: plugins/extensions/offsetimage/wdg_offsetimage.ui:80
@@ -15024,6 +15014,16 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बन्न करू"
+
+#, fuzzy
+#~| msgid "Offset"
+#~ msgid "X Offset:"
+#~ msgstr "ऑफसेट"
+
+#, fuzzy
+#~| msgid "Offset"
+#~ msgid "Y Offset:"
+#~ msgstr "ऑफसेट"
 
 #, fuzzy
 #~| msgid "Scales"
