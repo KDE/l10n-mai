@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-04 07:51+0000\n"
+"POT-Creation-Date: 2014-06-18 07:58+0000\n"
 "PO-Revision-Date: 2010-01-29 16:04+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: main.cpp:54
+#: main.cpp:52
 msgid ""
 "The reliable KDE session manager that talks the standard X11R6 \n"
 "session management protocol (XSMP)."
@@ -31,11 +31,79 @@ msgstr ""
 "विश्वसनीय सत्र प्रबंधक जे मानक X11R6 सँ वार्तालाप करैत अछि \n"
 "सत्र प्रबंधक प्रोटोकाल (XSMP)."
 
-#: main.cpp:258
+#: main.cpp:140
+msgid "$HOME not set!"
+msgstr ""
+
+#: main.cpp:145 main.cpp:152
+#, kde-format
+msgid "$HOME directory (%1) does not exist."
+msgstr ""
+
+#: main.cpp:147
+#, kde-format
+msgid "No write access to $HOME directory (%1)."
+msgstr ""
+
+#: main.cpp:154
+#, kde-format
+msgid "No read access to $HOME directory (%1)."
+msgstr ""
+
+#: main.cpp:159
+#, kde-format
+msgid "$HOME directory (%1) is out of disk space."
+msgstr ""
+
+#: main.cpp:161
+#, kde-format
+msgid "Writing to the $HOME directory (%2) failed with the error '%1'"
+msgstr ""
+
+#: main.cpp:174 main.cpp:208
+#, kde-format
+msgid "No write access to '%1'."
+msgstr ""
+
+#: main.cpp:176 main.cpp:210
+#, kde-format
+msgid "No read access to '%1'."
+msgstr ""
+
+#: main.cpp:186 main.cpp:198
+#, kde-format
+msgid "Temp directory (%1) is out of disk space."
+msgstr ""
+
+#: main.cpp:188 main.cpp:200
+#, kde-format
+msgid ""
+"Writing to the temp directory (%2) failed with\n"
+"    the error '%1'"
+msgstr ""
+
+#: main.cpp:216
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start KDE:"
+msgstr ""
+
+#: main.cpp:219
+msgid ""
+"\n"
+"\n"
+"KDE is unable to start.\n"
+msgstr ""
+
+#: main.cpp:226
+msgid "Plasma Workspace installation problem!"
+msgstr ""
+
+#: main.cpp:255
 msgid "Restores the saved user session if available"
 msgstr " जँ उपलब्ध अछि तँ सहेजल गेल प्रयोक्ता सत्र बहाल करू"
 
-#: main.cpp:262
+#: main.cpp:259
 #, fuzzy
 #| msgid ""
 #| "Starts 'wm' in case no other window manager is \n"
@@ -47,53 +115,38 @@ msgstr ""
 "प्रारंभ करैत अछि 'wm' जँ कोनो आन विंडो प्रबंधक उपलब्ध नहि अछि\n"
 "सत्र मे. पूर्वनिर्धारित अछि 'kwin'"
 
-#: main.cpp:263
+#: main.cpp:260
 msgid "wm"
 msgstr ""
 
-#: main.cpp:267
+#: main.cpp:264
 msgid "Also allow remote connections"
 msgstr "रिमोटो कनेक्शन स्वीकारू"
 
-#: main.cpp:272
+#: main.cpp:269
 msgid "Starts the session in locked mode"
 msgstr ""
 
-#: server.cpp:1052
+#: server.cpp:1049
 #, fuzzy
 #| msgid "&Logout"
 msgid "Log Out"
 msgstr "लागआउट (&L)"
 
-#: server.cpp:1057
+#: server.cpp:1054
 msgid "Log Out Without Confirmation"
 msgstr ""
 
-#: server.cpp:1062
+#: server.cpp:1059
 msgid "Halt Without Confirmation"
 msgstr ""
 
-#: server.cpp:1067
+#: server.cpp:1064
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: themes/contour/main.qml:73
-#, kde-format
-msgid "Sleeping in 1 second"
-msgid_plural "Sleeping in %1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: themes/contour/main.qml:106
-msgid "Lock"
-msgstr ""
-
 #: themes/contour/main.qml:120
-msgid "Sleep"
-msgstr ""
-
-#: themes/contour/main.qml:140
-msgid "Turn off"
+msgid "ksmserver"
 msgstr ""
 
 #, fuzzy
