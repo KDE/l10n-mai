@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-04 01:47+0000\n"
+"POT-Creation-Date: 2014-06-19 01:30+0000\n"
 "PO-Revision-Date: 2009-04-22 00:21+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -42,16 +42,16 @@ msgid "Accept change"
 msgstr "लेखा"
 
 #: commands/AutoResizeCommand.cpp:37
-msgctxt "Enable Shrink To Fit"
-msgid "Enable"
-msgstr ""
-
-#: commands/AutoResizeCommand.cpp:37
 #, fuzzy
 #| msgid "Distance:"
 msgctxt "Disable Shrink To Fit"
 msgid "Disable"
 msgstr "दूरी:"
+
+#: commands/AutoResizeCommand.cpp:37
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr ""
 
 #: commands/AutoResizeCommand.cpp:40
 #, kde-format
@@ -435,8 +435,7 @@ msgstr "लेखा"
 msgid "Show Changes"
 msgstr ""
 
-#: dialogs/CharacterGeneral.cpp:72 dialogs/FontDia.cpp:83
-#: dialogs/FormattingPreview.cpp:51
+#: dialogs/CharacterGeneral.cpp:72 dialogs/FormattingPreview.cpp:51
 msgid "Font"
 msgstr "फोन्ट"
 
@@ -538,14 +537,14 @@ msgstr "स्थिति"
 msgid "Select"
 msgstr "फोन्ट चुनू"
 
-#: dialogs/CitationInsertionDialog.cpp:53 dialogs/StyleManager.cpp:439
-msgid "Warning"
-msgstr ""
-
 #: dialogs/CitationInsertionDialog.cpp:53
 msgid ""
 "The document already contains the bibliography entry with different data.\n"
 "Do you want to adjust existing entries?"
+msgstr ""
+
+#: dialogs/CitationInsertionDialog.cpp:53 dialogs/StyleManager.cpp:439
+msgid "Warning"
 msgstr ""
 
 #: dialogs/CitationInsertionDialog.cpp:68
@@ -940,6 +939,13 @@ msgstr ""
 #: dialogs/FontDia.cpp:49
 msgid "Select Font"
 msgstr "फोन्ट चुनू"
+
+#: dialogs/FontDia.cpp:83
+#, fuzzy
+#| msgid "Font"
+msgctxt "(qtundo-format)"
+msgid "Font"
+msgstr "फोन्ट"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, InsertBibliographyDialog)
 #. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
@@ -2537,15 +2543,15 @@ msgstr ""
 msgid "Table"
 msgstr "तमिल"
 
-#: TextTool.cpp:2493
-msgid "Key Press"
-msgstr ""
-
 #: TextTool.cpp:2493 TextTool.cpp:2498
 msgid "Autocorrection"
 msgstr ""
 
-#: TextTool.cpp:2765
+#: TextTool.cpp:2493
+msgid "Key Press"
+msgstr ""
+
+#: TextTool.cpp:2774
 #, kde-format
 msgid ""
 "This link points to the program or script '%1'.\n"
@@ -2553,7 +2559,7 @@ msgid ""
 "this program?"
 msgstr ""
 
-#: TextTool.cpp:2770
+#: TextTool.cpp:2779
 msgid "Open Link?"
 msgstr ""
 
