@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-30 08:26+0000\n"
+"POT-Creation-Date: 2014-07-01 12:12+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -54,12 +54,13 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "तंत्र बिन्यास"
 
-#: categories/settings-accessibility.desktop:8
+#: categories/old/settings-accessibility.desktop:8
 msgctxt "Name"
 msgid "Accessibility"
 msgstr "अभिगम्यता"
 
-#: categories/settings-account-details.desktop:8
+#: categories/old/settings-account-details.desktop:8
+#: categories/settings-personalization-accountdetails.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Details"
@@ -67,21 +68,13 @@ msgctxt "Name"
 msgid "Account Details"
 msgstr "खाताक विवरण"
 
-#: categories/settings-application-and-system-notifications.desktop:8
+#: categories/old/settings-application-and-system-notifications.desktop:8
 #, fuzzy
 msgctxt "Name"
 msgid "Application and System Notifications"
 msgstr "अनुप्रयोग सूचना"
 
-#: categories/settings-application-appearance-and-behavior.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Name"
-msgid "Common Appearance and Behavior"
-msgstr "अनुप्रयोग चालक"
-
-#: categories/settings-application-appearance.desktop:8
+#: categories/old/settings-application-appearance.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -89,17 +82,19 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "अनुप्रयोग चालक"
 
-#: categories/settings-audio-and-video.desktop:9
+#: categories/old/settings-audio-and-video.desktop:9
+#: categories/settings-hardware-multimedia.desktop:9
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "मल्टीमीडिया"
 
-#: categories/settings-bluetooth.desktop:8
+#: categories/old/settings-bluetooth.desktop:8
+#: categories/settings-network-bluetooth.desktop:9
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr "ब्लूटूथ"
 
-#: categories/settings-desktop-appearance.desktop:9
+#: categories/old/settings-desktop-appearance.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -107,13 +102,14 @@ msgctxt "Name"
 msgid "Workspace Appearance"
 msgstr "अनुप्रयोग चालक"
 
-#: categories/settings-desktop-appearance.desktop:73
+#: categories/old/settings-desktop-appearance.desktop:73
 #, fuzzy
 msgctxt "Comment"
 msgid "Customize the appearance of your desktop"
 msgstr "व्यक्तिगत डेस्कटाप प्रसंग वस्तु मनपसिन्न बनाउ"
 
-#: categories/settings-display.desktop:8
+#: categories/old/settings-display.desktop:8
+#: categories/settings-hardware-display.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
@@ -121,17 +117,19 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "फाइल प्रबंधन"
 
-#: categories/settings-display.desktop:70
+#: categories/old/settings-display.desktop:70
+#: categories/settings-hardware-display.desktop:70
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "जमावट देखाबू"
 
+#: categories/old/settings-hardware.desktop:9
 #: categories/settings-hardware.desktop:9
 msgctxt "Name"
 msgid "Hardware"
 msgstr "हार्डवेयर"
 
-#: categories/settings-input-devices.desktop:8
+#: categories/old/settings-input-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Devices"
@@ -139,7 +137,7 @@ msgctxt "Name"
 msgid "Input Devices"
 msgstr "इनपुट युक्ति"
 
-#: categories/settings-locale.desktop:8
+#: categories/old/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Logic Game"
@@ -147,7 +145,7 @@ msgctxt "Name"
 msgid "Locale"
 msgstr "स्थानीय भाषा"
 
-#: categories/settings-lost-and-found.desktop:9
+#: categories/old/settings-lost-and-found.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Lost & Found"
@@ -155,7 +153,7 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "हराएल आ पाएल"
 
-#: categories/settings-network-and-connectivity.desktop:8
+#: categories/old/settings-network-and-connectivity.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Network & Connectivity"
@@ -163,17 +161,17 @@ msgctxt "Name"
 msgid "Network and Connectivity"
 msgstr "नेटवर्क आ कनेक्टिविटी"
 
-#: categories/settings-network-settings.desktop:8
+#: categories/old/settings-network-settings.desktop:8
 msgctxt "Name"
 msgid "Network Settings"
 msgstr "नेटवर्क विन्यास "
 
-#: categories/settings-permissions.desktop:8
+#: categories/old/settings-permissions.desktop:8
 msgctxt "Name"
 msgid "Permissions"
 msgstr "अऩुमति"
 
-#: categories/settings-personal-information.desktop:8
+#: categories/old/settings-personal-information.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Processor Information"
@@ -181,12 +179,13 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "निज सूचना"
 
-#: categories/settings-power-management.desktop:8
+#: categories/old/settings-power-management.desktop:8
+#: categories/settings-hardware-powermanagement.desktop:9
 msgctxt "Name"
 msgid "Power Management"
 msgstr "पावर मैनेजमेंट"
 
-#: categories/settings-removable-devices.desktop:8
+#: categories/old/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -194,12 +193,12 @@ msgctxt "Name"
 msgid "Removable Devices"
 msgstr "यूएसबी युक्ति"
 
-#: categories/settings-sharing.desktop:8
+#: categories/old/settings-sharing.desktop:8
 msgctxt "Name"
 msgid "Sharing"
 msgstr "साझेदारी"
 
-#: categories/settings-shortcuts-and-gestures.desktop:8
+#: categories/old/settings-shortcuts-and-gestures.desktop:8
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Shortcut icon support"
@@ -207,12 +206,13 @@ msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "शार्टकट प्रतीक आधार"
 
-#: categories/settings-startup-and-shutdown.desktop:8
+#: categories/old/settings-startup-and-shutdown.desktop:8
+#: categories/settings-workspace-session.desktop:9
 msgctxt "Name"
 msgid "Startup and Shutdown"
 msgstr ""
 
-#: categories/settings-system-administration.desktop:9
+#: categories/old/settings-system-administration.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "SAM System-Administration"
@@ -220,12 +220,13 @@ msgctxt "Name"
 msgid "System Administration"
 msgstr "सिस्टम प्रशासन"
 
-#: categories/settings-window-behaviour.desktop:8
+#: categories/old/settings-window-behaviour.desktop:8
+#: categories/settings-workspace-windowmanagement.desktop:9
 msgctxt "Name"
 msgid "Window Behavior"
 msgstr "विंडो व्यवहार"
 
-#: categories/settings-workspace-appearance-and-behavior.desktop:9
+#: categories/old/settings-workspace-appearance-and-behavior.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
@@ -233,13 +234,139 @@ msgctxt "Name"
 msgid "Workspace Appearance and Behavior"
 msgstr "अनुप्रयोग चालक"
 
-#: categories/settings-workspace-behavior.desktop:8
+#: categories/old/settings-workspace-behavior.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Behavior"
 msgctxt "Name"
 msgid "Workspace Behavior"
 msgstr "वेब बर्ताव"
+
+#: categories/settings-appearance-applicationstyle.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Application Style"
+msgstr "अनुप्रयोग चालक"
+
+#: categories/settings-appearance-color.desktop:9
+msgctxt "Name"
+msgid "Color"
+msgstr ""
+
+#: categories/settings-appearance.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Appearance"
+msgstr "अनुप्रयोग चालक"
+
+#: categories/settings-appearance-font.desktop:9
+msgctxt "Name"
+msgid "Font"
+msgstr ""
+
+#: categories/settings-appearance-icons.desktop:9
+msgctxt "Name"
+msgid "Icons"
+msgstr ""
+
+#: categories/settings-appearance-workspacetheme.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Theme"
+msgstr "अनुप्रयोग चालक"
+
+#: categories/settings-hardware-input.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Human Input Devices"
+msgstr "इनपुट युक्ति"
+
+#: categories/settings-hardware-peripherals.desktop:9
+msgctxt "Name"
+msgid "Peripherals"
+msgstr ""
+
+#: categories/settings-network-connectivity.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network & Connectivity"
+msgctxt "Name"
+msgid "Connectivity"
+msgstr "नेटवर्क आ कनेक्टिविटी"
+
+#: categories/settings-network.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Settings"
+msgctxt "Name"
+msgid "Network"
+msgstr "नेटवर्क विन्यास "
+
+#: categories/settings-network-networksettings.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Settings"
+msgctxt "Name"
+msgid "Settings"
+msgstr "तंत्र बिन्यास"
+
+#: categories/settings-personalization-applications.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Applications"
+msgstr "अनुप्रयोग चालक"
+
+#: categories/settings-personalization.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Processor Information"
+msgctxt "Name"
+msgid "Personalization"
+msgstr "निज सूचना"
+
+#: categories/settings-personalization-notification.desktop:9
+msgctxt "Name"
+msgid "Notification"
+msgstr ""
+
+#: categories/settings-personalization-regionalsettings.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Settings"
+msgctxt "Name"
+msgid "Regional Settings"
+msgstr "नेटवर्क विन्यास "
+
+#: categories/settings-workspace.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web Behavior"
+msgctxt "Name"
+msgid "Workspace"
+msgstr "वेब बर्ताव"
+
+#: categories/settings-workspace-desktopbehavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Web Behavior"
+msgctxt "Name"
+msgid "Desktop Behavior"
+msgstr "वेब बर्ताव"
+
+#: categories/settings-workspace-shortcuts.desktop:9
+msgctxt "Name"
+msgid "Shortcuts"
+msgstr ""
 
 #: categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -286,3 +413,10 @@ msgstr "चिह्न दृश्य"
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr "KDE 4 प्रतीक दृश्य शैली"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Application Launcher"
+#~ msgctxt "Name"
+#~ msgid "Common Appearance and Behavior"
+#~ msgstr "अनुप्रयोग चालक"
