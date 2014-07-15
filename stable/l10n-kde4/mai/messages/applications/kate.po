@@ -1,0 +1,1823 @@
+# translation of kate.po to Maithili
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-03-03 01:29+0000\n"
+"PO-Revision-Date: 2010-09-24 20:22+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
+"Language: mai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
+
+#: app/kateapp.cpp:222 app/kateapp.cpp:350
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "फाइल '%1' खोललक नहि जाए सकत: ई सामान्य फाइल नहि अछि. ई एकटा फोल्डर अछि."
+
+#: app/kateappcommands.cpp:91
+msgid "All documents written to disk"
+msgstr ""
+
+#: app/kateappcommands.cpp:94
+msgid "Document written to disk"
+msgstr ""
+
+#: app/kateappcommands.cpp:201
+msgid ""
+"<p><b>w/wa &mdash; write document(s) to disk</b></p><p>Usage: <tt><b>w[a]</"
+"b></tt></p><p>Writes the current document(s) to disk. It can be called in "
+"two ways:<br /> <tt>w</tt> &mdash; writes the current document to disk<br /> "
+"<tt>wa</tt> &mdash; writes all documents to disk.</p><p>If no file name is "
+"associated with the document, a file dialog will be shown.</p>"
+msgstr ""
+
+#: app/kateappcommands.cpp:212
+msgid ""
+"<p><b>q/qa/wq/wqa &mdash; [write and] quit</b></p><p>Usage: <tt><b>[w]q[a]</"
+"b></tt></p><p>Quits the application. If <tt>w</tt> is prepended, it also "
+"writes the document(s) to disk. This command can be called in several ways:"
+"<br /> <tt>q</tt> &mdash; closes the current view.<br /> <tt>qa</tt> &mdash; "
+"closes all views, effectively quitting the application.<br /> <tt>wq</tt> "
+"&mdash; writes the current document to disk and closes its view.<br /> "
+"<tt>wqa</tt> &mdash; writes all documents to disk and quits.</p><p>In all "
+"cases, if the view being closed is the last view, the application quits. If "
+"no file name is associated with the document and it should be written to "
+"disk, a file dialog will be shown.</p>"
+msgstr ""
+
+#: app/kateappcommands.cpp:227
+msgid ""
+"<p><b>x/xa &mdash; write and quit</b></p><p>Usage: <tt><b>x[a]</b></tt></"
+"p><p>Saves document(s) and quits (e<b>x</b>its). This command can be called "
+"in two ways:<br /> <tt>x</tt> &mdash; closes the current view.<br /> <tt>xa</"
+"tt> &mdash; closes all views, effectively quitting the application.</p><p>In "
+"all cases, if the view being closed is the last view, the application quits. "
+"If no file name is associated with the document and it should be written to "
+"disk, a file dialog will be shown.</p><p>Unlike the 'w' commands, this "
+"command only writes the document if it is modified.</p>"
+msgstr ""
+
+#: app/kateappcommands.cpp:241
+msgid ""
+"<p><b>sp,split&mdash; Split horizontally the current view into two</b></"
+"p><p>Usage: <tt><b>sp[lit]</b></tt></p><p>The result is two views on the "
+"same document.</p>"
+msgstr ""
+
+#: app/kateappcommands.cpp:247
+msgid ""
+"<p><b>vs,vsplit&mdash; Split vertically the current view into two</b></"
+"p><p>Usage: <tt><b>vs[plit]</b></tt></p><p>The result is two views on the "
+"same document.</p>"
+msgstr ""
+
+#: app/kateappcommands.cpp:253
+msgid ""
+"<p><b>[v]new &mdash; split view and create new document</b></p><p>Usage: "
+"<tt><b>[v]new</b></tt></p><p>Splits the current view and opens a new "
+"document in the new view. This command can be called in two ways:<br /> "
+"<tt>new</tt> &mdash; splits the view horizontally and opens a new document."
+"<br /> <tt>vnew</tt> &mdash; splits the view vertically and opens a new "
+"document.<br /></p>"
+msgstr ""
+
+#: app/kateappcommands.cpp:263
+msgid ""
+"<p><b>e[dit] &mdash; reload current document</b></p><p>Usage: <tt><b>e[dit]</"
+"b></tt></p><p>Starts <b>e</b>diting the current document again. This is "
+"useful to re-edit the current file, when it has been changed by another "
+"program.</p>"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:59
+msgid "Configure"
+msgstr "बिन्यस्त करू"
+
+#: app/kateconfigdialog.cpp:70
+msgid "Application"
+msgstr "अनुप्रयोग"
+
+#: app/kateconfigdialog.cpp:72
+msgid "Application Options"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:77
+msgid "General"
+msgstr "सामान्य"
+
+#: app/kateconfigdialog.cpp:78
+msgid "General Options"
+msgstr "सामान्य विकल्प"
+
+#: app/kateconfigdialog.cpp:86
+msgid "&Behavior"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:92
+msgid "Wa&rn about files modified by foreign processes"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:95
+msgid ""
+"If enabled, when Kate receives focus you will be asked what to do with files "
+"that have been modified on the hard disk. If not enabled, you will be asked "
+"what to do with a file that has been modified on the hard disk only when "
+"that file is tried to be saved."
+msgstr ""
+
+#: app/kateconfigdialog.cpp:106
+msgid "Meta-Information"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:112
+msgid "Keep &meta-information past sessions"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:115
+msgid ""
+"Check this if you want document configuration like for example bookmarks to "
+"be saved past editor sessions. The configuration will be restored if the "
+"document has not changed when reopened."
+msgstr ""
+
+#: app/kateconfigdialog.cpp:125
+msgid "&Delete unused meta-information after:"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:128
+msgid "(never)"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:143
+msgid "Sessions"
+msgstr "सत्र"
+
+#: app/kateconfigdialog.cpp:144
+msgid "Session Management"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:151
+msgid "Elements of Sessions"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:157
+msgid "Include &window configuration"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:159
+msgid ""
+"Check this if you want all your views and frames restored each time you open "
+"Kate"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:165
+msgid "Behavior on Application Startup"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:169
+msgid "&Start new session"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:170
+msgid "&Load last-used session"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:171
+msgid "&Manually choose a session"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:199
+msgid "Plugins"
+msgstr "प्लगिन"
+
+#: app/kateconfigdialog.cpp:200
+msgid "Plugin Manager"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:213
+msgid "Editor Component"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:215
+msgid "Editor Component Options"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:378
+msgctxt "The suffix of 'Delete unused meta-information after'"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " दिन"
+msgstr[1] " दिन"
+
+#: app/kateconfigplugindialogpage.cpp:71
+msgid "Name"
+msgstr "नाम"
+
+#: app/kateconfigplugindialogpage.cpp:71
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: app/kateconfigplugindialogpage.cpp:73
+msgid ""
+"Here you can see all available Kate plugins. Those with a check mark are "
+"loaded, and will be loaded again the next time Kate is started."
+msgstr ""
+
+#: app/katedocmanager.cpp:67
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+
+#: app/katedocmanager.cpp:326
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:328
+msgid "Delete File?"
+msgstr ""
+
+#: app/katedocmanager.cpp:469
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+
+#: app/katedocmanager.cpp:471
+msgid "Close Document"
+msgstr "दस्तावेज बन्न करू"
+
+#: app/katedocmanager.cpp:478
+msgid "Save As"
+msgstr "एहिना सहेजू"
+
+#: app/katedocmanager.cpp:504 app/katemainwindow.cpp:461
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#: app/katedocmanager.cpp:505 app/katemainwindow.cpp:462
+msgid "Closing Aborted"
+msgstr ""
+
+#: app/katedocmanager.cpp:586
+msgid "Starting Up"
+msgstr ""
+
+#: app/katedocmanager.cpp:587
+msgid "Reopening files from the last session..."
+msgstr ""
+
+#: app/katedocmanager.cpp:773
+msgid "Errors/Warnings while opening documents"
+msgstr ""
+
+#: app/katemain.cpp:81
+msgid "Kate"
+msgstr ""
+
+#: app/katemain.cpp:82
+msgid "Kate - Advanced Text Editor"
+msgstr ""
+
+#: app/katemain.cpp:83
+#, fuzzy
+#| msgid "(c) 2000-2005 The Kate Authors"
+msgid "(c) 2000-2013 The Kate Authors"
+msgstr "(c) 2000-2005 केएटीई केर लेखकगण"
+
+#: app/katemain.cpp:85
+msgid "Christoph Cullmann"
+msgstr "क्रिस्टोफ कलमान"
+
+#: app/katemain.cpp:85
+msgid "Maintainer"
+msgstr "अनुरक्षक"
+
+#: app/katemain.cpp:86
+msgid "Anders Lund"
+msgstr "आन्देर्स लुंद"
+
+#: app/katemain.cpp:86 app/katemain.cpp:87 app/katemain.cpp:88
+#: app/katemain.cpp:95
+msgid "Core Developer"
+msgstr "कोर डेवलपर"
+
+#: app/katemain.cpp:87
+msgid "Joseph Wenninger"
+msgstr "जोसफ वेननिंगर"
+
+#: app/katemain.cpp:88
+msgid "Hamish Rodda"
+msgstr "हामिश रोदा"
+
+#: app/katemain.cpp:89
+msgid "Dominik Haumann"
+msgstr "डोमिनिक हाउमेन"
+
+#: app/katemain.cpp:89
+msgid "Developer & Highlight wizard"
+msgstr "डेवलपर आओर हाइलाइट विजार्ड"
+
+#: app/katemain.cpp:90
+#, fuzzy
+#| msgid "Anders Lund"
+msgid "Alexander Neundorf"
+msgstr "आन्देर्स लुंद"
+
+#: app/katemain.cpp:90
+#, fuzzy
+#| msgid "Core Developer"
+msgid "Developer"
+msgstr "कोर डेवलपर"
+
+#: app/katemain.cpp:91
+msgid "Waldo Bastian"
+msgstr "वाल्दो बास्तियान"
+
+#: app/katemain.cpp:91
+msgid "The cool buffersystem"
+msgstr "द कूल बफर सिस्टम"
+
+#: app/katemain.cpp:92
+msgid "Charles Samuels"
+msgstr "चार्ल्स सेमुएल्स"
+
+#: app/katemain.cpp:92
+msgid "The Editing Commands"
+msgstr "संपादन कमांड्स"
+
+#: app/katemain.cpp:93
+msgid "Matt Newell"
+msgstr "मैट न्यूवेल"
+
+#: app/katemain.cpp:93
+msgid "Testing, ..."
+msgstr "जाँचल जाए रहल अछि..."
+
+#: app/katemain.cpp:94
+msgid "Michael Bartl"
+msgstr "माइकल बार्तेल"
+
+#: app/katemain.cpp:94
+msgid "Former Core Developer"
+msgstr "पूर्व कोर डेवलपर"
+
+#: app/katemain.cpp:95
+msgid "Michael McCallum"
+msgstr "माइकल मॅककालम"
+
+#: app/katemain.cpp:96
+msgid "Jochen Wilhemly"
+msgstr "जोहेन विल्हेमी"
+
+#: app/katemain.cpp:96
+msgid "KWrite Author"
+msgstr "के-राइट लेखक"
+
+#: app/katemain.cpp:97
+msgid "Michael Koch"
+msgstr "माइकल कोच"
+
+#: app/katemain.cpp:97
+msgid "KWrite port to KParts"
+msgstr "के-राइट पोर्ट टू के-पार्ट्स"
+
+#: app/katemain.cpp:98
+msgid "Christian Gebauer"
+msgstr "क्रिश्चियन गेबे"
+
+#: app/katemain.cpp:99
+msgid "Simon Hausmann"
+msgstr "साइमन हाउसमेन"
+
+#: app/katemain.cpp:100
+msgid "Glen Parker"
+msgstr "ग्लेन पार्कर"
+
+#: app/katemain.cpp:100
+msgid "KWrite Undo History, Kspell integration"
+msgstr "के-राइट अनडू इतिहास, के-स्पेल इंटीग्रेशन"
+
+#: app/katemain.cpp:101
+msgid "Scott Manson"
+msgstr "स्काट मैंसन"
+
+#: app/katemain.cpp:101
+msgid "KWrite XML Syntax highlighting support"
+msgstr "के-राइट एक्सएमएल सिंटेक्स हाइलाइटिंग आधार"
+
+#: app/katemain.cpp:102
+msgid "John Firebaugh"
+msgstr "जान फायरबाग"
+
+#: app/katemain.cpp:102
+msgid "Patches and more"
+msgstr "पैचसभ आओर बहुत कुछ"
+
+#: app/katemain.cpp:103
+msgid "Pablo Martín"
+msgstr ""
+
+#: app/katemain.cpp:103
+#, fuzzy
+#| msgid "Plugins"
+msgid "Python Plugin Developer"
+msgstr "प्लगिन"
+
+#: app/katemain.cpp:104
+msgid "Gerald Senarclens de Grancy"
+msgstr ""
+
+#: app/katemain.cpp:104
+msgid "QA and Scripting"
+msgstr ""
+
+#: app/katemain.cpp:106
+msgid "Matteo Merli"
+msgstr "मेतियो मेरली"
+
+#: app/katemain.cpp:106
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr "आरपीएम स्पेक फाइल, पर्ल, डिफ आओर मोर क' लेल आलोकित करू"
+
+#: app/katemain.cpp:107
+msgid "Rocky Scaletta"
+msgstr "राकी स्कालेता"
+
+#: app/katemain.cpp:107
+msgid "Highlighting for VHDL"
+msgstr "वीएचडीएल क' लेल आलोकित करू"
+
+#: app/katemain.cpp:108
+msgid "Yury Lebedev"
+msgstr "यूरी लेबेदेव"
+
+#: app/katemain.cpp:108
+msgid "Highlighting for SQL"
+msgstr "एसक्यूएल क' लेल आलोकित करू"
+
+#: app/katemain.cpp:109
+msgid "Chris Ross"
+msgstr "क्रिस रास"
+
+#: app/katemain.cpp:109
+msgid "Highlighting for Ferite"
+msgstr "फेराइट क' लेल आलोकित करू"
+
+#: app/katemain.cpp:110
+msgid "Nick Roux"
+msgstr "निक राक्स"
+
+#: app/katemain.cpp:110
+msgid "Highlighting for ILERPG"
+msgstr "ILERPG क' लेल आलोकित करू"
+
+#: app/katemain.cpp:111
+msgid "Carsten Niehaus"
+msgstr "कार्सटन निहाउस"
+
+#: app/katemain.cpp:111
+msgid "Highlighting for LaTeX"
+msgstr "लेटेक्स क' लेल आलोकित करू"
+
+#: app/katemain.cpp:112
+msgid "Per Wigren"
+msgstr "पर विग्रेन"
+
+#: app/katemain.cpp:112
+msgid "Highlighting for Makefiles, Python"
+msgstr "मेकफाइल्स, पायथन क' लेल आलोकित करू"
+
+#: app/katemain.cpp:113
+msgid "Jan Fritz"
+msgstr "जान फ्रित्ज"
+
+#: app/katemain.cpp:113
+msgid "Highlighting for Python"
+msgstr "पायथन क' लेल आलोकित करू"
+
+#: app/katemain.cpp:114
+msgid "Daniel Naber"
+msgstr "डेनियल नेबर"
+
+#: app/katemain.cpp:115
+msgid "Roland Pabel"
+msgstr "रोलेण्ड पेबेल"
+
+#: app/katemain.cpp:115
+msgid "Highlighting for Scheme"
+msgstr "योजना क' लेल आलोकित करू"
+
+#: app/katemain.cpp:116
+msgid "Cristi Dumitrescu"
+msgstr "क्रिस्टी दुमित्रेस्कू"
+
+#: app/katemain.cpp:116
+msgid "PHP Keyword/Datatype list"
+msgstr "PHP कीवर्ड/डाटाटाइप सूची"
+
+#: app/katemain.cpp:117
+msgid "Carsten Pfeiffer"
+msgstr "कार्स्टेन फेइफर"
+
+#: app/katemain.cpp:117
+msgid "Very nice help"
+msgstr "बहुत नीक मद्दति"
+
+#: app/katemain.cpp:118
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "सभटा लोकनि जे सहयोग कएलक आओर हम उल्लेख कएनाइ भूल गेलए"
+
+#: app/katemain.cpp:125
+msgid "Start Kate with a given session"
+msgstr ""
+
+#: app/katemain.cpp:126
+msgid "Start Kate with a new anonymous session, implies '-n'"
+msgstr ""
+
+#: app/katemain.cpp:128
+msgid ""
+"Force start of a new kate instance (is ignored if start is used and another "
+"kate instance already has the given session opened), forced if no parameters "
+"and no URLs are given at all"
+msgstr ""
+
+#: app/katemain.cpp:130
+msgid ""
+"If using an already running kate instance, block until it exits, if URLs "
+"given to open"
+msgstr ""
+
+#: app/katemain.cpp:132
+msgid ""
+"Only try to reuse kate instance with this pid (is ignored if start is used "
+"and another kate instance already has the given session opened)"
+msgstr ""
+
+#: app/katemain.cpp:134
+msgid "Set encoding for the file to open"
+msgstr "फाइल खोलबा क' लेल एनकोडिंग नियत करू"
+
+#: app/katemain.cpp:136
+msgid "Navigate to this line"
+msgstr "ई पंक्ति पर नेविगेट करू"
+
+#: app/katemain.cpp:138
+msgid "Navigate to this column"
+msgstr "ई स्तम्भ पर नेविगेट करू"
+
+#: app/katemain.cpp:140
+msgid "Read the contents of stdin"
+msgstr "stdin केर विषयवस्तु केँ पढू."
+
+#: app/katemain.cpp:142
+msgid "Reuse existing Kate instance; default, only for compatibility"
+msgstr ""
+
+#: app/katemain.cpp:143
+msgid "Document to open"
+msgstr "दस्ताबेज जकरा खोलनाइ अछि"
+
+#: app/katemainwindow.cpp:230
+msgid "Use this command to show or hide the view's statusbar"
+msgstr "ई कमांड क' उपयोग दृश्य क' स्थिति पट्टी केँ देखाबै अथवा छुपाने क' लेल करू"
+
+#: app/katemainwindow.cpp:233
+#, fuzzy
+#| msgid "Sho&w Path"
+msgid "Sho&w Path in Titlebar"
+msgstr "पथ देखाबू (&w)"
+
+#: app/katemainwindow.cpp:236
+msgid "Show the complete document path in the window caption"
+msgstr "विंडो शीर्षक मे दस्ताबेज क' पूर्ण पथ देखाबू"
+
+#: app/katemainwindow.cpp:270
+msgid "Create a new document"
+msgstr "एकटा नवीन दस्ताबेज़ बनाबू "
+
+#: app/katemainwindow.cpp:272
+msgid "Open an existing document for editing"
+msgstr ""
+
+#: app/katemainwindow.cpp:276
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr ""
+"अहाँ जे हालक फाइलसभ खोलनै छी ओकर सूची बतबैत अछि. आओर अहाँक एकरा आसानी सँ फिनु सँ "
+"खोलबा देत छी"
+
+#: app/katemainwindow.cpp:280
+msgid "Save A&ll"
+msgstr ""
+
+#: app/katemainwindow.cpp:283
+msgid "Save all open, modified documents to disk."
+msgstr ""
+
+#: app/katemainwindow.cpp:286
+msgid "&Reload All"
+msgstr ""
+
+#: app/katemainwindow.cpp:288
+msgid "Reload all open documents."
+msgstr ""
+
+#: app/katemainwindow.cpp:291
+msgid "Close Orphaned"
+msgstr ""
+
+#: app/katemainwindow.cpp:293
+msgid ""
+"Close all documents in the file list that could not be reopened, because "
+"they are not accessible anymore."
+msgstr ""
+
+#: app/katemainwindow.cpp:296 filetree/katefiletree.cpp:58
+msgid "Close the current document."
+msgstr "मोजुदा विंडो बन्न करू"
+
+#: app/katemainwindow.cpp:299
+msgid "Close Other"
+msgstr ""
+
+#: app/katemainwindow.cpp:301
+msgid "Close other open documents."
+msgstr ""
+
+#: app/katemainwindow.cpp:304
+msgid "Clos&e All"
+msgstr ""
+
+#: app/katemainwindow.cpp:306
+msgid "Close all open documents."
+msgstr ""
+
+#: app/katemainwindow.cpp:311
+msgid "Close this window"
+msgstr "एहि विंडोकेँ बन्न करू"
+
+#: app/katemainwindow.cpp:315
+msgid "&New Window"
+msgstr "नवीन विंडो (&N)"
+
+#: app/katemainwindow.cpp:317
+msgid "Create a new Kate view (a new window with the same document list)."
+msgstr ""
+
+#: app/katemainwindow.cpp:321
+#, fuzzy
+#| msgid "&Open"
+msgid "&Quick Open"
+msgstr "खोलू (&O)"
+
+#: app/katemainwindow.cpp:327
+msgid "Open a form to quick open documents."
+msgstr ""
+
+#: app/katemainwindow.cpp:333
+msgid "Open W&ith"
+msgstr ""
+
+#: app/katemainwindow.cpp:335
+msgid ""
+"Open the current document using another application registered for its file "
+"type, or an application of your choice."
+msgstr ""
+
+#: app/katemainwindow.cpp:340
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "अनुप्रयोग केर कुंजीपट शार्टकट एसाइनमेंट बिन्यस्त करू"
+
+#: app/katemainwindow.cpp:343
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "बिन्यस्त करू जे कओन सी वस्तु अओजार पट्टियों मे प्रकट हाएत"
+
+#: app/katemainwindow.cpp:346
+msgid ""
+"Configure various aspects of this application and the editing component."
+msgstr ""
+
+#: app/katemainwindow.cpp:350
+msgid "This shows useful tips on the use of this application."
+msgstr ""
+
+#: app/katemainwindow.cpp:355
+msgid "&Plugins Handbook"
+msgstr ""
+
+#: app/katemainwindow.cpp:357
+msgid "This shows help files for various available plugins."
+msgstr ""
+
+#: app/katemainwindow.cpp:361
+msgid "&About Editor Component"
+msgstr "संपादक अवयव केर संबंध मे (&A)"
+
+#: app/katemainwindow.cpp:376
+msgctxt "Menu entry Session->New"
+msgid "&New"
+msgstr "नवीन (&N)"
+
+#: app/katemainwindow.cpp:381
+msgid "&Open Session"
+msgstr ""
+
+#: app/katemainwindow.cpp:386
+msgid "&Save Session"
+msgstr ""
+
+#: app/katemainwindow.cpp:390
+msgid "Save Session &As..."
+msgstr ""
+
+#: app/katemainwindow.cpp:394
+msgid "&Manage Sessions..."
+msgstr ""
+
+#: app/katemainwindow.cpp:399
+msgid "&Quick Open Session"
+msgstr ""
+
+#: app/katemainwindow.cpp:406
+msgid "This will close all open documents. Are you sure you want to continue?"
+msgstr ""
+
+#: app/katemainwindow.cpp:407
+msgid "Close all documents"
+msgstr ""
+
+#: app/katemainwindow.cpp:577
+#, kde-format
+msgid ""
+"This will hide the menu bar completely. You can show it again by typing %1."
+msgstr ""
+
+#: app/katemainwindow.cpp:579
+msgid "Hide menu bar"
+msgstr ""
+
+#: app/katemainwindow.cpp:800 filetree/katefiletree.cpp:244
+msgid "&Other..."
+msgstr "दोसर (&O)..."
+
+#: app/katemainwindow.cpp:826 filetree/katefiletree.cpp:275
+#, kde-format
+msgid "Application '%1' not found."
+msgstr ""
+
+#: app/katemainwindow.cpp:826 filetree/katefiletree.cpp:275
+msgid "Application not found"
+msgstr "अनुप्रयोग नहि भेटल"
+
+#: app/katemainwindow.cpp:921
+msgid " [read only]"
+msgstr ""
+
+#: app/katemdi.cpp:122
+msgid "Tool &Views"
+msgstr ""
+
+#: app/katemdi.cpp:124
+msgid "Show Side&bars"
+msgstr ""
+
+#: app/katemdi.cpp:163
+#, kde-format
+msgid "Show %1"
+msgstr "%1 देखाबू"
+
+#: app/katemdi.cpp:493
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure ..."
+msgstr "बिन्यस्त करू"
+
+#: app/katemdi.cpp:497
+msgid "Behavior"
+msgstr "व्यवहार"
+
+#: app/katemdi.cpp:500
+msgid "Make Non-Persistent"
+msgstr ""
+
+#: app/katemdi.cpp:500
+msgid "Make Persistent"
+msgstr ""
+
+#: app/katemdi.cpp:502
+msgid "Move To"
+msgstr "एकरामे घसकाबू"
+
+#: app/katemdi.cpp:505
+msgid "Left Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:508
+msgid "Right Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:511
+msgid "Top Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:514
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: app/katemdi.cpp:838
+msgid ""
+"<qt>You are about to hide the sidebars. With hidden sidebars it is not "
+"possible to directly access the tool views with the mouse anymore, so if you "
+"need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show "
+"Sidebars</b> in the menu. It is still possible to show/hide the tool views "
+"with the assigned shortcuts.</qt>"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:65
+msgid "Documents Modified on Disk"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:67
+#, fuzzy
+#| msgid "&Ignore"
+msgid "&Ignore Changes"
+msgstr "अनदेखा करू (&I)"
+
+#: app/katemwmodonhddialog.cpp:69
+msgid "&Reload"
+msgstr "फिनु लोड करू (&R)"
+
+#: app/katemwmodonhddialog.cpp:76
+msgid "Remove modified flag from selected documents"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:78
+msgid "Overwrite selected documents, discarding disk changes"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:80
+msgid "Reload selected documents from disk"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:93
+msgid ""
+"<qt>The documents listed below have changed on disk.<p>Select one or more at "
+"once, and press an action button until the list is empty.</p></qt>"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:100
+msgid "Filename"
+msgstr "फाइलनाम"
+
+#: app/katemwmodonhddialog.cpp:100
+msgid "Status on Disk"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:106
+msgid "Modified"
+msgstr "सुधार कएल"
+
+#: app/katemwmodonhddialog.cpp:106
+msgid "Created"
+msgstr "उत्पन्न कएल"
+
+#: app/katemwmodonhddialog.cpp:106
+msgid "Deleted"
+msgstr "मेटाएल"
+
+#: app/katemwmodonhddialog.cpp:121
+msgid "&View Difference"
+msgstr "भिन्नता देखू (&V)"
+
+#: app/katemwmodonhddialog.cpp:124
+msgid ""
+"Calculates the difference between the editor contents and the disk file for "
+"the selected document, and shows the difference with the default "
+"application. Requires diff(1)."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:184
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:284
+msgid ""
+"The diff command failed. Please make sure that diff(1) is installed and in "
+"your PATH."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:286
+msgid "Error Creating Diff"
+msgstr "डिफ बनाबै मे त्रुटि"
+
+#: app/katemwmodonhddialog.cpp:295
+msgid "Ignoring amount of white space changed, the files are identical."
+msgstr ""
+
+#: app/katemwmodonhddialog.cpp:296
+msgid "Diff Output"
+msgstr "डिफ आउटपुट"
+
+#: app/katequickopen.cpp:63
+msgid "Quick Open Search"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:91
+#, kde-format
+msgid "Save As (%1)"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:103
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:105
+msgid "Overwrite File?"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:181
+msgid "Save Documents"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:198
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:201 filetree/katefiletreeplugin.cpp:105
+#: filetree/katefiletreeplugin.cpp:179
+msgid "Documents"
+msgstr "दस्तावेज"
+
+#: app/katesavemodifieddialog.cpp:201
+msgid "Location"
+msgstr "स्थान"
+
+#: app/katesavemodifieddialog.cpp:210
+msgid "Se&lect All"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:262
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+
+#: app/katesession.cpp:270
+msgid ""
+"Internal error: there is more than one instance open for a given session."
+msgstr ""
+
+#: app/katesession.cpp:276
+#, kde-format
+msgid ""
+"Session '%1' is already opened in another kate instance, change there "
+"instead of reopening?"
+msgstr ""
+
+#: app/katesession.cpp:482
+msgid "No session selected to open."
+msgstr ""
+
+#: app/katesession.cpp:482 app/katesession.cpp:507
+msgid "No Session Selected"
+msgstr ""
+
+#: app/katesession.cpp:507
+msgid "No session selected to copy."
+msgstr ""
+
+#: app/katesession.cpp:593
+msgid "Specify New Name for Current Session"
+msgstr ""
+
+#: app/katesession.cpp:594
+msgid ""
+"There is already an existing session with your chosen name.\n"
+"Please choose a different one\n"
+"Session name:"
+msgstr ""
+
+#: app/katesession.cpp:594 app/katesession.cpp:910
+msgid "Session name:"
+msgstr ""
+
+#: app/katesession.cpp:601 app/katesession.cpp:917
+msgid "To save a session, you must specify a name."
+msgstr ""
+
+#: app/katesession.cpp:601 app/katesession.cpp:917
+msgid "Missing Session Name"
+msgstr ""
+
+#: app/katesession.cpp:640
+msgid "Session Chooser"
+msgstr ""
+
+#: app/katesession.cpp:643 app/katesession.cpp:753
+msgid "Open Session"
+msgstr ""
+
+#: app/katesession.cpp:644
+msgid "New Session"
+msgstr ""
+
+#: app/katesession.cpp:655 app/katesession.cpp:774 app/katesession.cpp:851
+msgid "Session Name"
+msgstr "सत्र नाम"
+
+#: app/katesession.cpp:656 app/katesession.cpp:775 app/katesession.cpp:852
+msgctxt "The number of open documents"
+msgid "Open Documents"
+msgstr ""
+
+#: app/katesession.cpp:668
+msgid "Use selected session as template"
+msgstr ""
+
+#: app/katesession.cpp:684
+msgid "&Always use this choice"
+msgstr ""
+
+#: app/katesession.cpp:757 app/katesession.cpp:837
+msgid "&Open"
+msgstr "खोलू (&O)"
+
+#: app/katesession.cpp:833
+msgid "Manage Sessions"
+msgstr "सत्रसभ केँ प्रबंधित करू"
+
+#: app/katesession.cpp:869
+msgid "&Rename..."
+msgstr ""
+
+#: app/katesession.cpp:910
+msgid "Specify New Name for Session"
+msgstr ""
+
+#: app/katesession.cpp:928
+#, kde-format
+msgid ""
+"The session could not be renamed to \"%1\", there already exists another "
+"session with the same name"
+msgstr ""
+
+#: app/katesession.cpp:928
+msgid "Session Renaming"
+msgstr ""
+
+#: app/kateviewmanager.cpp:127
+msgid "Split Ve&rtical"
+msgstr ""
+
+#: app/kateviewmanager.cpp:131
+msgid "Split the currently active view vertically into two views."
+msgstr ""
+
+#: app/kateviewmanager.cpp:135
+msgid "Split &Horizontal"
+msgstr ""
+
+#: app/kateviewmanager.cpp:139
+msgid "Split the currently active view horizontally into two views."
+msgstr ""
+
+#: app/kateviewmanager.cpp:143
+msgid "Cl&ose Current View"
+msgstr ""
+
+#: app/kateviewmanager.cpp:147
+#, fuzzy
+#| msgid "Close the current document."
+msgid "Close the currently active split view"
+msgstr "मोजुदा विंडो बन्न करू"
+
+#: app/kateviewmanager.cpp:151
+msgid "Close Inactive Views"
+msgstr ""
+
+#: app/kateviewmanager.cpp:154
+msgid "Close every view but the active one"
+msgstr ""
+
+#: app/kateviewmanager.cpp:157
+msgid "Next Split View"
+msgstr ""
+
+#: app/kateviewmanager.cpp:161
+msgid "Make the next split view the active one."
+msgstr ""
+
+#: app/kateviewmanager.cpp:164
+msgid "Previous Split View"
+msgstr ""
+
+#: app/kateviewmanager.cpp:168
+msgid "Make the previous split view the active one."
+msgstr ""
+
+#: app/kateviewmanager.cpp:171
+msgid "Move Splitter Right"
+msgstr ""
+
+#: app/kateviewmanager.cpp:174
+msgid "Move the splitter of the current view to the right"
+msgstr ""
+
+#: app/kateviewmanager.cpp:177
+msgid "Move Splitter Left"
+msgstr ""
+
+#: app/kateviewmanager.cpp:180
+msgid "Move the splitter of the current view to the left"
+msgstr ""
+
+#: app/kateviewmanager.cpp:183
+msgid "Move Splitter Up"
+msgstr ""
+
+#: app/kateviewmanager.cpp:186
+msgid "Move the splitter of the current view up"
+msgstr ""
+
+#: app/kateviewmanager.cpp:189
+msgid "Move Splitter Down"
+msgstr ""
+
+#: app/kateviewmanager.cpp:192
+msgid "Move the splitter of the current view down"
+msgstr ""
+
+#: app/kateviewmanager.cpp:197
+msgid "Show Cursor Position"
+msgstr ""
+
+#: app/kateviewmanager.cpp:202
+msgid "Show Characters Count"
+msgstr ""
+
+#: app/kateviewmanager.cpp:207
+msgid "Show Insertion Mode"
+msgstr ""
+
+#: app/kateviewmanager.cpp:212
+msgid "Show Selection Mode"
+msgstr ""
+
+#: app/kateviewmanager.cpp:217
+msgid "Show Encoding"
+msgstr ""
+
+#: app/kateviewmanager.cpp:222
+#, fuzzy
+#| msgid "Close Document"
+msgid "Show Document Name"
+msgstr "दस्तावेज बन्न करू"
+
+#: app/kateviewmanager.cpp:255
+msgid "Open File"
+msgstr "फाइल खोलू"
+
+#: app/kateviewmanager.cpp:274
+#, kde-format
+msgid ""
+"<p>You are attempting to open one or more large files:</p><ul>%1</ul><p>Do "
+"you want to proceed?</p><p><strong>Beware that kate may stop responding for "
+"some time when opening large files.</strong></p>"
+msgstr ""
+
+#: app/kateviewmanager.cpp:276
+#, fuzzy
+#| msgid "Open File"
+msgid "Opening Large File"
+msgstr "फाइल खोलू"
+
+#: app/kateviewspace.cpp:277
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr "पंक्ति: %1 स्तम्भ: %2 "
+
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:401
+#, kde-format
+msgid " Characters: %1 "
+msgstr ""
+
+#: app/kateviewspace.cpp:298 app/kateviewspace.cpp:410
+msgid " LINE "
+msgstr " लाइन"
+
+#: app/kateviewspace.cpp:303
+msgid " INS "
+msgstr "प्रविष्ट "
+
+#: app/kateviewspace.cpp:391
+#, fuzzy, kde-format
+#| msgid " Line: %1 Col: %2 "
+msgid " Line: %1 of %2 Col: %3 "
+msgstr "पंक्ति: %1 स्तम्भ: %2 "
+
+#: app/kateviewspace.cpp:410
+msgid " BLOCK "
+msgstr " ब्लाक"
+
+#. i18n: ectx: Menu (file)
+#: data/kateui.rc:5
+msgid "&File"
+msgstr "फाइल (&F)"
+
+#. i18n: ectx: Menu (edit)
+#: data/kateui.rc:36
+msgid "&Edit"
+msgstr "सँपादित करू (&E)"
+
+#. i18n: ectx: Menu (view)
+#: data/kateui.rc:47 filetree/ui.rc:6
+msgid "&View"
+msgstr "दृश्य (&V)"
+
+#. i18n: ectx: Menu (view-split)
+#: data/kateui.rc:54
+msgid "Split View"
+msgstr "विभाजित दृश्य"
+
+#. i18n: ectx: Menu (tools)
+#: data/kateui.rc:80
+msgid "&Tools"
+msgstr "अओजार (&T)"
+
+#. i18n: ectx: Menu (sessions)
+#: data/kateui.rc:88
+msgid "Sess&ions"
+msgstr ""
+
+#. i18n: ectx: Menu (settings)
+#: data/kateui.rc:99
+msgid "&Settings"
+msgstr "जमावट (&S)"
+
+#. i18n: ectx: Menu (help)
+#: data/kateui.rc:103
+msgid "&Help"
+msgstr "मद्दति (&H)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: data/kateui.rc:108 filetree/ui.rc:14
+msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
+
+#. i18n: ectx: Menu (viewspace_popup_statusbar)
+#: data/kateui.rc:142
+msgid "&Status Bar Items"
+msgstr ""
+
+#: filetree/katefiletree.cpp:56
+msgid "Close"
+msgstr "बन्न करू"
+
+#: filetree/katefiletree.cpp:60
+#, fuzzy
+#| msgid "Filename"
+msgid "Copy Filename"
+msgstr "फाइलनाम"
+
+#: filetree/katefiletree.cpp:62
+msgid "Copy the filename of the file."
+msgstr ""
+
+#: filetree/katefiletree.cpp:66
+msgid "Tree Mode"
+msgstr ""
+
+#: filetree/katefiletree.cpp:67
+msgid "Set view style to Tree Mode"
+msgstr ""
+
+#: filetree/katefiletree.cpp:70
+msgid "List Mode"
+msgstr ""
+
+#: filetree/katefiletree.cpp:71
+msgid "Set view style to List Mode"
+msgstr ""
+
+#: filetree/katefiletree.cpp:76 filetree/katefiletreeconfigpage.cpp:87
+msgid "Document Name"
+msgstr ""
+
+#: filetree/katefiletree.cpp:77
+msgid "Sort by Document Name"
+msgstr ""
+
+#: filetree/katefiletree.cpp:81
+msgid "Document Path"
+msgstr ""
+
+#: filetree/katefiletree.cpp:82
+msgid "Sort by Document Path"
+msgstr ""
+
+#: filetree/katefiletree.cpp:85 filetree/katefiletreeconfigpage.cpp:86
+msgid "Opening Order"
+msgstr ""
+
+#: filetree/katefiletree.cpp:86
+msgid "Sort by Opening Order"
+msgstr ""
+
+#: filetree/katefiletree.cpp:197
+#, fuzzy
+#| msgid "Open File"
+msgid "Open With"
+msgstr "फाइल खोलू"
+
+#: filetree/katefiletree.cpp:202
+msgid "View Mode"
+msgstr "दृश्य मोड"
+
+#: filetree/katefiletree.cpp:206
+msgid "Sort By"
+msgstr "क'द्वारा छाँटू"
+
+#: filetree/katefiletreeconfigpage.cpp:60
+msgid "Background Shading"
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:67
+msgid "&Viewed documents' shade:"
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:73
+msgid "&Modified documents' shade:"
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:81
+msgid "&Sort by:"
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:88
+msgid "Url"
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:94
+msgid "&View Mode:"
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:99
+msgid "Tree View"
+msgstr "तरू दृश्य"
+
+#: filetree/katefiletreeconfigpage.cpp:100
+msgid "List View"
+msgstr "सूची दृश्य"
+
+#: filetree/katefiletreeconfigpage.cpp:105
+#, fuzzy
+#| msgid "Sho&w Path"
+msgid "&Show Full Path"
+msgstr "पथ देखाबू (&w)"
+
+#: filetree/katefiletreeconfigpage.cpp:111
+msgid ""
+"When background shading is enabled, documents that have been viewed or "
+"edited within the current session will have a shaded background. The most "
+"recent documents have the strongest shade."
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:115
+msgid "Set the color for shading viewed documents."
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:117
+msgid ""
+"Set the color for modified documents. This color is blended into the color "
+"for viewed files. The most recently edited documents get most of this color."
+msgstr ""
+
+#: filetree/katefiletreeconfigpage.cpp:122
+msgid ""
+"When enabled, in tree mode, top level folders will show up with their full "
+"path rather than just the last folder name."
+msgstr ""
+
+#: filetree/katefiletreemodel.cpp:509
+#, kde-format
+msgctxt "%1 is the full path"
+msgid ""
+"<p><b>%1</b></p><p>The document has been modified by another application.</p>"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:48
+msgid "Document Tree"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:48
+msgid "Show open documents in a tree"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:113
+#, fuzzy
+#| msgid "Close Document"
+msgid "Configure Documents"
+msgstr "दस्तावेज बन्न करू"
+
+#: filetree/katefiletreeplugin.cpp:230
+msgid "&Show Active"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:237
+#, fuzzy
+#| msgid "Close Document"
+msgid "Previous Document"
+msgstr "दस्तावेज बन्न करू"
+
+#: filetree/katefiletreeplugin.cpp:238
+#, fuzzy
+#| msgid "Close Document"
+msgid "Next Document"
+msgstr "दस्तावेज बन्न करू"
+
+#: filetree/katefiletreeplugin.cpp:506
+msgid ""
+"<p><b>b,buffer &mdash; Edit document N from the document list</b></"
+"p><p>Usage: <tt><b>b[uffer] [N]</b></tt></p>"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:511
+msgid ""
+"<p><b>bp,bprev &mdash; previous buffer</b></p><p>Usage: <tt><b>bp[revious] "
+"[N]</b></tt></p><p>Goes to <b>[N]</b>th previous document (\"<b>b</b>uffer"
+"\") in document list. </p><p> <b>[N]</b> defaults to one. </p><p>Wraps "
+"around the start of the document list.</p>"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:519
+msgid ""
+"<p><b>bn,bnext &mdash; switch to next document</b></p><p>Usage: <tt><b>bn"
+"[ext] [N]</b></tt></p><p>Goes to <b>[N]</b>th next document (\"<b>b</b>uffer"
+"\") in document list.<b>[N]</b> defaults to one. </p><p>Wraps around the end "
+"of the document list.</p>"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:527
+msgid ""
+"<p><b>bf,bfirst &mdash; first document</b></p><p>Usage: <tt><b>bf[irst]</b></"
+"tt></p><p>Goes to the <b>f</b>irst document (\"<b>b</b>uffer\") in document "
+"list.</p>"
+msgstr ""
+
+#: filetree/katefiletreeplugin.cpp:533
+msgid ""
+"<p><b>bl,blast &mdash; last document</b></p><p>Usage: <tt><b>bl[ast]</b></"
+"tt></p><p>Goes to the <b>l</b>ast document (\"<b>b</b>uffer\") in document "
+"list.</p>"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:2
+msgid ""
+"<p>Kate comes with a nice set of plugins, providing simple\n"
+"and advanced features of all sorts.</p>\n"
+"<p>You can enable/disable plugins to suit your needs in the configuration "
+"dialog,\n"
+"choose <strong>Settings -&gt;configure</strong> to launch that.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:10
+msgid ""
+"<p>You can swap the characters on each side of the cursor just by pressing\n"
+"<strong>Ctrl+T</strong></p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:16
+msgid ""
+"<p>You can export the current document as a HTML file, including\n"
+"syntax highlighting.</p>\n"
+"<p>Just choose <strong>File -&gt; Export -&gt; HTML...</strong></p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:23
+msgid ""
+"<p>You can split the Kate editor as many times as you like and\n"
+"in either direction. Each frame has its own status bar and\n"
+"can display any open document.</p>\n"
+"<p>Just choose <br><strong>View -&gt; Split View -&gt; Split [ Horizontal | "
+"Vertical ]</strong></p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:31
+msgid ""
+"<p>You can move the Tool views to any side of the main window through the\n"
+"context menu.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:37
+msgid ""
+"<p>Kate has a built-in terminal emulator, just click on <strong>\"Terminal"
+"\"</strong> at\n"
+"the bottom to show or hide it as you desire.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:43
+msgid ""
+"<p>Kate can highlight the current line with a\n"
+"<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\"><tr><td>different\n"
+"background color.<strong>|</strong></td></tr></table></p>\n"
+"<p>You can set the color in the <em>Colors</em> page of the configuration\n"
+"dialog.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:52
+msgid ""
+"<p>You can open the currently edited file in any other application from "
+"within\n"
+"Kate.</p>\n"
+"<p>Choose <strong>File -&gt; Open With</strong> for the list of programs\n"
+"configured\n"
+"for the document type. There is also an option <strong>Other...</strong> to\n"
+"choose any application on your system.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:62
+msgid ""
+"<p>You can configure the editor to always display the line numbers and/or\n"
+"bookmark panes when started from the <strong>Appearance</strong> page of "
+"the\n"
+"configuration dialog.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:69
+msgid ""
+"<p>You can download new or updated <em>Syntax highlight definitions</em> "
+"from\n"
+"the <strong>Open/Save</strong> page in the configuration dialog.</p>\n"
+"<p>Just click the <em>Download...</em> button on the <em>Open/Save -&gt; "
+"Modes &amp; Filetypes</em>\n"
+"tab (You have to be online, of course...).</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:77
+msgid ""
+"<p>You can cycle through all open documents by pressing <strong>Alt+Left</"
+"strong>\n"
+"or <strong>Alt+Right</strong>. The next/previous document will immediately "
+"be displayed\n"
+"in the active frame.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:84
+msgid ""
+"<p>You can do cool sed-like regular expression replacements using "
+"<em>Command Line</em>.</p>\n"
+"<p>For example, press <strong>F7</strong> and enter <code>s /oldtext/newtext/"
+"g</code>\n"
+"to replace &quot;oldtext&quot; with &quot;newtext&quot; throughout the "
+"current\n"
+"line.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:92
+msgid ""
+"<p>You can repeat your last search by just pressing <strong>F3</strong>, or\n"
+"<strong>Shift+F3</strong> if you want to search backwards.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:98
+msgid ""
+"<p>You can filter the files displayed in the <em>Filesystem Browser</em> "
+"tool view.\n"
+"</p>\n"
+"<p>Simply enter your filter in the filter entry at the bottom, for example:\n"
+"<code>*.html *.php</code> if you only want to see HTML and PHP files in the\n"
+"current folder.</p>\n"
+"<p>The Filesystem Browser will even remember your filters for you.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:108
+msgid ""
+"<p>You can have two views - or even more - of the same document in Kate. "
+"Editing\n"
+"in either will be reflected in both.</p>\n"
+"<p>So if you find yourself scrolling up and down to look at text at the "
+"other\n"
+"end of a document, just press <strong>Ctrl+Shift+T</strong> to split\n"
+"horizontally.</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:117
+msgid ""
+"<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the\n"
+"next/previous frame.</p>\n"
+msgstr ""
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Documentation"
+#~ msgstr "दस्ताबेजीकरण"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Internet"
+#~ msgstr "इंटरनेट"
+
+#, fuzzy
+#~| msgid "Application"
+#~ msgid "Actions"
+#~ msgstr "अनुप्रयोग"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Description:"
+#~ msgstr "स्थान"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Action:"
+#~ msgstr "स्थान"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Configuration Pages"
+#~ msgstr "बिन्यस्त करू"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Title:"
+#~ msgstr "शीर्षक"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Name:"
+#~ msgstr "नाम"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "Reload Plugins"
+#~ msgstr "प्लगिन"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "Python Plugins"
+#~ msgstr "प्लगिन"
+
+#, fuzzy
+#~| msgctxt "@item:inmenu"
+#~| msgid "Documentation"
+#~ msgid "Documentation"
+#~ msgstr "दस्ताबेजीकरण"
+
+#, fuzzy
+#~| msgid "Matteo Merli"
+#~ msgid "Pattern Model"
+#~ msgstr "मेतियो मेरली"
+
+#, fuzzy
+#~| msgid "Filename"
+#~ msgid "Transform Filenames"
+#~ msgstr "फाइलनाम"
+
+#, fuzzy
+#~| msgid "Highlighting for Scheme"
+#~ msgid "Highlight Matches"
+#~ msgstr "योजना क' लेल आलोकित करू"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Settings..."
+#~ msgstr "जमावट"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Continuation Prompt:"
+#~ msgstr "बिन्यस्त करू"
+
+#, fuzzy
+#~| msgid "Highlighting for SQL"
+#~ msgid "Highlighting"
+#~ msgstr "एसक्यूएल क' लेल आलोकित करू"
+
+#, fuzzy
+#~| msgctxt "@item:inmenu"
+#~| msgid "Internet"
+#~ msgid "Integer:"
+#~ msgstr "इंटरनेट"
+
+#, fuzzy
+#~| msgid "&Help"
+#~ msgid "Help:"
+#~ msgstr "मद्दति (&H)"
+
+#, fuzzy
+#~| msgid "Location"
+#~ msgid "Exception:"
+#~ msgstr "स्थान"
+
+#, fuzzy
+#~| msgid "&New Window"
+#~ msgid "New Line"
+#~ msgstr "नवीन विंडो (&N)"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "ConfigWidget"
+#~ msgstr "बिन्यस्त करू"
+
+#, fuzzy
+#~| msgid "&View Difference"
+#~ msgid "Reference"
+#~ msgstr "भिन्नता देखू (&V)"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Full Name:"
+#~ msgstr "नाम"
+
+#, fuzzy
+#~| msgid "&Reload"
+#~ msgid "Reload"
+#~ msgstr "फिनु लोड करू (&R)"
+
+#, fuzzy
+#~| msgid "Create a new document"
+#~ msgid "Cannot go to the document"
+#~ msgstr "एकटा नवीन दस्ताबेज़ बनाबू "
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Configure Tree View"
+#~ msgstr "बिन्यस्त करू"
+
+#~ msgid "Projects"
+#~ msgstr "परियोजना"
+
+#~ msgid "&Debug"
+#~ msgstr "डिबग (&D)"
+
+#~ msgid "Nr"
+#~ msgstr "एनआर"
+
+#~ msgid "Frame"
+#~ msgstr "फ्रेम "
+
+#~ msgid "Call Stack"
+#~ msgstr "कॉल स्टैक "
+
+#~ msgid "Step Over"
+#~ msgstr "एकरा उप्पर जाउ"
+
+#~ msgid "Step Out"
+#~ msgstr "बाहर जाउ"
+
+#~ msgid "Continue"
+#~ msgstr "जारी राखू"
+
+#~ msgid "Debug"
+#~ msgstr "डिबग"
+
+#~ msgid "Breakpoint"
+#~ msgstr "ब्रेकपाइंट"
