@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-23 01:33+0000\n"
+"POT-Creation-Date: 2014-07-24 01:34+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -70,7 +70,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: crashreporter/wdg_crash_reporter.ui:76
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:124
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:174
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:98
 msgid "Email:"
 msgstr ""
@@ -1759,10 +1759,7 @@ msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "चयन बढाउ"
 
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: image/kis_selection_mask.cpp:122
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:194
-#: ui/kis_node_model.cpp:447
+#: image/kis_selection_mask.cpp:122 ui/kis_node_model.cpp:447
 msgid "Active"
 msgstr "सक्रिय"
 
@@ -3208,8 +3205,8 @@ msgid "&Convert"
 msgstr "उनटू"
 
 #: plugins/extensions/dockers/defaultdockers/kis_palette_docker.cc:38
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:122
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:84
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:194
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:103
 msgid "Palettes"
 msgstr "रंगपट्टिका"
 
@@ -3292,8 +3289,8 @@ msgstr ""
 #: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:65
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:69
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:186
-#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:255
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:262
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:269
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:104
 #: ui/forms/wdgdisplaysettings.ui:309 ui/forms/wdgdlgfilelayer.ui:57
 #: ui/forms/wdgimageproperties.ui:113 ui/forms/wdgnewimage.ui:158
@@ -3703,12 +3700,12 @@ msgstr ""
 msgid "Overview"
 msgstr "सारांश"
 
-#: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:116
+#: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:117
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:297
 msgid "Palette"
 msgstr "रंग-पट्टिका"
 
-#: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:160
+#: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:162
 #, fuzzy
 #| msgid "Colorspace"
 msgid "Choose palette"
@@ -3736,15 +3733,15 @@ msgid "Add color"
 msgstr "सादा"
 
 #: plugins/extensions/dockers/patterndocker/patterndocker_dock.cpp:37
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:116
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:83
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:188
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:102
 #: ui/kis_control_frame.cpp:154
 msgid "Patterns"
 msgstr "नमूना"
 
 #: plugins/extensions/dockers/presetdocker/presetdocker_dock.cpp:37
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:128
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:81
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:200
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:100
 #, fuzzy
 #| msgid "Edit Palette"
 msgid "Brush Presets"
@@ -3787,7 +3784,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:208
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
 #: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
 #: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
@@ -4311,7 +4308,7 @@ msgstr "शीर्षक:"
 #. i18n: ectx: property (text), widget (QLabel, description)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: plugins/extensions/metadataeditor/editors/dublincore.ui:99
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:251
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:124
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:136
 #: ui/forms/wdgmetadatamergestrategychooser.ui:49
 msgid "Description:"
@@ -5147,29 +5144,29 @@ msgstr "ऑफसेट"
 msgid "Offset by x/2, y/2"
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:40
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:41
 #, fuzzy
 #| msgid "Source"
 msgid "Manage Resource Bundles"
 msgstr "श्रोत"
 
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:107
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:64
 #, fuzzy
 #| msgid "Source"
 msgid "Resource"
 msgstr "श्रोत"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveGradients)
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:113
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:82
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:185
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:101
 #: ui/forms/wdgdlgblacklistcleanup.ui:73 ui/kis_control_frame.cpp:88
 #: ui/kis_control_frame.cpp:89 ui/kis_control_frame.cpp:191
 msgid "Gradients"
 msgstr "ढाल"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveBrushes)
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:119
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:80
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:99
 #: ui/forms/wdgdlgblacklistcleanup.ui:113
 #, fuzzy
 #| msgid "Brush"
@@ -5177,35 +5174,41 @@ msgid "Brushes"
 msgstr "ब्रश"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
-#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:125
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:85
+#: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:197
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:104
 #: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:258
 #, fuzzy
 #| msgid "Colorspace"
 msgid "Workspaces"
 msgstr "रँग स्पेस"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:52
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:69
+#, fuzzy
+#| msgid "Source"
+msgid "Edit Resource Bundle"
+msgstr "श्रोत"
+
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:82
 #, fuzzy
 #| msgid "Source"
 msgid "Create Resource Bundle"
 msgstr "श्रोत"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:150
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:169
 msgid "The resource bundle name cannot be empty."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:158
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:177
 msgid "A bundle with this name already exists."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:177
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:198
 #, fuzzy
 #| msgid "Select All"
 msgid "Select a directory to save the bundle"
 msgstr "सभ चुनू"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:344
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:365
 #: ui/dialogs/kis_dlg_file_layer.cpp:96
 msgid "Select file to use as dynamic file layer."
 msgstr ""
@@ -5374,41 +5377,41 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, license)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:145
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:138
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:122
 msgid "License:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, website)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:173
-#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:108
-msgid "Website:"
+#. i18n: ectx: property (text), widget (QLabel, author)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:161
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:78
+msgid "Author:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:180
-#, fuzzy
-#| msgid "Create"
-msgid "Created:"
-msgstr "बनाबू"
-
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:187
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:181
 #, fuzzy
 #| msgid "Update"
 msgid "Updated:"
 msgstr "अद्यतन"
 
-#. i18n: ectx: property (text), widget (QLabel, author)
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:222
-#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:78
-msgid "Author:"
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:195
+#, fuzzy
+#| msgid "Create"
+msgid "Created:"
+msgstr "बनाबू"
+
+#. i18n: ectx: property (text), widget (QLabel, website)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:223
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:108
+msgid "Website:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnEditBundle)
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:305
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:294
 msgid "&Edit Bundle"
 msgstr ""
 
@@ -5460,6 +5463,20 @@ msgstr ""
 #| msgid "Text:"
 msgid "Type:"
 msgstr "पाठ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:237
+#, fuzzy
+#| msgid "Edit Palette"
+msgid "Available"
+msgstr "पैलेट संपादित करू"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:303
+#, fuzzy
+#| msgid "Select"
+msgid "Selected"
+msgstr "चुनू"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:47
 msgid "&Rotate Image..."
@@ -15085,11 +15102,6 @@ msgstr "बन्न करू"
 #~| msgid "Filename"
 #~ msgid "Filename"
 #~ msgstr "फाइलनाम"
-
-#, fuzzy
-#~| msgid "Edit Palette"
-#~ msgid "Available"
-#~ msgstr "पैलेट संपादित करू"
 
 #, fuzzy
 #~| msgid "Create"
