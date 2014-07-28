@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-27 01:40+0000\n"
+"POT-Creation-Date: 2014-07-28 01:34+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -9815,7 +9815,7 @@ msgstr "आँशिक"
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, shearXBox)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, shearYBox)
 #: plugins/paintops/sketch/wdgsketchoptions.ui:68
-#: plugins/tools/defaulttools/kis_tool_brush.cc:277
+#: plugins/tools/defaulttools/kis_tool_brush.cc:327
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:592
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:633
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:687
@@ -9904,99 +9904,128 @@ msgstr "गिनती"
 msgid "Gaussian distribution"
 msgstr "गॉसियन धुंधला"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:39
+#: plugins/tools/defaulttools/kis_tool_brush.cc:62
 #, fuzzy
 #| msgid "Brushes"
 msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr "ब्रश"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:250
+#: plugins/tools/defaulttools/kis_tool_brush.cc:69
+#, fuzzy
+#| msgid "Border Selection"
+msgctxt "@action"
+msgid "Brush Smoothing: Disabled"
+msgstr "सीमा चयन"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:70
+#, fuzzy
+#| msgid "Border Selection"
+msgctxt "@action"
+msgid "Brush Smoothing: Basic"
+msgstr "सीमा चयन"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:71
+#, fuzzy
+#| msgctxt "smooth out the painting strokes the filter creates"
+#| msgid "Smooth"
+msgctxt "@action"
+msgid "Brush Smoothing: Weighted"
+msgstr "चिकना"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:72
+#, fuzzy
+#| msgid "Options"
+msgctxt "@action"
+msgid "Brush Smoothing: Stabilizer"
+msgstr "विकल्प"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:300
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "No Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:251
+#: plugins/tools/defaulttools/kis_tool_brush.cc:301
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "Basic Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:252
+#: plugins/tools/defaulttools/kis_tool_brush.cc:302
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "Weighted Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:253
+#: plugins/tools/defaulttools/kis_tool_brush.cc:303
 #, fuzzy
 #| msgid "Scales"
 msgid "Stabilizer"
 msgstr "मापक"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:262
+#: plugins/tools/defaulttools/kis_tool_brush.cc:312
 #, fuzzy
 #| msgid "Width:"
 msgid "Distance:"
 msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:270
+#: plugins/tools/defaulttools/kis_tool_brush.cc:320
 msgid "Delay:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:271
+#: plugins/tools/defaulttools/kis_tool_brush.cc:321
 msgid "Delay the brush stroke to make the line smoother"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:275
+#: plugins/tools/defaulttools/kis_tool_brush.cc:325
 msgid "Radius where the brush is blocked"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:281
+#: plugins/tools/defaulttools/kis_tool_brush.cc:331
 msgid "Finish line:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:292
+#: plugins/tools/defaulttools/kis_tool_brush.cc:342
 #, fuzzy
 #| msgid "Scales"
 msgid "Stabilize Sensors:"
 msgstr "मापक"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:300
+#: plugins/tools/defaulttools/kis_tool_brush.cc:350
 #, fuzzy
 #| msgid "Saturation"
 msgid "Stroke Ending:"
 msgstr "संतृप्ति"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:305
+#: plugins/tools/defaulttools/kis_tool_brush.cc:355
 #, fuzzy
 #| msgid "Pressure"
 msgid "Smooth Pressure"
 msgstr "दबाव"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:310
+#: plugins/tools/defaulttools/kis_tool_brush.cc:360
 #, fuzzy
 #| msgid "Width:"
 msgid "Scalable Distance"
 msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:316
+#: plugins/tools/defaulttools/kis_tool_brush.cc:366
 msgid "Assistant:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:317
+#: plugins/tools/defaulttools/kis_tool_brush.cc:367
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:320
+#: plugins/tools/defaulttools/kis_tool_brush.cc:370
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:128
+#: plugins/tools/defaulttools/kis_tool_brush.h:137
 msgid "Freehand Brush Tool"
 msgstr ""
 
