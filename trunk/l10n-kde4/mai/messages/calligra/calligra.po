@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-05 01:30+0000\n"
+"POT-Creation-Date: 2014-08-06 01:36+0000\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3416,7 +3416,8 @@ msgid ""
 msgstr ""
 
 #: main/KoApplication.cpp:263
-msgid ": Critical Error"
+#, kde-format
+msgid "%1: Critical Error"
 msgstr ""
 
 #: main/KoApplication.cpp:263
@@ -3820,8 +3821,10 @@ msgstr "फिनु सेट करू (&R)"
 
 #. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
 #: main/koDocumentInfoAboutWidget.ui:297
-msgid "                Language:"
-msgstr ""
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Language:"
+msgstr "पृष्ठ जोड़ू"
 
 #: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:344
 msgid "Document Information"
@@ -4245,7 +4248,8 @@ msgstr "बम्माँ (&L):"
 msgid "Right side"
 msgstr "हलुक करू"
 
-#: main/KoOpenPane.cpp:138 main/KoOpenPane.cpp:202
+#. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
+#: main/KoOpenPane.cpp:138 main/KoOpenPane.cpp:202 main/KoOpenPaneBase.ui:60
 #, fuzzy
 #| msgid "Open Document"
 msgid "Open Existing Document"
@@ -4257,11 +4261,6 @@ msgstr "हालक दस्ताबेज"
 
 #: main/KoOpenPane.cpp:314
 msgid "Custom Document"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
-#: main/KoOpenPaneBase.ui:60
-msgid "PushButton"
 msgstr ""
 
 #: main/KoPrintingDialog.cpp:57
@@ -4426,7 +4425,7 @@ msgid "Tool Options"
 msgstr "अओजार विकल्प"
 
 #: main/KoToolDocker_p.cpp:227
-msgid "Toggles organising the options in tabs or not"
+msgid "Toggles organizing the options in tabs or not"
 msgstr ""
 
 #: main/KoVersionDialog.cpp:48
