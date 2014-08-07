@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_solid_actions\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 20:55+0000\n"
+"POT-Creation-Date: 2014-08-07 08:44+0000\n"
 "PO-Revision-Date: 2010-01-29 15:06+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -45,108 +45,6 @@ msgstr ""
 #: ActionEditor.cpp:170
 msgid "Invalid action"
 msgstr "अवैध क्रिया"
-
-#. i18n: ectx: property (toolTip), widget (KIconButton, IbActionIcon)
-#: ActionEditor.ui:37
-msgid "Action icon, click to change it"
-msgstr "क्रिया प्रतीक, एकरा बदलब लेल क्लिक करू"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, LeActionFriendlyName)
-#: ActionEditor.ui:44
-msgid "Action name"
-msgstr "क्रिया नाम"
-
-#. i18n: ectx: property (text), widget (QLabel, TlActionCommand)
-#: ActionEditor.ui:61
-msgid "Command: "
-msgstr "कमांड: "
-
-#. i18n: ectx: property (toolTip), widget (KUrlRequester, LeActionCommand)
-#: ActionEditor.ui:73
-#, no-c-format
-msgid ""
-"Command that will trigger the action\n"
-"This can include any or all of the following case insensitive expands:\n"
-"\n"
-"%f: The mountpoint for the device - Storage Access devices only\n"
-"%d: Path to the device node - Block devices only\n"
-"%i: The identifier of the device"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, TlPredicateTree)
-#: ActionEditor.ui:90
-msgid "Devices must match the following parameters for this action:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, GbParameter)
-#: ActionEditor.ui:102
-msgid "Edit Parameter"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, LblParameterType)
-#: ActionEditor.ui:128
-msgid "Parameter type:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, CbParameterType)
-#: ActionEditor.ui:136
-msgid "Property Match"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, CbParameterType)
-#: ActionEditor.ui:141
-msgid "Content Conjunction"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, CbParameterType)
-#: ActionEditor.ui:146
-msgid "Content Disjunction"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, CbParameterType)
-#: ActionEditor.ui:151
-msgid "Device Interface Match"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, LblDeviceType)
-#: ActionEditor.ui:181
-msgid "Device type:"
-msgstr "युक्ति प्रकार:"
-
-#. i18n: ectx: property (text), widget (QLabel, LblValueName)
-#: ActionEditor.ui:220
-msgid "Value name:"
-msgstr "मान नाम:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, CbValueMatch)
-#: ActionEditor.ui:260
-msgid "Equals"
-msgstr "क' बराबर अछि"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, CbValueMatch)
-#: ActionEditor.ui:265
-msgid "Contains"
-msgstr "समाहित करैछ"
-
-#. i18n: ectx: property (text), widget (QPushButton, PbParameterReset)
-#: ActionEditor.ui:293
-msgid "Reset Parameter"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, PbParameterSave)
-#: ActionEditor.ui:300
-msgid "Save Parameter Changes"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, LblActionName)
-#: AddAction.ui:19
-msgid "Action name:"
-msgstr "क्रिया नाम:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, LeActionName)
-#: AddAction.ui:26
-msgid "Enter the name for your new action"
-msgstr "अपन नव क्रियाक लेल नाम दिअ"
 
 #: DesktopFileGenerator.cpp:36
 msgid "Solid Action Desktop File Generator"
@@ -223,17 +121,38 @@ msgstr "नहि क्रिया चयनित"
 msgid "Cannot be deleted"
 msgstr "मेटाएल नहि सकैछ"
 
-#. i18n: ectx: property (text), widget (KPushButton, PbAddAction)
-#: SolidActions.ui:22
-msgid "Add..."
-msgstr "जोडू..."
+#~ msgid "Action icon, click to change it"
+#~ msgstr "क्रिया प्रतीक, एकरा बदलब लेल क्लिक करू"
 
-#. i18n: ectx: property (text), widget (KPushButton, PbEditAction)
-#: SolidActions.ui:29
-msgid "Edit..."
-msgstr "संपादन..."
+#~ msgid "Action name"
+#~ msgstr "क्रिया नाम"
 
-#. i18n: ectx: property (text), widget (KPushButton, PbDeleteAction)
-#: SolidActions.ui:36
-msgid "Remove"
-msgstr "हटाबू"
+#~ msgid "Command: "
+#~ msgstr "कमांड: "
+
+#~ msgid "Device type:"
+#~ msgstr "युक्ति प्रकार:"
+
+#~ msgid "Value name:"
+#~ msgstr "मान नाम:"
+
+#~ msgid "Equals"
+#~ msgstr "क' बराबर अछि"
+
+#~ msgid "Contains"
+#~ msgstr "समाहित करैछ"
+
+#~ msgid "Action name:"
+#~ msgstr "क्रिया नाम:"
+
+#~ msgid "Enter the name for your new action"
+#~ msgstr "अपन नव क्रियाक लेल नाम दिअ"
+
+#~ msgid "Add..."
+#~ msgstr "जोडू..."
+
+#~ msgid "Edit..."
+#~ msgstr "संपादन..."
+
+#~ msgid "Remove"
+#~ msgstr "हटाबू"
