@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:44+0000\n"
+"POT-Creation-Date: 2014-08-08 09:23+0000\n"
 "PO-Revision-Date: 2010-01-29 16:36+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -32,6 +32,16 @@ msgstr "संगीता कुमारी"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GbViewStyle)
+#: app/configDialog.ui:17
+msgid "View Style"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ChTooltips)
+#: app/configDialog.ui:24
+msgid "Show detailed tooltips"
+msgstr ""
 
 #: app/main.cpp:38 app/SettingsBase.cpp:55 classic/CategoryList.cpp:38
 msgid "System Settings"
@@ -116,6 +126,23 @@ msgstr ""
 msgid "About %1"
 msgstr "%1 केर संबंध में"
 
+#. i18n: ectx: label, entry (ShowToolTips), group (Main)
+#: app/systemsettings.kcfg:9
+msgid "Determines whether detailed tooltips should be used"
+msgstr ""
+
+#. i18n: ectx: label, entry (ActiveView), group (Main)
+#: app/systemsettings.kcfg:13
+msgid "Internal name for the view used"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: app/systemsettingsui.rc:16
+#, fuzzy
+#| msgid "System Settings"
+msgid "About System Settings"
+msgstr "तंत्र विन्यास"
+
 #: app/ToolTips/tooltipmanager.cpp:227
 #, kde-format
 msgid "<i>Contains 1 item</i>"
@@ -147,6 +174,11 @@ msgstr ""
 msgid "Author"
 msgstr "लेखक"
 
+#. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
+#: classic/configClassic.ui:17
+msgid "Expand the first level automatically"
+msgstr ""
+
 #: core/ExternalAppModule.cpp:34
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
@@ -156,6 +188,11 @@ msgstr ""
 #, kde-format
 msgid "Relaunch %1"
 msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: core/externalModule.ui:14
+msgid "Dialog"
+msgstr "समाद"
 
 #: core/ModuleView.cpp:85
 msgid "Reset all current changes to previous values"
@@ -195,11 +232,3 @@ msgstr "सारांश"
 #, kde-format
 msgid "Keyboard Shortcut: %1"
 msgstr ""
-
-#, fuzzy
-#~| msgid "System Settings"
-#~ msgid "About System Settings"
-#~ msgstr "तंत्र विन्यास"
-
-#~ msgid "Dialog"
-#~ msgstr "समाद"
