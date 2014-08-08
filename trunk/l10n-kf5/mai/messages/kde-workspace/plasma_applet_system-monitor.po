@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_system-monitor\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:57+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2010-01-29 16:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -29,6 +29,17 @@ msgstr ""
 msgid "No data sources being displayed"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cpu-config.ui:23
+msgid "&CPUs:"
+msgstr "&CPUs:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cpu-config.ui:48 hdd-config.ui:48 hdd_activity-config.ui:48
+#: net-config.ui:48 ram-config.ui:48 temperature-config.ui:45
+msgid "Update &interval:"
+msgstr "अद्यतन अंतराल (&i):"
+
 #: cpu.cpp:47 cpu.cpp:131 hwinfo.cpp:139
 msgid "CPU"
 msgstr "CPU"
@@ -48,6 +59,11 @@ msgstr "s"
 #: cpu.cpp:150
 msgid "CPUs"
 msgstr "CPUs"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: hdd-config.ui:23 hdd_activity-config.ui:23
+msgid "Hard &disks:"
+msgstr "हार्ड डिस्क (&d):"
 
 #: hdd.cpp:49
 msgid "Disk Space"
@@ -124,6 +140,11 @@ msgstr "आडियो"
 msgid "Network"
 msgstr "नेटवर्क"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: net-config.ui:23
+msgid "&Network interfaces:"
+msgstr "सजाल अंतरफलक (&N):"
+
 #: net.cpp:150
 msgid "Network Interface"
 msgstr "सँजाल अंतरफलक"
@@ -131,6 +152,11 @@ msgstr "सँजाल अंतरफलक"
 #: net.cpp:168
 msgid "Interfaces"
 msgstr "इंटरफेससभ"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ram-config.ui:23
+msgid "&Memory:"
+msgstr "स्मृति (&M):"
 
 #: ram.cpp:48 ram.cpp:206 ram.cpp:240
 msgid "RAM"
@@ -146,6 +172,11 @@ msgctxt "noun, hardware, swap file/partition"
 msgid "swap"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: temperature-config.ui:20
+msgid "&Available temperatures:"
+msgstr "उपलब्ध तापमान (&A):"
+
 #: temperature.cpp:57 temperature.cpp:121
 msgid "Temperature"
 msgstr "तापक्रम"
@@ -157,21 +188,3 @@ msgstr "सेंसर"
 #: temperature.cpp:97
 msgid "Offset"
 msgstr ""
-
-#~ msgid "&CPUs:"
-#~ msgstr "&CPUs:"
-
-#~ msgid "Update &interval:"
-#~ msgstr "अद्यतन अंतराल (&i):"
-
-#~ msgid "Hard &disks:"
-#~ msgstr "हार्ड डिस्क (&d):"
-
-#~ msgid "&Network interfaces:"
-#~ msgstr "सजाल अंतरफलक (&N):"
-
-#~ msgid "&Memory:"
-#~ msgstr "स्मृति (&M):"
-
-#~ msgid "&Available temperatures:"
-#~ msgstr "उपलब्ध तापमान (&A):"
