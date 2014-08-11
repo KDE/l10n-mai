@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: marble\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-01 02:02+0000\n"
+"POT-Creation-Date: 2014-08-11 01:49+0000\n"
 "PO-Revision-Date: 2009-04-22 00:00+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2259,7 +2259,7 @@ msgstr "फाइल (&F)"
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
 #: src/lib/marble/BookmarkManagerDialog.ui:91
 #: src/lib/marble/BookmarkManagerDialog.ui:151
-#: src/lib/marble/TourWidget.ui:114
+#: src/lib/marble/TourWidget.ui:113
 msgid "Delete"
 msgstr ""
 
@@ -4128,12 +4128,15 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, MovieCaptureDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, TourCaptureDialog)
 #: src/lib/marble/MovieCaptureDialog.ui:20
+#: src/lib/marble/TourCaptureDialog.ui:20
 msgid "Movie Recording - Marble"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/lib/marble/MovieCaptureDialog.ui:65
+#: src/lib/marble/TourCaptureDialog.ui:65
 #, fuzzy
 #| msgid "Description field"
 msgid "Destination video"
@@ -4141,6 +4144,7 @@ msgstr "विवरण क्षेत्र"
 
 #. i18n: ectx: property (text), widget (QPushButton, openButton)
 #: src/lib/marble/MovieCaptureDialog.ui:81
+#: src/lib/marble/TourCaptureDialog.ui:81
 #, fuzzy
 #| msgctxt "Action for opening a file"
 #| msgid "&Open..."
@@ -4149,6 +4153,7 @@ msgstr "खोलू (&O)..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/lib/marble/MovieCaptureDialog.ui:97
+#: src/lib/marble/TourCaptureDialog.ui:97
 msgid "FPS (frames per second)"
 msgstr ""
 
@@ -4163,6 +4168,7 @@ msgstr "रद्द करू (&C)"
 
 #. i18n: ectx: property (text), widget (QPushButton, startButton)
 #: src/lib/marble/MovieCaptureDialog.ui:176
+#: src/lib/marble/TourCaptureDialog.ui:189
 #, fuzzy
 #| msgid "State"
 msgid "Start"
@@ -4535,6 +4541,13 @@ msgstr ""
 msgid "Time Speed"
 msgstr "गति"
 
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: src/lib/marble/TourCaptureDialog.ui:196
+#, fuzzy
+#| msgid "&Close"
+msgid "Close"
+msgstr "बन्न करु (&C)"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, TourWidget)
 #: src/lib/marble/TourWidget.ui:14
 msgid "Tour"
@@ -4542,12 +4555,12 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QToolBar, m_toolBarControl)
 #. i18n: ectx: property (windowTitle), widget (QToolBar, m_toolBarPlayback)
-#: src/lib/marble/TourWidget.ui:20 src/lib/marble/TourWidget.ui:49
+#: src/lib/marble/TourWidget.ui:20 src/lib/marble/TourWidget.ui:48
 msgid "toolBar"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:75
+#: src/lib/marble/TourWidget.ui:74
 #, fuzzy
 #| msgid "&File"
 msgid "Add FlyTo"
@@ -4555,59 +4568,69 @@ msgstr "फाइल (&F)"
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
 #. i18n: ectx: property (toolTip), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:87 src/lib/marble/TourWidget.ui:90
+#: src/lib/marble/TourWidget.ui:86 src/lib/marble/TourWidget.ui:89
 msgid "Move up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:102
+#: src/lib/marble/TourWidget.ui:101
 msgid "Move down"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:123
+#: src/lib/marble/TourWidget.ui:122
 msgid "New Tour"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:135
+#: src/lib/marble/TourWidget.ui:134
 #, fuzzy
 #| msgid "Track"
 msgid "Save Tour"
 msgstr "ट्रैक"
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:147
+#: src/lib/marble/TourWidget.ui:146
 #, fuzzy
 #| msgid "Track"
 msgid "Save Tour As"
 msgstr "ट्रैक"
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:156
+#: src/lib/marble/TourWidget.ui:155
 #, fuzzy
 #| msgid "Track"
 msgid "Open Tour"
 msgstr "ट्रैक"
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:168
+#: src/lib/marble/TourWidget.ui:167
 msgid "Play"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:171
+#: src/lib/marble/TourWidget.ui:170
 msgid "Begins touring"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:180
+#: src/lib/marble/TourWidget.ui:179
 msgid "Stop"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, m_slider)
-#: src/lib/marble/TourWidget.ui:183
+#: src/lib/marble/TourWidget.ui:182
 msgid "Stops touring (playing again will start tour from the start)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QSlider, m_slider)
+#: src/lib/marble/TourWidget.ui:191
+msgid "Record tour"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSlider, m_slider)
+#: src/lib/marble/TourWidget.ui:194
+msgid "Converts the loaded tour into a movie"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, worldclockConfig)
