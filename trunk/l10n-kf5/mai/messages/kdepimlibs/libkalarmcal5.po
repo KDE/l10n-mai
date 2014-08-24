@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-20 01:41+0000\n"
+"POT-Creation-Date: 2014-08-22 08:16+0000\n"
 "PO-Revision-Date: 2010-09-24 16:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -21,134 +21,167 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: alarmtext.cpp:508
-msgctxt "@info/plain 'From' email address"
+#: src/alarmtext.cpp:512
+#, fuzzy
+#| msgctxt "@info/plain 'From' email address"
+#| msgid "From:"
+msgctxt "@info 'From' email address"
 msgid "From:"
 msgstr "द्वारा:"
 
-#: alarmtext.cpp:509
-msgctxt "@info/plain Email addressee"
+#: src/alarmtext.cpp:513
+msgctxt "@info Email addressee"
 msgid "To:"
 msgstr "प्रति:"
 
-#: alarmtext.cpp:510
-msgctxt "@info/plain Copy-to in email headers"
+#: src/alarmtext.cpp:514
+msgctxt "@info Copy-to in email headers"
 msgid "Cc:"
 msgstr ""
 
-#: alarmtext.cpp:511
-msgctxt "@info/plain"
+#: src/alarmtext.cpp:515
+#, fuzzy
+#| msgctxt "@info/plain"
+#| msgid "Date:"
+msgctxt "@info"
 msgid "Date:"
 msgstr "दिनांक:"
 
-#: alarmtext.cpp:512
-msgctxt "@info/plain Email subject"
+#: src/alarmtext.cpp:516
+msgctxt "@info Email subject"
 msgid "Subject:"
 msgstr "विषय:"
 
-#: alarmtext.cpp:514
-msgctxt "@info/plain Todo calendar item's title field"
+#: src/alarmtext.cpp:518
+msgctxt "@info Todo calendar item's title field"
 msgid "To-do:"
 msgstr ""
 
-#: alarmtext.cpp:515
-msgctxt "@info/plain Todo calendar item's location field"
+#: src/alarmtext.cpp:519
+#, fuzzy
+#| msgctxt "@info/plain Todo calendar item's location field"
+#| msgid "Location:"
+msgctxt "@info Todo calendar item's location field"
 msgid "Location:"
 msgstr "स्थानः"
 
-#: alarmtext.cpp:516
-msgctxt "@info/plain Todo calendar item's due date/time"
+#: src/alarmtext.cpp:520
+#, fuzzy
+#| msgctxt "@info/plain Todo calendar item's due date/time"
+#| msgid "Due:"
+msgctxt "@info Todo calendar item's due date/time"
 msgid "Due:"
 msgstr "शेष:"
 
-#: kacalendar.cpp:223
+#: src/kacalendar.cpp:166
 msgid "KAlarm"
 msgstr ""
 
-#: kaevent.cpp:3290
-msgctxt "@info/plain Brief form of 'At Login'"
-msgid "Login"
-msgstr "लॉगिन"
-
-#: kaevent.cpp:3290
+#: src/kaevent.cpp:3029
 #, fuzzy
 #| msgctxt "@info/plain Brief form of 'At Login'"
 #| msgid "Login"
-msgctxt "@info/plain"
+msgctxt "@info Brief form of 'At Login'"
+msgid "Login"
+msgstr "लॉगिन"
+
+#: src/kaevent.cpp:3029
+#, fuzzy
+#| msgctxt "@info/plain Brief form of 'At Login'"
+#| msgid "Login"
+msgctxt "@info"
 msgid "At login"
 msgstr "लॉगिन"
 
-#: kaevent.cpp:3298 kaevent.cpp:3387
+#: src/kaevent.cpp:3036 src/kaevent.cpp:3117
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Time units"
 #| msgid "minutes"
-msgctxt "@info/plain"
+msgctxt "@info"
 msgid "1 Minute"
 msgid_plural "%1 Minutes"
 msgstr[0] "मिनट"
 msgstr[1] "मिनट"
 
-#: kaevent.cpp:3300 kaevent.cpp:3389
+#: src/kaevent.cpp:3038 src/kaevent.cpp:3120
 #, kde-format
-msgctxt "@info/plain"
+msgctxt "@info"
 msgid "1 Hour"
 msgid_plural "%1 Hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kaevent.cpp:3304 kaevent.cpp:3391
+#: src/kaevent.cpp:3041 src/kaevent.cpp:3123
 #, kde-format
-msgctxt "@info/plain Hours and minutes"
+msgctxt "@info Hours and minutes"
 msgid "%1h %2m"
 msgstr ""
 
-#: kaevent.cpp:3307 kaevent.cpp:3395
+#: src/kaevent.cpp:3044 src/kaevent.cpp:3127
 #, kde-format
-msgctxt "@info/plain"
+msgctxt "@info"
 msgid "1 Day"
 msgid_plural "%1 Days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kaevent.cpp:3309 kaevent.cpp:3396
+#: src/kaevent.cpp:3046 src/kaevent.cpp:3129
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Recurrence type"
 #| msgid "Weekly"
-msgctxt "@info/plain"
+msgctxt "@info"
 msgid "1 Week"
 msgid_plural "%1 Weeks"
 msgstr[0] "साप्ताहिक"
 msgstr[1] "साप्ताहिक"
 
-#: kaevent.cpp:3311
+#: src/kaevent.cpp:3048
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Recurrence type"
 #| msgid "Monthly"
-msgctxt "@info/plain"
+msgctxt "@info"
 msgid "1 Month"
 msgid_plural "%1 Months"
 msgstr[0] "मासिक"
 msgstr[1] "मासिक"
 
-#: kaevent.cpp:3313
+#: src/kaevent.cpp:3050
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox Recurrence type"
 #| msgid "Yearly"
-msgctxt "@info/plain"
+msgctxt "@info"
 msgid "1 Year"
 msgid_plural "%1 Years"
 msgstr[0] "वार्षिक"
 msgstr[1] "वार्षिक"
 
-#: kaevent.cpp:3319
-msgctxt "@info/plain No recurrence"
+#: src/kaevent.cpp:3056
+#, fuzzy
+#| msgctxt "@info/plain No recurrence"
+#| msgid "None"
+msgctxt "@info No recurrence"
 msgid "None"
 msgstr "किछु नहि"
 
-#: kaevent.cpp:3398
-msgctxt "@info/plain No repetition"
+#: src/kaevent.cpp:3131
+#, fuzzy
+#| msgctxt "@info/plain No recurrence"
+#| msgid "None"
+msgctxt "@info No repetition"
 msgid "None"
 msgstr "किछु नहि"
+
+#~ msgctxt "@info/plain Email addressee"
+#~ msgid "To:"
+#~ msgstr "प्रति:"
+
+#~ msgctxt "@info/plain Email subject"
+#~ msgid "Subject:"
+#~ msgstr "विषय:"
+
+#~ msgctxt "@info/plain No repetition"
+#~ msgid "None"
+#~ msgstr "किछु नहि"
 
 #~ msgctxt "@title:column"
 #~ msgid "Calendars"
@@ -388,14 +421,6 @@ msgstr "किछु नहि"
 #~ msgctxt "@info"
 #~ msgid "File not found"
 #~ msgstr "फाइल नहि भेटल"
-
-#~ msgctxt "@info Email addressee"
-#~ msgid "To:"
-#~ msgstr "प्रति:"
-
-#~ msgctxt "@info Email subject"
-#~ msgid "Subject:"
-#~ msgstr "विषय:"
 
 #~ msgctxt "@title:window"
 #~ msgid "Error"
