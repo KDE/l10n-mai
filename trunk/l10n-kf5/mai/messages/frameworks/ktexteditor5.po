@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-11 08:11+0000\n"
+"POT-Creation-Date: 2014-10-12 07:53+0000\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -83,7 +83,7 @@ msgstr "स्कोप"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #: completion/katecompletionmodel.cpp:1330
-#: dialogs/commandmenuconfigwidget.ui:22 dialogs/katedialogs.cpp:1080
+#: dialogs/commandmenuconfigwidget.ui:22 dialogs/katedialogs.cpp:1076
 msgid "Name"
 msgstr "नाम"
 
@@ -246,7 +246,7 @@ msgstr "स्थिर शब्द रैप"
 #. i18n: ectx: Menu (view_menu_borders)
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #: data/katepartui.rc:68 dialogs/bordersappearanceconfigwidget.ui:9
-#: dialogs/katedialogs.cpp:653
+#: dialogs/katedialogs.cpp:649
 msgid "Borders"
 msgstr "किनार"
 
@@ -411,7 +411,7 @@ msgid "Scrollbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:168 dialogs/katedialogs.cpp:657
+#: dialogs/bordersappearanceconfigwidget.ui:168 dialogs/katedialogs.cpp:653
 msgid "Always On"
 msgstr "हमेशा चालू"
 
@@ -547,8 +547,8 @@ msgstr "वर्ग: (&C)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
-#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:519
-#: dialogs/katedialogs.cpp:649 dialogs/katedialogs.cpp:839
+#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:515
+#: dialogs/katedialogs.cpp:645 dialogs/katedialogs.cpp:835
 #: vimode/config/configwidget.ui:29
 msgid "General"
 msgstr "सामान्य"
@@ -798,7 +798,7 @@ msgstr ""
 msgid "W&rap words at:"
 msgstr "पर शब्द लपेटू: (&r)"
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, sbWordWrap)
+#. i18n: ectx: property (whatsThis), widget (KPluralHandlingSpinBox, sbWordWrap)
 #: dialogs/editconfigwidget.ui:53
 msgid ""
 "If the Word Wrap option is selected this entry determines the length (in "
@@ -1011,7 +1011,7 @@ msgstr "सारणीयक"
 msgid "Tab wi&dth:"
 msgstr "टैब चओड़ाइ: (&d)"
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, sbIndentWidth)
+#. i18n: ectx: property (whatsThis), widget (KPluralHandlingSpinBox, sbIndentWidth)
 #: dialogs/indentationconfigwidget.ui:125
 msgid ""
 "The indentation width is the number of spaces which is used to indent a "
@@ -1129,227 +1129,223 @@ msgstr ""
 msgid "Increase indentation level if in l&eading blank space"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:198 dialogs/katedialogs.cpp:201
+#: dialogs/katedialogs.cpp:198 dialogs/katedialogs.cpp:200
 #, fuzzy
 #| msgid " characters"
-msgctxt "spinbox special value for 1"
-msgid "1 character"
-msgstr "अक्षर"
+msgid " character"
+msgid_plural " characters"
+msgstr[0] "अक्षर"
+msgstr[1] "अक्षर"
 
-#: dialogs/katedialogs.cpp:199 dialogs/katedialogs.cpp:202
-#, fuzzy
-#| msgid " characters"
-msgctxt "suffix for spinbox >1"
-msgid " characters"
-msgstr "अक्षर"
-
-#: dialogs/katedialogs.cpp:229
+#: dialogs/katedialogs.cpp:227
 msgid "Indentation"
 msgstr "इंडेन्टेशन"
 
-#: dialogs/katedialogs.cpp:302
+#: dialogs/katedialogs.cpp:300
 msgid "Auto Completion"
 msgstr "स्वतः पूर्णता"
 
-#: dialogs/katedialogs.cpp:366
+#: dialogs/katedialogs.cpp:364
 #, fuzzy
 #| msgid "Spellcheck Selection..."
 msgid "Spellcheck"
 msgstr "वर्तनी जाँच चयन..."
 
-#: dialogs/katedialogs.cpp:442
+#: dialogs/katedialogs.cpp:440
 #, fuzzy
 #| msgctxt "Language Section"
 #| msgid "Configuration"
 msgid "Text Navigation"
 msgstr "बिन्यास"
 
-#: dialogs/katedialogs.cpp:509
+#: dialogs/katedialogs.cpp:505
 #, fuzzy
 #| msgid " characters"
-msgctxt "suffix for spinbox >1 wrap words at (value is at 20 or larger)"
-msgid " characters"
-msgstr "अक्षर"
+msgctxt "Wrap words at (value is at 20 or larger)"
+msgid " character"
+msgid_plural " characters"
+msgstr[0] "अक्षर"
+msgstr[1] "अक्षर"
 
-#: dialogs/katedialogs.cpp:621
+#: dialogs/katedialogs.cpp:617
 msgid "Editing"
 msgstr "संपादन"
 
-#: dialogs/katedialogs.cpp:626
+#: dialogs/katedialogs.cpp:622
 msgid "Editing Options"
 msgstr "संपादन विकल्प"
 
-#: dialogs/katedialogs.cpp:655
+#: dialogs/katedialogs.cpp:651
 msgid "Off"
 msgstr "बन्न"
 
-#: dialogs/katedialogs.cpp:656
+#: dialogs/katedialogs.cpp:652
 msgid "Follow Line Numbers"
 msgstr "पंक्ति क्रमांक अनुसरण करू"
 
-#: dialogs/katedialogs.cpp:769 dialogs/katedialogs.cpp:774
+#: dialogs/katedialogs.cpp:765 dialogs/katedialogs.cpp:770
 msgid "Appearance"
 msgstr "प्रकटन"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:840 dialogs/textareaappearanceconfigwidget.ui:102
+#: dialogs/katedialogs.cpp:836 dialogs/textareaappearanceconfigwidget.ui:102
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: dialogs/katedialogs.cpp:895
+#: dialogs/katedialogs.cpp:891
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr ""
 "अहाँ कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि देने छी. मूलभूत उपसर्ग इस्तेमाल कएल जाए रहल अछि. "
 "'~'"
 
-#: dialogs/katedialogs.cpp:896
+#: dialogs/katedialogs.cpp:892
 msgid "No Backup Suffix or Prefix"
 msgstr "कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि"
 
-#: dialogs/katedialogs.cpp:907
+#: dialogs/katedialogs.cpp:903
 msgid ""
 "Selected directory for swap file storage does not exist. Do you want to "
 "create it?"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:908
+#: dialogs/katedialogs.cpp:904
 msgid "Missing Swap File Directory"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:965
+#: dialogs/katedialogs.cpp:961
 msgid "KDE Default"
 msgstr "केडीई मूलभूत"
 
-#: dialogs/katedialogs.cpp:1049
+#: dialogs/katedialogs.cpp:1045
 msgid "Open/Save"
 msgstr "खोलू/सहेजू"
 
-#: dialogs/katedialogs.cpp:1054
+#: dialogs/katedialogs.cpp:1050
 msgid "File Opening & Saving"
 msgstr "फाइल खोलनाइ आ सहेजनाइ"
 
-#: dialogs/katedialogs.cpp:1068
+#: dialogs/katedialogs.cpp:1064
 msgid "Highlight Download"
 msgstr "डाउनलोड आलोकित करू"
 
-#: dialogs/katedialogs.cpp:1075
+#: dialogs/katedialogs.cpp:1071
 msgid "Select the syntax highlighting files you want to update:"
 msgstr "जकरा अहाँ अद्यतन कएनाइ चाहैत छी ओ सिंटेक्स हाइलाइटिंग फाइल केँ चुनू:"
 
-#: dialogs/katedialogs.cpp:1080
+#: dialogs/katedialogs.cpp:1076
 msgid "Installed"
 msgstr "संस्थापित"
 
-#: dialogs/katedialogs.cpp:1080
+#: dialogs/katedialogs.cpp:1076
 msgid "Latest"
 msgstr "नवीनतम"
 
-#: dialogs/katedialogs.cpp:1087
+#: dialogs/katedialogs.cpp:1083
 msgid "<b>Note:</b> New versions are selected automatically."
 msgstr "<b>टीप:</b> नवीन संस्करण स्वचालित चुनल जएताह."
 
-#: dialogs/katedialogs.cpp:1094
+#: dialogs/katedialogs.cpp:1090
 msgid "&Install"
 msgstr "सँस्थापित करू (&I)"
 
-#: dialogs/katedialogs.cpp:1137
+#: dialogs/katedialogs.cpp:1133
 msgid ""
 "The list of highlightings could not be found on / retrieved from the server"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1241
+#: dialogs/katedialogs.cpp:1237
 msgid "&Go to line:"
 msgstr "पंक्ति पर जाउ: (&G)"
 
-#: dialogs/katedialogs.cpp:1247
+#: dialogs/katedialogs.cpp:1243
 msgid "Go"
 msgstr "जाउ"
 
-#: dialogs/katedialogs.cpp:1309
+#: dialogs/katedialogs.cpp:1305
 #, fuzzy
 #| msgid "&Section:"
 msgid "Dictionary:"
 msgstr "खण्ड: (&S)"
 
-#: dialogs/katedialogs.cpp:1357
+#: dialogs/katedialogs.cpp:1353
 msgid "File Was Deleted on Disk"
 msgstr "फाइल केँ डिस्क मे सँ मेटाएल गेल छल"
 
-#: dialogs/katedialogs.cpp:1358
+#: dialogs/katedialogs.cpp:1354
 msgid "&Save File As..."
 msgstr "फाइल एहिना सहेजू... (&S)"
 
-#: dialogs/katedialogs.cpp:1360
+#: dialogs/katedialogs.cpp:1356
 msgid "Lets you select a location and save the file again."
 msgstr "अहाँक एकटा स्थान चुनू आओर फाइलकेँ फिनु सँ सहेजू"
 
-#: dialogs/katedialogs.cpp:1362
+#: dialogs/katedialogs.cpp:1358
 msgid "File Changed on Disk"
 msgstr "डिस्क मे फाइल केँ बदएल देने गेल अछि"
 
-#: dialogs/katedialogs.cpp:1363 document/katedocument.cpp:3976
+#: dialogs/katedialogs.cpp:1359 document/katedocument.cpp:3976
 msgid "&Reload File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
-#: dialogs/katedialogs.cpp:1365
+#: dialogs/katedialogs.cpp:1361
 msgid ""
 "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1379 document/katedocument.cpp:3974
+#: dialogs/katedialogs.cpp:1375 document/katedocument.cpp:3974
 msgid "What do you want to do?"
 msgstr "अहाँ की कएनाइ चाहैत छी?"
 
-#: dialogs/katedialogs.cpp:1390 document/katedocument.cpp:3977
+#: dialogs/katedialogs.cpp:1386 document/katedocument.cpp:3977
 msgid "&Ignore Changes"
 msgstr "परिवर्तन केँ नजरअंदाज करू (&I)"
 
-#: dialogs/katedialogs.cpp:1391
+#: dialogs/katedialogs.cpp:1387
 msgid "Ignore the changes. You will not be prompted again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1397
+#: dialogs/katedialogs.cpp:1393
 msgid ""
 "Do nothing. Next time you focus the file, or try to save it or close it, you "
 "will be prompted again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1406
+#: dialogs/katedialogs.cpp:1402
 msgid "Overwrite the disk file with the editor content."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1480 swapfile/kateswapdiffcreator.cpp:137
+#: dialogs/katedialogs.cpp:1476 swapfile/kateswapdiffcreator.cpp:137
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1482 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1478 swapfile/kateswapdiffcreator.cpp:139
 msgid "Error Creating Diff"
 msgstr "डिफ बनाबै मे त्रुटि"
 
-#: dialogs/katedialogs.cpp:1491 swapfile/kateswapdiffcreator.cpp:147
+#: dialogs/katedialogs.cpp:1487 swapfile/kateswapdiffcreator.cpp:147
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1492 dialogs/katedialogs.cpp:1496
+#: dialogs/katedialogs.cpp:1488 dialogs/katedialogs.cpp:1492
 #: swapfile/kateswapdiffcreator.cpp:148
 msgid "Diff Output"
 msgstr "डिफ आउटपुट"
 
-#: dialogs/katedialogs.cpp:1495
+#: dialogs/katedialogs.cpp:1491
 msgid "Ignoring amount of white space changed, the files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1520
+#: dialogs/katedialogs.cpp:1516
 msgid ""
 "Ignoring means that you will not be warned again (unless the disk file "
 "changes once more): if you save the document, you will overwrite the file on "
 "disk; if you do not save then the disk file (if present) is what you have."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1524
+#: dialogs/katedialogs.cpp:1520
 msgid "You Are on Your Own"
 msgstr "अहाँ अपने पैरा पर छी"
 
@@ -8468,6 +8464,24 @@ msgstr ""
 msgid "Mark not set: %1"
 msgstr "मार्क टाइप %1"
 
+#, fuzzy
+#~| msgid " characters"
+#~ msgctxt "spinbox special value for 1"
+#~ msgid "1 character"
+#~ msgstr "अक्षर"
+
+#, fuzzy
+#~| msgid " characters"
+#~ msgctxt "suffix for spinbox >1"
+#~ msgid " characters"
+#~ msgstr "अक्षर"
+
+#, fuzzy
+#~| msgid " characters"
+#~ msgctxt "suffix for spinbox >1 wrap words at (value is at 20 or larger)"
+#~ msgid " characters"
+#~ msgstr "अक्षर"
+
 #~ msgid "Folder Config File"
 #~ msgstr "फोल्डर कान्फिग फाइल"
 
@@ -8527,14 +8541,6 @@ msgstr "मार्क टाइप %1"
 #~ msgctxt "Language"
 #~ msgid "C++"
 #~ msgstr "C++"
-
-#, fuzzy
-#~| msgid " characters"
-#~ msgctxt "Wrap words at"
-#~ msgid " character"
-#~ msgid_plural " characters"
-#~ msgstr[0] "अक्षर"
-#~ msgstr[1] "अक्षर"
 
 #~ msgid "Editor Plugins"
 #~ msgstr "इतिहास प्लगइन"
