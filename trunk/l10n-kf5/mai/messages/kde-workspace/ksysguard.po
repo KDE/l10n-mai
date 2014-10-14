@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-13 08:02+0000\n"
+"POT-Creation-Date: 2014-10-14 10:42+0000\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -306,7 +306,7 @@ msgstr "सीमा"
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:56
 #: SensorDisplayLib/ListViewSettingsWidget.ui:16
-#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:49
+#: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16 WorkSheetSettings.cpp:60
 msgid "Title"
 msgstr "शीर्षक"
 
@@ -942,7 +942,7 @@ msgstr "टाइमर अंतराल"
 
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:49 TimerSettings.cpp:57
-#: WorkSheetSettings.cpp:93
+#: WorkSheetSettings.cpp:104
 msgid " sec"
 msgstr " sec"
 
@@ -1025,11 +1025,11 @@ msgstr "टाइमर बिन्यास"
 msgid "Use update interval of worksheet"
 msgstr "वर्कशीट क' अद्यतन अंतरालक इस्तेमाल करू"
 
-#: TimerSettings.cpp:50 WorkSheetSettings.cpp:89
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:100
 msgid "Update interval:"
 msgstr "अद्यतन अंतरालः"
 
-#: TimerSettings.cpp:60 WorkSheetSettings.cpp:99
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:110
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr "शीट केर सबहि प्रदर्शनों केँ एतय उल्लेखित दर पर अद्यतन कएल जएताह."
 
@@ -1102,67 +1102,67 @@ msgstr "प्रदर्शक मेटाबू (&R)"
 msgid "Dummy"
 msgstr "डमी"
 
-#: WorkSheetSettings.cpp:39
+#: WorkSheetSettings.cpp:42
 msgid "Tab Properties"
 msgstr ""
 
-#: WorkSheetSettings.cpp:60
+#: WorkSheetSettings.cpp:71
 msgid "Properties"
 msgstr "गुण"
 
-#: WorkSheetSettings.cpp:69
+#: WorkSheetSettings.cpp:80
 msgid "Rows:"
 msgstr "पंक्तिसभ:"
 
-#: WorkSheetSettings.cpp:78
+#: WorkSheetSettings.cpp:89
 msgid "Columns:"
 msgstr "कालम: "
 
-#: WorkSheetSettings.cpp:86
+#: WorkSheetSettings.cpp:97
 msgid "Enter the number of rows the sheet should have."
 msgstr "शीट मे पंक्तिसभक सँख्या जतए अछि ओ एतय प्रविष्ट करू."
 
-#: WorkSheetSettings.cpp:87
+#: WorkSheetSettings.cpp:98
 msgid "Enter the number of columns the sheet should have."
 msgstr "शीट मे स्तम्भक सँख्या कतए अछि ओ एतय प्रविष्ट करू."
 
-#: WorkSheetSettings.cpp:100
+#: WorkSheetSettings.cpp:111
 msgid "Enter the title of the worksheet here."
 msgstr "वर्कशीट क' शीर्षक एतय भरू."
 
-#: Workspace.cpp:113
+#: Workspace.cpp:114
 #, kde-format
 msgid "Sheet %1"
 msgstr "शीट %1"
 
-#: Workspace.cpp:172
+#: Workspace.cpp:173
 #, kde-format
 msgid ""
 "The tab '%1' contains unsaved data.\n"
 "Do you want to save the tab?"
 msgstr ""
 
-#: Workspace.cpp:187
+#: Workspace.cpp:188
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr ""
 
-#: Workspace.cpp:187
+#: Workspace.cpp:188
 msgid "Select Tab File to Import"
 msgstr ""
 
-#: Workspace.cpp:215 Workspace.cpp:236
+#: Workspace.cpp:216 Workspace.cpp:237
 msgid "You do not have a tab that could be saved."
 msgstr ""
 
-#: Workspace.cpp:243
+#: Workspace.cpp:244
 msgid "Export Tab"
 msgstr ""
 
-#: Workspace.cpp:261
+#: Workspace.cpp:262
 msgid "There are no tabs that could be deleted."
 msgstr ""
 
-#: Workspace.cpp:301
+#: Workspace.cpp:302
 #, kde-format
 msgid ""
 "<qt>To propose the current custom tab as a new System Monitor tab, email "
@@ -1171,7 +1171,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: Workspace.cpp:301
+#: Workspace.cpp:302
 #, fuzzy
 #| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
