@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-18 01:47+0000\n"
+"POT-Creation-Date: 2014-10-31 02:04+0000\n"
 "PO-Revision-Date: 2009-04-22 00:01+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3451,6 +3451,21 @@ msgstr "तत्व"
 msgid "Theoretical equations"
 msgstr ""
 
+#: src/calculator/titrationCalculator.cpp:115
+msgid "nothing"
+msgstr ""
+
+#: src/calculator/titrationCalculator.cpp:118
+#: src/calculator/titrationCalculator.cpp:580
+#: src/calculator/titrationCalculator.cpp:597
+#: src/calculator/titrationCalculator.cpp:717 src/kalziumutils.cpp:91
+msgid "Error"
+msgstr ""
+
+#: src/calculator/titrationCalculator.cpp:118
+msgid "Unable to find an equation for Y-axis variable."
+msgstr ""
+
 #: src/calculator/titrationCalculator.cpp:138
 msgid "Theoretical curve"
 msgstr ""
@@ -3461,6 +3476,32 @@ msgstr ""
 
 #: src/calculator/titrationCalculator.cpp:240
 msgid "Equivalence point"
+msgstr ""
+
+#: src/calculator/titrationCalculator.cpp:568
+#, fuzzy
+#| msgid "Scales"
+msgid "Save work"
+msgstr "मापक"
+
+#: src/calculator/titrationCalculator.cpp:568
+#: src/calculator/titrationCalculator.cpp:591
+msgid "Icee File (*.icee)"
+msgstr ""
+
+#: src/calculator/titrationCalculator.cpp:580
+#: src/calculator/titrationCalculator.cpp:717
+#, kde-format
+msgid "Unable to create %1"
+msgstr ""
+
+#: src/calculator/titrationCalculator.cpp:591
+msgid "Open work"
+msgstr ""
+
+#: src/calculator/titrationCalculator.cpp:597
+#, kde-format
+msgid "Unable to open %1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, saveimage)
@@ -5009,10 +5050,6 @@ msgstr "अओजार (&T)"
 #: src/kalziumui.rc:35
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
-
-#: src/kalziumutils.cpp:91
-msgid "Error"
-msgstr ""
 
 #: src/kalziumutils.cpp:107
 msgid "Value not defined"
