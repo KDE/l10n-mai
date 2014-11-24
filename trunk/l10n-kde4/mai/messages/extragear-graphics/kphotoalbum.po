@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-16 01:45+0000\n"
+"POT-Creation-Date: 2014-11-24 01:53+0000\n"
 "PO-Revision-Date: 2010-09-24 12:18+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -419,7 +419,8 @@ msgstr ""
 msgid "Really Delete %1?"
 msgstr ""
 
-#: AnnotationDialog/ListSelect.cpp:392 Settings/SubCategoriesPage.cpp:191
+#: AnnotationDialog/ListSelect.cpp:392 Settings/TagGroupsPage.cpp:537
+#: Settings/TagGroupsPage.cpp:780
 msgid "&Delete"
 msgstr "मेटाबू (&D)"
 
@@ -822,11 +823,11 @@ msgstr ""
 msgid "10 Minutes"
 msgstr ""
 
-#: DB/Category.cpp:140 DB/Category.cpp:148
+#: DB/Category.cpp:140
 msgid "People"
 msgstr "लोग"
 
-#: DB/Category.cpp:141 DB/Category.cpp:149
+#: DB/Category.cpp:141
 msgid "Places"
 msgstr "स्थान"
 
@@ -834,37 +835,37 @@ msgstr "स्थान"
 msgid "Events"
 msgstr "घटना"
 
-#: DB/Category.cpp:143 Settings/CategoryPage.cpp:217
+#: DB/Category.cpp:143 Settings/CategoryPage.cpp:219
 msgid "Folder"
 msgstr "फोल्डर"
 
-#: DB/Category.cpp:144 Settings/CategoryPage.cpp:218
+#: DB/Category.cpp:144 Settings/CategoryPage.cpp:220
 msgid "Tokens"
 msgstr ""
 
-#: DB/Category.cpp:145 Settings/CategoryPage.cpp:219
+#: DB/Category.cpp:145 Settings/CategoryPage.cpp:221
 msgid "Media Type"
 msgstr ""
 
-#: DB/Category.cpp:150 Settings/CategoryPage.cpp:220
+#: DB/Category.cpp:147 Settings/CategoryPage.cpp:222
 msgid "Keywords"
 msgstr "बीजशब्द"
 
-#: DB/Category.cpp:234
+#: DB/Category.cpp:228
 #, kde-format
 msgid "Unable to create directory '%1'."
 msgstr ""
 
-#: DB/Category.cpp:234
+#: DB/Category.cpp:228
 msgid "Unable to Create Directory"
 msgstr ""
 
-#: DB/Category.cpp:241
+#: DB/Category.cpp:235
 #, kde-format
 msgid "Error when saving image '%1'."
 msgstr ""
 
-#: DB/Category.cpp:241
+#: DB/Category.cpp:235
 msgid "Error Saving Image"
 msgstr ""
 
@@ -1057,7 +1058,7 @@ msgstr ""
 msgid "Override image dates"
 msgstr ""
 
-#: Exif/SearchDialog.cpp:41 Settings/SettingsDialog.cpp:106
+#: Exif/SearchDialog.cpp:41 Settings/SettingsDialog.cpp:107
 msgid "Settings"
 msgstr "जमावट"
 
@@ -1743,7 +1744,7 @@ msgid "&Maintenance"
 msgstr ""
 
 #. i18n: ectx: Menu (plugins)
-#: kphotoalbumui.rc:72 Settings/SettingsDialog.cpp:82
+#: kphotoalbumui.rc:72 Settings/SettingsDialog.cpp:83
 msgid "Plugins"
 msgstr "प्लगिन"
 
@@ -2475,8 +2476,7 @@ msgid ""
 "specify it here."
 msgstr ""
 
-#: MainWindow/StatisticsDialog.cpp:116 Settings/SubCategoriesPage.cpp:40
-#: Settings/UntaggedGroupBox.cpp:36
+#: MainWindow/StatisticsDialog.cpp:116 Settings/UntaggedGroupBox.cpp:36
 msgid "Category:"
 msgstr "श्रेणी"
 
@@ -2936,11 +2936,11 @@ msgstr ""
 msgid "Type in New Password"
 msgstr ""
 
-#: MainWindow/Window.cpp:1241 Settings/SettingsDialog.cpp:75
+#: MainWindow/Window.cpp:1241 Settings/SettingsDialog.cpp:76
 msgid "General"
 msgstr "सामान्य"
 
-#: MainWindow/Window.cpp:1242 Settings/SettingsDialog.cpp:80
+#: MainWindow/Window.cpp:1242 Settings/SettingsDialog.cpp:81
 msgid "Viewer"
 msgstr "दर्शक"
 
@@ -3111,56 +3111,56 @@ msgstr "नवीन"
 msgid "Rename"
 msgstr "नाम बदलू..."
 
-#: Settings/CategoryPage.cpp:113
+#: Settings/CategoryPage.cpp:114
 msgid "Positionable tags:"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:115
+#: Settings/CategoryPage.cpp:116
 msgid "Coordinates can be added to tags in this category"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:121
+#: Settings/CategoryPage.cpp:122
 msgid "Icon:"
 msgstr "प्रतीक:"
 
-#: Settings/CategoryPage.cpp:131
+#: Settings/CategoryPage.cpp:132
 msgid "Thumbnail Size:"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:142
+#: Settings/CategoryPage.cpp:143
 msgid "Preferred view:"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:147
+#: Settings/CategoryPage.cpp:148
 msgid "List View"
 msgstr "सूची दृश्य"
 
-#: Settings/CategoryPage.cpp:148
+#: Settings/CategoryPage.cpp:149
 msgid "List View with Custom Thumbnails"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:149
+#: Settings/CategoryPage.cpp:150
 msgid "Icon View"
 msgstr "चिह्न दृश्य"
 
-#: Settings/CategoryPage.cpp:150
+#: Settings/CategoryPage.cpp:151
 msgid "Icon View with Custom Thumbnails"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:171
+#: Settings/CategoryPage.cpp:172
 msgid "<i>Choose a category to edit it</i>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:185
+#: Settings/CategoryPage.cpp:186
 msgid "Settings for category"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:188
+#: Settings/CategoryPage.cpp:189
 #, kde-format
 msgid "<i>Pending change: rename to \"%1\"</i>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:224
+#: Settings/CategoryPage.cpp:226
 #, kde-format
 msgid ""
 "<p>Can't change the name of category \"%1\" to \"%2\":</p><p>\"%2\" is a "
@@ -3168,19 +3168,19 @@ msgid ""
 "category.</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:228 Settings/CategoryPage.cpp:239
-#: Settings/CategoryPage.cpp:261 Settings/CategoryPage.cpp:278
+#: Settings/CategoryPage.cpp:230 Settings/CategoryPage.cpp:241
+#: Settings/CategoryPage.cpp:255 Settings/CategoryPage.cpp:272
 msgid "Invalid category name"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:236
+#: Settings/CategoryPage.cpp:238
 #, kde-format
 msgid ""
 "<p>Can't change the name of category \"%1\" to \"%2\":</p><p>A category with "
 "this name already exists.</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:256
+#: Settings/CategoryPage.cpp:250
 #, kde-format
 msgid ""
 "<p>Can't change the name of category \"%1\" to \"%2\":</p><p>\"%2\" is a "
@@ -3188,7 +3188,7 @@ msgid ""
 "\"%2\" is \"%1\", so this category already has this name.</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:273
+#: Settings/CategoryPage.cpp:267
 #, kde-format
 msgid ""
 "<p>Can't change the name of category \"%1\" to \"%2\":</p><p>\"%2\" is a "
@@ -3196,18 +3196,18 @@ msgid ""
 "\"%2\" is \"%3\" and this category already exists.</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:284
+#: Settings/CategoryPage.cpp:280
 #, kde-format
 msgid ""
 "<p>\"%1\" is a standard category which comes with a localized name. The "
 "localized name for \"%1\" is \"%2\", this name will be used instead.</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:288
+#: Settings/CategoryPage.cpp:284
 msgid "Localized category name entered"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:304
+#: Settings/CategoryPage.cpp:301
 #, kde-format
 msgid ""
 "<p>Can't change the name of category \"%1\" to \"%2\":</p><p>There's a "
@@ -3215,29 +3215,29 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:308
+#: Settings/CategoryPage.cpp:305
 msgid "Unsaved pending renaming action"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:337
+#: Settings/CategoryPage.cpp:334
 #, kde-format
 msgid ""
 "<p>Do you really want to make \"%1\" non-positionable?</p><p>All areas "
 "linked against this category will be deleted!</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:386
+#: Settings/CategoryPage.cpp:383
 #, fuzzy
 #| msgid "Category"
 msgid "New category"
 msgstr "श्रेणी"
 
-#: Settings/CategoryPage.cpp:418
+#: Settings/CategoryPage.cpp:415
 #, kde-format
 msgid "<p>Really delete category \"%1\"?</p>"
 msgstr ""
 
-#: Settings/CategoryPage.cpp:431
+#: Settings/CategoryPage.cpp:428
 msgid "<i>choose a category to edit it</i>"
 msgstr ""
 
@@ -3675,76 +3675,188 @@ msgstr ""
 msgid "Trust Time Stamps?"
 msgstr ""
 
-#: Settings/SettingsDialog.cpp:76
+#: Settings/SettingsDialog.cpp:77
 msgid "File Searching & Versions"
 msgstr ""
 
-#: Settings/SettingsDialog.cpp:77
+#: Settings/SettingsDialog.cpp:78
 msgid "Thumbnail View"
 msgstr ""
 
-#: Settings/SettingsDialog.cpp:78
+#: Settings/SettingsDialog.cpp:79
 msgid "Categories"
 msgstr "श्रेणिसभ"
 
-#: Settings/SettingsDialog.cpp:79
-msgid "Subcategories"
-msgstr ""
+#: Settings/SettingsDialog.cpp:80
+#, fuzzy
+#| msgid "New Group"
+msgid "Tag Groups"
+msgstr "नवीन समूह"
 
-#: Settings/SettingsDialog.cpp:86
+#: Settings/SettingsDialog.cpp:87
 msgid "EXIF/IPTC Information"
 msgstr ""
 
-#: Settings/SettingsDialog.cpp:88
+#: Settings/SettingsDialog.cpp:89
 msgid "Database backend"
 msgstr ""
 
-#: Settings/SettingsDialog.cpp:90
+#: Settings/SettingsDialog.cpp:91
 msgid "Face management"
 msgstr ""
 
-#: Settings/SubCategoriesPage.cpp:53
-msgid "Super Categories:"
+#: Settings/TagGroupsPage.cpp:48
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@label"
+msgid "Categories and groups:"
+msgstr "श्रेणिसभ"
+
+#: Settings/TagGroupsPage.cpp:59
+msgctxt "@label/rich"
+msgid "<emphasis>Select a group on the left side to add tags to it</emphasis>"
 msgstr ""
 
-#: Settings/SubCategoriesPage.cpp:62
-msgid "Items of Category:"
-msgstr ""
-
-#: Settings/SubCategoriesPage.cpp:72
-msgid "Add Super Category..."
-msgstr ""
-
-#: Settings/SubCategoriesPage.cpp:74
-msgid "Rename Super Category..."
-msgstr ""
-
-#: Settings/SubCategoriesPage.cpp:76
-msgid "Delete Super Category"
-msgstr ""
-
-#: Settings/SubCategoriesPage.cpp:80
+#: Settings/TagGroupsPage.cpp:72
+msgctxt "@label/rich"
 msgid ""
-"<b>Notice:</b> It is also possible to set up subcategories in the annotation "
-"dialog, simply by dragging items."
+"<emphasis>There are pending changes of category names.<nl> Please save the "
+"changes before working on tag groups.</emphasis>"
 msgstr ""
 
-#: Settings/SubCategoriesPage.cpp:159 Settings/SubCategoriesPage.cpp:176
+#: Settings/TagGroupsPage.cpp:80
+msgctxt "@action:inmenu"
+msgid "Add group ..."
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:259
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename group \"%1\""
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:261
+#, fuzzy, kde-format
+#| msgid "Delete Group"
+msgctxt "@action:inmenu"
+msgid "Delete group \"%1\""
+msgstr "समूह मेटाउ"
+
+#: Settings/TagGroupsPage.cpp:329
+#, kde-format
+msgctxt "@label"
+msgid "Tags in group \"%1\" of category \"%2\""
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:348
+#, fuzzy
+#| msgid "New Group"
+msgctxt "@title:window"
 msgid "New Group"
 msgstr "नवीन समूह"
 
-#: Settings/SubCategoriesPage.cpp:159 Settings/SubCategoriesPage.cpp:176
+#: Settings/TagGroupsPage.cpp:349
+#, fuzzy
+#| msgid "Group:"
+msgctxt "@label:textbox"
 msgid "Group name:"
-msgstr ""
+msgstr "समूह:"
 
-#: Settings/SubCategoriesPage.cpp:191
+#: Settings/TagGroupsPage.cpp:366
 #, kde-format
-msgid "Really delete group %1?"
+msgctxt "@info"
+msgid "<p>The group \"%1\" already exists.</p>"
 msgstr ""
 
-#: Settings/SubCategoriesPage.cpp:191
+#: Settings/TagGroupsPage.cpp:367
+msgctxt "@title:window"
+msgid "Cannot add group"
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:445 Settings/TagGroupsPage.cpp:468
+#, fuzzy
+#| msgid "Delete Group"
+msgctxt "@title:window"
+msgid "Rename Group"
+msgstr "समूह मेटाउ"
+
+#: Settings/TagGroupsPage.cpp:446
+#, fuzzy
+#| msgid "New Group"
+msgctxt "@label:textbox"
+msgid "New group name:"
+msgstr "नवीन समूह"
+
+#: Settings/TagGroupsPage.cpp:463
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Cannot rename group \"%1\" to \"%2\": \"%2\" already exists in "
+"category \"%3\"</para>"
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:525
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Really delete group \"%1\"?</para><para>Sub-categories of this group "
+"will be moved to the super category of \"%1\" (\"%2\").<nl/> All other "
+"memberships of the sub-categories will stay intact.</para>"
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:531
+#, kde-format
+msgctxt "@info"
+msgid "<para>Really delete group \"%1\"?</para>"
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:536
+#, fuzzy
+#| msgid "Delete Group"
+msgctxt "@title:window"
 msgid "Delete Group"
 msgstr "समूह मेटाउ"
+
+#: Settings/TagGroupsPage.cpp:714
+#, fuzzy, kde-format
+#| msgid "Rename..."
+msgctxt "@action:inmenu"
+msgid "Rename \"%1\""
+msgstr "नाम बदलू..."
+
+#: Settings/TagGroupsPage.cpp:716
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "Delete \"%1\""
+msgstr "मेटाबू"
+
+#: Settings/TagGroupsPage.cpp:726
+#, fuzzy
+#| msgid "Image"
+msgctxt "@title:window"
+msgid "New Tag Name"
+msgstr "चित्र"
+
+#: Settings/TagGroupsPage.cpp:727
+msgctxt "@label:textbox"
+msgid "Tag name:"
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:775
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Do you really want to delete \"%1\"?</para><para>Deleting the item "
+"will remove any information about it from any image containing the item.</"
+"para>"
+msgstr ""
+
+#: Settings/TagGroupsPage.cpp:779
+#, kde-format
+msgctxt "@title:window"
+msgid "Really delete %1?"
+msgstr ""
 
 #: Settings/ThumbnailsPage.cpp:36
 msgid "Tooltip preview image size:"
@@ -4261,7 +4373,7 @@ msgid "Unable to copy '%1' to '%2'."
 msgstr ""
 
 #: Utilities/Util.cpp:352 Utilities/Util.cpp:366 Utilities/Util.cpp:384
-#: Utilities/Util.cpp:401 XMLDB/FileReader.cpp:385
+#: Utilities/Util.cpp:401 XMLDB/FileReader.cpp:393
 msgid "Error Running Demo"
 msgstr ""
 
@@ -4815,7 +4927,7 @@ msgstr ""
 msgid "Unable to find 'Images' tag in configuration file %1."
 msgstr ""
 
-#: XMLDB/FileReader.cpp:304
+#: XMLDB/FileReader.cpp:312
 msgid ""
 "<p>Your images/videos are not sorted, which means that navigating using the "
 "date bar will only work suboptimally.</p><p>In the <b>Maintenance</b> menu, "
@@ -4828,7 +4940,7 @@ msgid ""
 "to sort them in the database. </p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:314
+#: XMLDB/FileReader.cpp:322
 msgid ""
 "<p>Your images/videos are not sorted, which means that navigating using the "
 "date bar will only work suboptimally.</p><p>You also do not have EXIF "
@@ -4838,11 +4950,11 @@ msgid ""
 "to do to correct all the missing information.</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:321
+#: XMLDB/FileReader.cpp:329
 msgid "Images/Videos Are Not Sorted"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:336
+#: XMLDB/FileReader.cpp:344
 msgid ""
 "<p>Not all the images in the database have information about image sizes; "
 "this is needed to get the best result in the thumbnail view. To fix this, "
@@ -4852,11 +4964,11 @@ msgid ""
 "that is all - so there is no urgency in doing it.</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:341
+#: XMLDB/FileReader.cpp:349
 msgid "Not All Images Have Size Information"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:364
+#: XMLDB/FileReader.cpp:372
 msgid ""
 "<p>KPhotoAlbum was unable to load a default setup, which indicates an "
 "installation error</p><p>If you have installed KPhotoAlbum yourself, then "
@@ -4869,31 +4981,31 @@ msgid ""
 "setting the <b>PATH</b> environment variable</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:371
+#: XMLDB/FileReader.cpp:379
 msgid "No default setup file found"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:385
+#: XMLDB/FileReader.cpp:393
 #, kde-format
 msgid "Unable to open '%1' for reading"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:398
+#: XMLDB/FileReader.cpp:406
 #, kde-format
 msgid "line %1 column %2 in file %3: %4"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:400
+#: XMLDB/FileReader.cpp:408
 #, kde-format
 msgid "Failed to recover the backup: %1"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:411
+#: XMLDB/FileReader.cpp:419
 #, kde-format
 msgid "Error in file %1: No elements found"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:417
+#: XMLDB/FileReader.cpp:425
 #, kde-format
 msgid "Error in file %1: expected 'KPhotoAlbum' as top element but found '%2'"
 msgstr ""
@@ -4983,9 +5095,6 @@ msgstr ""
 
 #~ msgid "none"
 #~ msgstr "किछु नहि"
-
-#~ msgid "Group:"
-#~ msgstr "समूह:"
 
 #~ msgid "x"
 #~ msgstr "x"
