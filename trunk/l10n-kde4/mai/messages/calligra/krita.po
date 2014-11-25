@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-24 01:50+0000\n"
+"POT-Creation-Date: 2014-11-25 01:43+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1511,8 +1511,18 @@ msgstr "दृष्टिगोचर"
 msgid "Locked"
 msgstr "तालाबन्न"
 
-#: image/kis_clone_layer.cpp:264
+#: image/kis_clone_layer.cpp:298
 msgid "Copy From"
+msgstr ""
+
+#: image/kis_dom_utils.cpp:104
+#, kde-format
+msgid "Could not find \"%1\" XML tag in \"%2\""
+msgstr ""
+
+#: image/kis_dom_utils.cpp:123
+#, kde-format
+msgid "Error: incorrect type (%2) for value %1. Expected %3"
 msgstr ""
 
 #: image/kis_filter_strategy.h:71
@@ -1784,7 +1794,7 @@ msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "चयन बढाउ"
 
-#: image/kis_selection_mask.cpp:123 ui/kis_node_model.cpp:447
+#: image/kis_selection_mask.cpp:116 ui/kis_node_model.cpp:447
 msgid "Active"
 msgstr "सक्रिय"
 
@@ -1854,7 +1864,7 @@ msgstr ""
 msgid "Invalid value."
 msgstr ""
 
-#: image/processing/kis_transform_processing_visitor.cpp:160
+#: image/processing/kis_transform_processing_visitor.cpp:169
 #, fuzzy
 #| msgid "Transform"
 msgctxt "(qtundo-format)"
@@ -2793,7 +2803,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:81
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:215
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:55
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:223
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:224
 msgid "Shape:"
 msgstr "आकार:"
 
@@ -3558,12 +3568,12 @@ msgid ""
 "interface> docker"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:486
-#: ui/kis_layer_manager.cc:275
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:487
+#: ui/kis_layer_manager.cc:277
 msgid "&Merge with Layer Below"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:490
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:491
 #, fuzzy
 #| msgid "Invert"
 msgid "&Convert"
@@ -4384,17 +4394,10 @@ msgstr "आनुपातिक"
 msgid "Search:"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgGmicInputOutput)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:14
-#, fuzzy
-#| msgid "Form"
-msgid "Form"
-msgstr "फार्म"
-
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
 #. i18n: ectx: property (text), widget (QCheckBox, previewCheckBox)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:30
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:27
 #: plugins/tools/defaulttools/kis_tool_line.cc:99
 #: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
 msgid "Preview"
@@ -4402,20 +4405,20 @@ msgstr "पूर्वावलोकन"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomIn)
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomInButton)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:48
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:45
 #: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:118
 msgid "Zoom In"
 msgstr "ज़ूम इन"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOut)
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutButton)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:64
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:61
 #: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:119
 msgid "Zoom Out"
 msgstr "ज़ूम आउट"
 
 #. i18n: ectx: property (text), widget (QLabel, inputLayerLabel)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:76
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:73
 #, fuzzy
 #| msgid "Input"
 msgid "Input"
@@ -4423,20 +4426,20 @@ msgstr "इनपुट"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpOutput)
 #. i18n: ectx: property (text), widget (QLabel, outputLayerLabel)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:86
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:83
 #: plugins/extensions/separate_channels/wdg_separations.ui:72
 msgid "Output"
 msgstr "आउटपुट"
 
 #. i18n: ectx: property (text), widget (QLabel, outputPreviewLabel)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:96
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:93
 #, fuzzy
 #| msgid "Preview"
 msgid "Preview mode"
 msgstr "पूर्वावलोकन"
 
 #. i18n: ectx: property (text), widget (QLabel, previewSizeLabel)
-#: plugins/extensions/gmic/wdg_gmic_input_output.ui:109
+#: plugins/extensions/gmic/wdg_gmic_input_output.ui:106
 #, fuzzy
 #| msgid "Preview"
 msgid "Preview size"
@@ -10716,60 +10719,67 @@ msgctxt "@info:progress"
 msgid "Gradient..."
 msgstr "झुकाव"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:226
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:227
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "रैखिक"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:227
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:228
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:228
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:229
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "अरीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:229
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:230
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "वर्ग"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:230
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:231
 msgctxt "the gradient will be drawn as an assymmetric cone"
 msgid "Conical"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:231
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:232
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:236
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:233
+#, fuzzy
+#| msgid "Shape"
+msgctxt "the gradient will be drawn in a selection outline"
+msgid "Shaped"
+msgstr "आकार"
+
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:237
 msgid "Repeat:"
 msgstr "दोहराबू:"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:239
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:240
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "किछु नहि"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:240
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:241
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:241
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:242
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:246
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:247
 msgid "Anti-alias threshold:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:253
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:254
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "विपरीत"
@@ -11430,7 +11440,7 @@ msgstr "पृष्ठभूमि रँग"
 msgid "Multiline"
 msgstr "खाका नहि"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.h:309
+#: plugins/tools/tool_transform2/kis_tool_transform.h:311
 msgid "Transform a layer or a selection"
 msgstr ""
 
@@ -11531,22 +11541,22 @@ msgid "Switch between editing and deforming cage"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:623
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:625
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1476
 msgid "Lock Points"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:625
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:627
 msgid "Unlock Points"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:712
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:714
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1492
 msgid "Create 3 points on the canvas to begin"
 msgstr ""
 
-#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:40
+#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:89
 #, fuzzy
 #| msgid "Transform"
 msgctxt "(qtundo-format)"
@@ -14708,150 +14718,163 @@ msgstr "पृष्ठभूमि रँग"
 msgid "Import Image"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:270
+#: ui/kis_layer_manager.cc:272
 msgid "&Flatten image"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:280
+#: ui/kis_layer_manager.cc:282
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&Flatten Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:284
+#: ui/kis_layer_manager.cc:286
 #, fuzzy
 #| msgid "Duplicate"
 msgid "Rename current layer"
 msgstr "नकल"
 
-#: ui/kis_layer_manager.cc:290
+#: ui/kis_layer_manager.cc:292
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "Rasterize Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:296
+#: ui/kis_layer_manager.cc:298
 #, fuzzy
 #| msgid "Add Layer"
 msgid "Save Group Layers..."
 msgstr "परत जोड़ू"
 
-#: ui/kis_layer_manager.cc:300
+#: ui/kis_layer_manager.cc:302
 msgid "Size Canvas to Size of Current Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:348
+#: ui/kis_layer_manager.cc:350
 msgid "Filter Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:393
+#: ui/kis_layer_manager.cc:395
 #, fuzzy
 #| msgid "Image Properties"
 msgid "Fill Layer Properties"
 msgstr "चित्र विशेषता"
 
-#: ui/kis_layer_manager.cc:474
+#: ui/kis_layer_manager.cc:476
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:554
+#: ui/kis_layer_manager.cc:556
 msgid "New Filter Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:613
+#: ui/kis_layer_manager.cc:615
 msgid "Could not add layer to image."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:613
+#: ui/kis_layer_manager.cc:615
 msgid "Layer Error"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:699
+#: ui/kis_layer_manager.cc:701
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:700
+#: ui/kis_layer_manager.cc:702
 msgid "Flatten Image"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:701
+#: ui/kis_layer_manager.cc:703
 msgid "&Flatten Image"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:767
+#: ui/kis_layer_manager.cc:769
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:803
+#: ui/kis_layer_manager.cc:805
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:806
+#: ui/kis_layer_manager.cc:808
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:863
+#: ui/kis_layer_manager.cc:865
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:863
+#: ui/kis_layer_manager.cc:865
 msgid "No file specified"
 msgstr ""
 
-#: ui/kis_mask_manager.cc:175
+#: ui/kis_mask_manager.cc:178
 #, fuzzy
 #| msgid "Selection"
 msgctxt "(qtundo-format)"
 msgid "Add Selection Mask"
 msgstr "चुनाव"
 
-#: ui/kis_mask_manager.cc:175
+#: ui/kis_mask_manager.cc:178
 #, fuzzy
 #| msgid "Selection"
 msgid "Selection"
 msgstr "चुनाव"
 
-#: ui/kis_mask_manager.cc:182
+#: ui/kis_mask_manager.cc:185
 #, fuzzy
 #| msgid "Transparent"
 msgctxt "(qtundo-format)"
 msgid "Add Transparency Mask"
 msgstr "पारदर्शी"
 
-#: ui/kis_mask_manager.cc:182
+#: ui/kis_mask_manager.cc:185
 msgid "Transparency Mask"
 msgstr ""
 
-#: ui/kis_mask_manager.cc:188
+#: ui/kis_mask_manager.cc:191
 #, fuzzy
 #| msgid "&Filter:"
 msgctxt "(qtundo-format)"
 msgid "Add Filter Mask"
 msgstr "फिल्टर: (&F)"
 
-#: ui/kis_mask_manager.cc:188
+#: ui/kis_mask_manager.cc:191
 #, fuzzy
 #| msgid "&Filter:"
 msgid "Filter Mask"
 msgstr "फिल्टर: (&F)"
 
-#: ui/kis_mask_manager.cc:199
+#: ui/kis_mask_manager.cc:202
 msgid "New Filter Mask"
 msgstr ""
 
 #: ui/kis_mask_manager.cc:231
 #, fuzzy
+#| msgid "Transparent"
+msgctxt "(qtundo-format)"
+msgid "Add Transform Mask"
+msgstr "पारदर्शी"
+
+#: ui/kis_mask_manager.cc:231
+#, fuzzy
+#| msgid "Transform"
+msgid "Transform Mask"
+msgstr "रूपांतरित करू"
+
+#: ui/kis_mask_manager.cc:240
+#, fuzzy
 #| msgid "Duplicate"
 msgid "Duplication of "
 msgstr "नकल"
 
-#: ui/kis_mask_manager.cc:266
+#: ui/kis_mask_manager.cc:275
 #, fuzzy
 #| msgid "&Filter:"
 msgid "Filter Mask Properties"
@@ -14951,101 +14974,107 @@ msgstr "फिल्टर: (&F)"
 
 #: ui/kis_node_manager.cpp:266
 #, fuzzy
+#| msgid "Transform"
+msgid "&Transform Mask..."
+msgstr "रूपांतरित करू"
+
+#: ui/kis_node_manager.cpp:269
+#, fuzzy
 #| msgid "Grow Selection"
 msgid "&Local Selection"
 msgstr "चयन बढाउ"
 
-#: ui/kis_node_manager.cpp:272
+#: ui/kis_node_manager.cpp:275
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "to &Paint Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_node_manager.cpp:275
+#: ui/kis_node_manager.cpp:278
 #, fuzzy
 #| msgid "Selection"
 msgid "to &Selection Mask"
 msgstr "चुनाव"
 
-#: ui/kis_node_manager.cpp:278
+#: ui/kis_node_manager.cpp:281
 #, fuzzy
 #| msgid "&Filter:"
 msgid "to &Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
-#: ui/kis_node_manager.cpp:281
+#: ui/kis_node_manager.cpp:284
 #, fuzzy
 #| msgid "Transparent"
 msgid "to &Transparency Mask"
 msgstr "पारदर्शी"
 
-#: ui/kis_node_manager.cpp:287
+#: ui/kis_node_manager.cpp:290
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&Isolate Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_node_manager.cpp:472
+#: ui/kis_node_manager.cpp:477
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "चयन बढाउ"
 
-#: ui/kis_node_manager.cpp:699
+#: ui/kis_node_manager.cpp:704
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "परत हटाबू"
 
-#: ui/kis_node_manager.cpp:713
+#: ui/kis_node_manager.cpp:718
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:744
+#: ui/kis_node_manager.cpp:749
 #, fuzzy
 #| msgid "Vertical:"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "उर्ध्वाधर"
 
-#: ui/kis_node_manager.cpp:746
+#: ui/kis_node_manager.cpp:751
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:757
+#: ui/kis_node_manager.cpp:762
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:759
+#: ui/kis_node_manager.cpp:764
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:858
+#: ui/kis_node_manager.cpp:863
 #, fuzzy
 #| msgid "Crop Image"
 msgid "Merged"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:861
+#: ui/kis_node_manager.cpp:866
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "चयन बढाउ"
 
-#: ui/kis_node_manager.cpp:952
+#: ui/kis_node_manager.cpp:957
 #, fuzzy, kde-format
 #| msgid "Export"
 msgid "Export \"%1\""
@@ -15458,81 +15487,89 @@ msgstr "ज़ूम इन"
 msgid "Iptc"
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:270
+#: ui/kra/kis_kra_load_visitor.cpp:274
+msgid "Could not load \"id\" of the transform mask"
+msgstr ""
+
+#: ui/kra/kis_kra_load_visitor.cpp:288
+msgid "Could not create transform mask params"
+msgstr ""
+
+#: ui/kra/kis_kra_load_visitor.cpp:323
 #, kde-format
 msgid "Could not read pixel data: %1."
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:277
+#: ui/kra/kis_kra_load_visitor.cpp:330
 #, kde-format
 msgid "Could not load pixel data: %1."
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:315
+#: ui/kra/kis_kra_load_visitor.cpp:368
 #, kde-format
 msgid "Could not load profile %1."
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:339
+#: ui/kra/kis_kra_load_visitor.cpp:392
 #, fuzzy, kde-format
 #| msgid "Saturation:"
 msgid "Could not filter configuration %1."
 msgstr "संतृप्ति:"
 
-#: ui/kra/kis_kra_load_visitor.cpp:368
+#: ui/kra/kis_kra_load_visitor.cpp:421
 #, kde-format
 msgid "Could not load metadata for layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:385
+#: ui/kra/kis_kra_load_visitor.cpp:438
 #, kde-format
 msgid "Could not load raster selection %1."
 msgstr ""
 
-#: ui/kra/kis_kra_load_visitor.cpp:401
+#: ui/kra/kis_kra_load_visitor.cpp:454
 #, fuzzy, kde-format
 #| msgid "Shrink Selection"
 msgid "Could not load vector selection %1."
 msgstr "चयन घोकचाबू"
 
-#: ui/kra/kis_kra_loader.cpp:187
+#: ui/kra/kis_kra_loader.cpp:188
 msgid "Image does not have a name."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:192
+#: ui/kra/kis_kra_loader.cpp:193
 msgid "Image does not specify a width."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:198
+#: ui/kra/kis_kra_loader.cpp:199
 msgid "Image does not specify a height."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:245
+#: ui/kra/kis_kra_loader.cpp:246
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:445
+#: ui/kra/kis_kra_loader.cpp:446
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:468
+#: ui/kra/kis_kra_loader.cpp:469
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:497
+#: ui/kra/kis_kra_loader.cpp:500
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:504
+#: ui/kra/kis_kra_loader.cpp:507
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:600
+#: ui/kra/kis_kra_loader.cpp:603
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -15540,13 +15577,13 @@ msgid ""
 "><nl/>Expected path:<nl/>%2<nl/><nl/>Do you want to locate it manually?"
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:606
+#: ui/kra/kis_kra_loader.cpp:609
 msgid "File not found"
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:84 ui/kra/kis_kra_save_visitor.cpp:107
-#: ui/kra/kis_kra_save_visitor.cpp:118 ui/kra/kis_kra_save_visitor.cpp:139
-#: ui/kra/kis_kra_save_visitor.cpp:161 ui/kra/kis_kra_save_visitor.cpp:173
+#: ui/kra/kis_kra_save_visitor.cpp:85 ui/kra/kis_kra_save_visitor.cpp:107
+#: ui/kra/kis_kra_save_visitor.cpp:116 ui/kra/kis_kra_save_visitor.cpp:137
+#: ui/kra/kis_kra_save_visitor.cpp:158 ui/kra/kis_kra_save_visitor.cpp:168
 #, kde-format
 msgid "Failed to save the metadata for layer %1."
 msgstr ""
@@ -15556,57 +15593,57 @@ msgstr ""
 msgid "Failed to save the pixel data for layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:103 ui/kra/kis_kra_save_visitor.cpp:153
+#: ui/kra/kis_kra_save_visitor.cpp:103 ui/kra/kis_kra_save_visitor.cpp:150
 #, kde-format
 msgid "Failed to save the annotations for layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:127
+#: ui/kra/kis_kra_save_visitor.cpp:125
 #, kde-format
 msgid "Failed to save the filter layer %1: it has no filter."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:131
+#: ui/kra/kis_kra_save_visitor.cpp:129
 #, kde-format
 msgid "Failed to save the selection for filter layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:135
+#: ui/kra/kis_kra_save_visitor.cpp:133
 #, kde-format
 msgid "Failed to save the filter configuration for filter layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:149
+#: ui/kra/kis_kra_save_visitor.cpp:146
 #, kde-format
 msgid "Failed to save the selection for layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:157
+#: ui/kra/kis_kra_save_visitor.cpp:154
 #, kde-format
 msgid "Failed to save the generator configuration for layer %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:182
+#: ui/kra/kis_kra_save_visitor.cpp:177
 #, kde-format
 msgid "Failed to save filter mask %1. It has no filter"
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:186
+#: ui/kra/kis_kra_save_visitor.cpp:181
 #, kde-format
 msgid "Failed to save the selection for filter mask %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:190
+#: ui/kra/kis_kra_save_visitor.cpp:185
 #, kde-format
 msgid "Failed to save the filter configuration for filter mask %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:200
+#: ui/kra/kis_kra_save_visitor.cpp:206
 #, kde-format
 msgid "Failed to save the selection for transparency mask %1."
 msgstr ""
 
-#: ui/kra/kis_kra_save_visitor.cpp:210
+#: ui/kra/kis_kra_save_visitor.cpp:215
 #, kde-format
 msgid "Failed to save the selection for local selection %1."
 msgstr ""
@@ -16027,6 +16064,11 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बन्न करू"
+
+#, fuzzy
+#~| msgid "Form"
+#~ msgid "Form"
+#~ msgstr "फार्म"
 
 #, fuzzy
 #~| msgid "Opacity"
@@ -16625,11 +16667,6 @@ msgstr "बन्न करू"
 #~| msgid "Palette"
 #~ msgid "Preset docker"
 #~ msgstr "रंग-पट्टिका"
-
-#, fuzzy
-#~| msgid "Transform"
-#~ msgid "&Transformation Mask..."
-#~ msgstr "रूपांतरित करू"
 
 #, fuzzy
 #~| msgctxt ""
