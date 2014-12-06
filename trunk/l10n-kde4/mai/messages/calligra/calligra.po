@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-01 01:44+0000\n"
+"POT-Creation-Date: 2014-12-06 01:42+0000\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -676,8 +676,9 @@ msgid "Double Precision Number"
 msgstr "संशोधन संख्या:"
 
 #: db/field.cpp:740 db/field.cpp:761
-#: koreport/items/text/KoReportTextPlugin.cpp:34 main/KoModeBox.cpp:600
+#: koreport/items/text/KoReportTextPlugin.cpp:34
 #: widgets/KoCsvImportDialog.cpp:217 widgets/KoCsvImportDialog.cpp:581
+#: widgets/KoModeBox.cpp:600
 msgid "Text"
 msgstr "पाठ"
 
@@ -1165,10 +1166,10 @@ msgstr "मानक"
 msgid "Lines"
 msgstr "रेखासभ"
 
-#. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
 #. i18n: ectx: property (text), widget (QLabel)
+#. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
 #: flake/KoConnectionShapeConfigWidget.ui:17
-#: main/koDocumentInfoAboutWidget.ui:141
+#: widgets/koDocumentInfoAboutWidget.ui:141
 msgid "Type:"
 msgstr "प्रकार:"
 
@@ -1500,7 +1501,7 @@ msgid ""
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:301 main/KoMainWindow.cpp:706
+#: kokross/KoScriptManager.cpp:301 main/KoMainWindow.cpp:688
 msgid "Save"
 msgstr "सहेजू"
 
@@ -1682,7 +1683,8 @@ msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "लेखक"
 
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:61 main/KoDocumentInfoDlg.cpp:137
+#: kopageapp/dialogs/KoPAConfigureDialog.cpp:61
+#: widgets/KoDocumentInfoDlg.cpp:136
 msgid "Author"
 msgstr "लेखक"
 
@@ -1783,7 +1785,7 @@ msgstr "हरिअर"
 msgid "C&ancel"
 msgstr "बदलू"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:90 main/KoMainWindow.cpp:1719
+#: kopageapp/KoPADocumentStructureDocker.cpp:90 main/KoMainWindow.cpp:1701
 msgid "Document"
 msgstr "दस्तावेज"
 
@@ -1913,7 +1915,7 @@ msgid_plural "Paste Pages"
 msgstr[0] "पृष्ठ जोड़ू"
 msgstr[1] "पृष्ठ जोड़ू"
 
-#: kopageapp/KoPAView.cpp:313 main/KoToolBoxDocker.cpp:33
+#: kopageapp/KoPAView.cpp:313 widgets/KoToolBoxDocker.cpp:33
 msgid "Tools"
 msgstr "अओजार"
 
@@ -1988,7 +1990,7 @@ msgstr ""
 msgid "Import Slideshow"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:501 main/KoMainWindow.cpp:1326
+#: kopageapp/KoPAView.cpp:501 main/KoMainWindow.cpp:1308
 msgid "Import Document"
 msgstr ""
 
@@ -3098,14 +3100,14 @@ msgstr "लाल"
 msgid "Redo %1"
 msgstr "लाल"
 
-#: kundo2/kundo2stack.cpp:1301 main/KoMainWindow.cpp:1546
+#: kundo2/kundo2stack.cpp:1301 main/KoMainWindow.cpp:1528
 #: main/KoUndoStackAction.cpp:46
 #, fuzzy
 #| msgid "Red"
 msgid "Redo"
 msgstr "लाल"
 
-#: kundo2/kundo2stack.cpp:1320 main/KoMainWindow.cpp:1545
+#: kundo2/kundo2stack.cpp:1320 main/KoMainWindow.cpp:1527
 #: main/KoUndoStackAction.cpp:38
 msgid "Undo"
 msgstr ""
@@ -3133,7 +3135,7 @@ msgstr ""
 msgid "Delete the author profile"
 msgstr ""
 
-#: main/config/KoConfigAuthorPage.cpp:80 main/KoView.cpp:406
+#: main/config/KoConfigAuthorPage.cpp:80 main/KoView.cpp:405
 msgid "Default Author Profile"
 msgstr ""
 
@@ -3146,77 +3148,82 @@ msgid "Name of Profile"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
-#: main/config/KoConfigAuthorPage.ui:20 main/koDocumentInfoAuthorWidget.ui:20
+#: main/config/KoConfigAuthorPage.ui:20
+#: widgets/koDocumentInfoAuthorWidget.ui:20
 msgid "Name:"
 msgstr "नाम:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
-#: main/config/KoConfigAuthorPage.ui:40 main/koDocumentInfoAuthorWidget.ui:37
+#: main/config/KoConfigAuthorPage.ui:40
+#: widgets/koDocumentInfoAuthorWidget.ui:37
 #, fuzzy
 #| msgid "Untitled"
 msgid "Initials:"
 msgstr "अनाम"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: main/config/KoConfigAuthorPage.ui:63 main/koDocumentInfoAuthorWidget.ui:60
+#: main/config/KoConfigAuthorPage.ui:63
+#: widgets/koDocumentInfoAuthorWidget.ui:60
 msgid "Title:"
 msgstr "शीर्षक:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
-#: main/config/KoConfigAuthorPage.ui:79 main/koDocumentInfoAuthorWidget.ui:77
+#: main/config/KoConfigAuthorPage.ui:79
+#: widgets/koDocumentInfoAuthorWidget.ui:77
 msgid "Position:"
 msgstr "स्थिति: "
 
 #. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
-#: main/config/KoConfigAuthorPage.ui:95 main/koDocumentInfoAuthorWidget.ui:94
+#: main/config/KoConfigAuthorPage.ui:95
+#: widgets/koDocumentInfoAuthorWidget.ui:94
 msgid "Company:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
 #: main/config/KoConfigAuthorPage.ui:111
-#: main/koDocumentInfoAuthorWidget.ui:104
+#: widgets/koDocumentInfoAuthorWidget.ui:104
 msgid "Email:"
 msgstr "इमेलः"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
 #: main/config/KoConfigAuthorPage.ui:127
-#: main/koDocumentInfoAuthorWidget.ui:114
+#: widgets/koDocumentInfoAuthorWidget.ui:114
 msgid "Telephone (home):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
 #: main/config/KoConfigAuthorPage.ui:143
-#: main/koDocumentInfoAuthorWidget.ui:124
+#: widgets/koDocumentInfoAuthorWidget.ui:124
 msgid "Telephone (work):"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
 #: main/config/KoConfigAuthorPage.ui:159
-#: main/koDocumentInfoAuthorWidget.ui:134
+#: widgets/koDocumentInfoAuthorWidget.ui:134
 msgid "Fax:"
 msgstr "फैक्सः"
 
 #. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
 #: main/config/KoConfigAuthorPage.ui:175
-#: main/koDocumentInfoAuthorWidget.ui:144
+#: widgets/koDocumentInfoAuthorWidget.ui:144
 msgid "Street:"
 msgstr "सड़कः"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
 #: main/config/KoConfigAuthorPage.ui:191
-#: main/koDocumentInfoAuthorWidget.ui:154
+#: widgets/koDocumentInfoAuthorWidget.ui:154
 msgid "Postal code:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
 #: main/config/KoConfigAuthorPage.ui:207
-#: main/koDocumentInfoAuthorWidget.ui:164
+#: widgets/koDocumentInfoAuthorWidget.ui:164
 msgid "City:"
 msgstr "शहर:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
 #: main/config/KoConfigAuthorPage.ui:223
-#: main/koDocumentInfoAuthorWidget.ui:174
+#: widgets/koDocumentInfoAuthorWidget.ui:174
 msgid "Country:"
 msgstr "देश:"
 
@@ -3449,12 +3456,12 @@ msgstr ""
 msgid "Not able to write RDF metadata. Partition full?"
 msgstr ""
 
-#: main/KoDocument.cpp:890 main/KoDocument.cpp:937 main/KoDocument.cpp:2010
+#: main/KoDocument.cpp:890 main/KoDocument.cpp:937 main/KoDocument.cpp:2013
 #, kde-format
 msgid "Error while trying to write '%1'. Partition full?"
 msgstr ""
 
-#: main/KoDocument.cpp:1220
+#: main/KoDocument.cpp:1223
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -3463,92 +3470,92 @@ msgstr ""
 "गलत URL\n"
 "%1"
 
-#: main/KoDocument.cpp:1236
+#: main/KoDocument.cpp:1239
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
 msgstr ""
 
-#: main/KoDocument.cpp:1353 main/KoDocument.cpp:1698 main/KoMainWindow.cpp:744
+#: main/KoDocument.cpp:1356 main/KoDocument.cpp:1701 main/KoMainWindow.cpp:726
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: main/KoDocument.cpp:1477
+#: main/KoDocument.cpp:1480
 #, fuzzy
 #| msgid "Open Document"
 msgid "Opening Document"
 msgstr "दस्तावेज खोलू"
 
-#: main/KoDocument.cpp:1492
+#: main/KoDocument.cpp:1495
 msgid "Could not create the filter plugin"
 msgstr ""
 
-#: main/KoDocument.cpp:1495
+#: main/KoDocument.cpp:1498
 msgid "Could not create the output document"
 msgstr ""
 
-#: main/KoDocument.cpp:1498
+#: main/KoDocument.cpp:1501
 msgid "File not found"
 msgstr "फाइल नहि भेटल"
 
-#: main/KoDocument.cpp:1501
+#: main/KoDocument.cpp:1504
 msgid "Cannot create storage"
 msgstr ""
 
-#: main/KoDocument.cpp:1504
+#: main/KoDocument.cpp:1507
 msgid "Bad MIME type"
 msgstr ""
 
-#: main/KoDocument.cpp:1507
+#: main/KoDocument.cpp:1510
 msgid "Error in embedded document"
 msgstr ""
 
-#: main/KoDocument.cpp:1510
+#: main/KoDocument.cpp:1513
 msgid "Format not recognized"
 msgstr ""
 
-#: main/KoDocument.cpp:1513
+#: main/KoDocument.cpp:1516
 msgid "Not implemented"
 msgstr ""
 
-#: main/KoDocument.cpp:1516
+#: main/KoDocument.cpp:1519
 msgid "Parsing error"
 msgstr ""
 
-#: main/KoDocument.cpp:1519
+#: main/KoDocument.cpp:1522
 msgid "Document is password protected"
 msgstr ""
 
-#: main/KoDocument.cpp:1522
+#: main/KoDocument.cpp:1525
 msgid "Invalid file format"
 msgstr ""
 
-#: main/KoDocument.cpp:1529
+#: main/KoDocument.cpp:1532
 msgid "Internal error"
 msgstr "भितरका त्रुटि"
 
-#: main/KoDocument.cpp:1532
+#: main/KoDocument.cpp:1535
 msgid "Out of memory"
 msgstr "स्मृति सँ बाहर"
 
-#: main/KoDocument.cpp:1535
+#: main/KoDocument.cpp:1538
 msgid "Empty Filter Plugin"
 msgstr ""
 
-#: main/KoDocument.cpp:1538
+#: main/KoDocument.cpp:1541
 msgid "Trying to load into the wrong kind of document"
 msgstr ""
 
-#: main/KoDocument.cpp:1541
+#: main/KoDocument.cpp:1544
 msgid "Failed to download remote file"
 msgstr ""
 
-#: main/KoDocument.cpp:1548
+#: main/KoDocument.cpp:1551
 msgid "Unknown error"
 msgstr "अज्ञात त्रुटि"
 
-#: main/KoDocument.cpp:1552
+#: main/KoDocument.cpp:1555
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -3556,320 +3563,122 @@ msgid ""
 "%3"
 msgstr ""
 
-#: main/KoDocument.cpp:1609
+#: main/KoDocument.cpp:1612
 #, kde-format
 msgid "Document <i>%1</i> loaded"
 msgstr ""
 
-#: main/KoDocument.cpp:1671 odf/KoOdfReadStore.cpp:111
+#: main/KoDocument.cpp:1674 odf/KoOdfReadStore.cpp:111
 #, kde-format
 msgid "Could not find %1"
 msgstr ""
 
-#: main/KoDocument.cpp:1683
+#: main/KoDocument.cpp:1686
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: main/KoDocument.cpp:1705
+#: main/KoDocument.cpp:1708
 #, kde-format
 msgid "%1 is not a file."
 msgstr ""
 
-#: main/KoDocument.cpp:1720
+#: main/KoDocument.cpp:1723
 msgid "Could not open the file for reading (check read permissions)."
 msgstr ""
 
-#: main/KoDocument.cpp:1731
+#: main/KoDocument.cpp:1734
 msgid "Could not read the beginning of the file."
 msgstr ""
 
-#: main/KoDocument.cpp:1761
+#: main/KoDocument.cpp:1764
 #, kde-format
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr ""
 
-#: main/KoDocument.cpp:1782
+#: main/KoDocument.cpp:1785
 #, kde-format
 msgid "Not a valid Calligra file: %1"
 msgstr ""
 
-#: main/KoDocument.cpp:1867
+#: main/KoDocument.cpp:1870
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr ""
 
-#: main/KoDocument.cpp:1891
+#: main/KoDocument.cpp:1894
 #, kde-format
 msgid ""
 "Document <i>%1</i> contains several versions. Go to File->Versions to open "
 "an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:2090 main/KoDocument.cpp:2572
-#: main/KoMainWindow.cpp:1248 pigment/resources/KoColorSet.cpp:342
+#: main/KoDocument.cpp:2093 main/KoDocument.cpp:2580
+#: main/KoMainWindow.cpp:1230 pigment/resources/KoColorSet.cpp:342
 #: pigment/resources/KoColorSet.cpp:440
 msgid "Untitled"
 msgstr "अनाम"
 
-#: main/KoDocument.cpp:2093 main/KoMainWindow.cpp:1251
+#: main/KoDocument.cpp:2096 main/KoMainWindow.cpp:1233
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr ""
 
-#: main/KoDocument.cpp:2176
+#: main/KoDocument.cpp:2179
 msgid "Internal error: saveXML not implemented"
 msgstr ""
 
-#: main/KoDocument.cpp:2213
+#: main/KoDocument.cpp:2216
 #, kde-format
 msgid ""
 "Could not open\n"
 "%1"
 msgstr ""
 
-#: main/KoDocument.cpp:2216
+#: main/KoDocument.cpp:2219
 #, kde-format
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
 msgstr ""
 
-#: main/KoDocument.cpp:2285
+#: main/KoDocument.cpp:2288
 msgid "a word processing"
 msgstr ""
 
-#: main/KoDocument.cpp:2286
+#: main/KoDocument.cpp:2289
 msgid "a spreadsheet"
 msgstr ""
 
-#: main/KoDocument.cpp:2287
+#: main/KoDocument.cpp:2290
 msgid "a presentation"
 msgstr ""
 
-#: main/KoDocument.cpp:2288
+#: main/KoDocument.cpp:2291
 msgid "a chart"
 msgstr ""
 
-#: main/KoDocument.cpp:2289
+#: main/KoDocument.cpp:2292
 msgid "a drawing"
 msgstr ""
 
-#: main/KoDocument.cpp:2576
+#: main/KoDocument.cpp:2584
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
 
-#: main/KoDocument.cpp:2578
+#: main/KoDocument.cpp:2586
 #, fuzzy
 #| msgid "Save Document"
 msgid "Close Document"
 msgstr "दस्तावेज सहेजू"
-
-#: main/KoDocumentInfo.cpp:54
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: main/koDocumentInfoAboutWidget.ui:23 main/KoDocumentInfoDlg.cpp:240
-#: main/KoDocumentInfoDlg.cpp:338
-msgid "&Encrypt"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
-#: main/koDocumentInfoAboutWidget.ui:64
-msgid "Keywords:"
-msgstr "बीजशब्द:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
-#: main/koDocumentInfoAboutWidget.ui:111
-msgid "Subject:"
-msgstr "विषय:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
-#: main/koDocumentInfoAboutWidget.ui:124
-msgid "Last printed:"
-msgstr "छपाइ कएल:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
-#: main/koDocumentInfoAboutWidget.ui:158
-msgid "Total editing time:"
-msgstr "कुल संपादनक समय:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
-#: main/koDocumentInfoAboutWidget.ui:178
-#, fuzzy
-#| msgid "Position"
-msgid "Encryption:"
-msgstr "स्थिति"
-
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: main/koDocumentInfoAboutWidget.ui:188
-#, fuzzy
-#| msgid "Title:"
-msgctxt "Document title"
-msgid "Title:"
-msgstr "शीर्षक:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
-#: main/koDocumentInfoAboutWidget.ui:201
-msgid "Revision number:"
-msgstr "संशोधन संख्या:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
-#: main/koDocumentInfoAboutWidget.ui:211
-msgid "Modified:"
-msgstr "परिवर्धितः"
-
-#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
-#: main/koDocumentInfoAboutWidget.ui:231
-msgid "Comments:"
-msgstr "टिप्पणीसभ:"
-
-#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
-#: main/koDocumentInfoAboutWidget.ui:251
-msgid "Created:"
-msgstr "बनएलक:"
-
-#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
-#: main/koDocumentInfoAboutWidget.ui:261
-msgid "Path:"
-msgstr "पथः"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbReset)
-#: main/koDocumentInfoAboutWidget.ui:280
-msgid "&Reset"
-msgstr "फिनु सेट करू (&R)"
-
-#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
-#: main/koDocumentInfoAboutWidget.ui:297
-#, fuzzy
-#| msgid "Insert Page"
-msgid "Language:"
-msgstr "पृष्ठ जोड़ू"
-
-#: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:341
-msgid "Document Information"
-msgstr "दस्ताबेज जानकारी"
-
-#: main/KoDocumentInfoDlg.cpp:111 main/KoDocumentInfoDlg.cpp:112
-msgid "General"
-msgstr "सामान्य"
-
-#: main/KoDocumentInfoDlg.cpp:138
-#, fuzzy
-#| msgid "Insert Page"
-msgid "Last saved by"
-msgstr "पृष्ठ जोड़ू"
-
-#: main/KoDocumentInfoDlg.cpp:195
-msgid "Use ';' (Example: Office;KDE;Calligra)"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:224 main/KoDocumentInfoDlg.cpp:322
-msgid "This document will be decrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:226 main/KoDocumentInfoDlg.cpp:324
-msgid "Do not decrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:228 main/KoDocumentInfoDlg.cpp:326
-msgid "This document is encrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:230 main/KoDocumentInfoDlg.cpp:328
-msgid "D&ecrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:234 main/KoDocumentInfoDlg.cpp:332
-msgid "This document will be encrypted."
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:236 main/KoDocumentInfoDlg.cpp:334
-msgid "Do not encrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:238 main/KoDocumentInfoDlg.cpp:336
-msgid "This document is not encrypted"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:244
-msgid "This document does not support encryption"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:357
-msgid ""
-"<qt>Decrypting the document will remove the password protection from it."
-"<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:359
-msgid "Confirm Decrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:360
-msgid "Decrypt"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:371
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"decryption, please save the document.</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:373 main/KoDocumentInfoDlg.cpp:381
-#: main/KoDocumentInfoDlg.cpp:414 main/KoDocumentInfoDlg.cpp:422
-msgid "Save Document"
-msgstr "दस्तावेज सहेजू"
-
-#: main/KoDocumentInfoDlg.cpp:379
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"decryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:393 main/KoMainWindow.cpp:879
-#, kde-format
-msgid "%1 (unknown file type)"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:396
-#, kde-format
-msgid ""
-"<qt>The document is currently saved as %1. The document needs to be changed "
-"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
-"file to OASIS OpenDocument?</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:398
-msgid "Change Filetype"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:399
-msgid "Change"
-msgstr "बदलू"
-
-#: main/KoDocumentInfoDlg.cpp:412
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"encryption, please save the document.</qt>"
-msgstr ""
-
-#: main/KoDocumentInfoDlg.cpp:420
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"encryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
 
 #: main/KoDocumentSectionDelegate.cpp:522
 #, kde-format
@@ -4000,178 +3809,147 @@ msgstr ""
 msgid "Search hit top, continuing from bottom."
 msgstr ""
 
-#: main/KoMainWindow.cpp:176
+#: main/KoMainWindow.cpp:173
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:299
+#: main/KoMainWindow.cpp:295
 msgid "Export as PDF..."
 msgstr "PDF रूपेँ निर्यात करू..."
 
-#: main/KoMainWindow.cpp:309
+#: main/KoMainWindow.cpp:305
 msgid "Reload"
 msgstr "पुनः लोड करू"
 
-#: main/KoMainWindow.cpp:313
+#: main/KoMainWindow.cpp:309
 msgid "Versions..."
 msgstr "संस्करण..."
 
-#: main/KoMainWindow.cpp:317
+#: main/KoMainWindow.cpp:313
 msgid "Open ex&isting Document as Untitled Document..."
 msgstr ""
 
-#: main/KoMainWindow.cpp:321
+#: main/KoMainWindow.cpp:317
 msgid "E&xport..."
 msgstr ""
 
-#: main/KoMainWindow.cpp:325
+#: main/KoMainWindow.cpp:321
 #, fuzzy
 #| msgid "Recent Documents"
 msgid "En&crypt Document"
 msgstr "हालक दस्ताबेज"
 
-#: main/KoMainWindow.cpp:330
+#: main/KoMainWindow.cpp:326
 msgid "&Uncompress to Directory"
 msgstr ""
 
-#: main/KoMainWindow.cpp:335
+#: main/KoMainWindow.cpp:331
 msgid "&New View"
 msgstr ""
 
-#: main/KoMainWindow.cpp:368
-msgid "&Themes"
-msgstr ""
+#: main/KoMainWindow.cpp:337 widgets/KoDocumentInfoDlg.cpp:92
+msgid "Document Information"
+msgstr "दस्ताबेज जानकारी"
 
-#: main/KoMainWindow.cpp:374
+#: main/KoMainWindow.cpp:361
 msgid "Full Screen Mode"
 msgstr "पूर्ण स्क्रीन मोड"
 
-#: main/KoMainWindow.cpp:379
+#: main/KoMainWindow.cpp:366
 #, fuzzy
 #| msgid "Show Guides"
 msgid "Show Dockers"
 msgstr "गाइड देखाबू"
 
-#: main/KoMainWindow.cpp:385
+#: main/KoMainWindow.cpp:372
 msgid "Dockers"
 msgstr ""
 
-#: main/KoMainWindow.cpp:699
+#: main/KoMainWindow.cpp:681
 msgid "(write protected)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:704
+#: main/KoMainWindow.cpp:686
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:887
+#: main/KoMainWindow.cpp:861 widgets/KoDocumentInfoDlg.cpp:393
+#, kde-format
+msgid "%1 (unknown file type)"
+msgstr ""
+
+#: main/KoMainWindow.cpp:869
 #, kde-format
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
 "want to save in this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:890
+#: main/KoMainWindow.cpp:872
 msgid "Confirm Save"
 msgstr "सहेजनाइ संपुष्ट करू"
 
-#: main/KoMainWindow.cpp:899
+#: main/KoMainWindow.cpp:881
 #, kde-format
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
 "want to export to this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:902
+#: main/KoMainWindow.cpp:884
 msgid "Confirm Export"
 msgstr ""
 
-#: main/KoMainWindow.cpp:903
+#: main/KoMainWindow.cpp:885
 msgid "Export"
 msgstr "निर्यात"
 
-#: main/KoMainWindow.cpp:993
+#: main/KoMainWindow.cpp:975
 #, fuzzy
 #| msgid "Untitled"
 msgid "untitled"
 msgstr "अनाम"
 
-#: main/KoMainWindow.cpp:1317
+#: main/KoMainWindow.cpp:1299
 msgid "Open Document"
 msgstr "दस्तावेज खोलू"
 
-#: main/KoMainWindow.cpp:1489
+#: main/KoMainWindow.cpp:1471
 #, fuzzy
 #| msgid "Export as PDF..."
 msgid "Export as PDF"
 msgstr "PDF रूपेँ निर्यात करू..."
 
-#: main/KoMainWindow.cpp:1526
+#: main/KoMainWindow.cpp:1508
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1727
+#: main/KoMainWindow.cpp:1709
 #, kde-format
 msgid "Document - %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1757
+#: main/KoMainWindow.cpp:1739
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1759
+#: main/KoMainWindow.cpp:1741
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: main/KoMainWindow.cpp:2096
+#: main/KoMainWindow.cpp:2078
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2098
+#: main/KoMainWindow.cpp:2080
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
-
-#: main/KoModeBox.cpp:603
-#, fuzzy
-#| msgid "Text"
-msgid "Icon and Text"
-msgstr "पाठ"
-
-#: main/KoModeBox.cpp:604
-msgid "Icon only"
-msgstr ""
-
-#: main/KoModeBox.cpp:607
-msgid "Tabs side"
-msgstr ""
-
-#: main/KoModeBox.cpp:611
-msgid "Top side"
-msgstr ""
-
-#: main/KoModeBox.cpp:612
-#, fuzzy
-#| msgid "Bottom:"
-msgid "Bottom side"
-msgstr "नीच्चाँ:"
-
-#: main/KoModeBox.cpp:615
-#, fuzzy
-#| msgid "&Left:"
-msgid "Left side"
-msgstr "बम्माँ (&L):"
-
-#: main/KoModeBox.cpp:616
-#, fuzzy
-#| msgid "Lighten"
-msgid "Right side"
-msgstr "हलुक करू"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
 #: main/KoOpenPane.cpp:137 main/KoOpenPane.cpp:201 main/KoOpenPaneBase.ui:60
@@ -4333,14 +4111,6 @@ msgstr ""
 msgid "Use This Template"
 msgstr ""
 
-#: main/KoToolDocker_p.cpp:194
-msgid "Tool Options"
-msgstr "अओजार विकल्प"
-
-#: main/KoToolDocker_p.cpp:227
-msgid "Toggles organizing the options in tabs or not"
-msgstr ""
-
 #: main/KoVersionDialog.cpp:48
 msgid "Version"
 msgstr "संस्करण"
@@ -4378,40 +4148,18 @@ msgstr ""
 msgid "Date: %1"
 msgstr ""
 
-#: main/KoView.cpp:341
+#: main/KoView.cpp:340
 msgid "Active Author Profile"
 msgstr ""
 
-#: main/KoView.cpp:353 main/KoView.cpp:407
+#: main/KoView.cpp:352 main/KoView.cpp:406
 msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr ""
 
-#: main/thememanager.cpp:75
-#, fuzzy
-#| msgid "Default"
-msgctxt "default theme name"
-msgid "Default"
-msgstr "मूलभूत"
-
-#: main/thememanager.cpp:256
-#, fuzzy
-#| msgid "Confirm Save"
-msgid "Configuration..."
-msgstr "सहेजनाइ संपुष्ट करू"
-
-#: main/thememanager.cpp:270
-msgid ""
-"Cannot start Colors Settings panel from KDE Control Center. Please check "
-"your system..."
-msgstr ""
-
-#. i18n: ectx: Menu (Tools)
-#: main/thememanager.rc:4
-#, fuzzy
-#| msgid "Tools"
-msgid "&Tools"
-msgstr "अओजार"
+#: odf/KoDocumentInfo.cpp:54
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: odf/KoEncryptedStore.cpp:242
 msgid ""
@@ -4626,39 +4374,39 @@ msgstr ""
 msgid "Calligra Storage"
 msgstr ""
 
-#: odf/KoUnit.cpp:46
+#: odf/KoUnit.cpp:49
 msgid "Millimeters (mm)"
 msgstr "मिललमीटर्स (मिमी)"
 
-#: odf/KoUnit.cpp:48
+#: odf/KoUnit.cpp:51
 msgid "Centimeters (cm)"
 msgstr "सेन्टीमीटर (सेमी)"
 
-#: odf/KoUnit.cpp:50
+#: odf/KoUnit.cpp:53
 msgid "Decimeters (dm)"
 msgstr ""
 
-#: odf/KoUnit.cpp:52
+#: odf/KoUnit.cpp:55
 msgid "Inches (in)"
 msgstr "इंच (in)"
 
-#: odf/KoUnit.cpp:54
+#: odf/KoUnit.cpp:57
 msgid "Pica (pi)"
 msgstr ""
 
-#: odf/KoUnit.cpp:56
+#: odf/KoUnit.cpp:59
 msgid "Cicero (cc)"
 msgstr ""
 
-#: odf/KoUnit.cpp:58
+#: odf/KoUnit.cpp:61
 msgid "Points (pt)"
 msgstr "Points (pt)"
 
-#: odf/KoUnit.cpp:60
+#: odf/KoUnit.cpp:63
 msgid "Pixels (px)"
 msgstr ""
 
-#: odf/KoUnit.cpp:62
+#: odf/KoUnit.cpp:65
 msgid "Unsupported unit"
 msgstr ""
 
@@ -5954,6 +5702,191 @@ msgctxt "@info:tooltip"
 msgid "Lock Docker"
 msgstr "गाइड देखाबू"
 
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#: widgets/koDocumentInfoAboutWidget.ui:23 widgets/KoDocumentInfoDlg.cpp:239
+#: widgets/KoDocumentInfoDlg.cpp:337
+msgid "&Encrypt"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:64
+msgid "Keywords:"
+msgstr "बीजशब्द:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:111
+msgid "Subject:"
+msgstr "विषय:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:124
+msgid "Last printed:"
+msgstr "छपाइ कएल:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:158
+msgid "Total editing time:"
+msgstr "कुल संपादनक समय:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:178
+#, fuzzy
+#| msgid "Position"
+msgid "Encryption:"
+msgstr "स्थिति"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:188
+#, fuzzy
+#| msgid "Title:"
+msgctxt "Document title"
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:201
+msgid "Revision number:"
+msgstr "संशोधन संख्या:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:211
+msgid "Modified:"
+msgstr "परिवर्धितः"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:231
+msgid "Comments:"
+msgstr "टिप्पणीसभ:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:251
+msgid "Created:"
+msgstr "बनएलक:"
+
+#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
+#: widgets/koDocumentInfoAboutWidget.ui:261
+msgid "Path:"
+msgstr "पथः"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbReset)
+#: widgets/koDocumentInfoAboutWidget.ui:280
+msgid "&Reset"
+msgstr "फिनु सेट करू (&R)"
+
+#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:297
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Language:"
+msgstr "पृष्ठ जोड़ू"
+
+#: widgets/KoDocumentInfoDlg.cpp:110 widgets/KoDocumentInfoDlg.cpp:111
+msgid "General"
+msgstr "सामान्य"
+
+#: widgets/KoDocumentInfoDlg.cpp:137
+#, fuzzy
+#| msgid "Insert Page"
+msgid "Last saved by"
+msgstr "पृष्ठ जोड़ू"
+
+#: widgets/KoDocumentInfoDlg.cpp:194
+msgid "Use ';' (Example: Office;KDE;Calligra)"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:223 widgets/KoDocumentInfoDlg.cpp:321
+msgid "This document will be decrypted"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:225 widgets/KoDocumentInfoDlg.cpp:323
+msgid "Do not decrypt"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:227 widgets/KoDocumentInfoDlg.cpp:325
+msgid "This document is encrypted"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:229 widgets/KoDocumentInfoDlg.cpp:327
+msgid "D&ecrypt"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:233 widgets/KoDocumentInfoDlg.cpp:331
+msgid "This document will be encrypted."
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:235 widgets/KoDocumentInfoDlg.cpp:333
+msgid "Do not encrypt"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:237 widgets/KoDocumentInfoDlg.cpp:335
+msgid "This document is not encrypted"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:243
+msgid "This document does not support encryption"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:357
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:359
+msgid "Confirm Decrypt"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:360
+msgid "Decrypt"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:371
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"decryption, please save the document.</qt>"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:373 widgets/KoDocumentInfoDlg.cpp:381
+#: widgets/KoDocumentInfoDlg.cpp:414 widgets/KoDocumentInfoDlg.cpp:422
+msgid "Save Document"
+msgstr "दस्तावेज सहेजू"
+
+#: widgets/KoDocumentInfoDlg.cpp:379
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"decryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:396
+#, kde-format
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed "
+"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
+"file to OASIS OpenDocument?</qt>"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:398
+msgid "Change Filetype"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:399
+msgid "Change"
+msgstr "बदलू"
+
+#: widgets/KoDocumentInfoDlg.cpp:412
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"encryption, please save the document.</qt>"
+msgstr ""
+
+#: widgets/KoDocumentInfoDlg.cpp:420
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"encryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, remove)
 #: widgets/KoEditColorSet.ui:55
 msgid "Remove"
@@ -6161,6 +6094,42 @@ msgstr ""
 #: widgets/KoFillConfigWidget.cpp:280
 msgid "Change the filling color"
 msgstr ""
+
+#: widgets/KoModeBox.cpp:603
+#, fuzzy
+#| msgid "Text"
+msgid "Icon and Text"
+msgstr "पाठ"
+
+#: widgets/KoModeBox.cpp:604
+msgid "Icon only"
+msgstr ""
+
+#: widgets/KoModeBox.cpp:607
+msgid "Tabs side"
+msgstr ""
+
+#: widgets/KoModeBox.cpp:611
+msgid "Top side"
+msgstr ""
+
+#: widgets/KoModeBox.cpp:612
+#, fuzzy
+#| msgid "Bottom:"
+msgid "Bottom side"
+msgstr "नीच्चाँ:"
+
+#: widgets/KoModeBox.cpp:615
+#, fuzzy
+#| msgid "&Left:"
+msgid "Left side"
+msgstr "बम्माँ (&L):"
+
+#: widgets/KoModeBox.cpp:616
+#, fuzzy
+#| msgid "Lighten"
+msgid "Right side"
+msgstr "हलुक करू"
 
 #: widgets/KoPageLayoutDialog.cpp:46
 msgid "Page Layout"
@@ -6383,7 +6352,7 @@ msgstr ""
 msgid "Right indent"
 msgstr ""
 
-#: widgets/KoShadowConfigWidget.cpp:67
+#: widgets/KoShadowConfigWidget.cpp:68
 msgid "Change the color of the shadow"
 msgstr ""
 
@@ -6505,6 +6474,14 @@ msgstr ""
 msgid "Undelete"
 msgstr "मेटाबू"
 
+#: widgets/KoToolDocker.cpp:194
+msgid "Tool Options"
+msgstr "अओजार विकल्प"
+
+#: widgets/KoToolDocker.cpp:227
+msgid "Toggles organizing the options in tabs or not"
+msgstr ""
+
 #: widgets/KoUniColorChooser.cpp:132
 msgid "Value (brightness)"
 msgstr ""
@@ -6588,6 +6565,22 @@ msgstr ""
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1%"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgctxt "default theme name"
+#~ msgid "Default"
+#~ msgstr "मूलभूत"
+
+#, fuzzy
+#~| msgid "Confirm Save"
+#~ msgid "Configuration..."
+#~ msgstr "सहेजनाइ संपुष्ट करू"
+
+#, fuzzy
+#~| msgid "Tools"
+#~ msgid "&Tools"
+#~ msgstr "अओजार"
 
 #, fuzzy
 #~| msgid "Format"
