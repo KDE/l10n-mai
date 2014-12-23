@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-22 01:56+0000\n"
+"POT-Creation-Date: 2014-12-23 01:57+0000\n"
 "PO-Revision-Date: 2010-09-24 20:24+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -79,7 +79,7 @@ msgstr ""
 msgid "Dependency"
 msgstr ""
 
-#: basictypes.cpp:335 worktoolbar.cpp:316
+#: basictypes.cpp:335 widgets/widgetbase.cpp:1013 worktoolbar.cpp:316
 msgid "Association"
 msgstr ""
 
@@ -131,7 +131,8 @@ msgstr "एंकर"
 msgid "State Transition"
 msgstr ""
 
-#: basictypes.cpp:361 dialogs/activitydialog.cpp:137 worktoolbar.cpp:358
+#: basictypes.cpp:361 dialogs/activitydialog.cpp:137
+#: widgets/widgetbase.cpp:1004 worktoolbar.cpp:358
 msgid "Activity"
 msgstr "क्रियासभ"
 
@@ -690,9 +691,9 @@ msgstr ""
 #: dialogs/pages/associationgeneralpage.cpp:82
 #: dialogs/pages/associationrolepage.cpp:91
 #: dialogs/pages/associationrolepage.cpp:92
-#: dialogs/pages/classgeneralpage.cpp:186
+#: dialogs/pages/classgeneralpage.cpp:141
+#: dialogs/pages/classgeneralpage.cpp:203
 #: dialogs/pages/classgeneralpage.cpp:248
-#: dialogs/pages/classgeneralpage.cpp:301
 #: dialogs/pages/classifierlistpage.cpp:218
 #: dialogs/pages/diagrampropertiespage.ui:257
 #: dialogs/pages/umlrolepropertiesbase.ui:140
@@ -1198,6 +1199,7 @@ msgstr "स्थिति"
 
 #. i18n: ectx: property (text), widget (QTableWidget, ui_tableWidgetStatus)
 #: codegenwizard/codegenstatuspage.ui:40 codeimpwizard/codeimpstatuspage.ui:54
+#: widgets/widgetbase.cpp:1028
 msgid "Class"
 msgstr "वर्ग"
 
@@ -2120,122 +2122,56 @@ msgstr ""
 msgid "Show export layout in diagram context menu"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:74
-msgid "Class &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:77
-msgid "Actor &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:80
-msgid "Package &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:83
-msgid "Use case &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:86
-msgid "Interface &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:89
-msgid "Component &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:92
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgid "Port &name:"
-msgstr "संगीता कुमारी"
-
-#: dialogs/pages/classgeneralpage.cpp:95
-msgid "Node &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:98
-msgid "Artifact &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:101
-msgid "Enum &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:104
-msgid "Datatype &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:107
-msgid "Entity &name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:110
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgid "Stereotype &name:"
-msgstr "संगीता कुमारी"
-
-#: dialogs/pages/classgeneralpage.cpp:138
+#: dialogs/pages/classgeneralpage.cpp:93
 msgid "Reference:"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:154
+#: dialogs/pages/classgeneralpage.cpp:109
 msgid "A&bstract class"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:156
+#: dialogs/pages/classgeneralpage.cpp:111
 msgid "A&bstract use case"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:165
+#: dialogs/pages/classgeneralpage.cpp:120
 msgctxt "component is executable"
 msgid "&Executable"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:221
+#: dialogs/pages/classgeneralpage.cpp:176
 msgid "Class name:"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:224
-#: dialogs/pages/classgeneralpage.cpp:293
+#: dialogs/pages/classgeneralpage.cpp:179
+#: dialogs/pages/classgeneralpage.cpp:240
 msgid "Instance name:"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:229
+#: dialogs/pages/classgeneralpage.cpp:184
 msgid "Draw as actor"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:234
+#: dialogs/pages/classgeneralpage.cpp:189
 msgid "Multiple instance"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:240
+#: dialogs/pages/classgeneralpage.cpp:195
 msgid "Show destruction"
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:280
-msgid "Component name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:282
-msgid "Node name:"
-msgstr ""
-
-#: dialogs/pages/classgeneralpage.cpp:339
-#: dialogs/pages/classgeneralpage.cpp:372
-#: dialogs/pages/classgeneralpage.cpp:385
+#: dialogs/pages/classgeneralpage.cpp:286
+#: dialogs/pages/classgeneralpage.cpp:319
+#: dialogs/pages/classgeneralpage.cpp:332
 msgid ""
 "The name you have chosen\n"
 "is already being used.\n"
 "The name has been reset."
 msgstr ""
 
-#: dialogs/pages/classgeneralpage.cpp:340
-#: dialogs/pages/classgeneralpage.cpp:373
-#: dialogs/pages/classgeneralpage.cpp:386
+#: dialogs/pages/classgeneralpage.cpp:287
+#: dialogs/pages/classgeneralpage.cpp:320
+#: dialogs/pages/classgeneralpage.cpp:333
 msgid "Name is Not Unique"
 msgstr ""
 
@@ -3626,19 +3562,19 @@ msgstr ""
 msgid "Subsystem"
 msgstr "सबसिस्टम"
 
-#: listpopupmenu.cpp:758 worktoolbar.cpp:340
+#: listpopupmenu.cpp:758 widgets/widgetbase.cpp:1025 worktoolbar.cpp:340
 msgid "Component"
 msgstr "घटक"
 
-#: listpopupmenu.cpp:761
+#: listpopupmenu.cpp:761 widgets/widgetbase.cpp:1070
 msgid "Port"
 msgstr ""
 
-#: listpopupmenu.cpp:764 worktoolbar.cpp:342
+#: listpopupmenu.cpp:764 widgets/widgetbase.cpp:1010 worktoolbar.cpp:342
 msgid "Artifact"
 msgstr ""
 
-#: listpopupmenu.cpp:775 worktoolbar.cpp:341
+#: listpopupmenu.cpp:775 widgets/widgetbase.cpp:1052 worktoolbar.cpp:341
 msgid "Node"
 msgstr "नोड"
 
@@ -3646,15 +3582,15 @@ msgstr "नोड"
 msgid "Folder"
 msgstr "फोल्डर"
 
-#: listpopupmenu.cpp:791 worktoolbar.cpp:346
+#: listpopupmenu.cpp:791 widgets/widgetbase.cpp:1034 worktoolbar.cpp:346
 msgid "Entity"
 msgstr "एंटिटी"
 
-#: listpopupmenu.cpp:801 worktoolbar.cpp:369
+#: listpopupmenu.cpp:801 widgets/widgetbase.cpp:1019 worktoolbar.cpp:369
 msgid "Category"
 msgstr "श्रेणी"
 
-#: listpopupmenu.cpp:804 worktoolbar.cpp:322
+#: listpopupmenu.cpp:804 widgets/widgetbase.cpp:1007 worktoolbar.cpp:322
 msgid "Actor"
 msgstr "अभिनेता"
 
@@ -3676,19 +3612,20 @@ msgctxt "new class menu item"
 msgid "Class"
 msgstr "वर्ग"
 
-#: listpopupmenu.cpp:926 worktoolbar.cpp:343
+#: listpopupmenu.cpp:926 widgets/widgetbase.cpp:1046 worktoolbar.cpp:343
 msgid "Interface"
 msgstr "अंतरफलक"
 
-#: listpopupmenu.cpp:927 worktoolbar.cpp:344
+#: listpopupmenu.cpp:927 widgets/widgetbase.cpp:1031 worktoolbar.cpp:344
 msgid "Datatype"
 msgstr ""
 
-#: listpopupmenu.cpp:928 worktoolbar.cpp:345
+#: listpopupmenu.cpp:928 widgets/widgetbase.cpp:1037 worktoolbar.cpp:345
 msgid "Enum"
 msgstr ""
 
-#: listpopupmenu.cpp:929 listpopupmenu.cpp:1138 worktoolbar.cpp:339
+#: listpopupmenu.cpp:929 listpopupmenu.cpp:1138 widgets/widgetbase.cpp:1064
+#: worktoolbar.cpp:339
 msgid "Package"
 msgstr "संकुल"
 
@@ -5832,6 +5769,71 @@ msgstr ""
 msgid "Name Not Valid"
 msgstr ""
 
+#: umlobject.cpp:1092
+msgid "Actor &name:"
+msgstr ""
+
+#: umlobject.cpp:1095
+msgid "Artifact &name:"
+msgstr ""
+
+#: umlobject.cpp:1098
+msgid "Class &name:"
+msgstr ""
+
+#: umlobject.cpp:1101
+msgid "Component &name:"
+msgstr ""
+
+#: umlobject.cpp:1104
+msgid "Datatype &name:"
+msgstr ""
+
+#: umlobject.cpp:1107
+msgid "Entity &name:"
+msgstr ""
+
+#: umlobject.cpp:1110
+msgid "Enum &name:"
+msgstr ""
+
+#: umlobject.cpp:1113
+#, fuzzy
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Folder &name:"
+msgstr "संगीता कुमारी"
+
+#: umlobject.cpp:1116
+msgid "Interface &name:"
+msgstr ""
+
+#: umlobject.cpp:1119
+msgid "Node &name:"
+msgstr ""
+
+#: umlobject.cpp:1122
+msgid "Package &name:"
+msgstr ""
+
+#: umlobject.cpp:1125
+#, fuzzy
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Port &name:"
+msgstr "संगीता कुमारी"
+
+#: umlobject.cpp:1128
+#, fuzzy
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Stereotype &name:"
+msgstr "संगीता कुमारी"
+
+#: umlobject.cpp:1131
+msgid "Use case &name:"
+msgstr ""
+
 #: umlscene.cpp:525
 #, kde-format
 msgid "Diagram: %2 Page %1"
@@ -6046,7 +6048,7 @@ msgstr "नाम"
 msgid "Enter operation name:"
 msgstr ""
 
-#: widgets/notewidget.cpp:183 worktoolbar.cpp:315
+#: widgets/notewidget.cpp:183 widgets/widgetbase.cpp:1073 worktoolbar.cpp:315
 msgid "Precondition"
 msgstr ""
 
@@ -6208,14 +6210,76 @@ msgid ""
 "axis. Right button click to cancel resize."
 msgstr ""
 
+#: widgets/widgetbase.cpp:1016 worktoolbar.cpp:321
+msgid "Box"
+msgstr "बक्सा"
+
+#: widgets/widgetbase.cpp:1022
+#, fuzzy
+#| msgid "Comment"
+msgid "CombinedFragment"
+msgstr "टिप्पणी"
+
+#: widgets/widgetbase.cpp:1040
+msgid "FloatingDashLine"
+msgstr ""
+
+#: widgets/widgetbase.cpp:1043
+#, fuzzy
+#| msgctxt "join states"
+#| msgid "Join"
+msgid "ForkJoin"
+msgstr "सामिल होउ"
+
+#: widgets/widgetbase.cpp:1049
+msgid "Message"
+msgstr "संदेश"
+
+#: widgets/widgetbase.cpp:1055 worktoolbar.cpp:320
+msgid "Note"
+msgstr "नोट"
+
+#: widgets/widgetbase.cpp:1058 worktoolbar.cpp:309
+msgid "Object"
+msgstr "वस्तु"
+
+#: widgets/widgetbase.cpp:1061
+#, fuzzy
+#| msgid "Object"
+msgid "ObjectNode"
+msgstr "वस्तु"
+
+#: widgets/widgetbase.cpp:1067 worktoolbar.cpp:362
+msgid "Pin"
+msgstr "पिन"
+
+#: widgets/widgetbase.cpp:1076 worktoolbar.cpp:332
+msgid "Region"
+msgstr "क्षेत्र"
+
+#: widgets/widgetbase.cpp:1079
+msgid "Signal"
+msgstr ""
+
+#: widgets/widgetbase.cpp:1082
+#, fuzzy
+#| msgctxt "state in statechart"
+#| msgid "State"
+msgid "State"
+msgstr "स्थिति"
+
+#: widgets/widgetbase.cpp:1085
+msgid "Text"
+msgstr ""
+
+#: widgets/widgetbase.cpp:1088
+msgid "UseCase"
+msgstr ""
+
 #: worktoolbar.cpp:308
 msgctxt "selection arrow"
 msgid "Select"
 msgstr "चुनू"
-
-#: worktoolbar.cpp:309
-msgid "Object"
-msgstr "वस्तु"
 
 #: worktoolbar.cpp:310 worktoolbar.cpp:364
 msgid "Synchronous Message"
@@ -6241,14 +6305,6 @@ msgstr ""
 msgid "Label"
 msgstr "लेबल"
 
-#: worktoolbar.cpp:320
-msgid "Note"
-msgstr "नोट"
-
-#: worktoolbar.cpp:321
-msgid "Box"
-msgstr "बक्सा"
-
 #: worktoolbar.cpp:326
 msgid "Directional Association"
 msgstr ""
@@ -6261,10 +6317,6 @@ msgstr ""
 msgctxt "UML class"
 msgid "Class"
 msgstr "वर्ग"
-
-#: worktoolbar.cpp:332
-msgid "Region"
-msgstr "क्षेत्र"
 
 #: worktoolbar.cpp:335
 msgid "Send signal"
@@ -6309,10 +6361,6 @@ msgstr "स्थिति"
 msgid "Final Activity"
 msgstr ""
 
-#: worktoolbar.cpp:362
-msgid "Pin"
-msgstr "पिन"
-
 #: worktoolbar.cpp:367
 msgid "Object Node"
 msgstr ""
@@ -6340,9 +6388,6 @@ msgstr ""
 #~ msgctxt "class scope"
 #~ msgid "Class"
 #~ msgstr "वर्ग"
-
-#~ msgid "Message"
-#~ msgstr "संदेश"
 
 #, fuzzy
 #~| msgctxt "new container menu"
