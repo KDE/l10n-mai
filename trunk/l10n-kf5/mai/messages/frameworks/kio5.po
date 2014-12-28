@@ -1,22 +1,26 @@
-# translation of kio4.po to Maithili
+# translation of kcmkio.po to Maithili
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sangeeta Kumari <sangeeta09@gmail.com>, 2008.
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: kio4\n"
+"Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-12-26 08:15+0000\n"
-"PO-Revision-Date: 2008-12-03 15:07+0530\n"
-"Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
+"PO-Revision-Date: 2010-01-29 13:15+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
 "Language: mai\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
 
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -3628,8 +3632,8 @@ msgstr "सभटा कुकीज़ (&c)"
 #| msgid ""
 #| "Select this option to accept/reject all cookies from anywhere. Choosing "
 #| "this option will change the global cookie policy set in the Control "
-#| "Center for all cookies <em>(see WebBrowsing/Cookies in the Control Center)"
-#| "</em>."
+#| "Center for all cookies <em>(see WebBrowsing/Cookies in the Control "
+#| "Center)</em>."
 msgid ""
 "Select this option to accept/reject all cookies from anywhere. Choosing this "
 "option will change the global cookie policy for all cookies until you "
@@ -3890,28 +3894,26 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseCache)
 #: kcms/kio/cache.ui:20
-#, fuzzy
-#| msgid "&Username:"
 msgid "&Use cache"
-msgstr "प्रयोक्ता नाम: (&U)"
+msgstr "कैश इस्तेमाल करू (&U)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/cache.ui:46 kcms/kio/kcookiespolicies.ui:168
 msgid "Policy"
-msgstr ""
+msgstr "नीति"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbVerifyCache)
 #: kcms/kio/cache.ui:52
 msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
-msgstr ""
+msgstr "वेब पृष्ठ केँ फिनु सँ लाबै की कोसिस सँ पहिने जाँचि लिअ' जे कैच्ड वेब पृष्ठ वैध अछि. "
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
 #: kcms/kio/cache.ui:55
 msgid "&Keep cache in sync"
-msgstr ""
+msgstr "कैश केँ सिंक मे राखू (&K)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:62
@@ -3919,11 +3921,13 @@ msgid ""
 "Always use documents from the cache when available. You can still use the "
 "reload button to synchronize the cache with the remote host."
 msgstr ""
+"जखन उपलब्ध अछि, हरदम कैश सँ दस्ताबेज प्रयोग करू. अहाँ तखन रीलोड बटन क' उपयोग रिमोट "
+"होस्ट केर सँग कैश सिंक्रोनाइज करब क' लेल कए सकैत छी."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
 #: kcms/kio/cache.ui:65
 msgid "Use cache whenever &possible"
-msgstr ""
+msgstr "जतए तकि संभव अछि कैश इस्तेमाल करू (&p)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:72
@@ -3935,12 +3939,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
 #: kcms/kio/cache.ui:75
 msgid "O&ffline browsing mode"
-msgstr ""
+msgstr "आफलाइन ब्राउजिंग मोड (&f)"
 
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
 #: kcms/kio/cache.ui:88
 msgid "Disk cache &size:"
-msgstr ""
+msgstr "डिस्क कैश आकारः (&s)"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxCacheSize)
 #: kcms/kio/cache.ui:101
@@ -3950,23 +3954,23 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
 #: kcms/kio/cache.ui:111
 msgid "C&lear Cache"
-msgstr ""
+msgstr "कैश खाली करू (&l)"
 
 #: kcms/kio/kcookiesmain.cpp:40
 msgid ""
 "Unable to start the cookie handler service.\n"
 "You will not be able to manage the cookies that are stored on your computer."
 msgstr ""
+"कुकी हैंडलर सेवा प्रारंभ करबा मे अक्षम.\n"
+"अहाँक कम्प्यूटर पर भंडारित कुकीज केँ अहाँ प्रबंधित करबा मे अहाँ सक्षम नहि हाएम."
 
 #: kcms/kio/kcookiesmain.cpp:50
 msgid "&Policy"
-msgstr ""
+msgstr "पालिसी (&P)"
 
 #: kcms/kio/kcookiesmain.cpp:55
-#, fuzzy
-#| msgid "Comment"
 msgid "&Management"
-msgstr "टिप्पणी"
+msgstr "प्रबंधन (&M)"
 
 #: kcms/kio/kcookiesmain.cpp:91
 msgid ""
@@ -3988,123 +3992,111 @@ msgstr ""
 
 #: kcms/kio/kcookiesmanagement.cpp:138 kcms/kio/kcookiesmanagement.cpp:154
 msgid "D-Bus Communication Error"
-msgstr ""
+msgstr "डी_बस कम्यूनिकेशन त्रुटि"
 
 #: kcms/kio/kcookiesmanagement.cpp:139
 msgid "Unable to delete all the cookies as requested."
-msgstr ""
+msgstr "जहिना निवेदित अछि. सबहि कुकीज केँ मेटाबै मे अक्षम."
 
 #: kcms/kio/kcookiesmanagement.cpp:155
 msgid "Unable to delete cookies as requested."
-msgstr ""
+msgstr "जहिना निवेदित अछि. कुकीज केँ मेटाबै मे अक्षम."
 
 #: kcms/kio/kcookiesmanagement.cpp:226
 msgid "<h1>Cookie Management Quick Help</h1>"
-msgstr ""
+msgstr "<h1>कुकीज प्रबंधन तत्काल मद्दति</h1>"
 
 #: kcms/kio/kcookiesmanagement.cpp:236
 msgid "Information Lookup Failure"
-msgstr ""
+msgstr "जानकारी देखनाइ असफल"
 
 #: kcms/kio/kcookiesmanagement.cpp:237
 msgid ""
 "Unable to retrieve information about the cookies stored on your computer."
-msgstr ""
+msgstr "अहाँक कम्प्यूटर पर भंडारित कुकीज केर संबंध मे जानकारी निकाल पाबै मे अक्षम."
 
 #: kcms/kio/kcookiesmanagement.cpp:327
-#, fuzzy
-#| msgid "End of Session"
 msgid "End of session"
 msgstr "सत्र क' अंत"
 
 #: kcms/kio/kcookiesmanagement.cpp:336
-#, fuzzy
-#| msgid "Yes"
 msgid "Yes"
 msgstr "हँ"
 
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, searchLineEdit)
 #. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: kcms/kio/kcookiesmanagement.ui:20 kcms/kio/kcookiespolicies.ui:138
-#, fuzzy
-#| msgid "&Search:"
 msgid "Search"
-msgstr "खोजू (&S):"
+msgstr "खोजू"
 
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:27
-#, fuzzy
-#| msgid "Search interactively for icon names (e.g. folder)."
 msgid "Search interactively for domains and hosts"
-msgstr "प्रतीक नाम क' लेल इंटरेक्टिव ढूँढू (उदा. फोल्डर)."
+msgstr "डोमेन तथा होस्ट क' लेल पूछताछ कए खोज"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:43
 #, fuzzy
-#| msgid "Site:"
+#| msgid "Site Name"
 msgid "Site"
-msgstr "साइट:"
+msgstr "साइट नाम"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, cookiesTreeWidget)
 #: kcms/kio/kcookiesmanagement.ui:48
 #, fuzzy
-#| msgid "Cookie Alert"
+#| msgid "Site Name"
 msgid "Cookie Name"
-msgstr "कुकी चेतावनी"
+msgstr "साइट नाम"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: kcms/kio/kcookiesmanagement.ui:56 kcms/kio/kcookiespolicies.ui:190
 #: kcms/kio/useragentdlg.ui:202
-#, fuzzy
-#| msgid "Delete"
 msgid "D&elete"
-msgstr "मेटाबू"
+msgstr "मेटाबू (&e)"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #: kcms/kio/kcookiesmanagement.ui:63 kcms/kio/kcookiespolicies.ui:197
 #: kcms/kio/useragentdlg.ui:212
-#, fuzzy
-#| msgid "Delete File"
 msgid "Delete A&ll"
-msgstr "फाइल मेटाबू"
+msgstr "सभटा मेटाबू (&l)"
 
 #. i18n: ectx: property (text), widget (QPushButton, configPolicyButton)
 #: kcms/kio/kcookiesmanagement.ui:70
 #, fuzzy
-#| msgid "Calculating..."
+#| msgid "Change &Policy..."
 msgid "Configure &Policy..."
-msgstr "गणनामे... "
+msgstr "पालिसी बदलू.... (&P)"
 
 #. i18n: ectx: property (text), widget (QPushButton, reloadButton)
 #: kcms/kio/kcookiesmanagement.ui:77
-#, fuzzy
-#| msgid "Reload"
 msgid "&Reload List"
-msgstr "फिनु लोड करू"
+msgstr "सूची रीलोड करू (&R)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #: kcms/kio/kcookiesmanagement.ui:97
-#, fuzzy
-#| msgid "&Details"
 msgid "Details"
-msgstr "विवरण (&D)"
+msgstr "विवरण"
 
 #. i18n: ectx: property (text), widget (QLabel, secureLabel)
 #: kcms/kio/kcookiesmanagement.ui:221
 msgid "Secure:"
-msgstr ""
+msgstr "सुरक्षितः"
 
 #: kcms/kio/kcookiespolicies.cpp:175
+#, fuzzy
+#| msgid "Change Cookie Policy"
 msgctxt "@title:window"
 msgid "Change Cookie Policy"
-msgstr ""
+msgstr "कुकी पालिसी बदलू"
 
 #: kcms/kio/kcookiespolicies.cpp:194
+#, fuzzy
+#| msgid "New Cookie Policy"
 msgctxt "@title:window"
 msgid "New Cookie Policy"
-msgstr ""
+msgstr "नवीन कुकी पालिसी"
 
 #: kcms/kio/kcookiespolicies.cpp:222
 #, kde-format
@@ -4112,23 +4104,27 @@ msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
 "replace it?</qt>"
 msgstr ""
+"<qt>एकटा पालिसी पहिने सँ उपलब्ध अछि<center><b>%1</b></center>. की अहाँ एकरा "
+"बदलनाइ चाहैत छी?</qt>"
 
 #: kcms/kio/kcookiespolicies.cpp:225
+#, fuzzy
+#| msgid "Duplicate Policy"
 msgctxt "@title:window"
 msgid "Duplicate Policy"
-msgstr ""
+msgstr "अनुकृति पालिसी"
 
 #: kcms/kio/kcookiespolicies.cpp:226 kcms/kio/useragentdlg.cpp:199
-#, fuzzy
-#| msgid "Places"
 msgid "Replace"
-msgstr "स्थान"
+msgstr "बदलू"
 
 #: kcms/kio/kcookiespolicies.cpp:391
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
+"कुकीज हैंडलर सेवासभ सँ समाद करब मे अक्षम.\n"
+"जखन तकि सेवासभ केँ फिनु सँ प्रारंभ नहि कएल जाइछ कएल गेल कोनो परिवर्तन लागू नहि हाएत."
 
 #: kcms/kio/kcookiespolicies.cpp:433
 msgid ""
@@ -4166,10 +4162,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
 #: kcms/kio/kcookiespolicies.ui:23
-#, fuzzy
-#| msgid "All &cookies"
 msgid "Enable coo&kies"
-msgstr "सभटा कुकीज़ (&c)"
+msgstr "कुकीज केँ सक्षम करू (&k)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: kcms/kio/kcookiespolicies.ui:35
@@ -4187,7 +4181,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbRejectCrossDomainCookies)
 #: kcms/kio/kcookiespolicies.ui:38
 msgid "Only acce&pt cookies from originating server"
-msgstr ""
+msgstr "उद्गम सर्वर सँ कुकीज स्वीकारू (&p)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: kcms/kio/kcookiespolicies.ui:46
@@ -4204,7 +4198,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
 #: kcms/kio/kcookiespolicies.ui:49
 msgid "Automaticall&y accept session cookies"
-msgstr ""
+msgstr "सत्र कुकीज अपने स्वीकारू (&y)"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:68
@@ -4228,36 +4222,30 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, bgDefault)
 #: kcms/kio/kcookiespolicies.ui:71
-#, fuzzy
-#| msgid "Default"
 msgid "Default Policy"
-msgstr "मूलभूत"
+msgstr "डिफाल्ट पालिसी"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAccept)
 #: kcms/kio/kcookiespolicies.ui:77
-#, fuzzy
-#| msgid "All &cookies"
 msgid "Accep&t all cookies"
-msgstr "सभटा कुकीज़ (&c)"
+msgstr "सभटा कुकी स्वीकारू (&t)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAcceptForSession)
 #: kcms/kio/kcookiespolicies.ui:84
+#, fuzzy
+#| msgid "End of session"
 msgid "Accept &until end of session"
-msgstr ""
+msgstr "सत्र क' अंत"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
 #: kcms/kio/kcookiespolicies.ui:91
-#, fuzzy
-#| msgid "Click for Location Navigation"
 msgid "Ask &for confirmation"
-msgstr "स्थान नेविगेशन क' लेल क्लिक करू"
+msgstr "पुष्टि क' लेल पूछू (&f)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
 #: kcms/kio/kcookiespolicies.ui:98
-#, fuzzy
-#| msgid "Remove all cookies"
 msgid "Re&ject all cookies"
-msgstr "सभटा कुकी मेटाबू"
+msgstr "सभटा कुकी स्वीकारू (&j)"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbDomainSpecific)
 #: kcms/kio/kcookiespolicies.ui:123
@@ -4275,14 +4263,12 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbDomainSpecific)
 #: kcms/kio/kcookiespolicies.ui:126
 msgid "Site Policy"
-msgstr ""
+msgstr "साइट पालिसी"
 
 #. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, kListViewSearchLine)
 #: kcms/kio/kcookiespolicies.ui:135
-#, fuzzy
-#| msgid "Search interactively for icon names (e.g. folder)."
 msgid "Search interactively for domains"
-msgstr "प्रतीक नाम क' लेल इंटरेक्टिव ढूँढू (उदा. फोल्डर)."
+msgstr "डोमेन क' लेल परस्पर पूछि कए ढूंढू"
 
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/kcookiespolicies.ui:147
@@ -4292,37 +4278,35 @@ msgid ""
 "policies override the default policy setting for these sites.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"साइटसभ सूची जकरा लेल अहाँ विशिष्ट कुकी पालिसी सेट कएलहुँ. ई साइटसभ क' लेल विशिष्ट "
+"पालिसी मूलभूत.पालिसी केँ ओवरराइड करताह\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, policyTreeWidget)
 #: kcms/kio/kcookiespolicies.ui:163
-#, fuzzy
-#| msgid "Domain:"
 msgid "Domain"
-msgstr "डोमेन:"
+msgstr "डोमेन"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: kcms/kio/kcookiespolicies.ui:176 kcms/kio/useragentdlg.ui:182
 #: urifilters/ikws/ikwsopts_ui.ui:74
 msgid "&New..."
-msgstr ""
+msgstr "नया... (&N)"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
 #: kcms/kio/kcookiespolicies.ui:183 kcms/kio/useragentdlg.ui:192
 #: urifilters/ikws/ikwsopts_ui.ui:87
-#, fuzzy
-#| msgid "Calculating..."
 msgid "Chan&ge..."
-msgstr "गणनामे... "
+msgstr "बदलू (&g)..."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:36
 #: kcms/kio/kcookiespolicyselectiondlg.ui:81
-#, fuzzy
-#| msgid "&Accept"
 msgid "Accept"
-msgstr "स्वीकारू (&A)"
+msgstr "स्वीकारू"
 
 #: kcms/kio/kcookiespolicyselectiondlg.h:38
 #, fuzzy
@@ -4333,16 +4317,14 @@ msgstr "सत्र क' अंत"
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:40
 #: kcms/kio/kcookiespolicyselectiondlg.ui:91
-#, fuzzy
-#| msgid "&Reject"
 msgid "Reject"
-msgstr "अस्वीकारू (&R)"
+msgstr "अस्वीकृत करू"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.h:42
 #: kcms/kio/kcookiespolicyselectiondlg.ui:96
 msgid "Ask"
-msgstr ""
+msgstr "पूछू"
 
 #: kcms/kio/kcookiespolicyselectiondlg.h:44
 #, fuzzy
@@ -4358,13 +4340,17 @@ msgid ""
 "b> or <b>.kde.org</b>.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"ई प्राक्सी जकरामे लागू हाएत अछि ओ होस्ट अथवा डोमेन भरू, जहिना- <b>www.kde.org</b> "
+"अथवा <b>.kde.org</b>.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:25
 #, fuzzy
-#| msgid "Device name"
+#| msgid "Site Name"
 msgid "Site name:"
-msgstr "डिवाइस नाम"
+msgstr "साइट नाम"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, leDomain)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:38
@@ -4390,18 +4376,22 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:56
+#, fuzzy
+#| msgid "&Policy:"
 msgid "Policy:"
-msgstr ""
+msgstr "नीति: (&P)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: kcms/kio/kcookiespolicyselectiondlg.ui:86
+#, fuzzy
+#| msgid "End of session"
 msgid "Accept until end of session"
-msgstr ""
+msgstr "सत्र क' अंत"
 
 #. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:10
 msgid "Disable Passive FTP"
-msgstr ""
+msgstr "पैसिव एफटीपी अक्षम करू"
 
 #. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:11
@@ -4414,7 +4404,7 @@ msgstr ""
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:16
 msgid "Mark partially uploaded files"
-msgstr ""
+msgstr "आधा अपलोडेड फाइलसभ केँ चिह्नित करू"
 
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
 #: kcms/kio/kio_ftprc.kcfg:17
@@ -4422,6 +4412,8 @@ msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
 msgstr ""
+"जखन कोनो फाइल अपलोड भए रहल हाएत तँ एकर एक्सटेंशन हाएत \".part\". जखन ई पूर्ण तरह "
+"लोड भए जाएत तँ फिनु एकर वास्तविक नाम सँ बदएल देल जएताह."
 
 #: kcms/kio/kproxydlg.cpp:547
 msgid ""
@@ -4456,7 +4448,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, noProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:26
 msgid "Connect to the Internet directly."
-msgstr ""
+msgstr "इंटरनेट सँ सीधे कनेक्ट होवू."
 
 #. i18n: ectx: property (text), widget (QRadioButton, noProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:29
@@ -4481,32 +4473,28 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, autoDiscoverProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:49
 #, fuzzy
-#| msgid ""
-#| "The proxy configuration script is invalid:\n"
-#| "%1"
+#| msgid "Show the manual proxy configuration dialog."
 msgid "Detect proxy configuration automatically"
-msgstr ""
-"प्राक्सी बिन्यास स्क्रिप्ट अवैध अछि:\n"
-"%1"
+msgstr "मेनुअल प्राक्सी कान्फिगरेशन समाद देखाबू."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:59
+#, fuzzy
+#| msgid "Use the specified proxy script URL to configure the proxy settings."
 msgid "Use the specified proxy script to configure the proxy settings."
-msgstr ""
+msgstr "प्राक्सी बिन्यास सेटअप करब क' लेल उल्लेखित प्राक्सी स्क्रिप्ट यूआरएल इस्तेमाल करू."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoScriptProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:62
 #, fuzzy
-#| msgid "Reload configuration file"
+#| msgid "Variable Proxy Configuration"
 msgid "Use proxy auto configuration URL:"
-msgstr "बिन्यास फाइल फिनु सँ  लोड करू"
+msgstr "चर प्राक्सी कान्फिगरेशन"
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, proxyScriptUrlRequester)
 #: kcms/kio/kproxydlg.ui:93
-#, fuzzy
-#| msgid "Could not download the proxy configuration script"
 msgid "Enter the address for the proxy configuration script."
-msgstr "प्राक्सी बिन्यास स्क्रिप्ट डाउनलोड नहि कए सकल"
+msgstr "प्राक्सी कान्फिगरेशन स्क्रिप्ट क' लेल पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:117
@@ -4526,9 +4514,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, systemProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:120
 #, fuzzy
-#| msgid "Updating system configuration."
+#| msgid "Show the manual proxy configuration dialog."
 msgid "Use system proxy configuration:"
-msgstr "तंत्र बिन्यास अद्यतन कएल जाए रहल अछि."
+msgstr "मेनुअल प्राक्सी कान्फिगरेशन समाद देखाबू."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:127
@@ -4541,8 +4529,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, autoDetectButton)
 #: kcms/kio/kproxydlg.ui:130
+#, fuzzy
+#| msgid "Auto &Detect"
 msgid "Auto D&etect"
-msgstr ""
+msgstr "अपने पता लगाबू (&D)"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, systemProxyHttpLabel)
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemProxyHttpEdit)
@@ -4648,9 +4638,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, manNoProxyLabel)
 #: kcms/kio/kproxydlg.ui:298 kcms/kio/kproxydlg.ui:602
 #, fuzzy
-#| msgid "&Description:"
+#| msgid "E&xceptions"
 msgid "Exceptions:"
-msgstr "विवरण (&D):"
+msgstr "एक्सेप्शन्स (&x)"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, systemNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:317
@@ -4664,22 +4654,24 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showEnvValueCheckBox)
 #: kcms/kio/kproxydlg.ui:324
 msgid "Show the &value of the environment variables"
-msgstr ""
+msgstr "एनवायरनमेंट वेरिएबल्स क' मान देखाबू (&v)"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:343
 msgid "Manually enter proxy server configuration information."
-msgstr ""
+msgstr "प्राक्सी सर्वर कान्फिगरेशन जानकारी हस्तचालित भरू."
 
 #. i18n: ectx: property (text), widget (QRadioButton, manualProxyRadioButton)
 #: kcms/kio/kproxydlg.ui:346
+#, fuzzy
+#| msgid "A&utomatically detect proxy configuration"
 msgid "Use manually specified proxy configuration:"
-msgstr ""
+msgstr "प्राक्सी कान्फिगरेशन अपने अहाँ पता लगाबू (&u)"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpEdit)
 #: kcms/kio/kproxydlg.ui:398
 msgid "Enter the address of the HTTP proxy server."
-msgstr ""
+msgstr "एचटीटीपी प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpSpinBoxLabel)
 #. i18n: ectx: property (text), widget (QLabel, manualProxyHttpsSpinBoxLabel)
@@ -4692,43 +4684,55 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyHttpSpinBox)
 #: kcms/kio/kproxydlg.ui:421
+#, fuzzy
+#| msgid "Enter the address of the HTTP proxy server."
 msgid "Enter the port number of the HTTP proxy server."
-msgstr ""
+msgstr "एचटीटीपी प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (text), widget (QCheckBox, useSameProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:436
+#, fuzzy
+#| msgid "&Use the same proxy server for all protocols"
 msgid "Use this proxy server for a&ll protocols"
-msgstr ""
+msgstr "सभटा प्रोटोकाल क' लेल ओकर प्राक्सी सर्वर क' इस्तेमाल करू (&U)"
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyHttpsEdit)
 #: kcms/kio/kproxydlg.ui:464
 msgid "Enter the address of the HTTPS proxy server."
-msgstr ""
+msgstr "एचटीटीपीएस प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyHttpsSpinBox)
 #: kcms/kio/kproxydlg.ui:481
+#, fuzzy
+#| msgid "Enter the address of the HTTPS proxy server."
 msgid "Enter the port number of the HTTPS proxy server."
-msgstr ""
+msgstr "एचटीटीपीएस प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxyFtpEdit)
 #: kcms/kio/kproxydlg.ui:517
 msgid "Enter the address of the FTP proxy server."
-msgstr ""
+msgstr "एफटीपी प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxyFtpSpinBox)
 #: kcms/kio/kproxydlg.ui:534
+#, fuzzy
+#| msgid "Enter the address of the FTP proxy server."
 msgid "Enter the port number of the FTP proxy server."
-msgstr ""
+msgstr "एफटीपी प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualProxySocksEdit)
 #: kcms/kio/kproxydlg.ui:567
+#, fuzzy
+#| msgid "Enter the address of the HTTPS proxy server."
 msgid "Enter the address of the SOCKS proxy server."
-msgstr ""
+msgstr "एचटीटीपीएस प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, manualProxySocksSpinBox)
 #: kcms/kio/kproxydlg.ui:584
+#, fuzzy
+#| msgid "Enter the address of the HTTPS proxy server."
 msgid "Enter the port number of the SOCKS proxy server."
-msgstr ""
+msgstr "एचटीटीपीएस प्राक्सी सर्वर क' पता भरू."
 
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, manualNoProxyEdit)
 #: kcms/kio/kproxydlg.ui:628
@@ -4747,38 +4751,42 @@ msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, useReverseProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:639
+#, fuzzy
+#| msgid "Use proxy only for entries in this list"
 msgid ""
 "<qt>\n"
 "Check this box if you want the above proxy settings to apply only to the "
 "addresses listed in the <i>Exceptions</i> list.</qt>"
-msgstr ""
+msgstr "ई सूची मे प्रविष्टि क' लेल सिर्फ प्राक्सी इस्तेमाल करू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, useReverseProxyCheckBox)
 #: kcms/kio/kproxydlg.ui:642
+#, fuzzy
+#| msgid "Use proxy only for entries in this list"
 msgid "Use proxy settings only for addresses in the Exceptions list"
-msgstr ""
+msgstr "ई सूची मे प्रविष्टि क' लेल सिर्फ प्राक्सी इस्तेमाल करू"
 
 #: kcms/kio/ksaveioconfig.cpp:222
 msgid ""
 "You have to restart the running applications for these changes to take "
 "effect."
 msgstr ""
+"परिवर्तन केँ प्रभाव मे लाबै क' लेल अहाँक चलैत अनुप्रयोगसभ केँ फिनु सँ  प्रारंभ कएनाइ पड़त."
 
 #: kcms/kio/ksaveioconfig.cpp:224 kcms/kio/ksaveioconfig.cpp:238
 #, fuzzy
-#| msgid "&Paste File"
-#| msgid_plural "&Paste %1 Files"
+#| msgid "Update Failed"
 msgctxt "@title:window"
 msgid "Update Failed"
-msgstr "फाइल साटू (&P)"
+msgstr "अद्यतन असफल"
 
 #: kcms/kio/ksaveioconfig.cpp:237
 msgid "You have to restart KDE for these changes to take effect."
-msgstr ""
+msgstr "परिवर्तनसभ केँ प्रभाव मे लाबै क' लेल अहाँक केडीई केँ फिनु सँ प्रारंभ कएनाइ पड़त."
 
 #: kcms/kio/netpref.cpp:32
 msgid "Timeout Values"
-msgstr ""
+msgstr "टाइम-आउट मूल्य"
 
 #: kcms/kio/netpref.cpp:33
 #, kde-format
@@ -4789,52 +4797,56 @@ msgid_plural ""
 "Here you can set timeout values. You might want to tweak them if your "
 "connection is very slow. The maximum allowed value is %1 seconds."
 msgstr[0] ""
+"एतए अहाँ टाइमआउट मान नियत कए सकैत छी. जँ अहाँक कनेक्शन बहुत धीमा अछि तँ अहाँ ओकरा "
+"बदएल सकैत छी. अधिकतम स्वीकृत सीमा अछि 1 सेकण्ड."
 msgstr[1] ""
+"एतए अहाँ टाइमआउट मान नियत कए सकैत छी. जँ अहाँक कनेक्शन बहुत धीमा अछि तँ अहाँ ओकरा "
+"बदएल सकैत छी. अधिकतम स्वीकृत सीमा अछि %1 सेकण्ड."
 
 #: kcms/kio/netpref.cpp:45 kcms/kio/netpref.cpp:51 kcms/kio/netpref.cpp:57
 #: kcms/kio/netpref.cpp:63
+#, fuzzy
+#| msgid " sec"
 msgid " second"
 msgid_plural " seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " sec"
+msgstr[1] " sec"
 
 #: kcms/kio/netpref.cpp:47
 msgid "Soc&ket read:"
-msgstr ""
+msgstr "साकेट पढाः (&k)"
 
 #: kcms/kio/netpref.cpp:53
-#, fuzzy
-#| msgid "Not connected."
 msgid "Pro&xy connect:"
-msgstr "कनेक्टेड नहि"
+msgstr "प्राक्सी कनेक्टः (&x)"
 
 #: kcms/kio/netpref.cpp:59
 msgid "Server co&nnect:"
-msgstr ""
+msgstr "सर्वर कनेक्टः (&n)"
 
 #: kcms/kio/netpref.cpp:65
 msgid "&Server response:"
-msgstr ""
+msgstr "सर्वर जवाबः (&S)"
 
 #: kcms/kio/netpref.cpp:67
-#, fuzzy
-#| msgid "Options"
 msgid "FTP Options"
-msgstr "विकल्प"
+msgstr "एफटीपी विकल्प"
 
 #: kcms/kio/netpref.cpp:71
 msgid "Enable passive &mode (PASV)"
-msgstr ""
+msgstr "पैसिव मोड सक्षम करू (PASV) (&m)"
 
 #: kcms/kio/netpref.cpp:72
 msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
 msgstr ""
+"एफटीपी क'  \"पैसिव\" मोड सक्षम करू. ई एफटीपी केँ फायरवाल केर पाछाँ सँ कार्य करब देत "
+"अछि."
 
 #: kcms/kio/netpref.cpp:78
 msgid "Mark &partially uploaded files"
-msgstr ""
+msgstr "आधा-अधूरा अपलोडेड फाइलसभ केँ चिह्नित करू (&p)"
 
 #: kcms/kio/netpref.cpp:79
 msgid ""
@@ -4842,6 +4854,9 @@ msgid ""
 "partially uploaded files will have a \".part\" extension. This extension "
 "will be removed once the transfer is complete.</p>"
 msgstr ""
+"<p>आधा अपलोडेड एफटीपी फाइलसभ केँ चिह्नित करू.</p><p>जखन ई विकल्प सक्षम कएल गेल  अछि "
+"तँ आधा अपलोडेड फाइलसभ मे \".part\" एक्सटेंशन होइछ. ई एक्सटेंशन जखन ट्रांसफर पूरा भए जाइछ "
+"तखन हटाए देल जाइछ.</p>"
 
 #: kcms/kio/netpref.cpp:147
 msgid ""
@@ -4857,13 +4872,11 @@ msgstr ""
 
 #: kcms/kio/smbrodlg.cpp:49
 msgid "Default user name:"
-msgstr ""
+msgstr "डिफाल्ट प्रयोक्ता नामः"
 
 #: kcms/kio/smbrodlg.cpp:57
-#, fuzzy
-#| msgid "&Repeat password:"
 msgid "Default password:"
-msgstr "कूटशब्द दोहराबू: (&R)"
+msgstr "डिफाल्ट पासवर्डः"
 
 #: kcms/kio/smbrodlg.cpp:176
 msgid ""
@@ -4888,15 +4901,17 @@ msgstr ""
 
 #: kcms/kio/useragentdlg.cpp:78
 #, fuzzy
-#| msgid "Authentication"
+#| msgid "Add Identification"
 msgctxt "@title:window"
 msgid "Add Identification"
-msgstr "सत्यापन"
+msgstr "पहचान जोडू"
 
 #: kcms/kio/useragentdlg.cpp:145
+#, fuzzy
+#| msgid "Modify Identification"
 msgctxt "@title:window"
 msgid "Modify Identification"
-msgstr ""
+msgstr "पहचान परिवर्धित करू"
 
 #: kcms/kio/useragentdlg.cpp:193
 #, kde-format
@@ -4904,13 +4919,15 @@ msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
 "want to replace it?</center></qt>"
 msgstr ""
+"<qt><center>एकटा उपलब्ध पहचान मिल गेल<br/><b>%1</b><br/>की अहाँ एकरा बदलब चाहैत "
+"छी?</center></qt>"
 
 #: kcms/kio/useragentdlg.cpp:198
 #, fuzzy
-#| msgid "Authentication"
+#| msgid "Duplicate Identification"
 msgctxt "@title:window"
 msgid "Duplicate Identification"
-msgstr "सत्यापन"
+msgstr "पहिचान अनुकृति"
 
 #: kcms/kio/useragentdlg.cpp:370
 msgid ""
@@ -4958,10 +4975,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
 #: kcms/kio/useragentdlg.ui:30
-#, fuzzy
-#| msgid "Send certificate"
 msgid "&Send identification"
-msgstr "प्रमाणपत्र भेजू"
+msgstr "पहचान भेजू (&S)"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
 #: kcms/kio/useragentdlg.ui:43
@@ -4969,13 +4984,13 @@ msgid ""
 "The browser identification text sent to the sites you visit. Use the "
 "provided options to customize it."
 msgstr ""
+"जे साइटसभ पर अहाँ भ्रमण एकलहुँ ओ ब्राउजर पहचानकारक पाठ भेजल गेल. एकरा अनुकूलित करबाक "
+"लेल देल गेल विकल्प उपयोग करू."
 
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
 #: kcms/kio/useragentdlg.ui:46
-#, fuzzy
-#| msgid "Authentication"
 msgid "Default Identification"
-msgstr "सत्यापन"
+msgstr "डिफाल्ट पहचान"
 
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
 #: kcms/kio/useragentdlg.ui:58
@@ -4983,104 +4998,96 @@ msgid ""
 "The browser identification text sent to the sites you visit. You can "
 "customize it using the options provided below."
 msgstr ""
+"जे साइट पर अहाँ भ्रमण करैत छी ओकरा भेजल जाएबला ब्राउजर पहचान पाठ. अहाँ एकरा निम्न देल "
+"गेल विकल्पसभक मद्दति सँ मनपसिन्न बनाए सकैत छी."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
 #: kcms/kio/useragentdlg.ui:71
 msgid ""
 "Includes your operating system's name in the browser identification text."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक आपरेटिंग सिस्टम क' नाम शामिल करू."
 
 #. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
 #: kcms/kio/useragentdlg.ui:74
 msgid "Add operating s&ystem name"
-msgstr ""
+msgstr "आपरेटिंग सिस्टम क' नाम जोडू (&y)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
 #: kcms/kio/useragentdlg.ui:102
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक आपरेटिंग सिस्टम केर संस्करण क्रमांक शामिल करू."
 
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
 #: kcms/kio/useragentdlg.ui:105
-#, fuzzy
-#| msgid "Updating system configuration."
 msgid "Add operating system &version"
-msgstr "तंत्र बिन्यास अद्यतन कएल जाए रहल अछि."
+msgstr "आपरेटिंग सिस्टम संस्करण जोडू (&v)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
 #: kcms/kio/useragentdlg.ui:115
 msgid "Includes your machine's CPU type in the browser identification text."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक मशीन केर सीपीयू किस्म शामिल करू."
 
 #. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
 #: kcms/kio/useragentdlg.ui:118
 msgid "Add &machine (processor) type"
-msgstr ""
+msgstr "मशीन (प्रोसेसर) प्रकार जोडू (&m)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
 #: kcms/kio/useragentdlg.ui:127
+#, fuzzy
+#| msgid ""
+#| "Includes your operating system's name in the browser identification text."
 msgid ""
 "Includes your language settings in the browser identification text to obtain "
 "localized versions of the page."
-msgstr ""
+msgstr "ब्राउजर पहचान पाठ मे अहाँक आपरेटिंग सिस्टम क' नाम शामिल करू."
 
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
 #: kcms/kio/useragentdlg.ui:130
-#, fuzzy
-#| msgid "Sending login information"
 msgid "Add lang&uage information"
-msgstr "लागइन जानकारी भेज रहल अछि"
+msgstr "भाषा जानकारी भरू (&u)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
 #: kcms/kio/useragentdlg.ui:143
 msgid "Site Specific Identification"
-msgstr ""
+msgstr "विशिष्ट साइट पहचान"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:156
-#, fuzzy
-#| msgid "By Name"
 msgid "Site Name"
-msgstr "नाम सँ"
+msgstr "साइट नाम"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:161
-#, fuzzy
-#| msgid "Authentication"
 msgid "Identification"
-msgstr "सत्यापन"
+msgstr "पहचान"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
 #: kcms/kio/useragentdlg.ui:166
-#, fuzzy
-#| msgid "User: "
 msgid "User Agent"
-msgstr "प्रयोक्ता: "
+msgstr "प्रयोक्ता एजेंट"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, newButton)
 #: kcms/kio/useragentdlg.ui:179
 msgid "Add new identification text for a site."
-msgstr ""
+msgstr "साइट क' लेल नवीन पहचानकारक पाठ जोडू"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, changeButton)
 #: kcms/kio/useragentdlg.ui:189
 msgid "Change the selected identifier text."
-msgstr ""
+msgstr "चुनल गेल पहचानकारक पाठ बदलू."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
 #: kcms/kio/useragentdlg.ui:199
-#, fuzzy
-#| msgctxt "request type"
-#| msgid "delete the specified file or folder"
 msgid "Delete the selected identifier text."
-msgstr "उल्लेखित फाइल अथवा फोल्डर केँ मेटाबू"
+msgstr "चुनल गेल पहचानकारक पाठ मेटाबू."
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
 #: kcms/kio/useragentdlg.ui:209
 msgid "Delete all identifiers."
-msgstr ""
+msgstr "सभटा पहचानकारक मेटाबू."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, siteLineEdit)
@@ -5100,7 +5107,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, siteLabel)
 #: kcms/kio/useragentselectordlg.ui:22
 msgid "&When browsing the following site:"
-msgstr ""
+msgstr "ई साइटसभ केँ ब्राउज करैत हुए: (&W)"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
 #. i18n: ectx: property (whatsThis), widget (KComboBox, aliasComboBox)
@@ -5111,11 +5118,15 @@ msgid ""
 "specified above.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"अहाँक द्वारा उप्पर बताएल साइट पर जखन संपर्क कएल जएताह, तखन क' लेल ब्राउजर पहचानकारक "
+"चुनू.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
 #: kcms/kio/useragentselectordlg.ui:50
 msgid "&Use the following identification:"
-msgstr ""
+msgstr "निम्न पहचान उपयोग मे लिअ': (&U)"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, identityLineEdit)
@@ -5126,13 +5137,14 @@ msgid ""
 "machine.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"रिमोट मशीन मे भेजल जाएबला वास्तविक ब्राउजर पहचान.\n"
+"</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
 #: kcms/kio/useragentselectordlg.ui:77
-#, fuzzy
-#| msgid "Server Authentication"
 msgid "Real identification:"
-msgstr "सर्वर प्रमाणीकरण"
+msgstr "वास्तविक पहिचानः"
 
 #: kcms/webshortcuts/main.cpp:41
 msgid "Web Shortcuts"
@@ -5416,10 +5428,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #: urifilters/ikws/ikwsopts_ui.ui:100
-#, fuzzy
-#| msgid "Delete"
 msgid "De&lete"
-msgstr "मेटाबू"
+msgstr "मेटाबू (&l)"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDefaultEngine)
 #: urifilters/ikws/ikwsopts_ui.ui:138
@@ -7450,1058 +7460,214 @@ msgid ""
 "Aborting because the identity of the host cannot be established."
 msgstr ""
 
+#~ msgid "General Settings"
+#~ msgstr "सामान्य जमावट"
+
+#~ msgid "Disk cache size:"
+#~ msgstr "डिस्क कैश आकार:"
+
+#~ msgid " kB"
+#~ msgstr " kB"
+
+#~ msgid "Clear the pixmap cache"
+#~ msgstr "पिक्समैप कैश साफ़ करू"
+
+#~ msgid "&Clear Cache"
+#~ msgstr "कैश साफ़ करू (&Cl)"
+
+#~ msgid "Treat &all cookies as session cookies"
+#~ msgstr "सभटा कुकीज केँ सत्र कुकीजक तरह समझू (&a)"
+
 #~ msgid ""
-#~ "<qt>Do you really want to delete\n"
-#~ " <b>'%1'</b>?</qt>"
+#~ "Enter the port number of the HTTP proxy server. Default is 8080. Another "
+#~ "common value is 3128."
 #~ msgstr ""
-#~ "<qt>की अहाँ सचमुच मे मेटाएब चाहैत छी एकरा-\n"
-#~ " <b>'%1'</b>?</qt>"
+#~ "एचटीटीपी प्राक्सी सर्वर क' पोर्ट क्रमांक भरू. मूलभूत 8080. आन आम मूल्य अछि 3128."
 
 #~ msgid ""
-#~ "<qt>Do you really want to trash\n"
-#~ " <b>'%1'</b>?</qt>"
-#~ msgstr "<qt>की अहाँ सचमुच <b>%1</b> केँ मेटाएब चाहैत छी?</qt>"
+#~ "Enter the port number of the FTP proxy server. Default 8080. Another "
+#~ "common value is 3128."
+#~ msgstr "एफटीपी प्राक्सी सर्वर क' पोर्ट क्रमांक भरू. मूलभूत 8080. आन आम मूल्य अछि 3128."
 
-#~ msgid "Trash File"
-#~ msgstr "फाइल मेटाबू"
-
-#~ msgctxt "to trash"
-#~ msgid "&Trash"
-#~ msgstr "रद्दी (&T)"
-
-#~ msgid "translators: not called for n == 1"
-#~ msgid_plural "Do you really want to trash these %1 items?"
-#~ msgstr[0] "की अहाँ सचमुच ई %1 वस्तु केँ मेटाएब चाहैत छी?"
-#~ msgstr[1] "की अहाँ सचमुच ई %1 वस्तु केँ मेटाएब चाहैत छी?"
-
-#~ msgid "Trash Files"
-#~ msgstr "फाइलसभ केँ रद्दी मे भेजू"
+#~ msgid "You must specify at least one valid proxy environment variable."
+#~ msgstr "अहाँकेँ कम सँ कम एकटा वैध प्राक्सी एनवायरनमेंट वेरिएबल क' उल्लेख कएनाइ हाएत."
 
 #, fuzzy
-#~| msgid "1 day %2"
-#~| msgid_plural "%1 days %2"
-#~ msgid "1 day 23:59:00"
-#~ msgstr "१ दिन %2"
-
-#~ msgctxt "folder name"
-#~ msgid "New Folder"
-#~ msgstr "नवीन फोल्डर"
-
-#~ msgctxt "@label:textbox"
-#~ msgid ""
-#~ "Create new folder in:\n"
-#~ "%1"
-#~ msgstr ""
-#~ "नवीन फोल्डर:\n"
-#~ "%1 मे बनाबू"
-
-#~ msgctxt "@action:button"
-#~ msgid "New Folder..."
-#~ msgstr "नवीन फोल्डर..."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "New Folder..."
-#~ msgstr "नवीन फोल्डर..."
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Move to Trash"
-#~ msgstr "रद्दीमे भेजू"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Delete"
-#~ msgstr "मेटाबू"
-
-#, fuzzy
-#~| msgid "Properties"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Properties"
-#~ msgstr "गुण"
-
-#~ msgid "KDE HTTP cache maintenance tool"
-#~ msgstr "केडीई एचटीटीपी कैश मेंटेनेंस अओजार"
-
-#~ msgid "Empty the cache"
-#~ msgstr "कैश खाली करू"
-
-#, fuzzy
-#~| msgid "Display SSL &Information"
-#~ msgid "Display information about cache file"
-#~ msgstr "एसएसएल जानकारी देखाबू (&I)"
-
-#~ msgid "HTTP Cookie Daemon"
-#~ msgstr "एचटीटीपी कुकी डेमन"
-
-#~ msgid "HTTP cookie daemon"
-#~ msgstr "एचटीटीपी कुकी डेमन"
-
-#~ msgid "Shut down cookie jar"
-#~ msgstr "कुकी जार बन्न करू"
-
-#~ msgid "Remove cookies for domain"
-#~ msgstr "डेमन की कुकी मेटाबू"
-
-#~ msgid "kio_metainfo"
-#~ msgstr "केआईओ_मेटाइन्फ़ो"
-
-#~ msgid "No metainfo for %1"
-#~ msgstr "%1 क' लेल कोनो मेटाजानकारी नहि "
-
-#~ msgid "--- separator ---"
-#~ msgstr "--- सेपरेटर ---"
-
-#~ msgctxt "@action:button"
-#~ msgid "Update"
-#~ msgstr "अद्यतन"
-
-#~ msgctxt "@action:button"
-#~ msgid "Add"
-#~ msgstr "जोड़ू"
-
+#~| msgid "Invalid Proxy Setup"
 #~ msgctxt "@title:window"
-#~ msgid "Add Bookmark"
-#~ msgstr "पुस्तक चिन्ह जोड़ू"
+#~ msgid "Invalid Proxy Setup"
+#~ msgstr "अवैध प्राक्सी सेटअप"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Name:"
-#~ msgstr "नाम:"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Location:"
-#~ msgstr "स्थानः"
+#~ msgid "Successfully verified."
+#~ msgstr "सफलता पूर्वक सत्यापित."
 
 #, fuzzy
-#~| msgid "Comm&ent:"
-#~ msgctxt "@label:textbox"
-#~ msgid "Comment:"
-#~ msgstr "टिप्पणीः (&e)"
-
-#, fuzzy
-#~| msgid "Bookmarks"
-#~ msgctxt "name of the container of all browser bookmarks"
-#~ msgid "Bookmarks"
-#~ msgstr "पुस्तकचिह्न"
-
-#~ msgid "*.html|HTML Files (*.html)"
-#~ msgstr "*.html|एचटीएमएल फाइलसभ (*.html)"
-
-#~ msgid "<!-- This file was generated by Konqueror -->"
-#~ msgstr "<!-- ई फाइल कान्करर द्वारा उत्पन्न कएल गेल अछि -->"
-
-#~ msgid "*.adr|Opera Bookmark Files (*.adr)"
-#~ msgstr "*.adr|ओपेरा पसंद फाइलसभ (*.adr)"
-
-#~ msgid "Add Bookmark Here"
-#~ msgstr "एतए  पसंदीदा  जोड़ू"
-
-#~ msgid "Open Folder in Bookmark Editor"
-#~ msgstr "फोल्डर पसंद संपादक मे खोलू"
-
-#~ msgid "Copy Link Address"
-#~ msgstr "लिंक पता नकल करू"
-
-#~ msgid "Delete Bookmark"
-#~ msgstr "पुस्तकचिह्न मेटाबू"
-
-#~ msgid "Open Folder in Tabs"
-#~ msgstr "फोल्डर टैब मे खोलू"
-
-#~ msgid "Cannot add bookmark with empty URL."
-#~ msgstr "रिक्त यूआरएल मे पुस्तचिन्ह नहि जोड़ि सकत."
-
-#~ msgid ""
-#~ "Are you sure you wish to remove the bookmark folder\n"
-#~ "\"%1\"?"
-#~ msgstr ""
-#~ "की अहाँ सच्चे एहि पुस्तचिन्ह फोल्डर केँ मेटाएबाक लेल चाहैत छी\n"
-#~ "\"%1\"?"
-
-#~ msgid ""
-#~ "Are you sure you wish to remove the bookmark\n"
-#~ "\"%1\"?"
-#~ msgstr ""
-#~ "की अहाँ सच्चे एहि पसंदीदा केँ मेटाएब चाहैत छी\n"
-#~ "\"%1\"?"
-
-#~ msgid "Bookmark Folder Deletion"
-#~ msgstr "पसंदीदा फोल्डर मेटाएब"
-
-#~ msgid "Bookmark Deletion"
-#~ msgstr "पसंदीदा मेटाएब"
-
-#~ msgid "Open all bookmarks in this folder as a new tab."
-#~ msgstr "ई फ़ोल्डरो मे पसंदीदा केँ एकटा नवीन टैब केर रूपेँ देखाबू"
-
-#~ msgid "Bookmark Tabs as Folder..."
-#~ msgstr "टैब्स केँ पसंदीदा फोल्डर केर रूपेँ  बनाबू"
-
-#~ msgid "Add a folder of bookmarks for all open tabs."
-#~ msgstr "सभटा खुलल टैब्स क' लेल एकटा  पसंदीदा  फोल्डर जोड़ू."
-
-#~ msgid "Edit your bookmark collection in a separate window"
-#~ msgstr "अलग विंडो मे पसंदीदा  संग्रह क' संपादन करू"
-
-#~ msgid "New Bookmark Folder..."
-#~ msgstr "नवीन पसंदीदा फोल्डर..."
-
-#~ msgid "Create a new bookmark folder in this menu"
-#~ msgstr "ई मेनू मे एकटा नवीन  पसंदीदा  फोल्डर बनाबू"
-
-#~ msgid "Hide in toolbar"
-#~ msgstr "अओजार पट्टी मे नुकाबू"
-
-#~ msgid "Show in toolbar"
-#~ msgstr "अओजार पट्टी मे देखाबू"
-
-#~ msgid "Open in New Window"
-#~ msgstr "नवीन विंडोमे खोलू."
-
-#~ msgid "Open in New Tab"
-#~ msgstr "नवीन टैब मे खोलू"
-
-#~ msgid "Receiving corrupt data."
-#~ msgstr "खराब डाटा प्राप्त कएल जाए रहल अछि."
-
-#, fuzzy
-#~| msgid "Add Entry..."
-#~ msgctxt "@label"
-#~ msgid "Add Comment..."
-#~ msgstr "प्रविष्टि जोड़ू..."
-
-#, fuzzy
-#~| msgid "Comment"
+#~| msgid "Proxy Setup"
 #~ msgctxt "@title:window"
-#~ msgid "Add Comment"
-#~ msgstr "टिप्पणी"
-
-#~ msgid "Device name"
-#~ msgstr "डिवाइस नाम"
-
-#, fuzzy
-#~| msgctxt "Items in a folder"
-#~| msgid "1 item"
-#~| msgid_plural "%1 items"
-#~ msgctxt "@item:intable"
-#~ msgid "%1 item"
-#~ msgid_plural "%1 items"
-#~ msgstr[0] "१ वस्तु"
-#~ msgstr[1] "%1 वस्तु"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@label"
-#~ msgid "Comment"
-#~ msgstr "टिप्पणी"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "परिवर्धितः"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "मालिक"
-
-#, fuzzy
-#~| msgid "Sorting"
-#~ msgctxt "@label"
-#~ msgid "Rating"
-#~ msgstr "छाँटनाइ"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "आकार"
-
-#, fuzzy
-#~| msgid "Trash"
-#~ msgctxt "@label"
-#~ msgid "Tags"
-#~ msgstr "रद्दी"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgctxt "@label"
-#~ msgid "Total Size"
-#~ msgstr "आकार:"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@label"
-#~ msgid "Type"
-#~ msgstr "प्रकार"
-
-#~ msgid "<Error>"
-#~ msgstr "<त्रुटि>"
-
-#~ msgid "&Share"
-#~ msgstr "साझेदारी (&S)"
-
-#~ msgid "Only folders in your home folder can be shared."
-#~ msgstr "सिर्फ अहाँक होम फोल्डर केर फोल्डर्स साझा भए सकैछ."
-
-#~ msgid "Not shared"
-#~ msgstr "साझेदारी नहि अछि"
-
-#~ msgid "Shared"
-#~ msgstr "साझा"
+#~ msgid "Proxy Setup"
+#~ msgstr "प्राक्सी सेटअप"
 
 #~ msgid ""
-#~ "Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
-#~ "(Samba)."
+#~ "Did not detect any environment variables commonly used to set system wide "
+#~ "proxy information."
 #~ msgstr ""
-#~ "ई फोल्डर केँ साझा करब पर ई लिनक्स/यूनिक्स (एनएफएस) आओर विंडोज़ (साम्बा) पर उपलब्ध "
-#~ "हाएत."
+#~ "सिस्टम वाइड प्राक्सी जानकारी नियत करब क' लेल सामान्यतया उपयोगी एनवायरनमेंट "
+#~ "वेरिएबल नहीं ढूँढल जाए सकल."
 
-#~ msgid "You can also reconfigure file sharing authorization."
-#~ msgstr "अहाँ फाइल शेयरिंग अनुमोदन रिकान्फ़िगर कए सकैछ."
+#, fuzzy
+#~| msgid "Automatic Proxy Variable Detection"
+#~ msgctxt "@title:window"
+#~ msgid "Automatic Proxy Variable Detection"
+#~ msgstr "स्वचलित प्राक्सी वेरिएबल डिटेक्शन"
 
-#~ msgid "Configure File Sharing..."
-#~ msgstr "फाइल साझा कान्फ़िगर करू..."
+#, fuzzy
+#~| msgid "Manual Proxy Configuration"
+#~ msgctxt "@title:window"
+#~ msgid "Manual Proxy Configuration"
+#~ msgstr "मेनुअल प्राक्सी कान्फिगरेशन"
+
+#, fuzzy
+#~| msgid "Invalid Proxy Setting"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Proxy Setting"
+#~ msgstr "अवैध प्राक्सी सेटिंग"
 
 #~ msgid ""
-#~ "Error running 'filesharelist'. Check if installed and in $PATH or /usr/"
-#~ "sbin."
+#~ "One or more of the specified proxy settings are invalid. The incorrect "
+#~ "entries are highlighted."
 #~ msgstr ""
-#~ " 'filesharelist' चलाबैमे त्रुटि. जाँचू जे स्थापित अछि. आओर  $PATH अथवा  /usr/sbin "
-#~ "मे अछि."
+#~ "एकटा अथवा बेसी निर्दिष्ट प्राक्सी सेटिंग अवैध अछि. गलत प्रविष्टिसभ केँ उभारल गेल अछि."
 
-#~ msgid "You need to be authorized to share folders."
-#~ msgstr "फोल्डर्स साझा करबाक लेल अहाँक अनुमोदित होनाइ आवश्यक अछि."
+#~ msgid "You entered a duplicate address. Please try again."
+#~ msgstr "अहाँ एकटा डुप्लीकेट (दोहराएल गेल) पता भरल अछि. फिनु सँ कोसिस करू."
 
-#~ msgid "File sharing is disabled."
-#~ msgstr "फाइल साझा अक्षम अछि."
+#~ msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
+#~ msgstr "<qt><center><b>%1</b></center> पहिने सँ सूची मे अछि.</qt>"
 
-#~ msgid "Sharing folder '%1' failed."
-#~ msgstr "फोल्डर '%1' साझा करबामे असफल."
+#, fuzzy
+#~| msgid "Duplicate Entry"
+#~ msgctxt "@title:window"
+#~ msgid "Duplicate Entry"
+#~ msgstr "नकली प्रविष्टि"
+
+#, fuzzy
+#~| msgid "New Exception"
+#~ msgctxt "@title:window"
+#~ msgid "New Exception"
+#~ msgstr "नवनी अपवाद"
+
+#, fuzzy
+#~| msgid "Change Exception"
+#~ msgctxt "@title:window"
+#~ msgid "Change Exception"
+#~ msgstr "अपवाद बदलू"
+
+#, fuzzy
+#~| msgid "Invalid Entry"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid Entry"
+#~ msgstr "अवैध प्रविष्टि"
+
+#~ msgid "The address you have entered is not valid."
+#~ msgstr "जे पता अहाँ भरलहुँ ओ वैध नहि अछि."
+
+#~ msgid "Enter the URL or address that should use the above proxy settings:"
+#~ msgstr "उपर्युक्त प्राक्सी बिन्यास मे इस्तेमाल हएबला पता अथवा यूआरएल भरू:"
 
 #~ msgid ""
-#~ "An error occurred while trying to share folder '%1'. Make sure that the "
-#~ "Perl script 'fileshareset' is set suid root."
-#~ msgstr ""
-#~ "फोल्डर '%1' केँ साझा करबाक कोसिस मे एकटा त्रुटि भेल. कृप्या सुनिश्चित करू जे रूट मे "
-#~ "'fileshareset' सेट अछि."
+#~ "Enter the address or URL that should be excluded from using the above "
+#~ "proxy settings:"
+#~ msgstr "उपर्युक्त प्राक्सी बिन्यास मे इस्तेमाल नहि हए बला पता अथवा यूआरएल भरू:"
 
-#~ msgid "Unsharing folder '%1' failed."
-#~ msgstr "फोल्डर '%1' साझा हटाबै मे असफल."
+#~ msgid "H&TTP:"
+#~ msgstr "H&TTP:"
 
-#~ msgid ""
-#~ "An error occurred while trying to unshare folder '%1'. Make sure that the "
-#~ "Perl script 'fileshareset' is set suid root."
-#~ msgstr ""
-#~ "फोल्डर '%1' क' साझा समाप्त करबाक कोसिस मे एकटा त्रुटि भेल. कृप्या सुनिश्चित करू जे "
-#~ "'fileshareset' रूट मे सेट अछि."
+#~ msgid "HTTP&S:"
+#~ msgstr "एचटीटीपीएस (&S):"
 
-#~ msgid "Select Icon"
-#~ msgstr "प्रतीक चुनू"
+#~ msgid "&FTP:"
+#~ msgstr "एफटीपीः (&F)"
 
-#~ msgid "Icon Source"
-#~ msgstr "प्रतीक स्रोत"
+#~ msgid "NO &PROXY:"
+#~ msgstr "प्राक्सी नहीं: (&P)"
 
-#~ msgid "S&ystem icons:"
-#~ msgstr "तंत्र प्रतीकः (&y)"
+#~ msgid "&Verify"
+#~ msgstr "सत्यापित (&V)"
 
-#~ msgid "O&ther icons:"
-#~ msgstr "अन्य प्रतीकः (&t)"
+#~ msgid "Connect to the &Internet directly"
+#~ msgstr "इंटरनेट सँ सीधे कनेक्ट होबू (&I)"
 
-#~ msgid "Actions"
-#~ msgstr "क्रियासभ"
+#~ msgid "Use preset proxy environment &variables"
+#~ msgstr "पहिने सँ तय प्राक्सी एनवायनमेंट वेरिएबल इस्तेमाल करू (&v)"
 
-#~ msgid "Animations"
-#~ msgstr "संजीवन"
+#~ msgid "Show the proxy environment variable configuration dialog."
+#~ msgstr "प्राक्सी एनवायरनमेंट वेरिएबल कान्फिगरेशन समाद देखाबू."
 
-#~ msgid "Applications"
-#~ msgstr "अनुप्रयोग"
+#~ msgid "Setup..."
+#~ msgstr "सेटअप..."
 
-#~ msgid "Categories"
-#~ msgstr "श्रेणीसभ"
+#~ msgid "&Manually specify the proxy settings"
+#~ msgstr "प्राक्सी बिन्यास केँ हस्तचालित उल्लेखित करू (&M)"
 
-#~ msgid "Devices"
-#~ msgstr "डिवाइस"
+#~ msgid "Authori&zation"
+#~ msgstr "प्राधिकृत (&z)"
 
-#~ msgid "Emblems"
-#~ msgstr "प्रतीक"
+#~ msgid "Prompt for login information whenever it is required."
+#~ msgstr "जखन आवश्यकता हुए, लागइन जानकारी पूछू"
 
-#~ msgid "Emotes"
-#~ msgstr "इमोट्स"
+#~ msgid "Prompt as &needed"
+#~ msgstr "जखन आवश्यकता अछि, पूछू (&n)"
 
-#~ msgid "Filesystems"
-#~ msgstr "फाइलसिस्टम"
+#~ msgid "Username:"
+#~ msgstr "प्रयोक्ताक नाम:"
 
-#~ msgid "International"
-#~ msgstr "अंतर्राष्ट्रीय"
+#~ msgid "Login name."
+#~ msgstr "लागइन नाम"
 
-#~ msgid "Mimetypes"
-#~ msgstr "माइमटाइप्स"
+#~ msgid "Login password."
+#~ msgstr "लागइन पासवर्ड."
 
-#~ msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
-#~ msgstr "*.png *.xpm *.svg *.svgz|प्रतीक फाइलसभ (*.png *.xpm *.svg *.svgz)"
+#~ msgid "Password:"
+#~ msgstr "कूटशब्द: "
 
-#, fuzzy
-#~| msgid "Information"
-#~ msgctxt "@title:tab"
-#~ msgid "Information"
-#~ msgstr "सूचना"
+#~ msgid "O&ptions"
+#~ msgstr "विकल्प (&p)"
 
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label creation date"
-#~ msgid "Created"
-#~ msgstr "बनएलक:"
+#~ msgid "Use persistent connections to proxy"
+#~ msgstr "प्राक्सी क' लेल स्थिर कनेक्शन इस्तेमाल करू"
 
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@label file content size"
-#~ msgid "Size"
-#~ msgstr "आकार"
+#~ msgid "Ser&vers"
+#~ msgstr "सर्वर (&v)"
 
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "@label"
-#~ msgid "Description"
-#~ msgstr "विवरण"
+#~ msgid "Remove all proxy exception addresses from the list."
+#~ msgstr "सूची मे सँ सबहि प्राक्सी एक्सेप्शन पता मेटाबू"
 
-#, fuzzy
-#~| msgid "&General"
-#~ msgctxt "@label Software used to generate content"
-#~ msgid "Generator"
-#~ msgstr "सामान्य (&G)"
+#~ msgid "D&elete All"
+#~ msgstr "सभटा मेटाबू (&e)"
 
-#, fuzzy
-#~| msgid "Parent Folder"
-#~ msgctxt "@label parent directory"
-#~ msgid "Part of"
-#~ msgstr "पेरेन्ट फोल्डर "
+#~ msgid "Remove the selected proxy exception address from the list."
+#~ msgstr "सूची मे सँ चुनल गेल प्राक्सी एक्सेप्शन पता मेटाबू"
 
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label modified date of file"
-#~ msgid "Modified"
-#~ msgstr "परिवर्धितः"
+#~ msgid "Add new proxy exception address to the list."
+#~ msgstr "सूची मे नवीन प्राक्सी एक्सेप्शन पताकेँ जोडू."
 
-#, fuzzy
-#~| msgid "Mime Type"
-#~ msgctxt "@label"
-#~ msgid "MIME Type"
-#~ msgstr "माइम प्रकार"
+#~ msgid "Change the selected proxy exception address."
+#~ msgstr "चुनल गेल प्राक्सी एक्सेप्शन पता बदलू"
 
-#, fuzzy
-#~| msgid "Contents:"
-#~ msgctxt "@label"
-#~ msgid "Content"
-#~ msgstr "विषय:"
+#~ msgid "C&hange..."
+#~ msgstr "बदलू (&h)..."
 
-#, fuzzy
-#~| msgid "created on %1"
-#~ msgctxt "@label"
-#~ msgid "Related To"
-#~ msgstr " %1 केँ तैआर कएल गेल"
+#~ msgid "&Domain name:"
+#~ msgstr "डोमेन नामः (&D)"
 
-#, fuzzy
-#~| msgid "Subject line"
-#~ msgctxt "@label"
-#~ msgid "Subject"
-#~ msgstr "विषय पंक्ति"
+#~ msgid "Includes your platform type in the browser identification text"
+#~ msgstr "ब्राउजर पहचान पाठ मे अहाँक प्लेटफार्म किस्म सामिल करू."
 
-#, fuzzy
-#~| msgid "File"
-#~ msgctxt "@label music title"
-#~ msgid "Title"
-#~ msgstr "फाइल"
+#~ msgid "Add &platform name"
+#~ msgstr "प्लेटफार्म नाम जोडू (&p)"
 
-#, fuzzy
-#~| msgid "Location:"
-#~ msgctxt "@label file URL"
-#~ msgid "Location"
-#~ msgstr "स्थानः"
+#~ msgid "Domain [Group]"
+#~ msgstr "डोमेन (समूह)"
 
-#, fuzzy
-#~| msgid "Created:"
-#~ msgctxt "@label"
-#~ msgid "Creator"
-#~ msgstr "बनएलक:"
-
-#, fuzzy
-#~| msgid "Categories"
-#~ msgctxt "@label number of characters"
-#~ msgid "Characters"
-#~ msgstr "श्रेणीसभ"
-
-#, fuzzy
-#~| msgid "C&onnect"
-#~ msgctxt "@label"
-#~ msgid "Codec"
-#~ msgstr "कनेक्ट (&o)"
-
-#, fuzzy
-#~| msgctxt "The destination of a file operation"
-#~| msgid "Destination"
-#~ msgctxt "@label"
-#~ msgid "Duration"
-#~ msgstr "गंतव्य"
-
-#, fuzzy
-#~| msgid "Device name"
-#~ msgctxt "@label"
-#~ msgid "Filename"
-#~ msgstr "डिवाइस नाम"
-
-#, fuzzy
-#~| msgid "Link"
-#~ msgctxt "@label number of lines"
-#~ msgid "Lines"
-#~ msgstr "लिंक"
-
-#, fuzzy
-#~| msgid "Write"
-#~ msgctxt "@label"
-#~ msgid "Width"
-#~ msgstr "लिखू"
-
-#, fuzzy
-#~| msgid "Exposure:"
-#~ msgctxt "@label EXIF"
-#~ msgid "Exposure Time"
-#~ msgstr "उद्भासन:"
-
-#, fuzzy
-#~| msgid "Class"
-#~ msgctxt "@label EXIF"
-#~ msgid "Flash"
-#~ msgstr "वर्ग"
-
-#, fuzzy
-#~| msgid "Mask"
-#~ msgctxt "@label EXIF"
-#~ msgid "Make"
-#~ msgstr "मास्क"
-
-#, fuzzy
-#~| msgid "Organization:"
-#~ msgctxt "@label EXIF"
-#~ msgid "Orientation"
-#~ msgstr "संगठन:"
-
-#, fuzzy
-#~| msgid "Directory"
-#~ msgctxt "@label video director"
-#~ msgid "Director"
-#~ msgstr "निर्देशिका"
-
-#, fuzzy
-#~| msgid "&General"
-#~ msgctxt "@label music genre"
-#~ msgid "Genre"
-#~ msgstr "सामान्य (&G)"
-
-#, fuzzy
-#~| msgid "URL Resource Invalid"
-#~ msgctxt "@label resource created time"
-#~ msgid "Resource Created"
-#~ msgstr "यूआरएल संसाधन अवैध अछि"
-
-#, fuzzy
-#~| msgctxt "The source of a file operation"
-#~| msgid "Source"
-#~ msgctxt "@label"
-#~ msgid "Sub Resource"
-#~ msgstr "श्रोत"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label resource last modified"
-#~ msgid "Resource Modified"
-#~ msgstr "परिवर्धितः"
-
-#, fuzzy
-#~| msgid "Sorting"
-#~ msgctxt "@label"
-#~ msgid "Numeric Rating"
-#~ msgstr "छाँटनाइ"
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgctxt "@label"
-#~ msgid "Usage Count"
-#~ msgstr "टिप्पणी"
-
-#, fuzzy
-#~| msgid "Open file dialog"
-#~ msgctxt "@label"
-#~ msgid "Unix File Owner"
-#~ msgstr "फाइल खोलबा क' संवाद"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@label file type"
-#~ msgid "Type"
-#~ msgstr "प्रकार"
-
-#, fuzzy
-#~| msgid "Trash File"
-#~ msgctxt "@label Number of translated strings"
-#~ msgid "Translated"
-#~ msgstr "फाइल मेटाबू"
-
-#~ msgid "P&review"
-#~ msgstr "पूर्वावलोकन (&r)"
-
-#~ msgid "&Skip File"
-#~ msgstr "फाइल छोड़ू (&S)"
-
-#~ msgid "No service implementing %1"
-#~ msgstr " %1 केर कार्यान्वयन मे कोनो सेवा नहि अछि"
-
-#~ msgid "Link to %1 (%2)"
-#~ msgstr "%1 (%2) पर लिंक करू"
-
-#~ msgid "Owner:"
-#~ msgstr "मालिक:"
-
-#~ msgid "Permissions:"
-#~ msgstr "अनुमतिः"
-
-#~ msgid "All Pictures"
-#~ msgstr "सभटा छविसभ"
-
-#~ msgid "Mime Type"
-#~ msgstr "माइम प्रकार"
-
-#~ msgid "Comment"
-#~ msgstr "टिप्पणी"
-
-#~ msgid "Patterns"
-#~ msgstr "नमूना"
-
-#~ msgid "&Edit..."
-#~ msgstr "संपादित करु (&E)..."
-
-#~ msgid "Click this button to display the familiar KDE mime type editor."
-#~ msgstr "भिज्ञ केडीई माइम प्रकार संपादक प्रदर्शित करब क' लेल एहि बटन केँ क्लिक करू."
-
-#~ msgid "Acquire Image"
-#~ msgstr "छवि प्राप्त करू"
-
-#~ msgid "OCR Image"
-#~ msgstr "ओसीआर छवि"
-
-#~ msgid "File '%1' is not readable"
-#~ msgstr "फाइल '%1' पढ़ै लायक नहि अछि"
-
-#~ msgid "ERROR: Unknown protocol '%1'"
-#~ msgstr "त्रुटि: अनचिन्ह प्रोटोकाल '%1'"
-
-#~ msgid "The clipboard is empty"
-#~ msgstr "क्लिपबोर्ड खाली अछि"
-
-#, fuzzy
-#~| msgid "Organization:"
-#~ msgid "Organization / Common Name"
-#~ msgstr "संगठन:"
-
-#, fuzzy
-#~| msgid "Organizational unit:"
-#~ msgid "Organizational Unit"
-#~ msgstr "संगठनात्मक एकाइ:"
-
-#, fuzzy
-#~| msgid "Emblems"
-#~ msgid "Enable"
-#~ msgstr "प्रतीक"
-
-#, fuzzy
-#~| msgid "Send certificate"
-#~ msgid "System certificates"
-#~ msgstr "प्रमाणपत्र भेजू"
-
-#, fuzzy
-#~| msgid "Send certificate"
-#~ msgid "User-added certificates"
-#~ msgstr "प्रमाणपत्र भेजू"
-
-#, fuzzy
-#~| msgid "Certificate"
-#~ msgid "Pick Certificates"
-#~ msgstr "प्रमाणपत्र"
-
-#, fuzzy
-#~| msgid "Security Information"
-#~ msgid "<b>Subject Information</b>"
-#~ msgstr "सुरक्षा जानकारी"
-
-#, fuzzy
-#~| msgid " <b>[Cross Domain]</b>"
-#~ msgid "<b>Issuer Information</b>"
-#~ msgstr " <b>[क्रास डोमेन]</b>"
-
-#, fuzzy
-#~| msgid "<b>%1</b>"
-#~ msgid "<b>Other</b>"
-#~ msgstr "<b>%1</b>"
-
-#, fuzzy
-#~| msgid "Reload configuration file"
-#~ msgid "SSL Configuration Module"
-#~ msgstr "बिन्यास फाइल फिनु सँ  लोड करू"
-
-#~ msgid "&Choose password:"
-#~ msgstr "कूटशब्द चुनू: (&C)"
-
-#~ msgid "Certificate"
-#~ msgstr "प्रमाणपत्र"
-
-#~ msgid "Save selection for this host."
-#~ msgstr "ई होस्ट क' लेल चयन सहेजू"
-
-#~ msgid "KDE SSL Certificate Dialog"
-#~ msgstr "केडीई एसएसएल प्रमाणपत्र संवाद"
-
-#~ msgid ""
-#~ "The server <b>%1</b> requests a certificate.<br /><br />Select a "
-#~ "certificate to use from the list below:"
-#~ msgstr ""
-#~ "सर्वर <b>%1</b> ने प्रमाणपत्र क' लेल निवेदन कएल अछि.<br /><br /> नीच्चाँ देल गेल "
-#~ "सूची मे सँ प्रमाणपत्र चुनू:"
-
-#~ msgid "Signature Algorithm: "
-#~ msgstr "हस्ताक्षर एल्गोरिदम: "
-
-#~ msgid "Unknown"
-#~ msgstr "अनचिन्ह"
-
-#~ msgid "Signature Contents:"
-#~ msgstr "हस्ताक्षर विषयवस्तु: "
-
-#~ msgctxt "Unknown"
-#~ msgid "Unknown key algorithm"
-#~ msgstr "अनचिन्ह कुँजी अल्गोरिद्म"
-
-#~ msgid "Key type: RSA (%1 bit)"
-#~ msgstr "कुंजी प्रकार: आरएसए (%1 बिट)"
-
-#~ msgid "Modulus: "
-#~ msgstr "माडुलस: "
-
-#~ msgid "Exponent: 0x"
-#~ msgstr "एक्सपोनेंट: 0x"
-
-#~ msgid "Key type: DSA (%1 bit)"
-#~ msgstr "कुंजी प्रकार: डीएसए (%1 बिट)"
-
-#~ msgid "Prime: "
-#~ msgstr "प्राइम: "
-
-#~ msgid "160 bit prime factor: "
-#~ msgstr "160 बिट प्राइम फैक्टर: "
-
-#~ msgid "Public key: "
-#~ msgstr "सार्वजनिक कुंजीः"
-
-#~ msgid ""
-#~ "Certificate signing authority root files could not be found so the "
-#~ "certificate is not verified."
-#~ msgstr ""
-#~ "प्रमाणपत्र हस्ताक्षर करैबला अधिकृत रूट फाइल नहि भेटल इएल लेल प्रमाणपत्र सत्यापित नहि "
-#~ "भेल."
-
-#~ msgid "SSL support was not found."
-#~ msgstr "एसएसएल समर्थन नहि भेटल"
-
-#~ msgid "Private key test failed."
-#~ msgstr "प्राइवेट कुँजी परीक्षण असफल"
-
-#~ msgid "This certificate is not relevant."
-#~ msgstr "प्रमाणपत्र सम्बद्ध नहि अछि."
-
-#~ msgid "KDE Certificate Request"
-#~ msgstr "केडीई प्रमाणपत्र निवेदन"
-
-#~ msgid "KDE Certificate Request - Password"
-#~ msgstr "केडीई प्रमाणपत्र निवेदन - कूटशब्द"
-
-#~ msgid "Unsupported key size."
-#~ msgstr "असमर्थित कुँजी आकार."
-
-#~ msgid "KDE"
-#~ msgstr "केडीइ"
-
-#~ msgid "Please wait while the encryption keys are generated..."
-#~ msgstr "कृप्या इंतजार करू जखन एनक्रिप्शन कुंजि बनाएल जाए रहल अछि..."
-
-#~ msgid "Store"
-#~ msgstr "जमा करू"
-
-#~ msgid "2048 (High Grade)"
-#~ msgstr "2048 (उच्च ग्रेड)"
-
-#~ msgid "1024 (Medium Grade)"
-#~ msgstr "1024 (मध्यम ग्रेड)"
-
-#~ msgid "768  (Low Grade)"
-#~ msgstr "768  (निम्न ग्रेड)"
-
-#~ msgid "512  (Low Grade)"
-#~ msgstr "512  (निम्न ग्रेड)"
-
-#~ msgid "No SSL support."
-#~ msgstr "कोनो एसएसएल समर्थन नहि."
-
-#~ msgid "Certificate password"
-#~ msgstr "प्रमाणपत्र पासवर्ड"
-
-#~ msgid "GMT"
-#~ msgstr "जीएमटी"
-
-#~ msgid "KMailService"
-#~ msgstr "के-मेल-सर्विस"
-
-#~ msgid "Mail service"
-#~ msgstr "डाक सेवा"
-
-#~ msgid "Error connecting to server."
-#~ msgstr "सर्वर सँ कनेक्शन मे त्रुटि"
-
-#~ msgid "Time out waiting for server interaction."
-#~ msgstr "सर्वर इंटरेक्शन केर इंतजार मे टाइम आउट"
-
-#~ msgid "Server said: \"%1\""
-#~ msgstr "सर्वर कथन: \"%1\""
-
-#~ msgid "KSendBugMail"
-#~ msgstr "के-सेंड-बग-मेल"
-
-#~ msgid "(c) 2000 Stephan Kulow"
-#~ msgstr "(c) 2000 स्टीफन कुलोव"
-
-#~ msgid "Author"
-#~ msgstr "लेखक"
-
-#~ msgid "Subject line"
-#~ msgstr "विषय पंक्ति"
-
-#~ msgid "Recipient"
-#~ msgstr "प्राप्तकर्ता"
-
-#~ msgid "telnet service"
-#~ msgstr "टेलनेट सेवा"
-
-#~ msgid "telnet protocol handler"
-#~ msgstr "टेलनेट प्रोटोकाल हैंडलर"
-
-#~ msgid "Could not read %1"
-#~ msgstr " %1 पढ़ि नहि सकल"
-
-#~ msgid "Edit file type"
-#~ msgstr "फाइल प्रकार संपादन करू"
-
-#, fuzzy
-#~| msgid "You received a cookie from"
-#~| msgid_plural "You received %1 cookies from"
-#~ msgctxt "@label: multiple cookies"
-#~ msgid "You received %1 cookies from"
-#~ msgstr "अहाँकेँ एतय सँ एकटा कुकी भेटल"
-
-#, fuzzy
-#~| msgid "You received a cookie from"
-#~| msgid_plural "You received %1 cookies from"
-#~ msgctxt "@label: single cookie"
-#~ msgid "You received a cookie from"
-#~ msgstr "अहाँकेँ एतय सँ एकटा कुकी भेटल"
-
-#~ msgid "The specified folder already exists."
-#~ msgstr "उल्लेखित फोल्डर पहिने सँ मोजुद अछि. "
-
-#~ msgid "Retrieving from %1..."
-#~ msgstr " %1 सँ फिनु सँ प्राप्ति मे..."
-
-#~ msgid "A newer item named '%1' already exists."
-#~ msgstr "एकटा नवीन एकाइ '%1' नाम सँ पहिने सँ मोजुद अछि.  "
-
-#, fuzzy
-#~| msgid "&Name:"
-#~ msgid "TextLabel"
-#~ msgstr "नाम (&N):"
-
-#~ msgid "Requesting data to send"
-#~ msgstr "डाटा भेजने क' लेल निवेदन"
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgctxt "@label"
-#~ msgid "Size:"
-#~ msgstr "आकार:"
-
-#, fuzzy
-#~| msgid "Type:"
-#~ msgctxt "@label file type"
-#~ msgid "Type:"
-#~ msgstr "प्रकार:"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@label"
-#~ msgid "Modified:"
-#~ msgstr "परिवर्धितः"
-
-#, fuzzy
-#~| msgid "Owner:"
-#~ msgctxt "@label"
-#~ msgid "Owner:"
-#~ msgstr "मालिक:"
-
-#, fuzzy
-#~| msgid "Permissions:"
-#~ msgctxt "@label"
-#~ msgid "Permissions:"
-#~ msgstr "अनुमतिः"
-
-#, fuzzy
-#~| msgid "Type"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Type"
-#~ msgstr "प्रकार"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Size"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Size"
-#~ msgstr "आकार"
-
-#, fuzzy
-#~| msgid "Modified:"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Modified"
-#~ msgstr "परिवर्धितः"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Owner"
-#~ msgstr "मालिक"
-
-#, fuzzy
-#~| msgctxt "@title:column"
-#~| msgid "Permissions"
-#~ msgctxt "@item::inlistbox"
-#~ msgid "Permissions"
-#~ msgstr "अनुमतिसभ"
-
-#~ msgid "Unmounted Icon"
-#~ msgstr "अनमाउन्टेड प्रतीक"
-
-#, fuzzy
-#~| msgid ""
-#~| "This action would overwrite '%1' with itself.\n"
-#~| "Please enter a new file name:"
-#~ msgid "This action will overwrite '%1' with a newer file '%2'."
-#~ msgstr ""
-#~ "ई क्रिया, '%1' केँ अपन मेटाकए लिखत.\n"
-#~ "कृप्या एकटा नवीन फाइल नाम भरू:"
-
-#, fuzzy
-#~| msgid ""
-#~| "This action would overwrite '%1' with itself.\n"
-#~| "Please enter a new file name:"
-#~ msgid "This action will overwrite '%1' with a file of the same age '%2'."
-#~ msgstr ""
-#~ "ई क्रिया, '%1' केँ अपन मेटाकए लिखत.\n"
-#~ "कृप्या एकटा नवीन फाइल नाम भरू:"
-
-#~ msgctxt "Available space out of total partition size (percent used)"
-#~ msgid "%1 out of %2 (%3% used)"
-#~ msgstr "%2 मे सँ %1 (%3% प्रयोग मे)"
-
-#, fuzzy
-#~| msgid "New Folder"
-#~ msgctxt "@label"
-#~ msgid "Folder"
-#~ msgstr "नवीन फोल्डर"
-
-#, fuzzy
-#~| msgid "%1 (%2)"
-#~ msgid "size %1 (%2)"
-#~ msgstr "%1 (%2)"
-
-#~ msgid "modified on %1"
-#~ msgstr " %1 केँ परिवर्धित कएल गेल"
-
-#~ msgid "The source file is '%1'"
-#~ msgstr "स्रोत फाइल अछि. '%1'"
-
-#, fuzzy
-#~| msgid "Move to Trash"
-#~ msgctxt "@action:inmenu"
-#~ msgid "Move to trash"
-#~ msgstr "रद्दीमे भेजू"
-
-#, fuzzy
-#~| msgid "Do you really want to delete this item?"
-#~| msgid_plural "Do you really want to delete these %1 items?"
-#~ msgctxt "@info"
-#~ msgid "Do you really want to empty the trash? All items will be deleted."
-#~ msgstr "की अहाँ सचमुच एहि वस्तु केँ मेटाएब चाहैत छी?"
-
-#, fuzzy
-#~| msgid "Add..."
-#~ msgctxt "@label"
-#~ msgid "Add Tags..."
-#~ msgstr "जोड़ू..."
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@info"
-#~ msgid "Delete tag"
-#~ msgstr "मेटाबू"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@title"
-#~ msgid "Delete tag"
-#~ msgstr "मेटाबू"
-
-#, fuzzy
-#~| msgid "Delete"
-#~ msgctxt "@action:button"
-#~ msgid "Delete"
-#~ msgstr "मेटाबू"
-
-#~ msgid "&Meta Info"
-#~ msgstr "मेटा जानकारी  (&M)"
-
-#~ msgid "&Auto Skip"
-#~ msgstr "स्वचलित छोड़ू (&A)"
-
-#~ msgid "R&esume All"
-#~ msgstr "सभटा पुनरारंभ (&e)"
-
-#~ msgid "Sends a short bug report to submit@bugs.kde.org"
-#~ msgstr "submit@bugs.kde.org केँ एकटा छोट बग रपट भेजै अछि"
-
-#~ msgid "&Edit '%1'..."
-#~ msgstr "'%1' क' संपादन करू...(&E)"
-
-#~ msgid "Unexpected end of data, some information may be lost."
-#~ msgstr "डाटा क' अप्रत्याशित अंत, किछु जानकारी गुम भ' सकैछ."
-
-#~ msgid "size %1"
-#~ msgstr "आकार %1"
-
-#~ msgid "Add Bookmark"
-#~ msgstr "पुस्तक चिन्ह जोड़ू"
-
-#~ msgid "Authentication needed for %1 but authentication is disabled."
-#~ msgstr " %1 क' लेल अनुमोदन आवश्यक अछि. पर अनुमोदन अक्षम कएल गेल अछि."
-
-#~ msgid ""
-#~ "Unsupported method: authentication will fail. Please submit a bug report."
-#~ msgstr "असमर्थित विधिः अनुमोदन सफल नहि होगा. कृप्या बग रपट भेजू."
+#~ msgid "Host [Set By]"
+#~ msgstr "मेजबान (द्वारा सेट)"
