@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-20 01:46+0000\n"
+"POT-Creation-Date: 2015-01-24 01:42+0000\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1502,7 +1502,7 @@ msgid ""
 "A script package with the name \"%1\" already exists. Replace this package?"
 msgstr ""
 
-#: kokross/KoScriptManager.cpp:248
+#: kokross/KoScriptManager.cpp:248 main/KoFindToolbar.cpp:152
 msgid "Replace"
 msgstr "बदलू"
 
@@ -2687,15 +2687,14 @@ msgctxt "(qtundo-format)"
 msgid "Text"
 msgstr "पाठ"
 
-#: kotext/commands/DeleteTableColumnCommand.cpp:40
-#: kotext/KoTextEditor.cpp:1076
+#: kotext/commands/DeleteTableColumnCommand.cpp:38
 #, fuzzy
 #| msgid "Delete"
 msgctxt "(qtundo-format)"
 msgid "Delete Column"
 msgstr "मेटाबू"
 
-#: kotext/commands/DeleteTableRowCommand.cpp:40 kotext/KoTextEditor.cpp:1095
+#: kotext/commands/DeleteTableRowCommand.cpp:38
 #, fuzzy
 #| msgid "Delete"
 msgctxt "(qtundo-format)"
@@ -2716,31 +2715,28 @@ msgctxt "(qtundo-format)"
 msgid "Insert Endnote"
 msgstr "अनुक्रमणिका जोडू"
 
-#: kotext/commands/InsertTableColumnCommand.cpp:42
-#: kotext/KoTextEditor.cpp:1058
+#: kotext/commands/InsertTableColumnCommand.cpp:40
 #, fuzzy
 #| msgid "Insert Index"
 msgctxt "(qtundo-format)"
 msgid "Insert Column Right"
 msgstr "अनुक्रमणिका जोडू"
 
-#: kotext/commands/InsertTableColumnCommand.cpp:44
-#: kotext/KoTextEditor.cpp:1040
+#: kotext/commands/InsertTableColumnCommand.cpp:42
 #, fuzzy
 #| msgid "Insert Index"
 msgctxt "(qtundo-format)"
 msgid "Insert Column Left"
 msgstr "अनुक्रमणिका जोडू"
 
-#: kotext/commands/InsertTableRowCommand.cpp:42
+#: kotext/commands/InsertTableRowCommand.cpp:40
 #, fuzzy
 #| msgid "Insert Break"
 msgctxt "(qtundo-format)"
 msgid "Insert Row Below"
 msgstr "खण्डन जोडू"
 
-#: kotext/commands/InsertTableRowCommand.cpp:44 kotext/KoTextEditor.cpp:1004
-#: kotext/KoTextEditor.cpp:1022
+#: kotext/commands/InsertTableRowCommand.cpp:42
 #, fuzzy
 #| msgid "Insert page"
 msgctxt "(qtundo-format)"
@@ -2879,8 +2875,8 @@ msgctxt "Underline Style"
 msgid "Double"
 msgstr "दुगुना"
 
-#: kotext/KoTextEditor.cpp:191 kotext/KoTextEditor.cpp:1548
-#: kotext/KoTextEditor.cpp:1550
+#: kotext/KoTextEditor.cpp:191 kotext/KoTextEditor.cpp:1511
+#: kotext/KoTextEditor.cpp:1513
 msgctxt "(qtundo-format)"
 msgid "New Paragraph"
 msgstr ""
@@ -2933,62 +2929,62 @@ msgctxt "(qtundo-format)"
 msgid "Insert Table"
 msgstr "पृष्ठ जोडू"
 
-#: kotext/KoTextEditor.cpp:1108
+#: kotext/KoTextEditor.cpp:1071
 #, fuzzy
 #| msgid "Margins"
 msgctxt "(qtundo-format)"
 msgid "Merge Cells"
 msgstr "हाशिया"
 
-#: kotext/KoTextEditor.cpp:1125
+#: kotext/KoTextEditor.cpp:1088
 msgctxt "(qtundo-format)"
 msgid "Split Cells"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1154
+#: kotext/KoTextEditor.cpp:1117
 #, fuzzy
 #| msgid "Fit Page Width"
 msgctxt "(qtundo-format)"
 msgid "Adjust Table Width"
 msgstr "पृष्ठ चओड़ाइसँ फिट करू"
 
-#: kotext/KoTextEditor.cpp:1171
+#: kotext/KoTextEditor.cpp:1134
 msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1218 kotext/KoTextEditor.cpp:1220
-#: kotext/KoTextEditor.cpp:1238
+#: kotext/KoTextEditor.cpp:1181 kotext/KoTextEditor.cpp:1183
+#: kotext/KoTextEditor.cpp:1201
 #, fuzzy
 #| msgid "Insert page"
 msgctxt "(qtundo-format)"
 msgid "Insert Table Of Contents"
 msgstr "पृष्ठ जोडू"
 
-#: kotext/KoTextEditor.cpp:1277
+#: kotext/KoTextEditor.cpp:1240
 #, fuzzy
 #| msgid "Insert page"
 msgctxt "(qtundo-format)"
 msgid "Modify Table Of Contents"
 msgstr "पृष्ठ जोडू"
 
-#: kotext/KoTextEditor.cpp:1294 kotext/KoTextEditor.cpp:1296
-#: kotext/KoTextEditor.cpp:1315
+#: kotext/KoTextEditor.cpp:1257 kotext/KoTextEditor.cpp:1259
+#: kotext/KoTextEditor.cpp:1278
 #, fuzzy
 #| msgid "Insert Break"
 msgctxt "(qtundo-format)"
 msgid "Insert Bibliography"
 msgstr "खण्डन जोडू"
 
-#: kotext/KoTextEditor.cpp:1352 kotext/KoTextEditor.cpp:1354
+#: kotext/KoTextEditor.cpp:1315 kotext/KoTextEditor.cpp:1317
 #, fuzzy
 #| msgid "Position:"
 msgctxt "(qtundo-format)"
 msgid "Add Citation"
 msgstr "स्थिति: "
 
-#: kotext/KoTextEditor.cpp:1381 kotext/KoTextEditor.cpp:1383
-#: kotext/KoTextEditor.cpp:1421
+#: kotext/KoTextEditor.cpp:1344 kotext/KoTextEditor.cpp:1346
+#: kotext/KoTextEditor.cpp:1384
 msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr ""
@@ -3824,7 +3820,7 @@ msgctxt "Replace all found matches"
 msgid "Replace All"
 msgstr "बदलू"
 
-#: main/KoFindToolbar.cpp:210
+#: main/KoFindToolbar.cpp:213
 #, kde-format
 msgctxt "Total number of matches"
 msgid "1 match found"
@@ -3832,15 +3828,15 @@ msgid_plural "%1 matches found"
 msgstr[0] ""
 msgstr[1] ""
 
-#: main/KoFindToolbar.cpp:220
+#: main/KoFindToolbar.cpp:223
 msgid "No matches found"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:226
+#: main/KoFindToolbar.cpp:229
 msgid "Search hit bottom, continuing from top."
 msgstr ""
 
-#: main/KoFindToolbar.cpp:228
+#: main/KoFindToolbar.cpp:231
 msgid "Search hit top, continuing from bottom."
 msgstr ""
 
