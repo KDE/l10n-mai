@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-24 01:42+0000\n"
+"POT-Creation-Date: 2015-02-02 01:48+0000\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2666,7 +2666,7 @@ msgid "Change Styles"
 msgstr "खण्डन जोडू"
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:77
-#: kotext/commands/DeleteCommand.cpp:53
+#: kotext/commands/DeleteCommand.cpp:54
 #, fuzzy
 #| msgid "Delete"
 msgctxt "(qtundo-format)"
@@ -2678,7 +2678,7 @@ msgid "Key Press"
 msgstr ""
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:332
-#: kotext/commands/DeleteCommand.cpp:437 kotext/KoTextEditor_undo.cpp:87
+#: kotext/commands/DeleteCommand.cpp:397 kotext/KoTextEditor_undo.cpp:87
 #: kotext/KoTextEditor_undo.cpp:166 kotext/KoTextEditor_undo.cpp:201
 #: kotext/KoTextEditor_undo.cpp:218 kotext/KoTextEditor_undo.cpp:260
 #, fuzzy
@@ -2750,7 +2750,7 @@ msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
 msgstr "बदलू"
 
-#: kotext/commands/NewSectionCommand.cpp:36
+#: kotext/commands/NewSectionCommand.cpp:37
 msgctxt "(qtundo-format)"
 msgid "New Section"
 msgstr ""
@@ -2848,17 +2848,11 @@ msgstr[1] ""
 msgid "Replace %1 with %2?"
 msgstr ""
 
-#: kotext/KoSectionManager.cpp:100
+#: kotext/KoSectionManager.cpp:129
 #, kde-format
 msgctxt "new numbered section name"
 msgid "New section %1"
 msgstr ""
-
-#: kotext/KoSectionManager.cpp:153
-#, fuzzy
-#| msgid "Position"
-msgid "Section"
-msgstr "स्थिति"
 
 #: kotext/KoText.cpp:32
 msgctxt "Underline Style"
@@ -6560,6 +6554,11 @@ msgstr ""
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1%"
+
+#, fuzzy
+#~| msgid "Position"
+#~ msgid "Section"
+#~ msgstr "स्थिति"
 
 #, fuzzy
 #~| msgid "Automatic"
