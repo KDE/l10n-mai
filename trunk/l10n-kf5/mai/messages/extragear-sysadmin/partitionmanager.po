@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-05 07:45+0000\n"
+"POT-Creation-Date: 2015-02-06 08:17+0000\n"
 "PO-Revision-Date: 2010-09-24 20:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -3421,7 +3421,7 @@ msgid "Label:"
 msgstr "लेबल:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelTextNoSetLabel)
-#: gui/partpropswidgetbase.ui:82 gui/sizedialogwidgetbase.ui:134
+#: gui/partpropswidgetbase.ui:82 gui/sizedialogwidgetbase.ui:133
 msgctxt "@label"
 msgid "This file system does not support setting a label."
 msgstr ""
@@ -3552,7 +3552,7 @@ msgctxt "@item:button advanced settings button"
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: gui/sizedialogbase.cpp:149
+#: gui/sizedialogbase.cpp:150
 #, fuzzy
 #| msgctxt "@title:tab advanced application settings"
 #| msgid "Advanced"
@@ -3561,51 +3561,57 @@ msgstr "उन्नत"
 
 #. i18n: ectx: property (text), widget (QLabel, m_LabelRole)
 #: gui/sizedialogwidgetbase.ui:55
+#, fuzzy
+#| msgid "Partition"
 msgctxt "@label:listbox"
-msgid "Partition type:"
-msgstr ""
+msgid "Partition &type:"
+msgstr "विभाजन"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_RadioPrimary)
 #: gui/sizedialogwidgetbase.ui:70
-msgid "Primary"
+msgid "Primar&y"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_RadioExtended)
 #: gui/sizedialogwidgetbase.ui:77
-msgid "Extended"
+#, fuzzy
+#| msgid "Extended"
+msgid "E&xtended"
 msgstr "विस्तारित"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_RadioLogical)
 #: gui/sizedialogwidgetbase.ui:84
-msgid "Logical"
+#, fuzzy
+#| msgid "Logical"
+msgid "&Logical"
 msgstr "तार्किक"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: gui/sizedialogwidgetbase.ui:152
+#: gui/sizedialogwidgetbase.ui:151
 msgctxt "@label"
 msgid "Minimum size:"
 msgstr "न्यूनतम आकार:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: gui/sizedialogwidgetbase.ui:175
+#: gui/sizedialogwidgetbase.ui:174
 msgctxt "@label"
 msgid "Maximum size:"
 msgstr "अधिकतम आकार:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: gui/sizedialogwidgetbase.ui:198
+#: gui/sizedialogwidgetbase.ui:197
 msgctxt "@label:listbox"
 msgid "Free space before:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: gui/sizedialogwidgetbase.ui:233
+#: gui/sizedialogwidgetbase.ui:232
 msgctxt "@label:listbox"
-msgid "Size:"
-msgstr "आकार:"
+msgid "Si&ze:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: gui/sizedialogwidgetbase.ui:262
+#: gui/sizedialogwidgetbase.ui:261
 msgctxt "@label:listbox"
 msgid "Free space after:"
 msgstr ""
@@ -3849,7 +3855,7 @@ msgid ""
 "%2</filename>"
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:70
+#: jobs/createfilesystemjob.cpp:73
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -3857,7 +3863,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:75
+#: jobs/createfilesystemjob.cpp:78
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -3865,7 +3871,7 @@ msgid ""
 "system type for partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:80
+#: jobs/createfilesystemjob.cpp:83
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -3873,7 +3879,7 @@ msgid ""
 "partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:91
+#: jobs/createfilesystemjob.cpp:94
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -5004,6 +5010,10 @@ msgstr ""
 #: util/htmlreport.cpp:83
 msgid "Machine:"
 msgstr "मशीनः"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Size:"
+#~ msgstr "आकार:"
 
 #~ msgctxt "@item/plain filesystem name"
 #~ msgid "unknown"
