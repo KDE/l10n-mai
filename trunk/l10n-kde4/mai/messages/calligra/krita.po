@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-04 01:39+0000\n"
+"POT-Creation-Date: 2015-02-07 01:42+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -52,10 +52,10 @@ msgstr ""
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:656
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:659
 #: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:108
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:372
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:377
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:382
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:465
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:374
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:379
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:384
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:467
 #: plugins/extensions/gmic/kis_gmic_widget.cpp:415
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:170
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:178
@@ -1985,7 +1985,7 @@ msgstr "निर्यात"
 
 #. i18n: ectx: Menu (LayerConvert)
 #: krita.rc:147
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:504
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:506
 #, fuzzy
 #| msgid "Invert"
 msgid "&Convert"
@@ -1993,7 +1993,7 @@ msgstr "उनटू"
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
 #: krita.rc:155
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:511
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:513
 #, fuzzy
 #| msgid "Color to Alpha"
 msgid "S&plit Alpha"
@@ -2313,9 +2313,9 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgOffsetImage)
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:14
 #: plugins/extensions/offsetimage/wdg_offsetimage.ui:14
-#: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
+#: plugins/extensions/rotateimage/dlg_rotateimage.cc:33
 #: plugins/extensions/rotateimage/rotateimage.cc:116
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:14
 msgid "Rotate Image"
 msgstr ""
 
@@ -2356,7 +2356,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:108
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:129
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:46
 msgid "Angle"
 msgstr "कोण"
 
@@ -3199,7 +3199,7 @@ msgstr "आकार:"
 #: plugins/paintops/experiment/kis_experimentop_option.cpp:36
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:128
-#: plugins/tools/defaulttools/kis_tool_brush.cc:350
+#: plugins/tools/defaulttools/kis_tool_brush.cc:353
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:66
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:92
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:170
@@ -3581,7 +3581,7 @@ msgid ""
 "interface> docker"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:500
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:502
 #: ui/kis_layer_manager.cc:290
 msgid "&Merge with Layer Below"
 msgstr ""
@@ -3651,7 +3651,7 @@ msgstr ""
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:355
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:434
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:122
-#: ui/forms/kis_url_requester_impl.ui:35 ui/forms/wdgdisplaysettings.ui:342
+#: ui/forms/wdg_url_requester.ui:35 ui/forms/wdgdisplaysettings.ui:342
 #: ui/forms/wdggeneralsettings.ui:217 ui/forms/wdgimageproperties.ui:113
 #: ui/forms/wdgnewimage.ui:185 ui/forms/wdgnewimage.ui:207
 #: ui/forms/wdgpaintactioneditor.ui:46 ui/forms/wdgpaintactioneditor.ui:69
@@ -4235,29 +4235,29 @@ msgstr ""
 msgid "G'MIC for Krita"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:357
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:359
 msgctxt "(qtundo-format)"
 msgid "Gmic filter"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:372
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:374
 msgid "Sorry, this filter is crashing Krita and is turned off."
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:377
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:379
 msgid "Sorry, this output mode is not implemented"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:382
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:384
 msgid "Sorry, this input mode is not implemented"
 msgstr ""
 
-#: plugins/extensions/gmic/kis_gmic_plugin.cpp:465
+#: plugins/extensions/gmic/kis_gmic_plugin.cpp:467
 msgid "Sorry! G'Mic failed, reason:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonUpdate)
-#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:377
+#: plugins/extensions/gmic/kis_gmic_settings_widget.cpp:369
 #: plugins/formats/raw/wdgrawimport.ui:29
 msgid "Update"
 msgstr "अद्यतन"
@@ -5175,6 +5175,7 @@ msgstr ""
 #: plugins/extensions/metadataeditor/editors/exif.ui:666
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:66
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:138
+#: plugins/tools/defaulttools/kis_tool_brush.cc:326
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:286
 msgid "None"
 msgstr "किछु नहि"
@@ -6009,9 +6010,11 @@ msgid "&Rotate Image..."
 msgstr ""
 
 #: plugins/extensions/rotateimage/rotateimage.cc:53
-msgctxt "rotate image 90 degrees to the right"
-msgid "Rotate Image 90° to the Right"
-msgstr ""
+#, fuzzy
+#| msgid "Rotate Layer"
+msgctxt "rotate image 90 degrees Clockwise"
+msgid "Rotate Image 90° Clockwise"
+msgstr "परत घुमाबू"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:58
 #, fuzzy
@@ -6021,9 +6024,11 @@ msgid "Rotate Image 180°"
 msgstr "परत घुमाबू"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:63
-msgctxt "rotate image 90 degrees to the left"
-msgid "Rotate Image 90° to the Left"
-msgstr ""
+#, fuzzy
+#| msgid "Rotate Layer"
+msgctxt "rotate image 90 degrees Counter-Clockwise"
+msgid "Rotate Image 90° Counter-Clockwise"
+msgstr "परत घुमाबू"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:68
 #, fuzzy
@@ -6081,37 +6086,37 @@ msgid "Rotate Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpDirection)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:22
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:20
 msgid "Orientation"
 msgstr "दिशा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCW)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:109
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:26
 msgid "C&lockwise"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCCW)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:119
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:36
 msgid "Cou&nter-clockwise"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radio90)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:135
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:52
 msgid "90 &degrees"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radio180)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:142
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:59
 msgid "180 d&egrees"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radio270)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:149
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:66
 msgid "270 de&grees"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCustom)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:161
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:87
 #, fuzzy
 #| msgid "Custom"
 msgid "&Custom:"
@@ -7304,7 +7309,7 @@ msgid "&Round Corners..."
 msgstr ""
 
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:128
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:286
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:287
 msgid "Radius"
 msgstr "त्रिज्या"
 
@@ -7662,6 +7667,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:21
+#: plugins/tools/defaulttools/kis_tool_brush.cc:327
 msgid "Basic"
 msgstr "मूल"
 
@@ -9294,10 +9300,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, btnAntialiasing)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:108
 #, fuzzy
-#| msgctxt "smooth out the painting strokes the filter creates"
-#| msgid "Smooth"
-msgid "Smooth Lines"
-msgstr "चिकना"
+#| msgid "Vertical:"
+msgid "Anti-alias"
+msgstr "उर्ध्वाधर"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:181
@@ -9946,7 +9951,7 @@ msgid "Lower value "
 msgstr ""
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:30
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:246
 #: ui/kis_paintop_box.cc:284
 #, fuzzy
 #| msgid "Crop Image"
@@ -9966,14 +9971,14 @@ msgid "Mirrored"
 msgstr "चित्र काटू"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:264
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:265
 #, fuzzy
 #| msgid "Horizontal:"
 msgid "Horizontally"
 msgstr "क्षैतिजः"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:266
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:267
 #, fuzzy
 #| msgid "Vertical:"
 msgid "Vertically"
@@ -10511,98 +10516,90 @@ msgctxt "@action"
 msgid "Brush Smoothing: Stabilizer"
 msgstr "विकल्प"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:323
+#: plugins/tools/defaulttools/kis_tool_brush.cc:322
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
-msgid "No Smoothing"
+msgid "Smoothing:"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:324
+#: plugins/tools/defaulttools/kis_tool_brush.cc:328
 #, fuzzy
-#| msgctxt "smooth out the painting strokes the filter creates"
-#| msgid "Smooth"
-msgid "Basic Smoothing"
-msgstr "चिकना"
+#| msgid "Height:"
+msgid "Weighted"
+msgstr "उँचाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:325
-#, fuzzy
-#| msgctxt "smooth out the painting strokes the filter creates"
-#| msgid "Smooth"
-msgid "Weighted Smoothing"
-msgstr "चिकना"
-
-#: plugins/tools/defaulttools/kis_tool_brush.cc:326
+#: plugins/tools/defaulttools/kis_tool_brush.cc:329
 #, fuzzy
 #| msgid "Scales"
 msgid "Stabilizer"
 msgstr "मापक"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:335
+#: plugins/tools/defaulttools/kis_tool_brush.cc:338
 #, fuzzy
 #| msgid "Width:"
 msgid "Distance:"
 msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:343
+#: plugins/tools/defaulttools/kis_tool_brush.cc:346
 msgid "Delay:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:344
+#: plugins/tools/defaulttools/kis_tool_brush.cc:347
 msgid "Delay the brush stroke to make the line smoother"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:348
+#: plugins/tools/defaulttools/kis_tool_brush.cc:351
 msgid "Radius where the brush is blocked"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:354
+#: plugins/tools/defaulttools/kis_tool_brush.cc:357
 msgid "Finish line:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:365
+#: plugins/tools/defaulttools/kis_tool_brush.cc:368
 #, fuzzy
 #| msgid "Scales"
 msgid "Stabilize Sensors:"
 msgstr "मापक"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:373
+#: plugins/tools/defaulttools/kis_tool_brush.cc:376
 #, fuzzy
 #| msgid "Saturation"
 msgid "Stroke Ending:"
 msgstr "संतृप्ति"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:378
+#: plugins/tools/defaulttools/kis_tool_brush.cc:381
 #, fuzzy
 #| msgid "Pressure"
 msgid "Smooth Pressure"
 msgstr "दबाव"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:383
+#: plugins/tools/defaulttools/kis_tool_brush.cc:386
 #, fuzzy
 #| msgid "Width:"
 msgid "Scalable Distance"
 msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:386
+#: plugins/tools/defaulttools/kis_tool_brush.cc:389
 msgid "Assistant:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:387
+#: plugins/tools/defaulttools/kis_tool_brush.cc:390
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:390
+#: plugins/tools/defaulttools/kis_tool_brush.cc:393
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:397
+#: plugins/tools/defaulttools/kis_tool_brush.cc:400
 #, fuzzy
 #| msgid "Ellipse"
 msgid "Toggle Assistant"
 msgstr "दीर्घवृत्त"
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:143
+#: plugins/tools/defaulttools/kis_tool_brush.h:145
 msgid "Freehand Brush Tool"
 msgstr ""
 
@@ -10856,23 +10853,23 @@ msgstr ""
 msgid "Set axes angle (degrees)"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:241
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:242
 #, fuzzy
 #| msgid "Angle:"
 msgid "Axes Angle:"
 msgstr "कोण:"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:244
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
 msgid "Symmetry"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:246
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:247
 #, fuzzy
 #| msgid "Triangle"
 msgid "Translate"
 msgstr "त्रिभुज"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:252
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:253
 #, fuzzy
 #| msgid "Brush"
 msgid "Brush count"
@@ -10880,10 +10877,6 @@ msgstr "ब्रश"
 
 #: plugins/tools/defaulttools/kis_tool_multihand.h:98
 msgid "Multibrush Tool"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_pan.h:76
-msgid "Move and rotate your canvas"
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_path.cc:75
@@ -11837,62 +11830,62 @@ msgctxt "@title:window"
 msgid "No QML found"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:117
+#: ui/actions/kis_selection_action_factories.cpp:119
 #, fuzzy
 #| msgid "Select All"
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: ui/actions/kis_selection_action_factories.cpp:191
+#: ui/actions/kis_selection_action_factories.cpp:193
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/actions/kis_selection_action_factories.cpp:269
+#: ui/actions/kis_selection_action_factories.cpp:271
 msgctxt "floating message when copying empty selection"
 msgid "Selection is empty: no pixels were copied "
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:311
+#: ui/actions/kis_selection_action_factories.cpp:313
 #, fuzzy
 #| msgid "Cut"
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "काटू"
 
-#: ui/actions/kis_selection_action_factories.cpp:312
+#: ui/actions/kis_selection_action_factories.cpp:314
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:338
+#: ui/actions/kis_selection_action_factories.cpp:340
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "चित्र काटू"
 
-#: ui/actions/kis_selection_action_factories.cpp:350
+#: ui/actions/kis_selection_action_factories.cpp:352
 msgid "(pasted)"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:381
+#: ui/actions/kis_selection_action_factories.cpp:383
 #, fuzzy
 #| msgid "Pattern"
 msgid "Pasted"
 msgstr "प्रारूप"
 
-#: ui/actions/kis_selection_action_factories.cpp:428
+#: ui/actions/kis_selection_action_factories.cpp:430
 #, fuzzy
 #| msgid "Shrink Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "चयन घोकचाबू"
 
-#: ui/actions/kis_selection_action_factories.cpp:461
+#: ui/actions/kis_selection_action_factories.cpp:463
 #, fuzzy
 #| msgid "Shrink Selection"
 msgctxt "(qtundo-format)"
@@ -12459,20 +12452,6 @@ msgstr "अद्यतन"
 msgid "Automatically update the preview whenever the filter settings change"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
-#: ui/forms/kis_url_requester_impl.ui:25
-#, fuzzy
-#| msgid "Select"
-msgid "Selected file name"
-msgstr "चुनू"
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, btnSelectFile)
-#: ui/forms/kis_url_requester_impl.ui:32
-#, fuzzy
-#| msgid "Select All"
-msgid "Select file name..."
-msgstr "सभ चुनू"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_alwaysUseCheckBox)
 #: ui/forms/KisDetailsPaneBase.ui:94
 msgid "Always use this template at application start up"
@@ -12515,6 +12494,20 @@ msgstr "रिसॉल्यूशन:"
 #| msgid "Resolution:"
 msgid "Y resolution:"
 msgstr "रिसॉल्यूशन:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
+#: ui/forms/wdg_url_requester.ui:25
+#, fuzzy
+#| msgid "Select"
+msgid "Selected file name"
+msgstr "चुनू"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnSelectFile)
+#: ui/forms/wdg_url_requester.ui:32
+#, fuzzy
+#| msgid "Select All"
+msgid "Select file name..."
+msgstr "सभ चुनू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: ui/forms/wdgapplyprofile.ui:23
@@ -17240,15 +17233,21 @@ msgstr ""
 #: ui/kis_mask_manager.cc:188
 #, fuzzy
 #| msgid "Selection"
-msgctxt "(qtundo-format)"
 msgid "Add Selection Mask"
 msgstr "चुनाव"
 
 #: ui/kis_mask_manager.cc:188
 #, fuzzy
 #| msgid "Selection"
-msgid "Selection"
+msgctxt "(qtundo-format)"
+msgid "Add Selection Mask"
 msgstr "चुनाव"
+
+#: ui/kis_mask_manager.cc:195
+#, fuzzy
+#| msgid "Transparent"
+msgid "Add Transparency Mask"
+msgstr "पारदर्शी"
 
 #: ui/kis_mask_manager.cc:195
 #, fuzzy
@@ -17257,21 +17256,17 @@ msgctxt "(qtundo-format)"
 msgid "Add Transparency Mask"
 msgstr "पारदर्शी"
 
-#: ui/kis_mask_manager.cc:195
-msgid "Transparency Mask"
-msgstr ""
-
 #: ui/kis_mask_manager.cc:201
 #, fuzzy
 #| msgid "&Filter:"
-msgctxt "(qtundo-format)"
 msgid "Add Filter Mask"
 msgstr "फिल्टर: (&F)"
 
 #: ui/kis_mask_manager.cc:201
 #, fuzzy
 #| msgid "&Filter:"
-msgid "Filter Mask"
+msgctxt "(qtundo-format)"
+msgid "Add Filter Mask"
 msgstr "फिल्टर: (&F)"
 
 #: ui/kis_mask_manager.cc:212
@@ -17281,15 +17276,15 @@ msgstr ""
 #: ui/kis_mask_manager.cc:241
 #, fuzzy
 #| msgid "Transparent"
-msgctxt "(qtundo-format)"
 msgid "Add Transform Mask"
 msgstr "पारदर्शी"
 
 #: ui/kis_mask_manager.cc:241
 #, fuzzy
-#| msgid "Transform"
-msgid "Transform Mask"
-msgstr "रूपांतरित करू"
+#| msgid "Transparent"
+msgctxt "(qtundo-format)"
+msgid "Add Transform Mask"
+msgstr "पारदर्शी"
 
 #: ui/kis_mask_manager.cc:250
 #, fuzzy
@@ -17392,25 +17387,25 @@ msgstr "चित्र चपटा करू"
 #: ui/kis_node_manager.cpp:308
 #, fuzzy
 #| msgid "Transparent"
-msgid "&Transparency Mask"
+msgid "Add &Transparency Mask"
 msgstr "पारदर्शी"
 
 #: ui/kis_node_manager.cpp:311
 #, fuzzy
 #| msgid "&Filter:"
-msgid "&Filter Mask..."
+msgid "Add &Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
 #: ui/kis_node_manager.cpp:314
 #, fuzzy
 #| msgid "Transform"
-msgid "&Transform Mask..."
+msgid "Add &Transform Mask..."
 msgstr "रूपांतरित करू"
 
 #: ui/kis_node_manager.cpp:317
 #, fuzzy
 #| msgid "Grow Selection"
-msgid "&Local Selection"
+msgid "Add &Local Selection"
 msgstr "चयन बढाउ"
 
 #: ui/kis_node_manager.cpp:323
@@ -19276,13 +19271,13 @@ msgstr "पैलेट संपादित करू"
 msgid "Show Scratchpad"
 msgstr ""
 
-#: ui/widgets/kis_url_requester_impl.cpp:99
+#: ui/widgets/kis_url_requester.cpp:97
 #, fuzzy
 #| msgid "Select All"
 msgid "Select a file to load..."
 msgstr "सभ चुनू"
 
-#: ui/widgets/kis_url_requester_impl.cpp:102
+#: ui/widgets/kis_url_requester.cpp:100
 #, fuzzy
 #| msgid "Select All"
 msgid "Select a directory to load..."
@@ -19303,6 +19298,50 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgctxt "smooth out the painting strokes the filter creates"
+#~| msgid "Smooth"
+#~ msgid "Smooth Lines"
+#~ msgstr "चिकना"
+
+#, fuzzy
+#~| msgctxt "smooth out the painting strokes the filter creates"
+#~| msgid "Smooth"
+#~ msgid "No Smoothing"
+#~ msgstr "चिकना"
+
+#, fuzzy
+#~| msgctxt "smooth out the painting strokes the filter creates"
+#~| msgid "Smooth"
+#~ msgid "Basic Smoothing"
+#~ msgstr "चिकना"
+
+#, fuzzy
+#~| msgctxt "smooth out the painting strokes the filter creates"
+#~| msgid "Smooth"
+#~ msgid "Weighted Smoothing"
+#~ msgstr "चिकना"
+
+#, fuzzy
+#~| msgid "Selection"
+#~ msgid "Selection"
+#~ msgstr "चुनाव"
+
+#, fuzzy
+#~| msgid "&Filter:"
+#~ msgid "Filter Mask"
+#~ msgstr "फिल्टर: (&F)"
+
+#, fuzzy
+#~| msgid "Transform"
+#~ msgid "Transform Mask"
+#~ msgstr "रूपांतरित करू"
+
+#, fuzzy
+#~| msgid "Transparent"
+#~ msgid "&Transparency Mask"
+#~ msgstr "पारदर्शी"
 
 #, fuzzy
 #~| msgid "Partial"
@@ -19959,19 +19998,6 @@ msgstr "रँग स्पेस"
 #~ msgctxt "Basic smoothing enabled"
 #~ msgid "Basic"
 #~ msgstr "मूल"
-
-#, fuzzy
-#~| msgid "Height:"
-#~ msgctxt "Weighted smoothing enabled"
-#~ msgid "Weighted"
-#~ msgstr "उँचाइ:"
-
-#, fuzzy
-#~| msgctxt "smooth out the painting strokes the filter creates"
-#~| msgid "Smooth"
-#~ msgctxt "Smoothing of the brush"
-#~ msgid "Smoothing:"
-#~ msgstr "चिकना"
 
 #, fuzzy
 #~| msgid "Offset"
