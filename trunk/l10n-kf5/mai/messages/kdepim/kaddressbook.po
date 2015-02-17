@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-16 09:01+0000\n"
+"POT-Creation-Date: 2015-02-17 12:40+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -491,7 +491,7 @@ msgstr "पता पुस्तिका"
 msgid "Print Contacts"
 msgstr ""
 
-#: mainwidget.cpp:1040
+#: mainwidget.cpp:1041
 msgid "You have not selected any contacts."
 msgstr ""
 
@@ -502,39 +502,20 @@ msgid ""
 "wide shortcuts."
 msgstr ""
 
-#: merge/manualmerge/mergecontactsdialog.cpp:45
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:40
+#: merge/manualmerge/mergecontactsdialog.cpp:47
+#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:41
 msgid "Select Contacts to merge"
 msgstr ""
 
-#: merge/manualmerge/mergecontactsdialog.cpp:54
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:74
-#: merge/widgets/noenoughcontactselectedwidget.cpp:27
-msgid "You must select at least two elements."
+#: merge/manualmerge/mergecontactwidget.cpp:57
+msgid "Select contacts that you want really to merge:"
 msgstr ""
 
-#: merge/manualmerge/mergecontactsdialog.cpp:58
-#, kde-format
-msgid "You selected %1 and some item has not the same name"
-msgstr ""
-
-#: merge/manualmerge/mergecontactsdialog.cpp:101
-msgid "Error while merging contacts."
-msgstr ""
-
-#: merge/manualmerge/mergecontactsdialog.cpp:101
-msgid "Merge contact"
-msgstr ""
-
-#: merge/manualmerge/mergecontactwidget.cpp:43
-msgid "Select contacts that you really want to merge:"
-msgstr ""
-
-#: merge/manualmerge/mergecontactwidget.cpp:55
+#: merge/manualmerge/mergecontactwidget.cpp:80
 msgid "Select the addressbook in which to store merged contacts:"
 msgstr ""
 
-#: merge/manualmerge/mergecontactwidget.cpp:72
+#: merge/manualmerge/mergecontactwidget.cpp:97
 msgid "merge"
 msgstr ""
 
@@ -546,7 +527,7 @@ msgstr ""
 msgid "Merged Contact"
 msgstr ""
 
-#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:62
+#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:51
 #: merge/searchduplicate/resultduplicatetreewidget.cpp:52
 #, kde-format
 msgid "Duplicate contact %1"
@@ -554,14 +535,6 @@ msgstr ""
 
 #: merge/searchduplicate/resultduplicatetreewidget.cpp:28
 msgid "Contacts"
-msgstr ""
-
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:56
-msgid "No contacts selected."
-msgstr ""
-
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:64
-msgid "No contact duplicated found."
 msgstr ""
 
 #: merge/searchduplicate/searchduplicateresultwidget.cpp:67
@@ -573,6 +546,18 @@ msgstr "पता पुस्तिका"
 #: merge/searchduplicate/searchduplicateresultwidget.cpp:80
 #: merge/widgets/mergecontactselectinformationscrollarea.cpp:52
 msgid "Merge"
+msgstr ""
+
+#: merge/widgets/mergecontacterrorlabel.cpp:29
+msgid "You must select at least two elements."
+msgstr ""
+
+#: merge/widgets/mergecontacterrorlabel.cpp:32
+msgid "No contact duplicated found."
+msgstr ""
+
+#: merge/widgets/mergecontacterrorlabel.cpp:35
+msgid "No contacts selected."
 msgstr ""
 
 #: merge/widgets/mergecontactloseinformationwarning.cpp:31
