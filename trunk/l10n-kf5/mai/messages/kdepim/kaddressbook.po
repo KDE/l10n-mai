@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-19 09:47+0000\n"
+"POT-Creation-Date: 2015-02-20 09:17+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -92,7 +92,7 @@ msgctxt "@item Undefined import field type"
 msgid "Undefined"
 msgstr "अपरिभाषित"
 
-#: contactfields.cpp:57
+#: contactfields.cpp:57 merge/widgets/mergecontactselectlistwidget.cpp:76
 #, fuzzy
 #| msgid "Anniversary"
 msgctxt "The wedding anniversary of a contact"
@@ -119,27 +119,27 @@ msgctxt "Fourth email address"
 msgid "EMail (4)"
 msgstr ""
 
-#: contactfields.cpp:156
+#: contactfields.cpp:156 merge/widgets/mergecontactselectlistwidget.cpp:85
 msgid "Blog Feed"
 msgstr ""
 
-#: contactfields.cpp:159
+#: contactfields.cpp:159 merge/widgets/mergecontactselectlistwidget.cpp:94
 msgid "Profession"
 msgstr "व्यवसाय"
 
-#: contactfields.cpp:162
+#: contactfields.cpp:162 merge/widgets/mergecontactselectlistwidget.cpp:103
 msgid "Office"
 msgstr "कार्यालय"
 
-#: contactfields.cpp:165
+#: contactfields.cpp:165 merge/widgets/mergecontactselectlistwidget.cpp:106
 msgid "Manager"
 msgstr "प्रबंधक"
 
-#: contactfields.cpp:168
+#: contactfields.cpp:168 merge/widgets/mergecontactselectlistwidget.cpp:109
 msgid "Assistant"
 msgstr "सहायक"
 
-#: contactfields.cpp:171
+#: contactfields.cpp:171 merge/widgets/mergecontactselectlistwidget.cpp:118
 msgid "Spouse"
 msgstr ""
 
@@ -519,8 +519,8 @@ msgstr ""
 msgid "merge"
 msgstr ""
 
-#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:51
-#: merge/searchduplicate/resultduplicatetreewidget.cpp:52
+#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:50
+#: merge/searchduplicate/resultduplicatetreewidget.cpp:92
 #, kde-format
 msgid "Duplicate contact %1"
 msgstr ""
@@ -1099,7 +1099,7 @@ msgstr ""
 msgid "<qt>Unable to open file <b>%1</b>.</qt>"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:178
+#: xxport/csv/csvimportdialog.cpp:181
 msgctxt "@title:window"
 msgid "CSV Import Dialog"
 msgstr ""
@@ -1109,117 +1109,117 @@ msgctxt "@label"
 msgid "Importing contacts"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:277
+#: xxport/csv/csvimportdialog.cpp:298
 msgctxt "@label"
 msgid "File to import:"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:284
+#: xxport/csv/csvimportdialog.cpp:307
 msgctxt "@info:tooltip"
 msgid "Select a csv file to import"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:287
+#: xxport/csv/csvimportdialog.cpp:310
 msgctxt "@info:whatsthis"
 msgid ""
 "Click this button to start a file chooser that will allow you to select a "
 "csv file to import."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:294
+#: xxport/csv/csvimportdialog.cpp:317
 msgctxt "@title:group"
 msgid "Delimiter"
 msgstr "परिसीमक"
 
-#: xxport/csv/csvimportdialog.cpp:305
+#: xxport/csv/csvimportdialog.cpp:327
 msgctxt "@option:radio Field separator"
 msgid "Comma"
 msgstr "विराम चिह्न"
 
-#: xxport/csv/csvimportdialog.cpp:307
+#: xxport/csv/csvimportdialog.cpp:329
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a comma"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:310
+#: xxport/csv/csvimportdialog.cpp:332
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if your csv file uses the comma as a field separator."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:315
+#: xxport/csv/csvimportdialog.cpp:337
 msgctxt "@option:radio Field separator"
 msgid "Semicolon"
 msgstr "अर्द्ध विराम"
 
-#: xxport/csv/csvimportdialog.cpp:317
+#: xxport/csv/csvimportdialog.cpp:339
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a semicolon"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:320
+#: xxport/csv/csvimportdialog.cpp:342
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if your csv file uses the semicolon as a field separator."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:324
+#: xxport/csv/csvimportdialog.cpp:346
 msgctxt "@option:radio Field separator"
 msgid "Tabulator"
 msgstr "सारणीयक"
 
-#: xxport/csv/csvimportdialog.cpp:326
+#: xxport/csv/csvimportdialog.cpp:348
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a tab character"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:329
+#: xxport/csv/csvimportdialog.cpp:351
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if your csv file uses the tab character as a field "
 "separator."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:333
+#: xxport/csv/csvimportdialog.cpp:355
 msgctxt "@option:radio Field separator"
 msgid "Space"
 msgstr "अंतरिक्ष"
 
-#: xxport/csv/csvimportdialog.cpp:335
+#: xxport/csv/csvimportdialog.cpp:357
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a space character"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:338
+#: xxport/csv/csvimportdialog.cpp:360
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if your csv file uses the space character as a field "
 "separator."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:342
+#: xxport/csv/csvimportdialog.cpp:364
 msgctxt "@option:radio Custum field separator"
 msgid "Other"
 msgstr "आन"
 
-#: xxport/csv/csvimportdialog.cpp:344
+#: xxport/csv/csvimportdialog.cpp:366
 msgctxt "@info:tooltip"
 msgid "Set the field separator to a custom character"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:347
+#: xxport/csv/csvimportdialog.cpp:369
 msgctxt "@info:whatsthis"
 msgid ""
 "Select this option if to use some other character as the field delimiter for "
 "the data in your csv file."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:355
+#: xxport/csv/csvimportdialog.cpp:377
 msgctxt "@info:tooltip"
 msgid "Set the custom delimiter character"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:358
+#: xxport/csv/csvimportdialog.cpp:380
 msgctxt "@info:whatsthis"
 msgid ""
 "Enter a custom character to use as the delimiter character. If you enter "
@@ -1227,17 +1227,17 @@ msgid ""
 "characters will be ignored."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:364
+#: xxport/csv/csvimportdialog.cpp:386
 msgctxt "@label:listbox"
 msgid "Text quote:"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:369
+#: xxport/csv/csvimportdialog.cpp:393
 msgctxt "@info:tooltip"
 msgid "Select the quote character"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:372
+#: xxport/csv/csvimportdialog.cpp:396
 msgctxt "@info:whatsthis"
 msgid ""
 "Choose the character that your csv data uses to \"quote\" the field "
@@ -1246,27 +1246,27 @@ msgid ""
 "will be \"quoted\" by the character specified here."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:377
+#: xxport/csv/csvimportdialog.cpp:401
 msgctxt "@item:inlistbox Qoute character option"
 msgid "\""
 msgstr "\""
 
-#: xxport/csv/csvimportdialog.cpp:378
+#: xxport/csv/csvimportdialog.cpp:402
 msgctxt "@item:inlistbox Quote character option"
 msgid "'"
 msgstr "'"
 
-#: xxport/csv/csvimportdialog.cpp:379
+#: xxport/csv/csvimportdialog.cpp:403
 msgctxt "@item:inlistbox Quote character option"
 msgid "None"
 msgstr "किछु नहि"
 
-#: xxport/csv/csvimportdialog.cpp:383
+#: xxport/csv/csvimportdialog.cpp:407
 msgctxt "@label:listbox"
 msgid "Date format:"
 msgstr "तिथि फार्मेटः"
 
-#: xxport/csv/csvimportdialog.cpp:390
+#: xxport/csv/csvimportdialog.cpp:416
 msgctxt "@info:tooltip"
 msgid ""
 "<para><list><item>y: year with 2 digits</item><item>Y: year with 4 digits</"
@@ -1276,7 +1276,7 @@ msgid ""
 "item><item>S: seconds with 2 digits</item></list></para>"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:402
+#: xxport/csv/csvimportdialog.cpp:428
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Specify a format to use for dates included in your csv data. Use the "
@@ -1290,32 +1290,32 @@ msgid ""
 "para>"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:418
+#: xxport/csv/csvimportdialog.cpp:444
 msgctxt "@label:listbox"
 msgid "Text codec:"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:423
+#: xxport/csv/csvimportdialog.cpp:451
 msgctxt "@info:tooltip"
 msgid "Select the text codec"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:426
+#: xxport/csv/csvimportdialog.cpp:454
 msgctxt "@info:whatsthis"
 msgid "Choose the character encoding of the data in your csv file."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:430
+#: xxport/csv/csvimportdialog.cpp:458
 msgctxt "@option:check"
 msgid "Skip first row of file"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:432
+#: xxport/csv/csvimportdialog.cpp:461
 msgctxt "@info:tooltip"
 msgid "Skip first row of csv file when importing"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:435
+#: xxport/csv/csvimportdialog.cpp:464
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want the import to skip over the first row of the csv "
@@ -1323,63 +1323,63 @@ msgid ""
 "describing the order of the data fields included in the file."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:450
+#: xxport/csv/csvimportdialog.cpp:480
 msgctxt "@action:button"
 msgid "Apply Template..."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:451
+#: xxport/csv/csvimportdialog.cpp:481
 msgctxt "@action:button"
 msgid "Save Template..."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:470
+#: xxport/csv/csvimportdialog.cpp:500
 #, kde-format
 msgctxt "@item:inlistbox Codec setting"
 msgid "Local (%1)"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:472
+#: xxport/csv/csvimportdialog.cpp:502
 msgctxt "@item:inlistbox Codec setting"
 msgid "Latin1"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:473
+#: xxport/csv/csvimportdialog.cpp:503
 msgctxt "@item:inlistbox Codec setting"
 msgid "Unicode"
 msgstr "यूनिकोड"
 
-#: xxport/csv/csvimportdialog.cpp:474
+#: xxport/csv/csvimportdialog.cpp:504
 msgctxt "@item:inlistbox Codec setting"
 msgid "Microsoft Unicode"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:570
+#: xxport/csv/csvimportdialog.cpp:609
 msgctxt "@info:status"
 msgid "You must assign at least one column."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:589
+#: xxport/csv/csvimportdialog.cpp:621
 msgctxt "@label"
 msgid "There are no templates available yet."
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:590
+#: xxport/csv/csvimportdialog.cpp:622
 msgctxt "@title:window"
 msgid "No templates available"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:656
+#: xxport/csv/csvimportdialog.cpp:688
 msgctxt "@title:window"
 msgid "Template Name"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:657
+#: xxport/csv/csvimportdialog.cpp:689
 msgctxt "@info"
 msgid "Please enter a name for the template:"
 msgstr ""
 
-#: xxport/csv/csvimportdialog.cpp:706
+#: xxport/csv/csvimportdialog.cpp:738
 msgctxt "@info:status"
 msgid "Cannot open input file."
 msgstr ""
