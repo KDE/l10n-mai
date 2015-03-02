@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-01 02:10+0000\n"
+"POT-Creation-Date: 2015-03-02 02:05+0000\n"
 "PO-Revision-Date: 2010-09-24 20:24+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1505,7 +1505,7 @@ msgid "Association Properties"
 msgstr ""
 
 #: dialogs/classpropertiesdialog.cpp:241 dialogs/classpropertiesdialog.cpp:351
-#: dialogs/dialogbase.cpp:236 dialogs/settingsdialog.cpp:169
+#: dialogs/multipagedialogbase.cpp:236 dialogs/settingsdialog.cpp:169
 #: dialogs/umlforeignkeyconstraintdialog.cpp:201 dialogs/umlviewdialog.cpp:92
 msgid "General Settings"
 msgstr "सामान्य जमावट"
@@ -1736,56 +1736,6 @@ msgstr ""
 msgid "<p align=\"right\">Editable text:</p>"
 msgstr ""
 
-#: dialogs/dialogbase.cpp:236
-msgctxt "general settings"
-msgid "General"
-msgstr "सामान्य"
-
-#. i18n: ectx: label, entry (uiFont), group (UI Options)
-#. i18n: ectx: label, entry (codeViewerFont), group (Code Viewer Options)
-#: dialogs/dialogbase.cpp:259 dialogs/settingsdialog.cpp:210
-#: dialogs/umlviewdialog.cpp:136 umbrello.kcfg:165 umbrello.kcfg:275
-msgid "Font"
-msgstr "फोन्ट"
-
-#: dialogs/dialogbase.cpp:259 dialogs/settingsdialog.cpp:210
-#: dialogs/umlviewdialog.cpp:136
-msgid "Font Settings"
-msgstr "फौन्ट जमावट"
-
-#: dialogs/dialogbase.cpp:315
-#, fuzzy
-#| msgid "Style:"
-msgctxt "style page name"
-msgid "Style"
-msgstr "शैली:"
-
-#: dialogs/dialogbase.cpp:315
-#, fuzzy
-#| msgid "Style:"
-msgid "Role Style"
-msgstr "शैली:"
-
-#: dialogs/dialogbase.cpp:317
-#, fuzzy
-#| msgid "Style:"
-msgctxt "widget style page"
-msgid "Style"
-msgstr "शैली:"
-
-#: dialogs/dialogbase.cpp:317
-msgid "Widget Style"
-msgstr ""
-
-#: dialogs/dialogbase.cpp:339
-msgctxt "role page name"
-msgid "Roles"
-msgstr ""
-
-#: dialogs/dialogbase.cpp:339
-msgid "Role Settings"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QLabel, ui_imageTypeLabel)
 #: dialogs/exportallviewsdialog.cpp:73 dialogs/exportallviewsdialogbase.ui:52
 msgid "The format that the images will be exported to"
@@ -1868,6 +1818,56 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/finddialog.ui:69
 msgid "Search Term:"
+msgstr ""
+
+#: dialogs/multipagedialogbase.cpp:236
+msgctxt "general settings"
+msgid "General"
+msgstr "सामान्य"
+
+#. i18n: ectx: label, entry (uiFont), group (UI Options)
+#. i18n: ectx: label, entry (codeViewerFont), group (Code Viewer Options)
+#: dialogs/multipagedialogbase.cpp:259 dialogs/settingsdialog.cpp:210
+#: dialogs/umlviewdialog.cpp:136 umbrello.kcfg:165 umbrello.kcfg:275
+msgid "Font"
+msgstr "फोन्ट"
+
+#: dialogs/multipagedialogbase.cpp:259 dialogs/settingsdialog.cpp:210
+#: dialogs/umlviewdialog.cpp:136
+msgid "Font Settings"
+msgstr "फौन्ट जमावट"
+
+#: dialogs/multipagedialogbase.cpp:315
+#, fuzzy
+#| msgid "Style:"
+msgctxt "style page name"
+msgid "Style"
+msgstr "शैली:"
+
+#: dialogs/multipagedialogbase.cpp:315
+#, fuzzy
+#| msgid "Style:"
+msgid "Role Style"
+msgstr "शैली:"
+
+#: dialogs/multipagedialogbase.cpp:317
+#, fuzzy
+#| msgid "Style:"
+msgctxt "widget style page"
+msgid "Style"
+msgstr "शैली:"
+
+#: dialogs/multipagedialogbase.cpp:317
+msgid "Widget Style"
+msgstr ""
+
+#: dialogs/multipagedialogbase.cpp:339
+msgctxt "role page name"
+msgid "Roles"
+msgstr ""
+
+#: dialogs/multipagedialogbase.cpp:339
+msgid "Role Settings"
 msgstr ""
 
 #: dialogs/notedialog.cpp:30
