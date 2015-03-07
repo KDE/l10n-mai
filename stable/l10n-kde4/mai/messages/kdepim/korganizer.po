@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-04 05:53+0000\n"
+"POT-Creation-Date: 2015-03-07 06:07+0000\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1188,246 +1188,133 @@ msgid ""
 "year. Press it to select the whole week.</p></qt>"
 msgstr ""
 
-#: exportwebdialog.cpp:52
+#: dialog/exportwebdialog.cpp:52
 msgid "Export Calendar as Web Page"
 msgstr ""
 
-#: exportwebdialog.cpp:58
+#: dialog/exportwebdialog.cpp:58
 msgid "Export"
 msgstr "निर्यात"
 
-#: exportwebdialog.cpp:117
+#: dialog/exportwebdialog.cpp:117
 msgid ""
 "You are about to set all preferences to default values. All custom "
 "modifications will be lost."
 msgstr ""
 
-#: exportwebdialog.cpp:119
+#: dialog/exportwebdialog.cpp:119
 msgid "Setting Default Preferences"
 msgstr ""
 
-#: exportwebdialog.cpp:120
+#: dialog/exportwebdialog.cpp:120
 msgid "Reset to Defaults"
 msgstr "पूर्वनिर्धारितमे फेर सेट करू"
 
-#: exportwebdialog.cpp:128
+#: dialog/exportwebdialog.cpp:128
 msgctxt "general settings for html export"
 msgid "General"
 msgstr "सामान्य"
 
 #. i18n: ectx: property (title), widget (QGroupBox, dateRangeGroup)
-#: exportwebdialog.cpp:132 ui/searchdialog_base.ui:174
+#: dialog/exportwebdialog.cpp:132 ui/searchdialog_base.ui:174
 msgid "Date Range"
 msgstr ""
 
-#: exportwebdialog.cpp:144
+#: dialog/exportwebdialog.cpp:144
 msgid "View Type"
 msgstr ""
 
-#: exportwebdialog.cpp:163
+#: dialog/exportwebdialog.cpp:163
 msgid "Destination"
 msgstr "गंतव्य"
 
-#: exportwebdialog.cpp:187
+#: dialog/exportwebdialog.cpp:187
 msgid "To-dos"
 msgstr ""
 
-#: exportwebdialog.cpp:211
+#: dialog/exportwebdialog.cpp:211
 msgid "Events"
 msgstr "घटना"
 
-#: filtereditdialog.cpp:41
+#: dialog/filtereditdialog.cpp:41
 msgctxt "@title::window"
 msgid "Edit Calendar Filters"
 msgstr ""
 
-#: filtereditdialog.cpp:90
+#: dialog/filtereditdialog.cpp:90
 msgctxt "@info:whatsthis"
 msgid "Press this button to define a new filter."
 msgstr ""
 
-#: filtereditdialog.cpp:93
+#: dialog/filtereditdialog.cpp:93
 msgctxt "@info:whatsthis"
 msgid "Press this button to remove the currently active filter."
 msgstr ""
 
-#: filtereditdialog.cpp:229
+#: dialog/filtereditdialog.cpp:229
 #, kde-format
 msgctxt "@label default filter name"
 msgid "New Filter %1"
 msgstr ""
 
-#: filtereditdialog.cpp:248
+#: dialog/filtereditdialog.cpp:248
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to permanently remove the filter \"%1\"?"
 msgstr ""
 
-#: filtereditdialog.cpp:249
+#: dialog/filtereditdialog.cpp:249
 msgctxt "@title:window"
 msgid "Delete Filter?"
 msgstr ""
 
-#: htmlexportjob.cpp:156
-msgid "Unable to write the output file."
+#: dialog/koeventviewerdialog.cpp:41
+msgid "Event Viewer"
 msgstr ""
 
-#: htmlexportjob.cpp:162
-msgid "Unable to write the temporary file for uploading."
+#: dialog/koeventviewerdialog.cpp:44
+msgid "Edit..."
+msgstr "संपादन..."
+
+#: dialog/koeventviewerdialog.cpp:45
+msgid "Show in Context"
 msgstr ""
 
-#: htmlexportjob.cpp:165
-msgid "Unable to upload the export file."
+#: dialog/searchdialog.cpp:48
+msgid "Search Calendar"
 msgstr ""
 
-#: htmlexportjob.cpp:178
+#: dialog/searchdialog.cpp:85
+msgctxt "search in calendar"
+msgid "&Search"
+msgstr "खोज (&S)"
+
+#: dialog/searchdialog.cpp:87
+msgid "Start searching"
+msgstr "खोजनाइ शुरू कए रहल अछि"
+
+#: dialog/searchdialog.cpp:117
+msgid ""
+"Invalid search expression, cannot perform the search. Please enter a search "
+"expression using the wildcard characters '*' and '?' where needed."
+msgstr ""
+
+#: dialog/searchdialog.cpp:129
+msgid "No items were found that match your search pattern."
+msgstr ""
+
+#: dialog/searchdialog.cpp:130
+#, fuzzy
+#| msgid "Search"
+msgid "Search Results"
+msgstr "खोजू"
+
+#: dialog/searchdialog.cpp:133
 #, kde-format
-msgid "Web page successfully written to \"%1\""
-msgstr ""
-
-#: htmlexportjob.cpp:180
-#, kde-format
-msgid "Export failed. %1"
-msgstr ""
-
-#: htmlexportjob.cpp:187
-msgctxt "@title:window"
-msgid "Export Status"
-msgstr ""
-
-#: htmlexportjob.cpp:191
-#, kde-format
-msgctxt "@info:status"
-msgid "Automatic Export: %1"
-msgstr ""
-
-#: htmlexportjob.cpp:306
-#, kde-format
-msgctxt "@title month and year"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: htmlexportjob.cpp:385
-msgctxt "@title:column event start time"
-msgid "Start Time"
-msgstr "आरंभ समय"
-
-#: htmlexportjob.cpp:387
-msgctxt "@title:column event end time"
-msgid "End Time"
-msgstr ""
-
-#: htmlexportjob.cpp:389
-msgctxt "@title:column event description"
-msgid "Event"
-msgstr "घटना"
-
-#: htmlexportjob.cpp:392
-msgctxt "@title:column event locatin"
-msgid "Location"
-msgstr "स्थान"
-
-#: htmlexportjob.cpp:397
-msgctxt "@title:column event categories"
-msgid "Categories"
-msgstr "श्रेणिसभ"
-
-#: htmlexportjob.cpp:402
-msgctxt "@title:column event attendees"
-msgid "Attendees"
-msgstr "भाग लएबला"
-
-#: htmlexportjob.cpp:519
-msgctxt "@title:column"
-msgid "To-do"
-msgstr ""
-
-#: htmlexportjob.cpp:520
-msgctxt "@title:column to-do priority"
-msgid "Priority"
-msgstr "प्राथमिकता"
-
-#: htmlexportjob.cpp:522
-msgctxt "@title:column to-do percent completed"
-msgid "Completed"
-msgstr "समाप्त"
-
-#: htmlexportjob.cpp:524
-msgctxt "@title:column to-do due date"
-msgid "Due Date"
-msgstr ""
-
-#: htmlexportjob.cpp:528
-msgctxt "@title:column to-do location"
-msgid "Location"
-msgstr "स्थान"
-
-#: htmlexportjob.cpp:532
-msgctxt "@title:column to-do categories"
-msgid "Categories"
-msgstr "श्रेणिसभ"
-
-#: htmlexportjob.cpp:536
-msgctxt "@title:column to-do attendees"
-msgid "Attendees"
-msgstr "भाग लएबला"
-
-#: htmlexportjob.cpp:566
-msgctxt "@title:column sub-to-dos of the parent to-do"
-msgid "Sub-To-dos of: "
-msgstr ""
-
-#: htmlexportjob.cpp:622
-msgctxt "@title:column sub-to-dos of the parent to-do"
-msgid "Sub-To-dos"
-msgstr ""
-
-#: htmlexportjob.cpp:640
-#, kde-format
-msgctxt "@info/plain to-do percent complete"
-msgid "%1 %"
-msgstr ""
-
-#: htmlexportjob.cpp:794
-msgctxt "@info/plain"
-msgid "This page was created "
-msgstr ""
-
-#: htmlexportjob.cpp:803
-#, kde-format
-msgctxt "@info/plain page creator email link with name"
-msgid "by <link url='mailto:%1'>%2</link> "
-msgstr ""
-
-#: htmlexportjob.cpp:807
-#, kde-format
-msgctxt "@info/plain page creator email link"
-msgid "by <link url='mailto:%1'>%2</link> "
-msgstr ""
-
-#: htmlexportjob.cpp:813
-#, kde-format
-msgctxt "@info/plain page creator name only"
-msgid "by %1 "
-msgstr ""
-
-#: htmlexportjob.cpp:819
-#, kde-format
-msgctxt "@info/plain page credit with name and link"
-msgid "with <link url='%1'>%2</link>"
-msgstr ""
-
-#: htmlexportjob.cpp:823
-#, kde-format
-msgctxt "@info/plain page credit name only"
-msgid "with %1"
-msgstr ""
-
-#: htmlexportjob.cpp:890
-#, kde-format
-msgctxt "@info/plain holiday by date and name"
-msgid "%1, %2"
-msgstr "%1, %2"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
 
 #. i18n: ectx: label, entry, group ($(application)-General)
 #: htmlexportsettings.kcfg:13
@@ -1868,6 +1755,167 @@ msgstr ""
 msgid "Enter a title for the free/busy list, if free/busy times are exported."
 msgstr ""
 
+#: job/htmlexportjob.cpp:156
+msgid "Unable to write the output file."
+msgstr ""
+
+#: job/htmlexportjob.cpp:162
+msgid "Unable to write the temporary file for uploading."
+msgstr ""
+
+#: job/htmlexportjob.cpp:165
+msgid "Unable to upload the export file."
+msgstr ""
+
+#: job/htmlexportjob.cpp:178
+#, kde-format
+msgid "Web page successfully written to \"%1\""
+msgstr ""
+
+#: job/htmlexportjob.cpp:180
+#, kde-format
+msgid "Export failed. %1"
+msgstr ""
+
+#: job/htmlexportjob.cpp:187
+msgctxt "@title:window"
+msgid "Export Status"
+msgstr ""
+
+#: job/htmlexportjob.cpp:191
+#, kde-format
+msgctxt "@info:status"
+msgid "Automatic Export: %1"
+msgstr ""
+
+#: job/htmlexportjob.cpp:306
+#, kde-format
+msgctxt "@title month and year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: job/htmlexportjob.cpp:385
+msgctxt "@title:column event start time"
+msgid "Start Time"
+msgstr "आरंभ समय"
+
+#: job/htmlexportjob.cpp:387
+msgctxt "@title:column event end time"
+msgid "End Time"
+msgstr ""
+
+#: job/htmlexportjob.cpp:389
+msgctxt "@title:column event description"
+msgid "Event"
+msgstr "घटना"
+
+#: job/htmlexportjob.cpp:392
+msgctxt "@title:column event locatin"
+msgid "Location"
+msgstr "स्थान"
+
+#: job/htmlexportjob.cpp:397
+msgctxt "@title:column event categories"
+msgid "Categories"
+msgstr "श्रेणिसभ"
+
+#: job/htmlexportjob.cpp:402
+msgctxt "@title:column event attendees"
+msgid "Attendees"
+msgstr "भाग लएबला"
+
+#: job/htmlexportjob.cpp:519
+msgctxt "@title:column"
+msgid "To-do"
+msgstr ""
+
+#: job/htmlexportjob.cpp:520
+msgctxt "@title:column to-do priority"
+msgid "Priority"
+msgstr "प्राथमिकता"
+
+#: job/htmlexportjob.cpp:522
+msgctxt "@title:column to-do percent completed"
+msgid "Completed"
+msgstr "समाप्त"
+
+#: job/htmlexportjob.cpp:524
+msgctxt "@title:column to-do due date"
+msgid "Due Date"
+msgstr ""
+
+#: job/htmlexportjob.cpp:528
+msgctxt "@title:column to-do location"
+msgid "Location"
+msgstr "स्थान"
+
+#: job/htmlexportjob.cpp:532
+msgctxt "@title:column to-do categories"
+msgid "Categories"
+msgstr "श्रेणिसभ"
+
+#: job/htmlexportjob.cpp:536
+msgctxt "@title:column to-do attendees"
+msgid "Attendees"
+msgstr "भाग लएबला"
+
+#: job/htmlexportjob.cpp:566
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos of: "
+msgstr ""
+
+#: job/htmlexportjob.cpp:622
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos"
+msgstr ""
+
+#: job/htmlexportjob.cpp:640
+#, kde-format
+msgctxt "@info/plain to-do percent complete"
+msgid "%1 %"
+msgstr ""
+
+#: job/htmlexportjob.cpp:794
+msgctxt "@info/plain"
+msgid "This page was created "
+msgstr ""
+
+#: job/htmlexportjob.cpp:803
+#, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr ""
+
+#: job/htmlexportjob.cpp:807
+#, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr ""
+
+#: job/htmlexportjob.cpp:813
+#, kde-format
+msgctxt "@info/plain page creator name only"
+msgid "by %1 "
+msgstr ""
+
+#: job/htmlexportjob.cpp:819
+#, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr ""
+
+#: job/htmlexportjob.cpp:823
+#, kde-format
+msgctxt "@info/plain page credit name only"
+msgid "with %1"
+msgstr ""
+
+#: job/htmlexportjob.cpp:890
+#, kde-format
+msgctxt "@info/plain holiday by date and name"
+msgid "%1, %2"
+msgstr "%1, %2"
+
 #: kcmdesignerfields.cpp:70 kcmdesignerfields.cpp:71 kcmdesignerfields.cpp:76
 #: kcmdesignerfields.cpp:77
 msgid "Text"
@@ -1986,34 +2034,6 @@ msgstr ""
 #: kcmdesignerfields.cpp:404
 msgid "Description:"
 msgstr "विवरण:"
-
-#: kdatenavigator.cpp:201
-#, kde-format
-msgctxt "start/end week number of line in date picker"
-msgid "%1/%2"
-msgstr ""
-
-#: kdatenavigator.cpp:207
-#, kde-format
-msgid "Scroll to week number %1"
-msgstr ""
-
-#: kdatenavigator.cpp:209
-#, kde-format
-msgid ""
-"Click here to scroll the display to week number %1 of the currently "
-"displayed year."
-msgstr ""
-
-#: kdatenavigator.cpp:258
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: kdatenavigator.cpp:260
-#, kde-format
-msgid "A column header of the %1 dates in the month."
-msgstr ""
 
 #: kitemiconcheckcombo.cpp:40
 msgid "Calendar's custom icon"
@@ -2164,18 +2184,6 @@ msgstr ""
 
 #: koeventview.cpp:213
 msgid "&All Occurrences"
-msgstr ""
-
-#: koeventviewerdialog.cpp:41
-msgid "Event Viewer"
-msgstr ""
-
-#: koeventviewerdialog.cpp:44
-msgid "Edit..."
-msgstr "संपादन..."
-
-#: koeventviewerdialog.cpp:45
-msgid "Show in Context"
 msgstr ""
 
 #: kohelper.cpp:73
@@ -4240,42 +4248,6 @@ msgctxt "Qt date format used by the localized Wikipedia"
 msgid "MMMM_yyyy"
 msgstr ""
 
-#: searchdialog.cpp:48
-msgid "Search Calendar"
-msgstr ""
-
-#: searchdialog.cpp:85
-msgctxt "search in calendar"
-msgid "&Search"
-msgstr "खोज (&S)"
-
-#: searchdialog.cpp:87
-msgid "Start searching"
-msgstr "खोजनाइ शुरू कए रहल अछि"
-
-#: searchdialog.cpp:117
-msgid ""
-"Invalid search expression, cannot perform the search. Please enter a search "
-"expression using the wildcard characters '*' and '?' where needed."
-msgstr ""
-
-#: searchdialog.cpp:129
-msgid "No items were found that match your search pattern."
-msgstr ""
-
-#: searchdialog.cpp:130
-#, fuzzy
-#| msgid "Search"
-msgid "Search Results"
-msgstr "खोजू"
-
-#: searchdialog.cpp:133
-#, kde-format
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] ""
-msgstr[1] ""
-
 #: themes/themeimporter.cpp:57
 msgid "This file is not a KOrganizer theme file."
 msgstr ""
@@ -5010,6 +4982,34 @@ msgstr "शीर्षक"
 #. i18n: ectx: property (text), widget (QLabel, selectedCalendarsLabel)
 #: views/multiagendaview/multiagendaviewconfigwidget.ui:102
 msgid "Selected Calendars"
+msgstr ""
+
+#: widgets/kdatenavigator.cpp:201
+#, kde-format
+msgctxt "start/end week number of line in date picker"
+msgid "%1/%2"
+msgstr ""
+
+#: widgets/kdatenavigator.cpp:207
+#, kde-format
+msgid "Scroll to week number %1"
+msgstr ""
+
+#: widgets/kdatenavigator.cpp:209
+#, kde-format
+msgid ""
+"Click here to scroll the display to week number %1 of the currently "
+"displayed year."
+msgstr ""
+
+#: widgets/kdatenavigator.cpp:258
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: widgets/kdatenavigator.cpp:260
+#, kde-format
+msgid "A column header of the %1 dates in the month."
 msgstr ""
 
 #~ msgid "Select Addresses"
