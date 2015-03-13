@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-12 02:14+0000\n"
+"POT-Creation-Date: 2015-03-13 02:11+0000\n"
 "PO-Revision-Date: 2010-09-24 12:01+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -166,16 +166,29 @@ msgid "Receiving file over Bluetooth"
 msgstr ""
 
 #: daemon/kded/filereceiver/receivefilejob.cpp:209
-#: sendfile/sendfilesjob.cpp:76 sendfile/sendfilesjob.cpp:186
+#: sendfile/sendfilesjob.cpp:76 sendfile/sendfilesjob.cpp:188
 msgctxt "File transfer origin"
 msgid "From"
 msgstr "सँ"
 
 #: daemon/kded/filereceiver/receivefilejob.cpp:211
-#: sendfile/sendfilesjob.cpp:77 sendfile/sendfilesjob.cpp:187
+#: sendfile/sendfilesjob.cpp:77 sendfile/sendfilesjob.cpp:189
 msgctxt "File transfer destination"
 msgid "To"
 msgstr "केँ"
+
+#: daemon/kded/filereceiver/receivefilejob.cpp:224
+#: kio/obexftp/transferfilejob.cpp:95 sendfile/sendfilesjob.cpp:149
+#, fuzzy
+#| msgid "Connecting..."
+msgid "Bluetooth transfer failed"
+msgstr "कनेक्ट कए रहल अछि...."
+
+#: daemon/kded/filereceiver/receivefilejob.cpp:262
+#, fuzzy
+#| msgid "Send File"
+msgid "Saving file failed"
+msgstr "फाइल पठाउ"
 
 #: fileitemactionplugin/sendfileitemaction.cpp:65
 msgid "Send via Bluetooth"
@@ -713,8 +726,12 @@ msgstr ""
 msgid "Scanning"
 msgstr "कनेक्ट कए रहल अछि...."
 
-#: sendfile/sendfilesjob.cpp:75 sendfile/sendfilesjob.cpp:185
+#: sendfile/sendfilesjob.cpp:75 sendfile/sendfilesjob.cpp:187
 msgid "Sending file over Bluetooth"
+msgstr ""
+
+#: sendfile/sendfilesjob.cpp:98
+msgid "Creating OBEX session failed"
 msgstr ""
 
 #: sendfile/sendfilewizard.cpp:59
