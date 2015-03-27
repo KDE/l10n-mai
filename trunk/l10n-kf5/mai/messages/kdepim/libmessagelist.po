@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessagelist\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-26 08:58+0000\n"
+"POT-Creation-Date: 2015-03-27 08:32+0000\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -440,134 +440,6 @@ msgctxt "@info:status Finished view fill"
 msgid "Ready"
 msgstr "तैआर"
 
-#: core/quicksearchline.cpp:61
-msgctxt "@action:button"
-msgid "Lock search"
-msgstr ""
-
-#: core/quicksearchline.cpp:65
-msgctxt "@info:whatsthis"
-msgid ""
-"Toggle this button if you want to keep your quick search locked when moving "
-"to other folders or when narrowing the search by message status."
-msgstr ""
-
-#: core/quicksearchline.cpp:77
-msgid "Quick Filter:"
-msgstr ""
-
-#: core/quicksearchline.cpp:83
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "खोजू"
-
-#: core/quicksearchline.cpp:92
-#, fuzzy
-#| msgid "Configure..."
-msgid "More..."
-msgstr "कान्फिगर..."
-
-#: core/quicksearchline.cpp:119
-msgid "Filter message by:"
-msgstr ""
-
-#: core/quicksearchline.cpp:122
-#, fuzzy
-#| msgid "Message"
-msgid "Full Message"
-msgstr "संदेश"
-
-#: core/quicksearchline.cpp:130
-msgid "Body"
-msgstr ""
-
-#: core/quicksearchline.cpp:137
-#, fuzzy
-#| msgctxt "@title:column Subject of messages"
-#| msgid "Subject"
-msgid "Subject"
-msgstr "विषय"
-
-#: core/quicksearchline.cpp:152
-msgid "Bcc"
-msgstr ""
-
-#: core/quicksearchline.cpp:297
-msgctxt "@info:tooltip"
-msgid "Clear the quick search field when changing folders"
-msgstr ""
-
-#: core/quicksearchline.cpp:301
-msgctxt "@info:tooltip"
-msgid "Prevent the quick search field from being cleared when changing folders"
-msgstr ""
-
-#: core/quicksearchline.cpp:357
-#, fuzzy
-#| msgctxt "Receiver of the emial"
-#| msgid "To"
-msgid "To"
-msgstr "केँ"
-
-#: core/quicksearchline.cpp:359 core/view.cpp:2403 core/view.cpp:2407
-msgid "From"
-msgstr "सँ"
-
-#: core/quicksearchline.cpp:369
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "अपठित"
-
-#: core/quicksearchline.cpp:372
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "जवाब"
-
-#: core/quicksearchline.cpp:376
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "अग्रसारित"
-
-#: core/quicksearchline.cpp:380
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "महत्वपूर्ण"
-
-#: core/quicksearchline.cpp:384
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr ""
-
-#: core/quicksearchline.cpp:388
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr ""
-
-#: core/quicksearchline.cpp:392
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "अनदेखा कएल गेल"
-
-#: core/quicksearchline.cpp:396
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr ""
-
-#: core/quicksearchline.cpp:400
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr ""
-
-#: core/quicksearchline.cpp:404
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr ""
-
-#: core/quicksearchline.cpp:408
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr ""
-
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
 #: core/settings.kcfg:11
 msgid "Display tooltips for messages and group headers"
@@ -852,6 +724,10 @@ msgstr ""
 msgid "Display Tooltips"
 msgstr ""
 
+#: core/view.cpp:2403 core/view.cpp:2407 core/widgets/quicksearchline.cpp:359
+msgid "From"
+msgstr "सँ"
+
 #: core/view.cpp:2404 core/view.cpp:2408
 #, fuzzy
 #| msgctxt "Receiver of the emial"
@@ -1007,37 +883,165 @@ msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/widgetbase.cpp:392 messagelistutil.cpp:130
+#: core/widgetbase.cpp:396 messagelistutil.cpp:130
 msgid "Theme"
 msgstr "प्रसंग"
 
-#: core/widgetbase.cpp:415 core/widgetbase.cpp:511
+#: core/widgetbase.cpp:419 core/widgetbase.cpp:515
 #: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:61
 msgid "Configure..."
 msgstr "कान्फिगर..."
 
-#: core/widgetbase.cpp:487 messagelistutil.cpp:125
+#: core/widgetbase.cpp:491 messagelistutil.cpp:125
 msgid "Aggregation"
 msgstr ""
 
-#: core/widgetbase.cpp:575
+#: core/widgetbase.cpp:579
 msgid "Message Sort Order"
 msgstr ""
 
-#: core/widgetbase.cpp:600
+#: core/widgetbase.cpp:604
 msgid "Message Sort Direction"
 msgstr ""
 
-#: core/widgetbase.cpp:619
+#: core/widgetbase.cpp:623
 msgid "Group Sort Order"
 msgstr ""
 
-#: core/widgetbase.cpp:640
+#: core/widgetbase.cpp:644
 msgid "Group Sort Direction"
 msgstr ""
 
-#: core/widgetbase.cpp:657
+#: core/widgetbase.cpp:661
 msgid "Folder Always Uses This Sort Order"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:61
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:65
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:77
+msgid "Quick Filter:"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:83
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "खोजू"
+
+#: core/widgets/quicksearchline.cpp:92
+#, fuzzy
+#| msgid "Configure..."
+msgid "More..."
+msgstr "कान्फिगर..."
+
+#: core/widgets/quicksearchline.cpp:119
+msgid "Filter message by:"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:122
+#, fuzzy
+#| msgid "Message"
+msgid "Full Message"
+msgstr "संदेश"
+
+#: core/widgets/quicksearchline.cpp:130
+msgid "Body"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:137
+#, fuzzy
+#| msgctxt "@title:column Subject of messages"
+#| msgid "Subject"
+msgid "Subject"
+msgstr "विषय"
+
+#: core/widgets/quicksearchline.cpp:152
+msgid "Bcc"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:297
+msgctxt "@info:tooltip"
+msgid "Clear the quick search field when changing folders"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:301
+msgctxt "@info:tooltip"
+msgid "Prevent the quick search field from being cleared when changing folders"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:357
+#, fuzzy
+#| msgctxt "Receiver of the emial"
+#| msgid "To"
+msgid "To"
+msgstr "केँ"
+
+#: core/widgets/quicksearchline.cpp:369
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "अपठित"
+
+#: core/widgets/quicksearchline.cpp:372
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "जवाब"
+
+#: core/widgets/quicksearchline.cpp:376
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "अग्रसारित"
+
+#: core/widgets/quicksearchline.cpp:380
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "महत्वपूर्ण"
+
+#: core/widgets/quicksearchline.cpp:384
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:388
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:392
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "अनदेखा कएल गेल"
+
+#: core/widgets/quicksearchline.cpp:396
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:400
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:404
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:408
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr ""
+
+#: core/widgets/quicksearchwarning.cpp:29
+msgid "The words less than 3 letters are ignored."
 msgstr ""
 
 #: messagelistutil.cpp:120
