@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2014-12-30 09:51+0000\n"
 "PO-Revision-Date: 2010-09-24 21:31+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -37,6 +37,7 @@ msgstr "sangeeta09@gmail.com"
 
 #: aboutbugreportingdialog.cpp:40
 #, fuzzy
+#| msgid "&Bug Report"
 msgctxt "@title title of the dialog"
 msgid "About Bug Reporting - Help"
 msgstr "बग रिपोट करू (&B)"
@@ -306,6 +307,8 @@ msgstr ""
 
 #: aboutbugreportingdialog.cpp:178
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "<note>You should write in English.</note>"
 msgctxt "@info/rich"
 msgid ""
 "<note>You should <strong>write those information in English</strong>.</note>"
@@ -454,6 +457,8 @@ msgstr "लोड कए रहल..."
 
 #: backtracewidget.cpp:133
 #, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Loading crash information... (this may take some time)"
 msgctxt "@info:status"
 msgid "Generating backtrace... (this may take some time)"
 msgstr "क्रैश सूचनाक लोड कए रहल अछि... (this may take some time)"
@@ -480,24 +485,32 @@ msgstr ""
 
 #: backtracewidget.cpp:226
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information is useful"
 msgctxt "@info"
 msgid "The generated crash information is useful"
 msgstr "ई क्रैश सूचना उपयोगी अछि"
 
 #: backtracewidget.cpp:229
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information may be useful"
 msgctxt "@info"
 msgid "The generated crash information may be useful"
 msgstr "ई क्रैश सूचना उपयोगी भए सकैत अछि"
 
 #: backtracewidget.cpp:232
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information is probably not useful"
 msgctxt "@info"
 msgid "The generated crash information is probably not useful"
 msgstr "ई क्रैश सूचना उपयोगी संभवतः भए नहि सकैत अछि"
 
 #: backtracewidget.cpp:235
 #, fuzzy
+#| msgctxt "@info"
+#| msgid "This crash information is not useful"
 msgctxt "@info"
 msgid "The generated crash information is not useful"
 msgstr "ई क्रैश सूचना उपयोगी नहि अछि"
@@ -600,6 +613,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantdialog.cpp:41
 #, fuzzy
+#| msgctxt "@title"
+#| msgid "KDE Bug Tracking System Login"
 msgid "the KDE Bug Tracking System"
 msgstr "KDE बग ट्रैकिंग सिस्टम लागिन"
 
@@ -641,6 +656,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantdialog.cpp:145
 #, fuzzy
+#| msgctxt "@title"
+#| msgid "Details of the Bug Report"
 msgctxt "@title"
 msgid "Preview the Report"
 msgstr "बग रिपोर्टक विवरण"
@@ -707,6 +724,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:217
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Sho&w Contents of the Report"
 msgctxt "@action:button"
 msgid "&Show Contents of the Report"
 msgstr "रिपोर्टक सामग्री देखाउ (&w)"
@@ -771,6 +790,7 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:326
 #, fuzzy, kde-format
+#| msgid "The program was started by kdeinit"
 msgctxt "@info"
 msgid "Your problem has already been reported as bug %1."
 msgstr "प्रोग्राम केडीईइनिट द्वारा प्रारंभ कएल गेल"
@@ -828,6 +848,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:406
 #, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
 msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "%1 मे रिपोट करू"
@@ -1044,6 +1066,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:535
 #, fuzzy
+#| msgctxt "@title:window"
+#| msgid "We need more information"
 msgctxt "the minimum required length of a text wasn't reached yet"
 msgid "Provide more information"
 msgstr "हम बेसी सूचना चाहैत छी"
@@ -1079,6 +1103,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:575
 #, fuzzy
+#| msgctxt "@title:window"
+#| msgid "We need more information"
 msgid "Yes, let me add more information"
 msgstr "हम बेसी सूचना चाहैत छी"
 
@@ -1170,6 +1196,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:772
 #, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
 msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "%1 मे रिपोट करू"
@@ -1181,6 +1209,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:795
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "&Save to File..."
 msgctxt "@action:button save html to a file"
 msgid "Save to a file"
 msgstr "फाइलमे सहेजू (&S)..."
@@ -1196,12 +1226,14 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:846 drkonqi.cpp:171
 #, fuzzy
+#| msgid "Select Filename"
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "फाइल नाम चुनू"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:869 drkonqi.cpp:195
 #, fuzzy, kde-format
+#| msgid "Cannot open file <filename>%1</filename> for writing."
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "फाइल <filename>%1</filename> केँ लिखबाक लेल खोलल नहि जाए सकल."
@@ -1286,6 +1318,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:188
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Search for more reports"
 msgid "Let me check more reports"
 msgstr "बेसी रिपोर्टक लेल खोजू"
 
@@ -1338,6 +1372,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:324
 #, fuzzy
+#| msgctxt "@info bug resolution"
+#| msgid "Fixed"
 msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "स्थिर"
@@ -1349,6 +1385,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:328
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Open selected report"
 msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "चयनित रिपोर्ट खोलू"
@@ -1468,12 +1506,16 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:632
 #, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "<link url='%1'>Bug report page at the KDE bug tracking system</link>"
 msgctxt "@info"
 msgid "<link url='%1'>Report's webpage</link>"
 msgstr "<link url='%1'>Bug report page at the KDE bug tracking system</link>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:635
 #, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Information about bug reporting"
 msgctxt "@info:status"
 msgid "Loading information about bug %1 from %2...."
 msgstr "बग रिपोर्टिंगक संबंधमे सूचना"
@@ -1615,6 +1657,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:791
 #, fuzzy, kde-format
+#| msgctxt "@info bug report label and value"
+#| msgid "<h2>%1</h2>"
 msgctxt "@info bug report title (quoted)"
 msgid "<h3>\"%1\"</h3>"
 msgstr "<h2>%1</h2>"
@@ -1645,6 +1689,8 @@ msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:813
 #, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Showing report <numid>%1</numid>"
 msgctxt "@info:status"
 msgid "Showing bug %1"
 msgstr "<numid>%1</numid> रिपोर्ट देखाए रहल अछि"
@@ -1712,6 +1758,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationYes)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:44
 #, fuzzy
+#| msgid "Yes"
 msgctxt ""
 "@option:radio \"yes\" to the question \"do you remember what were you doing "
 "prior to the crash?\""
@@ -1721,6 +1768,7 @@ msgstr "हँ"
 #. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationNo)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:54
 #, fuzzy
+#| msgid "No"
 msgctxt ""
 "@option:radio \"No\" to the question \"do you remember what were you doing "
 "prior to the crash?\""
@@ -1760,6 +1808,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:130
 #, fuzzy
+#| msgid "Never"
 msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
 msgid "Never"
 msgstr "कहियो नहि"
@@ -1767,6 +1816,7 @@ msgstr "कहियो नहि"
 #. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@item:inlistbox the bug can be reproduced sometimes"
 msgid "Sometimes"
 msgstr "प्रोग्राम क' नाम"
@@ -1780,6 +1830,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_informationLabel)
 #: bugzillaintegration/ui/assistantpage_bugawareness.ui:182
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "<note>You should write in English.</note>"
 msgctxt "@label question"
 msgid ""
 "<strong>Please select which additional information you can provide:</strong>"
@@ -1934,6 +1986,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:17
 #, fuzzy
+#| msgctxt "@info/rich"
+#| msgid "<note>You should write in English.</note>"
 msgctxt "@info"
 msgid "<strong>Please provide the following information in English.</strong>"
 msgstr "<note>अहाँक अंग्रेजी मे लिखबा चाही.</note>"
@@ -2041,6 +2095,8 @@ msgstr ""
 
 #: debugpackageinstaller.cpp:63
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Cancel"
 msgid "Cancel"
 msgstr "रद करू"
 
@@ -2063,18 +2119,21 @@ msgstr ""
 
 #: drkonqi.cpp:161
 #, fuzzy, kde-format
+#| msgid "Backtrace saved to <filename>%1</filename>."
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "बैकट्रेस <filename>%1</filename> पर सहेजल गेल."
 
 #: drkonqi.cpp:164
 #, fuzzy
+#| msgid "Cannot create a file to save the backtrace in"
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
 msgstr "एकरामे बैकट्रैस केँ सहेजबा क' लेल फाइल नहि बनाए सकल"
 
 #: drkonqidialog.cpp:70
 #, fuzzy
+#| msgid "Generate"
 msgctxt "@title:tab general information"
 msgid "&General"
 msgstr "सामान्य (&G)"
@@ -2132,6 +2191,7 @@ msgstr ""
 
 #: drkonqidialog.cpp:147
 #, fuzzy
+#| msgid "Show details"
 msgctxt "@label"
 msgid "Details:"
 msgstr "विवरण:"
@@ -2146,6 +2206,8 @@ msgstr ""
 
 #: drkonqidialog.cpp:178
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Report Bug"
 msgctxt "@action:button"
 msgid "Report &Bug"
 msgstr "रिपोर्ट बग"
@@ -2157,6 +2219,7 @@ msgstr "बग रिपोर्ट मद्दतिकएनिहार"
 
 #: drkonqidialog.cpp:195
 #, fuzzy
+#| msgid "&Debugger"
 msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
@@ -2170,6 +2233,8 @@ msgstr ""
 
 #: drkonqidialog.cpp:215
 #, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Restart Application"
 msgctxt "@action:button"
 msgid "&Restart Application"
 msgstr "अनुप्रयोग फेर आरंभ करू"
@@ -2196,6 +2261,7 @@ msgstr ""
 
 #: main.cpp:44
 #, fuzzy
+#| msgid "KDE crash handler gives the user feedback if a program crashed"
 msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
 msgstr "केडीई क्रेश हैंडलर प्रयोक्ता केँ फीडबैक देत अछि जँ कोनो प्रोग्राम क्रैश होइछ"
 
@@ -2209,6 +2275,7 @@ msgstr "(C) 2000-2009, The DrKonqi Authors"
 
 #: main.cpp:72
 #, fuzzy
+#| msgid "Hans Petter Bieker"
 msgctxt "@info:credit"
 msgid "Hans Petter Bieker"
 msgstr "हैंस पीटर बीइकर"
@@ -2230,66 +2297,77 @@ msgstr "A. L. Spehr"
 
 #: main.cpp:87
 #, fuzzy
+#| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal <number> that was caught"
 msgstr "संकेतक क्रमांक जे पकड़ल गेल."
 
 #: main.cpp:88
 #, fuzzy
+#| msgid "Name of the program"
 msgctxt "@info:shell"
 msgid "<Name> of the program"
 msgstr "प्रोग्राम क' नाम"
 
 #: main.cpp:89
 #, fuzzy
+#| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "<Path> to the executable"
 msgstr "एक्जीक्यूटेबल क' पथ"
 
 #: main.cpp:90
 #, fuzzy
+#| msgid "The version of the program"
 msgctxt "@info:shell"
 msgid "The <version> of the program"
 msgstr "प्रोग्राम क' संस्करण"
 
 #: main.cpp:91
 #, fuzzy
+#| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug <address> to use"
 msgstr "उपयोग क' लेल बग पता."
 
 #: main.cpp:92
 #, fuzzy
+#| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated <name> of the program"
 msgstr "अनूदित प्रोग्राम क' नाम"
 
 #: main.cpp:93
 #, fuzzy
+#| msgid "The PID of the program"
 msgctxt "@info:shell"
 msgid "The <PID> of the program"
 msgstr "प्रोग्राम क' पीआईडी"
 
 #: main.cpp:94
 #, fuzzy
+#| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
 msgstr "प्रोग्राम क' आरंभक आईडी"
 
 #: main.cpp:95
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
 msgstr "प्रोग्राम केडीईइनिट द्वारा प्रारंभ कएल गेल"
 
 #: main.cpp:96
 #, fuzzy
+#| msgid "Disable arbitrary disk access"
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
 msgstr "मनमाना डिस्क एक्सेस अक्षम करू"
 
 #: main.cpp:97
 #, fuzzy
+#| msgid "The program was started by kdeinit"
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
 msgstr "प्रोग्राम केडीईइनिट द्वारा प्रारंभ कएल गेल"
@@ -2314,6 +2392,7 @@ msgstr ""
 #~ msgstr "%1 मे रिपोट करू"
 
 #, fuzzy
+#~| msgid "<application>%1</application>"
 #~ msgctxt "@action:inmenu 1 is the debugger name"
 #~ msgid "Debug in <application>%1</application>"
 #~ msgstr "<application>%1</application> मे डिबग करू"

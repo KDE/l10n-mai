@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-27 12:26+0000\n"
+"POT-Creation-Date: 2015-02-27 09:48+0000\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -281,6 +281,7 @@ msgstr "सेंसर ब्राउजर"
 
 #: SensorBrowser.cpp:470
 #, fuzzy
+#| msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgid "Drag sensors to empty cells of a worksheet "
 msgstr "संवेदकसभ केँ वर्कशीट केर खाली सेल पर अथवा फलक ऐपलेट पर घींच लाबू"
 
@@ -495,6 +496,8 @@ msgstr "<p><b>%1:</b><br>"
 
 #: SensorDisplayLib/FancyPlotter.cpp:598
 #, fuzzy, kde-format
+#| msgctxt "%1 and %2 are sensor's last and maximum value"
+#| msgid "%1 of %2"
 msgid "%1 of %2%1"
 msgstr "%1 क' %2"
 
@@ -596,6 +599,7 @@ msgstr ""
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:103
 #, fuzzy
+#| msgid "Enter the title of the display here."
 msgid "Enter the minimum value for the display here."
 msgstr "प्रदर्शक क' शीर्षक एतय भरू."
 
@@ -682,31 +686,42 @@ msgstr "नीच्चाँ जाउ"
 
 #: SensorDisplayLib/ListView.cpp:46
 #, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 KiB"
 msgid "%1 K"
 msgstr "%1 KiB"
 
 #: SensorDisplayLib/ListView.cpp:47
 #, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 MiB"
 msgid "%1 M"
 msgstr "%1 MiB"
 
 #: SensorDisplayLib/ListView.cpp:48
 #, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 GiB"
 msgid "%1 G"
 msgstr "%1 GiB"
 
 #: SensorDisplayLib/ListView.cpp:49
 #, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 TiB"
 msgid "%1 T"
 msgstr "%1 TiB"
 
 #: SensorDisplayLib/ListView.cpp:50
 #, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 KiB"
 msgid "%1 P"
 msgstr "%1 KiB"
 
 #: SensorDisplayLib/ListView.cpp:153
 #, fuzzy
+#| msgid "Display Range"
 msgid "Display Units"
 msgstr "प्रदर्शक सीमा"
 
@@ -728,6 +743,7 @@ msgstr ""
 
 #: SensorDisplayLib/ListView.cpp:181
 #, fuzzy
+#| msgid "Temperature"
 msgid "Terabytes"
 msgstr "तापक्रम"
 
@@ -865,30 +881,35 @@ msgstr ""
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 #, fuzzy
+#| msgid "Logging"
 msgctxt "@title:column"
 msgid "Logging"
 msgstr "लाग कए रहल अछि"
 
 #: SensorDisplayLib/SensorLogger.cpp:141
 #, fuzzy
+#| msgid "Timer Interval"
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr "टाइमर अंतराल"
 
 #: SensorDisplayLib/SensorLogger.cpp:144
 #, fuzzy
+#| msgid "Sensor Name"
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr "सेंसर नाम"
 
 #: SensorDisplayLib/SensorLogger.cpp:147
 #, fuzzy
+#| msgid "Host Name"
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr "होस्ट नेम"
 
 #: SensorDisplayLib/SensorLogger.cpp:150
 #, fuzzy
+#| msgid "Log File"
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "लाग फाइल"
@@ -922,6 +943,7 @@ msgstr "फाइल"
 #. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
 #: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
 #, fuzzy
+#| msgid "Timer Interval"
 msgctxt "@title:group"
 msgid "Timer Interval"
 msgstr "टाइमर अंतराल"
@@ -994,6 +1016,7 @@ msgstr "सँजाल इतिहास"
 #. i18n: tag beam attribute summationName
 #: SystemLoad2.sgrd:13
 #, fuzzy
+#| msgid "Receiver"
 msgid "Receiving"
 msgstr "पएनिहार"
 
@@ -1073,11 +1096,13 @@ msgstr "एकटा फाइल मे लाग करू (&f)"
 
 #: WorkSheet.cpp:538
 #, fuzzy
+#| msgid "&Remove Display"
 msgid "Remove this display?"
 msgstr "प्रदर्शक मेटाबू (&R)"
 
 #: WorkSheet.cpp:539
 #, fuzzy
+#| msgid "&Remove Display"
 msgid "Remove Display"
 msgstr "प्रदर्शक मेटाबू (&R)"
 
@@ -1156,6 +1181,7 @@ msgstr ""
 
 #: Workspace.cpp:304
 #, fuzzy
+#| msgid "System Monitor"
 msgid "Upload custom System Monitor tab"
 msgstr "सिस्टम मानीटर"
 
@@ -1202,6 +1228,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "प्रतीक्षारत"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Interrupt Load"
 #~ msgstr "इंटरप्ट्स"
 
@@ -1230,6 +1257,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "मुक्त मेमोरी"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Processes"
 #~ msgstr "प्रक्रिया गणना"
 
@@ -1237,6 +1265,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "प्रक्रिया नियंत्रक"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Process Spawn Count"
 #~ msgstr "प्रक्रिया गणना"
 
@@ -1244,30 +1273,37 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Idle Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Running Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Sleeping Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Stopped Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Zombie Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Waiting Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
 #, fuzzy
+#~| msgid "Process Count"
 #~ msgid "Locked Processes Count"
 #~ msgstr "प्रक्रिया गणना"
 
@@ -1312,6 +1348,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "कान्टेक्स्ट स्विचेस"
 
 #, fuzzy
+#~| msgid "System Load"
 #~ msgid "System Calls"
 #~ msgstr "तंत्र लोड"
 
@@ -1337,6 +1374,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "त्रुटि दर"
 
 #, fuzzy
+#~| msgid "FIFO Overruns"
 #~ msgid "FIFO Overruns Rate"
 #~ msgstr "फीफो ओवर-रन्स"
 
@@ -1350,6 +1388,8 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "पैकेट्स दर"
 
 #, fuzzy
+#~| msgctxt "@item sensor description ('carrier' is a type of network signal)"
+#~| msgid "Carrier"
 #~ msgctxt "@item sensor description ('carrier' is a type of network signal)"
 #~ msgid "Carrier Loss Rate"
 #~ msgstr "कैरियर"
@@ -1407,6 +1447,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "तापक्रम"
 
 #, fuzzy
+#~| msgid "Temperature"
 #~ msgid "Average CPU Temperature"
 #~ msgstr "तापक्रम"
 
@@ -1420,6 +1461,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "बैटरी"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Capacity"
 #~ msgstr "बैटरी चार्ज"
 
@@ -1430,10 +1472,12 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "बैटरी उपयोग"
 
 #, fuzzy
+#~| msgid "Battery Usage"
 #~ msgid "Battery Voltage"
 #~ msgstr "बैटरी उपयोग"
 
 #, fuzzy
+#~| msgid "Battery Charge"
 #~ msgid "Battery Discharge Rate"
 #~ msgstr "बैटरी चार्ज"
 
@@ -1456,6 +1500,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "क्लाक आवृत्ति"
 
 #, fuzzy
+#~| msgid "Clock Frequency"
 #~ msgid "Average Clock Frequency"
 #~ msgstr "क्लाक आवृत्ति"
 
@@ -1475,6 +1520,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "भरा स्तर"
 
 #, fuzzy
+#~| msgid "User Load"
 #~ msgid "Used Inodes"
 #~ msgstr "प्रयोक्ता लोड"
 
@@ -1488,18 +1534,22 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "लिनक्स साफ्ट रेड (एमडी)"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Blocks"
 #~ msgstr "प्रदर्शकसभक संख्याः"
 
 #, fuzzy
+#~| msgid "Total Number"
 #~ msgid "Total Number of Devices"
 #~ msgstr "कुल संख्या"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Raid Devices"
 #~ msgstr "प्रदर्शकसभक संख्याः"
 
 #, fuzzy
+#~| msgid "Number of displays:"
 #~ msgid "Number of Devices"
 #~ msgstr "प्रदर्शकसभक संख्याः"
 
@@ -1513,6 +1563,7 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "डिस्क %1"
 
 #, fuzzy
+#~| msgid "Battery"
 #~ msgid "Battery %1"
 #~ msgstr "बैटरी"
 
@@ -1526,10 +1577,12 @@ msgstr "सिस्टम मानीटर"
 #~ msgstr "योग"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Software Interrupts"
 #~ msgstr "इंटरप्ट्स"
 
 #, fuzzy
+#~| msgid "Interrupts"
 #~ msgid "Hardware Interrupts"
 #~ msgstr "इंटरप्ट्स"
 

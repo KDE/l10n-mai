@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-18 09:51+0000\n"
+"POT-Creation-Date: 2015-03-24 11:30+0000\n"
 "PO-Revision-Date: 2010-01-29 15:54+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -83,6 +83,7 @@ msgstr "मेटाउ क्रिया"
 #. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
 #: actionsconfig.ui:85
 #, fuzzy
+#| msgid "Advanced"
 msgid "Advanced..."
 msgstr "उन्नत"
 
@@ -122,6 +123,7 @@ msgstr "सामान्य"
 
 #: configdialog.cpp:287
 #, fuzzy
+#| msgid "General Config"
 msgid "General Configuration"
 msgstr "सामान्य कान्फ़िग"
 
@@ -132,6 +134,7 @@ msgstr "क्रियासभ"
 
 #: configdialog.cpp:288
 #, fuzzy
+#| msgid "Actions Config"
 msgid "Actions Configuration"
 msgstr "क्रिया कान्फिग"
 
@@ -142,6 +145,7 @@ msgstr "शार्टकटसभ"
 
 #: configdialog.cpp:292
 #, fuzzy
+#| msgid "Shortcuts Config"
 msgid "Shortcuts Configuration"
 msgstr "शार्टकट्स कान्फ़िग"
 
@@ -256,12 +260,14 @@ msgstr "छवि नज़रअंदाज़ करू"
 #. i18n: ectx: property (title), widget (QGroupBox, selection_group)
 #: generalconfig.ui:38
 #, fuzzy
+#| msgid "Selection and clipboard"
 msgid "Selection and Clipboard"
 msgstr "चुनाव आओर क्लिपबोर्ड"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
 #: generalconfig.ui:44
 #, fuzzy
+#| msgid "Ignore Selection"
 msgid "Ignore selection"
 msgstr "उपेक्षा चुनाव"
 
@@ -287,53 +293,59 @@ msgstr "क्रिया पापअपक समय खत्म:"
 msgid "Clipboard history size:"
 msgstr "क्लिपबोर्डक इतिहास आकार:"
 
-#: klipper.cpp:124
+#: klipper.cpp:125
 msgid "Enable Clipboard Actions"
 msgstr "क्लिपबोर्ड क्रियासभ सक्रिय करू"
 
-#: klipper.cpp:151
+#: klipper.cpp:152
 msgid "C&lear Clipboard History"
 msgstr "क्लिपबोर्ड इतिहास साफ करू (&l)"
 
-#: klipper.cpp:158
+#: klipper.cpp:160
 msgid "&Configure Klipper..."
 msgstr "कान्फ़िगर क्लिपर (&C)"
 
-#: klipper.cpp:164
+#: klipper.cpp:166
 #, fuzzy
+#| msgid "&Quit"
 msgctxt "@item:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "छोडू (&Q)"
 
-#: klipper.cpp:169
+#: klipper.cpp:171
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "मोजुदा क्लिपबोर्ड पर क्रिया हाथ सँ वापिस करू"
 
-#: klipper.cpp:177
+#: klipper.cpp:179
 msgid "&Edit Contents..."
 msgstr "विषय-वस्तु क' संपादन करू .... (&E)"
 
-#: klipper.cpp:189
+#: klipper.cpp:191
 msgid "&Show Barcode..."
 msgstr ""
 
-#: klipper.cpp:201
+#: klipper.cpp:203
 #, fuzzy
+#| msgid "Next history item"
 msgid "Next History Item"
 msgstr "अगिला इतिहास मद"
 
-#: klipper.cpp:205
+#: klipper.cpp:207
 #, fuzzy
 msgid "Previous History Item"
 msgstr "पछिला मद"
 
-#: klipper.cpp:211
+#: klipper.cpp:213
 #, fuzzy
+#| msgid "Popup at mouse position"
 msgid "Open Klipper at Mouse Position"
 msgstr "पाप अप एट माउस स्थिति"
 
-#: klipper.cpp:478
+#: klipper.cpp:496
 #, fuzzy
+#| msgid ""
+#| "You can enable URL actions later by right-clicking on the Klipper icon "
+#| "and selecting 'Enable Actions'"
 msgid ""
 "You can enable URL actions later by left-clicking on the Klipper icon and "
 "selecting 'Enable Clipboard Actions'"
@@ -341,53 +353,53 @@ msgstr ""
 "क्लिपर प्रतीक क' उप्पर ददिन्ना-क्लिक कए तथा 'क्रिया सक्षम  करू ' चुन कए अहाँ यूआरएल "
 "क्रियाकेँ सक्षम कए सकैत छी"
 
-#: klipper.cpp:506
+#: klipper.cpp:524
 #, fuzzy
 msgid "Should Klipper start automatically when you login?"
 msgstr "क्लिपर प्रारंभ?"
 
-#: klipper.cpp:507
+#: klipper.cpp:525
 msgid "Automatically Start Klipper?"
 msgstr "क्लिपर स्वचलित प्रारंभ  करू ?"
 
-#: klipper.cpp:507
+#: klipper.cpp:525
 msgid "Start"
 msgstr "प्रारंभ"
 
-#: klipper.cpp:508
+#: klipper.cpp:526
 msgid "Do Not Start"
 msgstr "चालू नहि  करू "
 
-#: klipper.cpp:856
+#: klipper.cpp:874
 msgid "Edit Contents"
 msgstr "विषय-वस्तु क' संपादन करू"
 
-#: klipper.cpp:903
+#: klipper.cpp:940
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:941
+#: klipper.cpp:978
 #, fuzzy
 msgid "Really delete entire clipboard history?"
 msgstr "मेटाबू क्लिपबोर्ड?"
 
-#: klipper.cpp:942
+#: klipper.cpp:979
 msgid "Delete clipboard history?"
 msgstr "मेटाबू क्लिपबोर्ड इतिहास?"
 
-#: klipper.cpp:960 klipper.cpp:969
+#: klipper.cpp:997 klipper.cpp:1006
 msgid "Clipboard history"
 msgstr "क्लिपबोर्ड इतिहास"
 
-#: klipper.cpp:986
+#: klipper.cpp:1023
 msgid "up"
 msgstr "उप्पर"
 
-#: klipper.cpp:993
+#: klipper.cpp:1030
 msgid "current"
 msgstr "मोजुदा"
 
-#: klipper.cpp:1000
+#: klipper.cpp:1037
 msgid "down"
 msgstr "नीच्चाँ"
 
@@ -506,6 +518,7 @@ msgstr "प्रविष्टि क'लेल in s ट्री"
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
 #: klipper.kcfg:75
 #, fuzzy
+#| msgid "Remove whitespace when executing actions"
 msgid "Strip whitespace when executing an action"
 msgstr "जखन क्रिया केँ चलाएल जाए तँ व्हाइटस्पेसेस हटाउ"
 
@@ -554,6 +567,10 @@ msgstr "क्लिपर"
 
 #: main.cpp:45
 #, fuzzy
+#| msgid ""
+#| "(c) 1998, Andrew Stanley-Jones\n"
+#| "1998-2002, Carsten Pfeiffer\n"
+#| "2001, Patrick Dubroy"
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
@@ -601,6 +618,7 @@ msgstr "एसबेन मोज़ हैनसन"
 
 #: main.cpp:65
 #, fuzzy
+#| msgid "Maintainer"
 msgid "Previous Maintainer"
 msgstr "अनुरक्षक"
 
@@ -616,25 +634,26 @@ msgstr "अनुरक्षक"
 msgid "&More"
 msgstr " बेसी (&M)"
 
-#: tray.cpp:38
+#: tray.cpp:39
 #, fuzzy
+#| msgid "Keep clipboard contents"
 msgid "Clipboard Contents"
 msgstr "क्लिपबोर्ड सामग्री राखू"
 
-#: tray.cpp:38 tray.cpp:55
+#: tray.cpp:39 tray.cpp:56
 msgid "Clipboard is empty"
 msgstr "क्लिपबोर्ड अछि खाली"
 
-#: urlgrabber.cpp:218
+#: urlgrabber.cpp:219
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - क्रियासभ क'लेल: %2"
 
-#: urlgrabber.cpp:246
+#: urlgrabber.cpp:247
 msgid "Disable This Popup"
 msgstr "ई पापअप केँ अक्षम करू"
 
-#: urlgrabber.cpp:252
+#: urlgrabber.cpp:253
 msgid "&Cancel"
 msgstr "रद्द करू (&C)"
 

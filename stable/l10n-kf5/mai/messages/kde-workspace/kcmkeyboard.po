@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:18+0000\n"
+"POT-Creation-Date: 2015-03-19 08:45+0000\n"
 "PO-Revision-Date: 2009-01-18 15:29+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -36,21 +36,23 @@ msgstr "अगिला कुंजीपट खाकामे स्विच
 
 #: bindings.cpp:34
 #, fuzzy
+#| msgid "Keyboard Layout"
 msgid "KDE Keyboard Layout Switcher"
 msgstr "कीबोर्ड लेआउट"
 
 #: bindings.cpp:67
 #, fuzzy, kde-format
+#| msgid "Error changing keyboard layout to '%1'"
 msgid "Switch keyboard layout to %1"
 msgstr "कुंजीपट खाका केँ '%1' पर बदलबामे त्रुटि भेल"
 
-#: flags.cpp:141
+#: flags.cpp:172
 #, kde-format
 msgctxt "short layout label - full layout name"
 msgid "%1 - %2"
 msgstr ""
 
-#: flags.cpp:149
+#: flags.cpp:180
 #, kde-format
 msgctxt "layout - variant"
 msgid "%1 - %2"
@@ -62,6 +64,8 @@ msgstr ""
 
 #: kcm_add_layout_dialog.cpp:139 kcm_view_models.cpp:308
 #, fuzzy
+#| msgctxt "Default variant"
+#| msgid "Default"
 msgctxt "variant"
 msgid "Default"
 msgstr "मूलभूत"
@@ -69,6 +73,7 @@ msgstr "मूलभूत"
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgid "Add Layout"
 msgstr "कुँजी क' दोहराव"
 
@@ -105,11 +110,13 @@ msgstr ""
 
 #: kcm_keyboard.cpp:49
 #, fuzzy
+#| msgid "KDE Keyboard Layout Switcher"
 msgid "KDE Keyboard Control Module"
 msgstr "केडीई कुंजीपटल अभिन्यास परिवर्तक"
 
 #: kcm_keyboard.cpp:51
 #, fuzzy
+#| msgid "Copyright (C) 2006-2007 Andriy Rysin"
 msgid "(c) 2010 Andriy Rysin"
 msgstr "स्वत्वाधिकार (c) 2006-2007 आन्द्रेई राइसिन"
 
@@ -127,6 +134,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: kcm_keyboard.ui:33
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgid "Keyboard &model:"
 msgstr "कुँजी क' दोहराव"
 
@@ -144,6 +152,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tabLayouts)
 #: kcm_keyboard.ui:94
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Layouts"
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
@@ -160,6 +169,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showSingleChk)
 #: kcm_keyboard.ui:115
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Show for single layout"
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
@@ -215,6 +225,7 @@ msgstr "विंडो (&W)"
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
 #: kcm_keyboard.ui:201
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Shortcuts for Switching Layout"
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
@@ -271,6 +282,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, layoutsGroupBox)
 #: kcm_keyboard.ui:298
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Configure layouts"
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
@@ -297,6 +309,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, layoutLoopingCheckBox)
 #: kcm_keyboard.ui:387
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Spare layouts"
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
@@ -313,6 +326,7 @@ msgstr "उन्नत"
 #. i18n: ectx: property (text), widget (QCheckBox, configureKeyboardOptionsChk)
 #: kcm_keyboard.ui:455
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "&Configure keyboard options"
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
@@ -336,6 +350,8 @@ msgstr[1] ""
 
 #: kcm_keyboard_widget.cpp:612
 #, fuzzy
+#| msgctxt "no shortcut defined"
+#| msgid "None"
 msgctxt "no shortcuts defined"
 msgid "None"
 msgstr "किछु नहि"
@@ -349,6 +365,7 @@ msgstr[1] ""
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Map"
 msgctxt "layout map name"
 msgid "Map"
 msgstr "मैप"
@@ -367,6 +384,7 @@ msgstr "लेबल"
 
 #: kcm_view_models.cpp:224
 #, fuzzy
+#| msgid "Main shortcuts:"
 msgid "Shortcut"
 msgstr "प्रधान शार्टकट:"
 
@@ -392,6 +410,7 @@ msgstr "चालू करू (&u)"
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton2)
 #: kcmmiscwidget.ui:39
 #, fuzzy
+#| msgid "Turn o&ff"
 msgid "&Turn off"
 msgstr "बन्न करू (&f)"
 
@@ -413,6 +432,7 @@ msgstr "बन्न करू (&f)"
 #. i18n: ectx: property (text), widget (QRadioButton, keyboardRepeatUnchangedRadioButton)
 #: kcmmiscwidget.ui:85
 #, fuzzy
+#| msgid "Leave unchan&ged"
 msgid "&Leave unchanged"
 msgstr "अपरिवर्तित छोड़ि दिअ'(&g)"
 
@@ -425,6 +445,9 @@ msgstr "देरीः (&D)"
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, delay)
 #: kcmmiscwidget.ui:133 kcmmiscwidget.ui:161
 #, fuzzy
+#| msgid ""
+#| "If supported, this option allows you to set the rate at which keycodes "
+#| "are generated while a key is pressed."
 msgid ""
 "If supported, this option allows you to set the delay after which a pressed "
 "key will start generating keycodes. The 'Repeat rate' option controls the "
@@ -472,16 +495,19 @@ msgstr ""
 
 #: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
 #, fuzzy
+#| msgid "Keyboard Repeat"
 msgctxt "tooltip title"
 msgid "Keyboard Layout"
 msgstr "कुँजी क' दोहराव"
 
 #: layouts_menu.cpp:134
 #, fuzzy
+#| msgid "&Enable keyboard repeat"
 msgid "Configure..."
 msgstr "कुँजी क' दोहराव सक्षम करू (&E)"
 
 #, fuzzy
+#~| msgid "Key click &volume:"
 #~ msgid "&Key click volume:"
 #~ msgstr "कुँजी क्लिक आवाजः (&v)"
 

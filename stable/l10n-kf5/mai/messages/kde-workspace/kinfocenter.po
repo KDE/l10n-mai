@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:16+0000\n"
+"POT-Creation-Date: 2015-04-09 08:40+0000\n"
 "PO-Revision-Date: 2010-01-29 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -38,65 +38,39 @@ msgctxt "Main window title"
 msgid "KInfocenter"
 msgstr "केडीई सूचना केंद्र"
 
-#: infocenter.cpp:130
+#: infocenter.cpp:128
 #, fuzzy
 msgctxt "Information about current module located in about menu"
 msgid "About Current Information Module"
 msgstr "क' बारेमे मोजुदा मोड्यूल"
 
-#: infocenter.cpp:135
-msgctxt "Export button label"
-msgid "Export"
-msgstr ""
-
-#: infocenter.cpp:139
+#: infocenter.cpp:133
 #, fuzzy
+#| msgid "Model"
 msgctxt "Module help button label"
 msgid "Module Help"
 msgstr "माडल"
 
-#: infocenter.cpp:142
+#: infocenter.cpp:136
 msgctxt "Help button label"
 msgid "Help"
 msgstr ""
 
-#: infocenter.cpp:182
+#: infocenter.cpp:176
 msgctxt "Search Bar Click Message"
 msgid "Search"
 msgstr ""
 
-#: infocenter.cpp:187
+#: infocenter.cpp:181
 msgctxt "Kaction search label"
 msgid "Search Modules"
 msgstr ""
 
-#: infocenter.cpp:249
-msgid "Export of the module has produced no output."
-msgstr ""
-
-#: infocenter.cpp:259
-msgid "Unable to open file to write export information"
-msgstr ""
-
-#: infocenter.cpp:264
-#, kde-format
-msgid "Export information for %1"
-msgstr ""
-
-#: infocenter.cpp:268
-#, fuzzy
-msgid "Information exported"
-msgstr "सूचना"
-
 #: infokcmmodel.cpp:32
 #, fuzzy
+#| msgid "Information"
 msgid "Information Modules"
 msgstr "सूचना"
-
-#: kcmcontainer.cpp:108
-#, fuzzy, kde-format
-msgid "%1  ( %2 )"
-msgstr "%1 x %2 dpi"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: kinfocenterui.rc:10
@@ -155,17 +129,27 @@ msgstr "वाल्दो बास्तियान"
 msgid "Nicolas Ternisien"
 msgstr "निकोलस टर्निसिएन"
 
-#: sidepanel.cpp:102
+#: sidepanel.cpp:103
 msgid "Clear Search"
 msgstr ""
 
-#: sidepanel.cpp:105
+#: sidepanel.cpp:106
 msgid "Expand All Categories"
 msgstr ""
 
-#: sidepanel.cpp:108
+#: sidepanel.cpp:109
 msgid "Collapse All Categories"
 msgstr ""
+
+#, fuzzy
+#~| msgid "%1 x %2 dpi"
+#~ msgid "%1  ( %2 )"
+#~ msgstr "%1 x %2 dpi"
+
+#, fuzzy
+#~| msgid "Information"
+#~ msgid "Information exported"
+#~ msgstr "सूचना"
 
 #~ msgid "Name"
 #~ msgstr "नाम"
@@ -180,6 +164,7 @@ msgstr ""
 #~ msgstr "विवरण"
 
 #, fuzzy
+#~| msgid "Device Information"
 #~ msgid "Information"
 #~ msgstr "डिवायस सूचना"
 
@@ -518,6 +503,7 @@ msgstr ""
 #~ msgstr "माउन्ट समय"
 
 #, fuzzy
+#~| msgid "Character Devices"
 #~ msgid "character special"
 #~ msgstr "कैरेक्टर अओजार"
 
@@ -614,6 +600,7 @@ msgstr ""
 #~ msgstr "गहिराइ क' रूट विंडो"
 
 #, fuzzy
+#~| msgid "Number of Active Processors"
 #~ msgid "Number of Colormaps"
 #~ msgstr "सक्रिय प्रोसेसरक संख्या"
 

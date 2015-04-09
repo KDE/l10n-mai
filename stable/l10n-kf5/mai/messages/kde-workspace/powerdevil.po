@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-26 09:37+0000\n"
+"POT-Creation-Date: 2015-03-01 08:57+0000\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -53,6 +53,7 @@ msgstr ""
 #: actions/bundled/suspendsessionconfig.cpp:79
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
+#| msgid "min"
 msgid " min"
 msgstr "मि."
 
@@ -73,61 +74,70 @@ msgctxt "@action:inmenu Global shortcut"
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:89
+#: actions/bundled/handlebuttoneventsconfig.cpp:88
+msgctxt "Execute action on lid close even when external monitor is connected"
+msgid "Even when an external monitor is connected"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
 msgid "Do nothing"
 msgstr "किछु नहि करू"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:91
+#: actions/bundled/handlebuttoneventsconfig.cpp:102
 #: actions/bundled/suspendsessionconfig.cpp:84
 msgid "Sleep"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:94
+#: actions/bundled/handlebuttoneventsconfig.cpp:105
 #: actions/bundled/suspendsessionconfig.cpp:87
 msgid "Hibernate"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:96
+#: actions/bundled/handlebuttoneventsconfig.cpp:107
 #: actions/bundled/suspendsessionconfig.cpp:89
 msgid "Shutdown"
 msgstr "बन्न करू"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:97
+#: actions/bundled/handlebuttoneventsconfig.cpp:108
 #: actions/bundled/suspendsessionconfig.cpp:90
 #, fuzzy
+#| msgid "Lock Screen"
 msgid "Lock screen"
 msgstr "स्क्रीन पर ताला लगाबू"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:99
+#: actions/bundled/handlebuttoneventsconfig.cpp:110
 #, fuzzy
+#| msgid "Prompt Log out dialog"
 msgid "Prompt log out dialog"
 msgstr "लाग आउट समाद पूछू"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:101
+#: actions/bundled/handlebuttoneventsconfig.cpp:112
 msgid "Turn off screen"
 msgstr ""
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:126
+#: actions/bundled/handlebuttoneventsconfig.cpp:138
 #, fuzzy
+#| msgid "When Laptop Lid Closed"
 msgid "When laptop lid closed"
 msgstr "जखन लैपटापक ढक्कन बन्न अछि तँ"
 
-#: actions/bundled/handlebuttoneventsconfig.cpp:133
+#: actions/bundled/handlebuttoneventsconfig.cpp:149
 #, fuzzy
+#| msgid "When Power Button pressed"
 msgid "When power button pressed"
 msgstr "जखन पावर बटन दबाएल जाए"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:61
+#: actions/bundled/keyboardbrightnesscontrol.cpp:60
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Keyboard Brightness"
 msgstr ""
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:66
+#: actions/bundled/keyboardbrightnesscontrol.cpp:65
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Keyboard Brightness"
 msgstr ""
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:71
+#: actions/bundled/keyboardbrightnesscontrol.cpp:70
 msgctxt "@action:inmenu Global shortcut"
 msgid "Toggle Keyboard Backlight"
 msgstr ""
@@ -143,6 +153,7 @@ msgstr ""
 
 #: actions/bundled/runscriptconfig.cpp:84
 #, fuzzy
+#| msgid "New Profile"
 msgid "On Profile Load"
 msgstr "नवीन प्रोफाइल"
 
@@ -156,33 +167,35 @@ msgstr ""
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:61
 #, fuzzy
+#| msgid "&Power off after"
 msgid "Switch off after"
 msgstr "एतबा समयक बाद बिजली बन्न करू (&P)"
 
-#: backends/upower/backlighthelper.cpp:261
+#: backends/upower/backlighthelper.cpp:195
 msgid "Can't open file"
 msgstr ""
 
-#: backends/upower/login1suspendjob.cpp:79
-#: backends/upower/upowersuspendjob.cpp:72
+#: backends/upower/login1suspendjob.cpp:78
+#: backends/upower/upowersuspendjob.cpp:69
 #, fuzzy
+#| msgid "Supported suspend methods"
 msgid "Unsupported suspend method"
 msgstr "समर्थित निलंबन विधिसभ"
 
-#: powerdevilcore.cpp:76
+#: powerdevilcore.cpp:75
 msgid ""
 "No valid Power Management backend plugins are available. A new installation "
 "might solve this problem."
 msgstr ""
 
-#: powerdevilcore.cpp:183
+#: powerdevilcore.cpp:180
 #, kde-format
 msgid ""
 "Your battery capacity is %1%. This means your battery is broken and needs a "
 "replacement. Please contact your hardware vendor for more details."
 msgstr ""
 
-#: powerdevilcore.cpp:187
+#: powerdevilcore.cpp:184
 #, kde-format
 msgid ""
 "One of your batteries (ID %2) has a capacity of %1%. This means it is broken "
@@ -190,52 +203,30 @@ msgid ""
 "details."
 msgstr ""
 
-#: powerdevilcore.cpp:192
+#: powerdevilcore.cpp:189
 msgid "Broken Battery"
 msgstr ""
 
-#: powerdevilcore.cpp:201
-#, kde-format
-msgid ""
-"Your battery might have been recalled by %1. Usually, when vendors recall "
-"the hardware, it is because of factory defects which are usually eligible "
-"for a free repair or substitution. Please check <a href=\"%2\">%1's website</"
-"a> to verify if your battery is faulted."
-msgstr ""
-
-#: powerdevilcore.cpp:206
-#, kde-format
-msgid ""
-"One of your batteries (ID %3) might have been recalled by %1. Usually, when "
-"vendors recall the hardware, it is because of factory defects which are "
-"usually eligible for a free repair or substitution. Please check <a href="
-"\"%2\">%1's website</a> to verify if your battery is faulted."
-msgstr ""
-
-#: powerdevilcore.cpp:213
-msgid "Check Your Battery"
-msgstr ""
-
-#: powerdevilcore.cpp:329
+#: powerdevilcore.cpp:308
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist.\n"
 "Please check your PowerDevil configuration."
 msgstr ""
 
-#: powerdevilcore.cpp:393 powerdevilcore.cpp:405
+#: powerdevilcore.cpp:372 powerdevilcore.cpp:384
 msgid "Activity Manager"
 msgstr ""
 
-#: powerdevilcore.cpp:394
+#: powerdevilcore.cpp:373
 msgid "This activity's policies prevent the system from suspending"
 msgstr ""
 
-#: powerdevilcore.cpp:406
+#: powerdevilcore.cpp:385
 msgid "This activity's policies prevent screen power management"
 msgstr ""
 
-#: powerdevilcore.cpp:450
+#: powerdevilcore.cpp:429
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
@@ -243,80 +234,99 @@ msgstr ""
 "बैटरी इंटरफेस सँ कनेक्ट नहि भए सकल!\n"
 "कृप्या अपन सिस्टम कान्फिगरेशन जाँचू"
 
-#: powerdevilcore.cpp:471
+#: powerdevilcore.cpp:450
 #, fuzzy
+#| msgid "Critical battery level"
 msgid "Additional Battery Added"
 msgstr "बैटरीक गंभीर स्तर"
 
-#: powerdevilcore.cpp:472 powerdevilcore.cpp:569
+#: powerdevilcore.cpp:451 powerdevilcore.cpp:548
 #, fuzzy
+#| msgid "The power adaptor has been plugged in"
 msgid "All pending suspend actions have been canceled."
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:526 powerdevilcore.cpp:531 powerdevilcore.cpp:536
-#: powerdevilcore.cpp:541
+#: powerdevilcore.cpp:505 powerdevilcore.cpp:510 powerdevilcore.cpp:515
+#: powerdevilcore.cpp:520
 #, kde-format
 msgid "Battery Critical (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:527
+#: powerdevilcore.cpp:506
 #, fuzzy
+#| msgid ""
+#| "Your battery level is critical, the computer will be halted in 1 second."
+#| msgid_plural ""
+#| "Your battery level is critical, the computer will be halted in %1 seconds."
 msgid ""
-"Your battery level is critical, the computer will be halted in 30 seconds."
+"Your battery level is critical, the computer will be halted in 60 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:532
+#: powerdevilcore.cpp:511
 #, fuzzy
+#| msgid ""
+#| "Your battery level is critical, the computer will be halted in 1 second."
+#| msgid_plural ""
+#| "Your battery level is critical, the computer will be halted in %1 seconds."
 msgid ""
-"Your battery level is critical, the computer will be hibernated in 30 "
+"Your battery level is critical, the computer will be hibernated in 60 "
 "seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
-#: powerdevilcore.cpp:537
+#: powerdevilcore.cpp:516
 #, fuzzy
+#| msgid ""
+#| "Your battery level is critical, the computer will be suspended to RAM in "
+#| "1 second."
+#| msgid_plural ""
+#| "Your battery level is critical, the computer will be suspended to RAM in "
+#| "%1 seconds."
 msgid ""
-"Your battery level is critical, the computer will be suspended in 30 seconds."
+"Your battery level is critical, the computer will be suspended in 60 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
 
-#: powerdevilcore.cpp:542
+#: powerdevilcore.cpp:521
 #, fuzzy
+#| msgid "Your battery level is critical: save your work as soon as possible."
 msgid "Your battery level is critical, save your work as soon as possible."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
-#: powerdevilcore.cpp:548
+#: powerdevilcore.cpp:527
 #, kde-format
 msgid "Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:549
+#: powerdevilcore.cpp:528
 msgid ""
 "Your battery is low. If you need to continue using your computer, either "
 "plug in your computer, or shut it down and then change the battery."
 msgstr ""
 
-#: powerdevilcore.cpp:568
+#: powerdevilcore.cpp:547
 #, fuzzy
+#| msgid "When AC Adaptor is plugged in"
 msgid "AC Adapter Plugged In"
 msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:571
+#: powerdevilcore.cpp:550
 msgid "Running on AC power"
 msgstr ""
 
-#: powerdevilcore.cpp:571
+#: powerdevilcore.cpp:550
 msgid "The power adaptor has been plugged in."
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
-#: powerdevilcore.cpp:574
+#: powerdevilcore.cpp:553
 #, fuzzy
+#| msgid "When on battery Power"
 msgid "Running on Battery Power"
 msgstr "जखन बैटरी पावर पर अछि"
 
-#: powerdevilcore.cpp:574
+#: powerdevilcore.cpp:553
 msgid "The power adaptor has been unplugged."
 msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
 
-#: powerdevilcore.cpp:580
+#: powerdevilcore.cpp:559
 #, kde-format
 msgid ""
 "KDE Power Management System could not be initialized. The backend reported "
@@ -324,15 +334,16 @@ msgid ""
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:627
+#: powerdevilcore.cpp:606
 msgid "Charge Complete"
 msgstr ""
 
-#: powerdevilcore.cpp:627
+#: powerdevilcore.cpp:606
 msgid "Your battery is now fully charged."
 msgstr ""
 
 #, fuzzy
+#~| msgid "A Power Management tool for KDE4"
 #~ msgid "KDE Power Management System"
 #~ msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
 
@@ -343,6 +354,7 @@ msgstr ""
 #~ msgstr "अनुरक्षक"
 
 #, fuzzy
+#~| msgid "Lock Screen"
 #~ msgid "Locking Screen"
 #~ msgstr "स्क्रीन पर ताला लगाबू"
 
@@ -350,6 +362,7 @@ msgstr ""
 #~ msgstr "स्क्रीन तालाबन्न भ' रहल अछि"
 
 #, fuzzy
+#~| msgid "The power adaptor has been plugged in"
 #~ msgid ""
 #~ "The power adaptor has been plugged in – all pending suspend actions have "
 #~ "been canceled."
@@ -359,11 +372,13 @@ msgstr ""
 #~ msgstr "अहाँक बैटरीक स्तर कम भ' गेल अछि"
 
 #, fuzzy
+#~| msgid "Performance"
 #~ msgctxt "Name of a power profile"
 #~ msgid "Performance"
 #~ msgstr "प्रदर्शन"
 
 #, fuzzy
+#~| msgid "Powersave"
 #~ msgctxt "Name of a power profile"
 #~ msgid "Powersave"
 #~ msgstr "ऊर्जा-बचत"
@@ -372,10 +387,12 @@ msgstr ""
 #~ msgstr "अहाँक बैटरीक स्तर चेतावनी स्तर तकि पहुँचि गेल अछि"
 
 #, fuzzy
+#~| msgid "Disable KWin compositing, if active"
 #~ msgid "Disable effects"
 #~ msgstr "जँ सक्रिय अछि तँ के-विन कम्पोजिटिंग अक्षम करू"
 
 #, fuzzy
+#~| msgid "When Sleep Button pressed"
 #~ msgid "When sleep button pressed"
 #~ msgstr "जखन स्लीप बटन दबाएल जाए"
 
@@ -383,10 +400,12 @@ msgstr ""
 #~ msgstr "पावर-डेविल"
 
 #, fuzzy
+#~| msgid "A Power Management tool for KDE4"
 #~ msgid "A Power Management tool for KDE4"
 #~ msgstr "केडीई4 क' लेल पावर प्रबंधन अओजार"
 
 #, fuzzy
+#~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c) 2008 Dario Freddi"
 #~ msgstr "(c) 2008 डेरियो फ्रेदी"
 
@@ -487,18 +506,22 @@ msgstr ""
 #~ msgstr "(c) 2008 डेरियो फ्रेदी"
 
 #, fuzzy
+#~| msgid "PowerDevil Configuration"
 #~ msgid "Power Profiles Configuration"
 #~ msgstr "पावरडेविल कान्फिगरेशन"
 
 #, fuzzy
+#~| msgid "A configurator for PowerDevil"
 #~ msgid "A profile configurator for KDE Power Management System"
 #~ msgstr "पावर-डेविलक लेल एकटा कान्फिगरेटर"
 
 #, fuzzy
+#~| msgid "(c), 2008 Dario Freddi"
 #~ msgid "(c), 2010 Dario Freddi"
 #~ msgstr "(c) 2008 डेरियो फ्रेदी"
 
 #, fuzzy
+#~| msgid "Please enter a name for the new profile"
 #~ msgid "Please enter a name for the new profile:"
 #~ msgstr "कृप्या नवीन प्रोफाइल क' लेल एकटा नाम दिअ' :"
 
@@ -509,14 +532,17 @@ msgstr ""
 #~ msgstr "एतए पर आप प्रोफाइलक नाम भरू जकरा अहाँ बनाए रहल छी"
 
 #, fuzzy
+#~| msgid "Please enter a name for this profile"
 #~ msgid "Please enter a name for this profile:"
 #~ msgstr "ई प्रोफाइलक लेल एकटा नाम भरू"
 
 #, fuzzy
+#~| msgid "Import PowerDevil profiles"
 #~ msgid "Import PowerDevil Profiles"
 #~ msgstr "पावरडेविल प्रोफाइलकेँ आयात करू"
 
 #, fuzzy
+#~| msgid "Export PowerDevil profiles"
 #~ msgid "Export PowerDevil Profiles"
 #~ msgstr "पावरडेविर प्रोफाइलकेँ निर्यात करू"
 
@@ -550,6 +576,7 @@ msgstr ""
 #~ msgstr "प्रोफाइल निर्यात करू"
 
 #, fuzzy
+#~| msgid "Settings and Profiles"
 #~ msgid "Settings and Profile"
 #~ msgstr "विन्यास आ प्रोफाइल"
 
@@ -560,14 +587,17 @@ msgstr ""
 #~ msgstr "जखन निलंबन सँ जागैत अछि तँ स्क्रीन पर ताला लगाबैछ"
 
 #, fuzzy
+#~| msgid "You will be asked for password when resuming from sleep state"
 #~ msgid "You will be asked for a password when resuming from sleep state"
 #~ msgstr "जखन अहाँ स्लीप स्थिति सँ पुनरारंभ करब तँ अहाँक पासवर्डक लेल पूछल जाएत"
 
 #, fuzzy
+#~| msgid "Configure Notifications"
 #~ msgid "Configure Notifications..."
 #~ msgstr "सूचनासभ बिन्यस्त करू"
 
 #, fuzzy
+#~| msgid "When AC Adaptor is plugged in"
 #~ msgid "When AC Adaptor is unplugged"
 #~ msgstr "जखन पावर एडाप्टर प्लगमे लगाएल गेल अछि"
 
@@ -618,6 +648,7 @@ msgstr ""
 #~ msgstr "तंत्र क्षमतासभ"
 
 #, fuzzy
+#~| msgid "Number of CPU"
 #~ msgid "Number of CPUs"
 #~ msgstr "सीपीयूक संख्या"
 
@@ -640,10 +671,12 @@ msgstr ""
 #~ msgstr "पावर-डेविल त्रुटि"
 
 #, fuzzy
+#~| msgid "Edit Profiles"
 #~ msgid "Editing Profile"
 #~ msgstr "प्रोफाइल संपादित करू"
 
 #, fuzzy
+#~| msgid "Profiles assignment"
 #~ msgid "Profile Assignment"
 #~ msgstr "प्रोफाइल असाइनमेंट"
 
@@ -654,10 +687,12 @@ msgstr ""
 #~ msgstr "निलंबित करबा सँ पहिने, प्रतीक्षा करू"
 
 #, fuzzy
+#~| msgid "Do nothing"
 #~ msgid "Do not wait"
 #~ msgstr "किछु नहि करू"
 
 #, fuzzy
+#~| msgid "Do nothing"
 #~ msgid "Do Nothing"
 #~ msgstr "किछु नहि करू"
 
@@ -680,6 +715,7 @@ msgstr ""
 #~ msgstr "स्क्रीन"
 
 #, fuzzy
+#~| msgid "Brightness"
 #~ msgid "Brightness:"
 #~ msgstr "चमकीलापन:"
 
@@ -693,6 +729,8 @@ msgstr ""
 #~ msgstr "जखन एकरासँ बेसी समय तकि निष्क्रिय अछि तँ प्रदर्शन केँ धुंधला करू"
 
 #, fuzzy
+#~| msgctxt "Minutes"
+#~| msgid "min"
 #~ msgctxt "Minutes"
 #~ msgid " min"
 #~ msgstr "मि."
@@ -717,18 +755,22 @@ msgstr ""
 #~ msgstr "सीपीयू आओर तंत्र"
 
 #, fuzzy
+#~| msgid "&Enable display power management"
 #~ msgid "Enable system power saving"
 #~ msgstr "बिजली प्रबंधन प्रदर्शककेँ सक्षम करू (&E)"
 
 #, fuzzy
+#~| msgid "When Loading profile, execute"
 #~ msgid "When loading profile execute:"
 #~ msgstr "जखन प्रोफाइल लोड कएल जाए रहल अछि तँ चलाबू"
 
 #, fuzzy
+#~| msgid "(c) 2008 Dario Freddi"
 #~ msgid "Copyright © 2008–2011 Dario Freddi"
 #~ msgstr "(c) 2008 डेरियो फ्रेदी"
 
 #, fuzzy
+#~| msgid "System powersaving scheme"
 #~ msgid "System powersaving scheme:"
 #~ msgstr "तंत्र पावरसेविंग योजना"
 
@@ -757,6 +799,7 @@ msgstr ""
 #~ msgstr "जँ ई बक्सा चुना जाइछ, सीपीयू <numid>%1</numid> केँ अक्षम कए देल जएताह"
 
 #, fuzzy
+#~| msgid "Attempt loading Modules"
 #~ msgid "Attempt to load modules"
 #~ msgstr "लोडिंग माड्यूल्स आजमाबू"
 
@@ -770,6 +813,7 @@ msgstr ""
 #~ msgstr "निम्न सीपीयू बन्न करू"
 
 #, fuzzy
+#~| msgid "CPU frequency scaling policy"
 #~ msgid "CPU frequency scaling policy:"
 #~ msgstr "सीपीयू फ्रिक्वेंसी स्केलिंग पालिसी"
 
