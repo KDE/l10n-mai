@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-08 05:35+0000\n"
+"POT-Creation-Date: 2015-04-10 05:58+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -71,7 +71,7 @@ msgstr ""
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:243
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:284
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
-#: ui/dialogs/kis_dlg_preferences.cc:192 ui/input/kis_input_manager.cpp:545
+#: ui/dialogs/kis_dlg_preferences.cc:198 ui/input/kis_input_manager.cpp:545
 #: ui/kis_filter_manager.cc:217 ui/kis_filter_manager.cc:226
 #: ui/kis_layer_manager.cc:642 ui/kis_layer_manager.cc:893
 #: ui/KisApplication.cpp:356 ui/KisApplication.cpp:361
@@ -2731,7 +2731,7 @@ msgstr "नरम"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_general)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
-#: ui/dialogs/kis_dlg_preferences.cc:710 ui/dialogs/kis_dlg_preferences.cc:711
+#: ui/dialogs/kis_dlg_preferences.cc:716 ui/dialogs/kis_dlg_preferences.cc:717
 #: ui/kis_paintop_option.cpp:26
 msgid "General"
 msgstr "सामान्य"
@@ -4840,7 +4840,7 @@ msgstr "परत मापू"
 #. i18n: ectx: property (title), widget (QGroupBox, grpMode)
 #: plugins/extensions/layersplit/layersplit.cpp:198
 #: plugins/generators/solid/colorgenerator.h:53
-#: ui/dialogs/kis_dlg_preferences.cc:727 ui/forms/wdgnewimage.ui:361
+#: ui/dialogs/kis_dlg_preferences.cc:733 ui/forms/wdgnewimage.ui:361
 #: ui/kis_paintop_option.cpp:31
 msgid "Color"
 msgstr "रंग"
@@ -12349,7 +12349,7 @@ msgid "Image Properties"
 msgstr "चित्र विशेषता"
 
 #: ui/dialogs/kis_dlg_image_properties.cc:72
-#: ui/dialogs/kis_dlg_preferences.cc:521 ui/kis_image_manager.cc:90
+#: ui/dialogs/kis_dlg_preferences.cc:527 ui/kis_image_manager.cc:90
 #, fuzzy
 #| msgid "Background Color"
 msgid "Change the background color of the image"
@@ -12417,98 +12417,98 @@ msgstr "ब्रश"
 msgid "Brush Outline with Triangle Lefthanded"
 msgstr "ब्रश"
 
-#: ui/dialogs/kis_dlg_preferences.cc:186
+#: ui/dialogs/kis_dlg_preferences.cc:192
 msgid "Select a Background Image"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:192
+#: ui/dialogs/kis_dlg_preferences.cc:198
 #, fuzzy, kde-format
 #| msgid "Layer Size"
 msgid "%1 is not a valid image file!"
 msgstr "परत आकार"
 
-#: ui/dialogs/kis_dlg_preferences.cc:235
+#: ui/dialogs/kis_dlg_preferences.cc:241
 #: ui/widgets/kis_color_space_selector.cc:62
 #, fuzzy
 #| msgid "Options"
 msgid "Open Color Profile"
 msgstr "विकल्प"
 
-#: ui/dialogs/kis_dlg_preferences.cc:245 ui/dialogs/kis_dlg_preferences.cc:403
+#: ui/dialogs/kis_dlg_preferences.cc:251 ui/dialogs/kis_dlg_preferences.cc:409
 #, kde-format
 msgctxt "The number of the screen"
 msgid "Screen: %1"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:291
+#: ui/dialogs/kis_dlg_preferences.cc:297
 #: ui/widgets/kis_color_space_selector.cc:180
 #, fuzzy
 #| msgid "Options"
 msgid "Install Color Profiles"
 msgstr "विकल्प"
 
-#: ui/dialogs/kis_dlg_preferences.cc:337
+#: ui/dialogs/kis_dlg_preferences.cc:343
 #, kde-format
 msgctxt "The display/screen we got from Qt"
 msgid "Screen %1:"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_preferences.cc:702
+#: ui/dialogs/kis_dlg_preferences.cc:708
 msgid "Preferences"
 msgstr "वरीयतासभ"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplayBlacklist)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
-#: ui/dialogs/kis_dlg_preferences.cc:718 ui/dialogs/kis_dlg_preferences.cc:719
+#: ui/dialogs/kis_dlg_preferences.cc:724 ui/dialogs/kis_dlg_preferences.cc:725
 #: ui/forms/wdgcolorsettings.ui:53 ui/forms/wdgdisplaysettings.ui:20
 #: ui/forms/wdgdlgblacklistcleanup.ui:20
 msgid "Display"
 msgstr "देखाबू"
 
-#: ui/dialogs/kis_dlg_preferences.cc:726
+#: ui/dialogs/kis_dlg_preferences.cc:732
 msgid "Color Management"
 msgstr "रंग प्रबंधन"
 
-#: ui/dialogs/kis_dlg_preferences.cc:735 ui/dialogs/kis_dlg_preferences.cc:736
+#: ui/dialogs/kis_dlg_preferences.cc:741 ui/dialogs/kis_dlg_preferences.cc:742
 msgid "Performance"
 msgstr "प्रदर्शन"
 
-#: ui/dialogs/kis_dlg_preferences.cc:744 ui/dialogs/kis_dlg_preferences.cc:745
+#: ui/dialogs/kis_dlg_preferences.cc:750 ui/dialogs/kis_dlg_preferences.cc:751
 msgid "Grid"
 msgstr "जाल"
 
-#: ui/dialogs/kis_dlg_preferences.cc:752
+#: ui/dialogs/kis_dlg_preferences.cc:758
 #, fuzzy
 #| msgid "Settings"
 msgid "Tablet settings"
 msgstr "जमावट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:753
+#: ui/dialogs/kis_dlg_preferences.cc:759
 #, fuzzy
 #| msgid "Palette"
 msgid "Tablet"
 msgstr "रंग-पट्टिका"
 
-#: ui/dialogs/kis_dlg_preferences.cc:761
+#: ui/dialogs/kis_dlg_preferences.cc:767
 #, fuzzy
 #| msgid "Settings"
 msgid "Canvas-only settings"
 msgstr "जमावट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:762
+#: ui/dialogs/kis_dlg_preferences.cc:768
 #, fuzzy
 #| msgid "Settings"
 msgid "Canvas-only"
 msgstr "जमावट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:770
+#: ui/dialogs/kis_dlg_preferences.cc:776
 #, fuzzy
 #| msgid "Settings"
 msgid "Canvas Input Settings"
 msgstr "जमावट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:771
+#: ui/dialogs/kis_dlg_preferences.cc:777
 #, fuzzy
 #| msgid "Horizontal:"
 msgid "Canvas Input"
@@ -13302,11 +13302,6 @@ msgstr "ब्रश"
 msgid "Autosave every:"
 msgstr "स्वचालित"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_autosaveSpinBox)
-#: ui/forms/wdggeneralsettings.ui:57
-msgid " min"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/forms/wdggeneralsettings.ui:82
 msgid "Undo stack size:"
@@ -13370,8 +13365,13 @@ msgstr "पृष्ठभूमि रँग"
 msgid "Window Background:"
 msgstr "पृष्ठभूमि रँग"
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkCanvasMessages)
+#. i18n: ectx: property (text), widget (QCheckBox, m_hideSplashScreen)
 #: ui/forms/wdggeneralsettings.ui:267
+msgid "Hide splash screen on startup"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkCanvasMessages)
+#: ui/forms/wdggeneralsettings.ui:274
 msgid "Show on-canvas popup messages"
 msgstr ""
 
