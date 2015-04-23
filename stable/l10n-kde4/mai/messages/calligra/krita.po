@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-22 05:47+0000\n"
+"POT-Creation-Date: 2015-04-23 05:56+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1522,13 +1522,6 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr "फिल्टर"
 
-#: image/kis_assert.cpp:69
-#, fuzzy
-#| msgid "Interpolation:"
-msgctxt "@title:window"
-msgid "Krita: Internal Error"
-msgstr "अंतर्वेशन:"
-
 #: image/kis_base_mask_generator.h:32
 #: ui/kis_bookmarked_configurations_model.cc:66
 msgid "Default"
@@ -1787,7 +1780,7 @@ msgid "Processing"
 msgstr "प्रगतिशील"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
-#: image/kis_psd_layer_style.cpp:101 ui/forms/wdgcustompalette.ui:18
+#: image/kis_psd_layer_style.cpp:103 ui/forms/wdgcustompalette.ui:18
 #: ui/KisDocument.cpp:2480 ui/KisMainWindow.cpp:841 ui/KisPart.cpp:593
 #: ui/KisPart.cpp:609
 msgid "Unnamed"
@@ -1856,6 +1849,29 @@ msgstr "सक्रिय"
 #: image/kis_update_scheduler.cpp:123
 msgid "Updating..."
 msgstr ""
+
+#: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:59
+#: image/layerstyles/kis_ls_stroke_filter.cpp:50
+msgid "Stroke (style)"
+msgstr ""
+
+#: image/layerstyles/kis_ls_drop_shadow_filter.cpp:45
+#, fuzzy
+#| msgid "Drop Shadow"
+msgid "Drop Shadow (style)"
+msgstr "छाया देखाबू"
+
+#: image/layerstyles/kis_ls_overlay_filter.cpp:50
+#, fuzzy
+#| msgid "Deform Mode"
+msgid "Overlay (style)"
+msgstr "मोड विरूपित करू"
+
+#: image/layerstyles/kis_ls_satin_filter.cpp:46
+#, fuzzy
+#| msgid "Saturation"
+msgid "Satin (style)"
+msgstr "संतृप्ति"
 
 #: image/metadata/kis_meta_data_filter_p.cc:51
 msgid "Anonymizer"
@@ -2048,6 +2064,13 @@ msgstr "नुकाबू (&H)"
 #| msgid "&Filter:"
 msgid "File"
 msgstr "फिल्टर: (&F)"
+
+#: libglobal/kis_assert.cpp:69
+#, fuzzy
+#| msgid "Interpolation:"
+msgctxt "@title:window"
+msgid "Krita: Internal Error"
+msgstr "अंतर्वेशन:"
 
 #: main.cc:92
 msgid "Only print and exit"
@@ -2668,10 +2691,10 @@ msgstr ""
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1268
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1300
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1332
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:64
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:67
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:70
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:73
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:76
 #: plugins/paintops/hairy/wdghairyeoptions.ui:310
 #: plugins/paintops/hairy/wdgInkOptions.ui:71
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:30
@@ -3207,7 +3230,7 @@ msgstr "आकार:"
 #: plugins/paintops/experiment/kis_experimentop_option.cpp:36
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:128
-#: plugins/tools/defaulttools/kis_tool_brush.cc:350
+#: plugins/tools/defaulttools/kis_tool_brush.cc:361
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:57
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:83
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:161
@@ -3308,7 +3331,7 @@ msgstr "चयन बढाउ"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_colorSliderSettings)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1209
-#: plugins/extensions/dockers/colorslider/kis_color_slider_dock.cpp:41
+#: plugins/extensions/dockers/colorslider/kis_color_slider_dock.cpp:42
 #, fuzzy
 #| msgid "Grow Selection"
 msgid "Color Sliders"
@@ -3322,10 +3345,10 @@ msgstr "चयन बढाउ"
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1261
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1293
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1325
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:63
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:66
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:69
 #: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:72
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:75
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:25
 msgid "Hue"
 msgstr "वर्ण"
@@ -3333,7 +3356,7 @@ msgstr "वर्ण"
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsvV)
 #. i18n: ectx: property (text), widget (QTreeWidget, listViewChannels)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1243
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:65
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:68
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:35
 #: plugins/tools/defaulttools/wdgcolorpicker.ui:29
@@ -3342,7 +3365,7 @@ msgstr "मान"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hslL)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1275
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:68
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:71
 #, fuzzy
 #| msgid "Brightness"
 msgid "Lightness"
@@ -3350,7 +3373,7 @@ msgstr "चमकीलापन"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsiI)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1307
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:71
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:74
 #, fuzzy
 #| msgid "Description:"
 msgid "Intensity"
@@ -3358,7 +3381,7 @@ msgstr "विवरण:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyY)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1339
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:74
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:77
 msgid "Luma"
 msgstr ""
 
@@ -3464,8 +3487,8 @@ msgstr "चैनल"
 msgid "Enabled"
 msgstr "सक्षम"
 
-#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:77
-#: plugins/extensions/dockers/specificcolorselector/kis_color_input.cc:49
+#: plugins/extensions/dockers/colorslider/kis_color_slider_input.cpp:80
+#: plugins/extensions/dockers/specificcolorselector/kis_color_input.cc:53
 #, kde-format
 msgid "%1:"
 msgstr ""
@@ -3657,9 +3680,9 @@ msgstr ""
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:336
 #: plugins/extensions/dockers/lut/wdglut.ui:148
 #: plugins/extensions/dockers/lut/wdglut.ui:179
-#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:38
-#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:57
-#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:76
+#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:52
+#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:71
+#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:90
 #: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:95
 #: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:102
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:135
@@ -4104,21 +4127,21 @@ msgid "Choose palette"
 msgstr "रँग स्पेस"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnRemove)
-#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:35
+#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:49
 #, fuzzy
 #| msgid "Delete"
 msgid "Delete color"
 msgstr "मेटाबू"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnAdd)
-#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:54
+#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:68
 #, fuzzy
 #| msgid "Foreground Color"
 msgid "Add foreground color"
 msgstr "अग्रभूमि रँग"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnAddDialog)
-#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:73
+#: plugins/extensions/dockers/palettedocker/wdgpalettedock.ui:87
 #, fuzzy
 #| msgid "Plain"
 msgid "Add color"
@@ -4143,19 +4166,19 @@ msgstr "पैलेट संपादित करू"
 msgid "Small Color Selector"
 msgstr ""
 
-#: plugins/extensions/dockers/specificcolorselector/kis_color_input.cc:238
+#: plugins/extensions/dockers/specificcolorselector/kis_color_input.cc:244
 #, fuzzy
 #| msgid "Color Picker"
 msgid "Color name:"
 msgstr "रंग चयनक"
 
-#: plugins/extensions/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:55
+#: plugins/extensions/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:58
 #, fuzzy
 #| msgid "Grow Selection"
 msgid "Show Colorspace Selector"
 msgstr "चयन बढाउ"
 
-#: plugins/extensions/dockers/specificcolorselector/specificcolorselector_dock.cc:32
+#: plugins/extensions/dockers/specificcolorselector/specificcolorselector_dock.cc:33
 msgid "Specific Color Selector"
 msgstr ""
 
@@ -7110,29 +7133,6 @@ msgstr ""
 #| msgid "Options"
 msgid "Alpha Steps"
 msgstr "विकल्प"
-
-#: plugins/filters/layerstyles/kis_ls_bevel_emboss_filter.cpp:59
-#: plugins/filters/layerstyles/kis_ls_stroke_filter.cpp:50
-msgid "Stroke (style)"
-msgstr ""
-
-#: plugins/filters/layerstyles/kis_ls_drop_shadow_filter.cpp:45
-#, fuzzy
-#| msgid "Drop Shadow"
-msgid "Drop Shadow (style)"
-msgstr "छाया देखाबू"
-
-#: plugins/filters/layerstyles/kis_ls_overlay_filter.cpp:50
-#, fuzzy
-#| msgid "Deform Mode"
-msgid "Overlay (style)"
-msgstr "मोड विरूपित करू"
-
-#: plugins/filters/layerstyles/kis_ls_satin_filter.cpp:46
-#, fuzzy
-#| msgid "Saturation"
-msgid "Satin (style)"
-msgstr "संतृप्ति"
 
 #: plugins/filters/levelfilter/kis_level_filter.cpp:46
 #, fuzzy
@@ -10618,28 +10618,28 @@ msgstr "आनुपातिक"
 msgid "Texture:"
 msgstr "पाठ"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:62
+#: plugins/tools/defaulttools/kis_tool_brush.cc:63
 #, fuzzy
 #| msgid "Brushes"
 msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr "ब्रश"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:69
+#: plugins/tools/defaulttools/kis_tool_brush.cc:70
 #, fuzzy
 #| msgid "Border Selection"
 msgctxt "@action"
 msgid "Brush Smoothing: Disabled"
 msgstr "सीमा चयन"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:70
+#: plugins/tools/defaulttools/kis_tool_brush.cc:71
 #, fuzzy
 #| msgid "Border Selection"
 msgctxt "@action"
 msgid "Brush Smoothing: Basic"
 msgstr "सीमा चयन"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:71
+#: plugins/tools/defaulttools/kis_tool_brush.cc:72
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
@@ -10647,99 +10647,99 @@ msgctxt "@action"
 msgid "Brush Smoothing: Weighted"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:72
+#: plugins/tools/defaulttools/kis_tool_brush.cc:73
 #, fuzzy
 #| msgid "Options"
 msgctxt "@action"
 msgid "Brush Smoothing: Stabilizer"
 msgstr "विकल्प"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:323
+#: plugins/tools/defaulttools/kis_tool_brush.cc:324
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "No Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:324
+#: plugins/tools/defaulttools/kis_tool_brush.cc:325
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "Basic Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:325
+#: plugins/tools/defaulttools/kis_tool_brush.cc:326
 #, fuzzy
 #| msgctxt "smooth out the painting strokes the filter creates"
 #| msgid "Smooth"
 msgid "Weighted Smoothing"
 msgstr "चिकना"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:326
+#: plugins/tools/defaulttools/kis_tool_brush.cc:327
 #, fuzzy
 #| msgid "Scales"
 msgid "Stabilizer"
 msgstr "मापक"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:335
+#: plugins/tools/defaulttools/kis_tool_brush.cc:336
 #, fuzzy
 #| msgid "Width:"
 msgid "Distance:"
 msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:343
+#: plugins/tools/defaulttools/kis_tool_brush.cc:350
 msgid "Delay:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:344
+#: plugins/tools/defaulttools/kis_tool_brush.cc:355
 msgid "Delay the brush stroke to make the line smoother"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:348
+#: plugins/tools/defaulttools/kis_tool_brush.cc:359
 msgid "Radius where the brush is blocked"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:354
+#: plugins/tools/defaulttools/kis_tool_brush.cc:365
 msgid "Finish line:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:365
+#: plugins/tools/defaulttools/kis_tool_brush.cc:378
 #, fuzzy
 #| msgid "Scales"
 msgid "Stabilize Sensors:"
 msgstr "मापक"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:373
+#: plugins/tools/defaulttools/kis_tool_brush.cc:386
 #, fuzzy
 #| msgid "Saturation"
 msgid "Stroke Ending:"
 msgstr "संतृप्ति"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:378
+#: plugins/tools/defaulttools/kis_tool_brush.cc:393
 #, fuzzy
 #| msgid "Pressure"
 msgid "Smooth Pressure"
 msgstr "दबाव"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:383
+#: plugins/tools/defaulttools/kis_tool_brush.cc:400
 #, fuzzy
 #| msgid "Width:"
 msgid "Scalable Distance"
 msgstr "चओड़ाइ:"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:386
+#: plugins/tools/defaulttools/kis_tool_brush.cc:407
 msgid "Assistant:"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:387
+#: plugins/tools/defaulttools/kis_tool_brush.cc:412
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:390
+#: plugins/tools/defaulttools/kis_tool_brush.cc:416
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:397
+#: plugins/tools/defaulttools/kis_tool_brush.cc:423
 #, fuzzy
 #| msgid "Ellipse"
 msgid "Toggle Assistant"
@@ -12388,38 +12388,62 @@ msgstr "पृष्ठभूमि रँग"
 msgid "Layer Properties"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:61
+#: ui/dialogs/kis_dlg_layer_style.cpp:66
 #, fuzzy
 #| msgid "Layer Size"
 msgid "Layer Styles"
 msgstr "परत आकार"
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:170
-#: ui/dialogs/kis_dlg_layer_style.cpp:197
+#: ui/dialogs/kis_dlg_layer_style.cpp:231
+msgctxt "@title:window"
+msgid "Enter new style name"
+msgstr ""
+
+#: ui/dialogs/kis_dlg_layer_style.cpp:232
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "नाम:"
+
+#: ui/dialogs/kis_dlg_layer_style.cpp:233
+#, fuzzy
+#| msgid "Styles"
+msgctxt "Default name for a new style"
+msgid "New Style"
+msgstr "शैलीसभ"
+
+#: ui/dialogs/kis_dlg_layer_style.cpp:246
+#: ui/dialogs/kis_dlg_layer_style.cpp:260
 #, fuzzy
 #| msgid "Select All"
 msgid "Select ASL file"
 msgstr "सभ चुनू"
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:172
-#: ui/dialogs/kis_dlg_layer_style.cpp:199
+#: ui/dialogs/kis_dlg_layer_style.cpp:248
+#, fuzzy
+#| msgid "Saturation:"
+msgid "Layer style library (*.asl)"
+msgstr "संतृप्ति:"
+
+#: ui/dialogs/kis_dlg_layer_style.cpp:262
 #, fuzzy
 #| msgid "Saturation:"
 msgid "Layer style configuration (*.asl)"
 msgstr "संतृप्ति:"
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: ui/dialogs/kis_dlg_layer_style.cpp:620 ui/layerstyles/wdglayerstyles.ui:39
+#: ui/dialogs/kis_dlg_layer_style.cpp:807 ui/layerstyles/wdglayerstyles.ui:39
 #, fuzzy
 #| msgid "Drop Shadow"
 msgid "Inner Shadow"
 msgstr "छाया देखाबू"
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:621
+#: ui/dialogs/kis_dlg_layer_style.cpp:808
 msgid "Choke"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:814
+#: ui/dialogs/kis_dlg_layer_style.cpp:1001
 msgctxt "layer styles parameter"
 msgid "Spread"
 msgstr ""
@@ -17837,6 +17861,12 @@ msgid ""
 "to tag them and then select the tag here."
 msgstr ""
 
+#: ui/kis_psd_layer_style_resource.cpp:132
+#, kde-format
+msgctxt "Auto-generated layer style name for embedded styles (style itself)"
+msgid "<%1> (embedded)"
+msgstr ""
+
 #: ui/kis_selection_manager.cc:128
 msgid "Paste into &New Image"
 msgstr ""
@@ -18907,44 +18937,51 @@ msgstr ""
 msgid "Could not load vector selection %1."
 msgstr "चयन घोकचाबू"
 
-#: ui/kra/kis_kra_loader.cpp:188
+#: ui/kra/kis_kra_loader.cpp:191
 msgid "Image does not have a name."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:193
+#: ui/kra/kis_kra_loader.cpp:196
 msgid "Image does not specify a width."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:199
+#: ui/kra/kis_kra_loader.cpp:202
 msgid "Image does not specify a height."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:246
+#: ui/kra/kis_kra_loader.cpp:249
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:446
+#: ui/kra/kis_kra_loader.cpp:348
+#, kde-format
+msgctxt ""
+"Auto-generated layer style collection name for embedded styles (collection)"
+msgid "<%1> (embedded)"
+msgstr ""
+
+#: ui/kra/kis_kra_loader.cpp:479
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:469
+#: ui/kra/kis_kra_loader.cpp:502
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:500
+#: ui/kra/kis_kra_loader.cpp:533
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:507
+#: ui/kra/kis_kra_loader.cpp:540
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:603
+#: ui/kra/kis_kra_loader.cpp:648
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -18952,7 +18989,7 @@ msgid ""
 "><nl/>Expected path:<nl/>%2<nl/><nl/>Do you want to locate it manually?"
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:608
+#: ui/kra/kis_kra_loader.cpp:653
 msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
@@ -19719,24 +19756,24 @@ msgstr "प्रारूप"
 msgid "Stroke"
 msgstr "स्ट्रोक"
 
-#. i18n: ectx: property (text), widget (QPushButton, bnNewStyle)
+#. i18n: ectx: property (text), widget (QPushButton, btnNewStyle)
 #: ui/layerstyles/wdglayerstyles.ui:135
-msgid "Ne&w Style ..."
+msgid "Ne&w..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnLoadStyle)
 #: ui/layerstyles/wdglayerstyles.ui:142
 #, fuzzy
-#| msgid "Scales"
-msgid "&Load Style..."
-msgstr "मापक"
+#| msgid "Export"
+msgid "&Import..."
+msgstr "निर्यात"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnSaveStyle)
 #: ui/layerstyles/wdglayerstyles.ui:149
 #, fuzzy
-#| msgid "Scales"
-msgid "&Save Style..."
-msgstr "मापक"
+#| msgid "Export"
+msgid "&Export..."
+msgstr "निर्यात"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPreview)
 #: ui/layerstyles/wdglayerstyles.ui:156
@@ -19957,13 +19994,13 @@ msgstr ""
 msgid "Local selection is locked."
 msgstr "चयन बढाउ"
 
-#: ui/tool/kis_tool_paint.cc:104
+#: ui/tool/kis_tool_paint.cc:105
 #, fuzzy
 #| msgid "Brushes"
 msgid "Increase Brush Size"
 msgstr "ब्रश"
 
-#: ui/tool/kis_tool_paint.cc:110
+#: ui/tool/kis_tool_paint.cc:111
 #, fuzzy
 #| msgid "Brushes"
 msgid "Decrease Brush Size"
@@ -20299,6 +20336,16 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgid "Scales"
+#~ msgid "&Load Style..."
+#~ msgstr "मापक"
+
+#, fuzzy
+#~| msgid "Scales"
+#~ msgid "&Save Style..."
+#~ msgstr "मापक"
 
 #, fuzzy
 #~| msgid "Offset"
