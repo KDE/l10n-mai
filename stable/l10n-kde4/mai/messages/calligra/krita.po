@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-31 05:51+0000\n"
+"POT-Creation-Date: 2015-06-01 05:33+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -198,14 +198,14 @@ msgid "&View"
 msgstr "दृश्य (&V)"
 
 #. i18n: ectx: Menu (view_fast_grid_config)
-#: gemini/kritagemini.rc:60 krita.rc:76 sketch/kritasketch.rc:60
+#: gemini/kritagemini.rc:60 krita.rc:91 sketch/kritasketch.rc:60
 #, fuzzy
 #| msgid "Spacing"
 msgid "Grid Spacing"
 msgstr "अंतरण"
 
 #. i18n: ectx: Menu (Image)
-#: gemini/kritagemini.rc:80 krita.rc:96
+#: gemini/kritagemini.rc:80 krita.rc:111
 #: plugins/extensions/colorspaceconversion/colorspaceconversion.rc:4
 #: plugins/extensions/offsetimage/offsetimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:4
@@ -214,7 +214,7 @@ msgid "&Image"
 msgstr "चित्र (&I)"
 
 #. i18n: ectx: Menu (Layer)
-#: gemini/kritagemini.rc:91 krita.rc:127
+#: gemini/kritagemini.rc:91 krita.rc:142
 #: plugins/extensions/histogram/histogram.rc:4
 #: plugins/extensions/layersplit/layersplit.rc:4 sketch/kritasketch.rc:91
 #, fuzzy
@@ -223,7 +223,7 @@ msgid "&Layer"
 msgstr "स्तर"
 
 #. i18n: ectx: Menu (LayerNew)
-#: gemini/kritagemini.rc:92 krita.rc:129 sketch/kritasketch.rc:92
+#: gemini/kritagemini.rc:92 krita.rc:144 sketch/kritasketch.rc:92
 msgid "New"
 msgstr "नवीन"
 
@@ -236,7 +236,7 @@ msgstr "उनटू"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: gemini/kritagemini.rc:126 krita.rc:194
+#: gemini/kritagemini.rc:126 krita.rc:209
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -247,14 +247,14 @@ msgid "&Select"
 msgstr "चुनू"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:219 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:234 sketch/kritasketch.rc:139
 #, fuzzy
 #| msgid "Filter"
 msgid "Filte&r"
 msgstr "फिल्टर"
 
 #. i18n: ectx: Menu (tools)
-#: gemini/kritagemini.rc:156 krita.rc:239
+#: gemini/kritagemini.rc:156 krita.rc:254
 #: plugins/extensions/bigbrother/bigbrother.rc:4 sketch/kritasketch.rc:156
 msgid "&Tools"
 msgstr "अओजार (&T)"
@@ -268,7 +268,7 @@ msgid "Settings"
 msgstr "जमावट"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:296 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:311 sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
 
@@ -2017,8 +2017,15 @@ msgstr "दीर्घवृत्त"
 msgid "Rectangle"
 msgstr "आयत"
 
+#. i18n: ectx: Menu (Canvas)
+#: krita.rc:62
+#, fuzzy
+#| msgid "Horizontal:"
+msgid "&Canvas"
+msgstr "क्षैतिजः"
+
 #. i18n: ectx: Menu (Rotate)
-#: krita.rc:106 krita.rc:169 plugins/extensions/rotateimage/rotateimage.rc:5
+#: krita.rc:121 krita.rc:184 plugins/extensions/rotateimage/rotateimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:18
 #, fuzzy
 #| msgid "Rotate Layer"
@@ -2026,21 +2033,21 @@ msgid "&Rotate"
 msgstr "परत घुमाबू"
 
 #. i18n: ectx: Menu (LayerImportExport)
-#: krita.rc:137
+#: krita.rc:152
 #, fuzzy
 #| msgid "Export"
 msgid "&Import/Export"
 msgstr "निर्यात"
 
 #. i18n: ectx: Menu (LayerImportAs)
-#: krita.rc:143
+#: krita.rc:158
 #, fuzzy
 #| msgid "Export"
 msgid "Import"
 msgstr "निर्यात"
 
 #. i18n: ectx: Menu (LayerConvert)
-#: krita.rc:151
+#: krita.rc:166
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:515
 #, fuzzy
 #| msgid "Invert"
@@ -2048,7 +2055,7 @@ msgid "&Convert"
 msgstr "उनटू"
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
-#: krita.rc:159
+#: krita.rc:174
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:521
 #, fuzzy
 #| msgid "Color to Alpha"
@@ -2056,31 +2063,31 @@ msgid "S&plit Alpha"
 msgstr "अल्फामे रंग"
 
 #. i18n: ectx: Menu (Recording)
-#: krita.rc:241 plugins/extensions/bigbrother/bigbrother.rc:5
+#: krita.rc:256 plugins/extensions/bigbrother/bigbrother.rc:5
 msgid "Recording"
 msgstr "रिकॉर्ड कए रहल अछि"
 
 #. i18n: ectx: Menu (Macros)
-#: krita.rc:246 plugins/extensions/bigbrother/bigbrother.rc:9
+#: krita.rc:261 plugins/extensions/bigbrother/bigbrother.rc:9
 msgid "Macros"
 msgstr "मेक्रोज़"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:252
+#: krita.rc:267
 #, fuzzy
 #| msgid "Settings"
 msgid "Setti&ngs"
 msgstr "जमावट"
 
 #. i18n: ectx: Menu (help)
-#: krita.rc:273
+#: krita.rc:288
 #, fuzzy
 #| msgid "&Hide"
 msgid "&Help"
 msgstr "नुकाबू (&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: krita.rc:287 ui/kis_file_layer.cpp:91
+#: krita.rc:302 ui/kis_file_layer.cpp:91
 #, fuzzy
 #| msgid "&Filter:"
 msgid "File"
