@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-15 08:31+0000\n"
+"POT-Creation-Date: 2015-06-16 12:03+0000\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -182,16 +182,12 @@ msgstr ""
 msgid "Delete current list"
 msgstr ""
 
-#: adblock/adblocksettingwidget.cpp:404
+#: adblock/adblocksettingwidget.cpp:404 adblock/adblocksettingwidget.cpp:437
 msgid "All Files (*)"
 msgstr ""
 
 #: adblock/adblocksettingwidget.cpp:405
 msgid "Import Filters"
-msgstr ""
-
-#: adblock/adblocksettingwidget.cpp:437
-msgid "all files (*)"
 msgstr ""
 
 #: adblock/adblocksettingwidget.cpp:447
@@ -1313,85 +1309,85 @@ msgstr ""
 msgid "Headers:"
 msgstr ""
 
-#: utils/util.cpp:81
+#: utils/util.cpp:82
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: utils/util.cpp:83
+#: utils/util.cpp:84
 msgid "Overwrite File?"
 msgstr "फाइल केर उप्पर लिखू?"
 
-#: utils/util.cpp:196
+#: utils/util.cpp:197
 msgid "Save Attachments To"
 msgstr ""
 
-#: utils/util.cpp:210
+#: utils/util.cpp:211
 msgctxt "filename for an unnamed attachment"
 msgid "attachment.1"
 msgstr ""
 
-#: utils/util.cpp:217
+#: utils/util.cpp:218
 msgid "Save Attachment"
 msgstr "संलग्नक सहेजू"
 
-#: utils/util.cpp:237
+#: utils/util.cpp:238
 #, kde-format
 msgctxt "filename for the %1-th unnamed attachment"
 msgid "attachment.%1"
 msgstr ""
 
-#: utils/util.cpp:319
+#: utils/util.cpp:320
 #, kde-format
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr ""
 
-#: utils/util.cpp:321 utils/util.cpp:331
+#: utils/util.cpp:322 utils/util.cpp:332
 msgid "KMail Question"
 msgstr ""
 
-#: utils/util.cpp:321
+#: utils/util.cpp:322
 msgid "Keep Encryption"
 msgstr ""
 
-#: utils/util.cpp:321 utils/util.cpp:331
+#: utils/util.cpp:322 utils/util.cpp:332
 msgid "Do Not Keep"
 msgstr ""
 
-#: utils/util.cpp:329
+#: utils/util.cpp:330
 #, kde-format
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr ""
 
-#: utils/util.cpp:331
+#: utils/util.cpp:332
 msgid "Keep Signature"
 msgstr ""
 
-#: utils/util.cpp:381 utils/util.cpp:405 utils/util.cpp:421
+#: utils/util.cpp:382 utils/util.cpp:406 utils/util.cpp:422
 #, kde-format
 msgctxt "1 = file name, 2 = error string"
 msgid "<qt>Could not write to the file<br><filename>%1</filename><br><br>%2"
 msgstr ""
 
-#: utils/util.cpp:384 utils/util.cpp:408 utils/util.cpp:424
+#: utils/util.cpp:385 utils/util.cpp:409 utils/util.cpp:425
 msgid "Error saving attachment"
 msgstr ""
 
-#: utils/util.cpp:451
+#: utils/util.cpp:452
 msgid "Found no attachments to save."
 msgstr ""
 
-#: utils/util.cpp:470
+#: utils/util.cpp:471
 msgid "message"
 msgstr ""
 
-#: utils/util.cpp:477
+#: utils/util.cpp:478
 msgid "email messages (*.mbox);;all files (*)"
 msgstr ""
 
@@ -1401,41 +1397,37 @@ msgid_plural "Save Messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/util.cpp:505
+#: utils/util.cpp:506
 #, kde-format
 msgid "File %1 could not be loaded."
 msgstr ""
 
-#: utils/util.cpp:505
+#: utils/util.cpp:506
 msgid "Error loading message"
 msgstr ""
 
-#: utils/util.cpp:507
+#: utils/util.cpp:508
 #, kde-format
 msgid "File %1 could not be created."
 msgstr ""
 
-#: utils/util.cpp:507 utils/util.cpp:519
+#: utils/util.cpp:508 utils/util.cpp:520
 msgid "Error saving message"
 msgstr ""
 
-#: utils/util.cpp:519
+#: utils/util.cpp:520
 #, fuzzy
 #| msgid "Save As..."
 msgid "We cannot save message."
 msgstr "एहन सहेजू..."
 
-#: utils/util.cpp:539
-msgid "Starting Jovie Text-to-Speech Service Failed"
-msgstr ""
-
-#: utils/util.cpp:553
+#: utils/util.cpp:541
 #, fuzzy, kde-format
 #| msgid "&Open with '%1'"
 msgid "Open &with %1"
 msgstr " '%1' केर सँग खोलू (&O)"
 
-#: utils/util.cpp:555
+#: utils/util.cpp:543
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
@@ -1996,7 +1988,7 @@ msgstr "लिंक पता नकल करू"
 msgid "&Copy Email Address"
 msgstr "इ-मेल पता नकल करू"
 
-#: viewer/urlhandlermanager.cpp:802 viewer/viewer_p.cpp:2897
+#: viewer/urlhandlermanager.cpp:802 viewer/viewer_p.cpp:2898
 msgid "Address copied to clipboard."
 msgstr ""
 
@@ -2437,32 +2429,32 @@ msgstr ""
 msgid "Attachments:"
 msgstr "संलग्नकः"
 
-#: viewer/viewer_p.cpp:2902
+#: viewer/viewer_p.cpp:2903
 msgid "URL copied to clipboard."
 msgstr ""
 
-#: viewer/viewer_p.cpp:3070
+#: viewer/viewer_p.cpp:3071
 msgid "Hide full address list"
 msgstr ""
 
-#: viewer/viewer_p.cpp:3074
+#: viewer/viewer_p.cpp:3075
 msgid "Show full address list"
 msgstr ""
 
-#: viewer/viewer_p.cpp:3096
+#: viewer/viewer_p.cpp:3097
 #, kde-format
 msgid "Message loading failed: %1."
 msgstr ""
 
-#: viewer/viewer_p.cpp:3101
+#: viewer/viewer_p.cpp:3102
 msgid "Message not found."
 msgstr ""
 
-#: viewer/viewer_p.cpp:3230
+#: viewer/viewer_p.cpp:3231
 msgid "Caret Browsing will be activated. Switch off with F7 shortcut."
 msgstr ""
 
-#: viewer/viewer_p.cpp:3231
+#: viewer/viewer_p.cpp:3232
 msgid "Activate Caret Browsing"
 msgstr ""
 
