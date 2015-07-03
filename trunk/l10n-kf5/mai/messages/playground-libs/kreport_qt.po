@@ -20,6 +20,20 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
+#: common/KoReportItemBase.cpp:28
+#, fuzzy
+#| msgid "Name:"
+msgctxt "KoReportItemBase|"
+msgid "Name"
+msgstr "नाम:"
+
+#: common/KoReportItemBase.cpp:28
+#, fuzzy
+#| msgid "Subject:"
+msgctxt "KoReportItemBase|"
+msgid "Object Name"
+msgstr "विषय:"
+
 #: common/KoReportItemLine.cpp:75
 #, fuzzy
 #| msgid "Lighten"
@@ -203,6 +217,70 @@ msgctxt "Page size|"
 msgid "US Tabloid"
 msgstr ""
 
+#: common/KReportUnit.cpp:47
+#, fuzzy
+#| msgid "Millimeters (mm)"
+msgctxt "KReportUnit|"
+msgid "Millimeters (mm)"
+msgstr "मिललमीटर्स (मिमी)"
+
+#: common/KReportUnit.cpp:49
+#, fuzzy
+#| msgid "Centimeters (cm)"
+msgctxt "KReportUnit|"
+msgid "Centimeters (cm)"
+msgstr "सेन्टीमीटर (सेमी)"
+
+#: common/KReportUnit.cpp:51
+#, fuzzy
+#| msgid "Centimeters (cm)"
+msgctxt "KReportUnit|"
+msgid "Decimeters (dm)"
+msgstr "सेन्टीमीटर (सेमी)"
+
+#: common/KReportUnit.cpp:53
+#, fuzzy
+#| msgid "Inches (in)"
+msgctxt "KReportUnit|"
+msgid "Inches (in)"
+msgstr "इंच (in)"
+
+#: common/KReportUnit.cpp:55
+msgctxt "KReportUnit|"
+msgid "Pica (pi)"
+msgstr ""
+
+#: common/KReportUnit.cpp:57
+msgctxt "KReportUnit|"
+msgid "Cicero (cc)"
+msgstr ""
+
+#: common/KReportUnit.cpp:59
+#, fuzzy
+#| msgid "Points (pt)"
+msgctxt "KReportUnit|"
+msgid "Points (pt)"
+msgstr "Points (pt)"
+
+#: common/KReportUnit.cpp:61
+#, fuzzy
+#| msgid "Points (pt)"
+msgctxt "KReportUnit|"
+msgid "Pixels (px)"
+msgstr "Points (pt)"
+
+#: common/KReportUnit.cpp:63
+msgctxt "KReportUnit|"
+msgid "Unsupported unit"
+msgstr ""
+
+#: common/krpos.cpp:29
+#, fuzzy
+#| msgid "Position:"
+msgctxt "KRPos|"
+msgid "Position"
+msgstr "स्थिति: "
+
 #: common/krsectiondata.cpp:109
 #, fuzzy
 #| msgid "Height:"
@@ -216,6 +294,13 @@ msgstr "उँचाइ:"
 msgctxt "KRSectionData|"
 msgid "Background Color"
 msgstr "दस्ताबेज जानकारी"
+
+#: common/krsize.cpp:28
+#, fuzzy
+#| msgid "Size:"
+msgctxt "KRSize|"
+msgid "Size"
+msgstr "आकार:"
 
 #: items/check/KoReportItemCheck.cpp:81
 #, fuzzy
@@ -414,6 +499,147 @@ msgstr ""
 msgctxt "KoReportItemField|"
 msgid "Can Grow"
 msgstr ""
+
+#: items/image/KoReportItemImage.cpp:122
+#, fuzzy
+#| msgid "Delete"
+msgctxt "KoReportItemImage|"
+msgid "Data Source"
+msgstr "मेटाबू"
+
+#: items/image/KoReportItemImage.cpp:126
+msgctxt "KoReportItemImage|"
+msgid "Clip"
+msgstr ""
+
+#: items/image/KoReportItemImage.cpp:126
+#, fuzzy
+#| msgid "Street:"
+msgctxt "KoReportItemImage|"
+msgid "Stretch"
+msgstr "सड़कः"
+
+#: items/image/KoReportItemImage.cpp:127
+msgctxt "KoReportItemImage|"
+msgid "Resize Mode"
+msgstr ""
+
+#: items/image/KoReportItemImage.cpp:129
+#, fuzzy
+#| msgid "Value"
+msgctxt "KoReportItemImage|"
+msgid "Value"
+msgstr "मान"
+
+#: items/image/KoReportItemImage.cpp:129
+msgctxt "KoReportItemImage|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#: items/label/KoReportItemLabel.cpp:93
+#, fuzzy
+#| msgid "Position"
+msgctxt "KoReportItemLabel|"
+msgid "Caption"
+msgstr "स्थिति"
+
+#: items/label/KoReportItemLabel.cpp:97
+#, fuzzy
+#| msgid "&Left:"
+msgctxt "KoReportItemLabel|"
+msgid "Left"
+msgstr "बम्माँ (&L):"
+
+#: items/label/KoReportItemLabel.cpp:97 items/label/KoReportItemLabel.cpp:103
+#, fuzzy
+#| msgid "Comment"
+msgctxt "KoReportItemLabel|"
+msgid "Center"
+msgstr "टिप्पणी"
+
+#: items/label/KoReportItemLabel.cpp:97
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "KoReportItemLabel|"
+msgid "Right"
+msgstr "हलुक करू"
+
+#: items/label/KoReportItemLabel.cpp:98
+#, fuzzy
+#| msgid "Horizontal"
+msgctxt "KoReportItemLabel|"
+msgid "Horizontal Alignment"
+msgstr "क्षैतिज"
+
+#: items/label/KoReportItemLabel.cpp:103
+#, fuzzy
+#| msgid "Top:"
+msgctxt "KoReportItemLabel|"
+msgid "Top"
+msgstr "शीर्ष:"
+
+#: items/label/KoReportItemLabel.cpp:103
+#, fuzzy
+#| msgid "Bottom:"
+msgctxt "KoReportItemLabel|"
+msgid "Bottom"
+msgstr "नीच्चाँ:"
+
+#: items/label/KoReportItemLabel.cpp:104
+#, fuzzy
+#| msgid "Horizontal"
+msgctxt "KoReportItemLabel|"
+msgid "Vertical Alignment"
+msgstr "क्षैतिज"
+
+#: items/label/KoReportItemLabel.cpp:106
+#, fuzzy
+#| msgid "Format"
+msgctxt "KoReportItemLabel|"
+msgid "Font"
+msgstr "प्रारूप"
+
+#: items/label/KoReportItemLabel.cpp:108
+#, fuzzy
+#| msgid "Document Information"
+msgctxt "KoReportItemLabel|"
+msgid "Background Color"
+msgstr "दस्ताबेज जानकारी"
+
+#: items/label/KoReportItemLabel.cpp:109
+#, fuzzy
+#| msgid "Document Information"
+msgctxt "KoReportItemLabel|"
+msgid "Foreground Color"
+msgstr "दस्ताबेज जानकारी"
+
+#: items/label/KoReportItemLabel.cpp:111
+#, fuzzy
+#| msgid "Document Information"
+msgctxt "KoReportItemLabel|"
+msgid "Background Opacity"
+msgstr "दस्ताबेज जानकारी"
+
+#: items/label/KoReportItemLabel.cpp:116
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "KoReportItemLabel|"
+msgid "Line Weight"
+msgstr "हलुक करू"
+
+#: items/label/KoReportItemLabel.cpp:117
+#, fuzzy
+#| msgid "Color"
+msgctxt "KoReportItemLabel|"
+msgid "Line Color"
+msgstr "रंग"
+
+#: items/label/KoReportItemLabel.cpp:118
+#, fuzzy
+#| msgid "Insert Break"
+msgctxt "KoReportItemLabel|"
+msgid "Line Style"
+msgstr "खण्डन जोडू"
 
 #: items/text/KoReportItemText.cpp:116
 #, fuzzy
@@ -815,45 +1041,118 @@ msgctxt "KoReportDesigner|"
 msgid "Lower"
 msgstr ""
 
-#: wrtembed/sectioneditor.cpp:67
+#: wrtembed/KReportRuler.cpp:1263
+#, fuzzy
+#| msgid "First line indent"
+msgctxt "KReportRuler|"
+msgid "First line indent"
+msgstr "पहिला रेखा हाशिया"
+
+#: wrtembed/KReportRuler.cpp:1264
+#, fuzzy
+#| msgid "&Left:"
+msgctxt "KReportRuler|"
+msgid "Left indent"
+msgstr "बम्माँ (&L):"
+
+#: wrtembed/KReportRuler.cpp:1265
+#, fuzzy
+#| msgid "Lighten"
+msgctxt "KReportRuler|"
+msgid "Right indent"
+msgstr "हलुक करू"
+
+#: wrtembed/KReportZoomMode.cpp:27
+#, fuzzy, qt-format
+#| msgid "%1%"
+msgctxt "KReportZoomMode|"
+msgid "%1%"
+msgstr "%1%"
+
+#: wrtembed/KReportZoomMode.cpp:28
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Page Width"
+msgstr "पृष्ठ चओड़ाइसँ फिट करू"
+
+#: wrtembed/KReportZoomMode.cpp:29
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Page"
+msgstr "पृष्ठ चओड़ाइसँ फिट करू"
+
+#: wrtembed/KReportZoomMode.cpp:31
+msgctxt "KReportZoomMode|"
+msgid "Actual Pixels"
+msgstr ""
+
+#: wrtembed/KReportZoomMode.cpp:35
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Text Width"
+msgstr "पृष्ठ चओड़ाइसँ फिट करू"
+
+#: wrtembed/reportpropertiesbutton.cpp:26
+msgctxt "ReportPropertiesButton|"
+msgid "Select entire report"
+msgstr ""
+
+#: wrtembed/reportpropertiesbutton.cpp:27
+msgctxt "ReportPropertiesButton|"
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
+msgstr ""
+
+#: wrtembed/reportsection.cpp:122
+#, fuzzy
+#| msgid "Detailed View"
+msgctxt "ReportSection|"
+msgid "Detail"
+msgstr "विस्तृत दृश्य "
+
+#: wrtembed/sectioneditor.cpp:68
 msgctxt "SectionEditor|"
 msgid "Add..."
 msgstr ""
 
-#: wrtembed/sectioneditor.cpp:69
+#: wrtembed/sectioneditor.cpp:70
 #, fuzzy
 #| msgid "Add..."
 msgctxt "SectionEditor|"
 msgid "Edit..."
 msgstr "जोडू..."
 
-#: wrtembed/sectioneditor.cpp:71
+#: wrtembed/sectioneditor.cpp:72
 #, fuzzy
 #| msgid "Delete"
 msgctxt "SectionEditor|"
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: wrtembed/sectioneditor.cpp:73
+#: wrtembed/sectioneditor.cpp:74
 #, fuzzy
 #| msgid "Copy Page"
 msgctxt "SectionEditor|"
 msgid "Move Up"
 msgstr "कोपी करू पृष्ठ"
 
-#: wrtembed/sectioneditor.cpp:75
+#: wrtembed/sectioneditor.cpp:76
 #, fuzzy
 #| msgid "Copy Page"
 msgctxt "SectionEditor|"
 msgid "Move Down"
 msgstr "कोपी करू पृष्ठ"
 
-#: wrtembed/sectioneditor.cpp:314
+#: wrtembed/sectioneditor.cpp:315
 msgctxt "SectionEditor|"
 msgid "Ascending"
 msgstr ""
 
-#: wrtembed/sectioneditor.cpp:315
+#: wrtembed/sectioneditor.cpp:316
 msgctxt "SectionEditor|"
 msgid "Descending"
 msgstr ""
@@ -1491,39 +1790,9 @@ msgstr "स्थिति"
 #~ msgstr "पृष्ठ %1"
 
 #, fuzzy
-#~| msgid "Name:"
-#~ msgid "Name"
-#~ msgstr "नाम:"
-
-#, fuzzy
-#~| msgid "Subject:"
-#~ msgid "Object Name"
-#~ msgstr "विषय:"
-
-#, fuzzy
-#~| msgid "Position:"
-#~ msgid "Position"
-#~ msgstr "स्थिति: "
-
-#, fuzzy
-#~| msgid "Size:"
-#~ msgid "Size"
-#~ msgstr "आकार:"
-
-#, fuzzy
 #~| msgid "File"
 #~ msgid "Field"
 #~ msgstr "फाइल"
-
-#, fuzzy
-#~| msgid "Street:"
-#~ msgid "Stretch"
-#~ msgstr "सड़कः"
-
-#, fuzzy
-#~| msgid "Position"
-#~ msgid "Caption"
-#~ msgstr "स्थिति"
 
 #, fuzzy
 #~| msgid "Layer"
@@ -1535,11 +1804,6 @@ msgstr "स्थिति"
 #~ msgctxt "<data-source>: <object>"
 #~ msgid "%1: %2"
 #~ msgstr "%1%"
-
-#, fuzzy
-#~| msgid "Detailed View"
-#~ msgid "Detail"
-#~ msgstr "विस्तृत दृश्य "
 
 #, fuzzy
 #~| msgid "Change"
@@ -2114,18 +2378,6 @@ msgstr "स्थिति"
 #~ msgctxt "Page size"
 #~ msgid "Screen"
 #~ msgstr "स्क्रीन"
-
-#~ msgid "Millimeters (mm)"
-#~ msgstr "मिललमीटर्स (मिमी)"
-
-#~ msgid "Centimeters (cm)"
-#~ msgstr "सेन्टीमीटर (सेमी)"
-
-#~ msgid "Inches (in)"
-#~ msgstr "इंच (in)"
-
-#~ msgid "Points (pt)"
-#~ msgstr "Points (pt)"
 
 #~ msgid "Clear"
 #~ msgstr "खाली"
@@ -2786,16 +3038,6 @@ msgstr "स्थिति"
 #~ msgid "Bottom side"
 #~ msgstr "नीच्चाँ:"
 
-#, fuzzy
-#~| msgid "&Left:"
-#~ msgid "Left side"
-#~ msgstr "बम्माँ (&L):"
-
-#, fuzzy
-#~| msgid "Lighten"
-#~ msgid "Right side"
-#~ msgstr "हलुक करू"
-
 #~ msgid "Unit:"
 #~ msgstr "एकाइः"
 
@@ -2867,9 +3109,6 @@ msgstr "स्थिति"
 #~ msgid "Remove from this tag"
 #~ msgstr "समूह मेटाबू"
 
-#~ msgid "First line indent"
-#~ msgstr "पहिला रेखा हाशिया"
-
 #, fuzzy
 #~| msgid "Delimiter"
 #~ msgid "Miter limit"
@@ -2892,17 +3131,6 @@ msgstr "स्थिति"
 
 #~ msgid "Tool Options"
 #~ msgstr "अओजार विकल्प"
-
-#~ msgid "%1%"
-#~ msgstr "%1%"
-
-#~ msgid "Fit Page Width"
-#~ msgstr "पृष्ठ चओड़ाइसँ फिट करू"
-
-#, fuzzy
-#~| msgid "Fit Page Width"
-#~ msgid "Fit Text Width"
-#~ msgstr "पृष्ठ चओड़ाइसँ फिट करू"
 
 #, fuzzy
 #~| msgid "%1%"
