@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-14 09:16+0000\n"
+"POT-Creation-Date: 2015-07-15 05:37+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -73,7 +73,7 @@ msgstr ""
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:232 ui/input/kis_input_manager.cpp:545
 #: ui/kis_filter_manager.cc:218 ui/kis_filter_manager.cc:227
-#: ui/kis_layer_manager.cc:660 ui/kis_layer_manager.cc:911
+#: ui/kis_layer_manager.cc:660 ui/kis_layer_manager.cc:916
 #: ui/KisApplication.cpp:215 ui/KisApplication.cpp:218
 #: ui/KisApplication.cpp:243 ui/KisApplication.cpp:269
 #: ui/KisApplication.cpp:291 ui/KisDocument.cpp:742 ui/KisDocument.cpp:744
@@ -1445,7 +1445,7 @@ msgctxt "(qtundo-format)"
 msgid "Reselect"
 msgstr "अचयनित"
 
-#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:431
+#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:433
 #, fuzzy
 #| msgid "Resize Image"
 msgctxt "(qtundo-format)"
@@ -1631,119 +1631,132 @@ msgstr ""
 msgid "Mitchell"
 msgstr "मिट्चेल"
 
-#: image/kis_image.cc:332
+#: image/kis_image.cc:334
 msgid "background"
 msgstr ""
 
-#: image/kis_image.cc:335
+#: image/kis_image.cc:337
 #, kde-format
 msgid "Layer %1"
 msgstr ""
 
-#: image/kis_image.cc:430
+#: image/kis_image.cc:432
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "चित्र काटू"
 
-#: image/kis_image.cc:472
+#: image/kis_image.cc:474
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "परत जोड़ू"
 
-#: image/kis_image.cc:473
+#: image/kis_image.cc:475
 #, fuzzy
 #| msgid "Unsharp Mask"
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "मुखौटा भोथड़ करू"
 
-#: image/kis_image.cc:505
+#: image/kis_image.cc:507
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "परत मापू"
 
-#: image/kis_image.cc:506
+#: image/kis_image.cc:508
 #, fuzzy
 #| msgid "Resolution:"
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "रिसॉल्यूशन:"
 
-#: image/kis_image.cc:553
+#: image/kis_image.cc:555
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "परत मापू"
 
-#: image/kis_image.cc:641
+#: image/kis_image.cc:643
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "परत घुमाबू"
 
-#: image/kis_image.cc:646
+#: image/kis_image.cc:648
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "परत घुमाबू"
 
-#: image/kis_image.cc:713
+#: image/kis_image.cc:715
 #, fuzzy
 #| msgid "Scale factor"
 msgctxt "(qtundo-format)"
 msgid "Shear layer"
 msgstr "कारक मापू"
 
-#: image/kis_image.cc:719
+#: image/kis_image.cc:721
 #, fuzzy
 #| msgid "Scale Image"
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "चित्र मापू"
 
-#: image/kis_image.cc:731
+#: image/kis_image.cc:733
 #, fuzzy
 #| msgid "Colorspace"
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "रँग स्पेस"
 
-#: image/kis_image.cc:764
+#: image/kis_image.cc:766
 #, fuzzy
 #| msgid "Colorspace"
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "रँग स्पेस"
 
-#: image/kis_image.cc:943
+#: image/kis_image.cc:945
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr "चित्र चपटा करू"
 
-#: image/kis_image.cc:985
+#: image/kis_image.cc:1043
+#, fuzzy
+#| msgid "Crop Image"
+msgid "Merged"
+msgstr "चित्र काटू"
+
+#: image/kis_image.cc:1054
+#, fuzzy
+#| msgid "Grow Selection"
+msgctxt "(qtundo-format)"
+msgid "Merge Selected Nodes"
+msgstr "चयन बढाउ"
+
+#: image/kis_image.cc:1114
 msgctxt "(qtundo-format)"
 msgid "Merge with Layer Below"
 msgstr ""
 
-#: image/kis_image.cc:1051
+#: image/kis_image.cc:1180
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "चित्र चपटा करू"
 
-#: image/kis_image.cc:1628
+#: image/kis_image.cc:1757
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
@@ -1875,7 +1888,7 @@ msgid "Updating..."
 msgstr ""
 
 #: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
-#: image/layerstyles/kis_ls_stroke_filter.cpp:50
+#: image/layerstyles/kis_ls_stroke_filter.cpp:49
 msgid "Stroke (style)"
 msgstr ""
 
@@ -1885,13 +1898,13 @@ msgstr ""
 msgid "Drop Shadow (style)"
 msgstr "छाया देखाबू"
 
-#: image/layerstyles/kis_ls_overlay_filter.cpp:50
+#: image/layerstyles/kis_ls_overlay_filter.cpp:49
 #, fuzzy
 #| msgid "Deform Mode"
 msgid "Overlay (style)"
 msgstr "मोड विरूपित करू"
 
-#: image/layerstyles/kis_ls_satin_filter.cpp:46
+#: image/layerstyles/kis_ls_satin_filter.cpp:45
 #, fuzzy
 #| msgid "Saturation"
 msgid "Satin (style)"
@@ -6551,7 +6564,7 @@ msgstr ""
 msgid "Circle"
 msgstr "वृत्त"
 
-#: plugins/filters/colors/kis_color_to_alpha.cpp:38
+#: plugins/filters/colors/kis_color_to_alpha.cpp:39
 msgid "&Color to Alpha..."
 msgstr ""
 
@@ -12737,7 +12750,7 @@ msgstr "जमावट"
 msgid "Canvas Input"
 msgstr "क्षैतिजः"
 
-#: ui/flake/kis_shape_controller.cpp:178
+#: ui/flake/kis_shape_controller.cpp:177
 #, kde-format
 msgid "Vector Layer %1"
 msgstr ""
@@ -17716,22 +17729,22 @@ msgid ""
 "the image?"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:815
+#: ui/kis_layer_manager.cc:820
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:851
+#: ui/kis_layer_manager.cc:856
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:854
+#: ui/kis_layer_manager.cc:859
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:911
+#: ui/kis_layer_manager.cc:916
 msgid "No file name specified"
 msgstr ""
 
@@ -17803,244 +17816,225 @@ msgstr "फिल्टर: (&F)"
 msgid "Mirror View"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:175
-#, fuzzy
-#| msgid "Scale Layer"
-msgid "&Merge Selected Layers"
-msgstr "परत मापू"
-
-#: ui/kis_node_manager.cpp:251
+#: ui/kis_node_manager.cpp:242
 #, fuzzy
 #| msgid "Horizontal:"
 msgid "Mirror Layer Horizontally"
 msgstr "क्षैतिजः"
 
-#: ui/kis_node_manager.cpp:257
+#: ui/kis_node_manager.cpp:248
 #, fuzzy
 #| msgid "Vertical:"
 msgid "Mirror Layer Vertically"
 msgstr "उर्ध्वाधर"
 
-#: ui/kis_node_manager.cpp:263
+#: ui/kis_node_manager.cpp:254
 #, fuzzy
 #| msgid "Duplicate"
 msgid "Activate next layer"
 msgstr "नकल"
 
-#: ui/kis_node_manager.cpp:269
+#: ui/kis_node_manager.cpp:260
 msgid "Activate previous layer"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:275
+#: ui/kis_node_manager.cpp:266
 #, fuzzy
 #| msgid "Add Layer"
 msgid "Save Layer/Mask..."
 msgstr "परत जोड़ू"
 
-#: ui/kis_node_manager.cpp:280
+#: ui/kis_node_manager.cpp:271
 msgid "&Duplicate Layer or Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:287
+#: ui/kis_node_manager.cpp:278
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "&Paint Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_node_manager.cpp:291
+#: ui/kis_node_manager.cpp:282
 #, fuzzy
 #| msgid "Add Layer"
 msgid "&Group Layer"
 msgstr "परत जोड़ू"
 
-#: ui/kis_node_manager.cpp:295
+#: ui/kis_node_manager.cpp:286
 #, fuzzy
 #| msgid "Add Layer"
 msgid "&Clone Layer"
 msgstr "परत जोड़ू"
 
-#: ui/kis_node_manager.cpp:298
+#: ui/kis_node_manager.cpp:289
 #, fuzzy
 #| msgid "New Layer"
 msgid "&Vector Layer"
 msgstr "नइ परत"
 
-#: ui/kis_node_manager.cpp:301
+#: ui/kis_node_manager.cpp:292
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&Filter Layer..."
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_node_manager.cpp:304
+#: ui/kis_node_manager.cpp:295
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&Fill Layer..."
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_node_manager.cpp:307
+#: ui/kis_node_manager.cpp:298
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&File Layer..."
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_node_manager.cpp:310
+#: ui/kis_node_manager.cpp:301
 #, fuzzy
 #| msgid "Transparent"
 msgid "&Transparency Mask"
 msgstr "पारदर्शी"
 
-#: ui/kis_node_manager.cpp:313
+#: ui/kis_node_manager.cpp:304
 #, fuzzy
 #| msgid "&Filter:"
 msgid "&Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
-#: ui/kis_node_manager.cpp:316
+#: ui/kis_node_manager.cpp:307
 #, fuzzy
 #| msgid "Transform"
 msgid "&Transform Mask..."
 msgstr "रूपांतरित करू"
 
-#: ui/kis_node_manager.cpp:319
+#: ui/kis_node_manager.cpp:310
 #, fuzzy
 #| msgid "Grow Selection"
 msgid "&Local Selection"
 msgstr "चयन बढाउ"
 
-#: ui/kis_node_manager.cpp:325
+#: ui/kis_node_manager.cpp:316
 #, fuzzy
 #| msgid "Rotate Layer"
 msgid "to &Paint Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_node_manager.cpp:328
+#: ui/kis_node_manager.cpp:319
 #, fuzzy
 #| msgid "Selection"
 msgid "to &Selection Mask"
 msgstr "चुनाव"
 
-#: ui/kis_node_manager.cpp:331
+#: ui/kis_node_manager.cpp:322
 #, fuzzy
 #| msgid "&Filter:"
 msgid "to &Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
-#: ui/kis_node_manager.cpp:334
+#: ui/kis_node_manager.cpp:325
 #, fuzzy
 #| msgid "Transparent"
 msgid "to &Transparency Mask"
 msgstr "पारदर्शी"
 
-#: ui/kis_node_manager.cpp:340
+#: ui/kis_node_manager.cpp:331
 #, fuzzy
 #| msgid "Flatten Image"
 msgid "&Isolate Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_node_manager.cpp:346
+#: ui/kis_node_manager.cpp:337
 #, fuzzy
 #| msgid "Options"
 msgid "Alpha into Mask"
 msgstr "विकल्प"
 
-#: ui/kis_node_manager.cpp:352
+#: ui/kis_node_manager.cpp:343
 #, fuzzy
 #| msgid "Color to Alpha"
 msgid "Write as Alpha"
 msgstr "अल्फामे रंग"
 
-#: ui/kis_node_manager.cpp:358
+#: ui/kis_node_manager.cpp:349
 #, fuzzy
 #| msgid "Scales"
 msgid "Save Merged..."
 msgstr "मापक"
 
-#: ui/kis_node_manager.cpp:549
+#: ui/kis_node_manager.cpp:540
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "चयन बढाउ"
 
-#: ui/kis_node_manager.cpp:804
+#: ui/kis_node_manager.cpp:795
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "परत हटाबू"
 
-#: ui/kis_node_manager.cpp:818
+#: ui/kis_node_manager.cpp:809
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:846
+#: ui/kis_node_manager.cpp:837
 #, fuzzy
 #| msgid "Vertical:"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "उर्ध्वाधर"
 
-#: ui/kis_node_manager.cpp:848
+#: ui/kis_node_manager.cpp:839
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:859
+#: ui/kis_node_manager.cpp:850
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:861
+#: ui/kis_node_manager.cpp:852
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:960
-#, fuzzy
-#| msgid "Crop Image"
-msgid "Merged"
-msgstr "चित्र काटू"
-
-#: ui/kis_node_manager.cpp:963
-#, fuzzy
-#| msgid "Grow Selection"
-msgctxt "(qtundo-format)"
-msgid "Merge Selected Nodes"
-msgstr "चयन बढाउ"
-
-#: ui/kis_node_manager.cpp:1063
+#: ui/kis_node_manager.cpp:971
 #, fuzzy, kde-format
 #| msgid "Export"
 msgid "Export \"%1\""
 msgstr "निर्यात"
 
-#: ui/kis_node_manager.cpp:1136
+#: ui/kis_node_manager.cpp:1044
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1166
+#: ui/kis_node_manager.cpp:1074
 #, fuzzy, kde-format
 #| msgid "Layer Size"
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "परत आकार"
 
-#: ui/kis_node_manager.cpp:1167
+#: ui/kis_node_manager.cpp:1075
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1198
+#: ui/kis_node_manager.cpp:1106
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
@@ -20890,6 +20884,11 @@ msgstr "रँग स्पेस"
 #| msgid "Colorspace"
 msgid "Workspace %1"
 msgstr "रँग स्पेस"
+
+#, fuzzy
+#~| msgid "Scale Layer"
+#~ msgid "&Merge Selected Layers"
+#~ msgstr "परत मापू"
 
 #, fuzzy
 #~| msgid "Profile"
