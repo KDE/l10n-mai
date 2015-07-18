@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-15 05:37+0000\n"
+"POT-Creation-Date: 2015-07-18 05:49+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -73,7 +73,7 @@ msgstr ""
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:232 ui/input/kis_input_manager.cpp:545
 #: ui/kis_filter_manager.cc:218 ui/kis_filter_manager.cc:227
-#: ui/kis_layer_manager.cc:660 ui/kis_layer_manager.cc:916
+#: ui/kis_layer_manager.cc:673 ui/kis_layer_manager.cc:929
 #: ui/KisApplication.cpp:215 ui/KisApplication.cpp:218
 #: ui/KisApplication.cpp:243 ui/KisApplication.cpp:269
 #: ui/KisApplication.cpp:291 ui/KisDocument.cpp:742 ui/KisDocument.cpp:744
@@ -215,7 +215,7 @@ msgid "&Image"
 msgstr "चित्र (&I)"
 
 #. i18n: ectx: Menu (Layer)
-#: gemini/kritagemini.rc:91 krita.rc:146
+#: gemini/kritagemini.rc:91 krita.rc:147
 #: plugins/extensions/histogram/histogram.rc:4
 #: plugins/extensions/layersplit/layersplit.rc:4 sketch/kritasketch.rc:91
 #, fuzzy
@@ -224,7 +224,7 @@ msgid "&Layer"
 msgstr "स्तर"
 
 #. i18n: ectx: Menu (LayerNew)
-#: gemini/kritagemini.rc:92 krita.rc:148 sketch/kritasketch.rc:92
+#: gemini/kritagemini.rc:92 krita.rc:149 sketch/kritasketch.rc:92
 msgid "New"
 msgstr "नवीन"
 
@@ -237,7 +237,7 @@ msgstr "उनटू"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: gemini/kritagemini.rc:126 krita.rc:213
+#: gemini/kritagemini.rc:126 krita.rc:214
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -248,14 +248,14 @@ msgid "&Select"
 msgstr "चुनू"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:238 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:239 sketch/kritasketch.rc:139
 #, fuzzy
 #| msgid "Filter"
 msgid "Filte&r"
 msgstr "फिल्टर"
 
 #. i18n: ectx: Menu (tools)
-#: gemini/kritagemini.rc:156 krita.rc:258
+#: gemini/kritagemini.rc:156 krita.rc:259
 #: plugins/extensions/bigbrother/bigbrother.rc:4 sketch/kritasketch.rc:156
 msgid "&Tools"
 msgstr "अओजार (&T)"
@@ -269,7 +269,7 @@ msgid "Settings"
 msgstr "जमावट"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:315 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:316 sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
 
@@ -2039,7 +2039,7 @@ msgid "&Canvas"
 msgstr "क्षैतिजः"
 
 #. i18n: ectx: Menu (Rotate)
-#: krita.rc:125 krita.rc:188 plugins/extensions/rotateimage/rotateimage.rc:5
+#: krita.rc:126 krita.rc:189 plugins/extensions/rotateimage/rotateimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:18
 #, fuzzy
 #| msgid "Rotate Layer"
@@ -2047,21 +2047,21 @@ msgid "&Rotate"
 msgstr "परत घुमाबू"
 
 #. i18n: ectx: Menu (LayerImportExport)
-#: krita.rc:156
+#: krita.rc:157
 #, fuzzy
 #| msgid "Export"
 msgid "&Import/Export"
 msgstr "निर्यात"
 
 #. i18n: ectx: Menu (LayerImportAs)
-#: krita.rc:162
+#: krita.rc:163
 #, fuzzy
 #| msgid "Export"
 msgid "Import"
 msgstr "निर्यात"
 
 #. i18n: ectx: Menu (LayerConvert)
-#: krita.rc:170
+#: krita.rc:171
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:534
 #, fuzzy
 #| msgid "Invert"
@@ -2069,7 +2069,7 @@ msgid "&Convert"
 msgstr "उनटू"
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
-#: krita.rc:178
+#: krita.rc:179
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:540
 #, fuzzy
 #| msgid "Color to Alpha"
@@ -2077,31 +2077,31 @@ msgid "S&plit Alpha"
 msgstr "अल्फामे रंग"
 
 #. i18n: ectx: Menu (Recording)
-#: krita.rc:260 plugins/extensions/bigbrother/bigbrother.rc:5
+#: krita.rc:261 plugins/extensions/bigbrother/bigbrother.rc:5
 msgid "Recording"
 msgstr "रिकॉर्ड कए रहल अछि"
 
 #. i18n: ectx: Menu (Macros)
-#: krita.rc:265 plugins/extensions/bigbrother/bigbrother.rc:9
+#: krita.rc:266 plugins/extensions/bigbrother/bigbrother.rc:9
 msgid "Macros"
 msgstr "मेक्रोज़"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:271
+#: krita.rc:272
 #, fuzzy
 #| msgid "Settings"
 msgid "Setti&ngs"
 msgstr "जमावट"
 
 #. i18n: ectx: Menu (help)
-#: krita.rc:292
+#: krita.rc:293
 #, fuzzy
 #| msgid "&Hide"
 msgid "&Help"
 msgstr "नुकाबू (&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: krita.rc:306 ui/kis_file_layer.cpp:96
+#: krita.rc:307 ui/kis_file_layer.cpp:96
 #, fuzzy
 #| msgid "&Filter:"
 msgid "File"
@@ -17680,71 +17680,77 @@ msgstr "नकल"
 
 #: ui/kis_layer_manager.cc:333
 #, fuzzy
+#| msgid "Scale Layer"
+msgid "Trim to Image Size"
+msgstr "परत मापू"
+
+#: ui/kis_layer_manager.cc:338
+#, fuzzy
 #| msgid "Layer Size"
 msgid "Layer Style..."
 msgstr "परत आकार"
 
-#: ui/kis_layer_manager.cc:374
+#: ui/kis_layer_manager.cc:379
 #, fuzzy
 #| msgid "Layer Size"
 msgctxt "floating message in layer manager"
 msgid "Layer is empty "
 msgstr "परत आकार"
 
-#: ui/kis_layer_manager.cc:393
+#: ui/kis_layer_manager.cc:406
 msgid "Filter Layer Properties"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:438
+#: ui/kis_layer_manager.cc:451
 #, fuzzy
 #| msgid "Image Properties"
 msgid "Fill Layer Properties"
 msgstr "चित्र विशेषता"
 
-#: ui/kis_layer_manager.cc:519
+#: ui/kis_layer_manager.cc:532
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:598
+#: ui/kis_layer_manager.cc:611
 msgid "New Filter Layer"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:661
+#: ui/kis_layer_manager.cc:674
 msgid "Could not add layer to image."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:747
+#: ui/kis_layer_manager.cc:760
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "चित्र चपटा करू"
 
-#: ui/kis_layer_manager.cc:748
+#: ui/kis_layer_manager.cc:761
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:820
+#: ui/kis_layer_manager.cc:833
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "परत घुमाबू"
 
-#: ui/kis_layer_manager.cc:856
+#: ui/kis_layer_manager.cc:869
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:859
+#: ui/kis_layer_manager.cc:872
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:916
+#: ui/kis_layer_manager.cc:929
 msgid "No file name specified"
 msgstr ""
 
