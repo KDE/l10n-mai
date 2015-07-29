@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-28 08:59+0000\n"
+"POT-Creation-Date: 2015-07-29 05:22+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -248,14 +248,14 @@ msgid "&Select"
 msgstr "चुनू"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:239 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:240 sketch/kritasketch.rc:139
 #, fuzzy
 #| msgid "Filter"
 msgid "Filte&r"
 msgstr "फिल्टर"
 
 #. i18n: ectx: Menu (tools)
-#: gemini/kritagemini.rc:156 krita.rc:259
+#: gemini/kritagemini.rc:156 krita.rc:260
 #: plugins/extensions/bigbrother/bigbrother.rc:4 sketch/kritasketch.rc:156
 msgid "&Tools"
 msgstr "अओजार (&T)"
@@ -269,7 +269,7 @@ msgid "Settings"
 msgstr "जमावट"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:316 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:317 sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
 
@@ -2077,31 +2077,31 @@ msgid "S&plit Alpha"
 msgstr "अल्फामे रंग"
 
 #. i18n: ectx: Menu (Recording)
-#: krita.rc:261 plugins/extensions/bigbrother/bigbrother.rc:5
+#: krita.rc:262 plugins/extensions/bigbrother/bigbrother.rc:5
 msgid "Recording"
 msgstr "रिकॉर्ड कए रहल अछि"
 
 #. i18n: ectx: Menu (Macros)
-#: krita.rc:266 plugins/extensions/bigbrother/bigbrother.rc:9
+#: krita.rc:267 plugins/extensions/bigbrother/bigbrother.rc:9
 msgid "Macros"
 msgstr "मेक्रोज़"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:272
+#: krita.rc:273
 #, fuzzy
 #| msgid "Settings"
 msgid "Setti&ngs"
 msgstr "जमावट"
 
 #. i18n: ectx: Menu (help)
-#: krita.rc:293
+#: krita.rc:294
 #, fuzzy
 #| msgid "&Hide"
 msgid "&Help"
 msgstr "नुकाबू (&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: krita.rc:307 ui/kis_file_layer.cpp:96
+#: krita.rc:308 ui/kis_file_layer.cpp:96
 #, fuzzy
 #| msgid "&Filter:"
 msgid "File"
@@ -12105,67 +12105,67 @@ msgctxt "@title:window"
 msgid "No QML found"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:132
+#: ui/actions/kis_selection_action_factories.cpp:135
 #, fuzzy
 #| msgid "Select All"
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: ui/actions/kis_selection_action_factories.cpp:206
+#: ui/actions/kis_selection_action_factories.cpp:209
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "चित्र चपटा करू"
 
-#: ui/actions/kis_selection_action_factories.cpp:282
+#: ui/actions/kis_selection_action_factories.cpp:285
 msgctxt "floating message when cannot copy from a node"
 msgid "Cannot copy pixels from this type of layer "
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:291
+#: ui/actions/kis_selection_action_factories.cpp:294
 msgctxt "floating message when copying empty selection"
 msgid "Selection is empty: no pixels were copied "
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:340
+#: ui/actions/kis_selection_action_factories.cpp:343
 #, fuzzy
 #| msgid "Cut"
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "काटू"
 
-#: ui/actions/kis_selection_action_factories.cpp:341
+#: ui/actions/kis_selection_action_factories.cpp:344
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:367
+#: ui/actions/kis_selection_action_factories.cpp:370
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "चित्र काटू"
 
-#: ui/actions/kis_selection_action_factories.cpp:379
+#: ui/actions/kis_selection_action_factories.cpp:382
 msgid "(pasted)"
 msgstr ""
 
-#: ui/actions/kis_selection_action_factories.cpp:409
+#: ui/actions/kis_selection_action_factories.cpp:412
 #, fuzzy
 #| msgid "Pattern"
 msgid "Pasted"
 msgstr "प्रारूप"
 
-#: ui/actions/kis_selection_action_factories.cpp:454
+#: ui/actions/kis_selection_action_factories.cpp:457
 #, fuzzy
 #| msgid "Shrink Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "चयन घोकचाबू"
 
-#: ui/actions/kis_selection_action_factories.cpp:487
+#: ui/actions/kis_selection_action_factories.cpp:490
 #, fuzzy
 #| msgid "Shrink Selection"
 msgctxt "(qtundo-format)"
@@ -18302,18 +18302,25 @@ msgstr "चयन घोकचाबू"
 
 #: ui/kis_selection_manager.cc:249
 #, fuzzy
+#| msgid "Invert"
+msgctxt "@action:inmenu"
+msgid "&Convert to Shape"
+msgstr "उनटू"
+
+#: ui/kis_selection_manager.cc:254
+#, fuzzy
 #| msgid "Selection"
 msgctxt "@action:inmenu"
 msgid "&Toggle Selection Display Mode"
 msgstr "चुनाव"
 
-#: ui/kis_selection_manager.cc:567
+#: ui/kis_selection_manager.cc:578
 #, fuzzy
 #| msgid "Brushes"
 msgid "Stroked Shapes"
 msgstr "ब्रश"
 
-#: ui/kis_selection_manager.cc:569
+#: ui/kis_selection_manager.cc:580
 #, fuzzy
 #| msgid "Brushes"
 msgctxt "(qtundo-format)"
