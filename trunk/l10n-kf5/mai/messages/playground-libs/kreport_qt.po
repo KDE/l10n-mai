@@ -55,6 +55,13 @@ msgctxt "KoReportItemLine|"
 msgid "Line Style"
 msgstr "खण्डन जोडू"
 
+#: common/KReportDesign.cpp:76
+#, fuzzy
+#| msgid "Save Document"
+msgctxt "KReportDesign|"
+msgid "Could not parse XML document."
+msgstr "दस्तावेज सहेजू"
+
 #: common/KReportPageFormat.cpp:68
 msgctxt "KReportPageFormat|"
 msgid "ISO A3"
@@ -216,6 +223,20 @@ msgstr "यूएस लेटर"
 msgctxt "KReportPageFormat|"
 msgid "US Tabloid"
 msgstr ""
+
+#: common/KReportSection.cpp:100
+#, fuzzy
+#| msgid "Height:"
+msgctxt "KReportSection|"
+msgid "Height"
+msgstr "उँचाइ:"
+
+#: common/KReportSection.cpp:101
+#, fuzzy
+#| msgid "Document Information"
+msgctxt "KReportSection|"
+msgid "Background Color"
+msgstr "दस्ताबेज जानकारी"
 
 #: common/KReportUnit.cpp:47
 #, fuzzy
@@ -805,289 +826,289 @@ msgctxt "DetailGroupSectionDialog|"
 msgid "Insert page break after group footer:"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:294
+#: wrtembed/KoReportDesigner.cpp:295
+#, qt-format
 msgctxt "KoReportDesigner|"
 msgid ""
-"This report is using a script type other than \"javascript\".  To prevent "
-"loosing the script, the type of script will not be changed unless the script "
-"is changed.  Please be aware that the script will not work unless it is "
-"changed to a \"javascript\" script."
+"This report contains scripts of type \"%1\". Only scripts written in "
+"JavaScript language are supported. To prevent loosing the scripts, their "
+"type and content will not be changed unless you change these scripts."
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:297
+#: wrtembed/KoReportDesigner.cpp:300
 msgctxt "KoReportDesigner|"
 msgid "Unsupported Script Type"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:584
+#: wrtembed/KoReportDesigner.cpp:587
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Any)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:588
+#: wrtembed/KoReportDesigner.cpp:591
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Even)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:592
+#: wrtembed/KoReportDesigner.cpp:595
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Odd)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:596
+#: wrtembed/KoReportDesigner.cpp:599
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (First)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:600
+#: wrtembed/KoReportDesigner.cpp:603
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Header (Last)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:604
+#: wrtembed/KoReportDesigner.cpp:607
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Any)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:608
+#: wrtembed/KoReportDesigner.cpp:611
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Even)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:612
+#: wrtembed/KoReportDesigner.cpp:615
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Odd)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:616
+#: wrtembed/KoReportDesigner.cpp:619
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (First)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:620
+#: wrtembed/KoReportDesigner.cpp:623
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Footer (Last)"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:624
+#: wrtembed/KoReportDesigner.cpp:627
 #, fuzzy
 #| msgid "Show Guides"
 msgctxt "KoReportDesigner|"
 msgid "Report Header"
 msgstr "गाइड देखाबू"
 
-#: wrtembed/KoReportDesigner.cpp:628
+#: wrtembed/KoReportDesigner.cpp:631
 #, fuzzy
 #| msgid "Show Guides"
 msgctxt "KoReportDesigner|"
 msgid "Report Footer"
 msgstr "गाइड देखाबू"
 
-#: wrtembed/KoReportDesigner.cpp:721
+#: wrtembed/KoReportDesigner.cpp:724
 #, fuzzy
 #| msgid "Title:"
 msgctxt "KoReportDesigner|"
 msgid "Title"
 msgstr "शीर्षक:"
 
-#: wrtembed/KoReportDesigner.cpp:721
+#: wrtembed/KoReportDesigner.cpp:724
 #, fuzzy
 #| msgid "Import Data"
 msgctxt "KoReportDesigner|"
 msgid "Report Title"
 msgstr "आंकड़ाकेँ आयात करू"
 
-#: wrtembed/KoReportDesigner.cpp:727
+#: wrtembed/KoReportDesigner.cpp:730
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Size"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:731
+#: wrtembed/KoReportDesigner.cpp:734
 #, fuzzy
 #| msgid "Portrait"
 msgctxt "KoReportDesigner|"
 msgid "Portrait"
 msgstr "व्यक्तिचित्र"
 
-#: wrtembed/KoReportDesigner.cpp:731
+#: wrtembed/KoReportDesigner.cpp:734
 #, fuzzy
 #| msgid "Landscape"
 msgctxt "KoReportDesigner|"
 msgid "Landscape"
 msgstr "लैंडस्केप"
 
-#: wrtembed/KoReportDesigner.cpp:732
+#: wrtembed/KoReportDesigner.cpp:735
 #, fuzzy
 #| msgid "Orientation"
 msgctxt "KoReportDesigner|"
 msgid "Page Orientation"
 msgstr "दिशा"
 
-#: wrtembed/KoReportDesigner.cpp:743
+#: wrtembed/KoReportDesigner.cpp:746
 #, fuzzy
 #| msgid "Page Size"
 msgctxt "KoReportDesigner|"
 msgid "Page Unit"
 msgstr "पृष्ठ आकार"
 
-#: wrtembed/KoReportDesigner.cpp:745
+#: wrtembed/KoReportDesigner.cpp:748
 #, fuzzy
 #| msgid "Show Guides"
 msgctxt "KoReportDesigner|"
 msgid "Show Grid"
 msgstr "गाइड देखाबू"
 
-#: wrtembed/KoReportDesigner.cpp:746
+#: wrtembed/KoReportDesigner.cpp:749
 #, fuzzy
 #| msgid "Snap to Grid"
 msgctxt "KoReportDesigner|"
 msgid "Snap to Grid"
 msgstr "ग्रिडमे स्नेप करू"
 
-#: wrtembed/KoReportDesigner.cpp:747
+#: wrtembed/KoReportDesigner.cpp:750
 msgctxt "KoReportDesigner|"
 msgid "Grid Divisions"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:750
+#: wrtembed/KoReportDesigner.cpp:753
 #, fuzzy
 #| msgid "Margins"
 msgctxt "KoReportDesigner|"
 msgid "Left Margin"
 msgstr "हाशिया"
 
-#: wrtembed/KoReportDesigner.cpp:752
+#: wrtembed/KoReportDesigner.cpp:755
 #, fuzzy
 #| msgid "Margins"
 msgctxt "KoReportDesigner|"
 msgid "Right Margin"
 msgstr "हाशिया"
 
-#: wrtembed/KoReportDesigner.cpp:754
+#: wrtembed/KoReportDesigner.cpp:757
 #, fuzzy
 #| msgid "Margins"
 msgctxt "KoReportDesigner|"
 msgid "Top Margin"
 msgstr "हाशिया"
 
-#: wrtembed/KoReportDesigner.cpp:756
+#: wrtembed/KoReportDesigner.cpp:759
 #, fuzzy
 #| msgid "Margins"
 msgctxt "KoReportDesigner|"
 msgid "Bottom Margin"
 msgstr "हाशिया"
 
-#: wrtembed/KoReportDesigner.cpp:775
+#: wrtembed/KoReportDesigner.cpp:778
 #, fuzzy
 #| msgid "Subject:"
 msgctxt "KoReportDesigner|"
 msgid "Object Script"
 msgstr "विषय:"
 
-#: wrtembed/KoReportDesigner.cpp:936
+#: wrtembed/KoReportDesigner.cpp:939
 #, fuzzy
 #| msgid "Custom"
 msgctxt "KoReportDesigner|"
 msgid "Cut"
 msgstr "पसंदीदा"
 
-#: wrtembed/KoReportDesigner.cpp:940
+#: wrtembed/KoReportDesigner.cpp:943
 #, fuzzy
 #| msgid "Copy"
 msgctxt "KoReportDesigner|"
 msgid "Copy"
 msgstr "कापी करू"
 
-#: wrtembed/KoReportDesigner.cpp:945
+#: wrtembed/KoReportDesigner.cpp:948
 #, fuzzy
 #| msgid "Date"
 msgctxt "KoReportDesigner|"
 msgid "Paste"
 msgstr "दिनांक"
 
-#: wrtembed/KoReportDesigner.cpp:956
+#: wrtembed/KoReportDesigner.cpp:959
 #, fuzzy
 #| msgid "Delete"
 msgctxt "KoReportDesigner|"
 msgid "Delete"
 msgstr "मेटाबू"
 
-#: wrtembed/KoReportDesigner.cpp:1332
+#: wrtembed/KoReportDesigner.cpp:1335
 #, fuzzy
 #| msgid "Lines"
 msgctxt "KoReportDesigner|"
 msgid "Line"
 msgstr "रेखासभ"
 
-#: wrtembed/KoReportDesigner.cpp:1375
+#: wrtembed/KoReportDesigner.cpp:1378
 msgctxt "KoReportDesigner|"
 msgid "Cu&t"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1377
+#: wrtembed/KoReportDesigner.cpp:1380
 msgctxt "KoReportDesigner|"
 msgid "Cut selection to clipboard"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1381
+#: wrtembed/KoReportDesigner.cpp:1384
 #, fuzzy
 #| msgid "Copy"
 msgctxt "KoReportDesigner|"
 msgid "&Copy"
 msgstr "कापी करू"
 
-#: wrtembed/KoReportDesigner.cpp:1383
+#: wrtembed/KoReportDesigner.cpp:1386
 msgctxt "KoReportDesigner|"
 msgid "Copy selection to clipboard"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1387
+#: wrtembed/KoReportDesigner.cpp:1390
 #, fuzzy
 #| msgid "Date"
 msgctxt "KoReportDesigner|"
 msgid "&Paste"
 msgstr "दिनांक"
 
-#: wrtembed/KoReportDesigner.cpp:1389
+#: wrtembed/KoReportDesigner.cpp:1392
 msgctxt "KoReportDesigner|"
 msgid "Paste clipboard content"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1400
+#: wrtembed/KoReportDesigner.cpp:1403
 #, fuzzy
 #| msgid "Position"
 msgctxt "KoReportDesigner|"
 msgid "Edit Sections"
 msgstr "स्थिति"
 
-#: wrtembed/KoReportDesigner.cpp:1403
+#: wrtembed/KoReportDesigner.cpp:1406
 msgctxt "KoReportDesigner|"
 msgid "Raise"
 msgstr ""
 
-#: wrtembed/KoReportDesigner.cpp:1405
+#: wrtembed/KoReportDesigner.cpp:1408
 msgctxt "KoReportDesigner|"
 msgid "Lower"
 msgstr ""
@@ -2239,11 +2260,6 @@ msgstr "स्थिति"
 
 #~ msgid "Untitled"
 #~ msgstr "अनाम"
-
-#, fuzzy
-#~| msgid "Save Document"
-#~ msgid "Close Document"
-#~ msgstr "दस्तावेज सहेजू"
 
 #~ msgid "No"
 #~ msgstr "नहि"
