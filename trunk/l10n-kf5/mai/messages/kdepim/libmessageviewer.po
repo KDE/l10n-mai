@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-08 10:44+0000\n"
+"POT-Creation-Date: 2015-09-09 08:20+0000\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -459,6 +459,17 @@ msgstr ""
 msgid "Configure..."
 msgstr ""
 
+#: header/allheaderstyleplugin/allheaderstyleinterface.cpp:36
+#: viewer/viewer_p.cpp:1627
+msgctxt "View->headers->"
+msgid "&All Headers"
+msgstr ""
+
+#: header/allheaderstyleplugin/allheaderstyleinterface.cpp:39
+#: viewer/viewer_p.cpp:1630
+msgid "Show all message headers"
+msgstr ""
+
 #: header/briefheaderstyle.cpp:99 header/customheaderstyle.cpp:92
 #: header/enterpriseheaderstyle.cpp:118 header/fancyheaderstyle.cpp:128
 #: header/plainheaderstyle.cpp:92
@@ -475,6 +486,17 @@ msgstr ""
 #: header/enterpriseheaderstyle.cpp:155 header/fancyheaderstyle.cpp:171
 #: header/plainheaderstyle.cpp:110
 msgid "BCC: "
+msgstr ""
+
+#: header/briefheaderstyleplugin/briefheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1606
+msgctxt "View->headers->"
+msgid "&Brief Headers"
+msgstr ""
+
+#: header/briefheaderstyleplugin/briefheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1609
+msgid "Show brief list of message headers"
 msgstr ""
 
 #: header/customheadersettingwidget.cpp:40
@@ -525,8 +547,30 @@ msgstr ""
 msgid "%1: "
 msgstr ""
 
+#: header/customheaderstyleplugin/customheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1634
+msgctxt "View->headers->"
+msgid "&Custom Headers"
+msgstr ""
+
+#: header/customheaderstyleplugin/customheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1637
+msgid "Show custom headers"
+msgstr ""
+
 #: header/enterpriseheaderstyle.cpp:133
 msgid "To: "
+msgstr ""
+
+#: header/enterpriseheaderstyleplugin/enterpriseheaderstyleinterface.cpp:36
+#: viewer/viewer_p.cpp:1592
+msgctxt "View->headers->"
+msgid "&Enterprise Headers"
+msgstr ""
+
+#: header/enterpriseheaderstyleplugin/enterpriseheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1595
+msgid "Show the list of headers in Enterprise style"
 msgstr ""
 
 #: header/fancyheaderstyle.cpp:123
@@ -562,6 +606,17 @@ msgstr ""
 
 #: header/fancyheaderstyle.cpp:226 header/grantleeheaderformatter.cpp:154
 msgid "Spam Status:"
+msgstr ""
+
+#: header/fancyheaderstyleplugin/fancyheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1599
+msgctxt "View->headers->"
+msgid "&Fancy Headers"
+msgstr ""
+
+#: header/fancyheaderstyleplugin/fancyheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1602
+msgid "Show the list of headers in a fancy format"
 msgstr ""
 
 #: header/grantleeheaderformatter.cpp:83
@@ -680,6 +735,37 @@ msgid ""
 "\n"
 "Full report:\n"
 "%2"
+msgstr ""
+
+#: header/headerstylemenu.cpp:58 viewer/viewer_p.cpp:1587
+msgctxt "View->"
+msgid "&Headers"
+msgstr ""
+
+#: header/headerstylemenu.cpp:60 viewer/viewer_p.cpp:1589
+msgid "Choose display style of message headers"
+msgstr ""
+
+#: header/longheaderstyleplugin/longheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1620
+msgctxt "View->headers->"
+msgid "&Long Headers"
+msgstr ""
+
+#: header/longheaderstyleplugin/longheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1623
+msgid "Show long list of message headers"
+msgstr ""
+
+#: header/standardsheaderstyleplugin/standardsheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1613
+msgctxt "View->headers->"
+msgid "&Standard Headers"
+msgstr ""
+
+#: header/standardsheaderstyleplugin/standardsheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1616
+msgid "Show standard list of message headers"
 msgstr ""
 
 #: job/attachmenteditjob.cpp:46
@@ -1884,11 +1970,11 @@ msgstr ""
 msgid "End of encapsulated message"
 msgstr ""
 
-#: viewer/pluginloaderbase.cpp:89
+#: viewer/pluginloaderbase.cpp:90
 msgid "Unnamed plugin"
 msgstr "बेनाम प्लगइन"
 
-#: viewer/pluginloaderbase.cpp:95
+#: viewer/pluginloaderbase.cpp:96
 msgid "No description available"
 msgstr "केओ विवरण उपलब्ध नहि"
 
@@ -2110,78 +2196,6 @@ msgstr ""
 #: viewer/viewer_p.cpp:1420
 #, kde-format
 msgid "View Attachment: %1"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1587
-msgctxt "View->"
-msgid "&Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1589
-msgid "Choose display style of message headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1592
-msgctxt "View->headers->"
-msgid "&Enterprise Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1595
-msgid "Show the list of headers in Enterprise style"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1599
-msgctxt "View->headers->"
-msgid "&Fancy Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1602
-msgid "Show the list of headers in a fancy format"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1606
-msgctxt "View->headers->"
-msgid "&Brief Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1609
-msgid "Show brief list of message headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1613
-msgctxt "View->headers->"
-msgid "&Standard Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1616
-msgid "Show standard list of message headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1620
-msgctxt "View->headers->"
-msgid "&Long Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1623
-msgid "Show long list of message headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1627
-msgctxt "View->headers->"
-msgid "&All Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1630
-msgid "Show all message headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1634
-msgctxt "View->headers->"
-msgid "&Custom Headers"
-msgstr ""
-
-#: viewer/viewer_p.cpp:1637
-msgid "Show custom headers"
 msgstr ""
 
 #: viewer/viewer_p.cpp:1645
