@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calendarsupport\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-14 08:08+0000\n"
+"POT-Creation-Date: 2015-09-15 10:32+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -422,6 +422,83 @@ msgstr ""
 #: eventarchiver.cpp:313
 msgid "Archiving events"
 msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:133
+msgid "Free"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:136
+msgid "Busy"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:139
+msgid "Unavailable"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:142
+msgid "Tentative"
+msgstr ""
+
+#: freebusymodel/freebusycalendar.cpp:145
+#, fuzzy
+#| msgid "unknown@nowhere"
+msgid "Unknown"
+msgstr "unknown@nowhere"
+
+#: freebusymodel/freebusyitemmodel.cpp:230
+msgid "Attendee"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:150
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@label Day of the week name, example: Monday,"
+msgid "%1,"
+msgstr "%1%"
+
+#: freebusymodel/freeperiodmodel.cpp:165
+#, kde-format
+msgctxt ""
+"@label A time period duration. It is preceded/followed (based on the "
+"orientation) by the name of the week, see the message above. example: 12 "
+"June, 8:00am to 9:30am"
+msgid "%1 %2, %3 to %4"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "summary, location"
+#| msgid "%1, %2"
+msgctxt ""
+"@label A time period duration. KLocale is used to format the components. "
+"example: Monday, 12 June, 8:00am to 9:30am"
+msgid "%1, %2 %3, %4 to %5"
+msgstr "%1, %2"
+
+#: freebusymodel/freeperiodmodel.cpp:199
+msgctxt "@info:tooltip"
+msgid "Free Period"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:201
+#, fuzzy
+#| msgctxt "@option sort by start date/time"
+#| msgid "Start Date"
+msgctxt "@info:tooltip period start time"
+msgid "Start:"
+msgstr "आरंभ तिथि"
+
+#: freebusymodel/freeperiodmodel.cpp:204
+msgctxt "@info:tooltip period end time"
+msgid "End:"
+msgstr ""
+
+#: freebusymodel/freeperiodmodel.cpp:207
+#, fuzzy
+#| msgid "Description:"
+msgctxt "@info:tooltip period duration"
+msgid "Duration:"
+msgstr "विवरण:"
 
 #: kcalmodel.cpp:128
 #, kde-format
