@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-25 10:49+0000\n"
+"POT-Creation-Date: 2015-09-22 09:57+0000\n"
 "PO-Revision-Date: 2010-09-24 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -898,36 +898,53 @@ msgstr "योजना पूर्वनिर्धारित रूपे�
 msgid "Export Scheme..."
 msgstr "योजना निर्यात करू..."
 
-#: kshortcutschemeseditor.cpp:101
+#: kshortcutschemeseditor.cpp:86
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Import Scheme..."
+msgstr "योजना निर्यात करू..."
+
+#: kshortcutschemeseditor.cpp:102
 msgid "Name for New Scheme"
 msgstr "नवीन योजनाक लेल नाम"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "Name for new scheme:"
 msgstr "नवीन योजनाक लेल नाम:"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "New Scheme"
 msgstr "नवीन योजना"
 
-#: kshortcutschemeseditor.cpp:108
+#: kshortcutschemeseditor.cpp:109
 msgid "A scheme with this name already exists."
 msgstr ""
 
-#: kshortcutschemeseditor.cpp:137
+#: kshortcutschemeseditor.cpp:138
 #, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
 "Note that this will not remove any system wide shortcut schemes."
 msgstr ""
 
-#: kshortcutschemeseditor.cpp:167
-msgid "Export to Location"
-msgstr "स्थानमे निर्यात करू"
+#: kshortcutschemeseditor.cpp:168
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Export Shortcuts"
+msgstr "शॉर्टकट्स"
 
-#: kshortcutschemeseditor.cpp:175
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr ""
+#: kshortcutschemeseditor.cpp:168 kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgctxt "header for an applications shortcut list"
+#| msgid "Shortcuts for %1"
+msgid "Shortcuts (*.shortcuts)"
+msgstr "%1 क' लेल शॉर्टकट्स"
+
+#: kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Import Shortcuts"
+msgstr "शॉर्टकट्स"
 
 #: kshortcutsdialog.cpp:85
 msgid ""
@@ -1295,6 +1312,9 @@ msgstr "जमावट (&S)"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
+
+#~ msgid "Export to Location"
+#~ msgstr "स्थानमे निर्यात करू"
 
 #~ msgid ""
 #~ "<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
