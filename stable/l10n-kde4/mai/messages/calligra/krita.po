@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-30 05:02+0000\n"
+"POT-Creation-Date: 2015-10-04 05:41+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6148,8 +6148,8 @@ msgstr ""
 #: plugins/extensions/rotateimage/rotateimage.cc:53
 #, fuzzy
 #| msgid "Rotate Layer"
-msgctxt "rotate image 90 degrees Clockwise"
-msgid "Rotate Image 90° Clockwise"
+msgctxt "rotate image 90 degrees to the right"
+msgid "Rotate Image 90° to the Right"
 msgstr "परत घुमाबू"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:58
@@ -6162,8 +6162,8 @@ msgstr "परत घुमाबू"
 #: plugins/extensions/rotateimage/rotateimage.cc:63
 #, fuzzy
 #| msgid "Rotate Layer"
-msgctxt "rotate image 90 degrees Counter-Clockwise"
-msgid "Rotate Image 90° Counter-Clockwise"
+msgctxt "rotate image 90 degrees to the left"
+msgid "Rotate Image 90° to the Left"
 msgstr "परत घुमाबू"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:68
@@ -6228,13 +6228,17 @@ msgstr "दिशा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCW)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:26
-msgid "C&lockwise"
-msgstr ""
+#, fuzzy
+#| msgid "Right:"
+msgid "&Right"
+msgstr "दायाँ:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCCW)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:36
-msgid "Cou&nter-clockwise"
-msgstr ""
+#, fuzzy
+#| msgid "Left:"
+msgid "&Left"
+msgstr "बम्माँ:"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radio90)
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:52
@@ -6252,7 +6256,7 @@ msgid "270 de&grees"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCustom)
-#: plugins/extensions/rotateimage/wdg_rotateimage.ui:87
+#: plugins/extensions/rotateimage/wdg_rotateimage.ui:78
 #, fuzzy
 #| msgid "Custom"
 msgid "&Custom:"
@@ -21735,6 +21739,18 @@ msgid "Workspace %1"
 msgstr "रँग स्पेस"
 
 #, fuzzy
+#~| msgid "Rotate Layer"
+#~ msgctxt "rotate image 90 degrees Clockwise"
+#~ msgid "Rotate Image 90° Clockwise"
+#~ msgstr "परत घुमाबू"
+
+#, fuzzy
+#~| msgid "Rotate Layer"
+#~ msgctxt "rotate image 90 degrees Counter-Clockwise"
+#~ msgid "Rotate Image 90° Counter-Clockwise"
+#~ msgstr "परत घुमाबू"
+
+#, fuzzy
 #~| msgid "Selection"
 #~ msgid "Advanced"
 #~ msgstr "चुनाव"
@@ -22202,16 +22218,6 @@ msgstr "रँग स्पेस"
 #~| msgid "Duplicate"
 #~ msgid "Limit to Color"
 #~ msgstr "नकल"
-
-#, fuzzy
-#~| msgid "Right:"
-#~ msgid "Right"
-#~ msgstr "दायाँ:"
-
-#, fuzzy
-#~| msgid "Left:"
-#~ msgid "Left"
-#~ msgstr "बम्माँ:"
 
 #, fuzzy
 #~| msgid "OpenGL"
