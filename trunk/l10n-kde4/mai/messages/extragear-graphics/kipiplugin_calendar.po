@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_calendar\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-22 01:59+0000\n"
+"POT-Creation-Date: 2015-10-17 02:27+0000\n"
 "PO-Revision-Date: 2010-09-24 12:07+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -17,14 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta_0975@yahoo.com"
 
 #. i18n: ectx: Menu (Tools)
 #: plugin/kipiplugin_calendarui.rc:7
@@ -36,7 +28,7 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr ""
 
-#: plugin/plugin_calendar.cpp:83
+#: plugin/plugin_calendar.cpp:85
 msgid "Create Calendar..."
 msgstr ""
 
@@ -52,14 +44,8 @@ msgstr "कैलेंडर"
 msgid "Select an optional calendar file with the official holidays"
 msgstr ""
 
-#. i18n: ectx: property (filter), widget (KUrlRequester, ohUrlRequester)
-#. i18n: ectx: property (filter), widget (KUrlRequester, fhUrlRequester)
-#: ui/calevents.ui:32 ui/calevents.ui:88
-msgid "*.ics"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, ohExplainLabel)
-#: ui/calevents.ui:49
+#: ui/calevents.ui:45
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -94,12 +80,12 @@ msgstr ""
 "All the events from this calendar will be printed in red.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, fhHeaderLabel)
-#: ui/calevents.ui:78
+#: ui/calevents.ui:74
 msgid "Select an optional calendar file with your \"family holidays\""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fhExplainLabel)
-#: ui/calevents.ui:101
+#: ui/calevents.ui:93
 msgid ""
 "You can create such a calendar using KOrganizer or any other calendar "
 "program.\n"
@@ -108,7 +94,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CalProgress)
-#: ui/calprogress.ui:14 wizard/calwizard.cpp:89
+#: ui/calprogress.ui:14
 msgid "Printing"
 msgstr "छपाइ कए रहल अछि"
 
@@ -167,7 +153,7 @@ msgstr ""
 msgid "Low"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (KButtonGroup, imagePosButtonGroup)
+#. i18n: ectx: property (title), widget (QGroupBox, imagePosButtonGroup)
 #: ui/caltemplate.ui:101
 msgid "Image Position"
 msgstr ""
@@ -220,23 +206,42 @@ msgid ""
 "Left click on a month to select an image, right click to clear an image."
 msgstr ""
 
-#: wizard/calwizard.cpp:75
+#: wizard/calwizard.cpp:63
+msgid "Create Calendar"
+msgstr ""
+
+#: wizard/calwizard.cpp:77
 msgid "Choose events to show on the Calendar"
 msgstr ""
 
-#: wizard/calwizard.cpp:83
-msgid "Print"
-msgstr "छपाइ"
+#: wizard/calwizard.cpp:86 wizard/calwizard.cpp:249
+#, fuzzy
+#| msgid "Calendar"
+msgid "Print Calendar"
+msgstr "कैलेंडर"
 
-#: wizard/calwizard.cpp:95
+#: wizard/calwizard.cpp:94
+msgid "Printing in Progress"
+msgstr ""
+
+#: wizard/calwizard.cpp:100 wizard/calwizard.cpp:104
+#, kde-format
+msgid "%1|Calendar Data File"
+msgstr ""
+
+#: wizard/calwizard.cpp:101 wizard/calwizard.cpp:105
+msgid "Select Calendar Data File"
+msgstr ""
+
+#: wizard/calwizard.cpp:112
 msgid "Calendar"
 msgstr "कैलेंडर"
 
-#: wizard/calwizard.cpp:98
+#: wizard/calwizard.cpp:115
 msgid "A Kipi plugin to create a calendar"
 msgstr ""
 
-#: wizard/calwizard.cpp:99
+#: wizard/calwizard.cpp:116
 msgid ""
 "(c) 2003-2005, Renchi Raju\n"
 "(c) 2006 Tom Albers\n"
@@ -246,62 +251,72 @@ msgstr ""
 "(c) 2006 Tom Albers\n"
 "(c) 2007-2008 Orgad Shaneh"
 
-#: wizard/calwizard.cpp:103
+#: wizard/calwizard.cpp:120
 msgid "Orgad Shaneh"
 msgstr "Orgad Shaneh"
 
-#: wizard/calwizard.cpp:103
-msgid "Author and maintainer"
-msgstr "लेखक आ मेंटेनर"
+#: wizard/calwizard.cpp:121 wizard/calwizard.cpp:125
+msgid "Developer"
+msgstr ""
 
-#: wizard/calwizard.cpp:106
+#: wizard/calwizard.cpp:124
 msgid "Tom Albers"
 msgstr "Tom Albers"
 
-#: wizard/calwizard.cpp:106 wizard/calwizard.cpp:109
-msgid "Former author and maintainer"
-msgstr ""
-
-#: wizard/calwizard.cpp:109
+#: wizard/calwizard.cpp:128
 msgid "Renchi Raju"
 msgstr "Renchi Raju"
 
-#: wizard/calwizard.cpp:123
-msgid "Create Calendar"
+#: wizard/calwizard.cpp:129
+msgid "Author"
 msgstr ""
 
-#: wizard/calwizard.cpp:165
+#: wizard/calwizard.cpp:184
 msgid "No valid images selected for months<br/>Click Back to select images"
 msgstr ""
 
-#: wizard/calwizard.cpp:178
+#: wizard/calwizard.cpp:198
 msgid ""
 "Please note that you are making a calendar for<br/>the current year or a "
 "year in the past."
 msgstr ""
 
-#: wizard/calwizard.cpp:184
+#: wizard/calwizard.cpp:204
 #, kde-format
 msgid ""
 "Click Next to start Printing<br/><br/>Following months will be printed for "
 "year %1:<br/>"
 msgstr ""
 
-#: wizard/calwizard.cpp:234
+#: wizard/calwizard.cpp:257
 msgid "Printing Cancelled"
 msgstr ""
 
-#: wizard/calwizard.cpp:247
+#: wizard/calwizard.cpp:269
 #, fuzzy
 #| msgid "Calendar"
 msgid "Making calendar"
 msgstr "कैलेंडर"
 
-#: wizard/calwizard.cpp:292
+#: wizard/calwizard.cpp:314
 #, kde-format
 msgid "Printing calendar page for %1 of %2"
 msgstr ""
 
-#: wizard/calwizard.cpp:302
+#: wizard/calwizard.cpp:324
 msgid "Printing Complete"
 msgstr ""
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "संगीता कुमारी"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sangeeta_0975@yahoo.com"
+
+#~ msgid "Print"
+#~ msgstr "छपाइ"
+
+#~ msgid "Author and maintainer"
+#~ msgstr "लेखक आ मेंटेनर"
