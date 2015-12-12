@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-11 07:08+0000\n"
+"POT-Creation-Date: 2015-12-12 07:31+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -100,7 +100,7 @@ msgctxt "@item Undefined import field type"
 msgid "Undefined"
 msgstr "अपरिभाषित"
 
-#: contactfields.cpp:49 merge/widgets/mergecontactselectlistwidget.cpp:79
+#: contactfields.cpp:49
 #, fuzzy
 #| msgid "Anniversary"
 msgctxt "The wedding anniversary of a contact"
@@ -127,27 +127,27 @@ msgctxt "Fourth email address"
 msgid "EMail (4)"
 msgstr ""
 
-#: contactfields.cpp:115 merge/widgets/mergecontactselectlistwidget.cpp:88
+#: contactfields.cpp:115
 msgid "Blog Feed"
 msgstr ""
 
-#: contactfields.cpp:117 merge/widgets/mergecontactselectlistwidget.cpp:97
+#: contactfields.cpp:117
 msgid "Profession"
 msgstr "व्यवसाय"
 
-#: contactfields.cpp:119 merge/widgets/mergecontactselectlistwidget.cpp:106
+#: contactfields.cpp:119
 msgid "Office"
 msgstr "कार्यालय"
 
-#: contactfields.cpp:121 merge/widgets/mergecontactselectlistwidget.cpp:109
+#: contactfields.cpp:121
 msgid "Manager"
 msgstr "प्रबंधक"
 
-#: contactfields.cpp:123 merge/widgets/mergecontactselectlistwidget.cpp:112
+#: contactfields.cpp:123
 msgid "Assistant"
 msgstr "सहायक"
 
-#: contactfields.cpp:125 merge/widgets/mergecontactselectlistwidget.cpp:121
+#: contactfields.cpp:125
 msgid "Spouse"
 msgstr ""
 
@@ -351,32 +351,37 @@ msgid "&Import"
 msgstr "आयात करू (&I)"
 
 #. i18n: ectx: Menu (file_export)
-#: kaddressbookui.rc:23 kaddressbookui.rc:97
+#: kaddressbookui.rc:23 kaddressbookui.rc:98
 msgid "&Export"
 msgstr "निर्यात(&E)"
 
 #. i18n: ectx: Menu (edit)
-#: kaddressbookui.rc:41
+#: kaddressbookui.rc:38
 msgid "&Edit"
 msgstr "सँपादित करू (&E)"
 
+#. i18n: ectx: Menu (tools)
+#: kaddressbookui.rc:52
+msgid "&Tools"
+msgstr ""
+
 #. i18n: ectx: Menu (action)
-#: kaddressbookui.rc:55
+#: kaddressbookui.rc:56
 msgid "&Action"
 msgstr ""
 
 #. i18n: ectx: Menu (view)
-#: kaddressbookui.rc:59
+#: kaddressbookui.rc:60
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: kaddressbookui.rc:69
+#: kaddressbookui.rc:70
 msgid "&Settings"
 msgstr "जमावट (&S)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kaddressbookui.rc:123
+#: kaddressbookui.rc:124
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
@@ -411,7 +416,7 @@ msgctxt "@info:whatsthis"
 msgid "Choose this option to synchronize your groupware contacts."
 msgstr ""
 
-#: mainwidget.cpp:385
+#: mainwidget.cpp:383
 #, fuzzy, kde-format
 #| msgctxt "Search contacts in list"
 #| msgid "Search"
@@ -419,193 +424,185 @@ msgctxt "@label Search contacts in list"
 msgid "Search...<%1>"
 msgstr "खोजू"
 
-#: mainwidget.cpp:602
+#: mainwidget.cpp:599
 msgid "&Themes"
 msgstr ""
 
-#: mainwidget.cpp:613
+#: mainwidget.cpp:610
 msgctxt "@info:whatsthis"
 msgid "Print the complete address book or a selected number of contacts."
 msgstr ""
 
-#: mainwidget.cpp:620
+#: mainwidget.cpp:617
 msgid "Quick search"
 msgstr "तेज खोज"
 
-#: mainwidget.cpp:625
+#: mainwidget.cpp:622
 msgid "Category filter"
 msgstr ""
 
-#: mainwidget.cpp:630
+#: mainwidget.cpp:627
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: mainwidget.cpp:632
+#: mainwidget.cpp:629
 msgid "Select all contacts in the current address book view."
 msgstr ""
 
-#: mainwidget.cpp:638
+#: mainwidget.cpp:635
 msgid "Show QR Codes"
 msgstr ""
 
-#: mainwidget.cpp:639
+#: mainwidget.cpp:636
 msgid "Show QR Codes in the contact."
 msgstr ""
 
-#: mainwidget.cpp:645
+#: mainwidget.cpp:642
 msgctxt "@action:inmenu"
 msgid "Simple (one column)"
 msgstr ""
 
-#: mainwidget.cpp:649
+#: mainwidget.cpp:646
 msgid "Show a simple mode of the address book view."
 msgstr ""
 
-#: mainwidget.cpp:652
+#: mainwidget.cpp:649
 msgctxt "@action:inmenu"
 msgid "Two Columns"
 msgstr ""
 
-#: mainwidget.cpp:658
+#: mainwidget.cpp:655
 msgctxt "@action:inmenu"
 msgid "Three Columns"
 msgstr ""
 
-#: mainwidget.cpp:668
+#: mainwidget.cpp:665
 msgid "Import vCard..."
 msgstr ""
 
-#: mainwidget.cpp:669
+#: mainwidget.cpp:666
 msgid "Import contacts from a vCard file."
 msgstr ""
 
-#: mainwidget.cpp:673
+#: mainwidget.cpp:670
 msgid "Import CSV file..."
 msgstr ""
 
-#: mainwidget.cpp:674
+#: mainwidget.cpp:671
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
 
-#: mainwidget.cpp:678
+#: mainwidget.cpp:675
 msgid "Import LDIF file..."
 msgstr ""
 
-#: mainwidget.cpp:679
+#: mainwidget.cpp:676
 msgid "Import contacts from an LDIF file."
 msgstr ""
 
-#: mainwidget.cpp:683
+#: mainwidget.cpp:680
 msgid "Import From LDAP server..."
 msgstr ""
 
-#: mainwidget.cpp:684
+#: mainwidget.cpp:681
 msgid "Import contacts from an LDAP server."
 msgstr ""
 
-#: mainwidget.cpp:688
+#: mainwidget.cpp:685
 msgid "Import GMX file..."
 msgstr ""
 
-#: mainwidget.cpp:689
+#: mainwidget.cpp:686
 msgid "Import contacts from a GMX address book file."
 msgstr ""
 
-#: mainwidget.cpp:694
+#: mainwidget.cpp:691
 #, fuzzy
 #| msgid "&Import"
 msgid "Export vCard 4.0..."
 msgstr "आयात करू (&I)"
 
-#: mainwidget.cpp:695
+#: mainwidget.cpp:692
 msgid "Export contacts to a vCard 4.0 file."
 msgstr ""
 
-#: mainwidget.cpp:699
+#: mainwidget.cpp:696
 msgid "Export vCard 3.0..."
 msgstr ""
 
-#: mainwidget.cpp:700
+#: mainwidget.cpp:697
 msgid "Export contacts to a vCard 3.0 file."
 msgstr ""
 
-#: mainwidget.cpp:704
+#: mainwidget.cpp:701
 msgid "Export vCard 2.1..."
 msgstr ""
 
-#: mainwidget.cpp:705
+#: mainwidget.cpp:702
 msgid "Export contacts to a vCard 2.1 file."
 msgstr ""
 
-#: mainwidget.cpp:709
+#: mainwidget.cpp:706
 msgid "Export CSV file..."
 msgstr ""
 
-#: mainwidget.cpp:710
+#: mainwidget.cpp:707
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 
-#: mainwidget.cpp:714
+#: mainwidget.cpp:711
 msgid "Export LDIF file..."
 msgstr ""
 
-#: mainwidget.cpp:715
+#: mainwidget.cpp:712
 msgid "Export contacts to an LDIF file."
 msgstr ""
 
-#: mainwidget.cpp:719
+#: mainwidget.cpp:716
 msgid "Export GMX file..."
 msgstr ""
 
-#: mainwidget.cpp:720
+#: mainwidget.cpp:717
 msgid "Export contacts to a GMX address book file."
 msgstr ""
 
-#: mainwidget.cpp:729
-msgid "Merge Contacts..."
-msgstr ""
-
-#: mainwidget.cpp:733
-msgid "Search Duplicate Contacts..."
-msgstr ""
-
-#: mainwidget.cpp:736
+#: mainwidget.cpp:725
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: mainwidget.cpp:743
+#: mainwidget.cpp:732
 msgid "Send an email..."
 msgstr ""
 
-#: mainwidget.cpp:748
+#: mainwidget.cpp:737
 msgid "Send vCards..."
 msgstr ""
 
-#: mainwidget.cpp:759
+#: mainwidget.cpp:748
 msgid "Serverside Subscription..."
 msgstr ""
 
-#: mainwidget.cpp:764
+#: mainwidget.cpp:753
 msgid "Check Gravatar..."
 msgstr ""
 
-#: mainwidget.cpp:771 mainwidget.cpp:792
+#: mainwidget.cpp:760 mainwidget.cpp:781
 msgid "Address Book"
 msgstr "पता पुस्तिका"
 
-#: mainwidget.cpp:798 printing/printingwizard.cpp:58
+#: mainwidget.cpp:787 printing/printingwizard.cpp:58
 msgid "Print Contacts"
 msgstr ""
 
-#: mainwidget.cpp:1090
+#: mainwidget.cpp:1066
 msgid "You have not selected any contacts."
 msgstr ""
 
-#: mainwidget.cpp:1170
+#: mainwidget.cpp:1146
 msgid "No email found for this contact."
 msgstr ""
 
-#: mainwidget.cpp:1209
+#: mainwidget.cpp:1185
 msgid "A contact group was selected."
 msgstr ""
 
@@ -615,87 +612,6 @@ msgid ""
 "You will be presented with a dialog where you can configure the application-"
 "wide shortcuts."
 msgstr ""
-
-#: merge/manualmerge/mergecontactsdialog.cpp:46
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:41
-msgid "Select Contacts to merge"
-msgstr ""
-
-#: merge/manualmerge/mergecontactwidget.cpp:58
-msgid "Select contacts that you really want to merge:"
-msgstr ""
-
-#: merge/manualmerge/mergecontactwidget.cpp:81
-msgid "Select the addressbook in which to store merged contacts:"
-msgstr ""
-
-#: merge/manualmerge/mergecontactwidget.cpp:98
-msgid "merge"
-msgstr ""
-
-#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:50
-#: merge/searchduplicate/resultduplicatetreewidget.cpp:92
-#, kde-format
-msgid "Duplicate contact %1"
-msgstr ""
-
-#: merge/searchduplicate/resultduplicatetreewidget.cpp:28
-msgid "Contacts"
-msgstr ""
-
-#: merge/searchduplicate/searchduplicateresultwidget.cpp:67
-#, fuzzy
-#| msgid "Address Book"
-msgid "Select AddressBook:"
-msgstr "पता पुस्तिका"
-
-#: merge/searchduplicate/searchduplicateresultwidget.cpp:80
-#: merge/widgets/mergecontactselectinformationscrollarea.cpp:55
-msgid "Merge"
-msgstr ""
-
-#: merge/widgets/mergecontacterrorlabel.cpp:29
-msgid "You must select at least two elements."
-msgstr ""
-
-#: merge/widgets/mergecontacterrorlabel.cpp:32
-msgid "No duplicated contact found."
-msgstr ""
-
-#: merge/widgets/mergecontacterrorlabel.cpp:35
-msgid "No contacts selected."
-msgstr ""
-
-#: merge/widgets/mergecontactloseinformationwarning.cpp:31
-msgid ""
-"Some information can be lost. Do you want to continue, or customize what you "
-"want to merge?"
-msgstr ""
-
-#: merge/widgets/mergecontactloseinformationwarning.cpp:33
-msgid "Customize"
-msgstr ""
-
-#: merge/widgets/mergecontactloseinformationwarning.cpp:38
-msgid "Automatic Merging"
-msgstr ""
-
-#: merge/widgets/mergecontactselectinformationscrollarea.cpp:99
-msgid ""
-"Some information was not selected. You can lose this information. Do you "
-"want to continue merging?"
-msgstr ""
-
-#: merge/widgets/mergecontactselectinformationscrollarea.cpp:100
-msgid "Missing Selected Information"
-msgstr ""
-
-#: merge/widgets/mergecontactselectlistwidget.cpp:136
-#, fuzzy
-#| msgctxt "@item Undefined import field type"
-#| msgid "Undefined"
-msgid "(Undefined)"
-msgstr "अपरिभाषित"
 
 #: modelcolumnmanager.cpp:78
 msgid "Full Name"
@@ -1777,6 +1693,17 @@ msgstr ""
 #: xxport/xxportmanager.cpp:204
 msgid "You have not selected any contacts to export."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Address Book"
+#~ msgid "Select AddressBook:"
+#~ msgstr "पता पुस्तिका"
+
+#, fuzzy
+#~| msgctxt "@item Undefined import field type"
+#~| msgid "Undefined"
+#~ msgid "(Undefined)"
+#~ msgstr "अपरिभाषित"
 
 #, fuzzy
 #~| msgid "Manager"
