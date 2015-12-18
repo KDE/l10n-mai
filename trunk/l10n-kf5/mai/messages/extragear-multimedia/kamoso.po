@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kamoso\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-16 06:58+0000\n"
+"POT-Creation-Date: 2015-12-18 07:03+0000\n"
 "PO-Revision-Date: 2010-09-24 13:04+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -33,7 +33,7 @@ msgid "Where the photos are saved."
 msgstr ""
 
 #. i18n: ectx: label, entry (deviceUdi), group (WebcamSettings)
-#: src/kamosoSettings.kcfg:24
+#: src/kamosoSettings.kcfg:27
 msgid "Points to the last used webcam."
 msgstr ""
 
@@ -65,18 +65,6 @@ msgstr "Alex Fiestas"
 msgid "Coffee drinker"
 msgstr ""
 
-#: src/qml/ActionsModel.qml:48
-msgid "Shoot"
-msgstr ""
-
-#: src/qml/ActionsModel.qml:49
-msgid "Burst"
-msgstr ""
-
-#: src/qml/ActionsModel.qml:50
-msgid "Record"
-msgstr ""
-
 #: src/qml/Config.qml:15
 msgid "Places"
 msgstr ""
@@ -106,34 +94,38 @@ msgid "Use flash"
 msgstr ""
 
 #: src/qml/Config.qml:85
+msgid "On screen information"
+msgstr ""
+
+#: src/qml/Config.qml:90
 #, fuzzy
 #| msgid "Brightness"
 msgid "Brightness:"
 msgstr "चमकीलापन"
 
-#: src/qml/Config.qml:98
+#: src/qml/Config.qml:103
 msgid "Hue:"
 msgstr ""
 
-#: src/qml/Config.qml:111
+#: src/qml/Config.qml:116
 #, fuzzy
 #| msgid "Contrast"
 msgid "Contrast:"
 msgstr "विरोधी"
 
-#: src/qml/Config.qml:124
+#: src/qml/Config.qml:129
 #, fuzzy
 #| msgid "Saturation"
 msgid "Saturation:"
 msgstr "संतृप्ति"
 
-#: src/qml/Config.qml:137
+#: src/qml/Config.qml:142
 #, fuzzy
 #| msgid "Gamma"
 msgid "Gamma:"
 msgstr "गामा"
 
-#: src/qml/Config.qml:153
+#: src/qml/Config.qml:158
 msgid "Reset"
 msgstr ""
 
@@ -161,16 +153,35 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: src/qml/Main.qml:100
+#: src/qml/Main.qml:73
+msgid "Shoot"
+msgstr ""
+
+#: src/qml/Main.qml:75 src/qml/Main.qml:90
+#, kde-format
+msgid "1 photo"
+msgid_plural "%1 photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/qml/Main.qml:88
+msgid "Burst"
+msgstr ""
+
+#: src/qml/Main.qml:112
+msgid "Record"
+msgstr ""
+
+#: src/qml/Main.qml:139
 #, kde-format
 msgid "Switch to '%1' mode"
 msgstr ""
 
-#: src/qml/Main.qml:151
+#: src/qml/Main.qml:190
 msgid "Show gallery..."
 msgstr ""
 
-#: src/qml/Main.qml:160
+#: src/qml/Main.qml:199
 #, fuzzy
 #| msgid "Settings"
 msgid "Show settings..."
