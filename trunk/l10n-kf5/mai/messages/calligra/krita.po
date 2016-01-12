@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-11 08:32+0000\n"
+"POT-Creation-Date: 2016-01-12 08:37+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1649,7 +1649,7 @@ msgstr "उनटू"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: gemini/kritagemini.rc:126 krita.rc:203
+#: gemini/kritagemini.rc:126 krita.rc:207
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -1660,14 +1660,14 @@ msgid "&Select"
 msgstr "चुनू"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:229 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:233 sketch/kritasketch.rc:139
 #, fuzzy
 #| msgid "Filter"
 msgid "Filte&r"
 msgstr "फिल्टर"
 
 #. i18n: ectx: Menu (tools)
-#: gemini/kritagemini.rc:156 krita.rc:249
+#: gemini/kritagemini.rc:156 krita.rc:253
 #: plugins/extensions/bigbrother/bigbrother.rc:4 sketch/kritasketch.rc:156
 msgid "&Tools"
 msgstr "अओजार (&T)"
@@ -1681,7 +1681,7 @@ msgid "Settings"
 msgstr "जमावट"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:306 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:310 sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
 
@@ -1759,13 +1759,13 @@ msgstr ""
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:234 ui/input/kis_tablet_debugger.cpp:100
 #: ui/kis_filter_manager.cc:214 ui/kis_filter_manager.cc:223
-#: ui/kis_layer_manager.cc:855 ui/KisApplication.cpp:244
-#: ui/KisApplication.cpp:247 ui/KisApplication.cpp:272
-#: ui/KisApplication.cpp:298 ui/KisApplication.cpp:319 ui/KisDocument.cpp:617
-#: ui/KisDocument.cpp:619 ui/KisDocument.cpp:1091 ui/KisDocument.cpp:1137
-#: ui/KisDocument.cpp:1278 ui/KisDocument.cpp:1912 ui/KisDocument.cpp:1915
-#: ui/KisImportExportManager.cpp:235 ui/KisImportExportManager.cpp:246
-#: ui/KisImportExportManager.cpp:541 ui/KisMainWindow.cpp:705
+#: ui/kis_layer_manager.cc:855 ui/KisApplication.cpp:537
+#: ui/KisApplication.cpp:540 ui/KisApplication.cpp:565
+#: ui/KisApplication.cpp:591 ui/KisApplication.cpp:612 ui/KisDocument.cpp:623
+#: ui/KisDocument.cpp:625 ui/KisDocument.cpp:1098 ui/KisDocument.cpp:1144
+#: ui/KisDocument.cpp:1285 ui/KisDocument.cpp:1940 ui/KisDocument.cpp:1943
+#: ui/KisImportExportManager.cpp:243 ui/KisImportExportManager.cpp:254
+#: ui/KisImportExportManager.cpp:552 ui/KisMainWindow.cpp:705
 #: ui/KisMainWindow.cpp:769 ui/KisMainWindow.cpp:783 ui/KisMainWindow.cpp:1475
 #: ui/KisMainWindow.cpp:1621 ui/KisMainWindow.cpp:1633
 #: ui/KisTemplateCreateDia.cpp:303 ui/KisView.cpp:813
@@ -3333,28 +3333,32 @@ msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr "विकल्प"
 
-#: image/kis_layer_utils.cpp:698
+#: image/kis_layer_utils.cpp:647
+msgid "Copy of"
+msgstr ""
+
+#: image/kis_layer_utils.cpp:708
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "चयन बढाउ"
 
-#: image/kis_layer_utils.cpp:779
+#: image/kis_layer_utils.cpp:789
 #, fuzzy
 #| msgid "Selection"
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "चुनाव"
 
-#: image/kis_layer_utils.cpp:802
+#: image/kis_layer_utils.cpp:812
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "चित्र चपटा करू"
 
-#: image/kis_layer_utils.cpp:810
+#: image/kis_layer_utils.cpp:820
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
@@ -3370,7 +3374,7 @@ msgstr "प्रगतिशील"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2329 ui/KisMainWindow.cpp:905 ui/KisPart.cpp:585
+#: ui/KisDocument.cpp:2359 ui/KisMainWindow.cpp:905 ui/KisPart.cpp:585
 #: ui/KisPart.cpp:606 ui/kra/kis_kra_saver.cpp:76
 msgid "Unnamed"
 msgstr "बेनाम"
@@ -6204,8 +6208,56 @@ msgctxt "action"
 msgid "Copy Selection to New Layer"
 msgstr "चुनाव"
 
-#. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: Action (copy_layer_clipboard), Actions (Layers), ActionCollection (Krita)
 #: krita.action:2470
+#, fuzzy
+#| msgid "Add Layer"
+msgctxt "action"
+msgid "Copy Layer"
+msgstr "परत जोड़ू"
+
+#. i18n: context: Action (copy_layer_clipboard), Actions (Layers), ActionCollection (Krita)
+#: krita.action:2472
+#, fuzzy
+#| msgid "Grow Selection"
+msgctxt "action"
+msgid "Copy layer to clipboard"
+msgstr "चयन बढाउ"
+
+#. i18n: context: Action (cut_layer_clipboard), Actions (Layers), ActionCollection (Krita)
+#: krita.action:2483
+#, fuzzy
+#| msgid "Duplicate"
+msgctxt "action"
+msgid "Cut Layer"
+msgstr "नकल"
+
+#. i18n: context: Action (cut_layer_clipboard), Actions (Layers), ActionCollection (Krita)
+#: krita.action:2485
+#, fuzzy
+#| msgid "Grow Selection"
+msgctxt "action"
+msgid "Cut layer to clipboard"
+msgstr "चयन बढाउ"
+
+#. i18n: context: Action (paste_layer_from_clipboard), Actions (Layers), ActionCollection (Krita)
+#: krita.action:2496
+#, fuzzy
+#| msgid "Rotate Layer"
+msgctxt "action"
+msgid "Paste Layer"
+msgstr "परत घुमाबू"
+
+#. i18n: context: Action (paste_layer_from_clipboard), Actions (Layers), ActionCollection (Krita)
+#: krita.action:2498
+#, fuzzy
+#| msgid "Create"
+msgctxt "action"
+msgid "Paste layer from clipboard"
+msgstr "बनाबू"
+
+#. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
+#: krita.action:2509
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "action"
@@ -6213,7 +6265,7 @@ msgid "&Save Layer/Mask..."
 msgstr "परत जोड़ू"
 
 #. i18n: context: Action (save_node_as_image), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2472
+#: krita.action:2511
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "action"
@@ -6221,7 +6273,7 @@ msgid "Save Layer/Mask"
 msgstr "परत जोड़ू"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2483
+#: krita.action:2522
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "action"
@@ -6229,7 +6281,7 @@ msgid "Save &Group Layers..."
 msgstr "परत जोड़ू"
 
 #. i18n: context: Action (save_groups_as_images), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2485
+#: krita.action:2524
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "action"
@@ -6237,7 +6289,7 @@ msgid "Save Group Layers"
 msgstr "परत जोड़ू"
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2496
+#: krita.action:2535
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6245,7 +6297,7 @@ msgid "I&mport Layer..."
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (import_layer_from_file), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2498
+#: krita.action:2537
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6253,7 +6305,7 @@ msgid "Import Layer"
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2509
+#: krita.action:2548
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6261,7 +6313,7 @@ msgid "&as Paint Layer..."
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (import_layer_as_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2511
+#: krita.action:2550
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6269,7 +6321,7 @@ msgid "as Paint Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2522
+#: krita.action:2561
 #, fuzzy
 #| msgid "Transparent"
 msgctxt "action"
@@ -6277,7 +6329,7 @@ msgid "as &Transparency Mask..."
 msgstr "पारदर्शी"
 
 #. i18n: context: Action (import_layer_as_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2524
+#: krita.action:2563
 #, fuzzy
 #| msgid "Transparent"
 msgctxt "action"
@@ -6285,7 +6337,7 @@ msgid "as Transparency Mask"
 msgstr "पारदर्शी"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2535
+#: krita.action:2574
 #, fuzzy
 #| msgid "&Filter:"
 msgctxt "action"
@@ -6293,7 +6345,7 @@ msgid "as &Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
 #. i18n: context: Action (import_layer_as_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2537
+#: krita.action:2576
 #, fuzzy
 #| msgid "&Filter:"
 msgctxt "action"
@@ -6301,7 +6353,7 @@ msgid "as Filter Mask"
 msgstr "फिल्टर: (&F)"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2548
+#: krita.action:2587
 #, fuzzy
 #| msgid "Selection"
 msgctxt "action"
@@ -6309,7 +6361,7 @@ msgid "as &Selection Mask..."
 msgstr "चुनाव"
 
 #. i18n: context: Action (import_layer_as_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2550
+#: krita.action:2589
 #, fuzzy
 #| msgid "Selection"
 msgctxt "action"
@@ -6317,7 +6369,7 @@ msgid "as Selection Mask"
 msgstr "चुनाव"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2561
+#: krita.action:2600
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6325,7 +6377,7 @@ msgid "to &Paint Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (convert_to_paint_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2563
+#: krita.action:2602
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6333,7 +6385,7 @@ msgid "to Paint Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2574
+#: krita.action:2613
 #, fuzzy
 #| msgid "Transparent"
 msgctxt "action"
@@ -6341,7 +6393,7 @@ msgid "to &Transparency Mask"
 msgstr "पारदर्शी"
 
 #. i18n: context: Action (convert_to_transparency_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2576
+#: krita.action:2615
 #, fuzzy
 #| msgid "Transparent"
 msgctxt "action"
@@ -6349,7 +6401,7 @@ msgid "to Transparency Mask"
 msgstr "पारदर्शी"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2587
+#: krita.action:2626
 #, fuzzy
 #| msgid "&Filter:"
 msgctxt "action"
@@ -6357,7 +6409,7 @@ msgid "to &Filter Mask..."
 msgstr "फिल्टर: (&F)"
 
 #. i18n: context: Action (convert_to_filter_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2589
+#: krita.action:2628
 #, fuzzy
 #| msgid "&Filter:"
 msgctxt "action"
@@ -6365,7 +6417,7 @@ msgid "to Filter Mask"
 msgstr "फिल्टर: (&F)"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2600
+#: krita.action:2639
 #, fuzzy
 #| msgid "Selection"
 msgctxt "action"
@@ -6373,7 +6425,7 @@ msgid "to &Selection Mask"
 msgstr "चुनाव"
 
 #. i18n: context: Action (convert_to_selection_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2602
+#: krita.action:2641
 #, fuzzy
 #| msgid "Selection"
 msgctxt "action"
@@ -6381,7 +6433,7 @@ msgid "to Selection Mask"
 msgstr "चुनाव"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2613
+#: krita.action:2652
 #, fuzzy
 #| msgid "Options"
 msgctxt "action"
@@ -6389,7 +6441,7 @@ msgid "&Alpha into Mask"
 msgstr "विकल्प"
 
 #. i18n: context: Action (split_alpha_into_mask), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2615
+#: krita.action:2654
 #, fuzzy
 #| msgid "Options"
 msgctxt "action"
@@ -6397,7 +6449,7 @@ msgid "Alpha into Mask"
 msgstr "विकल्प"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2626
+#: krita.action:2665
 #, fuzzy
 #| msgid "Color to Alpha"
 msgctxt "action"
@@ -6405,7 +6457,7 @@ msgid "&Write as Alpha"
 msgstr "अल्फामे रंग"
 
 #. i18n: context: Action (split_alpha_write), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2628
+#: krita.action:2667
 #, fuzzy
 #| msgid "Color to Alpha"
 msgctxt "action"
@@ -6413,7 +6465,7 @@ msgid "Write as Alpha"
 msgstr "अल्फामे रंग"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2639
+#: krita.action:2678
 #, fuzzy
 #| msgid "Scales"
 msgctxt "action"
@@ -6421,7 +6473,7 @@ msgid "&Save Merged..."
 msgstr "मापक"
 
 #. i18n: context: Action (split_alpha_save_merged), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2641
+#: krita.action:2680
 #, fuzzy
 #| msgid "Scales"
 msgctxt "action"
@@ -6429,7 +6481,7 @@ msgid "Save Merged"
 msgstr "मापक"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2652
+#: krita.action:2691
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6437,7 +6489,7 @@ msgid "Split Layer..."
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (layersplit), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2654
+#: krita.action:2693
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "action"
@@ -6445,7 +6497,7 @@ msgid "Split Layer"
 msgstr "परत मापू"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2665
+#: krita.action:2704
 #, fuzzy
 #| msgid "Horizontal:"
 msgctxt "action"
@@ -6453,7 +6505,7 @@ msgid "Mirror Layer Hori&zontally"
 msgstr "क्षैतिजः"
 
 #. i18n: context: Action (mirrorNodeX), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2667
+#: krita.action:2706
 #, fuzzy
 #| msgid "Horizontal:"
 msgctxt "action"
@@ -6461,7 +6513,7 @@ msgid "Mirror Layer Horizontally"
 msgstr "क्षैतिजः"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2678
+#: krita.action:2717
 #, fuzzy
 #| msgid "Vertical:"
 msgctxt "action"
@@ -6469,7 +6521,7 @@ msgid "Mirror Layer &Vertically"
 msgstr "उर्ध्वाधर"
 
 #. i18n: context: Action (mirrorNodeY), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2680
+#: krita.action:2719
 #, fuzzy
 #| msgid "Vertical:"
 msgctxt "action"
@@ -6477,7 +6529,7 @@ msgid "Mirror Layer Vertically"
 msgstr "उर्ध्वाधर"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2691
+#: krita.action:2730
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6485,7 +6537,7 @@ msgid "&Rotate Layer..."
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotatelayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2693
+#: krita.action:2732
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6493,7 +6545,7 @@ msgid "Rotate Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2704
+#: krita.action:2743
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6501,7 +6553,7 @@ msgid "Rotate &Layer 90° to the Right"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotateLayerCW90), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2706
+#: krita.action:2745
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6509,7 +6561,7 @@ msgid "Rotate Layer 90° to the Right"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2717
+#: krita.action:2756
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6517,7 +6569,7 @@ msgid "Rotate Layer &90° to the Left"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotateLayerCCW90), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2719
+#: krita.action:2758
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6525,7 +6577,7 @@ msgid "Rotate Layer 90° to the Left"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2730
+#: krita.action:2769
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6533,7 +6585,7 @@ msgid "Rotate Layer &180°"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rotateLayer180), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2732
+#: krita.action:2771
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6541,7 +6593,7 @@ msgid "Rotate Layer 180°"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2743
+#: krita.action:2782
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "action"
@@ -6549,7 +6601,7 @@ msgid "Scale &Layer to new Size..."
 msgstr "परत मापू"
 
 #. i18n: context: Action (layersize), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2745
+#: krita.action:2784
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "action"
@@ -6557,7 +6609,7 @@ msgid "Scale Layer to new Size"
 msgstr "परत मापू"
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2756
+#: krita.action:2795
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6565,7 +6617,7 @@ msgid "&Shear Layer..."
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (shearlayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2758
+#: krita.action:2797
 #, fuzzy
 #| msgid "Scale factor"
 msgctxt "action"
@@ -6573,7 +6625,7 @@ msgid "Shear Layer"
 msgstr "कारक मापू"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2769
+#: krita.action:2808
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6581,7 +6633,7 @@ msgid "&Offset Layer..."
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (offsetlayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2771
+#: krita.action:2810
 #, fuzzy
 #| msgid "Offset"
 msgctxt "action"
@@ -6589,13 +6641,13 @@ msgid "Offset Layer"
 msgstr "ऑफसेट"
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2782
+#: krita.action:2821
 msgctxt "action"
 msgid "Clones &Array..."
 msgstr ""
 
 #. i18n: context: Action (clones_array), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2784
+#: krita.action:2823
 #, fuzzy
 #| msgid "Add Layer"
 msgctxt "action"
@@ -6603,7 +6655,7 @@ msgid "Clones Array"
 msgstr "परत जोड़ू"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2795
+#: krita.action:2834
 #, fuzzy
 #| msgid "Edit Palette"
 msgctxt "action"
@@ -6611,7 +6663,7 @@ msgid "&Edit metadata..."
 msgstr "पैलेट संपादित करू"
 
 #. i18n: context: Action (EditLayerMetaData), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2797
+#: krita.action:2836
 #, fuzzy
 #| msgid "Metadata"
 msgctxt "action"
@@ -6619,7 +6671,7 @@ msgid "Edit metadata"
 msgstr "मेटाडाटा"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2808
+#: krita.action:2847
 #, fuzzy
 #| msgid "Histogram"
 msgctxt "action"
@@ -6627,7 +6679,7 @@ msgid "&Histogram..."
 msgstr "आयतचित्र"
 
 #. i18n: context: Action (histogram), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2810
+#: krita.action:2849
 #, fuzzy
 #| msgid "Histogram"
 msgctxt "action"
@@ -6635,7 +6687,7 @@ msgid "Histogram"
 msgstr "आयतचित्र"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2821
+#: krita.action:2860
 #, fuzzy
 #| msgid "Colorspace"
 msgctxt "action"
@@ -6643,7 +6695,7 @@ msgid "&Convert Layer Color Space..."
 msgstr "रँग स्पेस"
 
 #. i18n: context: Action (layercolorspaceconversion), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2823
+#: krita.action:2862
 #, fuzzy
 #| msgid "Colorspace"
 msgctxt "action"
@@ -6651,7 +6703,7 @@ msgid "Convert Layer Color Space"
 msgstr "रँग स्पेस"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2834
+#: krita.action:2873
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6659,7 +6711,7 @@ msgid "&Merge with Layer Below"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (merge_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2836
+#: krita.action:2875
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6667,7 +6719,7 @@ msgid "Merge with Layer Below"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2847
+#: krita.action:2886
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6675,7 +6727,7 @@ msgid "&Flatten Layer"
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (flatten_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2849
+#: krita.action:2888
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6683,7 +6735,7 @@ msgid "Flatten Layer"
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (rasterize_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2860
+#: krita.action:2899
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6691,7 +6743,7 @@ msgid "Ras&terize Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (rasterize_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2862
+#: krita.action:2901
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "action"
@@ -6699,7 +6751,7 @@ msgid "Rasterize Layer"
 msgstr "परत घुमाबू"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2873
+#: krita.action:2912
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6707,7 +6759,7 @@ msgid "Flatten ima&ge"
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (flatten_image), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2875
+#: krita.action:2914
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "action"
@@ -6715,7 +6767,7 @@ msgid "Flatten image"
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (merge_selected_layers), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2886
+#: krita.action:2925
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "action"
@@ -6723,7 +6775,7 @@ msgid "&Merge Selected Layers"
 msgstr "परत मापू"
 
 #. i18n: context: Action (merge_selected_layers), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2888
+#: krita.action:2927
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "action"
@@ -6731,7 +6783,7 @@ msgid "Merge Selected Layers"
 msgstr "परत मापू"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2897
+#: krita.action:2936
 #, fuzzy
 #| msgid "Layer Size"
 msgctxt "action"
@@ -6739,7 +6791,7 @@ msgid "La&yer Style..."
 msgstr "परत आकार"
 
 #. i18n: context: Action (layer_style), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2899
+#: krita.action:2938
 #, fuzzy
 #| msgid "Layer Size"
 msgctxt "action"
@@ -6750,7 +6802,7 @@ msgstr "परत आकार"
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/previous), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2910 krita.action:2912
+#: krita.action:2949 krita.action:2951
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6761,7 +6813,7 @@ msgstr "परत घसकाबू"
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (LayerGroupSwitcher/next), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2923 krita.action:2925
+#: krita.action:2962 krita.action:2964
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6772,7 +6824,7 @@ msgstr "परत घसकाबू"
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (RenameCurrentLayer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2936 krita.action:2938
+#: krita.action:2975 krita.action:2977
 #, fuzzy
 #| msgid "Duplicate"
 msgctxt "action"
@@ -6780,7 +6832,7 @@ msgid "Rename current layer"
 msgstr "नकल"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2949
+#: krita.action:2988
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "action"
@@ -6788,7 +6840,7 @@ msgid "&Remove Layer"
 msgstr "परत हटाबू"
 
 #. i18n: context: Action (remove_layer), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2951
+#: krita.action:2990
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "action"
@@ -6799,7 +6851,7 @@ msgstr "परत हटाबू"
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (move_layer_up), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2962 krita.action:2964
+#: krita.action:3001 krita.action:3003
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6807,7 +6859,7 @@ msgid "Move Layer or Mask Up"
 msgstr "परत घसकाबू"
 
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2973
+#: krita.action:3012
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6815,7 +6867,7 @@ msgid "Move Layer or Mask down"
 msgstr "परत घसकाबू"
 
 #. i18n: context: Action (move_layer_down), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2975
+#: krita.action:3014
 #, fuzzy
 #| msgid "Move Layer"
 msgctxt "action"
@@ -6826,7 +6878,7 @@ msgstr "परत घसकाबू"
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2984 kritamenu.action:713
+#: krita.action:3023 kritamenu.action:713
 #, fuzzy
 #| msgid "Properties..."
 msgctxt "action"
@@ -6837,7 +6889,7 @@ msgstr "विशेषतासभ..."
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita.action:2986 kritamenu.action:715
+#: krita.action:3025 kritamenu.action:715
 #, fuzzy
 #| msgid "Properties..."
 msgctxt "action"
@@ -6852,7 +6904,7 @@ msgid "&Canvas"
 msgstr "क्षैतिजः"
 
 #. i18n: ectx: Menu (Rotate)
-#: krita.rc:115 krita.rc:178 plugins/extensions/rotateimage/rotateimage.rc:5
+#: krita.rc:115 krita.rc:182 plugins/extensions/rotateimage/rotateimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:18
 #, fuzzy
 #| msgid "Rotate Layer"
@@ -6875,46 +6927,46 @@ msgstr "निर्यात"
 
 #. i18n: ectx: Menu (LayerConvert)
 #: krita.rc:160
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:546
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:547
 #, fuzzy
 #| msgid "Invert"
 msgid "&Convert"
 msgstr "उनटू"
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
-#: krita.rc:168
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:552
+#: krita.rc:172
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:553
 #, fuzzy
 #| msgid "Color to Alpha"
 msgid "S&plit Alpha"
 msgstr "अल्फामे रंग"
 
 #. i18n: ectx: Menu (Recording)
-#: krita.rc:251 plugins/extensions/bigbrother/bigbrother.rc:5
+#: krita.rc:255 plugins/extensions/bigbrother/bigbrother.rc:5
 msgid "Recording"
 msgstr "रिकॉर्ड कए रहल अछि"
 
 #. i18n: ectx: Menu (Macros)
-#: krita.rc:256 plugins/extensions/bigbrother/bigbrother.rc:9
+#: krita.rc:260 plugins/extensions/bigbrother/bigbrother.rc:9
 msgid "Macros"
 msgstr "मेक्रोज़"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:262
+#: krita.rc:266
 #, fuzzy
 #| msgid "Settings"
 msgid "Setti&ngs"
 msgstr "जमावट"
 
 #. i18n: ectx: Menu (help)
-#: krita.rc:283
+#: krita.rc:287
 #, fuzzy
 #| msgid "&Hide"
 msgid "&Help"
 msgstr "नुकाबू (&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: krita.rc:297 ui/kis_file_layer.cpp:98
+#: krita.rc:301 ui/kis_file_layer.cpp:98
 #, fuzzy
 #| msgid "&Filter:"
 msgid "File"
@@ -9046,7 +9098,7 @@ msgstr "कोण"
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:118
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:874
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1009
-#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:112
+#: ui/KisColorsetChooser.cpp:112
 msgid "Columns:"
 msgstr ""
 
@@ -10502,10 +10554,6 @@ msgid ""
 "interface> docker"
 msgstr ""
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:541
-msgid "&Merge with Layer Below"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:52
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
@@ -10923,38 +10971,9 @@ msgstr ""
 msgid "Overview"
 msgstr "सारांश"
 
-#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:97
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
-#: ui/KisMainWindow.cpp:670 ui/widgets/kis_workspace_chooser.cpp:93
-#, fuzzy
-#| msgid "Wave"
-msgid "Save"
-msgstr "लहर"
-
-#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:101
-#: ui/widgets/kis_workspace_chooser.cpp:97
-msgid "Insert name"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
-#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:110
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:190
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:106
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:91
-#: ui/forms/wdgautogradient.ui:25 ui/forms/wdgpaintopsettings.ui:177
-msgid "Name:"
-msgstr "नाम:"
-
-#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:141
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:118
+#: ui/KisColorsetChooser.cpp:141
 msgid "Palette"
-msgstr "रंग-पट्टिका"
-
-#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:152
-#, fuzzy, kde-format
-#| msgid "Palette"
-msgid "Palette %1"
 msgstr "रंग-पट्टिका"
 
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:166
@@ -11032,6 +11051,17 @@ msgstr ""
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:189
 msgid "Taskset Name"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:190
+#: plugins/formats/brush/wdg_export_gih.ui:40
+#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:106
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:91
+#: ui/forms/wdgautogradient.ui:25 ui/forms/wdgpaintopsettings.ui:177
+#: ui/KisColorsetChooser.cpp:110
+msgid "Name:"
+msgstr "नाम:"
 
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:211
 msgid "Taskset"
@@ -11249,7 +11279,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
 #. i18n: ectx: property (text), widget (QCheckBox, previewCheckBox)
 #: plugins/extensions/gmic/wdg_gmic_input_output.ui:27
-#: plugins/tools/defaulttools/kis_tool_line.cc:112
+#: plugins/tools/defaulttools/kis_tool_line.cc:113
 #: ui/forms/kis_previewwidgetbase.ui:32 ui/forms/wdgfilterdialog.ui:63
 msgid "Preview"
 msgstr "पूर्वावलोकन"
@@ -12511,6 +12541,14 @@ msgstr "रंगपट्टिका"
 #| msgid "Colorspace"
 msgid "Workspaces"
 msgstr "रँग स्पेस"
+
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
+#: ui/KisColorsetChooser.cpp:97 ui/KisMainWindow.cpp:670
+#: ui/widgets/kis_workspace_chooser.cpp:93
+#, fuzzy
+#| msgid "Wave"
+msgid "Save"
+msgstr "लहर"
 
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:70
 #, fuzzy
@@ -14264,6 +14302,150 @@ msgstr "नरम"
 #| msgid "Vertical:"
 msgid "Vertical Wave"
 msgstr "उर्ध्वाधर"
+
+#: plugins/formats/brush/kis_brush_export.cpp:103
+#, fuzzy
+#| msgid "Options"
+msgid "Brush Tip Export Options"
+msgstr "विकल्प"
+
+#: plugins/formats/brush/KisAnimatedBrushAnnotation.cpp:29
+msgid "Brush selection information for animated brushes"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgStroke)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgColorOverlay)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBlendingOptions)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSatin)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgStylesSelector)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgStylesDialog)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgGradientOverlay)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPatternOverlay)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgContour)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDropShadow)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgInnerGlow)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgTexture)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBevelAndEmboss)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDlgPngImport)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgExportGih)
+#: plugins/formats/brush/wdg_export_gih.ui:14 ui/forms/wdgdlgpngimport.ui:14
+#: ui/layerstyles/wdgBevelAndEmboss.ui:14
+#: ui/layerstyles/wdgblendingoptions.ui:14
+#: ui/layerstyles/WdgColorOverlay.ui:14 ui/layerstyles/wdgContour.ui:14
+#: ui/layerstyles/wdgdropshadow.ui:14 ui/layerstyles/WdgGradientOverlay.ui:14
+#: ui/layerstyles/wdgInnerGlow.ui:14 ui/layerstyles/wdglayerstyles.ui:14
+#: ui/layerstyles/WdgPatternOverlay.ui:14 ui/layerstyles/WdgSatin.ui:14
+#: ui/layerstyles/WdgStroke.ui:14 ui/layerstyles/wdgstylesselector.ui:14
+#: ui/layerstyles/wdgTexture.ui:14
+#, fuzzy
+#| msgid "Form"
+msgid "Form"
+msgstr "फार्म"
+
+#. i18n: ectx: property (text), widget (QLabel, spacingLbl)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
+#. i18n: ectx: property (text), widget (QLabel, lblSpacing)
+#: plugins/formats/brush/wdg_export_gih.ui:30
+#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:333
+#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:110
+#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:96
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:81
+#: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:90
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:125
+#: plugins/paintops/spray/wdgsprayoptions.ui:138
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1735
+msgid "Spacing:"
+msgstr "अंतरण:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, colorAsMask)
+#. i18n: ectx: property (text), widget (QCheckBox, colorAsmask)
+#: plugins/formats/brush/wdg_export_gih.ui:50
+#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:116
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:101
+#, fuzzy
+#| msgid "Create"
+msgid "Create mask from color"
+msgstr "बनाबू"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/formats/brush/wdg_export_gih.ui:65
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:116
+#, fuzzy
+#| msgid "Brush"
+msgid "Brush Style"
+msgstr "ब्रश"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, labelStyle)
+#: plugins/formats/brush/wdg_export_gih.ui:85
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:143
+#: plugins/tools/tool_text/wdgtextoptions.ui:71
+msgid "Style:"
+msgstr "शैली:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
+#: plugins/formats/brush/wdg_export_gih.ui:102
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:160
+msgid "Regular"
+msgstr "नियमित"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
+#: plugins/formats/brush/wdg_export_gih.ui:107
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:165
+msgid "Animated"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: plugins/formats/brush/wdg_export_gih.ui:121
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:179
+#, fuzzy
+#| msgid "Selection"
+msgid "Selection mode:"
+msgstr "चुनाव"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelectionMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
+#: plugins/formats/brush/wdg_export_gih.ui:144
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:202
+msgid "Constant"
+msgstr "स्थिर"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelectionMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
+#: plugins/formats/brush/wdg_export_gih.ui:149
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:207
+msgid "Random"
+msgstr "क्रमहीन"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelectionMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
+#: plugins/formats/brush/wdg_export_gih.ui:154
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:212
+msgid "Incremental"
+msgstr "संवर्द्धन"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelectionMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
+#. i18n: ectx: property (text), widget (QToolButton, liquifySizePressureBox)
+#. i18n: ectx: property (text), widget (QToolButton, liquifyAmountPressureBox)
+#: plugins/formats/brush/wdg_export_gih.ui:159
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:217
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1869
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1885
+msgid "Pressure"
+msgstr "दबाव"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelectionMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
+#: plugins/formats/brush/wdg_export_gih.ui:164
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:222
+#, fuzzy
+#| msgid "Regular"
+msgid "Angular"
+msgstr "नियमित"
 
 #: plugins/formats/exr/exr_converter.cc:322
 #, kde-format
@@ -17247,22 +17429,6 @@ msgstr "क्रमहीन"
 msgid "Spikes:"
 msgstr "स्पाइक:"
 
-#. i18n: ectx: property (text), widget (QLabel, spacingLbl)
-#. i18n: ectx: property (text), widget (QLabel, label_11)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
-#. i18n: ectx: property (text), widget (QLabel, lblSpacing)
-#: plugins/paintops/libpaintop/forms/wdgautobrush.ui:333
-#: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:110
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:96
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:81
-#: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:90
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:125
-#: plugins/paintops/spray/wdgsprayoptions.ui:138
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1735
-msgid "Spacing:"
-msgstr "अंतरण:"
-
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:95
 msgid ""
@@ -17313,15 +17479,6 @@ msgstr "घुमाव"
 #: plugins/paintops/spray/wdgsprayoptions.ui:229
 msgid "Jitter Movement"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, colorAsMask)
-#. i18n: ectx: property (text), widget (QCheckBox, colorAsmask)
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:116
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:101
-#, fuzzy
-#| msgid "Create"
-msgid "Create mask from color"
-msgstr "बनाबू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, randomHSVCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:29
@@ -17421,69 +17578,6 @@ msgstr "जमावट"
 #: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:205
 msgid "Share curve across all settings"
 msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:116
-#, fuzzy
-#| msgid "Brush"
-msgid "Brush Style"
-msgstr "ब्रश"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#. i18n: ectx: property (text), widget (QLabel, labelStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:143
-#: plugins/tools/tool_text/wdgtextoptions.ui:71
-msgid "Style:"
-msgstr "शैली:"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:160
-msgid "Regular"
-msgstr "नियमित"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:165
-msgid "Animated"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:179
-#, fuzzy
-#| msgid "Selection"
-msgid "Selection mode:"
-msgstr "चुनाव"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:202
-msgid "Constant"
-msgstr "स्थिर"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:207
-msgid "Random"
-msgstr "क्रमहीन"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:212
-msgid "Incremental"
-msgstr "संवर्द्धन"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#. i18n: ectx: property (text), widget (QToolButton, liquifySizePressureBox)
-#. i18n: ectx: property (text), widget (QToolButton, liquifyAmountPressureBox)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:217
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1869
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:1885
-msgid "Pressure"
-msgstr "दबाव"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:222
-#, fuzzy
-#| msgid "Regular"
-msgid "Angular"
-msgstr "नियमित"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxSmudgeMode)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:43
@@ -18844,13 +18938,13 @@ msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr "रेखा"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:109
+#: plugins/tools/defaulttools/kis_tool_line.cc:110
 #, fuzzy
 #| msgid "Color"
 msgid "Use sensors"
 msgstr "रंग"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:340
+#: plugins/tools/defaulttools/kis_tool_line.cc:341
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
@@ -20509,7 +20603,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: ui/forms/KisOpenPaneBase.ui:67 ui/input/kis_tool_invocation_action.cpp:53
-#: ui/kis_animation_exporter.cpp:43 ui/kis_clipboard.cc:261 ui/KisView.cpp:494
+#: ui/kis_animation_exporter.cpp:43 ui/kis_clipboard.cc:263 ui/KisView.cpp:494
 msgid "Cancel"
 msgstr "रद करू"
 
@@ -21185,33 +21279,6 @@ msgstr "रिसॉल्यूशन:"
 #| msgid "&Name:"
 msgid "Layer Name:"
 msgstr "नाम (&N):"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgStroke)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgColorOverlay)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBlendingOptions)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSatin)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgStylesSelector)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgStylesDialog)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgGradientOverlay)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPatternOverlay)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgContour)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDropShadow)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgInnerGlow)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgTexture)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBevelAndEmboss)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDlgPngImport)
-#: ui/forms/wdgdlgpngimport.ui:14 ui/layerstyles/wdgBevelAndEmboss.ui:14
-#: ui/layerstyles/wdgblendingoptions.ui:14
-#: ui/layerstyles/WdgColorOverlay.ui:14 ui/layerstyles/wdgContour.ui:14
-#: ui/layerstyles/wdgdropshadow.ui:14 ui/layerstyles/WdgGradientOverlay.ui:14
-#: ui/layerstyles/wdgInnerGlow.ui:14 ui/layerstyles/wdglayerstyles.ui:14
-#: ui/layerstyles/WdgPatternOverlay.ui:14 ui/layerstyles/WdgSatin.ui:14
-#: ui/layerstyles/WdgStroke.ui:14 ui/layerstyles/wdgstylesselector.ui:14
-#: ui/layerstyles/wdgTexture.ui:14
-#, fuzzy
-#| msgid "Form"
-msgid "Form"
-msgstr "फार्म"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
 #: ui/forms/wdgdlgpngimport.ui:20 ui/forms/wdglayerproperties.ui:111
@@ -22882,12 +22949,12 @@ msgstr ""
 msgid "Last Used"
 msgstr "नामांकित रंग "
 
-#: ui/kis_clipboard.cc:257
+#: ui/kis_clipboard.cc:259
 msgctxt "@title:window"
 msgid "Pasting data from simple source"
 msgstr ""
 
-#: ui/kis_clipboard.cc:258
+#: ui/kis_clipboard.cc:260
 msgid ""
 "The image data you are trying to paste has no color profile information.\n"
 "\n"
@@ -22900,11 +22967,11 @@ msgid ""
 "How do you want to interpret these data?"
 msgstr ""
 
-#: ui/kis_clipboard.cc:259
+#: ui/kis_clipboard.cc:261
 msgid "As &Web"
 msgstr ""
 
-#: ui/kis_clipboard.cc:260
+#: ui/kis_clipboard.cc:262
 msgid "As on &Monitor"
 msgstr ""
 
@@ -23092,104 +23159,128 @@ msgstr "फिल्टर: (&F)"
 msgid "Mirror View"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_juggler_compressed.cpp:448
-msgid "Copy of"
-msgstr ""
+#: ui/kis_node_manager.cpp:359
+#, fuzzy
+#| msgid "Polyline"
+msgctxt "(qtundo-format)"
+msgid "Move Nodes"
+msgstr "पोलीलैन"
 
-#: ui/kis_node_manager.cpp:490
+#: ui/kis_node_manager.cpp:366
+#, fuzzy
+#| msgid "Polyline"
+msgctxt "(qtundo-format)"
+msgid "Copy Nodes"
+msgstr "पोलीलैन"
+
+#: ui/kis_node_manager.cpp:373
+#, fuzzy
+#| msgid "Source"
+msgctxt "(qtundo-format)"
+msgid "Add Nodes"
+msgstr "श्रोत"
+
+#: ui/kis_node_manager.cpp:511
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "चयन बढाउ"
 
-#: ui/kis_node_manager.cpp:677
+#: ui/kis_node_manager.cpp:703
 #, fuzzy
 #| msgid "Duplicate"
 msgctxt "(qtundo-format)"
 msgid "Duplicate Nodes"
 msgstr "नकल"
 
-#: ui/kis_node_manager.cpp:699
+#: ui/kis_node_manager.cpp:725
 #, fuzzy
 #| msgid "Polyline"
 msgctxt "(qtundo-format)"
 msgid "Raise Nodes"
 msgstr "पोलीलैन"
 
-#: ui/kis_node_manager.cpp:706
+#: ui/kis_node_manager.cpp:732
 #, fuzzy
 #| msgid "Polyline"
 msgctxt "(qtundo-format)"
 msgid "Lower Nodes"
 msgstr "पोलीलैन"
 
-#: ui/kis_node_manager.cpp:724
+#: ui/kis_node_manager.cpp:750
 #, fuzzy
 #| msgid "Polyline"
 msgctxt "(qtundo-format)"
 msgid "Remove Nodes"
 msgstr "पोलीलैन"
 
-#: ui/kis_node_manager.cpp:740
+#: ui/kis_node_manager.cpp:766
 #, fuzzy
 #| msgid "Vertical:"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "उर्ध्वाधर"
 
-#: ui/kis_node_manager.cpp:742
+#: ui/kis_node_manager.cpp:768
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:753
+#: ui/kis_node_manager.cpp:779
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:755
+#: ui/kis_node_manager.cpp:781
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "चित्र काटू"
 
-#: ui/kis_node_manager.cpp:873
+#: ui/kis_node_manager.cpp:899
 #, fuzzy, kde-format
 #| msgid "Export"
 msgid "Export \"%1\""
 msgstr "निर्यात"
 
-#: ui/kis_node_manager.cpp:947
+#: ui/kis_node_manager.cpp:973
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:977
+#: ui/kis_node_manager.cpp:1003
 #, fuzzy, kde-format
 #| msgid "Layer Size"
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "परत आकार"
 
-#: ui/kis_node_manager.cpp:978
+#: ui/kis_node_manager.cpp:1004
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1009
+#: ui/kis_node_manager.cpp:1035
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "परत घुमाबू"
+
+#: ui/kis_node_manager.cpp:1083
+#, fuzzy
+#| msgid "Duplicate"
+msgctxt "(qtundo-format)"
+msgid "Cut Nodes"
+msgstr "नकल"
 
 #: ui/kis_paintop_box.cc:112
 msgid "Painter's Toolchest"
@@ -23264,7 +23355,7 @@ msgctxt "(qtundo-format)"
 msgid "Stroke Shapes"
 msgstr "ब्रश"
 
-#: ui/kis_splash_screen.cpp:61
+#: ui/kis_splash_screen.cpp:60
 #, kde-format
 msgid ""
 "<html><head/><body><p align=\"center\"><span style=\" color:%1;\"><b>Links</"
@@ -23284,13 +23375,13 @@ msgid ""
 "html>"
 msgstr ""
 
-#: ui/kis_splash_screen.cpp:79
+#: ui/kis_splash_screen.cpp:78
 #, fuzzy, kde-format
 #| msgid "Resolution:"
 msgid "Version: %1"
 msgstr "रिसॉल्यूशन:"
 
-#: ui/kis_splash_screen.cpp:85
+#: ui/kis_splash_screen.cpp:84
 #, kde-format
 msgid ""
 "<html><head/><body><p align=\"center\"><b><span style=\" color:%1;\">Recent "
@@ -23385,22 +23476,40 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr "ज़ूम इन"
 
-#: ui/KisApplication.cpp:245
+#: ui/KisApplication.cpp:192 ui/opengl/kis_opengl_canvas2.cpp:264
+#, fuzzy
+#| msgid "Warning!"
+msgctxt "@title:window"
+msgid "Krita: Warning"
+msgstr "चेतावनी!"
+
+#: ui/KisApplication.cpp:193
+msgid ""
+"You are running a 32 bits build on a 64 bits Windows.\n"
+"This is not recommended.\n"
+"Please download and install the x64 build instead."
+msgstr ""
+
+#: ui/KisApplication.cpp:345
+msgid "Mimetype not found, try using the -mimetype option"
+msgstr ""
+
+#: ui/KisApplication.cpp:538
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: ui/KisApplication.cpp:248
+#: ui/KisApplication.cpp:541
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: ui/KisApplication.cpp:273
+#: ui/KisApplication.cpp:566
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: ui/KisApplication.cpp:299
+#: ui/KisApplication.cpp:592
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -23408,26 +23517,8 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: ui/KisApplication.cpp:320
+#: ui/KisApplication.cpp:613
 msgid "Do you want to clear the settings file?"
-msgstr ""
-
-#: ui/KisApplication.cpp:336 ui/opengl/kis_opengl_canvas2.cpp:264
-#, fuzzy
-#| msgid "Warning!"
-msgctxt "@title:window"
-msgid "Krita: Warning"
-msgstr "चेतावनी!"
-
-#: ui/KisApplication.cpp:337
-msgid ""
-"You are running a 32 bits build on a 64 bits Windows.\n"
-"This is not recommended.\n"
-"Please download and install the x64 build instead."
-msgstr ""
-
-#: ui/KisApplication.cpp:472
-msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
 #: ui/KisApplicationArguments.cpp:63
@@ -23486,11 +23577,21 @@ msgid ""
 "discarded."
 msgstr ""
 
-#: ui/KisDocument.cpp:588
+#: ui/KisColorsetChooser.cpp:101 ui/widgets/kis_workspace_chooser.cpp:97
+msgid "Insert name"
+msgstr ""
+
+#: ui/KisColorsetChooser.cpp:152
+#, fuzzy, kde-format
+#| msgid "Palette"
+msgid "Palette %1"
+msgstr "रंग-पट्टिका"
+
+#: ui/KisDocument.cpp:594
 msgid "Saving..."
 msgstr ""
 
-#: ui/KisDocument.cpp:617
+#: ui/KisDocument.cpp:623
 #, fuzzy, kde-format
 #| msgid "Shrink Selection"
 msgid ""
@@ -23498,7 +23599,7 @@ msgid ""
 "%1"
 msgstr "चयन घोकचाबू"
 
-#: ui/KisDocument.cpp:619
+#: ui/KisDocument.cpp:625
 #, fuzzy, kde-format
 #| msgid "Shrink Selection"
 msgid ""
@@ -23506,126 +23607,126 @@ msgid ""
 "Reason: %2"
 msgstr "चयन घोकचाबू"
 
-#: ui/KisDocument.cpp:729
+#: ui/KisDocument.cpp:735
 msgid ""
 "The password of this encrypted document is not known. Autosave aborted! "
 "Please save your work manually."
 msgstr ""
 
-#: ui/KisDocument.cpp:732
+#: ui/KisDocument.cpp:738
 msgid "Autosaving..."
 msgstr ""
 
-#: ui/KisDocument.cpp:744
+#: ui/KisDocument.cpp:750
 msgid "Error during autosave! Partition full?"
 msgstr ""
 
-#: ui/KisDocument.cpp:831
+#: ui/KisDocument.cpp:837
 msgid "Could not create the file for saving"
 msgstr ""
 
-#: ui/KisDocument.cpp:856
+#: ui/KisDocument.cpp:862
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr ""
 
-#: ui/KisDocument.cpp:1077
+#: ui/KisDocument.cpp:1084
 #, kde-format
 msgid ""
 "Malformed URL\n"
 "%1"
 msgstr ""
 
-#: ui/KisDocument.cpp:1092
+#: ui/KisDocument.cpp:1099
 msgid ""
 "An autosaved file exists for this document.\n"
 "Do you want to open it instead?"
 msgstr ""
 
-#: ui/KisDocument.cpp:1137
+#: ui/KisDocument.cpp:1144
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: ui/KisDocument.cpp:1202
+#: ui/KisDocument.cpp:1209
 msgid "Opening Document"
 msgstr ""
 
-#: ui/KisDocument.cpp:1217
+#: ui/KisDocument.cpp:1224
 msgid "Could not create the filter plugin"
 msgstr ""
 
-#: ui/KisDocument.cpp:1220
+#: ui/KisDocument.cpp:1227
 msgid "Could not create the output document"
 msgstr ""
 
-#: ui/KisDocument.cpp:1223
+#: ui/KisDocument.cpp:1230
 msgid "File not found"
 msgstr ""
 
-#: ui/KisDocument.cpp:1226
+#: ui/KisDocument.cpp:1233
 msgid "Cannot create storage"
 msgstr ""
 
-#: ui/KisDocument.cpp:1229
+#: ui/KisDocument.cpp:1236
 msgid "Bad MIME type"
 msgstr ""
 
-#: ui/KisDocument.cpp:1232
+#: ui/KisDocument.cpp:1239
 msgid "Error in embedded document"
 msgstr ""
 
-#: ui/KisDocument.cpp:1235
+#: ui/KisDocument.cpp:1242
 msgid "Format not recognized"
 msgstr ""
 
-#: ui/KisDocument.cpp:1238
+#: ui/KisDocument.cpp:1245
 #, fuzzy
 #| msgid "Not Defined"
 msgid "Not implemented"
 msgstr "परिभाषित नहि"
 
-#: ui/KisDocument.cpp:1241
+#: ui/KisDocument.cpp:1248
 msgid "Parsing error"
 msgstr ""
 
-#: ui/KisDocument.cpp:1244
+#: ui/KisDocument.cpp:1251
 msgid "Document is password protected"
 msgstr ""
 
-#: ui/KisDocument.cpp:1247
+#: ui/KisDocument.cpp:1254
 msgid "Invalid file format"
 msgstr ""
 
-#: ui/KisDocument.cpp:1254
+#: ui/KisDocument.cpp:1261
 #, fuzzy
 #| msgid "Interpolation:"
 msgid "Internal error"
 msgstr "अंतर्वेशन:"
 
-#: ui/KisDocument.cpp:1257
+#: ui/KisDocument.cpp:1264
 msgid "Out of memory"
 msgstr ""
 
-#: ui/KisDocument.cpp:1260
+#: ui/KisDocument.cpp:1267
 msgid "Empty Filter Plugin"
 msgstr ""
 
-#: ui/KisDocument.cpp:1263
+#: ui/KisDocument.cpp:1270
 msgid "Trying to load into the wrong kind of document"
 msgstr ""
 
-#: ui/KisDocument.cpp:1266
+#: ui/KisDocument.cpp:1273
 msgid "Failed to download remote file"
 msgstr ""
 
-#: ui/KisDocument.cpp:1273
+#: ui/KisDocument.cpp:1280
 #, fuzzy
 #| msgid "Unknown"
 msgid "Unknown error"
 msgstr "अज्ञात"
 
-#: ui/KisDocument.cpp:1277
+#: ui/KisDocument.cpp:1284
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -23633,83 +23734,83 @@ msgid ""
 "%3"
 msgstr ""
 
-#: ui/KisDocument.cpp:1391
+#: ui/KisDocument.cpp:1398
 #, fuzzy, kde-format
 #| msgid "Shrink Selection"
 msgid "Could not find %1"
 msgstr "चयन घोकचाबू"
 
-#: ui/KisDocument.cpp:1403
+#: ui/KisDocument.cpp:1410
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
 
-#: ui/KisDocument.cpp:1418 ui/KisMainWindow.cpp:705
+#: ui/KisDocument.cpp:1425 ui/KisMainWindow.cpp:705
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: ui/KisDocument.cpp:1425
+#: ui/KisDocument.cpp:1432
 #, fuzzy, kde-format
 #| msgid "Layer Size"
 msgid "%1 is not a file."
 msgstr "परत आकार"
 
-#: ui/KisDocument.cpp:1440
+#: ui/KisDocument.cpp:1447
 msgid "Could not open the file for reading (check read permissions)."
 msgstr ""
 
-#: ui/KisDocument.cpp:1451
+#: ui/KisDocument.cpp:1458
 msgid "Could not read the beginning of the file."
 msgstr ""
 
-#: ui/KisDocument.cpp:1481
+#: ui/KisDocument.cpp:1488
 #, kde-format
 msgid ""
 "parsing error in the main document at line %1, column %2\n"
 "Error message: %3"
 msgstr ""
 
-#: ui/KisDocument.cpp:1497
+#: ui/KisDocument.cpp:1504
 #, fuzzy, kde-format
 #| msgid "Layer Size"
 msgid "Not a valid Krita file: %1"
 msgstr "परत आकार"
 
-#: ui/KisDocument.cpp:1562
+#: ui/KisDocument.cpp:1569
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr ""
 
-#: ui/KisDocument.cpp:1619 ui/KisDocument.cpp:1627
+#: ui/KisDocument.cpp:1626 ui/KisDocument.cpp:1634
 msgid "Krita does not support the OpenDocument file format."
 msgstr ""
 
-#: ui/KisDocument.cpp:1715 ui/KisDocument.cpp:1838
+#: ui/KisDocument.cpp:1743 ui/KisDocument.cpp:1866
 #, fuzzy
 #| msgid "Unknown"
 msgid "Unknown error."
 msgstr "अज्ञात"
 
-#: ui/KisDocument.cpp:1813
+#: ui/KisDocument.cpp:1841
 msgid "The format is not supported or the file is corrupted"
 msgstr ""
 
-#: ui/KisDocument.cpp:1819
+#: ui/KisDocument.cpp:1847
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
 msgstr ""
 
-#: ui/KisDocument.cpp:1824
+#: ui/KisDocument.cpp:1852
 msgid "The file has no layers."
 msgstr ""
 
-#: ui/KisDocument.cpp:1849
+#: ui/KisDocument.cpp:1877
 msgid "The file does not contain an image."
 msgstr ""
 
-#: ui/KisDocument.cpp:1912
+#: ui/KisDocument.cpp:1940
 #, fuzzy, kde-format
 #| msgid "Shrink Selection"
 msgid ""
@@ -23717,35 +23818,35 @@ msgid ""
 "%1"
 msgstr "चयन घोकचाबू"
 
-#: ui/KisDocument.cpp:1915
+#: ui/KisDocument.cpp:1943
 #, kde-format
 msgid ""
 "Could not open %1\n"
 "Reason: %2"
 msgstr ""
 
-#: ui/KisDocument.cpp:1984
+#: ui/KisDocument.cpp:2012
 #, fuzzy
 #| msgctxt "A progressive jpeg file can be displayed while loading."
 #| msgid "Progressive"
 msgid "a word processing"
 msgstr "प्रगतिशील"
 
-#: ui/KisDocument.cpp:1985
+#: ui/KisDocument.cpp:2013
 msgid "a spreadsheet"
 msgstr ""
 
-#: ui/KisDocument.cpp:1986
+#: ui/KisDocument.cpp:2014
 #, fuzzy
 #| msgid "Orientation"
 msgid "a presentation"
 msgstr "दिशा"
 
-#: ui/KisDocument.cpp:1987
+#: ui/KisDocument.cpp:2015
 msgid "a chart"
 msgstr ""
 
-#: ui/KisDocument.cpp:1988
+#: ui/KisDocument.cpp:2016
 msgid "a drawing"
 msgstr ""
 
@@ -23753,11 +23854,11 @@ msgstr ""
 msgid "Iptc"
 msgstr ""
 
-#: ui/KisImportExportManager.cpp:235 ui/KisImportExportManager.cpp:246
+#: ui/KisImportExportManager.cpp:243 ui/KisImportExportManager.cpp:254
 msgid "Could not export file: the export filter is missing."
 msgstr ""
 
-#: ui/KisImportExportManager.cpp:541
+#: ui/KisImportExportManager.cpp:552
 #, fuzzy, kde-format
 #| msgid "Saturation:"
 msgid ""
@@ -23897,7 +23998,7 @@ msgstr ""
 msgid "Expanding Spacer"
 msgstr ""
 
-#: ui/KisNodeDelegate.cpp:539
+#: ui/KisNodeDelegate.cpp:534
 #, kde-format
 msgid "%1 %"
 msgstr ""
@@ -25355,7 +25456,7 @@ msgid "Hide after startup."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnClose)
-#: ui/wdgsplash.ui:447
+#: ui/wdgsplash.ui:862
 #, fuzzy
 #| msgid "Close"
 msgid "&Close"
@@ -27703,11 +27804,6 @@ msgstr "रँग स्पेस"
 #~| msgid "Tutorials"
 #~ msgid "Load Tutorial"
 #~ msgstr "शिक्षण पाठ"
-
-#, fuzzy
-#~| msgid "Rotate Layer"
-#~ msgid "Pasted Layer"
-#~ msgstr "परत घुमाबू"
 
 #, fuzzy
 #~| msgid "Angle:"
