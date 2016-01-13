@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-30 07:53+0000\n"
+"POT-Creation-Date: 2016-01-13 07:18+0000\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -3035,21 +3035,32 @@ msgid "Show in Groups"
 msgstr "समूहसभ मे देखाबू"
 
 #: views/dolphinviewactionhandler.cpp:212
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Show Hidden Files"
 msgctxt "@action:inmenu View"
-msgid "Show Hidden Files"
+msgid "Hidden Files"
 msgstr "नुकाएल फाइलसभ देखाबू"
 
-#: views/dolphinviewactionhandler.cpp:217
+#: views/dolphinviewactionhandler.cpp:213
+#, fuzzy
+#| msgctxt "@option:check Ask for Confirmation When"
+#| msgid "Deleting files or folders"
+msgctxt "@info"
+msgid "Visibility of hidden files and folders"
+msgstr "फाइलसभ आओर फोल्डरसभ केँ मेटाएल जाए रहल अछि"
+
+#: views/dolphinviewactionhandler.cpp:218
 msgctxt "@action:inmenu View"
 msgid "Adjust View Properties..."
 msgstr "दृश्य गुणसभ केँ समायोजित करू..."
 
-#: views/dolphinviewactionhandler.cpp:492
+#: views/dolphinviewactionhandler.cpp:495
 msgctxt "@action:inmenu View Mode"
 msgid "Icons"
 msgstr "प्रतीक"
 
-#: views/dolphinviewactionhandler.cpp:493
+#: views/dolphinviewactionhandler.cpp:496
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3057,12 +3068,12 @@ msgctxt "@info"
 msgid "Icons view mode"
 msgstr "विभाजित दृश्य मोड"
 
-#: views/dolphinviewactionhandler.cpp:503
+#: views/dolphinviewactionhandler.cpp:506
 msgctxt "@action:inmenu View Mode"
 msgid "Compact"
 msgstr ""
 
-#: views/dolphinviewactionhandler.cpp:504
+#: views/dolphinviewactionhandler.cpp:507
 #, fuzzy
 #| msgctxt "@option:check Startup Settings"
 #| msgid "Split view mode"
@@ -3070,12 +3081,12 @@ msgctxt "@info"
 msgid "Compact view mode"
 msgstr "विभाजित दृश्य मोड"
 
-#: views/dolphinviewactionhandler.cpp:514
+#: views/dolphinviewactionhandler.cpp:517
 msgctxt "@action:inmenu View Mode"
 msgid "Details"
 msgstr "विवरण"
 
-#: views/dolphinviewactionhandler.cpp:515
+#: views/dolphinviewactionhandler.cpp:518
 msgctxt "@info"
 msgid "Details view mode"
 msgstr "विभाजित दृश्य मोड"
@@ -3181,13 +3192,6 @@ msgstr "बाइली सूचना"
 #~ msgctxt "@title:group"
 #~ msgid "Mouse"
 #~ msgstr "माउस"
-
-#, fuzzy
-#~| msgctxt "@option:check Ask for Confirmation When"
-#~| msgid "Deleting files or folders"
-#~ msgctxt "@option:check Mouse Settings"
-#~ msgid "Single-click to open files and folders"
-#~ msgstr "फाइलसभ आओर फोल्डरसभ केँ मेटाएल जाए रहल अछि"
 
 #, fuzzy
 #~| msgctxt "@option:check Ask for Confirmation When"
