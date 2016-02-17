@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadicontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-16 08:57+0000\n"
+"POT-Creation-Date: 2016-02-17 07:39+0000\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -370,10 +370,6 @@ msgstr ""
 msgid "Show Contact"
 msgstr ""
 
-#: editor/addresseditor/addresseslocationviewer.cpp:81
-msgid "Do you really want to delete this address?"
-msgstr ""
-
 #: editor/addresseditor/addressgrantleeobject.cpp:70
 #: editor/addresseditor/addressgrantleeobject.cpp:109
 #, fuzzy
@@ -452,7 +448,7 @@ msgid "Address Types"
 msgstr ""
 
 #: editor/addresseditor/selectaddresstypecombobox.cpp:76
-#: editor/generalinfoeditor/phone/phonecomboboxtype.cpp:77
+#: editor/generalinfoeditor/phone/phonecomboboxtype.cpp:79
 msgctxt "@item:inlistbox Category of contact info field"
 msgid "Other..."
 msgstr "आन..."
@@ -464,6 +460,11 @@ msgstr "आन..."
 msgctxt "@item:inlistbox Category of contact info field"
 msgid "New Address Type"
 msgstr "पता"
+
+#: editor/addresseditor/webengine/addresseslocationengineviewer.cpp:83
+#: editor/addresseditor/webkit/addresseslocationviewer.cpp:81
+msgid "Do you really want to delete this address?"
+msgstr ""
 
 #: editor/businesseditor/businesseditorwidget.cpp:54
 msgctxt "@label The organization of a contact"
@@ -823,6 +824,21 @@ msgstr "टैग जोड़ू"
 #| msgid "Phones"
 msgid "Phone"
 msgstr "फोन"
+
+#: editor/generalinfoeditor/phone/phonetypedialog.cpp:38
+#, fuzzy
+#| msgctxt "@title:column phone numbers of a person"
+#| msgid "Phone Numbers"
+msgid "Edit Phone Number"
+msgstr "फोन नंबर"
+
+#: editor/generalinfoeditor/phone/phonetypedialog.cpp:42
+msgid "This is the preferred phone number"
+msgstr ""
+
+#: editor/generalinfoeditor/phone/phonetypedialog.cpp:45
+msgid "Types"
+msgstr "प्रकार"
 
 #: editor/generalinfoeditor/phone/phonewidget.cpp:41
 #, fuzzy
@@ -1625,9 +1641,6 @@ msgstr ""
 
 #~ msgid "Add"
 #~ msgstr "जोड़ू"
-
-#~ msgid "Types"
-#~ msgstr "प्रकार"
 
 #~ msgctxt "The title of a custom field"
 #~ msgid "Title"
