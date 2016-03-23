@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_imap_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-22 08:45+0000\n"
+"POT-Creation-Date: 2016-03-23 07:31+0000\n"
 "PO-Revision-Date: 2010-09-24 16:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -77,6 +77,12 @@ msgstr ""
 #: imapresource.cpp:53
 msgid "IMAP Account"
 msgstr "IMAP खाता"
+
+#: imapresource.cpp:65
+#, fuzzy
+#| msgid "Connection Settings"
+msgid "IMAP Account Settings"
+msgstr "संबंधन जमावट"
 
 #. i18n: ectx: label, entry (ImapServer), group (network)
 #: imapresource.kcfg:10
@@ -389,7 +395,7 @@ msgstr "इनबाक्स"
 msgid "Shared Folders"
 msgstr "साझेदारी फोल्डर"
 
-#: retrieveitemstask.cpp:518
+#: retrieveitemstask.cpp:558
 #, kde-format
 msgctxt "@info:status"
 msgid "Fetching missing mail bodies in %3: %1/%2"
