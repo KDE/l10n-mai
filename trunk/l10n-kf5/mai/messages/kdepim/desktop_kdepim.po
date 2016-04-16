@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdepim\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-15 08:06+0000\n"
+"POT-Creation-Date: 2016-04-16 08:17+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: accountwizard/org.kde.accountwizard.desktop:2
+#: accountwizard/src/org.kde.accountwizard.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Accounts"
@@ -24,17 +24,17 @@ msgctxt "Name"
 msgid "Account Wizard"
 msgstr "खाता"
 
-#: accountwizard/org.kde.accountwizard.desktop:38
+#: accountwizard/src/org.kde.accountwizard.desktop:38
 msgctxt "Comment"
 msgid "Launch the account wizard to configure PIM accounts."
 msgstr ""
 
-#: accountwizard/wizards/tine20/tine20wizard.desktop:2
+#: accountwizard/src/wizards/tine20/tine20wizard.desktop:2
 msgctxt "Name"
 msgid "Tine 2.0 Groupware Server"
 msgstr ""
 
-#: accountwizard/wizards/tine20/tine20wizard.desktop:35
+#: accountwizard/src/wizards/tine20/tine20wizard.desktop:35
 msgctxt "Comment"
 msgid "Tine 2.0 Groupware Server"
 msgstr ""
@@ -198,7 +198,7 @@ msgid "akregator, configure, settings, advanced"
 msgstr ""
 
 #: akregator/configuration/akregator_config_appearance.desktop:13
-#: kmail/data/kmail_config_appearance.desktop:16
+#: kmail/src/data/kmail_config_appearance.desktop:16
 msgctxt "Name"
 msgid "Appearance"
 msgstr "प्रकटन"
@@ -396,7 +396,7 @@ msgctxt "GenericName"
 msgid "Mail Header Theme Editor"
 msgstr ""
 
-#: importwizard/data/org.kde.importwizard.desktop:2
+#: importwizard/src/data/org.kde.importwizard.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Account Wizard"
@@ -404,28 +404,12 @@ msgctxt "Name"
 msgid "KMail Import Wizard"
 msgstr "खाता विजार्ड"
 
-#: importwizard/data/org.kde.importwizard.desktop:46
+#: importwizard/src/data/org.kde.importwizard.desktop:46
 msgctxt "Comment"
 msgid ""
 "Launch the import wizard to migrate data from mailer as thunderbird/"
 "evolution etc."
 msgstr ""
-
-#: kaddressbook/data/kaddressbook-importer.desktop:2
-msgctxt "Name"
-msgid "KAddressbook import file"
-msgstr ""
-
-#: kaddressbook/data/kaddressbookpart.desktop:3
-#: kaddressbook/data/org.kde.kaddressbook.desktop:2
-msgctxt "Name"
-msgid "KAddressBook"
-msgstr ""
-
-#: kaddressbook/data/org.kde.kaddressbook.desktop:69
-msgctxt "GenericName"
-msgid "Contact Manager"
-msgstr "सम्पर्क प्रबंधक"
 
 #: kaddressbook/kontactplugin/kaddressbookplugin.desktop:19
 msgctxt "Comment"
@@ -443,29 +427,45 @@ msgctxt "Comment"
 msgid "Address Book Component"
 msgstr ""
 
-#: kaddressbook/printing/grantlee/themes/big-theme-example/theme.desktop:2
+#: kaddressbook/src/data/kaddressbook-importer.desktop:2
+msgctxt "Name"
+msgid "KAddressbook import file"
+msgstr ""
+
+#: kaddressbook/src/data/kaddressbookpart.desktop:3
+#: kaddressbook/src/data/org.kde.kaddressbook.desktop:2
+msgctxt "Name"
+msgid "KAddressBook"
+msgstr ""
+
+#: kaddressbook/src/data/org.kde.kaddressbook.desktop:69
+msgctxt "GenericName"
+msgid "Contact Manager"
+msgstr "सम्पर्क प्रबंधक"
+
+#: kaddressbook/src/printing/grantlee/themes/big-theme-example/theme.desktop:2
 msgctxt "Name"
 msgid "Example big title"
 msgstr ""
 
-#: kaddressbook/printing/grantlee/themes/big-theme-example/theme.desktop:38
+#: kaddressbook/src/printing/grantlee/themes/big-theme-example/theme.desktop:38
 msgctxt "Description"
 msgid "Example big title grantlee printing theme"
 msgstr ""
 
-#: kaddressbook/printing/grantlee/themes/default/theme.desktop:2
-#: kaddressbook/viewertemplates/theme.desktop:2
+#: kaddressbook/src/printing/grantlee/themes/default/theme.desktop:2
+#: kaddressbook/src/viewertemplates/theme.desktop:2
 #: knotes/src/print/themes/default/theme.desktop:2
 msgctxt "Name"
 msgid "Default"
 msgstr ""
 
-#: kaddressbook/printing/grantlee/themes/default/theme.desktop:71
+#: kaddressbook/src/printing/grantlee/themes/default/theme.desktop:71
 msgctxt "Description"
 msgid "Default grantlee printing theme"
 msgstr ""
 
-#: kaddressbook/printing/grantlee/themes/full/theme.desktop:2
+#: kaddressbook/src/printing/grantlee/themes/full/theme.desktop:2
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Personal Information"
@@ -473,7 +473,7 @@ msgctxt "Name"
 msgid "Full Information"
 msgstr "निज सूचना"
 
-#: kaddressbook/printing/grantlee/themes/full/theme.desktop:36
+#: kaddressbook/src/printing/grantlee/themes/full/theme.desktop:36
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Personal Information"
@@ -481,7 +481,7 @@ msgctxt "Description"
 msgid "Display All Information"
 msgstr "निज सूचना"
 
-#: kaddressbook/viewertemplates/theme.desktop:71
+#: kaddressbook/src/viewertemplates/theme.desktop:71
 msgctxt "Description"
 msgid "Default kaddressbook theme."
 msgstr ""
@@ -510,190 +510,6 @@ msgstr ""
 #: kalarm/rtcwakeaction.actions:117
 msgctxt "Description"
 msgid "Set RTC wake-from-suspend time"
-msgstr ""
-
-#: kmail/data/dbusmail.desktop:4
-msgctxt "Comment"
-msgid "Mail program with a D-Bus interface"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:3
-msgctxt "Comment"
-msgid "KMail"
-msgstr "KMail"
-
-#: kmail/data/kmail2.notifyrc:74
-msgctxt "Name"
-msgid "Akonadi server sent a warning"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:117
-msgctxt "Comment"
-msgid "Akonadi server sent a warning"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:163
-msgctxt "Name"
-msgid "Akonadi server sent an error"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:206
-msgctxt "Comment"
-msgid "Akonadi server sent an error"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:252
-msgctxt "Name"
-msgid "A resource is broken"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:295
-msgctxt "Comment"
-msgid "A resource change its state to broken"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:340
-msgctxt "Name"
-msgid "Error While Checking Mail"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:387
-msgctxt "Comment"
-msgid "There was an error while checking for new mail"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:437
-msgctxt "Name"
-msgid "Archive Mails in Folder done"
-msgstr ""
-
-#: kmail/data/kmail2.notifyrc:476
-msgctxt "Name"
-msgid "Folder Archive Error"
-msgstr ""
-
-#: kmail/data/kmail_addattachmentservicemenu.desktop:9
-msgctxt "Name"
-msgid "Send as Email Attachment"
-msgstr ""
-
-#: kmail/data/kmail_config_accounts.desktop:16
-msgctxt "Name"
-msgid "Accounts"
-msgstr "खाता"
-
-#: kmail/data/kmail_config_accounts.desktop:88
-msgctxt "Comment"
-msgid "Setup for Sending and Receiving Messages"
-msgstr ""
-
-#: kmail/data/kmail_config_accounts.desktop:152
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Accounts"
-msgctxt "X-KDE-Keywords"
-msgid "kmail,accounts"
-msgstr "खाता"
-
-#: kmail/data/kmail_config_appearance.desktop:91
-msgctxt "Comment"
-msgid "Customize Visual Appearance"
-msgstr ""
-
-#: kmail/data/kmail_config_appearance.desktop:156
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Appearance"
-msgctxt "X-KDE-Keywords"
-msgid "kmail,appearance"
-msgstr "प्रकटन"
-
-#: kmail/data/kmail_config_composer.desktop:16
-msgctxt "Name"
-msgid "Composer"
-msgstr ""
-
-#: kmail/data/kmail_config_composer.desktop:83
-msgctxt "Comment"
-msgid "Message Composer Settings"
-msgstr ""
-
-#: kmail/data/kmail_config_composer.desktop:131
-msgctxt "X-KDE-Keywords"
-msgid "kmail,composer"
-msgstr ""
-
-#: kmail/data/kmail_config_identity.desktop:16
-#: kmail/kcm_kpimidentities/kcm_kpimidentities.desktop:12
-msgctxt "Name"
-msgid "Identities"
-msgstr ""
-
-#: kmail/data/kmail_config_identity.desktop:86
-#: kmail/kcm_kpimidentities/kcm_kpimidentities.desktop:82
-msgctxt "Comment"
-msgid "Manage Identities"
-msgstr ""
-
-#: kmail/data/kmail_config_identity.desktop:153
-#: kmail/kcm_kpimidentities/kcm_kpimidentities.desktop:149
-msgctxt "X-KDE-Keywords"
-msgid "kmail,identity"
-msgstr ""
-
-#: kmail/data/kmail_config_misc.desktop:16
-#: knotes/src/data/knote_config_misc.desktop:15
-msgctxt "Name"
-msgid "Misc"
-msgstr "विविध"
-
-#: kmail/data/kmail_config_misc.desktop:86
-#: knotes/src/data/knote_config_misc.desktop:85
-msgctxt "Comment"
-msgid "Settings that don't fit elsewhere"
-msgstr ""
-
-#: kmail/data/kmail_config_misc.desktop:150
-msgctxt "X-KDE-Keywords"
-msgid "kmail,misc"
-msgstr ""
-
-#: kmail/data/kmail_config_security.desktop:16
-msgctxt "Name"
-msgid "Security"
-msgstr "सुरक्षा"
-
-#: kmail/data/kmail_config_security.desktop:88
-msgctxt "Comment"
-msgid "Security & Privacy Settings"
-msgstr ""
-
-#: kmail/data/kmail_config_security.desktop:155
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Security"
-msgctxt "X-KDE-Keywords"
-msgid "kmail,security"
-msgstr "सुरक्षा"
-
-#: kmail/data/kmail_view.desktop:2
-msgctxt "Name"
-msgid "KMail view"
-msgstr ""
-
-#: kmail/data/org.kde.kmail.desktop:2
-msgctxt "Name"
-msgid "KMail"
-msgstr "KMail"
-
-#: kmail/data/org.kde.kmail.desktop:80
-msgctxt "GenericName"
-msgid "Mail Client"
-msgstr "डाकिया"
-
-#: kmail/data/org.kde.kmail.desktop:156
-msgctxt "Comment"
-msgid "Send, receive and manage your mail with KMail"
 msgstr ""
 
 #: kmail/kontactplugin/kcmkmailsummary.desktop:14
@@ -725,6 +541,190 @@ msgstr "डाक"
 #: kmail/kontactplugin/kmail.setdlg:75
 msgctxt "Comment"
 msgid "Mail Component"
+msgstr ""
+
+#: kmail/src/data/dbusmail.desktop:4
+msgctxt "Comment"
+msgid "Mail program with a D-Bus interface"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:3
+msgctxt "Comment"
+msgid "KMail"
+msgstr "KMail"
+
+#: kmail/src/data/kmail2.notifyrc:74
+msgctxt "Name"
+msgid "Akonadi server sent a warning"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:117
+msgctxt "Comment"
+msgid "Akonadi server sent a warning"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:163
+msgctxt "Name"
+msgid "Akonadi server sent an error"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:206
+msgctxt "Comment"
+msgid "Akonadi server sent an error"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:252
+msgctxt "Name"
+msgid "A resource is broken"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:295
+msgctxt "Comment"
+msgid "A resource change its state to broken"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:340
+msgctxt "Name"
+msgid "Error While Checking Mail"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:387
+msgctxt "Comment"
+msgid "There was an error while checking for new mail"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:437
+msgctxt "Name"
+msgid "Archive Mails in Folder done"
+msgstr ""
+
+#: kmail/src/data/kmail2.notifyrc:476
+msgctxt "Name"
+msgid "Folder Archive Error"
+msgstr ""
+
+#: kmail/src/data/kmail_addattachmentservicemenu.desktop:9
+msgctxt "Name"
+msgid "Send as Email Attachment"
+msgstr ""
+
+#: kmail/src/data/kmail_config_accounts.desktop:16
+msgctxt "Name"
+msgid "Accounts"
+msgstr "खाता"
+
+#: kmail/src/data/kmail_config_accounts.desktop:88
+msgctxt "Comment"
+msgid "Setup for Sending and Receiving Messages"
+msgstr ""
+
+#: kmail/src/data/kmail_config_accounts.desktop:152
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Accounts"
+msgctxt "X-KDE-Keywords"
+msgid "kmail,accounts"
+msgstr "खाता"
+
+#: kmail/src/data/kmail_config_appearance.desktop:91
+msgctxt "Comment"
+msgid "Customize Visual Appearance"
+msgstr ""
+
+#: kmail/src/data/kmail_config_appearance.desktop:156
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Appearance"
+msgctxt "X-KDE-Keywords"
+msgid "kmail,appearance"
+msgstr "प्रकटन"
+
+#: kmail/src/data/kmail_config_composer.desktop:16
+msgctxt "Name"
+msgid "Composer"
+msgstr ""
+
+#: kmail/src/data/kmail_config_composer.desktop:83
+msgctxt "Comment"
+msgid "Message Composer Settings"
+msgstr ""
+
+#: kmail/src/data/kmail_config_composer.desktop:131
+msgctxt "X-KDE-Keywords"
+msgid "kmail,composer"
+msgstr ""
+
+#: kmail/src/data/kmail_config_identity.desktop:16
+#: kmail/src/kcm_kpimidentities/kcm_kpimidentities.desktop:12
+msgctxt "Name"
+msgid "Identities"
+msgstr ""
+
+#: kmail/src/data/kmail_config_identity.desktop:86
+#: kmail/src/kcm_kpimidentities/kcm_kpimidentities.desktop:82
+msgctxt "Comment"
+msgid "Manage Identities"
+msgstr ""
+
+#: kmail/src/data/kmail_config_identity.desktop:153
+#: kmail/src/kcm_kpimidentities/kcm_kpimidentities.desktop:149
+msgctxt "X-KDE-Keywords"
+msgid "kmail,identity"
+msgstr ""
+
+#: kmail/src/data/kmail_config_misc.desktop:16
+#: knotes/src/data/knote_config_misc.desktop:15
+msgctxt "Name"
+msgid "Misc"
+msgstr "विविध"
+
+#: kmail/src/data/kmail_config_misc.desktop:86
+#: knotes/src/data/knote_config_misc.desktop:85
+msgctxt "Comment"
+msgid "Settings that don't fit elsewhere"
+msgstr ""
+
+#: kmail/src/data/kmail_config_misc.desktop:150
+msgctxt "X-KDE-Keywords"
+msgid "kmail,misc"
+msgstr ""
+
+#: kmail/src/data/kmail_config_security.desktop:16
+msgctxt "Name"
+msgid "Security"
+msgstr "सुरक्षा"
+
+#: kmail/src/data/kmail_config_security.desktop:88
+msgctxt "Comment"
+msgid "Security & Privacy Settings"
+msgstr ""
+
+#: kmail/src/data/kmail_config_security.desktop:155
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Security"
+msgctxt "X-KDE-Keywords"
+msgid "kmail,security"
+msgstr "सुरक्षा"
+
+#: kmail/src/data/kmail_view.desktop:2
+msgctxt "Name"
+msgid "KMail view"
+msgstr ""
+
+#: kmail/src/data/org.kde.kmail.desktop:2
+msgctxt "Name"
+msgid "KMail"
+msgstr "KMail"
+
+#: kmail/src/data/org.kde.kmail.desktop:80
+msgctxt "GenericName"
+msgid "Mail Client"
+msgstr "डाकिया"
+
+#: kmail/src/data/org.kde.kmail.desktop:156
+msgctxt "Comment"
+msgid "Send, receive and manage your mail with KMail"
 msgstr ""
 
 #: knotes/notesagent/akonadi_notes_agent.notifyrc:3
@@ -1204,17 +1204,17 @@ msgctxt "GenericName"
 msgid "Personal Organizer"
 msgstr ""
 
-#: ktnef/org.kde.ktnef.desktop:2
+#: ktnef/src/org.kde.ktnef.desktop:2
 msgctxt "Name"
 msgid "KTnef"
 msgstr ""
 
-#: ktnef/org.kde.ktnef.desktop:57
+#: ktnef/src/org.kde.ktnef.desktop:57
 msgctxt "GenericName"
 msgid "TNEF File Viewer (proprietary format used by outlook)"
 msgstr ""
 
-#: ktnef/org.kde.ktnef.desktop:97
+#: ktnef/src/org.kde.ktnef.desktop:97
 msgctxt "Comment"
 msgid "A viewer/extractor for TNEF files"
 msgstr ""
@@ -1262,12 +1262,12 @@ msgctxt "GenericName"
 msgid "Sieve Editor"
 msgstr "संपादक"
 
-#: storageservicemanager/data/storageservicemanager.notifyrc:3
+#: storageservicemanager/src/data/storageservicemanager.notifyrc:3
 msgctxt "Comment"
 msgid "StorageServiceManager"
 msgstr ""
 
-#: storageservicemanager/data/storageservicemanager.notifyrc:40
+#: storageservicemanager/src/data/storageservicemanager.notifyrc:40
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Actions"
@@ -1275,12 +1275,12 @@ msgctxt "Name"
 msgid "Action Failed"
 msgstr "क्रियासभ"
 
-#: storageservicemanager/data/storageservicemanager.notifyrc:75
+#: storageservicemanager/src/data/storageservicemanager.notifyrc:75
 msgctxt "Comment"
 msgid "An error was returned"
 msgstr ""
 
-#: storageservicemanager/org.kde.storageservicemanager.desktop:2
+#: storageservicemanager/src/org.kde.storageservicemanager.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Contact Manager"
@@ -1288,7 +1288,7 @@ msgctxt "Name"
 msgid "Cloud Storage Manager"
 msgstr "सम्पर्क प्रबंधक"
 
-#: storageservicemanager/org.kde.storageservicemanager.desktop:40
+#: storageservicemanager/src/org.kde.storageservicemanager.desktop:40
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Contact Manager"
