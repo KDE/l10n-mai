@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-20 07:27+0000\n"
+"POT-Creation-Date: 2016-04-23 07:57+0000\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4059,22 +4059,14 @@ msgid "C&lear Cache"
 msgstr "कैश खाली करू (&l)"
 
 #: kcms/kio/kcookiesmain.cpp:40
-msgid ""
-"Unable to start the cookie handler service.\n"
-"You will not be able to manage the cookies that are stored on your computer."
-msgstr ""
-"कुकी हैंडलर सेवा प्रारंभ करबा मे अक्षम.\n"
-"अहाँक कम्प्यूटर पर भंडारित कुकीज केँ अहाँ प्रबंधित करबा मे अहाँ सक्षम नहि हाएम."
-
-#: kcms/kio/kcookiesmain.cpp:50
 msgid "&Policy"
 msgstr "पालिसी (&P)"
 
-#: kcms/kio/kcookiesmain.cpp:55
+#: kcms/kio/kcookiesmain.cpp:45
 msgid "&Management"
 msgstr "प्रबंधन (&M)"
 
-#: kcms/kio/kcookiesmain.cpp:91
+#: kcms/kio/kcookiesmain.cpp:81
 msgid ""
 "<p><h1>Cookies</h1> Cookies contain information that Konqueror (or other KDE "
 "applications using the HTTP protocol) stores on your computer, initiated by "
@@ -7204,7 +7196,13 @@ msgid ""
 msgstr ""
 "<qt>उल्लेखित कमांड चलाबै मे अक्षम. फाइल अथवा फोल्डर<b>%1</b> अस्तित्व मे नहि अछि.</qt>"
 
-#: widgets/krun.cpp:1537
+#: widgets/krun.cpp:952
+#, fuzzy, kde-format
+#| msgid "Could not change ownership for %1."
+msgid "Could not find any application or handler for %1"
+msgstr "%1 क' लेल मालिकाना बदएल नहि सकत."
+
+#: widgets/krun.cpp:1545
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "प्रोग्राम '%1' ढूँढि नहि सकल"
@@ -7617,6 +7615,14 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#~ msgid ""
+#~ "Unable to start the cookie handler service.\n"
+#~ "You will not be able to manage the cookies that are stored on your "
+#~ "computer."
+#~ msgstr ""
+#~ "कुकी हैंडलर सेवा प्रारंभ करबा मे अक्षम.\n"
+#~ "अहाँक कम्प्यूटर पर भंडारित कुकीज केँ अहाँ प्रबंधित करबा मे अहाँ सक्षम नहि हाएम."
 
 #~ msgid "Open with:"
 #~ msgstr "के सँग खोलू:"
