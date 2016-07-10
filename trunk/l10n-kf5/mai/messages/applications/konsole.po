@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-09 07:29+0000\n"
+"POT-Creation-Date: 2016-07-10 07:10+0000\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2731,13 +2731,13 @@ msgstr "वर्तमान डिरेक्ट्री (छोट)"
 msgid "Current Directory (Long): %D"
 msgstr "वर्तमान डिरेक्ट्री (नमहर)"
 
-#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:48
+#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:50
 #, fuzzy
 #| msgid "Window Title Set by Shell"
 msgid "Window Title Set by Shell: %w"
 msgstr "शैल द्वारा सेट कएल गेल विंडो शीर्षक"
 
-#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:49
+#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:51
 #, fuzzy
 #| msgid "Session number"
 msgid "Session Number: %#"
@@ -2755,28 +2755,39 @@ msgstr ""
 
 #: TabTitleFormatButton.cpp:46
 #, fuzzy
+#| msgid "User Name"
+msgid "User Name@ (if given): %U"
+msgstr "प्रयोक्तानाम"
+
+#: TabTitleFormatButton.cpp:47
+#, fuzzy
 #| msgid "Remote Host (Short)"
 msgid "Remote Host (Short): %h"
 msgstr "रिमोट होस्ट (छोट)"
 
-#: TabTitleFormatButton.cpp:47
+#: TabTitleFormatButton.cpp:48
 #, fuzzy
 #| msgid "Remote Host (Long)"
 msgid "Remote Host (Long): %H"
 msgstr "रिमोट होस्ट (नमहर)"
 
-#: TabTitleFormatButton.cpp:58
+#: TabTitleFormatButton.cpp:49
+#, c-format
+msgid "Command and arguments: %c"
+msgstr ""
+
+#: TabTitleFormatButton.cpp:60
 msgid "Insert"
 msgstr "जोडू"
 
-#: TabTitleFormatButton.cpp:83
+#: TabTitleFormatButton.cpp:85
 #, fuzzy
 #| msgid "Tab title format:"
 msgctxt "@info:tooltip"
 msgid "Insert title format"
 msgstr "टैब शीर्षक फार्मेट"
 
-#: TabTitleFormatButton.cpp:87
+#: TabTitleFormatButton.cpp:89
 #, fuzzy
 #| msgid "Remote tab title format:"
 msgctxt "@info:tooltip"
