@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-30 07:40+0000\n"
+"POT-Creation-Date: 2016-09-05 07:05+0000\n"
 "PO-Revision-Date: 2010-09-24 20:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1230,7 +1230,7 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr ""
 
-#: fs/filesystem.cpp:328
+#: fs/filesystem.cpp:335
 #, fuzzy
 #| msgctxt "@item/plain partition table name"
 #| msgid "unknown"
@@ -1238,7 +1238,7 @@ msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "अज्ञात"
 
-#: fs/filesystem.cpp:329
+#: fs/filesystem.cpp:336
 #, fuzzy
 #| msgctxt "@item partition role"
 #| msgid "extended"
@@ -1246,77 +1246,77 @@ msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "विस्तारित"
 
-#: fs/filesystem.cpp:331
+#: fs/filesystem.cpp:338
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr ""
 
-#: fs/filesystem.cpp:332
+#: fs/filesystem.cpp:339
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr ""
 
-#: fs/filesystem.cpp:333
+#: fs/filesystem.cpp:340
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr ""
 
-#: fs/filesystem.cpp:334
+#: fs/filesystem.cpp:341
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr ""
 
-#: fs/filesystem.cpp:335
+#: fs/filesystem.cpp:342
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr ""
 
-#: fs/filesystem.cpp:336
+#: fs/filesystem.cpp:343
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr ""
 
-#: fs/filesystem.cpp:337
+#: fs/filesystem.cpp:344
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr ""
 
-#: fs/filesystem.cpp:338
+#: fs/filesystem.cpp:345
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr ""
 
-#: fs/filesystem.cpp:339
+#: fs/filesystem.cpp:346
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr ""
 
-#: fs/filesystem.cpp:340
+#: fs/filesystem.cpp:347
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr ""
 
-#: fs/filesystem.cpp:341
+#: fs/filesystem.cpp:348
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr ""
 
-#: fs/filesystem.cpp:342
+#: fs/filesystem.cpp:349
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr ""
 
-#: fs/filesystem.cpp:343
+#: fs/filesystem.cpp:350
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr ""
 
-#: fs/filesystem.cpp:344
+#: fs/filesystem.cpp:351
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr ""
 
-#: fs/filesystem.cpp:345
+#: fs/filesystem.cpp:352
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "unformatted"
@@ -1324,57 +1324,57 @@ msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "विसंरूपित"
 
-#: fs/filesystem.cpp:346
+#: fs/filesystem.cpp:353
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr ""
 
-#: fs/filesystem.cpp:347
+#: fs/filesystem.cpp:354
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr ""
 
-#: fs/filesystem.cpp:348
+#: fs/filesystem.cpp:355
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr ""
 
-#: fs/filesystem.cpp:349
+#: fs/filesystem.cpp:356
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr ""
 
-#: fs/filesystem.cpp:350
+#: fs/filesystem.cpp:357
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr ""
 
-#: fs/filesystem.cpp:351
+#: fs/filesystem.cpp:358
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr ""
 
-#: fs/filesystem.cpp:352
+#: fs/filesystem.cpp:359
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr ""
 
-#: fs/filesystem.cpp:353
+#: fs/filesystem.cpp:360
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr ""
 
-#: fs/filesystem.cpp:354
+#: fs/filesystem.cpp:361
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr ""
 
-#: fs/filesystem.cpp:398 fs/luks.cpp:144
+#: fs/filesystem.cpp:405 fs/luks.cpp:155
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "माउन्ट"
 
-#: fs/filesystem.cpp:404 fs/luks.cpp:149
+#: fs/filesystem.cpp:411 fs/luks.cpp:160
 msgctxt "@title:menu"
 msgid "Unmount"
 msgstr "अनारोहित करू"
@@ -1421,28 +1421,28 @@ msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr ""
 
-#: fs/luks.cpp:154
+#: fs/luks.cpp:165
 msgctxt "@title:menu"
 msgid "Decrypt"
 msgstr ""
 
-#: fs/luks.cpp:159
+#: fs/luks.cpp:170
 msgctxt "@title:menu"
 msgid "Deactivate"
 msgstr ""
 
-#: fs/luks.cpp:240
+#: fs/luks.cpp:251
 #, kde-format
 msgid "Enter passphrase for %1:"
 msgstr ""
 
-#: fs/luks.cpp:478 fs/luks.cpp:490
+#: fs/luks.cpp:485 fs/luks.cpp:497
 #, kde-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
 msgstr ""
 
-#: fs/luks.cpp:496
+#: fs/luks.cpp:503
 #, kde-format
 msgctxt "@info:progress"
 msgid ""
