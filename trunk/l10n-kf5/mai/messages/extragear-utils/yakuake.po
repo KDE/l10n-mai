@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: yakuake\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-11 07:35+0000\n"
+"POT-Creation-Date: 2016-10-14 07:07+0000\n"
 "PO-Revision-Date: 2010-09-24 20:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1217,14 +1217,22 @@ msgid ""
 "it ..."
 msgstr ""
 
-#: app/sessionstack.cpp:630
+#: app/sessionstack.cpp:251
+msgid ""
+"The D-Bus method runCommand was just used.  There are security concerns "
+"about allowing these methods to be public.  If desired, these methods can be "
+"changed to internal use only by re-compiling Yakuake. <p>This warning will "
+"only show once for this Yakuake instance.</p>"
+msgstr ""
+
+#: app/sessionstack.cpp:649
 msgctxt "@info"
 msgid ""
 "<warning>You have locked this session to prevent accidental closing of "
 "terminals.</warning>"
 msgstr ""
 
-#: app/sessionstack.cpp:634
+#: app/sessionstack.cpp:653
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Are you sure you want to quit?"
@@ -1232,7 +1240,7 @@ msgctxt "@info"
 msgid "Are you sure you want to close this session?"
 msgstr "की अहाँ निश्चित छी जे अहाँ छोड़नाइ चाहैत अछि?"
 
-#: app/sessionstack.cpp:636
+#: app/sessionstack.cpp:655
 #, fuzzy
 #| msgctxt "@info"
 #| msgid "Are you sure you want to quit?"
@@ -1240,7 +1248,7 @@ msgctxt "@info"
 msgid "Are you sure you want to close this terminal?"
 msgstr "की अहाँ निश्चित छी जे अहाँ छोड़नाइ चाहैत अछि?"
 
-#: app/sessionstack.cpp:640
+#: app/sessionstack.cpp:659
 msgctxt "@title:window"
 msgid "Really Close?"
 msgstr ""
