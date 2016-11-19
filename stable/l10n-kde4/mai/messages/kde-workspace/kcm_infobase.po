@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_infobase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-30 05:13+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2010-09-24 15:51+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -20,39 +20,46 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: info_aix.cpp:68
+#, kde-format
 msgid "Name"
 msgstr "नाम"
 
 #: info_aix.cpp:69
+#, kde-format
 msgid "Status"
 msgstr "स्थिति"
 
 #: info_aix.cpp:70
+#, kde-format
 msgid "Location"
 msgstr "स्थान"
 
 #: info_aix.cpp:71
+#, kde-format
 msgid "Description"
 msgstr "विवरण"
 
 #: info_fbsd.cpp:91
+#, kde-format
 msgid ""
 "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
 msgstr ""
 
 #: info_fbsd.cpp:96
+#, kde-format
 msgid ""
 "SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
 msgstr ""
 
 #: info_fbsd.cpp:131
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Information"
 msgctxt "@title:column Column name for PCI information"
 msgid "Information"
 msgstr "सूचना"
 
 #: info_fbsd.cpp:136
+#, kde-format
 msgid ""
 "Could not find any programs with which to query your system's PCI information"
 msgstr ""
@@ -63,54 +70,67 @@ msgid "PCI subsystem could not be queried: %1 could not be executed"
 msgstr ""
 
 #: info_fbsd.cpp:166
+#, kde-format
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr ""
 
 #: info_hpux.cpp:130
+#, kde-format
 msgid "PA-RISC Processor"
 msgstr "PA-RISC प्रोसेसर"
 
 #: info_hpux.cpp:132
+#, kde-format
 msgid "PA-RISC Revision"
 msgstr "PA-RISC संशोधन"
 
 #: info_linux.cpp:103
+#, kde-format
 msgid "DMA-Channel"
 msgstr "डीएमए-चैनल"
 
 #: info_linux.cpp:103 info_linux.cpp:154
+#, kde-format
 msgid "Used By"
 msgstr "द्वारा उपयोग मे"
 
 #: info_linux.cpp:154
+#, kde-format
 msgid "I/O-Range"
 msgstr "आई/ओ-रेंज"
 
 #: info_netbsd.cpp:121 info_openbsd.cpp:133
+#, kde-format
 msgid "IRQ"
 msgstr "आईआरक्यू"
 
 #: info_netbsd.cpp:121 info_openbsd.cpp:133
+#, kde-format
 msgid "Device"
 msgstr "डिवाइस"
 
 #: info_netbsd.cpp:139 info_openbsd.cpp:146
+#, kde-format
 msgid "No PCI devices found."
 msgstr "कोनो पीसीआइ अओजार नहि भेटल."
 
 #: info_netbsd.cpp:148 info_openbsd.cpp:155
+#, kde-format
 msgid "No I/O port devices found."
 msgstr "कोनो आई/ओ पोर्ट अओजार नहि भेटल."
 
 #: info_netbsd.cpp:157 info_openbsd.cpp:164
+#, kde-format
 msgid "No SCSI devices found."
 msgstr ""
 
 #: os_base.h:60
+#, kde-format
 msgid "LSBFirst"
 msgstr ""
 
 #: os_base.h:62
+#, kde-format
 msgid "MSBFirst"
 msgstr ""
 
@@ -139,10 +159,12 @@ msgid "Screen # %1"
 msgstr ""
 
 #: os_base.h:116
+#, kde-format
 msgid "(Default Screen)"
 msgstr ""
 
 #: os_base.h:125
+#, kde-format
 msgid "Dimensions"
 msgstr "आयाम"
 
@@ -152,6 +174,7 @@ msgid "%1 x %2 Pixels (%3 x %4 mm)"
 msgstr ""
 
 #: os_base.h:129
+#, kde-format
 msgid "Resolution"
 msgstr "विभेदन"
 
@@ -166,10 +189,12 @@ msgid "Depths (%1)"
 msgstr ""
 
 #: os_base.h:152
+#, kde-format
 msgid "Root Window ID"
 msgstr ""
 
 #: os_base.h:156
+#, kde-format
 msgid "Depth of Root Window"
 msgstr ""
 
@@ -181,6 +206,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: os_base.h:160
+#, kde-format
 msgid "Number of Colormaps"
 msgstr ""
 
@@ -190,14 +216,17 @@ msgid "minimum %1, maximum %2"
 msgstr ""
 
 #: os_base.h:164
+#, kde-format
 msgid "Default Colormap"
 msgstr ""
 
 #: os_base.h:168
+#, kde-format
 msgid "Default Number of Colormap Cells"
 msgstr ""
 
 #: os_base.h:172
+#, kde-format
 msgid "Preallocated Pixels"
 msgstr ""
 
@@ -207,18 +236,22 @@ msgid "Black %1, White %2"
 msgstr ""
 
 #: os_base.h:175
+#, kde-format
 msgid "Yes"
 msgstr "हँ"
 
 #: os_base.h:176
+#, kde-format
 msgid "No"
 msgstr "नहि"
 
 #: os_base.h:179
+#, kde-format
 msgid "Options"
 msgstr "विकल्प"
 
 #: os_base.h:179
+#, kde-format
 msgid "When mapped"
 msgstr ""
 
@@ -228,14 +261,17 @@ msgid "backing-store: %1, save-unders: %2"
 msgstr ""
 
 #: os_base.h:185
+#, kde-format
 msgid "Largest Cursor"
 msgstr ""
 
 #: os_base.h:187
+#, kde-format
 msgid "unlimited"
 msgstr "असीमित"
 
 #: os_base.h:193
+#, kde-format
 msgid "Current Input Event Mask"
 msgstr ""
 
@@ -245,42 +281,52 @@ msgid "Event = %1"
 msgstr ""
 
 #: os_base.h:229
+#, kde-format
 msgid "Information"
 msgstr "सूचना"
 
 #: os_base.h:229
+#, kde-format
 msgid "Value"
 msgstr "मान"
 
 #: os_base.h:234
+#, kde-format
 msgid "Server Information"
 msgstr "सर्वरक सूचना"
 
 #: os_base.h:240
+#, kde-format
 msgid "Name of the Display"
 msgstr "प्रदर्शक क' नाम"
 
 #: os_base.h:244
+#, kde-format
 msgid "Vendor String"
 msgstr ""
 
 #: os_base.h:248
+#, kde-format
 msgid "Vendor Release Number"
 msgstr ""
 
 #: os_base.h:252
+#, kde-format
 msgid "Version Number"
 msgstr "संस्करण सँख्या"
 
 #: os_base.h:256
+#, kde-format
 msgid "Available Screens"
 msgstr ""
 
 #: os_base.h:266
+#, kde-format
 msgid "Supported Extensions"
 msgstr ""
 
 #: os_base.h:281
+#, kde-format
 msgid "Supported Pixmap Formats"
 msgstr ""
 
@@ -295,35 +341,43 @@ msgid "%1 BPP, Depth: %2, Scanline padding: %3"
 msgstr ""
 
 #: os_base.h:300
+#, kde-format
 msgid "Maximum Request Size"
 msgstr ""
 
 #: os_base.h:304
+#, kde-format
 msgid "Motion Buffer Size"
 msgstr ""
 
 #: os_base.h:308
+#, kde-format
 msgid "Bitmap"
 msgstr "बिटमाप"
 
 #: os_base.h:312
+#, kde-format
 msgid "Unit"
 msgstr "एकाइ"
 
 #: os_base.h:316
+#, kde-format
 msgid "Order"
 msgstr "क्रम"
 
 #: os_base.h:320
+#, kde-format
 msgid "Padding"
 msgstr "पैडिंग"
 
 #: os_base.h:324
+#, kde-format
 msgid "Image Byte Order"
 msgstr ""
 
 #: os_current.h:58 os_current.h:68 os_current.h:90 os_current.h:100
 #: os_current.h:110 os_current.h:121 os_current.h:131 os_current.h:141
+#, kde-format
 msgid "This system may not be completely supported yet."
 msgstr ""
 
