@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ArtisticTextShape\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2009-04-22 00:13+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19,6 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#: AddTextRangeCommand.cpp:28 AddTextRangeCommand.cpp:35
+msgctxt "(qtundo-format)"
+msgid "Add text range"
+msgstr ""
 
 #: ArtisticTextShapeFactory.cpp:30
 #, kde-format
@@ -110,6 +115,11 @@ msgstr ""
 msgid "Press return to finish editing."
 msgstr ""
 
+#: ArtisticTextTool.cpp:594
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr ""
+
 #: ArtisticTextTool.cpp:607
 #, kde-format
 msgid "Text Properties"
@@ -125,17 +135,47 @@ msgstr ""
 msgid "Artistic text editing"
 msgstr ""
 
-#, fuzzy
-#~| msgid "Change font"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change font"
-#~ msgstr "फोन्ट बदलू"
+#: AttachTextToPathCommand.cpp:28
+msgctxt "(qtundo-format)"
+msgid "Attach Path"
+msgstr ""
 
+#: ChangeTextAnchorCommand.cpp:27
 #, fuzzy
-#~| msgid "Change font"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Text Offset"
-#~ msgstr "फोन्ट बदलू"
+#| msgid "Change font"
+msgctxt "(qtundo-format)"
+msgid "Change text anchor"
+msgstr "फोन्ट बदलू"
+
+#: ChangeTextFontCommand.cpp:29
+#, fuzzy
+#| msgid "Change font"
+msgctxt "(qtundo-format)"
+msgid "Change font"
+msgstr "फोन्ट बदलू"
+
+#: ChangeTextOffsetCommand.cpp:28
+#, fuzzy
+#| msgid "Change font"
+msgctxt "(qtundo-format)"
+msgid "Change Text Offset"
+msgstr "फोन्ट बदलू"
+
+#: DetachTextFromPathCommand.cpp:27
+msgctxt "(qtundo-format)"
+msgid "Detach Path"
+msgstr ""
+
+#: RemoveTextRangeCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Remove text range"
+msgstr ""
+
+#: ReplaceTextRangeCommand.cpp:27 ReplaceTextRangeCommand.cpp:35
+#: ReplaceTextRangeCommand.cpp:43
+msgctxt "(qtundo-format)"
+msgid "Replace text range"
+msgstr ""
 
 #~ msgid "Size:"
 #~ msgstr "आकार:"

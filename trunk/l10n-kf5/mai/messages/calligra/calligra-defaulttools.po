@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice-defaulttools\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -272,6 +272,20 @@ msgid ""
 "Click and drag to resize selection. Middle click to set highlighted position."
 msgstr ""
 
+#: defaulttool/DefaultTool.cpp:992
+#, fuzzy
+#| msgid "Ungroup"
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "विसमूह"
+
+#: defaulttool/DefaultTool.cpp:1024
+#, fuzzy
+#| msgid "Ungroup"
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "विसमूह"
+
 #: defaulttool/DefaultTool.cpp:1114
 #, kde-format
 msgid "Arrange"
@@ -295,6 +309,41 @@ msgstr ""
 #: defaulttool/DefaultToolFactory.cpp:30
 #, kde-format
 msgid "Shape handling"
+msgstr ""
+
+#: defaulttool/DefaultToolTransformWidget.cpp:113
+#: defaulttool/ShapeRotateStrategy.cpp:147
+#, fuzzy
+#| msgid "Rotate"
+msgctxt "(qtundo-format)"
+msgid "Rotate"
+msgstr "घुमाबू"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:151
+#, fuzzy
+#| msgid "Shear"
+msgctxt "(qtundo-format)"
+msgid "Shear X"
+msgstr "कतरू"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:189
+#, fuzzy
+#| msgid "Shear"
+msgctxt "(qtundo-format)"
+msgid "Shear Y"
+msgstr "कतरू"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:231
+#: defaulttool/DefaultToolTransformWidget.cpp:268
+#, fuzzy
+#| msgid "Scale"
+msgctxt "(qtundo-format)"
+msgid "Scale"
+msgstr "मापक"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:300
+msgctxt "(qtundo-format)"
+msgid "Reset Transformations"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
@@ -349,6 +398,14 @@ msgstr "पहलू अनुपात बनाए राखू"
 msgid "Reset Transformations"
 msgstr ""
 
+#: defaulttool/DefaultToolWidget.cpp:238
+#: defaulttool/ShapeResizeStrategy.cpp:283
+#, fuzzy
+#| msgid "Resize"
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "आकार बदलू"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: defaulttool/DefaultToolWidget.ui:29
 #, kde-format
@@ -375,6 +432,13 @@ msgstr ""
 #, kde-format
 msgid "Press ALT to rotate in 45 degree steps."
 msgstr ""
+
+#: defaulttool/ShapeShearStrategy.cpp:181
+#, fuzzy
+#| msgid "Shear"
+msgctxt "(qtundo-format)"
+msgid "Shear"
+msgstr "कतरू"
 
 #: guidestool/GuidesTool.cpp:146
 #, kde-format
@@ -638,12 +702,6 @@ msgstr ""
 #~ msgstr "विसमूह"
 
 #, fuzzy
-#~| msgid "Ungroup"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Ungroup shapes"
-#~ msgstr "विसमूह"
-
-#, fuzzy
 #~| msgid "Arrange"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Arrange"
@@ -654,42 +712,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Geometry"
 #~ msgstr "ज्यामिति"
-
-#, fuzzy
-#~| msgid "Rotate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate"
-#~ msgstr "घुमाबू"
-
-#, fuzzy
-#~| msgid "Shear"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear X"
-#~ msgstr "कतरू"
-
-#, fuzzy
-#~| msgid "Shear"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Y"
-#~ msgstr "कतरू"
-
-#, fuzzy
-#~| msgid "Scale"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale"
-#~ msgstr "मापक"
-
-#, fuzzy
-#~| msgid "Resize"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize"
-#~ msgstr "आकार बदलू"
-
-#, fuzzy
-#~| msgid "Shear"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear"
-#~ msgstr "कतरू"
 
 #, fuzzy
 #~| msgid "Horizontal"

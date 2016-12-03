@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -876,6 +876,52 @@ msgstr "नाम"
 msgid "Description"
 msgstr "विवरण"
 
+#: models/kptaccountsmodel.cpp:327
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify account name"
+msgstr "विवरण"
+
+#: models/kptaccountsmodel.cpp:334
+#, fuzzy
+#| msgid "Delete Account"
+#| msgid_plural "Delete %1 Accounts"
+msgctxt "(qtundo-format)"
+msgid "De-select as default account"
+msgstr "खाता मिटाबू"
+
+#: models/kptaccountsmodel.cpp:340
+#, fuzzy
+#| msgid "Delete Account"
+#| msgid_plural "Delete %1 Accounts"
+msgctxt "(qtundo-format)"
+msgid "Select as default account"
+msgstr "खाता मिटाबू"
+
+#: models/kptaccountsmodel.cpp:357
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify account description"
+msgstr "विवरण"
+
+#: models/kptaccountsmodel.cpp:429
+#, fuzzy
+#| msgid "Add Account"
+msgctxt "(qtundo-format)"
+msgid "Add account"
+msgstr "खाता जोड़ू"
+
+#: models/kptaccountsmodel.cpp:447
+#, fuzzy, kde-format
+#| msgid "Delete Selection"
+msgctxt "(qtundo-format)"
+msgid "Delete Account"
+msgid_plural "Delete %1 Accounts"
+msgstr[0] "चयन मेटाउ"
+msgstr[1] "चयन मेटाउ"
+
 #: models/kptaccountsmodel.cpp:840
 #, kde-format
 msgid "Actual total cost: %1, planned total cost: %2"
@@ -899,6 +945,36 @@ msgctxt "1=calendar name"
 msgid "%1 (Default calendar)"
 msgstr "खाता मिटाबू"
 
+#: models/kptcalendarmodel.cpp:298
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar name"
+msgstr "विवरण"
+
+#: models/kptcalendarmodel.cpp:306
+#, fuzzy
+#| msgid "Delete Account"
+#| msgid_plural "Delete %1 Accounts"
+msgctxt "(qtundo-format)"
+msgid "De-select as default calendar"
+msgstr "खाता मिटाबू"
+
+#: models/kptcalendarmodel.cpp:312
+#, fuzzy
+#| msgid "Delete Account"
+#| msgid_plural "Delete %1 Accounts"
+msgctxt "(qtundo-format)"
+msgid "Select as default calendar"
+msgstr "खाता मिटाबू"
+
+#: models/kptcalendarmodel.cpp:370
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar timezone"
+msgstr "विवरण"
+
 #: models/kptcalendarmodel.cpp:419 models/kptnodeitemmodel.cpp:2273
 #: models/kptnodeitemmodel.cpp:4972
 #, fuzzy, kde-kuit-format
@@ -913,6 +989,34 @@ msgstr "नाम"
 msgctxt "@title:column"
 msgid "Timezone"
 msgstr "समय क्षेत्र"
+
+#: models/kptcalendarmodel.cpp:508
+#, fuzzy
+#| msgid "Delete Selection"
+msgctxt "(qtundo-format)"
+msgid "Re-parent calendar"
+msgstr "चयन मेटाउ"
+
+#: models/kptcalendarmodel.cpp:511
+#, fuzzy
+#| msgid "Calendar"
+msgctxt "(qtundo-format)"
+msgid "Move calendar"
+msgstr "कैलेंडर"
+
+#: models/kptcalendarmodel.cpp:567
+#, fuzzy
+#| msgid "Calendar"
+msgctxt "(qtundo-format)"
+msgid "Add calendar"
+msgstr "कैलेंडर"
+
+#: models/kptcalendarmodel.cpp:590
+#, fuzzy
+#| msgid "Delete Selection"
+msgctxt "(qtundo-format)"
+msgid "Delete calendar"
+msgstr "चयन मेटाउ"
 
 #: models/kptcalendarmodel.cpp:758
 #, kde-format
@@ -931,6 +1035,13 @@ msgstr ""
 msgctxt "Working"
 msgid "W"
 msgstr "W"
+
+#: models/kptcalendarmodel.cpp:789
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar state"
+msgstr "विवरण"
 
 #: models/kptcalendarmodel.cpp:810
 #, kde-format
@@ -959,6 +1070,20 @@ msgstr "कामकाज"
 msgctxt "@info:tooltip 1=time 2=The work duration (non integer)"
 msgid "%1, %2"
 msgstr "%1 (%2)"
+
+#: models/kptcalendarmodel.cpp:1214 models/kptcalendarmodel.cpp:1238
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar weekday"
+msgstr "विवरण"
+
+#: models/kptcalendarmodel.cpp:1266 models/kptcalendarmodel.cpp:1290
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar date"
+msgstr "विवरण"
 
 #: models/kptcalendarmodel.cpp:1307
 #, fuzzy, kde-kuit-format
@@ -1670,6 +1795,13 @@ msgctxt "@info:tooltip"
 msgid "The relations time lag"
 msgstr ""
 
+#: models/kptcommonstrings.cpp:184 ui/kptdocumentspanel.cpp:199
+#, fuzzy
+#| msgid "Remove"
+msgctxt "(qtundo-format)"
+msgid "Remove document"
+msgstr "हटाबू"
+
 #: models/kptdocumentmodel.cpp:201
 #, kde-format
 msgid "Url"
@@ -1771,7 +1903,7 @@ msgstr "गणना"
 #: models/kptnodechartmodel.cpp:243
 #, kde-format
 msgctxt ""
-"Date format used as chart axis labels. Must follow QDate specification"
+"Date format used as chart axis labels. Must follow QDate specification."
 msgid "MM.dd"
 msgstr ""
 
@@ -2911,6 +3043,181 @@ msgctxt "@info:tooltip"
 msgid "Work package send/receive time"
 msgstr "काज"
 
+#: models/kptnodeitemmodel.cpp:2582
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify name"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2584
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify task name"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2585
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify milestone name"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2586
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify summarytask name"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2587
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify project name"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2600
+#, fuzzy
+#| msgid "Responsible"
+msgctxt "(qtundo-format)"
+msgid "Modify responsible"
+msgstr "उत्तरदायी"
+
+#: models/kptnodeitemmodel.cpp:2622 ui/kpttaskdescriptiondialog.cpp:49
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify task description"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2645
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify constraint type"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2662
+#, fuzzy
+#| msgid "Constraint"
+msgctxt "(qtundo-format)"
+msgid "Modify constraint start time"
+msgstr "निर्धारक"
+
+#: models/kptnodeitemmodel.cpp:2679
+#, fuzzy
+#| msgid "Constraint"
+msgctxt "(qtundo-format)"
+msgid "Modify constraint end time"
+msgstr "निर्धारक"
+
+#: models/kptnodeitemmodel.cpp:2704
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify estimate type"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2730
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify estimate calendar"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2763 models/kptnodeitemmodel.cpp:2767
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify estimate"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2789
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify optimistic estimate"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2806
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify pessimistic estimate"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2830
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify risk type"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:2850
+#, fuzzy
+#| msgid "Running"
+msgctxt "(qtundo-format)"
+msgid "Modify running account"
+msgstr "चलि रहल अछि"
+
+#: models/kptnodeitemmodel.cpp:2872
+#, fuzzy
+#| msgid "Startup"
+msgctxt "(qtundo-format)"
+msgid "Modify startup account"
+msgstr "प्रारंभमे"
+
+#: models/kptnodeitemmodel.cpp:2889
+#, fuzzy
+#| msgid "Startup"
+msgctxt "(qtundo-format)"
+msgid "Modify startup cost"
+msgstr "प्रारंभमे"
+
+#: models/kptnodeitemmodel.cpp:2909
+#, fuzzy
+#| msgid "Add Account"
+msgctxt "(qtundo-format)"
+msgid "Modify shutdown account"
+msgstr "खाता जोड़ू"
+
+#: models/kptnodeitemmodel.cpp:2926
+#, fuzzy
+#| msgid "Shutdown"
+msgctxt "(qtundo-format)"
+msgid "Modify shutdown cost"
+msgstr "बन्न करू"
+
+#: models/kptnodeitemmodel.cpp:2948 models/kpttaskstatusmodel.cpp:441
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "(qtundo-format)"
+msgid "Modify remaining effort"
+msgstr "गणना"
+
+#: models/kptnodeitemmodel.cpp:2960 models/kpttaskstatusmodel.cpp:454
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "(qtundo-format)"
+msgid "Modify actual effort"
+msgstr "गणना"
+
+#: models/kptnodeitemmodel.cpp:2973 models/kpttaskstatusmodel.cpp:468
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "(qtundo-format)"
+msgid "Modify actual start time"
+msgstr "गणना"
+
+#: models/kptnodeitemmodel.cpp:3002 models/kpttaskstatusmodel.cpp:496
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "(qtundo-format)"
+msgid "Modify actual finish time"
+msgstr "गणना"
+
 #: models/kptnodeitemmodel.cpp:3415 models/kptnodeitemmodel.cpp:3424
 #: models/kptnodeitemmodel.cpp:3459 models/kptnodeitemmodel.cpp:3462
 #: ui/reports/reportdata.cpp:481
@@ -2918,6 +3225,69 @@ msgstr "काज"
 #| msgid "Resource"
 msgid "Resources"
 msgstr "संसाधन"
+
+#: models/kptnodeitemmodel.cpp:3421 models/kptresourcemodel.cpp:1458
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Add resource"
+msgstr "संसाधन"
+
+#: models/kptnodeitemmodel.cpp:3436 models/kptnodeitemmodel.cpp:3964
+#: ui/kptrequestresourcespanel.cpp:64
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource allocations"
+msgstr "संसाधन"
+
+#: models/kptnodeitemmodel.cpp:3513 models/kpttaskstatusmodel.cpp:391
+#, fuzzy, no-c-format
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify completion"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:3542 models/kpttaskstatusmodel.cpp:420
+#, fuzzy
+#| msgid "Finished"
+msgctxt "(qtundo-format)"
+msgid "Set finished"
+msgstr "समाप्त"
+
+#: models/kptnodeitemmodel.cpp:3899
+#, kde-format
+msgctxt "(qtundo-format) 1=project or task name"
+msgid "Insert %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:3957
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Insert %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:4036 models/kptnodeitemmodel.cpp:4798
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Move tasks"
+msgstr "विवरण"
+
+#: models/kptnodeitemmodel.cpp:4099 ui/kpttaskdialog.cpp:177
+#: ui/kpttaskdialog.cpp:214
+#, fuzzy
+#| msgid "Task"
+msgctxt "(qtundo-format)"
+msgid "Add task"
+msgstr "काज"
+
+#: models/kptnodeitemmodel.cpp:4128 ui/kpttaskdialog.cpp:212
+#, fuzzy
+#| msgid "Task"
+msgctxt "(qtundo-format)"
+msgid "Add sub-task"
+msgstr "काज"
 
 #: models/kptpertcpmmodel.cpp:159
 #, kde-format
@@ -2948,6 +3318,20 @@ msgstr "संतति"
 #, kde-format
 msgid "Lag"
 msgstr "पाछाँ"
+
+#: models/kptrelationmodel.cpp:327
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify relation type"
+msgstr "विवरण"
+
+#: models/kptrelationmodel.cpp:343
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify relation time lag"
+msgstr "विवरण"
 
 #: models/kptresourceallocationmodel.cpp:161
 #: models/kptresourceallocationmodel.cpp:219
@@ -3315,6 +3699,145 @@ msgstr ""
 msgid "Overtime Rate"
 msgstr ""
 
+#: models/kptresourcemodel.cpp:816
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource name"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:819
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource auto allocate"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:832
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resourcegroup name"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:873
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource type"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:894
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resourcegroup type"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:908
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource initials"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:921
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource email"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:942
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify resource calendar"
+msgstr "विवरण"
+
+#: models/kptresourcemodel.cpp:957
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource available units"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:970
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource available from"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:983
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource available until"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:996
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource normal rate"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:1009
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource overtime rate"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:1031
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource account"
+msgstr "संसाधन"
+
+#: models/kptresourcemodel.cpp:1266
+#, fuzzy, kde-format
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Add resource from address book"
+msgid_plural "Add %1 resources from address book"
+msgstr[0] "संसाधन"
+msgstr[1] "संसाधन"
+
+#: models/kptresourcemodel.cpp:1326
+#, fuzzy, kde-format
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Move resource"
+msgid_plural "Move %1 resources"
+msgstr[0] "संसाधन"
+msgstr[1] "संसाधन"
+
+#: models/kptresourcemodel.cpp:1345
+#, fuzzy, kde-format
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Copy resource"
+msgid_plural "Copy %1 resources"
+msgstr[0] "संसाधन"
+msgstr[1] "संसाधन"
+
+#: models/kptresourcemodel.cpp:1447
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Add resource group"
+msgstr "संसाधन"
+
+#: models/kptschedulemodel.cpp:404
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify schedule name"
+msgstr "विवरण"
+
 #: models/kptschedulemodel.cpp:478 models/kptschedulemodel.cpp:481
 #, kde-format
 msgid "Allow"
@@ -3371,17 +3894,24 @@ msgid "%1 always avoids overbooking of resources"
 msgstr "संसाधन"
 
 #: models/kptschedulemodel.cpp:507
-#, kde-kuit-format
-msgctxt "@label:listbox"
-msgid "Avoid"
-msgstr ""
-
-#: models/kptschedulemodel.cpp:507
 #, fuzzy, kde-kuit-format
 #| msgid "Allow"
 msgctxt "@label:listbox"
 msgid "Allow"
 msgstr "स्वीकारू"
+
+#: models/kptschedulemodel.cpp:507
+#, kde-kuit-format
+msgctxt "@label:listbox"
+msgid "Avoid"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:527
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify allow overbooking"
+msgstr "संसाधन"
 
 #: models/kptschedulemodel.cpp:544
 #, kde-format
@@ -3412,6 +3942,13 @@ msgstr "किछु नहि"
 msgctxt "@label:listbox"
 msgid "PERT"
 msgstr ""
+
+#: models/kptschedulemodel.cpp:570
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify scheduling distribution"
+msgstr "विवरण"
 
 #: models/kptschedulemodel.cpp:599
 #, kde-kuit-format
@@ -3492,23 +4029,37 @@ msgstr "नियत:"
 
 #: models/kptschedulemodel.cpp:696
 #, fuzzy, kde-kuit-format
+#| msgid "Backwards"
+msgctxt "@label:listbox"
+msgid "Backwards"
+msgstr "पाछाँक तरफ"
+
+#: models/kptschedulemodel.cpp:696
+#, fuzzy, kde-kuit-format
 #| msgid "Forward"
 msgctxt "@label:listbox"
 msgid "Forward"
 msgstr "आगाँक तरफ"
 
-#: models/kptschedulemodel.cpp:696
-#, fuzzy, kde-kuit-format
-#| msgid "Backwards"
-msgctxt "@label:listbox"
-msgid "Backwards"
-msgstr "पाछाँक तरफ"
+#: models/kptschedulemodel.cpp:716
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify scheduling direction"
+msgstr "विवरण"
 
 #: models/kptschedulemodel.cpp:735
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgid "Unknown"
 msgstr "अज्ञात"
+
+#: models/kptschedulemodel.cpp:761
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "(qtundo-format)"
+msgid "Modify scheduler"
+msgstr "गणना"
 
 #: models/kptschedulemodel.cpp:804
 #, fuzzy, kde-format
@@ -3528,6 +4079,13 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid "Selected scheduling granularity: %1"
 msgstr ""
+
+#: models/kptschedulemodel.cpp:842
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify scheduling granularity"
+msgstr "विवरण"
 
 #: models/kptschedulemodel.cpp:915
 #, kde-format
@@ -3576,6 +4134,11 @@ msgstr ""
 
 #: models/kptschedulemodel.cpp:1203
 #, kde-format
+msgid "Message"
+msgstr "संदेश"
+
+#: models/kptschedulemodel.cpp:1203
+#, kde-format
 msgid "Phase"
 msgstr "चरण"
 
@@ -3583,11 +4146,6 @@ msgstr "चरण"
 #, kde-format
 msgid "Severity"
 msgstr ""
-
-#: models/kptschedulemodel.cpp:1203
-#, kde-format
-msgid "Message"
-msgstr "संदेश"
 
 #: models/kpttaskstatusmodel.cpp:50 ui/kptresourceassignmentview.cpp:253
 #: ui/kptresourceassignmentview.cpp:331
@@ -3822,6 +4380,13 @@ msgstr "प्रोजेक्ट"
 msgid "Work..."
 msgstr ""
 
+#: ui/kptcalendareditor.cpp:271 ui/kptcalendareditor.cpp:301
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Weekday State"
+msgstr "विवरण"
+
 #: ui/kptcalendareditor.cpp:388
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
@@ -3849,6 +4414,27 @@ msgstr ""
 #, kde-format
 msgid "Add Subcalendar"
 msgstr ""
+
+#: ui/kptcalendareditor.cpp:781 ui/kptcalendareditor.cpp:815
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Calendar"
+msgstr "विवरण"
+
+#: ui/kptcalendareditor.cpp:790 ui/kptcalendareditor.cpp:796
+#, fuzzy, kde-format
+#| msgid "Work"
+msgctxt "(qtundo-format)"
+msgid "%1: Set to Non-Working"
+msgstr "कामकाज"
+
+#: ui/kptcalendareditor.cpp:822
+#, fuzzy, kde-format
+#| msgid "Undefined"
+msgctxt "(qtundo-format)"
+msgid "Set %1 to Undefined"
+msgstr "अपरिभाषित"
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
 #: ui/kptcpmwidget.ui:24 ui/kptpertresult.ui:33
@@ -3949,14 +4535,14 @@ msgstr "दस्तावेज"
 
 #: ui/kptdocumentspanel.cpp:115
 #, kde-kuit-format
-msgctxt "@info"
-msgid "Document is already attached:<br/><filename>%1</filename>"
+msgctxt "@title:window"
+msgid "Cannot Attach Document"
 msgstr ""
 
 #: ui/kptdocumentspanel.cpp:115
 #, kde-kuit-format
-msgctxt "@title:window"
-msgid "Cannot Attach Document"
+msgctxt "@info"
+msgid "Document is already attached:<br/><filename>%1</filename>"
 msgstr ""
 
 #: ui/kptdocumentspanel.cpp:136
@@ -3967,13 +4553,55 @@ msgstr ""
 
 #: ui/kptdocumentspanel.cpp:141
 #, kde-format
-msgid "Document url already exists: %1"
+msgid "Cannot Modify Url"
 msgstr ""
 
 #: ui/kptdocumentspanel.cpp:141
 #, kde-format
-msgid "Cannot Modify Url"
+msgid "Document url already exists: %1"
 msgstr ""
+
+#: ui/kptdocumentspanel.cpp:189
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify documents"
+msgstr "विवरण"
+
+#: ui/kptdocumentspanel.cpp:207
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify document url"
+msgstr "विवरण"
+
+#: ui/kptdocumentspanel.cpp:211
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify document type"
+msgstr "विवरण"
+
+#: ui/kptdocumentspanel.cpp:215
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify document status"
+msgstr "विवरण"
+
+#: ui/kptdocumentspanel.cpp:219
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify document send control"
+msgstr "विवरण"
+
+#: ui/kptdocumentspanel.cpp:230
+#, fuzzy
+#| msgid "Add Account"
+msgctxt "(qtundo-format)"
+msgid "Add document"
+msgstr "खाता जोड़ू"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbAdd)
 #: ui/kptdocumentspanel.ui:31
@@ -4191,6 +4819,13 @@ msgstr "नमाइ"
 msgid "Edit Work Intervals"
 msgstr ""
 
+#: ui/kptintervaledit.cpp:220 ui/kptintervaledit.cpp:275
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Work Interval"
+msgstr "विवरण"
+
 #. i18n: ectx: property (text), widget (QTreeWidget, intervalList)
 #: ui/kptintervaleditbase.ui:21
 #, kde-format
@@ -4283,10 +4918,24 @@ msgstr ""
 msgid "Currency Settings"
 msgstr "सामान्य जमावट"
 
+#: ui/kptlocaleconfigmoneydialog.cpp:50
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify currency settings"
+msgstr "विवरण"
+
 #: ui/kptmainprojectdialog.cpp:36
 #, kde-format
 msgid "Project Settings"
 msgstr ""
+
+#: ui/kptmainprojectdialog.cpp:60 ui/kptmainprojectpanel.cpp:99
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify main project"
+msgstr "विवरण"
 
 #: ui/kptmainprojectpanel.cpp:55 ui/kptsummarytaskgeneralpanel.cpp:57
 #: ui/kpttaskgeneralpanel.cpp:52
@@ -4374,6 +5023,13 @@ msgstr "समाप्त"
 #, kde-format
 msgid "Milestone Progress"
 msgstr ""
+
+#: ui/kptmilestoneprogresspanel.cpp:51
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify milestone completion"
+msgstr "विवरण"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/kptperformancestatusviewsettingspanel.ui:17
@@ -4473,6 +5129,13 @@ msgstr "गणना"
 #| msgid "Cost"
 msgid "CPI Cost"
 msgstr "लागत"
+
+#: ui/kptperteditor.cpp:160
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Remove task dependency"
+msgstr "विवरण"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, taskList)
 #. i18n: ectx: property (text), widget (QTreeWidget, m_taskList)
@@ -4583,6 +5246,13 @@ msgctxt "@title:window"
 msgid "Add Dependency"
 msgstr ""
 
+#: ui/kptrelationdialog.cpp:99
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Add task dependency"
+msgstr "विवरण"
+
 #: ui/kptrelationdialog.cpp:145
 #, kde-kuit-format
 msgctxt "@title:window"
@@ -4595,6 +5265,20 @@ msgstr ""
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "मेटाबू"
+
+#: ui/kptrelationdialog.cpp:174
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Delete task dependency"
+msgstr "विवरण"
+
+#: ui/kptrelationdialog.cpp:178
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify task dependency"
+msgstr "विवरण"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_internalAppointments)
 #: ui/kptresourceappointmentsdisplayoptions.ui:16
@@ -4632,22 +5316,29 @@ msgstr "रद करू"
 
 #: ui/kptresourcedialog.cpp:64
 #, fuzzy, kde-kuit-format
-#| msgid "Delete Selection"
-msgctxt "title:column"
-msgid "Select team members"
-msgstr "चयन मेटाउ"
-
-#: ui/kptresourcedialog.cpp:64
-#, fuzzy, kde-kuit-format
 #| msgid "Group"
 msgctxt "title:column"
 msgid "Group"
 msgstr "समूह"
 
+#: ui/kptresourcedialog.cpp:64
+#, fuzzy, kde-kuit-format
+#| msgid "Delete Selection"
+msgctxt "title:column"
+msgid "Select team members"
+msgstr "चयन मेटाउ"
+
 #: ui/kptresourcedialog.cpp:247
 #, kde-format
 msgid "Resource Settings"
 msgstr ""
+
+#: ui/kptresourcedialog.cpp:397
+#, fuzzy
+#| msgid "Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify Resource"
+msgstr "संसाधन"
 
 #: ui/kptresourceeditor.cpp:118
 #, kde-kuit-format
@@ -4700,6 +5391,20 @@ msgctxt "@action"
 msgid "Detach"
 msgstr ""
 
+#: ui/kptscheduleeditor.cpp:368 ui/kptscheduleeditor.cpp:401
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "(qtundo-format)"
+msgid "Create sub-schedule"
+msgstr "नियत:"
+
+#: ui/kptscheduleeditor.cpp:379
+#, fuzzy, kde-format
+#| msgid "Calculate"
+msgctxt "(qtundo-format)"
+msgid "Add schedule %1"
+msgstr "गणना"
+
 #: ui/kptscheduleeditor.cpp:484
 #, kde-kuit-format
 msgctxt "@action"
@@ -4716,6 +5421,20 @@ msgstr "परिणाम"
 msgid "Scheduling Log"
 msgstr ""
 
+#: ui/kptscheduleeditor.cpp:822
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "(qtundo-format)"
+msgid "Modify project target start time"
+msgstr "नियत:"
+
+#: ui/kptscheduleeditor.cpp:834
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "(qtundo-format)"
+msgid "Modify project target end time"
+msgstr "नियत:"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/kptscheduleeditor.ui:35
 #, fuzzy, kde-format
@@ -4728,10 +5447,31 @@ msgstr "नियत:"
 msgid "Estimate Conversions"
 msgstr ""
 
+#: ui/kptstandardworktimedialog.cpp:103
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Estimate Conversions"
+msgstr "विवरण"
+
 #: ui/kptsummarytaskdialog.cpp:38
 #, kde-format
 msgid "Summary Task Settings"
 msgstr ""
+
+#: ui/kptsummarytaskdialog.cpp:63
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Summary Task"
+msgstr "विवरण"
+
+#: ui/kptsummarytaskgeneralpanel.cpp:87 ui/kpttaskdialog.cpp:108
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify task"
+msgstr "विवरण"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, wbslabel)
 #: ui/kptsummarytaskgeneralpanelbase.ui:29 ui/kpttaskgeneralpanelbase.ui:23
@@ -4793,6 +5533,13 @@ msgstr ""
 msgid "Choose..."
 msgstr "चयन करू..."
 
+#: ui/kpttaskcostpanel.cpp:100
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Task Cost"
+msgstr "विवरण"
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
@@ -4826,6 +5573,27 @@ msgstr "लागत"
 #| msgid "Shutdown"
 msgid "Shutdown"
 msgstr "बन्न करू"
+
+#: ui/kpttaskdescriptiondialog.cpp:51
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify milestone description"
+msgstr "विवरण"
+
+#: ui/kpttaskdescriptiondialog.cpp:53
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify summary task description"
+msgstr "विवरण"
+
+#: ui/kpttaskdescriptiondialog.cpp:55
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify project description"
+msgstr "विवरण"
 
 #: ui/kpttaskdescriptiondialog.cpp:136
 #, fuzzy, kde-format
@@ -4892,6 +5660,17 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid "Task type: %1"
 msgstr "काज"
+
+#: ui/kpttaskeditor.cpp:165 ui/kpttaskeditor.cpp:167
+msgctxt "(qtundo-format)"
+msgid "Set type to Milestone"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:174
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Set type to %1"
+msgstr ""
 
 #: ui/kpttaskeditor.cpp:377
 #, kde-kuit-format
@@ -4965,6 +5744,20 @@ msgstr "नीच्चाँ जाउ"
 #| msgid "Send"
 msgid "Send..."
 msgstr "पठाबू"
+
+#: ui/kpttaskeditor.cpp:1496
+#, fuzzy
+#| msgid "Tasks"
+msgctxt "(qtundo-format)"
+msgid "Log Send Workpackage"
+msgstr "काज"
+
+#: ui/kpttaskgeneralpanel.cpp:113
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Task"
+msgstr "विवरण"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, chooseLeader)
 #: ui/kpttaskgeneralpanelbase.ui:119
@@ -5086,6 +5879,20 @@ msgstr ""
 #, kde-format
 msgid "Task Progress"
 msgstr ""
+
+#: ui/kpttaskprogressdialog.cpp:65
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify Task Progress"
+msgstr "विवरण"
+
+#: ui/kpttaskprogresspanel.cpp:118
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify task completion"
+msgstr "विवरण"
 
 #: ui/kpttaskprogresspanel.cpp:411 ui/kpttaskprogresspanel.cpp:426
 #, kde-format
@@ -5333,6 +6140,13 @@ msgstr "विभाजित दृश्य"
 #, kde-format
 msgid "WBS Definition"
 msgstr ""
+
+#: ui/kptwbsdefinitionpanel.cpp:147
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify WBS Code Definition"
+msgstr "विवरण"
 
 #. i18n: ectx: property (toolTip), widget (QFrame, frame_2)
 #: ui/kptwbsdefinitionpanelbase.ui:21
@@ -5701,16 +6515,16 @@ msgstr "प्रारंभ नहि भेल"
 msgid "Export to text document is not supported"
 msgstr ""
 
+#: ui/reports/reportview.cpp:391
+#, kde-format
+msgid "Export to text document failed"
+msgstr ""
+
 #: ui/reports/reportview.cpp:391 ui/reports/reportview.cpp:411
 #: ui/reports/reportview.cpp:432
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to export to <filename>%1</filename>"
-msgstr ""
-
-#: ui/reports/reportview.cpp:391
-#, kde-format
-msgid "Export to text document failed"
 msgstr ""
 
 #: ui/reports/reportview.cpp:400
@@ -6015,670 +6829,6 @@ msgstr ""
 #, kde-format
 msgid "Hours per day:"
 msgstr ""
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify account name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Delete Account"
-#~| msgid_plural "Delete %1 Accounts"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "De-select as default account"
-#~ msgstr "खाता मिटाबू"
-
-#, fuzzy
-#~| msgid "Delete Account"
-#~| msgid_plural "Delete %1 Accounts"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select as default account"
-#~ msgstr "खाता मिटाबू"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify account description"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Add Account"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add account"
-#~ msgstr "खाता जोड़ू"
-
-#, fuzzy
-#~| msgid "Delete Selection"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Account"
-#~ msgid_plural "Delete %1 Accounts"
-#~ msgstr[0] "चयन मेटाउ"
-#~ msgstr[1] "चयन मेटाउ"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify calendar name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Delete Account"
-#~| msgid_plural "Delete %1 Accounts"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "De-select as default calendar"
-#~ msgstr "खाता मिटाबू"
-
-#, fuzzy
-#~| msgid "Delete Account"
-#~| msgid_plural "Delete %1 Accounts"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select as default calendar"
-#~ msgstr "खाता मिटाबू"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify calendar timezone"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Delete Selection"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Re-parent calendar"
-#~ msgstr "चयन मेटाउ"
-
-#, fuzzy
-#~| msgid "Calendar"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move calendar"
-#~ msgstr "कैलेंडर"
-
-#, fuzzy
-#~| msgid "Calendar"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add calendar"
-#~ msgstr "कैलेंडर"
-
-#, fuzzy
-#~| msgid "Delete Selection"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete calendar"
-#~ msgstr "चयन मेटाउ"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify calendar state"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify calendar weekday"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify calendar date"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Remove"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove document"
-#~ msgstr "हटाबू"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify task name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify milestone name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify summarytask name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify project name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Responsible"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify responsible"
-#~ msgstr "उत्तरदायी"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify task description"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify constraint type"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Constraint"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify constraint start time"
-#~ msgstr "निर्धारक"
-
-#, fuzzy
-#~| msgid "Constraint"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify constraint end time"
-#~ msgstr "निर्धारक"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify estimate type"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify estimate calendar"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify estimate"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify optimistic estimate"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify pessimistic estimate"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify risk type"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Running"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify running account"
-#~ msgstr "चलि रहल अछि"
-
-#, fuzzy
-#~| msgid "Startup"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify startup account"
-#~ msgstr "प्रारंभमे"
-
-#, fuzzy
-#~| msgid "Startup"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify startup cost"
-#~ msgstr "प्रारंभमे"
-
-#, fuzzy
-#~| msgid "Add Account"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify shutdown account"
-#~ msgstr "खाता जोड़ू"
-
-#, fuzzy
-#~| msgid "Shutdown"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify shutdown cost"
-#~ msgstr "बन्न करू"
-
-#, fuzzy
-#~| msgid "Calculate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify remaining effort"
-#~ msgstr "गणना"
-
-#, fuzzy
-#~| msgid "Calculate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify actual effort"
-#~ msgstr "गणना"
-
-#, fuzzy
-#~| msgid "Calculate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify actual start time"
-#~ msgstr "गणना"
-
-#, fuzzy
-#~| msgid "Calculate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify actual finish time"
-#~ msgstr "गणना"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add resource"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource allocations"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify completion"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Finished"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set finished"
-#~ msgstr "समाप्त"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move tasks"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Task"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add task"
-#~ msgstr "काज"
-
-#, fuzzy
-#~| msgid "Task"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add sub-task"
-#~ msgstr "काज"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify relation type"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify relation time lag"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource name"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource auto allocate"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resourcegroup name"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource type"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resourcegroup type"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource initials"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource email"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource calendar"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource available units"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource available from"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource available until"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource normal rate"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource overtime rate"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify resource account"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move resource"
-#~ msgid_plural "Move %1 resources"
-#~ msgstr[0] "संसाधन"
-#~ msgstr[1] "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy resource"
-#~ msgid_plural "Copy %1 resources"
-#~ msgstr[0] "संसाधन"
-#~ msgstr[1] "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add resource group"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify schedule name"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify scheduling distribution"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify scheduling direction"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Calculate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify scheduler"
-#~ msgstr "गणना"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify scheduling granularity"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Weekday State"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Calendar"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Work"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "%1: Set to Non-Working"
-#~ msgstr "कामकाज"
-
-#, fuzzy
-#~| msgid "Undefined"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set %1 to Undefined"
-#~ msgstr "अपरिभाषित"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify documents"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify document url"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify document type"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify document status"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify document send control"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Add Account"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add document"
-#~ msgstr "खाता जोड़ू"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Work Interval"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify currency settings"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify main project"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify milestone completion"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove task dependency"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add task dependency"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete task dependency"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify task dependency"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Resource"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Schedule:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create sub-schedule"
-#~ msgstr "नियत:"
-
-#, fuzzy
-#~| msgid "Calculate"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add schedule %1"
-#~ msgstr "गणना"
-
-#, fuzzy
-#~| msgid "Schedule:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify project target start time"
-#~ msgstr "नियत:"
-
-#, fuzzy
-#~| msgid "Schedule:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify project target end time"
-#~ msgstr "नियत:"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Estimate Conversions"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Summary Task"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify task"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Task Cost"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify milestone description"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify summary task description"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify project description"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Tasks"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Log Send Workpackage"
-#~ msgstr "काज"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Task"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Task Progress"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify task completion"
-#~ msgstr "विवरण"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify WBS Code Definition"
-#~ msgstr "विवरण"
 
 #, fuzzy
 #~| msgid "Critical"

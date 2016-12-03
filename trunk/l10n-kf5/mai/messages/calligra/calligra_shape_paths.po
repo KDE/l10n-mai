@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PathShapes\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2009-04-22 00:20+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19,6 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#: ellipse/EllipseShapeConfigCommand.cpp:32
+#, fuzzy
+#| msgid "Ellipse"
+msgctxt "(qtundo-format)"
+msgid "Change ellipse"
+msgstr "दीर्घवृत्त"
 
 #: ellipse/EllipseShapeConfigWidget.cpp:29
 #, kde-format
@@ -155,6 +162,13 @@ msgstr ""
 msgid "A gearhead"
 msgstr ""
 
+#: rectangle/RectangleShapeConfigCommand.cpp:32
+#, fuzzy
+#| msgid "Start angle:"
+msgctxt "(qtundo-format)"
+msgid "Change rectangle"
+msgstr "आरंभिक कोण:"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, RectangleShapeConfigWidget)
 #: rectangle/RectangleShapeConfigWidget.ui:13
 #, kde-format
@@ -181,6 +195,11 @@ msgstr ""
 #: rectangle/RectangleShapeFactory.cpp:35
 #, kde-format
 msgid "A rectangle"
+msgstr ""
+
+#: spiral/SpiralShapeConfigCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Change spiral"
 msgstr ""
 
 #: spiral/SpiralShapeConfigWidget.cpp:29
@@ -229,6 +248,11 @@ msgstr "चक्राकार"
 #: spiral/SpiralShapeFactory.cpp:33
 #, kde-format
 msgid "A spiral shape"
+msgstr ""
+
+#: star/StarShapeConfigCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Change star"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, StarShapeConfigWidget)
@@ -397,12 +421,6 @@ msgstr ""
 #~ msgstr "दीर्घवृत्त"
 
 #, fuzzy
-#~| msgid "Ellipse"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "An ellipse"
-#~ msgstr "दीर्घवृत्त"
-
-#, fuzzy
 #~| msgid "Cross"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Cross"
@@ -449,12 +467,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "A circular-arrow"
 #~ msgstr "गोलाकार तीर"
-
-#, fuzzy
-#~| msgid "Start angle:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "A rectangle"
-#~ msgstr "आरंभिक कोण:"
 
 #, fuzzy
 #~| msgid "Curve"

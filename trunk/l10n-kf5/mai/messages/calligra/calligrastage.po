@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -62,6 +62,100 @@ msgstr ""
 msgid "&Settings"
 msgstr "जमावट (&S)"
 
+#: part/commands/KPrAddCustomSlideShowCommand.cpp:32
+#, fuzzy
+#| msgid "Next Slide"
+msgctxt "(qtundo-format)"
+msgid "Add custom slide show"
+msgstr "अगिला स्लाइड"
+
+#: part/commands/KPrAnimationCreateCommand.cpp:32
+#, fuzzy
+#| msgid "Navigation"
+msgctxt "(qtundo-format)"
+msgid "Create shape animation"
+msgstr "नेविगेशन"
+
+#: part/commands/KPrAnimationEditNodeTypeCommand.cpp:35
+#, fuzzy
+#| msgid "Navigation"
+msgctxt "(qtundo-format)"
+msgid "Edit animation trigger event"
+msgstr "नेविगेशन"
+
+#: part/commands/KPrAnimationRemoveCommand.cpp:30
+#, fuzzy
+#| msgid "Navigation"
+msgctxt "(qtundo-format)"
+msgid "Remove shape animation"
+msgstr "नेविगेशन"
+
+#: part/commands/KPrDelCustomSlideShowCommand.cpp:33
+#, fuzzy
+#| msgid "Next Slide"
+msgctxt "(qtundo-format)"
+msgid "Delete custom slide show"
+msgstr "अगिला स्लाइड"
+
+#: part/commands/KPrDeleteSlidesCommand.cpp:38
+#: part/commands/KPrDeleteSlidesCommand.cpp:57
+#, fuzzy
+#| msgid "Next Slide"
+msgctxt "(qtundo-format)"
+msgid "Delete slide"
+msgid_plural "Delete slides"
+msgstr[0] "अगिला स्लाइड"
+msgstr[1] "अगिला स्लाइड"
+
+#: part/commands/KPrEditAnimationTimeLineCommand.cpp:37
+#, fuzzy
+#| msgid "Navigation"
+msgctxt "(qtundo-format)"
+msgid "Edit animation delay/duration"
+msgstr "नेविगेशन"
+
+#: part/commands/KPrEditCustomSlideShowsCommand.cpp:32
+#, fuzzy
+#| msgid "Next Slide"
+msgctxt "(qtundo-format)"
+msgid "Edit custom slide show"
+msgstr "अगिला स्लाइड"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:38
+#, fuzzy
+#| msgid "No Effect"
+msgctxt "(qtundo-format)"
+msgid "Create Slide Effect"
+msgstr "कोनो प्रभाव नहि"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:41
+#, fuzzy
+#| msgid "No Effect"
+msgctxt "(qtundo-format)"
+msgid "Modify Slide Effect"
+msgstr "कोनो प्रभाव नहि"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:45
+#, fuzzy
+#| msgid "Next Slide"
+msgctxt "(qtundo-format)"
+msgid "Delete Slide Effect"
+msgstr "अगिला स्लाइड"
+
+#: part/commands/KPrRenameCustomSlideShowCommand.cpp:33
+#, fuzzy
+#| msgid "Next Slide"
+msgctxt "(qtundo-format)"
+msgid "Rename custom slide show"
+msgstr "अगिला स्लाइड"
+
+#: part/commands/KPrReorderAnimationCommand.cpp:33
+#, fuzzy
+#| msgid "Transitions"
+msgctxt "(qtundo-format)"
+msgid "Reorder animations"
+msgstr "संक्रमण"
+
 #: part/KPrAboutData.h:34
 #, kde-format
 msgctxt "application name"
@@ -86,15 +180,15 @@ msgstr ""
 msgid "Copyright 1998-%1, The Stage Team"
 msgstr ""
 
-#: part/KPrAboutData.h:48
-#, kde-format
-msgid "Thorsten Zachmann"
-msgstr ""
-
 #: part/KPrAboutData.h:48 part/KPrAboutData.h:49
 #, kde-format
 msgid "Former maintainer"
 msgstr "पहिनुक मेंटेनर"
+
+#: part/KPrAboutData.h:48
+#, kde-format
+msgid "Thorsten Zachmann"
+msgstr ""
 
 #: part/KPrAboutData.h:49
 #, kde-format
@@ -103,13 +197,13 @@ msgstr ""
 
 #: part/KPrAboutData.h:50
 #, kde-format
-msgid "Reginald Stadlbauer"
-msgstr ""
+msgid "Original author"
+msgstr "मूल लेखक"
 
 #: part/KPrAboutData.h:50
 #, kde-format
-msgid "Original author"
-msgstr "मूल लेखक"
+msgid "Reginald Stadlbauer"
+msgstr ""
 
 #: part/KPrAboutData.h:51
 #, kde-format
@@ -246,6 +340,13 @@ msgstr ""
 #, kde-format
 msgid "Installation Error"
 msgstr ""
+
+#: part/KPrPicturesImport.cpp:75
+#, fuzzy
+#| msgid "Insert Slide"
+msgctxt "(qtundo-format)"
+msgid "Insert Pictures"
+msgstr "स्लाइड जोडू"
 
 #: part/KPrPlaceholderShapeFactory.cpp:32
 #, kde-format
@@ -670,16 +771,22 @@ msgstr "स्लाइड शो"
 msgid "All slides"
 msgstr ""
 
-#: part/KPrViewModeSlidesSorter.cpp:699
-#, kde-format
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
 #: part/KPrViewModeSlidesSorter.cpp:699 part/ui/KPrHtmlExportDialog.cpp:162
 #: part/ui/KPrHtmlExportDialog.cpp:216
 #, kde-format
 msgid "Error"
 msgstr "त्रुटि"
+
+#: part/KPrViewModeSlidesSorter.cpp:699
+#, kde-format
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
+
+#: part/pagelayout/KPrPlaceholders.cpp:59
+#: part/pagelayout/KPrPlaceholders.cpp:60
+msgctxt "(qtundo-format)"
+msgid "Set Layout"
+msgstr ""
 
 #: part/tools/animationtool/KPrAnimationSelectorWidget.cpp:67
 #, kde-format
@@ -765,6 +872,11 @@ msgstr " sec"
 #: part/tools/animationtool/KPrPageEffectDocker.cpp:91
 #, kde-format
 msgid "Apply To All Slides"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:236
+msgctxt "(qtundo-format)"
+msgid "Apply Slide Effect to all Slides"
 msgstr ""
 
 #: part/tools/animationtool/KPrPredefinedAnimationsLoader.cpp:178
@@ -925,6 +1037,13 @@ msgstr "चित्र"
 #, kde-format
 msgid "&Crop"
 msgstr ""
+
+#: part/tools/KPrPlaceholderTool.cpp:92
+#, fuzzy
+#| msgid "Shape"
+msgctxt "(qtundo-format)"
+msgid "Edit Shape"
+msgstr "आकार"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: part/ui/KPrConfigurePresenterView.ui:16
@@ -1100,12 +1219,17 @@ msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:330
 #, kde-format
-msgid "Confirm remove"
+msgid "Are you sure you want to remove \"%1\"?"
 msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:330
 #, kde-format
-msgid "Are you sure you want to remove \"%1\"?"
+msgid "Confirm remove"
+msgstr ""
+
+#: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:95
+msgctxt "(qtundo-format)"
+msgid "Change sound action"
 msgstr ""
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:118
@@ -2423,38 +2547,6 @@ msgstr ""
 #~ msgstr "प्रस्तुति"
 
 #, fuzzy
-#~| msgid "Next Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete custom slide show"
-#~ msgstr "अगिला स्लाइड"
-
-#, fuzzy
-#~| msgid "Next Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete slide"
-#~ msgid_plural "Delete slides"
-#~ msgstr[0] "अगिला स्लाइड"
-#~ msgstr[1] "अगिला स्लाइड"
-
-#, fuzzy
-#~| msgid "No Effect"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create Slide Effect"
-#~ msgstr "कोनो प्रभाव नहि"
-
-#, fuzzy
-#~| msgid "Next Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Slide Effect"
-#~ msgstr "अगिला स्लाइड"
-
-#, fuzzy
-#~| msgid "Transitions"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reorder animations"
-#~ msgstr "संक्रमण"
-
-#, fuzzy
 #~| msgid "Presentation"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Presentation Tool"
@@ -2497,12 +2589,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Slide %1"
 #~ msgstr "स्लाइड"
-
-#, fuzzy
-#~| msgid "Insert Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Pictures"
-#~ msgstr "स्लाइड जोडू"
 
 #, fuzzy
 #~| msgid "Clock"
@@ -2643,12 +2729,6 @@ msgstr ""
 #~ msgstr "स्लाइड जोडू"
 
 #, fuzzy
-#~| msgid "Navigation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create Appear Animation"
-#~ msgstr "नेविगेशन"
-
-#, fuzzy
 #~| msgid "Next Slide"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Edit Custom Slide Shows..."
@@ -2713,12 +2793,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Slide Show: "
 #~ msgstr "स्लाइड शो"
-
-#, fuzzy
-#~| msgid "Next Slide"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add a new custom slide show"
-#~ msgstr "अगिला स्लाइड"
 
 #, fuzzy
 #~| msgid "Next Slide"
@@ -2887,12 +2961,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Delete current animation"
 #~ msgstr "संक्रमण"
-
-#, fuzzy
-#~| msgid "Shape"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit Shape"
-#~ msgstr "आकार"
 
 #, fuzzy
 #~| msgid "Monitor %1 (primary)"
