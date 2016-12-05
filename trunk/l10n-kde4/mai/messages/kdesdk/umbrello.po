@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-04 01:11+0100\n"
+"POT-Creation-Date: 2016-12-05 01:10+0100\n"
 "PO-Revision-Date: 2010-09-24 20:24+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -165,17 +165,17 @@ msgstr ""
 msgid "Activity"
 msgstr "क्रियासभ"
 
-#: basictypes.cpp:371 worktoolbar.cpp:372
+#: basictypes.cpp:371 worktoolbar.cpp:373
 #, kde-format
 msgid "Exception"
 msgstr ""
 
-#: basictypes.cpp:373 worktoolbar.cpp:376
+#: basictypes.cpp:373 worktoolbar.cpp:377
 #, kde-format
 msgid "Category to Parent"
 msgstr ""
 
-#: basictypes.cpp:375 worktoolbar.cpp:377
+#: basictypes.cpp:375 worktoolbar.cpp:378
 #, kde-format
 msgid "Child to Category"
 msgstr ""
@@ -2035,7 +2035,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: dialogs/finddialog.ui:74 listpopupmenu.cpp:865
-#: umlwidgets/widgetbase.cpp:1055 worktoolbar.cpp:375
+#: umlwidgets/widgetbase.cpp:1055 worktoolbar.cpp:376
 #, kde-format
 msgid "Category"
 msgstr "श्रेणी"
@@ -4245,7 +4245,7 @@ msgstr "सबसिस्टम"
 msgid "Component"
 msgstr "घटक"
 
-#: listpopupmenu.cpp:829 umlwidgets/widgetbase.cpp:1106
+#: listpopupmenu.cpp:829 umlwidgets/widgetbase.cpp:1106 worktoolbar.cpp:369
 #, kde-format
 msgid "Port"
 msgstr ""
@@ -4593,7 +4593,7 @@ msgstr ""
 msgid "Join"
 msgstr "सामिल होउ"
 
-#: listpopupmenu.cpp:1557 worktoolbar.cpp:369
+#: listpopupmenu.cpp:1557 worktoolbar.cpp:370
 #, kde-format
 msgid "Initial Activity"
 msgstr ""
@@ -7578,6 +7578,7 @@ msgid "Enter object name:"
 msgstr ""
 
 #: umlwidgets/pinwidget.cpp:75 umlwidgets/pinwidget.cpp:80
+#: umlwidgets/toolbarstateonewidget.cpp:197
 #, kde-format
 msgid "Enter Pin Name"
 msgstr ""
@@ -7588,8 +7589,7 @@ msgid "Enter the pin name :"
 msgstr ""
 
 #: umlwidgets/portwidget.cpp:78 umlwidgets/portwidget.cpp:82
-#: umlwidgets/toolbarstateonewidget.cpp:201
-#: umlwidgets/toolbarstateonewidget.cpp:206
+#: umlwidgets/toolbarstateonewidget.cpp:203
 #, fuzzy, kde-format
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
@@ -7603,7 +7603,7 @@ msgid "Enter the port name :"
 msgstr "प्रारंभमे"
 
 #: umlwidgets/preconditionwidget.cpp:266 umlwidgets/preconditionwidget.cpp:271
-#: umlwidgets/toolbarstateonewidget.cpp:189
+#: umlwidgets/toolbarstateonewidget.cpp:191
 #, kde-format
 msgid "Enter Precondition Name"
 msgstr ""
@@ -7635,28 +7635,32 @@ msgctxt "@info:tooltip of custom toolbar button"
 msgid "%1"
 msgstr "%"
 
-#: umlwidgets/toolbarstateonewidget.cpp:189
+#: umlwidgets/toolbarstateonewidget.cpp:191
 #, kde-format
 msgid "Enter the precondition"
 msgstr ""
 
-#: umlwidgets/toolbarstateonewidget.cpp:189
+#: umlwidgets/toolbarstateonewidget.cpp:191
 #, kde-format
 msgid "new precondition"
 msgstr ""
 
-#: umlwidgets/toolbarstateonewidget.cpp:201
-#: umlwidgets/toolbarstateonewidget.cpp:206
+#: umlwidgets/toolbarstateonewidget.cpp:196
+#, kde-format
+msgid "new pin"
+msgstr ""
+
+#: umlwidgets/toolbarstateonewidget.cpp:197
+#, fuzzy, kde-format
+#| msgid "Startup"
+msgid "Enter the Pin"
+msgstr "प्रारंभमे"
+
+#: umlwidgets/toolbarstateonewidget.cpp:203
 #, fuzzy, kde-format
 #| msgid "Startup"
 msgid "Enter the port"
 msgstr "प्रारंभमे"
-
-#: umlwidgets/toolbarstateonewidget.cpp:203
-#: umlwidgets/toolbarstateonewidget.cpp:206
-#, kde-format
-msgid "new port"
-msgstr ""
 
 #: umlwidgets/umlwidget.cpp:475
 #, kde-format
@@ -7759,12 +7763,12 @@ msgctxt "selection arrow"
 msgid "Select"
 msgstr "चुनू"
 
-#: worktoolbar.cpp:316 worktoolbar.cpp:370
+#: worktoolbar.cpp:316 worktoolbar.cpp:371
 #, kde-format
 msgid "Synchronous Message"
 msgstr ""
 
-#: worktoolbar.cpp:317 worktoolbar.cpp:371
+#: worktoolbar.cpp:317 worktoolbar.cpp:372
 #, kde-format
 msgid "Asynchronous Message"
 msgstr ""
@@ -7854,12 +7858,12 @@ msgstr "स्थिति"
 msgid "Final Activity"
 msgstr ""
 
-#: worktoolbar.cpp:373
+#: worktoolbar.cpp:374
 #, kde-format
 msgid "Object Node"
 msgstr ""
 
-#: worktoolbar.cpp:374
+#: worktoolbar.cpp:375
 #, kde-format
 msgid "Pre/Post condition"
 msgstr ""
