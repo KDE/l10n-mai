@@ -54,21 +54,35 @@ msgctxt "ItemSize|"
 msgid "Size"
 msgstr "आकार:"
 
-#: common/KReportItemLine.cpp:72
+#: common/KReportItemLine.cpp:73
+#, fuzzy
+#| msgid "Position:"
+msgctxt "StartPosition|"
+msgid "Start Position"
+msgstr "स्थिति: "
+
+#: common/KReportItemLine.cpp:74
+#, fuzzy
+#| msgid "Position:"
+msgctxt "EndPosition|"
+msgid "End Position"
+msgstr "स्थिति: "
+
+#: common/KReportItemLine.cpp:76
 #, fuzzy
 #| msgid "Lighten"
 msgctxt "KReportItemLine|"
 msgid "Line Weight"
 msgstr "हलुक करू"
 
-#: common/KReportItemLine.cpp:73
+#: common/KReportItemLine.cpp:77
 #, fuzzy
 #| msgid "Color"
 msgctxt "KReportItemLine|"
 msgid "Line Color"
 msgstr "रंग"
 
-#: common/KReportItemLine.cpp:74
+#: common/KReportItemLine.cpp:78
 #, fuzzy
 #| msgid "Insert Break"
 msgctxt "KReportItemLine|"
@@ -114,13 +128,6 @@ msgctxt "KReportPageFormat|"
 msgid "Screen"
 msgstr "स्क्रीन"
 
-#: common/KReportPosition.cpp:29
-#, fuzzy
-#| msgid "Position:"
-msgctxt "KReportPosition|"
-msgid "Position"
-msgstr "स्थिति: "
-
 #: common/KReportSection.cpp:103
 #, fuzzy
 #| msgid "Height:"
@@ -155,13 +162,6 @@ msgstr "उँचाइ:"
 msgctxt "KReportSectionData|"
 msgid "Background Color"
 msgstr "दस्ताबेज जानकारी"
-
-#: common/KReportSize.cpp:28
-#, fuzzy
-#| msgid "Size:"
-msgctxt "KReportSize|"
-msgid "Size"
-msgstr "आकार:"
 
 #: common/KReportUnit.cpp:47
 #, fuzzy
@@ -676,7 +676,7 @@ msgctxt "KReportItemText|"
 msgid "Background Opacity"
 msgstr "दस्ताबेज जानकारी"
 
-#: items/text/KReportScriptText.cpp:192
+#: items/text/KReportScriptText.cpp:195
 #, qt-format
 msgctxt "Scripting::Text|"
 msgid "$Unable to read %1"
@@ -1209,6 +1209,18 @@ msgstr ""
 msgctxt "KReportZoomMode|"
 msgid "Fit Text Width"
 msgstr "पृष्ठ चओड़ाइसँ फिट करू"
+
+#, fuzzy
+#~| msgid "Position:"
+#~ msgctxt "KReportPosition|"
+#~ msgid "Position"
+#~ msgstr "स्थिति: "
+
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "KReportSize|"
+#~ msgid "Size"
+#~ msgstr "आकार:"
 
 #, fuzzy
 #~| msgctxt "Page size"
