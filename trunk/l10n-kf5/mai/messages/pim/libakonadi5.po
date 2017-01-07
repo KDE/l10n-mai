@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-04 04:02+0100\n"
+"POT-Creation-Date: 2017-01-07 03:55+0100\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -29,28 +29,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#: agentbase/agentbase.cpp:379 agentbase/preprocessorbase_p.cpp:42
+#: agentbase/agentbase.cpp:378 agentbase/preprocessorbase_p.cpp:42
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr ""
 
-#: agentbase/agentbase.cpp:469
+#: agentbase/agentbase.cpp:468
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr ""
 
-#: agentbase/agentbase.cpp:915
+#: agentbase/agentbase.cpp:914
 #, kde-format
 msgid "Agent identifier"
 msgstr ""
 
-#: agentbase/agentbase.cpp:922
+#: agentbase/agentbase.cpp:921
 #, kde-format
 msgid "Akonadi Agent"
 msgstr ""
 
-#: agentbase/agentbase_p.h:63 agentbase/resourcescheduler.cpp:295
+#: agentbase/agentbase_p.h:63 agentbase/resourcescheduler.cpp:294
 #, kde-format
 msgctxt "@info:status Application ready for work"
 msgid "Ready"
@@ -148,7 +148,7 @@ msgstr ""
 msgid "The requested item no longer exists"
 msgstr ""
 
-#: agentbase/resourcescheduler.cpp:514 agentbase/resourcescheduler.cpp:522
+#: agentbase/resourcescheduler.cpp:512 agentbase/resourcescheduler.cpp:520
 #, kde-format
 msgctxt "@info"
 msgid "Job canceled."
@@ -159,7 +159,7 @@ msgstr ""
 msgid "No such collection."
 msgstr ""
 
-#: core/collectionsync.cpp:499 core/collectionsync.cpp:637
+#: core/collectionsync.cpp:500 core/collectionsync.cpp:638
 #, kde-format
 msgid "Found unresolved orphan collections"
 msgstr ""
@@ -195,13 +195,13 @@ msgid "Invalid collection instance."
 msgstr ""
 
 #: core/jobs/collectionattributessynchronizationjob.cpp:96
-#: core/jobs/resourcesynchronizationjob.cpp:107
+#: core/jobs/resourcesynchronizationjob.cpp:105
 #, kde-format
 msgid "Invalid resource instance."
 msgstr ""
 
 #: core/jobs/collectionattributessynchronizationjob.cpp:117
-#: core/jobs/resourcesynchronizationjob.cpp:132
+#: core/jobs/resourcesynchronizationjob.cpp:130
 #, kde-format
 msgid "Unable to obtain D-Bus interface for resource '%1'"
 msgstr ""
@@ -211,12 +211,12 @@ msgstr ""
 msgid "Collection attributes synchronization timed out."
 msgstr ""
 
-#: core/jobs/collectioncopyjob.cpp:62
+#: core/jobs/collectioncopyjob.cpp:61
 #, kde-format
 msgid "Invalid collection to copy"
 msgstr ""
 
-#: core/jobs/collectioncopyjob.cpp:68
+#: core/jobs/collectioncopyjob.cpp:67
 #, kde-format
 msgid "Invalid destination collection"
 msgstr ""
@@ -241,12 +241,12 @@ msgstr ""
 msgid "Invalid collection given."
 msgstr ""
 
-#: core/jobs/collectionmovejob.cpp:60 core/jobs/itemmovejob.cpp:82
+#: core/jobs/collectionmovejob.cpp:59 core/jobs/itemmovejob.cpp:103
 #, kde-format
 msgid "No objects specified for moving"
 msgstr ""
 
-#: core/jobs/collectionmovejob.cpp:67 core/jobs/itemmovejob.cpp:89
+#: core/jobs/collectionmovejob.cpp:66 core/jobs/itemmovejob.cpp:110
 #: core/jobs/linkjobimpl_p.h:54
 #, kde-format
 msgid "No valid destination specified"
@@ -257,7 +257,7 @@ msgstr ""
 msgid "Invalid collection."
 msgstr ""
 
-#: core/jobs/itemcreatejob.cpp:100
+#: core/jobs/itemcreatejob.cpp:99
 #, kde-format
 msgid "Invalid parent collection"
 msgstr ""
@@ -289,12 +289,12 @@ msgstr "अनचिन्ह त्रुटि."
 msgid "Unexpected response"
 msgstr ""
 
-#: core/jobs/relationcreatejob.cpp:55 core/jobs/relationdeletejob.cpp:56
+#: core/jobs/relationcreatejob.cpp:55 core/jobs/relationdeletejob.cpp:55
 #, kde-format
 msgid "Failed to create relation."
 msgstr ""
 
-#: core/jobs/resourcesynchronizationjob.cpp:157
+#: core/jobs/resourcesynchronizationjob.cpp:155
 #, kde-format
 msgid "Resource synchronization timed out."
 msgstr ""
@@ -462,19 +462,19 @@ msgstr ""
 msgid "Subfolder Storage Size"
 msgstr ""
 
-#: core/models/statisticsproxymodel.cpp:249
+#: core/models/statisticsproxymodel.cpp:250
 #, kde-format
 msgctxt "number of unread entities in the collection"
 msgid "Unread"
 msgstr "अपठित"
 
-#: core/models/statisticsproxymodel.cpp:250
+#: core/models/statisticsproxymodel.cpp:251
 #, kde-format
 msgctxt "number of entities in the collection"
 msgid "Total"
 msgstr "योग"
 
-#: core/models/statisticsproxymodel.cpp:251
+#: core/models/statisticsproxymodel.cpp:252
 #, kde-format
 msgctxt "collection size"
 msgid "Size"
@@ -520,14 +520,14 @@ msgstr "बेनाम प्लगइन"
 msgid "No description available"
 msgstr "केओ विवरण उपलब्ध नहि"
 
-#: core/session.cpp:192
+#: core/session.cpp:191
 #, kde-format
 msgid ""
 "Protocol version mismatch. Server version is newer (%1) than ours (%2). If "
 "you updated your system recently please restart the Akonadi server."
 msgstr ""
 
-#: core/session.cpp:198
+#: core/session.cpp:197
 #, kde-format
 msgid ""
 "Protocol version mismatch. Server version is older (%1) than ours (%2). If "
