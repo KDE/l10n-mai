@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-09 04:04+0100\n"
+"POT-Creation-Date: 2017-02-24 04:14+0100\n"
 "PO-Revision-Date: 2009-01-18 15:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -20,27 +20,29 @@ msgstr ""
 "\n"
 "\n"
 
-#: fonts.cpp:251
+#: fonts.cpp:235
 #, kde-format
 msgid "Configure Anti-Alias Settings"
 msgstr "एन्टी अलियासिंग बिन्यास कान्फिगर करू"
 
-#: fonts.cpp:259
+#: fonts.cpp:242
 #, kde-format
 msgid "E&xclude range:"
 msgstr "रेंज बाहर करू: (&x)"
 
-#: fonts.cpp:262 fonts.cpp:267
-#, kde-format
+#: fonts.cpp:250 fonts.cpp:261
+#, fuzzy, kde-format
+#| msgid " pt"
+msgctxt "abbreviation for unit of points"
 msgid " pt"
 msgstr " pt"
 
-#: fonts.cpp:264
+#: fonts.cpp:253
 #, kde-format
 msgid " to "
 msgstr " प्रति "
 
-#: fonts.cpp:271
+#: fonts.cpp:266
 #, kde-format
 msgid ""
 "<p>If you have a TFT or LCD screen you can further improve the quality of "
@@ -53,151 +55,152 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: fonts.cpp:282
+#: fonts.cpp:277
 #, fuzzy, kde-format
 #| msgid "&Use sub-pixel rendering:"
-msgid "Sub-pixel rendering type: "
+msgid "Sub-pixel rendering type:"
 msgstr "सब पिक्सल रेंडरिंग इस्तेमाल करू: (&U)"
 
-#: fonts.cpp:295
-#, kde-format
-msgid "Hinting style: "
+#: fonts.cpp:290
+#, fuzzy, kde-format
+#| msgid "Hinting style: "
+msgid "Hinting style:"
 msgstr "हिन्टिंग शैली:"
 
-#: fonts.cpp:303
+#: fonts.cpp:298
 #, kde-format
 msgid ""
 "Hinting is a process used to enhance the quality of fonts at small sizes."
 msgstr "हिन्टिंग एकटा प्रक्रिया अछि जे छोट आकारसभ केर फान्ट केर गुणसभ केँ उभारैत अछि"
 
-#: fonts.cpp:520
+#: fonts.cpp:532
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "font usage"
 msgid "General"
 msgstr "सामान्य"
 
-#: fonts.cpp:521
+#: fonts.cpp:533
 #, fuzzy, kde-format
 #| msgid "Fixed width"
 msgctxt "font usage"
 msgid "Fixed width"
 msgstr "निश्चित चओड़ाइ"
 
-#: fonts.cpp:522
+#: fonts.cpp:534
 #, fuzzy, kde-format
 #| msgid "Small"
 msgctxt "font usage"
 msgid "Small"
 msgstr "छोट"
 
-#: fonts.cpp:523
+#: fonts.cpp:535
 #, fuzzy, kde-format
 #| msgid "Toolbar"
 msgctxt "font usage"
 msgid "Toolbar"
 msgstr "अओजारपट्टी"
 
-#: fonts.cpp:524
+#: fonts.cpp:536
 #, fuzzy, kde-format
 #| msgid "Menu"
 msgctxt "font usage"
 msgid "Menu"
 msgstr "मेनू "
 
-#: fonts.cpp:525
+#: fonts.cpp:537
 #, fuzzy, kde-format
 #| msgid "Window title"
 msgctxt "font usage"
 msgid "Window title"
 msgstr "विंडो शीर्षक"
 
-#: fonts.cpp:562
+#: fonts.cpp:574
 #, kde-format
 msgid "Used for normal text (e.g. button labels, list items)."
 msgstr "सामान्य पाठ क' लेल उपयोग मे (जहिना बटन लेबल, वस्तु सूची)."
 
-#: fonts.cpp:563
+#: fonts.cpp:575
 #, kde-format
 msgid "A non-proportional font (i.e. typewriter font)."
 msgstr "एकटा अ-समानुपातिक फोन्ट (जहिना टाइपराइटर फान्ट)."
 
-#: fonts.cpp:564
+#: fonts.cpp:576
 #, kde-format
 msgid "Smallest font that is still readable well."
 msgstr ""
 
-#: fonts.cpp:565
+#: fonts.cpp:577
 #, kde-format
 msgid "Used to display text beside toolbar icons."
 msgstr "अओजार पट्टी प्रतीक केर बाजू सँ देखाओल जाएबला पाठ क' लेल उपयोग मे आबैछ."
 
-#: fonts.cpp:566
+#: fonts.cpp:578
 #, kde-format
 msgid "Used by menu bars and popup menus."
 msgstr "मेनू बार तथा पापअप मेनू द्वारा उपयोग मे आबैत अछि."
 
-#: fonts.cpp:567
+#: fonts.cpp:579
 #, kde-format
 msgid "Used by the window titlebar."
 msgstr "विंडो शीर्षक पट्टी केर द्वारा उपयोगमे"
 
-#: fonts.cpp:605
+#: fonts.cpp:617
 #, kde-format
 msgctxt "Font role"
 msgid "%1: "
 msgstr "%1: "
 
-#: fonts.cpp:620
+#: fonts.cpp:632
 #, kde-format
 msgid "Ad&just All Fonts..."
 msgstr "सभटा फान्टसभ समायोजित करू... (&j)"
 
-#: fonts.cpp:621
+#: fonts.cpp:633
 #, kde-format
 msgid "Click to change all fonts"
 msgstr "सभटा फान्ट केँ परिवर्तित करब क' लेल क्लिक करू"
 
-#: fonts.cpp:632
+#: fonts.cpp:644
 #, kde-format
 msgid "Use a&nti-aliasing:"
 msgstr "एंटी-अलियासिंग इस्तेमाल करू (&n)"
 
-#: fonts.cpp:636
+#: fonts.cpp:648
 #, kde-format
 msgctxt "Use anti-aliasing"
 msgid "Enabled"
 msgstr "सक्षम"
 
-#: fonts.cpp:637
+#: fonts.cpp:649
 #, kde-format
 msgctxt "Use anti-aliasing"
 msgid "System Settings"
 msgstr "तंत्र बिन्यास"
 
-#: fonts.cpp:638
+#: fonts.cpp:650
 #, kde-format
 msgctxt "Use anti-aliasing"
 msgid "Disabled"
 msgstr "अक्षम"
 
-#: fonts.cpp:639
+#: fonts.cpp:651
 #, kde-format
 msgid ""
 "If this option is selected, KDE will smooth the edges of curves in fonts."
 msgstr "जँ ई विकल्प चुनल जाइछ. केडीई फान्ट्स केर किनारसभक गोलाइ केँ चिकना बनबैत अछि."
 
-#: fonts.cpp:640
+#: fonts.cpp:652
 #, kde-format
 msgid "Configure..."
 msgstr "कान्फिगर..."
 
-#: fonts.cpp:651
+#: fonts.cpp:663
 #, kde-format
 msgid "Force fonts DPI:"
 msgstr "फान्टसभ डीपीआइ बाध्य करू:"
 
-#: fonts.cpp:657
+#: fonts.cpp:669
 #, kde-format
 msgid ""
 "<p>This option forces a specific DPI value for fonts. It may be useful when "
@@ -211,7 +214,7 @@ msgid ""
 "fonts should be used or configuration of font hinting should be checked.</p>"
 msgstr ""
 
-#: fonts.cpp:814
+#: fonts.cpp:826
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Some changes such as anti-aliasing will only affect newly started "
@@ -223,12 +226,12 @@ msgstr ""
 "<p>अहाँ एन्टी-अलियासिंग सँ जुडल बिन्याससभ केँ परिवर्तित कएने छी. ई परिवर्तन नवीन प्रारंभ "
 "कएल अनुप्रयोगसभ मे लागू हाएत</p>"
 
-#: fonts.cpp:815 fonts.cpp:825
+#: fonts.cpp:827 fonts.cpp:837
 #, kde-format
 msgid "Font Settings Changed"
 msgstr "फान्ट बिन्यास परिवर्तित"
 
-#: fonts.cpp:824
+#: fonts.cpp:836
 #, kde-format
 msgid ""
 "<p>Some changes such as DPI will only affect newly started applications.</p>"
