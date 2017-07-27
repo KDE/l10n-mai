@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2017-07-27 03:35+0200\n"
 "PO-Revision-Date: 2009-05-31 12:51+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -32,29 +32,37 @@ msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: browserconfig_ui.ui:12
+#: browserconfig_ui.ui:29
 #, kde-format
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 msgstr "<qt>खोलें <b>एचटीटीपी</b> तथा <b>एचटीटीपीएस</b> यूआरएल्स</qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: browserconfig_ui.ui:19
+#: browserconfig_ui.ui:36
 #, kde-format
 msgid "in an application based on the contents of the URL"
 msgstr "यूआरएल केर अवयवसभ पर आधारित एकटा अनुप्रयोग"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: browserconfig_ui.ui:29
-#, kde-format
-msgid "in the following browser:"
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "in the following application:"
 msgstr "निम्न ब्राउजर मे:"
 
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "with the following command:"
+msgstr "निम्न ब्राउजर मे:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69 filemanagerconfig_ui.ui:41
-#: terminalemulatorconfig_ui.ui:60
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -119,7 +127,7 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: componentchooserbrowser.cpp:110
+#: componentchooserbrowser.cpp:129
 #, kde-format
 msgid "Select preferred Web browser application:"
 msgstr "पसंदीदा वेब ब्राउजर अनुप्रयोगक चुनू:"
