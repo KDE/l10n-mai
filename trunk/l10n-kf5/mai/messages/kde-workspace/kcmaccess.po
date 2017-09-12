@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmaccess\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2017-09-12 03:29+0200\n"
 "PO-Revision-Date: 2009-02-02 23:06+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -183,7 +183,7 @@ msgstr "मि.से."
 #: accessibility.ui:224
 #, fuzzy, kde-format
 #| msgid "&Modifier Keys"
-msgid "Modifier Keys"
+msgid "&Modifier Keys"
 msgstr "परिवर्धक कुंजीसभ (&M)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sticky)
@@ -306,7 +306,7 @@ msgstr "जखन कोनो कुँजी अस्वीकारल ज�
 #: accessibility.ui:564
 #, fuzzy, kde-format
 #| msgid "Activation Gestures"
-msgid "&Activation Gestures"
+msgid "Activation &Gestures"
 msgstr "सक्रियणक मुद्रा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, activationgestures)
@@ -399,8 +399,14 @@ msgstr ""
 msgid "Screen reader enabled"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, launchOrcaConfiguration)
+#: accessibility.ui:760
+#, kde-format
+msgid "&Launch Orca Configuration"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: accessibility.ui:758
+#: accessibility.ui:785
 #, kde-format
 msgid ""
 "Please note that you may have to log out once to allow the screen reader to "
@@ -500,6 +506,21 @@ msgid ""
 "Sticky keys: Press Shift key 5 consecutive times\n"
 "Slow keys: Hold down Shift for 8 seconds"
 msgstr ""
+
+#: kcmaccess.cpp:260
+#, kde-format
+msgid "Could not set gesttings for Orca: \"%1\" failed"
+msgstr ""
+
+#: kcmaccess.cpp:267
+#, kde-format
+msgid "Error: Could not launch \"orca --setup\""
+msgstr ""
+
+#, fuzzy
+#~| msgid "Activation Gestures"
+#~ msgid "&Activation Gestures"
+#~ msgstr "सक्रियणक मुद्रा"
 
 #~ msgid "Acceptance dela&y:"
 #~ msgstr "स्वीकारब मे देरी (&y):"
