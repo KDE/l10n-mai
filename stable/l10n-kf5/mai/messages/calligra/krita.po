@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-21 05:26+0200\n"
+"POT-Creation-Date: 2017-09-26 05:32+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6287,7 +6287,7 @@ msgstr "जमावट"
 msgid "&Help"
 msgstr "नुकाबू (&H)"
 
-#: krita/krita.xmlgui:337 libs/ui/kis_file_layer.cpp:103
+#: krita/krita.xmlgui:337 libs/ui/kis_file_layer.cpp:117
 #, fuzzy, kde-format
 msgid "File"
 msgstr "फिल्टर: (&F)"
@@ -9581,6 +9581,11 @@ msgstr "परत घुमाबू"
 msgid "Show Coloring"
 msgstr "चयन बढाउ"
 
+#: libs/image/kis_layer_properties_icons.cpp:44
+#, fuzzy, kde-format
+msgid "Open File"
+msgstr "रंग-पट्टिका"
+
 #: libs/image/kis_layer_utils.cpp:354
 #, fuzzy, kde-format
 msgid "Merged"
@@ -9907,137 +9912,149 @@ msgstr "दीर्घवृत्त"
 msgid "Rectangle"
 msgstr "आयत"
 
-#: libs/koplugin/KisMimeDatabase.cpp:165
+#: libs/koplugin/KisMimeDatabase.cpp:166
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Gimp Brush"
 msgstr "ब्रश"
 
-#: libs/koplugin/KisMimeDatabase.cpp:170
+#: libs/koplugin/KisMimeDatabase.cpp:171
 #, kde-format
 msgctxt "description of a file type"
 msgid "Gimp Image Hose Brush"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:175
+#: libs/koplugin/KisMimeDatabase.cpp:176
 #, kde-format
 msgctxt "description of a file type"
 msgid "Adobe Brush Library"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:180
+#: libs/koplugin/KisMimeDatabase.cpp:181
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Brush Preset"
 msgstr "पैलेट संपादित करू"
 
-#: libs/koplugin/KisMimeDatabase.cpp:185
+#: libs/koplugin/KisMimeDatabase.cpp:186
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Assistant"
 msgstr "दीर्घवृत्त"
 
-#: libs/koplugin/KisMimeDatabase.cpp:190
+#: libs/koplugin/KisMimeDatabase.cpp:191
+#, fuzzy, kde-format
+msgctxt "description of a file type"
+msgid "R32 Heightmap"
+msgstr "उँचाइ"
+
+#: libs/koplugin/KisMimeDatabase.cpp:196
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "R16 Heightmap"
 msgstr "उँचाइ"
 
-#: libs/koplugin/KisMimeDatabase.cpp:195
+#: libs/koplugin/KisMimeDatabase.cpp:201
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "R8 Heightmap"
 msgstr "उँचाइ"
 
-#: libs/koplugin/KisMimeDatabase.cpp:200
+#: libs/koplugin/KisMimeDatabase.cpp:206
 #, kde-format
 msgctxt "description of a file type"
 msgid "Spriter SCML"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:205
+#: libs/koplugin/KisMimeDatabase.cpp:211
 #, kde-format
 msgctxt "description of a file type"
 msgid "Starview Metafile"
 msgstr ""
 
-#: libs/koplugin/KisMimeDatabase.cpp:210
+#: libs/koplugin/KisMimeDatabase.cpp:216
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "OpenRaster Image"
 msgstr "चित्र"
 
-#: libs/koplugin/KisMimeDatabase.cpp:215
+#: libs/koplugin/KisMimeDatabase.cpp:221
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Photoshop Layer Style Library"
 msgstr "संतृप्ति:"
 
-#: libs/koplugin/KisMimeDatabase.cpp:220
+#: libs/koplugin/KisMimeDatabase.cpp:226
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Color Palette"
 msgstr "रंग चयनक"
 
-#: libs/koplugin/KisMimeDatabase.cpp:225
+#: libs/koplugin/KisMimeDatabase.cpp:231
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "OpenColorIO Configuration"
 msgstr "संतृप्ति:"
 
-#: libs/koplugin/KisMimeDatabase.cpp:230
+#: libs/koplugin/KisMimeDatabase.cpp:236
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Recorded Action"
 msgstr "दिशा"
 
-#: libs/koplugin/KisMimeDatabase.cpp:235
+#: libs/koplugin/KisMimeDatabase.cpp:241
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "GIMP Gradients"
 msgstr "ढाल"
 
-#: libs/koplugin/KisMimeDatabase.cpp:240
+#: libs/koplugin/KisMimeDatabase.cpp:246
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "GIMP Patterns"
 msgstr "नमूना"
 
-#: libs/koplugin/KisMimeDatabase.cpp:245
+#: libs/koplugin/KisMimeDatabase.cpp:251
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Karbon Gradients"
 msgstr "ढाल"
 
-#: libs/koplugin/KisMimeDatabase.cpp:250
+#: libs/koplugin/KisMimeDatabase.cpp:256
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Resource Bundle"
 msgstr "श्रोत"
 
-#: libs/koplugin/KisMimeDatabase.cpp:255
+#: libs/koplugin/KisMimeDatabase.cpp:261
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Workspace"
 msgstr "रँग स्पेस"
 
-#: libs/koplugin/KisMimeDatabase.cpp:260
+#: libs/koplugin/KisMimeDatabase.cpp:266
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Krita Taskset"
 msgstr "पैलेट संपादित करू"
 
-#: libs/koplugin/KisMimeDatabase.cpp:265
+#: libs/koplugin/KisMimeDatabase.cpp:271
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "Camera Raw Files"
 msgstr "प्रोफाइल:"
 
-#: libs/koplugin/KisMimeDatabase.cpp:270
+#: libs/koplugin/KisMimeDatabase.cpp:276
 #, fuzzy, kde-format
 msgctxt "description of a file type"
 msgid "OpenEXR (Extended)"
 msgstr "विकल्प"
+
+#: libs/koplugin/KisMimeDatabase.cpp:281
+#, fuzzy, kde-format
+msgctxt "description of a file type"
+msgid "Photoshop Image (Large)"
+msgstr "संतृप्ति:"
 
 #: libs/kundo2/kundo2group.cpp:359 libs/kundo2/kundo2stack.cpp:1115
 #, kde-format
