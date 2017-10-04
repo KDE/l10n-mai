@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-01 03:24+0200\n"
+"POT-Creation-Date: 2017-10-04 05:51+0200\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2717,7 +2717,7 @@ msgctxt "@title:column"
 msgid "Responsible"
 msgstr "उत्तरदायी"
 
-#: models/kptnodeitemmodel.cpp:2280 models/kptresourcemodel.cpp:1704
+#: models/kptnodeitemmodel.cpp:2280 models/kptresourcemodel.cpp:1713
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Allocation"
@@ -3330,7 +3330,7 @@ msgstr "गणना"
 msgid "Resources"
 msgstr "संसाधन"
 
-#: models/kptnodeitemmodel.cpp:3517 models/kptresourcemodel.cpp:1542
+#: models/kptnodeitemmodel.cpp:3517 models/kptresourcemodel.cpp:1551
 #, fuzzy
 #| msgid "Resource"
 msgctxt "(qtundo-format)"
@@ -3338,7 +3338,8 @@ msgid "Add resource"
 msgstr "संसाधन"
 
 #: models/kptnodeitemmodel.cpp:3532 models/kptnodeitemmodel.cpp:4061
-#: ui/kptrequestresourcespanel.cpp:64 ui/ResourceAllocationView.cpp:158
+#: ui/kptrequestresourcespanel.cpp:64 ui/kptrequestresourcespanel.cpp:134
+#: ui/ResourceAllocationView.cpp:158
 #, fuzzy
 #| msgid "Resource"
 msgctxt "(qtundo-format)"
@@ -3439,14 +3440,14 @@ msgstr "विवरण"
 
 #: models/kptresourceallocationmodel.cpp:161
 #: models/kptresourceallocationmodel.cpp:219
-#: models/kptresourceallocationmodel.cpp:678 models/kptresourcemodel.cpp:1722
+#: models/kptresourceallocationmodel.cpp:678 models/kptresourcemodel.cpp:1731
 #, no-c-format, kde-format
 msgctxt "<value>%"
 msgid "%1%"
 msgstr ""
 
 #: models/kptresourceallocationmodel.cpp:168
-#: models/kptresourceallocationmodel.cpp:684 models/kptresourcemodel.cpp:1726
+#: models/kptresourceallocationmodel.cpp:684 models/kptresourcemodel.cpp:1735
 #, fuzzy, kde-kuit-format
 #| msgid "Not Started"
 msgctxt "@info:tooltip"
@@ -3532,13 +3533,13 @@ msgid ""
 "resource must be part of a group of type Material.</para>"
 msgstr ""
 
-#: models/kptresourceallocationmodel.cpp:686 models/kptresourcemodel.cpp:1728
+#: models/kptresourceallocationmodel.cpp:686 models/kptresourcemodel.cpp:1737
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1 allocated out of %2 available"
 msgstr ""
 
-#: models/kptresourceallocationmodel.cpp:724 models/kptresourcemodel.cpp:1748
+#: models/kptresourceallocationmodel.cpp:724 models/kptresourcemodel.cpp:1757
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1 resource requested for dynamic allocation"
@@ -3546,7 +3547,7 @@ msgid_plural "%1 resources requested for dynamic allocation"
 msgstr[0] ""
 msgstr[1] ""
 
-#: models/kptresourceallocationmodel.cpp:728 models/kptresourcemodel.cpp:1752
+#: models/kptresourceallocationmodel.cpp:728 models/kptresourcemodel.cpp:1761
 #, fuzzy, kde-kuit-format
 #| msgid "Resource"
 msgctxt "@info:tooltip"
@@ -3555,13 +3556,13 @@ msgid_plural "%1 resources allocated"
 msgstr[0] "संसाधन"
 msgstr[1] "संसाधन"
 
-#: models/kptresourceallocationmodel.cpp:732 models/kptresourcemodel.cpp:1756
+#: models/kptresourceallocationmodel.cpp:732 models/kptresourcemodel.cpp:1765
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1<nl/>%2"
 msgstr ""
 
-#: models/kptresourceallocationmodel.cpp:736 models/kptresourcemodel.cpp:1760
+#: models/kptresourceallocationmodel.cpp:736 models/kptresourcemodel.cpp:1769
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3938,7 +3939,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify resource account"
 msgstr "संसाधन"
 
-#: models/kptresourcemodel.cpp:1350
+#: models/kptresourcemodel.cpp:1359
 #, fuzzy, kde-format
 #| msgid "Resource"
 msgctxt "(qtundo-format)"
@@ -3947,7 +3948,7 @@ msgid_plural "Add %1 resources from address book"
 msgstr[0] "संसाधन"
 msgstr[1] "संसाधन"
 
-#: models/kptresourcemodel.cpp:1410
+#: models/kptresourcemodel.cpp:1419
 #, fuzzy, kde-format
 #| msgid "Resource"
 msgctxt "(qtundo-format)"
@@ -3956,7 +3957,7 @@ msgid_plural "Move %1 resources"
 msgstr[0] "संसाधन"
 msgstr[1] "संसाधन"
 
-#: models/kptresourcemodel.cpp:1429
+#: models/kptresourcemodel.cpp:1438
 #, fuzzy, kde-format
 #| msgid "Resource"
 msgctxt "(qtundo-format)"
@@ -3965,7 +3966,7 @@ msgid_plural "Copy %1 resources"
 msgstr[0] "संसाधन"
 msgstr[1] "संसाधन"
 
-#: models/kptresourcemodel.cpp:1531
+#: models/kptresourcemodel.cpp:1540
 #, fuzzy
 #| msgid "Resource"
 msgctxt "(qtundo-format)"
@@ -4460,7 +4461,7 @@ msgstr ""
 
 #: ui/kptaccountseditor.cpp:270 ui/kptcalendareditor.cpp:649
 #: ui/kptdependencyeditor.cpp:2326 ui/kptresourceeditor.cpp:287
-#: ui/kptscheduleeditor.cpp:290 ui/kpttaskeditor.cpp:729
+#: ui/kptscheduleeditor.cpp:290 ui/kpttaskeditor.cpp:774
 #, fuzzy, kde-format, kde-kuit-format
 #| msgid "Delete"
 msgctxt "@action"
@@ -4696,8 +4697,8 @@ msgstr "अछि"
 msgid "%"
 msgstr "%"
 
-#: ui/kptdependencyeditor.cpp:2295 ui/kpttaskeditor.cpp:698
-#: ui/kpttaskeditor.cpp:703
+#: ui/kptdependencyeditor.cpp:2295 ui/kpttaskeditor.cpp:743
+#: ui/kpttaskeditor.cpp:748
 #, fuzzy, kde-format
 #| msgid "Task"
 msgid "Add Task"
@@ -4713,8 +4714,8 @@ msgstr ""
 msgid "Add Milestone..."
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2311 ui/kpttaskeditor.cpp:714
-#: ui/kpttaskeditor.cpp:719
+#: ui/kptdependencyeditor.cpp:2311 ui/kpttaskeditor.cpp:759
+#: ui/kpttaskeditor.cpp:764
 #, fuzzy, kde-format
 #| msgid "Task"
 msgid "Add Sub-Task"
@@ -5011,7 +5012,7 @@ msgctxt "@title:tab"
 msgid "Chart"
 msgstr "चार्ट"
 
-#: ui/kptganttview.cpp:743 ui/kpttaskeditor.cpp:758 ui/kpttaskeditor.cpp:1187
+#: ui/kptganttview.cpp:743 ui/kpttaskeditor.cpp:803 ui/kpttaskeditor.cpp:1232
 #, fuzzy, kde-format
 #| msgid "Project"
 msgid "Show Project"
@@ -5898,7 +5899,7 @@ msgstr ""
 msgid "&General"
 msgstr "सामान्य (&G)"
 
-#: ui/kpttaskdialog.cpp:55
+#: ui/kpttaskdialog.cpp:55 ui/TasksEditDialog.cpp:52
 #, kde-format
 msgid "&Resources"
 msgstr ""
@@ -5919,13 +5920,13 @@ msgstr ""
 msgid "D&escription"
 msgstr "विवरण"
 
-#: ui/kpttaskeditor.cpp:81
+#: ui/kpttaskeditor.cpp:84
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "The type of task or the estimate type of the task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:84
+#: ui/kpttaskeditor.cpp:87
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -5935,44 +5936,44 @@ msgid ""
 "emphasis> or <emphasis>Project</emphasis> the type is not editable.</note>"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:128
+#: ui/kpttaskeditor.cpp:131
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Task with estimate type: %1"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:130
+#: ui/kpttaskeditor.cpp:133
 #, fuzzy, kde-kuit-format
 #| msgid "Tasks"
 msgctxt "@info:tooltip"
 msgid "Task type: %1"
 msgstr "काज"
 
-#: ui/kpttaskeditor.cpp:166 ui/kpttaskeditor.cpp:168
+#: ui/kpttaskeditor.cpp:169 ui/kpttaskeditor.cpp:171
 msgctxt "(qtundo-format)"
 msgid "Set type to Milestone"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:175
+#: ui/kpttaskeditor.cpp:178
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Set type to %1"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:380
+#: ui/kpttaskeditor.cpp:383
 #, kde-kuit-format
 msgctxt "@title resource allocations"
 msgid "Allocations"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:401
+#: ui/kpttaskeditor.cpp:404
 #, fuzzy, kde-kuit-format
 #| msgid "Resource"
 msgctxt "@title"
 msgid "Resources"
 msgstr "संसाधन"
 
-#: ui/kpttaskeditor.cpp:403
+#: ui/kpttaskeditor.cpp:406
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -5980,14 +5981,14 @@ msgid ""
 "responsible column"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:430
+#: ui/kpttaskeditor.cpp:433
 #, fuzzy, kde-kuit-format
 #| msgid "Tasks"
 msgctxt "@title"
 msgid "Task Modules"
 msgstr "काज"
 
-#: ui/kpttaskeditor.cpp:431
+#: ui/kpttaskeditor.cpp:434
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -5995,44 +5996,44 @@ msgid ""
 "the project"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:708
+#: ui/kpttaskeditor.cpp:753
 #, fuzzy, kde-format
 #| msgid "Description"
 msgid "Add Milestone"
 msgstr "विवरण"
 
-#: ui/kpttaskeditor.cpp:724
+#: ui/kpttaskeditor.cpp:769
 #, kde-format
 msgid "Add Sub-Milestone"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:737
+#: ui/kpttaskeditor.cpp:782
 #, kde-format
 msgid "Indent Task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:742
+#: ui/kpttaskeditor.cpp:787
 #, kde-format
 msgid "Unindent Task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:747
+#: ui/kpttaskeditor.cpp:792
 #, kde-format
 msgid "Move Up"
 msgstr "उप्पर जाउ"
 
-#: ui/kpttaskeditor.cpp:752
+#: ui/kpttaskeditor.cpp:797
 #, kde-format
 msgid "Move Down"
 msgstr "नीच्चाँ जाउ"
 
-#: ui/kpttaskeditor.cpp:1485
+#: ui/kpttaskeditor.cpp:1530
 #, fuzzy, kde-format
 #| msgid "Send"
 msgid "Send..."
 msgstr "पठाबू"
 
-#: ui/kpttaskeditor.cpp:1503
+#: ui/kpttaskeditor.cpp:1548
 #, fuzzy
 #| msgid "Tasks"
 msgctxt "(qtundo-format)"
@@ -7191,6 +7192,19 @@ msgstr ""
 #, kde-format
 msgid "Hours per day:"
 msgstr ""
+
+#: ui/TasksEditDialog.cpp:45
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Tasks Settings"
+msgstr "जमावट"
+
+#: ui/TasksEditDialog.cpp:76
+#, fuzzy
+#| msgid "Description"
+msgctxt "(qtundo-format)"
+msgid "Modify tasks"
+msgstr "विवरण"
 
 #: ui/welcome/WelcomeView.cpp:93
 #, kde-kuit-format
