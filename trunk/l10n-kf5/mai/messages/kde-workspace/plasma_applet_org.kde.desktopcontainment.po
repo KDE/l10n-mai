@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-29 03:32+0200\n"
+"POT-Creation-Date: 2017-10-24 03:18+0200\n"
 "PO-Revision-Date: 2010-01-29 16:13+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -25,7 +25,6 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: package/contents/config/config.qml:29
-#: package/contents/ui/ConfigLocation.qml:79
 #, fuzzy
 #| msgctxt ""
 #| "Title of the page that lets the user choose which location should the "
@@ -303,52 +302,61 @@ msgstr "पूर्वावलोकन"
 msgid "More Preview Options..."
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:97
+#: package/contents/ui/ConfigLocation.qml:93
+#, fuzzy
+#| msgctxt ""
+#| "Title of the page that lets the user choose which location should the "
+#| "folderview show"
+#| msgid "Location"
+msgid "Location:"
+msgstr "स्थान"
+
+#: package/contents/ui/ConfigLocation.qml:101
 msgid "Show the Desktop folder"
 msgstr "डेस्कटाप फोल्डर देखाबू"
 
-#: package/contents/ui/ConfigLocation.qml:104
+#: package/contents/ui/ConfigLocation.qml:113
 msgid "Show files linked to the current activity"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:129
+#: package/contents/ui/ConfigLocation.qml:123
 msgid "Show a place:"
 msgstr "स्थान देखाबू:"
 
-#: package/contents/ui/ConfigLocation.qml:173
+#: package/contents/ui/ConfigLocation.qml:171
 msgid "Specify a folder:"
 msgstr "फोल्डर निर्दिष्ट करू:"
 
-#: package/contents/ui/ConfigLocation.qml:185
+#: package/contents/ui/ConfigLocation.qml:182
 msgid "Type a path or a URL here"
 msgstr "एतए पथ अथवा URL टाइप करू"
 
-#: package/contents/ui/ConfigLocation.qml:228
+#: package/contents/ui/ConfigLocation.qml:232
 #, fuzzy
 #| msgctxt "Music"
 #| msgid "Title:"
-msgid "Title"
+msgid "Title:"
 msgstr "शीर्षक:"
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "None"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Default"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 msgid "Full path"
 msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:238
+#: package/contents/ui/ConfigLocation.qml:244
 #, fuzzy
 #| msgid "Custom Title:"
 msgid "Custom title"
 msgstr "पसंदीदा शीर्षक:"
 
-#: package/contents/ui/ConfigLocation.qml:248
+#: package/contents/ui/ConfigLocation.qml:257
 #, fuzzy
 #| msgid "Custom Title:"
 msgid "Enter custom title here"
@@ -525,6 +533,12 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Music"
+#~| msgid "Title:"
+#~ msgid "Title"
+#~ msgstr "शीर्षक:"
 
 #, fuzzy
 #~| msgid "Show the Desktop folder"
@@ -848,10 +862,6 @@ msgstr ""
 #~ msgctxt "Music"
 #~ msgid "Artist:"
 #~ msgstr "कलाकारः"
-
-#~ msgctxt "Music"
-#~ msgid "Title:"
-#~ msgstr "शीर्षक:"
 
 #~ msgctxt "Music"
 #~ msgid "Album:"
