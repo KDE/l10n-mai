@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-28 02:58+0200\n"
+"POT-Creation-Date: 2017-11-02 03:02+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -608,6 +608,13 @@ msgstr "स्थान पट्टी"
 #, kde-format
 msgctxt "@title:menu"
 msgid "Main Toolbar"
+msgstr "मुख्य अओजार पट्टी"
+
+#: dolphinviewcontainer.cpp:365 search/dolphinsearchbox.cpp:312
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Search Toolbar"
+msgid "Search for %1 in %2"
 msgstr "मुख्य अओजार पट्टी"
 
 #: dolphinviewcontainer.cpp:435
@@ -1990,13 +1997,13 @@ msgctxt "@option:option"
 msgid "Highest Rating"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:102
+#: search/dolphinsearchbox.cpp:105
 #, kde-format
 msgctxt "action:button"
 msgid "From Here (%1)"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:342
+#: search/dolphinsearchbox.cpp:361
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "Start searching"
@@ -2004,7 +2011,13 @@ msgctxt "@info:tooltip"
 msgid "Quit searching"
 msgstr "खोजनाइ शुरू कए रहल अछि"
 
-#: search/dolphinsearchbox.cpp:368
+#: search/dolphinsearchbox.cpp:381
+#, kde-format
+msgctxt "action:button"
+msgid "Save this search to quickly access it again in the future"
+msgstr ""
+
+#: search/dolphinsearchbox.cpp:395
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Filenames"
@@ -2012,7 +2025,7 @@ msgctxt "action:button"
 msgid "Filename"
 msgstr "फाइलनाम"
 
-#: search/dolphinsearchbox.cpp:372
+#: search/dolphinsearchbox.cpp:399
 #, fuzzy, kde-format
 #| msgctxt "@item::inlistbox"
 #| msgid "Comment"
@@ -2020,24 +2033,24 @@ msgctxt "action:button"
 msgid "Content"
 msgstr "टिप्पणी"
 
-#: search/dolphinsearchbox.cpp:383
+#: search/dolphinsearchbox.cpp:410
 #, kde-format
 msgctxt "action:button"
 msgid "From Here"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:387
+#: search/dolphinsearchbox.cpp:414
 #, kde-format
 msgctxt "action:button"
 msgid "Everywhere"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:399
+#: search/dolphinsearchbox.cpp:426
 #, kde-format
 msgid "More Search Tools"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:491
+#: search/dolphinsearchbox.cpp:518
 #, kde-format
 msgctxt ""
 "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
@@ -2045,7 +2058,7 @@ msgctxt ""
 msgid "Query Results from '%1'"
 msgstr ""
 
-#: search/dolphinsearchbox.cpp:542
+#: search/dolphinsearchbox.cpp:569
 #, fuzzy, kde-format
 #| msgctxt "@item::inlistbox"
 #| msgid "Permissions"
@@ -2053,7 +2066,7 @@ msgctxt "action:button"
 msgid "Fewer Options"
 msgstr "अनुमतिसभ"
 
-#: search/dolphinsearchbox.cpp:542
+#: search/dolphinsearchbox.cpp:569
 #, kde-format
 msgctxt "action:button"
 msgid "More Options"
