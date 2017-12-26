@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-24 03:06+0100\n"
+"POT-Creation-Date: 2017-12-26 03:07+0100\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -686,18 +686,18 @@ msgstr "नवीन कुँजी बाइंडिंग सूची"
 msgid "Edit Key Binding List"
 msgstr "कुंजी बाइंडिंग सूची संपादित करू"
 
-#: EditProfileDialog.cpp:1494
+#: EditProfileDialog.cpp:1503
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Any Font"
 msgstr "सभ चुनू"
 
-#: EditProfileDialog.cpp:1497
+#: EditProfileDialog.cpp:1506
 #, kde-format
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1549
+#: EditProfileDialog.cpp:1558
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
@@ -1213,46 +1213,58 @@ msgstr ""
 msgid "Copy on select"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, trimTrailingSpacesButton)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, trimLeadingSpacesButton)
 #: EditProfileDialog.ui:931
+#, kde-format
+msgid "Trim leading spaces in selected text, useful in some instances"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, trimLeadingSpacesButton)
+#: EditProfileDialog.ui:934
+#, kde-format
+msgid "Trim leading spaces"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, trimTrailingSpacesButton)
+#: EditProfileDialog.ui:941
 #, kde-format
 msgid "Trim trailing spaces in selected text, useful in some instances"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, trimTrailingSpacesButton)
-#: EditProfileDialog.ui:934
+#: EditProfileDialog.ui:944
 #, kde-format
 msgid "Trim trailing spaces"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: EditProfileDialog.ui:954
+#: EditProfileDialog.ui:964
 #, kde-format
 msgid "Mouse middle button:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, pasteFromX11SelectionButton)
-#: EditProfileDialog.ui:961
+#: EditProfileDialog.ui:971
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "Paste from selection"
 msgstr "चयन साटू"
 
 #. i18n: ectx: property (text), widget (QRadioButton, pasteFromClipboardButton)
-#: EditProfileDialog.ui:968
+#: EditProfileDialog.ui:978
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "Paste from clipboard"
 msgstr "चयन साटू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: EditProfileDialog.ui:978
+#: EditProfileDialog.ui:988
 #, kde-format
 msgid "Miscellaneous"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
-#: EditProfileDialog.ui:987
+#: EditProfileDialog.ui:997
 #, kde-format
 msgid ""
 "Text recognized as a link or an email address will be underlined when "
@@ -1260,7 +1272,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, underlineLinksButton)
-#: EditProfileDialog.ui:990
+#: EditProfileDialog.ui:1000
 #, fuzzy, kde-format
 #| msgctxt "The shape of the cursor"
 #| msgid "Underline"
@@ -1268,7 +1280,7 @@ msgid "Underline links"
 msgstr "रेखांकित"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineFilesButton)
-#: EditProfileDialog.ui:997
+#: EditProfileDialog.ui:1007
 #, kde-format
 msgid ""
 "Text recognized as a file will be underlined when hovered by the mouse "
@@ -1276,7 +1288,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, underlineFilesButton)
-#: EditProfileDialog.ui:1000
+#: EditProfileDialog.ui:1010
 #, fuzzy, kde-format
 #| msgctxt "The shape of the cursor"
 #| msgid "Underline"
@@ -1284,7 +1296,7 @@ msgid "Underline files"
 msgstr "रेखांकित"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, openLinksByDirectClickButton)
-#: EditProfileDialog.ui:1028
+#: EditProfileDialog.ui:1038
 #, kde-format
 msgid ""
 "Text recognized as a file, link or an email address can be opened by direct "
@@ -1292,25 +1304,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
-#: EditProfileDialog.ui:1031
+#: EditProfileDialog.ui:1041
 #, kde-format
 msgid "Open files and links by direct click"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ctrlRequiredForDragButton)
-#: EditProfileDialog.ui:1040
+#: EditProfileDialog.ui:1050
 #, kde-format
 msgid "Selected text will require control key plus click to drag."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ctrlRequiredForDragButton)
-#: EditProfileDialog.ui:1043
+#: EditProfileDialog.ui:1053
 #, kde-format
 msgid "Require Ctrl key for drag and drop"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, dropUrlsAsText)
-#: EditProfileDialog.ui:1050
+#: EditProfileDialog.ui:1060
 #, kde-format
 msgid ""
 "Always paste dropped URLs as text without offering move, copy and link "
@@ -1318,92 +1330,92 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, dropUrlsAsText)
-#: EditProfileDialog.ui:1053
+#: EditProfileDialog.ui:1063
 #, kde-format
 msgid "Disable drag and drop menu for URLs and files"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:1060
+#: EditProfileDialog.ui:1070
 #, kde-format
 msgid "Pressing Ctrl+scrollwheel will increase/decrease the text size."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableMouseWheelZoomButton)
-#: EditProfileDialog.ui:1063
+#: EditProfileDialog.ui:1073
 #, kde-format
 msgid "Allow Ctrl+scrollwheel to zoom text size"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
-#: EditProfileDialog.ui:1087
+#: EditProfileDialog.ui:1097
 #, kde-format
 msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "उन्नत"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: EditProfileDialog.ui:1093
+#: EditProfileDialog.ui:1103
 #, kde-format
 msgid "Terminal Features"
 msgstr "टर्मिनल विशेषतासभ"
 
 #. i18n: ectx: property (text), widget (QLabel, urlHintsLabel)
-#: EditProfileDialog.ui:1102
+#: EditProfileDialog.ui:1112
 #, kde-format
 msgid "Show URL hints when these keys are pressed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierShift)
-#: EditProfileDialog.ui:1127
+#: EditProfileDialog.ui:1137
 #, kde-format
 msgid "Shift"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierCtrl)
-#: EditProfileDialog.ui:1134
+#: EditProfileDialog.ui:1144
 #, kde-format
 msgid "Control"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierAlt)
-#: EditProfileDialog.ui:1141
+#: EditProfileDialog.ui:1151
 #, kde-format
 msgid "Alt"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, urlHintsModifierMeta)
-#: EditProfileDialog.ui:1148
+#: EditProfileDialog.ui:1158
 #, kde-format
 msgid "Meta"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1163
+#: EditProfileDialog.ui:1173
 #, kde-format
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr "टर्मिनल प्रोग्राम केँ पाठ केर किछु हिस्सा केँ टिमटिमाबैत बनाबै क' लेल स्वीकारू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1166
+#: EditProfileDialog.ui:1176
 #, kde-format
 msgid "Allow blinking text"
 msgstr "टिमटिमाबैत पाठ स्वीकारू"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1179
+#: EditProfileDialog.ui:1189
 #, kde-format
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr "आउटपुट केँ कंट्रोल+S द्वारा निलंबित कएनाइ स्वीकारू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1182
+#: EditProfileDialog.ui:1192
 #, kde-format
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1195
+#: EditProfileDialog.ui:1205
 #, kde-format
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
@@ -1411,144 +1423,144 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1198
+#: EditProfileDialog.ui:1208
 #, kde-format
 msgid "Enable Bi-Directional text rendering"
 msgstr "दुनू तरफ पाठ रेंडरिंग सक्षम करू"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:1207
+#: EditProfileDialog.ui:1217
 #, kde-format
 msgid "Line Spacing:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:1214
+#: EditProfileDialog.ui:1224
 #, kde-format
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1245
+#: EditProfileDialog.ui:1255
 #, kde-format
 msgid "Cursor"
 msgstr "कर्सर"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1260
+#: EditProfileDialog.ui:1270
 #, kde-format
 msgid "Make the cursor blink regularly"
 msgstr "संकेतक केँ नियमति टिमटिमाता बनाबू"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1263
+#: EditProfileDialog.ui:1273
 #, kde-format
 msgid "Blinking cursor"
 msgstr "टिमटिमाबैत संकेतक"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1272
+#: EditProfileDialog.ui:1282
 #, kde-format
 msgid "Cursor shape:"
 msgstr "संकेतक रूप:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1279
+#: EditProfileDialog.ui:1289
 #, kde-format
 msgid "Change the shape of the cursor"
 msgstr "संकेतक केर आकार केँ बदलू"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1283
+#: EditProfileDialog.ui:1293
 #, kde-format
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr "रोकू"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1288
+#: EditProfileDialog.ui:1298
 #, kde-format
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr "I-बीम"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1293
+#: EditProfileDialog.ui:1303
 #, kde-format
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr "रेखांकित"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1322
+#: EditProfileDialog.ui:1332
 #, kde-format
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "संकेतक केँ ओकर अंदर केर अक्षर केर रंग सँ मिलैत सेट करू."
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1325
+#: EditProfileDialog.ui:1335
 #, kde-format
 msgid "Set cursor color to match current character"
 msgstr "संकेतक रंग केँ वर्तमान अक्षर केर रंग सँ मिलैत सेट करू"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1340
+#: EditProfileDialog.ui:1350
 #, kde-format
 msgid "Use a custom, fixed color for the cursor"
 msgstr "संकेतक क' लेल मनपसिन्न, स्थिर रंग प्रयोग करू"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1343
+#: EditProfileDialog.ui:1353
 #, kde-format
 msgid "Custom cursor color:"
 msgstr "मनपसिन्न संकेतक रंग"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1356
+#: EditProfileDialog.ui:1366
 #, kde-format
 msgid "Select the color used to draw the cursor"
 msgstr "संकेतक बनाबै क' लेल प्रयोग मे लेल जाएबला रंग केँ चुनू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1384
+#: EditProfileDialog.ui:1394
 #, kde-format
 msgid "Encoding"
 msgstr "एनकोडिंग"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1393
+#: EditProfileDialog.ui:1403
 #, kde-format
 msgid "Default character encoding:"
 msgstr "डिफाल्ट अक्षर एनकोडिंग:"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1413
+#: EditProfileDialog.ui:1423
 #, kde-format
 msgctxt "@action:button Pick an encoding"
 msgid "Select"
 msgstr "चुनू"
 
-#: Filter.cpp:504
+#: Filter.cpp:505
 #, kde-format
 msgid "Open Link"
 msgstr "लिंक खोलू"
 
-#: Filter.cpp:505
+#: Filter.cpp:506
 #, kde-format
 msgid "Copy Link Address"
 msgstr "लिंक पता नकल करू"
 
-#: Filter.cpp:507
+#: Filter.cpp:508
 #, kde-format
 msgid "Send Email To..."
 msgstr "इ-मेल भेजू..."
 
-#: Filter.cpp:508
+#: Filter.cpp:509
 #, kde-format
 msgid "Copy Email Address"
 msgstr "इ-मेल पता नकल करू"
 
-#: Filter.cpp:646
+#: Filter.cpp:647
 #, fuzzy, kde-format
 #| msgid "Open Link"
 msgid "Open File"
@@ -2270,7 +2282,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: Profile.cpp:151
+#: Profile.cpp:152
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgctxt "Name of the default/builtin profile"
@@ -3395,30 +3407,30 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "रिमोट टैब शीर्षक फार्मेट:"
 
-#: TerminalDisplay.cpp:1265 TerminalDisplay.cpp:1266
+#: TerminalDisplay.cpp:1266 TerminalDisplay.cpp:1267
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "आकार: XXX x XXX"
 
-#: TerminalDisplay.cpp:1277
+#: TerminalDisplay.cpp:1278
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "आकार: %1 x %2"
 
-#: TerminalDisplay.cpp:2859
+#: TerminalDisplay.cpp:2876
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:2862
+#: TerminalDisplay.cpp:2879
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "बन्न करबाक पुष्टि करू"
 
-#: TerminalDisplay.cpp:3050
+#: TerminalDisplay.cpp:3068
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -3432,13 +3444,13 @@ msgstr ""
 "<qt>आउटपुट को<a href=\"http://en.wikipedia.org/wiki/XON\">सस्पैंड कएल गेल अछि</a> "
 "कंट्रोल+S केँ दबाकए.  बहाल करब क' लेल <b>कंट्रोल+Q</b> केँ दबाबू.</qt>"
 
-#: TerminalDisplay.cpp:3356
+#: TerminalDisplay.cpp:3374
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "चयन साटू"
 
-#: TerminalDisplay.cpp:3373
+#: TerminalDisplay.cpp:3391
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
