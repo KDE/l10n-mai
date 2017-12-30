@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-23 05:28+0100\n"
+"POT-Creation-Date: 2017-12-30 05:17+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -18992,13 +18992,13 @@ msgctxt "combo box: select all layers without a label"
 msgid "No Label"
 msgstr "स्तर"
 
-#: libs/ui/widgets/kis_color_input.cpp:57
+#: libs/ui/widgets/kis_color_input.cpp:59
 #: plugins/dockers/colorslider/kis_color_slider_input.cpp:81
 #, kde-format
 msgid "%1:"
 msgstr ""
 
-#: libs/ui/widgets/kis_color_input.cpp:250
+#: libs/ui/widgets/kis_color_input.cpp:342
 #: libs/widgets/KoEditColorSetDialog.cpp:171
 #, fuzzy, kde-format
 msgid "Color name:"
@@ -23412,10 +23412,16 @@ msgstr ""
 msgid "Small Color Selector"
 msgstr ""
 
-#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:61
+#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:62
 #, fuzzy, kde-format
 msgid "Show Colorspace Selector"
 msgstr "चयन बढाउ"
+
+#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:65
+#, fuzzy, kde-format
+#| msgid "Percentile:"
+msgid "Use Percentage"
+msgstr "प्रतिशतता:"
 
 #: plugins/dockers/specificcolorselector/specificcolorselector_dock.cc:33
 #, kde-format
@@ -57672,11 +57678,6 @@ msgstr ""
 
 #~ msgid "Shrink selection by"
 #~ msgstr "एकरा द्वारा चयन घोकचाबू"
-
-#, fuzzy
-#~| msgid "Percentile:"
-#~ msgid "Percent"
-#~ msgstr "प्रतिशतता:"
 
 #, fuzzy
 #~| msgid "Pixel"
