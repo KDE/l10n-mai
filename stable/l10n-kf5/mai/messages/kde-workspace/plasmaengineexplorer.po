@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmaengineexplorer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-08-21 03:48+0200\n"
+"POT-Creation-Date: 2018-02-28 06:08+0100\n"
 "PO-Revision-Date: 2009-01-17 22:27+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -60,13 +60,13 @@ msgid "DataSource"
 msgstr "डाटा-स्रोत"
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:183 serviceviewer.cpp:161 serviceviewer.ui:61
+#: engineexplorer.cpp:183 serviceviewer.cpp:161 serviceviewer.ui:73
 #, kde-format
 msgid "Key"
 msgstr "कुँजी"
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
-#: engineexplorer.cpp:183 serviceviewer.cpp:161 serviceviewer.ui:66
+#: engineexplorer.cpp:183 serviceviewer.cpp:161 serviceviewer.ui:78
 #, kde-format
 msgid "Value"
 msgstr "मान"
@@ -133,7 +133,7 @@ msgid "<not displayable>"
 msgstr "<not displayable>"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
-#: engineexplorer.cpp:507 engineexplorer.ui:17
+#: engineexplorer.cpp:507 engineexplorer.ui:29
 #, kde-format
 msgid "Plasma DataEngine Explorer"
 msgstr "प्लाज्मा डाटा-इंजिन एक्सप्लोरर"
@@ -147,47 +147,47 @@ msgstr[0] "%1 इंजिन - 1 डाटा श्रोत"
 msgstr[1] "%1 इंजिन - %2 डाटा श्रोत"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
-#: engineexplorer.ui:38
+#: engineexplorer.ui:50
 #, kde-format
 msgid "Source name"
 msgstr "श्रोत नाम"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
-#: engineexplorer.ui:63
+#: engineexplorer.ui:75
 #, kde-format
 msgid "Update on demand"
 msgstr "माँग पर अद्यतन"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
-#: engineexplorer.ui:69
+#: engineexplorer.ui:81
 #, fuzzy, kde-format
 #| msgid "ms"
 msgid " ms"
 msgstr "ms"
 
 #. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
-#: engineexplorer.ui:72
+#: engineexplorer.ui:84
 #, fuzzy, kde-format
 #| msgid "Update every "
 msgid "Update Every "
 msgstr "प्रत्येक पर अद्यतन"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
-#: engineexplorer.ui:88
+#: engineexplorer.ui:100
 #, fuzzy, kde-format
 #| msgid "Request"
 msgid "Request Source"
 msgstr "निवेदन"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
-#: engineexplorer.ui:108
+#: engineexplorer.ui:120
 #, fuzzy, kde-format
 #| msgid "Remove source"
 msgid "Service for source"
 msgstr "हटाबू श्रोत"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
-#: engineexplorer.ui:121
+#: engineexplorer.ui:133
 #, fuzzy, kde-format
 #| msgid "Remove source"
 msgid "Request Service for Source"
@@ -233,48 +233,48 @@ msgstr "एरान जे. सीगो"
 msgid "Author and maintainer"
 msgstr "लेखक आ मेंटेनर"
 
-#: main.cpp:87
+#: main.cpp:85
 #, kde-format
 msgid "Displays a list of known engines and their descriptions"
 msgstr ""
 
-#: main.cpp:88
+#: main.cpp:86
 #, kde-format
 msgid "The desired height in pixels"
 msgstr "इच्छित उँचाइ पिक्सेलमे"
 
-#: main.cpp:89
+#: main.cpp:87
 #, kde-format
 msgid "The desired width in pixels"
 msgstr "इच्छित चओड़ाइ पिक्सेलमे"
 
-#: main.cpp:90
+#: main.cpp:88
 #, kde-format
 msgid "The desired x position in pixels"
 msgstr "इच्छित x स्थिति पिक्सेलमे"
 
-#: main.cpp:91
+#: main.cpp:89
 #, kde-format
 msgid "The desired y position in pixels"
 msgstr "इच्छित y स्थिति पिक्सेलमे"
 
-#: main.cpp:92
+#: main.cpp:90
 #, kde-format
 msgid "The data engine to use"
 msgstr "प्रयोग करबाक लेल डाटा इंजिन"
 
-#: main.cpp:93
+#: main.cpp:91
 #, kde-format
 msgid "The source to request"
 msgstr "आग्रहक लेल स्रोत"
 
-#: main.cpp:94
+#: main.cpp:92
 #, fuzzy, kde-format
 #| msgid "Update Interval in milliseconds."
 msgid "Update interval in milliseconds"
 msgstr "मिली-सेकण्डमे अद्यतन अंतराल."
 
-#: main.cpp:95
+#: main.cpp:93
 #, kde-format
 msgid ""
 "Only show engines associated with the parent application; maps to the X-KDE-"
@@ -372,14 +372,14 @@ msgstr[0] "एकटा सक्रिय आपरेशन..."
 msgstr[1] "%1सक्रिय आपरेशन..."
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
-#: serviceviewer.ui:27
+#: serviceviewer.ui:39
 #, fuzzy, kde-format
 #| msgid "&Operation:"
 msgid "Opera&tion:"
 msgstr "आपरेशन (&O):"
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
-#: serviceviewer.ui:74
+#: serviceviewer.ui:86
 #, kde-format
 msgid "Operation count"
 msgstr "आपरेशन गिनती"
