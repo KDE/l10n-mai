@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krusader\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-05 03:17+0100\n"
+"POT-Creation-Date: 2018-03-11 03:16+0100\n"
 "PO-Revision-Date: 2010-09-24 20:16+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2563,14 +2563,14 @@ msgstr ""
 msgid "Recordable CD/DVD-ROM"
 msgstr ""
 
-#: krusader/GUI/mediabutton.cpp:342 krusader/MountMan/kmountman.cpp:429
+#: krusader/GUI/mediabutton.cpp:342 krusader/MountMan/kmountman.cpp:415
 #: krusader/MountMan/kmountmangui.cpp:426
 #: krusader/Panel/panelcontextmenu.cpp:272 krusader/useraction_examples.xml:22
 #, kde-format
 msgid "Mount"
 msgstr "माउन्ट"
 
-#: krusader/GUI/mediabutton.cpp:345 krusader/MountMan/kmountman.cpp:429
+#: krusader/GUI/mediabutton.cpp:345 krusader/MountMan/kmountman.cpp:415
 #: krusader/MountMan/kmountmangui.cpp:431
 #: krusader/Panel/panelcontextmenu.cpp:270
 #, kde-format
@@ -4787,7 +4787,7 @@ msgstr "प्रारंभमे"
 msgid "Krusader's settings upon startup"
 msgstr ""
 
-#: krusader/Konfigurator/konfigurator.cpp:138 krusader/paneltabbar.cpp:48
+#: krusader/Konfigurator/konfigurator.cpp:138 krusader/paneltabbar.cpp:49
 #, kde-format
 msgid "Panel"
 msgstr "पटल"
@@ -6617,42 +6617,47 @@ msgstr ""
 msgid "URL to open"
 msgstr ""
 
-#: krusader/MountMan/kmountman.cpp:71
+#: krusader/MountMan/kmountman.cpp:67
 #, kde-format
 msgid "&MountMan..."
 msgstr ""
 
-#: krusader/MountMan/kmountman.cpp:130
+#: krusader/MountMan/kmountman.cpp:70
+#, kde-format
+msgid "Open &MountMan"
+msgstr ""
+
+#: krusader/MountMan/kmountman.cpp:123
 #, kde-format
 msgid "Cannot start 'mount'. Check the 'Dependencies' page in konfigurator."
 msgstr ""
 
-#: krusader/MountMan/kmountman.cpp:365
+#: krusader/MountMan/kmountman.cpp:355
 #, kde-format
 msgid "%1 ZB"
 msgstr "%1 ZB"
 
-#: krusader/MountMan/kmountman.cpp:367
+#: krusader/MountMan/kmountman.cpp:357
 #, kde-format
 msgid "%1 TB"
 msgstr "%1 TB"
 
-#: krusader/MountMan/kmountman.cpp:372
+#: krusader/MountMan/kmountman.cpp:362
 #, kde-format
 msgid "%1 GB"
 msgstr "%1 GB"
 
-#: krusader/MountMan/kmountman.cpp:377
+#: krusader/MountMan/kmountman.cpp:367
 #, kde-format
 msgid "%1 MB"
 msgstr "%1 MB"
 
-#: krusader/MountMan/kmountman.cpp:382
+#: krusader/MountMan/kmountman.cpp:372
 #, kde-format
 msgid "%1 KB"
 msgstr "%1 KB"
 
-#: krusader/MountMan/kmountman.cpp:392
+#: krusader/MountMan/kmountman.cpp:382
 #, kde-format
 msgid "MountMan is not operational. Sorry"
 msgstr ""
@@ -6943,7 +6948,7 @@ msgstr ""
 msgid "Move Sidebar clockwise"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:282 krusader/Panel/listpanel.cpp:588
+#: krusader/Panel/listpanel.cpp:282 krusader/Panel/listpanel.cpp:598
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgid "Open the Sidebar"
@@ -6957,18 +6962,18 @@ msgid ""
 "active and inactive panel - if possible."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:581
+#: krusader/Panel/listpanel.cpp:591
 #, kde-format
 msgid "Close the Sidebar"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:641
+#: krusader/Panel/listpanel.cpp:651
 #: krusader/Synchronizer/synchronizergui.cpp:1017
 #, kde-format
 msgid "Warning: The left and the right side are showing the same folder."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:799
+#: krusader/Panel/listpanel.cpp:809
 #, kde-format
 msgctxt ""
 "%1=free space,%2=total space,%3=percentage of usage, %4=mountpoint,"
@@ -6976,33 +6981,33 @@ msgctxt ""
 msgid "%1 free out of %2 (%3%) on %4 [(%5)]"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:802
+#: krusader/Panel/listpanel.cpp:812
 #, kde-format
 msgid "%1 free"
 msgstr "%1 मुक्त"
 
-#: krusader/Panel/listpanel.cpp:1022
+#: krusader/Panel/listpanel.cpp:1032
 #, kde-format
 msgid "loading previews: %p%"
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1066
+#: krusader/Panel/listpanel.cpp:1076
 #, kde-format
 msgid ">> Reading..."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1092
+#: krusader/Panel/listpanel.cpp:1102
 #, kde-format
 msgid ">> Reading: %1 % complete..."
 msgstr ""
 
-#: krusader/Panel/listpanel.cpp:1098
+#: krusader/Panel/listpanel.cpp:1108
 #, fuzzy, kde-format
 #| msgid "Reading"
 msgid ">> Reading: %1"
 msgstr "रीडिंग"
 
-#: krusader/Panel/listpanel.cpp:1137
+#: krusader/Panel/listpanel.cpp:1147
 #, kde-format
 msgid "Error: %1"
 msgstr "त्रुटि: %1"
@@ -8009,12 +8014,12 @@ msgstr ""
 msgid "Open a new tab in home"
 msgstr ""
 
-#: krusader/paneltabbar.cpp:166
+#: krusader/paneltabbar.cpp:171
 #, kde-format
 msgid "[invalid]"
 msgstr ""
 
-#: krusader/paneltabbar.cpp:185
+#: krusader/paneltabbar.cpp:190
 #, fuzzy, kde-format
 #| msgid "?"
 msgctxt "invalid URL path"
@@ -8925,14 +8930,24 @@ msgstr ""
 msgid "Close Duplicated Tabs"
 msgstr ""
 
-#: krusader/tabactions.cpp:42 krusader/tabactions.cpp:63
+#: krusader/tabactions.cpp:42 krusader/tabactions.cpp:64
 #, kde-format
 msgid "Lock Tab"
 msgstr ""
 
-#: krusader/tabactions.cpp:63
+#: krusader/tabactions.cpp:43 krusader/tabactions.cpp:66
+#, kde-format
+msgid "Pin Tab"
+msgstr ""
+
+#: krusader/tabactions.cpp:64
 #, kde-format
 msgid "Unlock Tab"
+msgstr ""
+
+#: krusader/tabactions.cpp:66
+#, kde-format
+msgid "Unpin Tab"
 msgstr ""
 
 #: krusader/UserAction/expander.cpp:78
