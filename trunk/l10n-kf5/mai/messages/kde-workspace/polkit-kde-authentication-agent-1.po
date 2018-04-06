@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polkit-kde-authentication-agent-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-21 03:42+0100\n"
+"POT-Creation-Date: 2018-04-06 03:45+0200\n"
 "PO-Revision-Date: 2010-09-08 12:34+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -28,26 +28,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, app_label)
-#: authdetails.ui:22 authdetails.ui:76
-#, kde-format
-msgid "Application:"
-msgstr "अनुप्रयोग:"
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (KUrlLabel, action_label)
-#: authdetails.ui:29 authdetails.ui:56
+#. i18n: ectx: property (text), widget (QLabel, action_label)
+#: authdetails.ui:23 authdetails.ui:30
 #, kde-format
 msgid "Action:"
 msgstr "क्रिया:"
 
-#. i18n: ectx: property (text), widget (QLabel, vendorL)
 #. i18n: ectx: property (text), widget (KUrlLabel, vendorUL)
-#: authdetails.ui:36 authdetails.ui:43
+#. i18n: ectx: property (text), widget (QLabel, vendorL)
+#: authdetails.ui:44 authdetails.ui:57
 #, kde-format
 msgid "Vendor:"
 msgstr "विक्रेता:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, app_label)
+#: authdetails.ui:64 authdetails.ui:71
+#, kde-format
+msgid "Application:"
+msgstr "अनुप्रयोग:"
+
+#. i18n: ectx: property (text), widget (QLabel, action_id_label)
+#: authdetails.ui:81
+#, fuzzy, kde-format
+#| msgid "Action:"
+msgid "Action ID:"
+msgstr "क्रिया:"
 
 #: AuthDialog.cpp:73
 #, kde-format
@@ -119,12 +126,7 @@ msgctxt ""
 msgid "%1:"
 msgstr "%1:"
 
-#: AuthDialog.cpp:343
-#, kde-format
-msgid "Click to edit %1"
-msgstr ""
-
-#: AuthDialog.cpp:351 AuthDialog.cpp:355
+#: AuthDialog.cpp:349 AuthDialog.cpp:353
 #, kde-format
 msgid "Click to open %1"
 msgstr ""
