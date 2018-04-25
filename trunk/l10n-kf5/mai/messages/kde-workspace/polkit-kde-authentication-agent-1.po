@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polkit-kde-authentication-agent-1\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-06 03:45+0200\n"
+"POT-Creation-Date: 2018-04-25 03:47+0200\n"
 "PO-Revision-Date: 2010-09-08 12:34+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -29,28 +29,34 @@ msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, action_label)
-#: authdetails.ui:23 authdetails.ui:30
+#: authdetails.ui:29
 #, kde-format
 msgid "Action:"
 msgstr "क्रिया:"
 
+#. i18n: ectx: property (text), widget (QLabel, action_label)
+#: authdetails.ui:39
+#, kde-format
+msgid "<null>"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (KUrlLabel, vendorUL)
 #. i18n: ectx: property (text), widget (QLabel, vendorL)
-#: authdetails.ui:44 authdetails.ui:57
+#: authdetails.ui:56 authdetails.ui:78
 #, kde-format
 msgid "Vendor:"
 msgstr "विक्रेता:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, app_label)
-#: authdetails.ui:64 authdetails.ui:71
+#: authdetails.ui:94 authdetails.ui:104
 #, kde-format
 msgid "Application:"
 msgstr "अनुप्रयोग:"
 
 #. i18n: ectx: property (text), widget (QLabel, action_id_label)
-#: authdetails.ui:81
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: authdetails.ui:117 authdetails.ui:133
 #, fuzzy, kde-format
 #| msgid "Action:"
 msgid "Action ID:"
@@ -119,14 +125,19 @@ msgstr ""
 msgid "Authentication failure, please try again."
 msgstr ""
 
-#: AuthDialog.cpp:333
+#: AuthDialog.cpp:331 AuthDialog.cpp:360
+#, kde-format
+msgid "Not Applicable"
+msgstr ""
+
+#: AuthDialog.cpp:341
 #, kde-format
 msgctxt ""
 "%1 is the name of a detail about the current action provided by polkit"
 msgid "%1:"
 msgstr "%1:"
 
-#: AuthDialog.cpp:349 AuthDialog.cpp:353
+#: AuthDialog.cpp:372 AuthDialog.cpp:376
 #, kde-format
 msgid "Click to open %1"
 msgstr ""
