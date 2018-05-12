@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-11 03:40+0200\n"
+"POT-Creation-Date: 2018-05-12 03:30+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -21513,6 +21513,7 @@ msgstr ""
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:374
 #: plugins/impex/video/video_export_options_dialog.ui:128
 #: plugins/tools/basictools/wdgmultihandtool.ui:97
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:137
 #, fuzzy, kde-format
 msgid "Reset"
 msgstr "अचयनित"
@@ -29316,6 +29317,7 @@ msgstr "बामाँ"
 #. i18n: ectx: property (text), widget (QCheckBox, boolCenter)
 #: plugins/flake/textshape/dialogs/ParagraphLayout.ui:30
 #: plugins/tools/karbonplugins/tools/KarbonPatternOptionsWidget.cpp:43
+#: plugins/tools/tool_crop/kis_tool_crop.cc:130
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:65
 #, fuzzy, kde-format
 msgid "Center"
@@ -33195,6 +33197,7 @@ msgstr "मोड विरूपित करू"
 #. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
 #: plugins/paintops/deform/kis_deform_paintop_settings.cpp:158
 #: plugins/paintops/deform/wdgdeformoptions.ui:44
+#: plugins/tools/tool_crop/kis_tool_crop.cc:127
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:151
 #, kde-format
 msgid "Grow"
@@ -37634,16 +37637,17 @@ msgid ""
 "html>"
 msgstr ""
 
-#: plugins/tools/tool_crop/kis_tool_crop.h:213
-#, fuzzy, kde-format
-msgid "Crop Tool"
-msgstr "चित्र काटू"
-
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
+#: plugins/tools/tool_crop/kis_tool_crop.cc:126
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:14
 #, kde-format
 msgid "Crop"
 msgstr "काटू"
+
+#: plugins/tools/tool_crop/kis_tool_crop.h:223
+#, fuzzy, kde-format
+msgid "Crop Tool"
+msgstr "चित्र काटू"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:62
@@ -37957,25 +37961,30 @@ msgstr "परत घुमाबू"
 msgid "Rotate 90 degrees CounterClockwise"
 msgstr "परत घुमाबू"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:882
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:136
+#, kde-format
+msgid "Apply"
+msgstr "लागू करू"
+
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:880
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selected layer cannot be transformed with active transformation mode "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:903
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:901
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:914
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:912
 #, fuzzy, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Cannot transform empty layer "
 msgstr "रूपांतरित करू"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:943
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:941
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid ""
@@ -37983,7 +37992,7 @@ msgid ""
 "them to be transformed "
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform.h:356
+#: plugins/tools/tool_transform2/kis_tool_transform.h:359
 #, kde-format
 msgid "Transform a layer or a selection"
 msgstr ""
@@ -57740,9 +57749,6 @@ msgstr ""
 
 #~ msgid "Ok"
 #~ msgstr "ठीक"
-
-#~ msgid "Apply"
-#~ msgstr "लागू करू"
 
 #~ msgid "Scale X:"
 #~ msgstr "मापक X:"
