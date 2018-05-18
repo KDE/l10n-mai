@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-17 03:27+0200\n"
+"POT-Creation-Date: 2018-05-18 03:34+0200\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1181,7 +1181,7 @@ msgctxt "new tag"
 msgid "N&ew..."
 msgstr ""
 
-#: core/app/main/digikamapp_setup.cpp:305 core/libs/database/utils/dio.cpp:546
+#: core/app/main/digikamapp_setup.cpp:305 core/libs/database/utils/dio.cpp:543
 #: core/utilities/searchwindow/editablesearchtreeview.cpp:67
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:356
 #, kde-format
@@ -3453,7 +3453,7 @@ msgstr ""
 msgid "Background Image Credits"
 msgstr "पृष्ठभूमि क' रंगः"
 
-#: core/libs/album/album.cpp:389 core/libs/database/utils/dio.cpp:544
+#: core/libs/album/album.cpp:389 core/libs/database/utils/dio.cpp:541
 #, kde-format
 msgid "Trash"
 msgstr ""
@@ -5326,15 +5326,40 @@ msgstr ""
 msgid "total"
 msgstr ""
 
-#: core/libs/database/utils/dio.cpp:538
+#: core/libs/database/utils/dio.cpp:529
+#, fuzzy, kde-format
+#| msgid "Options"
+msgid "Copy Album"
+msgstr "विकल्प"
+
+#: core/libs/database/utils/dio.cpp:531
 #, kde-format
-msgid "Copy"
+msgid "Copy Images"
 msgstr ""
 
-#: core/libs/database/utils/dio.cpp:542
-#, kde-format
-msgid "Move"
-msgstr ""
+#: core/libs/database/utils/dio.cpp:533
+#, fuzzy, kde-format
+#| msgid "Video"
+msgid "Copy Files"
+msgstr "वीडियो"
+
+#: core/libs/database/utils/dio.cpp:535
+#, fuzzy, kde-format
+#| msgid "Options"
+msgid "Move Album"
+msgstr "विकल्प"
+
+#: core/libs/database/utils/dio.cpp:537
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Move Images"
+msgstr "जमावट"
+
+#: core/libs/database/utils/dio.cpp:539
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Move Files"
+msgstr "जमावट"
 
 #: core/libs/database/utils/mysqlinitbinary.h:49
 #, kde-format
@@ -18530,7 +18555,7 @@ msgctxt "average scene luminance value unknown"
 msgid "unknown"
 msgstr "अज्ञात"
 
-#: core/utilities/assistants/expoblending/manager/expoblendingthread.cpp:872
+#: core/utilities/assistants/expoblending/manager/expoblendingthread.cpp:868
 #, kde-format
 msgid ""
 "Cannot run %1:\n"
@@ -31087,47 +31112,47 @@ msgid_plural "%1 items on Light Table"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:139
-#: core/utilities/maintenance/dbcleaner.cpp:221
-#: core/utilities/maintenance/dbcleaner.cpp:248
-#: core/utilities/maintenance/dbcleaner.cpp:277
-#: core/utilities/maintenance/dbcleaner.cpp:311
-#: core/utilities/maintenance/dbcleaner.cpp:348
+#: core/utilities/maintenance/dbcleaner.cpp:137
+#: core/utilities/maintenance/dbcleaner.cpp:219
+#: core/utilities/maintenance/dbcleaner.cpp:246
+#: core/utilities/maintenance/dbcleaner.cpp:275
+#: core/utilities/maintenance/dbcleaner.cpp:309
+#: core/utilities/maintenance/dbcleaner.cpp:346
 #, kde-format
 msgid "Clean up the databases : "
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:139
+#: core/utilities/maintenance/dbcleaner.cpp:137
 #, kde-format
 msgid "analysing databases"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:221
+#: core/utilities/maintenance/dbcleaner.cpp:219
 #, kde-format
 msgid "cleaning core db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:248
+#: core/utilities/maintenance/dbcleaner.cpp:246
 #, kde-format
 msgid "cleaning thumbnails db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:277
+#: core/utilities/maintenance/dbcleaner.cpp:275
 #, kde-format
 msgid "cleaning recognition db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:311
+#: core/utilities/maintenance/dbcleaner.cpp:309
 #, kde-format
 msgid "cleaning similarity db"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:348
+#: core/utilities/maintenance/dbcleaner.cpp:346
 #, kde-format
 msgid "shrinking databases"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:456
+#: core/utilities/maintenance/dbcleaner.cpp:473
 #, kde-format
 msgid ""
 "<p>Database shrinking in progress.</p><p>Currently, your databases are being "
@@ -31137,29 +31162,29 @@ msgid ""
 "Status:"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:469
+#: core/utilities/maintenance/dbcleaner.cpp:486
 #, fuzzy, kde-format
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgid "Core DB"
 msgstr "संगीता कुमारी"
 
-#: core/utilities/maintenance/dbcleaner.cpp:470
+#: core/utilities/maintenance/dbcleaner.cpp:487
 #, kde-format
 msgid "Thumbnails DB"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:471
+#: core/utilities/maintenance/dbcleaner.cpp:488
 #, kde-format
 msgid "Face Recognition DB"
 msgstr ""
 
-#: core/utilities/maintenance/dbcleaner.cpp:472
+#: core/utilities/maintenance/dbcleaner.cpp:489
 #, kde-format
 msgid "Similarity DB"
 msgstr ""
 
-#: core/utilities/maintenance/duplicatesfinder.cpp:124
+#: core/utilities/maintenance/duplicatesfinder.cpp:127
 #, kde-format
 msgid "Find duplicates items"
 msgstr ""
