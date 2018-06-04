@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-02 03:39+0200\n"
+"POT-Creation-Date: 2018-06-04 03:30+0200\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4523,14 +4523,14 @@ msgstr "प्रोटोकाल %1 पर पहुँच क' लेल अ
 msgid " days"
 msgstr "१ दिन %2"
 
-#: ioslaves/trash/kcmtrash.cpp:221
+#: ioslaves/trash/kcmtrash.cpp:222
 #, kde-format
 msgid ""
 "<para>KDE's wastebin is configured to use the <b>Finder</b>'s Trash.<br></"
 "para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:223
+#: ioslaves/trash/kcmtrash.cpp:224
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4540,13 +4540,13 @@ msgid ""
 "the Trash can.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:258
+#: ioslaves/trash/kcmtrash.cpp:261
 #, fuzzy, kde-format
 #| msgid "Delete Folder"
-msgid "Delete files older than:"
+msgid "Delete files older than"
 msgstr "फोल्डर मेटाबू"
 
-#: ioslaves/trash/kcmtrash.cpp:260
+#: ioslaves/trash/kcmtrash.cpp:263
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4556,7 +4556,7 @@ msgid ""
 "items after a certain timespan</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:267
+#: ioslaves/trash/kcmtrash.cpp:270
 #, fuzzy, kde-format
 #| msgid "1 day %2"
 #| msgid_plural "%1 days %2"
@@ -4565,7 +4565,7 @@ msgid_plural " days"
 msgstr[0] "१ दिन %2"
 msgstr[1] "%1 दिन %2"
 
-#: ioslaves/trash/kcmtrash.cpp:269
+#: ioslaves/trash/kcmtrash.cpp:272
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4573,12 +4573,17 @@ msgid ""
 "older than this will be automatically deleted.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:277
+#: ioslaves/trash/kcmtrash.cpp:276
 #, kde-format
-msgid "Limit to maximum size"
+msgid "Cleanup:"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:279
+#: ioslaves/trash/kcmtrash.cpp:280
+#, kde-format
+msgid "Limit to"
+msgstr ""
+
+#: ioslaves/trash/kcmtrash.cpp:282
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4586,7 +4591,12 @@ msgid ""
 "that you specify below. Otherwise, it will be unlimited.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:297
+#: ioslaves/trash/kcmtrash.cpp:285 widgets/kpropertiesdialog.cpp:1084
+#, kde-format
+msgid "Size:"
+msgstr "आकार:"
+
+#: ioslaves/trash/kcmtrash.cpp:294
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4594,7 +4604,7 @@ msgid ""
 "trash.</para>"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:302
+#: ioslaves/trash/kcmtrash.cpp:299
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4602,32 +4612,22 @@ msgid ""
 "the trash, the maximum.</para>"
 msgstr ""
 
+#: ioslaves/trash/kcmtrash.cpp:304
+#, kde-format
+msgid "Show a Warning"
+msgstr ""
+
 #: ioslaves/trash/kcmtrash.cpp:305
-#, kde-format
-msgid "Maximum size:"
-msgstr ""
-
-#: ioslaves/trash/kcmtrash.cpp:307
-#, kde-format
-msgid "When limit reached:"
-msgstr ""
-
-#: ioslaves/trash/kcmtrash.cpp:311
-#, kde-format
-msgid "Warn Me"
-msgstr ""
-
-#: ioslaves/trash/kcmtrash.cpp:312
 #, kde-format
 msgid "Delete Oldest Files From Trash"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:313
+#: ioslaves/trash/kcmtrash.cpp:306
 #, kde-format
 msgid "Delete Biggest Files From Trash"
 msgstr ""
 
-#: ioslaves/trash/kcmtrash.cpp:315
+#: ioslaves/trash/kcmtrash.cpp:308
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -4635,6 +4635,12 @@ msgid ""
 "files that you specify, first. If this is set to warn you, it will do so "
 "instead of automatically deleting files.</para>"
 msgstr ""
+
+#: ioslaves/trash/kcmtrash.cpp:310
+#, fuzzy, kde-format
+#| msgid "Trash"
+msgid "Full Trash:"
+msgstr "रद्दी"
 
 #: ioslaves/trash/kio_trash.cpp:110 ioslaves/trash/kio_trash.cpp:153
 #: ioslaves/trash/kio_trash.cpp:203 ioslaves/trash/kio_trash.cpp:359
@@ -7815,11 +7821,6 @@ msgstr "विषय:"
 #, kde-format
 msgid "Location:"
 msgstr "स्थानः"
-
-#: widgets/kpropertiesdialog.cpp:1084
-#, kde-format
-msgid "Size:"
-msgstr "आकार:"
 
 #: widgets/kpropertiesdialog.cpp:1101
 #, kde-format
