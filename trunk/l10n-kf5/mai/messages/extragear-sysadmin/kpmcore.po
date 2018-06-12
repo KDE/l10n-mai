@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-02-05 03:08+0100\n"
+"POT-Creation-Date: 2018-06-12 03:32+0200\n"
 "PO-Revision-Date: 2010-09-24 20:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2795,7 +2795,13 @@ msgctxt "@info:status"
 msgid "Could not access device <filename>%1</filename>"
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:396
+#: plugins/libparted/libpartedbackend.cpp:393
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Checking if this device is LVM VG"
+msgstr ""
+
+#: plugins/libparted/libpartedbackend.cpp:412
 #: plugins/sfdisk/sfdiskbackend.cpp:138
 #, kde-kuit-format
 msgctxt "@info:status"
