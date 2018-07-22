@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-28 03:29+0200\n"
+"POT-Creation-Date: 2018-07-22 03:25+0200\n"
 "PO-Revision-Date: 2010-09-24 13:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1821,7 +1821,7 @@ msgstr ""
 msgid "%1 on %2"
 msgstr ""
 
-#: smb4kbookmarkhandler.cpp:426 smb4kcustomoptionsmanager.cpp:419
+#: smb4kbookmarkhandler.cpp:436 smb4kcustomoptionsmanager.cpp:412
 #, kde-format
 msgid "The format of %1 is not supported."
 msgstr ""
@@ -1838,17 +1838,60 @@ msgid ""
 "respective bookmark entry."
 msgstr ""
 
-#: smb4kbookmarkhandler_p.cpp:129
+#: smb4kbookmarkhandler_p.cpp:129 smb4kbookmarkhandler_p.cpp:474
 #, fuzzy, kde-format
 #| msgid "Label"
 msgid "Label:"
 msgstr "लेबल"
 
-#: smb4kbookmarkhandler_p.cpp:133
+#: smb4kbookmarkhandler_p.cpp:133 smb4kbookmarkhandler_p.cpp:486
 #, fuzzy, kde-format
 #| msgid "Group ID"
 msgid "Group:"
 msgstr "समूह ID"
+
+#: smb4kbookmarkhandler_p.cpp:356
+#, fuzzy, kde-format
+#| msgid "&Edit Bookmarks"
+msgid "Edit Bookmarks"
+msgstr " पसंदीदा  क' संपादन करू (&E)"
+
+#: smb4kbookmarkhandler_p.cpp:458 smb4kbookmarkhandler_p.cpp:930
+#, fuzzy, kde-format
+#| msgid "Group ID"
+msgid "Add Group"
+msgstr "समूह ID"
+
+#: smb4kbookmarkhandler_p.cpp:459
+#, kde-format
+msgid "Remove"
+msgstr "हटाबू"
+
+#: smb4kbookmarkhandler_p.cpp:460
+#, fuzzy, kde-format
+#| msgid "&Clear"
+msgid "Clear"
+msgstr "साफ करू (&C)"
+
+#: smb4kbookmarkhandler_p.cpp:478
+#, fuzzy, kde-format
+#| msgid "Login"
+msgid "Login:"
+msgstr "लॉगिन"
+
+#: smb4kbookmarkhandler_p.cpp:482 smb4kcustomoptionsmanager_p.cpp:133
+#: smb4kcustomoptionsmanager_p.cpp:580 smb4kcustomoptionsmanager_p.cpp:826
+#: smb4kmounter_p.cpp:124 smb4kprint_p.cpp:395
+#, kde-format
+msgid "IP Address:"
+msgstr "IP पता:"
+
+#: smb4kbookmarkhandler_p.cpp:930
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Group name:"
+msgstr "संगीता कुमारी"
 
 #: smb4kcustomoptionsmanager_p.cpp:61
 #, kde-format
@@ -1880,13 +1923,6 @@ msgstr "सामान्य"
 #, kde-format
 msgid "UNC Address:"
 msgstr ""
-
-#: smb4kcustomoptionsmanager_p.cpp:133 smb4kcustomoptionsmanager_p.cpp:580
-#: smb4kcustomoptionsmanager_p.cpp:826 smb4kmounter_p.cpp:124
-#: smb4kprint_p.cpp:395
-#, kde-format
-msgid "IP Address:"
-msgstr "IP पता:"
 
 #: smb4kcustomoptionsmanager_p.cpp:144 smb4kcustomoptionsmanager_p.cpp:591
 #, kde-format
@@ -3340,33 +3376,9 @@ msgid ""
 msgstr ""
 
 #, fuzzy
-#~| msgid "&Edit Bookmarks"
-#~ msgid "Edit Bookmarks"
-#~ msgstr " पसंदीदा  क' संपादन करू (&E)"
-
-#, fuzzy
-#~| msgid "Group ID"
-#~ msgid "Add Group"
-#~ msgstr "समूह ID"
-
-#~ msgid "Remove"
-#~ msgstr "हटाबू"
-
-#, fuzzy
 #~| msgid "Bookmarks"
 #~ msgid "Clear Bookmarks"
 #~ msgstr "पुस्तकचिह्न"
-
-#, fuzzy
-#~| msgid "Login"
-#~ msgid "Login:"
-#~ msgstr "लॉगिन"
-
-#, fuzzy
-#~| msgctxt "NAME OF TRANSLATORS"
-#~| msgid "Your names"
-#~ msgid "Group name:"
-#~ msgstr "संगीता कुमारी"
 
 #, fuzzy
 #~| msgid "File system:"
@@ -3553,9 +3565,6 @@ msgstr ""
 
 #~ msgid "&Search"
 #~ msgstr "खोज (&S)"
-
-#~ msgid "&Clear"
-#~ msgstr "साफ करू (&C)"
 
 #~ msgid "Search Results"
 #~ msgstr "खोजक परिणाम"
