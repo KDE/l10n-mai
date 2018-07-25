@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-01 03:48+0200\n"
+"POT-Creation-Date: 2018-07-25 03:44+0200\n"
 "PO-Revision-Date: 2010-09-24 21:46+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -154,7 +154,8 @@ msgid "Default"
 msgstr "मूलभूत"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Duration)
-#: coverswitch/coverswitch_config.ui:161 slide/slide_config.ui:35
+#: coverswitch/coverswitch_config.ui:161 glide/glide_config.ui:35
+#: slide/slide_config.ui:35
 #, fuzzy, kde-format
 #| msgid " msec"
 msgid " milliseconds"
@@ -462,8 +463,11 @@ msgctxt "Desktop name alignment:"
 msgid "Disabled"
 msgstr "अक्षम"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InRotationEdge)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OutRotationEdge)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: desktopgrid/desktopgrid_config.cpp:77 flipswitch/flipswitch_config.ui:160
+#: glide/glide_config.ui:70 glide/glide_config.ui:168
 #, kde-format
 msgid "Top"
 msgstr "उप्पर"
@@ -473,8 +477,11 @@ msgstr "उप्पर"
 msgid "Top-Right"
 msgstr "शीर्ष दहिन्ना"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InRotationEdge)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OutRotationEdge)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: desktopgrid/desktopgrid_config.cpp:79 flipswitch/flipswitch_config.ui:125
+#: glide/glide_config.ui:75 glide/glide_config.ui:173
 #, kde-format
 msgid "Right"
 msgstr "दहिन्ना"
@@ -484,8 +491,11 @@ msgstr "दहिन्ना"
 msgid "Bottom-Right"
 msgstr "तल दहिन्ना"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InRotationEdge)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OutRotationEdge)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: desktopgrid/desktopgrid_config.cpp:81 flipswitch/flipswitch_config.ui:180
+#: glide/glide_config.ui:80 glide/glide_config.ui:178
 #, kde-format
 msgid "Bottom"
 msgstr "नीच्चाँ"
@@ -495,8 +505,11 @@ msgstr "नीच्चाँ"
 msgid "Bottom-Left"
 msgstr "तल बम्माँ"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_InRotationEdge)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_OutRotationEdge)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: desktopgrid/desktopgrid_config.cpp:83 flipswitch/flipswitch_config.ui:105
+#: glide/glide_config.ui:85 glide/glide_config.ui:183
 #, kde-format
 msgid "Left"
 msgstr "बामाँ"
@@ -1146,42 +1159,56 @@ msgstr ""
 msgid "Vertical position of front:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, glideEffectLabel)
-#: glide/glide_config.ui:17
-#, kde-format
-msgid "Glide Effect:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, inGlideEffectLabel)
-#: glide/glide_config.ui:42
-#, kde-format
-msgid "In"
-msgstr "अन्दर"
-
-#. i18n: ectx: property (text), widget (QLabel, outGlideEffectLabel)
-#: glide/glide_config.ui:71
-#, kde-format
-msgid "Out"
-msgstr "बाहर"
-
-#. i18n: ectx: property (text), widget (QLabel, glideAngleLabel)
-#: glide/glide_config.ui:93
+#. i18n: ectx: property (text), widget (QLabel, label_Duration)
+#: glide/glide_config.ui:19 slide/slide_config.ui:19
 #, fuzzy, kde-format
-#| msgid "Angle:"
-msgid "Glide Angle:"
-msgstr "कोण:"
+#| msgid "Decorations:"
+msgid "Duration:"
+msgstr "अवधि"
 
-#. i18n: ectx: property (text), widget (QLabel, glideAnglenegLabel)
-#: glide/glide_config.ui:118
+#. i18n: Duration of the slide animation.
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
+#: glide/glide_config.ui:32 slide/slide_config.ui:32
+#, fuzzy, kde-format
+#| msgctxt "Duration of rotation"
+#| msgid "Default"
+msgid "Default"
+msgstr "मूलभूत"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_InAnimation)
+#: glide/glide_config.ui:50
+#, fuzzy, kde-format
+#| msgid "Activation"
+msgid "Window Open Animation"
+msgstr "एनीमेशन"
+
+#. i18n: ectx: property (text), widget (QLabel, label_InRotationEdge)
+#. i18n: ectx: property (text), widget (QLabel, label_OutRotationEdge)
+#: glide/glide_config.ui:56 glide/glide_config.ui:154
 #, kde-format
-msgid "-90"
+msgid "Rotation edge:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, glideAngleposLabel)
-#: glide/glide_config.ui:147
+#. i18n: ectx: property (text), widget (QLabel, label_InRotationAngle)
+#. i18n: ectx: property (text), widget (QLabel, label_OutRotationAngle)
+#: glide/glide_config.ui:93 glide/glide_config.ui:191
 #, kde-format
-msgid "90"
+msgid "Rotation angle:"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_InDistance)
+#. i18n: ectx: property (text), widget (QLabel, label_OutDistance)
+#: glide/glide_config.ui:119 glide/glide_config.ui:198
+#, kde-format
+msgid "Distance:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_OutAnimation)
+#: glide/glide_config.ui:148
+#, fuzzy, kde-format
+#| msgid "Activation"
+msgid "Window Close Animation"
+msgstr "एनीमेशन"
 
 #: invert/invert.cpp:45 invert/invert_config.cpp:52
 #, kde-format
@@ -1726,22 +1753,6 @@ msgstr "पाठ रंगः"
 msgid "Text alpha:"
 msgstr "पाठ अल्फा:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_Duration)
-#: slide/slide_config.ui:19
-#, fuzzy, kde-format
-#| msgid "Decorations:"
-msgid "Duration:"
-msgstr "अवधि"
-
-#. i18n: Duration of the slide animation.
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
-#: slide/slide_config.ui:32
-#, fuzzy, kde-format
-#| msgctxt "Duration of rotation"
-#| msgid "Default"
-msgid "Default"
-msgstr "मूलभूत"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Gaps)
 #: slide/slide_config.ui:50
 #, kde-format
@@ -2162,6 +2173,17 @@ msgstr "अक्षम"
 #, kde-format
 msgid "Mouse Tracking:"
 msgstr ""
+
+#~ msgid "In"
+#~ msgstr "अन्दर"
+
+#~ msgid "Out"
+#~ msgstr "बाहर"
+
+#, fuzzy
+#~| msgid "Angle:"
+#~ msgid "Glide Angle:"
+#~ msgstr "कोण:"
 
 #, fuzzy
 #~| msgctxt "Duration of rotation"
