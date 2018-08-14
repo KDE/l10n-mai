@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-15 03:26+0200\n"
+"POT-Creation-Date: 2018-08-14 03:46+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -227,7 +227,7 @@ msgstr "वैश्विक स्कोप"
 msgid "Unknown Property"
 msgstr "अज्ञात प्रापर्टी"
 
-#: completion/katekeywordcompletion.cpp:165
+#: completion/katekeywordcompletion.cpp:150
 #, kde-format
 msgid "Language keywords"
 msgstr ""
@@ -1043,7 +1043,7 @@ msgid "&Delete"
 msgstr "मेटाबू (&D)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbProperties)
-#: dialogs/filetypeconfigwidget.ui:66 mode/katemodeconfigpage.cpp:268
+#: dialogs/filetypeconfigwidget.ui:66 mode/katemodeconfigpage.cpp:266
 #, kde-format
 msgid "Properties"
 msgstr "गुण"
@@ -1472,84 +1472,84 @@ msgid ""
 "The list of highlightings could not be found on / retrieved from the server"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1236
+#: dialogs/katedialogs.cpp:1232
 #, kde-format
 msgid "&Go to line:"
 msgstr "पंक्ति पर जाउ: (&G)"
 
-#: dialogs/katedialogs.cpp:1242
+#: dialogs/katedialogs.cpp:1238
 #, kde-format
 msgid "Go"
 msgstr "जाउ"
 
-#: dialogs/katedialogs.cpp:1304
+#: dialogs/katedialogs.cpp:1300
 #, fuzzy, kde-format
 #| msgid "&Section:"
 msgid "Dictionary:"
 msgstr "खण्ड: (&S)"
 
-#: dialogs/katedialogs.cpp:1358
+#: dialogs/katedialogs.cpp:1354
 #, fuzzy, kde-format
 #| msgid "&View Difference"
 msgid "View &Difference"
 msgstr "भिन्नता देखू (&V)"
 
-#: dialogs/katedialogs.cpp:1359
+#: dialogs/katedialogs.cpp:1355
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1364
+#: dialogs/katedialogs.cpp:1360
 #, fuzzy, kde-format
 #| msgid "Reloa&d"
 msgid "&Reload"
 msgstr "फिनु सँ लोड करू (&d)"
 
-#: dialogs/katedialogs.cpp:1366
+#: dialogs/katedialogs.cpp:1362
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1370
+#: dialogs/katedialogs.cpp:1366
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Save As..."
 msgstr "फाइल एहिना सहेजू... (&S)"
 
-#: dialogs/katedialogs.cpp:1372
+#: dialogs/katedialogs.cpp:1368
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "अहाँक एकटा स्थान चुनू आओर फाइलकेँ फिनु सँ सहेजू"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1377 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1373 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "अनदेखा करू (&I)"
 
-#: dialogs/katedialogs.cpp:1378
+#: dialogs/katedialogs.cpp:1374
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1445 swapfile/kateswapdiffcreator.cpp:137
+#: dialogs/katedialogs.cpp:1441 swapfile/kateswapdiffcreator.cpp:137
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1447 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1443 swapfile/kateswapdiffcreator.cpp:139
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "डिफ बनाबै मे त्रुटि"
 
-#: dialogs/katedialogs.cpp:1455 swapfile/kateswapdiffcreator.cpp:147
+#: dialogs/katedialogs.cpp:1451 swapfile/kateswapdiffcreator.cpp:147
 #, kde-format
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1456 swapfile/kateswapdiffcreator.cpp:148
+#: dialogs/katedialogs.cpp:1452 swapfile/kateswapdiffcreator.cpp:148
 #, kde-format
 msgid "Diff Output"
 msgstr "डिफ आउटपुट"
@@ -2180,7 +2180,7 @@ msgstr "नवीन फाइलक प्रकार"
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: document/katedocument.cpp:2157
+#: document/katedocument.cpp:2154
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -2194,23 +2194,23 @@ msgstr ""
 "\n"
 "जाँच करू जे अहाँक पास एहि फाइल केँ पढ़बा क' अनुमति अछि."
 
-#: document/katedocument.cpp:2160
+#: document/katedocument.cpp:2157
 #, kde-format
 msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr ""
 
-#: document/katedocument.cpp:2163 document/katedocument.cpp:5981
+#: document/katedocument.cpp:2160 document/katedocument.cpp:5949
 #, kde-format
 msgid "&Close"
 msgstr ""
 
-#: document/katedocument.cpp:2164 document/katedocument.cpp:5982
+#: document/katedocument.cpp:2161 document/katedocument.cpp:5950
 #, kde-format
 msgid "Close message"
 msgstr ""
 
-#: document/katedocument.cpp:2175
+#: document/katedocument.cpp:2172
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -2221,7 +2221,7 @@ msgstr ""
 "\n"
 "जाँच करू जे अहाँक पास एहि फाइल केँ पढ़बा क' अनुमति अछि."
 
-#: document/katedocument.cpp:2299
+#: document/katedocument.cpp:2296
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters."
@@ -2230,7 +2230,7 @@ msgid ""
 "write mode again in the tools menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2309
+#: document/katedocument.cpp:2306
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters. It "
@@ -2239,7 +2239,7 @@ msgid ""
 "again in the tools menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2320
+#: document/katedocument.cpp:2317
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2248,17 +2248,17 @@ msgid ""
 "only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2325
+#: document/katedocument.cpp:2322
 #, kde-format
 msgid "Temporarily raise limit and reload file"
 msgstr ""
 
-#: document/katedocument.cpp:2328
+#: document/katedocument.cpp:2325
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#: document/katedocument.cpp:2334
+#: document/katedocument.cpp:2331
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2267,7 +2267,7 @@ msgid ""
 "only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2357
+#: document/katedocument.cpp:2354
 #, kde-format
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
@@ -2276,18 +2276,18 @@ msgstr ""
 "की अहाँ सच्चे एहि अपरिवर्धित फाइल केँ सहेजबाक लेल चाहब? डिस्क मे फाइल केर बदलल गेल डाटा "
 "केँ मेटाकए अहाँ लिखि देब"
 
-#: document/katedocument.cpp:2357
+#: document/katedocument.cpp:2354
 #, kde-format
 msgid "Trying to Save Unmodified File"
 msgstr "अपरिवर्धित फाइल केँ सहेजने क' कोसिस कएल जाए रहल अछि"
 
-#: document/katedocument.cpp:2357 document/katedocument.cpp:2362
-#: document/katedocument.cpp:2374
+#: document/katedocument.cpp:2354 document/katedocument.cpp:2359
+#: document/katedocument.cpp:2371
 #, kde-format
 msgid "Save Nevertheless"
 msgstr "कहिनो सहेजू"
 
-#: document/katedocument.cpp:2362
+#: document/katedocument.cpp:2359
 #, kde-format
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
@@ -2296,13 +2296,13 @@ msgstr ""
 "की अहाँ वास्तव मे एहि फाइल केँ सहेजबाक लेल चाहैत छी? अहाँक खुलल फाइल आओर डिस्क क' फाइल "
 "दुनू बदलत. ओतए किछु डाटा नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2362 document/katedocument.cpp:2374
-#: document/katedocument.cpp:2666
+#: document/katedocument.cpp:2359 document/katedocument.cpp:2371
+#: document/katedocument.cpp:2663
 #, kde-format
 msgid "Possible Data Loss"
 msgstr "संभावित डाटा नुकसान"
 
-#: document/katedocument.cpp:2374
+#: document/katedocument.cpp:2371
 #, fuzzy, kde-format
 #| msgid ""
 #| "The selected encoding cannot encode every unicode character in this "
@@ -2314,7 +2314,7 @@ msgstr ""
 "चयनित एनकोडिंग एहि दस्ताबेज केर सभटा यूनिकोड अक्षरकेँ एनकोड नहि कए सकैत अछि. की अहाँ "
 "सच्चे एकरा सहेजना चाहैत छी? एतय किछु डाटाक नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2415 document/katedocument.cpp:4350
+#: document/katedocument.cpp:2412 document/katedocument.cpp:4346
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2327,7 +2327,7 @@ msgstr ""
 " जाँचू जे एहि फाइल पर अहाँक पास लिखबा क' अनुमति अछि आओर डिस्क मे पर्याप्त जगह मोजुद "
 "अछि."
 
-#: document/katedocument.cpp:2539
+#: document/katedocument.cpp:2536
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -2336,69 +2336,69 @@ msgid ""
 "only for you."
 msgstr ""
 
-#: document/katedocument.cpp:2542
+#: document/katedocument.cpp:2539
 #, kde-format
 msgid "Failed to create backup copy."
 msgstr "बैकअप प्रतिलिपि बनाबै मे असफल."
 
-#: document/katedocument.cpp:2543
+#: document/katedocument.cpp:2540
 #, kde-format
 msgid "Try to Save Nevertheless"
 msgstr "कहिनो सहेजबाक कोसिस करू"
 
-#: document/katedocument.cpp:2665
+#: document/katedocument.cpp:2662
 #, kde-format
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr "की अहाँ वास्तव मे एहि फाइल केँ बन्न कएनाइ चाहब?  डाटा नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2666
+#: document/katedocument.cpp:2663
 #, kde-format
 msgid "Close Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: document/katedocument.cpp:4120
+#: document/katedocument.cpp:4116
 #, kde-format
 msgid "Untitled"
 msgstr "अनाम"
 
-#: document/katedocument.cpp:4161 document/katedocument.cpp:4315
-#: document/katedocument.cpp:4326 document/katedocument.cpp:5041
+#: document/katedocument.cpp:4157 document/katedocument.cpp:4311
+#: document/katedocument.cpp:4322 document/katedocument.cpp:5037
 #, kde-format
 msgid "Save File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:4165
+#: document/katedocument.cpp:4161
 #, kde-format
 msgid "Save failed"
 msgstr "सहेजनाइ विफल"
 
-#: document/katedocument.cpp:4225
+#: document/katedocument.cpp:4221
 #, kde-format
 msgid "What do you want to do?"
 msgstr "अहाँ की कएनाइ चाहैत छी?"
 
-#: document/katedocument.cpp:4226
+#: document/katedocument.cpp:4222
 #, kde-format
 msgid "File Was Changed on Disk"
 msgstr "फाइल केँ डिस्क मे बदएल देने गेल छल"
 
-#: document/katedocument.cpp:4227
+#: document/katedocument.cpp:4223
 #, kde-format
 msgid "&Reload File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
-#: document/katedocument.cpp:4228
+#: document/katedocument.cpp:4224
 #, kde-format
 msgid "&Ignore Changes"
 msgstr "परिवर्तन केँ नजरअंदाज करू (&I)"
 
-#: document/katedocument.cpp:4338
+#: document/katedocument.cpp:4334
 #, fuzzy, kde-format
 #| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:4586
+#: document/katedocument.cpp:4582
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
@@ -2406,7 +2406,7 @@ msgid ""
 "applications/kate/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4591
+#: document/katedocument.cpp:4587
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
@@ -2414,34 +2414,34 @@ msgid ""
 "applications/kate/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4928
+#: document/katedocument.cpp:4924
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा परिवर्धित कएल गेल अछि."
 
-#: document/katedocument.cpp:4931
+#: document/katedocument.cpp:4927
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा बनाएल गेल अछि."
 
-#: document/katedocument.cpp:4934
+#: document/katedocument.cpp:4930
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा मेटाएल गेल अछि."
 
-#: document/katedocument.cpp:5068
+#: document/katedocument.cpp:5064
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: document/katedocument.cpp:5070
+#: document/katedocument.cpp:5066
 #, kde-format
 msgid "Overwrite File?"
 msgstr "फाइल केर उप्पर लिखू?"
 
-#: document/katedocument.cpp:5285
+#: document/katedocument.cpp:5281
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2450,17 +2450,17 @@ msgstr ""
 "दस्ताबेज \"%1\" परिवर्तित कएल गेल अछि.\n"
 "की अहाँ एकरा सहेजना चाहब अथवा परिवर्तनसभ केँ फेंक दिअ'?"
 
-#: document/katedocument.cpp:5287
+#: document/katedocument.cpp:5283
 #, kde-format
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
 
-#: document/katedocument.cpp:5420
+#: document/katedocument.cpp:5416
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr ""
 
-#: document/katedocument.cpp:5427
+#: document/katedocument.cpp:5423
 #, kde-format
 msgid "&Abort Loading"
 msgstr ""
@@ -2529,28 +2529,28 @@ msgstr "एनकोडिंग (&n)"
 msgid "Vi Input Mode"
 msgstr "Vi इनमुट मोड"
 
-#: mode/katemodeconfigpage.cpp:60
+#: mode/katemodeconfigpage.cpp:59
 #, kde-format
 msgid "<Unchanged>"
 msgstr "<अपरिवर्तित>"
 
-#: mode/katemodeconfigpage.cpp:71
+#: mode/katemodeconfigpage.cpp:69
 #, fuzzy, kde-format
 #| msgid "Use Default Style"
 msgid "Use Default"
 msgstr "मूलभूत शैली इस्तेमाल करू"
 
-#: mode/katemodeconfigpage.cpp:184
+#: mode/katemodeconfigpage.cpp:182
 #, kde-format
 msgid "New Filetype"
 msgstr "नवीन फाइलक प्रकार"
 
-#: mode/katemodeconfigpage.cpp:238
+#: mode/katemodeconfigpage.cpp:236
 #, kde-format
 msgid "Properties of %1"
 msgstr " %1 केर गुण"
 
-#: mode/katemodeconfigpage.cpp:288
+#: mode/katemodeconfigpage.cpp:286
 #, kde-format
 msgid ""
 "Select the MimeTypes you want for this file type.\n"
@@ -2560,12 +2560,12 @@ msgstr ""
 "माइम प्रकार चुनू जे अहाँ एहि फाइल प्रकार क' लेल चाहैत छी.\n"
 "कृप्या टीप लिअ' जे ई अपनेसँ सम्बद्ध फाइलक विस्तारकेँ संपादनो कए देत."
 
-#: mode/katemodeconfigpage.cpp:290
+#: mode/katemodeconfigpage.cpp:288
 #, kde-format
 msgid "Select Mime Types"
 msgstr "माइम प्रकार चुनू"
 
-#: mode/katemodeconfigpage.cpp:307
+#: mode/katemodeconfigpage.cpp:305
 #, fuzzy, kde-format
 #| msgid "Modes & Filetypes"
 msgid "Modes && Filetypes"
@@ -4821,142 +4821,75 @@ msgstr "विपरीत"
 msgid "Discard"
 msgstr "अक्षम"
 
-#: syntax/katehighlight.cpp:82
-#, kde-format
-msgctxt "Syntax highlighting"
-msgid "None"
-msgstr "किछु नहि"
-
-#: syntax/katehighlight.cpp:799
-#, kde-format
-msgid "Normal Text"
-msgstr "सामान्य पाठ"
-
-#: syntax/katehighlight.cpp:1010
-#, kde-format
-msgid ""
-"<b>%1</b>: Deprecated syntax. Attribute (%2) not addressed by symbolic "
-"name<br />"
-msgstr ""
-"<b>%1</b>: पदावनत सिंटेक्स. एट्रिब्यूट (%2) सिंबालिक नाम सँ संबोधित नहि हाएत<br />"
-
-#: syntax/katehighlight.cpp:1522
-#, kde-format
-msgid "<b>%1</b>: Deprecated syntax. Context %2 has no symbolic name<br />"
-msgstr "<b>%1</b>: पदावनत सिंटेक्स. संदर्भ %2 मे कोनो सिंबालिक नाम नहि अछि<br />"
-
-#: syntax/katehighlight.cpp:1605
-#, kde-format
-msgid ""
-"<B>%1</B>:Deprecated syntax. Context %2 not addressed by a symbolic name"
-msgstr "<B>%1</B>:पदावनत सिंटेक्स. कॉन्टेक्स्ट %2 सिंबालिक नाम सँ एड्रेस्ड नहि होता"
-
-#: syntax/katehighlight.cpp:1749
-#, kde-format
-msgid ""
-"There were warning(s) and/or error(s) while parsing the syntax highlighting "
-"configuration."
-msgstr "सिंटेक्स हाइलाइटिंग बिन्यास पारसिंग करते समय चेतावनी आओर/अथवा त्रुटि भेल."
-
-#: syntax/katehighlight.cpp:1751
-#, kde-format
-msgid "Kate Syntax Highlighting Parser"
-msgstr "के-एटीई सिंटेक्स हाईलाइटिंग पारसर"
-
-#: syntax/katehighlight.cpp:1917
-#, kde-format
-msgid ""
-"Since there has been an error parsing the highlighting description, this "
-"highlighting will be disabled"
-msgstr "किएक हाईलाइटिंग विवरण केँ पारसिंग करब मे त्रुटि आई ई हाईलाइटिंग अक्षम रहत"
-
-#: syntax/katehighlight.cpp:2141
-#, kde-format
-msgid ""
-"<b>%1</b>: Specified multiline comment region (%2) could not be resolved<br /"
-">"
-msgstr ""
-
-#: syntax/katesyntaxdocument.cpp:65
-#, kde-format
-msgid "Unable to open %1"
-msgstr "%1 खोलबा मे अक्षम"
-
-#: syntax/katesyntaxdocument.cpp:74
-#, kde-format
-msgid ""
-"<qt>The error <b>%4</b><br /> has been detected in the file %1 at %2/%3</qt>"
-msgstr "<qt>त्रुटि <b>%4</b><br /> फाइल %1 मे %2/%3</qt> पर पाएल गेल अछि."
-
-#: syntax/katesyntaxmanager.cpp:166
+#: syntax/katesyntaxmanager.cpp:150
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Normal"
 msgstr "सामान्य"
 
-#: syntax/katesyntaxmanager.cpp:167
+#: syntax/katesyntaxmanager.cpp:151
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Keyword"
 msgstr "बीजशब्द"
 
-#: syntax/katesyntaxmanager.cpp:168
+#: syntax/katesyntaxmanager.cpp:152
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Function"
 msgstr "फंक्शन"
 
-#: syntax/katesyntaxmanager.cpp:169
+#: syntax/katesyntaxmanager.cpp:153
 #, fuzzy, kde-format
 #| msgid "Variable"
 msgctxt "@item:intable Text context"
 msgid "Variable"
 msgstr "परिवर्तनीय"
 
-#: syntax/katesyntaxmanager.cpp:170
+#: syntax/katesyntaxmanager.cpp:154
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Control Flow"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:171
+#: syntax/katesyntaxmanager.cpp:155
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Operator"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:172
+#: syntax/katesyntaxmanager.cpp:156
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Built-in"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:173
+#: syntax/katesyntaxmanager.cpp:157
 #, fuzzy, kde-format
 #| msgid "Extensions"
 msgctxt "@item:intable Text context"
 msgid "Extension"
 msgstr "विस्तार"
 
-#: syntax/katesyntaxmanager.cpp:174
+#: syntax/katesyntaxmanager.cpp:158
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Preprocessor"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:175
+#: syntax/katesyntaxmanager.cpp:159
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Attribute"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:177
+#: syntax/katesyntaxmanager.cpp:161
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Character"
 msgstr "संप्रतीक"
 
-#: syntax/katesyntaxmanager.cpp:178
+#: syntax/katesyntaxmanager.cpp:162
 #, fuzzy, kde-format
 #| msgctxt "@item:intable Text context"
 #| msgid "Character"
@@ -4964,96 +4897,96 @@ msgctxt "@item:intable Text context"
 msgid "Special Character"
 msgstr "संप्रतीक"
 
-#: syntax/katesyntaxmanager.cpp:179
+#: syntax/katesyntaxmanager.cpp:163
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "String"
 msgstr "स्ट्रिंग"
 
-#: syntax/katesyntaxmanager.cpp:180
+#: syntax/katesyntaxmanager.cpp:164
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Verbatim String"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:181
+#: syntax/katesyntaxmanager.cpp:165
 #, fuzzy, kde-format
 #| msgid "Filtering"
 msgctxt "@item:intable Text context"
 msgid "Special String"
 msgstr "फिल्टर कएल जाए रहल अछि"
 
-#: syntax/katesyntaxmanager.cpp:182
+#: syntax/katesyntaxmanager.cpp:166
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Imports, Modules, Includes"
 msgstr ""
 
-#: syntax/katesyntaxmanager.cpp:184
+#: syntax/katesyntaxmanager.cpp:168
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Data Type"
 msgstr "डाटा प्रकार"
 
-#: syntax/katesyntaxmanager.cpp:185
+#: syntax/katesyntaxmanager.cpp:169
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Decimal/Value"
 msgstr "दशमलव/मान"
 
-#: syntax/katesyntaxmanager.cpp:186
+#: syntax/katesyntaxmanager.cpp:170
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Base-N Integer"
 msgstr "बेस-N पूर्णांक"
 
-#: syntax/katesyntaxmanager.cpp:187
+#: syntax/katesyntaxmanager.cpp:171
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Floating Point"
 msgstr "तैरत बिंदु"
 
-#: syntax/katesyntaxmanager.cpp:188
+#: syntax/katesyntaxmanager.cpp:172
 #, fuzzy, kde-format
 #| msgid "Constant"
 msgctxt "@item:intable Text context"
 msgid "Constant"
 msgstr "स्थिर"
 
-#: syntax/katesyntaxmanager.cpp:190
+#: syntax/katesyntaxmanager.cpp:174
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Comment"
 msgstr "टिप्पणी"
 
-#: syntax/katesyntaxmanager.cpp:191
+#: syntax/katesyntaxmanager.cpp:175
 #, fuzzy, kde-format
 #| msgid "Show i&ndentation lines"
 msgctxt "@item:intable Text context"
 msgid "Documentation"
 msgstr "हाशियाक पंक्तिक देखाबू (&n)"
 
-#: syntax/katesyntaxmanager.cpp:192
+#: syntax/katesyntaxmanager.cpp:176
 #, fuzzy, kde-format
 #| msgid "Indentation"
 msgctxt "@item:intable Text context"
 msgid "Annotation"
 msgstr "इंडेन्टेशन"
 
-#: syntax/katesyntaxmanager.cpp:193
+#: syntax/katesyntaxmanager.cpp:177
 #, fuzzy, kde-format
 #| msgid "Variable"
 msgctxt "@item:intable Text context"
 msgid "Comment Variable"
 msgstr "परिवर्तनीय"
 
-#: syntax/katesyntaxmanager.cpp:195
+#: syntax/katesyntaxmanager.cpp:179
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Region Marker"
 msgstr "क्षेत्र चिन्हक"
 
-#: syntax/katesyntaxmanager.cpp:196
+#: syntax/katesyntaxmanager.cpp:180
 #, fuzzy, kde-format
 #| msgctxt "Language"
 #| msgid "Inform"
@@ -5061,26 +4994,26 @@ msgctxt "@item:intable Text context"
 msgid "Information"
 msgstr "Inform"
 
-#: syntax/katesyntaxmanager.cpp:197
+#: syntax/katesyntaxmanager.cpp:181
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgctxt "@item:intable Text context"
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: syntax/katesyntaxmanager.cpp:198
+#: syntax/katesyntaxmanager.cpp:182
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Alert"
 msgstr "चेतावनी"
 
-#: syntax/katesyntaxmanager.cpp:200
+#: syntax/katesyntaxmanager.cpp:184
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Others"
 msgstr "आन "
 
-#: syntax/katesyntaxmanager.cpp:202
+#: syntax/katesyntaxmanager.cpp:186
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Error"
@@ -5982,168 +5915,168 @@ msgctxt "short translation please"
 msgid "Set the font of the document."
 msgstr "मोजुदा दस्ताबेज क' संपूर्ण पाठ चुनू"
 
-#: variableeditor/variablelineedit.cpp:226
+#: variableeditor/variablelineedit.cpp:225
 #, fuzzy, kde-format
 #| msgid "Kate Syntax Highlighting Parser"
 msgctxt "short translation please"
 msgid "Set the syntax highlighting."
 msgstr "के-एटीई सिंटेक्स हाईलाइटिंग पारसर"
 
-#: variableeditor/variablelineedit.cpp:231
+#: variableeditor/variablelineedit.cpp:230
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the icon bar color."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:236
+#: variableeditor/variablelineedit.cpp:235
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable the icon border in the editor view."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:241
+#: variableeditor/variablelineedit.cpp:240
 #, fuzzy, kde-format
 #| msgid "Show i&ndentation lines"
 msgctxt "short translation please"
 msgid "Set the auto indentation style."
 msgstr "हाशियाक पंक्तिक देखाबू (&n)"
 
-#: variableeditor/variablelineedit.cpp:246
+#: variableeditor/variablelineedit.cpp:245
 #, kde-format
 msgctxt "short translation please"
 msgid "Adjust indentation of text pasted from the clipboard."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:252
+#: variableeditor/variablelineedit.cpp:251
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the indentation depth for each indent level."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:257
+#: variableeditor/variablelineedit.cpp:256
 #, kde-format
 msgctxt "short translation please"
 msgid "Allow odd indentation level (no multiple of indent width)."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:262
+#: variableeditor/variablelineedit.cpp:261
 #, fuzzy, kde-format
 #| msgid "Show &line numbers"
 msgctxt "short translation please"
 msgid "Show line numbers."
 msgstr "पंक्ति क्रमांक देखाबू (&l)"
 
-#: variableeditor/variablelineedit.cpp:267
+#: variableeditor/variablelineedit.cpp:266
 #, kde-format
 msgctxt "short translation please"
 msgid "Insert newline at end of file on save."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:272
+#: variableeditor/variablelineedit.cpp:271
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable overwrite mode in the document."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:277
+#: variableeditor/variablelineedit.cpp:276
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable persistent text selection."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:282
+#: variableeditor/variablelineedit.cpp:281
 #, kde-format
 msgctxt "short translation please"
 msgid "Replace tabs with spaces when saving the document."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:287
+#: variableeditor/variablelineedit.cpp:286
 #, fuzzy, kde-format
 #| msgid "Replace all matches"
 msgctxt "short translation please"
 msgid "Replace tabs with spaces."
 msgstr "सभटा मिलान केँ बदलू"
 
-#: variableeditor/variablelineedit.cpp:292
+#: variableeditor/variablelineedit.cpp:291
 #, fuzzy, kde-format
 #| msgid "Re&move trailing spaces"
 msgctxt "short translation please"
 msgid "Remove trailing spaces when saving the document."
 msgstr "ट्रेलिंग स्पेसेस हटाबू (&m)"
 
-#: variableeditor/variablelineedit.cpp:297
+#: variableeditor/variablelineedit.cpp:296
 #, fuzzy, kde-format
 #| msgid "Show &scrollbar marks"
 msgctxt "short translation please"
 msgid "Show scrollbar minimap."
 msgstr "स्क्राल पट्टी चिह्न देखाबू (&s)"
 
-#: variableeditor/variablelineedit.cpp:302
+#: variableeditor/variablelineedit.cpp:301
 #, fuzzy, kde-format
 #| msgid "Show &scrollbar marks"
 msgctxt "short translation please"
 msgid "Show scrollbar preview."
 msgstr "स्क्राल पट्टी चिह्न देखाबू (&s)"
 
-#: variableeditor/variablelineedit.cpp:311
+#: variableeditor/variablelineedit.cpp:310
 #, fuzzy, kde-format
 #| msgid "Font & Color Schemas"
 msgctxt "short translation please"
 msgid "Set the color scheme."
 msgstr "फौन्ट आ रंग प्रसंग"
 
-#: variableeditor/variablelineedit.cpp:316
+#: variableeditor/variablelineedit.cpp:315
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the text selection color."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:321
+#: variableeditor/variablelineedit.cpp:320
 #, fuzzy, kde-format
 #| msgid "Highlight trailing &spaces"
 msgctxt "short translation please"
 msgid "Visualize tabs and trailing spaces."
 msgstr "ट्रेलिंग स्थान आलोकित करू (&s)"
 
-#: variableeditor/variablelineedit.cpp:326
+#: variableeditor/variablelineedit.cpp:325
 #, fuzzy, kde-format
 #| msgid "Auto Completion"
 msgctxt "short translation please"
 msgid "Enable smart home navigation."
 msgstr "स्वतः पूर्णता"
 
-#: variableeditor/variablelineedit.cpp:331
+#: variableeditor/variablelineedit.cpp:330
 #, kde-format
 msgctxt "short translation please"
 msgid "Pressing TAB key indents."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:337
+#: variableeditor/variablelineedit.cpp:336
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the tab display width."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:343
+#: variableeditor/variablelineedit.cpp:342
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the number of undo steps to remember (0 equals infinity)."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:349
+#: variableeditor/variablelineedit.cpp:348
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the word wrap column."
 msgstr ""
 
-#: variableeditor/variablelineedit.cpp:354
+#: variableeditor/variablelineedit.cpp:353
 #, fuzzy, kde-format
 #| msgid "S&elected Background Color..."
 msgctxt "short translation please"
 msgid "Set the word wrap marker color."
 msgstr "चयनित पृष्ठभूमि क' रंग... (&e)"
 
-#: variableeditor/variablelineedit.cpp:359
+#: variableeditor/variablelineedit.cpp:358
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable word wrap while typing text."
@@ -7640,6 +7573,47 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "मार्क टाइप %1"
+
+#~ msgctxt "Syntax highlighting"
+#~ msgid "None"
+#~ msgstr "किछु नहि"
+
+#~ msgid "Normal Text"
+#~ msgstr "सामान्य पाठ"
+
+#~ msgid ""
+#~ "<b>%1</b>: Deprecated syntax. Attribute (%2) not addressed by symbolic "
+#~ "name<br />"
+#~ msgstr ""
+#~ "<b>%1</b>: पदावनत सिंटेक्स. एट्रिब्यूट (%2) सिंबालिक नाम सँ संबोधित नहि हाएत<br />"
+
+#~ msgid "<b>%1</b>: Deprecated syntax. Context %2 has no symbolic name<br />"
+#~ msgstr "<b>%1</b>: पदावनत सिंटेक्स. संदर्भ %2 मे कोनो सिंबालिक नाम नहि अछि<br />"
+
+#~ msgid ""
+#~ "<B>%1</B>:Deprecated syntax. Context %2 not addressed by a symbolic name"
+#~ msgstr "<B>%1</B>:पदावनत सिंटेक्स. कॉन्टेक्स्ट %2 सिंबालिक नाम सँ एड्रेस्ड नहि होता"
+
+#~ msgid ""
+#~ "There were warning(s) and/or error(s) while parsing the syntax "
+#~ "highlighting configuration."
+#~ msgstr "सिंटेक्स हाइलाइटिंग बिन्यास पारसिंग करते समय चेतावनी आओर/अथवा त्रुटि भेल."
+
+#~ msgid "Kate Syntax Highlighting Parser"
+#~ msgstr "के-एटीई सिंटेक्स हाईलाइटिंग पारसर"
+
+#~ msgid ""
+#~ "Since there has been an error parsing the highlighting description, this "
+#~ "highlighting will be disabled"
+#~ msgstr "किएक हाईलाइटिंग विवरण केँ पारसिंग करब मे त्रुटि आई ई हाईलाइटिंग अक्षम रहत"
+
+#~ msgid "Unable to open %1"
+#~ msgstr "%1 खोलबा मे अक्षम"
+
+#~ msgid ""
+#~ "<qt>The error <b>%4</b><br /> has been detected in the file %1 at %2/%3</"
+#~ "qt>"
+#~ msgstr "<qt>त्रुटि <b>%4</b><br /> फाइल %1 मे %2/%3</qt> पर पाएल गेल अछि."
 
 #, fuzzy
 #~| msgid "Case-sensitive searching"
