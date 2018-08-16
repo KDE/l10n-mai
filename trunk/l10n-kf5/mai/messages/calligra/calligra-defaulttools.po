@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice-defaulttools\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-15 03:36+0200\n"
+"POT-Creation-Date: 2018-08-16 13:04+0200\n"
 "PO-Revision-Date: 2009-04-22 00:16+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19,6 +19,263 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 "\n"
+
+#. i18n: ectx: property (text), widget (QCheckBox, toggleEditMode)
+#: connectionTool/ConnectionPointWidget.ui:30
+#, kde-format
+msgid "Edit Mode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEscape)
+#: connectionTool/ConnectionPointWidget.ui:37
+#, kde-format
+msgid "Escape Direction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAlign)
+#: connectionTool/ConnectionPointWidget.ui:97
+#, fuzzy, kde-format
+#| msgid "Align Left"
+msgid "Alignment"
+msgstr "बामाँ संरेखण"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleXSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleYSpinBox)
+#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
+#: connectionTool/ConnectionPointWidget.ui:116
+#: defaulttool/DefaultToolTransformWidget.ui:106
+#: defaulttool/DefaultToolTransformWidget.ui:138
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#: connectionTool/ConnectionTool.cpp:78
+#, kde-format
+msgid "Edit connection points"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:85
+#, fuzzy, kde-format
+#| msgid "Align Left"
+msgid "Align to left edge"
+msgstr "बामाँ संरेखण"
+
+#: connectionTool/ConnectionTool.cpp:88
+#, fuzzy, kde-format
+#| msgid "Align Right"
+msgid "Align to horizontal center"
+msgstr "दहिन्ना संरेखण"
+
+#: connectionTool/ConnectionTool.cpp:91
+#, fuzzy, kde-format
+#| msgid "Align Right"
+msgid "Align to right edge"
+msgstr "दहिन्ना संरेखण"
+
+#: connectionTool/ConnectionTool.cpp:94
+#, fuzzy, kde-format
+#| msgid "Align Bottom"
+msgid "Align to top edge"
+msgstr "तल संरेखण"
+
+#: connectionTool/ConnectionTool.cpp:97
+#, fuzzy, kde-format
+#| msgid "Align Left"
+msgid "Align to vertical center"
+msgstr "बामाँ संरेखण"
+
+#: connectionTool/ConnectionTool.cpp:100
+#, fuzzy, kde-format
+#| msgid "Align Bottom"
+msgid "Align to bottom edge"
+msgstr "तल संरेखण"
+
+#: connectionTool/ConnectionTool.cpp:104
+#, kde-format
+msgid "Escape in all directions"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:107
+#, kde-format
+msgid "Escape in horizontal directions"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:110
+#, kde-format
+msgid "Escape in vertical directions"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:113
+#, kde-format
+msgid "Escape in left direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:116
+#, kde-format
+msgid "Escape in right direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:119
+#, kde-format
+msgid "Escape in up direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:122
+#, kde-format
+msgid "Escape in down direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:765 connectionTool/ConnectionTool.cpp:777
+#, kde-format
+msgid "Drag to edit connection."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:767 connectionTool/ConnectionTool.cpp:779
+#, kde-format
+msgid "Double click connection or press delete to remove it."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:769
+#, kde-format
+msgid "Click to edit connection points."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:783
+#, kde-format
+msgid ""
+"Drag to move connection point. Double click connection or press delete to "
+"remove it."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:785
+#, kde-format
+msgid "Double click connection point or press delete to remove it."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:787
+#, kde-format
+msgid "Double click to add connection point."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:790
+#, kde-format
+msgid "Drag to create new connection."
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:818
+#, kde-format
+msgid "Connection"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:823 defaulttool/DefaultTool.cpp:1179
+#, kde-format
+msgid "Line"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:828
+#, kde-format
+msgid "Connection Point"
+msgstr ""
+
+#: connectionTool/ConnectionToolFactory.cpp:31
+#, fuzzy, kde-format
+#| msgid "Ungroup"
+msgid "Connect shapes"
+msgstr "विसमूह"
+
+#: defaulttool/DefaultTool.cpp:217
+#, kde-format
+msgid "Bring to &Front"
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:222
+#, kde-format
+msgid "&Raise"
+msgstr "उठाबू (&R)"
+
+#: defaulttool/DefaultTool.cpp:227
+#, kde-format
+msgid "&Lower"
+msgstr "निचला (&L)"
+
+#: defaulttool/DefaultTool.cpp:233
+#, kde-format
+msgid "Send to &Back"
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:239
+#, kde-format
+msgid "Align Left"
+msgstr "बामाँ संरेखण"
+
+#: defaulttool/DefaultTool.cpp:244
+#, fuzzy, kde-format
+#| msgid "Horizontal"
+msgid "Horizontally Center"
+msgstr "क्षैतिज"
+
+#: defaulttool/DefaultTool.cpp:249
+#, kde-format
+msgid "Align Right"
+msgstr "दहिन्ना संरेखण"
+
+#: defaulttool/DefaultTool.cpp:253
+#, kde-format
+msgid "Align Top"
+msgstr "उप्पर संरेखण"
+
+#: defaulttool/DefaultTool.cpp:258
+#, fuzzy, kde-format
+#| msgid "Vertical"
+msgid "Vertically Center"
+msgstr "लम्बवत"
+
+#: defaulttool/DefaultTool.cpp:263
+#, kde-format
+msgid "Align Bottom"
+msgstr "तल संरेखण"
+
+#: defaulttool/DefaultTool.cpp:268
+#, kde-format
+msgid "Group"
+msgstr "समूह"
+
+#: defaulttool/DefaultTool.cpp:273
+#, kde-format
+msgid "Ungroup"
+msgstr "विसमूह"
+
+#: defaulttool/DefaultTool.cpp:459 defaulttool/DefaultTool.cpp:534
+#, kde-format
+msgid "Click and drag to move guide line."
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:466
+#, kde-format
+msgid ""
+"Left click rotates around center, right click around highlighted position."
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:468
+#, kde-format
+msgid "Click and drag to shear selection."
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:471
+#, kde-format
+msgid "Click and drag to resize selection."
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:523
+#, kde-format
+msgid "Click and drag to move selection."
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:528
+#, kde-format
+msgid ""
+"Click and drag to resize selection. Middle click to set highlighted position."
+msgstr ""
 
 #: defaulttool/DefaultTool.cpp:1051
 #, fuzzy
@@ -33,6 +290,31 @@ msgstr "विसमूह"
 msgctxt "(qtundo-format)"
 msgid "Ungroup shapes"
 msgstr "विसमूह"
+
+#: defaulttool/DefaultTool.cpp:1173
+#, kde-format
+msgid "Arrange"
+msgstr "क्रममे राखू"
+
+#: defaulttool/DefaultTool.cpp:1176
+#, kde-format
+msgid "Geometry"
+msgstr "ज्यामिति"
+
+#: defaulttool/DefaultTool.cpp:1184
+#, kde-format
+msgid "Fill"
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:1189
+#, kde-format
+msgid "Shadow"
+msgstr ""
+
+#: defaulttool/DefaultToolFactory.cpp:30
+#, kde-format
+msgid "Shape handling"
+msgstr ""
 
 #: defaulttool/DefaultToolTransformWidget.cpp:113
 #: defaulttool/ShapeRotateStrategy.cpp:147
@@ -69,6 +351,58 @@ msgctxt "(qtundo-format)"
 msgid "Reset Transformations"
 msgstr ""
 
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
+#: defaulttool/DefaultToolTransformWidget.ui:25
+#, kde-format
+msgid "°"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, rotateButton)
+#: defaulttool/DefaultToolTransformWidget.ui:38
+#, kde-format
+msgid "Rotate"
+msgstr "घुमाबू"
+
+#. i18n: ectx: property (text), widget (QPushButton, shearXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:64
+#, fuzzy, kde-format
+#| msgid "Shear"
+msgid "Shear X"
+msgstr "कतरू"
+
+#. i18n: ectx: property (text), widget (QPushButton, shearYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:90
+#, fuzzy, kde-format
+#| msgid "Shear"
+msgid "Shear Y"
+msgstr "कतरू"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:122
+#, fuzzy, kde-format
+#| msgid "Scale"
+msgid "Scale X"
+msgstr "मापक"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:154
+#, fuzzy, kde-format
+#| msgid "Scale"
+msgid "Scale Y"
+msgstr "मापक"
+
+#. i18n: ectx: property (text), widget (QCheckBox, scaleAspectCheckBox)
+#: defaulttool/DefaultToolTransformWidget.ui:161
+#, kde-format
+msgid "Keep aspect ratio"
+msgstr "पहलू अनुपात बनाए राखू"
+
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
+#: defaulttool/DefaultToolTransformWidget.ui:174
+#, kde-format
+msgid "Reset Transformations"
+msgstr ""
+
 #: defaulttool/DefaultToolWidget.cpp:238
 #: defaulttool/ShapeResizeStrategy.cpp:304
 #, fuzzy
@@ -77,6 +411,33 @@ msgctxt "(qtundo-format)"
 msgid "Resize"
 msgstr "आकार बदलू"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: defaulttool/DefaultToolWidget.ui:29
+#, kde-format
+msgid "X:"
+msgstr "X:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: defaulttool/DefaultToolWidget.ui:91
+#, kde-format
+msgid "Y:"
+msgstr "Y:"
+
+#: defaulttool/ShapeMoveStrategy.cpp:57
+#, kde-format
+msgid "Press ALT to hold x- or y-position."
+msgstr ""
+
+#: defaulttool/ShapeResizeStrategy.cpp:102
+#, kde-format
+msgid "Press CTRL to resize from center."
+msgstr ""
+
+#: defaulttool/ShapeRotateStrategy.cpp:60
+#, kde-format
+msgid "Press ALT to rotate in 45 degree steps."
+msgstr ""
+
 #: defaulttool/ShapeShearStrategy.cpp:181
 #, fuzzy
 #| msgid "Shear"
@@ -84,113 +445,104 @@ msgctxt "(qtundo-format)"
 msgid "Shear"
 msgstr "कतरू"
 
-#, fuzzy
-#~| msgid "Align Left"
-#~ msgid "Alignment"
-#~ msgstr "बामाँ संरेखण"
+#: guidestool/GuidesTool.cpp:146
+#, kde-format
+msgid "Double click to add guide line."
+msgstr ""
 
-#~ msgid "%"
-#~ msgstr "%"
+#: guidestool/GuidesTool.cpp:149
+#, kde-format
+msgid "Click and drag to move guide line. Double click to remove guide line."
+msgstr ""
 
-#, fuzzy
-#~| msgid "Align Left"
-#~ msgid "Align to left edge"
-#~ msgstr "बामाँ संरेखण"
+#: guidestool/GuidesTool.cpp:387
+#, kde-format
+msgid "Guides Editor"
+msgstr ""
 
-#, fuzzy
-#~| msgid "Align Right"
-#~ msgid "Align to right edge"
-#~ msgstr "दहिन्ना संरेखण"
+#: guidestool/GuidesTool.cpp:395
+#, kde-format
+msgid "Guides Insertor"
+msgstr ""
 
-#, fuzzy
-#~| msgid "Align Bottom"
-#~ msgid "Align to top edge"
-#~ msgstr "तल संरेखण"
+#: guidestool/GuidesToolFactory.cpp:27
+#, kde-format
+msgid "Edit guidelines"
+msgstr ""
 
-#, fuzzy
-#~| msgid "Align Bottom"
-#~ msgid "Align to bottom edge"
-#~ msgstr "तल संरेखण"
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: guidestool/GuidesToolOptionWidget.cpp:31
+#: guidestool/InsertGuidesToolOptionWidget.ui:25
+#, kde-format
+msgid "Horizontal"
+msgstr "क्षैतिज"
 
-#~ msgid "&Raise"
-#~ msgstr "उठाबू (&R)"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: guidestool/GuidesToolOptionWidget.cpp:32
+#: guidestool/InsertGuidesToolOptionWidget.ui:65
+#, kde-format
+msgid "Vertical"
+msgstr "लम्बवत"
 
-#~ msgid "&Lower"
-#~ msgstr "निचला (&L)"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: guidestool/GuidesToolOptionWidget.ui:17
+#, kde-format
+msgid "Orientation:"
+msgstr "अभिमुखन:"
 
-#~ msgid "Align Left"
-#~ msgstr "बामाँ संरेखण"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: guidestool/GuidesToolOptionWidget.ui:27
+#, kde-format
+msgid "Position:"
+msgstr "स्थिति: "
 
-#~ msgid "Align Right"
-#~ msgstr "दहिन्ना संरेखण"
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: guidestool/GuidesToolOptionWidget.ui:37
+#, kde-format
+msgid "Add"
+msgstr "जोड़ू"
 
-#~ msgid "Align Top"
-#~ msgstr "उप्पर संरेखण"
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: guidestool/GuidesToolOptionWidget.ui:44
+#, kde-format
+msgid "Remove"
+msgstr "हटाबू"
 
-#~ msgid "Align Bottom"
-#~ msgstr "तल संरेखण"
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_horizontalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:38
+#, kde-format
+msgid "Insert this number of horizontal equally spaced guides."
+msgstr ""
 
-#~ msgid "Group"
-#~ msgstr "समूह"
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_horizontalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:51
+#, kde-format
+msgid "Insert guides at the horizontal edges."
+msgstr ""
 
-#~ msgid "Ungroup"
-#~ msgstr "विसमूह"
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_verticalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:78
+#, kde-format
+msgid "Insert this number of vertical equally spaced guides."
+msgstr ""
 
-#~ msgid "Arrange"
-#~ msgstr "क्रममे राखू"
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_verticalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:91
+#, kde-format
+msgid "Insert guides at the vertical edges."
+msgstr ""
 
-#~ msgid "Geometry"
-#~ msgstr "ज्यामिति"
+#. i18n: ectx: property (text), widget (QCheckBox, m_erasePreviousCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:105
+#, kde-format
+msgid "Erase previous guides"
+msgstr ""
 
-#~ msgid "Rotate"
-#~ msgstr "घुमाबू"
-
-#, fuzzy
-#~| msgid "Shear"
-#~ msgid "Shear X"
-#~ msgstr "कतरू"
-
-#, fuzzy
-#~| msgid "Shear"
-#~ msgid "Shear Y"
-#~ msgstr "कतरू"
-
-#, fuzzy
-#~| msgid "Scale"
-#~ msgid "Scale X"
-#~ msgstr "मापक"
-
-#, fuzzy
-#~| msgid "Scale"
-#~ msgid "Scale Y"
-#~ msgstr "मापक"
-
-#~ msgid "Keep aspect ratio"
-#~ msgstr "पहलू अनुपात बनाए राखू"
-
-#~ msgid "X:"
-#~ msgstr "X:"
-
-#~ msgid "Y:"
-#~ msgstr "Y:"
-
-#~ msgid "Horizontal"
-#~ msgstr "क्षैतिज"
-
-#~ msgid "Vertical"
-#~ msgstr "लम्बवत"
-
-#~ msgid "Orientation:"
-#~ msgstr "अभिमुखन:"
-
-#~ msgid "Position:"
-#~ msgstr "स्थिति: "
-
-#~ msgid "Add"
-#~ msgstr "जोड़ू"
-
-#~ msgid "Remove"
-#~ msgstr "हटाबू"
+#. i18n: ectx: property (text), widget (QPushButton, m_createButton)
+#: guidestool/InsertGuidesToolOptionWidget.ui:112
+#, kde-format
+msgid "Create"
+msgstr ""
 
 #, fuzzy
 #~| msgid "X:"
@@ -267,12 +619,6 @@ msgstr "कतरू"
 #, fuzzy
 #~| msgid "Align Right"
 #~ msgctxt "(qtundo-format)"
-#~ msgid "Align to horizontal center"
-#~ msgstr "दहिन्ना संरेखण"
-
-#, fuzzy
-#~| msgid "Align Right"
-#~ msgctxt "(qtundo-format)"
 #~ msgid "Align to right edge"
 #~ msgstr "दहिन्ना संरेखण"
 
@@ -281,12 +627,6 @@ msgstr "कतरू"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Align to top edge"
 #~ msgstr "तल संरेखण"
-
-#, fuzzy
-#~| msgid "Align Left"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Align to vertical center"
-#~ msgstr "बामाँ संरेखण"
 
 #, fuzzy
 #~| msgid "Align Bottom"
@@ -313,12 +653,6 @@ msgstr "कतरू"
 #~ msgstr "बामाँ संरेखण"
 
 #, fuzzy
-#~| msgid "Horizontal"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Horizontally Center"
-#~ msgstr "क्षैतिज"
-
-#, fuzzy
 #~| msgid "Align Right"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Align Right"
@@ -329,12 +663,6 @@ msgstr "कतरू"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Align Top"
 #~ msgstr "उप्पर संरेखण"
-
-#, fuzzy
-#~| msgid "Vertical"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Vertically Center"
-#~ msgstr "लम्बवत"
 
 #, fuzzy
 #~| msgid "Align Bottom"
