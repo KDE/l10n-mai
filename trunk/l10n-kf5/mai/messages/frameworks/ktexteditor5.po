@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-18 03:44+0200\n"
+"POT-Creation-Date: 2018-08-19 03:39+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2272,13 +2272,19 @@ msgstr ""
 "चयनित एनकोडिंग एहि दस्ताबेज केर सभटा यूनिकोड अक्षरकेँ एनकोड नहि कए सकैत अछि. की अहाँ "
 "सच्चे एकरा सहेजना चाहैत छी? एतय किछु डाटाक नुकसान भए सकैत अछि."
 
-#: document/katedocument.cpp:2412 document/katedocument.cpp:4346
-#, kde-format
+#: document/katedocument.cpp:2412
+#, fuzzy, kde-format
+#| msgid ""
+#| "The document could not be saved, as it was not possible to write to %1.\n"
+#| "\n"
+#| "Check that you have write access to this file or that enough disk space "
+#| "is available."
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
-"\n"
 "Check that you have write access to this file or that enough disk space is "
-"available."
+"available.\n"
+"The original file may be lost or damaged. Don't quit the application until "
+"the file is successfully written."
 msgstr ""
 "दस्ताबेज सहेजल नहि जाए सकल, किएक %1 पर लिखल नहि जाए सकल.\n"
 "\n"
@@ -2355,6 +2361,19 @@ msgstr "परिवर्तन केँ नजरअंदाज करू (&
 #| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "फाइल सहेजू"
+
+#: document/katedocument.cpp:4346
+#, kde-format
+msgid ""
+"The document could not be saved, as it was not possible to write to %1.\n"
+"\n"
+"Check that you have write access to this file or that enough disk space is "
+"available."
+msgstr ""
+"दस्ताबेज सहेजल नहि जाए सकल, किएक %1 पर लिखल नहि जाए सकल.\n"
+"\n"
+" जाँचू जे एहि फाइल पर अहाँक पास लिखबा क' अनुमति अछि आओर डिस्क मे पर्याप्त जगह मोजुद "
+"अछि."
 
 #: document/katedocument.cpp:4582
 #, kde-format
