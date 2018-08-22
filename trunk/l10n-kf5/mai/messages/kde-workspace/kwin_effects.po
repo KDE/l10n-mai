@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:15+0200\n"
+"POT-Creation-Date: 2018-08-22 03:58+0200\n"
 "PO-Revision-Date: 2010-09-24 21:46+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -592,36 +592,44 @@ msgstr ""
 msgid "Show buttons to alter count of virtual desktops"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimPanels)
+#. i18n: ectx: property (text), widget (QLabel, label_Strength)
 #: diminactive/diminactive_config.ui:17
-#, kde-format
-msgid "Apply effect to &panels"
-msgstr "प्रभाव केँ पैनलसभ मे लागू करू (&p)"
+#, fuzzy, kde-format
+#| msgid "&Strength:"
+msgid "Strength:"
+msgstr "सामर्थ्य (&S):"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimDesktop)
-#: diminactive/diminactive_config.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label_Dim)
+#: diminactive/diminactive_config.ui:40
 #, kde-format
-msgid "Apply effect to the desk&top"
+msgid "Dim:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimKeepAbove)
-#: diminactive/diminactive_config.ui:31
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimPanels)
+#: diminactive/diminactive_config.ui:47
+#, kde-format
+msgid "Docks and panels"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimDesktop)
+#: diminactive/diminactive_config.ui:54
 #, fuzzy, kde-format
-#| msgid "Apply effect to &panels"
-msgid "Apply effect to &keep-above windows"
-msgstr "प्रभाव केँ पैनलसभ मे लागू करू (&p)"
+#| msgid "Desktop Cube"
+msgid "Desktop"
+msgstr "डेस्कटाप"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimKeepAbove)
+#: diminactive/diminactive_config.ui:61
+#, fuzzy, kde-format
+#| msgid "Inactive windows:"
+msgid "Keep above windows"
+msgstr "असक्रिय विंडो:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimByGroup)
-#: diminactive/diminactive_config.ui:38
+#: diminactive/diminactive_config.ui:68
 #, kde-format
-msgid "Apply effect to &groups"
-msgstr "प्रभाव केँ समूहसभ मे लागू करू (&g)"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: diminactive/diminactive_config.ui:45
-#, kde-format
-msgid "&Strength:"
-msgstr "सामर्थ्य (&S):"
+msgid "By window group"
+msgstr ""
 
 #: effect_builtins.cpp:103
 #, kde-format
@@ -2200,6 +2208,17 @@ msgstr "अक्षम"
 #, kde-format
 msgid "Mouse Tracking:"
 msgstr ""
+
+#~ msgid "Apply effect to &panels"
+#~ msgstr "प्रभाव केँ पैनलसभ मे लागू करू (&p)"
+
+#, fuzzy
+#~| msgid "Apply effect to &panels"
+#~ msgid "Apply effect to &keep-above windows"
+#~ msgstr "प्रभाव केँ पैनलसभ मे लागू करू (&p)"
+
+#~ msgid "Apply effect to &groups"
+#~ msgstr "प्रभाव केँ समूहसभ मे लागू करू (&g)"
 
 #~ msgid "In"
 #~ msgstr "अन्दर"
