@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 08:58+0200\n"
+"POT-Creation-Date: 2018-08-30 03:40+0200\n"
 "PO-Revision-Date: 2010-01-29 15:21+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -50,8 +50,23 @@ msgstr "केडीई  मदति  केंद्र"
 #: application.cpp:96
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2003, The KHelpCenter developers"
-msgid "(c) 1999-2011, The KHelpCenter developers"
+msgid "(c) 1999-2018, The KHelpCenter developers"
 msgstr "(c) 1999 - 2003, के-हेल्प-सेंटर डेवलपर्स"
+
+#: application.cpp:98
+#, kde-format
+msgid "Current maintainer"
+msgstr ""
+
+#: application.cpp:99
+#, kde-format
+msgid "Xapian-based search, lot of bugfixes"
+msgstr ""
+
+#: application.cpp:100
+#, kde-format
+msgid "Former maintainer"
+msgstr ""
 
 #: application.cpp:102
 #, kde-format
@@ -390,27 +405,27 @@ msgstr "त्रुटि: दस्तावेज़ क़िस्म '%1' 
 msgid "No valid search handler found."
 msgstr "कोनो वैध सर्च हैंडलर नहि भेटल."
 
-#: searchhandler.cpp:52
+#: searchhandler.cpp:53
 #, kde-format
 msgid "Error executing search command '%1'."
 msgstr "खोज कमांड '%1' चलाबै मे त्रुटि."
 
-#: searchhandler.cpp:95
+#: searchhandler.cpp:96
 #, kde-format
 msgid "Error: %1"
 msgstr "त्रुटि: %1"
 
-#: searchhandler.cpp:164 searchhandler.cpp:169
+#: searchhandler.cpp:161 searchhandler.cpp:166
 #, kde-format
 msgid "'%1' not found, check your installation"
 msgstr ""
 
-#: searchhandler.cpp:174
+#: searchhandler.cpp:171
 #, kde-format
 msgid "'%1' not found, install the package containing it"
 msgstr ""
 
-#: searchhandler.cpp:225
+#: searchhandler.cpp:222
 #, kde-format
 msgid "No search command or URL specified."
 msgstr "कोनो सर्च कमांड अथवा यूआरएल निर्दिष्ट नहि अछि."
@@ -475,12 +490,12 @@ msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
 msgstr "अज्ञात"
 
-#: view.cpp:227
+#: view.cpp:220
 #, kde-format
 msgid "Copy Link Address"
 msgstr "लिंक पता नकल करू"
 
-#: view.cpp:311
+#: view.cpp:304
 #, kde-format
 msgid ""
 "<p>Read the topic documentation in this window.<br /><br />Press <b>Space</"
