@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:13+0200\n"
+"POT-Creation-Date: 2018-09-09 03:57+0200\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -823,55 +823,61 @@ msgstr ""
 msgid "Add as new calendar"
 msgstr ""
 
-#: akonadicollectionview.cpp:544
+#: akonadicollectionview.cpp:542
+#, kde-format
+msgctxt "info:tooltip"
+msgid "Set search keyword"
+msgstr ""
+
+#: akonadicollectionview.cpp:545
 #, kde-format
 msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
 msgid "Search"
 msgstr "खोजू"
 
-#: akonadicollectionview.cpp:642
+#: akonadicollectionview.cpp:643
 #, fuzzy, kde-format
 #| msgid "Start searching"
 msgid "searching..."
 msgstr "खोजनाइ शुरू कए रहल अछि"
 
-#: akonadicollectionview.cpp:708 manageshowcollectionproperties.cpp:99
+#: akonadicollectionview.cpp:709 manageshowcollectionproperties.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Calendar Folder %1"
 msgstr ""
 
-#: akonadicollectionview.cpp:721
+#: akonadicollectionview.cpp:722
 #, kde-format
 msgid "&Disable Color"
 msgstr ""
 
-#: akonadicollectionview.cpp:728
+#: akonadicollectionview.cpp:729
 #, kde-format
 msgid "&Assign Color..."
 msgstr ""
 
-#: akonadicollectionview.cpp:734
+#: akonadicollectionview.cpp:735
 #, kde-format
 msgid "Use as &Default Calendar"
 msgstr ""
 
-#: akonadicollectionview.cpp:741
+#: akonadicollectionview.cpp:742
 #, kde-format
 msgid "Serverside Subscription..."
 msgstr ""
 
-#: akonadicollectionview.cpp:910
+#: akonadicollectionview.cpp:911
 #, kde-format
 msgid "Add Calendar"
 msgstr ""
 
-#: akonadicollectionview.cpp:956
+#: akonadicollectionview.cpp:957
 #, kde-format
 msgid "Do you really want to delete calendar %1?"
 msgstr ""
 
-#: akonadicollectionview.cpp:957
+#: akonadicollectionview.cpp:958
 #, kde-format
 msgid "Delete Calendar"
 msgstr ""
@@ -1504,7 +1510,7 @@ msgstr ""
 #: dialog/noteeditdialog.cpp:58
 #, fuzzy, kde-format
 #| msgid "&Cancel"
-msgctxt "@action:discard creating note"
+msgctxt "@action:button"
 msgid "Cancel"
 msgstr "रद्द करू (&C)"
 
@@ -1512,7 +1518,7 @@ msgstr "रद्द करू (&C)"
 #, fuzzy, kde-format
 #| msgctxt "@title:tab"
 #| msgid "Save"
-msgctxt "@action:save note"
+msgctxt "@action:button"
 msgid "Save"
 msgstr "सहेजू"
 
@@ -4392,7 +4398,9 @@ msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (KListWidgetSearchLine, searchline)
 #: ui/filteredit_base.ui:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Search"
+msgctxt "Displayed grayed-out inside the textbox, verb to search"
 msgid "Search"
 msgstr "खोजू"
 
@@ -5188,7 +5196,9 @@ msgstr "स्तम्भसभ क' सँख्या"
 
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: views/multiagendaview/multiagendaviewconfigwidget.ui:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Title"
+msgctxt "Agenda title"
 msgid "Title"
 msgstr "शीर्षक"
 
