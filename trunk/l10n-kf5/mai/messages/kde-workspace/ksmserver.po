@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-02 03:58+0200\n"
+"POT-Creation-Date: 2018-10-02 03:59+0200\n"
 "PO-Revision-Date: 2010-01-29 16:04+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -164,15 +164,27 @@ msgstr ""
 msgid "Reboot Without Confirmation"
 msgstr ""
 
-#: shutdown.cpp:484
+#. i18nd is used as this patch was backported to an LTS with stable translations
+#: shutdown.cpp:229
+#, kde-format
+msgid "Shut Down"
+msgstr ""
+
+#: shutdown.cpp:232
+#, kde-format
+msgid "Reboot"
+msgstr ""
+
+#: shutdown.cpp:237
+#, fuzzy, kde-format
+#| msgid "&Logout"
+msgid "Logout"
+msgstr "लागआउट (&L)"
+
+#: shutdown.cpp:511
 #, kde-format
 msgid "Logout canceled by '%1'"
 msgstr "लागआउट '%1' द्वारा रद्द कएल गेल"
-
-#, fuzzy
-#~| msgid "&Logout"
-#~ msgid "Logout"
-#~ msgstr "लागआउट (&L)"
 
 #, fuzzy
 #~| msgid "&Turn Off Computer"
