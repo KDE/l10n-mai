@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kopier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 11:47+0100\n"
+"POT-Creation-Date: 2018-10-17 01:54+0200\n"
 "PO-Revision-Date: 2010-09-24 13:09+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -28,9 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, Main)
-#. i18n: ectx: property (windowTitle), widget (QWidget, Input)
-#: about.cpp:24 input.ui:14 main.ui:14
+#: about.cpp:24
 #, kde-format
 msgid "Kopier"
 msgstr ""
@@ -69,20 +67,6 @@ msgstr "आकार:"
 #, kde-format
 msgid "Position:"
 msgstr "स्थिति: "
-
-#. i18n: ectx: property (text), widget (QLabel, labelBlurAmount)
-#. i18n: ectx: property (text), widget (QLabel, labelScaleAmount)
-#. i18n: ectx: property (text), widget (QLabel, text)
-#: input.ui:23 kopiersettingspage.ui:151 kopiersettingspage.ui:198
-#, kde-format
-msgid "TextLabel"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, separator)
-#: input.ui:45
-#, kde-format
-msgid "x"
-msgstr "x"
 
 #: kopier.cpp:67
 #, kde-format
@@ -209,14 +193,12 @@ msgstr ""
 msgid "Project not saved/printed, really close?"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_DisplayUnit)
-#: kopier.cpp:692 kopiersettingspage.ui:48
+#: kopier.cpp:692
 #, kde-format
 msgid "mm"
 msgstr "मिमी"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_DisplayUnit)
-#: kopier.cpp:694 kopiersettingspage.ui:53
+#: kopier.cpp:694
 #, kde-format
 msgid "cm"
 msgstr "सेमी"
@@ -226,178 +208,40 @@ msgstr "सेमी"
 msgid "in"
 msgstr "in"
 
-#. i18n: ectx: label, entry (ShowScanDialogOnStart), group (General)
-#: kopier.kcfg:9
-#, kde-format
-msgid "Show scan dialog on program start."
-msgstr ""
-
-#. i18n: ectx: label, entry (DisplayUnit), group (General)
-#: kopier.kcfg:13
-#, kde-format
-msgid "Display unit."
-msgstr ""
-
-#. i18n: ectx: label, entry (Normalize), group (General)
-#: kopier.kcfg:17
-#, kde-format
-msgid "Normalize image."
-msgstr ""
-
-#. i18n: ectx: label, entry (Equalize), group (General)
-#: kopier.kcfg:21
-#, kde-format
-msgid "Equalize image."
-msgstr ""
-
-#. i18n: ectx: label, entry (Despeckle), group (General)
-#: kopier.kcfg:25
-#, kde-format
-msgid "Despeckle image."
-msgstr ""
-
-#. i18n: ectx: label, entry (Scale), group (General)
-#: kopier.kcfg:29
-#, kde-format
-msgid "Scale image."
-msgstr ""
-
-#. i18n: ectx: label, entry (ScaleAmount), group (General)
-#: kopier.kcfg:33
-#, kde-format
-msgid "Scale amount."
-msgstr ""
-
-#. i18n: ectx: label, entry (Blur), group (General)
-#: kopier.kcfg:37
-#, kde-format
-msgid "Blur image."
-msgstr ""
-
-#. i18n: ectx: label, entry (BlurAmount), group (General)
-#: kopier.kcfg:41
-#, kde-format
-msgid "Blur amount."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelGeneral)
-#: kopiersettingspage.ui:23
-#, fuzzy, kde-format
-#| msgid "Center"
-msgid "General"
-msgstr "केंद्र"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kopiersettingspage.ui:37
-#, kde-format
-msgid "Display &unit:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_DisplayUnit)
-#: kopiersettingspage.ui:58
-#, kde-format
-msgid "inches"
-msgstr "इंच"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowScanDialogOnStart)
-#: kopiersettingspage.ui:81
-#, kde-format
-msgid "Show scan &dialog on start"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelAfterScan)
-#: kopiersettingspage.ui:96
-#, kde-format
-msgid "After scan"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Despeckle)
-#: kopiersettingspage.ui:108
-#, kde-format
-msgid "Despeckle image"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Equalize)
-#: kopiersettingspage.ui:115
-#, kde-format
-msgid "Equalize image"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Normalize)
-#: kopiersettingspage.ui:122
-#, kde-format
-msgid "Normalize image"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Blur)
-#: kopiersettingspage.ui:131
-#, kde-format
-msgid "Blur image"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Scale)
-#: kopiersettingspage.ui:178
-#, kde-format
-msgid "Scale Image"
-msgstr ""
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: kopierui.rc:4
-#, kde-format
-msgid "Main Toolbar"
-msgstr "मुख्य अओजार पट्टी"
-
 #: main.cpp:36
 #, kde-format
 msgid "Sane scanner device name."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, ImagesLabel)
-#: main.ui:39
-#, kde-format
-msgid "Images"
-msgstr "बिंब"
+#~ msgid "x"
+#~ msgstr "x"
 
-#. i18n: ectx: property (text), widget (KPushButton, addButton)
-#: main.ui:112
-#, kde-format
-msgid "&Add"
-msgstr "जोड़ू (&A)"
+#, fuzzy
+#~| msgid "Center"
+#~ msgid "General"
+#~ msgstr "केंद्र"
 
-#. i18n: ectx: property (text), widget (QLabel, docLabel)
-#: main.ui:141
-#, fuzzy, kde-format
-#| msgid "Page options"
-msgid "Document options"
-msgstr "पृष्ठक विकल्प"
+#~ msgid "inches"
+#~ msgstr "इंच"
 
-#. i18n: ectx: property (text), widget (QLabel, paperLabel)
-#: main.ui:164
-#, kde-format
-msgid "Paper si&ze:"
-msgstr ""
+#~ msgid "Main Toolbar"
+#~ msgstr "मुख्य अओजार पट्टी"
 
-#. i18n: ectx: property (text), widget (QLabel, orientationLabel)
-#: main.ui:200
-#, kde-format
-msgid "&Orientation:"
-msgstr ""
+#~ msgid "Images"
+#~ msgstr "बिंब"
 
-#. i18n: ectx: property (text), widget (QLabel, pageLabel)
-#: main.ui:232
-#, kde-format
-msgid "Page options"
-msgstr "पृष्ठक विकल्प"
+#~ msgid "&Add"
+#~ msgstr "जोड़ू (&A)"
 
-#. i18n: ectx: property (text), widget (QLabel, scaleLabel)
-#: main.ui:255
-#, kde-format
-msgid "Sca&le:"
-msgstr ""
+#, fuzzy
+#~| msgid "Page options"
+#~ msgid "Document options"
+#~ msgstr "पृष्ठक विकल्प"
 
-#. i18n: ectx: property (text), widget (QLabel, positionLabel)
-#: main.ui:291
-#, fuzzy, kde-format
-#| msgid "Position:"
-msgid "P&osition:"
-msgstr "स्थिति: "
+#~ msgid "Page options"
+#~ msgstr "पृष्ठक विकल्प"
+
+#, fuzzy
+#~| msgid "Position:"
+#~ msgid "P&osition:"
+#~ msgstr "स्थिति: "
