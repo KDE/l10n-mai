@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanlite\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-17 01:54+0200\n"
+"POT-Creation-Date: 2018-10-18 01:51+0200\n"
 "PO-Revision-Date: 2010-09-24 13:10+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -128,6 +128,181 @@ msgstr "सटीक जूम"
 msgid "Sane scanner device name."
 msgstr ""
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, SkanliteSettings)
+#: settings.ui:14
+#, kde-format
+msgid "Settings"
+msgstr "जमावट"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings.ui:20
+#, kde-format
+msgid "Image saving"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings.ui:26
+#, kde-format
+msgid "Save mode:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SaveMode)
+#: settings.ui:37
+#, kde-format
+msgid "Open the save dialog for every image"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SaveMode)
+#: settings.ui:42
+#, kde-format
+msgid "Open the save dialog for the first image only"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SaveMode)
+#: settings.ui:47
+#, kde-format
+msgid "Save without asking for a filename"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: settings.ui:55
+#, kde-format
+msgid "Preview before saving:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings.ui:69
+#, kde-format
+msgid "Save Location:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, getDirButton)
+#: settings.ui:88
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings.ui:95
+#, kde-format
+msgid "Name & Format:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_NamePrefix)
+#: settings.ui:107
+#, kde-format
+msgid "Image"
+msgstr "चित्र"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settings.ui:114
+#, kde-format
+msgid "###."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:122
+#, kde-format
+msgid "PNG"
+msgstr "PNG"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:127
+#, fuzzy, kde-format
+#| msgid "JPEG"
+msgid "JPG"
+msgstr "JPEG"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:132
+#, kde-format
+msgid "JPEG"
+msgstr "JPEG"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:137
+#, kde-format
+msgid "BMP"
+msgstr "BMP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:142
+#, kde-format
+msgid "PPM"
+msgstr "पीपीएम"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:147
+#, kde-format
+msgid "XBM"
+msgstr "XBM"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ImgFormat)
+#: settings.ui:152
+#, kde-format
+msgid "XPM"
+msgstr "XPM"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings.ui:162
+#, kde-format
+msgid "Specify save quality:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ImgQuality)
+#: settings.ui:218
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settings.ui:239
+#, kde-format
+msgid "General"
+msgstr "सामान्य"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PreviewDPI)
+#: settings.ui:252
+#, kde-format
+msgid "50"
+msgstr "50"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PreviewDPI)
+#: settings.ui:257
+#, kde-format
+msgid "75"
+msgstr "75"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PreviewDPI)
+#: settings.ui:262
+#, kde-format
+msgid "100"
+msgstr "100"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PreviewDPI)
+#: settings.ui:267
+#, kde-format
+msgid "150"
+msgstr "150"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_PreviewDPI)
+#: settings.ui:272
+#, kde-format
+msgid "300"
+msgstr "300"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#: settings.ui:285
+#, kde-format
+msgid "Use this option to specify the resolution for the preview scans."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: settings.ui:288
+#, kde-format
+msgid "Set preview resolution (DPI):"
+msgstr ""
+
 #: skanlite.cpp:69
 #, kde-format
 msgid "Could not find scanner."
@@ -157,56 +332,3 @@ msgstr "एकरासँ उप्पर लिखू"
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
-
-#~ msgid "Settings"
-#~ msgstr "जमावट"
-
-#~ msgid "..."
-#~ msgstr "..."
-
-#~ msgid "Image"
-#~ msgstr "चित्र"
-
-#~ msgid "PNG"
-#~ msgstr "PNG"
-
-#, fuzzy
-#~| msgid "JPEG"
-#~ msgid "JPG"
-#~ msgstr "JPEG"
-
-#~ msgid "JPEG"
-#~ msgstr "JPEG"
-
-#~ msgid "BMP"
-#~ msgstr "BMP"
-
-#~ msgid "PPM"
-#~ msgstr "पीपीएम"
-
-#~ msgid "XBM"
-#~ msgstr "XBM"
-
-#~ msgid "XPM"
-#~ msgstr "XPM"
-
-#~ msgid "%"
-#~ msgstr "%"
-
-#~ msgid "General"
-#~ msgstr "सामान्य"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "75"
-#~ msgstr "75"
-
-#~ msgid "100"
-#~ msgstr "100"
-
-#~ msgid "150"
-#~ msgstr "150"
-
-#~ msgid "300"
-#~ msgstr "300"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_emailnotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-17 01:53+0200\n"
+"POT-Creation-Date: 2018-10-18 01:50+0200\n"
 "PO-Revision-Date: 2010-09-24 13:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -159,6 +159,38 @@ msgctxt "tooltip: no new emails"
 msgid "No New Messages"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, selectcollectionslabel)
+#: emailnotifierConfig.ui:29
+#, fuzzy, kde-format
+#| msgid "<b>Display</b>"
+msgid "<b>Folders</b>"
+msgstr "<b>देखाबू</b>"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, collectionsTreeView)
+#: emailnotifierConfig.ui:52
+#, kde-format
+msgid "Mark the folders you want to monitor for new and important emails"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, selectcollectionslabel_3)
+#: emailnotifierConfig.ui:62
+#, fuzzy, kde-format
+#| msgid "<b>Display</b>"
+msgid "<b>Messages</b>"
+msgstr "<b>देखाबू</b>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showImportant)
+#: emailnotifierConfig.ui:72
+#, kde-format
+msgid "Also show messages marked as Important"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showImportantSeparately)
+#: emailnotifierConfig.ui:82
+#, kde-format
+msgid "Show Important messages in a separate list"
+msgstr ""
+
 #: emailwidget.cpp:181
 #, kde-format
 msgctxt "tooltip on expandbutton"
@@ -261,8 +293,3 @@ msgstr ""
 msgctxt "context menu"
 msgid "Mark as Spam"
 msgstr ""
-
-#, fuzzy
-#~| msgid "<b>Display</b>"
-#~ msgid "<b>Messages</b>"
-#~ msgstr "<b>देखाबू</b>"
