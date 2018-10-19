@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-10 03:59+0200\n"
+"POT-Creation-Date: 2018-10-19 03:42+0200\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -52,23 +52,23 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "आइओ-स्लेव तैआर करब मे अक्षम: %1"
 
-#: core/copyjob.cpp:1167 core/job_error.cpp:517
+#: core/copyjob.cpp:1169 core/job_error.cpp:517
 #, kde-format
 msgid "Folder Already Exists"
 msgstr "फोल्डर पहिने सँ अस्तित्व मे अछि"
 
-#: core/copyjob.cpp:1439 core/copyjob.cpp:2013 core/filecopyjob.cpp:369
+#: core/copyjob.cpp:1441 core/copyjob.cpp:2015 core/filecopyjob.cpp:369
 #: core/job_error.cpp:507 widgets/paste.cpp:90
 #, kde-format
 msgid "File Already Exists"
 msgstr "फाइल पहिने सँ अस्तित्व मे अछि. "
 
-#: core/copyjob.cpp:1439 core/copyjob.cpp:2013
+#: core/copyjob.cpp:1441 core/copyjob.cpp:2015
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "पहिने सँ फोल्डर केर रूपेँ अछि"
 
-#: core/copyjob.cpp:1565
+#: core/copyjob.cpp:1567
 #, fuzzy, kde-format
 #| msgid "Trash"
 msgid "Trash"
@@ -704,11 +704,15 @@ msgid "Unable to create io-slave. %1"
 msgstr "आइओ-स्लेव तैआर करब मे अक्षम: %1"
 
 #: core/job_error.cpp:249
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Unknown error code %1\n"
+#| "%2\n"
+#| "Please send a full bug report at http://bugs.kde.org."
 msgid ""
 "Unknown error code %1\n"
 "%2\n"
-"Please send a full bug report at http://bugs.kde.org."
+"Please send a full bug report at https://bugs.kde.org."
 msgstr ""
 "अनचिन्ह त्रुटि कोड %1\n"
 "%2\n"
@@ -2100,18 +2104,18 @@ msgstr "आपरेशन पूरा नहि कएल जाए सकल 
 msgid "Try restarting your session, or look in the logs for errors from kiod."
 msgstr ""
 
-#: core/job_error.cpp:1061
+#: core/job_error.cpp:1062
 #, kde-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "प्रोटोकाल %1  प्रारंभ नहि कए सकल"
 
-#: core/job_error.cpp:1062
+#: core/job_error.cpp:1063
 #, fuzzy, kde-format
 #| msgid "Unable to create io-slave: %1"
 msgid "Unable to Create io-slave"
 msgstr "आइओ-स्लेव तैआर करब मे अक्षम: %1"
 
-#: core/job_error.cpp:1063
+#: core/job_error.cpp:1064
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program on your computer which provides access to the <strong>%1</"
@@ -2123,14 +2127,14 @@ msgstr ""
 "अहाँक कम्प्यूटर पर <strong>%1</strong> प्रोटोकाल पर पहुँच स्थापित करब वाले प्रोग्राम मे "
 "जारी रखबाक लायक वांछित मेमोरी प्राप्त नहि भए सकल."
 
-#: core/job_error.cpp:1066
+#: core/job_error.cpp:1067
 #, kde-format
 msgid ""
 "klauncher could not find or start the plugin which provides the protocol."
 "This means you may have an outdated version of the plugin."
 msgstr ""
 
-#: core/job_error.cpp:1073
+#: core/job_error.cpp:1074
 #, kde-format
 msgid "Undocumented Error"
 msgstr "बिनु दस्ताबेज कएल त्रुटि"
@@ -8223,6 +8227,13 @@ msgstr "यूआरएल (&R)"
 msgid "URL:"
 msgstr "URL:"
 
+#: widgets/kpropertiesdialog.cpp:3117 widgets/kpropertiesdialog.cpp:3691
+#, fuzzy, kde-format
+#| msgid "Only executables on local file systems are supported."
+msgid ""
+"Could not save properties. Only entries on local file systems are supported."
+msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
+
 #: widgets/kpropertiesdialog.cpp:3183
 #, kde-format
 msgid "De&vice"
@@ -8272,13 +8283,6 @@ msgstr " %1 क' लेल फाइल प्रकार चुनू"
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "एकटा अथवा बेसी फाइल प्रकार जोड़बा क' लेल चुनू:"
-
-#: widgets/kpropertiesdialog.cpp:3691
-#, fuzzy, kde-format
-#| msgid "Only executables on local file systems are supported."
-msgid ""
-"Could not save properties. Only entries on local file systems are supported."
-msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
 
 #: widgets/kpropertiesdialog.cpp:3770
 #, kde-format
