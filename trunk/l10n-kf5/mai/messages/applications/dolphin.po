@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-05 03:32+0100\n"
+"POT-Creation-Date: 2018-11-09 03:46+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -3388,13 +3388,48 @@ msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "मेटाबैक क्रिया सम्पन्न भेल"
 
-#: views/dolphinview.cpp:1611
+#: views/dolphinview.cpp:1582
+#, fuzzy, kde-format
+#| msgid "Rename inline"
+msgctxt "@action:button"
+msgid "Rename and Hide"
+msgstr "इनलाइन नाम बदलू"
+
+#: views/dolphinview.cpp:1585
+#, kde-format
+msgid ""
+"Adding a dot to the beginning of this file's name will hide it from view.\n"
+"Do you still want to rename it?"
+msgstr ""
+
+#: views/dolphinview.cpp:1587
+#, kde-format
+msgid ""
+"Adding a dot to the beginning of this folder's name will hide it from view.\n"
+"Do you still want to rename it?"
+msgstr ""
+
+#: views/dolphinview.cpp:1589
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu View"
+#| msgid "Show Hidden Files"
+msgid "Hide this File?"
+msgstr "नुकाएल फाइलसभ देखाबू"
+
+#: views/dolphinview.cpp:1589
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Home Folder"
+msgid "Hide this Folder?"
+msgstr "घर फोल्डर"
+
+#: views/dolphinview.cpp:1634
 #, kde-format
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "स्थान रिक्त अछि"
 
-#: views/dolphinview.cpp:1613
+#: views/dolphinview.cpp:1636
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
@@ -3609,10 +3644,6 @@ msgstr "बाइली सूचना"
 #~ msgctxt "@option:check"
 #~ msgid "Use these view properties as default"
 #~ msgstr "सभटा फोल्डरसभ क' लेल सामान्य दृश्य गुणसभ क' इस्तेमाल करू"
-
-#~ msgctxt "@title:group"
-#~ msgid "Home Folder"
-#~ msgstr "घर फोल्डर"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Location:"
