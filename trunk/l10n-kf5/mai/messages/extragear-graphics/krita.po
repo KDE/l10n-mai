@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-02 03:45+0100\n"
+"POT-Creation-Date: 2018-11-12 03:48+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19865,7 +19865,7 @@ msgstr "रँग स्पेस"
 msgid "%1:"
 msgstr "%1%"
 
-#: libs/widgets/kis_color_input.cpp:342
+#: libs/widgets/kis_color_input.cpp:360
 #: libs/widgets/KoEditColorSetDialog.cpp:174
 #, fuzzy, kde-format
 msgid "Color name:"
@@ -24512,21 +24512,30 @@ msgstr "पैलेट संपादित करू"
 msgid "Small Color Selector"
 msgstr "चयन बढाउ"
 
-#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:62
-#, fuzzy, kde-format
-msgid "Show Colorspace Selector"
-msgstr "चयन बढाउ"
-
-#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:65
-#, fuzzy, kde-format
-#| msgid "Percentile:"
-msgid "Use Percentage"
-msgstr "प्रतिशतता:"
-
 #: plugins/dockers/specificcolorselector/specificcolorselector_dock.cc:33
 #, fuzzy, kde-format
 msgid "Specific Color Selector"
 msgstr "चयन बढाउ"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, wdgSpecificColorSelectorWidget)
+#: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:14
+#, fuzzy, kde-format
+msgid "Form"
+msgstr "फार्म"
+
+#. i18n: ectx: property (text), widget (KisPopupButton, colorspacePopupButton)
+#: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:43
+#, fuzzy, kde-format
+#| msgid "Colorspace"
+msgid "Set color space"
+msgstr "रँग स्पेस"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, chkUsePercentage)
+#: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:68
+#, fuzzy, kde-format
+#| msgid "Percentile:"
+msgid "Use percentage"
+msgstr "प्रतिशतता:"
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:169
 #, fuzzy, kde-format
@@ -41105,6 +41114,10 @@ msgid "Work Recursively"
 msgstr ""
 
 #, fuzzy
+#~ msgid "Show Colorspace Selector"
+#~ msgstr "चयन बढाउ"
+
+#, fuzzy
 #~| msgid "Modified:"
 #~ msgid "Modified"
 #~ msgstr "परिवर्धितः"
@@ -41112,10 +41125,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Show Scrollbar"
 #~ msgstr "अओजार"
-
-#, fuzzy
-#~ msgid "Form"
-#~ msgstr "फार्म"
 
 #, fuzzy
 #~| msgid "Name"
@@ -59091,11 +59100,6 @@ msgstr ""
 #~| msgid "Shrink Selection"
 #~ msgid "hide shade selector"
 #~ msgstr "चयन घोकचाबू"
-
-#, fuzzy
-#~| msgid "Colorspace"
-#~ msgid "use custom color space"
-#~ msgstr "रँग स्पेस"
 
 #, fuzzy
 #~| msgid "Saturation:"
