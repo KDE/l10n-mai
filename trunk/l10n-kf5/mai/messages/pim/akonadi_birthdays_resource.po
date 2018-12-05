@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_birthdays_resource\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:12+0200\n"
+"POT-Creation-Date: 2018-12-05 03:27+0100\n"
 "PO-Revision-Date: 2010-09-24 16:25+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -19,39 +19,7 @@ msgstr ""
 "\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: birthdaysresource.cpp:55
-#, kde-format
-msgid "Birthdays & Anniversaries"
-msgstr ""
-
-#: birthdaysresource.cpp:251
-#, kde-format
-msgid "%1's birthday"
-msgstr ""
-
-#: birthdaysresource.cpp:262
-#, kde-format
-msgid "Birthday"
-msgstr "जन्मदिन"
-
-#: birthdaysresource.cpp:306
-#, kde-format
-msgctxt "insert names of both spouses"
-msgid "%1's & %2's anniversary"
-msgstr ""
-
-#: birthdaysresource.cpp:309
-#, kde-format
-msgctxt "only one spouse in addressbook, insert the name"
-msgid "%1's anniversary"
-msgstr ""
-
-#: birthdaysresource.cpp:321
-#, kde-format
-msgid "Anniversary"
-msgstr "वर्षगांठ"
-
-#: configdialog.cpp:50
+#: birthdaysconfigagentwidget.cpp:45
 #, kde-format
 msgid " day"
 msgid_plural " days"
@@ -59,34 +27,66 @@ msgstr[0] " दिन"
 msgstr[1] " दिन"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: configdialog.ui:29
+#: birthdaysconfigwidget.ui:29
 #, kde-format
 msgid "Reminder"
 msgstr "याद देलाबैबला"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableAlarm)
-#: configdialog.ui:38
+#: birthdaysconfigwidget.ui:38
 #, kde-format
 msgid "Set &reminder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: configdialog.ui:48
+#: birthdaysconfigwidget.ui:48
 #, kde-format
 msgid "&Remind prior to event:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: configdialog.ui:74
+#: birthdaysconfigwidget.ui:74
 #, kde-format
 msgid "Filter"
 msgstr "फिल्टर"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FilterOnCategories)
-#: configdialog.ui:80
+#: birthdaysconfigwidget.ui:80
 #, kde-format
 msgid "&Filter by categories"
 msgstr ""
+
+#: birthdaysresource.cpp:54
+#, kde-format
+msgid "Birthdays & Anniversaries"
+msgstr ""
+
+#: birthdaysresource.cpp:240
+#, kde-format
+msgid "%1's birthday"
+msgstr ""
+
+#: birthdaysresource.cpp:251
+#, kde-format
+msgid "Birthday"
+msgstr "जन्मदिन"
+
+#: birthdaysresource.cpp:295
+#, kde-format
+msgctxt "insert names of both spouses"
+msgid "%1's & %2's anniversary"
+msgstr ""
+
+#: birthdaysresource.cpp:298
+#, kde-format
+msgctxt "only one spouse in addressbook, insert the name"
+msgid "%1's anniversary"
+msgstr ""
+
+#: birthdaysresource.cpp:310
+#, kde-format
+msgid "Anniversary"
+msgstr "वर्षगांठ"
 
 #~ msgid "Categories"
 #~ msgstr "श्रेणिसभ"
