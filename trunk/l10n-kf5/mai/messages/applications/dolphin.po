@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-11 02:56+0100\n"
+"POT-Creation-Date: 2019-03-18 02:55+0100\n"
 "PO-Revision-Date: 2010-01-28 12:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Hindi <hindi.sf.net>\n"
@@ -1540,7 +1540,31 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
-#: panels/information/informationpanelcontent.cpp:226
+#: panels/information/informationpanel.cpp:174
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: panels/information/informationpanel.cpp:179
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "कान्फिगर..."
+
+#: panels/information/informationpanel.cpp:182
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Condensed Date"
+msgstr ""
+
+#: panels/information/informationpanel.cpp:206
+#, kde-format
+msgctxt "@label::textbox"
+msgid "Select which data should be shown in the information panel:"
+msgstr ""
+
+#: panels/information/informationpanelcontent.cpp:224
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "%1 item selected"
@@ -1550,30 +1574,6 @@ msgid "%1 item selected"
 msgid_plural "%1 items selected"
 msgstr[0] "%1 वस्तु चयनित"
 msgstr[1] "%1 वस्तुसभ चयनित"
-
-#: panels/information/informationpanelcontent.cpp:271
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Preview"
-msgstr "पूर्वावलोकन"
-
-#: panels/information/informationpanelcontent.cpp:276
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Configure..."
-msgstr "कान्फिगर..."
-
-#: panels/information/informationpanelcontent.cpp:279
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Condensed Date"
-msgstr ""
-
-#: panels/information/informationpanelcontent.cpp:303
-#, kde-format
-msgctxt "@label::textbox"
-msgid "Select which data should be shown in the information panel:"
-msgstr ""
 
 #: panels/information/phononwidget.cpp:126
 #, kde-format
@@ -2459,45 +2459,53 @@ msgstr "रद्दी"
 #: settings/general/behaviorsettingspage.cpp:51
 #, fuzzy, kde-format
 #| msgctxt "@option:radio"
-#| msgid "Remember view properties for each folder"
-msgctxt "@option:radio"
-msgid "Remember properties for each folder"
-msgstr "प्रत्येक फोल्डर क' लेल दृश्य गुणसभकेँ याद राखू"
-
-#: settings/general/behaviorsettingspage.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "@option:radio"
 #| msgid "Use common view properties for all folders"
 msgctxt "@option:radio"
 msgid "Use common properties for all folders"
 msgstr "सभटा फोल्डरसभ क' लेल सामान्य दृश्य गुणसभ क' इस्तेमाल करू"
 
-#: settings/general/behaviorsettingspage.cpp:57
+#: settings/general/behaviorsettingspage.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@option:radio"
+#| msgid "Remember view properties for each folder"
+msgctxt "@option:radio"
+msgid "Remember properties for each folder"
+msgstr "प्रत्येक फोल्डर क' लेल दृश्य गुणसभकेँ याद राखू"
+
+#: settings/general/behaviorsettingspage.cpp:53
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Dolphin will create an hidden .directory file in each folder you change view "
+"properties for."
+msgstr ""
+
+#: settings/general/behaviorsettingspage.cpp:58
 #, fuzzy, kde-format
 #| msgid "&View"
 msgctxt "@title:group"
 msgid "View: "
 msgstr "दृश्य (&V)"
 
-#: settings/general/behaviorsettingspage.cpp:65
+#: settings/general/behaviorsettingspage.cpp:66
 #, kde-format
 msgctxt "option:radio"
 msgid "Natural"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:66
+#: settings/general/behaviorsettingspage.cpp:67
 #, kde-format
 msgctxt "option:radio"
 msgid "Alphabetical, case insensitive"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:67
+#: settings/general/behaviorsettingspage.cpp:68
 #, kde-format
 msgctxt "option:radio"
 msgid "Alphabetical, case sensitive"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:73
+#: settings/general/behaviorsettingspage.cpp:74
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -2505,45 +2513,45 @@ msgctxt "@title:group"
 msgid "Sorting mode: "
 msgstr "छाँटल जाए रहल अछि:"
 
-#: settings/general/behaviorsettingspage.cpp:83
+#: settings/general/behaviorsettingspage.cpp:84
 #, kde-format
 msgctxt "@option:check"
 msgid "Show tooltips"
 msgstr "टूलटिप देखाबू"
 
-#: settings/general/behaviorsettingspage.cpp:84
-#: settings/general/behaviorsettingspage.cpp:92
+#: settings/general/behaviorsettingspage.cpp:85
+#: settings/general/behaviorsettingspage.cpp:93
 #, kde-format
 msgctxt "@title:group"
 msgid "Miscellaneous: "
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:88
+#: settings/general/behaviorsettingspage.cpp:89
 #, kde-format
 msgctxt "@option:check"
 msgid "Show selection marker"
 msgstr "चयन मार्कर देखाबू"
 
-#: settings/general/behaviorsettingspage.cpp:96
+#: settings/general/behaviorsettingspage.cpp:97
 #, fuzzy, kde-format
 #| msgid "Rename inline"
 msgctxt "option:check"
 msgid "Rename inline"
 msgstr "इनलाइन नाम बदलू"
 
-#: settings/general/behaviorsettingspage.cpp:100
+#: settings/general/behaviorsettingspage.cpp:101
 #, kde-format
 msgctxt "option:check"
 msgid "Switch between split views panes with tab key"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:104
+#: settings/general/behaviorsettingspage.cpp:105
 #, kde-format
 msgctxt "option:check"
 msgid "Turning off split view closes active pane"
 msgstr ""
 
-#: settings/general/behaviorsettingspage.cpp:106
+#: settings/general/behaviorsettingspage.cpp:107
 #, kde-format
 msgid "When deactivated, turning off split view will close the inactive pane"
 msgstr ""
