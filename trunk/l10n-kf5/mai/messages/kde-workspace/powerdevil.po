@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-03-04 03:42+0100\n"
+"POT-Creation-Date: 2019-03-19 03:42+0100\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -313,14 +313,14 @@ msgstr "अनुरक्षक"
 #: powerdevilcore.cpp:91
 #, kde-format
 msgid ""
-"No valid Power Management backend plugins are available. A new installation "
+"No valid Power Management backend plugins available. A new installation "
 "might solve this problem."
 msgstr ""
 
 #: powerdevilcore.cpp:329
 #, kde-format
 msgid ""
-"The profile \"%1\" has been selected, but it does not exist.\n"
+"Profile \"%1\" has been selected but does not exist.\n"
 "Please check your PowerDevil configuration."
 msgstr ""
 
@@ -331,7 +331,7 @@ msgstr ""
 
 #: powerdevilcore.cpp:392
 #, kde-format
-msgid "This activity's policies prevent the system from suspending"
+msgid "This activity's policies prevent the system from going to sleep"
 msgstr ""
 
 #: powerdevilcore.cpp:404
@@ -356,9 +356,10 @@ msgstr "बैटरीक गंभीर स्तर"
 
 #: powerdevilcore.cpp:465 powerdevilcore.cpp:641
 #, fuzzy, kde-format
-#| msgid "The power adaptor has been plugged in"
-msgid "All pending suspend actions have been canceled."
-msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
+#| msgid "The computer will be halted in 1 second."
+#| msgid_plural "The computer will be halted in %1 seconds."
+msgid "The computer will no longer go to sleep."
+msgstr "कम्प्यूटर 1 सेकण्डमे हाल्ट भए जएताह. "
 
 #: powerdevilcore.cpp:530
 #, kde-format
@@ -371,12 +372,12 @@ msgstr ""
 msgid "Mouse Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:541
+#: powerdevilcore.cpp:541 powerdevilcore.cpp:548 powerdevilcore.cpp:555
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
-"The battery in your mouse (\"%1\") is low, and the device may turn itself "
-"off at any time. Please replace or charge the battery as soon as possible."
+"The battery in (\"%1\") is running low, and the device may turn off at any "
+"time. Please recharge or replace the battery."
 msgstr ""
 
 #: powerdevilcore.cpp:546
@@ -384,27 +385,10 @@ msgstr ""
 msgid "Keyboard Battery Low (%1% Remaining)"
 msgstr ""
 
-#: powerdevilcore.cpp:548
-#, kde-format
-msgctxt "Placeholder is device name"
-msgid ""
-"The battery in your keyboard (\"%1\") is low, and the device may turn itself "
-"off at any time. Please replace or charge the battery as soon as possible."
-msgstr ""
-
 #: powerdevilcore.cpp:553
 #, kde-format
 msgctxt "The battery in an external device"
 msgid "Device Battery Low (%1% Remaining)"
-msgstr ""
-
-#: powerdevilcore.cpp:555
-#, kde-format
-msgctxt "Placeholder is device name"
-msgid ""
-"The battery in a connected device (\"%1\") is low, and the device may turn "
-"itself off at any time. Please replace or charge the battery as soon as "
-"possible."
 msgstr ""
 
 #: powerdevilcore.cpp:579
@@ -415,8 +399,8 @@ msgstr ""
 #: powerdevilcore.cpp:580
 #, kde-format
 msgid ""
-"Your battery is low. If you need to continue using your computer, either "
-"plug in your computer, or shut it down and then change the battery."
+"Battery running low - to continue using your computer, plug it in or shut it "
+"down and change the battery."
 msgstr ""
 
 #: powerdevilcore.cpp:591
@@ -429,7 +413,8 @@ msgstr ""
 #| msgctxt "Interrupts the suspension/shutdown process"
 #| msgid "Cancel"
 msgctxt ""
-"Cancel timeout that will automatically suspend system because of low battery"
+"Cancel timeout that will automatically put system to sleep because of low "
+"battery"
 msgid "Cancel"
 msgstr "रद करू"
 
@@ -439,8 +424,7 @@ msgstr "रद करू"
 #| "Your battery level is critical, the computer will be halted in 1 second."
 #| msgid_plural ""
 #| "Your battery level is critical, the computer will be halted in %1 seconds."
-msgid ""
-"Your battery level is critical, the computer will be halted in 60 seconds."
+msgid "Battery level critical. Your computer will shut down in 60 seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
 #: powerdevilcore.cpp:607
@@ -450,26 +434,23 @@ msgstr "अहाँक बैटरीक स्तर गंभीर भए �
 #| msgid_plural ""
 #| "Your battery level is critical, the computer will be halted in %1 seconds."
 msgid ""
-"Your battery level is critical, the computer will be hibernated in 60 "
+"Battery level critical. Your computer will enter hibernation mode in 60 "
 "seconds."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
 #: powerdevilcore.cpp:612
 #, fuzzy, kde-format
 #| msgid ""
-#| "Your battery level is critical, the computer will be suspended to RAM in "
-#| "1 second."
+#| "Your battery level is critical, the computer will be halted in 1 second."
 #| msgid_plural ""
-#| "Your battery level is critical, the computer will be suspended to RAM in "
-#| "%1 seconds."
-msgid ""
-"Your battery level is critical, the computer will be suspended in 60 seconds."
-msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
+#| "Your battery level is critical, the computer will be halted in %1 seconds."
+msgid "Battery level critical. Your computer will go to sleep in 60 seconds."
+msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे हाल्ट भए जएताह. "
 
 #: powerdevilcore.cpp:617
 #, fuzzy, kde-format
 #| msgid "Your battery level is critical: save your work as soon as possible."
-msgid "Your battery level is critical, save your work as soon as possible."
+msgid "Battery level critical. Please save your work."
 msgstr "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. अपना कार्य जितनी जल्दी हो सके सहेज लें!"
 
 #: powerdevilcore.cpp:640
@@ -484,8 +465,9 @@ msgid "Running on AC power"
 msgstr ""
 
 #: powerdevilcore.cpp:643
-#, kde-format
-msgid "The power adaptor has been plugged in."
+#, fuzzy, kde-format
+#| msgid "The power adaptor has been plugged in."
+msgid "The power adapter has been plugged in."
 msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
 
 #: powerdevilcore.cpp:646
@@ -495,27 +477,45 @@ msgid "Running on Battery Power"
 msgstr "जखन बैटरी पावर पर अछि"
 
 #: powerdevilcore.cpp:646
-#, kde-format
-msgid "The power adaptor has been unplugged."
+#, fuzzy, kde-format
+#| msgid "The power adaptor has been unplugged."
+msgid "The power adapter has been unplugged."
 msgstr "पावर एडाप्टर केँ प्लग सँ निकालल गेल अछि"
 
 #: powerdevilcore.cpp:652
 #, kde-format
 msgid ""
-"KDE Power Management System could not be initialized. The backend reported "
-"the following error: %1\n"
+"The KDE Power Management System could not be initialized. The backend "
+"reported the following error: %1\n"
 "Please check your system configuration"
 msgstr ""
 
 #: powerdevilcore.cpp:713
 #, kde-format
-msgid "Charge Complete"
+msgid "Charging Complete"
 msgstr ""
 
 #: powerdevilcore.cpp:713
 #, kde-format
-msgid "Your battery is now fully charged."
+msgid "Battery now fully charged."
 msgstr ""
+
+#, fuzzy
+#~| msgid "The power adaptor has been plugged in"
+#~ msgid "All pending suspend actions have been canceled."
+#~ msgstr "पावर एडाप्टर केँ प्लग मे लगाएल गेल अछि"
+
+#, fuzzy
+#~| msgid ""
+#~| "Your battery level is critical, the computer will be suspended to RAM in "
+#~| "1 second."
+#~| msgid_plural ""
+#~| "Your battery level is critical, the computer will be suspended to RAM in "
+#~| "%1 seconds."
+#~ msgid ""
+#~ "Your battery level is critical, the computer will be suspended in 60 "
+#~ "seconds."
+#~ msgstr "अहाँक बैटरीक स्तर गंभीर भ' गेल अछि. पीसी 1 सेकण्ड मे रैम मे सस्पेंड भए जएताह. "
 
 #, fuzzy
 #~| msgid "Suspend to RAM"
@@ -615,11 +615,6 @@ msgstr ""
 #~ "%1 seconds."
 #~ msgstr[0] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी 1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
 #~ msgstr[1] "अहाँक बैटरीक स्तर गंभीर भए गेल अछि. पीसी %1 सेकण्ड मे स्टैण्डबाइ भए जएताह. "
-
-#~ msgid "The computer will be halted in 1 second."
-#~ msgid_plural "The computer will be halted in %1 seconds."
-#~ msgstr[0] "कम्प्यूटर 1 सेकण्डमे हाल्ट भए जएताह. "
-#~ msgstr[1] "कम्प्यूटर %1 सेकण्डमे हाल्ट भए जएताह. "
 
 #~ msgid "The computer will be suspended to disk in 1 second."
 #~ msgid_plural "The computer will be suspended to disk in %1 seconds."
