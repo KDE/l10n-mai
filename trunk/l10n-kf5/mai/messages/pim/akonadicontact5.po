@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadicontact\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-04-09 03:40+0200\n"
+"POT-Creation-Date: 2019-04-12 03:24+0200\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -77,24 +77,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DialPhoneNumberAction), group (Phone Dial Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:53
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:52
 #, kde-format
 msgid ""
-"Defines which application shall be used to dial the phone number of a "
-"contact. If 'Skype' is selected the Skype application will be started (if "
-"installed on the computer) and the number is dialed. If 'External "
-"Application' is selected, a command with placeholders can be defined."
+"Define how a phone number of a contact should be dialed. 'System Default' "
+"uses the default application configured for this on your system (e.g. KDE "
+"Connect). Selecting a specific application will use that (if installed), "
+"'External Application' allows you to specify a dial command with "
+"placeholders manually."
 msgstr ""
 
 #. i18n: ectx: label, entry (PhoneCommand), group (Phone Dial Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:57
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:56
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Phone Command"
 msgstr "पता पुस्तिका"
 
 #. i18n: ectx: whatsthis, entry (PhoneCommand), group (Phone Dial Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:58
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:57
 #, kde-format
 msgid ""
 "This command defines the application that shall be executed to dial a "
@@ -102,9 +103,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (PhoneCommand), group (Phone Dial Settings)
-#. i18n: ectx: tooltip, entry (KdeconnectCommand), group (Phone Dial Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:61
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:68
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:60
 #, no-c-format, kde-format
 msgid ""
 "The following placeholders can be used in the command:\n"
@@ -112,15 +111,8 @@ msgid ""
 "   %n: The normalized number with all non-digit characters removed."
 msgstr ""
 
-#. i18n: ectx: label, entry (KdeconnectCommand), group (Phone Dial Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:64
-#, fuzzy, kde-format
-#| msgid "Address Book"
-msgid "kdeconnect Command"
-msgstr "पता पुस्तिका"
-
 #. i18n: ectx: whatsthis, entry (SendSmsAction), group (Send SMS Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:81
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:72
 #, kde-format
 msgid ""
 "Defines which application shall be used to send an SMS to the phone number "
@@ -130,14 +122,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SmsCommand), group (Send SMS Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:85
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:76
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "SMS Command"
 msgstr "पता पुस्तिका"
 
 #. i18n: ectx: whatsthis, entry (SmsCommand), group (Send SMS Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:86
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:77
 #, kde-format
 msgid ""
 "This command defines the application that shall be executed to send an SMS "
@@ -146,8 +138,8 @@ msgstr ""
 
 #. i18n: ectx: tooltip, entry (SmsCommand), group (Send SMS Settings)
 #. i18n: ectx: tooltip, entry (SmsKdeconnectCommand), group (Send SMS Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:90
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:98
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:81
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:89
 #, no-c-format, kde-format
 msgid ""
 "The following placeholders can be used in the command:\n"
@@ -157,13 +149,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SmsKdeconnectCommand), group (Send SMS Settings)
-#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:94
+#: akonadi-contacts/actions/contactactionssettings.kcfg.cmake:85
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "KdeConnect SMS Command"
 msgstr "पता पुस्तिका"
 
-#: akonadi-contacts/actions/dialphonenumberaction.cpp:77
+#: akonadi-contacts/actions/dialphonenumberaction.cpp:86
 #: akonadi-contacts/actions/sendsmsaction.cpp:66
 #, kde-format
 msgid ""
@@ -1652,6 +1644,11 @@ msgstr ""
 #, kde-format
 msgid "Set as Preferred"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Address Book"
+#~ msgid "kdeconnect Command"
+#~ msgstr "पता पुस्तिका"
 
 #, fuzzy
 #~| msgctxt "instant messaging address"
