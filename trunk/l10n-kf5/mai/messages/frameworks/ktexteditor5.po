@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-05 02:51+0200\n"
+"POT-Creation-Date: 2019-07-09 02:51+0200\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -300,7 +300,7 @@ msgstr "स्थिर शब्द रैप"
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
 #: data/katepart5ui.rc:73 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:653
+#: dialogs/katedialogs.cpp:656
 #, kde-format
 msgid "Borders"
 msgstr "किनार"
@@ -518,7 +518,7 @@ msgid "Scro&llbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:657
+#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:660
 #, kde-format
 msgid "Always On"
 msgstr "हमेशा चालू"
@@ -675,8 +675,8 @@ msgstr "वर्ग: (&C)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
-#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:519
-#: dialogs/katedialogs.cpp:649 dialogs/katedialogs.cpp:853
+#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:522
+#: dialogs/katedialogs.cpp:652 dialogs/katedialogs.cpp:856
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -1009,14 +1009,22 @@ msgstr "मैचिंग कोष्ठक चुनू"
 msgid "Copy and Paste"
 msgstr "रोलेण्ड पेबेल"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSmartCopyCut)
+#. i18n: ectx: property (text), widget (QCheckBox, chkTextDragAndDrop)
 #: dialogs/editconfigwidget.ui:167
+#, fuzzy, kde-format
+#| msgctxt "@title:column Text style"
+#| msgid "Selected"
+msgid "Move selected text by drag and drop"
+msgstr "चुनल"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkSmartCopyCut)
+#: dialogs/editconfigwidget.ui:174
 #, kde-format
 msgid "Copy/Cut the current line if no selection"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMousePasteAtCursorPosition)
-#: dialogs/editconfigwidget.ui:174
+#: dialogs/editconfigwidget.ui:181
 #, kde-format
 msgid "Paste by mouse at cursor position"
 msgstr ""
@@ -1382,7 +1390,7 @@ msgstr "वर्तनी जाँच चयन..."
 msgid "Text Navigation"
 msgstr "बिन्यास"
 
-#: dialogs/katedialogs.cpp:510
+#: dialogs/katedialogs.cpp:513
 #, fuzzy, kde-format
 #| msgid " characters"
 msgctxt "Wrap words at (value is at 20 or larger)"
@@ -1391,38 +1399,38 @@ msgid_plural " characters"
 msgstr[0] "अक्षर"
 msgstr[1] "अक्षर"
 
-#: dialogs/katedialogs.cpp:621
+#: dialogs/katedialogs.cpp:624
 #, kde-format
 msgid "Editing"
 msgstr "संपादन"
 
-#: dialogs/katedialogs.cpp:626
+#: dialogs/katedialogs.cpp:629
 #, kde-format
 msgid "Editing Options"
 msgstr "संपादन विकल्प"
 
-#: dialogs/katedialogs.cpp:655
+#: dialogs/katedialogs.cpp:658
 #, kde-format
 msgid "Off"
 msgstr "बन्न"
 
-#: dialogs/katedialogs.cpp:656
+#: dialogs/katedialogs.cpp:659
 #, kde-format
 msgid "Follow Line Numbers"
 msgstr "पंक्ति क्रमांक अनुसरण करू"
 
-#: dialogs/katedialogs.cpp:785 dialogs/katedialogs.cpp:790
+#: dialogs/katedialogs.cpp:788 dialogs/katedialogs.cpp:793
 #, kde-format
 msgid "Appearance"
 msgstr "प्रकटन"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:854 dialogs/textareaappearanceconfigwidget.ui:236
+#: dialogs/katedialogs.cpp:857 dialogs/textareaappearanceconfigwidget.ui:236
 #, kde-format
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: dialogs/katedialogs.cpp:909
+#: dialogs/katedialogs.cpp:912
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
@@ -1430,132 +1438,132 @@ msgstr ""
 "अहाँ कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि देने छी. मूलभूत उपसर्ग इस्तेमाल कएल जाए रहल अछि. "
 "'~'"
 
-#: dialogs/katedialogs.cpp:910
+#: dialogs/katedialogs.cpp:913
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि"
 
-#: dialogs/katedialogs.cpp:1033
+#: dialogs/katedialogs.cpp:1036
 #, kde-format
 msgid "Open/Save"
 msgstr "खोलू/सहेजू"
 
-#: dialogs/katedialogs.cpp:1038
+#: dialogs/katedialogs.cpp:1041
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "फाइल खोलनाइ आ सहेजनाइ"
 
-#: dialogs/katedialogs.cpp:1061
+#: dialogs/katedialogs.cpp:1064
 #, kde-format
 msgid "&Line:"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1062
+#: dialogs/katedialogs.cpp:1065
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1074
+#: dialogs/katedialogs.cpp:1077
 #, kde-format
 msgid "Go to"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1151
+#: dialogs/katedialogs.cpp:1154
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1209
+#: dialogs/katedialogs.cpp:1212
 #, fuzzy, kde-format
 #| msgid "&Section:"
 msgid "Dictionary:"
 msgstr "खण्ड: (&S)"
 
-#: dialogs/katedialogs.cpp:1263
+#: dialogs/katedialogs.cpp:1266
 #, fuzzy, kde-format
 #| msgid "Auto Completion"
 msgid "Enable Auto Reload"
 msgstr "स्वतः पूर्णता"
 
-#: dialogs/katedialogs.cpp:1265
+#: dialogs/katedialogs.cpp:1268
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1270
+#: dialogs/katedialogs.cpp:1273
 #, fuzzy, kde-format
 #| msgid "&View Difference"
 msgid "View &Difference"
 msgstr "भिन्नता देखू (&V)"
 
-#: dialogs/katedialogs.cpp:1271
+#: dialogs/katedialogs.cpp:1274
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1276
+#: dialogs/katedialogs.cpp:1279
 #, fuzzy, kde-format
 #| msgid "Reloa&d"
 msgid "&Reload"
 msgstr "फिनु सँ लोड करू (&d)"
 
-#: dialogs/katedialogs.cpp:1278
+#: dialogs/katedialogs.cpp:1281
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1282
+#: dialogs/katedialogs.cpp:1285
 #, fuzzy, kde-format
 #| msgid "&Reload File"
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
-#: dialogs/katedialogs.cpp:1284
+#: dialogs/katedialogs.cpp:1287
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1288
+#: dialogs/katedialogs.cpp:1291
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Save As..."
 msgstr "फाइल एहिना सहेजू... (&S)"
 
-#: dialogs/katedialogs.cpp:1290
+#: dialogs/katedialogs.cpp:1293
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "अहाँक एकटा स्थान चुनू आओर फाइलकेँ फिनु सँ सहेजू"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1295 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1298 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "अनदेखा करू (&I)"
 
-#: dialogs/katedialogs.cpp:1296
+#: dialogs/katedialogs.cpp:1299
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1363 swapfile/kateswapdiffcreator.cpp:137
+#: dialogs/katedialogs.cpp:1366 swapfile/kateswapdiffcreator.cpp:137
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1365 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1368 swapfile/kateswapdiffcreator.cpp:139
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "डिफ बनाबै मे त्रुटि"
 
-#: dialogs/katedialogs.cpp:1373 swapfile/kateswapdiffcreator.cpp:147
+#: dialogs/katedialogs.cpp:1376 swapfile/kateswapdiffcreator.cpp:147
 #, kde-format
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1374 swapfile/kateswapdiffcreator.cpp:148
+#: dialogs/katedialogs.cpp:1377 swapfile/kateswapdiffcreator.cpp:148
 #, kde-format
 msgid "Diff Output"
 msgstr "डिफ आउटपुट"
@@ -2249,12 +2257,12 @@ msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr ""
 
-#: document/katedocument.cpp:2269 document/katedocument.cpp:6041
+#: document/katedocument.cpp:2269 document/katedocument.cpp:6044
 #, kde-format
 msgid "&Close"
 msgstr ""
 
-#: document/katedocument.cpp:2270 document/katedocument.cpp:6042
+#: document/katedocument.cpp:2270 document/katedocument.cpp:6045
 #, kde-format
 msgid "Close message"
 msgstr ""
@@ -2411,29 +2419,29 @@ msgstr "की अहाँ वास्तव मे एहि फाइल क
 msgid "Close Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: document/katedocument.cpp:4250
+#: document/katedocument.cpp:4253
 #, kde-format
 msgid "Untitled"
 msgstr "अनाम"
 
-#: document/katedocument.cpp:4298 document/katedocument.cpp:4482
-#: document/katedocument.cpp:4492 document/katedocument.cpp:5200
+#: document/katedocument.cpp:4301 document/katedocument.cpp:4485
+#: document/katedocument.cpp:4495 document/katedocument.cpp:5203
 #, kde-format
 msgid "Save File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:4301
+#: document/katedocument.cpp:4304
 #, kde-format
 msgid "Save failed"
 msgstr "सहेजनाइ विफल"
 
-#: document/katedocument.cpp:4503
+#: document/katedocument.cpp:4506
 #, fuzzy, kde-format
 #| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "फाइल सहेजू"
 
-#: document/katedocument.cpp:4514
+#: document/katedocument.cpp:4517
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2446,7 +2454,7 @@ msgstr ""
 " जाँचू जे एहि फाइल पर अहाँक पास लिखबा क' अनुमति अछि आओर डिस्क मे पर्याप्त जगह मोजुद "
 "अछि."
 
-#: document/katedocument.cpp:4750
+#: document/katedocument.cpp:4753
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
@@ -2454,7 +2462,7 @@ msgid ""
 "applications/katepart/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4755
+#: document/katedocument.cpp:4758
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
@@ -2462,22 +2470,22 @@ msgid ""
 "applications/katepart/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:5083
+#: document/katedocument.cpp:5086
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा परिवर्धित कएल गेल अछि."
 
-#: document/katedocument.cpp:5086
+#: document/katedocument.cpp:5089
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा बनाएल गेल अछि."
 
-#: document/katedocument.cpp:5089
+#: document/katedocument.cpp:5092
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा मेटाएल गेल अछि."
 
-#: document/katedocument.cpp:5366
+#: document/katedocument.cpp:5369
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2486,17 +2494,17 @@ msgstr ""
 "दस्ताबेज \"%1\" परिवर्तित कएल गेल अछि.\n"
 "की अहाँ एकरा सहेजना चाहब अथवा परिवर्तनसभ केँ फेंक दिअ'?"
 
-#: document/katedocument.cpp:5368
+#: document/katedocument.cpp:5371
 #, kde-format
 msgid "Close Document"
 msgstr "दस्तावेज बन्न करू"
 
-#: document/katedocument.cpp:5501
+#: document/katedocument.cpp:5504
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr ""
 
-#: document/katedocument.cpp:5508
+#: document/katedocument.cpp:5511
 #, kde-format
 msgid "&Abort Loading"
 msgstr ""
@@ -7387,12 +7395,24 @@ msgid ""
 "not letters or numbers."
 msgstr ""
 
+#: view/kateview.cpp:1158
+#, fuzzy, kde-format
+#| msgid "Insert Smart Newline"
+msgid "Insert a non-indented Newline"
+msgstr "नीक न्यूलाइन घुसाबू"
+
 #: view/kateview.cpp:1159
+#, kde-format
+msgid ""
+"Insert a new line without indentation, regardless of indentation settings."
+msgstr ""
+
+#: view/kateview.cpp:1169
 #, kde-format
 msgid "&Indent"
 msgstr "हाशिया (&I)"
 
-#: view/kateview.cpp:1160
+#: view/kateview.cpp:1170
 #, kde-format
 msgid ""
 "Use this to indent a selected block of text.<br /><br />You can configure "
@@ -7400,47 +7420,47 @@ msgid ""
 "configuration dialog."
 msgstr ""
 
-#: view/kateview.cpp:1167
+#: view/kateview.cpp:1177
 #, kde-format
 msgid "&Unindent"
 msgstr "हाशिया हटाबू (&U)"
 
-#: view/kateview.cpp:1168
+#: view/kateview.cpp:1178
 #, kde-format
 msgid "Use this to unindent a selected block of text."
 msgstr "चुनल गेल पाठ केर खण्ड केँ हाशिया हटाने क' लेल एकर इस्तेमाल करू"
 
-#: view/kateview.cpp:1186
+#: view/kateview.cpp:1196
 #, fuzzy, kde-format
 #| msgid "Collapse Toplevel"
 msgid "Fold Toplevel Nodes"
 msgstr "टॉपलेवल सिकोड़ू"
 
-#: view/kateview.cpp:1191
+#: view/kateview.cpp:1201
 #, fuzzy, kde-format
 #| msgid "Expand Toplevel"
 msgid "Unfold Toplevel Nodes"
 msgstr "टापलेवल पसारू"
 
-#: view/kateview.cpp:1204
+#: view/kateview.cpp:1214
 #, fuzzy, kde-format
 #| msgid "Current line:"
 msgid "Toggle Current Node"
 msgstr "मोजुदा पंक्ति:"
 
-#: view/kateview.cpp:1208
+#: view/kateview.cpp:1218
 #, fuzzy, kde-format
 #| msgctxt "@item:intable Text context"
 #| msgid "Comment"
 msgid "Toggle Contained Nodes"
 msgstr "टिप्पणी"
 
-#: view/kateview.cpp:1367
+#: view/kateview.cpp:1377
 #, kde-format
 msgid "(R/O) %1"
 msgstr ""
 
-#: view/kateview.cpp:3722
+#: view/kateview.cpp:3739
 #, kde-format
 msgid "Export File as HTML"
 msgstr "फाइल केँ एचटीएमएल केर रूपेँ निर्यात करू"
