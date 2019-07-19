@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-18 07:41+0200\n"
+"POT-Creation-Date: 2019-07-19 07:56+0200\n"
 "PO-Revision-Date: 2010-09-24 16:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -222,7 +222,7 @@ msgctxt "@info"
 msgid "Failed to remove calendar <resource>%1</resource>."
 msgstr ""
 
-#: akonadimodel.cpp:1160 akonadiresourcecreator.cpp:109
+#: akonadimodel.cpp:1160 akonadiresourcecreator.cpp:110
 #: calendarmigrator.cpp:479
 #, fuzzy, kde-kuit-format
 #| msgctxt "Holiday region, region language"
@@ -265,10 +265,18 @@ msgctxt "@info"
 msgid "Failed to delete alarm."
 msgstr ""
 
-#: akonadiresourcecreator.cpp:109
+#: akonadiresourcecreator.cpp:110
 #, kde-format
 msgctxt "@info"
 msgid "Failed to create new calendar resource"
+msgstr ""
+
+#: akonadiresourcecreator.cpp:150
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>The file or directory is already used by an existing resource:</"
+"para><para><filename>%1</filename></para>"
 msgstr ""
 
 #: alarmcalendar.cpp:259 alarmcalendar.cpp:634
@@ -659,7 +667,7 @@ msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr ""
 
-#: calendarmigrator.cpp:295 collectionmodel.cpp:965
+#: calendarmigrator.cpp:295 collectionmodel.cpp:968
 #, fuzzy, kde-format
 #| msgctxt "@option:check Alarm type"
 #| msgid "Active"
@@ -667,7 +675,7 @@ msgctxt "@info"
 msgid "Active Alarms"
 msgstr "सक्रिय"
 
-#: calendarmigrator.cpp:303 collectionmodel.cpp:967
+#: calendarmigrator.cpp:303 collectionmodel.cpp:970
 #, fuzzy, kde-format
 #| msgctxt "@option:check Alarm type"
 #| msgid "Active"
@@ -675,7 +683,7 @@ msgctxt "@info"
 msgid "Archived Alarms"
 msgstr "सक्रिय"
 
-#: calendarmigrator.cpp:311 collectionmodel.cpp:969
+#: calendarmigrator.cpp:311 collectionmodel.cpp:972
 #, fuzzy, kde-format
 #| msgctxt "@label:textbox"
 #| msgid "Template name:"
@@ -763,7 +771,7 @@ msgctxt "@info"
 msgid "Do you really want to disable your default calendar?"
 msgstr ""
 
-#: collectionmodel.cpp:883
+#: collectionmodel.cpp:886
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -771,7 +779,7 @@ msgid ""
 "default calendar for active alarms."
 msgstr ""
 
-#: collectionmodel.cpp:888
+#: collectionmodel.cpp:891
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -779,7 +787,7 @@ msgid ""
 "default calendar for archived alarms."
 msgstr ""
 
-#: collectionmodel.cpp:893
+#: collectionmodel.cpp:896
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -787,7 +795,7 @@ msgid ""
 "default calendar for alarm templates."
 msgstr ""
 
-#: collectionmodel.cpp:898
+#: collectionmodel.cpp:901
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -796,13 +804,13 @@ msgid ""
 "</para>"
 msgstr ""
 
-#: collectionmodel.cpp:906
+#: collectionmodel.cpp:909
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>Please select a new default calendar.</para>"
 msgstr ""
 
-#: collectionmodel.cpp:1248
+#: collectionmodel.cpp:1251
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Calendar"
