@@ -22,236 +22,258 @@ msgstr ""
 "\n"
 "\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "संगीता कुमारी"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "sangeeta09@gmail.com"
-
-#: backendselection.cpp:74
-#, kde-format
-msgctxt "@info User changed Phonon backend"
-msgid "To apply the backend change you will have to log out and back in again."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
-#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
-#: backendselection.ui:38 backendselection.ui:41
-#, kde-format
+#: backendselection.ui:151 backendselection.ui:154
+msgctxt "BackendSelection|"
 msgid ""
 "A list of Phonon Backends found on your system.  The order here determines "
 "the order Phonon will use them in."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QToolButton, m_up)
-#. i18n: ectx: property (text), widget (QToolButton, preferButton)
-#: backendselection.ui:57 devicepreference.ui:190
-#, kde-format
+#: backendselection.ui:170
+#, fuzzy
+#| msgid "Prefer"
+msgctxt "BackendSelection|"
 msgid "Prefer"
 msgstr "वरीयता"
 
-#. i18n: ectx: property (text), widget (QToolButton, m_down)
-#. i18n: ectx: property (text), widget (QToolButton, deferButton)
-#: backendselection.ui:70 devicepreference.ui:206
-#, kde-format
+#: backendselection.ui:183
+#, fuzzy
+#| msgid "Defer"
+msgctxt "BackendSelection|"
 msgid "Defer"
 msgstr "टालू"
 
-#: devicepreference.cpp:92
-#, kde-format
+#: devicepreference.cpp:90
+msgctxt "QObject|"
 msgid "Audio Playback"
 msgstr ""
 
-#: devicepreference.cpp:106
-#, kde-format
+#: devicepreference.cpp:104
+msgctxt "QObject|"
 msgid "Audio Recording"
 msgstr ""
 
-#: devicepreference.cpp:109
-#, kde-format
+#: devicepreference.cpp:107
+msgctxt "QObject|"
 msgid "Video Recording"
 msgstr ""
 
-#: devicepreference.cpp:112
-#, kde-format
+#: devicepreference.cpp:110
+msgctxt "QObject|"
 msgid "Invalid"
 msgstr ""
 
-#: devicepreference.cpp:152
-#, fuzzy, kde-format
+#: devicepreference.cpp:150
+#, fuzzy
 #| msgid "prefer the selected device"
+msgctxt "Phonon::DevicePreference|"
 msgid "Test the selected device"
 msgstr "चयनित अओजार पसिन्न करू"
 
-#: devicepreference.cpp:176 devicepreference.cpp:183 devicepreference.cpp:190
-#, kde-format
+#: devicepreference.cpp:173 devicepreference.cpp:180 devicepreference.cpp:187
+msgctxt "Phonon::DevicePreference|"
 msgid ""
 "Defines the default ordering of devices which can be overridden by "
 "individual categories."
 msgstr ""
 
-#: devicepreference.cpp:306
-#, fuzzy, kde-format
+#: devicepreference.cpp:303
+#, fuzzy
 #| msgid "Device Preference"
+msgctxt "Phonon::DevicePreference|"
 msgid "Default Audio Playback Device Preference"
 msgstr "युक्तिक प्राथमिकतासभ"
 
-#: devicepreference.cpp:309
-#, fuzzy, kde-format
+#: devicepreference.cpp:306
+#, fuzzy
 #| msgid "Device Preference"
+msgctxt "Phonon::DevicePreference|"
 msgid "Default Audio Recording Device Preference"
 msgstr "युक्तिक प्राथमिकतासभ"
 
-#: devicepreference.cpp:312
-#, fuzzy, kde-format
+#: devicepreference.cpp:309
+#, fuzzy
 #| msgid "Device Preference"
+msgctxt "Phonon::DevicePreference|"
 msgid "Default Video Recording Device Preference"
 msgstr "युक्तिक प्राथमिकतासभ"
 
-#: devicepreference.cpp:319
-#, kde-format
-msgid "Audio Playback Device Preference for the '%1' Category"
-msgstr ""
-
-#: devicepreference.cpp:323
-#, kde-format
-msgid "Audio Recording Device Preference for the '%1' Category"
-msgstr ""
-
-#: devicepreference.cpp:327
-#, fuzzy, kde-format
+#: devicepreference.cpp:316
+#, fuzzy, qt-format
 #| msgid "Device Preference"
-msgid "Video Recording Device Preference for the '%1' Category"
+msgctxt "Phonon::DevicePreference|"
+msgid "Audio Playback Device Preference for the '%1' Category"
 msgstr "युक्तिक प्राथमिकतासभ"
 
-#: devicepreference.cpp:752
-#, kde-format
+#: devicepreference.cpp:320
+#, fuzzy, qt-format
+#| msgid "Device Preference"
+msgctxt "Phonon::DevicePreference|"
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "युक्तिक प्राथमिकतासभ"
+
+#: devicepreference.cpp:324
+#, fuzzy, qt-format
+#| msgid "Device Preference"
+msgctxt "Phonon::DevicePreference|"
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "युक्तिक प्राथमिकतासभ"
+
+#: devicepreference.cpp:748
+msgctxt "Phonon::DevicePreference|"
 msgid ""
 "Apply the currently shown device preference list to the following other "
 "audio playback categories:"
 msgstr ""
 
-#: devicepreference.cpp:765 devicepreference.cpp:771
-#, kde-format
+#: devicepreference.cpp:761 devicepreference.cpp:767
+#, fuzzy
+#| msgid "Default/Unspecified Category"
+msgctxt "Phonon::DevicePreference|"
 msgid "Default/Unspecified Category"
 msgstr "डिफाल्ट/अनिर्दिष्ट वर्ग"
 
-#: devicepreference.cpp:869
-#, fuzzy, kde-format
+#: devicepreference.cpp:865
+#, fuzzy
 #| msgid "prefer the selected device"
+msgctxt "Phonon::DevicePreference|"
 msgid "Failed to set the selected audio output device"
 msgstr "चयनित अओजार पसिन्न करू"
 
-#: devicepreference.cpp:899
-#, kde-format
+#: devicepreference.cpp:895
+msgctxt "Phonon::DevicePreference|"
 msgid "Your backend may not support audio recording"
 msgstr ""
 
-#: devicepreference.cpp:920
-#, kde-format
+#: devicepreference.cpp:916
+msgctxt "Phonon::DevicePreference|"
 msgid "Your backend may not support video recording"
 msgstr ""
 
-#: devicepreference.cpp:930
-#, kde-format
+#: devicepreference.cpp:926
+#, qt-format
+msgctxt "Phonon::DevicePreference|"
 msgid "Testing %1"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
-#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
 #: devicepreference.ui:29 devicepreference.ui:32
-#, kde-format
+msgctxt "DevicePreference|"
 msgid ""
 "Various categories of media use cases.  For each category, you may choose "
 "what device you prefer to be used by the Phonon applications."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
 #: devicepreference.ui:47
-#, kde-format
+msgctxt "DevicePreference|"
 msgid "Show advanced devices"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
-#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
 #: devicepreference.ui:77 devicepreference.ui:80
-#, kde-format
+msgctxt "DevicePreference|"
 msgid "Use the currently shown device list for more categories."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
 #: devicepreference.ui:83
-#, kde-format
+#, fuzzy
+#| msgid "Apply Device List To..."
+msgctxt "DevicePreference|"
 msgid "Apply Device List To..."
 msgstr "युक्ति सूची एतए लागू करू..."
 
-#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
 #: devicepreference.ui:113
-#, kde-format
+msgctxt "DevicePreference|"
 msgid ""
 "Devices found on your system, suitable for the selected category.  Choose "
 "the device that you wish to be used by the applications."
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
 #: devicepreference.ui:116
-#, kde-format
+msgctxt "DevicePreference|"
 msgid ""
 "The order determines the preference of the devices. If for some reason the "
 "first device cannot be used Phonon will try to use the second, and so on."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
 #: devicepreference.ui:171
-#, kde-format
+#, fuzzy
+#| msgid "Test"
+msgctxt "DevicePreference|"
 msgid "Test"
 msgstr "जाँच"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
 #: devicepreference.ui:187
-#, kde-format
+#, fuzzy
+#| msgid "prefer the selected device"
+msgctxt "DevicePreference|"
 msgid "prefer the selected device"
 msgstr "चयनित अओजार पसिन्न करू"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:190
+#, fuzzy
+#| msgid "Prefer"
+msgctxt "DevicePreference|"
+msgid "Prefer"
+msgstr "वरीयता"
+
 #: devicepreference.ui:203
-#, kde-format
+#, fuzzy
+#| msgid "no preference for the selected device"
+msgctxt "DevicePreference|"
 msgid "no preference for the selected device"
 msgstr "चुनल अओजार क' लेल कोनो वरीयता नहि"
 
-#: main.cpp:40
-#, kde-format
-msgid "Phonon Configuration Module"
-msgstr "फोनान बिन्यास मोड्यूल"
+#: devicepreference.ui:206
+#, fuzzy
+#| msgid "Defer"
+msgctxt "DevicePreference|"
+msgid "Defer"
+msgstr "टालू"
 
-#: main.cpp:42
-#, kde-format
-msgid "Copyright 2006 Matthias Kretz"
-msgstr "सर्वाधिकार 2006 मैथियास कर्त्ज"
-
-#: main.cpp:43
-#, kde-format
-msgid "Matthias Kretz"
-msgstr "मैथियास कर्त्ज"
-
-#: main.cpp:44
-#, kde-format
-msgid "Colin Guthrie"
+#: main.cpp:28
+msgctxt "QObject|"
+msgid "Phonon Settings"
 msgstr ""
 
-#: main.cpp:55
-#, kde-format
-msgid "Device Preference"
+#: settings.ui:14
+msgctxt "Settings|"
+msgid "Dialog"
+msgstr ""
+
+#: settings.ui:20
+msgctxt "Settings|"
+msgid "Multimedia Settings"
+msgstr ""
+
+#: settings.ui:31
+#, fuzzy
+#| msgid "Device Preference"
+msgctxt "Settings|"
+msgid "De&vice Priority"
 msgstr "युक्तिक प्राथमिकतासभ"
 
-#: main.cpp:57
-#, kde-format
+#: settings.ui:36
+#, fuzzy
+#| msgid "Backend"
+msgctxt "Settings|"
 msgid "Backend"
 msgstr "बैकेंड"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "संगीता कुमारी"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "sangeeta09@gmail.com"
+
+#~ msgid "Phonon Configuration Module"
+#~ msgstr "फोनान बिन्यास मोड्यूल"
+
+#~ msgid "Copyright 2006 Matthias Kretz"
+#~ msgstr "सर्वाधिकार 2006 मैथियास कर्त्ज"
+
+#~ msgid "Matthias Kretz"
+#~ msgstr "मैथियास कर्त्ज"
 
 #, fuzzy
 #~| msgid "Prefer"
