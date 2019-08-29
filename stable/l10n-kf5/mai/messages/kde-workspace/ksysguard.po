@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:45+0200\n"
+"POT-Creation-Date: 2019-08-29 07:24+0200\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -131,201 +131,160 @@ msgstr "ओ कमांड भरू जे के-सिसगार्ड क
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "उदाहरण- ssh -l root remote.host.org ksysguardd"
 
-#: ksysguard.cpp:76
+#: ksysguard.cpp:74
 #, kde-format
 msgid "KDE System Monitor"
 msgstr "केडीइ तंत्र मानीटर"
 
-#: ksysguard.cpp:159
-#, kde-format
-msgid ""
-"This will hide the menu bar completely. You can show it again by typing %1."
-msgstr ""
-
-#: ksysguard.cpp:161
-#, kde-format
-msgid "Hide menu bar"
-msgstr ""
-
-#: ksysguard.cpp:179 ksysguard.cpp:571
+#: ksysguard.cpp:161 ksysguard.cpp:536
 #, kde-format
 msgid "System Monitor"
 msgstr "सिस्टम मानीटर"
 
-#: ksysguard.cpp:180
+#: ksysguard.cpp:162
 #, kde-format
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cpp:181
+#: ksysguard.cpp:163
 #, kde-format
 msgid "&New Tab..."
 msgstr ""
 
-#: ksysguard.cpp:182
+#: ksysguard.cpp:164
 #, kde-format
 msgid "Import Tab Fr&om File..."
 msgstr ""
 
-#: ksysguard.cpp:183
+#: ksysguard.cpp:165
 #, kde-format
 msgid "Save Tab &As..."
 msgstr ""
 
-#: ksysguard.cpp:184
+#: ksysguard.cpp:166
 #, kde-format
 msgid "&Close Tab"
 msgstr "टैब बन्न करू (&C)"
 
-#: ksysguard.cpp:185
+#: ksysguard.cpp:167
 #, kde-format
 msgid "Monitor &Remote Machine..."
 msgstr ""
 
-#: ksysguard.cpp:186
+#: ksysguard.cpp:168
 #, kde-format
 msgid "&Download New Tabs..."
 msgstr ""
 
-#: ksysguard.cpp:187
+#: ksysguard.cpp:169
 #, kde-format
 msgid "&Upload Current Tab..."
 msgstr ""
 
-#: ksysguard.cpp:189
+#: ksysguard.cpp:171
 #, kde-format
 msgid "Tab &Properties"
 msgstr ""
 
-#: ksysguard.cpp:386
+#: ksysguard.cpp:366
 #, fuzzy, kde-format
 #| msgid "Process Count"
-msgid "1 process"
-msgid_plural "%1 processes"
+msgid "1 process1"
+msgid_plural "%1 processes%1"
 msgstr[0] "प्रक्रिया गणना"
 msgstr[1] "प्रक्रिया गणना"
 
-#: ksysguard.cpp:467
+#: ksysguard.cpp:445
 #, fuzzy, kde-format
 #| msgid "CPU: %1%%1%"
-msgid "CPU: %1%"
+msgid "CPU: %1%%1%"
 msgstr "CPU: %1%%1%"
 
-#: ksysguard.cpp:467
-#, fuzzy, kde-format
-#| msgctxt "units"
-#| msgid "%1%"
-msgctxt "This is the shorter version of CPU: %1%"
-msgid "%1%"
-msgstr "%1%"
-
-#: ksysguard.cpp:486
+#: ksysguard.cpp:460
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Memory: %1 / %2"
+msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
 msgstr ""
 
-#: ksysguard.cpp:488
-#, kde-format
-msgctxt ""
-"Arguments are formatted byte sizes (used/total) This should be a shorter "
-"version of the previous Memory: %1 / %2"
-msgid "Mem: %1 / %2"
-msgstr ""
-
-#: ksysguard.cpp:490
-#, kde-format
-msgctxt ""
-"Arguments is formatted byte sizes (used) This should be a shorter version of "
-"the previous Mem: %1 / %2"
-msgid "Mem: %1"
-msgstr ""
-
-#: ksysguard.cpp:518
+#: ksysguard.cpp:487
 #, kde-format
 msgid " No swap space available "
 msgstr "कोनो स्वेप जगह उपलब्ध नहि"
 
-#: ksysguard.cpp:522
+#: ksysguard.cpp:489
 #, fuzzy, kde-format
 #| msgctxt "Arguments are formatted byte sizes (used/total)"
 #| msgid "Swap: %1 / %2Swap: %1%1"
 msgctxt "Arguments are formatted byte sizes (used/total)"
-msgid "Swap: %1 / %2"
+msgid "Swap: %1 / %2Swap: %1%1"
 msgstr "Swap: %1 / %2Swap: %1%1"
 
-#: ksysguard.cpp:524
-#, kde-format
-msgctxt "Arguments is formatted byte sizes (used)"
-msgid "Swap: %1"
-msgstr ""
-
-#: ksysguard.cpp:573
+#: ksysguard.cpp:538
 #, kde-format
 msgid "(c) 1996-2016 The KDE System Monitor Developers"
 msgstr ""
 
-#: ksysguard.cpp:575
+#: ksysguard.cpp:540
 #, kde-format
 msgid "John Tapsell"
 msgstr "जान टापसेल"
 
-#: ksysguard.cpp:575
+#: ksysguard.cpp:540
 #, kde-format
 msgid "Current Maintainer"
 msgstr "वर्तमान मेंटेनर"
 
-#: ksysguard.cpp:576
+#: ksysguard.cpp:541
 #, kde-format
 msgid "Chris Schlaeger"
 msgstr "क्रिस श्लेगर"
 
-#: ksysguard.cpp:576
+#: ksysguard.cpp:541
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "पूर्व मेंटेनर"
 
-#: ksysguard.cpp:577
+#: ksysguard.cpp:542
 #, kde-format
 msgid "Greg Martyn"
 msgstr "ग्रेग मार्टिन"
 
-#: ksysguard.cpp:578
+#: ksysguard.cpp:543
 #, kde-format
 msgid "Tobias Koenig"
 msgstr "टाबियस कोएनिग"
 
-#: ksysguard.cpp:579
+#: ksysguard.cpp:544
 #, kde-format
 msgid "Nicolas Leclercq"
 msgstr "निकोलस लेकलर"
 
-#: ksysguard.cpp:580
+#: ksysguard.cpp:545
 #, kde-format
 msgid "Alex Sanda"
 msgstr "एलेक्स सांदा"
 
-#: ksysguard.cpp:581
+#: ksysguard.cpp:546
 #, kde-format
 msgid "Bernd Johannes Wuebben"
 msgstr "बर्नड जान्स वुएबेन"
 
-#: ksysguard.cpp:582
+#: ksysguard.cpp:547
 #, kde-format
 msgid "Ralf Mueller"
 msgstr "राल्फ मुलर"
 
-#: ksysguard.cpp:583
+#: ksysguard.cpp:548
 #, kde-format
 msgid "Hamish Rodda"
 msgstr "हामिश रोदा"
 
-#: ksysguard.cpp:584
+#: ksysguard.cpp:549
 #, kde-format
 msgid "Torsten Kasch"
 msgstr "टार्सटन कैस"
 
-#: ksysguard.cpp:584
+#: ksysguard.cpp:549
 #, kde-format
 msgid ""
 "Solaris Support\n"
@@ -336,7 +295,7 @@ msgstr ""
 "किछु भागसभ केँ सन ओएस 5 केर \n"
 " विलियम लेफेब्व्रे केर \"टाप\" यूटिलिटी सँ (अनुमति से) लेल गेल अछि."
 
-#: ksysguard.cpp:593
+#: ksysguard.cpp:558
 #, kde-format
 msgid "Optional worksheet files to load"
 msgstr "लोड करब क' लेल वैकल्पिक वर्कशीट फाइलसभ"
@@ -630,7 +589,7 @@ msgstr "<p><b>%1:</b><br>"
 #, fuzzy, kde-format
 #| msgctxt "%1 and %2 are sensor's last and maximum value"
 #| msgid "%1 of %2"
-msgid "%1 of %2"
+msgid "%1 of %2%1"
 msgstr "%1 क' %2"
 
 #: SensorDisplayLib/FancyPlotter.cpp:625
@@ -1056,12 +1015,12 @@ msgstr "अलार्म अक्षर रंगः"
 msgid "Bac&kground color:"
 msgstr "पृष्ठभूमि क' रंगः"
 
-#: SensorDisplayLib/SensorDisplay.cpp:116 SensorDisplayLib/SensorLogger.cpp:588
+#: SensorDisplayLib/SensorDisplay.cpp:116 SensorDisplayLib/SensorLogger.cpp:597
 #, kde-format
 msgid "&Properties"
 msgstr "गुण (&P)"
 
-#: SensorDisplayLib/SensorDisplay.cpp:121 SensorDisplayLib/SensorLogger.cpp:593
+#: SensorDisplayLib/SensorDisplay.cpp:121 SensorDisplayLib/SensorLogger.cpp:602
 #, kde-format
 msgid "&Remove Display"
 msgstr "प्रदर्शक मेटाबू (&R)"
@@ -1075,63 +1034,63 @@ msgid ""
 "p>%1</qt>"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:133
+#: SensorDisplayLib/SensorLogger.cpp:137
 #, fuzzy, kde-format
 #| msgid "Logging"
 msgctxt "@title:column"
 msgid "Logging"
 msgstr "लाग कए रहल अछि"
 
-#: SensorDisplayLib/SensorLogger.cpp:135
+#: SensorDisplayLib/SensorLogger.cpp:140
 #, fuzzy, kde-format
 #| msgid "Timer Interval"
 msgctxt "@title:column"
 msgid "Timer Interval"
 msgstr "टाइमर अंतराल"
 
-#: SensorDisplayLib/SensorLogger.cpp:137
+#: SensorDisplayLib/SensorLogger.cpp:143
 #, fuzzy, kde-format
 #| msgid "Sensor Name"
 msgctxt "@title:column"
 msgid "Sensor Name"
 msgstr "सेंसर नाम"
 
-#: SensorDisplayLib/SensorLogger.cpp:139
+#: SensorDisplayLib/SensorLogger.cpp:146
 #, fuzzy, kde-format
 #| msgid "Host Name"
 msgctxt "@title:column"
 msgid "Host Name"
 msgstr "होस्ट नेम"
 
-#: SensorDisplayLib/SensorLogger.cpp:141
+#: SensorDisplayLib/SensorLogger.cpp:149
 #, fuzzy, kde-format
 #| msgid "Log File"
 msgctxt "@title:column"
 msgid "Log File"
 msgstr "लाग फाइल"
 
-#: SensorDisplayLib/SensorLogger.cpp:419
+#: SensorDisplayLib/SensorLogger.cpp:428
 #: SensorDisplayLib/SensorLoggerDlg.cpp:30
 #, kde-format
 msgid "Sensor Logger"
 msgstr "सेंसर लागर"
 
-#: SensorDisplayLib/SensorLogger.cpp:598
+#: SensorDisplayLib/SensorLogger.cpp:607
 #, kde-format
 msgid "&Remove Sensor"
 msgstr "सेंसर मेटाबू (&R)"
 
-#: SensorDisplayLib/SensorLogger.cpp:603
+#: SensorDisplayLib/SensorLogger.cpp:612
 #, kde-format
 msgid "&Edit Sensor..."
 msgstr "सेंसर संपादन... (&E)"
 
-#: SensorDisplayLib/SensorLogger.cpp:611
+#: SensorDisplayLib/SensorLogger.cpp:620
 #, kde-format
 msgid "St&op Logging"
 msgstr "लागिंग बन्न करू (&o)"
 
-#: SensorDisplayLib/SensorLogger.cpp:614
+#: SensorDisplayLib/SensorLogger.cpp:623
 #, kde-format
 msgid "S&tart Logging"
 msgstr "लागिंग प्रारंभ करू (&t)"
@@ -1151,7 +1110,8 @@ msgid "Timer Interval"
 msgstr "टाइमर अंतराल"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_timerInterval)
-#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 WorkSheetSettings.cpp:111
+#: SensorDisplayLib/SensorLoggerDlgWidget.ui:59 TimerSettings.cpp:57
+#: WorkSheetSettings.cpp:111
 #, kde-format
 msgid " sec"
 msgstr " sec"
@@ -1167,27 +1127,27 @@ msgstr "सेंसर लागर बिन्यास"
 msgid "Alarm color:"
 msgstr "अलार्म रंगः"
 
-#: SensorDisplayLib/SensorModel.cpp:161
+#: SensorDisplayLib/SensorModel.cpp:166
 #, kde-format
 msgid "Host"
 msgstr "होस्ट"
 
-#: SensorDisplayLib/SensorModel.cpp:163
+#: SensorDisplayLib/SensorModel.cpp:169
 #, kde-format
 msgid "Sensor"
 msgstr "सेंसर"
 
-#: SensorDisplayLib/SensorModel.cpp:165
+#: SensorDisplayLib/SensorModel.cpp:172
 #, kde-format
 msgid "Unit"
 msgstr "एकाइ"
 
-#: SensorDisplayLib/SensorModel.cpp:167
+#: SensorDisplayLib/SensorModel.cpp:175
 #, kde-format
 msgid "Status"
 msgstr "स्थिति"
 
-#: SensorDisplayLib/SensorModel.cpp:169
+#: SensorDisplayLib/SensorModel.cpp:178
 #, kde-format
 msgid "Label"
 msgstr "लेबल"
@@ -1241,17 +1201,37 @@ msgstr "पएनिहार"
 msgid "Sending"
 msgstr ""
 
-#: WorkSheet.cpp:87
+#: TimerSettings.cpp:37
+#, kde-format
+msgid "Timer Settings"
+msgstr "टाइमर बिन्यास"
+
+#: TimerSettings.cpp:47
+#, kde-format
+msgid "Use update interval of worksheet"
+msgstr "वर्कशीट क' अद्यतन अंतरालक इस्तेमाल करू"
+
+#: TimerSettings.cpp:50 WorkSheetSettings.cpp:104
+#, kde-format
+msgid "Update interval:"
+msgstr "अद्यतन अंतरालः"
+
+#: TimerSettings.cpp:60 WorkSheetSettings.cpp:117
+#, kde-format
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr "शीट केर सबहि प्रदर्शनों केँ एतय उल्लेखित दर पर अद्यतन कएल जएताह."
+
+#: WorkSheet.cpp:83
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr "फाइल %1 केँ खोलि नहि सकल."
 
-#: WorkSheet.cpp:95
+#: WorkSheet.cpp:91
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr "फाइल %1 वैध एक्सएमएल नहि राखैत अछि."
 
-#: WorkSheet.cpp:102
+#: WorkSheet.cpp:98
 #, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
@@ -1260,59 +1240,59 @@ msgstr ""
 "फाइल %1 मे कोनो वैध वर्कशीट परिभाषा नहि अछि जकरामे दस्ताबेज किस्म 'के-सिस-गार्ड-वर्क-"
 "शीट' अछि."
 
-#: WorkSheet.cpp:114
+#: WorkSheet.cpp:110
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr "फाइल %1 मे एकटा अवैध वर्कशीट आकार अछि."
 
-#: WorkSheet.cpp:239
+#: WorkSheet.cpp:235
 #, kde-format
 msgid "Cannot save file %1"
 msgstr "फाइल %1 सहेज नहि सकैत"
 
-#: WorkSheet.cpp:285
+#: WorkSheet.cpp:281
 #, kde-format
 msgid "The clipboard does not contain a valid display description."
 msgstr "क्लिपबोर्ड मे वैध प्रदर्शक वर्णन नहि अछि."
 
-#: WorkSheet.cpp:385
+#: WorkSheet.cpp:381
 #, kde-format
 msgid "Select Display Type"
 msgstr "प्रदर्शक प्रकार चुनू"
 
-#: WorkSheet.cpp:386
+#: WorkSheet.cpp:382
 #, kde-format
 msgid "&Line graph"
 msgstr "लाइन ग्राफ (&L)"
 
-#: WorkSheet.cpp:387
+#: WorkSheet.cpp:383
 #, kde-format
 msgid "&Digital display"
 msgstr "डिजिटल प्रदर्शन (&D)"
 
-#: WorkSheet.cpp:388
+#: WorkSheet.cpp:384
 #, kde-format
 msgid "&Bar graph"
 msgstr "बार-ग्राफ (&B)"
 
-#: WorkSheet.cpp:389
+#: WorkSheet.cpp:385
 #, kde-format
 msgid "Log to a &file"
 msgstr "एकटा फाइल मे लाग करू (&f)"
 
-#: WorkSheet.cpp:545
+#: WorkSheet.cpp:541
 #, fuzzy, kde-format
 #| msgid "&Remove Display"
 msgid "Remove this display?"
 msgstr "प्रदर्शक मेटाबू (&R)"
 
-#: WorkSheet.cpp:546
+#: WorkSheet.cpp:542
 #, fuzzy, kde-format
 #| msgid "&Remove Display"
 msgid "Remove Display"
 msgstr "प्रदर्शक मेटाबू (&R)"
 
-#: WorkSheet.cpp:587
+#: WorkSheet.cpp:583
 #, kde-format
 msgid "Dummy"
 msgstr "डमी"
@@ -1346,16 +1326,6 @@ msgstr "शीट मे पंक्तिसभक सँख्या जत�
 #, kde-format
 msgid "Enter the number of columns the sheet should have."
 msgstr "शीट मे स्तम्भक सँख्या कतए अछि ओ एतय प्रविष्ट करू."
-
-#: WorkSheetSettings.cpp:104
-#, kde-format
-msgid "Update interval:"
-msgstr "अद्यतन अंतरालः"
-
-#: WorkSheetSettings.cpp:117
-#, kde-format
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr "शीट केर सबहि प्रदर्शनों केँ एतय उल्लेखित दर पर अद्यतन कएल जएताह."
 
 #: WorkSheetSettings.cpp:118
 #, kde-format
@@ -1408,11 +1378,12 @@ msgstr ""
 msgid "Upload custom System Monitor tab"
 msgstr "सिस्टम मानीटर"
 
-#~ msgid "Timer Settings"
-#~ msgstr "टाइमर बिन्यास"
-
-#~ msgid "Use update interval of worksheet"
-#~ msgstr "वर्कशीट क' अद्यतन अंतरालक इस्तेमाल करू"
+#, fuzzy
+#~| msgctxt "units"
+#~| msgid "%1%"
+#~ msgctxt "This is the shorter version of CPU: %1%"
+#~ msgid "%1%"
+#~ msgstr "%1%"
 
 #~ msgid "Lo&wer limit:"
 #~ msgstr "निचला सीमाः (&w)"
