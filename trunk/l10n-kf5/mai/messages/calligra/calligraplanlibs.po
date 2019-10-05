@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-04 02:29+0200\n"
+"POT-Creation-Date: 2019-10-05 02:28+0200\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3589,7 +3589,7 @@ msgctxt "@info:tooltip"
 msgid "Latest work package received: %1"
 msgstr "काज"
 
-#: models/kptnodeitemmodel.cpp:2286 ui/RelationEditorDialog.cpp:240
+#: models/kptnodeitemmodel.cpp:2286 ui/RelationEditorDialog.cpp:247
 #, fuzzy, kde-kuit-format
 #| msgid "Type"
 msgctxt "@title:column"
@@ -7120,7 +7120,7 @@ msgctxt "(qtundo-format)"
 msgid "Add task dependency"
 msgstr "विवरण"
 
-#: ui/kptrelationdialog.cpp:146 ui/RelationEditorDialog.cpp:228
+#: ui/kptrelationdialog.cpp:146 ui/RelationEditorDialog.cpp:238
 #, fuzzy, kde-kuit-format
 #| msgid "Description"
 msgctxt "@title:window"
@@ -8628,20 +8628,32 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: ui/RelationEditorDialog.cpp:239
+#: ui/RelationEditorDialog.cpp:234 ui/RelationEditorDialog.cpp:303
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgid "Delete"
+msgstr "मेटाबू"
+
+#: ui/RelationEditorDialog.cpp:246
 #, kde-kuit-format
 msgctxt "@title:column"
-msgid "Predeccessor"
+msgid "Predecessor"
 msgstr ""
 
-#: ui/RelationEditorDialog.cpp:241
+#: ui/RelationEditorDialog.cpp:248
 #, fuzzy, kde-kuit-format
 #| msgid "Lag"
 msgctxt "@title:column"
 msgid "Lag"
 msgstr "पाछाँ"
 
-#: ui/RelationEditorDialog.cpp:320
+#: ui/RelationEditorDialog.cpp:300
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgid "Un-Delete"
+msgstr "मेटाबू"
+
+#: ui/RelationEditorDialog.cpp:378
 #, fuzzy
 #| msgid "Description"
 msgctxt "(qtundo-format)"
@@ -8656,19 +8668,12 @@ msgid "Form"
 msgstr "सँ"
 
 #. i18n: ectx: property (text), widget (QToolButton, addBtn)
-#: ui/RelationEditorDialog.ui:131
-#, kde-format
-msgctxt "New task dependency"
-msgid "New"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, removeBtn)
-#: ui/RelationEditorDialog.ui:142
+#: ui/RelationEditorDialog.ui:134
 #, fuzzy, kde-format
-#| msgid "Remove"
-msgctxt "Remove selected dependencies"
-msgid "Remove"
-msgstr "हटाबू"
+#| msgid "Description"
+msgctxt "Insert task dependency"
+msgid "Insert"
+msgstr "विवरण"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, ui_fromgroup)
@@ -10139,6 +10144,12 @@ msgstr ""
 #, kde-format
 msgid "All supported formats"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgctxt "Remove selected dependencies"
+#~ msgid "Remove"
+#~ msgstr "हटाबू"
 
 #, fuzzy
 #~| msgid "Send"
