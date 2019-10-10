@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 02:34+0200\n"
+"POT-Creation-Date: 2019-10-10 02:39+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -39978,6 +39978,7 @@ msgid ""
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:170
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:635
 #, fuzzy, kde-format
 #| msgid "Threshold:"
 msgid "Threshold: "
@@ -41672,6 +41673,49 @@ msgstr "नामांकित रंग "
 #, fuzzy, kde-format
 msgid "Similar Color Selection Tool"
 msgstr "चयन घोकचाबू"
+
+#. i18n: context: Actions (Magnetic Selection Tool), ActionCollection (Tools)
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.action:4
+#, fuzzy, kde-format
+#| msgid "Grow Selection"
+msgctxt "action"
+msgid "Magnetic Selection Tool"
+msgstr "चयन बढाउ"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:60
+#, fuzzy, kde-format
+#| msgid "Grow Selection"
+msgid "Magnetic Selection"
+msgstr "चयन बढाउ"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:441
+#, fuzzy
+#| msgid "Grow Selection"
+msgctxt "(qtundo-format)"
+msgid "Magnetic Selection"
+msgstr "चयन बढाउ"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:623
+#, fuzzy, kde-format
+msgid "Filter Radius: "
+msgstr "आँशिक"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:647
+#, fuzzy, kde-format
+#| msgid "Vertical:"
+msgid "Search Radius: "
+msgstr "उर्ध्वाधर"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:660
+#, fuzzy, kde-format
+msgid "Anchor Gap: "
+msgstr "स्वचालित"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.h:106
+#, fuzzy, kde-format
+#| msgid "Grow Selection"
+msgid "Magnetic Selection Tool"
+msgstr "चयन बढाउ"
 
 #. i18n: context: Actions (Path Selection Tool), ActionCollection (Tools)
 #: plugins/tools/selectiontools/KisToolSelectPath.action:4
@@ -61405,11 +61449,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Select by Brush"
 #~ msgstr "आँशिक"
-
-#, fuzzy
-#~| msgid "Grow Selection"
-#~ msgid "Magnetic Selection"
-#~ msgstr "चयन बढाउ"
 
 #, fuzzy
 #~| msgid "Duplicate"
