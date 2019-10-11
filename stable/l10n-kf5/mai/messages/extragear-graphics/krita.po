@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-10 07:44+0200\n"
+"POT-Creation-Date: 2019-10-11 07:58+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -28253,23 +28253,18 @@ msgstr ""
 msgid "&Custom:"
 msgstr "पसंदीदा"
 
-#: plugins/extensions/separate_channels/dlg_separate.cc:39
+#: plugins/extensions/separate_channels/dlg_separate.cc:41
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:74
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:86
 #, kde-format
 msgid "Separate Image"
 msgstr ""
 
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:210
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:203
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Separate Image"
 msgstr "चित्र मापू"
-
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:238
-#, kde-format
-msgid "Export Layer"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/extensions/separate_channels/wdg_separations.ui:19
@@ -28296,62 +28291,55 @@ msgstr "नकल"
 msgid "Flatten all layers before separation"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpOutput)
-#: plugins/extensions/separate_channels/wdg_separations.ui:84
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:46
-#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:68
-#: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/outputwidget.py:28
-#, kde-format
-msgid "Output"
-msgstr "आउटपुट"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioLayers)
-#: plugins/extensions/separate_channels/wdg_separations.ui:90
-#, fuzzy, kde-format
-msgid "To layers"
-msgstr "परत घसकाबू"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioImages)
-#: plugins/extensions/separate_channels/wdg_separations.ui:100
-#, fuzzy, kde-format
-msgid "To images"
-msgstr "चित्र"
-
 #. i18n: ectx: property (title), widget (QGroupBox, grpAlpha)
-#: plugins/extensions/separate_channels/wdg_separations.ui:112
+#: plugins/extensions/separate_channels/wdg_separations.ui:86
 #, fuzzy, kde-format
 msgid "Alpha Options"
 msgstr "विकल्प"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioCopyAlpha)
-#: plugins/extensions/separate_channels/wdg_separations.ui:118
+#: plugins/extensions/separate_channels/wdg_separations.ui:92
 #, kde-format
 msgid "Copy alpha channel to each separated channel as an alpha channel"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioDiscardAlpha)
-#: plugins/extensions/separate_channels/wdg_separations.ui:125
+#: plugins/extensions/separate_channels/wdg_separations.ui:99
 #, kde-format
 msgid "Discard alpha channel"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioSeparateAlpha)
-#: plugins/extensions/separate_channels/wdg_separations.ui:135
+#: plugins/extensions/separate_channels/wdg_separations.ui:109
 #, kde-format
 msgid "Create separate separation from alpha channel"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDownscale)
-#: plugins/extensions/separate_channels/wdg_separations.ui:145
+#: plugins/extensions/separate_channels/wdg_separations.ui:119
 #, kde-format
 msgid "Downscale to 8-bit before separating"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkColors)
-#: plugins/extensions/separate_channels/wdg_separations.ui:152
+#: plugins/extensions/separate_channels/wdg_separations.ui:126
 #, kde-format
 msgid "Output to color, not grayscale"
 msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkActivateCurrentChannel)
+#: plugins/extensions/separate_channels/wdg_separations.ui:133
+#, kde-format
+msgid ""
+"Activate only the current channel for the new node, deactivate all other "
+"channels."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkActivateCurrentChannel)
+#: plugins/extensions/separate_channels/wdg_separations.ui:136
+#, fuzzy, kde-format
+msgid "Activate the current channel"
+msgstr "नकल"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
@@ -38801,6 +38789,12 @@ msgstr "दस्तावेज खोलू"
 msgid "Please specify a document by opening it before reloading"
 msgstr ""
 
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:46
+#: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:68
+#: plugins/python/scripter/ui_scripter/tabwidgets/outputwidget/outputwidget.py:28
+msgid "Output"
+msgstr "आउटपुट"
+
 #: plugins/python/scripter/ui_scripter/actions/runaction/runaction.py:50
 msgid "Run"
 msgstr ""
@@ -42213,6 +42207,14 @@ msgstr "संतृप्ति"
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgid "To layers"
+#~ msgstr "परत घसकाबू"
+
+#, fuzzy
+#~ msgid "To images"
+#~ msgstr "चित्र"
 
 #~ msgid "File not found"
 #~ msgstr "फाइल नहि भेटल"
@@ -46921,11 +46923,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Move an action up"
 #~ msgstr "परत घसकाबू"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete the current action"
-#~ msgstr "नकल"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
