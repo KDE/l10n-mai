@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-11 03:29+0200\n"
+"POT-Creation-Date: 2019-10-12 03:20+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -329,6 +329,71 @@ msgstr ""
 #, kde-format
 msgid "Delete All"
 msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:51
+#, fuzzy, kde-format
+#| msgctxt "Status of message unknown."
+#| msgid "(unknown)"
+msgid "Unknown"
+msgstr "(अज्ञात)"
+
+#: dkim-verify/dkimwidgetinfo.cpp:54
+#, kde-format
+msgid "KDIM: valid"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:57
+#, kde-format
+msgid "KDIM: invalid"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:60
+#, kde-format
+msgid "KDIM: Unsigned"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:74
+#, kde-format
+msgid "Body Hash was corrupted."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:79
+#, kde-format
+msgid "Missing header From."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:82
+#, fuzzy, kde-format
+#| msgid "Show Details"
+msgid "Missing signature."
+msgstr "विवरण देखाबू"
+
+#: dkim-verify/dkimwidgetinfo.cpp:95
+#, kde-format
+msgid "The public key was revoked."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:100
+#, kde-format
+msgid "Hash Algorithm is insupported."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:113
+#, fuzzy, kde-format
+#| msgid "Hide Details"
+msgid "Signature expired"
+msgstr "विवरणसभ नुकाबू"
+
+#: dkim-verify/dkimwidgetinfo.cpp:116
+#, kde-format
+msgid "Signature created in the future"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:119
+#, fuzzy, kde-format
+#| msgid "Show Details"
+msgid "Signature too small"
+msgstr "विवरण देखाबू"
 
 #: header/grantleeheaderformatter.cpp:169
 #, kde-format
@@ -2083,11 +2148,6 @@ msgid "&Previous Card"
 msgstr "पछिला"
 
 #, fuzzy
-#~| msgid "Hide Details"
-#~ msgid "Signature Expired"
-#~ msgstr "विवरणसभ नुकाबू"
-
-#, fuzzy
 #~| msgid "Save Attachment"
 #~ msgid "Hide attachment list."
 #~ msgstr "संलग्नक सहेजू"
@@ -2154,12 +2214,6 @@ msgstr "पछिला"
 
 #~ msgid "Case sensitive"
 #~ msgstr "स्थितिक प्रति संवेदनशील"
-
-#, fuzzy
-#~| msgctxt "Status of message unknown."
-#~| msgid "(unknown)"
-#~ msgid "Unknown"
-#~ msgstr "(अज्ञात)"
 
 #, fuzzy
 #~| msgid "Copy"
