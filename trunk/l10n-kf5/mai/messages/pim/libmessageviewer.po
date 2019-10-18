@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-17 03:15+0200\n"
+"POT-Creation-Date: 2019-10-18 03:25+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -330,88 +330,126 @@ msgstr ""
 msgid "Delete All"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:61
+#: dkim-verify/dkimwidgetinfo.cpp:70
 #, fuzzy, kde-format
 #| msgctxt "Status of message unknown."
 #| msgid "(unknown)"
 msgid "Unknown"
 msgstr "(अज्ञात)"
 
-#: dkim-verify/dkimwidgetinfo.cpp:64
+#: dkim-verify/dkimwidgetinfo.cpp:73
 #, kde-format
 msgid "KDIM: valid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:67
+#: dkim-verify/dkimwidgetinfo.cpp:80
 #, kde-format
 msgid "KDIM: invalid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:70
+#: dkim-verify/dkimwidgetinfo.cpp:83
 #, kde-format
 msgid "KDIM: Unsigned"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:84
+#: dkim-verify/dkimwidgetinfo.cpp:99
 #, kde-format
 msgid "Body Hash was corrupted."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:87
+#: dkim-verify/dkimwidgetinfo.cpp:102
 #, kde-format
 msgid "The domain doesn't exist."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:90
+#: dkim-verify/dkimwidgetinfo.cpp:105
 #, kde-format
 msgid "Missing header From."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:93
+#: dkim-verify/dkimwidgetinfo.cpp:108
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Missing signature."
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:96
+#: dkim-verify/dkimwidgetinfo.cpp:111
 #, fuzzy, kde-format
 #| msgid "Hide Details"
 msgid "Invalid query method."
 msgstr "विवरणसभ नुकाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:103
+#: dkim-verify/dkimwidgetinfo.cpp:114
 #, kde-format
-msgid "Unknow Body Hash Algorithm."
+msgid "Invalid header^ canonolization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:108
+#: dkim-verify/dkimwidgetinfo.cpp:117
+#, kde-format
+msgid "Invalid body canonolization."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:120
+#, kde-format
+msgid "Unknown Body Hash Algorithm."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:123
+#, fuzzy, kde-format
+#| msgid "Show Details"
+msgid "Signature algorithm is invalid."
+msgstr "विवरण देखाबू"
+
+#: dkim-verify/dkimwidgetinfo.cpp:126
 #, kde-format
 msgid "The public key was revoked."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:113
+#: dkim-verify/dkimwidgetinfo.cpp:129
+#, fuzzy, kde-format
+#| msgid "Show Details"
+msgid "Signature is too large."
+msgstr "विवरण देखाबू"
+
+#: dkim-verify/dkimwidgetinfo.cpp:132
 #, kde-format
 msgid "Hash Algorithm is unsupported."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:126
+#: dkim-verify/dkimwidgetinfo.cpp:137
+#, fuzzy, kde-format
+#| msgid "Save Attachment"
+msgid "Impossible to verify signature."
+msgstr "संलग्नक सहेजू"
+
+#: dkim-verify/dkimwidgetinfo.cpp:140
+#, kde-format
+msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:143
+#, kde-format
+msgid "The signing domain is only testing DKIM."
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:152
 #, fuzzy, kde-format
 #| msgid "Hide Details"
 msgid "Signature expired"
 msgstr "विवरणसभ नुकाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:129
+#: dkim-verify/dkimwidgetinfo.cpp:155
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:132
+#: dkim-verify/dkimwidgetinfo.cpp:158
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Signature too small"
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:135
+#: dkim-verify/dkimwidgetinfo.cpp:161
 #, kde-format
 msgid "Hash Algorithm unsafe (sha1)"
 msgstr ""
