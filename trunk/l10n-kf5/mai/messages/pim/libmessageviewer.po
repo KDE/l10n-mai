@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:26+0200\n"
+"POT-Creation-Date: 2019-10-26 03:03+0200\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -339,7 +339,7 @@ msgstr "(अज्ञात)"
 
 #: dkim-verify/dkimwidgetinfo.cpp:83
 #, kde-format
-msgid "DKIM: valid (Signed by %1)"
+msgid "DKIM: valid (signed by %1)"
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:90
@@ -443,7 +443,7 @@ msgstr ""
 msgid "Impossible to download key."
 msgstr "संलग्नक सहेजू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:164 dkim-verify/dkimwidgetinfo.cpp:185
+#: dkim-verify/dkimwidgetinfo.cpp:164 dkim-verify/dkimwidgetinfo.cpp:188
 #, kde-format
 msgid "Hash Algorithm unsafe (sha1)"
 msgstr ""
@@ -453,18 +453,23 @@ msgstr ""
 msgid "AUID is not in a subdomain of SDID"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:176
+#: dkim-verify/dkimwidgetinfo.cpp:170
+#, kde-format
+msgid "Problem during converting public key"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:179
 #, fuzzy, kde-format
 #| msgid "Hide Details"
 msgid "Signature expired"
 msgstr "विवरणसभ नुकाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:179
+#: dkim-verify/dkimwidgetinfo.cpp:182
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:182
+#: dkim-verify/dkimwidgetinfo.cpp:185
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Signature too small"
