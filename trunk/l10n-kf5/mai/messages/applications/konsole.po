@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-26 02:27+0200\n"
+"POT-Creation-Date: 2019-10-28 02:29+0100\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1221,8 +1221,9 @@ msgstr "आरंभिक डिरेक्ट्री क' लेल ब्�
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
 #: EditProfileGeneralPage.ui:155
-#, kde-format
-msgid "Start in same directory as current tab"
+#, fuzzy, kde-format
+#| msgid "Start in same directory as current tab"
+msgid "Start in same directory as current session"
 msgstr "वर्तमान टैबक ओही डिरेक्ट्री मे प्रारंभ करू"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -2300,7 +2301,7 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:605 MainWindow.cpp:624
+#: MainWindow.cpp:600 MainWindow.cpp:619
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2311,28 +2312,28 @@ msgid_plural ""
 msgstr[0] "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 msgstr[1] "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: MainWindow.cpp:611 MainWindow.cpp:630 MainWindow.cpp:648
+#: MainWindow.cpp:606 MainWindow.cpp:625 MainWindow.cpp:643
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "बन्न करबाक पुष्टि करू"
 
-#: MainWindow.cpp:613 MainWindow.cpp:632 MainWindow.cpp:649
+#: MainWindow.cpp:608 MainWindow.cpp:627 MainWindow.cpp:644
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "कंसोल"
 
-#: MainWindow.cpp:635 MainWindow.cpp:652
+#: MainWindow.cpp:630 MainWindow.cpp:647
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "मोजुदा टैब बन्न करू"
 
-#: MainWindow.cpp:645
+#: MainWindow.cpp:640
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -2340,7 +2341,7 @@ msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr "ई विंडो मे बहुत टैबसभ खुलल अछि, की अहाँ सच्चे बाहर होनाइ चाहैत छी?"
 
-#: MainWindow.cpp:759
+#: MainWindow.cpp:754
 #, fuzzy, kde-format
 #| msgctxt "@title:tab Generic, common options"
 #| msgid "General"
@@ -2348,7 +2349,7 @@ msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "सामान्य"
 
-#: MainWindow.cpp:764 Part.cpp:332
+#: MainWindow.cpp:759 Part.cpp:332
 #, fuzzy, kde-format
 #| msgctxt "@item This will be used as part of the file name"
 #| msgid "New Profile"
@@ -2356,14 +2357,14 @@ msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "नवीन प्रोफाइल"
 
-#: MainWindow.cpp:769
+#: MainWindow.cpp:764
 #, fuzzy, kde-format
 #| msgid "Tab Bar"
 msgctxt "@title Preferences page name"
 msgid "Tab Bar"
 msgstr "टैब पट्टी"
 
-#: MainWindow.cpp:774
+#: MainWindow.cpp:769
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
