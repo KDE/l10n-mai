@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-24 03:33+0200\n"
+"POT-Creation-Date: 2019-11-06 03:32+0100\n"
 "PO-Revision-Date: 2010-09-24 21:31+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -481,14 +481,22 @@ msgctxt "@info:tooltip"
 msgid "Use this button to install the missing debug symbols packages."
 msgstr ""
 
-#: backtracewidget.cpp:81
+#: backtracewidget.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Symbol installation is unavailable because the application was updated or "
+"uninstalled after it had been started."
+msgstr ""
+
+#: backtracewidget.cpp:87
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Use this button to copy the crash information (backtrace) to the clipboard."
 msgstr ""
 
-#: backtracewidget.cpp:88
+#: backtracewidget.cpp:94
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -496,7 +504,7 @@ msgid ""
 "useful if you want to take a look at it or to report the bug later."
 msgstr ""
 
-#: backtracewidget.cpp:109
+#: backtracewidget.cpp:115
 #, kde-format
 msgid ""
 "<h2>What is a \"backtrace\" ?</h2><p>A backtrace basically describes what "
@@ -506,14 +514,14 @@ msgid ""
 "are commonly used during interactive and post-mortem debugging.</p>"
 msgstr ""
 
-#: backtracewidget.cpp:129
+#: backtracewidget.cpp:135
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:648
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "लोड कए रहल..."
 
-#: backtracewidget.cpp:133
+#: backtracewidget.cpp:139
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
 #| msgid "Loading crash information... (this may take some time)"
@@ -521,7 +529,7 @@ msgctxt "@info:status"
 msgid "Generating backtrace... (this may take some time)"
 msgstr "क्रैश सूचनाक लोड कए रहल अछि... (this may take some time)"
 
-#: backtracewidget.cpp:183
+#: backtracewidget.cpp:189
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -529,13 +537,13 @@ msgid ""
 "information could not be fetched."
 msgstr ""
 
-#: backtracewidget.cpp:187
+#: backtracewidget.cpp:193
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be fetched."
 msgstr ""
 
-#: backtracewidget.cpp:189
+#: backtracewidget.cpp:195
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -544,7 +552,7 @@ msgid ""
 "debugger and click <interface>Reload</interface>."
 msgstr ""
 
-#: backtracewidget.cpp:229
+#: backtracewidget.cpp:235
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "This crash information is useful"
@@ -552,7 +560,7 @@ msgctxt "@info"
 msgid "The generated crash information is useful"
 msgstr "ई क्रैश सूचना उपयोगी अछि"
 
-#: backtracewidget.cpp:232
+#: backtracewidget.cpp:238
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "This crash information may be useful"
@@ -560,7 +568,7 @@ msgctxt "@info"
 msgid "The generated crash information may be useful"
 msgstr "ई क्रैश सूचना उपयोगी भए सकैत अछि"
 
-#: backtracewidget.cpp:235
+#: backtracewidget.cpp:241
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "This crash information is probably not useful"
@@ -568,7 +576,7 @@ msgctxt "@info"
 msgid "The generated crash information is probably not useful"
 msgstr "ई क्रैश सूचना उपयोगी संभवतः भए नहि सकैत अछि"
 
-#: backtracewidget.cpp:238
+#: backtracewidget.cpp:244
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "This crash information is not useful"
@@ -576,7 +584,7 @@ msgctxt "@info"
 msgid "The generated crash information is not useful"
 msgstr "ई क्रैश सूचना उपयोगी नहि अछि"
 
-#: backtracewidget.cpp:242
+#: backtracewidget.cpp:248
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -584,7 +592,7 @@ msgid ""
 "itself."
 msgstr ""
 
-#: backtracewidget.cpp:253
+#: backtracewidget.cpp:259
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -596,7 +604,7 @@ msgid ""
 "<interface>Reload</interface> button."
 msgstr ""
 
-#: backtracewidget.cpp:270
+#: backtracewidget.cpp:276
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -606,19 +614,19 @@ msgid ""
 "button."
 msgstr ""
 
-#: backtracewidget.cpp:286
+#: backtracewidget.cpp:292
 #, kde-format
 msgctxt "@info:status"
 msgid "The debugger has quit unexpectedly."
 msgstr ""
 
-#: backtracewidget.cpp:289 backtracewidget.cpp:304
+#: backtracewidget.cpp:295 backtracewidget.cpp:310
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be generated."
 msgstr ""
 
-#: backtracewidget.cpp:292
+#: backtracewidget.cpp:298
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -626,7 +634,7 @@ msgid ""
 "interface> button."
 msgstr ""
 
-#: backtracewidget.cpp:300
+#: backtracewidget.cpp:306
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -634,7 +642,7 @@ msgid ""
 "strong>"
 msgstr ""
 
-#: backtracewidget.cpp:306
+#: backtracewidget.cpp:312
 #, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
@@ -642,20 +650,20 @@ msgid ""
 "the <interface>Reload</interface> button.</strong>"
 msgstr ""
 
-#: backtracewidget.cpp:365
+#: backtracewidget.cpp:371
 #, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr ""
 
-#: backtracewidget.cpp:397
+#: backtracewidget.cpp:403
 #, kde-format
 msgid ""
 "The packages containing debug information for the following application and "
 "libraries are missing:"
 msgstr ""
 
-#: backtracewidget.cpp:406
+#: backtracewidget.cpp:412
 #, kde-format
 msgctxt "messagebox title"
 msgid "Missing debug information packages"
@@ -2280,11 +2288,23 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
+"<para>The reporting assistant is disabled because the crashed application "
+"appears to have been updated or uninstalled since it had been started. This "
+"prevents accurate crash reporting and can also be the cause of this crash.</"
+"para><para>After updating it is always a good idea to log out and back in to "
+"make sure the update is fully applied and will not cause any side effects.</"
+"para>"
+msgstr ""
+
+#: drkonqidialog.cpp:140
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
 "<para>You can help us improve KDE Software by reporting this error.<nl /"
 "><link url='%1'>Learn more about bug reporting.</link></para>"
 msgstr ""
 
-#: drkonqidialog.cpp:138
+#: drkonqidialog.cpp:146
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2292,14 +2312,14 @@ msgid ""
 "does not provide a bug reporting address.</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:147
+#: drkonqidialog.cpp:155
 #, fuzzy, kde-format
 #| msgid "Show details"
 msgctxt "@label"
 msgid "Details:"
 msgstr "विवरण:"
 
-#: drkonqidialog.cpp:150
+#: drkonqidialog.cpp:158
 #, kde-kuit-format
 msgctxt "@info Note the time information is divided into date and time parts"
 msgid ""
@@ -2307,7 +2327,7 @@ msgid ""
 "Time: %5 %6</para>"
 msgstr ""
 
-#: drkonqidialog.cpp:180
+#: drkonqidialog.cpp:188
 #, fuzzy, kde-format
 #| msgid "&Debugger"
 msgctxt ""
@@ -2316,13 +2336,13 @@ msgctxt ""
 msgid "&Debug"
 msgstr "डिबग"
 
-#: drkonqidialog.cpp:182
+#: drkonqidialog.cpp:190
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
 msgstr ""
 
-#: drkonqidialog.cpp:204
+#: drkonqidialog.cpp:212
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
@@ -2330,13 +2350,13 @@ msgctxt "@action:button"
 msgid "Report &Bug"
 msgstr "रिपोर्ट बग"
 
-#: drkonqidialog.cpp:206
+#: drkonqidialog.cpp:214
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
 msgstr "बग रिपोर्ट मद्दतिकएनिहार"
 
-#: drkonqidialog.cpp:216
+#: drkonqidialog.cpp:224
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
@@ -2344,19 +2364,19 @@ msgctxt "@action:button"
 msgid "&Restart Application"
 msgstr "अनुप्रयोग फेर आरंभ करू"
 
-#: drkonqidialog.cpp:218
+#: drkonqidialog.cpp:226
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
 msgstr ""
 
-#: drkonqidialog.cpp:230
+#: drkonqidialog.cpp:238
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
 msgstr ""
 
-#: drkonqidialog.cpp:240
+#: drkonqidialog.cpp:248
 #, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"
