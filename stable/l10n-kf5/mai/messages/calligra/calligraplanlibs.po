@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-16 07:49+0100\n"
+"POT-Creation-Date: 2019-11-09 02:31+0100\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -33,9 +33,10 @@ msgid "Your emails"
 msgstr "संसाधन"
 
 #: kernel/KPlatoXmlLoaderBase.cpp:1082 kernel/kptdocuments.cpp:291
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Documents"
 msgid "Document loaded, URL=%1"
-msgstr ""
+msgstr "दस्तावेज"
 
 #: kernel/kptaccount.cpp:903 models/kptresourcemodel.cpp:516
 #, fuzzy, kde-format
@@ -51,9 +52,10 @@ msgstr "अपरिभाषित"
 
 #: kernel/kptcalendar.cpp:101 kernel/kptcalendar.cpp:111
 #: ui/kptcalendareditor.cpp:204 ui/kptcalendareditor.cpp:663
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Work"
 msgid "Non-working"
-msgstr ""
+msgstr "कामकाज"
 
 #: kernel/kptcalendar.cpp:103 kernel/kptcalendar.cpp:111
 #, fuzzy, kde-format
@@ -103,10 +105,12 @@ msgid "%1h:%2m"
 msgstr ""
 
 #: kernel/kptduration.cpp:191
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "1=page number, 2=last page number"
+#| msgid "%1 (%2)"
 msgctxt "<hours>h:<minutes>m"
 msgid "%1h"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: kernel/kptduration.cpp:219
 #, kde-format
@@ -121,10 +125,12 @@ msgid "%1d %2h"
 msgstr ""
 
 #: kernel/kptduration.cpp:223
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "1=page number, 2=last page number"
+#| msgid "%1 (%2)"
 msgctxt "<days>d <hours>h:<minutes>m"
 msgid "%1d"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: kernel/kptduration.cpp:284
 #, kde-format
@@ -187,9 +193,10 @@ msgstr "मेटाबू"
 
 #: kernel/kptglobal.cpp:33 kernel/kptnode.cpp:620 kernel/kptschedule.cpp:1903
 #: models/kptschedulemodel.cpp:853
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Not scheduled"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptglobal.cpp:35 models/kptschedulemodel.cpp:853
 #: models/kptschedulemodel.cpp:1001
@@ -199,9 +206,10 @@ msgid "Scheduled"
 msgstr "नियत:"
 
 #: kernel/kptglobal.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Resource overbooked"
-msgstr ""
+msgstr "संसाधन"
 
 #: kernel/kptglobal.cpp:39
 #, fuzzy, kde-format
@@ -210,14 +218,16 @@ msgid "Resource not available"
 msgstr "केओ विवरण उपलब्ध नहि"
 
 #: kernel/kptglobal.cpp:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "No resource allocated"
-msgstr ""
+msgstr "संसाधन"
 
 #: kernel/kptglobal.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Constraint"
 msgid "Cannot fulfill constraints"
-msgstr ""
+msgstr "निर्धारक"
 
 #: kernel/kptglobal.cpp:45
 #, kde-format
@@ -273,14 +283,16 @@ msgstr "काज"
 #. i18n: ectx: property (text), item, widget (KComboBox, estimateType)
 #: kernel/kptnode.cpp:158 ui/kpttaskgeneralpanelbase.ui:472
 #: ui/TasksGeneralPanel.ui:424
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Milestone"
-msgstr ""
+msgstr "विवरण"
 
 #: kernel/kptnode.cpp:159
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Product"
 msgid "Periodic"
-msgstr ""
+msgstr "उत्पाद"
 
 #: kernel/kptnode.cpp:160
 #, kde-format
@@ -300,26 +312,30 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
 #: kernel/kptnode.cpp:731 ui/kpttaskgeneralpanelbase.ui:227
 #: ui/TasksGeneralPanel.ui:179
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Not Started"
 msgid "Must Start On"
-msgstr ""
+msgstr "प्रारंभ नहि भेल"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
 #: kernel/kptnode.cpp:732 ui/kpttaskgeneralpanelbase.ui:232
 #: ui/TasksGeneralPanel.ui:184
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Must Finish On"
-msgstr ""
+msgstr "समाप्त"
 
 #: kernel/kptnode.cpp:733
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Start Not Earlier"
-msgstr ""
+msgstr "समाप्त"
 
 #: kernel/kptnode.cpp:734
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Finish Not Later"
-msgstr ""
+msgstr "समाप्त"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
 #: kernel/kptnode.cpp:735 ui/kpttaskgeneralpanelbase.ui:247
@@ -333,9 +349,10 @@ msgstr ""
 #: kernel/kptnode.cpp:1625 ui/kpttaskgeneralpanelbase.ui:462
 #: ui/performance/PerformanceStatusViewSettingsPanel.ui:142
 #: ui/TasksGeneralPanel.ui:414
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Effort"
-msgstr ""
+msgstr "गणना"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, estimateType)
 #: kernel/kptnode.cpp:1626 ui/kpttaskgeneralpanelbase.ui:467
@@ -360,14 +377,16 @@ msgstr "बेसी"
 
 #: kernel/kptproject.cpp:220 kernel/kptproject.cpp:326
 #: kernel/kptproject.cpp:356
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Initials"
 msgid "Init"
-msgstr ""
+msgstr "आरँभिक"
 
 #: kernel/kptproject.cpp:221
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Schedule project from: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:226 kernel/kptproject.cpp:332
 #: kernel/kptproject.cpp:366
@@ -384,10 +403,11 @@ msgstr "गणना"
 
 #: kernel/kptproject.cpp:232 kernel/kptproject.cpp:338
 #: kernel/kptproject.cpp:360
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Backwards"
 msgctxt "Schedule project backward"
 msgid "Backward"
-msgstr ""
+msgstr "पाछाँक तरफ"
 
 #: kernel/kptproject.cpp:233
 #, fuzzy, kde-format
@@ -403,9 +423,10 @@ msgid "Schedule"
 msgstr "नियत:"
 
 #: kernel/kptproject.cpp:237 kernel/kptproject.cpp:342
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Schedule tasks forward"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:239 kernel/kptproject.cpp:345
 #, fuzzy, kde-format
@@ -424,14 +445,16 @@ msgid "Finished project exactly on time: %1"
 msgstr ""
 
 #: kernel/kptproject.cpp:245 kernel/kptproject.cpp:352
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Finished project before time: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:327
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Schedule project forward from: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:333 kernel/kptproject.cpp:367
 #, fuzzy, kde-format
@@ -452,9 +475,10 @@ msgid "Calculate early start"
 msgstr "गणना"
 
 #: kernel/kptproject.cpp:357
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Schedule project backward from: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:364
 #, fuzzy, kde-format
@@ -469,14 +493,16 @@ msgid "Schedule tasks backward"
 msgstr ""
 
 #: kernel/kptproject.cpp:384
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Failed to finish project within target time"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:387
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Scheduled start: %1, target time: %2"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:390
 #, kde-format
@@ -499,9 +525,10 @@ msgid "Calculation took: %1"
 msgstr ""
 
 #: kernel/kptproject.cpp:765
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Start calculating forward"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:811
 #, fuzzy, kde-format
@@ -510,9 +537,10 @@ msgid "Finished calculating forward: %1 ms"
 msgstr "समाप्त"
 
 #: kernel/kptproject.cpp:829
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Start calculating backward"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:875
 #, fuzzy, kde-format
@@ -527,19 +555,22 @@ msgid "Start scheduling forward"
 msgstr "नियत:"
 
 #: kernel/kptproject.cpp:911
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Finished scheduling forward: %1 ms"
-msgstr ""
+msgstr "समाप्त"
 
 #: kernel/kptproject.cpp:930
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Start scheduling backward"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kptproject.cpp:950
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Finished scheduling backward: %1 ms"
-msgstr ""
+msgstr "समाप्त"
 
 #: kernel/kptproject.cpp:2678
 #, kde-format
@@ -548,21 +579,24 @@ msgstr "योजना"
 
 #. i18n: ectx: property (text), widget (QRadioButton, bFinishStart)
 #: kernel/kptrelation.cpp:92 ui/relationpanel.ui:93
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Finish-Start"
-msgstr ""
+msgstr "समाप्त"
 
 #. i18n: ectx: property (text), widget (QRadioButton, bFinishFinish)
 #: kernel/kptrelation.cpp:93 ui/relationpanel.ui:100
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Finish-Finish"
-msgstr ""
+msgstr "समाप्त"
 
 #. i18n: ectx: property (text), widget (QRadioButton, bStartStart)
 #: kernel/kptrelation.cpp:94 ui/relationpanel.ui:107
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Start date"
 msgid "Start-Start"
-msgstr ""
+msgstr "आरंभ दिनांक"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, type)
 #: kernel/kptresource.cpp:131 ui/kptresourceassignmentview.cpp:81
@@ -599,9 +633,10 @@ msgid "Team"
 msgstr ""
 
 #: kernel/kptresource.cpp:885
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No description available"
 msgid "Make appointments: Invalid time"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: kernel/kptresource.cpp:890 kernel/kptresource.cpp:948
 #: kernel/kptresource.cpp:1188 kernel/kptresource.cpp:1261
@@ -610,19 +645,22 @@ msgid "Resource %1 has no calendar defined"
 msgstr ""
 
 #: kernel/kptresource.cpp:912
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No description available"
 msgid "Make appointments: Node start time is not valid"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: kernel/kptresource.cpp:916
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No description available"
 msgid "Make appointments: Node end time is not valid"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: kernel/kptresource.cpp:962 kernel/kptresource.cpp:978
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No description available"
 msgid "Resource %1 not available in interval: %2 to %3"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: kernel/kptresource.cpp:2637
 #, kde-format
@@ -630,14 +668,16 @@ msgid "Could not match effort. Want: %1 got: %2"
 msgstr ""
 
 #: kernel/kptresource.cpp:2640
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Resource %1 available from %2 to %3"
-msgstr ""
+msgstr "संसाधन"
 
 #: kernel/kptschedule.cpp:156
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Execute"
 msgid "Expected"
-msgstr ""
+msgstr "चलाउ"
 
 #. i18n("Debug");
 #: kernel/kptschedule.cpp:1571
@@ -671,19 +711,21 @@ msgid "Scheduling"
 msgstr "नियत:"
 
 #: kernel/kpttask.cpp:1158
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Calculate early finish "
-msgstr ""
+msgstr "गणना"
 
 #: kernel/kpttask.cpp:1196 kernel/kpttask.cpp:1214 kernel/kpttask.cpp:1231
 #: kernel/kpttask.cpp:1254 kernel/kpttask.cpp:1280 kernel/kpttask.cpp:1287
 #: kernel/kpttask.cpp:1297 kernel/kpttask.cpp:1466 kernel/kpttask.cpp:1489
 #: kernel/kpttask.cpp:1504 kernel/kpttask.cpp:1527 kernel/kpttask.cpp:1536
 #: kernel/kpttask.cpp:1545 kernel/kpttask.cpp:1553
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgctxt "1=type of constraint"
 msgid "%1: Failed to meet constraint"
-msgstr ""
+msgstr "गणना"
 
 #: kernel/kpttask.cpp:1325 kernel/kpttask.cpp:1574 kernel/kpttask.cpp:1982
 #: kernel/kpttask.cpp:2344
@@ -692,9 +734,10 @@ msgid "Resource %1 booked from %2 to %3"
 msgstr ""
 
 #: kernel/kpttask.cpp:1331
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Early finish calculated: %1"
-msgstr ""
+msgstr "समाप्त"
 
 #: kernel/kpttask.cpp:1428
 #, fuzzy, kde-format
@@ -703,9 +746,11 @@ msgid "Calculate late start"
 msgstr "गणना"
 
 #: kernel/kpttask.cpp:1580
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Interval start time"
+#| msgid "Start"
 msgid "Late start calculated: %1"
-msgstr ""
+msgstr "प्रारंभ"
 
 #: kernel/kpttask.cpp:1674
 #, fuzzy, kde-format
@@ -714,9 +759,10 @@ msgid "Start schedule forward: %1 "
 msgstr "नियत:"
 
 #: kernel/kpttask.cpp:1676
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Schedule from start %1"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kpttask.cpp:1712 kernel/kpttask.cpp:1990 kernel/kpttask.cpp:2352
 #, fuzzy, kde-format
@@ -746,9 +792,10 @@ msgid "Effort not met. Estimate: %1, planned: %2"
 msgstr ""
 
 #: kernel/kpttask.cpp:1979 kernel/kpttask.cpp:2341
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Failed to schedule within project target time"
-msgstr ""
+msgstr "नियत:"
 
 #: kernel/kpttask.cpp:1985 kernel/kpttask.cpp:2347
 #, kde-format
@@ -756,14 +803,17 @@ msgid "Starting earlier than early start"
 msgstr ""
 
 #: kernel/kpttask.cpp:1988 kernel/kpttask.cpp:2350
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Interval start time"
+#| msgid "Start"
 msgid "Finishing later than late finish"
-msgstr ""
+msgstr "प्रारंभ"
 
 #: kernel/kpttask.cpp:1994
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Finished schedule forward: %1 ms"
-msgstr ""
+msgstr "समाप्त"
 
 #: kernel/kpttask.cpp:2084
 #, fuzzy, kde-format
@@ -772,16 +822,18 @@ msgid "Schedule from end time: %1"
 msgstr "नियत:"
 
 #: kernel/kpttask.cpp:2108
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule within late finish."
-msgstr ""
+msgstr "गणना"
 
 #: kernel/kpttask.cpp:2114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgctxt "1=type of constraint"
 msgid "%1: Failed to schedule within successors start time"
-msgstr ""
+msgstr "गणना"
 
 #: kernel/kpttask.cpp:2141 kernel/kpttask.cpp:2267
 #, fuzzy, kde-format
@@ -791,9 +843,10 @@ msgid "%1: Failed to schedule after early start."
 msgstr "गणना"
 
 #: kernel/kpttask.cpp:2419
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "No resource has been allocated"
-msgstr ""
+msgstr "संसाधन"
 
 #: kernel/kpttask.cpp:2580
 #, kde-format
@@ -1519,9 +1572,10 @@ msgstr ""
 #: ui/kptitemviewsettup.cpp:201 ui/kptitemviewsettup.cpp:285
 #: ui/kptresourceappointmentsview.cpp:105
 #: ui/performance/ProjectStatusView.cpp:184
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Options"
 msgid "Printing"
-msgstr ""
+msgstr "विकल्प"
 
 #: main/KoPrintingDialog_p.h:151
 #, fuzzy, kde-format
@@ -1575,9 +1629,11 @@ msgid "Previous year"
 msgstr ""
 
 #: models/kcalendar/kdatepicker.cpp:308
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete Account"
+#| msgid_plural "Delete %1 Accounts"
 msgid "Next month"
-msgstr ""
+msgstr "खाता मिटाबू"
 
 #: models/kcalendar/kdatepicker.cpp:309
 #, kde-format
@@ -1585,9 +1641,10 @@ msgid "Previous month"
 msgstr ""
 
 #: models/kcalendar/kdatepicker.cpp:310
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete Selection"
 msgid "Select a week"
-msgstr ""
+msgstr "चयन मेटाउ"
 
 #: models/kcalendar/kdatepicker.cpp:311
 #, fuzzy, kde-format
@@ -1869,10 +1926,12 @@ msgstr "U"
 
 #: models/kptcalendarmodel.cpp:891 models/kptcalendarmodel.cpp:1111
 #: models/kptcalendarmodel.cpp:1120
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Working"
+#| msgid "W"
 msgctxt "NonWorking"
 msgid "NW"
-msgstr ""
+msgstr "W"
 
 #: models/kptcalendarmodel.cpp:892
 #, kde-format
@@ -1888,10 +1947,12 @@ msgid "Modify calendar state"
 msgstr "विवरण"
 
 #: models/kptcalendarmodel.cpp:942
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "1=page number, 2=last page number"
+#| msgid "%1 (%2)"
 msgctxt "1=time 2=The number of hours of work duration (non integer)"
 msgid "%1, %2 hours"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: models/kptcalendarmodel.cpp:997 models/kptcalendarmodel.cpp:1163
 #, fuzzy, kde-kuit-format
@@ -1950,10 +2011,11 @@ msgid "Date"
 msgstr "दिनांक"
 
 #: models/kptcommonstrings.cpp:30
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "The name of the task"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:31
 #, fuzzy, kde-kuit-format
@@ -1977,10 +2039,11 @@ msgid "List of resource allocations"
 msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:34
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "The timing constraint type"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:35
 #, fuzzy, kde-kuit-format
@@ -2034,34 +2097,39 @@ msgid ""
 msgstr ""
 
 #: models/kptcommonstrings.cpp:42
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "Account for running costs"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:43
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Startup"
 msgctxt "@info:tooltip"
 msgid "Account for cost incurred at startup of the task"
-msgstr ""
+msgstr "प्रारंभमे"
 
 #: models/kptcommonstrings.cpp:44
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "No description available"
 msgctxt "@info:tooltip"
 msgid "The cost incurred at startup of the task"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptcommonstrings.cpp:45
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Shutdown"
 msgctxt "@info:tooltip"
 msgid "Account for cost incurred at shutdown of the task"
-msgstr ""
+msgstr "बन्न करू"
 
 #: models/kptcommonstrings.cpp:46
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "No description available"
 msgctxt "@info:tooltip"
 msgid "The cost incurred at shutdown of the task"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptcommonstrings.cpp:48
 #, fuzzy, kde-kuit-format
@@ -2102,16 +2170,18 @@ msgid "Latest finish time allowed by dependencies"
 msgstr ""
 
 #: models/kptcommonstrings.cpp:55
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "The planned duration"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptcommonstrings.cpp:56
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Remove"
 msgctxt "@info:tooltip"
 msgid "The variance of the duration"
-msgstr ""
+msgstr "हटाबू"
 
 #: models/kptcommonstrings.cpp:57
 #, kde-kuit-format
@@ -2225,10 +2295,11 @@ msgid "Actual effort"
 msgstr "प्रारंभ नहि भेल"
 
 #: models/kptcommonstrings.cpp:80
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "Remaining effort"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptcommonstrings.cpp:81
 #, fuzzy, kde-kuit-format
@@ -2251,22 +2322,25 @@ msgid "Time when task was actually started"
 msgstr ""
 
 #: models/kptcommonstrings.cpp:84
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Shows if the task is started"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptcommonstrings.cpp:85
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Finished"
 msgctxt "@info:tooltip"
 msgid "Time when task was actually finished"
-msgstr ""
+msgstr "समाप्त"
 
 #: models/kptcommonstrings.cpp:86
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Finished"
 msgctxt "@info:tooltip"
 msgid "Shows if the task is finished"
-msgstr ""
+msgstr "समाप्त"
 
 #: models/kptcommonstrings.cpp:87
 #, fuzzy, kde-kuit-format
@@ -2290,22 +2364,25 @@ msgid "Calculated estimate variance"
 msgstr "गणना"
 
 #: models/kptcommonstrings.cpp:91 models/kptcommonstrings.cpp:96
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Optimistic estimate"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:92 models/kptcommonstrings.cpp:97
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Pessimistic estimate"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:93
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Type of estimate"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:94
 #, kde-kuit-format
@@ -2314,10 +2391,11 @@ msgid "The calendar used when estimate type is Duration"
 msgstr ""
 
 #: models/kptcommonstrings.cpp:95
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "The most likely estimate"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:98
 #, kde-kuit-format
@@ -2333,10 +2411,11 @@ msgid "Shows the tasks scheduling status"
 msgstr "नियत:"
 
 #: models/kptcommonstrings.cpp:101
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Finished"
 msgctxt "@info:tooltip"
 msgid "The task has not been scheduled"
-msgstr ""
+msgstr "समाप्त"
 
 #: models/kptcommonstrings.cpp:102
 #, kde-format
@@ -2351,10 +2430,11 @@ msgid "A resource assigned to this task is overbooked"
 msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:104
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "A resource assigned to this task is not available"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:105
 #, kde-kuit-format
@@ -2394,15 +2474,17 @@ msgid "Actual Cost of Work Performed"
 msgstr ""
 
 #: models/kptcommonstrings.cpp:112
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Schedule performance index (BCWP/BCWS)"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptcommonstrings.cpp:114
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "The name of the resource or resource group"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:115
 #, kde-kuit-format
@@ -2411,22 +2493,25 @@ msgid "The scope of the resource or resource group"
 msgstr ""
 
 #: models/kptcommonstrings.cpp:116
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Remove"
 msgctxt "@info:tooltip"
 msgid "The type of the resource or resource group"
-msgstr ""
+msgstr "हटाबू"
 
 #: models/kptcommonstrings.cpp:117
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "The initials of the resource"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:118
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "The e-mail address of the resource"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:119
 #, kde-kuit-format
@@ -2472,16 +2557,18 @@ msgid "The account where the resource cost is accumulated"
 msgstr ""
 
 #: models/kptcommonstrings.cpp:128
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "The name of the account"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:129
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Remove"
 msgctxt "@info:tooltip"
 msgid "The description of the account"
-msgstr ""
+msgstr "हटाबू"
 
 #: models/kptcommonstrings.cpp:131
 #, fuzzy, kde-kuit-format
@@ -2618,16 +2705,18 @@ msgid "The type of the document"
 msgstr "हटाबू"
 
 #: models/kptcommonstrings.cpp:182
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Remove"
 msgctxt "@info:tooltip"
 msgid "The status of the document"
-msgstr ""
+msgstr "हटाबू"
 
 #: models/kptcommonstrings.cpp:183
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Defines how this document is sent"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:185
 #, fuzzy, kde-kuit-format
@@ -2651,22 +2740,25 @@ msgid "The name of the required task"
 msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:189
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "The name of the dependent task"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptcommonstrings.cpp:190
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Remove"
 msgctxt "@info:tooltip"
 msgid "The type of relation"
-msgstr ""
+msgstr "हटाबू"
 
 #: models/kptcommonstrings.cpp:191
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "The relations time lag"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptcommonstrings.cpp:195 ui/kptdocumentspanel.cpp:221
 #, fuzzy
@@ -2690,9 +2782,10 @@ msgid "Type"
 msgstr "प्रकार"
 
 #: models/kptdocumentmodel.cpp:202
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Send"
 msgid "Send As"
-msgstr ""
+msgstr "पठाबू"
 
 #: models/kptdocumentmodel.cpp:203
 #, kde-format
@@ -2730,10 +2823,11 @@ msgstr "लागत"
 
 #: models/kptnodechartmodel.cpp:234
 #: models/reportgenerator/ReportGeneratorOdt.cpp:198
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgctxt "Effort based Budgeted Cost of Work Scheduled"
 msgid "BCWS Effort"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodechartmodel.cpp:235
 #: models/reportgenerator/ReportGeneratorOdt.cpp:199
@@ -2834,10 +2928,11 @@ msgid "Cost based Schedule Performance Index (BCWP/BCWS)"
 msgstr "नियत:"
 
 #: models/kptnodechartmodel.cpp:256
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Cost based Cost Performance Index (BCWP/ACWS)"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptnodechartmodel.cpp:257
 #, fuzzy, kde-kuit-format
@@ -2847,31 +2942,35 @@ msgid "Effort based Schedule Performance Index (BCWP/BCWS)"
 msgstr "नियत:"
 
 #: models/kptnodechartmodel.cpp:258
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Effort based Cost Performance Index (BCWP/ACWS)"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptnodechartmodel.cpp:496 models/kptnodeitemmodel.cpp:2364
 #: models/reportgenerator/ReportGeneratorOdt.cpp:174
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Cost"
 msgctxt "@title:column Budgeted Cost of Work Scheduled"
 msgid "BCWS"
-msgstr ""
+msgstr "लागत"
 
 #: models/kptnodechartmodel.cpp:497 models/kptnodeitemmodel.cpp:2365
 #: models/reportgenerator/ReportGeneratorOdt.cpp:175
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Cost"
 msgctxt "@title:column Budgeted Cost of Work Performed"
 msgid "BCWP"
-msgstr ""
+msgstr "लागत"
 
 #: models/kptnodechartmodel.cpp:498 models/kptnodeitemmodel.cpp:2366
 #: models/reportgenerator/ReportGeneratorOdt.cpp:176
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Cost"
 msgctxt "@title:column Actual Cost of Work Performed"
 msgid "ACWP"
-msgstr ""
+msgstr "लागत"
 
 #: models/kptnodechartmodel.cpp:499 models/kptnodeitemmodel.cpp:2367
 #: models/reportgenerator/ReportGeneratorOdt.cpp:177
@@ -2933,10 +3032,11 @@ msgid "<p><strong>%1: %2</strong></p><p>%3</p>"
 msgstr ""
 
 #: models/kptnodeitemmodel.cpp:170
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "No resources has been allocated"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptnodeitemmodel.cpp:177
 #, fuzzy, kde-kuit-format
@@ -2988,40 +3088,46 @@ msgid "Not applicable, constraint is Fixed Interval"
 msgstr ""
 
 #: models/kptnodeitemmodel.cpp:489
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "Estimated effort: %1"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:491
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Estimated duration: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptnodeitemmodel.cpp:540
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "Optimistic effort: %1"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:542
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Optimistic duration: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptnodeitemmodel.cpp:587
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "Pessimistic effort: %1"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:589
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Pessimistic duration: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptnodeitemmodel.cpp:660
 #, fuzzy, kde-kuit-format
@@ -3038,10 +3144,11 @@ msgid "Account for resource cost"
 msgstr "संसाधन"
 
 #: models/kptnodeitemmodel.cpp:696
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Startup"
 msgctxt "@info:tooltip"
 msgid "Account for task startup cost: %1"
-msgstr ""
+msgstr "प्रारंभमे"
 
 #: models/kptnodeitemmodel.cpp:697
 #, fuzzy, kde-kuit-format
@@ -3051,10 +3158,11 @@ msgid "Account for task startup cost"
 msgstr "प्रारंभमे"
 
 #: models/kptnodeitemmodel.cpp:748
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Shutdown"
 msgctxt "@info:tooltip"
 msgid "Account for task shutdown cost: %1"
-msgstr ""
+msgstr "बन्न करू"
 
 #: models/kptnodeitemmodel.cpp:749
 #, fuzzy, kde-kuit-format
@@ -3085,10 +3193,11 @@ msgid "Scheduled duration: %1"
 msgstr "नियत:"
 
 #: models/kptnodeitemmodel.cpp:877
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "PERT duration variance: %1"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:911
 #, fuzzy, kde-kuit-format
@@ -3098,16 +3207,18 @@ msgid "PERT estimate variance: %1"
 msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:953
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "PERT optimistic duration: %1"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:985
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Optimistic estimate: %1"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptnodeitemmodel.cpp:1018
 #, fuzzy, kde-kuit-format
@@ -3117,16 +3228,18 @@ msgid "PERT expected estimate: %1"
 msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:1059
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "PERT pessimistic duration: %1"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:1091
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Pessimistic estimate: %1"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptnodeitemmodel.cpp:1293
 #, fuzzy, kde-kuit-format
@@ -3202,9 +3315,10 @@ msgid "Not started"
 msgstr "प्रारंभ नहि भेल"
 
 #: models/kptnodeitemmodel.cpp:1368
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Project start"
 msgid "Can start"
-msgstr ""
+msgstr "प्रोजेक्ट शुरू"
 
 #: models/kptnodeitemmodel.cpp:1372
 #, fuzzy, kde-format
@@ -3304,10 +3418,11 @@ msgid "The task started at: %1"
 msgstr "प्रारंभ"
 
 #: models/kptnodeitemmodel.cpp:1470
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Finished"
 msgctxt "@info:tooltip"
 msgid "The task is not started"
-msgstr ""
+msgstr "समाप्त"
 
 #: models/kptnodeitemmodel.cpp:1492
 #, fuzzy, kde-kuit-format
@@ -3338,10 +3453,11 @@ msgid "Planned effort until %1: %2"
 msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:1554
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Not Started"
 msgctxt "@info:tooltip"
 msgid "Actual effort used up to %1: %2"
-msgstr ""
+msgstr "प्रारंभ नहि भेल"
 
 #: models/kptnodeitemmodel.cpp:1579
 #, fuzzy, kde-kuit-format
@@ -3393,10 +3509,11 @@ msgid "Failed to comply with a timing constraint"
 msgstr ""
 
 #: models/kptnodeitemmodel.cpp:1811
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Finished"
 msgctxt "@info:tooltip"
 msgid "This task has not been scheduled"
-msgstr ""
+msgstr "समाप्त"
 
 #: models/kptnodeitemmodel.cpp:1844
 #, kde-kuit-format
@@ -3437,10 +3554,11 @@ msgid "Budgeted Cost of Work Performed at %1: %2"
 msgstr ""
 
 #: models/kptnodeitemmodel.cpp:1970
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "Actual Cost of Work Performed at %1: %2"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptnodeitemmodel.cpp:1986
 #, fuzzy, kde-kuit-format
@@ -3457,16 +3575,18 @@ msgid "NA"
 msgstr ""
 
 #: models/kptnodeitemmodel.cpp:2068
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Tasks"
 msgctxt "@info:tooltip"
 msgid "Latest work package sent to %1 at %2"
-msgstr ""
+msgstr "काज"
 
 #: models/kptnodeitemmodel.cpp:2071
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Tasks"
 msgctxt "@info:tooltip"
 msgid "Latest work package received from %1 at %2"
-msgstr ""
+msgstr "काज"
 
 #: models/kptnodeitemmodel.cpp:2073 models/kptnodeitemmodel.cpp:2137
 #, fuzzy, kde-kuit-format
@@ -3476,10 +3596,11 @@ msgid "Not available"
 msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptnodeitemmodel.cpp:2132
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Tasks"
 msgctxt "@info:tooltip"
 msgid "Latest work package sent: %1"
-msgstr ""
+msgstr "काज"
 
 #: models/kptnodeitemmodel.cpp:2135
 #, fuzzy, kde-kuit-format
@@ -3503,16 +3624,18 @@ msgid "Responsible"
 msgstr "उत्तरदायी"
 
 #: models/kptnodeitemmodel.cpp:2291 models/kptresourcemodel.cpp:1712
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Not Started"
 msgctxt "@title:column"
 msgid "Allocation"
-msgstr ""
+msgstr "प्रारंभ नहि भेल"
 
 #: models/kptnodeitemmodel.cpp:2292
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "State"
 msgctxt "@title:column"
 msgid "Estimate Type"
-msgstr ""
+msgstr "स्थिति"
 
 #: models/kptnodeitemmodel.cpp:2293
 #, fuzzy, kde-kuit-format
@@ -3708,10 +3831,11 @@ msgid "Finish Float"
 msgstr "समाप्त"
 
 #: models/kptnodeitemmodel.cpp:2327
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@title:column"
 msgid "Assignments"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptnodeitemmodel.cpp:2330
 #, fuzzy, kde-kuit-format
@@ -3767,16 +3891,18 @@ msgid "Actual Effort"
 msgstr "प्रारंभ नहि भेल"
 
 #: models/kptnodeitemmodel.cpp:2341
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@title:column"
 msgid "Remaining Effort"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:2342
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@title:column"
 msgid "Planned Cost"
-msgstr ""
+msgstr "गणना"
 
 #: models/kptnodeitemmodel.cpp:2343
 #, fuzzy, kde-kuit-format
@@ -4173,9 +4299,11 @@ msgid "Task Module Parameters"
 msgstr "काज"
 
 #: models/kptnodeitemmodel.cpp:4079
+#, fuzzy
+#| msgid "Description"
 msgctxt "(qtundo-format)"
 msgid "Insert task module"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptnodeitemmodel.cpp:4137
 #, kde-format
@@ -4211,9 +4339,10 @@ msgid "Path"
 msgstr "पथ"
 
 #: models/kptpertcpmmodel.cpp:439 ui/kptscheduleeditor.cpp:747
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Critical"
 msgid "Critical Path"
-msgstr ""
+msgstr "गंभीर"
 
 #: models/kptpertcpmmodel.cpp:459
 #, kde-format
@@ -4221,9 +4350,10 @@ msgid "Critical"
 msgstr "गंभीर"
 
 #: models/kptpertcpmmodel.cpp:463
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Critical"
 msgid "Non-critical"
-msgstr ""
+msgstr "गंभीर"
 
 #: models/kptrelationmodel.cpp:137
 #, kde-format
@@ -4252,10 +4382,12 @@ msgstr "विवरण"
 #: models/kptresourceallocationmodel.cpp:162
 #: models/kptresourceallocationmodel.cpp:220
 #: models/kptresourceallocationmodel.cpp:680 models/kptresourcemodel.cpp:1730
-#, no-c-format, kde-format
+#, fuzzy, no-c-format, kde-format
+#| msgctxt "1=page number, 2=last page number"
+#| msgid "%1 (%2)"
 msgctxt "<value>%"
 msgid "%1%"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: models/kptresourceallocationmodel.cpp:169
 #: models/kptresourceallocationmodel.cpp:686 models/kptresourcemodel.cpp:1734
@@ -4290,16 +4422,18 @@ msgid ""
 msgstr ""
 
 #: models/kptresourceallocationmodel.cpp:271
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "There is %1 resource available in this group"
 msgid_plural "There are %1 resources available in this group"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "संसाधन"
+msgstr[1] "संसाधन"
 
 #: models/kptresourceallocationmodel.cpp:332
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Not Started"
 msgid "Allocation"
-msgstr ""
+msgstr "प्रारंभ नहि भेल"
 
 #: models/kptresourceallocationmodel.cpp:333
 #, fuzzy, kde-kuit-format
@@ -4316,9 +4450,10 @@ msgid "Required Resources"
 msgstr "संसाधन"
 
 #: models/kptresourceallocationmodel.cpp:346
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Resource allocation"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptresourceallocationmodel.cpp:347
 #, kde-kuit-format
@@ -4419,10 +4554,11 @@ msgid "Material resources cannot have required resources"
 msgstr ""
 
 #: models/kptresourceallocationmodel.cpp:860
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "Team resources cannot have required resources"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptresourceappointmentsmodel.cpp:589
 #, kde-format
@@ -4545,10 +4681,11 @@ msgid "Default (%1)"
 msgstr ""
 
 #: models/kptresourcemodel.cpp:282
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Delete Selection"
 msgctxt "@info:tooltip"
 msgid "A team resource does not have a calendar"
-msgstr ""
+msgstr "चयन मेटाउ"
 
 #: models/kptresourcemodel.cpp:284
 #, fuzzy, kde-kuit-format
@@ -4573,10 +4710,11 @@ msgid "Available from: %1"
 msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptresourcemodel.cpp:348
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "infor:tooltip"
 msgid "Available from project target start time: %1"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptresourcemodel.cpp:368
 #, fuzzy, kde-kuit-format
@@ -4634,14 +4772,16 @@ msgid "Limit (%)"
 msgstr ""
 
 #: models/kptresourcemodel.cpp:512
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No description available"
 msgid "Available From"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptresourcemodel.cpp:513
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "No description available"
 msgid "Available Until"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptresourcemodel.cpp:514
 #, kde-format
@@ -4793,16 +4933,18 @@ msgid "Modify schedule name"
 msgstr "विवरण"
 
 #: models/kptschedulemodel.cpp:443
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "The schedule is in Manual Mode, calculation must be initiated manually"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptschedulemodel.cpp:445
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Schedule:"
 msgctxt "@info:tooltip"
 msgid "The schedule is in Auto Mode, it will be calculated automatically"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptschedulemodel.cpp:449
 #, kde-kuit-format
@@ -4859,10 +5001,11 @@ msgid "Avoid overbooking resources"
 msgstr "संसाधन"
 
 #: models/kptschedulemodel.cpp:571
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Resource"
 msgctxt "@info:tooltip"
 msgid "Allow overbooking of resources"
-msgstr ""
+msgstr "संसाधन"
 
 #: models/kptschedulemodel.cpp:572
 #, fuzzy, kde-kuit-format
@@ -5054,16 +5197,18 @@ msgid "None"
 msgstr "किछु नहि"
 
 #: models/kptschedulemodel.cpp:887
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Scheduling granularity not supported"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptschedulemodel.cpp:891
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Selected scheduling granularity: %1"
-msgstr ""
+msgstr "विवरण"
 
 #: models/kptschedulemodel.cpp:916
 #, fuzzy
@@ -5101,14 +5246,16 @@ msgstr "विवरण"
 
 #. i18n("Calculate");
 #: models/kptschedulemodel.cpp:997
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Not Started"
 msgid "Planned Start"
-msgstr ""
+msgstr "प्रारंभ नहि भेल"
 
 #: models/kptschedulemodel.cpp:998
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Finished"
 msgid "Planned Finish"
-msgstr ""
+msgstr "समाप्त"
 
 #: models/kptschedulemodel.cpp:999
 #, fuzzy, kde-format
@@ -5149,9 +5296,10 @@ msgid "Tasks that should have been started"
 msgstr ""
 
 #: models/kpttaskstatusmodel.cpp:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
 msgid "Tasks that are running"
-msgstr ""
+msgstr "जमावट"
 
 #: models/kpttaskstatusmodel.cpp:62
 #, kde-format
@@ -5159,14 +5307,16 @@ msgid "Tasks that have finished during this period"
 msgstr ""
 
 #: models/kpttaskstatusmodel.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Next"
 msgid "Next Period"
-msgstr ""
+msgstr "अगिला"
 
 #: models/kpttaskstatusmodel.cpp:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Tasks that are scheduled to start next period"
-msgstr ""
+msgstr "नियत:"
 
 #: models/kptworkpackagemodel.cpp:83
 #, kde-format
@@ -5185,19 +5335,22 @@ msgid "Not available"
 msgstr "केओ विवरण उपलब्ध नहि"
 
 #: models/kptworkpackagemodel.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tasks"
 msgid "Work package sent at: %1"
-msgstr ""
+msgstr "काज"
 
 #: models/kptworkpackagemodel.cpp:114
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tasks"
 msgid "Work package transmission received at: %1"
-msgstr ""
+msgstr "काज"
 
 #: models/kptworkpackagemodel.cpp:141
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Task reported %1% completed"
-msgstr ""
+msgstr "विवरण"
 
 #: models/reportgenerator/ReportGenerator.cpp:81
 #, fuzzy, kde-format
@@ -5673,9 +5826,10 @@ msgstr "सामान्य"
 
 #: ui/kptaccountsviewconfigdialog.cpp:76 ui/kptitemviewsettup.cpp:141
 #: ui/kptitemviewsettup.cpp:215
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
 msgid "View Settings"
-msgstr ""
+msgstr "जमावट"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/kptaccountsviewconfigurepanelbase.ui:26
@@ -5789,9 +5943,10 @@ msgid "Project end"
 msgstr "प्रोजेक्ट"
 
 #: ui/kptcalendareditor.cpp:202 ui/kptcalendareditor.cpp:661
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Work"
 msgid "Work..."
-msgstr ""
+msgstr "कामकाज"
 
 #: ui/kptcalendareditor.cpp:276 ui/kptcalendareditor.cpp:306
 #, fuzzy
@@ -5820,14 +5975,16 @@ msgid ""
 msgstr ""
 
 #: ui/kptcalendareditor.cpp:646
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calendar"
 msgid "Add Calendar"
-msgstr ""
+msgstr "कैलेंडर"
 
 #: ui/kptcalendareditor.cpp:651
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calendar"
 msgid "Add Subcalendar"
-msgstr ""
+msgstr "कैलेंडर"
 
 #: ui/kptcalendareditor.cpp:656 ui/kptdependencyeditor.cpp:2357
 #: ui/kptresourceeditor.cpp:304 ui/kptscheduleeditor.cpp:318
@@ -5924,14 +6081,16 @@ msgid "Add Task"
 msgstr "काज"
 
 #: ui/kptdependencyeditor.cpp:2332
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Task"
 msgid "Add Task..."
-msgstr ""
+msgstr "काज"
 
 #: ui/kptdependencyeditor.cpp:2337
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Add Milestone..."
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptdependencyeditor.cpp:2343 ui/kpttaskeditor.cpp:880
 #: ui/kpttaskeditor.cpp:884
@@ -5941,20 +6100,23 @@ msgid "Add Sub-Task"
 msgstr "काज"
 
 #: ui/kptdependencyeditor.cpp:2347
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Task"
 msgid "Add Sub-Task..."
-msgstr ""
+msgstr "काज"
 
 #: ui/kptdependencyeditor.cpp:2352
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Add Sub-Milestone..."
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptdependencyeditor.cpp:2362 ui/kpttaskeditor.cpp:899
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Open"
 msgctxt "@action"
 msgid "Link"
-msgstr ""
+msgstr "खोलू"
 
 #: ui/kptdocumentsdialog.cpp:37
 #, fuzzy, kde-format
@@ -5982,10 +6144,11 @@ msgid "Attach Document"
 msgstr "दस्तावेज"
 
 #: ui/kptdocumentspanel.cpp:128
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Documents"
 msgctxt "@title:window"
 msgid "Cannot Attach Document"
-msgstr ""
+msgstr "दस्तावेज"
 
 #: ui/kptdocumentspanel.cpp:128
 #, kde-kuit-format
@@ -5994,10 +6157,11 @@ msgid "Document is already attached:<nl/><filename>%1</filename>"
 msgstr ""
 
 #: ui/kptdocumentspanel.cpp:149
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@title:window"
 msgid "Modify Url"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptdocumentspanel.cpp:154
 #, kde-format
@@ -6179,9 +6343,10 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
 #: ui/kptganttchartdisplayoptions.ui:102
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chart"
 msgid "Line width"
-msgstr ""
+msgstr "चार्ट"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/kptganttchartdisplayoptions.ui:105
@@ -6191,9 +6356,10 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #: ui/kptganttchartdisplayoptions.ui:126
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chart"
 msgid "Line color"
-msgstr ""
+msgstr "चार्ट"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/kptganttchartdisplayoptions.ui:129
@@ -6356,9 +6522,10 @@ msgid "Chart"
 msgstr "चार्ट"
 
 #: ui/kptganttview.cpp:173
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "General Settings"
 msgid "Gantt Chart Settings"
-msgstr ""
+msgstr "सामान्य जमावट"
 
 #: ui/kptganttview.cpp:229
 #, fuzzy, kde-kuit-format
@@ -6386,9 +6553,10 @@ msgid "Show Project"
 msgstr "प्रोजेक्ट"
 
 #: ui/kptganttview.cpp:999
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Show Unscheduled Tasks"
-msgstr ""
+msgstr "नियत:"
 
 #: ui/kptganttview.cpp:1010 ui/kptganttview.cpp:1574 ui/kptganttview.cpp:1912
 #, kde-format
@@ -6472,9 +6640,10 @@ msgid "Length"
 msgstr "नमाइ"
 
 #: ui/kptintervaledit.cpp:169 ui/kptintervaledit.cpp:188
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Edit Work Intervals"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptintervaledit.cpp:221 ui/kptintervaledit.cpp:276
 #, fuzzy
@@ -6552,9 +6721,10 @@ msgid "Tree View Column Configuration"
 msgstr ""
 
 #: ui/kptitemviewsettup.cpp:223
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Split View"
 msgid "Main View"
-msgstr ""
+msgstr "विभाजित दृश्य"
 
 #: ui/kptitemviewsettup.cpp:224
 #, kde-format
@@ -6585,9 +6755,10 @@ msgid "Modify currency settings"
 msgstr "विवरण"
 
 #: ui/kptmainprojectdialog.cpp:37
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Project"
 msgid "Project Settings"
-msgstr ""
+msgstr "प्रोजेक्ट"
 
 #: ui/kptmainprojectdialog.cpp:83 ui/kptmainprojectpanel.cpp:203
 #, fuzzy
@@ -6870,9 +7041,10 @@ msgstr "काज"
 
 #. i18n: ectx: property (text), widget (QToolButton, ui_insertModule)
 #: ui/kptmainprojectpanelbase.ui:526
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Insert"
-msgstr ""
+msgstr "विवरण"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_useLocalModules)
 #: ui/kptmainprojectpanelbase.ui:550
@@ -6881,9 +7053,10 @@ msgid "Use local task modules"
 msgstr ""
 
 #: ui/kptmilestoneprogressdialog.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Milestone Progress"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptmilestoneprogresspanel.cpp:52
 #, fuzzy
@@ -6971,9 +7144,10 @@ msgid "Footer"
 msgstr "पाद टिप्पणी"
 
 #: ui/kptrecalculatedialog.cpp:47
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Re-calculate Schedule"
-msgstr ""
+msgstr "गणना"
 
 #. i18n: ectx: property (text), widget (QRadioButton, btnCurrent)
 #: ui/kptrecalculatedialog.ui:26
@@ -7003,10 +7177,11 @@ msgid "<emphasis>Lag</emphasis> is the time the dependent task is delayed"
 msgstr ""
 
 #: ui/kptrelationdialog.cpp:54
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@title:window"
 msgid "Add Dependency"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptrelationdialog.cpp:100
 #, fuzzy
@@ -7016,10 +7191,11 @@ msgid "Add task dependency"
 msgstr "विवरण"
 
 #: ui/kptrelationdialog.cpp:146 ui/RelationEditorDialog.cpp:248
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@title:window"
 msgid "Edit Dependency"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptrelationdialog.cpp:150
 #, fuzzy, kde-kuit-format
@@ -7055,9 +7231,10 @@ msgid "Show external appointments"
 msgstr ""
 
 #: ui/kptresourceappointmentsview.cpp:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Resource Assignments View Settings"
-msgstr ""
+msgstr "संसाधन"
 
 #: ui/kptresourceappointmentsview.cpp:213
 #, kde-kuit-format
@@ -7074,9 +7251,10 @@ msgid "No task attributed"
 msgstr ""
 
 #: ui/kptresourceassignmentview.cpp:321
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "No resource attributed"
-msgstr ""
+msgstr "संसाधन"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_taskList)
 #: ui/kptresourceassignmentview.ui:38
@@ -7100,9 +7278,10 @@ msgid "Select team members"
 msgstr "चयन मेटाउ"
 
 #: ui/kptresourcedialog.cpp:248
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Resource Settings"
-msgstr ""
+msgstr "संसाधन"
 
 #: ui/kptresourcedialog.cpp:398
 #, fuzzy
@@ -7153,14 +7332,16 @@ msgid ""
 msgstr ""
 
 #: ui/kptscheduleeditor.cpp:308
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Add Schedule"
-msgstr ""
+msgstr "गणना"
 
 #: ui/kptscheduleeditor.cpp:313
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Add Sub-schedule"
-msgstr ""
+msgstr "गणना"
 
 #: ui/kptscheduleeditor.cpp:323
 #, kde-format
@@ -7204,9 +7385,10 @@ msgid "Result"
 msgstr "परिणाम"
 
 #: ui/kptscheduleeditor.cpp:752
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Scheduling Log"
-msgstr ""
+msgstr "नियत:"
 
 #: ui/kptscheduleeditor.cpp:832
 #, fuzzy
@@ -7230,9 +7412,10 @@ msgid "Scheduling range:"
 msgstr "नियत:"
 
 #: ui/kptstandardworktimedialog.cpp:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Estimate Conversions"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptstandardworktimedialog.cpp:104
 #, fuzzy
@@ -7242,9 +7425,10 @@ msgid "Modify Estimate Conversions"
 msgstr "विवरण"
 
 #: ui/kptsummarytaskdialog.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
 msgid "Summary Task Settings"
-msgstr ""
+msgstr "जमावट"
 
 #: ui/kptsummarytaskdialog.cpp:64
 #, fuzzy
@@ -7311,9 +7495,10 @@ msgstr "उत्तरदायी"
 #. i18n: ectx: property (toolTip), widget (QPushButton, chooseLeader)
 #: ui/kptsummarytaskgeneralpanelbase.ui:140 ui/kpttaskgeneralpanelbase.ui:115
 #: ui/TasksGeneralPanel.ui:64
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Insert a person from your address book"
-msgstr ""
+msgstr "संसाधन"
 
 #. i18n: ectx: property (text), widget (QPushButton, chooseLeader)
 #. i18n: ectx: property (text), widget (QPushButton, chooseBtn)
@@ -7406,9 +7591,10 @@ msgid "Task Description"
 msgstr "विवरण"
 
 #: ui/kpttaskdialog.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
 msgid "Task Settings"
-msgstr ""
+msgstr "जमावट"
 
 #: ui/kpttaskdialog.cpp:52
 #, kde-format
@@ -7416,19 +7602,22 @@ msgid "&General"
 msgstr "सामान्य (&G)"
 
 #: ui/kpttaskdialog.cpp:56 ui/TasksEditDialog.cpp:53
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "&Resources"
-msgstr ""
+msgstr "संसाधन"
 
 #: ui/kpttaskdialog.cpp:60
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Documents"
 msgid "&Documents"
-msgstr ""
+msgstr "दस्तावेज"
 
 #: ui/kpttaskdialog.cpp:64
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Cost"
 msgid "&Cost"
-msgstr ""
+msgstr "लागत"
 
 #: ui/kpttaskdialog.cpp:68
 #, fuzzy, kde-format
@@ -7437,10 +7626,11 @@ msgid "D&escription"
 msgstr "विवरण"
 
 #: ui/kpttaskeditor.cpp:100
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "No description available"
 msgctxt "@info:tooltip"
 msgid "The type of task or the estimate type of the task"
-msgstr ""
+msgstr "केओ विवरण उपलब्ध नहि"
 
 #: ui/kpttaskeditor.cpp:103
 #, kde-kuit-format
@@ -7453,10 +7643,11 @@ msgid ""
 msgstr ""
 
 #: ui/kpttaskeditor.cpp:147
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Tasks"
 msgctxt "@info:tooltip"
 msgid "Task with estimate type: %1"
-msgstr ""
+msgstr "काज"
 
 #: ui/kpttaskeditor.cpp:149
 #, fuzzy, kde-kuit-format
@@ -7487,10 +7678,11 @@ msgid ""
 msgstr ""
 
 #: ui/kpttaskeditor.cpp:440
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Not Started"
 msgctxt "@title resource allocations"
 msgid "Allocations"
-msgstr ""
+msgstr "प्रारंभ नहि भेल"
 
 #: ui/kpttaskeditor.cpp:461
 #, fuzzy, kde-kuit-format
@@ -7540,14 +7732,16 @@ msgid "Add Milestone"
 msgstr "विवरण"
 
 #: ui/kpttaskeditor.cpp:889
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Add Sub-Milestone"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kpttaskeditor.cpp:904
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Task"
 msgid "Indent Task"
-msgstr ""
+msgstr "काज"
 
 #: ui/kpttaskeditor.cpp:908
 #, kde-format
@@ -7574,12 +7768,13 @@ msgstr[0] "काज"
 msgstr[1] "काज"
 
 #: ui/kpttaskeditor.cpp:1123
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Task"
 msgctxt "(qtundo-format)"
 msgid "Unindent task"
 msgid_plural "Unindent %1 tasks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "काज"
+msgstr[1] "काज"
 
 #: ui/kpttaskeditor.cpp:1277
 #, kde-kuit-format
@@ -7642,9 +7837,10 @@ msgstr "उत्तरदायी"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, chooseLeader)
 #: ui/kpttaskgeneralpanelbase.ui:118 ui/TasksGeneralPanel.ui:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Insert a person from your address book."
-msgstr ""
+msgstr "संसाधन"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, schedulingGroup)
 #: ui/kpttaskgeneralpanelbase.ui:164 ui/TasksGeneralPanel.ui:116
@@ -7759,9 +7955,10 @@ msgid "&Pessimistic:"
 msgstr ""
 
 #: ui/kpttaskprogressdialog.cpp:38
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Task Progress"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kpttaskprogressdialog.cpp:55
 #, kde-kuit-format
@@ -7797,10 +7994,12 @@ msgid "Modify task completion"
 msgstr "विवरण"
 
 #: ui/kpttaskprogresspanel.cpp:402 ui/kpttaskprogresspanel.cpp:417
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Week number"
+#| msgid "Week %1"
 msgctxt "Week number (year)"
 msgid "Week %1 (%2)"
-msgstr ""
+msgstr "सप्ताह %1"
 
 #: ui/kpttaskprogresspanel.cpp:408 ui/kpttaskprogresspanel.cpp:415
 #, kde-format
@@ -7935,9 +8134,10 @@ msgid "Resource"
 msgstr "संसाधन"
 
 #: ui/kptusedefforteditor.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Week"
 msgid "This Week"
-msgstr ""
+msgstr "सप्ताह"
 
 #: ui/kptusedefforteditor.cpp:223
 #, kde-format
@@ -7945,24 +8145,28 @@ msgid "Total effort this week"
 msgstr ""
 
 #: ui/kptusedefforteditor.cpp:409
-#, no-c-format, kde-format
+#, fuzzy, no-c-format, kde-format
+#| msgid "Description"
 msgid "% Completed"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptusedefforteditor.cpp:410
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Used Effort"
-msgstr ""
+msgstr "गणना"
 
 #: ui/kptusedefforteditor.cpp:411
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Remaining Effort"
-msgstr ""
+msgstr "गणना"
 
 #: ui/kptusedefforteditor.cpp:412
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calculate"
 msgid "Planned Effort"
-msgstr ""
+msgstr "गणना"
 
 #: ui/kptusedefforteditor.cpp:553
 #, fuzzy, kde-kuit-format
@@ -7987,10 +8191,11 @@ msgid "Accumulated used effort"
 msgstr "गणना"
 
 #: ui/kptusedefforteditor.cpp:727
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Calculate"
 msgctxt "@info:tooltip"
 msgid "Remaining effort to complete the task"
-msgstr ""
+msgstr "गणना"
 
 #: ui/kptusedefforteditor.cpp:729
 #, fuzzy, kde-kuit-format
@@ -8026,9 +8231,10 @@ msgid "Manager:"
 msgstr ""
 
 #: ui/kptviewbase.cpp:541 ui/kptviewbase.cpp:567
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Project"
 msgid "Project:"
-msgstr ""
+msgstr "प्रोजेक्ट"
 
 #: ui/kptviewbase.cpp:670
 #, kde-format
@@ -8036,10 +8242,11 @@ msgid "This view does not support printing."
 msgstr ""
 
 #: ui/kptviewbase.cpp:679
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Footer"
 msgctxt "@title:tab"
 msgid "Page Layout"
-msgstr ""
+msgstr "पाद टिप्पणी"
 
 #: ui/kptviewbase.cpp:700
 #, fuzzy, kde-kuit-format
@@ -8070,9 +8277,10 @@ msgid "Configure View..."
 msgstr ""
 
 #: ui/kptviewbase.cpp:2680
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Split View"
 msgid "Unsplit View"
-msgstr ""
+msgstr "विभाजित दृश्य"
 
 #: ui/kptviewbase.cpp:2683
 #, kde-format
@@ -8080,9 +8288,10 @@ msgid "Split View"
 msgstr "विभाजित दृश्य"
 
 #: ui/kptwbsdefinitiondialog.cpp:35
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "WBS Definition"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/kptwbsdefinitionpanel.cpp:148
 #, fuzzy
@@ -8130,9 +8339,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/kptwbsdefinitionpanelbase.ui:98
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Default Definition"
-msgstr ""
+msgstr "विवरण"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, levelsGroup)
 #: ui/kptwbsdefinitionpanelbase.ui:148
@@ -8143,9 +8353,10 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, levelsGroup)
 #: ui/kptwbsdefinitionpanelbase.ui:151
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgid "Use Levels Definition"
-msgstr ""
+msgstr "विवरण"
 
 #. i18n: ectx: property (text), widget (QTableWidget, levelsTable)
 #: ui/kptwbsdefinitionpanelbase.ui:167
@@ -8356,9 +8567,10 @@ msgstr "संसाधन"
 
 #. i18n: ectx: property (text), widget (QLabel, m_labMonCurSym)
 #: ui/locale/localemon.cpp:52 ui/locale/localemon.ui:19
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "General Settings"
 msgid "Currency symbol:"
-msgstr ""
+msgstr "सामान्य जमावट"
 
 #: ui/locale/localemon.cpp:53
 #, kde-format
@@ -8403,9 +8615,10 @@ msgstr ""
 
 #: ui/performance/PerformanceStatusView.cpp:391
 #: ui/performance/ProjectStatusView.cpp:170
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Settings"
 msgid "Chart Settings"
-msgstr ""
+msgstr "जमावट"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/performance/PerformanceStatusViewSettingsPanel.ui:17
@@ -8416,15 +8629,17 @@ msgstr "चार्ट"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_linechart)
 #: ui/performance/PerformanceStatusViewSettingsPanel.ui:23
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chart"
 msgid "Line chart"
-msgstr ""
+msgstr "चार्ट"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_barchart)
 #: ui/performance/PerformanceStatusViewSettingsPanel.ui:33
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chart"
 msgid "Bar chart"
-msgstr ""
+msgstr "चार्ट"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_table)
 #: ui/performance/PerformanceStatusViewSettingsPanel.ui:40
@@ -8523,7 +8738,8 @@ msgid "ID"
 msgstr ""
 
 #: ui/RelationEditorDialog.cpp:244 ui/RelationEditorDialog.cpp:323
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Delete"
 msgid "Delete"
 msgstr "मेटाबू"
 
@@ -8567,10 +8783,11 @@ msgstr "विवरण"
 
 #. i18n: ectx: property (text), widget (QToolButton, addBtn)
 #: ui/RelationEditorDialog.ui:131
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
 msgctxt "Insert task dependency"
 msgid "Insert"
-msgstr ""
+msgstr "विवरण"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, ui_fromgroup)
@@ -8604,14 +8821,16 @@ msgid "Resource assignments"
 msgstr "संसाधन"
 
 #: ui/reports/reportdata.cpp:787
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Cost Performance"
-msgstr ""
+msgstr "नियत:"
 
 #: ui/reports/reportdata.cpp:841
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Effort Performance"
-msgstr ""
+msgstr "नियत:"
 
 #: ui/reports/reportdata.cpp:894
 #, kde-format
@@ -8707,9 +8926,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, headerFirstpage)
 #. i18n: ectx: property (text), widget (QCheckBox, footerFirstpage)
 #: ui/reports/reportsectionswidget.ui:65 ui/reports/reportsectionswidget.ui:130
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "First page"
-msgstr ""
+msgstr "नियत:"
 
 #. i18n: @info:tooltip
 #. i18n: ectx: property (toolTip), widget (QCheckBox, headerLastpage)
@@ -8749,9 +8969,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, headerEvenpages)
 #. i18n: ectx: property (text), widget (QCheckBox, footerEvenpages)
 #: ui/reports/reportsectionswidget.ui:95 ui/reports/reportsectionswidget.ui:150
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Schedule:"
 msgid "Even pages"
-msgstr ""
+msgstr "नियत:"
 
 #. i18n: @info:tooltip
 #. i18n: ectx: property (toolTip), widget (QCheckBox, headerAllpages)
@@ -8811,10 +9032,11 @@ msgid "Enable footer on all pages"
 msgstr ""
 
 #: ui/reports/reportview.cpp:373
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@title:window"
 msgid "Export Report"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/reports/reportview.cpp:381
 #, kde-format
@@ -8854,15 +9076,17 @@ msgid "Export to HTML failed"
 msgstr ""
 
 #: ui/reports/reportview.cpp:443
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Edit Report"
-msgstr ""
+msgstr "संसाधन"
 
 #: ui/reports/reportview.cpp:444
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
 msgctxt "@info:tooltip"
 msgid "Edit the report definition"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/reports/reportview.cpp:445
 #, kde-kuit-format
@@ -8871,9 +9095,10 @@ msgid "Opens the report design in the report design dialog."
 msgstr ""
 
 #: ui/reports/reportview.cpp:681
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Project"
 msgid "View report"
-msgstr ""
+msgstr "प्रोजेक्ट"
 
 #: ui/reports/reportview.cpp:686
 #, kde-format
@@ -8939,10 +9164,11 @@ msgid "Footer"
 msgstr "पाद टिप्पणी"
 
 #: ui/reports/reportview.cpp:1077
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgid "Header"
 msgctxt "@title:column"
 msgid "Page Break"
-msgstr ""
+msgstr "शीर्ष टीका"
 
 #: ui/reports/reportview.cpp:1080
 #, kde-kuit-format
@@ -8999,14 +9225,16 @@ msgid "Yes"
 msgstr ""
 
 #: ui/reports/reportview.cpp:1344
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Footer"
 msgid "After footer"
-msgstr ""
+msgstr "पाद टिप्पणी"
 
 #: ui/reports/reportview.cpp:1344
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Header"
 msgid "Before header"
-msgstr ""
+msgstr "शीर्ष टीका"
 
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:202
 #, kde-format
@@ -9156,9 +9384,10 @@ msgstr "समूह:"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, chooseBtn)
 #: ui/resourcedialogbase.ui:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Resource"
 msgid "Choose resource from address book"
-msgstr ""
+msgstr "संसाधन"
 
 #. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
 #. i18n: ectx: property (text), widget (QLabel, ui_initialslabel)
@@ -9891,21 +10120,6 @@ msgid "All supported formats"
 msgstr ""
 
 #, fuzzy
-#~| msgid "Send"
-#~ msgid "Send..."
-#~ msgstr "पठाबू"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgid "Per Resource"
-#~ msgstr "संसाधन"
-
-#, fuzzy
-#~| msgid "Resource"
-#~ msgid "Add Resource..."
-#~ msgstr "संसाधन"
-
-#, fuzzy
 #~| msgid "Project"
 #~ msgid "New project"
 #~ msgstr "प्रोजेक्ट"
@@ -9924,6 +10138,43 @@ msgstr ""
 #~| msgid "Product"
 #~ msgid "Introduction"
 #~ msgstr "उत्पाद"
+
+#, fuzzy
+#~| msgid "Header"
+#~ msgctxt "@title"
+#~ msgid "Report Generation"
+#~ msgstr "शीर्ष टीका"
+
+#, fuzzy
+#~| msgid "From"
+#~ msgid "Form"
+#~ msgstr "सँ"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgctxt "Remove selected dependencies"
+#~ msgid "Remove"
+#~ msgstr "हटाबू"
+
+#, fuzzy
+#~| msgid "Send"
+#~ msgid "Send..."
+#~ msgstr "पठाबू"
+
+#, fuzzy
+#~| msgid "Send"
+#~ msgid "Send To..."
+#~ msgstr "पठाबू"
+
+#, fuzzy
+#~| msgid "Resource"
+#~ msgid "Per Resource"
+#~ msgstr "संसाधन"
+
+#, fuzzy
+#~| msgid "Resource"
+#~ msgid "Add Resource..."
+#~ msgstr "संसाधन"
 
 #, fuzzy
 #~| msgid "Result"
@@ -10113,11 +10364,6 @@ msgstr ""
 #~ msgstr "चयन मेटाउ"
 
 #, fuzzy
-#~| msgid "No description available"
-#~ msgid "Make appointments: Required resource not available"
-#~ msgstr "केओ विवरण उपलब्ध नहि"
-
-#, fuzzy
 #~| msgid "Timezone"
 #~ msgid "Time"
 #~ msgstr "समय क्षेत्र"
@@ -10137,11 +10383,6 @@ msgstr ""
 #~| msgid "Start"
 #~ msgid "Start"
 #~ msgstr "प्रारंभ"
-
-#, fuzzy
-#~| msgid "Finished"
-#~ msgid "Finish"
-#~ msgstr "समाप्त"
 
 #, fuzzy
 #~| msgid "Duration"
@@ -10169,8 +10410,3 @@ msgstr ""
 
 #~ msgid "Note:"
 #~ msgstr "नोट:"
-
-#, fuzzy
-#~| msgid "From"
-#~ msgid "Form"
-#~ msgstr "सँ"
