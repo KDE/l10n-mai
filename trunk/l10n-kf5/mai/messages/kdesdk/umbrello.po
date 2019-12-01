@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: umbrello\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-28 03:16+0100\n"
+"POT-Creation-Date: 2019-12-01 03:19+0100\n"
 "PO-Revision-Date: 2010-09-24 20:24+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2183,7 +2183,7 @@ msgstr "शैली:"
 #: dialogs/multipagedialogbase.cpp:497
 #, fuzzy, kde-format
 #| msgid "Style:"
-msgid "Role Style"
+msgid "Line Style"
 msgstr "शैली:"
 
 #: dialogs/multipagedialogbase.cpp:517
@@ -2873,6 +2873,7 @@ msgid "Autoincrement Sequence "
 msgstr ""
 
 #: dialogs/pages/generaloptionpage.cpp:56
+#: dialogs/pages/umlwidgetstylepage.cpp:212
 #, kde-format
 msgctxt "miscellaneous group box"
 msgid "Miscellaneous"
@@ -3117,94 +3118,99 @@ msgstr ""
 msgid "Add only"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:109
+#: dialogs/pages/umlwidgetstylepage.cpp:114
 #, kde-format
 msgctxt "title of color group"
 msgid "Color"
 msgstr "रंग"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:114
+#: dialogs/pages/umlwidgetstylepage.cpp:119
 #, kde-format
 msgctxt "text color"
 msgid "&Text:"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:121
+#: dialogs/pages/umlwidgetstylepage.cpp:126
 #, kde-format
 msgctxt "default text color button"
 msgid "Defaul&t"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:124
+#: dialogs/pages/umlwidgetstylepage.cpp:129
 #, kde-format
 msgctxt "line color"
 msgid "&Line:"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:131
+#: dialogs/pages/umlwidgetstylepage.cpp:136
 #, kde-format
 msgctxt "default line color button"
 msgid "&Default"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:134
+#: dialogs/pages/umlwidgetstylepage.cpp:139
 #, kde-format
 msgid "&Fill:"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:141
+#: dialogs/pages/umlwidgetstylepage.cpp:146
 #, kde-format
 msgctxt "default fill color button"
 msgid "D&efault"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:144
+#: dialogs/pages/umlwidgetstylepage.cpp:149
 #, kde-format
 msgid "&Use fill"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:154
+#: dialogs/pages/umlwidgetstylepage.cpp:159
 #, kde-format
 msgctxt "background color"
 msgid "&Background:"
 msgstr "पृष्ठभूमि (&B):"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:161
+#: dialogs/pages/umlwidgetstylepage.cpp:166
 #, kde-format
 msgctxt "default background color button"
 msgid "De&fault"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:164
+#: dialogs/pages/umlwidgetstylepage.cpp:169
 #, kde-format
 msgctxt "grid dot color"
 msgid "&Grid dot:"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:171
+#: dialogs/pages/umlwidgetstylepage.cpp:176
 #, kde-format
 msgctxt "default grid dot color button"
 msgid "Def&ault"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:179
+#: dialogs/pages/umlwidgetstylepage.cpp:184
 #, fuzzy, kde-format
 #| msgid "Width"
 msgctxt "title of width group"
 msgid "Width"
 msgstr "चओड़ाइ"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:184
+#: dialogs/pages/umlwidgetstylepage.cpp:189
 #, fuzzy, kde-format
 #| msgid "Line Width"
 msgctxt "line width"
 msgid "Line &width:"
 msgstr "रेखाक चओड़ाइ"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:198
+#: dialogs/pages/umlwidgetstylepage.cpp:203
 #, kde-format
 msgctxt "default line width button"
 msgid "Defa&ult"
+msgstr ""
+
+#: dialogs/pages/umlwidgetstylepage.cpp:217
+#, kde-format
+msgid "Layout of the line:"
 msgstr ""
 
 #: dialogs/parameterpropertiesdialog.cpp:54
@@ -4167,7 +4173,7 @@ msgstr "दस्ताबेजीकरण"
 msgid "Activate documentation edit after focus change."
 msgstr ""
 
-#: layoutgenerator.cpp:260
+#: layoutgenerator.cpp:261
 #, fuzzy, kde-format
 #| msgid "Auto Save"
 msgid "Apply layout"
