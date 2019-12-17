@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-15 03:21+0100\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -424,17 +424,22 @@ msgstr "टिप्पणी"
 
 #: dialog/knotedeleteselectednotesdialog.cpp:32
 #, kde-format
+msgctxt "@title:window"
 msgid "Select notes to delete"
 msgstr ""
 
 #: dialog/knoteselectednotesdialog.cpp:34
 #: print/knoteprintselectednotesdialog.cpp:41
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Rename..."
+msgctxt "@title:window"
 msgid "Select notes"
-msgstr ""
+msgstr "नाम बदलू..."
 
 #: dialog/knoteskeydialog.cpp:33
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Configure Shortcuts"
+msgctxt "@title:window"
 msgid "Configure Shortcuts"
 msgstr "शॉर्ट कट बिन्यस्त करू"
 
@@ -764,7 +769,7 @@ msgstr ""
 msgid "Plain text (*.txt)"
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:747 notes/knote.cpp:517
+#: kontactplugin/knotes_part.cpp:747
 #, kde-format
 msgid "Save As"
 msgstr "एहिना सहेजू"
@@ -977,6 +982,13 @@ msgstr ""
 msgid "Save note as plain text"
 msgstr ""
 
+#: notes/knote.cpp:517
+#, fuzzy, kde-format
+#| msgid "Save As"
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "एहिना सहेजू"
+
 #: notes/knote.cpp:640
 #, kde-format
 msgid "&All Desktops"
@@ -1071,6 +1083,7 @@ msgstr ""
 
 #: print/knoteprintselectthemedialog.cpp:34
 #, kde-format
+msgctxt "@title:window"
 msgid "Select theme"
 msgstr ""
 

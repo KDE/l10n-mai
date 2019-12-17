@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-12 03:18+0100\n"
+"POT-Creation-Date: 2019-12-17 03:22+0100\n"
 "PO-Revision-Date: 2010-09-24 16:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -405,6 +405,7 @@ msgstr ""
 
 #: ui/auditlogviewer.cpp:49
 #, kde-format
+msgctxt "@title:window"
 msgid "View GnuPG Audit Log"
 msgstr ""
 
@@ -435,6 +436,7 @@ msgstr ""
 
 #: ui/cryptoconfigdialog.cpp:45
 #, kde-format
+msgctxt "@title:window"
 msgid "Configure GnuPG Backend"
 msgstr ""
 
@@ -518,6 +520,7 @@ msgstr "संपादन..."
 
 #: ui/cryptoconfigmodule.cpp:834
 #, kde-format
+msgctxt "@title:window"
 msgid "Configure LDAP Servers"
 msgstr ""
 
@@ -539,9 +542,12 @@ msgid "Use keyserver at"
 msgstr ""
 
 #: ui/cryptoconfigmodule.cpp:961
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "default server name, keep it a valid domain name, ie. no spaces"
+#| msgid "server"
+msgctxt "@title:window"
 msgid "Configure Keyservers"
-msgstr ""
+msgstr "सर्वर"
 
 #: ui/directoryserviceswidget.cpp:64
 #, kde-format
@@ -816,9 +822,11 @@ msgid "Ask Whenever Encryption is Possible"
 msgstr ""
 
 #: ui/keyapprovaldialog.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Description"
+msgctxt "@title:window"
 msgid "Encryption Key Approval"
-msgstr ""
+msgstr "विवरण"
 
 #: ui/keyapprovaldialog.cpp:127
 #, kde-format
@@ -1237,6 +1245,7 @@ msgstr ""
 
 #: ui/newkeyapprovaldialog.cpp:267
 #, kde-format
+msgctxt "@title:window"
 msgid "Security approval"
 msgstr ""
 
@@ -1253,6 +1262,7 @@ msgstr ""
 #: ui/newkeyapprovaldialog.cpp:329
 #, fuzzy, kde-format
 #| msgid "Key Selection"
+msgctxt "@title:window"
 msgid "Key generation"
 msgstr "की चुनाव"
 

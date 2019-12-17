@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libincidenceeditors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 03:19+0100\n"
+"POT-Creation-Date: 2019-12-17 03:16+0100\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -21,11 +21,13 @@ msgstr ""
 
 #: alarmdialog.cpp:40
 #, kde-format
+msgctxt "@title:window"
 msgid "Create a new reminder"
 msgstr ""
 
 #: alarmdialog.cpp:84
 #, kde-format
+msgctxt "@title:window"
 msgid "Edit existing reminder"
 msgstr ""
 
@@ -133,6 +135,7 @@ msgstr[1] ""
 #, fuzzy, kde-format
 #| msgctxt "@title:tab configure attachments of an event or todo"
 #| msgid "Attachments"
+msgctxt "@title:window"
 msgid "Edit Attachment"
 msgstr "संलग्नक"
 
@@ -282,18 +285,19 @@ msgstr "sangeeta09@gmail.com"
 msgid "Click to add a new category"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryDialog_base)
 #: categorydialog.cpp:235 categoryselectdialog.cpp:169
-#: ui/categorydialog_base.ui:14 ui/categoryselectdialog_base.ui:13
-#, kde-format
-msgid "Select Categories"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
-#: categoryeditdialog.cpp:47 ui/categoryeditdialog_base.ui:13
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid "Categories:"
+msgctxt "@title:window"
+msgid "Select Categories"
+msgstr "श्रेणिसभ:"
+
+#: categoryeditdialog.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Categories:"
+msgctxt "@title:window"
 msgid "Edit Categories"
 msgstr "श्रेणिसभ:"
 
@@ -389,6 +393,7 @@ msgstr "अंत:"
 
 #: freebusyurldialog.cpp:45
 #, kde-format
+msgctxt "@title:window"
 msgid "Edit Free/Busy Location"
 msgstr ""
 
@@ -707,6 +712,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@title:tab attendees of this event or to-do"
 #| msgid "Attendees"
+msgctxt "@title:window"
 msgid "Select Attendees"
 msgstr "भाग लएबला"
 
@@ -1334,6 +1340,7 @@ msgstr ""
 #: resourcemanagement.cpp:118
 #, fuzzy, kde-format
 #| msgid "Template Management"
+msgctxt "@title:window"
 msgid "Resource Management"
 msgstr "नमूनाक प्रबन्ध"
 
@@ -1345,6 +1352,7 @@ msgstr ""
 
 #: schedulingdialog.cpp:41
 #, kde-format
+msgctxt "@title:window"
 msgid "Scheduling"
 msgstr ""
 
@@ -1366,6 +1374,7 @@ msgstr ""
 
 #: templatemanagementdialog.cpp:64
 #, kde-format
+msgctxt "@title:window"
 msgid "Manage %1 Templates"
 msgstr ""
 
@@ -1837,6 +1846,12 @@ msgstr ""
 msgid "Type:"
 msgstr "प्रकार:"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryDialog_base)
+#: ui/categorydialog_base.ui:14 ui/categoryselectdialog_base.ui:13
+#, kde-format
+msgid "Select Categories"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (IncidenceEditorNG::AutoCheckTreeWidget, mCategories)
 #: ui/categorydialog_base.ui:20
 #, fuzzy, kde-format
@@ -1856,6 +1871,14 @@ msgstr ""
 #, kde-format
 msgid "Category"
 msgstr "श्रेणी"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CategoryEditDialog_base)
+#: ui/categoryeditdialog_base.ui:13
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Categories:"
+msgid "Edit Categories"
+msgstr "श्रेणिसभ:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mEdit)
 #: ui/categoryeditdialog_base.ui:28

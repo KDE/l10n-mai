@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadicontact\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-01 03:10+0100\n"
+"POT-Creation-Date: 2019-12-17 03:15+0100\n"
 "PO-Revision-Date: 2010-09-24 20:39+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -214,6 +214,7 @@ msgstr ""
 
 #: akonadi-contacts/actions/smsdialog.cpp:50
 #, kde-format
+msgctxt "@title:window"
 msgid "SMS text"
 msgstr ""
 
@@ -248,9 +249,12 @@ msgstr ""
 
 #: akonadi-contacts/contacteditor.cpp:290
 #: akonadi-contacts/contactgroupeditor.cpp:297
-#, kde-format
+#: akonadi-contacts/selectaddressbookdialog.cpp:37
+#, fuzzy, kde-format
+#| msgid "Address Book"
+msgctxt "@title:window"
 msgid "Select Address Book"
-msgstr ""
+msgstr "पता पुस्तिका"
 
 #: akonadi-contacts/contacteditor.cpp:291
 #, kde-format
@@ -352,9 +356,12 @@ msgid "EMail"
 msgstr "ई-मेल"
 
 #: akonadi-contacts/contactgroupviewer.cpp:71
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "Contact"
+msgctxt "@title:window"
 msgid "Contact Group %1"
-msgstr ""
+msgstr "संपर्क"
 
 #: akonadi-contacts/contactgroupviewer.cpp:85
 #: akonadi-contacts/standardcontactformatter.cpp:214
@@ -363,9 +370,12 @@ msgid "Address Book"
 msgstr "पता पुस्तिका"
 
 #: akonadi-contacts/contactgroupviewerdialog.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "Contact"
+msgctxt "@title:window"
 msgid "Show Contact Group"
-msgstr ""
+msgstr "संपर्क"
 
 #: akonadi-contacts/contactstreemodel.cpp:232
 #, kde-format
@@ -422,14 +432,20 @@ msgid "All EMails"
 msgstr ""
 
 #: akonadi-contacts/contactviewer.cpp:76
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "Contact"
+msgctxt "@title:window"
 msgid "Contact %1"
-msgstr ""
+msgstr "संपर्क"
 
 #: akonadi-contacts/contactviewerdialog.cpp:72
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:tab"
+#| msgid "Contact"
+msgctxt "@title:window"
 msgid "Show Contact"
-msgstr ""
+msgstr "संपर्क"
 
 #: akonadi-contacts/emailaddressrequester.cpp:94
 #, fuzzy, kde-format
@@ -453,13 +469,6 @@ msgstr ""
 msgctxt "@label Search in a list of contacts"
 msgid "Search:"
 msgstr "खोजू:"
-
-#: akonadi-contacts/selectaddressbookdialog.cpp:37
-#, fuzzy, kde-format
-#| msgid "Address Book"
-msgctxt "@title:window"
-msgid "Select Address Book"
-msgstr "पता पुस्तिका"
 
 #: akonadi-contacts/selectaddressbookdialog.cpp:40
 #, kde-format
@@ -1447,10 +1456,12 @@ msgid "Remove IM"
 msgstr "हटाबू"
 
 #: contact-editor/editor/generalinfoeditor/nameeditdialog.cpp:36
-#: contact-editor/editor/generalinfoeditor/namewidget.cpp:55
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:column phone numbers of a person"
+#| msgid "Phone Numbers"
+msgctxt "@title:window"
 msgid "Edit Contact Name"
-msgstr ""
+msgstr "फोन नंबर"
 
 #: contact-editor/editor/generalinfoeditor/nameeditdialog.cpp:62
 #, kde-format
@@ -1551,6 +1562,11 @@ msgstr "नाम"
 msgid "..."
 msgstr "..."
 
+#: contact-editor/editor/generalinfoeditor/namewidget.cpp:55
+#, kde-format
+msgid "Edit Contact Name"
+msgstr ""
+
 #: contact-editor/editor/generalinfoeditor/nicknamewidget.cpp:37
 #, fuzzy, kde-format
 #| msgctxt "@label The nickname of a contact"
@@ -1576,6 +1592,7 @@ msgstr "फोन"
 #, fuzzy, kde-format
 #| msgctxt "@title:column phone numbers of a person"
 #| msgid "Phone Numbers"
+msgctxt "@title:window"
 msgid "Edit Phone Number"
 msgstr "फोन नंबर"
 
