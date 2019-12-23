@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-19 02:49+0100\n"
+"POT-Creation-Date: 2019-12-23 02:52+0100\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -274,7 +274,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:311
+#: core/job.cpp:311 ioslaves/file/file_unix.cpp:110
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename"
@@ -287,6 +287,7 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:316 filewidgets/knewfilemenu.cpp:524
+#: ioslaves/file/file_unix.cpp:114
 #, fuzzy, kde-format
 #| msgid "Could Not Create Symbolic Link"
 msgid "Create Symlink"
@@ -1916,7 +1917,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "आन निवेदनकेँ उत्तर देबामे सर्वर बेसी व्यस्त अछि."
 
-#: core/job_error.cpp:957 core/slavebase.cpp:1518
+#: core/job_error.cpp:957 core/slavebase.cpp:1505
 #, kde-format
 msgid "Unknown Error"
 msgstr "अनजान त्रुटि"
@@ -2334,127 +2335,127 @@ msgstr "के-लांचर सँ बात नहि कए सकल: %1"
 msgid "klauncher said: %1"
 msgstr "चालू कएल जाए रहल अछि %1"
 
-#: core/slavebase.cpp:861
+#: core/slavebase.cpp:848
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग कनेक्शन खोलनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:863
+#: core/slavebase.cpp:850
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग कनेक्शन बन्न कएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:865
+#: core/slavebase.cpp:852
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग फाइल एक्सेस कएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:867
+#: core/slavebase.cpp:854
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:869
+#: core/slavebase.cpp:856
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "प्रोटोकाल %1 क' लेल कोनो विशेष क्रिया उपलब्ध नहि अछि."
 
-#: core/slavebase.cpp:871
+#: core/slavebase.cpp:858
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "प्रोटोकाल %1 क' लेल फोल्डरक सूची बनैनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:873
+#: core/slavebase.cpp:860
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "%1 सँ डाटा निकालनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:875
+#: core/slavebase.cpp:862
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "%1 सँ माइम प्रकार जानकारी निकालनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:877
+#: core/slavebase.cpp:864
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "%1 केर भीतर फाइल घसकाएनाइ अथवा नाम बदलनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:879
+#: core/slavebase.cpp:866
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग सिमलिंक तैआर कएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:881
+#: core/slavebase.cpp:868
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "%1 केर भीतर फाइल नकल कएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:883
+#: core/slavebase.cpp:870
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "%1 सँ फाइल मेटाएब समर्थित नहि अछि."
 
-#: core/slavebase.cpp:885
+#: core/slavebase.cpp:872
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग फोल्डर तैआर कएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:887
+#: core/slavebase.cpp:874
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग फाइल विशेषता बदलना समर्थित नहि अछि."
 
-#: core/slavebase.cpp:889
+#: core/slavebase.cpp:876
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग फाइलसभ क' मालिकाना बदलना समर्थित नहि अछि."
 
-#: core/slavebase.cpp:891
+#: core/slavebase.cpp:878
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "%1 केर सँग सब-यूआरएल उपयोग कएनाइ समर्थित नहि अछि."
 
-#: core/slavebase.cpp:893
+#: core/slavebase.cpp:880
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग मल्टीपल गेट समर्थित नहि अछि."
 
-#: core/slavebase.cpp:895
+#: core/slavebase.cpp:882
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "प्रोटोकाल %1 केर सँग फाइलसभ खोलब समर्थित नहि अछि."
 
-#: core/slavebase.cpp:897
+#: core/slavebase.cpp:884
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "प्रोटोकाल %1 क्रिया %2 केँ समर्थित नहि करत."
 
-#: core/slavebase.cpp:1050
+#: core/slavebase.cpp:1037
 #, kde-format
 msgid "&Yes"
 msgstr "हँ (&Y)"
 
-#: core/slavebase.cpp:1051
+#: core/slavebase.cpp:1038
 #, kde-format
 msgid "&No"
 msgstr "नहि (&N)"
 
-#: core/slaveinterface.cpp:410 core/tcpslavebase.cpp:749 widgets/sslui.cpp:77
+#: core/slaveinterface.cpp:412 core/tcpslavebase.cpp:749 widgets/sslui.cpp:77
 #, kde-format
 msgid "&Details"
 msgstr "विवरण (&D)"
 
-#: core/slaveinterface.cpp:412 core/tcpslavebase.cpp:762 widgets/sslui.cpp:114
+#: core/slaveinterface.cpp:414 core/tcpslavebase.cpp:762 widgets/sslui.cpp:114
 #, kde-format
 msgid "&Forever"
 msgstr "हरदम (&F)"
 
-#: core/slaveinterface.cpp:416 core/tcpslavebase.cpp:749 widgets/sslui.cpp:78
+#: core/slaveinterface.cpp:418 core/tcpslavebase.cpp:749 widgets/sslui.cpp:78
 #, kde-format
 msgid "Co&ntinue"
 msgstr "जारी राखू (&n)"
 
-#: core/slaveinterface.cpp:418 core/tcpslavebase.cpp:763 widgets/sslui.cpp:115
+#: core/slaveinterface.cpp:420 core/tcpslavebase.cpp:763 widgets/sslui.cpp:115
 #, fuzzy, kde-format
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
@@ -3800,22 +3801,113 @@ msgstr "प्रोग्राम \"umount\" नहि भेटल"
 msgid "unmounting is not supported by wince."
 msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
 
-#: ioslaves/file/file_unix.cpp:295
+#: ioslaves/file/file_unix.cpp:86
+#, fuzzy, kde-format
+#| msgid "Advanced Permissions"
+msgid "Change File Permissions"
+msgstr "विस्तृत अनुमतिसभ"
+
+#: ioslaves/file/file_unix.cpp:87
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgid "New Permissions: %1"
+msgstr "अनुमतिसभ"
+
+#: ioslaves/file/file_unix.cpp:90
+#, kde-format
+msgid "Change File Owner"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:91
+#, kde-format
+msgid "New Owner: UID=%1, GID=%2"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:94
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgid "Remove File"
+msgstr "हटाबू"
+
+#: ioslaves/file/file_unix.cpp:97
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgid "Remove Directory"
+msgstr "निर्देशिका"
+
+#: ioslaves/file/file_unix.cpp:100
+#, fuzzy, kde-format
+#| msgid "Creating directory"
+msgid "Create Directory"
+msgstr "निर्देशिका बनाएल जाए रहल अछि"
+
+#: ioslaves/file/file_unix.cpp:101
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Permissions"
+msgid "Directory Permissions: %1"
+msgstr "अनुमतिसभ"
+
+#: ioslaves/file/file_unix.cpp:104
+#, fuzzy, kde-format
+#| msgid "Open file dialog"
+msgid "Open File"
+msgstr "फाइल खोलबा क' संवाद"
+
+#: ioslaves/file/file_unix.cpp:107
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgid "Open Directory"
+msgstr "निर्देशिका"
+
+#: ioslaves/file/file_unix.cpp:111
+#, fuzzy, kde-format
+#| msgid "Device name"
+msgid "New Filename: %1"
+msgstr "डिवाइस नाम"
+
+#: ioslaves/file/file_unix.cpp:115
+#, fuzzy, kde-format
+#| msgid "Drive: %1"
+msgid "Target: %1"
+msgstr "ड्राइव: %1"
+
+#: ioslaves/file/file_unix.cpp:118
+#, kde-format
+msgid "Change Timestamp"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:121
+#, fuzzy, kde-format
+#| msgid "Unknown Interruption"
+msgid "Unknown Action"
+msgstr "अनचिन्ह इंटरप्शन"
+
+#: ioslaves/file/file_unix.cpp:125
+#, kde-format
+msgid ""
+"Action: %1\n"
+"Source: %2\n"
+"%3"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:345
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "फाइल केँ %1 सँ %2 पर नकल नहि कए सकल. (त्रुटि क्र.: %3)"
 
-#: ioslaves/file/file_unix.cpp:517
+#: ioslaves/file/file_unix.cpp:567
 #, kde-format
 msgid "No media in device for %1"
 msgstr "%1 क' लेल अओजार मे कोनो मीडिया नहि "
 
-#: ioslaves/file/file_unix.cpp:789
+#: ioslaves/file/file_unix.cpp:839
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "देल गेल प्रयोक्ता नाम %1 क' लेल प्रयोक्ता आईडी प्राप्त नहि कए सकल"
 
-#: ioslaves/file/file_unix.cpp:802
+#: ioslaves/file/file_unix.cpp:852
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "देल गेल समूह नाम %1 क' लेल समूह आईडी प्राप्त नहि कए सकल"
@@ -9069,12 +9161,6 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "Creating directory"
-#~ msgctxt "@action:button"
-#~ msgid "Create directory"
-#~ msgstr "निर्देशिका बनाएल जाए रहल अछि"
-
-#, fuzzy
-#~| msgid "Creating directory"
 #~ msgid "Create hidden directory?"
 #~ msgstr "निर्देशिका बनाएल जाए रहल अछि"
 
@@ -9123,11 +9209,6 @@ msgstr ""
 #~| msgid "C&ontinue"
 #~ msgid "Continue"
 #~ msgstr "जारी राखू (&o)"
-
-#, fuzzy
-#~| msgid "Open file dialog"
-#~ msgid "Open File Manager"
-#~ msgstr "फाइल खोलबा क' संवाद"
 
 #, fuzzy
 #~| msgid ""
