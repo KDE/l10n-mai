@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkded\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:25+0200\n"
+"POT-Creation-Date: 2020-01-17 03:58+0100\n"
 "PO-Revision-Date: 2009-01-18 15:29+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -30,126 +30,85 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#: kcmkded.cpp:79
-#, kde-format
-msgid "kcmkded"
-msgstr "केसीएमकेडीईडी"
+#: kcmkded.cpp:67
+#, fuzzy, kde-format
+#| msgid "Startup Services"
+msgid "Background Services"
+msgstr "शुरूआतक सेवासभ"
 
-#: kcmkded.cpp:79
-#, kde-format
-msgid "KDE Service Manager"
-msgstr "केडीई सेवा प्रबंधक"
-
-#: kcmkded.cpp:81
-#, kde-format
-msgid "(c) 2002 Daniel Molkentin"
+#: kcmkded.cpp:69
+#, fuzzy, kde-format
+#| msgid "(c) 2002 Daniel Molkentin"
+msgid "(c) 2002 Daniel Molkentin, (c) 2020 Kai Uwe Broulik"
 msgstr "(c) 2002 डेनियल माल्केनटिन"
 
-#: kcmkded.cpp:82
+#: kcmkded.cpp:71
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "डेनियल माल्केनटिन"
 
-#: kcmkded.cpp:85
+#: kcmkded.cpp:72
 #, kde-format
-msgid ""
-"<h1>Service Manager</h1><p>This module allows you to have an overview of all "
-"plugins of the KDE Daemon, also referred to as KDE Services. Generally, "
-"there are two types of service:</p><ul><li>Services invoked at startup</"
-"li><li>Services called on demand</li></ul><p>The latter are only listed for "
-"convenience. The startup services can be started and stopped. In "
-"Administrator mode, you can also define whether services should be loaded at "
-"startup.</p><p><b> Use this with care: some services are vital for Plasma; "
-"do not deactivate services if you do not know what you are doing.</b></p>"
+msgid "Kai Uwe Broulik"
 msgstr ""
-
-#: kcmkded.cpp:93
-#, kde-format
-msgid "Running"
-msgstr "चलि रहल अछि"
-
-#: kcmkded.cpp:94
-#, kde-format
-msgid "Not running"
-msgstr "नहि चलि रहल अछि..."
-
-#: kcmkded.cpp:99
-#, kde-format
-msgid "Load-on-Demand Services"
-msgstr "माँग-पर सेवा प्रारंभ करू"
-
-#: kcmkded.cpp:100
-#, kde-format
-msgid ""
-"This is a list of available KDE services which will be started on demand. "
-"They are only listed for convenience, as you cannot manipulate these "
-"services."
-msgstr ""
-
-#: kcmkded.cpp:109 kcmkded.cpp:131
-#, kde-format
-msgid "Service"
-msgstr "सेवा"
-
-#: kcmkded.cpp:110 kcmkded.cpp:132
-#, kde-format
-msgid "Status"
-msgstr "स्थिति"
-
-#: kcmkded.cpp:111 kcmkded.cpp:133
-#, kde-format
-msgid "Description"
-msgstr "विवरण"
-
-#: kcmkded.cpp:120
-#, kde-format
-msgid "Startup Services"
-msgstr "शुरूआतक सेवासभ"
-
-#: kcmkded.cpp:121
-#, kde-format
-msgid ""
-"This shows all KDE services that can be loaded on Plasma startup. Checked "
-"services will be invoked on next startup. Be careful with deactivation of "
-"unknown services."
-msgstr ""
-
-#: kcmkded.cpp:130
-#, kde-format
-msgid "Use"
-msgstr "उपयोग करू"
-
-#: kcmkded.cpp:143
-#, kde-format
-msgid "Start"
-msgstr "प्रारंभ"
 
 #: kcmkded.cpp:144
 #, kde-format
-msgid "Stop"
-msgstr "रोकू"
-
-#: kcmkded.cpp:325
-#, kde-format
-msgid "Unable to contact KDED."
-msgstr "केडीईडी सँ सम्पर्क मे अक्षम."
-
-#: kcmkded.cpp:469
-#, kde-format
-msgid "Unable to start server <em>%1</em>."
+msgid "Failed to stop service: %1"
 msgstr ""
 
-#: kcmkded.cpp:472
+#: kcmkded.cpp:146
 #, kde-format
-msgid "Unable to start service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgid "Failed to start service: %1"
 msgstr ""
 
-#: kcmkded.cpp:489
+#: kcmkded.cpp:153
 #, kde-format
-msgid "Unable to stop service <em>%1</em>."
+msgid "Failed to stop service."
 msgstr ""
 
-#: kcmkded.cpp:492
+#: kcmkded.cpp:155
 #, kde-format
-msgid "Unable to stop service <em>%1</em>.<br /><br /><i>Error: %2</i>"
+msgid "Failed to start service."
 msgstr ""
+
+#: kcmkded.cpp:252
+#, kde-format
+msgid "Failed to notify KDE Service Manager (kded5) of saved changed: %1"
+msgstr ""
+
+#~ msgid "kcmkded"
+#~ msgstr "केसीएमकेडीईडी"
+
+#~ msgid "KDE Service Manager"
+#~ msgstr "केडीई सेवा प्रबंधक"
+
+#~ msgid "Running"
+#~ msgstr "चलि रहल अछि"
+
+#~ msgid "Not running"
+#~ msgstr "नहि चलि रहल अछि..."
+
+#~ msgid "Load-on-Demand Services"
+#~ msgstr "माँग-पर सेवा प्रारंभ करू"
+
+#~ msgid "Service"
+#~ msgstr "सेवा"
+
+#~ msgid "Status"
+#~ msgstr "स्थिति"
+
+#~ msgid "Description"
+#~ msgstr "विवरण"
+
+#~ msgid "Use"
+#~ msgstr "उपयोग करू"
+
+#~ msgid "Start"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "Stop"
+#~ msgstr "रोकू"
+
+#~ msgid "Unable to contact KDED."
+#~ msgstr "केडीईडी सँ सम्पर्क मे अक्षम."
