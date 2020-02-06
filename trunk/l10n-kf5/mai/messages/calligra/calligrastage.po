@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-27 02:38+0100\n"
+"POT-Creation-Date: 2020-02-06 02:36+0100\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -144,6 +144,13 @@ msgstr "कोनो प्रभाव नहि"
 msgctxt "(qtundo-format)"
 msgid "Delete Slide Effect"
 msgstr "अगिला स्लाइड"
+
+#: part/commands/KPrPageTransitionSetCommand.cpp:32
+#, fuzzy
+#| msgid "Transitions"
+msgctxt "(qtundo-format)"
+msgid "Modify Slide Transition"
+msgstr "संक्रमण"
 
 #: part/commands/KPrRenameCustomSlideShowCommand.cpp:33
 #, fuzzy
@@ -889,23 +896,39 @@ msgstr ""
 msgid "Preview Shape Animation"
 msgstr "प्रस्तुति"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:60
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:63
 #, kde-format
 msgid "No Effect"
 msgstr "कोनो प्रभाव नहि"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:83
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:86
 #, kde-format
 msgid " sec"
 msgstr " sec"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:93
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:97
+#, kde-format
+msgid "Manual"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:98
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:106
+#, fuzzy, kde-format
+#| msgid "Transitions"
+msgid "Slide Transition:"
+msgstr "संक्रमण"
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:117
 #, fuzzy, kde-format
 #| msgid "Next Slide"
 msgid "Apply To All Slides"
 msgstr "अगिला स्लाइड"
 
-#: part/tools/animationtool/KPrPageEffectDocker.cpp:238
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:278
 msgctxt "(qtundo-format)"
 msgid "Apply Slide Effect to all Slides"
 msgstr ""
