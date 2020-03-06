@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calendarsupport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-01 03:22+0100\n"
+"POT-Creation-Date: 2020-03-06 03:37+0100\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2794,54 +2794,82 @@ msgctxt "unknown resource"
 msgid "Unknown"
 msgstr ""
 
-#: utils.cpp:683
-#, fuzzy, kde-format
-#| msgid "unknown@nowhere"
-msgctxt "unknown calendar type"
-msgid "unknown"
-msgstr "unknown@nowhere"
-
-#: utils.cpp:685
+#: utils.cpp:674
 #, fuzzy, kde-format
 #| msgctxt "@title:column calendar title"
 #| msgid "Calendar"
-msgid "Calendar type:"
+msgctxt "this is the default calendar"
+msgid "%1 (Default Calendar)"
 msgstr "कैलेंडर"
 
-#: utils.cpp:691
+#: utils.cpp:686
+#, kde-format
+msgctxt "a virtual folder type"
+msgid "Virtual"
+msgstr ""
+
+#: utils.cpp:688
+#, fuzzy, kde-format
+#| msgctxt "@title:column calendar title"
+#| msgid "Calendar"
+msgid "Folder type:"
+msgstr "कैलेंडर"
+
+#: utils.cpp:701
+#, fuzzy, kde-format
+#| msgctxt "no status"
+#| msgid "none"
+msgctxt "collection has no mimetypes to show the user"
+msgid "none"
+msgstr "किछु नहि"
+
+#: utils.cpp:704
+#, fuzzy, kde-format
+#| msgctxt "@title:column calendar title"
+#| msgid "Calendar"
+msgid "Content type:"
+msgstr "कैलेंडर"
+
+#: utils.cpp:711
 #, kde-format
 msgid "Rights:"
 msgstr ""
 
-#: utils.cpp:694
+#: utils.cpp:714
 #, kde-format
 msgctxt "the calendar is read-only"
 msgid "read-only"
 msgstr ""
 
-#: utils.cpp:696
+#: utils.cpp:716
 #, kde-format
 msgctxt "the calendar is read and write"
 msgid "read+write"
 msgstr ""
 
-#: utils.cpp:762
+#: utils.cpp:782
 #, fuzzy, kde-format
 #| msgid "%1%"
 msgctxt "search pattern for holidayname"
 msgid "^%1"
 msgstr "%1%"
 
-#: utils.cpp:764
+#: utils.cpp:784
 #, kde-format
 msgid "%1 (%2)"
 msgstr ""
 
-#: utils.cpp:770
+#: utils.cpp:790
 #, kde-format
 msgctxt "replace pattern for holidayname (countrycode)"
 msgid "^%1 \\(.*\\)"
 msgstr ""
+
+#, fuzzy
+#~| msgid "unknown@nowhere"
+#~ msgctxt "unknown calendar type"
+#~ msgid "unknown"
+#~ msgstr "unknown@nowhere"
 
 #~ msgctxt "@title:tab General settings for a folder."
 #~ msgid "General"
@@ -2850,13 +2878,6 @@ msgstr ""
 #~ msgctxt "@label:textbox Name of the folder."
 #~ msgid "&Name:"
 #~ msgstr "नाम (&N):"
-
-#, fuzzy
-#~| msgctxt "@title:column calendar title"
-#~| msgid "Calendar"
-#~ msgctxt "%1 is the folder name"
-#~ msgid "%1 CalDav Calendar"
-#~ msgstr "कैलेंडर"
 
 #~ msgctxt "@title:column calendar event summary"
 #~ msgid "Summary"
