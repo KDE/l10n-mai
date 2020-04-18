@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-17 08:49+0200\n"
+"POT-Creation-Date: 2020-04-18 09:15+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -4244,18 +4244,18 @@ msgctxt "action"
 msgid "Local Selection"
 msgstr "चयन बढाउ"
 
-#. i18n: context: Action (isolate_layer), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2823
 #, fuzzy, kde-format
 msgctxt "action"
-msgid "&Isolate Layer"
+msgid "&Isolate Active Layer"
 msgstr "चित्र चपटा करू"
 
-#. i18n: context: Action (isolate_layer), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2825
 #, fuzzy, kde-format
 msgctxt "action"
-msgid "Isolate Layer"
+msgid "Isolate Active Layer"
 msgstr "चित्र चपटा करू"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
@@ -8877,6 +8877,12 @@ msgstr ""
 msgid "Imported Image"
 msgstr "चित्र काटू"
 
+#: libs/image/kis_image.cc:605 libs/image/kis_layer_utils.cpp:1426
+#: libs/impex/KisExportCheckRegistry.cpp:121
+#, fuzzy, kde-format
+msgid "Selection Mask"
+msgstr "चुनाव"
+
 #: libs/image/kis_image.cc:650
 #, kde-format
 msgid "background"
@@ -9332,13 +9338,13 @@ msgstr "मोड विरूपित करू"
 msgid "Satin (style)"
 msgstr "संतृप्ति"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:942
+#: libs/image/lazybrush/kis_colorize_mask.cpp:943
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr "रँग स्पेस"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:969
+#: libs/image/lazybrush/kis_colorize_mask.cpp:970
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
@@ -9447,7 +9453,8 @@ msgstr "सामान्य"
 msgid "Colorize Mask"
 msgstr "रंग (&C)"
 
-#: libs/impex/KisExportCheckRegistry.cpp:115 libs/ui/kis_mask_manager.cc:234
+#: libs/impex/KisExportCheckRegistry.cpp:115
+#: libs/ui/dialogs/kis_dlg_filter.cpp:201 libs/ui/kis_mask_manager.cc:234
 #, fuzzy, kde-format
 msgid "Filter Mask"
 msgstr "फिल्टर: (&F)"
@@ -9462,11 +9469,6 @@ msgstr "रूपांतरित करू"
 #, fuzzy, kde-format
 msgid "Transparency Mask"
 msgstr "पारदर्शी"
-
-#: libs/impex/KisExportCheckRegistry.cpp:121
-#, fuzzy, kde-format
-msgid "Selection Mask"
-msgstr "चुनाव"
 
 #: libs/impex/MultiLayerCheck.h:37
 #, kde-format
@@ -9662,7 +9664,7 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "चित्र"
 
-#: libs/libkis/Document.cpp:896 libs/ui/KisMainWindow.cpp:1951
+#: libs/libkis/Document.cpp:897 libs/ui/KisMainWindow.cpp:1951
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "चित्र काटू"
