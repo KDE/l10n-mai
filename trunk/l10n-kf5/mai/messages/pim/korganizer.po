@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-08 03:35+0200\n"
+"POT-Creation-Date: 2020-05-09 03:37+0200\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2121,6 +2121,17 @@ msgstr ""
 msgid "Description:"
 msgstr "विवरण:"
 
+#: koapp.cpp:87
+#, kde-format
+msgid "Failed to retrieve incidence from Akonadi"
+msgstr ""
+
+#: koapp.cpp:92
+#, kde-format
+msgid ""
+"Failed to retrieve incidence from Akonadi: requested incidence doesn't exist."
+msgstr ""
+
 #: kocorehelper.cpp:50
 #, kde-format
 msgctxt "@item:intext delimiter for joining holiday names"
@@ -3336,14 +3347,19 @@ msgstr ""
 msgid "Merge the specified files into an existing calendar"
 msgstr ""
 
-#: korganizer_options.h:43
+#: korganizer_options.h:42
+#, kde-format
+msgid "Display the specified incidence (by URL)"
+msgstr ""
+
+#: korganizer_options.h:46
 #, kde-format
 msgid ""
 "Calendar files or urls. Unless -i or -m is explicitly specified, the user "
 "will be asked whether to import or merge"
 msgstr ""
 
-#: korganizer_options.h:47
+#: korganizer_options.h:50
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr ""
