@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:38+0200\n"
+"POT-Creation-Date: 2020-05-07 09:26+0200\n"
 "PO-Revision-Date: 2010-01-29 13:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -21,6 +21,16 @@ msgstr ""
 "\n"
 "\n"
 "\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "संगीता कुमारी"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sangeeta09@gmail.com"
 
 #: declarative-plugin/buttonsmodel.cpp:68
 #, kde-format
@@ -75,147 +85,174 @@ msgstr "आनसभ केर नीच्चाँ राखू"
 msgid "Keep above"
 msgstr "आनसभ केर उप्पर राखू"
 
-#: kcm.cpp:140
-#, kde-format
-msgid ""
-"Close by double clicking:\n"
-" To open the menu, keep the button pressed until it appears."
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, theTab)
-#: kcm.ui:21
-#, kde-format
-msgid "Theme"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, filter)
-#: kcm.ui:29
-#, kde-format
-msgid "Search"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, knsButton)
-#: kcm.ui:42
+#: kcm.cpp:62
 #, fuzzy, kde-format
 #| msgid "&Window Decoration"
-msgid "Get New Decorations..."
+msgid "Window Decorations"
 msgstr "विंडो सजावट (&W)"
 
-#. i18n: ectx: property (text), widget (QCheckBox, closeWindowsDoubleClick)
-#: kcm.ui:54
+#: kcm.cpp:66
 #, kde-format
-msgid "Close windows by double clicking &the menu button"
+msgid "Valerio Pilo"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, borderSizesLabel)
-#: kcm.ui:95
-#, fuzzy, kde-format
-#| msgid "B&order size:"
-msgid "Border si&ze:"
-msgstr "किनारक आकार:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:109
-#, fuzzy, kde-format
-#| msgid "B&order size:"
-msgctxt "@item:inlistbox Border size:"
-msgid "No Borders"
-msgstr "किनारक आकार:"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:114
+#: kcm.cpp:67
 #, kde-format
-msgctxt "@item:inlistbox Border size:"
-msgid "No Side Borders"
+msgid "Author"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:119
+#: kcm.cpp:122
 #, fuzzy, kde-format
-#| msgid "Tiny"
-msgctxt "@item:inlistbox Border size:"
-msgid "Tiny"
-msgstr "नन्हा"
+#| msgid "&Window Decoration"
+msgid "Download New Window Decorations"
+msgstr "विंडो सजावट (&W)"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:124
-#, fuzzy, kde-format
-#| msgid "Normal"
-msgctxt "@item:inlistbox Border size:"
-msgid "Normal"
-msgstr "सामान्य"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:129
-#, fuzzy, kde-format
-#| msgid "Large"
-msgctxt "@item:inlistbox Border size:"
-msgid "Large"
-msgstr "पैघ"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:134
-#, fuzzy, kde-format
-#| msgid "Very Large"
-msgctxt "@item:inlistbox Border size:"
-msgid "Very Large"
-msgstr "बहुत बड"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:139
-#, fuzzy, kde-format
-#| msgid "Huge"
-msgctxt "@item:inlistbox Border size:"
-msgid "Huge"
-msgstr "विशाल"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:144
-#, fuzzy, kde-format
-#| msgid "Very Huge"
-msgctxt "@item:inlistbox Border size:"
-msgid "Very Huge"
-msgstr "अत्यंत विशाल"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, borderSizesCombo)
-#: kcm.ui:149
-#, fuzzy, kde-format
-#| msgid "Oversized"
-msgctxt "@item:inlistbox Border size:"
-msgid "Oversized"
-msgstr "वृहताकार"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: kcm.ui:160
-#, fuzzy, kde-format
-#| msgid "&Buttons"
-msgid "Buttons"
-msgstr "बटन (&B)"
-
-#: qml/Buttons.qml:78
+#: package/contents/ui/Buttons.qml:87
 #, kde-format
 msgid "Titlebar"
 msgstr ""
 
-#: qml/Buttons.qml:202
+#: package/contents/ui/Buttons.qml:228
+#, kde-format
+msgid "Drop button here to remove it"
+msgstr ""
+
+#: package/contents/ui/Buttons.qml:246
 #, kde-format
 msgid "Drag buttons between here and the titlebar"
 msgstr ""
 
-#: qml/Buttons.qml:217
+#: package/contents/ui/main.qml:27
 #, kde-format
-msgid "Drop here to remove button"
+msgid "This module lets you configure the window decorations."
 msgstr ""
+
+#: package/contents/ui/main.qml:61
+#, kde-format
+msgctxt "tab label"
+msgid "Theme"
+msgstr ""
+
+#: package/contents/ui/main.qml:65
+#, fuzzy, kde-format
+#| msgid "&Buttons"
+msgctxt "tab label"
+msgid "Titlebar Buttons"
+msgstr "बटन (&B)"
+
+#: package/contents/ui/main.qml:90
+#, kde-format
+msgctxt "checkbox label"
+msgid "Use theme's default window border size"
+msgstr ""
+
+#: package/contents/ui/main.qml:121
+#, fuzzy, kde-format
+#| msgid "&Window Decoration"
+msgctxt "button text"
+msgid "Get New Window Decorations..."
+msgstr "विंडो सजावट (&W)"
+
+#: package/contents/ui/main.qml:138
+#, kde-format
+msgctxt "checkbox label"
+msgid "Close windows by double clicking the menu button"
+msgstr ""
+
+#: package/contents/ui/main.qml:151
+#, kde-format
+msgctxt "popup tip"
+msgid ""
+"Close by double clicking: Keep the window's Menu button pressed until it "
+"appears."
+msgstr ""
+
+#: package/contents/ui/main.qml:158
+#, fuzzy, kde-format
+#| msgid "&Show window button tooltips"
+msgctxt "checkbox label"
+msgid "Show titlebar button tooltips"
+msgstr "विंडो बटन अओजार-नुस्खा देखाबू (&S)"
+
+#: package/contents/ui/Themes.qml:100
+#, kde-format
+msgid "Edit %1 Theme"
+msgstr ""
+
+#: utils.cpp:38
+#, fuzzy, kde-format
+#| msgid "B&order size:"
+msgid "No Borders"
+msgstr "किनारक आकार:"
+
+#: utils.cpp:39
+#, fuzzy, kde-format
+#| msgid "B&order size:"
+msgid "No Side Borders"
+msgstr "किनारक आकार:"
+
+#: utils.cpp:40
+#, fuzzy, kde-format
+#| msgid "Tiny"
+msgid "Tiny"
+msgstr "नन्हा"
+
+#: utils.cpp:41
+#, fuzzy, kde-format
+#| msgid "Normal"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: utils.cpp:42
+#, fuzzy, kde-format
+#| msgid "Large"
+msgid "Large"
+msgstr "पैघ"
+
+#: utils.cpp:43
+#, fuzzy, kde-format
+#| msgid "Very Large"
+msgid "Very Large"
+msgstr "बहुत बड"
+
+#: utils.cpp:44
+#, fuzzy, kde-format
+#| msgid "Huge"
+msgid "Huge"
+msgstr "विशाल"
+
+#: utils.cpp:45
+#, fuzzy, kde-format
+#| msgid "Very Huge"
+msgid "Very Huge"
+msgstr "अत्यंत विशाल"
+
+#: utils.cpp:46
+#, fuzzy, kde-format
+#| msgid "Oversized"
+msgid "Oversized"
+msgstr "वृहताकार"
+
+#, fuzzy
+#~| msgid "B&order size:"
+#~ msgctxt "combobox label"
+#~ msgid "Window border size:"
+#~ msgstr "किनारक आकार:"
+
+#, fuzzy
+#~| msgid "B&order size:"
+#~ msgid "Border si&ze:"
+#~ msgstr "किनारक आकार:"
+
+#, fuzzy
+#~| msgid "&Window Decoration"
+#~ msgid "Configure %1..."
+#~ msgstr "विंडो सजावट (&W)"
 
 #, fuzzy
 #~| msgid "Normal"
 #~ msgid "Form"
 #~ msgstr "सामान्य"
-
-#, fuzzy
-#~| msgid "B&order size:"
-#~ msgid "Border size:"
-#~ msgstr "किनारक आकार:"
 
 #, fuzzy
 #~| msgid "&Buttons"
@@ -279,9 +316,6 @@ msgstr ""
 #~ msgid "--- spacer ---"
 #~ msgstr "---स्पेसर---"
 
-#~ msgid "&Show window button tooltips"
-#~ msgstr "विंडो बटन अओजार-नुस्खा देखाबू (&S)"
-
 #, fuzzy
 #~| msgid ""
 #~| "The appropriate settings can be found in the \"Buttons\" Tab; please "
@@ -307,19 +341,6 @@ msgstr ""
 #~ "Select the window decoration. This is the look and feel of both the "
 #~ "window borders and the window handle."
 #~ msgstr "विंडो सजावट चुनू. ई विंडो किनारा तथा विंडो हैंडल क' रूपेँ आओर आकार अछि."
-
-#, fuzzy
-#~| msgid "&Window Decoration"
-#~ msgid "Configure Decoration..."
-#~ msgstr "विंडो सजावट (&W)"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "संगीता कुमारी"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "sangeeta09@gmail.com"
 
 #~ msgid "Window Decoration Control Module"
 #~ msgstr "विंडो सजावट नियंत्रण मोड्यूल"

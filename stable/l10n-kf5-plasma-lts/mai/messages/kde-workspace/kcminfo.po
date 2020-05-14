@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminfo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:38+0200\n"
+"POT-Creation-Date: 2020-01-31 08:32+0100\n"
 "PO-Revision-Date: 2009-01-18 15:28+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -29,26 +29,6 @@ msgstr "संगीता कुमारी"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
-
-#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
-#, kde-format
-msgid "Name"
-msgstr "नाम"
-
-#: ../base/info_aix.cpp:69
-#, kde-format
-msgid "Status"
-msgstr "स्थिति"
-
-#: ../base/info_aix.cpp:70
-#, kde-format
-msgid "Location"
-msgstr "स्थान"
-
-#: ../base/info_aix.cpp:71
-#, kde-format
-msgid "Description"
-msgstr "विवरण"
 
 #: ../base/info_fbsd.cpp:89
 #, fuzzy, kde-format
@@ -72,17 +52,6 @@ msgstr ""
 #, kde-format
 msgid "The PCI subsystem could not be queried, this may need root privileges."
 msgstr ""
-
-#: ../base/info_hpux.cpp:128
-#, fuzzy, kde-format
-#| msgid "Processor(s)"
-msgid "PA-RISC Processor"
-msgstr "प्रोसेसर"
-
-#: ../base/info_hpux.cpp:130
-#, kde-format
-msgid "PA-RISC Revision"
-msgstr "PA-RISC संशोधन"
 
 #: ../base/info_linux.cpp:103 main.cpp:51
 #, kde-format
@@ -155,6 +124,11 @@ msgstr ""
 #, kde-format
 msgid "Seat"
 msgstr ""
+
+#: ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "नाम"
 
 #: ../base/info_wayland.cpp:94
 #, kde-format
@@ -484,84 +458,83 @@ msgstr ""
 msgid "Server Information"
 msgstr "सर्वरक सूचना"
 
-#: ../base/os_base.h:243
+#: ../base/os_base.h:244
 #, kde-format
 msgid "Vendor String"
 msgstr ""
 
-#: ../base/os_base.h:247
+#: ../base/os_base.h:258
 #, kde-format
 msgid "Vendor Release Number"
 msgstr ""
 
-#: ../base/os_base.h:251
+#: ../base/os_base.h:262
 #, kde-format
 msgid "Version Number"
 msgstr "संस्करण सँख्या"
 
-#: ../base/os_base.h:255
+#: ../base/os_base.h:266
 #, kde-format
 msgid "Available Screens"
 msgstr ""
 
-#: ../base/os_base.h:265
+#: ../base/os_base.h:276
 #, kde-format
 msgid "Supported Extensions"
 msgstr ""
 
-#: ../base/os_base.h:280
+#: ../base/os_base.h:291
 #, kde-format
 msgid "Supported Pixmap Formats"
 msgstr ""
 
-#: ../base/os_base.h:287
+#: ../base/os_base.h:298
 #, kde-format
 msgid "Pixmap Format #%1"
 msgstr ""
 
-#: ../base/os_base.h:287
+#: ../base/os_base.h:298
 #, kde-format
 msgid "%1 BPP, Depth: %2, Scanline padding: %3"
 msgstr ""
 
-#: ../base/os_base.h:299
+#: ../base/os_base.h:310
 #, kde-format
 msgid "Maximum Request Size"
 msgstr ""
 
-#: ../base/os_base.h:303
+#: ../base/os_base.h:314
 #, kde-format
 msgid "Motion Buffer Size"
 msgstr ""
 
-#: ../base/os_base.h:307
+#: ../base/os_base.h:318
 #, kde-format
 msgid "Bitmap"
 msgstr "बिटमाप"
 
-#: ../base/os_base.h:311
+#: ../base/os_base.h:322
 #, kde-format
 msgid "Unit"
 msgstr "एकाइ"
 
-#: ../base/os_base.h:315
+#: ../base/os_base.h:326
 #, kde-format
 msgid "Order"
 msgstr "क्रम"
 
-#: ../base/os_base.h:319
+#: ../base/os_base.h:330
 #, kde-format
 msgid "Padding"
 msgstr "पैडिंग"
 
-#: ../base/os_base.h:323
+#: ../base/os_base.h:334
 #, kde-format
 msgid "Image Byte Order"
 msgstr ""
 
-#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
-#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
-#: ../base/os_current.h:123 ../base/os_current.h:132
+#: ../base/os_current.h:56 ../base/os_current.h:65 ../base/os_current.h:74
+#: ../base/os_current.h:83
 #, kde-format
 msgid "This system may not be completely supported yet."
 msgstr ""
@@ -630,6 +603,23 @@ msgstr "X-सर्वर"
 #, kde-format
 msgid "Wayland"
 msgstr ""
+
+#~ msgid "Status"
+#~ msgstr "स्थिति"
+
+#~ msgid "Location"
+#~ msgstr "स्थान"
+
+#~ msgid "Description"
+#~ msgstr "विवरण"
+
+#, fuzzy
+#~| msgid "Processor(s)"
+#~ msgid "PA-RISC Processor"
+#~ msgstr "प्रोसेसर"
+
+#~ msgid "PA-RISC Revision"
+#~ msgstr "PA-RISC संशोधन"
 
 #~ msgid "SCSI"
 #~ msgstr "एससीएसआई"
