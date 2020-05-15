@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-14 03:35+0200\n"
+"POT-Creation-Date: 2020-05-15 03:42+0200\n"
 "PO-Revision-Date: 2010-09-24 16:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1628,11 +1628,26 @@ msgctxt "@title:window"
 msgid "Import Calendar Files"
 msgstr "कैलेंडर"
 
-#: functions.cpp:787 functions.cpp:839
+#: functions.cpp:787 resources/dirresourceimportdialog.cpp:264
+#: resources/singlefileresourceconfigdialog.cpp:52
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
 #| msgid "Calendars"
-msgctxt "@info"
+msgctxt "@item:inlistbox File type selection filter"
+msgid "Calendar files"
+msgstr "कैलेंडर"
+
+#: functions.cpp:787
+#, kde-format
+msgctxt "@item:inlistbox File type selection filter"
+msgid "All files except backup files"
+msgstr ""
+
+#: functions.cpp:839
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Calendars"
+msgctxt "@item:inlistbox File type selection filter"
 msgid "Calendar Files"
 msgstr "कैलेंडर"
 
@@ -5593,15 +5608,6 @@ msgctxt "@item:intext"
 msgid "Alarm templates"
 msgstr "टेंपलेट नाम:"
 
-#: resources/dirresourceimportdialog.cpp:264
-#: resources/singlefileresourceconfigdialog.cpp:52
-#, fuzzy, kde-format
-#| msgctxt "@title:column"
-#| msgid "Calendars"
-msgctxt "@item:inlistbox"
-msgid "Calendar Files"
-msgstr "कैलेंडर"
-
 #: resources/dirresourceimportdialog.cpp:410
 #: resources/singlefileresourceconfigdialog.cpp:222
 #, kde-format
@@ -7325,6 +7331,13 @@ msgstr ""
 #, kde-format
 msgid "Number of minutes before alarm to wake from suspend"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@title:column"
+#~| msgid "Calendars"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Calendar Files"
+#~ msgstr "कैलेंडर"
 
 #, fuzzy
 #~| msgctxt "@info/plain"
