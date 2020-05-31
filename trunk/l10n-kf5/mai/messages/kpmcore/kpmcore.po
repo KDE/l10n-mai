@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-28 02:54+0100\n"
+"POT-Creation-Date: 2020-05-31 18:17+0200\n"
 "PO-Revision-Date: 2010-09-24 20:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1921,7 +1921,7 @@ msgid ""
 "%2</filename>"
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:74 jobs/setpartitionlabeljob.cpp:70
+#: jobs/createfilesystemjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1929,7 +1929,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:76 jobs/setpartitionlabeljob.cpp:72
+#: jobs/createfilesystemjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1937,7 +1937,7 @@ msgid ""
 "system type for partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createfilesystemjob.cpp:78 jobs/setpartitionlabeljob.cpp:74
+#: jobs/createfilesystemjob.cpp:78
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1953,7 +1953,7 @@ msgid ""
 "filename>"
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:68
+#: jobs/createpartitionjob.cpp:72
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid ""
@@ -1961,7 +1961,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:70
+#: jobs/createpartitionjob.cpp:74
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1969,7 +1969,7 @@ msgid ""
 "new partition <filename>%2</filename>."
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:72
+#: jobs/createpartitionjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1977,13 +1977,13 @@ msgid ""
 "<filename>%2</filename>."
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:90
+#: jobs/createpartitionjob.cpp:94
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
 msgstr ""
 
-#: jobs/createpartitionjob.cpp:92
+#: jobs/createpartitionjob.cpp:96
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
@@ -2394,10 +2394,68 @@ msgid ""
 "setting names. Job ignored."
 msgstr ""
 
+#: jobs/setpartitionlabeljob.cpp:70
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Failed to set the name for the partition <filename>%1</filename>."
+msgstr ""
+
+#: jobs/setpartitionlabeljob.cpp:72
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Could not open partition table on device <filename>%1</filename> to set the "
+"name for the partition <filename>%2</filename>."
+msgstr ""
+
+#: jobs/setpartitionlabeljob.cpp:74
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Could not open device <filename>%1</filename> to set the name for partition "
+"<filename>%2</filename>."
+msgstr ""
+
 #: jobs/setpartitionlabeljob.cpp:85
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
+msgstr ""
+
+#: jobs/setpartitionuuidjob.cpp:58
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Partition table of partition <filename>%1</filename> does not support "
+"setting UUIDs. Job ignored."
+msgstr ""
+
+#: jobs/setpartitionuuidjob.cpp:70
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Failed to set the UUID for the partition <filename>%1</filename>."
+msgstr ""
+
+#: jobs/setpartitionuuidjob.cpp:72
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Could not open partition table on device <filename>%1</filename> to set the "
+"UUID for the partition <filename>%2</filename>."
+msgstr ""
+
+#: jobs/setpartitionuuidjob.cpp:74
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Could not open device <filename>%1</filename> to set the UUID for partition "
+"<filename>%2</filename>."
+msgstr ""
+
+#: jobs/setpartitionuuidjob.cpp:85
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
 msgstr ""
 
 #: jobs/shredfilesystemjob.cpp:71
@@ -2534,7 +2592,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr ""
 
-#: ops/newoperation.cpp:116
+#: ops/newoperation.cpp:123
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
