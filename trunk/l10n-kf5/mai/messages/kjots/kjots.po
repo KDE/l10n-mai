@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjots\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-03 02:12+0200\n"
+"POT-Creation-Date: 2020-06-04 02:12+0200\n"
 "PO-Revision-Date: 2010-09-24 16:27+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -233,20 +233,10 @@ msgctxt "@info:tooltip %1 is hyperlink address"
 msgid "Ctrl+click to follow the hyperlink: %1"
 msgstr ""
 
-#: src/kjotslinkdialog.cpp:44
+#: src/kjotslinkdialog.cpp:43
 #, kde-format
-msgid "Manage Link"
-msgstr "कड़ीसभ क' प्रबंधन करू"
-
-#: src/kjotslinkdialog.cpp:66
-#, kde-format
-msgid "Link Text:"
-msgstr "कड़ी पाठ:"
-
-#: src/kjotslinkdialog.cpp:69
-#, kde-format
-msgid "Link URL:"
-msgstr "कड़ी यूआरएल:"
+msgid "Enter link URL, or another note or note book..."
+msgstr ""
 
 #: src/kjotspart.cpp:63
 #, kde-format
@@ -378,6 +368,25 @@ msgid ""
 "Error message:\n"
 "%1"
 msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LinkDialog)
+#: src/linkdialog.ui:14
+#, kde-format
+msgid "Manage Link"
+msgstr "कड़ीसभ क' प्रबंधन करू"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: src/linkdialog.ui:29
+#, fuzzy, kde-format
+#| msgid "Link Text:"
+msgid "Link &Text:"
+msgstr "कड़ी पाठ:"
+
+#. i18n: ectx: property (text), widget (QLabel, linkUrlLabel)
+#: src/linkdialog.ui:46
+#, kde-format
+msgid "Link URL:"
+msgstr "कड़ी यूआरएल:"
 
 #: src/noteshared/notecreatorandselector.cpp:86
 #, kde-format
