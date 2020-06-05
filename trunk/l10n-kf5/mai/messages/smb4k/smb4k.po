@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-31 18:07+0200\n"
+"POT-Creation-Date: 2020-06-05 02:09+0200\n"
 "PO-Revision-Date: 2010-09-24 13:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -165,7 +165,7 @@ msgid "Mounting"
 msgstr "माउंट कएल जाए रहल अछि"
 
 #: smb4k/smb4kconfigdialog.cpp:146 smb4k/smb4kconfigpagecustomoptions.cpp:185
-#: smb4k/smb4kconfigpagenetwork.cpp:136
+#: smb4k/smb4kconfigpagenetwork.cpp:140
 #, kde-format
 msgid "Authentication"
 msgstr "सत्यापन"
@@ -273,7 +273,7 @@ msgstr ""
 msgid "Entry"
 msgstr "प्रविष्टि"
 
-#: smb4k/smb4kconfigpageauthentication.cpp:330 smb4k/smb4ktooltip.cpp:298
+#: smb4k/smb4kconfigpageauthentication.cpp:330 smb4k/smb4ktooltip.cpp:305
 #, kde-format
 msgid "Workgroup"
 msgstr ""
@@ -301,21 +301,21 @@ msgstr "सूची साफ करू"
 msgid "Identification"
 msgstr "सूचनासभ"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:120 smb4k/smb4ktooltip.cpp:356
+#: smb4k/smb4kconfigpagecustomoptions.cpp:120 smb4k/smb4ktooltip.cpp:370
 #, fuzzy, kde-format
 #| msgid "Group ID"
 msgid "Workgroup:"
 msgstr "समूह ID"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:130 smb4k/smb4ktooltip.cpp:434
-#: smb4k/smb4ktooltip.cpp:520
+#: smb4k/smb4kconfigpagecustomoptions.cpp:130 smb4k/smb4ktooltip.cpp:448
+#: smb4k/smb4ktooltip.cpp:534
 #, fuzzy, kde-format
 #| msgid "Notifications"
 msgid "Location:"
 msgstr "सूचनासभ"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:140 smb4k/smb4ktooltip.cpp:344
-#: smb4k/smb4ktooltip.cpp:422
+#: smb4k/smb4kconfigpagecustomoptions.cpp:140 smb4k/smb4ktooltip.cpp:358
+#: smb4k/smb4ktooltip.cpp:436
 #, kde-format
 msgid "IP Address:"
 msgstr "IP पता:"
@@ -368,7 +368,7 @@ msgid "Send magic package before mounting a share"
 msgstr ""
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:244
-#: smb4k/smb4kconfigpagenetwork.cpp:191 smb4k/smb4kconfigpagenetwork.cpp:235
+#: smb4k/smb4kconfigpagenetwork.cpp:194 smb4k/smb4kconfigpagenetwork.cpp:238
 #, kde-format
 msgid "Wake-On-LAN"
 msgstr ""
@@ -402,7 +402,7 @@ msgid "Directories"
 msgstr "निर्देशिका"
 
 #: smb4k/smb4kconfigpagemounting.cpp:105 smb4k/smb4kconfigpagemounting.cpp:513
-#: smb4k/smb4kconfigpagenetwork.cpp:93
+#: smb4k/smb4kconfigpagenetwork.cpp:108
 #: smb4k/smb4kconfigpagesynchronization.cpp:68
 #, kde-format
 msgid "Behavior"
@@ -414,7 +414,6 @@ msgid " min"
 msgstr ""
 
 #: smb4k/smb4kconfigpagemounting.cpp:151 smb4k/smb4kconfigpagemounting.cpp:555
-#: smb4k/smb4kconfigpagenetwork.cpp:57
 #: smb4k/smb4kconfigpagesynchronization.cpp:116
 #, fuzzy, kde-format
 #| msgid "&Settings"
@@ -480,35 +479,41 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: smb4k/smb4kconfigpagenetwork.cpp:113
+#: smb4k/smb4kconfigpagenetwork.cpp:57
 #, fuzzy, kde-format
 #| msgid "&Settings"
-msgid "Common Samba Settings"
+msgid "Browse Settings"
 msgstr "जमावट (&S)"
 
-#: smb4k/smb4kconfigpagenetwork.cpp:124
+#: smb4k/smb4kconfigpagenetwork.cpp:72
 #, fuzzy, kde-format
-#| msgid "Protocol"
-msgid "Protocols"
-msgstr "प्रोटोकॉल"
+#| msgid "&Settings"
+msgid "Basic Samba Settings"
+msgstr "जमावट (&S)"
 
-#: smb4k/smb4kconfigpagenetwork.cpp:155
+#: smb4k/smb4kconfigpagenetwork.cpp:129
+#, fuzzy, kde-format
+#| msgid "&Settings"
+msgid "Common Settings"
+msgstr "जमावट (&S)"
+
+#: smb4k/smb4kconfigpagenetwork.cpp:159
 #, kde-format
 msgid "Security"
 msgstr ""
 
-#: smb4k/smb4kconfigpagenetwork.cpp:180
+#: smb4k/smb4kconfigpagenetwork.cpp:183
 #, fuzzy, kde-format
 #| msgid "Advanced Options"
-msgid "Advanced Samba Settings"
+msgid "Advanced Settings"
 msgstr "उन्नत विकल्प"
 
-#: smb4k/smb4kconfigpagenetwork.cpp:202
+#: smb4k/smb4kconfigpagenetwork.cpp:205
 #, kde-format
 msgid " s"
 msgstr ""
 
-#: smb4k/smb4kconfigpagenetwork.cpp:218
+#: smb4k/smb4kconfigpagenetwork.cpp:221
 #, kde-format
 msgid ""
 "<qt>Define the hosts that should be woken up via the custom options dialog.</"
@@ -932,94 +937,99 @@ msgid ""
 "any files here.</qt>"
 msgstr ""
 
-#: smb4k/smb4ktooltip.cpp:235 smb4k/smb4ktooltip.cpp:398
+#: smb4k/smb4ktooltip.cpp:242 smb4k/smb4ktooltip.cpp:412
 #, kde-format
 msgid "yes"
 msgstr "हँ"
 
-#: smb4k/smb4ktooltip.cpp:235 smb4k/smb4ktooltip.cpp:398
+#: smb4k/smb4ktooltip.cpp:242 smb4k/smb4ktooltip.cpp:412
 #, kde-format
 msgid "no"
 msgstr "नहि"
 
-#: smb4k/smb4ktooltip.cpp:281
+#: smb4k/smb4ktooltip.cpp:288
 #, kde-format
 msgid "Type:"
 msgstr "प्रकार:"
 
-#: smb4k/smb4ktooltip.cpp:301
+#: smb4k/smb4ktooltip.cpp:308
 #, kde-format
 msgid "Master Browser:"
 msgstr ""
 
-#: smb4k/smb4ktooltip.cpp:329
+#: smb4k/smb4ktooltip.cpp:343
 #, fuzzy, kde-format
 #| msgid "Host:"
 msgid "Host"
 msgstr "होस्ट:"
 
-#: smb4k/smb4ktooltip.cpp:332 smb4k/smb4ktooltip.cpp:377
+#: smb4k/smb4ktooltip.cpp:346 smb4k/smb4ktooltip.cpp:391
 #, kde-format
 msgid "Comment:"
 msgstr "टिप्पणीः"
 
-#: smb4k/smb4ktooltip.cpp:374
+#: smb4k/smb4ktooltip.cpp:388
 #, fuzzy, kde-format
 #| msgid "Share"
 msgid "Share (%1)"
 msgstr "साझा"
 
-#: smb4k/smb4ktooltip.cpp:389
+#: smb4k/smb4ktooltip.cpp:403
 #, fuzzy, kde-format
 #| msgid "Mount"
 msgid "Mounted:"
 msgstr "माउन्ट"
 
-#: smb4k/smb4ktooltip.cpp:411
+#: smb4k/smb4ktooltip.cpp:425
 #, fuzzy, kde-format
 #| msgid "Host:"
 msgid "Host:"
 msgstr "होस्ट:"
 
-#: smb4k/smb4ktooltip.cpp:472 smb4k/smb4ktooltip.cpp:482
-#: smb4k/smb4ktooltip.cpp:547 smb4k/smb4ktooltip.cpp:559
-#: smb4k/smb4ktooltip.cpp:560 smb4k/smb4ktooltip.cpp:592
+#: smb4k/smb4ktooltip.cpp:486 smb4k/smb4ktooltip.cpp:496
+#: smb4k/smb4ktooltip.cpp:561 smb4k/smb4ktooltip.cpp:573
+#: smb4k/smb4ktooltip.cpp:574 smb4k/smb4ktooltip.cpp:606
 #, kde-format
 msgid "unknown"
 msgstr "अज्ञात"
 
-#: smb4k/smb4ktooltip.cpp:478 smb4k/smb4ktooltip.cpp:588
+#: smb4k/smb4ktooltip.cpp:492 smb4k/smb4ktooltip.cpp:602
 #, kde-format
 msgid "%1 free of %2 (%3 used)"
 msgstr ""
 
-#: smb4k/smb4ktooltip.cpp:531
+#: smb4k/smb4ktooltip.cpp:545
 #, fuzzy, kde-format
 #| msgid "Mount point:"
 msgid "Mountpoint:"
 msgstr "माउन्ट पाइंटः"
 
-#: smb4k/smb4ktooltip.cpp:542
+#: smb4k/smb4ktooltip.cpp:556
 #, fuzzy, kde-format
 #| msgid "Login"
 msgid "Login:"
 msgstr "लॉगिन"
 
-#: smb4k/smb4ktooltip.cpp:554
+#: smb4k/smb4ktooltip.cpp:568
 #, kde-format
 msgid "Owner:"
 msgstr "मालिक:"
 
-#: smb4k/smb4ktooltip.cpp:568
+#: smb4k/smb4ktooltip.cpp:582
 #, fuzzy, kde-format
 #| msgid "File system:"
 msgid "File system:"
 msgstr "फाइल सिस्टमः"
 
-#: smb4k/smb4ktooltip.cpp:579
+#: smb4k/smb4ktooltip.cpp:593
 #, kde-format
 msgid "Size:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Protocol"
+#~ msgid "Protocols"
+#~ msgstr "प्रोटोकॉल"
 
 #, fuzzy
 #~| msgid "Notifications"
