@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-05 02:09+0200\n"
+"POT-Creation-Date: 2020-06-20 02:09+0200\n"
 "PO-Revision-Date: 2010-09-24 13:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -165,7 +165,7 @@ msgid "Mounting"
 msgstr "माउंट कएल जाए रहल अछि"
 
 #: smb4k/smb4kconfigdialog.cpp:146 smb4k/smb4kconfigpagecustomoptions.cpp:185
-#: smb4k/smb4kconfigpagenetwork.cpp:140
+#: smb4k/smb4kconfigpagenetwork.cpp:147
 #, kde-format
 msgid "Authentication"
 msgstr "सत्यापन"
@@ -335,6 +335,7 @@ msgid "Common Options"
 msgstr ""
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:197
+#: smb4k/smb4kconfigpagenetwork.cpp:191
 #, kde-format
 msgid "Samba"
 msgstr "साम्बा"
@@ -368,7 +369,7 @@ msgid "Send magic package before mounting a share"
 msgstr ""
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:244
-#: smb4k/smb4kconfigpagenetwork.cpp:194 smb4k/smb4kconfigpagenetwork.cpp:238
+#: smb4k/smb4kconfigpagenetwork.cpp:202 smb4k/smb4kconfigpagenetwork.cpp:246
 #, kde-format
 msgid "Wake-On-LAN"
 msgstr ""
@@ -402,7 +403,7 @@ msgid "Directories"
 msgstr "निर्देशिका"
 
 #: smb4k/smb4kconfigpagemounting.cpp:105 smb4k/smb4kconfigpagemounting.cpp:513
-#: smb4k/smb4kconfigpagenetwork.cpp:108
+#: smb4k/smb4kconfigpagenetwork.cpp:80
 #: smb4k/smb4kconfigpagesynchronization.cpp:68
 #, kde-format
 msgid "Behavior"
@@ -414,6 +415,7 @@ msgid " min"
 msgstr ""
 
 #: smb4k/smb4kconfigpagemounting.cpp:151 smb4k/smb4kconfigpagemounting.cpp:555
+#: smb4k/smb4kconfigpagenetwork.cpp:100
 #: smb4k/smb4kconfigpagesynchronization.cpp:116
 #, fuzzy, kde-format
 #| msgid "&Settings"
@@ -485,35 +487,23 @@ msgstr[1] ""
 msgid "Browse Settings"
 msgstr "जमावट (&S)"
 
-#: smb4k/smb4kconfigpagenetwork.cpp:72
-#, fuzzy, kde-format
-#| msgid "&Settings"
-msgid "Basic Samba Settings"
-msgstr "जमावट (&S)"
-
-#: smb4k/smb4kconfigpagenetwork.cpp:129
+#: smb4k/smb4kconfigpagenetwork.cpp:111
 #, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "Common Settings"
 msgstr "जमावट (&S)"
 
-#: smb4k/smb4kconfigpagenetwork.cpp:159
+#: smb4k/smb4kconfigpagenetwork.cpp:166
 #, kde-format
 msgid "Security"
 msgstr ""
 
-#: smb4k/smb4kconfigpagenetwork.cpp:183
-#, fuzzy, kde-format
-#| msgid "Advanced Options"
-msgid "Advanced Settings"
-msgstr "उन्नत विकल्प"
-
-#: smb4k/smb4kconfigpagenetwork.cpp:205
+#: smb4k/smb4kconfigpagenetwork.cpp:213
 #, kde-format
 msgid " s"
 msgstr ""
 
-#: smb4k/smb4kconfigpagenetwork.cpp:221
+#: smb4k/smb4kconfigpagenetwork.cpp:229
 #, kde-format
 msgid ""
 "<qt>Define the hosts that should be woken up via the custom options dialog.</"
@@ -1025,6 +1015,16 @@ msgstr "फाइल सिस्टमः"
 #, kde-format
 msgid "Size:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "&Settings"
+#~ msgid "Basic Samba Settings"
+#~ msgstr "जमावट (&S)"
+
+#, fuzzy
+#~| msgid "Advanced Options"
+#~ msgid "Advanced Settings"
+#~ msgstr "उन्नत विकल्प"
 
 #, fuzzy
 #~| msgid "Protocol"
