@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-09 03:20+0100\n"
+"POT-Creation-Date: 2020-07-05 07:44+0200\n"
 "PO-Revision-Date: 2010-01-29 13:18+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -31,45 +31,99 @@ msgid ""
 "Use the \"Whats This?\" (Shift+F1) to get help on specific options."
 msgstr ""
 
-#~ msgid "Desktop path:"
-#~ msgstr "डेस्कटाप पथ: "
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: globalpaths.ui:17
+#, kde-format
+msgid "Desktop path:"
+msgstr "डेस्कटाप पथ: "
 
-#~ msgid "Autostart path:"
-#~ msgstr "स्वतः प्रारंभ पथः "
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_desktopLocation)
+#: globalpaths.ui:24
+#, kde-format
+msgid ""
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
 
-#~ msgid "Documents path:"
-#~ msgstr "दस्ताबेज क' पथः "
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: globalpaths.ui:31
+#, kde-format
+msgid "Autostart path:"
+msgstr "स्वतः प्रारंभ पथः "
 
-#~ msgid ""
-#~ "This folder will be used by default to load or save documents from or to."
-#~ msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_autostartLocation)
+#: globalpaths.ui:38
+#, kde-format
+msgid ""
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever the session starts. You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
+msgstr ""
 
-#~ msgid "Downloads path:"
-#~ msgstr "दस्ताबेज क' पथः "
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: globalpaths.ui:45
+#, kde-format
+msgid "Documents path:"
+msgstr "दस्ताबेज क' पथः "
 
-#~ msgid "This folder will be used by default to save your downloaded items."
-#~ msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_documentsLocation)
+#: globalpaths.ui:52
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save documents from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
 
-#~ msgid "Movies path:"
-#~ msgstr "मूवी क' पथः "
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: globalpaths.ui:59
+#, kde-format
+msgid "Downloads path:"
+msgstr "दस्ताबेज क' पथः "
 
-#~ msgid ""
-#~ "This folder will be used by default to load or save movies from or to."
-#~ msgstr "ई फोल्डर मूलभूत द्वारा मूवी केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_downloadsLocation)
+#: globalpaths.ui:66
+#, kde-format
+msgid "This folder will be used by default to save your downloaded items."
+msgstr "ई फोल्डर मूलभूत द्वारा दस्ताबेज केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
 
-#~ msgid "Pictures path:"
-#~ msgstr "चित्र क' पथः "
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: globalpaths.ui:73
+#, fuzzy, kde-format
+#| msgid "Movies path:"
+msgid "Videos path:"
+msgstr "मूवी क' पथः "
 
-#~ msgid ""
-#~ "This folder will be used by default to load or save pictures from or to."
-#~ msgstr "ई फोल्डर मूलभूत द्वारा चित्र केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_videosLocation)
+#: globalpaths.ui:80
+#, kde-format
+msgid "This folder will be used by default to load or save movies from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा मूवी केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
 
-#~ msgid "Music path:"
-#~ msgstr "संगीत पथ:"
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: globalpaths.ui:87
+#, kde-format
+msgid "Pictures path:"
+msgstr "चित्र क' पथः "
 
-#~ msgid ""
-#~ "This folder will be used by default to load or save music from or to."
-#~ msgstr "ई फोल्डर मूलभूत द्वारा चित्र केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_picturesLocation)
+#: globalpaths.ui:94
+#, kde-format
+msgid ""
+"This folder will be used by default to load or save pictures from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा चित्र केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: globalpaths.ui:101
+#, kde-format
+msgid "Music path:"
+msgstr "संगीत पथ:"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_musicLocation)
+#: globalpaths.ui:108
+#, kde-format
+msgid "This folder will be used by default to load or save music from or to."
+msgstr "ई फोल्डर मूलभूत द्वारा चित्र केँ लोड करब अथवा सहेजबा मे उपयोग मे लेल जएताह."
 
 #~ msgid "Autostart"
 #~ msgstr "स्वतः चालू"
