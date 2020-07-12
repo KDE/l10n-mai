@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-11 02:18+0200\n"
+"POT-Creation-Date: 2020-07-12 08:00+0200\n"
 "PO-Revision-Date: 2010-09-24 16:28+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -76,27 +76,27 @@ msgctxt "@action:inmenu"
 msgid "Delete Selected Notes..."
 msgstr ""
 
-#: apps/knotesapp.cpp:423 kontactplugin/knotes_part.cpp:870
+#: apps/knotesapp.cpp:423 kontactplugin/knotes_part.cpp:874
 #, kde-format
 msgid "Select Text File"
 msgstr ""
 
-#: apps/knotesapp.cpp:424 kontactplugin/knotes_part.cpp:871
+#: apps/knotesapp.cpp:424 kontactplugin/knotes_part.cpp:875
 #, kde-format
 msgid "Text File"
 msgstr ""
 
-#: apps/knotesapp.cpp:430 kontactplugin/knotes_part.cpp:878
+#: apps/knotesapp.cpp:430 kontactplugin/knotes_part.cpp:882
 #, kde-format
 msgid "Error during open text file: %1"
 msgstr ""
 
-#: apps/knotesapp.cpp:431 kontactplugin/knotes_part.cpp:879
+#: apps/knotesapp.cpp:431 kontactplugin/knotes_part.cpp:883
 #, kde-format
 msgid "Open Text File"
 msgstr ""
 
-#: apps/knotesapp.cpp:434 kontactplugin/knotes_part.cpp:882
+#: apps/knotesapp.cpp:434 kontactplugin/knotes_part.cpp:886
 #, kde-format
 msgid "Note from file '%1'"
 msgstr ""
@@ -106,14 +106,14 @@ msgstr ""
 msgid "No Notes"
 msgstr ""
 
-#: apps/knotesapp.cpp:581 kontactplugin/knotes_part.cpp:633
+#: apps/knotesapp.cpp:581 kontactplugin/knotes_part.cpp:637
 #, kde-format
 msgid "Settings"
 msgstr "जमावट"
 
 #. i18n: ectx: Menu (knotes_context)
 #: apps/main.cpp:52 data/knotesappui.rc:5 data/knotesappui.rc:6
-#: kontactplugin/knotes_part.cpp:87 kontactplugin/knotes_plugin.cpp:56
+#: kontactplugin/knotes_part.cpp:87 kontactplugin/knotes_plugin.cpp:58
 #: kontactplugin/knoteseditdialog.cpp:67
 #, kde-format
 msgid "KNotes"
@@ -603,8 +603,8 @@ msgctxt "@info:whatsthis"
 msgid "You will be presented with a dialog where you can add a new popup note."
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:111 kontactplugin/knotes_part.cpp:602
-#: kontactplugin/knotes_part.cpp:604 kontactplugin/knotes_part.cpp:786
+#: kontactplugin/knotes_part.cpp:111 kontactplugin/knotes_part.cpp:606
+#: kontactplugin/knotes_part.cpp:608 kontactplugin/knotes_part.cpp:790
 #, fuzzy, kde-format
 #| msgid "Editor"
 msgctxt "@action:inmenu"
@@ -719,18 +719,18 @@ msgctxt "@title:window"
 msgid "Print Popup Notes"
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:362
+#: kontactplugin/knotes_part.cpp:366
 #, kde-format
 msgid "Note was not created."
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:362
+#: kontactplugin/knotes_part.cpp:366
 #, fuzzy, kde-format
 #| msgid "Rename..."
 msgid "Create new note"
 msgstr "नाम बदलू..."
 
-#: kontactplugin/knotes_part.cpp:384
+#: kontactplugin/knotes_part.cpp:388
 #: kontactplugin/knotesselectdeletenotesdialog.cpp:70
 #, kde-format
 msgctxt "@info"
@@ -739,7 +739,7 @@ msgid_plural "Do you really want to delete these %1 notes?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kontactplugin/knotes_part.cpp:386
+#: kontactplugin/knotes_part.cpp:390
 #: kontactplugin/knotesselectdeletenotesdialog.cpp:57
 #, fuzzy, kde-format
 #| msgid "Confirm Delete"
@@ -747,138 +747,159 @@ msgctxt "@title:window"
 msgid "Confirm Delete"
 msgstr "मेटओनाइ निश्चित करू"
 
-#: kontactplugin/knotes_part.cpp:578
+#: kontactplugin/knotes_part.cpp:582
 #, fuzzy, kde-format
 #| msgid "Rename..."
 msgctxt "@title:window"
 msgid "Rename Popup Note"
 msgstr "नाम बदलू..."
 
-#: kontactplugin/knotes_part.cpp:579
+#: kontactplugin/knotes_part.cpp:583
 #, kde-format
 msgctxt "@label:textbox"
 msgid "New Name:"
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:602 kontactplugin/knotes_part.cpp:786
+#: kontactplugin/knotes_part.cpp:606 kontactplugin/knotes_part.cpp:790
 #, kde-format
 msgid "Show Note..."
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:738
+#: kontactplugin/knotes_part.cpp:742
 #, kde-format
 msgid "Rich text (*.html)"
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:740
+#: kontactplugin/knotes_part.cpp:744
 #, kde-format
 msgid "Plain text (*.txt)"
 msgstr ""
 
-#: kontactplugin/knotes_part.cpp:743
+#: kontactplugin/knotes_part.cpp:747
 #, kde-format
 msgid "Save As"
 msgstr "एहिना सहेजू"
 
-#: kontactplugin/knotes_part.cpp:754 notes/knote.cpp:528
+#: kontactplugin/knotes_part.cpp:758 notes/knote.cpp:528
 #, kde-format
 msgid ""
 "<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
 "overwrite it?</qt>"
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:60
+#: kontactplugin/knotes_plugin.cpp:62
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New Popup Note..."
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:68
+#: kontactplugin/knotes_plugin.cpp:70
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "You will be presented with a dialog where you can create a new popup note."
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:97
+#: kontactplugin/knotes_plugin.cpp:99
 #, fuzzy, kde-kuit-format
 #| msgid "Notes"
 msgctxt "@title"
 msgid "KNotes"
 msgstr "टिप्पणी"
 
-#: kontactplugin/knotes_plugin.cpp:99
+#: kontactplugin/knotes_plugin.cpp:101
 #, fuzzy, kde-kuit-format
 #| msgid "Notes"
 msgctxt "@title"
 msgid "Popup Notes"
 msgstr "टिप्पणी"
 
-#: kontactplugin/knotes_plugin.cpp:101
+#: kontactplugin/knotes_plugin.cpp:103
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Copyright © 2003–2020 Kontact authors"
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:103
+#: kontactplugin/knotes_plugin.cpp:105
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:104
+#: kontactplugin/knotes_plugin.cpp:106
 #, fuzzy, kde-kuit-format
 #| msgid "Maintainer"
 msgctxt "@info:credit"
 msgid "Current Maintainer"
 msgstr "अनुरक्षक"
 
-#: kontactplugin/knotes_plugin.cpp:107
+#: kontactplugin/knotes_plugin.cpp:109
 #, fuzzy, kde-kuit-format
 #| msgid "Michael Brade"
 msgctxt "@info:credit"
 msgid "Michael Brade"
 msgstr "माइकल ब्रेद"
 
-#: kontactplugin/knotes_plugin.cpp:108
+#: kontactplugin/knotes_plugin.cpp:110
 #, fuzzy, kde-kuit-format
 #| msgid "Previous Maintainer"
 msgctxt "@info:credit"
 msgid "Previous Maintainer"
 msgstr "पूर्व मेंटेनर"
 
-#: kontactplugin/knotes_plugin.cpp:110
+#: kontactplugin/knotes_plugin.cpp:112
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Tobias Koenig"
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:111
+#: kontactplugin/knotes_plugin.cpp:113
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr ""
 
-#: kontactplugin/knotes_plugin.cpp:148
+#: kontactplugin/knotes_plugin.cpp:151
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@item"
 msgid "Meeting"
 msgstr "जमावट"
 
-#: kontactplugin/knotes_plugin.cpp:162 kontactplugin/knotes_plugin.cpp:167
+#: kontactplugin/knotes_plugin.cpp:165 kontactplugin/knotes_plugin.cpp:170
 #, fuzzy, kde-format
 #| msgid "Notes"
 msgctxt "@item"
 msgid "Note: %1"
 msgstr "टिप्पणी"
 
-#: kontactplugin/knotes_plugin.cpp:174
+#: kontactplugin/knotes_plugin.cpp:177
 #, fuzzy, kde-format
 #| msgid "Notes"
 msgctxt "@item"
 msgid "New Note"
 msgstr "टिप्पणी"
+
+#: kontactplugin/knotes_plugin.cpp:187
+#, kde-format
+msgctxt "@info"
+msgid "Dropping multiple mails is not supported."
+msgstr ""
+
+#: kontactplugin/knotes_plugin.cpp:190
+#, kde-format
+msgctxt "@item"
+msgid ""
+"From: %1\n"
+"To: %2\n"
+"Subject: %3"
+msgstr ""
+
+#: kontactplugin/knotes_plugin.cpp:193
+#, kde-format
+msgctxt "@item"
+msgid "Mail: %1"
+msgstr ""
 
 #: kontactplugin/knoteseditdialog.cpp:50
 #, kde-format
@@ -892,7 +913,7 @@ msgctxt "@title:window"
 msgid "Edit Popup Note"
 msgstr ""
 
-#: kontactplugin/knoteseditdialog.cpp:80
+#: kontactplugin/knoteseditdialog.cpp:79
 #, kde-format
 msgctxt "@label popup note name"
 msgid "Name:"
