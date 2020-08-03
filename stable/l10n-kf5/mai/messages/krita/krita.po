@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-02 07:51+0200\n"
+"POT-Creation-Date: 2020-08-03 07:48+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -7657,7 +7657,9 @@ msgstr ""
 msgid "Standard"
 msgstr "मानक"
 
+#. i18n: ectx: attribute (title), widget (QWidget, tabLines)
 #: libs/flake/KoConnectionShapeConfigWidget.cpp:31
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:50
 #, kde-format
 msgid "Lines"
 msgstr "रेखासभ"
@@ -7669,6 +7671,7 @@ msgstr "रेखासभ"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, typeDescLabel)
 #. i18n: ectx: property (text), widget (QLabel, axisTypeLabel)
 #: libs/flake/KoConnectionShapeConfigWidget.ui:17
@@ -7681,6 +7684,7 @@ msgstr "रेखासभ"
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:54
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.ui:35
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.ui:20
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:72
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:195
 #: plugins/tools/basictools/wdgmultihandtool.ui:164
 #, fuzzy, kde-format
@@ -12454,6 +12458,7 @@ msgstr "नामांकित रंग "
 #: plugins/extensions/imagesize/wdg_canvassize.ui:45
 #: plugins/extensions/imagesize/wdg_imagesize.ui:67
 #: plugins/extensions/imagesize/wdg_layersize.ui:58
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:85
 #: plugins/generators/pattern/wdgpatternoptions.ui:106
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:161
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:163
@@ -16776,6 +16781,7 @@ msgstr "चओड़ाइ"
 #. i18n: ectx: property (title), widget (QGroupBox, ratio_groupbox)
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: libs/ui/forms/wdgrectangleconstraints.ui:140
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:56
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:111
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:181
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:306
@@ -18709,7 +18715,7 @@ msgstr "झुकाव"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/kis_stopgradient_editor.cpp:301
+#: libs/ui/kis_stopgradient_editor.cpp:304
 #: libs/ui/KisImportExportManager.cpp:577
 #: plugins/generators/seexpr/wdgseexpr.ui:59
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:59
@@ -18717,17 +18723,17 @@ msgstr "झुकाव"
 msgid "Options"
 msgstr "विकल्प"
 
-#: libs/ui/kis_stopgradient_editor.cpp:303
+#: libs/ui/kis_stopgradient_editor.cpp:306
 #, fuzzy, kde-format
 msgid "Reverse Values"
 msgstr "हाशिया घटाबू"
 
-#: libs/ui/kis_stopgradient_editor.cpp:306
+#: libs/ui/kis_stopgradient_editor.cpp:309
 #, kde-format
 msgid "Sort by Value"
 msgstr ""
 
-#: libs/ui/kis_stopgradient_editor.cpp:308
+#: libs/ui/kis_stopgradient_editor.cpp:311
 #, kde-format
 msgid "Sort by Value (Even Distribution)"
 msgstr ""
@@ -29968,6 +29974,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblOffset)
 #. i18n: ectx: property (title), widget (QGroupBox, gbOffset)
 #: plugins/filters/asccdl/wdg_asccdl.ui:31
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:53
 #: plugins/generators/pattern/wdgpatternoptions.ui:164
 #: plugins/python/documenttools/tools/canvassizetool/canvassizetool.py:48
 #, fuzzy, kde-format
@@ -31045,6 +31052,7 @@ msgid "Clip:"
 msgstr ""
 
 #: plugins/filters/palettize/palettize.cpp:93
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:59
 #, fuzzy, kde-format
 msgid "Index:"
 msgstr "हाशिया"
@@ -32280,8 +32288,10 @@ msgid "Unused Styles"
 msgstr "शैलीसभ"
 
 #. i18n: ectx: property (title), widget (QGroupBox)
+#. i18n: ectx: attribute (title), widget (QWidget, tabColor)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: plugins/flake/textshape/dialogs/FontDecorations.ui:17
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:96
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:72
 #, kde-format
 msgid "Colors"
@@ -33658,6 +33668,103 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Text editing"
 msgstr "स्थिति"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:47
+#, fuzzy, kde-format
+#| msgid "Dimensions"
+msgid "Divisions:"
+msgstr "आयाम"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:50
+#, fuzzy, kde-format
+#| msgid "Dimensions"
+msgctxt "The Dimensions of Multigrid pattern generator"
+msgid "Dimensions:"
+msgstr "आयाम"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:62
+#, fuzzy, kde-format
+#| msgid "Intersect"
+msgid "Intersect:"
+msgstr "प्रतिच्छेद करू"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:64
+#, fuzzy, kde-format
+msgid "No Connectors"
+msgstr "चयन बढाउ"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:65
+#, fuzzy, kde-format
+msgid "Acute Angles"
+msgstr "कोण:"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:66
+#, kde-format
+msgid "Obtuse Angles"
+msgstr ""
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:67
+#, fuzzy, kde-format
+msgid "Cross Shape"
+msgstr "ब्रश"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:68
+#, fuzzy, kde-format
+msgid "Center Dot"
+msgstr "केँद्र:"
+
+#: plugins/generators/multigridpattern/kis_wdg_multigrid_pattern.cpp:69
+#, fuzzy, kde-format
+msgid "Corner Dot"
+msgstr "विकल्प"
+
+#: plugins/generators/multigridpattern/multigridpatterngenerator.cpp:64
+#, fuzzy, kde-format
+msgid "&Multigrid Pattern..."
+msgstr "प्रारूप (&P)"
+
+#: plugins/generators/multigridpattern/multigridpatterngenerator.h:81
+#, fuzzy, kde-format
+msgid "Multigrid"
+msgstr "खाका नहि"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabShapes)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:21
+#, fuzzy, kde-format
+#| msgid "Shape"
+msgid "Shapes"
+msgstr "आकार"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:56
+#, fuzzy, kde-format
+msgid "Line Width:"
+msgstr "पंक्ति गिननाइ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbConnector)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:66
+#, fuzzy, kde-format
+msgid "Connector Lines"
+msgstr "चयन बढाउ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:102
+#, fuzzy, kde-format
+#| msgid "Lines"
+msgid "Lines: "
+msgstr "रेखासभ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:115
+#, fuzzy, kde-format
+msgid "Connector:"
+msgstr "चयन बढाउ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbColors)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:142
+#, fuzzy, kde-format
+msgid "Color Factors"
+msgstr "चयन बढाउ"
 
 #: plugins/generators/pattern/patterngenerator.cpp:63
 #, fuzzy, kde-format
@@ -46145,10 +46252,6 @@ msgstr ""
 #~ msgstr "धीमा"
 
 #, fuzzy
-#~ msgid "Axes Angle:"
-#~ msgstr "कोण:"
-
-#, fuzzy
 #~ msgid "Brush count"
 #~ msgstr "ब्रश"
 
@@ -51673,11 +51776,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Text Options"
 #~ msgstr "TIFF विकल्प"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Multiline"
-#~ msgstr "खाका नहि"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
@@ -64008,11 +64106,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Drag to create new connection."
 #~ msgstr "चयन घोकचाबू"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Connection"
-#~ msgstr "चयन बढाउ"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
