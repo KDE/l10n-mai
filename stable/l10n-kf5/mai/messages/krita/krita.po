@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-03 07:48+0200\n"
+"POT-Creation-Date: 2020-08-04 08:03+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -8380,7 +8380,7 @@ msgid "Set Image Resolution"
 msgstr "रिसॉल्यूशन:"
 
 #: libs/image/commands_new/kis_move_command_common.h:40
-#: libs/ui/tool/strokes/move_stroke_strategy.cpp:38
+#: libs/ui/tool/strokes/move_stroke_strategy.cpp:39
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Move"
@@ -9042,13 +9042,13 @@ msgstr "मोड विरूपित करू"
 msgid "Satin (style)"
 msgstr "संतृप्ति"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:943
+#: libs/image/lazybrush/kis_colorize_mask.cpp:948
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr "रँग स्पेस"
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:970
+#: libs/image/lazybrush/kis_colorize_mask.cpp:975
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
@@ -9169,13 +9169,14 @@ msgstr "रंग (&C)"
 msgid "Filter Mask"
 msgstr "फिल्टर: (&F)"
 
-#: libs/impex/KisExportCheckRegistry.cpp:117 libs/ui/kis_mask_manager.cc:302
+#: libs/impex/KisExportCheckRegistry.cpp:117 libs/ui/kis_mask_manager.cc:301
 #, fuzzy, kde-format
 msgid "Transform Mask"
 msgstr "रूपांतरित करू"
 
 #: libs/impex/KisExportCheckRegistry.cpp:119 libs/ui/kis_mask_manager.cc:219
-#: plugins/impex/psd/psd_loader.cpp:301
+#: plugins/impex/psd/psd_loader.cpp:300
+#: plugins/impex/xcf/kis_xcf_import.cpp:286
 #, fuzzy, kde-format
 msgid "Transparency Mask"
 msgstr "पारदर्शी"
@@ -18184,13 +18185,13 @@ msgctxt "(qtundo-format)"
 msgid "Add Colorize Mask"
 msgstr "फिल्टर: (&F)"
 
-#: libs/ui/kis_mask_manager.cc:302
+#: libs/ui/kis_mask_manager.cc:301
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Transform Mask"
 msgstr "पारदर्शी"
 
-#: libs/ui/kis_mask_manager.cc:323
+#: libs/ui/kis_mask_manager.cc:322
 #, fuzzy, kde-format
 msgid "Filter Mask Properties"
 msgstr "फिल्टर: (&F)"
@@ -34682,6 +34683,11 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
 
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:220
+#, fuzzy, kde-format
+msgid "Transpareny Mask"
+msgstr "पारदर्शी"
+
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:315
 #, kde-format
 msgctxt "Loading a .kra file"
@@ -34783,7 +34789,7 @@ msgid "Image specifies an unsupported color model: %1."
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:473
-#: plugins/impex/psd/psd_loader.cpp:349
+#: plugins/impex/psd/psd_loader.cpp:348
 #, kde-format
 msgctxt ""
 "Auto-generated layer style collection name for embedded styles (collection)"
