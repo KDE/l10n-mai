@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-12 04:00+0200\n"
+"POT-Creation-Date: 2020-08-12 02:25+0200\n"
 "PO-Revision-Date: 2009-01-18 15:26+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -30,171 +30,136 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#: addscriptdialog.cpp:40
-#, fuzzy, kde-format
-#| msgid "Shell script:"
-msgid "Shell script path:"
-msgstr "शेलक स्क्रिप्ट:"
-
-#: addscriptdialog.cpp:44
+#: autostart.cpp:37
 #, kde-format
-msgid "Create as symlink"
-msgstr "सिमलिंक केर रूपेँ बनाबू"
-
-#: addscriptdialog.cpp:79
-#, kde-format
-msgid "\"%1\" is not an absolute path."
+msgid "Autostart"
 msgstr ""
 
-#: addscriptdialog.cpp:82
-#, kde-format
-msgid "\"%1\" does not exist."
-msgstr ""
-
-#: addscriptdialog.cpp:85
-#, kde-format
-msgid "\"%1\" is not a file."
-msgstr ""
-
-#: addscriptdialog.cpp:88
-#, kde-format
-msgid "\"%1\" is not readable."
-msgstr ""
-
-#: advanceddialog.cpp:32
-#, fuzzy, kde-format
-#| msgid "Autostart only in KDE"
-msgid "Autostart only in Plasma"
-msgstr "केवल केडीई मे स्वचालित चालू करू"
-
-#: autostart.cpp:56
-#, kde-format
-msgid "Name"
-msgstr "नाम"
-
-#: autostart.cpp:57
-#, kde-format
-msgid "Command"
-msgstr "कमांड"
-
-#: autostart.cpp:58
-#, kde-format
-msgid "Status"
-msgstr "स्थिति"
-
-#: autostart.cpp:59
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "@title:column The name of the column that decides if the program is run "
-#| "on kde startup, on kde shutdown, etc"
-#| msgid "Run On"
-msgctxt ""
-"@title:column The name of the column that decides if the program is run on "
-"session startup, on session shutdown, etc"
-msgid "Run On"
-msgstr "तखन चलाबू"
-
-#: autostart.cpp:79
-#, fuzzy, kde-format
-#| msgid "KDE Autostart Manager"
-msgid "Session Autostart Manager"
-msgstr "केडीई स्वतः प्रारंभ प्रबंधक"
-
-#: autostart.cpp:81
+#: autostart.cpp:37
 #, fuzzy, kde-format
 #| msgid "KDE Autostart Manager Control Panel Module"
 msgid "Session Autostart Manager Control Panel Module"
 msgstr "केडीई स्वतः-प्रारंभ प्रबंधक नियंत्रणक फलक मोड्यूल"
 
-#: autostart.cpp:83
+#: autostart.cpp:37
 #, fuzzy, kde-format
 #| msgid "(c) 2006-2007-2008 Autostart Manager team"
-msgid "Copyright © 2006–2010 Autostart Manager team"
+msgid "Copyright © 2006–2020 Autostart Manager team"
 msgstr "(c) 2006-2007-2008 स्वचालित-प्रारंभ प्रबंधक दल"
 
-#: autostart.cpp:84
+#: autostart.cpp:38
 #, kde-format
 msgid "Stephen Leaf"
 msgstr "स्टीफन लीफ"
 
-#: autostart.cpp:85
+#: autostart.cpp:39
 #, kde-format
 msgid "Montel Laurent"
 msgstr "मोंटेल लारेंट"
 
-#: autostart.cpp:85
+#: autostart.cpp:39
 #, kde-format
 msgid "Maintainer"
 msgstr "अनुरक्षक"
 
-#: autostart.cpp:104 autostart.cpp:120 autostartitem.cpp:62
+#: autostart.cpp:40
 #, kde-format
-msgctxt "The program will be run"
-msgid "Enabled"
-msgstr "सक्षम"
-
-#: autostart.cpp:106 autostart.cpp:120
-#, kde-format
-msgctxt "The program won't be run"
-msgid "Disabled"
-msgstr "अक्षम"
-
-#: autostart.cpp:137
-#, kde-format
-msgid "Desktop File"
-msgstr "डेस्कटाप फाइल"
-
-#: autostart.cpp:145
-#, kde-format
-msgid "Script File"
-msgstr "स्क्रिप्ट फाइल"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
-#: autostartconfig.ui:17
-#, fuzzy, kde-format
-#| msgid "&Properties"
-msgid "&Properties..."
-msgstr "गुण (&P)"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
-#: autostartconfig.ui:24
-#, kde-format
-msgid "Add Script..."
-msgstr "स्क्रिप्टकेँ जोड़ू"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: autostartconfig.ui:46
-#, kde-format
-msgid "&Remove"
-msgstr "हटाबू (&R)"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
-#: autostartconfig.ui:53
-#, fuzzy, kde-format
-#| msgid "Advanced"
-msgid "Advanced..."
-msgstr "उन्नत"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
-#: autostartconfig.ui:60
-#, kde-format
-msgid "Add Program..."
-msgstr "प्रोग्रामकेँ जोड़ू..."
-
-#: autostartmodel.cpp:67
-#, kde-format
-msgid "Startup"
-msgstr "प्रारंभमे"
-
-#: autostartmodel.cpp:68
-#, kde-format
-msgid "Logout"
+msgid "Nicolas Fella"
 msgstr ""
 
-#: autostartmodel.cpp:69
+#: autostartmodel.cpp:312
 #, kde-format
-msgid "Before session startup"
+msgid "\"%1\" is not an absolute url."
 msgstr ""
+
+#: autostartmodel.cpp:315
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr ""
+
+#: autostartmodel.cpp:318
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr ""
+
+#: autostartmodel.cpp:321
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Shell script:"
+#~ msgid "Shell script path:"
+#~ msgstr "शेलक स्क्रिप्ट:"
+
+#~ msgid "Create as symlink"
+#~ msgstr "सिमलिंक केर रूपेँ बनाबू"
+
+#, fuzzy
+#~| msgid "Autostart only in KDE"
+#~ msgid "Autostart only in Plasma"
+#~ msgstr "केवल केडीई मे स्वचालित चालू करू"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#~ msgid "Command"
+#~ msgstr "कमांड"
+
+#~ msgid "Status"
+#~ msgstr "स्थिति"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@title:column The name of the column that decides if the program is run "
+#~| "on kde startup, on kde shutdown, etc"
+#~| msgid "Run On"
+#~ msgctxt ""
+#~ "@title:column The name of the column that decides if the program is run "
+#~ "on session startup, on session shutdown, etc"
+#~ msgid "Run On"
+#~ msgstr "तखन चलाबू"
+
+#, fuzzy
+#~| msgid "KDE Autostart Manager"
+#~ msgid "Session Autostart Manager"
+#~ msgstr "केडीई स्वतः प्रारंभ प्रबंधक"
+
+#~ msgctxt "The program will be run"
+#~ msgid "Enabled"
+#~ msgstr "सक्षम"
+
+#~ msgctxt "The program won't be run"
+#~ msgid "Disabled"
+#~ msgstr "अक्षम"
+
+#~ msgid "Desktop File"
+#~ msgstr "डेस्कटाप फाइल"
+
+#~ msgid "Script File"
+#~ msgstr "स्क्रिप्ट फाइल"
+
+#, fuzzy
+#~| msgid "&Properties"
+#~ msgid "&Properties..."
+#~ msgstr "गुण (&P)"
+
+#~ msgid "Add Script..."
+#~ msgstr "स्क्रिप्टकेँ जोड़ू"
+
+#~ msgid "&Remove"
+#~ msgstr "हटाबू (&R)"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgid "Advanced..."
+#~ msgstr "उन्नत"
+
+#~ msgid "Add Program..."
+#~ msgstr "प्रोग्रामकेँ जोड़ू..."
+
+#~ msgid "Startup"
+#~ msgstr "प्रारंभमे"
 
 #, fuzzy
 #~| msgid ""
