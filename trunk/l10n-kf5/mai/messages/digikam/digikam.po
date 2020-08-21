@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-20 02:10+0200\n"
+"POT-Creation-Date: 2020-08-21 02:11+0200\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1027,6 +1027,7 @@ msgid "Photograph Properties"
 msgstr ""
 
 #: core/app/items/utils/tooltipfiller.cpp:167
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:170
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:142
 #: core/utilities/import/items/importtooltipfiller.cpp:140
 #, kde-format
@@ -3349,7 +3350,7 @@ msgstr ""
 
 #: core/app/views/tableview/tableview_column_file.cpp:65
 #: core/app/views/tableview/tableview_column_file.cpp:98
-#: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:58
+#: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:60
 #: core/libs/widgets/fonts/dfontproperties.cpp:332
 #, kde-format
 msgid "Size"
@@ -12701,7 +12702,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, previewGroupBox)
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:26
-#: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:57
+#: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:59
 #, fuzzy, kde-format
 #| msgid "Preview..."
 msgid "Preview"
@@ -25242,7 +25243,7 @@ msgstr ""
 msgid "Enable fast approximation when rendering images."
 msgstr ""
 
-#: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:60
+#: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:62
 #, fuzzy, kde-format
 #| msgid "Details..."
 msgctxt ""
@@ -25251,27 +25252,39 @@ msgctxt ""
 msgid "Hot Pixels"
 msgstr "विवरण..."
 
-#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:77
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:85
 #, fuzzy, kde-format
 #| msgid "Remove item"
 msgid "Loading Frame"
 msgstr "मद हटाबू"
 
-#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:145
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:151
+#, kde-format
+msgid "Black Frame"
+msgstr ""
+
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:163
 #, fuzzy, kde-format
 #| msgid "File Name"
-msgid "<p>File Name: %1</p>"
+msgid "File Name:"
 msgstr "फाइलक नाम"
 
-#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:146
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:173
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Created:"
+msgstr "कैलेंडर"
+
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:176
 #, kde-format
-msgid "<p>Make/Model: %1/%2</p>"
+msgid "Serial Number:"
 msgstr ""
 
-#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:156
-#, kde-format
-msgid "<p>Hot Pixels: %1</p>"
-msgstr ""
+#: core/libs/dimg/filters/hotpixels/blackframelistviewitem.cpp:187
+#, fuzzy, kde-format
+#| msgid "Details..."
+msgid "Hot Pixels:"
+msgstr "विवरण..."
 
 #: core/libs/dimg/filters/hotpixels/hotpixelfixer.cpp:87
 #, kde-format
@@ -46583,6 +46596,11 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~| msgid "File Name"
+#~ msgid "<p>File Name: %1</p>"
+#~ msgstr "फाइलक नाम"
 
 #, fuzzy
 #~| msgid "Settings"

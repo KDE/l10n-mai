@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-20 02:12+0200\n"
+"POT-Creation-Date: 2020-08-21 02:13+0200\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -5119,14 +5119,14 @@ msgstr "निर्यात"
 msgid "Import"
 msgstr "निर्यात"
 
-#: krita/krita5.xmlgui:203 plugins/dockers/layerdocker/LayerBox.cpp:724
+#: krita/krita5.xmlgui:203 plugins/dockers/layerdocker/LayerBox.cpp:735
 #, fuzzy, kde-format
 msgid "&Convert"
 msgstr "उनटू"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #: krita/krita5.xmlgui:214 krita/krita5.xmlgui:285
-#: plugins/dockers/layerdocker/LayerBox.cpp:697
+#: plugins/dockers/layerdocker/LayerBox.cpp:708
 #: plugins/extensions/colorrange/wdg_colorrange.ui:130
 #: plugins/extensions/imagesize/imagesize.xmlgui:12
 #: plugins/extensions/modify_selection/modify_selection.xmlgui:4
@@ -5134,7 +5134,7 @@ msgstr "उनटू"
 msgid "&Select"
 msgstr "चुनू"
 
-#: krita/krita5.xmlgui:222 plugins/dockers/layerdocker/LayerBox.cpp:703
+#: krita/krita5.xmlgui:222 plugins/dockers/layerdocker/LayerBox.cpp:714
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "&Group"
@@ -5155,7 +5155,7 @@ msgstr "रूपांतरित करू"
 msgid "S&plit"
 msgstr "अल्फामे रंग"
 
-#: krita/krita5.xmlgui:261 plugins/dockers/layerdocker/LayerBox.cpp:731
+#: krita/krita5.xmlgui:261 plugins/dockers/layerdocker/LayerBox.cpp:742
 #, fuzzy, kde-format
 msgid "S&plit Alpha"
 msgstr "अल्फामे रंग"
@@ -8579,7 +8579,7 @@ msgstr ""
 msgid "Mitchell"
 msgstr "मिट्चेल"
 
-#: libs/image/kis_group_layer.cc:336
+#: libs/image/kis_group_layer.cc:332
 #: libs/image/kis_layer_properties_icons.cpp:38
 #, kde-format
 msgid "Pass Through"
@@ -8917,8 +8917,8 @@ msgid "Processing"
 msgstr "प्रगतिशील"
 
 #: libs/image/kis_psd_layer_style.cpp:100
-#: libs/ui/KisApplicationArguments.cpp:349 libs/ui/KisMainWindow.cpp:1327
-#: libs/ui/KisMainWindow.cpp:1595 libs/ui/KisMainWindow.cpp:1614
+#: libs/ui/KisApplicationArguments.cpp:349 libs/ui/KisMainWindow.cpp:1320
+#: libs/ui/KisMainWindow.cpp:1588 libs/ui/KisMainWindow.cpp:1607
 #: plugins/impex/libkra/kis_kra_saver.cpp:93
 #, kde-format
 msgid "Unnamed"
@@ -9409,7 +9409,7 @@ msgctxt "description of a file type"
 msgid "SeExpr script package"
 msgstr ""
 
-#: libs/libkis/Document.cpp:918 libs/ui/KisMainWindow.cpp:1877
+#: libs/libkis/Document.cpp:918 libs/ui/KisMainWindow.cpp:1870
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "चित्र काटू"
@@ -11858,7 +11858,7 @@ msgid "Delete resource"
 msgstr "मेटाबू"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:238
-#: libs/ui/KisMainWindow.cpp:2279
+#: libs/ui/KisMainWindow.cpp:2272
 #, fuzzy, kde-format
 #| msgid "Filter"
 msgctxt "@title:window"
@@ -12080,10 +12080,10 @@ msgstr ""
 #: libs/ui/KisApplication.cpp:990 libs/ui/KisApplication.cpp:1004
 #: libs/ui/KisApplication.cpp:1032 libs/ui/KisDocument.cpp:791
 #: libs/ui/KisDocument.cpp:1518 libs/ui/KisDocument.cpp:1561
-#: libs/ui/KisDocument.cpp:1569 libs/ui/KisMainWindow.cpp:831
-#: libs/ui/KisMainWindow.cpp:987 libs/ui/KisMainWindow.cpp:1109
-#: libs/ui/KisMainWindow.cpp:1122 libs/ui/KisMainWindow.cpp:1217
-#: libs/ui/KisMainWindow.cpp:1884 libs/ui/KisPart.cpp:550
+#: libs/ui/KisDocument.cpp:1569 libs/ui/KisMainWindow.cpp:832
+#: libs/ui/KisMainWindow.cpp:980 libs/ui/KisMainWindow.cpp:1102
+#: libs/ui/KisMainWindow.cpp:1115 libs/ui/KisMainWindow.cpp:1210
+#: libs/ui/KisMainWindow.cpp:1877 libs/ui/KisPart.cpp:550
 #: libs/ui/KisPart.cpp:553 libs/ui/KisReferenceImage.cpp:189
 #: libs/ui/KisRemoteFileFetcher.cpp:54 libs/ui/KisTemplateCreateDia.cpp:297
 #: libs/ui/KisTemplateCreateDia.cpp:403 libs/ui/KisView.cpp:714
@@ -12129,7 +12129,7 @@ msgid "Failed to render animation frames!"
 msgstr "चयन घोकचाबू"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:62
-#: libs/ui/KisMainWindow.cpp:1902
+#: libs/ui/KisMainWindow.cpp:1895
 #, fuzzy, kde-format
 msgid "Render Animation"
 msgstr "दिशा"
@@ -13303,7 +13303,7 @@ msgid "Numerical"
 msgstr "उर्ध्वाधर"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:136
-#: libs/ui/KisMainWindow.cpp:1086
+#: libs/ui/KisMainWindow.cpp:1079
 #, fuzzy, kde-format
 msgid "Import Images"
 msgstr "चित्र काटू"
@@ -13405,7 +13405,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "झुकाव"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:281 libs/ui/KisMainWindow.cpp:2302
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:281 libs/ui/KisMainWindow.cpp:2295
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:372
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
@@ -14117,7 +14117,7 @@ msgid "Session name:"
 msgstr "चुनाव"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:101
-#: libs/ui/KisMainWindow.cpp:2308 libs/ui/widgets/kis_gradient_chooser.cc:232
+#: libs/ui/KisMainWindow.cpp:2301 libs/ui/widgets/kis_gradient_chooser.cc:232
 #: libs/ui/widgets/KoFillConfigWidget.cpp:631
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:378
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:206
@@ -14127,7 +14127,7 @@ msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:102
-#: libs/ui/KisMainWindow.cpp:2309 libs/ui/widgets/kis_gradient_chooser.cc:233
+#: libs/ui/KisMainWindow.cpp:2302 libs/ui/widgets/kis_gradient_chooser.cc:233
 #: libs/ui/widgets/KoFillConfigWidget.cpp:632
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:379
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:207
@@ -16588,7 +16588,7 @@ msgstr "मूलभूत"
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:184
-#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:952
+#: libs/ui/forms/wdgsavebrushpreset.ui:215 libs/ui/KisMainWindow.cpp:962
 #: libs/ui/widgets/kis_workspace_chooser.cpp:121
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:210
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:62
@@ -18294,7 +18294,7 @@ msgstr ""
 msgid "As on &Monitor"
 msgstr ""
 
-#: libs/ui/kis_composite_ops_model.cc:30
+#: libs/ui/kis_composite_ops_model.cc:34
 #, fuzzy, kde-format
 msgid "Favorites"
 msgstr "आँशिक"
@@ -19875,50 +19875,50 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "रँग स्पेस"
 
-#: libs/ui/KisMainWindow.cpp:553
+#: libs/ui/KisMainWindow.cpp:554
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:156
 #, fuzzy, kde-format
 msgid "Show %1 Toolbar"
 msgstr "नकल"
 
-#: libs/ui/KisMainWindow.cpp:555
+#: libs/ui/KisMainWindow.cpp:556
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:158
 #, fuzzy, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "अओजार"
 
-#: libs/ui/KisMainWindow.cpp:831
+#: libs/ui/KisMainWindow.cpp:832
 #, kde-format
 msgid "The chosen file's location could not be found. Does it exist?"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:932
+#: libs/ui/KisMainWindow.cpp:937
 #, fuzzy, kde-format
 msgid "Write Protected"
 msgstr "चित्र विशेषता"
 
-#: libs/ui/KisMainWindow.cpp:936
+#: libs/ui/KisMainWindow.cpp:941
 #, fuzzy, kde-format
 #| msgid "Recording"
 msgid "Recovered"
 msgstr "रिकॉर्ड कए रहल अछि"
 
-#: libs/ui/KisMainWindow.cpp:949
+#: libs/ui/KisMainWindow.cpp:959
 #, fuzzy, kde-format
 msgid "Save as %1"
 msgstr "कारक मापू"
 
-#: libs/ui/KisMainWindow.cpp:987
+#: libs/ui/KisMainWindow.cpp:980
 #, fuzzy, kde-format
 msgid "The file %1 does not exist."
 msgstr "परत मापू"
 
-#: libs/ui/KisMainWindow.cpp:1086
+#: libs/ui/KisMainWindow.cpp:1079
 #, fuzzy, kde-format
 msgid "Open Images"
 msgstr "चित्र"
 
-#: libs/ui/KisMainWindow.cpp:1218
+#: libs/ui/KisMainWindow.cpp:1211
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -19927,93 +19927,93 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1274
+#: libs/ui/KisMainWindow.cpp:1267
 #, fuzzy, kde-format
 msgid "Exporting"
 msgstr "निर्यात"
 
-#: libs/ui/KisMainWindow.cpp:1274
+#: libs/ui/KisMainWindow.cpp:1267
 #, fuzzy, kde-format
 msgid "Saving As"
 msgstr "दस्तावेज सहेजू"
 
-#: libs/ui/KisMainWindow.cpp:1574
+#: libs/ui/KisMainWindow.cpp:1567
 #: libs/widgetutils/config/kstandardaction_p.h:41
 #, fuzzy, kde-format
 msgid "Create new document"
 msgstr "हालक दस्ताबेज"
 
-#: libs/ui/KisMainWindow.cpp:1598
+#: libs/ui/KisMainWindow.cpp:1591
 #, fuzzy, kde-format
 #| msgid "Document"
 msgid "Custom Document"
 msgstr "दस्तावेज"
 
-#: libs/ui/KisMainWindow.cpp:1616
+#: libs/ui/KisMainWindow.cpp:1609
 #, fuzzy, kde-format
 msgid "Create from Clipboard"
 msgstr "बनाबू"
 
-#: libs/ui/KisMainWindow.cpp:1884
+#: libs/ui/KisMainWindow.cpp:1877
 #, fuzzy, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr "संतृप्ति:"
 
-#: libs/ui/KisMainWindow.cpp:2271
+#: libs/ui/KisMainWindow.cpp:2264
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "रँग स्पेस"
 
-#: libs/ui/KisMainWindow.cpp:2285
+#: libs/ui/KisMainWindow.cpp:2278
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "रँग स्पेस"
 
-#: libs/ui/KisMainWindow.cpp:2301
+#: libs/ui/KisMainWindow.cpp:2294
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "रँग स्पेस"
 
-#: libs/ui/KisMainWindow.cpp:2345
+#: libs/ui/KisMainWindow.cpp:2338
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2348
+#: libs/ui/KisMainWindow.cpp:2341
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2498
+#: libs/ui/KisMainWindow.cpp:2491
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2506
+#: libs/ui/KisMainWindow.cpp:2499
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2521
+#: libs/ui/KisMainWindow.cpp:2514
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "अंतर्वेशन:"
 
-#: libs/ui/KisMainWindow.cpp:2628
+#: libs/ui/KisMainWindow.cpp:2621
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2676
+#: libs/ui/KisMainWindow.cpp:2669
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -26819,24 +26819,24 @@ msgstr ""
 msgid "Thumbnail Size"
 msgstr "विकल्प"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:707
+#: plugins/dockers/layerdocker/LayerBox.cpp:718
 #, fuzzy, kde-format
 msgid "&Toggle Locks && Visibility"
 msgstr "बनाबू"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:714
-#: plugins/dockers/layerdocker/LayerBox.cpp:736
+#: plugins/dockers/layerdocker/LayerBox.cpp:725
+#: plugins/dockers/layerdocker/LayerBox.cpp:747
 #, kde-format
 msgid "&Add"
 msgstr ""
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:951
+#: plugins/dockers/layerdocker/LayerBox.cpp:962
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Quick Selection Mask"
 msgstr "चुनाव"
 
-#: plugins/dockers/layerdocker/LayerBox.cpp:973
+#: plugins/dockers/layerdocker/LayerBox.cpp:984
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cancel Quick Selection Mask"
@@ -32388,7 +32388,7 @@ msgstr "विकल्प"
 msgid "Selection mode:"
 msgstr "चुनाव"
 
-#: plugins/impex/exr/exr_converter.cc:894
+#: plugins/impex/exr/exr_converter.cc:892
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -32398,20 +32398,20 @@ msgid ""
 ">This will hardly make any visual difference just keep it in mind."
 msgstr ""
 
-#: plugins/impex/exr/exr_converter.cc:901
+#: plugins/impex/exr/exr_converter.cc:899
 #, kde-format
 msgctxt "@title:window"
 msgid "EXR image has been modified"
 msgstr ""
 
-#: plugins/impex/exr/exr_converter.cc:1301
+#: plugins/impex/exr/exr_converter.cc:1299
 #, fuzzy, kde-format
 #| msgid "Copy"
 msgctxt "@item:unsupported-node-message"
 msgid "%1 (type: \"%2\")"
 msgstr "कापी करू"
 
-#: plugins/impex/exr/exr_converter.cc:1306
+#: plugins/impex/exr/exr_converter.cc:1304
 #, kde-format
 msgctxt "@info"
 msgid ""
