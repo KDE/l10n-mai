@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-10 02:28+0200\n"
+"POT-Creation-Date: 2020-09-12 02:25+0200\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -30,7 +30,7 @@ msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
 #: src/printing/grantlee/themes/big-theme-example/theme.html:3
-#: src/mainwidget.cpp:718 src/mainwidget.cpp:743
+#: src/mainwidget.cpp:719 src/mainwidget.cpp:744
 #, kde-format
 msgid "Address Book"
 msgstr "पता पुस्तिका"
@@ -95,6 +95,8 @@ msgid "Email"
 msgstr "ईमेल पता:"
 
 #: src/viewertemplates/contact_embedded.html:75
+#: src/importexport/contactfields.cpp:104
+#, kde-format
 msgid "Blog Feed"
 msgstr ""
 
@@ -225,12 +227,12 @@ msgstr ""
 msgid "(c), 2020 Laurent Montel"
 msgstr ""
 
-#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:65
+#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:66
 #, kde-format
 msgid "Tools Plugins"
 msgstr ""
 
-#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:72
+#: src/configuration/kaddressbookconfigpluginlistwidget.cpp:73
 #, kde-format
 msgid "Import/Export Plugins"
 msgstr ""
@@ -306,6 +308,336 @@ msgstr ""
 msgctxt "@info:status"
 msgid "%1 out of %2"
 msgstr ""
+
+#: src/importexport/contactfields.cpp:19
+#, kde-format
+msgctxt "@item Undefined import field type"
+msgid "Undefined"
+msgstr "अपरिभाषित"
+
+#: src/importexport/contactfields.cpp:38
+#, fuzzy, kde-format
+#| msgid "Anniversary"
+msgctxt "The wedding anniversary of a contact"
+msgid "Anniversary"
+msgstr "वर्षगांठ"
+
+#: src/importexport/contactfields.cpp:84
+#, kde-format
+msgctxt "Preferred email address"
+msgid "EMail (preferred)"
+msgstr ""
+
+#: src/importexport/contactfields.cpp:86
+#, kde-format
+msgctxt "Second email address"
+msgid "EMail (2)"
+msgstr ""
+
+#: src/importexport/contactfields.cpp:88
+#, kde-format
+msgctxt "Third email address"
+msgid "EMail (3)"
+msgstr ""
+
+#: src/importexport/contactfields.cpp:90
+#, kde-format
+msgctxt "Fourth email address"
+msgid "EMail (4)"
+msgstr ""
+
+#: src/importexport/contactfields.cpp:106
+#, kde-format
+msgid "Profession"
+msgstr "व्यवसाय"
+
+#: src/importexport/contactfields.cpp:108
+#, kde-format
+msgid "Office"
+msgstr "कार्यालय"
+
+#: src/importexport/contactfields.cpp:110
+#, kde-format
+msgid "Manager"
+msgstr "प्रबंधक"
+
+#: src/importexport/contactfields.cpp:112
+#, kde-format
+msgid "Assistant"
+msgstr "सहायक"
+
+#: src/importexport/contactfields.cpp:114
+#, kde-format
+msgid "Spouse"
+msgstr ""
+
+#: src/importexport/contactselectiondialog.cpp:21
+#, fuzzy, kde-format
+#| msgid "Phone Numbers"
+msgctxt "@title:window"
+msgid "Select Contacts"
+msgstr "फोन नंबर"
+
+#: src/importexport/contactselectionwidget.cpp:115
+#, fuzzy, kde-format
+#| msgid "Phone Numbers"
+msgctxt "@option:radio"
+msgid "All contacts"
+msgstr "फोन नंबर"
+
+#: src/importexport/contactselectionwidget.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "All contacts from all your address books"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:120
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option you want to select all your contacts from all your "
+"address books."
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:123
+#, kde-format
+msgctxt "@option:radio"
+msgid "Selected contacts"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Only the contacts currently selected"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:128
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want only the contacts you have already selected "
+"in the graphical interface."
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:131
+#, kde-format
+msgctxt "@option:radio"
+msgid "All contacts from:"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:133
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "All contacts from a chosen address book"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:136
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want to select all the contacts from only one of "
+"your address books.  Once this option is clicked you will be provided a drop "
+"down box listing all those address books and permitted to select the one you "
+"want."
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:145
+#, kde-format
+msgctxt "@option:check"
+msgid "Include Subfolders"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select all subfolders including the top-level folder"
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:150
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to select all contacts from this folder, "
+"including all subfolders.  If you only want the contacts from the top-level "
+"folder then leave this box unchecked."
+msgstr ""
+
+#: src/importexport/contactselectionwidget.cpp:180
+#, fuzzy, kde-format
+#| msgid "Phone Numbers"
+msgctxt "@title:window"
+msgid "Collect Contacts"
+msgstr "फोन नंबर"
+
+#: src/importexport/contactselectionwidget.cpp:183
+#, fuzzy, kde-format
+#| msgid "Phone Numbers"
+msgid "Fetch Contacts"
+msgstr "फोन नंबर"
+
+#: src/importexport/exportselectionwidget.cpp:25
+#, kde-format
+msgctxt "@title:group"
+msgid "Fields to be exported"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:31
+#, kde-format
+msgctxt "@option:check"
+msgid "Private fields"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:33
+#, fuzzy, kde-format
+#| msgid "Pictures"
+msgctxt "@info:tooltip"
+msgid "Export private fields"
+msgstr "छविसभ"
+
+#: src/importexport/exportselectionwidget.cpp:36
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's private fields to the "
+"vCard output file."
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:40
+#, kde-format
+msgctxt "@option:check"
+msgid "Business fields"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:42
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export business fields"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:45
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's business fields to the "
+"vCard output file."
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:49
+#, kde-format
+msgctxt "@option:check"
+msgid "Other fields"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:51
+#, fuzzy, kde-format
+#| msgid "Pictures"
+msgctxt "@info:tooltip"
+msgid "Export other fields"
+msgstr "छविसभ"
+
+#: src/importexport/exportselectionwidget.cpp:54
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's other fields to the vCard "
+"output file."
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:58
+#, kde-format
+msgctxt "@option:check"
+msgid "Encryption keys"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:60
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export encryption keys"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:63
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's encryption keys to the "
+"vCard output file."
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:67
+#, fuzzy, kde-format
+#| msgid "Pictures"
+msgctxt "@option:check"
+msgid "Pictures"
+msgstr "छविसभ"
+
+#: src/importexport/exportselectionwidget.cpp:69
+#, fuzzy, kde-format
+#| msgid "Pictures"
+msgctxt "@info:tooltip"
+msgid "Export pictures"
+msgstr "छविसभ"
+
+#: src/importexport/exportselectionwidget.cpp:72
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's picture to the vCard "
+"output file."
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:77
+#, fuzzy, kde-format
+#| msgid "Pictures"
+msgctxt "@title:group"
+msgid "Export options"
+msgstr "छविसभ"
+
+#: src/importexport/exportselectionwidget.cpp:83
+#, kde-format
+msgctxt "@option:check"
+msgid "Display name as full name"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:85
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export display name as full name"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:88
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's display name in the "
+"vCard's full name field.  This may be required to get the name shown "
+"correctly in GMail or Android."
+msgstr ""
+
+#: src/importexport/importexportengine.cpp:60
+#, fuzzy, kde-format
+#| msgid "Address Book"
+msgctxt "@title:window"
+msgid "Select Address Book"
+msgstr "पता पुस्तिका"
+
+#: src/importexport/importexportengine.cpp:62
+#, kde-format
+msgid "Select the address book the imported contact(s) shall be saved in:"
+msgstr ""
+
+#: src/importexport/importexportengine.cpp:77
+#, fuzzy, kde-format
+#| msgid "Phone Numbers"
+msgctxt "@title:window"
+msgid "Import Contacts"
+msgstr "फोन नंबर"
+
+#: src/importexport/importexportengine.cpp:79
+#, kde-format
+msgid "Importing one contact to %2"
+msgid_plural "Importing %1 contacts to %2"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/kaddressbook_options.h:19
 #, kde-format
@@ -391,19 +723,19 @@ msgstr "निर्यात(&E)"
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
-#: src/mainwidget.cpp:351
+#: src/mainwidget.cpp:352
 #, fuzzy, kde-format
 #| msgid "&Import"
 msgid "Import"
 msgstr "आयात करू (&I)"
 
-#: src/mainwidget.cpp:358
+#: src/mainwidget.cpp:359
 #, fuzzy, kde-format
 #| msgid "&Export"
 msgid "Export"
 msgstr "निर्यात(&E)"
 
-#: src/mainwidget.cpp:407
+#: src/mainwidget.cpp:408
 #, fuzzy, kde-format
 #| msgctxt "Search contacts in list"
 #| msgid "Search"
@@ -411,81 +743,81 @@ msgctxt "@label Search contacts in list"
 msgid "Search... <%1>"
 msgstr "खोजू"
 
-#: src/mainwidget.cpp:633
+#: src/mainwidget.cpp:634
 #, kde-format
 msgid "&Themes"
 msgstr ""
 
-#: src/mainwidget.cpp:644
+#: src/mainwidget.cpp:645
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Print the complete address book or a selected number of contacts."
 msgstr ""
 
-#: src/mainwidget.cpp:649
+#: src/mainwidget.cpp:650
 #, kde-format
 msgid "Quick search"
 msgstr "तेज खोज"
 
-#: src/mainwidget.cpp:654
+#: src/mainwidget.cpp:655
 #, kde-format
 msgid "Category filter"
 msgstr ""
 
-#: src/mainwidget.cpp:659
+#: src/mainwidget.cpp:660
 #, kde-format
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: src/mainwidget.cpp:661
+#: src/mainwidget.cpp:662
 #, kde-format
 msgid "Select all contacts in the current address book view."
 msgstr ""
 
-#: src/mainwidget.cpp:665
+#: src/mainwidget.cpp:666
 #, kde-format
 msgid "Show QR Codes"
 msgstr ""
 
-#: src/mainwidget.cpp:666
+#: src/mainwidget.cpp:667
 #, kde-format
 msgid "Show QR Codes in the contact."
 msgstr ""
 
-#: src/mainwidget.cpp:671
+#: src/mainwidget.cpp:672
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Simple (one column)"
 msgstr ""
 
-#: src/mainwidget.cpp:675
+#: src/mainwidget.cpp:676
 #, kde-format
 msgid "Show a simple mode of the address book view."
 msgstr ""
 
-#: src/mainwidget.cpp:678
+#: src/mainwidget.cpp:679
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Two Columns"
 msgstr ""
 
-#: src/mainwidget.cpp:684
+#: src/mainwidget.cpp:685
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Three Columns"
 msgstr ""
 
-#: src/mainwidget.cpp:697
+#: src/mainwidget.cpp:698
 #, kde-format
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/mainwidget.cpp:710
+#: src/mainwidget.cpp:711
 #, kde-format
 msgid "Serverside Subscription..."
 msgstr ""
 
-#: src/mainwidget.cpp:749 src/printing/printingwizard.cpp:43
+#: src/mainwidget.cpp:750 src/printing/printingwizard.cpp:43
 #, fuzzy, kde-format
 #| msgid "Phone Numbers"
 msgctxt "@title:window"
@@ -558,40 +890,40 @@ msgstr ""
 msgid "All EMails"
 msgstr ""
 
-#: src/printing/compact/compactstyle.cpp:117
+#: src/printing/compact/compactstyle.cpp:118
 #, kde-format
 msgid "Compact Style"
 msgstr ""
 
-#: src/printing/compact/compactstyle.cpp:173
+#: src/printing/compact/compactstyle.cpp:174
 #: src/printing/detailled/detailledstyle.cpp:282
 #: src/printing/grantlee/grantleeprintstyle.cpp:44
-#: src/printing/mike/mikesstyle.cpp:112
+#: src/printing/mike/mikesstyle.cpp:113
 #: src/printing/ringbinder/ringbinderstyle.cpp:164
 #, kde-format
 msgid "Setting up document"
 msgstr ""
 
-#: src/printing/compact/compactstyle.cpp:180
+#: src/printing/compact/compactstyle.cpp:181
 #: src/printing/detailled/detailledstyle.cpp:289
 #: src/printing/grantlee/grantleeprintstyle.cpp:53
-#: src/printing/mike/mikesstyle.cpp:119
+#: src/printing/mike/mikesstyle.cpp:120
 #: src/printing/ringbinder/ringbinderstyle.cpp:197
 #, kde-format
 msgid "Printing"
 msgstr "छपाइ कए रहल अछि"
 
-#: src/printing/compact/compactstyle.cpp:184
+#: src/printing/compact/compactstyle.cpp:185
 #: src/printing/detailled/detailledstyle.cpp:293
 #: src/printing/grantlee/grantleeprintstyle.cpp:57
-#: src/printing/mike/mikesstyle.cpp:123
+#: src/printing/mike/mikesstyle.cpp:124
 #: src/printing/ringbinder/ringbinderstyle.cpp:201
 #, kde-format
 msgctxt "Finished printing"
 msgid "Done"
 msgstr "सम्पन्न"
 
-#: src/printing/compact/compactstyle.cpp:207
+#: src/printing/compact/compactstyle.cpp:208
 #, kde-format
 msgid "Compact Printing Style"
 msgstr ""
@@ -845,7 +1177,7 @@ msgid ""
 "color for the headline text."
 msgstr ""
 
-#: src/printing/mike/mikesstyle.cpp:138
+#: src/printing/mike/mikesstyle.cpp:139
 #, kde-format
 msgid "Mike's Printing Style"
 msgstr ""
@@ -1001,7 +1333,7 @@ msgstr ""
 msgid "Printout for Ring Binders"
 msgstr ""
 
-#: src/printing/stylepage.cpp:35
+#: src/printing/stylepage.cpp:37
 #, fuzzy, kde-format
 #| msgctxt "Ascending sort order"
 #| msgid "Ascending"
@@ -1009,7 +1341,7 @@ msgctxt "@item:inlistbox Ascending sort order"
 msgid "Ascending"
 msgstr "आरोहण क्रम"
 
-#: src/printing/stylepage.cpp:36
+#: src/printing/stylepage.cpp:38
 #, fuzzy, kde-format
 #| msgctxt "Descending sort order"
 #| msgid "Descending"
@@ -1017,19 +1349,19 @@ msgctxt "@item:inlistbox Descending sort order"
 msgid "Descending"
 msgstr "अवरोहण क्रम"
 
-#: src/printing/stylepage.cpp:48
+#: src/printing/stylepage.cpp:50
 #, kde-format
 msgctxt "@label"
 msgid "(No preview available.)"
 msgstr ""
 
-#: src/printing/stylepage.cpp:110
+#: src/printing/stylepage.cpp:112
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Printing Style"
 msgstr ""
 
-#: src/printing/stylepage.cpp:117
+#: src/printing/stylepage.cpp:119
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -1038,27 +1370,27 @@ msgid ""
 "Choose the style that suits your needs below."
 msgstr ""
 
-#: src/printing/stylepage.cpp:122
+#: src/printing/stylepage.cpp:124
 #, fuzzy, kde-format
 #| msgid "Sorting"
 msgctxt "@title:group"
 msgid "Sorting"
 msgstr "छाँटनाइ"
 
-#: src/printing/stylepage.cpp:127
+#: src/printing/stylepage.cpp:129
 #, fuzzy, kde-format
 #| msgid "Organization:"
 msgctxt "@label:listbox"
 msgid "Criterion:"
 msgstr "संगठन:"
 
-#: src/printing/stylepage.cpp:132
+#: src/printing/stylepage.cpp:134
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the primary sort field"
 msgstr ""
 
-#: src/printing/stylepage.cpp:135
+#: src/printing/stylepage.cpp:137
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1067,19 +1399,19 @@ msgid ""
 "will be in ascending or descending order."
 msgstr ""
 
-#: src/printing/stylepage.cpp:140
+#: src/printing/stylepage.cpp:142
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Order:"
 msgstr ""
 
-#: src/printing/stylepage.cpp:145
+#: src/printing/stylepage.cpp:147
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the sorting order"
 msgstr ""
 
-#: src/printing/stylepage.cpp:148
+#: src/printing/stylepage.cpp:150
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1088,19 +1420,19 @@ msgid ""
 "sorting will be performed."
 msgstr ""
 
-#: src/printing/stylepage.cpp:155
+#: src/printing/stylepage.cpp:157
 #, kde-format
 msgctxt "@title:group"
 msgid "Print Style"
 msgstr ""
 
-#: src/printing/stylepage.cpp:161
+#: src/printing/stylepage.cpp:163
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select the print style"
 msgstr ""
 
-#: src/printing/stylepage.cpp:164
+#: src/printing/stylepage.cpp:166
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1172,18 +1504,6 @@ msgstr ""
 #~ msgstr "यूनिकोड"
 
 #, fuzzy
-#~| msgid "Pictures"
-#~ msgctxt "@option:check"
-#~ msgid "Pictures"
-#~ msgstr "छविसभ"
-
-#, fuzzy
-#~| msgid "Pictures"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Export pictures"
-#~ msgstr "छविसभ"
-
-#, fuzzy
 #~| msgid "&Import"
 #~ msgctxt "@title:window"
 #~ msgid "Import vCard"
@@ -1195,28 +1515,6 @@ msgstr ""
 #~ msgid "Import All..."
 #~ msgstr "आयात करू (&I)"
 
-#~ msgctxt "@item Undefined import field type"
-#~ msgid "Undefined"
-#~ msgstr "अपरिभाषित"
-
-#, fuzzy
-#~| msgid "Anniversary"
-#~ msgctxt "The wedding anniversary of a contact"
-#~ msgid "Anniversary"
-#~ msgstr "वर्षगांठ"
-
-#~ msgid "Profession"
-#~ msgstr "व्यवसाय"
-
-#~ msgid "Office"
-#~ msgstr "कार्यालय"
-
-#~ msgid "Manager"
-#~ msgstr "प्रबंधक"
-
-#~ msgid "Assistant"
-#~ msgstr "सहायक"
-
 #, fuzzy
 #~| msgid "Email address:"
 #~ msgid "Email address"
@@ -1227,11 +1525,6 @@ msgstr ""
 #~| msgid "Search"
 #~ msgid "Search"
 #~ msgstr "खोजू"
-
-#, fuzzy
-#~| msgid "Address Book"
-#~ msgid "Select AddressBook:"
-#~ msgstr "पता पुस्तिका"
 
 #, fuzzy
 #~| msgctxt "@item Undefined import field type"
