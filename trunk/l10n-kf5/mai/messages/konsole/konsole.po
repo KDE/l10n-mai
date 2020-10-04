@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-29 02:31+0200\n"
+"POT-Creation-Date: 2020-10-04 02:35+0200\n"
 "PO-Revision-Date: 2010-09-24 21:50+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1223,7 +1223,7 @@ msgstr ""
 msgid "&Scale output"
 msgstr ""
 
-#: profile/Profile.cpp:165
+#: profile/Profile.cpp:166
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgctxt "Name of the default/builtin profile"
@@ -1382,19 +1382,19 @@ msgstr "सोलारिस कंसोल"
 msgid "Bell in session '%1'"
 msgstr "'%1' सत्र मे घंटी"
 
-#: session/Session.cpp:411
+#: session/Session.cpp:412
 #, kde-format
 msgid "Could not find binary: "
 msgstr "द्विचर ढूंढि नहि सकल:"
 
-#: session/Session.cpp:420
+#: session/Session.cpp:421
 #, fuzzy, kde-format
 #| msgid "Warning: "
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "चेतावनी: "
 
-#: session/Session.cpp:478
+#: session/Session.cpp:479
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1403,22 +1403,22 @@ msgstr ""
 "'%1' केँ ढूंढ नहि सकल, बदला मे '%2' केँ प्रारंभ कएल जाए रहल अछि. कृप्या अपन प्रोफाइल "
 "सेटिंग जाँचू."
 
-#: session/Session.cpp:481
+#: session/Session.cpp:482
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "प्रारंभ करब क' लेल कोनो इंटरेक्टिव शैल ढूँढि नहि सकल."
 
-#: session/Session.cpp:519
+#: session/Session.cpp:520
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "प्रोग्राम '%1' केँ आर्गुमेंट '%2'.के सँग प्रारंभ नहि कएल जाए सकल."
 
-#: session/Session.cpp:659
+#: session/Session.cpp:660
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "'%1' सत्र मे शांति"
 
-#: session/Session.cpp:928
+#: session/Session.cpp:929
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1427,29 +1427,29 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:964
+#: session/Session.cpp:965
 #, fuzzy, kde-format
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "समाप्त"
 
-#: session/Session.cpp:978 session/Session.cpp:991
+#: session/Session.cpp:979 session/Session.cpp:992
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "प्रोग्राम '%1' क्रैश भए गेल."
 
-#: session/Session.cpp:980
+#: session/Session.cpp:981
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "प्रोग्राम '%1'  स्थिति %2 केर सँग बाहर भेल."
 
-#: session/Session.cpp:1423
+#: session/Session.cpp:1424
 #, kde-format
 msgid "ZModem Progress"
 msgstr "जेड-माडम प्रगति"
 
-#: session/Session.cpp:1739
+#: session/Session.cpp:1740
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "'%1' सत्र मे क्रिया"
@@ -2742,6 +2742,12 @@ msgstr "दुनू तरफ पाठ रेंडरिंग सक्ष�
 #, kde-format
 msgid "Default character encoding:"
 msgstr "डिफाल्ट अक्षर एनकोडिंग:"
+
+#. i18n: ectx: property (text), widget (QLabel, peekPrimaryLabel)
+#: widgets/EditProfileAdvancedPage.ui:276
+#, kde-format
+msgid "Shortcut for peeking the primary screen:"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, colorSchemeTab)
 #: widgets/EditProfileAppearancePage.ui:33
@@ -4145,12 +4151,12 @@ msgstr ""
 msgid "This terminal is read-only."
 msgstr ""
 
-#: widgets/TerminalDisplay.cpp:3754
+#: widgets/TerminalDisplay.cpp:3760
 #, kde-format
 msgid "Change &Directory To"
 msgstr ""
 
-#: widgets/TerminalDisplay.cpp:3786
+#: widgets/TerminalDisplay.cpp:3792
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
