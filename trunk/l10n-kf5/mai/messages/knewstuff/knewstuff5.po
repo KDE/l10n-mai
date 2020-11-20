@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:12+0200\n"
+"POT-Creation-Date: 2020-11-20 02:13+0100\n"
 "PO-Revision-Date: 2010-09-24 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -98,75 +98,80 @@ msgctxt ""
 msgid "Unknown CommentsModel role"
 msgstr "अनचिन्ह त्रुटि"
 
-#: core/engine.cpp:89
+#: core/engine.cpp:157
 #, kde-format
 msgid ""
 "An error occurred during the installation process:\n"
 "%1"
 msgstr ""
 
-#: core/engine.cpp:109
+#: core/engine.cpp:177
 #, kde-format
 msgid "Initializing"
 msgstr "आरँभीकरण"
 
-#: core/engine.cpp:132
+#: core/engine.cpp:200
 #, fuzzy, kde-format
 #| msgid "Configuration file not found: \"%1\""
 msgid "Configuration file exists, but cannot be opened: \"%1\""
 msgstr "बिन्यास फाइल नहि भेटल: \"%1\""
 
-#: core/engine.cpp:145
+#: core/engine.cpp:213
 #, fuzzy, kde-format
 #| msgid "Configuration files"
 msgid "Configuration file is invalid: \"%1\""
 msgstr "बिन्यास फाइल अवैध अछि: \"%1\""
 
-#: core/engine.cpp:162
+#: core/engine.cpp:221
+#, kde-format
+msgid "Use"
+msgstr ""
+
+#: core/engine.cpp:232
 #, kde-format
 msgid ""
 "Could not initialise the installation handler for %1\n"
 "This is a critical error and should be reported to the application author"
 msgstr ""
 
-#: core/engine.cpp:226
+#: core/engine.cpp:296
 #, fuzzy, kde-format
 #| msgid "View Frame Information"
 msgid "Loading provider information"
 msgstr "फ्रेम जानकारी देखू"
 
-#: core/engine.cpp:255
+#: core/engine.cpp:325
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr ""
 
-#: core/engine.cpp:278
+#: core/engine.cpp:348
 #, kde-format
 msgid "Error initializing provider."
 msgstr ""
 
-#: core/engine.cpp:282 core/engine.cpp:806
+#: core/engine.cpp:352 core/engine.cpp:876
 #, fuzzy, kde-format
 #| msgid "Loading Applet"
 msgid "Loading data"
 msgstr "डाटा लोड करैछै"
 
-#: core/engine.cpp:321
+#: core/engine.cpp:391
 #, kde-format
 msgid "Loading data from provider"
 msgstr ""
 
-#: core/engine.cpp:326
+#: core/engine.cpp:396
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr ""
 
-#: core/engine.cpp:662
+#: core/engine.cpp:732
 #, kde-format
 msgid "Pick Update Item"
 msgstr ""
 
-#: core/engine.cpp:663
+#: core/engine.cpp:733
 #, kde-format
 msgid ""
 "Please pick the item from the list below which should be used to apply this "
@@ -174,24 +179,32 @@ msgid ""
 "original item, which was named %1"
 msgstr ""
 
-#: core/engine.cpp:756
+#: core/engine.cpp:826
 #, kde-format
 msgid "Re: %1"
 msgstr "जवाब: %1"
 
-#: core/engine.cpp:798 ui/itemsgridviewdelegate.cpp:331
+#: core/engine.cpp:868 ui/itemsgridviewdelegate.cpp:331
 #: ui/itemsviewdelegate.cpp:122
 #, kde-format
 msgid "Installing"
 msgstr "संस्थापित कए रहल अछि"
 
-#: core/engine.cpp:802
+#: core/engine.cpp:872
 #, fuzzy, kde-format
 #| msgid "Loading Preview"
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] "पूर्वावलोकन लोड कएल जाए रहल अछि"
 msgstr[1] "पूर्वावलोकन लोड कएल जाए रहल अछि"
+
+#: core/engine.cpp:1057
+#, fuzzy, kde-format
+#| msgid "Failed to load file '%1'"
+msgid ""
+"Failed to adopt '%1'\n"
+"%2"
+msgstr "फाइल '%1' लोड करब मे असफल"
 
 #: core/installation.cpp:197
 #, kde-format
@@ -590,7 +603,7 @@ msgstr "अद्यतन"
 
 #. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
 #: downloadwidget.ui:582 ui/itemsgridviewdelegate.cpp:322
-#: ui/itemsviewdelegate.cpp:113 ui/itemsviewdelegate.cpp:180
+#: ui/itemsviewdelegate.cpp:113 ui/itemsviewdelegate.cpp:178
 #, kde-format
 msgid "Uninstall"
 msgstr "विसंस्थापित करू"
@@ -1002,14 +1015,6 @@ msgctxt ""
 msgid "Show most downloaded first"
 msgstr "अधिकतम डाउनलोड्स"
 
-#: qtquick/qml/Page.qml:63
-#, kde-format
-msgctxt ""
-"If a knsrc file defines an adoption command, the option to run this command "
-"and 'use' an item becomes available. This is the text for an action to do so."
-msgid "Use"
-msgstr ""
-
 #: qtquick/qml/Page.qml:123
 #, fuzzy, kde-format
 #| msgid "Details view mode"
@@ -1205,12 +1210,6 @@ msgid ""
 "please contact the person in charge of your permissions."
 msgstr ""
 
-#: qtquick/quickitemsmodel.cpp:440
-#, fuzzy, kde-format
-#| msgid "loading %1"
-msgid "Using %1"
-msgstr "%1 लोड कए रहल अछि"
-
 #: tools/knewstuff-dialog/main.cpp:30
 #, kde-format
 msgid ""
@@ -1258,7 +1257,7 @@ msgctxt "Tooltip for a link in a dialog"
 msgid "Opens in a browser window"
 msgstr "ब्राउजर विंडोमे खोलैछ"
 
-#: ui/itemsgridviewdelegate.cpp:90 ui/itemsviewdelegate.cpp:286
+#: ui/itemsgridviewdelegate.cpp:90 ui/itemsviewdelegate.cpp:284
 #, kde-format
 msgid "Rating: %1%"
 msgstr "दर: %1%"
@@ -1271,14 +1270,14 @@ msgid "<br />Size: %1"
 msgstr "<br />देनिहार: %1"
 
 #: ui/itemsgridviewdelegate.cpp:148 ui/itemsgridviewdelegate.cpp:150
-#: ui/itemsgridviewdelegate.cpp:152 ui/itemsviewdelegate.cpp:246
-#: ui/itemsviewdelegate.cpp:248 ui/itemsviewdelegate.cpp:250
+#: ui/itemsgridviewdelegate.cpp:152 ui/itemsviewdelegate.cpp:244
+#: ui/itemsviewdelegate.cpp:246 ui/itemsviewdelegate.cpp:248
 #, kde-format
 msgctxt "Show the author of this item in a list"
 msgid "By <i>%1</i>"
 msgstr "By <i>%1</i>"
 
-#: ui/itemsgridviewdelegate.cpp:175 ui/itemsviewdelegate.cpp:264
+#: ui/itemsgridviewdelegate.cpp:175 ui/itemsviewdelegate.cpp:262
 #, kde-format
 msgctxt "fan as in supporter"
 msgid "1 fan"
@@ -1286,19 +1285,19 @@ msgid_plural "%1 fans"
 msgstr[0] "1 फैन"
 msgstr[1] "%1 फैन"
 
-#: ui/itemsgridviewdelegate.cpp:178 ui/itemsviewdelegate.cpp:267
+#: ui/itemsgridviewdelegate.cpp:178 ui/itemsviewdelegate.cpp:265
 #, kde-format
 msgid "1 download"
 msgid_plural "%1 downloads"
 msgstr[0] "1 डाउनलोड"
 msgstr[1] "%1 डाउनलोड"
 
-#: ui/itemsgridviewdelegate.cpp:244 ui/itemsviewdelegate.cpp:344
+#: ui/itemsgridviewdelegate.cpp:244 ui/itemsviewdelegate.cpp:342
 #, kde-format
 msgid "Loading Preview"
 msgstr "पूर्वावलोकन लोड कएल जाए रहल अछि"
 
-#: ui/itemsgridviewdelegate.cpp:271 ui/itemsviewdelegate.cpp:191
+#: ui/itemsgridviewdelegate.cpp:271 ui/itemsviewdelegate.cpp:189
 #, kde-format
 msgid "Details"
 msgstr "विवरण"
@@ -1313,12 +1312,7 @@ msgstr "अद्यतन कए रहल अछि"
 msgid "Install Again"
 msgstr "फेर संस्थापित करू"
 
-#: ui/itemsviewdelegate.cpp:165
-#, kde-format
-msgid "Use"
-msgstr ""
-
-#: ui/itemsviewdelegate.cpp:235
+#: ui/itemsviewdelegate.cpp:233
 #, fuzzy, kde-format
 #| msgid "<p>Downloads: %1</p>\n"
 msgctxt "Show the size of the file in a list"
@@ -1644,6 +1638,11 @@ msgstr ""
 #, kde-format
 msgid "Start Upload"
 msgstr "अपलोड प्रारंभ करू"
+
+#, fuzzy
+#~| msgid "loading %1"
+#~ msgid "Using %1"
+#~ msgstr "%1 लोड कए रहल अछि"
 
 #, fuzzy
 #~| msgid "Details"
@@ -9012,9 +9011,6 @@ msgstr "अपलोड प्रारंभ करू"
 
 #~ msgid "Could not open file '%1': %2"
 #~ msgstr "फाइल '%1' खोलि नहि सकल: %2"
-
-#~ msgid "Failed to load file '%1'"
-#~ msgstr "फाइल '%1' लोड करब मे असफल"
 
 #~ msgid "'%1' is not a valid QWidget."
 #~ msgstr "'%1' वैध क्यूविजेट नहि अछि."
