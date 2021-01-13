@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-17 02:36+0100\n"
+"POT-Creation-Date: 2021-01-13 03:39+0100\n"
 "PO-Revision-Date: 2009-01-18 15:33+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -66,19 +66,113 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:45
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
+msgstr "कम्प्यूटर फिनु सँ प्रारंभ करू (&R)"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "सामान्य"
+
 #. i18n: ectx: label, entry (confirmLogout), group (General)
-#: smserversettings.kcfg:9
+#: package/contents/ui/main.qml:52 smserversettings.kcfg:9
 #, fuzzy, kde-format
 #| msgid "Conf&irm logout"
 msgid "Confirm logout"
 msgstr "लागआउटक पुष्टि करू (&i)"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
-#: smserversettings.kcfg:13
+#: package/contents/ui/main.qml:61 smserversettings.kcfg:13
 #, fuzzy, kde-format
 #| msgid "O&ffer shutdown options"
 msgid "Offer shutdown options"
 msgstr "बन्न करब केर विकल्प दिअ'(&f)"
+
+#: package/contents/ui/main.qml:78
+#, fuzzy, kde-format
+#| msgid "Default Shutdown Option"
+msgid "Default leave option:"
+msgstr "बन्न करब क' लेल मूलभूत विकल्प"
+
+#: package/contents/ui/main.qml:79
+#, fuzzy, kde-format
+#| msgid "&End current session"
+msgid "End current session"
+msgstr "वर्तमान सत्र समाप्त करू"
+
+#: package/contents/ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart computer"
+msgstr "कम्प्यूटर फिनु सँ प्रारंभ करू (&R)"
+
+#: package/contents/ui/main.qml:99
+#, fuzzy, kde-format
+#| msgid "&Turn off computer"
+msgid "Turn off computer"
+msgstr "कम्प्यूटर बन्न करू (&T)"
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "When logging in:"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore previous saved session"
+msgstr "हाथ सँ सहेजल गेल सत्र केँ बहाल करू (&m)"
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore manually saved session"
+msgstr "हाथ सँ सहेजल गेल सत्र केँ बहाल करू (&m)"
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+#| msgid "Start with an empty &session"
+msgid "Start with an empty session"
+msgstr "खाली सत्र केर सँग शुरू करू (&s)"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgid "Don't restore these applications:"
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Enter firmware setup screen on next restart"
+msgstr ""
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -101,14 +195,6 @@ msgstr "लागइन पर"
 msgid "Applications to be excluded from session"
 msgstr "ई अनुप्रयोगसभ केँ सत्रसभ सँ बाहर रखनाइ अछि. (&x)"
 
-#, fuzzy
-#~| msgid "&Restart computer"
-#~ msgid "Restart Now"
-#~ msgstr "कम्प्यूटर फिनु सँ प्रारंभ करू (&R)"
-
-#~ msgid "General"
-#~ msgstr "सामान्य"
-
 #~ msgid "Conf&irm logout"
 #~ msgstr "लागआउटक पुष्टि करू (&i)"
 
@@ -120,23 +206,8 @@ msgstr "ई अनुप्रयोगसभ केँ सत्रसभ स�
 #~ msgid "Default Leave Option"
 #~ msgstr "बन्न करब क' लेल मूलभूत विकल्प"
 
-#~ msgid "&End current session"
-#~ msgstr "वर्तमान सत्र समाप्त करू"
-
-#~ msgid "&Restart computer"
-#~ msgstr "कम्प्यूटर फिनु सँ प्रारंभ करू (&R)"
-
-#~ msgid "&Turn off computer"
-#~ msgstr "कम्प्यूटर बन्न करू (&T)"
-
 #~ msgid "On Login"
 #~ msgstr "लागइन पर"
-
-#~ msgid "Restore &manually saved session"
-#~ msgstr "हाथ सँ सहेजल गेल सत्र केँ बहाल करू (&m)"
-
-#~ msgid "Start with an empty &session"
-#~ msgstr "खाली सत्र केर सँग शुरू करू (&s)"
 
 #~ msgid "Applications to be e&xcluded from sessions:"
 #~ msgstr "ई अनुप्रयोगसभ केँ सत्रसभ सँ बाहर रखनाइ अछि. (&x)"
