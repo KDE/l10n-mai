@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: joystick\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-17 02:45+0100\n"
+"POT-Creation-Date: 2021-01-22 02:48+0100\n"
 "PO-Revision-Date: 2010-01-05 10:43+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <www.bhasharghar.in>\n"
@@ -31,7 +31,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#: caldialog.cpp:42 joywidget.cpp:380
+#: caldialog.cpp:42 joywidget.cpp:377
 #, kde-format
 msgid "Calibration"
 msgstr "केलिब्रेशन"
@@ -46,17 +46,17 @@ msgstr "अगिला"
 msgid "Please wait a moment to calculate the precision"
 msgstr "सूक्ष्मताक गणना करब क' लेल कृप्या क्षण भर क' प्रतीक्षा करू"
 
-#: caldialog.cpp:99
+#: caldialog.cpp:97
 #, kde-format
 msgid "(usually X)"
 msgstr "(प्रायः X)"
 
-#: caldialog.cpp:101
+#: caldialog.cpp:99
 #, kde-format
 msgid "(usually Y)"
 msgstr "(प्रायः Y)"
 
-#: caldialog.cpp:106
+#: caldialog.cpp:105
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the value range your device delivers.<br /"
@@ -65,7 +65,7 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 
-#: caldialog.cpp:123
+#: caldialog.cpp:128
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the value range your device delivers.<br /"
@@ -74,7 +74,7 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 
-#: caldialog.cpp:140
+#: caldialog.cpp:151
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the value range your device delivers.<br /"
@@ -83,42 +83,42 @@ msgid ""
 "button to continue with the next step.</qt>"
 msgstr ""
 
-#: caldialog.cpp:163 joywidget.cpp:371 joywidget.cpp:406
+#: caldialog.cpp:178 joywidget.cpp:367 joywidget.cpp:405
 #, kde-format
 msgid "Communication Error"
 msgstr "संचारक त्रुटि"
 
-#: caldialog.cpp:167
+#: caldialog.cpp:182
 #, kde-format
 msgid "You have successfully calibrated your device"
 msgstr "अहाँ अपन युक्ति केँ सफलता पूर्वक कैलिब्रेट कएलहुँ"
 
-#: caldialog.cpp:167 joywidget.cpp:412
+#: caldialog.cpp:182 joywidget.cpp:407
 #, kde-format
 msgid "Calibration Success"
 msgstr "कैलिब्रेशन सफल"
 
-#: caldialog.cpp:191
+#: caldialog.cpp:204
 #, kde-format
 msgid "Value Axis %1: %2"
 msgstr "अक्ष मूल्य %1: %2"
 
-#: joydevice.cpp:54
+#: joydevice.cpp:59
 #, kde-format
 msgid "The given device %1 could not be opened: %2"
 msgstr "देल गेल अओजार %1 खोलल नहि जाए सकल: %2"
 
-#: joydevice.cpp:60
+#: joydevice.cpp:63
 #, kde-format
 msgid "The given device %1 is not a joystick."
 msgstr "देल गेल अओजार %1 जायस्टिक नहि अछि."
 
-#: joydevice.cpp:65
+#: joydevice.cpp:67
 #, kde-format
 msgid "Could not get kernel driver version for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल कर्नेल ड्राइवरक संस्करण प्राप्त नहि कए सकल: %2"
 
-#: joydevice.cpp:79
+#: joydevice.cpp:78
 #, kde-format
 msgid ""
 "The current running kernel driver version (%1.%2.%3) is not the one this "
@@ -127,58 +127,58 @@ msgstr ""
 "मोजुदा चलि रहल कर्नेल ड्राइवर संस्करण अछि (%1.%2.%3) जे ओ नहि अछि जे  (%4.%5.%6) केर "
 "लेल कम्पाइल्ड अछि."
 
-#: joydevice.cpp:91
+#: joydevice.cpp:89
 #, kde-format
 msgid "Could not get number of buttons for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल बटनसभक सँख्या प्राप्त नहि कएल जाए सकल: %2"
 
-#: joydevice.cpp:97
+#: joydevice.cpp:93
 #, kde-format
 msgid "Could not get number of axes for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल अक्षसभक सँख्या प्राप्त नहि कएल जाए सकल: %2"
 
-#: joydevice.cpp:103
+#: joydevice.cpp:97
 #, kde-format
 msgid "Could not get calibration values for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल कैलिब्रेशन मान नहि भेटल: %2"
 
-#: joydevice.cpp:109
+#: joydevice.cpp:101
 #, kde-format
 msgid "Could not restore calibration values for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल कैलिब्रेशम मान पुनर्स्थापित नहि कएल जाए सकल: %2"
 
-#: joydevice.cpp:115
+#: joydevice.cpp:105
 #, kde-format
 msgid "Could not initialize calibration values for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल कैलिब्रेशन मानकेँ प्रारंभ नहि कएल जाए सकल: %2"
 
-#: joydevice.cpp:121
+#: joydevice.cpp:109
 #, kde-format
 msgid "Could not apply calibration values for joystick device %1: %2"
 msgstr "जायस्टिक अओजार %1 क' लेल कैलिब्रेशम मानकेँ लागू नहि कएल जाए सकल: %2"
 
-#: joydevice.cpp:125
+#: joydevice.cpp:113
 #, kde-format
 msgid "internal error - code %1 unknown"
 msgstr "आंतरिक त्रुटि - कोड %1 अज्ञात"
 
-#: joystick.cpp:46
+#: joystick.cpp:47
 #, kde-format
 msgid "KDE Joystick Control Module"
 msgstr "केडीई जायस्टिक नियंत्रण मोड्यूल"
 
-#: joystick.cpp:47
+#: joystick.cpp:49
 #, fuzzy, kde-format
 #| msgid "KDE Control Center Module to test Joysticks"
 msgid "KDE System Settings Module to test Joysticks"
 msgstr "जायस्टिक केँ जाँचबा क' एकटा केडीई नियंत्रण केंद्र मोड्यूल "
 
-#: joystick.cpp:48
+#: joystick.cpp:51
 #, kde-format
 msgid "(c) 2004, Martin Koller"
 msgstr "(c) 2004, मार्टिन कोलर"
 
-#: joystick.cpp:51
+#: joystick.cpp:56
 #, kde-format
 msgid ""
 "<h1>Joystick</h1>This module helps to check if your joystick is working "
@@ -199,43 +199,43 @@ msgstr ""
 msgid "PRESSED"
 msgstr "दबाएल"
 
-#: joywidget.cpp:84
+#: joywidget.cpp:89
 #, kde-format
 msgid "Device:"
 msgstr "डिवाइस:"
 
-#: joywidget.cpp:103
+#: joywidget.cpp:108
 #, kde-format
 msgctxt "Cue for deflection of the stick"
 msgid "Position:"
 msgstr "स्थिति: "
 
-#: joywidget.cpp:106
+#: joywidget.cpp:111
 #, kde-format
 msgid "Show trace"
 msgstr "ट्रेस देखाबू"
 
-#: joywidget.cpp:119
+#: joywidget.cpp:124
 #, kde-format
 msgid "Buttons:"
 msgstr "बटनसभ:"
 
-#: joywidget.cpp:123
+#: joywidget.cpp:128
 #, kde-format
 msgid "State"
 msgstr "स्थिति"
 
-#: joywidget.cpp:131
+#: joywidget.cpp:136
 #, kde-format
 msgid "Axes:"
 msgstr "अक्षः"
 
-#: joywidget.cpp:135
+#: joywidget.cpp:140
 #, kde-format
 msgid "Value"
 msgstr "मान"
 
-#: joywidget.cpp:148
+#: joywidget.cpp:153
 #, kde-format
 msgid "Calibrate"
 msgstr "कैलिब्रेट"
@@ -248,7 +248,7 @@ msgid ""
 "one attached, please enter the correct device file."
 msgstr ""
 
-#: joywidget.cpp:265
+#: joywidget.cpp:262
 #, kde-format
 msgid ""
 "The given device name is invalid (does not contain /dev).\n"
@@ -259,27 +259,27 @@ msgstr ""
 "कृप्या सूची मे सँ युक्ति चुनू अथवा फिनु\n"
 "भरू उपकरण, जहिना-  /dev/js0."
 
-#: joywidget.cpp:267
+#: joywidget.cpp:265
 #, kde-format
 msgid "Unknown Device"
 msgstr "अनचिन्ह युक्ति"
 
-#: joywidget.cpp:285
+#: joywidget.cpp:283
 #, kde-format
 msgid "Device Error"
 msgstr "डिवाइस त्रुटि"
 
-#: joywidget.cpp:306
+#: joywidget.cpp:303
 #, kde-format
 msgid "1(x)"
 msgstr "1(x)"
 
-#: joywidget.cpp:307
+#: joywidget.cpp:304
 #, kde-format
 msgid "2(y)"
 msgstr "2(y)"
 
-#: joywidget.cpp:376
+#: joywidget.cpp:373
 #, kde-format
 msgid ""
 "<qt>Calibration is about to check the precision.<br /><br /><b>Please move "
@@ -287,7 +287,7 @@ msgid ""
 "</b><br /><br />Click OK to start the calibration.</qt>"
 msgstr ""
 
-#: joywidget.cpp:411
+#: joywidget.cpp:407
 #, kde-format
 msgid "Restored all calibration values for joystick device %1."
 msgstr "जायस्टिक अओजार %1 क' लेल सबहि कैलिब्रेशन मूल्यसभ केँ पुनर्स्थापित कएलक."
