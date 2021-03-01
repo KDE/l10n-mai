@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplato\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-26 03:01+0100\n"
+"POT-Creation-Date: 2021-03-01 02:51+0100\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -1910,12 +1910,26 @@ msgid ""
 "schedule."
 msgstr ""
 
-#: kptview.cpp:2282 kptview.cpp:2286 kptview.cpp:2302 kptview.cpp:2326
+#: kptview.cpp:2282
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "(qtundo-format) Delete one task"
+msgid "Delete task"
+msgstr "नियत:"
+
+#: kptview.cpp:2286 kptview.cpp:2326
 msgctxt "(qtundo-format)"
 msgid "Delete task"
 msgid_plural "Delete tasks"
 msgstr[0] ""
 msgstr[1] ""
+
+#: kptview.cpp:2302
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "(qtundo-format) @action"
+msgid "Delete task"
+msgstr "नियत:"
 
 #: kptview.cpp:2321
 #, kde-format
@@ -1952,7 +1966,28 @@ msgctxt "(qtundo-format)"
 msgid "Delete task dependency"
 msgstr ""
 
-#: kptview.cpp:2536 kptview.cpp:2579
+#: kptview.cpp:2536
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "(qtundo-format) @action"
+msgid "Delete resource"
+msgstr "नियत:"
+
+#: kptview.cpp:2541
+#, fuzzy
+#| msgid "Duration"
+msgctxt "(qtundo-format)"
+msgid "@action"
+msgstr "अवधि"
+
+#: kptview.cpp:2550
+#, kde-format
+msgid ""
+"A resource that has been scheduled will be deleted. This will invalidate the "
+"schedule."
+msgstr ""
+
+#: kptview.cpp:2579
 #, fuzzy
 #| msgid "Schedule:"
 msgctxt "(qtundo-format)"
@@ -1961,19 +1996,12 @@ msgid_plural "Delete resources"
 msgstr[0] "नियत:"
 msgstr[1] "नियत:"
 
-#: kptview.cpp:2541 kptview.cpp:2609
+#: kptview.cpp:2609
 msgctxt "(qtundo-format)"
 msgid "Delete resourcegroup"
 msgid_plural "Delete resourcegroups"
 msgstr[0] ""
 msgstr[1] ""
-
-#: kptview.cpp:2550
-#, kde-format
-msgid ""
-"A resource that has been scheduled will be deleted. This will invalidate the "
-"schedule."
-msgstr ""
 
 #: kptview.cpp:2768
 #, kde-kuit-format
