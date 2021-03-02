@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-01 02:36+0100\n"
+"POT-Creation-Date: 2021-03-02 02:43+0100\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2009,7 +2009,6 @@ msgid "Fit to &Window"
 msgstr ""
 
 #: core/app/main/digikamapp_setup.cpp:718
-#: core/utilities/import/main/importui.cpp:586
 #: core/utilities/lighttable/lighttablewindow_setup.cpp:186
 #, kde-format
 msgid "Color-Managed View"
@@ -7813,7 +7812,6 @@ msgstr ""
 #: core/dplugins/editor/transform/freerotation/freerotationtool.cpp:222
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:43
 #: core/libs/widgets/metadata/metadatawidget.cpp:150
-#: core/utilities/import/main/importui.cpp:273
 #, kde-format
 msgid "Settings"
 msgstr "जमावट"
@@ -17457,7 +17455,6 @@ msgstr ""
 #: core/dplugins/generic/webservices/pinterest/pwindow.cpp:260
 #: core/dplugins/generic/webservices/smugmug/smugwindow.cpp:678
 #: core/dplugins/generic/webservices/twitter/twitterwindow.cpp:264
-#: core/utilities/import/main/importui.cpp:1985
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:138
 #, kde-format
 msgid "Warning"
@@ -19364,7 +19361,6 @@ msgstr ""
 #: core/libs/properties/captions/itemdescedittab.cpp:350
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:136
 #: core/utilities/advancedrename/common/tooltipdialog.cpp:62
-#: core/utilities/import/main/importui.cpp:1967
 #, kde-format
 msgid "Information"
 msgstr ""
@@ -37351,7 +37347,6 @@ msgid ""
 msgstr ""
 
 #: core/utilities/advancedrename/advancedrenamewidget.cpp:355
-#: core/utilities/import/widgets/albumcustomizer.cpp:128
 #: core/utilities/import/widgets/scriptingsettings.cpp:93
 #, kde-format
 msgid "Show a list of all available options"
@@ -40859,6 +40854,7 @@ msgid ""
 msgstr ""
 
 #: core/utilities/imageeditor/editor/editorwindow.cpp:443
+#: core/utilities/import/main/importui.cpp:586
 #, kde-format
 msgctxt "@action"
 msgid "Color-Managed View"
@@ -41275,7 +41271,6 @@ msgid "Remove Tag"
 msgstr ""
 
 #: core/utilities/imageeditor/main/imagewindow_setup.cpp:280
-#: core/utilities/import/widgets/importcontextmenu.cpp:394
 #, kde-format
 msgid "Assign Labels"
 msgstr ""
@@ -41781,34 +41776,49 @@ msgstr ""
 
 #: core/utilities/import/main/importui.cpp:244
 #, kde-format
+msgctxt "@info"
 msgid "Set how digiKam will rename files as they are downloaded."
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:245
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@item"
 msgid "File Renaming Options"
-msgstr ""
+msgstr "विकल्प"
 
 #: core/utilities/import/main/importui.cpp:251
 #, kde-format
+msgctxt "@item"
 msgid "Auto-creation of Albums"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:257
 #, kde-format
+msgctxt "@item"
 msgid "On the Fly Operations (JPEG only)"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:263
 #, fuzzy, kde-format
 #| msgid "Options"
+msgctxt "@item"
 msgid "DNG Convert Options"
 msgstr "विकल्प"
 
 #: core/utilities/import/main/importui.cpp:269
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Printing"
+msgctxt "@item"
 msgid "Scripting"
-msgstr ""
+msgstr "छपाइ कए रहल अछि"
+
+#: core/utilities/import/main/importui.cpp:273
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@title"
+msgid "Settings"
+msgstr "जमावट"
 
 #: core/utilities/import/main/importui.cpp:288
 #, kde-format
@@ -41925,20 +41935,22 @@ msgid "Delete"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:434
-#, kde-format
-msgctxt "@action"
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@action:inmenu delete item"
 msgid "Delete Selected"
-msgstr ""
+msgstr "विकल्प"
 
 #: core/utilities/import/main/importui.cpp:442
-#, kde-format
-msgctxt "@action"
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@action:inmenu delete item"
 msgid "Delete All"
-msgstr ""
+msgstr "जमावट"
 
 #: core/utilities/import/main/importui.cpp:448
 #, kde-format
-msgctxt "@action"
+msgctxt "@action:inmenu delete item"
 msgid "Delete New"
 msgstr ""
 
@@ -41968,46 +41980,50 @@ msgid "The value by which the items are sorted in the thumbnail view"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:492
-#, kde-format
-msgctxt "item:inmenu Sort by"
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@item:inmenu Sort by"
 msgid "By Name"
-msgstr ""
+msgstr "फाइलक नाम"
 
 #: core/utilities/import/main/importui.cpp:493
 #, kde-format
-msgctxt "item:inmenu Sort by"
+msgctxt "@item:inmenu Sort by"
 msgid "By Path"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:494
-#, kde-format
-msgctxt "item:inmenu Sort by"
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@item:inmenu Sort by"
 msgid "By Date"
-msgstr ""
+msgstr "फाइलक नाम"
 
 #: core/utilities/import/main/importui.cpp:495
-#, kde-format
-msgctxt "item:inmenu Sort by"
+#, fuzzy, kde-format
+#| msgid "Paper Size:"
+msgctxt "@item:inmenu Sort by"
 msgid "By Size"
-msgstr ""
+msgstr "पृष्ठ आकार:"
 
 #: core/utilities/import/main/importui.cpp:496
 #, kde-format
-msgctxt "item:inmenu Sort by"
+msgctxt "@item:inmenu Sort by"
 msgid "By Rating"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:497
 #, kde-format
-msgctxt "item:inmenu Sort by"
+msgctxt "@item:inmenu Sort by"
 msgid "By Download State"
 msgstr ""
 
 #: core/utilities/import/main/importui.cpp:521
-#, kde-format
-msgctxt "@title:inmenu"
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@action"
 msgid "Item Sorting &Order"
-msgstr ""
+msgstr "विकल्प"
 
 #: core/utilities/import/main/importui.cpp:522
 #, kde-format
@@ -42123,31 +42139,31 @@ msgctxt "@info:status"
 msgid "Canceling current operation, please wait..."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1009
+#: core/utilities/import/main/importui.cpp:1011
 #, kde-format
 msgctxt "@info"
 msgid "Do you want to close the dialog and cancel the current operation?"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1019
+#: core/utilities/import/main/importui.cpp:1021
 #, kde-format
 msgctxt "@info:status"
 msgid "Disconnecting from camera, please wait..."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1061
+#: core/utilities/import/main/importui.cpp:1065
 #, kde-format
 msgctxt "@info:status"
 msgid "Scanning for new files, please wait..."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1100
+#: core/utilities/import/main/importui.cpp:1105
 #, kde-format
-msgctxt "@info:status"
+msgctxt "@info:status busy state"
 msgid "Ready"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1156
+#: core/utilities/import/main/importui.cpp:1162
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42155,13 +42171,13 @@ msgid ""
 "and turned on."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1246
+#: core/utilities/import/main/importui.cpp:1256
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Image to Upload"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1280
+#: core/utilities/import/main/importui.cpp:1291
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42171,22 +42187,21 @@ msgid ""
 "Available free space: %2"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1334
+#: core/utilities/import/main/importui.cpp:1346
 #, kde-format
 msgctxt "@info"
 msgid ""
-"<qt>Camera Folder <resource>%1</resource> already contains the item "
-"<resource>%2</resource>.<br/>Please enter a new filename (without extension):"
-"</qt>"
+"Camera Folder \"%1\" already contains the item \"%2\".\n"
+"Please enter a new filename (without extension):"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1338
+#: core/utilities/import/main/importui.cpp:1350
 #, kde-format
 msgctxt "@title:window"
 msgid "File already exists"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1404
+#: core/utilities/import/main/importui.cpp:1416
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42194,7 +42209,7 @@ msgid ""
 "settings..."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1444
+#: core/utilities/import/main/importui.cpp:1457
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42203,7 +42218,7 @@ msgid ""
 "configuration dialog."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1453
+#: core/utilities/import/main/importui.cpp:1466
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42211,15 +42226,15 @@ msgid ""
 "available. Please select another one from camera configuration dialog."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1478
+#: core/utilities/import/main/importui.cpp:1491
 #, kde-format
 msgctxt "@info"
 msgid ""
-"<p>Please select the destination album from the digiKam library to import "
-"the camera pictures into.</p>"
+"Please select the destination album from the digiKam library to import the "
+"camera pictures into."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1570
+#: core/utilities/import/main/importui.cpp:1587
 #, kde-format
 msgctxt "@info Popup notification"
 msgid ""
@@ -42227,13 +42242,13 @@ msgid ""
 "are auto-rotated"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1578
+#: core/utilities/import/main/importui.cpp:1595
 #, kde-format
 msgctxt "@info Popup notification"
 msgid "Images download finished"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1964
+#: core/utilities/import/main/importui.cpp:1991
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42242,25 +42257,40 @@ msgid ""
 "and try again."
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:1975
+#: core/utilities/import/main/importui.cpp:1994
+#, fuzzy, kde-format
+#| msgid "Caption"
+msgctxt "@title"
+msgid "Information"
+msgstr "अनुशीर्षक"
+
+#: core/utilities/import/main/importui.cpp:2002
 #, kde-format
 msgctxt "@info"
 msgid ""
-"About to delete this image. <b>Deleted file is unrecoverable.</b> Are you "
-"sure?"
+"About to delete this image.\n"
+"Deleted file is unrecoverable.\n"
+"Are you sure?"
 msgid_plural ""
-"About to delete these %1 images. <b>Deleted files are unrecoverable.</b> Are "
-"you sure?"
+"About to delete these %1 images.\n"
+"Deleted files are unrecoverable.\n"
+"Are you sure?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/import/main/importui.cpp:2026
+#: core/utilities/import/main/importui.cpp:2012
+#, kde-format
+msgctxt "@title: confirm delete items dialog"
+msgid "Warning"
+msgstr ""
+
+#: core/utilities/import/main/importui.cpp:2056
 #, kde-format
 msgctxt "@title:window"
 msgid "Insufficient Disk Space"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:2027
+#: core/utilities/import/main/importui.cpp:2057
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -42273,8 +42303,8 @@ msgid ""
 "Try Anyway?"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:2345
-#: core/utilities/import/main/importui.cpp:2371
+#: core/utilities/import/main/importui.cpp:2385
+#: core/utilities/import/main/importui.cpp:2413
 #, kde-format
 msgctxt "@info:status"
 msgid "No item selected (%1 item)"
@@ -42282,13 +42312,13 @@ msgid_plural "No item selected (%1 items)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/import/main/importui.cpp:2363
+#: core/utilities/import/main/importui.cpp:2405
 #, kde-format
 msgctxt "@info:status Filename of first selected item of number of items"
-msgid "<b>%1</b> (%2 of %3)"
+msgid "\"%1\" (%2 of %3)"
 msgstr ""
 
-#: core/utilities/import/main/importui.cpp:2381
+#: core/utilities/import/main/importui.cpp:2424
 #, kde-format
 msgctxt "@info:status"
 msgid "%2/%1 item selected"
@@ -42296,19 +42326,21 @@ msgid_plural "%2/%1 items selected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/utilities/import/main/importui.cpp:2450
-#, kde-format
+#: core/utilities/import/main/importui.cpp:2495
+#, fuzzy, kde-format
+#| msgid ""
+#| "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgctxt "@info"
-msgid ""
-"A file with the same name (<b>%1</b>) already exists in folder <resource>%2</"
-"resource>."
+msgid "A file with the same name (\"%1\") already exists in folder \"%2\"."
 msgstr ""
+"फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: core/utilities/import/main/importui.cpp:2462
-#, kde-format
+#: core/utilities/import/main/importui.cpp:2508
+#, fuzzy, kde-format
+#| msgid "File Name"
 msgctxt "@info"
-msgid "Failed to find Album for path <b>%1</b>."
-msgstr ""
+msgid "Failed to find Album for path \"%1\"."
+msgstr "फाइलक नाम"
 
 #. i18n: ectx: Menu (Device)
 #: core/utilities/import/main/importui5.rc:6
@@ -42376,12 +42408,15 @@ msgid "Convert to lossless file format"
 msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Caption"
+msgctxt "@label"
 msgid "New image format:"
-msgstr ""
+msgstr "अनुशीर्षक"
 
 #: core/utilities/import/widgets/advancedsettings.cpp:125
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Set here all options to fix/transform JPEG files automatically as they are "
 "downloaded."
@@ -42389,6 +42424,7 @@ msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:127
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option if you want images automatically rotated or flipped using "
 "Exif information provided by the camera."
@@ -42396,11 +42432,13 @@ msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:129
 #, kde-format
+msgctxt "@info"
 msgid "Select here which metadata template you want to apply to images."
 msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:131
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option to write the document name to the Exif metadata. The "
 "document name is the original file name of the imported file."
@@ -42408,6 +42446,7 @@ msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:133
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option to set date and time metadata tags to the right values if "
 "your camera does not set these tags correctly when pictures are taken. The "
@@ -42417,128 +42456,147 @@ msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:137
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option to automatically convert all JPEG files to a lossless "
-"image format. <b>Note:</b> Image conversion can take a while on a slow "
-"computer."
+"image format. Note: Image conversion can take a while on a slow computer."
 msgstr ""
 
 #: core/utilities/import/widgets/advancedsettings.cpp:140
 #, kde-format
+msgctxt "@info"
 msgid ""
-"Select your preferred lossless image file format to convert to. <b>Note:</b> "
-"All metadata will be preserved during the conversion."
+"Select your preferred lossless image file format to convert to. Note: All "
+"metadata will be preserved during the conversion."
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:93
+#: core/utilities/import/widgets/albumcustomizer.cpp:94
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>These expressions may be used to customize date format:</p><p><b>d</b>: "
-"The day as a number without a leading zero (1 to 31)</p><p><b>dd</b>: The "
-"day as a number with a leading zero (01 to 31)</p><p><b>ddd</b>: The "
-"abbreviated localized day name (e.g. 'Mon' to 'Sun')</p><p><b>dddd</b>: The "
-"long localized day name (e.g. 'Monday' to 'Sunday').</p><p><b>M</b>: The "
-"month as a number without a leading zero (1 to 12)</p><p><b>MM</b>: The "
-"month as a number with a leading zero (01 to 12)</p><p><b>MMM</b>: The "
-"abbreviated localized month name (e.g. 'Jan' to 'Dec')</p><p><b>MMMM</b>: "
-"The long localized month name (e.g. 'January' to 'December')</p><p><b>yy</"
-"b>: The year as two digit number (eg. 00 to 99)</p><p><b>yyyy</b>: The year "
-"as four digit number (eg. 2012)</p><p>All other input characters will be "
-"treated as text. Any sequence of characters that are enclosed in "
-"singlequotes will be treated as text and not be used as an expression. "
-"Examples, if date is 20 July 1969:</p><p><b>dd.MM.yyyy</b> : 20.07.1969</"
-"p><p><b>ddd MMMM d yy</b> : Sun July 20 69</p><p><b>'Photo shot on ' dddd</"
-"b> : Photo shot on Sunday</p>"
-msgstr ""
-
-#: core/utilities/import/widgets/albumcustomizer.cpp:114
-#, kde-format
-msgctxt "@option:check"
-msgid "Extension-based sub-albums"
+"These expressions may be used to customize date format:\n"
+"\"d\": The day as a number without a leading zero (1 to 31)\n"
+"\"dd\": The day as a number with a leading zero (01 to 31)\n"
+"\"ddd\": The abbreviated localized day name (e.g. 'Mon' to 'Sun')\n"
+"\"dddd\": The long localized day name (e.g. 'Monday' to 'Sunday').\n"
+"\"M\": The month as a number without a leading zero (1 to 12)\n"
+"\"MM\": The month as a number with a leading zero (01 to 12)\n"
+"\"MMM\": The abbreviated localized month name (e.g. 'Jan' to 'Dec')\n"
+"\"MMMM\": The long localized month name (e.g. 'January' to 'December')\n"
+"\"yy\": The year as two digit number (eg. 00 to 99)\n"
+"\"yyyy\": The year as four digit number (eg. 2012)\n"
+"All other input characters will be treated as text. Any sequence of "
+"characters that are enclosed in singlequotes will be treated as text and not "
+"be used as an expression. Examples, if date is 20 July 1969:\n"
+"\"dd.MM.yyyy\" : 20.07.1969\n"
+"\"ddd MMMM d yy\" : Sun July 20 69\n"
+"\"'Photo shot on ' dddd\" : Photo shot on Sunday\n"
 msgstr ""
 
 #: core/utilities/import/widgets/albumcustomizer.cpp:115
 #, kde-format
 msgctxt "@option:check"
+msgid "Extension-based sub-albums"
+msgstr ""
+
+#: core/utilities/import/widgets/albumcustomizer.cpp:116
+#, kde-format
+msgctxt "@option:check"
 msgid "Date-based sub-albums"
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:117
+#: core/utilities/import/widgets/albumcustomizer.cpp:118
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Date format:"
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:119
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "ISO"
-msgstr ""
-
 #: core/utilities/import/widgets/albumcustomizer.cpp:120
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Full Text"
+msgctxt "@item:inlistbox folder date format"
+msgid "ISO"
 msgstr ""
 
 #: core/utilities/import/widgets/albumcustomizer.cpp:121
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Local Settings"
+msgctxt "@item:inlistbox folder date format"
+msgid "Full Text"
 msgstr ""
 
 #: core/utilities/import/widgets/albumcustomizer.cpp:122
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Custom"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@item:inlistbox folder date format"
+msgid "Local Settings"
+msgstr "जमावट"
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:141
+#: core/utilities/import/widgets/albumcustomizer.cpp:123
+#, fuzzy, kde-format
+#| msgid "Current Page"
+msgctxt "@item:inlistbox folder date format"
+msgid "Custom"
+msgstr "मोजुदा पृष्ठ"
+
+#: core/utilities/import/widgets/albumcustomizer.cpp:129
 #, kde-format
-msgid "Set how digiKam creates albums automatically when downloading."
+msgctxt "@info"
+msgid "Show a list of all available options"
 msgstr ""
 
 #: core/utilities/import/widgets/albumcustomizer.cpp:142
 #, kde-format
+msgctxt "@info"
+msgid "Set how digiKam creates albums automatically when downloading."
+msgstr ""
+
+#: core/utilities/import/widgets/albumcustomizer.cpp:143
+#, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option if you want to download your pictures into automatically "
 "created file extension-based sub-albums of the destination album. This way, "
 "you can separate JPEG and RAW files as they are downloaded from your camera."
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:145
+#: core/utilities/import/widgets/albumcustomizer.cpp:146
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option if you want to download your pictures into automatically "
 "created file date-based sub-albums of the destination album."
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:148
+#: core/utilities/import/widgets/albumcustomizer.cpp:149
 #, kde-format
+msgctxt "@info"
 msgid ""
-"<p>Select your preferred date format used to create new albums. The options "
-"available are:</p><p><b>ISO</b>: the date format is in accordance with ISO "
-"8601 (YYYY-MM-DD). E.g.: <i>2006-08-24</i></p><p><b>Full Text</b>: the date "
-"format is in a user-readable string. E.g.: <i>Thu Aug 24 2006</i></"
-"p><p><b>Local Settings</b>: the date format depending on KDE control panel "
-"settings.</p><p><b>Custom</b>: use a customized format for date.</p>"
+"Select your preferred date format used to\n"
+"create new albums. The options available are:\n"
+"\"ISO\": the date format is in accordance with ISO 8601\n"
+"(YYYY-MM-DD). E.g.: 2006-08-24\n"
+"\"Full Text\": the date format is in a user-readable string.\n"
+"E.g.: Thu Aug 24 2006\n"
+"\"Local Settings\": the date format depending on KDE control panel "
+"settings.\n"
+"\"Custom\": use a customized format for date."
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:156
+#: core/utilities/import/widgets/albumcustomizer.cpp:157
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Show the result of converted date 1968-12-26 using your customized format."
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:255
+#: core/utilities/import/widgets/albumcustomizer.cpp:256
 #, kde-format
-msgctxt "Example of custom date format for album naming"
+msgctxt "@info Example of custom date format for album naming"
 msgid "Ex.: %1"
 msgstr ""
 
-#: core/utilities/import/widgets/albumcustomizer.cpp:259
+#: core/utilities/import/widgets/albumcustomizer.cpp:260
 #, kde-format
-msgctxt "Custom date format"
+msgctxt "@info Custom date format"
 msgid "Format is not valid..."
 msgstr ""
 
@@ -42555,6 +42613,7 @@ msgstr ""
 
 #: core/utilities/import/widgets/dngconvertsettings.cpp:76
 #, kde-format
+msgctxt "@label"
 msgid ""
 "<p><a href='https://en.wikipedia.org/wiki/"
 "Digital_Negative_(file_format)'>DNG container</a></p>"
@@ -42562,6 +42621,7 @@ msgstr ""
 
 #: core/utilities/import/widgets/dngconvertsettings.cpp:93
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Set here all options to convert RAW images to DNG container automatically as "
 "they are downloaded."
@@ -42569,19 +42629,23 @@ msgstr ""
 
 #: core/utilities/import/widgets/dngconvertsettings.cpp:95
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Enable this option to convert RAW images to DNG container automatically."
 msgstr ""
 
 #: core/utilities/import/widgets/freespacewidget.cpp:339
 #, kde-format
+msgctxt "@title"
 msgid "Camera Media"
 msgstr ""
 
 #: core/utilities/import/widgets/freespacewidget.cpp:343
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@title"
 msgid "Album Library"
-msgstr ""
+msgstr "विकल्प"
 
 #: core/utilities/import/widgets/freespacewidget.cpp:353
 #: core/utilities/import/widgets/freespacewidget.cpp:364
@@ -42605,13 +42669,13 @@ msgstr ""
 
 #: core/utilities/import/widgets/importcontextmenu.cpp:229
 #, kde-format
-msgctxt "@title:menu"
+msgctxt "@title:menu open with desktop application"
 msgid "Open With"
 msgstr ""
 
 #: core/utilities/import/widgets/importcontextmenu.cpp:243
 #, kde-format
-msgctxt "@item:inmenu"
+msgctxt "@item:inmenu open with other application"
 msgid "Other..."
 msgstr ""
 
@@ -42619,6 +42683,12 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Open With..."
+msgstr ""
+
+#: core/utilities/import/widgets/importcontextmenu.cpp:394
+#, kde-format
+msgctxt "@title:menu"
+msgid "Assign Labels"
 msgstr ""
 
 #: core/utilities/import/widgets/importfiltercombobox.cpp:120
