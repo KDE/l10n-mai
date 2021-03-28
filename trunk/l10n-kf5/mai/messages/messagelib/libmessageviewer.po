@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-25 02:25+0100\n"
+"POT-Creation-Date: 2021-03-28 16:11+0000\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1179,7 +1179,7 @@ msgid "Blocked"
 msgstr ""
 
 #: scamdetection/scamdetectiondetailsdialog.cpp:37
-#: widgets/mailtrackingdetailsdialog.cpp:24
+#: widgets/trackingdetailsdialog.cpp:24
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgctxt "@title:window"
@@ -1259,7 +1259,7 @@ msgid "Message contains form element. This is often the case in scam emails."
 msgstr ""
 
 #: scamdetection/scamdetectionwebengine.cpp:213
-#: widgets/mailtrackingwarningwidget.cpp:41
+#: widgets/trackingwarningwidget.cpp:41
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Details:"
@@ -2536,20 +2536,6 @@ msgstr "HTML मूल"
 msgid "HTML code for displaying the message to the user"
 msgstr ""
 
-#: widgets/mailtrackingwarningwidget.cpp:20
-#, kde-format
-msgid ""
-"Some Mail Tracker was found and was blocked.<a href=\"mailtrackingdetails"
-"\">(Details...)"
-msgstr ""
-
-#: widgets/mailtrackingwarningwidget.cpp:47
-#, kde-format
-msgid "1 tracker from the company %2 (%3)"
-msgid_plural "%1 trackers from the company %2 (%3)"
-msgstr[0] ""
-msgstr[1] ""
-
 #: widgets/opensavedfilefolderwidget.cpp:34
 #, kde-format
 msgctxt "@action"
@@ -2585,6 +2571,20 @@ msgstr "एहन सहेजू..."
 #, kde-format
 msgid "Submit form is not allowed in mailer. Please open url in a browser."
 msgstr ""
+
+#: widgets/trackingwarningwidget.cpp:20
+#, kde-format
+msgid ""
+"Some Mail Tracker was found and was blocked.<a href=\"mailtrackingdetails"
+"\">(Details...)"
+msgstr ""
+
+#: widgets/trackingwarningwidget.cpp:47
+#, kde-format
+msgid "1 tracker from the company %2 (%3)"
+msgid_plural "%1 trackers from the company %2 (%3)"
+msgstr[0] ""
+msgstr[1] ""
 
 #: widgets/vcardviewer.cpp:34
 #, kde-format
