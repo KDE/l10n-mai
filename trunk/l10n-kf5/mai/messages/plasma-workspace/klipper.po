@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2010-01-29 15:54+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -595,14 +595,15 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "in"
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
-msgstr "<खाली क्लिपबोर्ड>"
+msgid "Clipboard is empty"
+msgstr "क्लिपबोर्ड अछि खाली"
 
 #: klipperpopup.cpp:73
-#, kde-format
-msgid "<no matches>"
+#, fuzzy, kde-format
+#| msgid "<no matches>"
+msgid "No matches"
 msgstr "<कोनो जोड़ नहि>"
 
 #: klipperpopup.cpp:121
@@ -724,11 +725,6 @@ msgstr " बेसी (&M)"
 msgid "Clipboard Contents"
 msgstr "क्लिपबोर्ड सामग्री राखू"
 
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "क्लिपबोर्ड अछि खाली"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -743,6 +739,9 @@ msgstr "ई पापअप केँ अक्षम करू"
 #, kde-format
 msgid "&Cancel"
 msgstr "रद्द करू (&C)"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<खाली क्लिपबोर्ड>"
 
 #, fuzzy
 #~| msgid ""
