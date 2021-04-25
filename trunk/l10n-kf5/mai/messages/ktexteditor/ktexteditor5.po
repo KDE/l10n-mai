@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-13 00:16+0000\n"
+"POT-Creation-Date: 2021-04-25 00:15+0000\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -23,17 +23,6 @@ msgstr ""
 "\n"
 "\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: completion/katecompletionconfig.cpp:28
-#, kde-format
-msgid "Code Completion Configuration"
-msgstr "कोड पूर्णता बिन्यास"
-
-#: completion/katecompletionconfig.cpp:102
-#: completion/katecompletionconfig.cpp:131
-#, kde-format
-msgid "Always"
-msgstr "हरदम"
 
 #: completion/katecompletionmodel.cpp:135
 #, kde-format
@@ -96,9 +85,7 @@ msgstr "चिह्न"
 msgid "Scope"
 msgstr "स्कोप"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #: completion/katecompletionmodel.cpp:1313
-#: dialogs/commandmenuconfigwidget.ui:22
 #, kde-format
 msgid "Name"
 msgstr "नाम"
@@ -301,7 +288,7 @@ msgstr "स्थिर शब्द रैप"
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
 #: data/katepart5ui.rc:75 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:688
+#: dialogs/katedialogs.cpp:687
 #, kde-format
 msgid "Borders"
 msgstr "किनार"
@@ -519,7 +506,7 @@ msgid "Scro&llbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:692
+#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:691
 #, kde-format
 msgid "Always On"
 msgstr "हमेशा चालू"
@@ -580,104 +567,10 @@ msgstr "पंक्ति क्रमांक केर अनुसार �
 msgid "By posi&tion"
 msgstr "स्थिति द्वारा (&p)"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
-#. i18n: ectx: property (text), widget (QTableWidget, tblNormalModeMappings)
-#. i18n: ectx: property (text), widget (QTableWidget, tblInsertModeMappings)
-#. i18n: ectx: property (text), widget (QTableWidget, tblVisualModeMappings)
-#: dialogs/commandmenuconfigwidget.ui:27 vimode/config/configwidget.ui:95
-#: vimode/config/configwidget.ui:133 vimode/config/configwidget.ui:171
-#, kde-format
-msgid "Command"
-msgstr "कमांड"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
-#: dialogs/commandmenuconfigwidget.ui:32
-#, kde-format
-msgid "Description"
-msgstr "विवरण"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnEditEntry)
-#: dialogs/commandmenuconfigwidget.ui:48
-#, fuzzy, kde-format
-#| msgid "Edit entry..."
-msgid "Edit Entry..."
-msgstr "प्रविष्टि क' संपादन करू..."
-
-#. i18n: ectx: property (text), widget (QPushButton, btnRemoveEntry)
-#: dialogs/commandmenuconfigwidget.ui:58
-#, fuzzy, kde-format
-#| msgid "Remove entry"
-msgid "Remove Entry"
-msgstr "प्रविष्टि मेटाबू"
-
-#. i18n: ectx: property (text), widget (QPushButton, btnAddEntry)
-#: dialogs/commandmenuconfigwidget.ui:78
-#, fuzzy, kde-format
-#| msgid "Add entry..."
-msgid "Add Entry..."
-msgstr "प्रविष्टि जोड़ू..."
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbNotes)
-#: dialogs/commandmenuconfigwidget.ui:93
-#, kde-format
-msgid "Further Notes"
-msgstr "आगाँ क' टिप्पणीसभ"
-
-#. i18n: ectx: property (text), widget (QLabel, lblNotes)
-#: dialogs/commandmenuconfigwidget.ui:108
-#, kde-format
-msgid ""
-"<p>The entries are accessible through the submenu <b>Commands</b> in the "
-"<b>Tools</b> menu. For faster access it is possible to assign <b>shortcuts</"
-"b> in the shortcut configuration page after applying the changes.</p>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbEdit)
-#: dialogs/commandmenueditwidget.ui:12
-#, kde-format
-msgid "Edit Command"
-msgstr "कमांड क' संपादन करू"
-
-#. i18n: ectx: property (text), widget (QLabel, lblCommand)
-#: dialogs/commandmenueditwidget.ui:26
-#, kde-format
-msgid "&Associated command:"
-msgstr "सम्बद्ध कमांडः (&A)"
-
-#. i18n: ectx: property (text), widget (QLabel, lblName)
-#: dialogs/commandmenueditwidget.ui:69 dialogs/filetypeconfigwidget.ui:72
-#, kde-format
-msgid "&Name:"
-msgstr "नाम (&N):"
-
-#. i18n: ectx: property (toolTip), widget (KIconButton, btnIcon)
-#: dialogs/commandmenueditwidget.ui:87
-#, kde-format
-msgid "Choose an icon."
-msgstr "एकटा प्रतीक चुनू."
-
-#. i18n: ectx: property (whatsThis), widget (KIconButton, btnIcon)
-#: dialogs/commandmenueditwidget.ui:90
-#, kde-format
-msgid "<p>This icon will be displayed in the menu and toolbar.</p>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#: dialogs/commandmenueditwidget.ui:102
-#, kde-format
-msgid "&Description:"
-msgstr "विवरण (&D):"
-
-#. i18n: ectx: property (text), widget (QLabel, lblCategory)
-#: dialogs/commandmenueditwidget.ui:115
-#, kde-format
-msgid "&Category:"
-msgstr "वर्ग: (&C)"
-
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
-#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:548
-#: dialogs/katedialogs.cpp:684 dialogs/katedialogs.cpp:896
+#: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:547
+#: dialogs/katedialogs.cpp:683 dialogs/katedialogs.cpp:895
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -737,191 +630,6 @@ msgid ""
 "Keyword completion provides suggestions based on the keywords which exist in "
 "the document's language."
 msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, sorting)
-#: dialogs/completionconfigwidget.ui:17
-#, kde-format
-msgid "Sorting"
-msgstr "छाँटनाइ"
-
-#. i18n: ectx: property (text), widget (QCheckBox, sortingAlphabetical)
-#: dialogs/completionconfigwidget.ui:37
-#, kde-format
-msgid "Alphabetical"
-msgstr "अकारादि"
-
-#. i18n: ectx: property (text), widget (QCheckBox, sortingReverse)
-#: dialogs/completionconfigwidget.ui:44
-#, kde-format
-msgid "Reverse"
-msgstr "विपरीत"
-
-#. i18n: ectx: property (text), widget (QCheckBox, sortingCaseSensitive)
-#: dialogs/completionconfigwidget.ui:51
-#, fuzzy, kde-format
-#| msgid "Case Sensitive"
-msgid "Case sensitive"
-msgstr "केस सेंसिटिव"
-
-#. i18n: ectx: property (text), widget (QCheckBox, sortingInheritanceDepth)
-#: dialogs/completionconfigwidget.ui:58
-#, fuzzy, kde-format
-#| msgid "Inheritance Depth"
-msgid "Inheritance depth"
-msgstr "इनहेरिटेंस गहराइ"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/completionconfigwidget.ui:85
-#, kde-format
-msgid "Order of Groupings (select a grouping method to configure):"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, groupingOrderUp)
-#. i18n: ectx: property (text), widget (QToolButton, groupingUp)
-#. i18n: ectx: property (text), widget (QToolButton, columnUp)
-#: dialogs/completionconfigwidget.ui:105 dialogs/completionconfigwidget.ui:242
-#: dialogs/completionconfigwidget.ui:414
-#, kde-format
-msgid "^"
-msgstr "^"
-
-#. i18n: ectx: property (text), widget (QToolButton, groupingOrderDown)
-#. i18n: ectx: property (text), widget (QToolButton, groupingDown)
-#. i18n: ectx: property (text), widget (QToolButton, columnDown)
-#: dialogs/completionconfigwidget.ui:112 dialogs/completionconfigwidget.ui:249
-#: dialogs/completionconfigwidget.ui:421
-#, kde-format
-msgid "\\/"
-msgstr "\\/"
-
-#. i18n: ectx: property (title), widget (QGroupBox, filtering)
-#: dialogs/completionconfigwidget.ui:128
-#, kde-format
-msgid "Filtering"
-msgstr "फिल्टर कएल जाए रहल अछि"
-
-#. i18n: ectx: property (text), widget (QCheckBox, filteringContextMatchOnly)
-#: dialogs/completionconfigwidget.ui:143
-#, kde-format
-msgid "Suitable context matches only"
-msgstr "केवल उपयुक्त संदर्भित मिलान"
-
-#. i18n: ectx: property (text), widget (QCheckBox, filteringHideAttributes)
-#: dialogs/completionconfigwidget.ui:150
-#, kde-format
-msgid "Hide completions with the following attributes:"
-msgstr "पूर्णता केँ निम्न गुणों केर सँग नुकाबू:"
-
-#. i18n: ectx: property (text), widget (QLabel, label6)
-#: dialogs/completionconfigwidget.ui:162
-#, fuzzy, kde-format
-#| msgid "Maximum inheritance depth"
-msgid "Maximum inheritance depth:"
-msgstr "अधिकतम इनहैरिटेंस गहराइ"
-
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, filteringMaximumInheritanceDepth)
-#: dialogs/completionconfigwidget.ui:172
-#, kde-format
-msgid "Infinity"
-msgstr "अनंत"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grouping)
-#: dialogs/completionconfigwidget.ui:190
-#, kde-format
-msgid "Grouping"
-msgstr "समूहन"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, groupingMethods)
-#: dialogs/completionconfigwidget.ui:209
-#, fuzzy, kde-format
-#| msgid "Grouping method"
-msgid "Grouping Method"
-msgstr "समूहीकरण विधि"
-
-#. i18n: ectx: property (text), item, widget (QTreeWidget, groupingMethods)
-#: dialogs/completionconfigwidget.ui:214
-#, kde-format
-msgid "Scope type (local, namespace, global)"
-msgstr "स्कोप किस्म (स्थानीय, नेमस्पेस, वैश्विक)"
-
-#. i18n: ectx: property (text), item, widget (QTreeWidget, groupingMethods)
-#: dialogs/completionconfigwidget.ui:219
-#, kde-format
-msgid "Scope (eg. per class)"
-msgstr "स्कोप (उदा. प्रति क्लास)"
-
-#. i18n: ectx: property (text), item, widget (QTreeWidget, groupingMethods)
-#: dialogs/completionconfigwidget.ui:224
-#, kde-format
-msgid "Access type (public etc.)"
-msgstr "पहुँच किस्म (सार्वजनिक इत्यादि)"
-
-#. i18n: ectx: property (text), item, widget (QTreeWidget, groupingMethods)
-#: dialogs/completionconfigwidget.ui:229
-#, kde-format
-msgid "Item type (function etc.)"
-msgstr "वस्तु किस्म (फ़ंक्शन इत्यादि)"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/completionconfigwidget.ui:279
-#, fuzzy, kde-format
-#| msgid "Access Grouping properties"
-msgid "Access Grouping Properties"
-msgstr "समूहन गुणक अभिगम करू"
-
-#. i18n: ectx: property (text), widget (QCheckBox, accessConst)
-#: dialogs/completionconfigwidget.ui:286
-#, kde-format
-msgid "Include const in grouping"
-msgstr "कॉस्टैंट केँ मे शामिल करू"
-
-#. i18n: ectx: property (text), widget (QCheckBox, accessStatic)
-#: dialogs/completionconfigwidget.ui:293
-#, kde-format
-msgid "Include static in grouping"
-msgstr "स्टैटिक केँ समूह मे शामिल करू"
-
-#. i18n: ectx: property (text), widget (QCheckBox, accessSignalSlot)
-#: dialogs/completionconfigwidget.ui:300
-#, kde-format
-msgid "Include signals and slots in grouping"
-msgstr "सिगनल आओर स्लॉट केँ समूह मे शामिल करू"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: dialogs/completionconfigwidget.ui:330
-#, kde-format
-msgid "Item Grouping properties"
-msgstr "मद समूहक गुण"
-
-#. i18n: ectx: property (text), widget (QCheckBox, itemTemplate)
-#: dialogs/completionconfigwidget.ui:337
-#, kde-format
-msgid "Include templates in grouping"
-msgstr "टैम्प्लेट केँ समूह मे शामिल करू"
-
-#. i18n: ectx: property (title), widget (QGroupBox, columnMerging)
-#: dialogs/completionconfigwidget.ui:366
-#, kde-format
-msgid "Column Merging"
-msgstr "स्तम्भ मिलान"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, columnMergeTree)
-#: dialogs/completionconfigwidget.ui:391
-#, kde-format
-msgid "Columns"
-msgstr "कॉलम"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, columnMergeTree)
-#: dialogs/completionconfigwidget.ui:396
-#, kde-format
-msgid "Merged"
-msgstr "मिलाएल"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, columnMergeTree)
-#: dialogs/completionconfigwidget.ui:401
-#, kde-format
-msgid "Shown"
-msgstr "देखाएल"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbStaticWordWrap)
 #: dialogs/editconfigwidget.ui:17 view/kateview.cpp:725
@@ -1094,7 +802,13 @@ msgstr "मेटाबू (&D)"
 msgid "Properties"
 msgstr "गुण"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, edtName)
+#. i18n: ectx: property (text), widget (QLabel, lblName)
+#: dialogs/filetypeconfigwidget.ui:72
+#, kde-format
+msgid "&Name:"
+msgstr "नाम (&N):"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtName)
 #: dialogs/filetypeconfigwidget.ui:82
 #, kde-format
 msgid ""
@@ -1107,7 +821,7 @@ msgstr ""
 msgid "&Section:"
 msgstr "खण्ड: (&S)"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, edtSection)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtSection)
 #: dialogs/filetypeconfigwidget.ui:99
 #, kde-format
 msgid "The section name is used to organize the file types in menus."
@@ -1148,7 +862,7 @@ msgstr "हाशिया (&I)"
 msgid "File e&xtensions:"
 msgstr "फाइल एक्सटेंशन्स: (&x)"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, edtFileExtensions)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtFileExtensions)
 #: dialogs/filetypeconfigwidget.ui:159
 #, kde-format
 msgid ""
@@ -1163,7 +877,7 @@ msgstr ""
 msgid "MIME &types:"
 msgstr "माइम प्रकार: (&t)"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, edtMimeTypes)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtMimeTypes)
 #: dialogs/filetypeconfigwidget.ui:181
 #, kde-format
 msgid ""
@@ -1382,7 +1096,7 @@ msgstr ""
 msgid "Increase indentation level if in l&eading blank space"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:181 dialogs/katedialogs.cpp:183
+#: dialogs/katedialogs.cpp:180 dialogs/katedialogs.cpp:182
 #, fuzzy, kde-format
 #| msgid " characters"
 msgid " character"
@@ -1390,30 +1104,30 @@ msgid_plural " characters"
 msgstr[0] "अक्षर"
 msgstr[1] "अक्षर"
 
-#: dialogs/katedialogs.cpp:207
+#: dialogs/katedialogs.cpp:206
 #, kde-format
 msgid "Indentation"
 msgstr "इंडेन्टेशन"
 
-#: dialogs/katedialogs.cpp:282
+#: dialogs/katedialogs.cpp:281
 #, kde-format
 msgid "Auto Completion"
 msgstr "स्वतः पूर्णता"
 
-#: dialogs/katedialogs.cpp:349
+#: dialogs/katedialogs.cpp:348
 #, fuzzy, kde-format
 #| msgid "Spellcheck Selection..."
 msgid "Spellcheck"
 msgstr "वर्तनी जाँच चयन..."
 
-#: dialogs/katedialogs.cpp:425
+#: dialogs/katedialogs.cpp:424
 #, fuzzy, kde-format
 #| msgctxt "Language Section"
 #| msgid "Configuration"
 msgid "Text Navigation"
 msgstr "बिन्यास"
 
-#: dialogs/katedialogs.cpp:522
+#: dialogs/katedialogs.cpp:521
 #, fuzzy, kde-format
 #| msgid " characters"
 msgctxt "Wrap words at (value is at 20 or larger)"
@@ -1422,70 +1136,70 @@ msgid_plural " characters"
 msgstr[0] "अक्षर"
 msgstr[1] "अक्षर"
 
-#: dialogs/katedialogs.cpp:527
+#: dialogs/katedialogs.cpp:526
 #, kde-format
 msgid "Feature is not active"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:529
+#: dialogs/katedialogs.cpp:528
 #, fuzzy, kde-format
 #| msgid "Disabled Breakpoint"
 msgid "Disable Feature"
 msgstr "अक्षम ब्रेकपाइन्ट"
 
-#: dialogs/katedialogs.cpp:531
+#: dialogs/katedialogs.cpp:530
 #, kde-format
 msgid "May be handy with Markdown"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:533
+#: dialogs/katedialogs.cpp:532
 #, kde-format
 msgid "Mirror characters, similar but not exactly like auto brackets"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:535
+#: dialogs/katedialogs.cpp:534
 #, fuzzy, kde-format
 #| msgid "Non-word character"
 msgid "Non letter character"
 msgstr "नॉन-वर्ड अक्षर"
 
-#: dialogs/katedialogs.cpp:650
+#: dialogs/katedialogs.cpp:649
 #, kde-format
 msgid "Editing"
 msgstr "संपादन"
 
-#: dialogs/katedialogs.cpp:655
+#: dialogs/katedialogs.cpp:654
 #, kde-format
 msgid "Editing Options"
 msgstr "संपादन विकल्प"
 
-#: dialogs/katedialogs.cpp:680
+#: dialogs/katedialogs.cpp:679
 #, kde-format
 msgid "Font"
 msgstr "फौन्ट"
 
-#: dialogs/katedialogs.cpp:690
+#: dialogs/katedialogs.cpp:689
 #, kde-format
 msgid "Off"
 msgstr "बन्न"
 
-#: dialogs/katedialogs.cpp:691
+#: dialogs/katedialogs.cpp:690
 #, kde-format
 msgid "Follow Line Numbers"
 msgstr "पंक्ति क्रमांक अनुसरण करू"
 
-#: dialogs/katedialogs.cpp:829 dialogs/katedialogs.cpp:834
+#: dialogs/katedialogs.cpp:828 dialogs/katedialogs.cpp:833
 #, kde-format
 msgid "Appearance"
 msgstr "प्रकटन"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:897 dialogs/textareaappearanceconfigwidget.ui:243
+#: dialogs/katedialogs.cpp:896 dialogs/textareaappearanceconfigwidget.ui:243
 #, kde-format
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: dialogs/katedialogs.cpp:961
+#: dialogs/katedialogs.cpp:960
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
@@ -1493,133 +1207,133 @@ msgstr ""
 "अहाँ कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि देने छी. मूलभूत उपसर्ग इस्तेमाल कएल जाए रहल अछि. "
 "'~'"
 
-#: dialogs/katedialogs.cpp:961
+#: dialogs/katedialogs.cpp:960
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि"
 
-#: dialogs/katedialogs.cpp:1083
+#: dialogs/katedialogs.cpp:1082
 #, kde-format
 msgid "Open/Save"
 msgstr "खोलू/सहेजू"
 
-#: dialogs/katedialogs.cpp:1088
+#: dialogs/katedialogs.cpp:1087
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "फाइल खोलनाइ आ सहेजनाइ"
 
-#: dialogs/katedialogs.cpp:1111
+#: dialogs/katedialogs.cpp:1110
 #, kde-format
 msgid "&Line:"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1112
+#: dialogs/katedialogs.cpp:1111
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1123
+#: dialogs/katedialogs.cpp:1122
 #, kde-format
 msgid "Go to"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1199
+#: dialogs/katedialogs.cpp:1198
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1263
+#: dialogs/katedialogs.cpp:1262
 #, fuzzy, kde-format
 #| msgid "&Section:"
 msgid "Dictionary:"
 msgstr "खण्ड: (&S)"
 
-#: dialogs/katedialogs.cpp:1315
+#: dialogs/katedialogs.cpp:1314
 #, fuzzy, kde-format
 #| msgid "Auto Completion"
 msgid "Enable Auto Reload"
 msgstr "स्वतः पूर्णता"
 
-#: dialogs/katedialogs.cpp:1317
+#: dialogs/katedialogs.cpp:1316
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1322
+#: dialogs/katedialogs.cpp:1321
 #, fuzzy, kde-format
 #| msgid "&View Difference"
 msgid "View &Difference"
 msgstr "भिन्नता देखू (&V)"
 
-#: dialogs/katedialogs.cpp:1324
+#: dialogs/katedialogs.cpp:1323
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1329
+#: dialogs/katedialogs.cpp:1328
 #, fuzzy, kde-format
 #| msgid "Reloa&d"
 msgid "&Reload"
 msgstr "फिनु सँ लोड करू (&d)"
 
-#: dialogs/katedialogs.cpp:1331
+#: dialogs/katedialogs.cpp:1330
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1335
+#: dialogs/katedialogs.cpp:1334
 #, fuzzy, kde-format
 #| msgid "&Reload File"
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
-#: dialogs/katedialogs.cpp:1337
+#: dialogs/katedialogs.cpp:1336
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1341
+#: dialogs/katedialogs.cpp:1340
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Save As..."
 msgstr "फाइल एहिना सहेजू... (&S)"
 
-#: dialogs/katedialogs.cpp:1343
+#: dialogs/katedialogs.cpp:1342
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "अहाँक एकटा स्थान चुनू आओर फाइलकेँ फिनु सँ सहेजू"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1348 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1347 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "अनदेखा करू (&I)"
 
-#: dialogs/katedialogs.cpp:1349
+#: dialogs/katedialogs.cpp:1348
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1415 swapfile/kateswapdiffcreator.cpp:126
+#: dialogs/katedialogs.cpp:1414 swapfile/kateswapdiffcreator.cpp:126
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1417 swapfile/kateswapdiffcreator.cpp:94
+#: dialogs/katedialogs.cpp:1416 swapfile/kateswapdiffcreator.cpp:94
 #: swapfile/kateswapdiffcreator.cpp:128
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "डिफ बनाबै मे त्रुटि"
 
-#: dialogs/katedialogs.cpp:1424 swapfile/kateswapdiffcreator.cpp:135
+#: dialogs/katedialogs.cpp:1423 swapfile/kateswapdiffcreator.cpp:135
 #, kde-format
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1424 swapfile/kateswapdiffcreator.cpp:135
+#: dialogs/katedialogs.cpp:1423 swapfile/kateswapdiffcreator.cpp:135
 #, kde-format
 msgid "Diff Output"
 msgstr "डिफ आउटपुट"
@@ -1805,7 +1519,7 @@ msgstr "रिमोट फाइल (&R)"
 msgid "&Prefix:"
 msgstr "उपसर्गः (&P)"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, edtBackupPrefix)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtBackupPrefix)
 #: dialogs/opensaveconfigadvwidget.ui:62
 #, kde-format
 msgid "Enter the prefix to prepend to the backup file names."
@@ -1817,7 +1531,7 @@ msgstr "बैकअप फाइल नाम मे पहिने जोड�
 msgid "&Suffix:"
 msgstr "सफिक्स (&S)"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, edtBackupSuffix)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, edtBackupSuffix)
 #: dialogs/opensaveconfigadvwidget.ui:79
 #, kde-format
 msgid "Enter the suffix to append to the backup file names."
@@ -7952,6 +7666,15 @@ msgstr "सामान्य पाठ"
 #. i18n: ectx: property (text), widget (QTableWidget, tblNormalModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblInsertModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblVisualModeMappings)
+#: vimode/config/configwidget.ui:95 vimode/config/configwidget.ui:133
+#: vimode/config/configwidget.ui:171
+#, kde-format
+msgid "Command"
+msgstr "कमांड"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tblNormalModeMappings)
+#. i18n: ectx: property (text), widget (QTableWidget, tblInsertModeMappings)
+#. i18n: ectx: property (text), widget (QTableWidget, tblVisualModeMappings)
 #: vimode/config/configwidget.ui:100 vimode/config/configwidget.ui:138
 #: vimode/config/configwidget.ui:176
 #, fuzzy, kde-format
@@ -8038,6 +7761,142 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "मार्क टाइप %1"
+
+#~ msgid "Code Completion Configuration"
+#~ msgstr "कोड पूर्णता बिन्यास"
+
+#~ msgid "Always"
+#~ msgstr "हरदम"
+
+#~ msgid "Description"
+#~ msgstr "विवरण"
+
+#, fuzzy
+#~| msgid "Edit entry..."
+#~ msgid "Edit Entry..."
+#~ msgstr "प्रविष्टि क' संपादन करू..."
+
+#, fuzzy
+#~| msgid "Remove entry"
+#~ msgid "Remove Entry"
+#~ msgstr "प्रविष्टि मेटाबू"
+
+#, fuzzy
+#~| msgid "Add entry..."
+#~ msgid "Add Entry..."
+#~ msgstr "प्रविष्टि जोड़ू..."
+
+#~ msgid "Further Notes"
+#~ msgstr "आगाँ क' टिप्पणीसभ"
+
+#~ msgid "Edit Command"
+#~ msgstr "कमांड क' संपादन करू"
+
+#~ msgid "&Associated command:"
+#~ msgstr "सम्बद्ध कमांडः (&A)"
+
+#~ msgid "Choose an icon."
+#~ msgstr "एकटा प्रतीक चुनू."
+
+#~ msgid "&Description:"
+#~ msgstr "विवरण (&D):"
+
+#~ msgid "&Category:"
+#~ msgstr "वर्ग: (&C)"
+
+#~ msgid "Sorting"
+#~ msgstr "छाँटनाइ"
+
+#~ msgid "Alphabetical"
+#~ msgstr "अकारादि"
+
+#~ msgid "Reverse"
+#~ msgstr "विपरीत"
+
+#, fuzzy
+#~| msgid "Case Sensitive"
+#~ msgid "Case sensitive"
+#~ msgstr "केस सेंसिटिव"
+
+#, fuzzy
+#~| msgid "Inheritance Depth"
+#~ msgid "Inheritance depth"
+#~ msgstr "इनहेरिटेंस गहराइ"
+
+#~ msgid "^"
+#~ msgstr "^"
+
+#~ msgid "\\/"
+#~ msgstr "\\/"
+
+#~ msgid "Filtering"
+#~ msgstr "फिल्टर कएल जाए रहल अछि"
+
+#~ msgid "Suitable context matches only"
+#~ msgstr "केवल उपयुक्त संदर्भित मिलान"
+
+#~ msgid "Hide completions with the following attributes:"
+#~ msgstr "पूर्णता केँ निम्न गुणों केर सँग नुकाबू:"
+
+#, fuzzy
+#~| msgid "Maximum inheritance depth"
+#~ msgid "Maximum inheritance depth:"
+#~ msgstr "अधिकतम इनहैरिटेंस गहराइ"
+
+#~ msgid "Infinity"
+#~ msgstr "अनंत"
+
+#~ msgid "Grouping"
+#~ msgstr "समूहन"
+
+#, fuzzy
+#~| msgid "Grouping method"
+#~ msgid "Grouping Method"
+#~ msgstr "समूहीकरण विधि"
+
+#~ msgid "Scope type (local, namespace, global)"
+#~ msgstr "स्कोप किस्म (स्थानीय, नेमस्पेस, वैश्विक)"
+
+#~ msgid "Scope (eg. per class)"
+#~ msgstr "स्कोप (उदा. प्रति क्लास)"
+
+#~ msgid "Access type (public etc.)"
+#~ msgstr "पहुँच किस्म (सार्वजनिक इत्यादि)"
+
+#~ msgid "Item type (function etc.)"
+#~ msgstr "वस्तु किस्म (फ़ंक्शन इत्यादि)"
+
+#, fuzzy
+#~| msgid "Access Grouping properties"
+#~ msgid "Access Grouping Properties"
+#~ msgstr "समूहन गुणक अभिगम करू"
+
+#~ msgid "Include const in grouping"
+#~ msgstr "कॉस्टैंट केँ मे शामिल करू"
+
+#~ msgid "Include static in grouping"
+#~ msgstr "स्टैटिक केँ समूह मे शामिल करू"
+
+#~ msgid "Include signals and slots in grouping"
+#~ msgstr "सिगनल आओर स्लॉट केँ समूह मे शामिल करू"
+
+#~ msgid "Item Grouping properties"
+#~ msgstr "मद समूहक गुण"
+
+#~ msgid "Include templates in grouping"
+#~ msgstr "टैम्प्लेट केँ समूह मे शामिल करू"
+
+#~ msgid "Column Merging"
+#~ msgstr "स्तम्भ मिलान"
+
+#~ msgid "Columns"
+#~ msgstr "कॉलम"
+
+#~ msgid "Merged"
+#~ msgstr "मिलाएल"
+
+#~ msgid "Shown"
+#~ msgstr "देखाएल"
 
 #, fuzzy
 #~| msgid "(c) 2000-2005 The Kate Authors"
