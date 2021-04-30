@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-08 02:39+0100\n"
+"POT-Creation-Date: 2021-04-30 00:20+0000\n"
 "PO-Revision-Date: 2010-01-29 16:32+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -35,10 +35,9 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sangeeta09@gmail.com"
 
-#: actions/bundled/brightnesscontrol.cpp:51
+#: actions/bundled/brightnesscontrol.cpp:51 actions/bundled/dpms.cpp:74
 #: actions/bundled/handlebuttonevents.cpp:58
 #: actions/bundled/keyboardbrightnesscontrol.cpp:56
-#: actions/dpms/powerdevildpmsaction.cpp:81
 #, fuzzy, kde-format
 #| msgid "Profile Management"
 msgctxt "Name for powerdevil shortcuts category"
@@ -63,10 +62,9 @@ msgctxt "Brightness level, label for the slider"
 msgid "Level"
 msgstr ""
 
-#: actions/bundled/dimdisplayconfig.cpp:64
+#: actions/bundled/dimdisplayconfig.cpp:64 actions/bundled/dpmsconfig.cpp:60
 #: actions/bundled/runscriptconfig.cpp:82
 #: actions/bundled/suspendsessionconfig.cpp:86
-#: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy, kde-format
 #| msgid "min"
 msgid " min"
@@ -78,6 +76,18 @@ msgstr "मि."
 #, kde-format
 msgid "After"
 msgstr ""
+
+#: actions/bundled/dpms.cpp:77
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Turn Off Screen"
+msgstr ""
+
+#: actions/bundled/dpmsconfig.cpp:61
+#, fuzzy, kde-format
+#| msgid "&Power off after"
+msgid "Switch off after"
+msgstr "एतबा समयक बाद बिजली बन्न करू (&P)"
 
 #: actions/bundled/handlebuttonevents.cpp:63
 #, fuzzy, kde-format
@@ -268,18 +278,6 @@ msgstr ""
 #, kde-format
 msgid "Bluetooth"
 msgstr ""
-
-#: actions/dpms/powerdevildpmsaction.cpp:84
-#, kde-format
-msgctxt "@action:inmenu Global shortcut"
-msgid "Turn Off Screen"
-msgstr ""
-
-#: actions/dpms/powerdevildpmsactionconfig.cpp:61
-#, fuzzy, kde-format
-#| msgid "&Power off after"
-msgid "Switch off after"
-msgstr "एतबा समयक बाद बिजली बन्न करू (&P)"
 
 #: backends/upower/login1suspendjob.cpp:79
 #: backends/upower/upowersuspendjob.cpp:69
