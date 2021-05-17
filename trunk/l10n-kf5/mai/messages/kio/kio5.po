@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-16 00:16+0000\n"
+"POT-Creation-Date: 2021-05-17 00:16+0000\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3404,7 +3404,7 @@ msgid "*|All Files"
 msgstr "*|सभटा फाइलसभ"
 
 #: filewidgets/kfilewidget.cpp:2077 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:876
+#: widgets/kfileitemactions.cpp:875
 #, kde-format
 msgid "&Open"
 msgstr "खोलू (&O)"
@@ -3498,10 +3498,9 @@ msgstr ""
 "<qt>उल्लेखित कमांड चलाबै मे अक्षम. फाइल अथवा फोल्डर<b>%1</b> अस्तित्व मे नहि अछि.</qt>"
 
 #: filewidgets/knewfilemenu.cpp:602 filewidgets/knewfilemenu.cpp:685
-#, fuzzy, kde-format
-#| msgid "Device name"
-msgid "File name:"
-msgstr "डिवाइस नाम"
+#, kde-format
+msgid "Name for new link:"
+msgstr ""
 
 #: filewidgets/knewfilemenu.cpp:689
 #, fuzzy, kde-format
@@ -7124,27 +7123,27 @@ msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "क्रियासभ"
 
-#: widgets/kfileitemactions.cpp:865
+#: widgets/kfileitemactions.cpp:864
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "&Open with %1"
 msgstr "के सँग खोलू:"
 
-#: widgets/kfileitemactions.cpp:887
+#: widgets/kfileitemactions.cpp:886
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "एकरासँ खोलू"
 
-#: widgets/kfileitemactions.cpp:900
+#: widgets/kfileitemactions.cpp:899
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "एकरासँ खोलू"
 
-#: widgets/kfileitemactions.cpp:911
+#: widgets/kfileitemactions.cpp:910
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
@@ -8877,6 +8876,11 @@ msgstr ""
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Device name"
+#~ msgid "File name:"
+#~ msgstr "डिवाइस नाम"
 
 #~ msgid "&Use cache"
 #~ msgstr "कैश इस्तेमाल करू (&U)"
