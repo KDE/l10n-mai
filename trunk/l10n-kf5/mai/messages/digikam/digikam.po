@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-24 00:15+0000\n"
+"POT-Creation-Date: 2021-05-25 00:17+0000\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -12884,6 +12884,7 @@ msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/xmp/xmpeditwidget.cpp:148
 #: core/dplugins/generic/metadata/timeadjust/timeadjustlist.cpp:48
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:49
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:616
 #, kde-format
 msgid "Status"
@@ -14018,6 +14019,156 @@ msgstr ""
 #: core/dplugins/generic/tools/calendar/wizard/calwizard.cpp:377
 #, kde-format
 msgid "Printing Complete"
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:106
+#: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:51
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgctxt "@title"
+msgid "DNG Converter"
+msgstr "रँग"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:114
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgctxt "@action:button"
+msgid "&Convert"
+msgstr "रँग"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:292
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:301
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgid "DNG Converter"
+msgstr "रँग"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:292
+#, kde-format
+msgid "The list does not contain any Raw files to process."
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:432
+#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:94
+#, kde-format
+msgid "&Abort"
+msgstr "छोड़ू (&A)"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:433
+#, kde-format
+msgid "Abort the conversion of Raw files."
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:437
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgid "Con&vert"
+msgstr "रँग"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:438
+#, kde-format
+msgid "Start converting the Raw images using the current settings."
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:462
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgid "Failed to save image"
+msgstr "फाइलक नाम"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:473
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgid "Failed to move sidecar"
+msgstr "फाइलक नाम"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:479
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgid "Failed to save image."
+msgstr "फाइलक नाम"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:486
+#, kde-format
+msgid "Success"
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:511
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Process failed"
+msgstr "कैलेंडर"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:517
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Process Canceled"
+msgstr "कैलेंडर"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:523
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "File not supported"
+msgstr "कैलेंडर"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:529
+#, fuzzy, kde-format
+#| msgid "Preview..."
+msgid "Internal error"
+msgstr "पूर्वावलोकन..."
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:555
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Processing %1"
+msgstr "कैलेंडर"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:46
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Raw File"
+msgstr "जमावट"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:47
+#, fuzzy, kde-format
+#| msgid "Target"
+msgid "Target File"
+msgstr "लक्ष्य"
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterlist.cpp:48
+#: core/utilities/advancedrename/parser/options/cameranameoption.cpp:43
+#: core/utilities/searchwindow/searchfields.cpp:378
+#: core/utilities/searchwindow/searchfields.cpp:409
+#, kde-format
+msgid "Camera"
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:66
+#, fuzzy, kde-format
+#| msgid "Preview..."
+msgctxt "@info"
+msgid "A tool to batch convert RAW camera images to DNG"
+msgstr "पूर्वावलोकन..."
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:71
+#, kde-format
+msgid ""
+"<p>This Generic tool can convert RAW images data to DNG format.</p><p>The "
+"Digital Negative is a lossless RAW image format created by Adobe.</p><p>See "
+"details about this format from <a href='https://en.wikipedia.org/wiki/"
+"Digital_Negative'>this page</a>.</p>"
+msgstr ""
+
+#: core/dplugins/generic/tools/dngconverter/dngconverterplugin.cpp:95
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgctxt "@action"
+msgid "DNG Converter..."
+msgstr "रँग"
+
+#: core/dplugins/generic/tools/dngconverter/dngconvertertask.cpp:120
+#, kde-format
+msgid "Cannot identify Raw image"
 msgstr ""
 
 #: core/dplugins/generic/tools/expoblending/blendingdlg/bracketstack.cpp:115
@@ -42699,11 +42850,6 @@ msgstr ""
 msgid "<b>Renaming images. Please wait...</b>"
 msgstr ""
 
-#: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:94
-#, kde-format
-msgid "&Abort"
-msgstr "छोड़ू (&A)"
-
 #: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:95
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:911
 #, kde-format
@@ -43008,13 +43154,6 @@ msgstr ""
 #: core/utilities/advancedrename/parser/modifiers/uniquemodifier.cpp:46
 #, kde-format
 msgid "Add a suffix number, ||n|| specifies the number of digits to use"
-msgstr ""
-
-#: core/utilities/advancedrename/parser/options/cameranameoption.cpp:43
-#: core/utilities/searchwindow/searchfields.cpp:378
-#: core/utilities/searchwindow/searchfields.cpp:409
-#, kde-format
-msgid "Camera"
 msgstr ""
 
 #: core/utilities/advancedrename/parser/options/cameranameoption.cpp:44
