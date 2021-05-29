@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-25 00:16+0000\n"
+"POT-Creation-Date: 2021-05-29 00:14+0000\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3804,7 +3804,7 @@ msgstr ""
 msgid "Failed to open %1"
 msgstr ""
 
-#: gui/openurljob.cpp:283 widgets/kdesktopfileactions.cpp:125
+#: gui/openurljob.cpp:283 widgets/kdesktopfileactions.cpp:124
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -3851,7 +3851,7 @@ msgid ""
 msgstr ""
 "<qt>उल्लेखित कमांड चलाबै मे अक्षम. फाइल अथवा फोल्डर<b>%1</b> अस्तित्व मे नहि अछि.</qt>"
 
-#: gui/openurljob.cpp:515 widgets/kdesktopfileactions.cpp:60
+#: gui/openurljob.cpp:515 widgets/kdesktopfileactions.cpp:59
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "डेस्कटाप प्रविष्टि फाइल %1 मे कोनो प्रकार=... प्रविष्टि दर्ज नहि अछि."
@@ -3868,12 +3868,12 @@ msgstr "फाइल नहि खोलि सकल"
 msgid "The program \"%1\" could not be launched."
 msgstr "निवेदित तालाबंद देल नहि जाए सकत. %1"
 
-#: ioslaves/file/file.cpp:170
+#: ioslaves/file/file.cpp:165
 #, kde-format
 msgid "Setting ACL for %1"
 msgstr " %1 क' लेल एसीएल सेट कएनाइ"
 
-#: ioslaves/file/file.cpp:710
+#: ioslaves/file/file.cpp:705
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -3882,37 +3882,27 @@ msgstr ""
 " %1 क' लेल \n"
 "अनुमतिसभ बदएल नहि सकल."
 
-#: ioslaves/file/file.cpp:812
-#, kde-format
-msgid "No Media inserted or Media not recognized."
-msgstr "कोनो मीडिया प्रविष्ट नहि कएल गेल अछि अथवा मीडिया केँ पहचानल नहि जाए सकल."
-
-#: ioslaves/file/file.cpp:821 ioslaves/file/file.cpp:1011
-#, kde-format
-msgid "\"vold\" is not running."
-msgstr "\"vold\" चलि नहि रहल अछि."
-
-#: ioslaves/file/file.cpp:852
-#, kde-format
-msgid "Could not find program \"mount\""
-msgstr "प्रोग्राम \"mount\" नहि भेटल"
-
-#: ioslaves/file/file.cpp:920
+#: ioslaves/file/file.cpp:786
 #, fuzzy, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "mounting is not supported by Windows CE."
 msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
 
-#: ioslaves/file/file.cpp:1022
+#: ioslaves/file/file.cpp:814
+#, kde-format
+msgid "Could not find program \"mount\""
+msgstr "प्रोग्राम \"mount\" नहि भेटल"
+
+#: ioslaves/file/file.cpp:878
+#, fuzzy, kde-format
+#| msgid "Writing to %1 is not supported."
+msgid "unmounting is not supported by Windows CE."
+msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
+
+#: ioslaves/file/file.cpp:893
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "प्रोग्राम \"umount\" नहि भेटल"
-
-#: ioslaves/file/file.cpp:1037
-#, fuzzy, kde-format
-#| msgid "Writing to %1 is not supported."
-msgid "unmounting is not supported by wince."
-msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
 
 #: ioslaves/file/file_unix.cpp:86
 #, fuzzy, kde-format
@@ -7029,7 +7019,7 @@ msgstr "तंत्र बिन्यास अद्यतन कएल ज�
 msgid "Updating system configuration."
 msgstr "तंत्र बिन्यास अद्यतन कएल जाए रहल अछि."
 
-#: widgets/kdesktopfileactions.cpp:76
+#: widgets/kdesktopfileactions.cpp:75
 #, kde-format
 msgid ""
 "The desktop entry of type\n"
@@ -7040,8 +7030,8 @@ msgstr ""
 "%1\n"
 " अनचिन्ह अछि."
 
-#: widgets/kdesktopfileactions.cpp:91 widgets/kdesktopfileactions.cpp:161
-#: widgets/kdesktopfileactions.cpp:274
+#: widgets/kdesktopfileactions.cpp:90 widgets/kdesktopfileactions.cpp:160
+#: widgets/kdesktopfileactions.cpp:264
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -7052,17 +7042,12 @@ msgstr ""
 "%1\n"
 " एफएस-डिवाइस प्रकार क' अछि पर कोनो Dev=... प्रविष्टि नहि अछि."
 
-#: widgets/kdesktopfileactions.cpp:175
+#: widgets/kdesktopfileactions.cpp:174
 #, kde-format
 msgid "Mount"
 msgstr "माउन्ट"
 
-#: widgets/kdesktopfileactions.cpp:186
-#, kde-format
-msgid "Eject"
-msgstr "बाहर निकालू"
-
-#: widgets/kdesktopfileactions.cpp:188
+#: widgets/kdesktopfileactions.cpp:180
 #, kde-format
 msgid "Unmount"
 msgstr "अनारोहित करू"
@@ -8881,6 +8866,20 @@ msgstr ""
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#~ msgid "No Media inserted or Media not recognized."
+#~ msgstr "कोनो मीडिया प्रविष्ट नहि कएल गेल अछि अथवा मीडिया केँ पहचानल नहि जाए सकल."
+
+#~ msgid "\"vold\" is not running."
+#~ msgstr "\"vold\" चलि नहि रहल अछि."
+
+#, fuzzy
+#~| msgid "Writing to %1 is not supported."
+#~ msgid "unmounting is not supported by wince."
+#~ msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
+
+#~ msgid "Eject"
+#~ msgstr "बाहर निकालू"
 
 #, fuzzy
 #~| msgid "Device name"
