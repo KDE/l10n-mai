@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calendarsupport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 13:54+0000\n"
+"POT-Creation-Date: 2021-05-30 01:41+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1771,32 +1771,32 @@ msgstr "अवरोहण क्रम"
 msgid "To-do list"
 msgstr ""
 
-#: printing/calprintdefaultplugins.cpp:1522
+#: printing/calprintdefaultplugins.cpp:1514
+#: printing/calprintpluginbase.cpp:2007
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: printing/calprintdefaultplugins.cpp:1524
 #, fuzzy, kde-format
 #| msgctxt "@title:column todo item priority"
 #| msgid "Priority"
 msgid "Priority"
 msgstr "प्राथमिकता"
 
-#: printing/calprintdefaultplugins.cpp:1529
+#: printing/calprintdefaultplugins.cpp:1533
 #, kde-format
-msgctxt "@label to-do summary"
-msgid "Title"
-msgstr "शीर्षक"
+msgctxt "@label to-do due date"
+msgid "Due"
+msgstr "देय"
 
-#: printing/calprintdefaultplugins.cpp:1537
+#: printing/calprintdefaultplugins.cpp:1544
 #, fuzzy, kde-format
 #| msgctxt "@title:column todo item completion in percent"
 #| msgid "Complete"
 msgctxt "@label to-do percentage complete"
 msgid "Complete"
 msgstr "पूर्ण"
-
-#: printing/calprintdefaultplugins.cpp:1545
-#, kde-format
-msgctxt "@label to-do due date"
-msgid "Due"
-msgstr "देय"
 
 #: printing/calprintdefaultplugins.h:37
 #, kde-format
@@ -2319,29 +2319,24 @@ msgstr ""
 msgid "To-do: %1"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:2007
-#, kde-format
-msgid "%1%"
-msgstr "%1%"
-
-#: printing/calprintpluginbase.cpp:2145
+#: printing/calprintpluginbase.cpp:2142
 #, kde-format
 msgctxt "Description - date"
 msgid "%1 - %2"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:2164
+#: printing/calprintpluginbase.cpp:2161
 #, kde-format
 msgid "Person: %1"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:2185
+#: printing/calprintpluginbase.cpp:2182
 #, kde-format
 msgctxt "Date range: Month dayStart - dayEnd"
 msgid "%1 %2 - %3"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:2191
+#: printing/calprintpluginbase.cpp:2188
 #, kde-format
 msgctxt "Date range: monthStart dayStart - monthEnd dayEnd"
 msgid "%1 %2 - %3 %4"
@@ -2942,6 +2937,10 @@ msgstr ""
 msgctxt "replace pattern for holidayname (countrycode)"
 msgid "^%1 \\(.*\\)"
 msgstr ""
+
+#~ msgctxt "@label to-do summary"
+#~ msgid "Title"
+#~ msgstr "शीर्षक"
 
 #~ msgctxt "@title:column, calendar event summary"
 #~ msgid "Summary"
