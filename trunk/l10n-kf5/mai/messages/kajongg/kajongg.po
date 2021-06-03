@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kajongg\n"
 "Report-Msgid-Bugs-To: wolfgang@rohdewald.de\n"
-"POT-Creation-Date: 2021-03-28 16:07+0000\n"
+"POT-Creation-Date: 2021-06-03 00:15+0000\n"
 "PO-Revision-Date: 2010-09-24 16:38+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -167,6 +167,9 @@ msgid "Rule"
 msgstr "लाइन"
 
 #: src/differ.py:130
+#, fuzzy
+#| msgid "Compare"
+msgctxt "@title:window"
 msgid "Compare"
 msgstr "तुलना करू"
 
@@ -194,11 +197,6 @@ msgstr "खेलाड़ी"
 #: src/games.py:101
 msgid "Started"
 msgstr "आरंभ कएलक"
-
-#: src/games.py:112
-msgctxt "kajongg"
-msgid "Games"
-msgstr "खेल"
 
 #: src/games.py:129
 #, fuzzy
@@ -364,7 +362,7 @@ msgid "Configure toolbars"
 msgstr ""
 
 #: src/kdestub.py:488
-msgid "Configure &Kajongg"
+msgid "Configure &Kajongg..."
 msgstr ""
 
 #: src/kdestub.py:490 src/kdestub.py:1258
@@ -526,6 +524,7 @@ msgid "Ruleset:"
 msgstr ""
 
 #: src/login.py:406
+msgctxt "@title:window"
 msgid "Create User Account"
 msgstr ""
 
@@ -1804,6 +1803,7 @@ msgid "%1: %2 is too small, minimal value is %3"
 msgstr ""
 
 #: src/rulesetselector.py:496
+msgctxt "@title:window"
 msgid "Customize rulesets"
 msgstr ""
 
@@ -1838,6 +1838,7 @@ msgid "Do you really want to abort this game?"
 msgstr ""
 
 #: src/scoring.py:53
+msgctxt "@title:window"
 msgid "Swap Seats"
 msgstr ""
 
@@ -1854,6 +1855,7 @@ msgid "&Keep seat"
 msgstr ""
 
 #: src/scoring.py:70
+msgctxt "@title:window"
 msgid "Select four players"
 msgstr ""
 
@@ -1914,8 +1916,12 @@ msgid "Scores for game <numid>%1</numid>"
 msgstr ""
 
 #: src/scoringdialog.py:575
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "Scores"
+msgctxt "@title:window"
 msgid "Explain Scores"
-msgstr ""
+msgstr "अंक"
 
 #: src/scoringdialog.py:591
 msgid "There is no active game"
@@ -1960,6 +1966,7 @@ msgid "gets %1 points"
 msgstr "बिंदु"
 
 #: src/scoringdialog.py:811
+msgctxt "@title:window"
 msgid "Scoring for this Hand"
 msgstr ""
 
@@ -2318,6 +2325,10 @@ msgstr ""
 #: src/user.py:105
 msgid "Your client has version %1 but you need %2 for this server"
 msgstr ""
+
+#~ msgctxt "kajongg"
+#~ msgid "Games"
+#~ msgstr "खेल"
 
 #, fuzzy
 #~| msgid "&Copy"
