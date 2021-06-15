@@ -22,7 +22,7 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 
 #. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
-#: fonthelpers.cpp:16
+#: fonthelpers_p.h:22
 #, fuzzy
 #| msgctxt "@item Font name"
 #| msgid "Sans Serif"
@@ -31,7 +31,7 @@ msgid "Sans Serif"
 msgstr "सन्स सेरिफ"
 
 #. Generic serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
-#: fonthelpers.cpp:19
+#: fonthelpers_p.h:25
 #, fuzzy
 #| msgctxt "@item Font name"
 #| msgid "Serif"
@@ -40,7 +40,7 @@ msgid "Serif"
 msgstr "सेरिफ"
 
 #. Generic monospace font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
-#: fonthelpers.cpp:22
+#: fonthelpers_p.h:28
 #, fuzzy
 #| msgctxt "@item Font name"
 #| msgid "Monospace"
@@ -48,7 +48,7 @@ msgctxt "FontHelpers|@item Font name"
 msgid "Monospace"
 msgstr "मोनोस्पेस"
 
-#: fonthelpers.cpp:65
+#: fonthelpers_p.h:89
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
@@ -56,7 +56,7 @@ msgctxt "FontHelpers|@item Font name"
 msgid "%1"
 msgstr "%1"
 
-#: fonthelpers.cpp:69
+#: fonthelpers_p.h:93
 #, fuzzy, qt-format
 #| msgctxt "dictionary name. %1-language and %2-variant name"
 #| msgid "%1 [%2]"
@@ -2385,14 +2385,14 @@ msgctxt "KEditListWidget|@action:button"
 msgid "Move &Down"
 msgstr "नीच्चाँ जाउ (&D)"
 
-#: kfontchooser.cpp:169
+#: kfontchooser.cpp:161
 #, fuzzy
 #| msgid "Requested Font"
 msgctxt "KFontChooser|@title:group"
 msgid "Requested Font"
 msgstr "निवेदित फोन्ट "
 
-#: kfontchooser.cpp:183
+#: kfontchooser.cpp:175
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font"
@@ -2400,7 +2400,7 @@ msgctxt "KFontChooser|@option:check"
 msgid "Font"
 msgstr "फौन्ट"
 
-#: kfontchooser.cpp:188
+#: kfontchooser.cpp:180
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font:"
@@ -2408,7 +2408,7 @@ msgctxt "KFontChooser|@label"
 msgid "Font:"
 msgstr "फोन्ट:"
 
-#: kfontchooser.cpp:220
+#: kfontchooser.cpp:212
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Font style"
@@ -2416,14 +2416,14 @@ msgctxt "KFontChooser|@option:check"
 msgid "Font style"
 msgstr "फाँट शैली"
 
-#: kfontchooser.cpp:225
+#: kfontchooser.cpp:217
 #, fuzzy
 #| msgid "Font style:"
 msgctxt "KFontChooser|@label"
 msgid "Font style:"
 msgstr "फोन्ट शैली"
 
-#: kfontchooser.cpp:238
+#: kfontchooser.cpp:230
 #, fuzzy
 #| msgctxt "normal severity"
 #| msgid "Normal"
@@ -2431,7 +2431,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Normal"
 msgstr "सामान्य"
 
-#: kfontchooser.cpp:239 kfontchooser.cpp:587
+#: kfontchooser.cpp:231 kfontchooser.cpp:579
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Italic"
@@ -2439,7 +2439,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Italic"
 msgstr "तिरछा"
 
-#: kfontchooser.cpp:240 kfontchooser.cpp:588
+#: kfontchooser.cpp:232 kfontchooser.cpp:580
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Oblique"
@@ -2447,7 +2447,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Oblique"
 msgstr "तिर्यक"
 
-#: kfontchooser.cpp:241
+#: kfontchooser.cpp:233
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold"
@@ -2455,7 +2455,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold"
 msgstr "मोट"
 
-#: kfontchooser.cpp:242
+#: kfontchooser.cpp:234
 #, fuzzy
 #| msgctxt "@item font"
 #| msgid "Bold Italic"
@@ -2463,7 +2463,7 @@ msgctxt "KFontChooser|@item font"
 msgid "Bold Italic"
 msgstr "बोल्ड तिरछा"
 
-#: kfontchooser.cpp:259
+#: kfontchooser.cpp:251
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Size"
@@ -2471,7 +2471,7 @@ msgctxt "KFontChooser|@option:check"
 msgid "Size"
 msgstr "आकार"
 
-#: kfontchooser.cpp:264
+#: kfontchooser.cpp:256
 #, fuzzy
 #| msgctxt "@label:listbox Font size"
 #| msgid "Size:"
@@ -2479,7 +2479,7 @@ msgctxt "KFontChooser|@label:listbox Font size"
 msgid "Size:"
 msgstr "आकार:"
 
-#: kfontchooser.cpp:281
+#: kfontchooser.cpp:273
 #, fuzzy
 #| msgctxt "@item font size"
 #| msgid "Relative"
@@ -2487,14 +2487,14 @@ msgctxt "KFontChooser|@item font size"
 msgid "Relative"
 msgstr "सापेक्ष"
 
-#: kfontchooser.cpp:282
+#: kfontchooser.cpp:274
 #, fuzzy
 #| msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgctxt "KFontChooser|@info:tooltip"
 msgid "Font size<br /><i>fixed</i> or <i>relative</i><br />to environment"
 msgstr "फोन्ट आकार<br /><i>स्थिर</i> अथवा <i>सापेक्षिक</i><br />वातावरण से"
 
-#: kfontchooser.cpp:283
+#: kfontchooser.cpp:275
 #, fuzzy
 #| msgid ""
 #| "Here you can switch between fixed font size and font size to be "
@@ -2509,14 +2509,14 @@ msgstr ""
 "एतए अहाँ स्थिर फोन्ट आकार आओर बदलते वातावरण (जहिना विजेट आकार, पृष्ठ आकार इत्यादि) "
 "केर अनुसार गतिशीलता सँ गणन कएल गेल फोन्ट आकार मे अदला-बदली कए सकैत छी. "
 
-#: kfontchooser.cpp:339
+#: kfontchooser.cpp:331
 #, fuzzy
 #| msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgctxt "KFontChooser|"
 msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
 msgstr "सारे जहाँ सँ अच्छा हिंदोस्ताँ हमारा"
 
-#: kfontchooser.cpp:341
+#: kfontchooser.cpp:333
 #, fuzzy
 #| msgid ""
 #| "This sample text illustrates the current settings. You may edit it to "
@@ -2529,12 +2529,12 @@ msgstr ""
 "ई पाठ नमूना अहाँक मोजुदा बिन्यास (सेटिंग) केँ स्पस्ट करैत अछि. विशिष्ट अक्षर केँ परीक्षित "
 "करने क' लेल एकरा अहाँ संपादित कए सकैत छी."
 
-#: kfontchooser.cpp:356
+#: kfontchooser.cpp:348
 msgctxt "KFontChooser|@option:check"
 msgid "Show only monospaced fonts"
 msgstr ""
 
-#: kfontchooser.cpp:572
+#: kfontchooser.cpp:564
 #, fuzzy, qt-format
 #| msgctxt "@application/plain"
 #| msgid "%1"
