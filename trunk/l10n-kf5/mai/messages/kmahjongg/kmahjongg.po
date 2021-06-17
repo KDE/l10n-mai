@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-27 00:16+0000\n"
+"POT-Creation-Date: 2021-06-17 00:14+0000\n"
 "PO-Revision-Date: 2010-09-24 16:40+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -31,6 +31,7 @@ msgstr "sangeeta09@gmail.com"
 
 #: src/editor.cpp:70
 #, kde-format
+msgctxt "@title:window"
 msgid "Edit Board Layout"
 msgstr ""
 
@@ -276,8 +277,10 @@ msgstr ""
 msgid "Time: "
 msgstr "समय:"
 
-#: src/kmahjongg.cpp:230 src/kmahjongg.cpp:396
-#, kde-format
+#: src/kmahjongg.cpp:230
+#, fuzzy, kde-format
+#| msgid "New Game"
+msgctxt "@title:window"
 msgid "New Game"
 msgstr "नवीन खेल "
 
@@ -306,6 +309,11 @@ msgstr ""
 msgid "Game Over"
 msgstr ""
 
+#: src/kmahjongg.cpp:396
+#, kde-format
+msgid "New Game"
+msgstr "नवीन खेल "
+
 #: src/kmahjongg.cpp:397
 #, kde-format
 msgid "Restart"
@@ -327,9 +335,11 @@ msgid "Removed: %1/%2  Combinations left: %3"
 msgstr ""
 
 #: src/kmahjongg.cpp:588
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Game"
+msgctxt "@title:window"
 msgid "Load Game"
-msgstr ""
+msgstr "नवीन खेल "
 
 #: src/kmahjongg.cpp:588 src/kmahjongg.cpp:663
 #, kde-format
@@ -354,6 +364,7 @@ msgstr ""
 #: src/kmahjongg.cpp:663
 #, fuzzy, kde-format
 #| msgid "New Game"
+msgctxt "@title:window"
 msgid "Save Game"
 msgstr "नवीन खेल "
 
