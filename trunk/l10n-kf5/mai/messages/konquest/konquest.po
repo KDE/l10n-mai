@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konquest\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-01 02:18+0100\n"
+"POT-Creation-Date: 2021-08-08 00:14+0000\n"
 "PO-Revision-Date: 2010-09-24 16:41+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -31,6 +31,7 @@ msgstr "sangeeta09@gmail.com"
 
 #: dialogs/fleetdlg.cc:33
 #, kde-format
+msgctxt "@title:window"
 msgid "Fleet Overview"
 msgstr ""
 
@@ -118,7 +119,8 @@ msgid "&Height:"
 msgstr "उँचाइ (&H):"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: dialogs/newGameDialog.ui:153
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/newGameDialog.ui:153 dialogs/newGameDialog.ui:287
 #, kde-format
 msgid "Production:"
 msgstr ""
@@ -126,7 +128,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: dialogs/newGameDialog.ui:192
 #, kde-format
-msgid "Kill Percentage:"
+msgid "Kill percentage:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, randomizeMap)
@@ -137,8 +139,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/newGameDialog.ui:209
-#, kde-format
-msgid "Owner"
+#, fuzzy, kde-format
+#| msgid "Owner"
+msgid "Owner:"
 msgstr "मालिक"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -150,19 +153,19 @@ msgstr "विकल्प"
 #. i18n: ectx: property (text), widget (QCheckBox, BlindMapCB)
 #: dialogs/newGameDialog.ui:234
 #, kde-format
-msgid "Blind Map"
+msgid "Blind map"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, CumulativeProductionCB)
 #: dialogs/newGameDialog.ui:241
 #, kde-format
-msgid "Cumulative Production"
+msgid "Cumulative production"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ProductionAfterConquereCB)
 #: dialogs/newGameDialog.ui:248
 #, kde-format
-msgid "Production After Capture"
+msgid "Production after capture"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
@@ -174,19 +177,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, NeutralsShowShipsCB)
 #: dialogs/newGameDialog.ui:273
 #, kde-format
-msgid "Show Ships"
+msgid "Show ships"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, NeutralsShowStatsCB)
 #: dialogs/newGameDialog.ui:280
 #, kde-format
-msgid "Show Stats"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: dialogs/newGameDialog.ui:287
-#, kde-format
-msgid "Production"
+msgid "Show stats"
 msgstr ""
 
 #: dialogs/newgamedlg.cc:80
@@ -208,6 +205,7 @@ msgstr "प्रकार"
 
 #: dialogs/newgamedlg.cc:315
 #, kde-format
+msgctxt "@title:window"
 msgid "Start New Game"
 msgstr ""
 
@@ -296,12 +294,15 @@ msgid "Do you wish to retire this game?"
 msgstr ""
 
 #: gameview.cc:524
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "End Game"
+msgctxt "@title:window"
 msgid "End Game"
 msgstr "खेल क' अंत करू"
 
 #: gameview.cc:552
 #, kde-format
+msgctxt "@title:window"
 msgid "Final Standings"
 msgstr ""
 
@@ -393,19 +394,25 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
-#: mainwin.cc:33 mainwin.cc:40
+#: mainwin.cc:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Galactic Conquest"
+msgstr ""
+
+#: mainwin.cc:40
 #, kde-format
 msgid "Galactic Conquest"
 msgstr ""
 
 #: mainwin.cc:74
 #, kde-format
-msgid "&Measure Distance"
+msgid "&Measure Distance..."
 msgstr ""
 
 #: mainwin.cc:80
 #, kde-format
-msgid "&Fleet Overview"
+msgid "&Fleet Overview..."
 msgstr ""
 
 #: mainwin.cc:89
