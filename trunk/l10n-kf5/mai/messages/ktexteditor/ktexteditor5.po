@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:14+0000\n"
+"POT-Creation-Date: 2021-08-16 00:14+0000\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -143,7 +143,7 @@ msgstr "स्थिर शब्द रैप"
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
 #: data/katepart5ui.rc:75 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:684
+#: dialogs/katedialogs.cpp:678
 #, kde-format
 msgid "Borders"
 msgstr "किनार"
@@ -361,7 +361,7 @@ msgid "Scro&llbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:688
+#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:682
 #, kde-format
 msgid "Always On"
 msgstr "हमेशा चालू"
@@ -425,7 +425,7 @@ msgstr "स्थिति द्वारा (&p)"
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
 #: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:545
-#: dialogs/katedialogs.cpp:680 dialogs/katedialogs.cpp:892
+#: dialogs/katedialogs.cpp:674 dialogs/katedialogs.cpp:894
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -1028,33 +1028,27 @@ msgstr "संपादन"
 msgid "Editing Options"
 msgstr "संपादन विकल्प"
 
-#: dialogs/katedialogs.cpp:676
-#, kde-format
-msgid "Font"
-msgstr "फौन्ट"
-
-#: dialogs/katedialogs.cpp:686
+#: dialogs/katedialogs.cpp:680
 #, kde-format
 msgid "Off"
 msgstr "बन्न"
 
-#: dialogs/katedialogs.cpp:687
+#: dialogs/katedialogs.cpp:681
 #, kde-format
 msgid "Follow Line Numbers"
 msgstr "पंक्ति क्रमांक अनुसरण करू"
 
-#: dialogs/katedialogs.cpp:825 dialogs/katedialogs.cpp:830
+#: dialogs/katedialogs.cpp:827 dialogs/katedialogs.cpp:832
 #, kde-format
 msgid "Appearance"
 msgstr "प्रकटन"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:893 dialogs/textareaappearanceconfigwidget.ui:243
+#: dialogs/katedialogs.cpp:895
 #, kde-format
 msgid "Advanced"
 msgstr "उन्नत"
 
-#: dialogs/katedialogs.cpp:958
+#: dialogs/katedialogs.cpp:960
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
@@ -1062,133 +1056,133 @@ msgstr ""
 "अहाँ कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि देने छी. मूलभूत उपसर्ग इस्तेमाल कएल जाए रहल अछि. "
 "'~'"
 
-#: dialogs/katedialogs.cpp:958
+#: dialogs/katedialogs.cpp:960
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "कोनो बैकअप प्रत्यय अथवा उपसर्ग नहि"
 
-#: dialogs/katedialogs.cpp:1080
+#: dialogs/katedialogs.cpp:1082
 #, kde-format
 msgid "Open/Save"
 msgstr "खोलू/सहेजू"
 
-#: dialogs/katedialogs.cpp:1085
+#: dialogs/katedialogs.cpp:1087
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "फाइल खोलनाइ आ सहेजनाइ"
 
-#: dialogs/katedialogs.cpp:1108
+#: dialogs/katedialogs.cpp:1110
 #, kde-format
 msgid "&Line:"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1109
+#: dialogs/katedialogs.cpp:1111
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1120
+#: dialogs/katedialogs.cpp:1122
 #, kde-format
 msgid "Go to"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1196
+#: dialogs/katedialogs.cpp:1198
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1260
+#: dialogs/katedialogs.cpp:1262
 #, fuzzy, kde-format
 #| msgid "&Section:"
 msgid "Dictionary:"
 msgstr "खण्ड: (&S)"
 
-#: dialogs/katedialogs.cpp:1312
+#: dialogs/katedialogs.cpp:1314
 #, fuzzy, kde-format
 #| msgid "Auto Completion"
 msgid "Enable Auto Reload"
 msgstr "स्वतः पूर्णता"
 
-#: dialogs/katedialogs.cpp:1314
+#: dialogs/katedialogs.cpp:1316
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1319
+#: dialogs/katedialogs.cpp:1321
 #, fuzzy, kde-format
 #| msgid "&View Difference"
 msgid "View &Difference"
 msgstr "भिन्नता देखू (&V)"
 
-#: dialogs/katedialogs.cpp:1321
+#: dialogs/katedialogs.cpp:1323
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1326
+#: dialogs/katedialogs.cpp:1328
 #, fuzzy, kde-format
 #| msgid "Reloa&d"
 msgid "&Reload"
 msgstr "फिनु सँ लोड करू (&d)"
 
-#: dialogs/katedialogs.cpp:1328
+#: dialogs/katedialogs.cpp:1330
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1332
+#: dialogs/katedialogs.cpp:1334
 #, fuzzy, kde-format
 #| msgid "&Reload File"
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "फाइल फिनु सँ लोड करू (&R)"
 
-#: dialogs/katedialogs.cpp:1334
+#: dialogs/katedialogs.cpp:1336
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1338
+#: dialogs/katedialogs.cpp:1340
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Save As..."
 msgstr "फाइल एहिना सहेजू... (&S)"
 
-#: dialogs/katedialogs.cpp:1340
+#: dialogs/katedialogs.cpp:1342
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "अहाँक एकटा स्थान चुनू आओर फाइलकेँ फिनु सँ सहेजू"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1345 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1347 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "अनदेखा करू (&I)"
 
-#: dialogs/katedialogs.cpp:1346
+#: dialogs/katedialogs.cpp:1348
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1412 swapfile/kateswapdiffcreator.cpp:122
+#: dialogs/katedialogs.cpp:1414 swapfile/kateswapdiffcreator.cpp:122
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1414 swapfile/kateswapdiffcreator.cpp:90
+#: dialogs/katedialogs.cpp:1416 swapfile/kateswapdiffcreator.cpp:90
 #: swapfile/kateswapdiffcreator.cpp:124
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "डिफ बनाबै मे त्रुटि"
 
-#: dialogs/katedialogs.cpp:1421 swapfile/kateswapdiffcreator.cpp:131
+#: dialogs/katedialogs.cpp:1423 swapfile/kateswapdiffcreator.cpp:131
 #, kde-format
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1421 swapfile/kateswapdiffcreator.cpp:131
+#: dialogs/katedialogs.cpp:1423 swapfile/kateswapdiffcreator.cpp:131
 #, kde-format
 msgid "Diff Output"
 msgstr "डिफ आउटपुट"
@@ -1262,7 +1256,7 @@ msgstr ""
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbDynamicWordWrapDepth)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbAutoCenterCursor)
 #: dialogs/navigationconfigwidget.ui:92 dialogs/opensaveconfigadvwidget.ui:163
-#: dialogs/textareaappearanceconfigwidget.ui:118
+#: dialogs/textareaappearanceconfigwidget.ui:346
 #, kde-format
 msgid "Disabled"
 msgstr "अक्षम"
@@ -1604,7 +1598,9 @@ msgid "Re&move trailing spaces:"
 msgstr "ट्रेलिंग स्पेसेस हटाबू (&m)"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbRemoveTrailingSpaces)
+#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
 #: dialogs/opensaveconfigwidget.ui:176
+#: dialogs/textareaappearanceconfigwidget.ui:72
 #, fuzzy, kde-format
 #| msgid "Reverse"
 msgid "Never"
@@ -1638,54 +1634,223 @@ msgstr ""
 msgid "Append newline at end of file on save"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/textareaappearanceconfigwidget.ui:28
+#, fuzzy, kde-format
+#| msgid "Editor Plugins"
+msgid "Editor font:"
+msgstr "इतिहास प्लगइन"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/textareaappearanceconfigwidget.ui:64
+#, fuzzy, kde-format
+#| msgid "Ignore white space changes"
+msgid "Show whitespace indicators:"
+msgstr "श्वेतस्थान मे परिवर्तन केँ नजरअंदाज़ करू"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
+#: dialogs/textareaappearanceconfigwidget.ui:77
+#, fuzzy, kde-format
+#| msgid "Select to End of Line"
+msgid "At the end of a line"
+msgstr "पंक्तिक अंत चुनू"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
+#: dialogs/textareaappearanceconfigwidget.ui:82
+#, kde-format
+msgid "Always"
+msgstr "हरदम"
+
+#. i18n: ectx: property (text), widget (QLabel, lbMarkerDescription)
+#: dialogs/textareaappearanceconfigwidget.ui:90
+#, fuzzy, kde-format
+#| msgid "&Highlighting"
+msgid "Whitespace indicator size:"
+msgstr "आलोकित करू (&H)"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, sliSetMarkerSize)
+#: dialogs/textareaappearanceconfigwidget.ui:103
+#, kde-format
+msgid "Size of the visible highlight marker."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/textareaappearanceconfigwidget.ui:128
+#, fuzzy, kde-format
+#| msgid "Show Folding &Markers"
+msgid "Show tab indicators:"
+msgstr "फोल्डिंग निशान देखाबू (जँ लागू अछि) (&M)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowTabs)
+#: dialogs/textareaappearanceconfigwidget.ui:135
 #, kde-format
 msgid ""
-"If this option is checked, the text lines will be wrapped at the view border "
-"on the screen."
-msgstr "जँ ई विकल्प चुनल जाइत अछि. पाठ पंक्तिसभ स्क्रीन केर दृश्य किनार पर रैप हाएत."
+"The editor will display a symbol to indicate the presence of a tab in the "
+"text."
+msgstr "संपादक एकटा चिह्न देखाएत जे पाठ मे टैब उपस्थित अछि"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:20 view/kateview.cpp:709
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/textareaappearanceconfigwidget.ui:161
+#, fuzzy, kde-format
+#| msgid "Bracket highlight:"
+msgid "Bracket matching:"
+msgstr "कोष्ठक आलोकित करू:"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowWholeBracketExpression)
+#: dialogs/textareaappearanceconfigwidget.ui:168
 #, kde-format
-msgid "&Dynamic Word Wrap"
-msgstr "गतिशील वर्ड रैप (&D)"
+msgid ""
+"If this is enabled, the range between the selected matching brackets will be "
+"highlighted."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowWholeBracketExpression)
+#: dialogs/textareaappearanceconfigwidget.ui:171
+#, kde-format
+msgid "Highlight range between selected brackets"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowBracketMatchPreview)
+#: dialogs/textareaappearanceconfigwidget.ui:178
+#, kde-format
+msgid "Show the matching open bracket and lines adjacent to it for context"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowBracketMatchPreview)
+#: dialogs/textareaappearanceconfigwidget.ui:181
+#, kde-format
+msgid ""
+"If this is enabled, a preview of the lines near a matching open bracket is "
+"shown. This can help in quickly determining the context of a closing "
+"bracket, especially in long function/class declarations and deeply nested if "
+"blocks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowBracketMatchPreview)
+#: dialogs/textareaappearanceconfigwidget.ui:184
+#, fuzzy, kde-format
+#| msgid "Print the current document."
+msgid "Show preview of matching open bracket"
+msgstr "मोजुदा दस्ताबेज छापू"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkAnimateBracketMatching)
+#: dialogs/textareaappearanceconfigwidget.ui:191
+#, fuzzy, kde-format
+#| msgid "Select to Matching Bracket"
+msgid "Flash matching brackets"
+msgstr "मैचिंग कोष्ठक चुनू"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAnimateBracketMatching)
+#: dialogs/textareaappearanceconfigwidget.ui:194
+#, kde-format
+msgid ""
+"If this is enabled, matching brackets are animated for better visibility."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkAnimateBracketMatching)
+#: dialogs/textareaappearanceconfigwidget.ui:197
+#, kde-format
+msgid "Flash matching bracket when cursor moves to other bracket in pair"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowIndentationLines)
+#: dialogs/textareaappearanceconfigwidget.ui:204
+#, kde-format
+msgid ""
+"If this is enabled, the editor will display vertical lines to help identify "
+"indent lines."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowIndentationLines)
+#: dialogs/textareaappearanceconfigwidget.ui:207
+#, kde-format
+msgid "Show i&ndentation lines"
+msgstr "हाशियाक पंक्तिक देखाबू (&n)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/textareaappearanceconfigwidget.ui:230
+#, kde-format
+msgid "Counts:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowWordCount)
+#: dialogs/textareaappearanceconfigwidget.ui:237
+#, kde-format
+msgid "Show/hide word count in status bar"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
+#: dialogs/textareaappearanceconfigwidget.ui:240
+#, fuzzy, kde-format
+#| msgid "Not word boundary"
+msgid "Show word count"
+msgstr "नॉट शब्द सीमा"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowLineCount)
+#: dialogs/textareaappearanceconfigwidget.ui:247
+#, kde-format
+msgid "Show/hide line count in status bar"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
+#: dialogs/textareaappearanceconfigwidget.ui:250
+#, fuzzy, kde-format
+#| msgid "Show &Line Numbers"
+msgid "Show line count"
+msgstr "पंक्ति क्रमांक देखाबू (&L)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkFoldFirstLine)
+#: dialogs/textareaappearanceconfigwidget.ui:260
+#, kde-format
+msgid ""
+"When this setting is enabled, the editor view automatically folds\n"
+"comment blocks that start on the first line of the document. This is\n"
+"helpful to hide license headers which are commonly placed at the\n"
+"beginning of a file."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkFoldFirstLine)
+#: dialogs/textareaappearanceconfigwidget.ui:263
+#, fuzzy, kde-format
+#| msgid "End of line"
+msgid "Fold first line"
+msgstr "पंक्ति क' अंत"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAtStaticMarker)
-#: dialogs/textareaappearanceconfigwidget.ui:29
+#: dialogs/textareaappearanceconfigwidget.ui:299
 #, fuzzy, kde-format
 #| msgid "Enable static &word wrap"
-msgid "Wrap dynamic at static word wrap marker"
+msgid "Wrap dynamically at static word wrap marker"
 msgstr "स्थिर शब्द रैप सक्षम करू (&w)"
 
+#. i18n: ectx: property (text), widget (QCheckBox, cbxWordWrap)
+#: dialogs/textareaappearanceconfigwidget.ui:306
+#, fuzzy, kde-format
+#| msgid "&Dynamic Word Wrap"
+msgid "Dynamic Word Wrap:"
+msgstr "गतिशील वर्ड रैप (&D)"
+
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAnywhere)
-#: dialogs/textareaappearanceconfigwidget.ui:36
+#: dialogs/textareaappearanceconfigwidget.ui:313
 #, kde-format
 msgid "Disregard word boundaries for dynamic wrapping"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
-#: dialogs/textareaappearanceconfigwidget.ui:65
-#, fuzzy, kde-format
-#| msgid "Dynamic &word wrap indicators (if applicable):"
-msgid "D&ynamic word wrap indicators (if applicable):"
-msgstr "गतिशील पाठ लपेट सूचक (जँ लागू अछि): (&w)"
-
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbDynamicWordWrapIndicator)
-#: dialogs/textareaappearanceconfigwidget.ui:75
+#: dialogs/textareaappearanceconfigwidget.ui:320
 #, kde-format
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed."
 msgstr "चुनू जे कखन गतिशील पाठ लपेट सूचक देखाइ देत अछि"
 
-#. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators_2)
-#: dialogs/textareaappearanceconfigwidget.ui:99
-#, kde-format
-msgid "&Align dynamically wrapped lines to indentation depth:"
-msgstr ""
+#. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
+#: dialogs/textareaappearanceconfigwidget.ui:327
+#, fuzzy, kde-format
+#| msgid "Dynamic Word Wrap Indicators"
+msgid "D&ynamic word wrap indicators:"
+msgstr "गतिशील वर्ड रैप सूचकसभ (जँ लागू अछि)"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbDynamicWordWrapDepth)
-#: dialogs/textareaappearanceconfigwidget.ui:115
+#: dialogs/textareaappearanceconfigwidget.ui:343
 #, no-c-format, kde-format
 msgid ""
 "<p>Enables the start of dynamically wrapped lines to be aligned vertically "
@@ -1698,187 +1863,16 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbDynamicWordWrapDepth)
-#: dialogs/textareaappearanceconfigwidget.ui:121
+#: dialogs/textareaappearanceconfigwidget.ui:349
 #, no-c-format, kde-format
 msgid "% of View Width"
 msgstr "% दृश्य चओड़ाइ कए"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbWhitespaceHighlighting)
-#: dialogs/textareaappearanceconfigwidget.ui:156
-#, fuzzy, kde-format
-#| msgid "&Highlighting"
-msgid "Whitespace Highlighting"
-msgstr "आलोकित करू (&H)"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/textareaappearanceconfigwidget.ui:163
-#: syntax/katehighlightmenu.cpp:38
-#, fuzzy, kde-format
-#| msgctxt "Autoindent mode"
-#| msgid "None"
-msgid "None"
-msgstr "किछु नहि"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/textareaappearanceconfigwidget.ui:168
+#. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators_2)
+#: dialogs/textareaappearanceconfigwidget.ui:362
 #, kde-format
-msgid "Trailing"
+msgid "&Align dynamically wrapped lines to indentation depth:"
 msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/textareaappearanceconfigwidget.ui:173
-#, kde-format
-msgid "All"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lbMarkerDescription)
-#: dialogs/textareaappearanceconfigwidget.ui:187
-#, fuzzy, kde-format
-#| msgid "Highlighting for Ferite"
-msgid "Highlight marker size:"
-msgstr "फेराइट क' लेल आलोकित करू"
-
-#. i18n: ectx: property (whatsThis), widget (QSlider, sliSetMarkerSize)
-#: dialogs/textareaappearanceconfigwidget.ui:197
-#, kde-format
-msgid "Size of the visible highlight marker."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/textareaappearanceconfigwidget.ui:216
-#, fuzzy, kde-format
-#| msgid "&Replace"
-msgid "Whitespaces"
-msgstr "बदलू (R)"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowTabs)
-#: dialogs/textareaappearanceconfigwidget.ui:223
-#, kde-format
-msgid ""
-"The editor will display a symbol to indicate the presence of a tab in the "
-"text."
-msgstr "संपादक एकटा चिह्न देखाएत जे पाठ मे टैब उपस्थित अछि"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/textareaappearanceconfigwidget.ui:233
-#, fuzzy, kde-format
-#| msgid "&Highlight tabulators"
-msgid "Highlight tabulators"
-msgstr "टेबुलेटर आलोकित करू (&H)"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:249
-#, kde-format
-msgid ""
-"If this is enabled, the editor will display vertical lines to help identify "
-"indent lines."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:252
-#, kde-format
-msgid "Show i&ndentation lines"
-msgstr "हाशियाक पंक्तिक देखाबू (&n)"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:259
-#, kde-format
-msgid ""
-"If this is enabled, the range between the selected matching brackets will be "
-"highlighted."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:262
-#, kde-format
-msgid "Highlight range between selected brackets"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowBracketMatchPreview)
-#: dialogs/textareaappearanceconfigwidget.ui:269
-#, kde-format
-msgid "Show the matching open bracket and lines adjacent to it for context"
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowBracketMatchPreview)
-#: dialogs/textareaappearanceconfigwidget.ui:272
-#, kde-format
-msgid ""
-"If this is enabled, a preview of the lines near a matching open bracket is "
-"shown. This can help in quickly determining the context of a closing "
-"bracket, especially in long function/class declarations and deeply nested if "
-"blocks"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowBracketMatchPreview)
-#: dialogs/textareaappearanceconfigwidget.ui:275
-#, fuzzy, kde-format
-#| msgid "Print the current document."
-msgid "Show preview of matching open bracket"
-msgstr "मोजुदा दस्ताबेज छापू"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:282
-#, fuzzy, kde-format
-#| msgid "Select to Matching Bracket"
-msgid "Flash matching brackets"
-msgstr "मैचिंग कोष्ठक चुनू"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:285
-#, kde-format
-msgid ""
-"If this is enabled, matching brackets are animated for better visibility."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:288
-#, kde-format
-msgid "Animate bracket matching"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:298
-#, kde-format
-msgid ""
-"When this setting is enabled, the editor view automatically folds\n"
-"comment blocks that start on the first line of the document. This is\n"
-"helpful to hide license headers which are commonly placed at the\n"
-"beginning of a file."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:301
-#, fuzzy, kde-format
-#| msgid "End of line"
-msgid "Fold first line"
-msgstr "पंक्ति क' अंत"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:308
-#, kde-format
-msgid "Show/hide word count in status bar"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:311
-#, fuzzy, kde-format
-#| msgid "Not word boundary"
-msgid "Show word count"
-msgstr "नॉट शब्द सीमा"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:318
-#, kde-format
-msgid "Show/hide line count in status bar"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:321
-#, fuzzy, kde-format
-#| msgid "Show &Line Numbers"
-msgid "Show line count"
-msgstr "पंक्ति क्रमांक देखाबू (&L)"
 
 #: document/katebuffer.cpp:151
 #, fuzzy, kde-format
@@ -3895,6 +3889,13 @@ msgstr "अक्षम"
 #, kde-format
 msgid "Use default color from the color theme"
 msgstr ""
+
+#: syntax/katehighlightmenu.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "Autoindent mode"
+#| msgid "None"
+msgid "None"
+msgstr "किछु नहि"
 
 #: syntax/katestyletreewidget.cpp:130
 #, kde-format
@@ -6592,6 +6593,11 @@ msgstr ""
 "चुनू जे अहाँ जे पाठ टाइप कएने अछि ओ शामिल कएल जाए अथवा मोजुदा पाठ केर उप्पर मेटाकए "
 "लिखल जाए."
 
+#: view/kateview.cpp:709
+#, kde-format
+msgid "&Dynamic Word Wrap"
+msgstr "गतिशील वर्ड रैप (&D)"
+
 #: view/kateview.cpp:713
 #, fuzzy, kde-format
 #| msgid ""
@@ -7610,6 +7616,34 @@ msgstr ""
 msgid "Mark not set: %1"
 msgstr "मार्क टाइप %1"
 
+#~ msgid "Font"
+#~ msgstr "फौन्ट"
+
+#~ msgid ""
+#~ "If this option is checked, the text lines will be wrapped at the view "
+#~ "border on the screen."
+#~ msgstr "जँ ई विकल्प चुनल जाइत अछि. पाठ पंक्तिसभ स्क्रीन केर दृश्य किनार पर रैप हाएत."
+
+#, fuzzy
+#~| msgid "Dynamic &word wrap indicators (if applicable):"
+#~ msgid "D&ynamic word wrap indicators (if applicable):"
+#~ msgstr "गतिशील पाठ लपेट सूचक (जँ लागू अछि): (&w)"
+
+#, fuzzy
+#~| msgid "Highlighting for Ferite"
+#~ msgid "Highlight marker size:"
+#~ msgstr "फेराइट क' लेल आलोकित करू"
+
+#, fuzzy
+#~| msgid "&Replace"
+#~ msgid "Whitespaces"
+#~ msgstr "बदलू (R)"
+
+#, fuzzy
+#~| msgid "&Highlight tabulators"
+#~ msgid "Highlight tabulators"
+#~ msgstr "टेबुलेटर आलोकित करू (&H)"
+
 #~ msgid "Prefix"
 #~ msgstr "उपसर्ग"
 
@@ -7705,9 +7739,6 @@ msgstr "मार्क टाइप %1"
 
 #~ msgid "Code Completion Configuration"
 #~ msgstr "कोड पूर्णता बिन्यास"
-
-#~ msgid "Always"
-#~ msgstr "हरदम"
 
 #~ msgid "Description"
 #~ msgstr "विवरण"
@@ -8883,9 +8914,6 @@ msgstr "मार्क टाइप %1"
 #~ msgid "You Are on Your Own"
 #~ msgstr "अहाँ अपने पैरा पर छी"
 
-#~ msgid "Ignore white space changes"
-#~ msgstr "श्वेतस्थान मे परिवर्तन केँ नजरअंदाज़ करू"
-
 #~ msgid "KDE Default"
 #~ msgstr "केडीई मूलभूत"
 
@@ -8986,9 +9014,6 @@ msgstr "मार्क टाइप %1"
 #~ msgid "C++"
 #~ msgstr "C++"
 
-#~ msgid "Editor Plugins"
-#~ msgstr "इतिहास प्लगइन"
-
 #~ msgid "Do not use config file"
 #~ msgstr "कान्फिग फाइल इस्तेमाल नहि करू"
 
@@ -9027,9 +9052,6 @@ msgstr "मार्क टाइप %1"
 
 #~ msgid "Line numbers:"
 #~ msgstr "पंक्ति क्रमांक:"
-
-#~ msgid "Bracket highlight:"
-#~ msgstr "कोष्ठक आलोकित करू:"
 
 #~ msgid "Word wrap markers:"
 #~ msgstr "वर्ड रैप निशान:"
