@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-15 00:16+0000\n"
+"POT-Creation-Date: 2021-09-16 00:15+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -16015,11 +16015,13 @@ msgid "Layout"
 msgstr "परत घुमाबू"
 
 #: libs/image/krita_utils.cpp:351
+#: plugins/dockers/animation/KisAnimTimelineLayersHeader.cpp:252
 #, fuzzy, kde-format
 msgid "off"
 msgstr "पसंदीदा"
 
 #: libs/image/krita_utils.cpp:351
+#: plugins/dockers/animation/KisAnimTimelineLayersHeader.cpp:252
 #, fuzzy, kde-format
 msgid "on"
 msgstr "किछु नहि"
@@ -18658,6 +18660,37 @@ msgstr "चयन घोकचाबू"
 #, fuzzy, kde-format
 msgid "Render Animation"
 msgstr "दिशा"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:101
+#, kde-format
+msgctxt "bicubic filtering"
+msgid "bicubic"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:102
+#, fuzzy, kde-format
+#| msgid "Bilinear"
+msgctxt "bilinear filtering"
+msgid "bilinear"
+msgstr "द्विरैखिक"
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:103
+#, kde-format
+msgctxt "lanczos3 filtering"
+msgid "lanczos3"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:104
+#, kde-format
+msgctxt "nearest neighbor filtering"
+msgid "neighbor"
+msgstr ""
+
+#: libs/ui/animation/KisDlgAnimationRenderer.cpp:105
+#, fuzzy, kde-format
+msgctxt "spline filtering"
+msgid "spline"
+msgstr "साइन"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:524
 #, kde-format
@@ -36599,7 +36632,7 @@ msgid ""
 "provided."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1260
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1265
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
