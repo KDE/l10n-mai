@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-19 00:18+0000\n"
+"POT-Creation-Date: 2021-09-20 00:15+0000\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -547,7 +547,7 @@ msgid "Open..."
 msgstr ""
 
 #: core/app/items/utils/contextmenuhelper.cpp:282
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:122
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:129
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Open in File Manager"
@@ -1467,14 +1467,14 @@ msgstr ""
 msgid "Images found in %1"
 msgstr ""
 
-#: core/app/main/digikamapp_config.cpp:116
+#: core/app/main/digikamapp_config.cpp:111
 #, kde-format
 msgid ""
 "You have chosen a bright color scheme. We switch to a dark icon theme. The "
 "icon theme is available after a restart of digiKam."
 msgstr ""
 
-#: core/app/main/digikamapp_config.cpp:124
+#: core/app/main/digikamapp_config.cpp:119
 #, kde-format
 msgid ""
 "You have chosen a dark color scheme. We switch to a bright icon theme. The "
@@ -24254,7 +24254,7 @@ msgstr ""
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:271
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:323
 #: core/libs/tags/widgets/tageditdlg.cpp:200
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:140
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:142
 #: core/utilities/searchwindow/searchview.cpp:517
 #, kde-format
 msgid "Reset"
@@ -36062,7 +36062,7 @@ msgid ""
 msgstr ""
 
 #: core/libs/tags/widgets/tageditdlg.cpp:189
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:129
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:134
 #, kde-format
 msgid "&Icon:"
 msgstr ""
@@ -42935,54 +42935,89 @@ msgctxt "@info"
 msgid "Icon Size: %1"
 msgstr "पृष्ठ आकार:"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:99
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:105
 #, fuzzy, kde-format
 #| msgid "Remove item"
 msgid "New Bookmark"
 msgstr "मद हटाबू"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:103
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:109
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:289
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Edit Bookmark"
 msgstr "रँग"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:120
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:125
 #, fuzzy, kde-format
 #| msgid "Calendar"
 msgctxt "@label: bookmark properties"
 msgid "&Title:"
 msgstr "कैलेंडर"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:123
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:128
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Enter bookmark name here..."
 msgstr "रँग"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:153
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:155
 #, kde-format
 msgctxt "@label: bookmark properties"
 msgid "&Path:"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:158
+#: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:160
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid "Enter bookmark path here..."
 msgstr "विकल्प"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:127
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:150
 #, kde-format
 msgid "Places"
 msgstr ""
 
-#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:132
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:155
 #: core/utilities/setup/album/setupcategory.cpp:99
 #, kde-format
 msgid ""
 "You can add or remove Album category types here to improve how your Albums "
 "are sorted in digiKam."
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:166
+#, kde-format
+msgctxt "@info"
+msgid "Add new bookmark to the list"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:168
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@info"
+msgid "Remove selected bookmark from the list"
+msgstr "जमावट"
+
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:170
+#, kde-format
+msgctxt "@info"
+msgid "Edit current bookmark from the list"
+msgstr ""
+
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:246
+#, fuzzy, kde-format
+#| msgid "Remove item"
+msgid "Add New Bookmark"
+msgstr "मद हटाबू"
+
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:247
+#: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:290
+#, kde-format
+msgid ""
+"This bookmark referencing\n"
+"%1\n"
+"already exists in the list with name \"%2\"."
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewlist.cpp:108
@@ -42992,7 +43027,14 @@ msgctxt "@title"
 msgid "Folder-View Options"
 msgstr "विकल्प"
 
-#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:348
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:122
+#, fuzzy, kde-format
+#| msgid "Colors"
+msgctxt "@action: context menu"
+msgid "Add Bokmark"
+msgstr "रँग"
+
+#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:359
 #, fuzzy, kde-format
 #| msgid "Target"
 msgctxt "@title: file system tree"
