@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-27 00:15+0000\n"
+"POT-Creation-Date: 2021-09-28 00:15+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -16626,6 +16626,7 @@ msgstr ""
 #: plugins/color/lcms2engine/colorspaces/lab_f32/LabF32ColorSpace.cpp:27
 #: plugins/color/lcms2engine/colorspaces/lab_u16/LabColorSpace.cpp:22
 #: plugins/color/lcms2engine/colorspaces/lab_u8/LabU8ColorSpace.cpp:22
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:89
 #, fuzzy, kde-format
 msgctxt "Lightness value in Lab color model"
 msgid "Lightness"
@@ -17840,7 +17841,8 @@ msgstr "श्रोत"
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:273
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:326
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:221
-#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:393
+#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:162
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:167
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:225
@@ -18479,7 +18481,7 @@ msgstr "चित्र मापू"
 #: libs/ui/input/kis_tool_invocation_action.cpp:43 libs/ui/kis_clipboard.cc:301
 #: libs/ui/utils/KisClipboardUtil.cpp:70
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:703
+#: plugins/dockers/recorder/recorder_export.ui:693
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:116
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -20530,12 +20532,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnClose)
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonClose)
-#. i18n: ectx: property (text), widget (QPushButton, buttonClose)
 #: libs/ui/dialogs/kis_about_application.cpp:188
 #: libs/ui/forms/wdgbookmarkedconfigurationseditor.ui:75
 #: libs/ui/forms/wdgsessionmanager.ui:94
-#: plugins/dockers/recorder/recorder_export.ui:563
-#: plugins/dockers/recorder/recorder_snapshots_manager.ui:279
 #: plugins/python/scripter/ui_scripter/actions/closeaction/closeaction.py:20
 #, kde-format
 msgid "Close"
@@ -20688,6 +20687,7 @@ msgstr "चित्र विशेषता"
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:159
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:162
 #: libs/ui/widgets/kis_custom_image_widget.cc:101
+#: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
 #: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:46
@@ -24506,7 +24506,9 @@ msgid "Force Instant Preview in Filters"
 msgstr "पूर्वावलोकन"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
+#. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:14
 #, fuzzy, kde-format
 msgid "Form"
 msgstr "फार्म"
@@ -29292,6 +29294,7 @@ msgid "Fill"
 msgstr "भरू"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QLabel, soldStrokeColorLabel)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel4)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel2)
@@ -29299,6 +29302,7 @@ msgstr "भरू"
 #. i18n: ectx: property (text), widget (QLabel, colorLabel3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: libs/ui/layerstyles/WdgStroke.ui:163
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:189
 #: libs/ui/widgets/KoFillConfigWidget.ui:176
 #: plugins/filters/colors/wdgcolortoalphabase.ui:44
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:462
@@ -30940,6 +30944,100 @@ msgstr ""
 msgid "Save current window layout."
 msgstr "क्रमहीन"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:35
+#, fuzzy, kde-format
+msgid "Shadows and Highlights"
+msgstr "हाइलाइट"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:62
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:163
+#: plugins/python/comics_project_management_tools/comics_export_dialog.py:65
+#, kde-format
+msgid "Method:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShadowsAndLightsMethod)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:70
+#, kde-format
+msgid "Adjust monochromatic contrast"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShadowsAndLightsMethod)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:75
+#, kde-format
+msgid "Adjust per channel contrast"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:83
+#, kde-format
+msgid "Shadows clipping:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:90
+#, fuzzy, kde-format
+msgid "Highlights clipping:"
+msgstr "हाइलाइट"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:97
+#, fuzzy, kde-format
+msgid "Maximum offset:"
+msgstr "क्रमहीन"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:107
+#, fuzzy, kde-format
+msgid "Shadows color:"
+msgstr "चयन बढाउ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:114
+#, fuzzy, kde-format
+msgid "Highlights color:"
+msgstr "हाइलाइट"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMidtones)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:136
+#: plugins/extensions/colorrange/wdg_colorrange.ui:62
+#: plugins/filters/colorsfilters/wdg_color_balance.ui:185
+#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:37
+#, kde-format
+msgid "Midtones"
+msgstr "मिडटोन"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:171
+#, kde-format
+msgid "Don't adjust the midtones"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:176
+#, kde-format
+msgid "Use the median to adjust the midtones"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxMidtonesMethod)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:181
+#, kde-format
+msgid "Use the mean value to adjust the midtones"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: libs/ui/widgets/KisAutoLevelsWidget.ui:202
+#, fuzzy, kde-format
+#| msgid "Amount:"
+msgid "Amount:"
+msgstr "मात्रा:"
+
 #: libs/ui/widgets/KisDitherWidget.cpp:44
 #, kde-format
 msgid "Spread:"
@@ -31150,7 +31248,7 @@ msgid "Stop:"
 msgstr "गति"
 
 #. i18n: ectx: property (text), widget (KisColorButton, meshStopColorButton)
-#. i18n: ectx: property (text), widget (KisGradientSlider, cutoffSlider)
+#. i18n: ectx: property (text), widget (KisInputLevelsSlider, cutoffSlider)
 #. i18n: ectx: property (text), widget (KisColorButton, btnSlope)
 #. i18n: ectx: property (text), widget (KisColorButton, btnPower)
 #. i18n: ectx: property (text), widget (KisColorButton, btnOffset)
@@ -35889,58 +35987,66 @@ msgctxt "Status for the export of the video record"
 msgid "Starting FFMpeg..."
 msgstr "जमावट"
 
-#: plugins/dockers/recorder/recorder_export.cpp:337
+#. i18n: ectx: property (text), widget (QToolButton, btnExport)
+#: plugins/dockers/recorder/recorder_export.cpp:314
+#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
+#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
+#, fuzzy, kde-format
+msgid "Export"
+msgstr "निर्यात"
+
+#: plugins/dockers/recorder/recorder_export.cpp:339
 #, fuzzy, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr "चयन बढाउ"
 
-#: plugins/dockers/recorder/recorder_export.cpp:341
+#: plugins/dockers/recorder/recorder_export.cpp:343
 #, fuzzy, kde-format
 #| msgid "Recording"
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr "रिकॉर्ड कए रहल अछि"
 
-#: plugins/dockers/recorder/recorder_export.cpp:344
+#: plugins/dockers/recorder/recorder_export.cpp:346
 #, fuzzy, kde-format
 #| msgid " px"
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr " px"
 
-#: plugins/dockers/recorder/recorder_export.cpp:346
+#: plugins/dockers/recorder/recorder_export.cpp:348
 #, fuzzy, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr "परत हटाबू"
 
-#: plugins/dockers/recorder/recorder_export.cpp:448
+#: plugins/dockers/recorder/recorder_export.cpp:450
 #, kde-format
 msgid "Select FFMpeg Executable File"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:494
+#: plugins/dockers/recorder/recorder_export.cpp:496
 #, fuzzy, kde-format
 msgid "Export Timelapse Video As"
 msgstr "आनुपातिक"
 
-#: plugins/dockers/recorder/recorder_export.cpp:509
+#: plugins/dockers/recorder/recorder_export.cpp:511
 #, kde-format
 msgid "The video file is already exists. Do you wish to overwrite?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:536
+#: plugins/dockers/recorder/recorder_export.cpp:538
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:549
+#: plugins/dockers/recorder/recorder_export.cpp:551
 #, kde-format
 msgid "Export failed. FFMpeg message:"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:570
+#: plugins/dockers/recorder/recorder_export.cpp:572
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -35949,8 +36055,8 @@ msgid ""
 "Do you wish to continue?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:577
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:260
+#: plugins/dockers/recorder/recorder_export.cpp:579
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, fuzzy, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
 msgid "Cleaning up..."
@@ -36040,58 +36146,49 @@ msgstr "इनपुट"
 msgid "Video duration:"
 msgstr "घुमाव"
 
-#. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#. i18n: ectx: property (text), widget (QPushButton, buttonExport)
-#: plugins/dockers/recorder/recorder_export.ui:570
-#: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
-#: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
-#, fuzzy, kde-format
-msgid "Export"
-msgstr "निर्यात"
-
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:806
+#: plugins/dockers/recorder/recorder_export.ui:796
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:824
+#: plugins/dockers/recorder/recorder_export.ui:814
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:834
+#: plugins/dockers/recorder/recorder_export.ui:824
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:852
+#: plugins/dockers/recorder/recorder_export.ui:842
 #, fuzzy, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr "पंक्ति गिननाइ"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:889
+#: plugins/dockers/recorder/recorder_export.ui:879
 #, fuzzy, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr "समूह मेटाबू"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:955
+#: plugins/dockers/recorder/recorder_export.ui:945
 #, fuzzy, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr "तारा"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:962
+#: plugins/dockers/recorder/recorder_export.ui:952
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "Close dialog button"
@@ -36142,54 +36239,54 @@ msgstr "प्रोफाइल:"
 msgid "File extension:"
 msgstr "चयन बढाउ"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:157
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:159
 #, fuzzy, kde-format
 #| msgid "Preview"
 msgctxt "Header title for preview thumbnail"
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:159
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:161
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "Header title for directory name column"
 msgid "Name"
 msgstr "नाम"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:161
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:163
 #, fuzzy, kde-format
 #| msgid "Size"
 msgctxt "Header title for size of directory column"
 msgid "Size"
 msgstr "आकार"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:163
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:165
 #, fuzzy, kde-format
 #| msgid "Modified:"
 msgctxt "Header title for last modified date/time column"
 msgid "Last Modified"
 msgstr "परिवर्धितः"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:201
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:203
 #, fuzzy, kde-format
 msgctxt "Label title, Scanning for directory, files, etc.."
 msgid "Scanning..."
 msgstr "जमावट"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonSelectAll)
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:219
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:221
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:205
 #, fuzzy, kde-format
 msgid "Select All"
 msgstr "सभ चुनू"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:219
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:221
 #, fuzzy, kde-format
 #| msgid "Select Font"
 msgid "Select None"
 msgstr "फोन्ट चुनू"
 
-#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:247
+#: plugins/dockers/recorder/recorder_snapshots_manager.cpp:249
 #, kde-format
 msgid ""
 "The selected recordings will be deleted and you will not be able to export a "
@@ -36227,12 +36324,6 @@ msgstr "पैलेट संपादित करू"
 #, fuzzy, kde-format
 msgid "0 B"
 msgstr "ms"
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonCleanUp)
-#: plugins/dockers/recorder/recorder_snapshots_manager.ui:289
-#, fuzzy, kde-format
-msgid "Clean Up"
-msgstr "आँशिक"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDirectory)
 #: plugins/dockers/recorder/recorderdocker.ui:95
@@ -37109,16 +37200,6 @@ msgstr "मैजेन्टा"
 msgid "Highlights"
 msgstr "हाइलाइट"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMidtones)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
-#: plugins/extensions/colorrange/wdg_colorrange.ui:62
-#: plugins/filters/colorsfilters/wdg_color_balance.ui:185
-#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:37
-#, kde-format
-msgid "Midtones"
-msgstr "मिडटोन"
-
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonShadows)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
@@ -37129,11 +37210,9 @@ msgstr "मिडटोन"
 msgid "Shadows"
 msgstr "छाया"
 
-#. i18n: ectx: property (text), widget (QPushButton, butinvert)
 #. i18n: ectx: property (text), widget (QCheckBox, chkInvert)
 #: plugins/extensions/colorrange/wdg_colorrange.ui:75
 #: plugins/filters/example/example.cpp:42
-#: plugins/filters/levelfilter/wdg_level.ui:298
 #, fuzzy, kde-format
 msgid "&Invert"
 msgstr "उनटू"
@@ -40069,7 +40148,7 @@ msgstr "विसंतृप्त"
 msgid "HSV/HSL Adjustment"
 msgstr "विसंतृप्त"
 
-#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:393
+#: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:351
 #, kde-format
 msgid ""
 "The current configuration was created for a different colorspace and cannot "
@@ -40257,7 +40336,6 @@ msgstr "आउटपुट"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLogarithmic)
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:330
-#: plugins/filters/levelfilter/wdg_level.ui:69
 #: plugins/filters/threshold/wdg_threshold.ui:59
 #, kde-format
 msgid "Logarithmic"
@@ -40772,36 +40850,124 @@ msgstr "आन"
 msgid "Alpha Steps"
 msgstr "विकल्प"
 
-#: plugins/filters/levelfilter/kis_level_filter.cpp:37
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:163
+#, kde-format
+msgid ""
+"The current configuration was created for a different colorspace and cannot "
+"be used.\n"
+"The channels will be reset."
+msgstr ""
+
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:621
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.cpp:672
 #, fuzzy, kde-format
-msgid "&Levels..."
+msgctxt "@title:window"
+msgid "Auto Levels"
 msgstr "स्तर"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgThreshold)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgLevel)
-#: plugins/filters/levelfilter/kis_level_filter.h:40
-#: plugins/filters/levelfilter/wdg_level.ui:36
+#. i18n: ectx: property (windowTitle), widget (QWidget, LevelsConfigWidget)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:18
+#: plugins/filters/levelfilter/KisLevelsFilter.h:30
 #: plugins/filters/threshold/wdg_threshold.ui:36
 #, kde-format
 msgid "Levels"
 msgstr "स्तर"
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonLightnessMode)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:49
+#, fuzzy, kde-format
+msgid "Modify lightness only"
+msgstr "चमकीलापन"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonAllChannelsMode)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:71
+#, kde-format
+msgid "Modify all channels independently"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetAll)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:108
+#, fuzzy, kde-format
+#| msgid "Rectangle"
+msgid "Reset channel"
+msgstr "आयत"
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: plugins/filters/levelfilter/wdg_level.ui:56
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:130
 #, kde-format
 msgid "<b>Input Levels</b>"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonLinearHistogram)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:158
+#, fuzzy, kde-format
+msgid "Show linear histogram"
+msgstr "चयन बढाउ"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonLogarithmicHistogram)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:180
+#, fuzzy, kde-format
+msgid "Show logarithmic histogram"
+msgstr "चयन बढाउ"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonScaleHistogramToFit)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:201
+#, kde-format
+msgid "Scale the histogram to fit"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonScaleHistogramToCutLongPeaks)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:214
+#, kde-format
+msgid "Scale the histogram to cut long peaks "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonAutoLevels)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:240
+#, fuzzy, kde-format
+msgid "Apply auto levels to this channel"
+msgstr "लेखा"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetInputLevels)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:250
+#, fuzzy, kde-format
+msgid "Reset input levels"
+msgstr "फिल्टर"
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/filters/levelfilter/wdg_level.ui:229
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:404
 #, kde-format
 msgid "<b>Output Levels</b>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, butauto)
-#: plugins/filters/levelfilter/wdg_level.ui:291
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetOutputLevels)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:427
 #, fuzzy, kde-format
-msgid "&Auto Levels"
+msgid "Reset output levels"
+msgstr "आउटपुट"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:524
+#, fuzzy, kde-format
+msgid "<b>All Channels</b>"
+msgstr "चैनल"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonAutoLevelsAllChannels)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:575
+#, fuzzy, kde-format
+msgid "Apply auto levels to all the channels"
+msgstr "लेखा"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetAllChannels)
+#: plugins/filters/levelfilter/KisLevelsConfigWidget.ui:585
+#, fuzzy, kde-format
+msgid "Reset all channels"
+msgstr "चैनल"
+
+#: plugins/filters/levelfilter/KisLevelsFilter.cpp:18
+#, fuzzy, kde-format
+msgid "&Levels..."
 msgstr "स्तर"
 
 #: plugins/filters/noisefilter/noisefilter.cpp:53
@@ -41201,7 +41367,7 @@ msgctxt "action"
 msgid "Threshold Filter"
 msgstr "दहलीज:"
 
-#: plugins/filters/threshold/threshold.cpp:54
+#: plugins/filters/threshold/threshold.cpp:55
 #, fuzzy, kde-format
 #| msgid "Threshold"
 msgid "&Threshold..."
@@ -47874,7 +48040,7 @@ msgstr "दूरी:"
 msgid "Cut Off Pattern"
 msgstr "प्रारूप (&P)"
 
-#: plugins/paintops/libpaintop/kis_texture_chooser.cpp:88
+#: plugins/paintops/libpaintop/kis_texture_chooser.cpp:86
 #, kde-format
 msgid ""
 "When pattern texture values are outside the range specified by the slider, "
@@ -48859,10 +49025,6 @@ msgstr "हलुक करू"
 
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:43
 msgid " DPI"
-msgstr ""
-
-#: plugins/python/comics_project_management_tools/comics_export_dialog.py:65
-msgid "Method:"
 msgstr ""
 
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:66
@@ -54651,6 +54813,10 @@ msgid "Reference Images Tool"
 msgstr "वरीयतासभ"
 
 #, fuzzy
+#~ msgid "Clean Up"
+#~ msgstr "आँशिक"
+
+#, fuzzy
 #~ msgctxt "action"
 #~ msgid "Filters"
 #~ msgstr "फिल्टर"
@@ -57937,10 +58103,6 @@ msgstr "वरीयतासभ"
 #~ msgstr "निर्यात"
 
 #, fuzzy
-#~ msgid "Show color blip"
-#~ msgstr "चयन बढाउ"
-
-#, fuzzy
 #~ msgid "Fax mode:"
 #~ msgstr "आनुपातिक"
 
@@ -59094,10 +59256,6 @@ msgstr "वरीयतासभ"
 #, fuzzy
 #~ msgid "All invisibles"
 #~ msgstr "प्रोफाइल"
-
-#, fuzzy
-#~ msgid "1st output"
-#~ msgstr "आउटपुट"
 
 #, fuzzy
 #~ msgid "2nd output"
