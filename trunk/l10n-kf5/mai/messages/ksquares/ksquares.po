@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksquares\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-22 02:33+0100\n"
+"POT-Creation-Date: 2021-10-04 00:15+0000\n"
 "PO-Revision-Date: 2010-09-24 16:42+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -132,9 +132,10 @@ msgstr "मध्यम"
 msgid "Hard"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ScoresWidget)
-#: ksquareswindow.cpp:201 scoreswidget.ui:13
-#, kde-format
+#: ksquareswindow.cpp:201
+#, fuzzy, kde-format
+#| msgid "Scores"
+msgctxt "@title:window"
 msgid "Scores"
 msgstr "अंक"
 
@@ -221,8 +222,15 @@ msgctxt "default name of player"
 msgid "Player %1"
 msgstr ""
 
+#: newgamedialog.cpp:28
+#, fuzzy, kde-format
+#| msgid "New Game"
+msgctxt "@title:window"
+msgid "New Game"
+msgstr "नवीन खेल "
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, NewGameWidget)
-#: newgamedialog.cpp:28 newgamewidget.ui:13
+#: newgamewidget.ui:13
 #, kde-format
 msgid "New Game"
 msgstr "नवीन खेल "
@@ -467,6 +475,12 @@ msgstr ""
 #, kde-format
 msgid "Highlight color:"
 msgstr "रंग उभारू:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ScoresWidget)
+#: scoreswidget.ui:13
+#, kde-format
+msgid "Scores"
+msgstr "अंक"
 
 #. i18n: ectx: property (whatsThis), widget (QTableView, scoreTable)
 #: scoreswidget.ui:19
