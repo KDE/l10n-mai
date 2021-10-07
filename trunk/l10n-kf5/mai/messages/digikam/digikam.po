@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:16+0000\n"
+"POT-Creation-Date: 2021-10-07 00:15+0000\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -548,9 +548,9 @@ msgstr ""
 
 #: core/app/items/utils/contextmenuhelper.cpp:282
 #: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:144
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:170
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:169
 #: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:141
-#: core/showfoto/stackview/showfotostackviewlist.cpp:407
+#: core/showfoto/stackview/showfotostackviewlist.cpp:406
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Open in File Manager"
@@ -1229,6 +1229,7 @@ msgstr ""
 
 #: core/app/items/utils/tooltipfiller.cpp:583
 #: core/app/items/utils/tooltipfiller.cpp:662
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:113
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@info: item properties"
@@ -1236,6 +1237,7 @@ msgid "Name:"
 msgstr "फाइलक नाम"
 
 #: core/app/items/utils/tooltipfiller.cpp:589
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:116
 #: core/utilities/fuzzysearch/fuzzysearchview_sketch.cpp:80
 #, kde-format
 msgid "Items:"
@@ -43118,7 +43120,7 @@ msgid "Add Bookmark"
 msgstr "रँग"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:115
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:119
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:118
 #, kde-format
 msgctxt "@info"
 msgid "Add new bookmark to the list"
@@ -43132,7 +43134,7 @@ msgid "Del Bookmark"
 msgstr "मद हटाबू"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:132
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:137
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:136
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@info"
@@ -43147,7 +43149,7 @@ msgid "Edit Bookmark"
 msgstr "रँग"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarks.cpp:150
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:155
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:154
 #, kde-format
 msgctxt "@info"
 msgid "Edit current bookmark from the list"
@@ -43239,21 +43241,21 @@ msgctxt "@item"
 msgid "Videos"
 msgstr "वीडियो"
 
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:147
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:146
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@title"
 msgid "Folder-View Options"
 msgstr "विकल्प"
 
-#: core/showfoto/folderview/showfotofolderviewlist.cpp:163
+#: core/showfoto/folderview/showfotofolderviewlist.cpp:162
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@action: context menu"
 msgid "Add Bookmark"
 msgstr "रँग"
 
-#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:375
+#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:374
 #, fuzzy, kde-format
 #| msgid "Target"
 msgctxt "@title: file system tree"
@@ -44118,138 +44120,151 @@ msgctxt "@label: favorites properties"
 msgid "&Items:"
 msgstr ""
 
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:111
+#, fuzzy, kde-format
+#| msgid "Caption"
+msgid "Favorite Properties"
+msgstr "अनुशीर्षक"
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitem.cpp:119
+#, fuzzy, kde-format
+#| msgid "Rotate"
+msgctxt "@info: item properties"
+msgid "Description:"
+msgstr "घुमाबू"
+
 #: core/showfoto/stackview/showfotostackviewfavoritelist.cpp:72
 #, kde-format
 msgctxt "@info"
 msgid "You can add or remove favorite stacks here."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:109
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:108
 #, kde-format
 msgctxt "@title"
 msgid "Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:118
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:117
 #, kde-format
 msgctxt "@action"
 msgid "Add Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:136
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:135
 #, kde-format
 msgctxt "@action"
 msgid "Del Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:154
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:153
 #, kde-format
 msgctxt "@action"
 msgid "Edit Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:255
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:262
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@title: window"
 msgid "Confirm Favorite Deletion"
 msgstr "विकल्प"
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:256
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:263
 #, kde-format
 msgctxt "@info"
 msgid "Are you sure you want to remove the favorite \"%1\"?"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:393
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:400
 #, kde-format
 msgctxt "@title"
 msgid "My Favorites"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavorites.cpp:451
+#: core/showfoto/stackview/showfotostackviewfavorites.cpp:458
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@title"
 msgid "Unnamed"
 msgstr "फाइलक नाम"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:99
+#: core/showfoto/stackview/showfotostackviewlist.cpp:98
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@title: item file name"
 msgid "Name"
 msgstr "फाइलक नाम"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:100
+#: core/showfoto/stackview/showfotostackviewlist.cpp:99
 #, fuzzy, kde-format
 #| msgid "Paper Size:"
 msgctxt "@title: item file size"
 msgid "Size"
 msgstr "पृष्ठ आकार:"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:101
+#: core/showfoto/stackview/showfotostackviewlist.cpp:100
 #, fuzzy, kde-format
 #| msgid "Video"
 msgctxt "@title: item file type"
 msgid "Type"
 msgstr "वीडियो"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:102
+#: core/showfoto/stackview/showfotostackviewlist.cpp:101
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@title: item date from metadata"
 msgid "Date"
 msgstr "फाइलक नाम"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:344
+#: core/showfoto/stackview/showfotostackviewlist.cpp:343
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@title"
 msgid "Stack-View Options"
 msgstr "विकल्प"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:346
+#: core/showfoto/stackview/showfotostackviewlist.cpp:345
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@title:menu"
 msgid "Thumbnail Size"
 msgstr "जमावट"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:349
+#: core/showfoto/stackview/showfotostackviewlist.cpp:348
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:353
+#: core/showfoto/stackview/showfotostackviewlist.cpp:352
 #, fuzzy, kde-format
 #| msgid "Paper Size:"
 msgctxt "@action:inmenu"
 msgid "Medium (%1x%2)"
 msgstr "पृष्ठ आकार:"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:357
+#: core/showfoto/stackview/showfotostackviewlist.cpp:356
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@action:inmenu"
 msgid "Large (%1x%2)"
 msgstr "विकल्प"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:361
+#: core/showfoto/stackview/showfotostackviewlist.cpp:360
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@action:inmenu"
 msgid "Huge (%1x%2)"
 msgstr "फाइलक नाम"
 
-#: core/showfoto/stackview/showfotostackviewlist.cpp:400
+#: core/showfoto/stackview/showfotostackviewlist.cpp:399
 #, kde-format
 msgctxt "@action: context menu"
 msgid "Add as Favorite"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewsidebar.cpp:203
+#: core/showfoto/stackview/showfotostackviewsidebar.cpp:202
 #, kde-format
 msgctxt "@title: file system tree"
 msgid "Stack"
