@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:15+0000\n"
+"POT-Creation-Date: 2021-10-15 00:13+0000\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -140,10 +140,8 @@ msgstr ""
 msgid "Word Wrap"
 msgstr "स्थिर शब्द रैप"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
-#: data/katepart5ui.rc:75 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:679
+#: data/katepart5ui.rc:75 dialogs/katedialogs.cpp:679
 #, kde-format
 msgid "Borders"
 msgstr "किनार"
@@ -184,8 +182,15 @@ msgstr "जमावट (&S)"
 msgid "Main Toolbar"
 msgstr "मुख्य अओजार पट्टी"
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/bordersappearanceconfigwidget.ui:25
+#, fuzzy, kde-format
+#| msgid "&Code Folding"
+msgid "Code block folding:"
+msgstr "कोड फोल्डिंग (&C)"
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingMarkers)
-#: dialogs/bordersappearanceconfigwidget.ui:23
+#: dialogs/bordersappearanceconfigwidget.ui:32
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display marks for code "
@@ -197,14 +202,13 @@ msgstr ""
 "मोजुद अछि."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingMarkers)
-#: dialogs/bordersappearanceconfigwidget.ui:26
-#, fuzzy, kde-format
-#| msgid "Show Folding &Markers"
-msgid "Show &folding markers"
-msgstr "फोल्डिंग निशान देखाबू (जँ लागू अछि) (&M)"
+#: dialogs/bordersappearanceconfigwidget.ui:35
+#, kde-format
+msgid "Show arrows to collapse code blocks"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:51
+#: dialogs/bordersappearanceconfigwidget.ui:42
 #, fuzzy, kde-format
 #| msgid ""
 #| "Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
@@ -217,14 +221,20 @@ msgstr ""
 "देखाबैत अछि."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:54
+#: dialogs/bordersappearanceconfigwidget.ui:45
 #, fuzzy, kde-format
 #| msgid "Print the current document."
-msgid "Show preview of folded code"
+msgid "Show preview of folded blocks on hover"
 msgstr "मोजुदा दस्ताबेज छापू"
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/bordersappearanceconfigwidget.ui:68
+#, kde-format
+msgid "Left side:"
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkIconBorder)
-#: dialogs/bordersappearanceconfigwidget.ui:63
+#: dialogs/bordersappearanceconfigwidget.ui:75
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -236,13 +246,16 @@ msgid ""
 msgstr "जँ ई विकल्प चुनल जाइत अछि. हर नवीन दृश्य बम्माँ हाथ तरफ पंक्ति क्रमांक देखाएत."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIconBorder)
-#: dialogs/bordersappearanceconfigwidget.ui:66
-#, kde-format
-msgid "Show &icon border"
-msgstr "प्रतीक किनारा देखाबू (&i)"
+#. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
+#: dialogs/bordersappearanceconfigwidget.ui:78
+#: dialogs/bordersappearanceconfigwidget.ui:131
+#, fuzzy, kde-format
+#| msgid "Show &scrollbar marks"
+msgid "Show marks"
+msgstr "स्क्राल पट्टी चिह्न देखाबू (&s)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkLineNumbers)
-#: dialogs/bordersappearanceconfigwidget.ui:73
+#: dialogs/bordersappearanceconfigwidget.ui:85
 #, kde-format
 msgid ""
 "If this option is checked, every new view will display line numbers on the "
@@ -250,13 +263,13 @@ msgid ""
 msgstr "जँ ई विकल्प चुनल जाइत अछि. हर नवीन दृश्य बम्माँ हाथ तरफ पंक्ति क्रमांक देखाएत."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLineNumbers)
-#: dialogs/bordersappearanceconfigwidget.ui:76
+#: dialogs/bordersappearanceconfigwidget.ui:88
 #, kde-format
 msgid "Show &line numbers"
 msgstr "पंक्ति क्रमांक देखाबू (&l)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowLineModification)
-#: dialogs/bordersappearanceconfigwidget.ui:83
+#: dialogs/bordersappearanceconfigwidget.ui:95
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -267,14 +280,20 @@ msgid ""
 msgstr "जँ ई विकल्प चुनल जाइत अछि. हर नवीन दृश्य बम्माँ हाथ तरफ पंक्ति क्रमांक देखाएत."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineModification)
-#: dialogs/bordersappearanceconfigwidget.ui:86
+#: dialogs/bordersappearanceconfigwidget.ui:98
+#, kde-format
+msgid "Highlight changed and unsaved lines"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/bordersappearanceconfigwidget.ui:121
 #, fuzzy, kde-format
-#| msgid "Show Folding &Markers"
-msgid "Show line modification markers"
-msgstr "फोल्डिंग निशान देखाबू (जँ लागू अछि) (&M)"
+#| msgid "Show &scrollbar marks"
+msgid "Scrollbars"
+msgstr "स्क्राल पट्टी चिह्न देखाबू (&s)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMarks)
-#: dialogs/bordersappearanceconfigwidget.ui:93
+#: dialogs/bordersappearanceconfigwidget.ui:128
 #, fuzzy, kde-format
 #| msgid ""
 #| "Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
@@ -286,14 +305,8 @@ msgstr ""
 "खड़ा स्क्रोल पट्टी पर चिह्न नुकाबू/देखाबू.<br /><br />चिह्न उदाहरण केर लेल, पुस्तचिन्ह केँ "
 "देखाबैत अछि."
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
-#: dialogs/bordersappearanceconfigwidget.ui:96
-#, kde-format
-msgid "Show &scrollbar marks"
-msgstr "स्क्राल पट्टी चिह्न देखाबू (&s)"
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:103
+#: dialogs/bordersappearanceconfigwidget.ui:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "Show/hide the marks on the vertical scrollbar.<br /><br />The marks show "
@@ -306,13 +319,21 @@ msgstr ""
 "देखाबैत अछि."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:106
-#, kde-format
-msgid "Show text &preview on scrollbar"
-msgstr ""
+#: dialogs/bordersappearanceconfigwidget.ui:141
+#, fuzzy, kde-format
+#| msgid "Print the current document."
+msgid "Show preview when hovering over scrollbar"
+msgstr "मोजुदा दस्ताबेज छापू"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/bordersappearanceconfigwidget.ui:164
+#, fuzzy, kde-format
+#| msgid "Tab wi&dth:"
+msgid "Minimap:"
+msgstr "टैब चओड़ाइ: (&d)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMap)
-#: dialogs/bordersappearanceconfigwidget.ui:113
+#: dialogs/bordersappearanceconfigwidget.ui:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -323,14 +344,14 @@ msgid ""
 msgstr "जँ ई विकल्प चुनल जाइत अछि. हर नवीन दृश्य बम्माँ हाथ तरफ पंक्ति क्रमांक देखाएत."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMap)
-#: dialogs/bordersappearanceconfigwidget.ui:116
+#: dialogs/bordersappearanceconfigwidget.ui:174
 #, fuzzy, kde-format
 #| msgid "Show &scrollbar marks"
-msgid "Show scrollbar mini-map"
+msgid "Show minimap"
 msgstr "स्क्राल पट्टी चिह्न देखाबू (&s)"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMapAll)
-#: dialogs/bordersappearanceconfigwidget.ui:132
+#: dialogs/bordersappearanceconfigwidget.ui:184
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -341,59 +362,46 @@ msgid ""
 msgstr "जँ ई विकल्प चुनल जाइत अछि. हर नवीन दृश्य बम्माँ हाथ तरफ पंक्ति क्रमांक देखाएत."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMapAll)
-#: dialogs/bordersappearanceconfigwidget.ui:135
+#: dialogs/bordersappearanceconfigwidget.ui:187
 #, fuzzy, kde-format
 #| msgid "Save the current document"
 msgid "Map the whole document"
 msgstr "मोजुदा दस्ताबेज सहेजू"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMiniMapWidth)
-#: dialogs/bordersappearanceconfigwidget.ui:145
+#: dialogs/bordersappearanceconfigwidget.ui:213
 #, fuzzy, kde-format
 #| msgid "Tab wi&dth:"
 msgid "Minim&ap width:"
 msgstr "टैब चओड़ाइ: (&d)"
 
-#. i18n: ectx: property (text), widget (QLabel, lblShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:205
-#, kde-format
-msgid "Scro&llbars visibility:"
-msgstr ""
-
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:683
+#: dialogs/bordersappearanceconfigwidget.ui:224 dialogs/katedialogs.cpp:683
 #, kde-format
 msgid "Always On"
 msgstr "हमेशा चालू"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:221
+#: dialogs/bordersappearanceconfigwidget.ui:229
 #, kde-format
 msgid "Show When Needed"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:226
+#: dialogs/bordersappearanceconfigwidget.ui:234
 #, fuzzy, kde-format
 #| msgid "Always"
 msgid "Always Off"
 msgstr "हरदम"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, gbSortBookmarks)
-#: dialogs/bordersappearanceconfigwidget.ui:246
+#. i18n: ectx: property (text), widget (QLabel, lblShowScrollbars)
+#: dialogs/bordersappearanceconfigwidget.ui:242
 #, kde-format
-msgid ""
-"Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
-msgstr "चुनू जे मनपसिन्न  कओन क्रम मे <b> मनपसिन्न </b> मेनू मे अछि."
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbSortBookmarks)
-#: dialogs/bordersappearanceconfigwidget.ui:249
-#, kde-format
-msgid "Sort Bookmarks Menu"
-msgstr " मनपसिन्न मेनू क्रमबद्ध करू"
+msgid "Scro&llbars visibility:"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByCreation)
-#: dialogs/bordersappearanceconfigwidget.ui:255
+#: dialogs/bordersappearanceconfigwidget.ui:252
 #, kde-format
 msgid ""
 "Each new bookmark will be added to the bottom, independently from where it "
@@ -403,24 +411,30 @@ msgstr ""
 "जाए रहल अछि."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByCreation)
-#: dialogs/bordersappearanceconfigwidget.ui:258
-#, fuzzy, kde-format
-#| msgid "By c&reation"
-msgid "B&y creation"
-msgstr "रचना द्वारा (&r)"
+#: dialogs/bordersappearanceconfigwidget.ui:255
+#, kde-format
+msgid "By date created"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByPosition)
-#: dialogs/bordersappearanceconfigwidget.ui:265
+#: dialogs/bordersappearanceconfigwidget.ui:262
 #, kde-format
 msgid "The bookmarks will be ordered by the line numbers they are placed at."
 msgstr "पंक्ति क्रमांक केर अनुसार जहिना रखे गए छी,  मनपसिन्न ओ क्रम मे हाएत."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByPosition)
-#: dialogs/bordersappearanceconfigwidget.ui:268
+#: dialogs/bordersappearanceconfigwidget.ui:265
 #, fuzzy, kde-format
-#| msgid "By &position"
-msgid "By posi&tion"
-msgstr "स्थिति द्वारा (&p)"
+#| msgid "Show &line numbers"
+msgid "By line number"
+msgstr "पंक्ति क्रमांक देखाबू (&l)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/bordersappearanceconfigwidget.ui:272
+#, fuzzy, kde-format
+#| msgid "Sort Bookmarks Menu"
+msgid "Sort bookmarks menu:"
+msgstr " मनपसिन्न मेनू क्रमबद्ध करू"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
@@ -7613,6 +7627,33 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "मार्क टाइप %1"
+
+#, fuzzy
+#~| msgid "Show Folding &Markers"
+#~ msgid "Show &folding markers"
+#~ msgstr "फोल्डिंग निशान देखाबू (जँ लागू अछि) (&M)"
+
+#~ msgid "Show &icon border"
+#~ msgstr "प्रतीक किनारा देखाबू (&i)"
+
+#, fuzzy
+#~| msgid "Show Folding &Markers"
+#~ msgid "Show line modification markers"
+#~ msgstr "फोल्डिंग निशान देखाबू (जँ लागू अछि) (&M)"
+
+#~ msgid ""
+#~ "Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
+#~ msgstr "चुनू जे मनपसिन्न  कओन क्रम मे <b> मनपसिन्न </b> मेनू मे अछि."
+
+#, fuzzy
+#~| msgid "By c&reation"
+#~ msgid "B&y creation"
+#~ msgstr "रचना द्वारा (&r)"
+
+#, fuzzy
+#~| msgid "By &position"
+#~ msgid "By posi&tion"
+#~ msgstr "स्थिति द्वारा (&p)"
 
 #~ msgid "Backup on Save"
 #~ msgstr "सहेजने पर बैकअप लिअ' "
