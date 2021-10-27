@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-23 00:15+0000\n"
+"POT-Creation-Date: 2021-10-27 00:15+0000\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -55,7 +55,7 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "आइओ-स्लेव तैआर करब मे अक्षम: %1"
 
-#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1279
+#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1283
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not create symlink %1.\n"
@@ -348,7 +348,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:294 ioslaves/file/file_unix.cpp:119
+#: core/job.cpp:294 ioslaves/file/file_unix.cpp:124
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename"
@@ -361,7 +361,7 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:300 filewidgets/knewfilemenu.cpp:597
-#: ioslaves/file/file_unix.cpp:123
+#: ioslaves/file/file_unix.cpp:128
 #, fuzzy, kde-format
 #| msgid "Could Not Create Symbolic Link"
 msgid "Create Symlink"
@@ -3941,90 +3941,90 @@ msgstr " %1 पर लिखल जएनाइ समर्थित नहि 
 msgid "Could not find program \"umount\""
 msgstr "प्रोग्राम \"umount\" नहि भेटल"
 
-#: ioslaves/file/file_unix.cpp:95
+#: ioslaves/file/file_unix.cpp:100
 #, fuzzy, kde-format
 #| msgid "Advanced Permissions"
 msgid "Change File Permissions"
 msgstr "विस्तृत अनुमतिसभ"
 
-#: ioslaves/file/file_unix.cpp:96
+#: ioslaves/file/file_unix.cpp:101
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
 #| msgid "Permissions"
 msgid "New Permissions: %1"
 msgstr "अनुमतिसभ"
 
-#: ioslaves/file/file_unix.cpp:99
+#: ioslaves/file/file_unix.cpp:104
 #, kde-format
 msgid "Change File Owner"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:100
+#: ioslaves/file/file_unix.cpp:105
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:103
+#: ioslaves/file/file_unix.cpp:108
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgid "Remove File"
 msgstr "हटाबू"
 
-#: ioslaves/file/file_unix.cpp:106
+#: ioslaves/file/file_unix.cpp:111
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Remove Directory"
 msgstr "निर्देशिका"
 
-#: ioslaves/file/file_unix.cpp:109
+#: ioslaves/file/file_unix.cpp:114
 #, fuzzy, kde-format
 #| msgid "Creating directory"
 msgid "Create Directory"
 msgstr "निर्देशिका बनाएल जाए रहल अछि"
 
-#: ioslaves/file/file_unix.cpp:110
+#: ioslaves/file/file_unix.cpp:115
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
 #| msgid "Permissions"
 msgid "Directory Permissions: %1"
 msgstr "अनुमतिसभ"
 
-#: ioslaves/file/file_unix.cpp:113
+#: ioslaves/file/file_unix.cpp:118
 #, fuzzy, kde-format
 #| msgid "Open file dialog"
 msgid "Open File"
 msgstr "फाइल खोलबा क' संवाद"
 
-#: ioslaves/file/file_unix.cpp:116
+#: ioslaves/file/file_unix.cpp:121
 #, fuzzy, kde-format
 #| msgid "Directory"
 msgid "Open Directory"
 msgstr "निर्देशिका"
 
-#: ioslaves/file/file_unix.cpp:120
+#: ioslaves/file/file_unix.cpp:125
 #, fuzzy, kde-format
 #| msgid "Device name"
 msgid "New Filename: %1"
 msgstr "डिवाइस नाम"
 
-#: ioslaves/file/file_unix.cpp:124
+#: ioslaves/file/file_unix.cpp:129
 #, fuzzy, kde-format
 #| msgid "Drive: %1"
 msgid "Target: %1"
 msgstr "ड्राइव: %1"
 
-#: ioslaves/file/file_unix.cpp:127
+#: ioslaves/file/file_unix.cpp:132
 #, kde-format
 msgid "Change Timestamp"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:130
+#: ioslaves/file/file_unix.cpp:135
 #, fuzzy, kde-format
 #| msgid "Unknown Interruption"
 msgid "Unknown Action"
 msgstr "अनचिन्ह इंटरप्शन"
 
-#: ioslaves/file/file_unix.cpp:135
+#: ioslaves/file/file_unix.cpp:140
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -4032,22 +4032,22 @@ msgid ""
 "%3"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:828
+#: ioslaves/file/file_unix.cpp:832
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "फाइल केँ %1 सँ %2 पर नकल नहि कए सकल. (त्रुटि क्र.: %3)"
 
-#: ioslaves/file/file_unix.cpp:1053
+#: ioslaves/file/file_unix.cpp:1057
 #, kde-format
 msgid "No media in device for %1"
 msgstr "%1 क' लेल अओजार मे कोनो मीडिया नहि "
 
-#: ioslaves/file/file_unix.cpp:1364
+#: ioslaves/file/file_unix.cpp:1368
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "देल गेल प्रयोक्ता नाम %1 क' लेल प्रयोक्ता आईडी प्राप्त नहि कए सकल"
 
-#: ioslaves/file/file_unix.cpp:1376
+#: ioslaves/file/file_unix.cpp:1380
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "देल गेल समूह नाम %1 क' लेल समूह आईडी प्राप्त नहि कए सकल"
