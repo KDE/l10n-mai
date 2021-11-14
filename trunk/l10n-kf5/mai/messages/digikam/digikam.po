@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-13 00:24+0000\n"
+"POT-Creation-Date: 2021-11-14 00:26+0000\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2767,14 +2767,14 @@ msgid ""
 msgstr ""
 
 #: core/app/views/preview/itempreviewview.cpp:170
-#: core/libs/video/player/mediaplayerview.cpp:219
+#: core/libs/video/player/mediaplayerview.cpp:220
 #, kde-format
 msgctxt "go to previous image"
 msgid "Back"
 msgstr ""
 
 #: core/app/views/preview/itempreviewview.cpp:171
-#: core/libs/video/player/mediaplayerview.cpp:221
+#: core/libs/video/player/mediaplayerview.cpp:222
 #, kde-format
 msgctxt "go to next image"
 msgid "Forward"
@@ -25229,46 +25229,64 @@ msgid "&Oldest"
 msgstr ""
 
 #: core/libs/album/widgets/albumpropsedit.cpp:195
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:211
 #, kde-format
-msgctxt "@action: Calculates the average date"
-msgid "&Average"
+msgctxt "@info"
+msgid "Use this button to select the date of the oldest image from album."
 msgstr ""
 
 #: core/libs/album/widgets/albumpropsedit.cpp:196
 #: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:212
 #, kde-format
+msgctxt "@action: Calculates the average date"
+msgid "&Average"
+msgstr ""
+
+#: core/libs/album/widgets/albumpropsedit.cpp:197
+#, kde-format
+msgctxt "@info"
+msgid "Use this button to calculates the average date of images from album."
+msgstr ""
+
+#: core/libs/album/widgets/albumpropsedit.cpp:198
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:214
+#, kde-format
 msgctxt "@action: Selects the date of the newest image"
 msgid "Newest"
 msgstr ""
 
-#: core/libs/album/widgets/albumpropsedit.cpp:275
+#: core/libs/album/widgets/albumpropsedit.cpp:199
+#, kde-format
+msgctxt "@info"
+msgid "Use this button to select the date of the newest image from album."
+msgstr ""
+
+#: core/libs/album/widgets/albumpropsedit.cpp:279
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@label: album properties"
 msgid "New Album"
 msgstr "विकल्प"
 
-#: core/libs/album/widgets/albumpropsedit.cpp:277
+#: core/libs/album/widgets/albumpropsedit.cpp:281
 #, kde-format
 msgctxt "@item: album properties"
 msgid "Selected Album (Default)"
 msgstr ""
 
-#: core/libs/album/widgets/albumpropsedit.cpp:278
+#: core/libs/album/widgets/albumpropsedit.cpp:282
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@item: top level folder of album"
 msgid "Root of current collection"
 msgstr "विकल्प"
 
-#: core/libs/album/widgets/albumpropsedit.cpp:352
+#: core/libs/album/widgets/albumpropsedit.cpp:356
 #, kde-format
 msgctxt "@info: album properties"
 msgid "Uncategorized Album"
 msgstr ""
 
-#: core/libs/album/widgets/albumpropsedit.cpp:437
+#: core/libs/album/widgets/albumpropsedit.cpp:441
 #, kde-format
 msgctxt "@label: album properties"
 msgid ""
@@ -25276,13 +25294,13 @@ msgid ""
 "\"%1\""
 msgstr ""
 
-#: core/libs/album/widgets/albumpropsedit.cpp:482
+#: core/libs/album/widgets/albumpropsedit.cpp:486
 #, kde-format
 msgctxt "@title: album properties"
 msgid "Could Not Calculate Average"
 msgstr ""
 
-#: core/libs/album/widgets/albumpropsedit.cpp:483
+#: core/libs/album/widgets/albumpropsedit.cpp:487
 #, kde-format
 msgctxt "@info: album properties"
 msgid "Could not calculate date average for this album."
@@ -34464,7 +34482,7 @@ msgid "Map"
 msgstr ""
 
 #: core/libs/properties/itempropertiessidebar.cpp:254
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:609
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:612
 #: core/showfoto/stackview/showfotostackviewitem.cpp:80
 #, fuzzy, kde-format
 #| msgid "Caption"
@@ -37544,24 +37562,24 @@ msgstr ""
 msgid "Output video is %1"
 msgstr "वीडियो"
 
-#: core/libs/video/player/mediaplayerview.cpp:223
+#: core/libs/video/player/mediaplayerview.cpp:224
 #, kde-format
 msgctxt "pause/play video"
 msgid "Pause/Play"
 msgstr ""
 
-#: core/libs/video/player/mediaplayerview.cpp:225
+#: core/libs/video/player/mediaplayerview.cpp:226
 #, kde-format
 msgctxt "capture video frame"
 msgid "Capture"
 msgstr ""
 
-#: core/libs/video/player/mediaplayerview.cpp:228
+#: core/libs/video/player/mediaplayerview.cpp:229
 #, kde-format
 msgid "An error has occurred with the media player..."
 msgstr ""
 
-#: core/libs/video/player/mediaplayerview.cpp:260
+#: core/libs/video/player/mediaplayerview.cpp:261
 #, kde-format
 msgid "Toggle playing in a loop"
 msgstr ""
@@ -43117,7 +43135,7 @@ msgid "The bookmark title which must be unique and not empty"
 msgstr ""
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:137
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:217
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:220
 #, fuzzy, kde-format
 #| msgid "Paper Size:"
 msgctxt "@label"
@@ -43125,7 +43143,7 @@ msgid "&Icon:"
 msgstr "पृष्ठ आकार:"
 
 #: core/showfoto/folderview/showfotofolderviewbookmarkdlg.cpp:145
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:226
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:229
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset"
@@ -44222,10 +44240,9 @@ msgstr "मद हटाबू"
 #, kde-format
 msgctxt "@info"
 msgid ""
-"A \"Favorite Item\" is a hierarchy entry hosting advanced properties\n"
-"as date, icon, description, and images list.\n"
-"A \"Favorite Folder\" is a simple entry in the hierarchy without extra "
-"property."
+"A \"Favorite Item\" is a hierarchy entry hosting advanced properties as "
+"date, icon, description, and images list. A \"Favorite Folder\" is a simple "
+"entry in the hierarchy without extra property."
 msgstr ""
 
 #: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:189
@@ -44256,83 +44273,100 @@ msgid ""
 "Select favorite item date. By default, day of item creation is assigned."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:222
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:211
+#, kde-format
+msgctxt "@info"
+msgid "Use this button to select the date of the oldest image from the list."
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:213
+#, kde-format
+msgctxt "@info"
+msgid "Use this button to calculates the average date of images from the list."
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:215
+#, kde-format
+msgctxt "@info"
+msgid "Use this button to select the date of the newest image from the list."
+msgstr ""
+
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:225
 #, kde-format
 msgctxt "@info"
 msgid "Select here the icon to use for this favorite item in tree-view."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:227
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:230
 #, kde-format
 msgctxt "@info"
 msgid "Assign favorite item icon to default in tree-view."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:240
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:243
 #, fuzzy, kde-format
 #| msgid "Caption"
 msgctxt "@label: favorites item file properties"
 msgid "&Items:"
 msgstr "अनुशीर्षक"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:254
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:257
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@title:column file name"
 msgid "Name"
 msgstr "फाइलक नाम"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:255
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:258
 #, fuzzy, kde-format
 #| msgid "Paper Size:"
 msgctxt "@title:column file size"
 msgid "Size"
 msgstr "पृष्ठ आकार:"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:256
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:259
 #, fuzzy, kde-format
 #| msgid "Video"
 msgctxt "@title:column file type-mime"
 msgid "Type"
 msgstr "वीडियो"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:257
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:260
 #, fuzzy, kde-format
 #| msgid "File Name"
 msgctxt "@title:column file date"
 msgid "Date"
 msgstr "फाइलक नाम"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:258
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:261
 #, kde-format
 msgctxt "@title:column file path"
 msgid "Path"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:260
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:263
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This is the list of files hosted by this favorite item.\n"
-"The current selected file from this list will be automatically\n"
-"shown in editor when favorite is open. If none is selected,\n"
-"first one from the list will be displayed."
+"This is the list of files hosted by this favorite item. The current selected "
+"file from this list will be automatically shown in editor when favorite is "
+"open. If none is selected, first one from the list will be displayed."
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:378
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:381
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@label"
 msgid "Note: favorite item name cannot be empty!"
 msgstr "रँग"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:382
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:385
 #, kde-format
 msgctxt "@label"
 msgid "Note: favorite item files list cannot be empty!"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:386
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:389
 #, fuzzy, kde-format
 #| msgid ""
 #| "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -44341,14 +44375,14 @@ msgid "Note: favorite item name already exists in hierarchy!"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:416
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:419
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@label"
 msgid "Note: favorite folder name cannot be empty!"
 msgstr "रँग"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:420
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:423
 #, fuzzy, kde-format
 #| msgid ""
 #| "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -44357,7 +44391,7 @@ msgid "Note: favorite folder name already exists in hierarchy!"
 msgstr ""
 "फाइल नाम \"%1\"  पहिने सँ अस्तित्व मे अछि. की अहाँ एकर उप्पर मेटाकए लिखनाइ चाहब?"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:436
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:439
 #, fuzzy, kde-format
 #| msgid "Video"
 msgctxt "@info"
@@ -44366,41 +44400,41 @@ msgid_plural "%1 files"
 msgstr[0] "वीडियो"
 msgstr[1] "वीडियो"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:695
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:698
 #, fuzzy, kde-format
 #| msgid "Remove item"
 msgctxt "@title"
 msgid "New Favorite Item"
 msgstr "मद हटाबू"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:699
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:702
 #, fuzzy, kde-format
 #| msgid "Options"
 msgctxt "@title"
 msgid "Edit Favorite Item"
 msgstr "विकल्प"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:706
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:709
 #, fuzzy, kde-format
 #| msgid "Remove item"
 msgctxt "@title"
 msgid "New Favorite Folder"
 msgstr "मद हटाबू"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:710
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:713
 #, fuzzy, kde-format
 #| msgid "Caption"
 msgctxt "@title"
 msgid "Edit Favorite Folder"
 msgstr "अनुशीर्षक"
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:767
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:770
 #, kde-format
 msgctxt "@title: favorite item properties"
 msgid "Could Not Calculate Average"
 msgstr ""
 
-#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:768
+#: core/showfoto/stackview/showfotostackviewfavoriteitemdlg.cpp:771
 #, kde-format
 msgctxt "@info: favorite item properties"
 msgid "Could not calculate date average for this favorite item."
