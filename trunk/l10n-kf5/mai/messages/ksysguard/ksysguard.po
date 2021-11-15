@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-28 16:12+0000\n"
+"POT-Creation-Date: 2021-11-15 00:30+0000\n"
 "PO-Revision-Date: 2010-09-24 21:49+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -131,73 +131,68 @@ msgstr "ओ कमांड भरू जे के-सिसगार्ड क
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "उदाहरण- ssh -l root remote.host.org ksysguardd"
 
-#: ksysguard.cpp:74
-#, kde-format
-msgid "KDE System Monitor"
-msgstr "केडीइ तंत्र मानीटर"
-
-#: ksysguard.cpp:157
+#: ksysguard.cpp:156
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: ksysguard.cpp:159
+#: ksysguard.cpp:158
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: ksysguard.cpp:177 ksysguard.cpp:571
+#: ksysguard.cpp:176 ksysguard.cpp:570
 #, kde-format
 msgid "System Monitor"
 msgstr "सिस्टम मानीटर"
 
-#: ksysguard.cpp:178
+#: ksysguard.cpp:177
 #, kde-format
 msgid "&Refresh Tab"
 msgstr ""
 
-#: ksysguard.cpp:179
+#: ksysguard.cpp:178
 #, kde-format
 msgid "&New Tab..."
 msgstr ""
 
-#: ksysguard.cpp:180
+#: ksysguard.cpp:179
 #, kde-format
 msgid "Import Tab Fr&om File..."
 msgstr ""
 
-#: ksysguard.cpp:181
+#: ksysguard.cpp:180
 #, kde-format
 msgid "Save Tab &As..."
 msgstr ""
 
-#: ksysguard.cpp:182
+#: ksysguard.cpp:181
 #, kde-format
 msgid "&Close Tab"
 msgstr "टैब बन्न करू (&C)"
 
-#: ksysguard.cpp:183
+#: ksysguard.cpp:182
 #, kde-format
 msgid "Monitor &Remote Machine..."
 msgstr ""
 
-#: ksysguard.cpp:184
+#: ksysguard.cpp:183
 #, kde-format
 msgid "&Download New Tabs..."
 msgstr ""
 
-#: ksysguard.cpp:185
+#: ksysguard.cpp:184
 #, kde-format
 msgid "&Upload Current Tab..."
 msgstr ""
 
-#: ksysguard.cpp:187
+#: ksysguard.cpp:186
 #, kde-format
 msgid "Tab &Properties"
 msgstr ""
 
-#: ksysguard.cpp:384
+#: ksysguard.cpp:383
 #, fuzzy, kde-format
 #| msgid "Process Count"
 msgid "1 process"
@@ -205,13 +200,13 @@ msgid_plural "%1 processes"
 msgstr[0] "प्रक्रिया गणना"
 msgstr[1] "प्रक्रिया गणना"
 
-#: ksysguard.cpp:465
+#: ksysguard.cpp:464
 #, fuzzy, kde-format
 #| msgid "CPU: %1%%1%"
 msgid "CPU: %1%"
 msgstr "CPU: %1%%1%"
 
-#: ksysguard.cpp:465
+#: ksysguard.cpp:464
 #, fuzzy, kde-format
 #| msgctxt "units"
 #| msgid "%1%"
@@ -219,13 +214,13 @@ msgctxt "This is the shorter version of CPU: %1%"
 msgid "%1%"
 msgstr "%1%"
 
-#: ksysguard.cpp:484
+#: ksysguard.cpp:483
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2"
 msgstr ""
 
-#: ksysguard.cpp:486
+#: ksysguard.cpp:485
 #, kde-format
 msgctxt ""
 "Arguments are formatted byte sizes (used/total) This should be a shorter "
@@ -233,7 +228,7 @@ msgctxt ""
 msgid "Mem: %1 / %2"
 msgstr ""
 
-#: ksysguard.cpp:488
+#: ksysguard.cpp:487
 #, kde-format
 msgctxt ""
 "Arguments is formatted byte sizes (used) This should be a shorter version of "
@@ -241,12 +236,12 @@ msgctxt ""
 msgid "Mem: %1"
 msgstr ""
 
-#: ksysguard.cpp:516
+#: ksysguard.cpp:515
 #, kde-format
 msgid " No swap space available "
 msgstr "कोनो स्वेप जगह उपलब्ध नहि"
 
-#: ksysguard.cpp:520
+#: ksysguard.cpp:519
 #, fuzzy, kde-format
 #| msgctxt "Arguments are formatted byte sizes (used/total)"
 #| msgid "Swap: %1 / %2Swap: %1%1"
@@ -254,78 +249,83 @@ msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2"
 msgstr "Swap: %1 / %2Swap: %1%1"
 
-#: ksysguard.cpp:522
+#: ksysguard.cpp:521
 #, kde-format
 msgctxt "Arguments is formatted byte sizes (used)"
 msgid "Swap: %1"
 msgstr ""
 
-#: ksysguard.cpp:573
+#: ksysguard.cpp:571
+#, kde-format
+msgid "KDE System Monitor"
+msgstr "केडीइ तंत्र मानीटर"
+
+#: ksysguard.cpp:572
 #, kde-format
 msgid "(c) 1996-2016 The KDE System Monitor Developers"
 msgstr ""
 
-#: ksysguard.cpp:575
+#: ksysguard.cpp:574
 #, kde-format
 msgid "John Tapsell"
 msgstr "जान टापसेल"
 
-#: ksysguard.cpp:575
+#: ksysguard.cpp:574
 #, kde-format
 msgid "Current Maintainer"
 msgstr "वर्तमान मेंटेनर"
 
-#: ksysguard.cpp:576
+#: ksysguard.cpp:575
 #, kde-format
 msgid "Chris Schlaeger"
 msgstr "क्रिस श्लेगर"
 
-#: ksysguard.cpp:576
+#: ksysguard.cpp:575
 #, kde-format
 msgid "Previous Maintainer"
 msgstr "पूर्व मेंटेनर"
 
-#: ksysguard.cpp:577
+#: ksysguard.cpp:576
 #, kde-format
 msgid "Greg Martyn"
 msgstr "ग्रेग मार्टिन"
 
-#: ksysguard.cpp:578
+#: ksysguard.cpp:577
 #, kde-format
 msgid "Tobias Koenig"
 msgstr "टाबियस कोएनिग"
 
-#: ksysguard.cpp:579
+#: ksysguard.cpp:578
 #, kde-format
 msgid "Nicolas Leclercq"
 msgstr "निकोलस लेकलर"
 
-#: ksysguard.cpp:580
+#: ksysguard.cpp:579
 #, kde-format
 msgid "Alex Sanda"
 msgstr "एलेक्स सांदा"
 
-#: ksysguard.cpp:581
+#: ksysguard.cpp:580
 #, kde-format
 msgid "Bernd Johannes Wuebben"
 msgstr "बर्नड जान्स वुएबेन"
 
-#: ksysguard.cpp:582
+#: ksysguard.cpp:581
 #, kde-format
 msgid "Ralf Mueller"
 msgstr "राल्फ मुलर"
 
-#: ksysguard.cpp:583
+#: ksysguard.cpp:582
 #, kde-format
 msgid "Hamish Rodda"
 msgstr "हामिश रोदा"
 
-#: ksysguard.cpp:584
+#: ksysguard.cpp:583
 #, kde-format
 msgid "Torsten Kasch"
 msgstr "टार्सटन कैस"
 
-#: ksysguard.cpp:584
+#: ksysguard.cpp:583
 #, kde-format
 msgid ""
 "Solaris Support\n"
@@ -336,7 +336,7 @@ msgstr ""
 "किछु भागसभ केँ सन ओएस 5 केर \n"
 " विलियम लेफेब्व्रे केर \"टाप\" यूटिलिटी सँ (अनुमति से) लेल गेल अछि."
 
-#: ksysguard.cpp:593
+#: ksysguard.cpp:592
 #, kde-format
 msgid "Optional worksheet files to load"
 msgstr "लोड करब क' लेल वैकल्पिक वर्कशीट फाइलसभ"
