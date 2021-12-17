@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-16 00:41+0000\n"
+"POT-Creation-Date: 2021-12-17 00:40+0000\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2267,17 +2267,17 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "बिनु दस्ताबेज कएल त्रुटि"
 
-#: core/kfileitem.cpp:1348
+#: core/kfileitem.cpp:1352
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "( %1 पर एकटा सिंबालिक लिंक)"
 
-#: core/kfileitem.cpp:1350
+#: core/kfileitem.cpp:1354
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, एहि पर कड़ी: %2)"
 
-#: core/kfileitem.cpp:1353
+#: core/kfileitem.cpp:1357
 #, kde-format
 msgid " (Points to %1)"
 msgstr ""
@@ -3076,37 +3076,45 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|सभटा फाइलसभ"
 
-#: filewidgets/kfileplacesmodel.cpp:1373
-#, kde-format
-msgid "&Release '%1'"
-msgstr ""
+#: filewidgets/kfileplacesmodel.cpp:1372
+#, fuzzy, kde-format
+#| msgid "&Reload List"
+msgctxt "@action:inmenu"
+msgid "&Release"
+msgstr "सूची रीलोड करू (&R)"
 
-#: filewidgets/kfileplacesmodel.cpp:1375
-#, kde-format
-msgid "&Safely Remove '%1'"
-msgstr ""
+#: filewidgets/kfileplacesmodel.cpp:1374
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:inmenu"
+msgid "&Safely Remove"
+msgstr "हटाबू"
 
-#: filewidgets/kfileplacesmodel.cpp:1378
-#, kde-format
-msgid "&Unmount '%1'"
-msgstr "अनमाउन्ट  '%1' (&U)"
+#: filewidgets/kfileplacesmodel.cpp:1377
+#, fuzzy, kde-format
+#| msgid "Unmount"
+msgctxt "@action:inmenu"
+msgid "&Unmount"
+msgstr "अनारोहित करू"
 
-#: filewidgets/kfileplacesmodel.cpp:1398
-#, kde-format
-msgid "&Eject '%1'"
-msgstr "'%1' बाहर करू (&E)"
+#: filewidgets/kfileplacesmodel.cpp:1396
+#, fuzzy, kde-format
+#| msgid "Eject"
+msgctxt "@action:inmenu"
+msgid "&Eject"
+msgstr "बाहर निकालू"
 
-#: filewidgets/kfileplacesmodel.cpp:1434
+#: filewidgets/kfileplacesmodel.cpp:1432
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1469
+#: filewidgets/kfileplacesmodel.cpp:1467
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1471
+#: filewidgets/kfileplacesmodel.cpp:1469
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "'%1' पर पहुँचबाक कोसिस मे एकटा त्रुटि भेल"
@@ -8961,6 +8969,12 @@ msgstr ""
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
+#~ msgid "&Unmount '%1'"
+#~ msgstr "अनमाउन्ट  '%1' (&U)"
+
+#~ msgid "&Eject '%1'"
+#~ msgstr "'%1' बाहर करू (&E)"
+
 #, fuzzy
 #~| msgid "Edit Entry..."
 #~ msgid "&Edit Entry '%1'..."
@@ -9019,9 +9033,6 @@ msgstr ""
 #~| msgid "Writing to %1 is not supported."
 #~ msgid "unmounting is not supported by wince."
 #~ msgstr " %1 पर लिखल जएनाइ समर्थित नहि अछि."
-
-#~ msgid "Eject"
-#~ msgstr "बाहर निकालू"
 
 #, fuzzy
 #~| msgid "Device name"
