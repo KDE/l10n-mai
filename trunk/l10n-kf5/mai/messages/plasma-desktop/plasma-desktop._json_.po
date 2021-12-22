@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-18 00:56+0000\n"
+"POT-Creation-Date: 2021-12-22 00:56+0000\n"
 "PO-Revision-Date: 2010-09-24 21:30+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -174,10 +174,18 @@ msgctxt "Name"
 msgid "Background Services"
 msgstr ""
 
-#: kcms/keyboard/keyboard.json
+#: kcms/keyboard/kcm_keyboard.json
 msgctxt "Name"
 msgid "Keyboard"
 msgstr "कुँजीपटल"
+
+#: kcms/keyboard/kded_keyboard.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Name"
+msgid "Keyboard Daemon"
+msgstr "कीबोर्ड लेआउट"
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -474,13 +482,18 @@ msgctxt "Description"
 msgid "Configure background services"
 msgstr "कुंजीपट आओर माउस सेटिंग बिन्यस्त करू"
 
-#: kcms/keyboard/keyboard.json
+#: kcms/keyboard/kcm_keyboard.json
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Keyboard Layout"
 msgctxt "Description"
 msgid "Keyboard Hardware and Layout"
 msgstr "कीबोर्ड लेआउट"
+
+#: kcms/keyboard/kded_keyboard.json
+msgctxt "Description"
+msgid "Enables switching keyboard layout through shortcuts or system tray"
+msgstr ""
 
 #: kcms/keys/kcm_keys.json
 #, fuzzy
@@ -825,13 +838,6 @@ msgstr "फाइल पथ"
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid "KDED,daemon,services,background,ram"
 #~ msgstr "डाल्फिन सेवा"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Keyboard Layout"
-#~ msgctxt "Name"
-#~ msgid "Keyboard Daemon"
-#~ msgstr "कीबोर्ड लेआउट"
 
 #~ msgctxt "Name"
 #~ msgid "Charge Percent"
