@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcolors\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-13 00:45+0000\n"
+"POT-Creation-Date: 2022-02-16 00:47+0000\n"
 "PO-Revision-Date: 2009-01-18 15:27+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -890,39 +890,53 @@ msgstr "अक्रिय विंडो रंग आ प्रभाव ल�
 msgid "Use different colors for in&active selections"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, accentActiveTitlebar)
 #: editor/scmeditoroptions.ui:31
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply a&ccent color to active window titlebars"
+msgstr "अक्रिय विंडो रंग आ प्रभाव लागू करू (&e)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, accentInactiveTitlebar)
+#: editor/scmeditoroptions.ui:38
+#, fuzzy, kde-format
+#| msgid "Apply inactive window color &effects"
+msgid "Apply acce&nt color to inactive window titlebars"
+msgstr "अक्रिय विंडो रंग आ प्रभाव लागू करू (&e)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#: editor/scmeditoroptions.ui:45
 #, kde-format
 msgid "Shade sorted column &in lists"
 msgstr "छाँटल गेल स्तम्भ &i केँ सूची मे छायाबद्ध करू"
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:38
+#: editor/scmeditoroptions.ui:52
 #, kde-format
 msgid "Shading of frames and lighting (\"3D\") effects"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
-#: editor/scmeditoroptions.ui:41
+#: editor/scmeditoroptions.ui:55
 #, fuzzy, kde-format
 #| msgid "Shade"
 msgid "Shading"
 msgstr "छायांकित"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: editor/scmeditoroptions.ui:53
+#: editor/scmeditoroptions.ui:67
 #, kde-format
 msgid "Minimum"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: editor/scmeditoroptions.ui:73
+#: editor/scmeditoroptions.ui:87
 #, kde-format
 msgid "Maximum"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: editor/scmeditoroptions.ui:80
+#: editor/scmeditoroptions.ui:94
 #, kde-format
 msgid "Contrast"
 msgstr "विरोधी"
@@ -1222,92 +1236,92 @@ msgstr ""
 msgid "Choose custom accent color"
 msgstr ""
 
-#: package/contents/ui/main.qml:325
+#: package/contents/ui/main.qml:324
 #, fuzzy, kde-format
 #| msgid "Window Text"
 msgid "Window Title"
 msgstr "विंडो पाठ"
 
-#: package/contents/ui/main.qml:347
+#: package/contents/ui/main.qml:346
 #, fuzzy, kde-format
 #| msgid "Window text"
 msgid "Window text"
 msgstr "विंडो पाठ"
 
-#: package/contents/ui/main.qml:354
+#: package/contents/ui/main.qml:353
 #, fuzzy, kde-format
 #| msgid "Button"
 msgid "Button"
 msgstr "बटन"
 
-#: package/contents/ui/main.qml:388
+#: package/contents/ui/main.qml:387
 #, fuzzy, kde-format
 #| msgid "link"
 msgctxt "Hyperlink"
 msgid "link"
 msgstr "लिंक "
 
-#: package/contents/ui/main.qml:390
+#: package/contents/ui/main.qml:389
 #, fuzzy, kde-format
 #| msgid "visited"
 msgctxt "Visited hyperlink"
 msgid "visited"
 msgstr "देखल गेल"
 
-#: package/contents/ui/main.qml:397
+#: package/contents/ui/main.qml:396
 #, fuzzy, kde-format
 #| msgid "Normal text"
 msgid "Normal text"
 msgstr "सामान्य पाठ"
 
-#: package/contents/ui/main.qml:405
+#: package/contents/ui/main.qml:404
 #, fuzzy, kde-format
 #| msgid "Visited Text"
 msgid "Highlighted text"
 msgstr "भ्रमण कएल जाए चुकल पाठ"
 
-#: package/contents/ui/main.qml:412
+#: package/contents/ui/main.qml:411
 #, fuzzy, kde-format
 #| msgid "Disabled"
 msgid "Disabled text"
 msgstr "अक्षम"
 
-#: package/contents/ui/main.qml:430
+#: package/contents/ui/main.qml:429
 #, fuzzy, kde-format
 #| msgid "Get &New Schemes..."
 msgid "Edit Color Scheme…"
 msgstr "नवीन प्रसंग प्राप्त करू (&N)..."
 
-#: package/contents/ui/main.qml:436
+#: package/contents/ui/main.qml:435
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Remove Color Scheme"
 msgstr "रंग योजना सहेजू"
 
-#: package/contents/ui/main.qml:443
+#: package/contents/ui/main.qml:442
 #, fuzzy, kde-format
 #| msgid "Import Color Scheme"
 msgid "Restore Color Scheme"
 msgstr "रंग योजना आयात करू"
 
-#: package/contents/ui/main.qml:487
+#: package/contents/ui/main.qml:486
 #, kde-format
 msgid "Install from File…"
 msgstr ""
 
-#: package/contents/ui/main.qml:492
+#: package/contents/ui/main.qml:491
 #, fuzzy, kde-format
 #| msgid "Get &New Schemes..."
 msgid "Get New Color Schemes…"
 msgstr "नवीन प्रसंग प्राप्त करू (&N)..."
 
-#: package/contents/ui/main.qml:510
+#: package/contents/ui/main.qml:509
 #, fuzzy, kde-format
 #| msgid "Save Color Scheme"
 msgid "Open Color Scheme"
 msgstr "रंग योजना सहेजू"
 
-#: package/contents/ui/main.qml:512
+#: package/contents/ui/main.qml:511
 #, kde-format
 msgid "Color Scheme Files (*.colors)"
 msgstr ""
