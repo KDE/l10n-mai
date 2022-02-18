@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-17 00:40+0000\n"
+"POT-Creation-Date: 2022-02-18 00:41+0000\n"
 "PO-Revision-Date: 2009-04-22 00:00+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -14406,7 +14406,7 @@ msgid "Does %1 have a shutter?"
 msgstr ""
 
 #: ekos/capture/capturecommandprocessor.cpp:272
-#: ekos/capture/sequencejobstate.cpp:519
+#: ekos/capture/sequencejobstate.cpp:521
 #, fuzzy, kde-format
 #| msgid "Exposure:"
 msgid "Dark Exposure"
@@ -15002,127 +15002,112 @@ msgstr "प्रगति"
 msgid "Complete"
 msgstr "कम्प्यूटर"
 
-#: ekos/capture/sequencejobstate.cpp:273
+#: ekos/capture/sequencejobstate.cpp:275
 #, kde-format
 msgid "Cover telescope with an evenly illuminated light source."
 msgstr ""
 
-#: ekos/capture/sequencejobstate.cpp:274
+#: ekos/capture/sequencejobstate.cpp:276
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Bartlesville"
 msgid "Flat Frame"
 msgstr "बार्टल्सविले"
 
-#: ekos/capture/sequencejobstate.cpp:298
+#: ekos/capture/sequencejobstate.cpp:300 ekos/capture/sequencejobstate.cpp:345
+#: ekos/capture/sequencejobstate.cpp:416
 #, kde-format
 msgid "Turn light box light on..."
 msgstr ""
 
-#: ekos/capture/sequencejobstate.cpp:313
+#: ekos/capture/sequencejobstate.cpp:315 ekos/capture/sequencejobstate.cpp:362
 #, fuzzy, kde-format
 #| msgid "Scope"
 msgid "Parking dust cap..."
 msgstr "स्कोप"
 
-#: ekos/capture/sequencejobstate.cpp:321
+#: ekos/capture/sequencejobstate.cpp:323 ekos/capture/sequencejobstate.cpp:372
 #, fuzzy, kde-format
 #| msgid "Scope"
 msgid "Turn dust cap light on..."
 msgstr "स्कोप"
 
-#: ekos/capture/sequencejobstate.cpp:343 ekos/capture/sequencejobstate.cpp:414
-#, kde-format
-msgid "Turn light box light %1..."
-msgstr ""
-
-#: ekos/capture/sequencejobstate.cpp:360
-#, fuzzy, kde-format
-#| msgid "Scope"
-msgid "%1 dust cap..."
-msgstr "स्कोप"
-
-#: ekos/capture/sequencejobstate.cpp:370
-#, fuzzy, kde-format
-#| msgid "Scope"
-msgid "Turn dust cap light %1..."
-msgstr "स्कोप"
-
-#: ekos/capture/sequencejobstate.cpp:387
-#, kde-format
-msgid "Mount slewing to wall position..."
-msgstr ""
-
-#: ekos/capture/sequencejobstate.cpp:398 ekos/capture/sequencejobstate.cpp:402
-#, fuzzy, kde-format
-#| msgid "Client"
-msgid "Slew to wall position complete, stop tracking."
-msgstr "क्लाएँट"
-
-#: ekos/capture/sequencejobstate.cpp:429
-#, fuzzy, kde-format
-#| msgid "Scope"
-msgid "Parking mount failed, aborting..."
-msgstr "स्कोप"
-
-#: ekos/capture/sequencejobstate.cpp:439
-#, kde-format
-msgid "Parking mount prior to calibration frames capture..."
-msgstr ""
-
-#: ekos/capture/sequencejobstate.cpp:453
-#, fuzzy, kde-format
-#| msgid "Scope"
-msgid "Parking dome failed, aborting..."
-msgstr "स्कोप"
-
-#: ekos/capture/sequencejobstate.cpp:463
-#, kde-format
-msgid "Parking dome prior to calibration frames capture..."
-msgstr ""
-
-#: ekos/capture/sequencejobstate.cpp:518
-#, kde-format
-msgid "Cover the telescope in order to take a dark exposure."
-msgstr ""
-
-#: ekos/capture/sequencejobstate.cpp:570
+#: ekos/capture/sequencejobstate.cpp:345 ekos/capture/sequencejobstate.cpp:416
+#: ekos/capture/sequencejobstate.cpp:572
 #, kde-format
 msgid "Turn light box light off..."
 msgstr ""
 
-#: ekos/capture/sequencejobstate.cpp:585
-#, fuzzy, kde-format
-#| msgid "Scope"
-msgid "Turn dust cap light off..."
-msgstr "स्कोप"
-
-#: ekos/capture/sequencejobstate.cpp:594
+#: ekos/capture/sequencejobstate.cpp:362 ekos/capture/sequencejobstate.cpp:596
 #, fuzzy, kde-format
 #| msgid "Scope"
 msgid "Unparking dust cap..."
 msgstr "स्कोप"
 
-#: ekos/capture/sequencejobstate.cpp:676
+#: ekos/capture/sequencejobstate.cpp:372 ekos/capture/sequencejobstate.cpp:587
+#, fuzzy, kde-format
+#| msgid "Scope"
+msgid "Turn dust cap light off..."
+msgstr "स्कोप"
+
+#: ekos/capture/sequencejobstate.cpp:389
+#, kde-format
+msgid "Mount slewing to wall position..."
+msgstr ""
+
+#: ekos/capture/sequencejobstate.cpp:400 ekos/capture/sequencejobstate.cpp:404
+#, fuzzy, kde-format
+#| msgid "Client"
+msgid "Slew to wall position complete, stop tracking."
+msgstr "क्लाएँट"
+
+#: ekos/capture/sequencejobstate.cpp:431
+#, fuzzy, kde-format
+#| msgid "Scope"
+msgid "Parking mount failed, aborting..."
+msgstr "स्कोप"
+
+#: ekos/capture/sequencejobstate.cpp:441
+#, kde-format
+msgid "Parking mount prior to calibration frames capture..."
+msgstr ""
+
+#: ekos/capture/sequencejobstate.cpp:455
+#, fuzzy, kde-format
+#| msgid "Scope"
+msgid "Parking dome failed, aborting..."
+msgstr "स्कोप"
+
+#: ekos/capture/sequencejobstate.cpp:465
+#, kde-format
+msgid "Parking dome prior to calibration frames capture..."
+msgstr ""
+
+#: ekos/capture/sequencejobstate.cpp:520
+#, kde-format
+msgid "Cover the telescope in order to take a dark exposure."
+msgstr ""
+
+#: ekos/capture/sequencejobstate.cpp:678
 #, kde-format
 msgid "Light box on."
 msgstr ""
 
-#: ekos/capture/sequencejobstate.cpp:684
+#: ekos/capture/sequencejobstate.cpp:686
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Dawson Creek"
 msgid "Dust cap light on."
 msgstr "डाउसन क्रीक"
 
-#: ekos/capture/sequencejobstate.cpp:699
+#: ekos/capture/sequencejobstate.cpp:701
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Dawson Creek"
 msgid "Dust cap parked."
 msgstr "डाउसन क्रीक"
 
-#: ekos/capture/sequencejobstate.cpp:703
+#: ekos/capture/sequencejobstate.cpp:705
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Dawson Creek"
@@ -85202,6 +85187,16 @@ msgstr "पृष्ठभूमि क' रंगः"
 #, kde-format
 msgid "Set the color for the background."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Scope"
+#~ msgid "%1 dust cap..."
+#~ msgstr "स्कोप"
+
+#, fuzzy
+#~| msgid "Scope"
+#~ msgid "Turn dust cap light %1..."
+#~ msgstr "स्कोप"
 
 #, fuzzy
 #~| msgid "Scope"
