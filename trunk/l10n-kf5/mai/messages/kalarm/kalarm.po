@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-10 00:44+0000\n"
+"POT-Creation-Date: 2022-02-23 00:46+0000\n"
 "PO-Revision-Date: 2010-09-24 16:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1676,56 +1676,6 @@ msgid ""
 "for sending to a remote system. This could be useful if, for example, you "
 "have a dial-up connection, so that you can then ensure that the email is "
 "actually transmitted."
-msgstr ""
-
-#. i18n: ectx: label, entry (Path), group (General)
-#: data/kalarmdirresource.kcfg:9
-#, kde-format
-msgid "Path to KAlarm directory."
-msgstr ""
-
-#. i18n: ectx: label, entry (DisplayName), group (General)
-#: data/kalarmdirresource.kcfg:13 data/kalarmresource.kcfg:13
-#, kde-format
-msgid "Display name."
-msgstr ""
-
-#. i18n: ectx: label, entry (ReadOnly), group (General)
-#: data/kalarmdirresource.kcfg:17 data/kalarmresource.kcfg:17
-#, kde-format
-msgid "Do not change the actual backend data."
-msgstr ""
-
-#. i18n: ectx: label, entry (MonitorFiles), group (General)
-#: data/kalarmdirresource.kcfg:21
-#, kde-format
-msgid "Monitor directory for changes."
-msgstr ""
-
-#. i18n: ectx: label, entry (AlarmTypes), group (General)
-#: data/kalarmdirresource.kcfg:25 data/kalarmresource.kcfg:25
-#, fuzzy, kde-format
-#| msgctxt "@label:listbox"
-#| msgid "Display type:"
-msgid "Alarm types."
-msgstr "प्रदर्शन प्रकार:"
-
-#. i18n: ectx: label, entry (UpdateStorageFormat), group (General)
-#: data/kalarmdirresource.kcfg:28 data/kalarmresource.kcfg:28
-#, kde-format
-msgid "Update backend storage format."
-msgstr ""
-
-#. i18n: ectx: label, entry (Path), group (General)
-#: data/kalarmresource.kcfg:9
-#, kde-format
-msgid "Path to KAlarm calendar file."
-msgstr ""
-
-#. i18n: ectx: label, entry (MonitorFile), group (General)
-#: data/kalarmresource.kcfg:21
-#, kde-format
-msgid "Monitor file for changes."
 msgstr ""
 
 #. i18n: ectx: Menu (file)
@@ -6402,13 +6352,13 @@ msgctxt "@item:intext What a resource is stored in (directory in filesystem)"
 msgid "Directory"
 msgstr "निर्देशिका"
 
-#: resources/singlefileresource.cpp:176 resources/singlefileresource.cpp:351
+#: resources/singlefileresource.cpp:176 resources/singlefileresource.cpp:350
 #, kde-format
 msgctxt "@info"
 msgid "A previous load is still in progress."
 msgstr ""
 
-#: resources/singlefileresource.cpp:182 resources/singlefileresource.cpp:357
+#: resources/singlefileresource.cpp:182 resources/singlefileresource.cpp:356
 #, kde-format
 msgctxt "@info"
 msgid "A previous save is still in progress."
@@ -6426,13 +6376,13 @@ msgctxt "@info"
 msgid "Could not create writable calendar file <filename>%1</filename>."
 msgstr ""
 
-#: resources/singlefileresource.cpp:603
+#: resources/singlefileresource.cpp:601
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load file <filename>%1</filename>."
 msgstr ""
 
-#: resources/singlefileresource.cpp:635
+#: resources/singlefileresource.cpp:633
 #, fuzzy, kde-format
 #| msgctxt "@title:column"
 #| msgid "Calendars"
@@ -6440,19 +6390,19 @@ msgctxt "@info"
 msgid "Calendar not open."
 msgstr "कैलेंडर"
 
-#: resources/singlefileresource.cpp:648
+#: resources/singlefileresource.cpp:646
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not save file <filename>%1</filename>."
 msgstr ""
 
-#: resources/singlefileresource.cpp:743
+#: resources/singlefileresource.cpp:741
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not load file <filename>%1</filename>. (%2)"
 msgstr ""
 
-#: resources/singlefileresource.cpp:780
+#: resources/singlefileresource.cpp:778
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Could not save file <filename>%1</filename>. (%2)"
@@ -7580,6 +7530,12 @@ msgstr ""
 #, kde-format
 msgid "Number of minutes before alarm to wake from suspend"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "@label:listbox"
+#~| msgid "Display type:"
+#~ msgid "Alarm types."
+#~ msgstr "प्रदर्शन प्रकार:"
 
 #~ msgctxt "@item:inlistbox Morning, as in 2am"
 #~ msgid "am"
