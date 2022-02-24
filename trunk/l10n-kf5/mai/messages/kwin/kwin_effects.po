@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_effects\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-23 00:47+0000\n"
+"POT-Creation-Date: 2022-02-24 00:45+0000\n"
 "PO-Revision-Date: 2010-09-24 21:46+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -69,7 +69,7 @@ msgstr "डेस्कटाप ग्रिड देखाबू"
 
 #: desktopgrid/desktopgrid_config.cpp:49 invert/invert_config.cpp:35
 #: lookingglass/lookingglass_config.cpp:55 magnifier/magnifier_config.cpp:55
-#: mouseclick/mouseclick_config.cpp:47 mousemark/mousemark_config.cpp:53
+#: mouseclick/mouseclick_config.cpp:47 mousemark/mousemark_config.cpp:51
 #: overview/kcm/overvieweffectkcm.cpp:34
 #: presentwindows/presentwindows_config.cpp:48
 #: showpaint/showpaint_config.cpp:33
@@ -182,19 +182,19 @@ msgstr ""
 msgid "&Layout mode:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:127
 #, kde-format
 msgid "Pager"
 msgstr "पेजर"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:132
 #, kde-format
 msgid "Automatic"
 msgstr "स्वचालित"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: desktopgrid/desktopgrid_config.ui:137
 #, kde-format
 msgid "Custom"
@@ -563,12 +563,17 @@ msgstr "डेस्कटॉप देखाबू"
 msgid "Clear All Mouse Marks"
 msgstr "सभटा माउस चिह्न साफ करू"
 
-#: mousemark/mousemark.cpp:43 mousemark/mousemark_config.cpp:62
+#: mousemark/mousemark.cpp:43 mousemark/mousemark_config.cpp:60
 #, kde-format
 msgid "Clear Last Mouse Mark"
 msgstr "अंतिम माउस चिह्न साफ करू"
 
-#: mousemark/mousemark_config.cpp:42
+#: mousemark/mousemark_config.cpp:54
+#, kde-format
+msgid "Clear Mouse Marks"
+msgstr "माउस चिह्न साफ करू"
+
+#: mousemark/mousemark_config.cpp:101
 #, fuzzy, kde-format
 #| msgid " px"
 msgctxt "Suffix"
@@ -576,11 +581,6 @@ msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] "पिक्सेल"
 msgstr[1] "पिक्सेल"
-
-#: mousemark/mousemark_config.cpp:56
-#, kde-format
-msgid "Clear Mouse Marks"
-msgstr "माउस चिह्न साफ करू"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: mousemark/mousemark_config.ui:23
@@ -621,7 +621,6 @@ msgid "Closest"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
 #: overview/kcm/overvieweffectkcm.ui:35
 #: presentwindows/presentwindows_config.ui:441
 #, kde-format
@@ -707,12 +706,12 @@ msgstr "विंडोज़"
 msgid "Left button:"
 msgstr "बम्माँ बटनः"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonDesktop)
 #: presentwindows/presentwindows_config.ui:139
 #: presentwindows/presentwindows_config.ui:183
 #: presentwindows/presentwindows_config.ui:232
@@ -723,12 +722,12 @@ msgstr "बम्माँ बटनः"
 msgid "No action"
 msgstr "कोनो काज नहि"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonDesktop)
 #: presentwindows/presentwindows_config.ui:144
 #: presentwindows/presentwindows_config.ui:188
 #: presentwindows/presentwindows_config.ui:237
@@ -740,12 +739,12 @@ msgstr "कोनो काज नहि"
 msgid "Activate window"
 msgstr "असक्रिय विंडो:"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonDesktop)
 #: presentwindows/presentwindows_config.ui:149
 #: presentwindows/presentwindows_config.ui:193
 #: presentwindows/presentwindows_config.ui:242
@@ -756,9 +755,9 @@ msgstr "असक्रिय विंडो:"
 msgid "End effect"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
 #: presentwindows/presentwindows_config.ui:154
 #: presentwindows/presentwindows_config.ui:198
 #: presentwindows/presentwindows_config.ui:247
@@ -766,9 +765,9 @@ msgstr ""
 msgid "Bring window to current desktop"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
 #: presentwindows/presentwindows_config.ui:159
 #: presentwindows/presentwindows_config.ui:203
 #: presentwindows/presentwindows_config.ui:252
@@ -776,9 +775,9 @@ msgstr ""
 msgid "Send window to all desktops"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
 #: presentwindows/presentwindows_config.ui:164
 #: presentwindows/presentwindows_config.ui:208
 #: presentwindows/presentwindows_config.ui:257
@@ -794,8 +793,8 @@ msgstr ""
 msgid "Middle button:"
 msgstr "मध्य बटनः"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonWindow)
 #: presentwindows/presentwindows_config.ui:213
 #: presentwindows/presentwindows_config.ui:262
 #, fuzzy, kde-format
@@ -819,9 +818,9 @@ msgctxt "@title:group actions when clicking on desktop"
 msgid "Desktop"
 msgstr "डेस्कटाप"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_RightButtonDesktop)
 #: presentwindows/presentwindows_config.ui:308
 #: presentwindows/presentwindows_config.ui:342
 #: presentwindows/presentwindows_config.ui:376
@@ -854,13 +853,13 @@ msgstr ""
 msgid "Show &panels"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: presentwindows/presentwindows_config.ui:446
 #, kde-format
 msgid "Regular Grid"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: presentwindows/presentwindows_config.ui:451
 #, kde-format
 msgid "Flexible Grid"
@@ -925,37 +924,37 @@ msgstr ""
 msgid "Text position:"
 msgstr "पाठ स्थिति:"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
 #: showfps/showfps_config.ui:43
 #, kde-format
 msgid "Inside Graph"
 msgstr "ग्राफ केर भीतर"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
 #: showfps/showfps_config.ui:48
 #, kde-format
 msgid "Nowhere"
 msgstr "कतओ नहि"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
 #: showfps/showfps_config.ui:53
 #, kde-format
 msgid "Top Left"
 msgstr "उप्पर बामाँ"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
 #: showfps/showfps_config.ui:58
 #, kde-format
 msgid "Top Right"
 msgstr "उप्पर दहिन्ना "
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
 #: showfps/showfps_config.ui:63
 #, kde-format
 msgid "Bottom Left"
 msgstr "नीच्चाँ बम्माँ तरफ"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
 #: showfps/showfps_config.ui:68
 #, kde-format
 msgid "Bottom Right"
