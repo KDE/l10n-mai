@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-24 00:41+0000\n"
+"POT-Creation-Date: 2022-02-26 00:45+0000\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -2932,7 +2932,6 @@ msgstr ""
 #: core/libs/album/widgets/albumselecttabs.cpp:201
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:78
 #: core/libs/metadataengine/dmetadata/dmetadatasettingscontainer.cpp:42
-#: core/libs/models/albummodel_tag.cpp:34
 #: core/libs/properties/captions/itemdescedittab.cpp:329
 #: core/libs/tags/widgets/tagfolderview.cpp:113
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:608
@@ -26028,6 +26027,7 @@ msgstr ""
 #: core/libs/database/models/itemfiltermodel.cpp:395
 #, fuzzy, kde-format
 #| msgid "Colors"
+msgctxt "@item: filter model"
 msgid "%1 Face"
 msgid_plural "%1 Faces"
 msgstr[0] "रँग"
@@ -27218,12 +27218,14 @@ msgstr "किछु नहि"
 
 #: core/libs/dialogs/libsinfodlg.cpp:144
 #, kde-format
+msgctxt "@title"
 msgid "Features"
 msgstr ""
 
 #: core/libs/dialogs/libsinfodlg.cpp:166
 #, fuzzy, kde-format
 #| msgid "Options"
+msgctxt "@title"
 msgid "Libraries"
 msgstr "विकल्प"
 
@@ -33423,6 +33425,13 @@ msgstr "जमावट"
 msgctxt "Focus point type description"
 msgid "Inactive"
 msgstr ""
+
+#: core/libs/models/albummodel_tag.cpp:34
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@title"
+msgid "Tags"
+msgstr "विकल्प"
 
 #: core/libs/models/albummodel_tag.cpp:61
 #, kde-format
@@ -45601,33 +45610,33 @@ msgctxt "@info"
 msgid "Enter custom format"
 msgstr ""
 
-#: core/utilities/advancedrename/parser/options/dateoption.cpp:258
+#: core/utilities/advancedrename/parser/options/dateoption.cpp:256
 #, kde-format
 msgctxt "@info"
 msgid "example: "
 msgstr ""
 
-#: core/utilities/advancedrename/parser/options/dateoption.cpp:265
+#: core/utilities/advancedrename/parser/options/dateoption.cpp:263
 #, fuzzy, kde-format
 #| msgid "Caption"
 msgctxt "@info"
 msgid "Date && Time..."
 msgstr "अनुशीर्षक"
 
-#: core/utilities/advancedrename/parser/options/dateoption.cpp:266
+#: core/utilities/advancedrename/parser/options/dateoption.cpp:264
 #, kde-format
 msgctxt "@info"
 msgid "Add date and time information"
 msgstr ""
 
-#: core/utilities/advancedrename/parser/options/dateoption.cpp:269
+#: core/utilities/advancedrename/parser/options/dateoption.cpp:267
 #, kde-format
 msgctxt "@item"
 msgid "Date and time (standard format)"
 msgstr ""
 
-#: core/utilities/advancedrename/parser/options/dateoption.cpp:270
-#: core/utilities/advancedrename/parser/options/dateoption.cpp:271
+#: core/utilities/advancedrename/parser/options/dateoption.cpp:268
+#: core/utilities/advancedrename/parser/options/dateoption.cpp:269
 #, kde-format
 msgctxt "@item"
 msgid "Date and time"
@@ -51756,9 +51765,11 @@ msgid "Reset contents"
 msgstr ""
 
 #: core/utilities/searchwindow/searchfields_album.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@item"
 msgid "Any Album"
-msgstr ""
+msgstr "विकल्प"
 
 #: core/utilities/searchwindow/searchfields_album.cpp:62
 #, kde-format
@@ -51780,6 +51791,7 @@ msgstr ""
 
 #: core/utilities/searchwindow/searchfields_album.cpp:68
 #, kde-format
+msgctxt "@item"
 msgid "Any Tag"
 msgstr ""
 
@@ -51789,8 +51801,9 @@ msgctxt "@option: default kind of search options combined"
 msgid "Any"
 msgstr ""
 
-#: core/utilities/searchwindow/searchfields_choice.cpp:111
+#: core/utilities/searchwindow/searchfields_choice.cpp:112
 #, kde-format
+msgctxt "@label: search field choice combo-box description"
 msgid "Any of: %1"
 msgstr ""
 
