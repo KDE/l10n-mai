@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-04 00:43+0000\n"
+"POT-Creation-Date: 2022-03-06 00:42+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -15215,14 +15215,14 @@ msgstr "आकार"
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:31
 #: plugins/tools/basictools/kis_tool_brush.cc:388
-#: plugins/tools/basictools/kis_tool_fill.cc:349
-#: plugins/tools/basictools/kis_tool_fill.cc:356
+#: plugins/tools/basictools/kis_tool_fill.cc:376
+#: plugins/tools/basictools/kis_tool_fill.cc:383
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
 #: plugins/tools/basictools/wdgcolorsampler.ui:186
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:304
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:307
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:306
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:309
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:117
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:142
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:250
@@ -17895,10 +17895,10 @@ msgstr "इंक"
 msgid "Out"
 msgstr "पसंदीदा"
 
-#: libs/pigment/resources/KoColorSet.cpp:489
-#: libs/pigment/resources/KoColorSet.cpp:770
-#: libs/pigment/resources/KoColorSet.cpp:852
-#: libs/pigment/resources/KoColorSet.cpp:1075
+#: libs/pigment/resources/KoColorSet.cpp:495
+#: libs/pigment/resources/KoColorSet.cpp:837
+#: libs/pigment/resources/KoColorSet.cpp:914
+#: libs/pigment/resources/KoColorSet.cpp:1124
 #: libs/ui/actions/KisPasteActionFactories.cpp:300
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345 libs/ui/KisView.cpp:839
 #: plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
@@ -21035,8 +21035,8 @@ msgstr "चित्र विशेषता"
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/basictools/kis_tool_fill.cc:335
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:260
+#: plugins/tools/basictools/kis_tool_fill.cc:362
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:262
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
 msgid "%"
@@ -23784,7 +23784,7 @@ msgstr "रूपांतरित करू"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdggeometryoptions.ui:120
-#: plugins/tools/basictools/kis_tool_fill.cc:362
+#: plugins/tools/basictools/kis_tool_fill.cc:389
 #, fuzzy, kde-format
 msgid "Rotate:"
 msgstr "परत घुमाबू"
@@ -23803,7 +23803,7 @@ msgstr "परत घुमाबू"
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
 #: plugins/paintops/spray/wdgsprayoptions.ui:112
-#: plugins/tools/basictools/kis_tool_fill.cc:368
+#: plugins/tools/basictools/kis_tool_fill.cc:395
 #, fuzzy, kde-format
 msgid "Scale:"
 msgstr "मापक"
@@ -25389,7 +25389,7 @@ msgstr "ज्यामिति"
 #. i18n: ectx: property (text), widget (QCheckBox, chkAntialiasing)
 #: libs/ui/forms/wdgselectionoptions.ui:185
 #: plugins/extensions/modify_selection/wdg_border_selection.ui:127
-#: plugins/tools/basictools/kis_tool_fill.cc:339
+#: plugins/tools/basictools/kis_tool_fill.cc:366
 #, fuzzy, kde-format
 msgid "Anti-aliasing"
 msgstr "उर्ध्वाधर"
@@ -52378,59 +52378,59 @@ msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "परिभाषित नहि"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:318
+#: plugins/tools/basictools/kis_tool_fill.cc:345
 #, fuzzy, kde-format
 msgid "Fast mode:"
 msgstr "आनुपातिक"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:321
+#: plugins/tools/basictools/kis_tool_fill.cc:348
 #, kde-format
 msgid ""
 "Fills area faster, but does not take composition mode into account. "
 "Selections and other extended features will also be disabled."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:326
+#: plugins/tools/basictools/kis_tool_fill.cc:353
 #, fuzzy, kde-format
 #| msgid "Threshold:"
 msgctxt "The Threshold label in Fill tool options"
 msgid "Threshold:"
 msgstr "दहलीज:"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:332
+#: plugins/tools/basictools/kis_tool_fill.cc:359
 #, fuzzy, kde-format
 msgctxt "The Opacity Spread label in Fill tool options"
 msgid "Opacity Spread:"
 msgstr "अपारदर्शिता"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:342
+#: plugins/tools/basictools/kis_tool_fill.cc:369
 #, kde-format
 msgid "Smooths the jagged edges."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:344
+#: plugins/tools/basictools/kis_tool_fill.cc:371
 #, fuzzy, kde-format
 msgid "Grow selection:"
 msgstr "एकरा द्वारा चयन बढाउ"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:351
+#: plugins/tools/basictools/kis_tool_fill.cc:378
 #, fuzzy, kde-format
 msgid "Feathering radius:"
 msgstr "आँशिक"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:358
+#: plugins/tools/basictools/kis_tool_fill.cc:385
 #, fuzzy, kde-format
 msgid "Use pattern:"
 msgstr "तालाबन्न"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:360
+#: plugins/tools/basictools/kis_tool_fill.cc:387
 #, kde-format
 msgid ""
 "When checked do not use the foreground color, but the pattern selected to "
 "fill with"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:378
+#: plugins/tools/basictools/kis_tool_fill.cc:405
 #, fuzzy, kde-format
 #| msgid "Scales"
 msgctxt ""
@@ -52442,7 +52442,7 @@ msgctxt ""
 msgid "Sample:"
 msgstr "मापक"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:387
+#: plugins/tools/basictools/kis_tool_fill.cc:414
 #, kde-format
 msgctxt ""
 "This is a string in tool options for Fill Tool to describe a combobox about "
@@ -52451,19 +52451,19 @@ msgctxt ""
 msgid "Labels used:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:391
+#: plugins/tools/basictools/kis_tool_fill.cc:418
 #, fuzzy, kde-format
 msgid "Fill entire selection:"
 msgstr "चयन घोकचाबू"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:393
+#: plugins/tools/basictools/kis_tool_fill.cc:420
 #, kde-format
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:395
+#: plugins/tools/basictools/kis_tool_fill.cc:422
 #, fuzzy, kde-format
 #| msgid "Border selection by"
 msgctxt ""
@@ -52472,32 +52472,32 @@ msgctxt ""
 msgid "Use selection as boundary:"
 msgstr "एकरा द्वारा सीमा चयन"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:397
+#: plugins/tools/basictools/kis_tool_fill.cc:424
 #, kde-format
 msgctxt "Tooltip for 'Use selection as boundary' checkbox"
 msgid "When checked, use selection borders as boundary when filling"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:399
+#: plugins/tools/basictools/kis_tool_fill.cc:426
 #, fuzzy, kde-format
 #| msgid "Contents"
 msgctxt "The 'continuous fill' label in Fill tool options"
 msgid "Continuous Fill:"
 msgstr "विषय सूची"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:401
+#: plugins/tools/basictools/kis_tool_fill.cc:428
 #, kde-format
 msgctxt "Continuous fill mode in fill tool options"
 msgid "Any region"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:402
+#: plugins/tools/basictools/kis_tool_fill.cc:429
 #, fuzzy, kde-format
 msgctxt "Continuous fill mode in fill tool options"
 msgid "Similar regions"
 msgstr "चयन घोकचाबू"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:523
+#: plugins/tools/basictools/kis_tool_fill.cc:550
 #, fuzzy, kde-format
 msgctxt ""
 "Option in fill tool: take only the current layer into account when "
@@ -52505,7 +52505,7 @@ msgctxt ""
 msgid "Current Layer"
 msgstr "नकल"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:527
+#: plugins/tools/basictools/kis_tool_fill.cc:554
 #, fuzzy, kde-format
 msgctxt ""
 "Option in fill tool: take all layers (merged) into account when calculating "
@@ -52513,7 +52513,7 @@ msgctxt ""
 msgid "All Layers"
 msgstr "चित्र चपटा करू"
 
-#: plugins/tools/basictools/kis_tool_fill.cc:530
+#: plugins/tools/basictools/kis_tool_fill.cc:557
 #, fuzzy, kde-format
 msgctxt ""
 "Option in fill tool: take all layers that were labeled with a color label "
@@ -53547,36 +53547,36 @@ msgid "Contiguous Area Selection"
 msgstr "चयन बढाउ"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:98
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:174
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:176
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:131
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
 msgstr "चयन बढाउ"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:241
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:343
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:243
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:345
 #, fuzzy, kde-format
 msgid "Fuzziness: "
 msgstr "चमकीलापन"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:252
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:254
 #, fuzzy, kde-format
 #| msgid "Opacity:"
 msgid "Opacity Spread: "
 msgstr "अपारदर्शिताः"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:263
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:265
 #, fuzzy, kde-format
 msgid "Grow/shrink selection: "
 msgstr "एकरा द्वारा चयन घोकचाबू"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:273
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:275
 #, fuzzy, kde-format
 msgid "Feathering radius: "
 msgstr "आँशिक"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:283
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:285
 #, fuzzy, kde-format
 #| msgid "Border selection by"
 msgid "Use selection as boundary: "
@@ -53672,7 +53672,7 @@ msgstr "चयन घोकचाबू"
 msgid "Similar Color Selection"
 msgstr "चयन घोकचाबू"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:310
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:312
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select Similar Color"
