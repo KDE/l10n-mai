@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-27 00:46+0000\n"
+"POT-Creation-Date: 2022-03-29 00:52+0000\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -2536,23 +2536,36 @@ msgstr "HTML मूल"
 msgid "HTML code for displaying the message to the user"
 msgstr ""
 
-#: widgets/opensavedfilefolderwidget.cpp:23
+#: widgets/opensavedfilefolderwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Open folder where attachment was saved"
 msgstr ""
 
-#: widgets/opensavedfilefolderwidget.cpp:55
+#: widgets/opensavedfilefolderwidget.cpp:27
+#, fuzzy, kde-format
+#| msgid "&Open With..."
+msgctxt "@action"
+msgid "Open File"
+msgstr "के सँग खोलू...(&O)"
+
+#: widgets/opensavedfilefolderwidget.cpp:61
 #, kde-format
 msgid "Open folder where attachment was saved"
 msgid_plural "Open folder where attachments were saved"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/opensavedfilefolderwidget.cpp:58
+#: widgets/opensavedfilefolderwidget.cpp:64
 #, kde-format
 msgid "Open folder where PDF file was saved"
 msgstr ""
+
+#: widgets/opensavedfilefolderwidget.cpp:77
+#, fuzzy, kde-format
+#| msgid "Save Attachment"
+msgid "KMail was unable to open the attachment."
+msgstr "संलग्नक सहेजू"
 
 #: widgets/shownextmessagewidget.cpp:15
 #, fuzzy, kde-format
