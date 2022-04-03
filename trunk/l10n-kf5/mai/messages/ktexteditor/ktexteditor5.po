@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-27 00:41+0000\n"
+"POT-Creation-Date: 2022-04-03 00:43+0000\n"
 "PO-Revision-Date: 2009-01-19 13:14+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -688,7 +688,7 @@ msgid "Delete the current file type."
 msgstr "वर्तमान फाइल प्रकार मेटाबू."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
-#: dialogs/filetypeconfigwidget.ui:44 syntax/katethemeconfig.cpp:1014
+#: dialogs/filetypeconfigwidget.ui:44 syntax/katethemeconfig.cpp:1102
 #, kde-format
 msgid "&Delete"
 msgstr "मेटाबू (&D)"
@@ -2157,8 +2157,8 @@ msgstr ""
 "दुनू बदलत. ओतए किछु डाटा नुकसान भए सकैत अछि."
 
 #: document/katedocument.cpp:2524 document/katedocument.cpp:2540
-#: document/katedocument.cpp:2832 syntax/katethemeconfig.cpp:1110
-#: syntax/katethemeconfig.cpp:1258
+#: document/katedocument.cpp:2832 syntax/katethemeconfig.cpp:1186
+#: syntax/katethemeconfig.cpp:1336
 #, kde-format
 msgid "Possible Data Loss"
 msgstr "संभावित डाटा नुकसान"
@@ -4169,75 +4169,75 @@ msgstr "\"मूलभूत शैली इस्तेमाल करू\" �
 msgid "Kate Styles"
 msgstr "के-एटीई शैलीसभ"
 
-#: syntax/katethemeconfig.cpp:45
+#: syntax/katethemeconfig.cpp:46
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Normal"
 msgstr "सामान्य"
 
-#: syntax/katethemeconfig.cpp:46
+#: syntax/katethemeconfig.cpp:47
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Keyword"
 msgstr "बीजशब्द"
 
-#: syntax/katethemeconfig.cpp:47
+#: syntax/katethemeconfig.cpp:48
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Function"
 msgstr "फंक्शन"
 
-#: syntax/katethemeconfig.cpp:48
+#: syntax/katethemeconfig.cpp:49
 #, fuzzy, kde-format
 #| msgid "Variable"
 msgctxt "@item:intable Text context"
 msgid "Variable"
 msgstr "परिवर्तनीय"
 
-#: syntax/katethemeconfig.cpp:49
+#: syntax/katethemeconfig.cpp:50
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Control Flow"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:50
+#: syntax/katethemeconfig.cpp:51
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Operator"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:51
+#: syntax/katethemeconfig.cpp:52
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Built-in"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:52
+#: syntax/katethemeconfig.cpp:53
 #, fuzzy, kde-format
 #| msgid "Extensions"
 msgctxt "@item:intable Text context"
 msgid "Extension"
 msgstr "विस्तार"
 
-#: syntax/katethemeconfig.cpp:53
+#: syntax/katethemeconfig.cpp:54
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Preprocessor"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:54
+#: syntax/katethemeconfig.cpp:55
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Attribute"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:56
+#: syntax/katethemeconfig.cpp:57
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Character"
 msgstr "संप्रतीक"
 
-#: syntax/katethemeconfig.cpp:57
+#: syntax/katethemeconfig.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "@item:intable Text context"
 #| msgid "Character"
@@ -4245,96 +4245,96 @@ msgctxt "@item:intable Text context"
 msgid "Special Character"
 msgstr "संप्रतीक"
 
-#: syntax/katethemeconfig.cpp:58
+#: syntax/katethemeconfig.cpp:59
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "String"
 msgstr "स्ट्रिंग"
 
-#: syntax/katethemeconfig.cpp:59
+#: syntax/katethemeconfig.cpp:60
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Verbatim String"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:60
+#: syntax/katethemeconfig.cpp:61
 #, fuzzy, kde-format
 #| msgid "Filtering"
 msgctxt "@item:intable Text context"
 msgid "Special String"
 msgstr "फिल्टर कएल जाए रहल अछि"
 
-#: syntax/katethemeconfig.cpp:61
+#: syntax/katethemeconfig.cpp:62
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Imports, Modules, Includes"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:63
+#: syntax/katethemeconfig.cpp:64
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Data Type"
 msgstr "डाटा प्रकार"
 
-#: syntax/katethemeconfig.cpp:64
+#: syntax/katethemeconfig.cpp:65
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Decimal/Value"
 msgstr "दशमलव/मान"
 
-#: syntax/katethemeconfig.cpp:65
+#: syntax/katethemeconfig.cpp:66
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Base-N Integer"
 msgstr "बेस-N पूर्णांक"
 
-#: syntax/katethemeconfig.cpp:66
+#: syntax/katethemeconfig.cpp:67
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Floating Point"
 msgstr "तैरत बिंदु"
 
-#: syntax/katethemeconfig.cpp:67
+#: syntax/katethemeconfig.cpp:68
 #, fuzzy, kde-format
 #| msgid "Constant"
 msgctxt "@item:intable Text context"
 msgid "Constant"
 msgstr "स्थिर"
 
-#: syntax/katethemeconfig.cpp:69
+#: syntax/katethemeconfig.cpp:70
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Comment"
 msgstr "टिप्पणी"
 
-#: syntax/katethemeconfig.cpp:70
+#: syntax/katethemeconfig.cpp:71
 #, fuzzy, kde-format
 #| msgid "Show i&ndentation lines"
 msgctxt "@item:intable Text context"
 msgid "Documentation"
 msgstr "हाशियाक पंक्तिक देखाबू (&n)"
 
-#: syntax/katethemeconfig.cpp:71
+#: syntax/katethemeconfig.cpp:72
 #, fuzzy, kde-format
 #| msgid "Indentation"
 msgctxt "@item:intable Text context"
 msgid "Annotation"
 msgstr "इंडेन्टेशन"
 
-#: syntax/katethemeconfig.cpp:72
+#: syntax/katethemeconfig.cpp:73
 #, fuzzy, kde-format
 #| msgid "Variable"
 msgctxt "@item:intable Text context"
 msgid "Comment Variable"
 msgstr "परिवर्तनीय"
 
-#: syntax/katethemeconfig.cpp:74
+#: syntax/katethemeconfig.cpp:75
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Region Marker"
 msgstr "क्षेत्र चिन्हक"
 
-#: syntax/katethemeconfig.cpp:75
+#: syntax/katethemeconfig.cpp:76
 #, fuzzy, kde-format
 #| msgctxt "Language"
 #| msgid "Inform"
@@ -4342,61 +4342,61 @@ msgctxt "@item:intable Text context"
 msgid "Information"
 msgstr "Inform"
 
-#: syntax/katethemeconfig.cpp:76
+#: syntax/katethemeconfig.cpp:77
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgctxt "@item:intable Text context"
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: syntax/katethemeconfig.cpp:77
+#: syntax/katethemeconfig.cpp:78
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Alert"
 msgstr "चेतावनी"
 
-#: syntax/katethemeconfig.cpp:79
+#: syntax/katethemeconfig.cpp:80
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Others"
 msgstr "आन "
 
-#: syntax/katethemeconfig.cpp:81
+#: syntax/katethemeconfig.cpp:82
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Error"
 msgstr "त्रुटि"
 
-#: syntax/katethemeconfig.cpp:142
+#: syntax/katethemeconfig.cpp:143
 #, fuzzy, kde-format
 #| msgid "Use Default Style"
 msgid "Use Default Colors"
 msgstr "मूलभूत शैली इस्तेमाल करू"
 
-#: syntax/katethemeconfig.cpp:162
+#: syntax/katethemeconfig.cpp:163
 #, fuzzy, kde-format
 #| msgid "Unset Background Color"
 msgid "Editor Background Colors"
 msgstr "पृष्ठभूमि क' रंग अनसेट करू"
 
-#: syntax/katethemeconfig.cpp:164
+#: syntax/katethemeconfig.cpp:165
 #, fuzzy, kde-format
 #| msgid "Text Area Background"
 msgid "Text Area"
 msgstr "पाठ क्षेत्र पृष्ठभूमि"
 
-#: syntax/katethemeconfig.cpp:166
+#: syntax/katethemeconfig.cpp:167
 #, kde-format
 msgid "<p>Sets the background color of the editing area.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:171
+#: syntax/katethemeconfig.cpp:172
 #, fuzzy, kde-format
 #| msgid "Selected text:"
 msgid "Selected Text"
 msgstr "चुनल गेल पाठ:"
 
-#: syntax/katethemeconfig.cpp:174
+#: syntax/katethemeconfig.cpp:175
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Sets the background color of the selection.</p><p>To set the text "
@@ -4410,13 +4410,13 @@ msgstr ""
 "<p>चुनल गेल क' पृष्ठभूमि रंग नियत करैत अछि.</p><p>चुनल गेल पाठ क' पाठ रंग नियत करब क' "
 "लेल इस्तेमाल करू \"<b>बिन्यस्त आलोकित करू</b>\" संवाद.</p>"
 
-#: syntax/katethemeconfig.cpp:180
+#: syntax/katethemeconfig.cpp:181
 #, fuzzy, kde-format
 #| msgid "Current line:"
 msgid "Current Line"
 msgstr "मोजुदा पंक्ति:"
 
-#: syntax/katethemeconfig.cpp:182
+#: syntax/katethemeconfig.cpp:183
 #, kde-format
 msgid ""
 "<p>Sets the background color of the currently active line, which means the "
@@ -4425,69 +4425,69 @@ msgstr ""
 "<p>मोजुदा सक्रिय पंक्ति क' पृष्ठभूमि रंग नियत करू, एकर अर्थ अछि. ओ पंक्ति जतए अहाँक संकेतक "
 "स्थित अछि.</p>"
 
-#: syntax/katethemeconfig.cpp:187
+#: syntax/katethemeconfig.cpp:188
 #, fuzzy, kde-format
 #| msgid "&Highlighting"
 msgid "Search Highlight"
 msgstr "आलोकित करू (&H)"
 
-#: syntax/katethemeconfig.cpp:189
+#: syntax/katethemeconfig.cpp:190
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the background color of search results.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:194
+#: syntax/katethemeconfig.cpp:195
 #, fuzzy, kde-format
 #| msgid "&Highlighting"
 msgid "Replace Highlight"
 msgstr "आलोकित करू (&H)"
 
-#: syntax/katethemeconfig.cpp:196
+#: syntax/katethemeconfig.cpp:197
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the background color of replaced text.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:203
+#: syntax/katethemeconfig.cpp:204
 #, fuzzy, kde-format
 #| msgid "Show &Icon Border"
 msgid "Icon Border"
 msgstr "प्रतीक किनार देखाबू (&I)"
 
-#: syntax/katethemeconfig.cpp:206
+#: syntax/katethemeconfig.cpp:207
 #, fuzzy, kde-format
 #| msgctxt "@title:column Text style"
 #| msgid "Background"
 msgid "Background Area"
 msgstr "पृष्ठभूमि"
 
-#: syntax/katethemeconfig.cpp:208
+#: syntax/katethemeconfig.cpp:209
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the background color of the icon border.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:213
+#: syntax/katethemeconfig.cpp:214
 #, fuzzy, kde-format
 #| msgid "Line numbers:"
 msgid "Line Numbers"
 msgstr "पंक्ति क्रमांक:"
 
-#: syntax/katethemeconfig.cpp:215
+#: syntax/katethemeconfig.cpp:216
 #, fuzzy, kde-format
 #| msgid ""
 #| "The bookmarks will be ordered by the line numbers they are placed at."
 msgid "<p>This color will be used to draw the line numbers (if enabled).</p>"
 msgstr "पंक्ति क्रमांक केर अनुसार जहिना रखे गए छी,  मनपसिन्न ओ क्रम मे हाएत."
 
-#: syntax/katethemeconfig.cpp:220
+#: syntax/katethemeconfig.cpp:221
 #, fuzzy, kde-format
 #| msgid "Current line:"
 msgid "Current Line Number"
 msgstr "मोजुदा पंक्ति:"
 
-#: syntax/katethemeconfig.cpp:222
+#: syntax/katethemeconfig.cpp:223
 #, fuzzy, kde-format
 #| msgid ""
 #| "The bookmarks will be ordered by the line numbers they are placed at."
@@ -4496,25 +4496,25 @@ msgid ""
 "enabled).</p>"
 msgstr "पंक्ति क्रमांक केर अनुसार जहिना रखे गए छी,  मनपसिन्न ओ क्रम मे हाएत."
 
-#: syntax/katethemeconfig.cpp:227
+#: syntax/katethemeconfig.cpp:228
 #, kde-format
 msgid "Separator"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:229
+#: syntax/katethemeconfig.cpp:230
 #, kde-format
 msgid ""
 "<p>This color will be used to draw the line between line numbers and the "
 "icon borders, if both are enabled.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:234
+#: syntax/katethemeconfig.cpp:235
 #, fuzzy, kde-format
 #| msgid "Word wrap markers:"
 msgid "Word Wrap Marker"
 msgstr "वर्ड रैप निशान:"
 
-#: syntax/katethemeconfig.cpp:237
+#: syntax/katethemeconfig.cpp:238
 #, kde-format
 msgid ""
 "<p>Sets the color of Word Wrap-related markers:</p><dl><dt>Static Word Wrap</"
@@ -4526,91 +4526,91 @@ msgstr ""
 "पंक्ति दर्शाती अछि जे स्तम्भ जतए पाठ रैप हए छी</dd><dt>गतिशील वर्ड रैप</dt><dd>विज़ुअली "
 "रैप्ड पंक्तिसभ केर बम्माँ एकटा तीर देखाइ देत</dd></dl>"
 
-#: syntax/katethemeconfig.cpp:244
+#: syntax/katethemeconfig.cpp:245
 #, fuzzy, kde-format
 #| msgid "&Code Folding"
 msgid "Code Folding"
 msgstr "कोड फोल्डिंग (&C)"
 
-#: syntax/katethemeconfig.cpp:246
+#: syntax/katethemeconfig.cpp:247
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the color of the code folding bar.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:251
+#: syntax/katethemeconfig.cpp:252
 #, fuzzy, kde-format
 #| msgid "Scroll Line Up"
 msgid "Modified Lines"
 msgstr "पंक्ति उप्पर स्क्रोल करू"
 
-#: syntax/katethemeconfig.cpp:253
+#: syntax/katethemeconfig.cpp:254
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid ""
 "<p>Sets the color of the line modification marker for modified lines.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:258
+#: syntax/katethemeconfig.cpp:259
 #, fuzzy, kde-format
 #| msgid "Save File"
 msgid "Saved Lines"
 msgstr "फाइल सहेजू"
 
-#: syntax/katethemeconfig.cpp:260
+#: syntax/katethemeconfig.cpp:261
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the color of the line modification marker for saved lines.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:267
+#: syntax/katethemeconfig.cpp:268
 #, fuzzy, kde-format
 #| msgid "Text Selection Mode"
 msgid "Text Decorations"
 msgstr "पाठ चयन मोड"
 
-#: syntax/katethemeconfig.cpp:270
+#: syntax/katethemeconfig.cpp:271
 #, kde-format
 msgid "Spelling Mistake Line"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:272
+#: syntax/katethemeconfig.cpp:273
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid ""
 "<p>Sets the color of the line that is used to indicate spelling mistakes.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:277
+#: syntax/katethemeconfig.cpp:278
 #, fuzzy, kde-format
 #| msgid "Tab and space markers:"
 msgid "Tab and Space Markers"
 msgstr "टैब आओर स्पेस चिह्नक:"
 
-#: syntax/katethemeconfig.cpp:279
+#: syntax/katethemeconfig.cpp:280
 #, kde-format
 msgid "<p>Sets the color of the tabulator marks.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:284
+#: syntax/katethemeconfig.cpp:285
 #, fuzzy, kde-format
 #| msgid "Indentation"
 msgid "Indentation Line"
 msgstr "इंडेन्टेशन"
 
-#: syntax/katethemeconfig.cpp:286
+#: syntax/katethemeconfig.cpp:287
 #, fuzzy, kde-format
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the color of the vertical indentation lines.</p>"
 msgstr "<p>संपादन क्षेत्र केर पृष्ठभूमि रंग नियत करू.</p>"
 
-#: syntax/katethemeconfig.cpp:291
+#: syntax/katethemeconfig.cpp:292
 #, fuzzy, kde-format
 #| msgid "Bracket highlight:"
 msgid "Bracket Highlight"
 msgstr "कोष्ठक आलोकित करू:"
 
-#: syntax/katethemeconfig.cpp:294
+#: syntax/katethemeconfig.cpp:295
 #, kde-format
 msgid ""
 "<p>Sets the bracket matching color. This means, if you place the cursor e.g. "
@@ -4619,48 +4619,48 @@ msgstr ""
 "<p>कोष्ठक मेचिंग रंग नियत करू. एकर अर्थ अछि जँ अहाँ संकेतक एतय राखत <b>(</b>, मेचिंग "
 "<b>)</b> एहि रंग सँ उभर जएताह.</p>"
 
-#: syntax/katethemeconfig.cpp:302
+#: syntax/katethemeconfig.cpp:303
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Marker Colors"
 msgstr "रँग"
 
-#: syntax/katethemeconfig.cpp:304 view/kateviewhelpers.cpp:1474
+#: syntax/katethemeconfig.cpp:305 view/kateviewhelpers.cpp:1474
 #, kde-format
 msgid "Bookmark"
 msgstr "पुस्तचिन्ह"
 
-#: syntax/katethemeconfig.cpp:305
+#: syntax/katethemeconfig.cpp:306
 #, kde-format
 msgid "Active Breakpoint"
 msgstr "सक्रिय ब्रेकपाइन्ट"
 
-#: syntax/katethemeconfig.cpp:306
+#: syntax/katethemeconfig.cpp:307
 #, kde-format
 msgid "Reached Breakpoint"
 msgstr "रीच्ड ब्रेकपाइन्ट"
 
-#: syntax/katethemeconfig.cpp:307
+#: syntax/katethemeconfig.cpp:308
 #, kde-format
 msgid "Disabled Breakpoint"
 msgstr "अक्षम ब्रेकपाइन्ट"
 
-#: syntax/katethemeconfig.cpp:308
+#: syntax/katethemeconfig.cpp:309
 #, kde-format
 msgid "Execution"
 msgstr "चलैनाइ"
 
-#: syntax/katethemeconfig.cpp:309
+#: syntax/katethemeconfig.cpp:310
 #, kde-format
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: syntax/katethemeconfig.cpp:310
+#: syntax/katethemeconfig.cpp:311
 #, kde-format
 msgid "Error"
 msgstr "त्रुटि"
 
-#: syntax/katethemeconfig.cpp:312
+#: syntax/katethemeconfig.cpp:313
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Sets the background color of the selected marker type.</p><p><b>Note</"
@@ -4672,37 +4672,37 @@ msgstr ""
 "<p>चुनल गेल मार्कर प्रकार क' पृष्ठभूमि रंग सेट करैत अछि.</p><p><b>Note</b>: पारदर्शी हए "
 "केर कारण मार्कर क' रंग हलुक देखाइ देत.</p>"
 
-#: syntax/katethemeconfig.cpp:324
+#: syntax/katethemeconfig.cpp:325
 #, kde-format
 msgid "Text Templates & Snippets"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:329
+#: syntax/katethemeconfig.cpp:330
 #, fuzzy, kde-format
 #| msgctxt "@title:column Text style"
 #| msgid "Background"
 msgid "Background"
 msgstr "पृष्ठभूमि"
 
-#: syntax/katethemeconfig.cpp:335
+#: syntax/katethemeconfig.cpp:336
 #, fuzzy, kde-format
 #| msgid "Template Editable Placeholder"
 msgid "Editable Placeholder"
 msgstr "टेम्पलेट संपादनयोग्य प्लेसहोल्डर"
 
-#: syntax/katethemeconfig.cpp:341
+#: syntax/katethemeconfig.cpp:342
 #, fuzzy, kde-format
 #| msgid "Template Editable Placeholder"
 msgid "Focused Editable Placeholder"
 msgstr "टेम्पलेट संपादनयोग्य प्लेसहोल्डर"
 
-#: syntax/katethemeconfig.cpp:347
+#: syntax/katethemeconfig.cpp:348
 #, fuzzy, kde-format
 #| msgid "Template Editable Placeholder"
 msgid "Not Editable Placeholder"
 msgstr "टेम्पलेट संपादनयोग्य प्लेसहोल्डर"
 
-#: syntax/katethemeconfig.cpp:481
+#: syntax/katethemeconfig.cpp:482
 #, kde-format
 msgid ""
 "<p>This list displays the default styles for the current color theme and "
@@ -4712,45 +4712,45 @@ msgid ""
 "Selected Background colors from the popup menu when appropriate.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:547
+#: syntax/katethemeconfig.cpp:548
 #, fuzzy, kde-format
 #| msgid "Normal Text"
 msgctxt "@item:intable"
 msgid "Normal Text & Source Code"
 msgstr "सामान्य पाठ"
 
-#: syntax/katethemeconfig.cpp:554
+#: syntax/katethemeconfig.cpp:555
 #, kde-format
 msgctxt "@item:intable"
 msgid "Numbers, Types & Constants"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:561
+#: syntax/katethemeconfig.cpp:562
 #, fuzzy, kde-format
 #| msgid "Set of characters"
 msgctxt "@item:intable"
 msgid "Strings & Characters"
 msgstr "अक्षरसभ केर समूह"
 
-#: syntax/katethemeconfig.cpp:568
+#: syntax/katethemeconfig.cpp:569
 #, fuzzy, kde-format
 #| msgid "Show i&ndentation lines"
 msgctxt "@item:intable"
 msgid "Comments & Documentation"
 msgstr "हाशियाक पंक्तिक देखाबू (&n)"
 
-#: syntax/katethemeconfig.cpp:575
+#: syntax/katethemeconfig.cpp:576
 #, kde-format
 msgctxt "@item:intable"
 msgid "Miscellaneous"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:682
+#: syntax/katethemeconfig.cpp:683
 #, kde-format
 msgid "H&ighlight:"
 msgstr "आलोकित करू: (&i)"
 
-#: syntax/katethemeconfig.cpp:724
+#: syntax/katethemeconfig.cpp:725
 #, kde-format
 msgid ""
 "<p>This list displays the contexts of the current syntax highlight mode and "
@@ -4762,131 +4762,148 @@ msgid ""
 "context menu when appropriate.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1001
+#: syntax/katethemeconfig.cpp:1003
+#, fuzzy, kde-format
+#| msgid "Normal Text Styles"
+msgid "Default Theme"
+msgstr "सामान्य पाठ शैली"
+
+#: syntax/katethemeconfig.cpp:1004
+#, fuzzy, kde-format
+#| msgid "Choose Editor..."
+msgid "Theme Editor"
+msgstr "संपादक चुनू..."
+
+#: syntax/katethemeconfig.cpp:1018
+#, fuzzy, kde-format
+#| msgid "Selected text:"
+msgid "Select theme:"
+msgstr "चुनल गेल पाठ:"
+
+#: syntax/katethemeconfig.cpp:1065
+#, kde-format
+msgid "Preview:"
+msgstr ""
+
+#: syntax/katethemeconfig.cpp:1089
 #, fuzzy, kde-format
 #| msgctxt "Language"
 #| msgid "Scheme"
 msgid "&Theme:"
 msgstr "योजना"
 
-#: syntax/katethemeconfig.cpp:1010
+#: syntax/katethemeconfig.cpp:1098
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Copy..."
 msgstr "फाइल एहिना सहेजू... (&S)"
 
-#: syntax/katethemeconfig.cpp:1018
+#: syntax/katethemeconfig.cpp:1106
 #, fuzzy, kde-format
 #| msgid "E&xport as HTML..."
 msgid "Export..."
 msgstr "एचटीएमएल रूपेँ निर्यात करू... (&x)"
 
-#: syntax/katethemeconfig.cpp:1022
+#: syntax/katethemeconfig.cpp:1110
 #, fuzzy, kde-format
 #| msgid "Normal &Color..."
 msgid "Import..."
 msgstr "सामान्य रंग (&C)"
 
-#: syntax/katethemeconfig.cpp:1029
+#: syntax/katethemeconfig.cpp:1117
 #, kde-format
 msgid "Bundled read-only theme. To modify the theme, please copy it."
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1040
+#: syntax/katethemeconfig.cpp:1128
 #, kde-format
 msgid "Colors"
 msgstr "रँग"
 
-#: syntax/katethemeconfig.cpp:1044
+#: syntax/katethemeconfig.cpp:1132
 #, fuzzy, kde-format
 #| msgid "Normal Text Styles"
 msgid "Default Text Styles"
 msgstr "सामान्य पाठ शैली"
 
-#: syntax/katethemeconfig.cpp:1048
+#: syntax/katethemeconfig.cpp:1136
 #, kde-format
 msgid "Highlighting Text Styles"
 msgstr "पाठ शैलियाँ आलोकित कए रहल अछि"
 
-#: syntax/katethemeconfig.cpp:1054
-#, fuzzy, kde-format
-#| msgid "&Default schema for %1:"
-msgid "&Default theme for %1:"
-msgstr " %1हेतु मूलभूत योजना: (&D)"
-
-#: syntax/katethemeconfig.cpp:1072
+#: syntax/katethemeconfig.cpp:1148
 #, fuzzy, kde-format
 #| msgid "Font & Color Schemas"
 msgid "Exporting color theme: %1"
 msgstr "फौन्ट आ रंग प्रसंग"
 
-#: syntax/katethemeconfig.cpp:1074 syntax/katethemeconfig.cpp:1095
+#: syntax/katethemeconfig.cpp:1150 syntax/katethemeconfig.cpp:1171
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Color theme"
 msgstr "रँग"
 
-#: syntax/katethemeconfig.cpp:1095
+#: syntax/katethemeconfig.cpp:1171
 #, fuzzy, kde-format
 #| msgid "Font & Color Schemas"
 msgid "Importing Color Theme"
 msgstr "फौन्ट आ रंग प्रसंग"
 
-#: syntax/katethemeconfig.cpp:1109
+#: syntax/katethemeconfig.cpp:1185
 #, kde-format
 msgid ""
 "Importing will overwrite the existing theme file \"%1\". This can not be "
 "undone."
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1111
+#: syntax/katethemeconfig.cpp:1187
 #, fuzzy, kde-format
 #| msgid "Close Nevertheless"
 msgid "Import Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: syntax/katethemeconfig.cpp:1193
+#: syntax/katethemeconfig.cpp:1269
 #, fuzzy, kde-format
-#| msgid "Auto Completion"
-msgid "Automatic Selection"
-msgstr "स्वतः पूर्णता"
+#| msgid "Font & Color Schemas"
+msgid "Follow System Color Scheme"
+msgstr "फौन्ट आ रंग प्रसंग"
 
-#: syntax/katethemeconfig.cpp:1257
+#: syntax/katethemeconfig.cpp:1335
 #, kde-format
 msgid "Do you really want to delete the theme \"%1\"? This can not be undone."
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1259
+#: syntax/katethemeconfig.cpp:1337
 #, fuzzy, kde-format
 #| msgid "Close Nevertheless"
 msgid "Delete Nevertheless"
 msgstr "कहिनो बन्न करू"
 
-#: syntax/katethemeconfig.cpp:1301
+#: syntax/katethemeconfig.cpp:1379
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Copy theme"
 msgstr "रँग"
 
-#: syntax/katethemeconfig.cpp:1302
+#: syntax/katethemeconfig.cpp:1380
 #, kde-format
 msgid "Name for copy of color theme \"%1\":"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1313
+#: syntax/katethemeconfig.cpp:1391
 #, kde-format
 msgid ""
 "<p>The theme \"%1\" already exists.</p><p>Please choose a different theme "
 "name.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1314
+#: syntax/katethemeconfig.cpp:1392
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Copy Theme"
 msgstr "रँग"
 
-#: syntax/katethemeconfig.cpp:1367 syntax/katethemeconfig.cpp:1372
+#: syntax/katethemeconfig.cpp:1445 syntax/katethemeconfig.cpp:1450
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Color Themes"
@@ -7844,6 +7861,16 @@ msgid "Mark not set: %1"
 msgstr "मार्क टाइप %1"
 
 #, fuzzy
+#~| msgid "&Default schema for %1:"
+#~ msgid "&Default theme for %1:"
+#~ msgstr " %1हेतु मूलभूत योजना: (&D)"
+
+#, fuzzy
+#~| msgid "Auto Completion"
+#~ msgid "Automatic Selection"
+#~ msgstr "स्वतः पूर्णता"
+
+#, fuzzy
 #~| msgid "The file '%1' was modified by another program."
 #~ msgid "Meaning of current icon: Document was modified or deleted on disk"
 #~ msgstr "फाइल '%1' डिस्क मे आन प्रोग्राम द्वारा परिवर्धित कएल गेल अछि."
@@ -8241,11 +8268,6 @@ msgstr "मार्क टाइप %1"
 
 #~ msgid "&Schema:"
 #~ msgstr "योजना: (&S)"
-
-#, fuzzy
-#~| msgid "Font & Color Schemas"
-#~ msgid "Use KDE Color Scheme"
-#~ msgstr "फौन्ट आ रंग प्रसंग"
 
 #~ msgid "Fonts & Colors"
 #~ msgstr "फौन्ट आ रंग"
@@ -9324,9 +9346,6 @@ msgstr "मार्क टाइप %1"
 #~ msgid "Normal text:"
 #~ msgstr "सामान्य पाठ:"
 
-#~ msgid "Selected text:"
-#~ msgstr "चुनल गेल पाठ:"
-
 #~ msgid ""
 #~ "<p>Sets the background color of the selection.</p><p>To set the text "
 #~ "color for selected text, use the \"<b>Configure Highlighting</b>\" dialog."
@@ -9775,9 +9794,6 @@ msgstr "मार्क टाइप %1"
 
 #~ msgid "Create another view containing the current document"
 #~ msgstr "मोजुदा दस्ताबेज लेल नवीन दृश्य बनाबू"
-
-#~ msgid "Choose Editor..."
-#~ msgstr "संपादक चुनू..."
 
 #~ msgid "Close the current document view"
 #~ msgstr "मोजुदा दस्ताबेज दृश्य बन्न करू"
