@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmessageviewer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-31 00:44+0000\n"
+"POT-Creation-Date: 2022-04-04 00:45+0000\n"
 "PO-Revision-Date: 2010-09-24 16:29+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -601,184 +601,184 @@ msgstr ""
 msgid "Rules..."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:88
+#: dkim-verify/dkimwidgetinfo.cpp:97
 #, fuzzy, kde-format
 #| msgctxt "Status of message unknown."
 #| msgid "(unknown)"
 msgid "Unknown"
 msgstr "(अज्ञात)"
 
-#: dkim-verify/dkimwidgetinfo.cpp:94
+#: dkim-verify/dkimwidgetinfo.cpp:103
 #, kde-format
 msgid "DKIM: valid (signed by %1)"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:101
+#: dkim-verify/dkimwidgetinfo.cpp:110
 #, kde-format
 msgid "DKIM: invalid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:104
+#: dkim-verify/dkimwidgetinfo.cpp:113
 #, kde-format
 msgid "DKIM: Not signed"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:109
+#: dkim-verify/dkimwidgetinfo.cpp:118
 #, kde-format
 msgid "DKIM: Should Be Signed by %1"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:125
+#: dkim-verify/dkimwidgetinfo.cpp:134
 #, kde-format
 msgid "Body Hash was corrupted."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:128
+#: dkim-verify/dkimwidgetinfo.cpp:137
 #, kde-format
 msgid "The domain doesn't exist."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:131
+#: dkim-verify/dkimwidgetinfo.cpp:140
 #, kde-format
 msgid "Missing header From."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:134
+#: dkim-verify/dkimwidgetinfo.cpp:143
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Missing signature."
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:137
+#: dkim-verify/dkimwidgetinfo.cpp:146
 #, fuzzy, kde-format
 #| msgid "Hide Details"
 msgid "Invalid query method."
 msgstr "विवरणसभ नुकाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:140
+#: dkim-verify/dkimwidgetinfo.cpp:149
 #, kde-format
 msgid "Invalid header canonicalization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:143
+#: dkim-verify/dkimwidgetinfo.cpp:152
 #, kde-format
 msgid "Invalid body canonicalization."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:146
+#: dkim-verify/dkimwidgetinfo.cpp:155
 #, kde-format
 msgid "Unknown Body Hash Algorithm."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:149
+#: dkim-verify/dkimwidgetinfo.cpp:158
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Signature algorithm is invalid."
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:152
+#: dkim-verify/dkimwidgetinfo.cpp:161
 #, kde-format
 msgid "The public key was revoked."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:155
+#: dkim-verify/dkimwidgetinfo.cpp:164
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Signature is too large."
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:158
+#: dkim-verify/dkimwidgetinfo.cpp:167
 #, kde-format
 msgid "Hash Algorithm is unsupported."
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:161
-#, kde-format
-msgid "Public key is too small."
-msgstr ""
-
-#: dkim-verify/dkimwidgetinfo.cpp:164
-#, fuzzy, kde-format
-#| msgid "Save Attachment"
-msgid "Impossible to verify signature."
-msgstr "संलग्नक सहेजू"
-
-#: dkim-verify/dkimwidgetinfo.cpp:167
-#, kde-format
-msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
-msgstr ""
-
 #: dkim-verify/dkimwidgetinfo.cpp:170
 #, kde-format
-msgid "The signing domain is only testing DKIM."
+msgid "Public key is too small."
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:173
 #, fuzzy, kde-format
 #| msgid "Save Attachment"
-msgid "Impossible to download key."
+msgid "Impossible to verify signature."
 msgstr "संलग्नक सहेजू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:176 dkim-verify/dkimwidgetinfo.cpp:200
+#: dkim-verify/dkimwidgetinfo.cpp:176
 #, kde-format
-msgid "Hash Algorithm unsafe (sha1)"
+msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:179
 #, kde-format
-msgid "AUID is not in a subdomain of SDID"
+msgid "The signing domain is only testing DKIM."
 msgstr ""
 
 #: dkim-verify/dkimwidgetinfo.cpp:182
+#, fuzzy, kde-format
+#| msgid "Save Attachment"
+msgid "Impossible to download key."
+msgstr "संलग्नक सहेजू"
+
+#: dkim-verify/dkimwidgetinfo.cpp:185 dkim-verify/dkimwidgetinfo.cpp:209
+#, kde-format
+msgid "Hash Algorithm unsafe (sha1)"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:188
+#, kde-format
+msgid "AUID is not in a subdomain of SDID"
+msgstr ""
+
+#: dkim-verify/dkimwidgetinfo.cpp:191
 #, kde-format
 msgid "Problem during converting public key"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:191
+#: dkim-verify/dkimwidgetinfo.cpp:200
 #, fuzzy, kde-format
 #| msgid "Hide Details"
 msgid "Signature expired"
 msgstr "विवरणसभ नुकाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:194
+#: dkim-verify/dkimwidgetinfo.cpp:203
 #, kde-format
 msgid "Signature created in the future"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:197
+#: dkim-verify/dkimwidgetinfo.cpp:206
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Signature too small"
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:203
+#: dkim-verify/dkimwidgetinfo.cpp:212
 #, fuzzy, kde-format
 #| msgid "Show Details"
 msgid "Public Key too small"
 msgstr "विवरण देखाबू"
 
-#: dkim-verify/dkimwidgetinfo.cpp:224 dkim-verify/dkimwidgetinfo.cpp:270
+#: dkim-verify/dkimwidgetinfo.cpp:233 dkim-verify/dkimwidgetinfo.cpp:279
 #, kde-format
 msgctxt "method name: info about it from parsing"
 msgid "%1: %2"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:247
+#: dkim-verify/dkimwidgetinfo.cpp:256
 #, kde-format
 msgid "%1: None"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:262
+#: dkim-verify/dkimwidgetinfo.cpp:271
 #, kde-format
 msgid "%1: Valid (Signed by %2)"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:282
+#: dkim-verify/dkimwidgetinfo.cpp:291
 #, kde-format
 msgid "%1: Valid"
 msgstr ""
 
-#: dkim-verify/dkimwidgetinfo.cpp:297
+#: dkim-verify/dkimwidgetinfo.cpp:306
 #, kde-format
 msgid "Not Signed"
 msgstr ""
