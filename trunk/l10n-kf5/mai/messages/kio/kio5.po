@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-20 00:41+0000\n"
+"POT-Creation-Date: 2022-04-21 00:41+0000\n"
 "PO-Revision-Date: 2010-01-29 13:15+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3250,7 +3250,88 @@ msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:428
+#: filewidgets/kfilewidget.cpp:640
+#, kde-format
+msgid "You can only select one file"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:640
+#, kde-format
+msgid "More than one file provided"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:813
+#, kde-format
+msgid "You can only select local files"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:813
+#, kde-format
+msgid "Remote files not accepted"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:820
+#, kde-format
+msgid ""
+"The selected URL uses an unsupported scheme. Please use the following "
+"scheme: %2"
+msgid_plural ""
+"The selected URL uses an unsupported scheme. Please use one of the following "
+"schemes: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: filewidgets/kfilewidget.cpp:826
+#, kde-format
+msgid "Unsupported URL scheme"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:842
+#, kde-format
+msgid ""
+"More than one folder has been selected and this dialog does not accept "
+"folders, so it is not possible to decide which one to enter. Please select "
+"only one folder to list it."
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:844
+#, kde-format
+msgid "More than one folder provided"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:854
+#, kde-format
+msgid ""
+"At least one folder and one file has been selected. Selected files will be "
+"ignored and the selected folder will be listed"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:855
+#, kde-format
+msgid "Files and folders selected"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:873
+#, kde-format
+msgid "The file \"%1\" could not be found"
+msgstr ""
+
+#: filewidgets/kfilewidget.cpp:873
+#, kde-format
+msgid "Cannot open file"
+msgstr "फाइल नहि खोलि सकल"
+
+#: filewidgets/kfilewidget.cpp:1217
+#, kde-format
+msgid "Zoom out"
+msgstr "छोट रूपमे देखाबू"
+
+#: filewidgets/kfilewidget.cpp:1222
+#, kde-format
+msgid "Zoom in"
+msgstr "पैघ रूपमे देखाबू"
+
+#: filewidgets/kfilewidget.cpp:1245
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Click this button to enter the parent folder.<br /><br />For "
@@ -3265,44 +3346,44 @@ msgstr ""
 "मोजुदा स्थान अछि file:/home/%1  तँ एहि बटन पर क्लिक करब पर ई अहाँक file:/home मे ले "
 "जएताह</qt>"
 
-#: filewidgets/kfilewidget.cpp:432
+#: filewidgets/kfilewidget.cpp:1249
 #, kde-format
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "ब्राउज़िंग इतिहास मे एकटा स्तर पाछाँ जाए क' लेल एहि बटन केँ क्लिक करू."
 
-#: filewidgets/kfilewidget.cpp:433
+#: filewidgets/kfilewidget.cpp:1250
 #, kde-format
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "ब्राउज़िंग इतिहास मे एकटा स्तर आगाँ जाए क' लेल एहि बटन केँ क्लिक करू."
 
-#: filewidgets/kfilewidget.cpp:435
+#: filewidgets/kfilewidget.cpp:1252
 #, kde-format
 msgid "Click this button to reload the contents of the current location."
 msgstr "मोजुदा स्थान केर विषयवस्तु केँ फिनु सँ  लोड करब क' लेल एहि बटन केँ क्लिक करू."
 
-#: filewidgets/kfilewidget.cpp:437
+#: filewidgets/kfilewidget.cpp:1254
 #, kde-format
 msgid "Click this button to create a new folder."
 msgstr "नवीन फोल्डर बनाबै क' लेल एहि बटन केँ क्लिक करू."
 
-#: filewidgets/kfilewidget.cpp:444
+#: filewidgets/kfilewidget.cpp:1256
 #, fuzzy, kde-format
 #| msgid "Show Places Navigation Panel"
 msgid "Show Places Panel"
 msgstr "प्लेस नेविगेशन फलक देखाबू"
 
-#: filewidgets/kfilewidget.cpp:451
+#: filewidgets/kfilewidget.cpp:1263
 #, fuzzy, kde-format
 #| msgid "Show Bookmarks"
 msgid "Show Bookmarks Button"
 msgstr "पसंदीदा देखाबू"
 
-#: filewidgets/kfilewidget.cpp:458
+#: filewidgets/kfilewidget.cpp:1270
 #, kde-format
 msgid "Options"
 msgstr "विकल्प"
 
-#: filewidgets/kfilewidget.cpp:461
+#: filewidgets/kfilewidget.cpp:1273
 #, kde-format
 msgid ""
 "<qt>This is the preferences menu for the file dialog. Various options can be "
@@ -3312,22 +3393,12 @@ msgid ""
 "folders from files</li></ul></qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:502
-#, kde-format
-msgid "Zoom out"
-msgstr "छोट रूपमे देखाबू"
-
-#: filewidgets/kfilewidget.cpp:507
-#, kde-format
-msgid "Zoom in"
-msgstr "पैघ रूपमे देखाबू"
-
-#: filewidgets/kfilewidget.cpp:512
+#: filewidgets/kfilewidget.cpp:1292
 #, kde-format
 msgid "Bookmarks"
 msgstr "पुस्तकचिह्न"
 
-#: filewidgets/kfilewidget.cpp:516
+#: filewidgets/kfilewidget.cpp:1296
 #, kde-format
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
@@ -3337,83 +3408,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: filewidgets/kfilewidget.cpp:561 widgets/kpropertiesdesktopbase.ui:17
+#: filewidgets/kfilewidget.cpp:1335 widgets/kpropertiesdesktopbase.ui:17
 #, kde-format
 msgid "&Name:"
 msgstr "नाम (&N):"
 
-#: filewidgets/kfilewidget.cpp:853
-#, kde-format
-msgid "You can only select one file"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:853
-#, kde-format
-msgid "More than one file provided"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1026
-#, kde-format
-msgid "You can only select local files"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1026
-#, kde-format
-msgid "Remote files not accepted"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1033
-#, kde-format
-msgid ""
-"The selected URL uses an unsupported scheme. Please use the following "
-"scheme: %2"
-msgid_plural ""
-"The selected URL uses an unsupported scheme. Please use one of the following "
-"schemes: %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: filewidgets/kfilewidget.cpp:1039
-#, kde-format
-msgid "Unsupported URL scheme"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1055
-#, kde-format
-msgid ""
-"More than one folder has been selected and this dialog does not accept "
-"folders, so it is not possible to decide which one to enter. Please select "
-"only one folder to list it."
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1057
-#, kde-format
-msgid "More than one folder provided"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1067
-#, kde-format
-msgid ""
-"At least one folder and one file has been selected. Selected files will be "
-"ignored and the selected folder will be listed"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1068
-#, kde-format
-msgid "Files and folders selected"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1086
-#, kde-format
-msgid "The file \"%1\" could not be found"
-msgstr ""
-
-#: filewidgets/kfilewidget.cpp:1086
-#, kde-format
-msgid "Cannot open file"
-msgstr "फाइल नहि खोलि सकल"
-
-#: filewidgets/kfilewidget.cpp:1374
+#: filewidgets/kfilewidget.cpp:1410
 #, kde-format
 msgid ""
 "<qt>While typing in the text area, you may be presented with possible "
@@ -3422,12 +3422,12 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1381
+#: filewidgets/kfilewidget.cpp:1417
 #, kde-format
 msgid "This is the name to save the file as."
 msgstr "ई एहि रुपेँ सहेजल जाएबला फाइल क' नाम अछि."
 
-#: filewidgets/kfilewidget.cpp:1384
+#: filewidgets/kfilewidget.cpp:1420
 #, kde-format
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
@@ -3436,85 +3436,85 @@ msgstr ""
 "फाइलसभ केँ खोलबाक ई सूची अछि. एकटा सँ बेसी फाइलसभ केँ उल्लेखित कएल जाए सकैत अछि.  "
 "फाइलसभ को स्पेस सँ अलग-अलग कए सूची बद्ध कएक."
 
-#: filewidgets/kfilewidget.cpp:1389
+#: filewidgets/kfilewidget.cpp:1425
 #, kde-format
 msgid "This is the name of the file to open."
 msgstr "ई खोलल जाएबला फाइल क' नाम अछि."
 
-#: filewidgets/kfilewidget.cpp:1402
+#: filewidgets/kfilewidget.cpp:1438
 #, fuzzy, kde-format
 #| msgid "Places"
 msgctxt "@title:window"
 msgid "Places"
 msgstr "स्थान"
 
-#: filewidgets/kfilewidget.cpp:1622
+#: filewidgets/kfilewidget.cpp:1658
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:1623
+#: filewidgets/kfilewidget.cpp:1659
 #, kde-format
 msgid "Overwrite File?"
 msgstr "फाइल केर उप्पर लिखू?"
 
-#: filewidgets/kfilewidget.cpp:1848
+#: filewidgets/kfilewidget.cpp:1884
 #, kde-format
 msgid "You can only select local files."
 msgstr "अहाँ सिर्फ स्थानीय फाइलसभ चुनि सकैछ."
 
-#: filewidgets/kfilewidget.cpp:1848
+#: filewidgets/kfilewidget.cpp:1884
 #, kde-format
 msgid "Remote Files Not Accepted"
 msgstr "रिमोट फाइलसभ स्वीकार्य नहि अछि"
 
-#: filewidgets/kfilewidget.cpp:1958
+#: filewidgets/kfilewidget.cpp:1994
 #, kde-format
 msgid "*|All Folders"
 msgstr "*|सभटा फोल्डर"
 
-#: filewidgets/kfilewidget.cpp:1960
+#: filewidgets/kfilewidget.cpp:1996
 #, kde-format
 msgid "*|All Files"
 msgstr "*|सभटा फाइलसभ"
 
-#: filewidgets/kfilewidget.cpp:2110 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:873
+#: filewidgets/kfilewidget.cpp:2146 widgets/executablefileopendialog.cpp:30
+#: widgets/kfileitemactions.cpp:874
 #, kde-format
 msgid "&Open"
 msgstr "खोलू (&O)"
 
-#: filewidgets/kfilewidget.cpp:2223
+#: filewidgets/kfilewidget.cpp:2259
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2226
+#: filewidgets/kfilewidget.cpp:2262
 #, kde-format
 msgid "Icon size: %1 pixels"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2376
+#: filewidgets/kfilewidget.cpp:2412
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr "फाइल नाम एक्सटेंशन स्वतः चुनू (%1) (&x)"
 
-#: filewidgets/kfilewidget.cpp:2377
+#: filewidgets/kfilewidget.cpp:2413
 #, kde-format
 msgid "the extension <b>%1</b>"
 msgstr "एक्सटेंशन <b>%1</b>"
 
-#: filewidgets/kfilewidget.cpp:2383
+#: filewidgets/kfilewidget.cpp:2419
 #, kde-format
 msgid "Automatically select filename e&xtension"
 msgstr "फाइल नाम एक्सटेंशन स्वतः चुनू (&x)"
 
-#: filewidgets/kfilewidget.cpp:2384
+#: filewidgets/kfilewidget.cpp:2420
 #, kde-format
 msgid "a suitable extension"
 msgstr "एकटा उपयुक्त एक्सटेंशन "
 
-#: filewidgets/kfilewidget.cpp:2392
+#: filewidgets/kfilewidget.cpp:2428
 #, kde-format
 msgid ""
 "This option enables some convenient features for saving files with "
@@ -3530,25 +3530,25 @@ msgid ""
 "enabled as it makes your files more manageable."
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2847
+#: filewidgets/kfilewidget.cpp:2883
 #, fuzzy, kde-format
 #| msgid "&Filter:"
 msgid "&File type:"
 msgstr "फिल्टर: (&F)"
 
-#: filewidgets/kfilewidget.cpp:2848
+#: filewidgets/kfilewidget.cpp:2884
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
 "file will be saved as.</qt>"
 msgstr ""
 
-#: filewidgets/kfilewidget.cpp:2850
+#: filewidgets/kfilewidget.cpp:2886
 #, kde-format
 msgid "&Filter:"
 msgstr "फिल्टर: (&F)"
 
-#: filewidgets/kfilewidget.cpp:2852
+#: filewidgets/kfilewidget.cpp:2888
 #, kde-format
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
@@ -3784,32 +3784,32 @@ msgstr "स्थान नेविगेशन क' लेल क्लिक 
 msgid "Click to Edit Location"
 msgstr "स्थान संपादन क' लेल क्लिक करू"
 
-#: gui/applicationlauncherjob.cpp:106 gui/kprocessrunner.cpp:237
+#: gui/applicationlauncherjob.cpp:108 gui/kprocessrunner.cpp:237
 #, kde-format
 msgid "You are not authorized to execute this file."
 msgstr "ई फाइल केँ चलाबै क' लेल अहाँ अधिकृत नहि अछि."
 
-#: gui/applicationlauncherjob.cpp:117 gui/commandlauncherjob.cpp:113
+#: gui/applicationlauncherjob.cpp:119 gui/commandlauncherjob.cpp:115
 #, fuzzy, kde-format
 #| msgid "Launching %1"
 msgctxt "Launching application"
 msgid "Launching %1"
 msgstr "चालू कएल जाए रहल अछि %1"
 
-#: gui/applicationlauncherjob.cpp:154
+#: gui/applicationlauncherjob.cpp:156
 #, kde-format
 msgid ""
 "Unable to make the service %1 executable, aborting execution.\n"
 "%2."
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:251 gui/openurljob.cpp:630
+#: gui/applicationlauncherjob.cpp:253 gui/openurljob.cpp:630
 #: widgets/krun.cpp:199
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "ई फाइल केँ खोलबा क' लेल अहाँ केओ अनुप्रयोग केँ चुनबाक लेल अधिकृत नहि छी."
 
-#: gui/applicationlauncherjob.cpp:259
+#: gui/applicationlauncherjob.cpp:261
 #, kde-format
 msgid ""
 "Internal error: could not prompt the user for which application to start"
@@ -7035,7 +7035,7 @@ msgstr "मालिक"
 msgid "Owning Group"
 msgstr "मालिक समूह"
 
-#: widgets/kacleditwidget.cpp:410 widgets/kpropertiesdialog.cpp:2101
+#: widgets/kacleditwidget.cpp:410 widgets/kpropertiesdialog.cpp:2102
 #, kde-format
 msgid "Others"
 msgstr "आन "
@@ -7183,66 +7183,66 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "प्रकार"
 
-#: widgets/kfileitemactions.cpp:425
+#: widgets/kfileitemactions.cpp:426
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "Open &with %1"
 msgstr "के सँग खोलू:"
 
-#: widgets/kfileitemactions.cpp:427
+#: widgets/kfileitemactions.cpp:428
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr ""
 
-#: widgets/kfileitemactions.cpp:617
+#: widgets/kfileitemactions.cpp:618
 #, fuzzy, kde-format
 #| msgid "Actions"
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "क्रियासभ"
 
-#: widgets/kfileitemactions.cpp:862
+#: widgets/kfileitemactions.cpp:863
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "&Open folder with %1"
 msgstr "के सँग खोलू:"
 
-#: widgets/kfileitemactions.cpp:862
+#: widgets/kfileitemactions.cpp:863
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "&Open with %1"
 msgstr "के सँग खोलू:"
 
-#: widgets/kfileitemactions.cpp:886
+#: widgets/kfileitemactions.cpp:887
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open Folder With..."
 msgstr "एकरासँ खोलू"
 
-#: widgets/kfileitemactions.cpp:887
+#: widgets/kfileitemactions.cpp:888
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "एकरासँ खोलू"
 
-#: widgets/kfileitemactions.cpp:900
+#: widgets/kfileitemactions.cpp:901
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open Folder With"
 msgstr "एकरासँ खोलू"
 
-#: widgets/kfileitemactions.cpp:900
+#: widgets/kfileitemactions.cpp:901
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "एकरासँ खोलू"
 
-#: widgets/kfileitemactions.cpp:911
+#: widgets/kfileitemactions.cpp:912
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
@@ -7841,7 +7841,7 @@ msgstr ""
 msgid "Ad&vanced Options"
 msgstr "विस्तृत विकल्प...(&v)"
 
-#: widgets/kpropertiesdialog.cpp:173
+#: widgets/kpropertiesdialog.cpp:174
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "<qt>Could not save properties. You do not have sufficient access to write "
@@ -7853,65 +7853,65 @@ msgid ""
 msgstr ""
 "<qt>गुण सहेज नहि सकत. अहाँक पास उचित पहुँच <b>%1</b> </qt> पर लिखबाक लेल नहि अछि."
 
-#: widgets/kpropertiesdialog.cpp:230 widgets/kpropertiesdialog.cpp:245
-#: widgets/kpropertiesdialog.cpp:257 widgets/kpropertiesdialog.cpp:275
-#: widgets/kpropertiesdialog.cpp:293 widgets/kpropertiesdialog.cpp:317
+#: widgets/kpropertiesdialog.cpp:231 widgets/kpropertiesdialog.cpp:246
+#: widgets/kpropertiesdialog.cpp:258 widgets/kpropertiesdialog.cpp:276
+#: widgets/kpropertiesdialog.cpp:294 widgets/kpropertiesdialog.cpp:318
 #, kde-format
 msgid "Properties for %1"
 msgstr " %1 क' लेल गुण"
 
-#: widgets/kpropertiesdialog.cpp:255 widgets/kpropertiesdialog.cpp:291
+#: widgets/kpropertiesdialog.cpp:256 widgets/kpropertiesdialog.cpp:292
 #, kde-format
 msgid "Properties for 1 item"
 msgid_plural "Properties for %1 Selected Items"
 msgstr[0] "१ वस्तु क' लेल गुण"
 msgstr[1] "%1 वस्तु क' लेल गुण"
 
-#: widgets/kpropertiesdialog.cpp:447
+#: widgets/kpropertiesdialog.cpp:448
 #, kde-format
 msgctxt "@title:tab"
 msgid "Share"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:899
+#: widgets/kpropertiesdialog.cpp:900
 #, fuzzy, kde-format
 #| msgid "&General"
 msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "सामान्य (&G)"
 
-#: widgets/kpropertiesdialog.cpp:1097
+#: widgets/kpropertiesdialog.cpp:1098
 #, kde-format
 msgctxt "@action:button"
 msgid "Explore in %1"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:1108 widgets/kpropertiesdialog.cpp:1371
+#: widgets/kpropertiesdialog.cpp:1109 widgets/kpropertiesdialog.cpp:1372
 #, kde-format
 msgid "Refresh"
 msgstr "ताजा करू"
 
-#: widgets/kpropertiesdialog.cpp:1223
+#: widgets/kpropertiesdialog.cpp:1224
 #, fuzzy, kde-format
 #| msgctxt "items: folders, files (size)"
 #| msgid "%1: %2"
 msgid "%1:"
 msgstr "%1: %2"
 
-#: widgets/kpropertiesdialog.cpp:1331
+#: widgets/kpropertiesdialog.cpp:1332
 #, kde-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:1338
+#: widgets/kpropertiesdialog.cpp:1339
 #, fuzzy, kde-format
 #| msgid "Unknown Host"
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "अनचिन्ह होस्ट"
 
-#: widgets/kpropertiesdialog.cpp:1348
+#: widgets/kpropertiesdialog.cpp:1349
 #, kde-format
 msgid ""
 "Calculating... %1 (%2)\n"
@@ -7920,128 +7920,128 @@ msgstr ""
 "गणना मे... %1 (%2)\n"
 "%3, %4"
 
-#: widgets/kpropertiesdialog.cpp:1351 widgets/kpropertiesdialog.cpp:1366
+#: widgets/kpropertiesdialog.cpp:1352 widgets/kpropertiesdialog.cpp:1367
 #, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] "१ फाइल"
 msgstr[1] "%1 फाइल"
 
-#: widgets/kpropertiesdialog.cpp:1352 widgets/kpropertiesdialog.cpp:1367
+#: widgets/kpropertiesdialog.cpp:1353 widgets/kpropertiesdialog.cpp:1368
 #, kde-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
 msgstr[0] "१ उप फोल्डर"
 msgstr[1] "%1 उप फोल्डर"
 
-#: widgets/kpropertiesdialog.cpp:1380
+#: widgets/kpropertiesdialog.cpp:1381
 #, fuzzy, kde-format
 #| msgid "Calculating..."
 msgid "Calculating...\n"
 msgstr "गणनामे... "
 
-#: widgets/kpropertiesdialog.cpp:1403
+#: widgets/kpropertiesdialog.cpp:1404
 #, fuzzy, kde-format
 #| msgid "At least %1"
 msgid "At least %1\n"
 msgstr "कम सँ कम %1"
 
-#: widgets/kpropertiesdialog.cpp:1449
+#: widgets/kpropertiesdialog.cpp:1450
 #, kde-format
 msgid "The new file name is empty."
 msgstr "नवीन फाइल नाम खाली अछि."
 
-#: widgets/kpropertiesdialog.cpp:1644
+#: widgets/kpropertiesdialog.cpp:1645
 #, fuzzy, kde-format
 #| msgid "Choose Application"
 msgid "No associated application"
 msgstr "अनुप्रयोग चुनू"
 
-#: widgets/kpropertiesdialog.cpp:1720 widgets/kpropertiesdialog.cpp:1721
-#: widgets/kpropertiesdialog.cpp:1723
+#: widgets/kpropertiesdialog.cpp:1721 widgets/kpropertiesdialog.cpp:1722
+#: widgets/kpropertiesdialog.cpp:1724
 #, fuzzy
 #| msgid "Accessed:"
 msgid "No Access"
 msgstr "पहुंचल:"
 
-#: widgets/kpropertiesdialog.cpp:1720
+#: widgets/kpropertiesdialog.cpp:1721
 msgid "Can Only View"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:1720
+#: widgets/kpropertiesdialog.cpp:1721
 #, fuzzy
 #| msgid "Can View & Modify Content"
 msgid "Can View & Modify"
 msgstr "विषयवस्तु देख आ बदएल सकैछ"
 
-#: widgets/kpropertiesdialog.cpp:1721
+#: widgets/kpropertiesdialog.cpp:1722
 #, fuzzy
 #| msgid "Can View Content"
 msgid "Can Only View Content"
 msgstr "विषयवस्तु देख सकैछ"
 
-#: widgets/kpropertiesdialog.cpp:1721
+#: widgets/kpropertiesdialog.cpp:1722
 msgid "Can View & Modify Content"
 msgstr "विषयवस्तु देख आ बदएल सकैछ"
 
-#: widgets/kpropertiesdialog.cpp:1723
+#: widgets/kpropertiesdialog.cpp:1724
 #, fuzzy
 #| msgid "Can View Content"
 msgid "Can Only View/Read Content"
 msgstr "विषयवस्तु देख सकैछ"
 
-#: widgets/kpropertiesdialog.cpp:1723
+#: widgets/kpropertiesdialog.cpp:1724
 msgid "Can View/Read & Modify/Write"
 msgstr "देखि/पढ़ि आ बदलि/लिख सकैछ"
 
-#: widgets/kpropertiesdialog.cpp:1822
+#: widgets/kpropertiesdialog.cpp:1823
 #, kde-format
 msgid "&Permissions"
 msgstr "अनुमतिसभ (&P)"
 
-#: widgets/kpropertiesdialog.cpp:1834 widgets/kpropertiesdialog.cpp:2030
+#: widgets/kpropertiesdialog.cpp:1835 widgets/kpropertiesdialog.cpp:2031
 #, kde-format
 msgid "Access Permissions"
 msgstr "पहुँच अनुमतिसभ"
 
-#: widgets/kpropertiesdialog.cpp:1843
+#: widgets/kpropertiesdialog.cpp:1844
 #, kde-format
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] "ई फाइल एकटा लिंक अछि आओर एहिमे अनुमतिसभ नहि अछि."
 msgstr[1] "ई फाइल एकटा लिंक अछि आओर एहिमे अनुमतिसभ नहि अछि."
 
-#: widgets/kpropertiesdialog.cpp:1845
+#: widgets/kpropertiesdialog.cpp:1846
 #, kde-format
 msgid "Only the owner can change permissions."
 msgstr "सिर्फ स्वामी अनुमतिसभ बदएल सकैत अछि."
 
-#: widgets/kpropertiesdialog.cpp:1849
+#: widgets/kpropertiesdialog.cpp:1850
 #, kde-format
 msgid "O&wner:"
 msgstr "स्वामीः (&w)"
 
-#: widgets/kpropertiesdialog.cpp:1855
+#: widgets/kpropertiesdialog.cpp:1856
 #, kde-format
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "उल्लेखित करैत अछि जे स्वामी क' लेल कओन सँ क्रियासभ स्वीकार्य अछि."
 
-#: widgets/kpropertiesdialog.cpp:1857
+#: widgets/kpropertiesdialog.cpp:1858
 #, kde-format
 msgid "Gro&up:"
 msgstr "समूह (&u)"
 
-#: widgets/kpropertiesdialog.cpp:1863
+#: widgets/kpropertiesdialog.cpp:1864
 #, kde-format
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "उल्लेखित करैत अछि जे समूह केर सदस्यसभ क' लेल कओन सी क्रिया स्वीकार्य अछि."
 
-#: widgets/kpropertiesdialog.cpp:1865
+#: widgets/kpropertiesdialog.cpp:1866
 #, kde-format
 msgid "O&thers:"
 msgstr "आन (&t)"
 
-#: widgets/kpropertiesdialog.cpp:1872
+#: widgets/kpropertiesdialog.cpp:1873
 #, kde-format
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
@@ -8050,17 +8050,17 @@ msgstr ""
 "निर्धारित करैत अछि जे क्रिया जे सबहि प्रयोक्ता  जे नहि तँ मालिक अछि आओर नहि समूह मे "
 "अछि, कार्य लेल स्वीकृत अछि"
 
-#: widgets/kpropertiesdialog.cpp:1876
+#: widgets/kpropertiesdialog.cpp:1877
 #, kde-format
 msgid "Only own&er can rename and delete folder content"
 msgstr "सिर्फ स्वामी फोल्डर की वस्तुसभ केँ मेटाए सकैत अछि अथवा नाम बदएल सकैत अछि (&e)"
 
-#: widgets/kpropertiesdialog.cpp:1876
+#: widgets/kpropertiesdialog.cpp:1877
 #, kde-format
 msgid "Is &executable"
 msgstr "चलाबै योग्य अछि (&e)"
 
-#: widgets/kpropertiesdialog.cpp:1879
+#: widgets/kpropertiesdialog.cpp:1880
 #, kde-format
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
@@ -8068,49 +8068,49 @@ msgid ""
 "requires the 'Modify Content' permission."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:1883
+#: widgets/kpropertiesdialog.cpp:1884
 #, kde-format
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:1890
+#: widgets/kpropertiesdialog.cpp:1891
 #, kde-format
 msgid "A&dvanced Permissions"
 msgstr "विस्तृत अनुमतिसभ (&d)"
 
-#: widgets/kpropertiesdialog.cpp:1898
+#: widgets/kpropertiesdialog.cpp:1899
 #, kde-format
 msgid "Ownership"
 msgstr "स्वामित्व"
 
-#: widgets/kpropertiesdialog.cpp:1905
+#: widgets/kpropertiesdialog.cpp:1906
 #, kde-format
 msgid "User:"
 msgstr "प्रयोक्ता:"
 
-#: widgets/kpropertiesdialog.cpp:1944
+#: widgets/kpropertiesdialog.cpp:1945
 #, kde-format
 msgid "Group:"
 msgstr "समूह:"
 
-#: widgets/kpropertiesdialog.cpp:1979
+#: widgets/kpropertiesdialog.cpp:1980
 #, kde-format
 msgid "Apply changes to all subfolders and their contents"
 msgstr "परिवर्तनसभ केँ सबहि सब-फोल्डर आओर ओकर वस्तुसभ मे लागू करू"
 
-#: widgets/kpropertiesdialog.cpp:2021
+#: widgets/kpropertiesdialog.cpp:2022
 #, kde-format
 msgid "Advanced Permissions"
 msgstr "विस्तृत अनुमतिसभ"
 
-#: widgets/kpropertiesdialog.cpp:2038
+#: widgets/kpropertiesdialog.cpp:2039
 #, kde-format
 msgid "Class"
 msgstr "वर्ग"
 
-#: widgets/kpropertiesdialog.cpp:2045
+#: widgets/kpropertiesdialog.cpp:2046
 #, kde-format
 msgid ""
 "Show\n"
@@ -8119,22 +8119,22 @@ msgstr ""
 "देखाबू\n"
 "प्रविष्टिसभ"
 
-#: widgets/kpropertiesdialog.cpp:2046
+#: widgets/kpropertiesdialog.cpp:2047
 #, kde-format
 msgid "This flag allows viewing the content of the folder."
 msgstr "ई फ्लेग फोल्डर केर वस्तुसभ केँ देखबाक स्वीकृति देत अछि."
 
-#: widgets/kpropertiesdialog.cpp:2048
+#: widgets/kpropertiesdialog.cpp:2049
 #, kde-format
 msgid "Read"
 msgstr "पढ़ू"
 
-#: widgets/kpropertiesdialog.cpp:2049
+#: widgets/kpropertiesdialog.cpp:2050
 #, kde-format
 msgid "The Read flag allows viewing the content of the file."
 msgstr "रीड फ्लेग फाइलक वस्तुसभ केँ देखबाक स्वीकृति देत अछि."
 
-#: widgets/kpropertiesdialog.cpp:2055
+#: widgets/kpropertiesdialog.cpp:2056
 #, kde-format
 msgid ""
 "Write\n"
@@ -8143,7 +8143,7 @@ msgstr ""
 "लिखू\n"
 "प्रविष्टिसभ"
 
-#: widgets/kpropertiesdialog.cpp:2057
+#: widgets/kpropertiesdialog.cpp:2058
 #, kde-format
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
@@ -8152,43 +8152,43 @@ msgstr ""
 "ई फ्लैग फाइलसभ केँ जोड़ब, नाम बदलब आओर मेटाबै देत अछि. टीप लिअ' जे स्टिकी फ्लैग केर प्रयोग "
 "सँ मेटाबै आ नाम बदलबाक प्रक्रिया सीमित भए सकैत अछि."
 
-#: widgets/kpropertiesdialog.cpp:2060
+#: widgets/kpropertiesdialog.cpp:2061
 #, kde-format
 msgid "Write"
 msgstr "लिखू"
 
-#: widgets/kpropertiesdialog.cpp:2061
+#: widgets/kpropertiesdialog.cpp:2062
 #, kde-format
 msgid "The Write flag allows modifying the content of the file."
 msgstr "राइट फ्लेग फाइलक वस्तुसभकेँ परिवर्धित करबाक अनुमति देत अछि."
 
-#: widgets/kpropertiesdialog.cpp:2067
+#: widgets/kpropertiesdialog.cpp:2068
 #, kde-format
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "एंटर कुँजी"
 
-#: widgets/kpropertiesdialog.cpp:2068
+#: widgets/kpropertiesdialog.cpp:2069
 #, kde-format
 msgid "Enable this flag to allow entering the folder."
 msgstr "फोल्डर मे जएबाक स्वीकृति क' लेल एहि फ्लेग केँ सक्षम करू."
 
-#: widgets/kpropertiesdialog.cpp:2070
+#: widgets/kpropertiesdialog.cpp:2071
 #, kde-format
 msgid "Exec"
 msgstr "चलैनाइ"
 
-#: widgets/kpropertiesdialog.cpp:2071
+#: widgets/kpropertiesdialog.cpp:2072
 #, kde-format
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "फाइल केँ प्रोग्रामक तरह चलाबैक स्वीकृति क' लेल एहि फ्लेग केँ सक्षम करू."
 
-#: widgets/kpropertiesdialog.cpp:2079
+#: widgets/kpropertiesdialog.cpp:2080
 #, kde-format
 msgid "Special"
 msgstr "विशेष"
 
-#: widgets/kpropertiesdialog.cpp:2084
+#: widgets/kpropertiesdialog.cpp:2085
 #, kde-format
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
@@ -8197,7 +8197,7 @@ msgstr ""
 "विशेष फ्लेग. समस्त फोल्डर क' लेल वैध, फ्लेग क' सटीक अर्थ दाएँ हाथ केर स्तम्भ मे देखा जाए सकैत "
 "अछि."
 
-#: widgets/kpropertiesdialog.cpp:2088
+#: widgets/kpropertiesdialog.cpp:2089
 #, kde-format
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
@@ -8206,17 +8206,17 @@ msgstr ""
 "विशेष फ्लेग. समस्त फोल्डर क' लेल वैध, फ्लेग क' सटीक अर्थ दाएँ हाथ केर स्तम्भ मे देखल जाए सकैत "
 "अछि."
 
-#: widgets/kpropertiesdialog.cpp:2093
+#: widgets/kpropertiesdialog.cpp:2094
 #, kde-format
 msgid "User"
 msgstr "प्रयोक्ता"
 
-#: widgets/kpropertiesdialog.cpp:2097
+#: widgets/kpropertiesdialog.cpp:2098
 #, kde-format
 msgid "Group"
 msgstr "समूह"
 
-#: widgets/kpropertiesdialog.cpp:2108
+#: widgets/kpropertiesdialog.cpp:2109
 #, kde-format
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
@@ -8225,7 +8225,7 @@ msgstr ""
 "जँ ई फ्लेग नियत कएल जाइछ अछि. एहि फोल्डर क' स्वामी सबहि नवीन फाइलसभ क' स्वामी "
 "हएताह."
 
-#: widgets/kpropertiesdialog.cpp:2112
+#: widgets/kpropertiesdialog.cpp:2113
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8233,7 +8233,7 @@ msgid ""
 msgstr ""
 "जँ ई फाइल एक्जीक्यूटेबल अछि आओर फ्लेग नियत कएल जाइछ. ई स्वामीक अनुमति सँ एक्जीक्यूट हाएत."
 
-#: widgets/kpropertiesdialog.cpp:2119
+#: widgets/kpropertiesdialog.cpp:2120
 #, kde-format
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
@@ -8241,7 +8241,7 @@ msgstr ""
 "जँ ई फ्लेग नियत कएल जाइछ. एहि फोल्डर केर समूह केँ सबहि नवीन फाइलसभ क' लेल नियत कएल "
 "जएताह."
 
-#: widgets/kpropertiesdialog.cpp:2123
+#: widgets/kpropertiesdialog.cpp:2124
 #, kde-format
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
@@ -8249,7 +8249,7 @@ msgid ""
 msgstr ""
 "जँ ई फाइल एक्जीक्यूटेबल अछि आओर फ्लेग नियत कएल जाइछ. ई समूहक अनुमति सँ एक्जीक्यूट हएताह."
 
-#: widgets/kpropertiesdialog.cpp:2130
+#: widgets/kpropertiesdialog.cpp:2131
 #, kde-format
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
@@ -8258,7 +8258,7 @@ msgstr ""
 "जँ फोल्डरमे स्टिकी फ्लैग सेट कए देल जएताह तँ सिर्फ मालिक अथवा रूट एकरा मेटाए अथवा एकर "
 "नाम बदएल सकताह. आन रूपेँ प्रत्येक, जकरा पास लिखबाक अनुमति अछि. ओ ई कए सकत."
 
-#: widgets/kpropertiesdialog.cpp:2135
+#: widgets/kpropertiesdialog.cpp:2136
 #, kde-format
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
@@ -8266,88 +8266,88 @@ msgid ""
 msgstr ""
 "लिनक्स मे फाइल पर स्टिकी फ्लेग नजरअंदाज कएल जाइछ. पर केओ तंत्र मे उपयोग कएल जाएत हाएत"
 
-#: widgets/kpropertiesdialog.cpp:2196
+#: widgets/kpropertiesdialog.cpp:2197
 #, kde-format
 msgid "Set UID"
 msgstr "यूआईडी सेट करू"
 
-#: widgets/kpropertiesdialog.cpp:2200
+#: widgets/kpropertiesdialog.cpp:2201
 #, kde-format
 msgid "Set GID"
 msgstr "जीआईडी सेट करू"
 
-#: widgets/kpropertiesdialog.cpp:2204
+#: widgets/kpropertiesdialog.cpp:2205
 #, kde-format
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "स्टिकी"
 
-#: widgets/kpropertiesdialog.cpp:2309
+#: widgets/kpropertiesdialog.cpp:2310
 #, kde-format
 msgid "Link"
 msgstr "लिंक"
 
-#: widgets/kpropertiesdialog.cpp:2329
+#: widgets/kpropertiesdialog.cpp:2330
 #, kde-format
 msgid "Varying (No Change)"
 msgstr "परिवर्तनीय (कोनो परिवर्तन नहि)"
 
-#: widgets/kpropertiesdialog.cpp:2440
+#: widgets/kpropertiesdialog.cpp:2441
 #, kde-format
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] "ई फाइल उन्नत अनुमतिसभ प्रयोग मे लैछ"
 msgstr[1] "ई फाइल उन्नत अनुमतिसभ प्रयोग मे लैछ"
 
-#: widgets/kpropertiesdialog.cpp:2462
+#: widgets/kpropertiesdialog.cpp:2463
 #, kde-format
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] "ई फोल्डर उन्नत अनुमतिसभ प्रयोग करैत अछि."
 msgstr[1] "ई फोल्डर उन्नत अनुमतिसभ प्रयोग करैत अछि."
 
-#: widgets/kpropertiesdialog.cpp:2476
+#: widgets/kpropertiesdialog.cpp:2477
 #, kde-format
 msgid "These files use advanced permissions."
 msgstr "ई फाइलसभ विस्तृत अनुमतिसभ उपयोग करैत अछि."
 
-#: widgets/kpropertiesdialog.cpp:2722
+#: widgets/kpropertiesdialog.cpp:2723
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2787 widgets/kpropertiesdialog.cpp:2798
-#: widgets/kpropertiesdialog.cpp:2809 widgets/kpropertiesdialog.cpp:2820
+#: widgets/kpropertiesdialog.cpp:2788 widgets/kpropertiesdialog.cpp:2799
+#: widgets/kpropertiesdialog.cpp:2810 widgets/kpropertiesdialog.cpp:2821
 #, fuzzy, kde-format
 #| msgid "Calculating..."
 msgctxt "@action:button"
 msgid "Calculating..."
 msgstr "गणनामे... "
 
-#: widgets/kpropertiesdialog.cpp:2976
+#: widgets/kpropertiesdialog.cpp:2977
 #, kde-format
 msgid "Invalid checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2979
+#: widgets/kpropertiesdialog.cpp:2980
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2990
+#: widgets/kpropertiesdialog.cpp:2991
 #, kde-format
 msgid "Checksums match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2993
+#: widgets/kpropertiesdialog.cpp:2994
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:3005
+#: widgets/kpropertiesdialog.cpp:3006
 #, kde-format
 msgid ""
 "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
@@ -8355,56 +8355,56 @@ msgid ""
 "source of the file."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:3010
+#: widgets/kpropertiesdialog.cpp:3011
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:3018
+#: widgets/kpropertiesdialog.cpp:3019
 #, kde-format
 msgctxt "notify the user about a computation in the background"
 msgid "Verifying checksum..."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:3107
+#: widgets/kpropertiesdialog.cpp:3108
 #, kde-format
 msgid "U&RL"
 msgstr "यूआरएल (&R)"
 
-#: widgets/kpropertiesdialog.cpp:3114
+#: widgets/kpropertiesdialog.cpp:3115
 #, kde-format
 msgid "URL:"
 msgstr "URL:"
 
-#: widgets/kpropertiesdialog.cpp:3184 widgets/kpropertiesdialog.cpp:3453
+#: widgets/kpropertiesdialog.cpp:3185 widgets/kpropertiesdialog.cpp:3454
 #, fuzzy, kde-format
 #| msgid "Only executables on local file systems are supported."
 msgid ""
 "Could not save properties. Only entries on local file systems are supported."
 msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
 
-#: widgets/kpropertiesdialog.cpp:3258
+#: widgets/kpropertiesdialog.cpp:3259
 #, kde-format
 msgid "&Application"
 msgstr "अनुप्रयोग (&A)"
 
-#: widgets/kpropertiesdialog.cpp:3391
+#: widgets/kpropertiesdialog.cpp:3392
 #, kde-format
 msgid "Add File Type for %1"
 msgstr " %1 क' लेल फाइल प्रकार चुनू"
 
-#: widgets/kpropertiesdialog.cpp:3392
+#: widgets/kpropertiesdialog.cpp:3393
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "एकटा अथवा बेसी फाइल प्रकार जोड़बा क' लेल चुनू:"
 
-#: widgets/kpropertiesdialog.cpp:3538
+#: widgets/kpropertiesdialog.cpp:3539
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "सिर्फ स्थानीय फाइल सिस्टम पर एक्जीक्यूटेबल समर्थित अछि."
 
-#: widgets/kpropertiesdialog.cpp:3553
+#: widgets/kpropertiesdialog.cpp:3554
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "%1 क' लेल विस्तृत विकल्प "
