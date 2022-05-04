@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-03 00:42+0000\n"
+"POT-Creation-Date: 2022-05-04 00:44+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -19491,7 +19491,7 @@ msgstr ""
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:668
 #: plugins/dockers/animation/KisOnionSkinsDocker.ui:99
 #: plugins/dockers/digitalmixer/digitalmixer_dock.cc:141
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:239
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:337
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:346
 #: plugins/tools/basictools/wdgmultihandtool.ui:192
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:136
@@ -31445,8 +31445,6 @@ msgstr "%1%"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/widgets/kis_paintop_preset_icon_library.cpp:23
 #: libs/widgets/KisSpinboxHSXSelector.cpp:34
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:58
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:59
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:42
 #, fuzzy, kde-format
 msgid "Hue:"
@@ -31455,8 +31453,6 @@ msgstr "वर्ण:"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/widgets/kis_paintop_preset_icon_library.cpp:27
 #: libs/widgets/KisSpinboxHSXSelector.cpp:35
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:58
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:59
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:62
 #, fuzzy, kde-format
 msgid "Saturation:"
@@ -32355,28 +32351,22 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: libs/widgets/KisSpinboxHSXSelector.cpp:65
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:64
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:82
 #, kde-format
 msgid "Value:"
 msgstr "मान:"
 
 #: libs/widgets/KisSpinboxHSXSelector.cpp:68
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:66
 #, fuzzy, kde-format
 msgid "Lightness:"
 msgstr "चमकीलापन"
 
 #: libs/widgets/KisSpinboxHSXSelector.cpp:71
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:68
 #, fuzzy, kde-format
 msgid "Intensity:"
 msgstr "विवरण:"
 
 #: libs/widgets/KisSpinboxHSXSelector.cpp:74
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:70
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:72
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:73
 #, kde-format
 msgid "Luma:"
 msgstr ""
@@ -36352,7 +36342,7 @@ msgstr "बनाबू"
 msgid "&Add"
 msgstr ""
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1221
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1225
 #, kde-format
 msgid "%1 %"
 msgstr ""
@@ -37683,7 +37673,7 @@ msgid ""
 "provided."
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1264
+#: plugins/dockers/storyboarddocker/StoryboardModel.cpp:1267
 #, kde-format
 msgctxt "default name for storyboard item"
 msgid "scene "
@@ -41044,19 +41034,7 @@ msgstr "विसंतृप्त"
 msgid "Desaturate"
 msgstr "विसंतृप्त"
 
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:72
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:73
-#, fuzzy, kde-format
-msgid "Green-Red:"
-msgstr "हरिअर:"
-
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:72
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:73
-#, fuzzy, kde-format
-msgid "Yellow-Blue:"
-msgstr "पिअर"
-
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:82
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:252
 #, fuzzy, kde-format
 msgid "&HSV Adjustment..."
 msgstr "विसंतृप्त"
@@ -41167,69 +41145,69 @@ msgstr ""
 msgid "M&ax"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:49
+#. i18n: ectx: property (text), widget (QLabel, typeLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:36
 #, fuzzy, kde-format
 msgid "&Type:"
 msgstr "पाठ:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkColorize)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:62
-#, fuzzy, kde-format
-msgid "&Colorize"
-msgstr "रंग (&C)"
-
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:73
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:59
 #, fuzzy, kde-format
 msgid "Hue/Saturation/Value"
 msgstr "संतृप्ति"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:78
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:64
 #, fuzzy, kde-format
 msgid "Hue/Saturation/Lightness"
 msgstr "संतृप्ति:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:83
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:69
 #, fuzzy, kde-format
 msgid "Hue/Saturation/Intensity"
 msgstr "संतृप्ति:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:88
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:74
 #, fuzzy, kde-format
 msgid "Hue/Saturation/Luma"
 msgstr "संतृप्ति"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:93
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:79
 #, kde-format
 msgid "Blue Chroma/Red Chroma/Luma"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:124
+#. i18n: ectx: property (text), widget (QLabel, hLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:93
+#, fuzzy, kde-format
+msgid "&Hue:"
+msgstr "वर्ण:"
+
+#. i18n: ectx: property (text), widget (QLabel, sLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:157
+#, fuzzy, kde-format
+msgid "&Saturation:"
+msgstr "संतृप्ति:"
+
+#. i18n: ectx: property (text), widget (QLabel, vLabel)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:221
 #, fuzzy, kde-format
 #| msgid "Value:"
 msgid "&Value:"
 msgstr "मान:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:171
+#. i18n: ectx: property (text), widget (QCheckBox, chkColorize)
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:281
 #, fuzzy, kde-format
-msgid "&Saturation:"
-msgstr "संतृप्ति:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:193
-#, fuzzy, kde-format
-msgid "&Hue:"
-msgstr "वर्ण:"
+msgid "&Colorize"
+msgstr "रंग (&C)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCompatibilityMode)
-#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:246
+#: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:305
 #, kde-format
 msgid "Legacy mode (before Krita 4.3)"
 msgstr ""
@@ -56325,6 +56303,14 @@ msgstr "ज़ूम आउट"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "वरीयतासभ"
+
+#, fuzzy
+#~ msgid "Green-Red:"
+#~ msgstr "हरिअर:"
+
+#, fuzzy
+#~ msgid "Yellow-Blue:"
+#~ msgstr "पिअर"
 
 #, fuzzy
 #~ msgid "Cursor Shape:"
