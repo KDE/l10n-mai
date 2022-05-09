@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-13 00:46+0000\n"
+"POT-Creation-Date: 2022-05-09 00:45+0000\n"
 "PO-Revision-Date: 2009-04-21 23:52+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -337,7 +337,7 @@ msgid "LaTeX"
 msgstr "LaTeX"
 
 #. i18n: ectx: ToolBar (toolsToolBar)
-#: dialogs/configurationdialog.cpp:71 kileui.rc:531
+#: dialogs/configurationdialog.cpp:71 kileui.rc:540
 #, kde-format
 msgid "Tools"
 msgstr "अओजार"
@@ -379,7 +379,7 @@ msgid "Scripting"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_usermenu)
-#: dialogs/configurationdialog.cpp:229 kileui.rc:477 usermenu/usermenu.cpp:69
+#: dialogs/configurationdialog.cpp:229 kileui.rc:484 usermenu/usermenu.cpp:69
 #, fuzzy, kde-format
 #| msgid "User Defined"
 msgid "User Menu"
@@ -396,7 +396,7 @@ msgid "Code Completion"
 msgstr ""
 
 #. i18n: ectx: Menu (quickpreview)
-#: dialogs/configurationdialog.cpp:251 kileui.rc:141
+#: dialogs/configurationdialog.cpp:251 kileui.rc:148
 #, kde-format
 msgid "Quick Preview"
 msgstr ""
@@ -414,7 +414,7 @@ msgid "Help"
 msgstr "मद्दति "
 
 #. i18n: ectx: Menu (menu_livepreview)
-#: dialogs/configurationdialog.cpp:267 kileui.rc:138
+#: dialogs/configurationdialog.cpp:267 kileui.rc:145
 #, fuzzy, kde-format
 #| msgid "Preview"
 msgid "Live Preview"
@@ -1207,7 +1207,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (mathToolBar)
 #. i18n: ectx: property (text), widget (QTreeWidget, environments)
 #: dialogs/latexcommanddialog.cpp:391 dialogs/latexcommanddialog_base.ui:84
-#: kile.cpp:1013 kileui.rc:560
+#: kile.cpp:1013 kileui.rc:569
 #, kde-format
 msgid "Math"
 msgstr "गणित"
@@ -6035,7 +6035,7 @@ msgid "&Bibliography"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: kile.cpp:993 kileui.rc:496
+#: kile.cpp:993 kileui.rc:503
 #, kde-format
 msgid "&Settings"
 msgstr "जमावट (&S)"
@@ -9901,347 +9901,354 @@ msgstr "बदलू"
 msgid "&Edit"
 msgstr "सँपादित करू (&E)"
 
-#. i18n: ectx: Menu (goto_menu)
-#: kileui.rc:60
-#, kde-format
-msgid "&Go to"
-msgstr ""
-
 #. i18n: ectx: Menu (complete)
-#: kileui.rc:69
+#: kileui.rc:61
 #, fuzzy, kde-format
 #| msgid "Complete"
 msgid "Co&mplete"
 msgstr "पूर्ण"
 
 #. i18n: ectx: Menu (bullet)
-#: kileui.rc:74
+#: kileui.rc:66
 #, fuzzy, kde-format
 #| msgid "Bulleted List"
 msgid "&Bullets"
 msgstr "बुलेटेड सूची"
 
 #. i18n: ectx: Menu (select)
-#: kileui.rc:78 widgets/structurewidget.cpp:770
+#: kileui.rc:70 widgets/structurewidget.cpp:770
 #, kde-format
 msgid "&Select"
 msgstr ""
 
 #. i18n: ectx: Menu (delete)
-#: kileui.rc:91
+#: kileui.rc:83
 #, kde-format
 msgid "D&elete"
 msgstr "मेटाबू (&e)"
 
 #. i18n: ectx: Menu (environment)
-#: kileui.rc:104
+#: kileui.rc:96
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "Environmen&t"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (texgroup)
-#: kileui.rc:112
+#: kileui.rc:104
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "Te&X Group"
 msgstr "समूह:"
 
+#. i18n: ectx: Menu (selection)
+#: kileui.rc:116
+#, fuzzy, kde-format
+#| msgid "Selection"
+msgid "&Selection"
+msgstr "चुनाव"
+
 #. i18n: ectx: Menu (view)
 #. i18n: ectx: Menu (menu_viewer)
-#: kileui.rc:123 kileui.rc:153
+#: kileui.rc:119 kileui.rc:160
 #, kde-format
 msgid "&View"
 msgstr "दृश्य (&V)"
 
 #. i18n: ectx: Menu (menu_document_viewer)
 #. i18n: ectx: property (title), widget (QGroupBox, documentViewerGroupBox)
-#: kileui.rc:132 kileviewmanager.cpp:1163 widgets/appearanceconfigwidget.ui:55
+#: kileui.rc:125 kileviewmanager.cpp:1163 widgets/appearanceconfigwidget.ui:55
 #: widgets/generalconfigwidget.ui:156
 #, fuzzy, kde-format
 #| msgid "Documentation"
 msgid "Document Viewer"
 msgstr "दस्ताबेजीकरण"
 
+#. i18n: ectx: Menu (go)
+#: kileui.rc:129
+#, kde-format
+msgid "&Go"
+msgstr ""
+
 #. i18n: ectx: Menu (menu_build)
-#: kileui.rc:136
+#: kileui.rc:143
 #, fuzzy, kde-format
 #| msgid "Build"
 msgid "B&uild"
 msgstr "निर्मित"
 
 #. i18n: ectx: Menu (menu_compile)
-#: kileui.rc:149
+#: kileui.rc:156
 #, fuzzy, kde-format
 #| msgid "Compile"
 msgid "&Compile"
 msgstr "कंपाइल करू"
 
 #. i18n: ectx: Menu (menu_convert)
-#: kileui.rc:151
+#: kileui.rc:158
 #, fuzzy, kde-format
 #| msgid "Convert"
 msgid "C&onvert"
 msgstr "बदलू"
 
 #. i18n: ectx: Menu (menu_other)
-#: kileui.rc:155
+#: kileui.rc:162
 #, fuzzy, kde-format
 #| msgid "Other"
 msgid "O&ther"
 msgstr "आन"
 
 #. i18n: ectx: Menu (menu_project)
-#: kileui.rc:173
+#: kileui.rc:180
 #, fuzzy, kde-format
 #| msgid "Project"
 msgid "Pro&ject"
 msgstr "प्रोजेक्ट"
 
 #. i18n: ectx: Menu (menu_latex)
-#: kileui.rc:195
+#: kileui.rc:202
 #, fuzzy, kde-format
 #| msgid "LaTeX"
 msgid "LaTe&X"
 msgstr "LaTeX"
 
 #. i18n: ectx: Menu (menu_preamble)
-#: kileui.rc:196
+#: kileui.rc:203
 #, kde-format
 msgid "&Preamble"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_lists)
-#: kileui.rc:210
+#: kileui.rc:217
 #, kde-format
 msgid "Tables and Lists"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_sectioning)
-#: kileui.rc:221
+#: kileui.rc:228
 #, fuzzy, kde-format
 #| msgid "Sectioning"
 msgid "&Sectioning"
 msgstr "खंडमे बांटनाइ"
 
 #. i18n: ectx: Menu (references)
-#: kileui.rc:232
+#: kileui.rc:239
 #, fuzzy, kde-format
 #| msgid "References"
 msgid "&References"
 msgstr "संदर्भ"
 
 #. i18n: ectx: Menu (menu_environment)
-#: kileui.rc:244
+#: kileui.rc:251
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Environment"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_listenv)
-#: kileui.rc:255
+#: kileui.rc:262
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&List Environment"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_tabularenv)
-#: kileui.rc:262
+#: kileui.rc:269
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Tabular Environment"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_floatenv)
-#: kileui.rc:273
+#: kileui.rc:280
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Floating Environment"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_code)
-#: kileui.rc:277
+#: kileui.rc:284
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Code Environment"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_math)
-#: kileui.rc:285
+#: kileui.rc:292
 #, fuzzy, kde-format
 #| msgid "Commands"
 msgid "&Math Commands"
 msgstr "कमांड"
 
 #. i18n: ectx: Menu (menu_mathbraces)
-#: kileui.rc:295
+#: kileui.rc:302
 #, kde-format
 msgid "Braces"
 msgstr "कोष्ठक"
 
 #. i18n: ectx: Menu (menu_mathtext)
-#: kileui.rc:313
+#: kileui.rc:320
 #, kde-format
 msgid "AMS Text and Boxes"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_mathfrac)
-#: kileui.rc:319
+#: kileui.rc:326
 #, fuzzy, kde-format
 #| msgid "Next section"
 msgid "AMS Fraction"
 msgstr "अगिला विभाग"
 
 #. i18n: ectx: Menu (menu_mathbinom)
-#: kileui.rc:324
+#: kileui.rc:331
 #, kde-format
 msgid "AMS Binomial Expression"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_mathcommands)
-#: kileui.rc:329
+#: kileui.rc:336
 #, fuzzy, kde-format
 #| msgid "Arrows"
 msgid "AMS Arrows"
 msgstr "तीर"
 
 #. i18n: ectx: Menu (menu_mathfontstyles)
-#: kileui.rc:334
+#: kileui.rc:341
 #, kde-format
 msgid "Math &Font Styles"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_mathaccents)
-#: kileui.rc:344
+#: kileui.rc:351
 #, kde-format
 msgid "Math &Accents"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_mathspaces)
-#: kileui.rc:356
+#: kileui.rc:363
 #, kde-format
 msgid "Math &Spaces"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_mathenv)
-#: kileui.rc:367
+#: kileui.rc:374
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "Standard Math &Environments"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_mathamsenv)
-#: kileui.rc:375
+#: kileui.rc:382
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&AMS Math Environments"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_amsenv_align)
-#: kileui.rc:376
+#: kileui.rc:383
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Align Environments"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_amsenv_center)
-#: kileui.rc:389
+#: kileui.rc:396
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Center Environments"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_amsenv_multiline)
-#: kileui.rc:395
+#: kileui.rc:402
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "Multi &Line Environments"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_amsenv_matrix)
-#: kileui.rc:401
+#: kileui.rc:408
 #, fuzzy, kde-format
 #| msgid "Environment"
 msgid "&Matrix Environments"
 msgstr "वातावरण"
 
 #. i18n: ectx: Menu (menu_fontstyles)
-#: kileui.rc:417
+#: kileui.rc:424
 #, kde-format
 msgid "&Font Styles"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_fontfamily)
-#: kileui.rc:427
+#: kileui.rc:434
 #, kde-format
 msgid "Font Family"
 msgstr "फाँट परिवार"
 
 #. i18n: ectx: Menu (menu_fontseries)
-#: kileui.rc:432
+#: kileui.rc:439
 #, kde-format
 msgid "Font Series"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_fontshape)
-#: kileui.rc:436
+#: kileui.rc:443
 #, kde-format
 msgid "Font Shape"
 msgstr ""
 
 #. i18n: ectx: Menu (menu_spacing)
-#: kileui.rc:443
+#: kileui.rc:450
 #, fuzzy, kde-format
 #| msgid "&Spacing:"
 msgid "Spa&cing"
 msgstr "जगह: (&S)"
 
 #. i18n: ectx: Menu (menu_breaks)
-#: kileui.rc:444
+#: kileui.rc:451
 #, fuzzy, kde-format
 #| msgid "Page Break"
 msgid "Page- and Linebreaks"
 msgstr "पृष्ठ खण्डन"
 
 #. i18n: ectx: Menu (menu_skips)
-#: kileui.rc:451
+#: kileui.rc:458
 #, kde-format
 msgid "Space"
 msgstr "अंतरिक्ष"
 
 #. i18n: ectx: Menu (menu_rubberlength)
-#: kileui.rc:462
+#: kileui.rc:469
 #, kde-format
 msgid "Rubber Lengths"
 msgstr ""
 
 #. i18n: ectx: Menu (wizard)
-#: kileui.rc:480
+#: kileui.rc:487
 #, kde-format
 msgid "&Wizard"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
-#: kileui.rc:507
+#: kileui.rc:516
 #, kde-format
 msgid "&Help"
 msgstr "मद्दति (&H)"
 
 #. i18n: ectx: Menu (help_tex)
-#: kileui.rc:510
+#: kileui.rc:519
 #, fuzzy, kde-format
 #| msgid "Documentation"
 msgid "LaTeX Documentation"
 msgstr "दस्ताबेजीकरण"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kileui.rc:525
+#: kileui.rc:534
 #, kde-format
 msgid "Main"
 msgstr "मुख्य"
 
 #. i18n: ectx: ToolBar (editToolBar)
-#: kileui.rc:541
+#: kileui.rc:550
 #, kde-format
 msgid "Edit"
 msgstr "संपादन"
