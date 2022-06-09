@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-07 00:53+0000\n"
+"POT-Creation-Date: 2022-06-09 00:53+0000\n"
 "PO-Revision-Date: 2010-09-24 13:02+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -314,6 +314,7 @@ msgstr "निर्देशिका"
 
 #: smb4k/smb4kconfigpagemounting.cpp:85 smb4k/smb4kconfigpagemounting.cpp:490
 #: smb4k/smb4kconfigpagenetwork.cpp:112
+#: smb4k/smb4kconfigpagesynchronization.cpp:59
 #, kde-format
 msgid "Behavior"
 msgstr ""
@@ -325,7 +326,7 @@ msgstr ""
 
 #: smb4k/smb4kconfigpagemounting.cpp:133 smb4k/smb4kconfigpagemounting.cpp:534
 #: smb4k/smb4kconfigpagenetwork.cpp:133
-#: smb4k/smb4kconfigpagesynchronization.cpp:102
+#: smb4k/smb4kconfigpagesynchronization.cpp:131
 #, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "Basic Settings"
@@ -439,118 +440,105 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr "उन्नत विकल्प"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:44
-#, kde-format
-msgid "Behavior:"
-msgstr ""
+#: smb4k/smb4kconfigpagesynchronization.cpp:36
+#, fuzzy, kde-format
+#| msgid "Synchronize"
+msgid "Synchronization Directory"
+msgstr "तुल्यकालित करू"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:70
+#: smb4k/smb4kconfigpagesynchronization.cpp:90
 #, fuzzy, kde-format
 #| msgid "Back"
-msgid "Backups:"
+msgid "Backups"
 msgstr "पाछाँ"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:114
-#: smb4k/smb4kconfigpagesynchronization.cpp:407
-#, fuzzy, kde-format
-#| msgid "General"
-msgid "General:"
+#: smb4k/smb4kconfigpagesynchronization.cpp:140
+#, kde-format
+msgid "General"
 msgstr "सामान्य"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:145
+#: smb4k/smb4kconfigpagesynchronization.cpp:176
 #, fuzzy, kde-format
 #| msgid "Links"
-msgid "Links:"
+msgid "Links"
 msgstr "लिंक"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:182
+#: smb4k/smb4kconfigpagesynchronization.cpp:223
+#, kde-format
+msgid "File Attributes && Ownership"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:259
 #, kde-format
 msgid "File Handling"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:194
+#: smb4k/smb4kconfigpagesynchronization.cpp:268
 #, kde-format
-msgid "File Attributes:"
+msgid "Compression"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:214
+#: smb4k/smb4kconfigpagesynchronization.cpp:300
 #, fuzzy, kde-format
-#| msgid "Owner:"
-msgid "Ownership:"
-msgstr "मालिक:"
+#| msgid "File"
+msgid "Files"
+msgstr "फाइल"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:221
-#, kde-format
-msgid "File Attributes and Ownership"
-msgstr ""
-
-#: smb4k/smb4kconfigpagesynchronization.cpp:233
-#, kde-format
-msgid "Compression:"
-msgstr ""
-
-#: smb4k/smb4kconfigpagesynchronization.cpp:273
-#: smb4k/smb4kconfigpagesynchronization.cpp:288
+#: smb4k/smb4kconfigpagesynchronization.cpp:310
+#: smb4k/smb4kconfigpagesynchronization.cpp:321
 #, kde-format
 msgid " KiB"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:278
-#, fuzzy, kde-format
-#| msgid "File"
-msgid "Files:"
-msgstr "फाइल"
-
-#: smb4k/smb4kconfigpagesynchronization.cpp:324
+#: smb4k/smb4kconfigpagesynchronization.cpp:354
 #, kde-format
 msgid " KiB/s"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:329
-#: smb4k/smb4kconfigpagesynchronization.cpp:532
-#, fuzzy, kde-format
-#| msgid "General Settings"
-msgid "Miscellaneous:"
-msgstr "सामान्य जमावट"
-
-#: smb4k/smb4kconfigpagesynchronization.cpp:331
+#: smb4k/smb4kconfigpagesynchronization.cpp:361
 #, kde-format
 msgid "File Transfer"
 msgstr "फाइल हस्तांतरण"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:343
+#: smb4k/smb4kconfigpagesynchronization.cpp:370
 #, fuzzy, kde-format
 #| msgid "Directories"
-msgid "Files && Directories:"
+msgid "Files && Directories"
 msgstr "निर्देशिका"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:393
+#: smb4k/smb4kconfigpagesynchronization.cpp:416
 #, fuzzy, kde-format
 #| msgid "Destination:"
-msgid "Restrictions:"
+msgid "Restrictions"
 msgstr "गंतव्य:"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:395
+#: smb4k/smb4kconfigpagesynchronization.cpp:432
 #, kde-format
 msgid "File Deletion"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:473
+#: smb4k/smb4kconfigpagesynchronization.cpp:441
 #, kde-format
-msgid "Special filter rules:"
+msgid "General Filtering Settings"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:486
+#: smb4k/smb4kconfigpagesynchronization.cpp:496
+#, kde-format
+msgid "Filter Rules"
+msgstr ""
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:522
 #, kde-format
 msgid "Filtering"
 msgstr "फिल्टर कएल जाए रहल अछि"
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:507
+#: smb4k/smb4kconfigpagesynchronization.cpp:531
 #, kde-format
-msgid "Checksums:"
+msgid "Checksums"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesynchronization.cpp:539
+#: smb4k/smb4kconfigpagesynchronization.cpp:562
+#: smb4k/smb4kconfigpagesynchronization.cpp:578
 #, fuzzy, kde-format
 #| msgid "General Settings"
 msgid "Miscellaneous"
@@ -983,6 +971,21 @@ msgid "Size:"
 msgstr ""
 
 #, fuzzy
+#~| msgid "General"
+#~ msgid "General:"
+#~ msgstr "सामान्य"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgid "Ownership:"
+#~ msgstr "मालिक:"
+
+#, fuzzy
+#~| msgid "General Settings"
+#~ msgid "Miscellaneous:"
+#~ msgstr "सामान्य जमावट"
+
+#, fuzzy
 #~| msgid "Notifications"
 #~ msgid "Identification"
 #~ msgstr "सूचनासभ"
@@ -1016,9 +1019,6 @@ msgstr ""
 #~| msgid "&Settings"
 #~ msgid "Browse Settings:"
 #~ msgstr "जमावट (&S)"
-
-#~ msgid "General"
-#~ msgstr "सामान्य"
 
 #, fuzzy
 #~| msgid "&Settings"
@@ -1283,11 +1283,6 @@ msgstr ""
 #~| msgid "Authentication"
 #~ msgid "NTLMSSP protocol and packet signing"
 #~ msgstr "सत्यापन"
-
-#, fuzzy
-#~| msgid "Synchronize"
-#~ msgid "Synchronization prefix:"
-#~ msgstr "तुल्यकालित करू"
 
 #~ msgid "Add Bookmarks"
 #~ msgstr "पुस्तचिह्न जोडू"
