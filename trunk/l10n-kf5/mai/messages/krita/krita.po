@@ -49,7 +49,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-23 00:42+0000\n"
+"POT-Creation-Date: 2022-06-24 00:42+0000\n"
 "PO-Revision-Date: 2009-04-22 00:18+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -36627,6 +36627,7 @@ msgstr ""
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1222
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1252
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1282
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:226
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:29
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:11
 #, kde-format
@@ -36642,6 +36643,7 @@ msgstr "वर्ण"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1229
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1259
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1289
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:227
 #: plugins/filters/colorsfilters/virtual_channel_info.cpp:33
 #: plugins/paintops/hairy/wdghairyeoptions.ui:314
 #: plugins/paintops/hairy/wdgInkOptions.ui:75
@@ -36693,6 +36695,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, csl_hsyY)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1296
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:230
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:234
 #, kde-format
 msgid "Luma"
 msgstr ""
@@ -42567,7 +42571,33 @@ msgstr "विसंतृप्त"
 msgid "Desaturate"
 msgstr "विसंतृप्त"
 
-#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:252
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:228
+#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
+#, kde-format
+msgid "Value"
+msgstr "मान"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:229
+#, fuzzy, kde-format
+msgid "Lightness"
+msgstr "चमकीलापन"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:231
+#, fuzzy, kde-format
+msgid "Intensity"
+msgstr "विवरण:"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:232
+#, fuzzy, kde-format
+msgid "Yellow-Blue"
+msgstr "पिअर"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:233
+#, fuzzy, kde-format
+msgid "Green-Red"
+msgstr "हरिअर:"
+
+#: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:254
 #, fuzzy, kde-format
 msgid "&HSV Adjustment..."
 msgstr "विसंतृप्त"
@@ -54607,10 +54637,6 @@ msgstr "प्रारूप"
 msgid "Scope"
 msgstr ""
 
-#: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
-msgid "Value"
-msgstr "मान"
-
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stepaction.py:22
 #, fuzzy
 #| msgid "Overlay"
@@ -58922,14 +58948,6 @@ msgstr "वरीयतासभ"
 #, fuzzy
 #~ msgid "Vector Libraries"
 #~ msgstr "नइ परत"
-
-#, fuzzy
-#~ msgid "Green-Red:"
-#~ msgstr "हरिअर:"
-
-#, fuzzy
-#~ msgid "Yellow-Blue:"
-#~ msgstr "पिअर"
 
 #, fuzzy
 #~ msgid "Cursor Shape:"
