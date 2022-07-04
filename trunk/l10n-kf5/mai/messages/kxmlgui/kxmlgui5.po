@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-03 00:42+0000\n"
+"POT-Creation-Date: 2022-07-04 00:42+0000\n"
 "PO-Revision-Date: 2010-09-24 15:44+0530\n"
 "Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
 "Language-Team: Hindi <fedora-trans-hi@redhat.com>\n"
@@ -845,7 +845,7 @@ msgstr "मद्दति (&H)"
 msgid "About %1"
 msgstr "%1 केर संबंध में"
 
-#: kkeysequencewidget.cpp:144
+#: kkeysequencewidget.cpp:149
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -853,7 +853,7 @@ msgid ""
 "Example for Ctrl+A: hold the Ctrl key and press A."
 msgstr ""
 
-#: kkeysequencewidget.cpp:167
+#: kkeysequencewidget.cpp:172
 #, fuzzy, kde-format
 #| msgid "Shortcut conflict"
 msgctxt "%1 is the number of conflicts"
@@ -862,7 +862,7 @@ msgid_plural "Shortcut Conflicts"
 msgstr[0] "शार्टकट कॉन्फ्लिक्ट"
 msgstr[1] "शार्टकट कॉन्फ्लिक्ट"
 
-#: kkeysequencewidget.cpp:171
+#: kkeysequencewidget.cpp:176
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not find 'kdemain' in '%1'.\n"
@@ -872,7 +872,7 @@ msgstr ""
 " 'केडीइ-मेन'  '%1' पर नहि भेटल.\n"
 "%2"
 
-#: kkeysequencewidget.cpp:176
+#: kkeysequencewidget.cpp:181
 #, kde-format
 msgctxt "%1 is the number of ambiguous shortcut clashes (hidden)"
 msgid ""
@@ -886,22 +886,22 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kkeysequencewidget.cpp:186 kkeysequencewidget.cpp:295
-#: kkeysequencewidget.cpp:357
+#: kkeysequencewidget.cpp:191 kkeysequencewidget.cpp:300
+#: kkeysequencewidget.cpp:362
 #, fuzzy, kde-format
 #| msgid "Reassign"
 msgctxt "@action:button"
 msgid "Reassign"
 msgstr "फिनु सँ आबंटित करू"
 
-#: kkeysequencewidget.cpp:191
+#: kkeysequencewidget.cpp:196
 #, fuzzy, kde-format
 #| msgid "Shortcut conflict"
 msgctxt "@title:window"
 msgid "Shortcut conflict"
 msgstr "शार्टकट कॉन्फ्लिक्ट"
 
-#: kkeysequencewidget.cpp:193
+#: kkeysequencewidget.cpp:198
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
@@ -910,12 +910,17 @@ msgstr ""
 "<qt>कुंजी कॉम्बीनेशन '%1' पहिने सँ काज <b>%2</b> द्वारा इस्तेमाल मे अछि.<br>कृप्या कोनो "
 "नवीन चुनू.</qt>"
 
-#: kkeysequencewidget.cpp:275
-#, kde-format
-msgid "Shortcut '%1' in Application %2 for action %3\n"
+#: kkeysequencewidget.cpp:280
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not find 'kdemain' in '%1'.\n"
+#| "%2"
+msgid "Shortcut '%1' in Application '%2' for action '%3'\n"
 msgstr ""
+" 'केडीइ-मेन'  '%1' पर नहि भेटल.\n"
+"%2"
 
-#: kkeysequencewidget.cpp:284
+#: kkeysequencewidget.cpp:289
 #, kde-format
 msgctxt ""
 "%1 is the number of conflicts (hidden), %2 is the key sequence of the "
@@ -926,7 +931,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kkeysequencewidget.cpp:291
+#: kkeysequencewidget.cpp:296
 #, fuzzy, kde-format
 #| msgid "Conflict with Global Shortcut"
 msgctxt "%1 is the number of shortcuts with which there is a conflict"
@@ -935,13 +940,13 @@ msgid_plural "Conflict with Registered Global Shortcuts"
 msgstr[0] "ग्लोबल शार्टकट केर परस्पर विरोध मे अछि"
 msgstr[1] "ग्लोबल शार्टकट केर परस्पर विरोध मे अछि"
 
-#: kkeysequencewidget.cpp:304
+#: kkeysequencewidget.cpp:309
 #, fuzzy, kde-format
 #| msgid "Shortcut"
 msgid "Reserved Shortcut"
 msgstr "शार्टकट"
 
-#: kkeysequencewidget.cpp:306
+#: kkeysequencewidget.cpp:311
 #, kde-format
 msgid ""
 "The F12 key is reserved on Windows, so cannot be used for a global "
@@ -949,14 +954,14 @@ msgid ""
 "Please choose another one."
 msgstr ""
 
-#: kkeysequencewidget.cpp:349
+#: kkeysequencewidget.cpp:354
 #, fuzzy, kde-format
 #| msgid "Conflict with Standard Application Shortcut"
 msgctxt "@title:window"
 msgid "Conflict with Standard Application Shortcut"
 msgstr "प्रामाणिक अनुप्रयोग शार्टकट केर परस्पर विरोध मे अछि"
 
-#: kkeysequencewidget.cpp:351
+#: kkeysequencewidget.cpp:356
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -967,13 +972,13 @@ msgstr ""
 "इस्तेमाल कएल जाइत अछि.\n"
 "की अहाँ एकरा वैश्विक शार्टकट केर रूपेँ  सम्बद्ध कएनाइ चाहैत छी?"
 
-#: kkeysequencewidget.cpp:395
+#: kkeysequencewidget.cpp:400
 #, kde-format
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "इनपुट"
 
-#: kkeysequencewidget.cpp:397 kshortcuteditwidget.cpp:51
+#: kkeysequencewidget.cpp:402 kshortcuteditwidget.cpp:51
 #, kde-format
 msgctxt "No shortcut defined"
 msgid "None"
@@ -1275,39 +1280,39 @@ msgid "Shortcuts for %1"
 msgstr "%1 क' लेल शॉर्टकट्स"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:573 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:577 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr "मुख्य:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:574 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:578 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr "वैकल्पिक:"
 
-#: kshortcutseditor.cpp:575
+#: kshortcutseditor.cpp:579
 #, kde-format
 msgid "Global:"
 msgstr "वैश्विक:"
 
-#: kshortcutseditor.cpp:576
+#: kshortcutseditor.cpp:580
 #, fuzzy, kde-format
 #| msgid "Global Alternate"
 msgid "Global alternate:"
 msgstr "वैश्विक विकल्प"
 
-#: kshortcutseditor.cpp:592
+#: kshortcutseditor.cpp:596
 #, kde-format
 msgid "Action Name"
 msgstr "काज नाम"
 
-#: kshortcutseditor.cpp:596
+#: kshortcutseditor.cpp:600
 #, kde-format
 msgid "Shortcuts"
 msgstr "शॉर्टकट्स"
 
-#: kshortcutseditor.cpp:600
+#: kshortcutseditor.cpp:604
 #, kde-format
 msgid "Description"
 msgstr "विवरण"
