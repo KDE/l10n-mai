@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-25 00:46+0000\n"
+"POT-Creation-Date: 2022-08-01 00:44+0000\n"
 "PO-Revision-Date: 2009-04-22 00:19+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -3367,7 +3367,7 @@ msgstr ""
 msgid "Invalid document. Sheet name is empty."
 msgstr ""
 
-#: core/Map.cpp:242 engine/MapBase.cpp:186
+#: core/Map.cpp:242 engine/MapBase.cpp:187
 #, fuzzy, kde-format
 #| msgid "Sheet"
 msgid "Sheet%1"
@@ -3533,15 +3533,15 @@ msgstr "उदाहरण"
 msgid "Related Functions"
 msgstr "फंक्शन"
 
-#: engine/Localization.cpp:237
-#, kde-format
-msgid "false"
-msgstr "गलत"
-
-#: engine/Localization.cpp:237
+#: engine/Localization.cpp:413
 #, kde-format
 msgid "true"
 msgstr "सही"
+
+#: engine/Localization.cpp:414
+#, kde-format
+msgid "false"
+msgstr "गलत"
 
 #: engine/SheetBase.cpp:343
 #, kde-format
@@ -17505,10 +17505,9 @@ msgstr ""
 msgid "All Borders"
 msgstr "किनार"
 
-#: ui/CellToolBase.cpp:319 ui/CellToolBase.cpp:546
-#: ui/dialogs/FormulaDialog.cpp:84 ui/dialogs/FormulaDialog.cpp:190
-#: ui/dialogs/FormulaDialog.cpp:722 ui/dialogs/ValidityDialog.cpp:64
-#: ui/FilterPopup.cpp:55
+#: ui/CellToolBase.cpp:319 ui/dialogs/FormulaDialog.cpp:84
+#: ui/dialogs/FormulaDialog.cpp:190 ui/dialogs/FormulaDialog.cpp:722
+#: ui/dialogs/ValidityDialog.cpp:64 ui/FilterPopup.cpp:55
 #, kde-format
 msgid "All"
 msgstr "सभ"
@@ -17994,7 +17993,7 @@ msgstr "सभटा हटाउ"
 msgid "Removes the cells from the spreadsheet"
 msgstr "नाम बदलू शीट"
 
-#: ui/CellToolBase.cpp:547
+#: ui/CellToolBase.cpp:546 ui/CellToolBase.cpp:547
 #, kde-format
 msgid "Clear All"
 msgstr "सभकेँ हटाबू"
@@ -18394,7 +18393,7 @@ msgstr "फाइल विकल्प"
 msgid "Insert a function"
 msgstr "फंक्शन"
 
-#: ui/CellToolBase.cpp:730 ui/CellToolBase.cpp:2931
+#: ui/CellToolBase.cpp:730 ui/CellToolBase.cpp:2930
 #, fuzzy, kde-format
 #| msgid "Series"
 msgid "Others..."
@@ -18671,21 +18670,21 @@ msgstr "कड़ी डालू"
 msgid "Edit Link"
 msgstr "कड़ी डालू"
 
-#: ui/CellToolBase.cpp:2573 ui/CellToolBase.cpp:2585 ui/CellToolBase.cpp:2607
-#: ui/CellToolBase.cpp:2894 ui/CellToolBase.cpp:2906
+#: ui/CellToolBase.cpp:2572 ui/CellToolBase.cpp:2584 ui/CellToolBase.cpp:2606
+#: ui/CellToolBase.cpp:2893 ui/CellToolBase.cpp:2905
 #, fuzzy, kde-format
 #| msgid "&Delete..."
 msgid "You must select multiple cells."
 msgstr "मेटाबू (&D)..."
 
-#: ui/CellToolBase.cpp:2812
+#: ui/CellToolBase.cpp:2811
 #, kde-format
 msgid ""
 "No database drivers available. To use this feature you need to install the "
 "necessary Qt database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:3395
+#: ui/CellToolBase.cpp:3394
 #, fuzzy
 #| msgid "Replace"
 msgctxt "(qtundo-format)"
@@ -19113,7 +19112,7 @@ msgctxt "(qtundo-format)"
 msgid "Remove Cells"
 msgstr "सभटा हटाउ"
 
-#: ui/commands/DeleteCommand.cpp:20
+#: ui/commands/DeleteCommand.cpp:22
 #, fuzzy
 #| msgid "Delete"
 msgctxt "(qtundo-format)"
@@ -19134,14 +19133,14 @@ msgctxt "(qtundo-format)"
 msgid "Decrease Indentation"
 msgstr "हाशिया घटाबू"
 
-#: ui/commands/LinkCommand.cpp:25
+#: ui/commands/LinkCommand.cpp:23
 #, fuzzy
 #| msgid "Remove Link"
 msgctxt "(qtundo-format)"
 msgid "Remove Link"
 msgstr "लिंक मेटाबू"
 
-#: ui/commands/LinkCommand.cpp:25
+#: ui/commands/LinkCommand.cpp:23
 #, fuzzy
 #| msgid "Insert Link"
 msgctxt "(qtundo-format)"
@@ -21050,29 +21049,6 @@ msgstr "जोडू कोष्ठ"
 msgid "Cell or Named Area:"
 msgstr "प्रतिस्थापन"
 
-#: ui/dialogs/LinkDialog.cpp:288
-#, fuzzy, kde-format
-#| msgid "Internet"
-msgid "Internet address is empty"
-msgstr "इंटरनेट"
-
-#: ui/dialogs/LinkDialog.cpp:290
-#, fuzzy, kde-format
-#| msgid "Email:"
-msgid "Mail address is empty"
-msgstr "इमेलः"
-
-#: ui/dialogs/LinkDialog.cpp:292
-#, fuzzy, kde-format
-#| msgid "Email:"
-msgid "File name is empty"
-msgstr "इमेलः"
-
-#: ui/dialogs/LinkDialog.cpp:294
-#, kde-format
-msgid "Destination cell is empty"
-msgstr ""
-
 #: ui/dialogs/ListDialog.cpp:47
 #, fuzzy, kde-format
 #| msgid "Custom Styles"
@@ -22400,6 +22376,21 @@ msgstr ""
 #| msgid "Insert Link"
 msgid "Open Link?"
 msgstr "कड़ी डालू"
+
+#, fuzzy
+#~| msgid "Internet"
+#~ msgid "Internet address is empty"
+#~ msgstr "इंटरनेट"
+
+#, fuzzy
+#~| msgid "Email:"
+#~ msgid "Mail address is empty"
+#~ msgstr "इमेलः"
+
+#, fuzzy
+#~| msgid "Email:"
+#~ msgid "File name is empty"
+#~ msgstr "इमेलः"
 
 #, fuzzy
 #~| msgid "Cut"
