@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calendarsupport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-08 00:46+0000\n"
+"POT-Creation-Date: 2022-08-10 00:46+0000\n"
 "PO-Revision-Date: 2010-09-24 16:26+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -1718,10 +1718,12 @@ msgid "%1 %2"
 msgstr ""
 
 #: printing/calprintdefaultplugins.cpp:1520
-#, kde-format
-msgctxt "@option sort by title"
-msgid "Title"
-msgstr "शीर्षक"
+#, fuzzy, kde-format
+#| msgctxt "@title:column, calendar event summary"
+#| msgid "Summary"
+msgctxt "@option sort by summary"
+msgid "Summary"
+msgstr "सारांश"
 
 #: printing/calprintdefaultplugins.cpp:1521
 #, kde-format
@@ -2769,6 +2771,10 @@ msgctxt "replace pattern for holidayname (countrycode)"
 msgid "^%1 \\(.*\\)"
 msgstr ""
 
+#~ msgctxt "@option sort by title"
+#~ msgid "Title"
+#~ msgstr "शीर्षक"
+
 #, fuzzy
 #~| msgctxt "@title:column calendar title"
 #~| msgid "Calendar"
@@ -2791,10 +2797,6 @@ msgstr ""
 #~ msgctxt "@label to-do summary"
 #~ msgid "Title"
 #~ msgstr "शीर्षक"
-
-#~ msgctxt "@title:column, calendar event summary"
-#~ msgid "Summary"
-#~ msgstr "सारांश"
 
 #~ msgctxt "@title:column, calendar event type"
 #~ msgid "Type"
