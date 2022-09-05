@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kipiplugin_advancedslideshow\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-04 00:43+0000\n"
+"POT-Creation-Date: 2022-09-05 00:41+0000\n"
 "PO-Revision-Date: 2009-04-21 23:36+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -6817,59 +6817,59 @@ msgctxt "@info"
 msgid "<para>This Batch Queue Manager tool can adjust time in images.</para>"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:113
+#: core/dplugins/bqm/metadata/translate/translate.cpp:118
 #, kde-format
 msgctxt "@label"
 msgid "Entries to Translate:"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:114
+#: core/dplugins/bqm/metadata/translate/translate.cpp:119
 #, fuzzy, kde-format
 #| msgid "Calendar"
 msgctxt "@title"
 msgid "Title"
 msgstr "कैलेंडर"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:115
+#: core/dplugins/bqm/metadata/translate/translate.cpp:120
 #, fuzzy, kde-format
 #| msgid "Caption"
 msgctxt "@title"
 msgid "Caption"
 msgstr "अनुशीर्षक"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:116
+#: core/dplugins/bqm/metadata/translate/translate.cpp:121
 #, fuzzy, kde-format
 #| msgid "Rotate"
 msgctxt "@title"
 msgid "Copyrights"
 msgstr "घुमाबू"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:117
+#: core/dplugins/bqm/metadata/translate/translate.cpp:122
 #, kde-format
 msgctxt "@title"
 msgid "Usage Terms"
 msgstr ""
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:119
+#: core/dplugins/bqm/metadata/translate/translate.cpp:124
 #, fuzzy, kde-format
 #| msgid "Remove item"
 msgctxt "@label"
 msgid "Translate to:"
 msgstr "मद हटाबू"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:418
+#: core/dplugins/bqm/metadata/translate/translate.cpp:168
 #, fuzzy, kde-format
-#| msgid "Settings"
-msgctxt "@info"
-msgid "Select language to translate with %1"
-msgstr "जमावट"
+#| msgid "Remove item"
+msgctxt "@action"
+msgid "Remove this entry"
+msgstr "मद हटाबू"
 
-#: core/dplugins/bqm/metadata/translate/translate.cpp:429
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:305
-#, kde-format
-msgctxt "@info"
-msgid "Translate to %1"
-msgstr ""
+#: core/dplugins/bqm/metadata/translate/translate.cpp:169
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@action"
+msgid "Clear List"
+msgstr "विकल्प"
 
 #: core/dplugins/bqm/metadata/translate/translateplugin.cpp:54
 #, fuzzy, kde-format
@@ -16076,7 +16076,7 @@ msgid "The list does not contain any Raw files to process."
 msgstr ""
 
 #: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:430
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:557
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:563
 #: core/utilities/advancedrename/advancedrenameprocessdialog.cpp:94
 #, kde-format
 msgid "&Abort"
@@ -16130,7 +16130,6 @@ msgid "Process failed"
 msgstr "कैलेंडर"
 
 #: core/dplugins/generic/tools/dngconverter/dngconverterdialog.cpp:515
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:340
 #, fuzzy, kde-format
 #| msgid "Calendar"
 msgid "Process Canceled"
@@ -18283,7 +18282,7 @@ msgstr "रँग"
 #: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:113
 #, kde-format
 msgctxt "@action:button"
-msgid "&start OCR"
+msgid "&Start OCR"
 msgstr ""
 
 #: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:136
@@ -18293,32 +18292,38 @@ msgctxt "@action: button"
 msgid "Save"
 msgstr "सहेजू (&S)"
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:445
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:454
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:340
+#, fuzzy, kde-format
+#| msgid "Calendar"
+msgid "Process canceled"
+msgstr "कैलेंडर"
+
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:451
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:460
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Text Converter"
 msgstr "रँग"
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:445
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:451
 #, kde-format
 msgid ""
 "The list does not contain any digital files to process. You need to select "
-"them"
+"them."
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:558
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:564
 #, fuzzy, kde-format
 #| msgid "Settings"
-msgid "Abort ocr Processing of Raw files."
+msgid "Abort OCR processing of Raw files."
 msgstr "जमावट"
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:562
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:568
 #, kde-format
 msgid "&Start OCR"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:563
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterdialog.cpp:569
 #, kde-format
 msgid "Start OCR using the current settings."
 msgstr ""
@@ -18339,18 +18344,17 @@ msgstr "पूर्वावलोकन..."
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This tool can convert documented images data to Text format.\n"
-"\n"
-"by using Tesseract, is a software OCR engine, originally developed at HP "
-"labs and now sponsored by Google.\n"
+"This tool can convert documented images data to Text format by using "
+"Tesseract, a software OCR engine, originally developed at HP labs and now "
+"sponsored by Google.\n"
 "\n"
 "It supports multiple languages and scripts (including right-to-left text) "
-"and page layout analyse\n"
+"and page layout analysis.\n"
 "\n"
 "See details on %1 for more information on Tesseract"
 msgstr ""
 
-#: core/dplugins/generic/tools/ocrtextconverter/textconverterplugin.cpp:98
+#: core/dplugins/generic/tools/ocrtextconverter/textconverterplugin.cpp:92
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@action"
@@ -18368,11 +18372,12 @@ msgstr "मद हटाबू"
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Specify language(s) used for OCR.In the mode default of Language settings, "
-"for digital text with multiple languages \n"
-"Tesseract can automatically recognize languages using Latin Alphabets such "
-"as English or French,...\n"
-"but not compatible languages using hieroglyphs such as Chinese, Japanese."
+"Specify language(s) used for OCR. In the default mode of Language settings "
+"for digital text with multiple languages, \n"
+"Tesseract can automatically recognize languages using Latin alphabets such "
+"as English or French, \n"
+"but is not compatible with languages using hieroglyphs such as Chinese, "
+"Japanese."
 msgstr ""
 
 #: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:106
@@ -18397,7 +18402,7 @@ msgstr ""
 #: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:138
 #, kde-format
 msgctxt "@info"
-msgid "Specify OCR Engine mode."
+msgid "Specify OCR engine mode."
 msgstr ""
 
 #: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:142
@@ -18429,7 +18434,7 @@ msgstr "पृष्ठ आकार:"
 #: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:153
 #, kde-format
 msgctxt "@info"
-msgid "Store Ocr result in separated text file"
+msgid "Store OCR result in separated text file"
 msgstr ""
 
 #: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:156
@@ -18441,7 +18446,7 @@ msgstr ""
 #: core/dplugins/generic/tools/ocrtextconverter/textconvertersettings.cpp:157
 #, kde-format
 msgctxt "@info"
-msgid "Store Ocr result in XMP metadata"
+msgid "Store OCR result in XMP metadata"
 msgstr ""
 
 #: core/dplugins/generic/tools/panorama/panoramaplugin.cpp:59
@@ -42625,44 +42630,31 @@ msgctxt "@info: language edit widget"
 msgid "Remove entry for this language"
 msgstr ""
 
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:51
-#, kde-format
-msgctxt "@info"
-msgid "Open localize setup"
-msgstr ""
-
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:57
+#: core/libs/widgets/metadata/utils/altlangstredit.cpp:45
 #, fuzzy, kde-format
 #| msgid "Settings"
 msgctxt "@info: language edit widget"
 msgid "Select item language here."
 msgstr "जमावट"
 
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:269
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:285
+#: core/libs/widgets/metadata/utils/altlangstredit.cpp:246
+#: core/libs/widgets/metadata/utils/altlangstredit.cpp:262
 #, kde-format
 msgctxt "@info"
 msgid "Switch to %1"
 msgstr ""
 
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:481
+#: core/libs/widgets/metadata/utils/altlangstredit.cpp:432
 #, kde-format
 msgctxt "@info"
 msgid "Failed to translate string with %1 Web-service"
 msgstr ""
 
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:483
+#: core/libs/widgets/metadata/utils/altlangstredit.cpp:434
 #, kde-format
 msgctxt "@info"
 msgid "Error message: %1"
 msgstr ""
-
-#: core/libs/widgets/metadata/utils/altlangstredit.cpp:492
-#, fuzzy, kde-format
-#| msgid "Settings"
-msgctxt "@info: language edit widget"
-msgid "Select language to translate with %1"
-msgstr "जमावट"
 
 #: core/libs/widgets/metadata/utils/altlangstredit_p.cpp:48
 #, kde-format
@@ -47371,6 +47363,25 @@ msgstr ""
 msgctxt "@title"
 msgid "Available Translator Languages (%1/%2)"
 msgstr ""
+
+#: core/libs/widgets/text/localizeselector.cpp:114
+#, kde-format
+msgctxt "@info"
+msgid "Open localize setup"
+msgstr ""
+
+#: core/libs/widgets/text/localizeselector.cpp:153
+#, kde-format
+msgctxt "@info"
+msgid "Translate to %1"
+msgstr ""
+
+#: core/libs/widgets/text/localizeselector.cpp:166
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgctxt "@info: language edit widget"
+msgid "Select language to translate with %1"
+msgstr "जमावट"
 
 #: core/libs/widgets/text/searchtextbar.cpp:95
 #, fuzzy, kde-format
@@ -61176,6 +61187,12 @@ msgstr ""
 msgctxt "@info"
 msgid "Do you want to reset all video settings to the default value?"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgctxt "@info"
+#~ msgid "Select language to translate with %1"
+#~ msgstr "जमावट"
 
 #, fuzzy
 #~| msgid "Colors"
