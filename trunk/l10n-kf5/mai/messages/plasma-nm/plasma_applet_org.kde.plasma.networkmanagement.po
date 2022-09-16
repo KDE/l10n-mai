@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libknetworkmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-17 00:47+0000\n"
+"POT-Creation-Date: 2022-09-16 00:46+0000\n"
 "PO-Revision-Date: 2010-09-08 12:33+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -98,15 +98,31 @@ msgstr ""
 msgid "Networks"
 msgstr "संजाल प्रकार"
 
-#: contents/ui/main.qml:44
-#, fuzzy, kde-format
-msgid "&Configure Network Connections…"
-msgstr "कनेक्शनसभ"
+#: contents/ui/main.qml:57 contents/ui/Toolbar.qml:67
+#, kde-format
+msgid "Enable Wi-Fi"
+msgstr ""
 
-#: contents/ui/main.qml:47
+#: contents/ui/main.qml:65
+#, kde-format
+msgid "Enable Mobile Network"
+msgstr ""
+
+#: contents/ui/main.qml:73
+#, fuzzy, kde-format
+#| msgid "Wireless"
+msgid "Enable Airplane Mode"
+msgstr "बेतार"
+
+#: contents/ui/main.qml:78
 #, kde-format
 msgid "Open Network Login Page…"
 msgstr ""
+
+#: contents/ui/main.qml:83
+#, fuzzy, kde-format
+msgid "&Configure Network Connections…"
+msgstr "कनेक्शनसभ"
 
 #: contents/ui/PasswordField.qml:16
 #, fuzzy, kde-format
@@ -114,124 +130,119 @@ msgstr ""
 msgid "Password…"
 msgstr "कूटशब्द: "
 
-#: contents/ui/PopupDialog.qml:105
+#: contents/ui/PopupDialog.qml:101
 #, fuzzy, kde-format
 msgid "Airplane mode is enabled"
 msgstr "बेतार"
 
-#: contents/ui/PopupDialog.qml:109
+#: contents/ui/PopupDialog.qml:105
 #, kde-format
 msgid "Wireless and mobile networks are deactivated"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:111
+#: contents/ui/PopupDialog.qml:107
 #, fuzzy, kde-format
 msgid "Wireless is deactivated"
 msgstr "बेतार"
 
-#: contents/ui/PopupDialog.qml:114
+#: contents/ui/PopupDialog.qml:110
 #, kde-format
 msgid "Mobile network is deactivated"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:117
+#: contents/ui/PopupDialog.qml:113
 #, kde-format
 msgid "No matches"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:119
+#: contents/ui/PopupDialog.qml:115
 #, fuzzy, kde-format
 msgid "No available connections"
 msgstr "कनेक्शन"
 
-#: contents/ui/PopupDialog.qml:146
+#: contents/ui/PopupDialog.qml:142
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is ADSL"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:148
+#: contents/ui/PopupDialog.qml:144
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Bluetooth"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:150
+#: contents/ui/PopupDialog.qml:146
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Bridge"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:152
+#: contents/ui/PopupDialog.qml:148
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is CDMA"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:154
+#: contents/ui/PopupDialog.qml:150
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is GSM"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:156
+#: contents/ui/PopupDialog.qml:152
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Infiniband"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:158
+#: contents/ui/PopupDialog.qml:154
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is OLPC Mesh"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:160
+#: contents/ui/PopupDialog.qml:156
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is PPOPE"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:162
+#: contents/ui/PopupDialog.qml:158
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is VLAN"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:164
+#: contents/ui/PopupDialog.qml:160
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is VPN"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:166
+#: contents/ui/PopupDialog.qml:162
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wimax"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:168
+#: contents/ui/PopupDialog.qml:164
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wired"
 msgstr "संबंधन बिफल भए गेल"
 
-#: contents/ui/PopupDialog.qml:170
+#: contents/ui/PopupDialog.qml:166
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Wireless"
 msgstr ""
 
-#: contents/ui/PopupDialog.qml:172
+#: contents/ui/PopupDialog.qml:168
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "The connection type is Unknown"
 msgstr "संबंधन बिफल भए गेल"
-
-#: contents/ui/Toolbar.qml:67
-#, kde-format
-msgid "Enable Wi-Fi"
-msgstr ""
 
 #: contents/ui/Toolbar.qml:86
 #, kde-format
@@ -296,11 +307,6 @@ msgstr ""
 #~ msgctxt "button tooltip"
 #~ msgid "Search the connections"
 #~ msgstr "कनेक्शन"
-
-#, fuzzy
-#~| msgid "Wireless"
-#~ msgid "Enable wireless"
-#~ msgstr "बेतार"
 
 #, fuzzy
 #~ msgid "Available connections"
