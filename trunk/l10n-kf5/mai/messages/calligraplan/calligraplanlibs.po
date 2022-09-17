@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kplatoui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-15 00:45+0000\n"
+"POT-Creation-Date: 2022-09-17 00:46+0000\n"
 "PO-Revision-Date: 2009-04-22 00:17+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -218,7 +218,7 @@ msgstr "ms"
 msgid "Deleted"
 msgstr "मेटाबू"
 
-#: kernel/kptglobal.cpp:20 kernel/kptnode.cpp:668 kernel/kptschedule.cpp:1906
+#: kernel/kptglobal.cpp:20 kernel/kptnode.cpp:668 kernel/kptschedule.cpp:1927
 #: models/kptschedulemodel.cpp:840
 #, fuzzy, kde-format
 #| msgid "Schedule:"
@@ -617,7 +617,7 @@ msgstr "नियत:"
 msgid "Finished scheduling backward: %1 ms"
 msgstr "समाप्त"
 
-#: kernel/kptproject.cpp:3383
+#: kernel/kptproject.cpp:3392
 #, kde-format
 msgid "Plan"
 msgstr "योजना"
@@ -664,28 +664,28 @@ msgstr ""
 msgid "Resource %1 available from %2 to %3"
 msgstr "संसाधन"
 
-#: kernel/kptschedule.cpp:143
+#: kernel/kptschedule.cpp:164
 #, fuzzy, kde-format
 #| msgid "Execute"
 msgid "Expected"
 msgstr "चलाउ"
 
-#: kernel/kptschedule.cpp:1572
+#: kernel/kptschedule.cpp:1593
 #, kde-format
 msgid "Debug"
 msgstr ""
 
-#: kernel/kptschedule.cpp:1573
+#: kernel/kptschedule.cpp:1594
 #, kde-format
 msgid "Info"
 msgstr "सूचना"
 
-#: kernel/kptschedule.cpp:1574 main/KoMainWindow.cpp:1834
+#: kernel/kptschedule.cpp:1595 main/KoMainWindow.cpp:1834
 #, kde-format
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: kernel/kptschedule.cpp:1575 kernel/kptschedule.cpp:1910
+#: kernel/kptschedule.cpp:1596 kernel/kptschedule.cpp:1931
 #: models/kptnodeitemmodel.cpp:1699 models/kptnodeitemmodel.cpp:1732
 #: models/kptnodeitemmodel.cpp:1765 models/kptnodeitemmodel.cpp:1798
 #: models/kptnodeitemmodel.cpp:1831 models/kptnodeitemmodel.cpp:1864
@@ -694,12 +694,12 @@ msgstr "चेतावनी"
 msgid "Error"
 msgstr "त्रुटि"
 
-#: kernel/kptschedule.cpp:1900
+#: kernel/kptschedule.cpp:1921
 #, kde-format
 msgid "Baselined"
 msgstr ""
 
-#: kernel/kptschedule.cpp:1903
+#: kernel/kptschedule.cpp:1924
 #, fuzzy, kde-format
 #| msgid "Schedule:"
 msgid "Scheduling"
@@ -2357,14 +2357,16 @@ msgstr "खाता मिटाबू"
 
 #: models/kptcalendarmodel.cpp:306 models/kptcalendarmodel.cpp:315
 #: models/ResourceGroupModel.cpp:92 models/ResourceGroupModel.cpp:101
-#: models/ResourceModel.cpp:106 models/ResourceModel.cpp:115
+#: models/ResourceModel.cpp:83 models/ResourceModel.cpp:106
+#: models/ResourceModel.cpp:115
 #, kde-format
 msgid "Local"
 msgstr ""
 
 #: models/kptcalendarmodel.cpp:306 models/kptcalendarmodel.cpp:315
 #: models/ResourceGroupModel.cpp:92 models/ResourceGroupModel.cpp:101
-#: models/ResourceModel.cpp:106 models/ResourceModel.cpp:115
+#: models/ResourceModel.cpp:83 models/ResourceModel.cpp:106
+#: models/ResourceModel.cpp:115
 #, kde-format
 msgid "Shared"
 msgstr ""
@@ -5890,19 +5892,22 @@ msgctxt "(qtundo-format)"
 msgid "Modify resource account"
 msgstr "संसाधन"
 
-#: models/ResourceModel.cpp:80 models/ResourceModel.cpp:111
+#: models/ResourceModel.cpp:79
 #, kde-kuit-format
 msgctxt "@info:tooltip"
-msgid ""
-"%1 is a <emphasis>Shared</emphasis> resource and can thus be shared with "
-"other projects"
+msgid "%1:<nl/>Type: %2<nl/>Allocation: %3<nl/>Origin: %4"
 msgstr ""
 
-#: models/ResourceModel.cpp:83
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "%1:<nl/>This resource will be automatically allocated to new tasks"
+#: models/ResourceModel.cpp:82
+#, kde-format
+msgid "Manual"
 msgstr ""
+
+#: models/ResourceModel.cpp:82
+#, fuzzy, kde-format
+#| msgid "Description"
+msgid "On task creation"
+msgstr "विवरण"
 
 #: models/ResourceModel.cpp:109
 #, kde-kuit-format
@@ -5910,6 +5915,14 @@ msgctxt "@info:tooltip"
 msgid ""
 "%1 is a <emphasis>Local</emphasis> resource and can only be used in this "
 "project"
+msgstr ""
+
+#: models/ResourceModel.cpp:111
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"%1 is a <emphasis>Shared</emphasis> resource and can thus be shared with "
+"other projects"
 msgstr ""
 
 #: models/ResourceModel.cpp:140
