@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-11-07 03:58+0000\n"
+"POT-Creation-Date: 2022-11-08 02:27+0000\n"
 "PO-Revision-Date: 2010-09-24 20:22+0530\n"
 "Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
 "Language-Team: Maithili <bhashaghar@googlegroups.com>\n"
@@ -691,7 +691,7 @@ msgstr "फाइल '%1' खोललक नहि जाए सकत: ई स
 msgid "Configure"
 msgstr "बिन्यस्त करू"
 
-#: lib/kateconfigdialog.cpp:62
+#: lib/kateconfigdialog.cpp:62 lib/kateoutputview.cpp:143
 #, kde-format
 msgid "Search..."
 msgstr ""
@@ -1701,42 +1701,35 @@ msgstr ""
 msgid "Diff Output"
 msgstr "डिफ आउटपुट"
 
-#: lib/kateoutputview.cpp:96
+#: lib/kateoutputview.cpp:158
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Copy to Clipboard"
+msgid "Copy all text to clipboard"
 msgstr ""
 
-#: lib/kateoutputview.cpp:247
-#, fuzzy, kde-format
-#| msgid "&Other..."
-msgid "Filter..."
-msgstr "दोसर (&O)..."
-
-#: lib/kateoutputview.cpp:260
+#: lib/kateoutputview.cpp:163
 #, kde-format
 msgid "Clear all messages"
 msgstr ""
 
-#: lib/kateoutputview.cpp:368
+#: lib/kateoutputview.cpp:347
 #, kde-format
 msgctxt "@info"
 msgid "Error"
 msgstr ""
 
-#: lib/kateoutputview.cpp:373
+#: lib/kateoutputview.cpp:351
 #, kde-format
 msgctxt "@info"
 msgid "Warning"
 msgstr ""
 
-#: lib/kateoutputview.cpp:378
+#: lib/kateoutputview.cpp:355
 #, kde-format
 msgctxt "@info"
 msgid "Info"
 msgstr ""
 
-#: lib/kateoutputview.cpp:384
+#: lib/kateoutputview.cpp:360
 #, kde-format
 msgctxt "@info"
 msgid "Log"
@@ -2588,6 +2581,11 @@ msgstr "सत्रसभ केँ प्रबंधित करू"
 #| msgid "Create a new document"
 msgid "Show for new window"
 msgstr "एकटा नवीन दस्ताबेज़ बनाबू "
+
+#, fuzzy
+#~| msgid "&Other..."
+#~ msgid "Filter..."
+#~ msgstr "दोसर (&O)..."
 
 #, fuzzy
 #~| msgid "Close the current document."
